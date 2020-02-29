@@ -12,6 +12,11 @@ All 2D images of all assets that we mine are located here. Assets are organized 
 
 All sound effects and music that are mined are found here. They are organized by category such as `Pokemon Moves`, `Music`, `Menu Sounds`, etc.
 
+### Texts
+Mined text assets which contain quests among other things will be found here. Inside there are two folders, one for `Latest APK` and one for `Latest Remote`. When Niantic pushes a text update, it's pushed to the Remote. Once a new APK is released, all remote pushes are merged into the APK and removed from the Remote; therefore, we maintain both.
+
+**Note:** Keep in mind it is expected that the Remote will have items removed from it after a new APK is released.
+
 ### News
 All datamined news images and texts from the In-Game News will be found here. There will be two folders; one for images and one for texts.
 
