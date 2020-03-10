@@ -9,612 +9,1040 @@ MonoBehaviour Base
 	string m_Name = "patch"
 	Entry Table
 		Array Array
-		int size = 151
+		int size = 258
 			[0]
 			Entry data
 				string Key = "apple_login_button"
 				string Translation = "Apple"
 			[1]
 			Entry data
+				string Key = "arphoto_warning_pokemon_too_close"
+				string Translation = "You’re too close to the Pokémon!  Stand further back to give it some space."
+			[2]
+			Entry data
+				string Key = "avatar_f_backpack_genesecteventitem_0_bundle_icon"
+				string Translation = "Genesect Bag"
+			[3]
+			Entry data
+				string Key = "avatar_f_hat_genesecteventitem_0_bundle_icon"
+				string Translation = "Genesect Cap"
+			[4]
+			Entry data
 				string Key = "avatar_f_hat_woobatearrings_0_bundle_icon"
 				string Translation = "Woobat Earrings"
-			[2]
+			[5]
 			Entry data
 				string Key = "avatar_f_pants_luvdiscpack_0_bundle_icon"
 				string Translation = "Ripped Luvdisc Jeans"
-			[3]
+			[6]
 			Entry data
 				string Key = "avatar_f_shirt_luvdiscpack_0_bundle_icon"
 				string Translation = "Luvdisc Top"
-			[4]
+			[7]
+			Entry data
+				string Key = "avatar_f_shirt_pkmnshirts_165_bundle_icon"
+				string Translation = "Pokémon Shirts Ledyba"
+			[8]
+			Entry data
+				string Key = "avatar_f_shirt_pkmnshirts_188_bundle_icon"
+				string Translation = "Pokémon Shirts Skiploom"
+			[9]
+			Entry data
+				string Key = "avatar_f_shirt_pkmnshirts_201_bundle_icon"
+				string Translation = "Pokémon Shirts Unown"
+			[10]
+			Entry data
+				string Key = "avatar_f_shirt_pkmnshirts_238_bundle_icon"
+				string Translation = "Pokémon Shirts Smoochum"
+			[11]
+			Entry data
+				string Key = "avatar_f_shirt_safarizone2020_0_bundle_icon"
+				string Translation = "Safari Zone T-shirt 2020"
+			[12]
+			Entry data
+				string Key = "avatar_f_shirt_safarizone2020_bundle_icon"
+				string Translation = "Safari Zone T-shirt 2020"
+			[13]
 			Entry data
 				string Key = "avatar_f_shoes_luvdiscpack_0_bundle_icon"
 				string Translation = "Luvdisc Shoes"
-			[5]
+			[14]
+			Entry data
+				string Key = "avatar_m_backpack_genesecteventitem_0_bundle_icon"
+				string Translation = "Genesect Bag"
+			[15]
+			Entry data
+				string Key = "avatar_m_hat_genesecteventitem_0_bundle_icon"
+				string Translation = "Genesect Cap"
+			[16]
 			Entry data
 				string Key = "avatar_m_hat_woobatearrings_0_bundle_icon"
 				string Translation = "Woobat Earrings"
-			[6]
+			[17]
 			Entry data
 				string Key = "avatar_m_pants_luvdiscpack_0_bundle_icon"
 				string Translation = "Ripped Luvdisc Jeans"
-			[7]
+			[18]
 			Entry data
 				string Key = "avatar_m_shirt_luvdiscpack_0_bundle_icon"
 				string Translation = "Luvdisc Top"
-			[8]
+			[19]
+			Entry data
+				string Key = "avatar_m_shirt_pkmnshirts_165_bundle_icon"
+				string Translation = "Pokémon Shirts Ledyba"
+			[20]
+			Entry data
+				string Key = "avatar_m_shirt_pkmnshirts_188_bundle_icon"
+				string Translation = "Pokémon Shirts Skiploom"
+			[21]
+			Entry data
+				string Key = "avatar_m_shirt_pkmnshirts_201_bundle_icon"
+				string Translation = "Pokémon Shirts Unown"
+			[22]
+			Entry data
+				string Key = "avatar_m_shirt_pkmnshirts_238_bundle_icon"
+				string Translation = "Pokémon Shirts Smoochum"
+			[23]
+			Entry data
+				string Key = "avatar_m_shirt_safarizone2020_0_bundle_icon"
+				string Translation = "Safari Zone T-shirt 2020"
+			[24]
+			Entry data
+				string Key = "avatar_m_shirt_safarizone2020_bundle_icon"
+				string Translation = "Safari Zone T-shirt 2020"
+			[25]
 			Entry data
 				string Key = "avatar_m_shoes_luvdiscpack_0_bundle_icon"
 				string Translation = "Luvdisc Shoes"
-			[9]
+			[26]
 			Entry data
 				string Key = "badge_buddy_best"
 				string Translation = "Have {0} Best Buddies."
-			[10]
+			[27]
 			Entry data
 				string Key = "badge_buddy_best_singular"
 				string Translation = "Have 1 Best Buddy."
-			[11]
+			[28]
 			Entry data
 				string Key = "badge_buddy_best_title"
 				string Translation = "Best Buddy"
-			[12]
+			[29]
+			Entry data
+				string Key = "badge_city_explorer_pass_00"
+				string Translation = "Test, 2020"
+			[30]
+			Entry data
+				string Key = "badge_city_explorer_pass_00_title"
+				string Translation = "City Explorer Pass"
+			[31]
+			Entry data
+				string Key = "badge_city_explorer_pass_01"
+				string Translation = "St. Louis, 2020"
+			[32]
+			Entry data
+				string Key = "badge_city_explorer_pass_01_title"
+				string Translation = "City Explorer Pass"
+			[33]
 			Entry data
 				string Key = "badge_event_0001"
 				string Translation = "March 22, 2020"
-			[13]
+			[34]
 			Entry data
 				string Key = "badge_event_0001_title"
 				string Translation = "A Drive to Investigate"
-			[14]
+			[35]
 			Entry data
 				string Key = "badge_event_0002"
 				string Translation = "March 15, 2020"
-			[15]
+			[36]
 			Entry data
 				string Key = "badge_event_0002_title"
 				string Translation = "Investigating Illusions"
-			[16]
+			[37]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_00_earlyaccess"
 				string Translation = "Liverpool, April 16, 2020"
-			[17]
+			[38]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_00_earlyaccess_title"
 				string Translation = "Pokémon GO Safari Zone—Early Access"
-			[18]
+			[39]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_00_general"
 				string Translation = "Liverpool, April 16, 2020"
-			[19]
+			[40]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_00_general_title"
 				string Translation = "Pokémon GO Safari Zone"
-			[20]
+			[41]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_01_earlyaccess"
 				string Translation = "Liverpool, April 17, 2020"
-			[21]
+			[42]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_01_earlyaccess_title"
 				string Translation = "Pokémon GO Safari Zone—Early Access"
-			[22]
+			[43]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_01_general"
 				string Translation = "Liverpool, April 17, 2020"
-			[23]
+			[44]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_01_general_title"
 				string Translation = "Pokémon GO Safari Zone"
-			[24]
+			[45]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_02_earlyaccess"
 				string Translation = "Liverpool, April 18, 2020"
-			[25]
+			[46]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_02_earlyaccess_title"
 				string Translation = "Pokémon GO Safari Zone—Early Access"
-			[26]
+			[47]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_02_general"
 				string Translation = "Liverpool, April 18, 2020"
-			[27]
+			[48]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_02_general_title"
 				string Translation = "Pokémon GO Safari Zone"
-			[28]
+			[49]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_03_earlyaccess"
 				string Translation = "Liverpool, April 19, 2020"
-			[29]
+			[50]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_03_earlyaccess_title"
 				string Translation = "Pokémon GO Safari Zone—Early Access"
-			[30]
+			[51]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_03_general"
 				string Translation = "Liverpool, April 19, 2020"
-			[31]
+			[52]
 			Entry data
 				string Key = "badge_safarizone_2020_liverpool_day_03_general_title"
 				string Translation = "Pokémon GO Safari Zone"
-			[32]
+			[53]
 			Entry data
 				string Key = "buff_fully_stacked"
 				string Translation = "You can’t use another one of those right now. Try again later."
-			[33]
+			[54]
+			Entry data
+				string Key = "bulk_upgrade_button_cannot_be_used"
+				string Translation = "This button cannot be used right now."
+			[55]
+			Entry data
+				string Key = "bulk_upgrade_final_confirmation"
+				string Translation = "Do you really want to power up {0}?"
+			[56]
+			Entry data
+				string Key = "challenge_aprilmay2020_vote_gastly_community_day"
+				string Translation = "Vote for Gastly Community Day! Catch {0} Pokémon"
+			[57]
+			Entry data
+				string Key = "challenge_aprilmay2020_vote_sandshrew_community_day"
+				string Translation = "Vote for Sandshrew Community Day! Catch {0} Pokémon"
+			[58]
+			Entry data
+				string Key = "challenge_aprilmay2020_vote_squirtle_community_day"
+				string Translation = "Vote for Squirtle Community Day! Catch {0} Pokémon"
+			[59]
+			Entry data
+				string Key = "challenge_aprilmay2020_vote_weedle_community_day"
+				string Translation = "Vote for Weedle Community Day! Catch {0} Pokémon"
+			[60]
+			Entry data
+				string Key = "challenge_augustseptember2020_vote_bulbasaur_community_day"
+				string Translation = "Vote for Bulbasaur Community Day! Catch {0} Pokémon"
+			[61]
+			Entry data
+				string Key = "challenge_augustseptember2020_vote_exeggute_community_day"
+				string Translation = "Vote for Exeggcute Community Day! Catch {0} Pokémon"
+			[62]
+			Entry data
+				string Key = "challenge_augustseptember2020_vote_magikarp_community_day"
+				string Translation = "Vote for Magikarp Community Day! Catch {0} Pokémon"
+			[63]
+			Entry data
+				string Key = "challenge_augustseptember2020_vote_starly_community_day"
+				string Translation = "Vote for Starly Community Day! Catch {0} Pokémon"
+			[64]
+			Entry data
+				string Key = "challenge_junejuly2020_vote_caterpie_community_day"
+				string Translation = "Vote for Caterpie Community Day! Catch {0} Pokémon"
+			[65]
+			Entry data
+				string Key = "challenge_junejuly2020_vote_charmander_community_day"
+				string Translation = "Vote for Charmander Community Day! Catch {0} Pokémon"
+			[66]
+			Entry data
+				string Key = "challenge_junejuly2020_vote_grimer_community_day"
+				string Translation = "Vote for Grimer Community Day! Catch {0} Pokémon"
+			[67]
+			Entry data
+				string Key = "challenge_junejuly2020_vote_porygon_community_day"
+				string Translation = "Vote for Porygon Community Day! Catch {0} Pokémon"
+			[68]
 			Entry data
 				string Key = "daily_research_completed"
 				string Translation = "Come back tomorrow to earn more PokéCoins"
-			[34]
+			[69]
 			Entry data
 				string Key = "daily_research_title"
 				string Translation = "Daily Research"
-			[35]
+			[70]
 			Entry data
 				string Key = "explore_responsibly"
 				string Translation = "Explore Responsibly"
-			[36]
+			[71]
 			Entry data
 				string Key = "form_autumn"
 				string Translation = "Autumn Form"
-			[37]
+			[72]
 			Entry data
 				string Key = "form_spring"
 				string Translation = "Spring Form"
-			[38]
+			[73]
 			Entry data
 				string Key = "form_summer"
 				string Translation = "Summer Form"
-			[39]
+			[74]
 			Entry data
 				string Key = "form_winter"
 				string Translation = "Winter Form"
-			[40]
+			[75]
 			Entry data
 				string Key = "friendship_detail_unlock_reqs_plural"
 				string Translation = "Play together for {0} more days to become {1}!"
-			[41]
+			[76]
 			Entry data
 				string Key = "friendship_detail_unlock_reqs_singular"
 				string Translation = "Play together for {0} more day to become {1}!"
-			[42]
+			[77]
 			Entry data
 				string Key = "general1.ticket.1_description"
 				string Translation = "A ticket to access the A Drive to Investigate special event on March 22, 2020, from 10:00 a.m. to 8:00 p.m. local time, wherever you are. Details can be found in the in-game News.
 
 YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL SPECIAL EVENT BONUSES."
-			[43]
+			[78]
 			Entry data
 				string Key = "general1.ticket.1_title"
 				string Translation = "Ticket: A Drive to Investigate"
-			[44]
+			[79]
 			Entry data
 				string Key = "general1.ticket.2_description"
-				string Translation = "A ticket to access the “Investigating Illusions” bonus Special Research for Abra Community Day on March 15, 2020, from 11:00 a.m. to 6:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+				string Translation = "A ticket to access the Investigating Illusions bonus Special Research for Abra Community Day on March 15, 2020, from 11:00 a.m. to 6:00 p.m. local time, wherever you are. Details can be found in the in-game News.
 
 YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE THE BONUS."
-			[45]
+			[80]
 			Entry data
 				string Key = "general1.ticket.2_title"
 				string Translation = "Ticket: Investigating Illusions"
-			[46]
+			[81]
+			Entry data
+				string Key = "gt_2020_catch_easy"
+				string Translation = "A Drive to Investigate: Catch {0} Pokémon"
+			[82]
+			Entry data
+				string Key = "gt_2020_friend_trade_medium"
+				string Translation = "A Drive to Investigate: Trade a Pokémon with a friend"
+			[83]
+			Entry data
+				string Key = "gt_2020_land_great_inarow_easy"
+				string Translation = "A Drive to Investigate: Make {0} Great Throws in a row"
+			[84]
+			Entry data
+				string Key = "gt_2020_land_nice_easy"
+				string Translation = "A Drive to Investigate: Make {0} Nice Throws"
+			[85]
+			Entry data
+				string Key = "gt_2020_spin_medium"
+				string Translation = "A Drive to Investigate: Spin {0} PokéStops"
+			[86]
 			Entry data
 				string Key = "item_global_event_ticket_desc"
 				string Translation = "A ticket to access special event bonuses on {0} from {1} to {2} local time, wherever you are."
-			[47]
+			[87]
 			Entry data
 				string Key = "login_provider_apple"
 				string Translation = "Apple"
-			[48]
+			[88]
 			Entry data
 				string Key = "monodepth_ar_plus_required_toast"
 				string Translation = "Turn on Niantic AR to use occlusion."
-			[49]
+			[89]
 			Entry data
 				string Key = "monodepth_ar_plus_toggle_warning"
 				string Translation = "If you turn off Niantic AR, occlusion will be disabled, too."
-			[50]
+			[90]
 			Entry data
 				string Key = "move_name_0334"
 				string Translation = "Rock Wrecker"
-			[51]
+			[91]
+			Entry data
+				string Key = "move_name_0335"
+				string Translation = "Aeroblast"
+			[92]
 			Entry data
 				string Key = "no_pokemon_in_gym_hint"
 				string Translation = "Earn PokéCoins by placing your Pokémon in Gyms!"
-			[52]
+			[93]
 			Entry data
 				string Key = "poi_removed_notification_owner"
 				string Translation = "Removed per the request of the property owner"
-			[53]
+			[94]
 			Entry data
 				string Key = "poi_removed_notification_request"
 				string Translation = "Removed upon request"
-			[54]
+			[95]
 			Entry data
 				string Key = "pokecoin_earned_today"
 				string Translation = "Earned Today"
-			[55]
+			[96]
 			Entry data
 				string Key = "pokemon_catch_daily_quest_title"
 				string Translation = "Daily Pokémon Catch"
-			[56]
+			[97]
+			Entry data
+				string Key = "pokemon_info_multi_transfer_event_pokemon_final_confirmation"
+				string Translation = "Your selection contains event Pokémon! Are you certain you want to transfer them?"
+			[98]
+			Entry data
+				string Key = "pokemon_info_multi_transfer_not_transferable_pokemon_error"
+				string Translation = "This Pokémon cannot be transferred."
+			[99]
 			Entry data
 				string Key = "pokestop_spin_daily_quest_title"
 				string Translation = "Daily PokéStop Spin"
-			[57]
+			[100]
 			Entry data
 				string Key = "quest_at_catch_a"
 				string Translation = "Catch {0} Abra"
-			[58]
+			[101]
 			Entry data
 				string Key = "quest_at_evolve_a"
 				string Translation = "Evolve {0} Abra"
-			[59]
+			[102]
 			Entry data
 				string Key = "quest_at_evolve_k"
 				string Translation = "Evolve {0} Kadabra"
-			[60]
+			[103]
 			Entry data
 				string Key = "quest_catch_plural_unique"
 				string Translation = "Catch {0} different species of Pokémon"
-			[61]
+			[104]
+			Entry data
+				string Key = "quest_catch_special40_plural"
+				string Translation = "Catch {0} Abra"
+			[105]
+			Entry data
+				string Key = "quest_complete_at"
+				string Translation = "Investigating Illusions"
+			[106]
 			Entry data
 				string Key = "quest_complete_rockethq5"
 				string Translation = "The Shadowy Threat Grows"
-			[62]
+			[107]
+			Entry data
+				string Key = "quest_complete_rockethq6"
+				string Translation = "Time to Train"
+			[108]
+			Entry data
+				string Key = "quest_special_dialogue_at_0_0"
+				string Translation = "Good to see you again, %PLAYERNAME%. Have you noticed an increased number of Abra in the area?"
+			[109]
+			Entry data
+				string Key = "quest_special_dialogue_at_0_1"
+				string Translation = "Yes, so did I. I originally thought this strange phenomenon was happening due to Abra’s ability to teleport."
+			[110]
+			Entry data
+				string Key = "quest_special_dialogue_at_0_2"
+				string Translation = "When Abra decides to teleport randomly, it creates the illusion that it’s made copies of itself."
+			[111]
+			Entry data
+				string Key = "quest_special_dialogue_at_0_3"
+				string Translation = "However, what’s happening right now really does seem to be a large number of Abra appearing in the wild! Let’s research more about Abra and see what we can discover about the Psi Pokémon!"
+			[112]
+			Entry data
+				string Key = "quest_special_dialogue_at_1_0"
+				string Translation = "Fantastic work, %PLAYERNAME%! Are you having difficulty catching Abra you encounter?"
+			[113]
+			Entry data
+				string Key = "quest_special_dialogue_at_1_1"
+				string Translation = "It’s said that you must clear your mind if you want to catch an Abra."
+			[114]
+			Entry data
+				string Key = "quest_special_dialogue_at_1_2"
+				string Translation = "Or maybe you could ask your buddy for some catching assistance!"
+			[115]
+			Entry data
+				string Key = "quest_special_dialogue_at_1_3"
+				string Translation = "I’ve got a few more things about Abra that I could use your help researching. How about you give me a hand, and I’ll see if I can find a nice treat for your buddy?"
+			[116]
+			Entry data
+				string Key = "quest_special_dialogue_at_2_0"
+				string Translation = "I’m sure your buddy appreciates that delicious Poffin! I’m more of a Pinap Berry man myself."
+			[117]
+			Entry data
+				string Key = "quest_special_dialogue_at_2_1"
+				string Translation = "While researching Abra, I read that it can sense danger and maintains a telepathic radar even while it’s sleeping! What amazing abilities!"
+			[118]
+			Entry data
+				string Key = "quest_special_dialogue_at_2_2"
+				string Translation = "Why don’t you keep researching? As a token of my thanks, I’ll give you one of the Rocket Radars I’ve developed."
+			[119]
+			Entry data
+				string Key = "quest_special_dialogue_at_2_3"
+				string Translation = "While it won’t give you Abra’s ability to sense danger while sleeping, it will help you track down any trouble the Team GO Rocket Leaders are stirring up."
+			[120]
+			Entry data
+				string Key = "quest_special_dialogue_at_3_0"
+				string Translation = "Thank you again, %PLAYERNAME%, for all your help today. It was incredible researching Abra with you."
+			[121]
+			Entry data
+				string Key = "quest_special_dialogue_at_3_1"
+				string Translation = "We learned so much about this Psychic-type Pokémon. Rumor has it that some lucky Trainers even encountered Shiny Abra in the wild!"
+			[122]
+			Entry data
+				string Key = "quest_special_dialogue_at_3_2"
+				string Translation = "Pokémon are truly amazing creatures. There’s always something to discover."
+			[123]
+			Entry data
+				string Key = "quest_special_dialogue_at_3_3"
+				string Translation = "Until next time, %PLAYERNAME%!"
+			[124]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_0_0"
 				string Translation = "Hey there, %PLAYERNAME%. You’ve been instrumental in keeping back Team GO Rocket’s forces."
-			[63]
+			[125]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_0_1"
 				string Translation = "Thanks to your hard work, we’ve learned so much about this enemy."
-			[64]
+			[126]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_0_2"
 				string Translation = "Team GO Rocket won’t be going away anytime soon, so I’m glad I can rely on you and your fellow Trainers."
-			[65]
+			[127]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_0_3"
 				string Translation = "While you’ve done an amazing job so far, I’m looking for more opportunities for you to hone your skills. Every good Trainer needs to stay on their toes!"
-			[66]
+			[128]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_0_4"
 				string Translation = "The Super Rocket Radar is in good hands with you on the task, but I wouldn’t be a good Professor if I didn’t make sure you were keeping up with Giovanni."
-			[67]
+			[129]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_1_0"
 				string Translation = "As expected, %PLAYERNAME%. Fantastic work!"
-			[68]
+			[130]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_1_1"
 				string Translation = "Even though we’ve been fighting off the threat of Team GO Rocket for some time, I’m still concerned about the fact that Shadow Pokémon keep appearing."
-			[69]
+			[131]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_1_2"
 				string Translation = "It seems even more Pokémon are being turned into Shadow Pokémon despite our efforts. I’ve been tracking this situation, and the numbers have almost tripled since all this began."
-			[70]
+			[132]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_1_3"
 				string Translation = "We need to keep pushing forward—those Pokémon need our help! Can I rely on you to purify more Shadow Pokémon?"
-			[71]
+			[133]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_1_4"
 				string Translation = "I’m sure you’ll see them shine with gratitude once you do!"
-			[72]
+			[134]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_2_0"
 				string Translation = "Thank you for your efforts, %PLAYERNAME%."
-			[73]
+			[135]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_2_1"
 				string Translation = "I’m getting more and more concerned about the growing number of Shadow Pokémon, so we need to keep fighting back against this threat."
-			[74]
+			[136]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_2_2"
 				string Translation = "Your talent has made it clear that you’re ready for the next step in your preparations."
-			[75]
+			[137]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_2_3"
 				string Translation = "Use your battle skills to take on some Grunts. I think with some further observation, I can figure out what you need to do to make sure you’re at your best!"
-			[76]
+			[138]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_3_0"
 				string Translation = "All right! You should feel proud of your progress, %PLAYERNAME%. You consistently impress me and the team leaders."
-			[77]
+			[139]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_3_1"
 				string Translation = "Candela could learn a thing or two from your battle prowess. I’m sure the Team GO Rocket Leaders see you as a challenge."
-			[78]
+			[140]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_3_2"
 				string Translation = "Take that challenge to them, and drive them out of wherever they’re holed up!"
-			[79]
+			[141]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_4_0"
 				string Translation = "%PLAYERNAME%, your preparations are complete—you’re ready to take on Giovanni."
-			[80]
+			[142]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_4_1"
 				string Translation = "It’s time for you to use the Super Rocket Radar to track down the boss himself."
-			[81]
+			[143]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_4_2"
 				string Translation = "You’ve proven not only your strength in battle but also your compassion through saving and purifying Shadow Pokémon."
-			[82]
+			[144]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_4_3"
 				string Translation = "Confront Giovanni with that strength and compassion, and I believe he won’t be able to stop you!"
-			[83]
+			[145]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_4_4"
 				string Translation = "Good luck, %PLAYERNAME%!"
-			[84]
+			[146]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_5_0"
 				string Translation = "Well done, %PLAYERNAME%. You’ve shown Team GO Rocket just how strong your training has made you."
-			[85]
+			[147]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_5_1"
 				string Translation = "Although your battle with Giovanni wasn’t easy, the skills you’ve learned through practice and patience have paid off."
-			[86]
+			[148]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_5_2"
 				string Translation = "But keep your wits about you, %PLAYERNAME%."
-			[87]
+			[149]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_5_3"
 				string Translation = "Giovanni doesn’t like to lose, so I’m sure he’ll be back soon to further his plans."
-			[88]
+			[150]
 			Entry data
 				string Key = "quest_special_dialogue_rockethq5_5_4"
 				string Translation = "I know I can count on you when he returns, but until then, I’ll work on finding some training opportunities for you so you can keep developing your skills."
-			[89]
+			[151]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_0_0"
+				string Translation = "Great to see you again, %PLAYERNAME%. You’ve done such an amazing job with every challenge I’ve given you."
+			[152]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_0_1"
+				string Translation = "Congrats on coming so far as a Trainer! You constantly impress me with your skills."
+			[153]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_0_2"
+				string Translation = "But there are so many aspects to Pokémon training! I think it’s time to switch things up. I spoke with Spark, and he thought it would be good for you to focus some more on taking care of Pokémon Eggs."
+			[154]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_0_3"
+				string Translation = "Why not take a walk with your buddy Pokémon after placing some Eggs into Incubators?"
+			[155]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_0_4"
+				string Translation = "And be sure to rescue Shadow Pokémon from any Team GO Rocket members you encounter, too. Those Pokémon still need our help!"
+			[156]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_1_0"
+				string Translation = "Wonderful work, %PLAYERNAME%. While you were busy, I met up with Blanche to discuss our research on recent developments with Shadow Pokémon."
+			[157]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_1_1"
+				string Translation = "I had observed that Team GO Rocket somehow seemed to be making Shadow Pokémon deal more damage with their attacks, though they also seem to take more damage in return now. My observations line up with Blanche’s research."
+			[158]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_1_2"
+				string Translation = "Both of us are concerned that despite our best efforts to push Team GO Rocket back, they’re still gaining ground and putting more and more Pokémon in danger."
+			[159]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_1_3"
+				string Translation = "While Blanche and I continue to investigate, can we depend on you to take down some more Grunts to slow Team GO Rocket down?"
+			[160]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_1_4"
+				string Translation = "I’m also going to assign you some tasks to test you as a Trainer. Battling Grunts alone won’t keep your skills as sharp as they need to be to continue standing up to Team GO Rocket’s leaders."
+			[161]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_2_0"
+				string Translation = "Thanks for taking on those Grunts, %PLAYERNAME%."
+			[162]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_2_1"
+				string Translation = "I was working with Candela to figure out what challenges we could give you to help you prepare for battles with other Trainers and in the GO Battle League. Those skills carry over to doing battle with the Team GO Rocket Leaders, after all!"
+			[163]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_2_2"
+				string Translation = "Candela was very excited to find ways to keep you on your toes! "
+			[164]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_2_3"
+				string Translation = "Could you take on these challenges as part of your ongoing training?"
+			[165]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_3_0"
+				string Translation = "You’ve done the team leaders proud, %PLAYERNAME%!"
+			[166]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_3_1"
+				string Translation = "You took on those challenges like the skilled Trainer you are."
+			[167]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_3_2"
+				string Translation = "Great work. Now it’s time to continue the battle against Team GO Rocket."
+			[168]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_3_3"
+				string Translation = "Your efforts to rescue and purify Shadow Pokémon have certainly not gone unnoticed."
+			[169]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_3_4"
+				string Translation = "I’ll be sure to share any new findings about Team GO Rocket’s continued invasion as soon as they crop up, but right now, we should keep up the pressure on the Team GO Rocket Leaders. Good luck, %PLAYERNAME%."
+			[170]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_4_0"
+				string Translation = "Taking on the Team GO Rocket Leaders is no easy task. They have proven to be difficult opponents for even the most accomplished Trainers."
+			[171]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_4_1"
+				string Translation = "One interesting thing to note is that I’ve heard reports of Trainers rescuing Shiny Shadow Pokémon from the Team GO Rocket Leaders."
+			[172]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_4_2"
+				string Translation = "This only further supports my suspicions that Team GO Rocket is gathering large numbers of Pokémon if they’ve been able to find Shiny ones to turn into Shadow Pokémon."
+			[173]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_4_3"
+				string Translation = "There is definitely more that we need to learn about these foes and what their plans are."
+			[174]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_4_4"
+				string Translation = "For now, I need you to focus. It’s time to take on Giovanni himself. You got this, %PLAYERNAME%."
+			[175]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_5_0"
+				string Translation = "What an impressive victory, %PLAYERNAME%!"
+			[176]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_5_1"
+				string Translation = "Giovanni is one of the toughest opponents out there, but your continued efforts to improve let you rise to the challenge! After this, I’m going to talk with the team leaders to discuss how we can further support you."
+			[177]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_5_2"
+				string Translation = "You’ve been an amazing part of the team, and we wouldn’t be able to keep these villains at bay without your skills and dedication."
+			[178]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_5_3"
+				string Translation = "But we can’t drop our guard while Team GO Rocket’s around, so keep honing your battle techniques. I suggest challenging your fellow Trainers to battles and testing yourself in the GO Battle League."
+			[179]
+			Entry data
+				string Key = "quest_special_dialogue_rockethq6_5_4"
+				string Translation = "I’ll be in touch again soon, but until then, let’s GO!"
+			[180]
+			Entry data
+				string Key = "quest_time_remaining_day_plural"
+				string Translation = "{0} days left to complete this Special Research"
+			[181]
+			Entry data
+				string Key = "quest_time_remaining_day_singular"
+				string Translation = "{0} Day Remaining to Complete Research"
+			[182]
+			Entry data
+				string Key = "quest_title_at"
+				string Translation = "Investigating Illusions"
+			[183]
+			Entry data
+				string Key = "quest_title_at_0"
+				string Translation = "Investigating Illusions (1/4)"
+			[184]
+			Entry data
+				string Key = "quest_title_at_1"
+				string Translation = "Investigating Illusions (2/4)"
+			[185]
+			Entry data
+				string Key = "quest_title_at_2"
+				string Translation = "Investigating Illusions (3/4)"
+			[186]
+			Entry data
+				string Key = "quest_title_at_3"
+				string Translation = "Investigating Illusions (4/4)"
+			[187]
 			Entry data
 				string Key = "quest_title_rockethq5"
 				string Translation = "The Shadowy Threat Grows"
-			[90]
+			[188]
 			Entry data
 				string Key = "quest_title_rockethq5_0"
 				string Translation = "The Shadowy Threat Grows (1/6)"
-			[91]
+			[189]
 			Entry data
 				string Key = "quest_title_rockethq5_1"
 				string Translation = "The Shadowy Threat Grows (2/6)"
-			[92]
+			[190]
 			Entry data
 				string Key = "quest_title_rockethq5_2"
 				string Translation = "The Shadowy Threat Grows (3/6)"
-			[93]
+			[191]
 			Entry data
 				string Key = "quest_title_rockethq5_3"
 				string Translation = "The Shadowy Threat Grows (4/6)"
-			[94]
+			[192]
 			Entry data
 				string Key = "quest_title_rockethq5_4"
 				string Translation = "The Shadowy Threat Grows (5/6)"
-			[95]
+			[193]
 			Entry data
 				string Key = "quest_title_rockethq5_5"
 				string Translation = "The Shadowy Threat Grows (6/6)"
-			[96]
+			[194]
+			Entry data
+				string Key = "quest_title_rockethq6"
+				string Translation = "Time to Train"
+			[195]
+			Entry data
+				string Key = "quest_title_rockethq6_0"
+				string Translation = "Time to Train (1/6)"
+			[196]
+			Entry data
+				string Key = "quest_title_rockethq6_1"
+				string Translation = "Time to Train (2/6)"
+			[197]
+			Entry data
+				string Key = "quest_title_rockethq6_2"
+				string Translation = "Time to Train (3/6)"
+			[198]
+			Entry data
+				string Key = "quest_title_rockethq6_3"
+				string Translation = "Time to Train (4/6)"
+			[199]
+			Entry data
+				string Key = "quest_title_rockethq6_4"
+				string Translation = "Time to Train (5/6)"
+			[200]
+			Entry data
+				string Key = "quest_title_rockethq6_5"
+				string Translation = "Time to Train (6/6)"
+			[201]
 			Entry data
 				string Key = "quest_wayfarer_catch_pokemon_plural"
 				string Translation = "Wayfarer bonus: Catch {0} Pokémon"
-			[97]
+			[202]
+			Entry data
+				string Key = "quests_claim_time_limited_quest_encounter_first"
+				string Translation = "You must complete your research encounter first!"
+			[203]
 			Entry data
 				string Key = "returned_defender_sub_section_title"
 				string Translation = "Returned Today"
-			[98]
+			[204]
 			Entry data
 				string Key = "returning_sign_in_partial"
 				string Translation = "Sign in with {0}"
-			[99]
+			[205]
 			Entry data
 				string Key = "safari_2020_dialogue_0_1"
 				string Translation = "Thank you for coming. There are lots of interesting Pokémon appearing in the wild here."
-			[100]
+			[206]
 			Entry data
 				string Key = "safari_2020_dialogue_0_2"
 				string Translation = "Let’s discover and study them all together!"
-			[101]
+			[207]
 			Entry data
 				string Key = "safari_2020_dialogue_1_0"
 				string Translation = "Wow, %PLAYERNAME%! That was such an exciting journey."
-			[102]
+			[208]
 			Entry data
 				string Key = "safari_2020_dialogue_1_2"
 				string Translation = "Why not take the time to bond with the other Trainers here?"
-			[103]
+			[209]
 			Entry data
 				string Key = "safari_2020_dialogue_1_3"
 				string Translation = "Let’s GO make some memories!"
-			[104]
+			[210]
 			Entry data
 				string Key = "safari_2020_goyang_dialogue_0_0"
 				string Translation = "Welcome to Safari Zone Goyang 2020, %PLAYERNAME%!"
-			[105]
+			[211]
 			Entry data
 				string Key = "safari_2020_goyang_dialogue_1_1"
 				string Translation = "Thanks to you, we’ve learned a lot about the Pokémon at Safari Zone Goyang 2020!"
-			[106]
+			[212]
 			Entry data
 				string Key = "safari_2020_goyang_title"
 				string Translation = "Safari Zone Goyang 2020"
-			[107]
+			[213]
 			Entry data
 				string Key = "safari_2020_goyang_title_0"
 				string Translation = "Safari Zone Goyang 2020 (1/2)"
-			[108]
+			[214]
 			Entry data
 				string Key = "safari_2020_goyang_title_1"
 				string Translation = "Safari Zone Goyang 2020 (2/2)"
-			[109]
+			[215]
 			Entry data
 				string Key = "safari_2020_liverpool_dialogue_0_0"
 				string Translation = "Welcome to Safari Zone Liverpool 2020, %PLAYERNAME%!"
-			[110]
+			[216]
 			Entry data
 				string Key = "safari_2020_liverpool_dialogue_1_1"
 				string Translation = "Thanks to you, we’ve learned a lot about the Pokémon at Safari Zone Liverpool 2020!"
-			[111]
+			[217]
 			Entry data
 				string Key = "safari_2020_liverpool_title"
 				string Translation = "Safari Zone Liverpool 2020"
-			[112]
+			[218]
 			Entry data
 				string Key = "safari_2020_liverpool_title_0"
 				string Translation = "Safari Zone Liverpool 2020 (1/2)"
-			[113]
+			[219]
 			Entry data
 				string Key = "safari_2020_liverpool_title_1"
 				string Translation = "Safari Zone Liverpool 2020 (2/2)"
-			[114]
+			[220]
 			Entry data
 				string Key = "safari_2020_monterrey_dialogue_0_0"
 				string Translation = "Welcome to Safari Zone Monterrey 2020, %PLAYERNAME%!"
-			[115]
+			[221]
 			Entry data
 				string Key = "safari_2020_monterrey_dialogue_1_1"
 				string Translation = "Thanks to you, we’ve learned a lot about the Pokémon at Safari Zone Monterrey 2020!"
-			[116]
+			[222]
 			Entry data
 				string Key = "safari_2020_monterrey_title"
 				string Translation = "Safari Zone Monterrey 2020"
-			[117]
+			[223]
 			Entry data
 				string Key = "safari_2020_monterrey_title_0"
 				string Translation = "Safari Zone Monterrey 2020 (1/2)"
-			[118]
+			[224]
 			Entry data
 				string Key = "safari_2020_monterrey_title_1"
 				string Translation = "Safari Zone Monterrey 2020 (2/2)"
-			[119]
+			[225]
 			Entry data
 				string Key = "safari_2020_philadelphia_dialogue_0_0"
 				string Translation = "Welcome to Safari Zone Philadelphia 2020, %PLAYERNAME%!"
-			[120]
+			[226]
 			Entry data
 				string Key = "safari_2020_philadelphia_dialogue_1_1"
 				string Translation = "Thanks to you, we’ve learned a lot about the Pokémon at Safari Zone Philadelphia 2020!"
-			[121]
+			[227]
 			Entry data
 				string Key = "safari_2020_philadelphia_title"
 				string Translation = "Safari Zone Philadelphia 2020"
-			[122]
+			[228]
 			Entry data
 				string Key = "safari_2020_philadelphia_title_0"
 				string Translation = "Safari Zone Philadelphia 2020 (1/2)"
-			[123]
+			[229]
 			Entry data
 				string Key = "safari_2020_philadelphia_title_1"
 				string Translation = "Safari Zone Philadelphia 2020 (2/2)"
-			[124]
+			[230]
 			Entry data
 				string Key = "safari_2020_seville_dialogue_0_0"
 				string Translation = "Welcome to Safari Zone Seville 2020, %PLAYERNAME%!"
-			[125]
+			[231]
 			Entry data
 				string Key = "safari_2020_seville_dialogue_1_1"
 				string Translation = "Thanks to you, we’ve learned a lot about the Pokémon at Safari Zone Seville 2020!"
-			[126]
+			[232]
 			Entry data
 				string Key = "safari_2020_seville_title"
 				string Translation = "Safari Zone Seville 2020"
-			[127]
+			[233]
 			Entry data
 				string Key = "safari_2020_seville_title_0"
 				string Translation = "Safari Zone Seville 2020 (1/2)"
-			[128]
+			[234]
 			Entry data
 				string Key = "safari_2020_seville_title_1"
 				string Translation = "Safari Zone Seville 2020 (2/2)"
-			[129]
+			[235]
 			Entry data
 				string Key = "safari_2020_stlouis_dialogue_0_0"
 				string Translation = "Welcome to Safari Zone St. Louis 2020, %PLAYERNAME%!"
-			[130]
+			[236]
 			Entry data
 				string Key = "safari_2020_stlouis_dialogue_1_1"
 				string Translation = "Thanks to you, we’ve learned a lot about the Pokémon at Safari Zone St. Louis 2020!"
-			[131]
+			[237]
 			Entry data
 				string Key = "safari_2020_stlouis_title"
 				string Translation = "Safari Zone St. Louis 2020"
-			[132]
+			[238]
 			Entry data
 				string Key = "safari_2020_stlouis_title_0"
 				string Translation = "Safari Zone St. Louis 2020 (1/2)"
-			[133]
+			[239]
 			Entry data
 				string Key = "safari_2020_stlouis_title_1"
 				string Translation = "Safari Zone St. Louis 2020 (2/2)"
-			[134]
+			[240]
 			Entry data
 				string Key = "safari_buddy_snapshot"
 				string Translation = "Safari Zone: Take a snapshot of your buddy"
-			[135]
+			[241]
 			Entry data
 				string Key = "sign_in_partial"
 				string Translation = "Create account with {0}"
-			[136]
+			[242]
 			Entry data
 				string Key = "special_event_catch"
 				string Translation = "Special event: Catch {0} Pokémon"
-			[137]
+			[243]
 			Entry data
 				string Key = "special_event_gifts"
 				string Translation = "Special event: Send {0} Gifts to friends"
-			[138]
+			[244]
 			Entry data
 				string Key = "sponsorname_2144940858"
 				string Translation = "Starbucks"
-			[139]
+			[245]
 			Entry data
 				string Key = "sponsorname_348022195"
 				string Translation = "Vasa"
-			[140]
+			[246]
 			Entry data
 				string Key = "sponsorname_427646781"
 				string Translation = "7-Eleven"
-			[141]
+			[247]
 			Entry data
 				string Key = "time_left_plural_day_hour_plural"
 				string Translation = "Ends in {0} days and {1} hours"
-			[142]
+			[248]
 			Entry data
 				string Key = "time_left_plural_day_hour_singular"
 				string Translation = "Ends in {0} days and {1} hour"
-			[143]
+			[249]
 			Entry data
 				string Key = "time_left_singular_day_hour_plural"
 				string Translation = "Ends in {0} day and {1} hours"
-			[144]
+			[250]
 			Entry data
 				string Key = "time_left_singular_day_hour_singular"
 				string Translation = "Ends in {0} day and {1} hour"
-			[145]
+			[251]
 			Entry data
 				string Key = "today_view_gym_section_title"
 				string Translation = "Pokémon in Gyms"
-			[146]
+			[252]
 			Entry data
 				string Key = "today_view_pokecoins_section_title"
 				string Translation = "PokéCoins"
-			[147]
+			[253]
 			Entry data
 				string Key = "today_view_streaks_section_title"
 				string Translation = "Streaks"
-			[148]
+			[254]
 			Entry data
 				string Key = "today_view_tab_title"
 				string Translation = "Today"
-			[149]
+			[255]
 			Entry data
 				string Key = "today_view_up_next_section_title"
 				string Translation = "Upcoming"
-			[150]
+			[256]
+			Entry data
+				string Key = "v2_onboard_welcome_screen|3"
+				string Translation = "I’ve dedicated my life to studying the behaviors and migration patterns of hundreds of unique species of Pokémon. So, will you help me with my research?"
+			[257]
 			Entry data
 				string Key = "vss_season_end_notification"
 				string Translation = "GO Battle League season has ended. Collect your rewards!"
