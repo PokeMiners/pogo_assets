@@ -20,5 +20,8 @@ Mined text assets which contain quests among other things will be found here. In
 ### News
 All datamined news images and texts from the In-Game News will be found here. There will be two folders; one for images and one for texts.
 
+### Shop Images
+Any images that are displayed in the shop that we datamine.
+
 ## Disclaimer
 All content found within this repo is the property of The Pokemon Company and Niantic. PokeMiners did not create or modify any images or sounds found within this repo and all copyright belongs to the respective companies. Please respect the original source material.
