@@ -8,6 +8,10 @@ Repository of all mined assets including sprites, sounds, and news items. This r
 
 All 2D images of all assets that we mine are located here. Assets are organized based on category such as `Pokemon`, `Items`, `Backgrounds`, etc.
 
+### 3D Models
+
+All 3D models and their textures (if present) of all assets that we mine are located here. Assets are organized based on category such as `Pokemon`, `Items`, `Clothing`, etc.
+
 ### Sounds
 
 All sound effects and music that are mined are found here. They are organized by category such as `Pokemon Moves`, `Music`, `Menu Sounds`, etc.
@@ -18,10 +22,10 @@ Mined text assets which contain quests among other things will be found here. In
 **Note:** Keep in mind it is expected that the Remote will have items removed from it after a new APK is released.
 
 ### News
-All datamined news images and texts from the In-Game News will be found here. There will be two folders; one for images and one for texts.
+All datamined news images and texts from the In-Game News will be found here. There will be two folders: one for images and one for texts.
 
 ### Shop Images
 Any images that are displayed in the shop that we datamine.
 
 ## Disclaimer
-All content found within this repo is the property of The Pokemon Company and Niantic. PokeMiners did not create or modify any images or sounds found within this repo and all copyright belongs to the respective companies. Please respect the original source material.
+This repo is for educational use only. All content found within this repo is the property of The Pokemon Company and Niantic. PokeMiners did not create or modify any images or sounds found within this repo and all copyright belongs to the respective companies. Please respect the original source material.
