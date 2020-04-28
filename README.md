@@ -8,7 +8,7 @@ Repository of all mined assets including sprites, sounds, and news items. This r
 
 All 2D images of all assets that we mine are located here. Assets are organized based on category such as `Pokemon`, `Items`, `Backgrounds`, etc.
 
-### 3D Models
+### 3D Assets
 
 All 3D models and their textures (if present) of all assets that we mine are located here. Assets are organized based on category such as `Pokemon`, `Items`, `Clothing`, etc.
 
