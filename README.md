@@ -22,7 +22,7 @@ Mined text assets which contain quests among other things will be found here. In
 **Note:** Keep in mind it is expected that the Remote will have items removed from it after a new APK is released.
 
 ### News
-All datamined news images and texts from the In-Game News will be found here. There will be two folders: one for images and one for texts.
+All datamined news images and texts from the In-Game News will be found here. There will be two folders: one for images and one for texts. In Texts, the file called `CurrentNews.tsv` will contain the most recent news file and the `Old News Texts` will contain a history of older news texts. Keep in mind each tsv contains all current news in the game.
 
 ### Shop Images
 Any images that are displayed in the shop that we datamine.
