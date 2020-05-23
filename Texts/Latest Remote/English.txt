@@ -31,6 +31,33 @@ TEXT: City Explorer Pass
 RESOURCE ID: badge_event_0002
 TEXT: April 25, 2020
 
+RESOURCE ID: badge_pokedex_entries_gen6
+TEXT: Register {0} Pokémon first discovered in the Kalos region to the Pokédex.
+
+RESOURCE ID: badge_pokedex_entries_gen6_title
+TEXT: Kalos
+
+RESOURCE ID: badge_pokedex_entries_gen6_value_format
+TEXT: N0
+
+RESOURCE ID: badge_pokedex_entries_gen7
+TEXT: Register {0} Pokémon first discovered in the Alola region to the Pokédex.
+
+RESOURCE ID: badge_pokedex_entries_gen7_title
+TEXT: Alola
+
+RESOURCE ID: badge_pokedex_entries_gen7_value_format
+TEXT: N0
+
+RESOURCE ID: badge_pokedex_entries_gen8
+TEXT: Register {0} Pokémon first discovered in the Galar region to the Pokédex.
+
+RESOURCE ID: badge_pokedex_entries_gen8_title
+TEXT: Galar
+
+RESOURCE ID: badge_pokedex_entries_gen8_value_format
+TEXT: N0
+
 RESOURCE ID: badge_safarizone_2020_philadelphia_day_00_earlyaccess
 TEXT: Philadelphia, May 7, 2020
 
@@ -272,10 +299,10 @@ RESOURCE ID: dialog_basic_ok
 TEXT: OK
 
 RESOURCE ID: disable_sponsored_gift_description
-TEXT: During your visits to Gyms and PokéStops, you may receive Gifts from sponsors along with a sponsored message relevant to your location. Disable this option to not receive Gifts from sponsors.
+TEXT: During your visits to Gyms and PokéStops, you may receive Sponsored Gifts along with a sponsored message relevant to your location. Disable this option to not receive Sponsored Gifts when available.
 
 RESOURCE ID: disable_sponsored_gift_title
-TEXT: Disable Gifts from Sponsors
+TEXT: Disable Sponsored Gifts
 
 RESOURCE ID: eggs_10k_event
 TEXT: Event-themed 10 km Eggs
@@ -302,10 +329,10 @@ RESOURCE ID: elite_tm_fast_cd_box
 TEXT: Elite Fast TM available in the Community Day Box
 
 RESOURCE ID: enable_sponsored_gift_description
-TEXT: During your visits to Gyms and PokéStops, you may receive Gifts from sponsors along with a sponsored message relevant to your location. Enable this option to receive Gifts from sponsors when available.
+TEXT: During your visits to Gyms and PokéStops, you may receive Sponsored Gifts along with a sponsored message relevant to your location. Enable this option to receive Sponsored Gifts when available.
 
 RESOURCE ID: enable_sponsored_gift_title
-TEXT: Enable Gifts from Sponsors
+TEXT: Enable Sponsored Gifts
 
 RESOURCE ID: equinox_event_name
 TEXT: Equinox
@@ -380,7 +407,7 @@ RESOURCE ID: gbl_walking_distance_zero
 TEXT: No walking requirement for the GO Battle League
 
 RESOURCE ID: general1.ticket.2_description
-TEXT: A ticket to access the “Seeing Double” bonus Special Research for Seedot Community Day on May 24, 2020, from 11:00 a.m. to 6:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: A ticket to access the Seeing Double bonus Special Research for Seedot Community Day on May 24, 2020, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
 
  YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE THE BONUS.
 
@@ -394,7 +421,7 @@ RESOURCE ID: get_privacy_settings_error_message
 TEXT: Could not retrieve your privacy settings.
 
 RESOURCE ID: gift_from_sponsor
-TEXT: Open a Gift from a Sponsor!
+TEXT: Open a Sponsored Gift!
 
 RESOURCE ID: gift_open_double
 TEXT: Open 2× as many Gifts
@@ -562,7 +589,7 @@ RESOURCE ID: league_ruleset_info_subtitle
 TEXT: These Pokémon aren’t allowed in this cup.
 
 RESOURCE ID: league_ruleset_info_title
-TEXT: Premier Cup Rules
+TEXT: Cup Rules
 
 RESOURCE ID: league_ruleset_info_type_subtitle
 TEXT: This cup is limited to Pokémon of the following types: {0}. All Pokémon on the team must be at least one of these types.
@@ -600,10 +627,13 @@ TEXT: 2× Lure Module duration
 RESOURCE ID: lure_duration_three_hours
 TEXT: 3-hour Lure Module duration
 
+RESOURCE ID: master_no_legendary
+TEXT: Premier Cup
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2020-05-15T19:51:30.966165
-at SHA 0aa8ef7c06ef04c84346d916d857b816fc6fab80
-Patch from: 0.173.2-SHA-81c906f1, 0.175.0-SHA-6d841869, 0.175.1-SHA-5029fe47
+TEXT: Built at 2020-05-21T23:40:08.039487
+at SHA 7d0d9415c4fca76c5e84a65ec3cc10c247678439
+Patch from: 0.173.2-SHA-81c906f1, 0.175.0-SHA-6d841869, 0.175.1-SHA-5029fe47, 0.175.2-SHA-499e7ee7
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Turn on Niantic AR to use Reality Blending.
@@ -616,6 +646,9 @@ TEXT: Now you can enjoy a more immersive AR experience with your Pokémon!
 
 RESOURCE ID: monodepth_landscape_unavailable_toast
 TEXT: Landscape mode does not support Reality Blending.
+
+RESOURCE ID: move_name_0341
+TEXT: Fly
 
 RESOURCE ID: new_years_event_name
 TEXT: New Year’s
@@ -677,11 +710,53 @@ TEXT: {0} PokéStop scans remaining
 RESOURCE ID: poi_contrib_remaining_arvideo_one
 TEXT: 1 PokéStop scan remaining
 
+RESOURCE ID: pokemon_category_0862
+TEXT: Blocking Pokémon
+
+RESOURCE ID: pokemon_category_0863
+TEXT: Viking Pokémon
+
+RESOURCE ID: pokemon_category_0865
+TEXT: Wild Duck Pokémon
+
 RESOURCE ID: pokemon_day_event_name
 TEXT: Pokémon Day
 
+RESOURCE ID: pokemon_desc_0052_2335
+TEXT: Living with a savage, seafaring people has toughened this Pokémon's body so much that parts of it have turned to iron.
+
+RESOURCE ID: pokemon_desc_0083_2338
+TEXT: The Farfetch'd of the Galar region are brave warriors, and they wield thick, tough leeks in battle.
+
+RESOURCE ID: pokemon_desc_0554_2341
+TEXT: It lived in snowy areas for so long that its fire sac cooled off and atrophied. It now has an organ that generates cold instead.
+
+RESOURCE ID: pokemon_desc_0555_2342
+TEXT: On days when blizzards blow through, it comes down to where people live. It stashes food in the snowball on its head, taking it home for later.
+
+RESOURCE ID: pokemon_desc_0618_2345
+TEXT: Living in mud with a high iron content has given it a strong steel body.
+
+RESOURCE ID: pokemon_desc_0862
+TEXT: Its voice is staggering in volume. Obstagoon has a tendency to take on a threatening posture and shout—this move is known as Obstruct.
+
+RESOURCE ID: pokemon_desc_0863
+TEXT: What appears to be an iron helmet is actually hardened hair. This Pokémon lives for the thrill of battle.
+
+RESOURCE ID: pokemon_desc_0865
+TEXT: Only Farfetch'd that have survived many battles can attain this evolution. When this Pokémon's leek withers, it will retire from combat.
+
 RESOURCE ID: pokemon_info_powerup_confirmation_2
 TEXT: Powering up this Pokémon will exceed the maximum CP for the {0}.
+
+RESOURCE ID: pokemon_name_0862
+TEXT: Obstagoon
+
+RESOURCE ID: pokemon_name_0863
+TEXT: Perrserker
+
+RESOURCE ID: pokemon_name_0865
+TEXT: Sirfetch’d
 
 RESOURCE ID: pokestop_spin_xp_double
 TEXT: 2× XP for spinning PokéStops
@@ -1113,10 +1188,10 @@ TEXT: {0} invited you to join a Raid Battle!
 
 RESOURCE ID: remote_raid_invite_push_notif
 TEXT: Raid Invitation
-{0} invited you to join a Raid Battle!
+{0} invited you to join a Raid Battle!
 
 RESOURCE ID: remote_raid_invite_rate_limit_desc
-TEXT: You've reached the max number of invitations you can send for a while. Please try again later.
+TEXT: You’ve reached the maximum number of invitations you can send for a while. Please try again later.
 
 RESOURCE ID: remote_raid_invite_rate_limit_title
 TEXT: No More Invitations Can Be Sent
@@ -1224,7 +1299,7 @@ RESOURCE ID: settings_niantic_ar_update
 TEXT: Update Niantic AR
 
 RESOURCE ID: settings_wasabi_ads
-TEXT: Show Gifts from Sponsors
+TEXT: Show Sponsored Gifts
 
 RESOURCE ID: shadow_tm_frustration
 TEXT: Shadow Pokémon can forget the Charged Attack Frustration with a Charged TM
@@ -1279,16 +1354,16 @@ RESOURCE ID: sponsored_gift_tutorial_button
 TEXT: Go to Settings
 
 RESOURCE ID: sponsored_gift_tutorial_description_1
-TEXT: During your visits to Gyms and PokéStops, you may receive Gifts from sponsors along with a sponsored message relevant to your location.
+TEXT: During your visits to Gyms and PokéStops, you may receive Sponsored Gifts along with a sponsored message relevant to your location.
 
 RESOURCE ID: sponsored_gift_tutorial_description_2
 TEXT: As always, we do not share your personal information with sponsors. For more information on this feature, please check out Niantic Support. 
 
 RESOURCE ID: sponsored_gift_tutorial_description_3
-TEXT: You can manage Gifts from sponsors in your settings. This option allows you to receive Gifts from sponsors when available. This does not affect Gifts you send or receive that came from Sponsored PokéStop Locations.
+TEXT: You can manage Sponsored Gifts in your Settings. This does not affect Gifts you exchange with friends, even if you obtain these Gifts from Sponsored Locations.
 
 RESOURCE ID: sponsored_gift_tutorial_title
-TEXT: Gifts from Sponsors: Your Choice
+TEXT: Sponsored Gifts: Your Choice
 
 RESOURCE ID: spotlight_hour_event_name
 TEXT: Pokémon Spotlight Hour
