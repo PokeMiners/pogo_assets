@@ -101,8 +101,8 @@ RESOURCE ID: event
 TEXT: EVENT
 
 RESOURCE ID: friend_sort_online_not_available_body
-TEXT: <b>This sorting can only be used when you are online. You can turn on Online Status now or later using the Online/Offline toggle.</b>
-<size=24>Note: Turning on Online Status will enable it for all Niantic games you play.</size>
+TEXT: <b>This sorting can be used only when online-status sharing is enabled. You can enable it using the quick online-status toggle.</b>
+<size=24>Note: Sharing your online status will share it for all Niantic games you play.</size>
 
 RESOURCE ID: friend_sort_online_not_available_cancel_button
 TEXT: Don’t Share Online Status
@@ -144,7 +144,7 @@ TEXT: Ticket: A Hairy Situation
 RESOURCE ID: general1.ticket.3_description
 TEXT: A ticket to access Pokémon GO Fest on July 25 and 26, 2020, from 10:00 a.m. to 8:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
 
- YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
 RESOURCE ID: general1.ticket.3_name
 TEXT: Pokémon GO Fest 2020
@@ -234,9 +234,9 @@ RESOURCE ID: master_no_legendary
 TEXT: Premier Cup
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2020-06-11T19:20:59.475836
-at SHA f9a9b9ec8524252a0487f00c0548d2ea7805a55a
-Patch from: 0.177.0-SHA-c23d14fa
+TEXT: Built at 2020-06-18T18:37:37.439998
+at SHA ed2ac9a5e42ab93a3687f33f133bce7b4fe119ea
+Patch from: 0.177.1-SHA-d70baa66
 
 RESOURCE ID: move_name_0341
 TEXT: Fly
@@ -303,6 +303,21 @@ TEXT: Seeing Double
 
 RESOURCE ID: quest_complete_wt
 TEXT: A Hairy Situation
+
+RESOURCE ID: quest_rocket_rescue_shadow_plural
+TEXT: Rescue {0} Shadow Pokémon
+
+RESOURCE ID: quest_rockethq1_arlo_win_plural
+TEXT: Defeat Team GO Rocket Leader Arlo {0} times
+
+RESOURCE ID: quest_rockethq1_cliff_win_plural
+TEXT: Defeat Team GO Rocket Leader Cliff {0} times
+
+RESOURCE ID: quest_rockethq1_leader_win_plural
+TEXT: Defeat a Team GO Rocket Leader {0} times
+
+RESOURCE ID: quest_rockethq1_sierra_win_plural
+TEXT: Defeat Team GO Rocket Leader Sierra {0} times
 
 RESOURCE ID: quest_special_dialogue_st_0_0
 TEXT: Hey there, %PLAYERNAME%! You surprised me, much like the Seedot that just fell from that tree over there.
@@ -476,7 +491,7 @@ RESOURCE ID: raid_lobby_expired_title
 TEXT: This Raid Lobby Has Expired
 
 RESOURCE ID: raid_lobby_full_desc
-TEXT: Please try again later
+TEXT: Please try again later.
 
 RESOURCE ID: raid_lobby_full_title
 TEXT: The Raid Lobby Is Full
@@ -507,7 +522,7 @@ RESOURCE ID: settings_wasabi_ads
 TEXT: Show Sponsored Gifts
 
 RESOURCE ID: shop_bundle_raid_pass
-TEXT: Exclusive Box in the Shop with Raid Passes
+TEXT: Box with Premium Battle Passes and a Remote Raid Pass in the shop
 
 RESOURCE ID: shop_category_global_events
 TEXT: GLOBAL EVENTS
