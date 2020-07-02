@@ -1,3 +1,6 @@
+RESOURCE ID: autumn event
+TEXT: Autumn Event
+
 RESOURCE ID: avatar_f_backpack_swshdlccostume_00_bundle_icon
 TEXT: Isle of Armor Bag
 
@@ -7,8 +10,14 @@ TEXT: Isle of Armor Gloves
 RESOURCE ID: avatar_f_hat_galarfarfetchditems_00_bundle_icon
 TEXT: Galarian Farfetch’d Cap Set
 
+RESOURCE ID: avatar_f_hat_samsungsummer2020_0_bundle_icon
+TEXT: Samsung Galaxy Tie-Dye Hat
+
 RESOURCE ID: avatar_f_shirt_galarfarfetchditems_00_bundle_icon
 TEXT: Galarian Farfetch’d T-shirt and Bag
+
+RESOURCE ID: avatar_f_shirt_samsungsummer2020_0_bundle_icon
+TEXT: Samsung Galaxy Tie-Dye Shirt
 
 RESOURCE ID: avatar_f_shirt_swshdlccostume_00_bundle_icon
 TEXT: Isle of Armor Uniform
@@ -25,8 +34,14 @@ TEXT: Isle of Armor Gloves
 RESOURCE ID: avatar_m_hat_galarfarfetchditems_00_bundle_icon
 TEXT: Galarian Farfetch’d Cap Set
 
+RESOURCE ID: avatar_m_hat_samsungsummer2020_0_bundle_icon
+TEXT: Samsung Galaxy Tie-Dye Hat
+
 RESOURCE ID: avatar_m_shirt_galarfarfetchditems_00_bundle_icon
 TEXT: Galarian Farfetch’d T-shirt and Bag
+
+RESOURCE ID: avatar_m_shirt_samsungsummer2020_0_bundle_icon
+TEXT: Samsung Galaxy Tie-Dye Shirt
 
 RESOURCE ID: avatar_m_shirt_swshdlccostume_00_bundle_icon
 TEXT: Isle of Armor Uniform
@@ -66,6 +81,12 @@ TEXT: N0
 
 RESOURCE ID: buddy_consumables_journal
 TEXT: Your buddy brought you a gift.
+
+RESOURCE ID: buddy_souvenir_pikachu_visor_description
+TEXT: A stylish accessory worn by Trainers at special events to show their love of Pokémon. Pika pika!
+
+RESOURCE ID: buddy_souvenir_pikachu_visor_name
+TEXT: Pikachu Visor
 
 RESOURCE ID: bundle.general1.free.1_title
 TEXT: Daily Free Box
@@ -137,12 +158,12 @@ RESOURCE ID: general1.ticket.1_title
 TEXT: Ticket: GO Fest 2020
 
 RESOURCE ID: general1.ticket.2_description
-TEXT: A ticket to access A Hairy Situation, the Special Research for Weedle Community Day, on June 20, 2020, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: A ticket to access the July Community Day–exclusive Special Research, The Great Gastly, on July 19, 2020, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE THE BONUS.
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
 RESOURCE ID: general1.ticket.2_title
-TEXT: Ticket: A Hairy Situation
+TEXT: Ticket: The Great Gastly
 
 RESOURCE ID: general1.ticket.3_description
 TEXT: A ticket to access Pokémon GO Fest on July 25 and 26, 2020, from 10:00 a.m. to 8:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
@@ -254,6 +275,15 @@ TEXT: FREE
 RESOURCE ID: initial_onboarding_privacy_tip
 TEXT: Privacy Control: Your safety is our priority, so you can control what features are turned on.
 
+RESOURCE ID: item_event_ticket_pink_desc
+TEXT: A ticket to access Special Research on July 19 from 11 a.m. to 5 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_details
+TEXT: This ticket will automatically activate to give you access to Special Research on July 19, wherever you are in the world.
+
+RESOURCE ID: item_event_ticket_pink_name
+TEXT: Ticket
+
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: A ticket to access a special event on July 25 and 26 from 10 a.m. to 8 p.m. local time each day, wherever you are.
 
@@ -273,13 +303,13 @@ RESOURCE ID: league_ruleset_info_subtitle
 TEXT: These Pokémon aren’t allowed in this cup.
 
 RESOURCE ID: league_ruleset_info_timestamp_after_subtitle
-TEXT: This Cup is limited to Pokémon caught after {0}.
+TEXT: This cup is limited to Pokémon caught after {0}.
 
 RESOURCE ID: league_ruleset_info_timestamp_before_subtitle
-TEXT: This Cup is limited to Pokémon caught before {0}.
+TEXT: This cup is limited to Pokémon caught before {0}.
 
 RESOURCE ID: league_ruleset_info_timestamp_both_subtitle
-TEXT: This Cup is limited to Pokémon caught after {0} and before {1}.
+TEXT: This cup is limited to Pokémon caught after {0} and before {1}.
 
 RESOURCE ID: league_ruleset_info_title
 TEXT: Cup Rules
@@ -300,9 +330,9 @@ RESOURCE ID: master_no_legendary
 TEXT: Premier Cup
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2020-06-25T16:37:24.633711
-at SHA f4058e53782349b7a3be1d5c5207d7ef3fa0b943
-Patch from: 0.177.1-SHA-d70baa66
+TEXT: Built at 2020-07-02T16:51:26.478880
+at SHA fe80082bc0a2b92420ceebc271aa24c633b831b8
+Patch from: 0.177.1-SHA-d70baa66, 0.179.2-SHA-3d733191
 
 RESOURCE ID: move_name_0341
 TEXT: Fly
@@ -370,11 +400,23 @@ TEXT: Perrserker
 RESOURCE ID: pokemon_name_0865
 TEXT: Sirfetch’d
 
+RESOURCE ID: quest_complete_gt
+TEXT: The Great Gastly
+
 RESOURCE ID: quest_complete_st
 TEXT: Seeing Double
 
 RESOURCE ID: quest_complete_wt
 TEXT: A Hairy Situation
+
+RESOURCE ID: quest_gt_catch_b
+TEXT: Catch {0} Gastly
+
+RESOURCE ID: quest_gt_evolve_b
+TEXT: Evolve {0} Gastly
+
+RESOURCE ID: quest_gt_evolve_s1
+TEXT: Evolve {0} Haunter
 
 RESOURCE ID: quest_rocket_rescue_shadow_plural
 TEXT: Rescue {0} Shadow Pokémon
@@ -390,6 +432,63 @@ TEXT: Defeat a Team GO Rocket Leader {0} times
 
 RESOURCE ID: quest_rockethq1_sierra_win_plural
 TEXT: Defeat Team GO Rocket Leader Sierra {0} times
+
+RESOURCE ID: quest_special_dialogue_gt_0_0
+TEXT: Hey there, %PLAYERNAME%! I’m glad you’re here. Something odd is happening, and I need your help investigating it.
+
+RESOURCE ID: quest_special_dialogue_gt_0_1
+TEXT: While I was on a walk last night with my Buddy Pokémon, Meltan, I noticed a strange light flickering in my mobile lab. It was so spooky! One might’ve called it...a ghastly sight!
+
+RESOURCE ID: quest_special_dialogue_gt_0_2
+TEXT: Apparently, some Gastly were hiding in my mobile lab from the wind. It’s common for Gastly to take shelter when massive gusts are blowing about so their gaseous bodies aren’t blown away.
+
+RESOURCE ID: quest_special_dialogue_gt_0_3
+TEXT: However, the sheer number of Gastly seemed unusual. They’re still in the mobile lab, so could you help me look into this situation?
+
+RESOURCE ID: quest_special_dialogue_gt_1_0
+TEXT: Thanks, %PLAYERNAME%! While you were helping with our research, I was assisting the Gastly in the mobile lab.
+
+RESOURCE ID: quest_special_dialogue_gt_1_1
+TEXT: I had to be careful when I got near the Gastly. I didn’t want to be engulfed by their gaseous bodies!
+
+RESOURCE ID: quest_special_dialogue_gt_1_2
+TEXT: Now that the Gastly are out of the mobile lab, I think it’s time for us to start looking into Gastly’s Evolution.
+
+RESOURCE ID: quest_special_dialogue_gt_1_3
+TEXT: I’ve done some reading on the matter, and I think we’ll need to prepare for a dangerous Pokémon.
+
+RESOURCE ID: quest_special_dialogue_gt_2_0
+TEXT: Excellent work, %PLAYERNAME%. Seems as though your Gastly has evolved into Haunter. I had a feeling I was being watched.
+
+RESOURCE ID: quest_special_dialogue_gt_2_1
+TEXT: It’s said that Haunter lurks in walls to keep an eye on its foes, but in this case, I have a feeling it’s just being playful.
+
+RESOURCE ID: quest_special_dialogue_gt_2_2
+TEXT: I’ve noticed the team leaders tripping and stumbling around the lab today. Seems as if Haunter is having a bit of fun with them, but I don’t think Blanche is amused.
+
+RESOURCE ID: quest_special_dialogue_gt_2_3
+TEXT: Let’s go ahead and fix that problem by evolving Haunter.
+
+RESOURCE ID: quest_special_dialogue_gt_3_0
+TEXT: Congrats, Trainer. Your Haunter has now become the Shadow Pokémon, Gengar! Are you ready for a spooky story? Let me get my flashlight.
+
+RESOURCE ID: quest_special_dialogue_gt_3_1
+TEXT: If you ever see your shadow suddenly and startlingly overtake you, it might be a Gengar running past you, pretending to be your shadow!
+
+RESOURCE ID: quest_special_dialogue_gt_3_2
+TEXT: Do you feel that chill in the air? That means a Gengar is near. OOOoooOOOooo...
+
+RESOURCE ID: quest_special_dialogue_gt_3_3
+TEXT: BOO!
+
+RESOURCE ID: quest_special_dialogue_gt_3_4
+TEXT: Hahaha, got you, %PLAYERNAME%! I crack myself up. Although...it looked for a second like there was a ghostly hand on your shoulder... Maybe it was just my imagination.
+
+RESOURCE ID: quest_special_dialogue_gt_3_5
+TEXT: Anyway, I know an accomplished Trainer such as yourself has nothing to fear when it comes to training a Pokémon like Gengar. Being both Poison- and Ghost-type, it’s a fantastic Pokémon to have on your team.
+
+RESOURCE ID: quest_special_dialogue_gt_3_6
+TEXT: Thanks to your help, I think we all learned something today! I’ll be in touch when I have another adventure for you!
 
 RESOURCE ID: quest_special_dialogue_st_0_0
 TEXT: Hey there, %PLAYERNAME%! You surprised me, much like the Seedot that just fell from that tree over there.
@@ -510,6 +609,21 @@ TEXT: Evolve a Nuzleaf
 
 RESOURCE ID: quest_st_evolve_s
 TEXT: Evolve 3 Seedot
+
+RESOURCE ID: quest_title_gt
+TEXT: The Great Gastly
+
+RESOURCE ID: quest_title_gt_0
+TEXT: The Great Gastly (1/4)
+
+RESOURCE ID: quest_title_gt_1
+TEXT: The Great Gastly (2/4)
+
+RESOURCE ID: quest_title_gt_2
+TEXT: The Great Gastly (3/4)
+
+RESOURCE ID: quest_title_gt_3
+TEXT: The Great Gastly (4/4)
 
 RESOURCE ID: quest_title_st
 TEXT: Seeing Double
@@ -642,6 +756,9 @@ TEXT: You can manage Sponsored Gifts in your settings. This does not affect Gift
 RESOURCE ID: sponsored_gift_tutorial_title
 TEXT: Sponsored Gifts: Your Choice
 
+RESOURCE ID: spring event
+TEXT: Spring Event
+
 RESOURCE ID: sticker_default_desc
 TEXT: Stickers can be found as rewards in Pokémon GO. Collect em all!
 
@@ -660,6 +777,9 @@ TEXT: See All ({0})
 RESOURCE ID: store_see_other_stickers
 TEXT: SEE OTHER STICKERS
 
+RESOURCE ID: summer_event_name
+TEXT: Summer Event
+
 RESOURCE ID: ticket_seedot
 TEXT: Ticket for the Seeing Double Special Research story available in the shop
 
@@ -673,4 +793,7 @@ Will you help us learn more about this PokéStop or Gym?
 
 RESOURCE ID: titan_poi_ar_data_more_space_required
 TEXT: Your device does not have enough storage space. Please free up space and try again.
+
+RESOURCE ID: winter event
+TEXT: Winter Event
 
