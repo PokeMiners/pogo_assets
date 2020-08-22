@@ -85,6 +85,24 @@ TEXT: Global, July 25–26, 2020
 RESOURCE ID: badge_gofest_2020_global_title
 TEXT: Pokémon GO Fest
 
+RESOURCE ID: badge_total_mega_evos
+TEXT: Mega Evolve a Pokémon {0} times.
+
+RESOURCE ID: badge_total_mega_evos_singular
+TEXT: Mega Evolve a Pokémon {0} time.
+
+RESOURCE ID: badge_total_mega_evos_title
+TEXT: Successor
+
+RESOURCE ID: badge_unique_mega_evos
+TEXT: Mega Evolve {0} different species of Pokémon.
+
+RESOURCE ID: badge_unique_mega_evos_singular
+TEXT: Mega Evolve {0} Pokémon.
+
+RESOURCE ID: badge_unique_mega_evos_title
+TEXT: Mega Evolution Guru
+
 RESOURCE ID: battle_day
 TEXT: GO Battle Day
 
@@ -93,6 +111,12 @@ TEXT: GO Battle Day: Pidgey
 
 RESOURCE ID: battle_night
 TEXT: GO Battle Night
+
+RESOURCE ID: beedrill_mega_energy_bonus_research
+TEXT: Daily Bonus Research rewarding Beedrill Mega Energy
+
+RESOURCE ID: beedrill_mega_energy_field_research
+TEXT: Field Research rewarding Beedrill Mega Energy
 
 RESOURCE ID: buddy_souvenir_confetti_pieces_description
 TEXT: A colorful memento often found at special events. This confetti celebrates Team Mystic, Team Instinct, and Team Valor by using their identifying colors.
@@ -710,7 +734,7 @@ RESOURCE ID: city_zurich
 TEXT: Zurich
 
 RESOURCE ID: collect_ar_data_message
-TEXT: You can help collect AR Mapping data at this location. If you spin the Photodisk, you can get an AR Mapping task. You can also scan this Pokéstop anytime from the Pokéstop ‘Details’ page.
+TEXT: You can help collect AR mapping data at this location. If you spin the Photo Disc, you can get an AR mapping task. You can also scan this PokéStop anytime from the PokéStop’s details screen.
 
 RESOURCE ID: collect_ar_data_title
 TEXT: Collect AR Data
@@ -725,19 +749,19 @@ RESOURCE ID: favorite_filter_group_key
 TEXT: Favorite
 
 RESOURCE ID: filter_label_appraisal_0
-TEXT: Appraisal: 0
+TEXT: 0 Stars
 
 RESOURCE ID: filter_label_appraisal_1
-TEXT: Appraisal: 1
+TEXT: 1 Star
 
 RESOURCE ID: filter_label_appraisal_2
-TEXT: Appraisal: 2
+TEXT: 2 Stars
 
 RESOURCE ID: filter_label_appraisal_3
-TEXT: Appraisal: 3
+TEXT: 3 Stars
 
 RESOURCE ID: filter_label_appraisal_4
-TEXT: Appraisal: Best
+TEXT: Perfect
 
 RESOURCE ID: filter_label_costume
 TEXT: Event
@@ -771,6 +795,9 @@ TEXT: Traded
 
 RESOURCE ID: flying_cup
 TEXT: Flying Cup available in the GO Battle League
+
+RESOURCE ID: friend_damage_raid_increase
+TEXT: Increased Friendship damage bonus in Raids
 
 RESOURCE ID: friend_score_title
 TEXT: FRIEND SCORES
@@ -1177,10 +1204,16 @@ RESOURCE ID: grunt_generic_defeat#16__male_speaker
 TEXT: Gaaah!
 
 RESOURCE ID: iap_item_unavailable
-TEXT: Item is no longer available to be purchased.
+TEXT: This item can no longer be purchased.
 
 RESOURCE ID: invasion_pokemon_inventory_warning_message
 TEXT: Your Pokémon storage is full, so you will not be able to encounter a Shadow Pokémon. To make room, you can transfer Pokémon to Professor Willow or upgrade your Pokémon storage in the shop.
+
+RESOURCE ID: invitations_not_available_special_desc
+TEXT: You cannot invite friends to Raid Battles against certain Legendary, regional, or event Pokémon.
+
+RESOURCE ID: invitations_not_available_special_title
+TEXT: Cannot Invite Friends to This Raid
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: A ticket to access Special Research on August 8 from 11 a.m. to 5 p.m. local time, wherever you are.
@@ -1189,14 +1222,65 @@ RESOURCE ID: item_event_ticket_pink_details
 TEXT: This ticket will automatically activate to give you access to Special Research on August 8, wherever you are in the world.
 
 RESOURCE ID: item_sticker_inventory_desc
-TEXT: Stickers don't count as items. There's no need to delete them! You are only able to carry a certain amount of each sticker.
+TEXT: Stickers don’t take up space in your Item Bag. You can carry only a certain number of each sticker.
 
 RESOURCE ID: item_sticker_inventory_name
 TEXT: Stickers
 
+RESOURCE ID: mega_battle_event
+TEXT: Mega Battle Challenge
+
+RESOURCE ID: mega_buddy_event
+TEXT: Mega Buddy Challenge
+
+RESOURCE ID: mega_duration_triple
+TEXT: 3× Mega form duration
+
+RESOURCE ID: mega_energy_above_cap
+TEXT: You have reached the maximum amount of Mega Energy.
+
+RESOURCE ID: mega_energy_cap
+TEXT: You can collect up to {0} Mega Energy.
+
+RESOURCE ID: mega_energy_cap_singular
+TEXT: You can collect 1 Mega Energy.
+
+RESOURCE ID: mega_energy_not_awarded
+TEXT: You received only {0} Mega Energy from this raid because you have reached the maximum of {1}.
+
+RESOURCE ID: mega_energy_not_awarded_singular
+TEXT: You received only 1 Mega Energy from this raid because you have reached the maximum of {0}.
+
+RESOURCE ID: mega_entered_battle_msg
+TEXT: {0} has entered the battle!
+
+RESOURCE ID: mega_evo_cp_increase
+TEXT: CP {0} → <color=#2ECDA8>{1}</color>
+
+RESOURCE ID: mega_evolution
+TEXT: Mega Evolution
+
+RESOURCE ID: mega_evolve
+TEXT: MEGA EVOLVE
+
+RESOURCE ID: mega_gym_defender_warning
+TEXT: Mega-Evolved Pokémon cannot be assigned to defend Gyms
+
+RESOURCE ID: mega_raid_event
+TEXT: Mega Raids Challenge
+
+RESOURCE ID: mega_raids_increase
+TEXT: Increased number of raids
+
+RESOURCE ID: mega_speed_bonus
+TEXT: Speed
+
+RESOURCE ID: mega_type_attacks_boosted_msg
+TEXT: {0}-type attacks are now boosted!
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2020-08-13T17:00:29.186679
-at SHA 5047bf9979ab84af85a340fba5d2fa02f6237d4b
+TEXT: Built at 2020-08-20T18:10:28.261670
+at SHA faa52d320d24a6ee050b7365284a1e4028c4f588
 Patch from: 0.183.0-SHA-a79be43c
 
 RESOURCE ID: move_name_0342
@@ -1217,6 +1301,348 @@ TEXT: NOW PLAYING THIS CHALLENGE:
 RESOURCE ID: photobomb_five_magikarp
 TEXT: 5 surprise encounters with Magikarp in GO Snapshot
 
+RESOURCE ID: photobomb_special
+TEXT: Event-themed Photobombs
+
+RESOURCE ID: poffin_duration_double
+TEXT: 2× Poffin Duration
+
+RESOURCE ID: pokedex_filter_button_all
+TEXT: All: {0}
+
+RESOURCE ID: pokedex_filter_button_mega
+TEXT: Mega: {0}
+
+RESOURCE ID: pokedex_mode_name_all
+TEXT: All
+
+RESOURCE ID: pokedex_mode_name_mega
+TEXT: Mega
+
+RESOURCE ID: pokedex_registered_to_megapokedex
+TEXT: Registered to Mega Pokédex
+
+RESOURCE ID: pokemon_desc_tmpevo_0003_0001
+TEXT: In order to support its flower, which has grown larger due to Mega Evolution, its back and legs have become stronger.
+
+RESOURCE ID: pokemon_desc_tmpevo_0006_0002
+TEXT: The overwhelming power that fills its entire body causes it to turn black and creates intense blue flames.
+
+RESOURCE ID: pokemon_desc_tmpevo_0006_0003
+TEXT: Its bond with its Trainer is the source of its power. It boasts speed and maneuverability greater than that of a jet fighter.
+
+RESOURCE ID: pokemon_desc_tmpevo_0009_0001
+TEXT: The cannon on its back is as powerful as a tank gun. Its tough legs and back enable it to withstand the recoil from firing the cannon.
+
+RESOURCE ID: pokemon_desc_tmpevo_0015_0001
+TEXT: Its legs have become poison stingers. It stabs its prey repeatedly with the stingers on its limbs, dealing the final blow with the stinger on its rear.
+
+RESOURCE ID: pokemon_desc_tmpevo_0018_0001
+TEXT: With its muscular strength now greatly increased, it can fly continuously for two weeks without resting.
+
+RESOURCE ID: pokemon_desc_tmpevo_0065_0001
+TEXT: Having traded away its muscles, Alakazam's true power has been unleashed. With its psychic powers, it can foresee all things.
+
+RESOURCE ID: pokemon_desc_tmpevo_0080_0001
+TEXT: Having been swallowed whole by Shellder, Slowbro now has an iron defense. It's pretty comfortable in there, too.
+
+RESOURCE ID: pokemon_desc_tmpevo_0094_0001
+TEXT: Mega Evolution has made it possible for Gengar to access other dimensions. Its entire body is brimming with strange power.
+
+RESOURCE ID: pokemon_desc_tmpevo_0115_0001
+TEXT: When the mother sees the back of her Mega-Evolved child, it makes her think of the day when her child will inevitably leave her.
+
+RESOURCE ID: pokemon_desc_tmpevo_0127_0001
+TEXT: After Mega Evolution, it becomes able to fly. Perhaps because it's so happy, it rarely touches the ground.
+
+RESOURCE ID: pokemon_desc_tmpevo_0130_0001
+TEXT: It zooms out of the water at Mach speeds. Even large ships caught in its path are split cleanly in two!
+
+RESOURCE ID: pokemon_desc_tmpevo_0142_0001
+TEXT: Mega Evolution awakened some dormant genes, bringing back the sharp rocks that once covered Aerodactyl's entire body.
+
+RESOURCE ID: pokemon_desc_tmpevo_0150_0002
+TEXT: Psychic power has augmented its muscles. It has a grip strength of one ton and can sprint a hundred meters in two seconds flat!
+
+RESOURCE ID: pokemon_desc_tmpevo_0150_0003
+TEXT: Despite its diminished size, its mental power has grown phenomenally. With a mere thought, it can smash a skyscraper to smithereens.
+
+RESOURCE ID: pokemon_desc_tmpevo_0181_0001
+TEXT: Massive amounts of energy intensely stimulated Ampharos's cells, apparently awakening its long-sleeping dragon's blood.
+
+RESOURCE ID: pokemon_desc_tmpevo_0208_0001
+TEXT: Steelix lives even further underground than Onix. This Pokémon is known to dig toward the earth's core. There are records of this Pokémon reaching a depth of over six-tenths of a mile underground.
+
+RESOURCE ID: pokemon_desc_tmpevo_0212_0001
+TEXT: It stores the excess energy from Mega Evolution, so after a long time passes, its body starts to melt.
+
+RESOURCE ID: pokemon_desc_tmpevo_0214_0001
+TEXT: It can grip things with its two horns and lift 500 times its own body weight.
+
+RESOURCE ID: pokemon_desc_tmpevo_0229_0001
+TEXT: Houndoom's entire body generates heat when it Mega Evolves. Its fearsome fiery breath turns its opponents to ash.
+
+RESOURCE ID: pokemon_desc_tmpevo_0248_0001
+TEXT: The effects of Mega Evolution make it more ferocious than ever. It's unclear whether it can even hear its Trainer's orders.
+
+RESOURCE ID: pokemon_desc_tmpevo_0254_0001
+TEXT: The leaves growing on Sceptile's body are very sharp edged. This Pokémon is very agile—it leaps all over the branches of trees and jumps on its foe from above or behind.
+
+RESOURCE ID: pokemon_desc_tmpevo_0257_0001
+TEXT: In battle, Blaziken blows out intense flames from its wrists and attacks foes courageously. The stronger the foe, the more intensely this Pokémon's wrists burn.
+
+RESOURCE ID: pokemon_desc_tmpevo_0260_0001
+TEXT: Swampert is very strong. It has enough power to easily drag a boulder weighing more than a ton. This Pokémon also has powerful vision that lets it see even in murky water.
+
+RESOURCE ID: pokemon_desc_tmpevo_0282_0001
+TEXT: Gardevoir has the ability to read the future. If it senses impending danger to its Trainer, this Pokémon is said to unleash its psychokinetic energy at full power.
+
+RESOURCE ID: pokemon_desc_tmpevo_0302_0001
+TEXT: It blocks any and all attacks with its giant-sized gemstone. However, the stone's a heavy burden, and it limits Mega Sableye's movements.
+
+RESOURCE ID: pokemon_desc_tmpevo_0303_0001
+TEXT: Its two sets of jaws thrash about violently as if they each had a will of their own. One gnash from them can turn a boulder to dust.
+
+RESOURCE ID: pokemon_desc_tmpevo_0306_0001
+TEXT: Aggron claims an entire mountain as its own territory. It mercilessly beats up anything that violates its environment. This Pokémon vigilantly patrols its territory at all times.
+
+RESOURCE ID: pokemon_desc_tmpevo_0308_0001
+TEXT: It is said that through meditation, Medicham heightens energy inside its body and sharpens its sixth sense. This Pokémon hides its presence by merging itself with fields and mountains.
+
+RESOURCE ID: pokemon_desc_tmpevo_0310_0001
+TEXT: Too much electricity has built up in its body, irritating Manectric. Its explosive speed is equal to that of a lightning bolt.
+
+RESOURCE ID: pokemon_desc_tmpevo_0319_0001
+TEXT: The moment it charges into its opponent, sharp spikes pop out of Sharpedo's head, leaving its opponent with deep wounds.
+
+RESOURCE ID: pokemon_desc_tmpevo_0323_0001
+TEXT: Camerupt has a volcano inside its body. Magma of 18,000 degrees Fahrenheit courses through its body. Occasionally, the humps on this Pokémon's back erupt, spewing the superheated magma.
+
+RESOURCE ID: pokemon_desc_tmpevo_0334_0001
+TEXT: Altaria dances and wheels through the sky among billowing, cotton-like clouds. By singing melodies in its crystal-clear voice, this Pokémon makes its listeners experience dreamy wonderment.
+
+RESOURCE ID: pokemon_desc_tmpevo_0354_0001
+TEXT: Mega Evolution increases its vindictiveness, and the cursing power that was held back by its zipper comes spilling out.
+
+RESOURCE ID: pokemon_desc_tmpevo_0359_0001
+TEXT: Normally, it dislikes fighting, so it really hates changing to this form for battles.
+
+RESOURCE ID: pokemon_desc_tmpevo_0362_0001
+TEXT: When it spews stupendously cold air from its broken mouth, the entire area around it gets whited out.
+
+RESOURCE ID: pokemon_desc_tmpevo_0373_0001
+TEXT: It puts its forelegs inside its shell to streamline itself for flight. Salamence flies at high speeds over all kinds of topographical features.
+
+RESOURCE ID: pokemon_desc_tmpevo_0376_0001
+TEXT: Its intellect surpasses its previous level, resulting in battles so cruel, they'll make you want to cover your eyes.
+
+RESOURCE ID: pokemon_desc_tmpevo_0380_0001
+TEXT: Latias is highly sensitive to the emotions of people. If it senses any hostility, this Pokémon ruffles the feathers all over its body and cries shrilly to intimidate the foe.
+
+RESOURCE ID: pokemon_desc_tmpevo_0381_0001
+TEXT: Latios has the ability to make others see an image of what it has seen or imagines in its head. This Pokémon is intelligent and understands human speech.
+
+RESOURCE ID: pokemon_desc_tmpevo_0382_0001
+TEXT: Through Primal Reversion and with nature's full power, it will take back its true form. It can summon storms that cause the sea levels to rise.
+
+RESOURCE ID: pokemon_desc_tmpevo_0383_0001
+TEXT: Groudon is said to be the personification of the land itself. Legends tell of its many clashes against Kyogre, as each sought to gain the power of nature.
+
+RESOURCE ID: pokemon_desc_tmpevo_0384_0001
+TEXT: Rayquaza is said to have lived for hundreds of millions of years. Legends remain of how it put to rest the clash between Kyogre and Groudon.
+
+RESOURCE ID: pokemon_desc_tmpevo_0428_0001
+TEXT: Mega Evolution awakens its combative instincts. It has shed any fur that got in the way of its attacks.
+
+RESOURCE ID: pokemon_desc_tmpevo_0445_0001
+TEXT: Its arms and wings melted into something like scythes. Mad with rage, it rampages on and on.
+
+RESOURCE ID: pokemon_desc_tmpevo_0448_0001
+TEXT: Its aura has expanded due to Mega Evolution. Governed only by its combative instincts, it strikes enemies without mercy.
+
+RESOURCE ID: pokemon_desc_tmpevo_0460_0001
+TEXT: It blankets wide areas in snow by whipping up blizzards. It is also known as "The Ice Monster."
+
+RESOURCE ID: pokemon_desc_tmpevo_0475_0001
+TEXT: Because it can sense what its foe is thinking, its attacks burst out first, fast, and fierce.
+
+RESOURCE ID: pokemon_desc_tmpevo_0531_0001
+TEXT: Using the feelers on its ears, it can tell how someone is feeling or when an egg might hatch.
+
+RESOURCE ID: pokemon_desc_tmpevo_0719_0001
+TEXT: A sudden transformation of Carbink, its pink, glimmering body is said to be the loveliest sight in the whole world.
+
+RESOURCE ID: pokemon_info_mega_evolution_confirmation
+TEXT: Do you want to Mega Evolve {0}?
+
+RESOURCE ID: pokemon_info_mega_evolution_replace
+TEXT: Your {0} will no longer be Mega Evolved.
+
+RESOURCE ID: pokemon_info_mega_evolution_replace_detail
+TEXT: Only one Pokémon may be Mega Evolved at a time.
+
+RESOURCE ID: pokemon_info_mega_evolution_time
+TEXT: Mega Evolution lasts for {0} hours.
+
+RESOURCE ID: pokemon_info_mega_evolve_need_resources
+TEXT: Need more {0} Mega Energy
+
+RESOURCE ID: pokemon_info_mega_resource_label
+TEXT: {0} Mega Energy
+
+RESOURCE ID: pokemon_info_transfer_mega_evo
+TEXT: You cannot trade a Mega-Evolved Pokémon.
+
+RESOURCE ID: pokemon_name_0003_0001
+TEXT: Mega Venusaur
+
+RESOURCE ID: pokemon_name_0006_0002
+TEXT: Mega Charizard X
+
+RESOURCE ID: pokemon_name_0006_0003
+TEXT: Mega Charizard Y
+
+RESOURCE ID: pokemon_name_0009_0001
+TEXT: Mega Blastoise
+
+RESOURCE ID: pokemon_name_0015_0001
+TEXT: Mega Beedrill
+
+RESOURCE ID: pokemon_name_0018_0001
+TEXT: Mega Pidgeot
+
+RESOURCE ID: pokemon_name_0065_0001
+TEXT: Mega Alakazam
+
+RESOURCE ID: pokemon_name_0080_0001
+TEXT: Mega Slowbro
+
+RESOURCE ID: pokemon_name_0094_0001
+TEXT: Mega Gengar
+
+RESOURCE ID: pokemon_name_0115_0001
+TEXT: Mega Kangaskhan
+
+RESOURCE ID: pokemon_name_0127_0001
+TEXT: Mega Pinsir
+
+RESOURCE ID: pokemon_name_0130_0001
+TEXT: Mega Gyarados
+
+RESOURCE ID: pokemon_name_0142_0001
+TEXT: Mega Aerodactyl
+
+RESOURCE ID: pokemon_name_0150_0002
+TEXT: Mega Mewtwo X
+
+RESOURCE ID: pokemon_name_0150_0003
+TEXT: Mega Mewtwo Y
+
+RESOURCE ID: pokemon_name_0181_0001
+TEXT: Mega Ampharos
+
+RESOURCE ID: pokemon_name_0208_0001
+TEXT: Mega Steelix
+
+RESOURCE ID: pokemon_name_0212_0001
+TEXT: Mega Scizor
+
+RESOURCE ID: pokemon_name_0214_0001
+TEXT: Mega Heracross
+
+RESOURCE ID: pokemon_name_0229_0001
+TEXT: Mega Houndoom
+
+RESOURCE ID: pokemon_name_0248_0001
+TEXT: Mega Tyranitar
+
+RESOURCE ID: pokemon_name_0254_0001
+TEXT: Mega Sceptile
+
+RESOURCE ID: pokemon_name_0257_0001
+TEXT: Mega Blaziken
+
+RESOURCE ID: pokemon_name_0260_0001
+TEXT: Mega Swampert
+
+RESOURCE ID: pokemon_name_0282_0001
+TEXT: Mega Gardevoir
+
+RESOURCE ID: pokemon_name_0302_0001
+TEXT: Mega Sableye
+
+RESOURCE ID: pokemon_name_0303_0001
+TEXT: Mega Mawile
+
+RESOURCE ID: pokemon_name_0306_0001
+TEXT: Mega Aggron
+
+RESOURCE ID: pokemon_name_0308_0001
+TEXT: Mega Medicham
+
+RESOURCE ID: pokemon_name_0310_0001
+TEXT: Mega Manectric
+
+RESOURCE ID: pokemon_name_0319_0001
+TEXT: Mega Sharpedo
+
+RESOURCE ID: pokemon_name_0323_0001
+TEXT: Mega Camerupt
+
+RESOURCE ID: pokemon_name_0334_0001
+TEXT: Mega Altaria
+
+RESOURCE ID: pokemon_name_0354_0001
+TEXT: Mega Banette
+
+RESOURCE ID: pokemon_name_0359_0001
+TEXT: Mega Absol
+
+RESOURCE ID: pokemon_name_0362_0001
+TEXT: Mega Glalie
+
+RESOURCE ID: pokemon_name_0373_0001
+TEXT: Mega Salamence
+
+RESOURCE ID: pokemon_name_0376_0001
+TEXT: Mega Metagross
+
+RESOURCE ID: pokemon_name_0380_0001
+TEXT: Mega Latias
+
+RESOURCE ID: pokemon_name_0381_0001
+TEXT: Mega Latios
+
+RESOURCE ID: pokemon_name_0382_0001
+TEXT: Primal Kyogre
+
+RESOURCE ID: pokemon_name_0383_0001
+TEXT: Primal Groudon
+
+RESOURCE ID: pokemon_name_0384_0001
+TEXT: Mega Rayquaza
+
+RESOURCE ID: pokemon_name_0428_0001
+TEXT: Mega Lopunny
+
+RESOURCE ID: pokemon_name_0445_0001
+TEXT: Mega Garchomp
+
+RESOURCE ID: pokemon_name_0448_0001
+TEXT: Mega Lucario
+
+RESOURCE ID: pokemon_name_0460_0001
+TEXT: Mega Abomasnow
+
+RESOURCE ID: pokemon_name_0475_0001
+TEXT: Mega Gallade
+
+RESOURCE ID: pokemon_name_0531_0001
+TEXT: Mega Audino
+
+RESOURCE ID: pokemon_name_0719_0001
+TEXT: Mega Diancie
+
 RESOURCE ID: pokemontype_filter_group_key
 TEXT: Pokémon Type
 
@@ -1231,6 +1657,33 @@ TEXT: Catch {0} Magikarp
 
 RESOURCE ID: quest_magit_evolve_b
 TEXT: Evolve {0} Magikarp
+
+RESOURCE ID: quest_mega_evolve_blastoise
+TEXT: Mega Evolve a Blastoise
+
+RESOURCE ID: quest_mega_evolve_charizard
+TEXT: Mega Evolve a Charizard
+
+RESOURCE ID: quest_mega_evolve_plural
+TEXT: Mega Evolve {0} Pokémon
+
+RESOURCE ID: quest_mega_evolve_singular
+TEXT: Mega Evolve a Pokémon
+
+RESOURCE ID: quest_mega_evolve_venusaur
+TEXT: Mega Evolve a Venusaur
+
+RESOURCE ID: quest_mega_join_raid_plural
+TEXT: Battle in {0} Mega Raids
+
+RESOURCE ID: quest_mega_join_raid_singular
+TEXT: Battle in a Mega Raid
+
+RESOURCE ID: quest_mega_win_raid_plural
+TEXT: Win {0} Mega Raids
+
+RESOURCE ID: quest_mega_win_raid_singular
+TEXT: Win a Mega Raid
 
 RESOURCE ID: quest_rocket_leader_battle_win_singular
 TEXT: Defeat a Team GO Rocket Leader
@@ -1301,6 +1754,99 @@ TEXT: Just make sure that the demolition is limited to battles—not entire citi
 RESOURCE ID: quest_special_dialogue_magit_3_5
 TEXT: Anyway, until next time!
 
+RESOURCE ID: quest_special_dialogue_megabee_0_0
+TEXT: Hey there, %PLAYERNAME%. We’ve been on some exciting adventures this year, haven’t we? I do have a confession to make, I’ve been working on something… BIG.
+
+RESOURCE ID: quest_special_dialogue_megabee_0_1
+TEXT: Do you recall that we saw a high number of Weedle appearing recently? I wanted to investigate further into that phenomena.
+
+RESOURCE ID: quest_special_dialogue_megabee_0_2
+TEXT: After a full day of research of the Hairy Bug Pokémon I saw something sparkling in the tall grass near where all the Weedle had been gathering earlier in the day.
+
+RESOURCE ID: quest_special_dialogue_megabee_0_3
+TEXT: I picked up the sparkling item that turned out to be a smooth stone like item with a symbol etched into one side.
+
+RESOURCE ID: quest_special_dialogue_megabee_0_4
+TEXT: I have seen this symbol before in documents from my colleague in Kalos, Professor Sycamore, leading me to believe it is connected to Pokémon and their Mega Evolutions.
+
+RESOURCE ID: quest_special_dialogue_megabee_0_5
+TEXT: Digging further into the documents, I believe that Mega Evolutions could even be activated by this new type of item. For sake of documentation, we have named these glittering items Mega Energy.
+
+RESOURCE ID: quest_special_dialogue_megabee_0_6
+TEXT: After a final review of the Weedle situation, it occurred to me that maybe this Mega Energy was also related to Weedle.
+
+RESOURCE ID: quest_special_dialogue_megabee_0_7
+TEXT: Now that I have you caught up on my BIG news, let’s get started on some research. We will need a Weedle, I think it is time for this Pokémon to turn into something mega!
+
+RESOURCE ID: quest_special_dialogue_megabee_1_0
+TEXT: Great work, Trainer. We will need to make sure we are documenting this process so that you and other Trainers are able to Mega Evolve their Pokémon as well.
+
+RESOURCE ID: quest_special_dialogue_megabee_1_1
+TEXT: Now, Weedle can’t Mega Evolve, but its final evolution, Beedrill, can.
+
+RESOURCE ID: quest_special_dialogue_megabee_1_2
+TEXT: I see you were able to get some Beedrill Mega Energy, my theory there is Mega Energy for different Pokémon and that each Pokémon needs a certain amount of Mega Energy to Mega Evolve.
+
+RESOURCE ID: quest_special_dialogue_megabee_1_3
+TEXT: It also seems to be a temporary state where the Pokémon seem to return to normal once the Mega Energy is depleted.
+
+RESOURCE ID: quest_special_dialogue_megabee_1_4
+TEXT: At first it may be difficult to gather all the Mega Energy needed to Mega evolve, but it seems that the amount of Mega Energy you need to gather is reduced over time.
+
+RESOURCE ID: quest_special_dialogue_megabee_1_5
+TEXT: Maybe it’s because of the bond you have with your Pokémon?
+
+RESOURCE ID: quest_special_dialogue_megabee_1_6
+TEXT: Let’s continue this investigation, how about you evolve your Weedle and see if we can’t get you some more resources so we can Mega Evolve your new Beedrill.
+
+RESOURCE ID: quest_special_dialogue_megabee_2_0
+TEXT: Again, you never cease to amaze me, %PLAYERNAME%. I think you and Beedrill are going to be great partners when it comes to the next set of challenges.
+
+RESOURCE ID: quest_special_dialogue_megabee_2_1
+TEXT: Besides Beedrill, I’ve documented that there are other Pokémon that are appearing to be able to Mega Evolve.
+
+RESOURCE ID: quest_special_dialogue_megabee_2_2
+TEXT: While I’ve only been able to confirm a few, I’m sure we will discover more in time. At this point, you should be able to Mega Evolve your Beedrill if you are ready.
+
+RESOURCE ID: quest_special_dialogue_megabee_2_3
+TEXT: Now, I’m sure you are going to ask “Professor Willow, how do I get more Mega Energy?”
+
+RESOURCE ID: quest_special_dialogue_megabee_2_4
+TEXT: Well, don’t worry, Trainer. It appears as though Mega Venusaur, Mega Charizard, and Mega Blastoise are appearing to challenge in Mega Raids all around the world.
+
+RESOURCE ID: quest_special_dialogue_megabee_2_5
+TEXT: Why don’t you bring along your Mega Beedrill to battle them? There seem to be many benefits to bringing your Mega Evolved Pokémon into Raids for both you and your fellow Trainers.
+
+RESOURCE ID: quest_special_dialogue_megabee_2_6
+TEXT: I’m curious to see what kind of effect the Mega Evolved Pokémon have on other Pokémon when they battle together. Why don’t you give it a try!
+
+RESOURCE ID: quest_special_dialogue_megabee_3_0
+TEXT: I dare say, this was a successful research project! It looks like you were able to acquire some Mega Energy by battling those Mega-Evolved Pokémon!
+
+RESOURCE ID: quest_special_dialogue_megabee_3_1
+TEXT: This should serve as a valuable resource. I’ve documented that Raiding isn’t the only thing you and your Mega Pokémon can do together.
+
+RESOURCE ID: quest_special_dialogue_megabee_3_2
+TEXT: I hope to see many of you taking on Gyms, battling each other and Team GO Rocket, and of course taking some GO Snapshots to send back to yours truly.
+
+RESOURCE ID: quest_special_dialogue_megabee_3_3
+TEXT: I will note that these are extremely powerful Pokémon, and for the sake of keeping some activities you do as Trainers fair and balanced, I think it best that for the time being we don’t bring our new friends into GO Battle League just yet, at least until more research is done.
+
+RESOURCE ID: quest_special_dialogue_megabee_3_4
+TEXT: I wanted to give you a token of my appreciation for all your hard work on this project.
+
+RESOURCE ID: quest_special_dialogue_megabee_3_5
+TEXT: It seems in other regions Trainers use an item like the Mega Bracelet to Mega Evolve Pokémon. Based on my research around Mega Energy, Mega Evolving your Pokémon doesn't seem to require an item.
+
+RESOURCE ID: quest_special_dialogue_megabee_3_6
+TEXT: However, I thought it would be a trendy accessory for you to wear if you’d like to show off your Mega Pokémon skills.
+
+RESOURCE ID: quest_special_dialogue_megabee_3_7
+TEXT: You should see it available for you when you want to change up your look. Hope you accept this gift with my sincerest thanks for a job well done.
+
+RESOURCE ID: quest_special_dialogue_megabee_3_8
+TEXT: Until next time, let’s GO!
+
 RESOURCE ID: quest_title_magit
 TEXT: Making a Splash
 
@@ -1315,6 +1861,21 @@ TEXT: Making a Splash (3/4)
 
 RESOURCE ID: quest_title_magit_3
 TEXT: Making a Splash (4/4)
+
+RESOURCE ID: quest_title_megabee
+TEXT: A Mega Discovery
+
+RESOURCE ID: quest_title_megabee_0
+TEXT: A Mega Discovery (1/4)
+
+RESOURCE ID: quest_title_megabee_1
+TEXT: A Mega Discovery (2/4)
+
+RESOURCE ID: quest_title_megabee_2
+TEXT: A Mega Discovery (3/4)
+
+RESOURCE ID: quest_title_megabee_3
+TEXT: A Mega Discovery (4/4)
 
 RESOURCE ID: quest_title_ultra_unlock_0
 TEXT: Ultra Unlock 2020 (1/5)
@@ -1502,6 +2063,9 @@ TEXT: Sent {0} Gifts to friends
 RESOURCE ID: score_send_gift_singular
 TEXT: Sent 1 Gift to a friend
 
+RESOURCE ID: search_label
+TEXT: Search
+
 RESOURCE ID: settings_advanced_cache_reset
 TEXT: Refresh Game Data
 
@@ -1521,7 +2085,7 @@ RESOURCE ID: special_filter_group_key
 TEXT: Special
 
 RESOURCE ID: sticker_inventory_detail_desc
-TEXT: Stickers don't count as items. There's no need to delete them! You are only able to carry a certain amount of each sticker.
+TEXT: Stickers don’t take up space in your Item Bag. You can carry only a certain number of each sticker.
 
 RESOURCE ID: sticker_inventory_detail_title
 TEXT: Number of Stickers
@@ -1549,6 +2113,9 @@ TEXT: An exclusive sticker for Pokémon GO Fest attendees, featuring the Pokémo
 
 RESOURCE ID: sticker_pgo_fest_victini_05_desc
 TEXT: An exclusive sticker for Pokémon GO Fest attendees, featuring Victini, the Victory Pokémon.
+
+RESOURCE ID: temp_evolution_pokedex_header
+TEXT: MEGA EVOLUTION
 
 RESOURCE ID: ticket_gastly
 TEXT: Tickets for the Special Research story The Great Gastly available in the shop
@@ -1626,10 +2193,13 @@ RESOURCE ID: titan_scan_validation_failure_reason_too_fast
 TEXT: Too fast. Please scan again, ensuring you move slowly around the PokéStop.
 
 RESOURCE ID: titan_scan_validation_failure_reason_too_slow
-TEXT: Too slow. Please scan again, ensuring you move around the PokéStop.
+TEXT: Movement not detected. Please scan again, ensuring you move slowly around the PokéStop.
 
 RESOURCE ID: titan_scan_validation_failure_reason_unknown
 TEXT: Please scan again, ensuring adequate lighting while you move slowly around the PokéStop.
+
+RESOURCE ID: trade_exclusion_temp_evolved
+TEXT: You cannot trade a Mega-Evolved Pokémon.
 
 RESOURCE ID: ultra_unlock_event_2020
 TEXT: Ultra Unlock 2020
