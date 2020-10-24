@@ -1,8 +1,6 @@
 # Pokemon GO Assets
 Repository of all mined assets including sprites, sounds, and news items. This repo is organized based on category and is a combination of downloaded/remote assets and assets found inside the APK.
 
-**Note:** This repo does **NOT** contain all assets found within the game, only the assets we have mined.
-
 ## Folder Structure
 ### Images
 
