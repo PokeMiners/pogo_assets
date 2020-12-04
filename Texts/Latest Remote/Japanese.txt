@@ -471,6 +471,9 @@ TEXT: 「ひふきポケモンを解明せよ！」チケット
 RESOURCE ID: general1.ticket.2_title_2
 TEXT: 「ひふきポケモンを解明せよ！」チケット
 
+RESOURCE ID: gf2020_content_link
+TEXT: グローバルなイベントに参加!！ライブコンテンツをチェック！： <a href="https://pokemongolive.com/gofest">pokemongolive.com/gofest</a>
+
 RESOURCE ID: group_seasonal
 TEXT: ウィンター
 
@@ -536,7 +539,7 @@ TEXT: Pokémon HOME を開いてポケモンの転送を完了し
 できません。
 
 RESOURCE ID: home_transfer_warning
-TEXT: Pokémon HOMEに転送した一部のポケモンは、
+TEXT: Pokémon HOME に転送した一部のポケモンは、
 他の『ポケットモンスター』シリーズに
 連れていくことができません。詳細は、
 Pokémon HOME アプリ内でご確認ください。
@@ -648,12 +651,15 @@ RESOURCE ID: mega_evo_bonus_buff_title
 TEXT: {0}のボーナス
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2020-12-01T01:54:12.636764
-at SHA 312319ba0d2074c6da2d5b17d5ca51305c8df93a
+TEXT: Built at 2020-12-03T18:20:13.304872
+at SHA f691a6c7513e89aaefff0894a8bc810381862a97
 Patch from: 0.193.1-SHA-310fd888, 0.193.0-SHA-4d0e8664
 
 RESOURCE ID: nintendo_account_not_linked
 TEXT: ニンテンドーアカウントを再度Pokémon GO に連携してください
+
+RESOURCE ID: no_pokemon_tag_color_warning
+TEXT: タグの色を選択してください
 
 RESOURCE ID: photobomb_five_electabuzz
 TEXT: GOスナップショットでエレブーのサプライズ5回
@@ -1362,6 +1368,21 @@ TEXT: 不明
 
 RESOURCE ID: pokemon_info_xl_candy_label
 TEXT: {0}のアメXL
+
+RESOURCE ID: pokemon_inventory_no_room_to_incubate
+TEXT: ポケモンボックスに空きがないと、タマゴをふかそうちにセットできません。
+
+RESOURCE ID: pokemon_inventory_no_room_to_incubate_title
+TEXT: ボックスがいっぱいです！
+
+RESOURCE ID: pokemon_inventory_special_egg_help
+TEXT: タマゴが9個ある場合、ウィークリーの歩行距離によるリワードや、GOロケット団リーダーを倒してもらえるタマゴは、ここに入ります。
+
+RESOURCE ID: pokemon_inventory_special_egg_help_title
+TEXT: ボーナススペースとは？
+
+RESOURCE ID: pokemon_inventory_special_eggs_title
+TEXT: ボーナススペース
 
 RESOURCE ID: pokemon_name_0650
 TEXT: ハリマロン
@@ -2405,7 +2426,7 @@ RESOURCE ID: quest_trade_50km_plural
 TEXT: 50km以上離れた場所からのポケモンを{0}匹交換する
 
 RESOURCE ID: quest_walk_25km_inaweek_plural
-TEXT: 1週間に25km歩くを{0}回する
+TEXT: 1週間に25km歩くリワードを{0}回もらう
 
 RESOURCE ID: quest_win_raid_lvl1plus_less1500cp_plural
 TEXT: CP1500以下のポケモンのみを使いレイドで{0}回勝つ
@@ -2449,6 +2470,12 @@ TEXT: レイドでもらえるXP増
 RESOURCE ID: rare_xl_candy_usage_confirmation
 TEXT: ふしぎなアメXLを{0}のアメXLに変えますか？
 
+RESOURCE ID: recent_filter_group_key
+TEXT: 最近使った
+
+RESOURCE ID: region_filter_group_key
+TEXT: 地方
+
 RESOURCE ID: reward_avatar_items
 TEXT: 着せ替えアイテム
 
@@ -2457,6 +2484,9 @@ TEXT: エレブーがより多く野生で出現
 
 RESOURCE ID: spawn_magmar
 TEXT: ブーバーがより多く野生で出現
+
+RESOURCE ID: tag_color_field_subtitle
+TEXT: タグ色
 
 RESOURCE ID: ticket_electabuzz
 TEXT: 「でんげきポケモンを解明せよ！」チケットがショップに登場
@@ -2515,7 +2545,7 @@ RESOURCE ID: upload_mgmt_cancel_individual
 TEXT: キャンセル
 
 RESOURCE ID: upload_mgmt_confirm_delete_individual
-TEXT: [filename] ({1}MB) を削除しますか？
+TEXT: {0} ({1}MB) を削除しますか？
 
 RESOURCE ID: upload_mgmt_confirm_yes
 TEXT: はい

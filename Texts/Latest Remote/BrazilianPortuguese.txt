@@ -573,11 +573,11 @@ RESOURCE ID: master_classic_title
 TEXT: Master League Classic
 
 RESOURCE ID: maximum_tags_error
-TEXT: Cannot create more than {0} tags
+TEXT: Cannot create more than {0} tags.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2020-12-01T01:54:12.636764
-at SHA 312319ba0d2074c6da2d5b17d5ca51305c8df93a
+TEXT: Built at 2020-12-03T18:20:13.304872
+at SHA f691a6c7513e89aaefff0894a8bc810381862a97
 Patch from: 0.193.1-SHA-310fd888, 0.193.0-SHA-4d0e8664
 
 RESOURCE ID: photobomb_five_electabuzz
@@ -587,82 +587,82 @@ RESOURCE ID: photobomb_five_magmar
 TEXT: 5 encontros surpresa com Magmar ao usar o Retrato GO
 
 RESOURCE ID: poi_contrib_ar_added
-TEXT: Você terá mais {0} contribuições de scan disponíveis amanhã.
+TEXT: Contribuições de scan disponíveis amanhã: {0}.
 
 RESOURCE ID: poi_contrib_ar_avail
-TEXT: Você tem {0} contribuições de scan disponíveis hoje.
+TEXT: Contribuições de scan disponíveis hoje: {0}.
 
 RESOURCE ID: poi_contrib_ar_maxed
 TEXT: Você atingiu seu máximo diário de contribuições de scan de {0}.
 
 RESOURCE ID: poi_contrib_edit_desc_added
-TEXT: Você terá mais {0} edições de descrição disponíveis amanhã.
+TEXT: Edições de descrição disponíveis amanhã: {0}
 
 RESOURCE ID: poi_contrib_edit_desc_avail
-TEXT: Você tem {0} edições de descrição disponíveis hoje.
+TEXT: Edições de descrição disponíveis hoje: {0}
 
 RESOURCE ID: poi_contrib_edit_desc_maxed
 TEXT: Você atingiu seu máximo diário de edições de descrição de {0}.
 
 RESOURCE ID: poi_contrib_edit_location_added
-TEXT: Você terá mais {0} edições de localização disponíveis amanhã.
+TEXT: Edições de localização disponíveis amanhã: {0}.
 
 RESOURCE ID: poi_contrib_edit_location_avail
-TEXT: Você tem {0} edições de localização disponíveis hoje.
+TEXT: Edições de localização disponíveis hoje: {0}.
 
 RESOURCE ID: poi_contrib_edit_location_maxed
 TEXT: Você atingiu seu máximo diário de edições de localização de {0}.
 
 RESOURCE ID: poi_contrib_edit_photo_added
-TEXT: Você terá mais {0} contribuições de foto disponíveis amanhã.
+TEXT: Contribuições de foto disponíveis amanhã: {0}.
 
 RESOURCE ID: poi_contrib_edit_photo_avail
-TEXT: Você tem {0} contribuições de foto disponíveis hoje.
+TEXT: Contribuições de foto disponíveis hoje: {0}.
 
 RESOURCE ID: poi_contrib_edit_photo_maxed
 TEXT: Você atingiu seu máximo diário de contribuições de foto de {0}.
 
 RESOURCE ID: poi_contrib_edit_title_added
-TEXT: Você terá mais {0} edições de título disponíveis amanhã.
+TEXT: Edições de título disponíveis amanhã: {0}.
 
 RESOURCE ID: poi_contrib_edit_title_avail
-TEXT: Você tem {0} edições de título disponíveis hoje.
+TEXT: Edições de título disponíveis hoje: {0}.
 
 RESOURCE ID: poi_contrib_edit_title_maxed
 TEXT: Você atingiu seu máximo diário de edições de título de {0}.
 
 RESOURCE ID: poi_contrib_nom_added
-TEXT: Você terá {0} proposta(s) de Poképarada disponíveis amanhã.
+TEXT: Propostas de Poképarada disponíveis amanhã: {0}.
 
 RESOURCE ID: poi_contrib_nom_avail
-TEXT: Você tem {0} proposta(s) de Poképarada disponíveis hoje.
+TEXT: Propostas de Poképarada disponíveis hoje: {0}.
 
 RESOURCE ID: poi_contrib_nom_maxed
 TEXT: Você atingiu seu máximo diário de propostas de Poképarada de {0}.
 
 RESOURCE ID: poi_contrib_report_added
-TEXT: Você terá mais {0} reportações disponíveis amanhã.
+TEXT: Reportações disponíveis amanhã: {0}.
 
 RESOURCE ID: poi_contrib_report_avail
-TEXT: Você tem {0} reportações disponíveis hoje.
+TEXT: Reportações disponíveis hoje: {0}.
 
 RESOURCE ID: poi_contrib_report_maxed
 TEXT: Você atingiu seu máximo diário de reportações de {0}.
 
 RESOURCE ID: poi_contrib_sponsor_content_added
-TEXT: Você terá mais {0} reportações de conteúdo disponíveis amanhã.
+TEXT: Reportações de conteúdo disponíveis amanhã: {0}.
 
 RESOURCE ID: poi_contrib_sponsor_content_avail
-TEXT: Você tem {0} reportações de conteúdo disponíveis hoje.
+TEXT: Reportações de conteúdo disponíveis hoje: {0}.
 
 RESOURCE ID: poi_contrib_sponsor_content_maxed
 TEXT: Você atingiu seu máximo diário de reportações de conteúdo de {0}.
 
 RESOURCE ID: poi_contrib_sponsor_loc_added
-TEXT: Você terá mais {0} reportações de localização disponíveis amanhã.
+TEXT: Reportações de localização disponíveis amanhã: {0}.
 
 RESOURCE ID: poi_contrib_sponsor_loc_avail
-TEXT: Você tem {0} reportações de localização disponíveis hoje.
+TEXT: Reportações de localização disponíveis hoje: {0}.
 
 RESOURCE ID: poi_contrib_sponsor_loc_maxed
 TEXT: Você atingiu seu máximo diário de reportações de localização de {0}.
@@ -1129,8 +1129,23 @@ TEXT: Definir nome da pesquisa
 RESOURCE ID: pokemon_inventory_favorite_search_title
 TEXT: Gerenciar pesquisa de favoritos
 
+RESOURCE ID: pokemon_inventory_no_room_to_incubate
+TEXT: Você deve ter espaço no seu estoque de Pokémon antes de começar a chocar um Ovo.
+
+RESOURCE ID: pokemon_inventory_no_room_to_incubate_title
+TEXT: O seu estoque de Pokémon está cheio
+
 RESOURCE ID: pokemon_inventory_select_all
 TEXT: SELECIONAR TUDO
+
+RESOURCE ID: pokemon_inventory_special_egg_help
+TEXT: Os Ovos que você recebe semanalmente como recompensas da Sincroaventura ou de batalhas contra Líderes da Equipe GO Rocket aparecerão aqui se você já tiver 9 ovos.
+
+RESOURCE ID: pokemon_inventory_special_egg_help_title
+TEXT: Informações sobre estoque bônus
+
+RESOURCE ID: pokemon_inventory_special_eggs_title
+TEXT: Estoque bônus
 
 RESOURCE ID: pokemon_name_0650
 TEXT: Chespin
@@ -2223,6 +2238,9 @@ TEXT: Ingressos para a pesquisa especial "Magmar em erupção" estão disponíve
 RESOURCE ID: timed_research_pokemon_nidoran
 TEXT: Nidoran♀ e Nidoran♂ na pesquisa limitada
 
+RESOURCE ID: titan_poi_ar_video_exit
+TEXT: Tem certeza que deseja sair? Seu scan será excluído.
+
 RESOURCE ID: today_view_city_ar_bonus
 TEXT: Recompensas especiais de tarefas de mapeamento de RA em toda a cidade
 
@@ -2257,25 +2275,25 @@ RESOURCE ID: upload_mgmt_cancel_all
 TEXT: CANCEL UPLOAD
 
 RESOURCE ID: upload_mgmt_cancel_individual
-TEXT: CANCEL
+TEXT: CANCELAR
 
 RESOURCE ID: upload_mgmt_confirm_delete_individual
 TEXT: Do you want to delete {0} ({1} MB)?
 
 RESOURCE ID: upload_mgmt_confirm_yes
-TEXT: YES
+TEXT: SIM
 
 RESOURCE ID: upload_mgmt_delete_individual
-TEXT: DELETE
+TEXT: REMOVER
 
 RESOURCE ID: upload_mgmt_images
 TEXT: Photos: {0}
 
 RESOURCE ID: upload_mgmt_manage
-TEXT: MANAGE
+TEXT: GERENCIAR
 
 RESOURCE ID: upload_mgmt_manage_menu_header
-TEXT: MANAGE CONTRIBUTIONS
+TEXT: GERENCIAR CONTRIBUIÇÕES
 
 RESOURCE ID: upload_mgmt_no_pending_data
 TEXT: You have no contributions pending upload.
@@ -2287,31 +2305,31 @@ RESOURCE ID: upload_mgmt_ok
 TEXT: OK
 
 RESOURCE ID: upload_mgmt_pending_data
-TEXT: You have {0} MB pending upload.
+TEXT: Você tem {0} MB pendentes de upload.
 
 RESOURCE ID: upload_mgmt_retry
-TEXT: RETRY
+TEXT: TENTAR NOVAMENTE
 
 RESOURCE ID: upload_mgmt_thank_you
-TEXT: Thank you for your contribution!
+TEXT: Agradecemos a sua contribuição!
 
 RESOURCE ID: upload_mgmt_upload_all
-TEXT: UPLOAD ALL ({0} MB)
+TEXT: FAZER UPLOAD DE TODOS ({0} MB)
 
 RESOURCE ID: upload_mgmt_upload_confirm
-TEXT: Do you want to upload now?
+TEXT: Quer fazer o upload agora?
 
 RESOURCE ID: upload_mgmt_upload_confirm_info
-TEXT: You’re about to upload {0} MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
+TEXT: Você fará um upload de {0} MB de dados. Se não estiver conectado ao Wi-Fi, tarifas de dados podem ser cobradas.
 
 RESOURCE ID: upload_mgmt_upload_failed
-TEXT: Upload failed
+TEXT: Falha no upload
 
 RESOURCE ID: upload_mgmt_upload_individual
-TEXT: UPLOAD
+TEXT: FAZER UPLOAD
 
 RESOURCE ID: upload_mgmt_upload_later
-TEXT: UPLOAD LATER
+TEXT: FAZER UPLOAD MAIS TARDE
 
 RESOURCE ID: upload_mgmt_upload_later_instruction
 TEXT: When you’re ready to upload your contribution, please go to Settings > Player Contributions.
@@ -2320,8 +2338,8 @@ RESOURCE ID: upload_mgmt_uploading_all_msg
 TEXT: Uploading all ({0} MB)
 
 RESOURCE ID: upload_mgmt_uploading_individual
-TEXT: Uploading
+TEXT: Enviando
 
 RESOURCE ID: upload_mgmt_waiting_upload_msg
-TEXT: Waiting to upload
+TEXT: Esperando para fazer upload
 
