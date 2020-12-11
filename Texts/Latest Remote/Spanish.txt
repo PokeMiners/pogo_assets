@@ -55,6 +55,9 @@ TEXT: Anorak de Melmetal
 RESOURCE ID: avatar_f_shirt_melmetalvest_00_bundle_icon
 TEXT: Anorak sin mangas de Melmetal
 
+RESOURCE ID: avatar_f_shirt_movie2020jessiejames_00_bundle_icon
+TEXT: Conjunto aventura estilo Jessie
+
 RESOURCE ID: avatar_f_shoes_animegou_00_bundle_icon
 TEXT: Zapatillas estilo Goh
 
@@ -123,6 +126,9 @@ TEXT: Anorak de Melmetal
 
 RESOURCE ID: avatar_m_shirt_melmetalvest_00_bundle_icon
 TEXT: Anorak sin mangas de Melmetal
+
+RESOURCE ID: avatar_m_shirt_movie2020jessiejames_00_bundle_icon
+TEXT: Conjunto aventura estilo James
 
 RESOURCE ID: avatar_m_shoes_animegou_00_bundle_icon
 TEXT: Zapatillas estilo Goh
@@ -388,17 +394,38 @@ TEXT: No se ha podido dar más poder a este Pokémon.
 RESOURCE ID: event_friendship_2020
 TEXT: 12 Días de Amistad
 
+RESOURCE ID: event_hoenn_celebration
+TEXT: Evento de celebración de Hoenn
+
+RESOURCE ID: event_johto_celebration
+TEXT: Evento de celebración de Johto
+
 RESOURCE ID: event_kalos_celebration
 TEXT: Evento de celebración de Kalos
 
+RESOURCE ID: event_kanto_celebration
+TEXT: Evento de celebración de Kanto
+
 RESOURCE ID: event_season1_name
 TEXT: Temporada de Fiestas
+
+RESOURCE ID: event_sinnoh_celebration
+TEXT: Evento de celebración de Sinnoh
 
 RESOURCE ID: event_title_anime_week
 TEXT: Semana de la Animación
 
 RESOURCE ID: event_title_movie23
-TEXT: Evento de la película Pokémon: Los secretos de la selva
+TEXT: Los secretos de la selva
+
+RESOURCE ID: event_title_wooper_watch
+TEXT: Wooper a Gogó
+
+RESOURCE ID: event_unova_celebration
+TEXT: Evento de celebración de Teselia
+
+RESOURCE ID: explorer_pikachu_available
+TEXT: Pikachu Explorador está apareciendo en estado salvaje
 
 RESOURCE ID: f_avatar_poses_bundle_pose_22
 TEXT: Pose de Azul
@@ -445,11 +472,14 @@ TEXT: Botas de nivel 49
 RESOURCE ID: f_shoes_coolboots_00_bundle_icon
 TEXT: Botas de nivel 49
 
+RESOURCE ID: filter_key_candyxl
+TEXT: candyxl
+
 RESOURCE ID: friendship_bonus_increase
 TEXT: Aumento de los niveles de amistad más rápidamente
 
 RESOURCE ID: general1.ticket.2_description
-TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de diciembre del 12 de diciembre de 2020 a las 11 a. m. hasta el 13 de diciembre de 2020 a las 5 p. m. en tu hora local, estés donde estés. Puedes encontrar más información en las noticias dentro de la aplicación.
+TEXT: Una entrada para acceder a la investigación especial del Día de la Comunidad de diciembre, desde el 12 de diciembre de 2020 a las 11 a. m. hasta el 13 de diciembre de 2020 a las 5 p. m. en tu hora local, estés donde estés. Puedes encontrar más información en las noticias dentro de la aplicación.
 
 DEBES JUGAR DURANTE LAS HORAS ESPECIFICADAS PARA RECIBIR TODOS LOS BONUS DE ESTE EVENTO ESPECIAL. 
 
@@ -476,7 +506,7 @@ RESOURCE ID: general1.ticket.4_title
 TEXT: Entrada para el Tour de Pokémon GO: Kanto
 
 RESOURCE ID: group_seasonal
-TEXT: Vacaciones
+TEXT: Fiestas
 
 RESOURCE ID: gym_tag_event
 TEXT: EVENTO
@@ -494,13 +524,13 @@ RESOURCE ID: invalid_character_tag_name_warning
 TEXT: Este nombre contiene un carácter no válido.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Una entrada para acceder a una investigación especial el 21 de noviembre de 11 a. m. a 5 p. m. en tu hora local, estés donde estés.
+TEXT: Una entrada para acceder a una investigación especial los días 12 y 13 de diciembre de 11 a. m. a 5 p. m., cada día, en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_desc_2
 TEXT: Una entrada para acceder a una investigación especial el 21 de noviembre de 11 a. m. a 5 p. m. en tu hora local, estés donde estés.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Esta entrada se activará automáticamente para darte acceso a una investigación especial el 21 de noviembre, sea cual sea el lugar del mundo en el que te encuentres.
+TEXT: Esta entrada se activará automáticamente para darte acceso a una investigación especial los días 12 y 13 de diciembre, sea cual sea el lugar del mundo en el que te encuentres.
 
 RESOURCE ID: item_event_ticket_pink_details_2
 TEXT: Esta entrada se activará automáticamente para darte acceso a una investigación especial el 21 de noviembre, sea cual sea el lugar del mundo en el que te encuentres.
@@ -517,6 +547,9 @@ TEXT: Un caramelo misterioso. Cuando se usa en un Pokémon, se convierte en el C
 RESOURCE ID: item_xl_rare_candy_name
 TEXT: Caramelo Raro ++
 
+RESOURCE ID: jessie_james_boosted_encounter
+TEXT: Está apareciendo el globo de Meowth con Jessie y James
+
 RESOURCE ID: kanto_cup_title
 TEXT: Copa de Kanto
 
@@ -531,6 +564,18 @@ TEXT: Objetos de estilo del nivel {0}
 
 RESOURCE ID: level_up_quest_widget_description
 TEXT: Las recompensas de las tareas se concederán automáticamente al finalizarlas.
+
+RESOURCE ID: level_up_stats_pokemon_caught
+TEXT: Pokémon Caught
+
+RESOURCE ID: level_up_stats_pokestops_visited
+TEXT: PokéStops Visited
+
+RESOURCE ID: level_up_stats_raids_won
+TEXT: Raids Won
+
+RESOURCE ID: level_up_stats_title
+TEXT: Previous Level Activity
 
 RESOURCE ID: limited_research_nidoran
 TEXT: Investigación limitada de Nidoran ♀ y Nidoran ♂
@@ -590,12 +635,12 @@ RESOURCE ID: maximum_tags_error
 TEXT: No se pueden crear más de {0} etiquetas.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2020-12-08T00:18:05.553009
-at SHA 851293a6d7a7756ce0fb95818f9f1c7768d7e05e
-Patch from: 0.193.1-SHA-310fd888, 0.193.0-SHA-4d0e8664
+TEXT: Built at 2020-12-10T20:30:32.603212
+at SHA 8152f9f079b572db9177f57b2499e20ed2e81520
+Patch from: 0.195.0-SHA-3ceaf8d4, 0.193.1-SHA-310fd888
 
 RESOURCE ID: move_name_0348
-TEXT: Feather Dance
+TEXT: Danza Pluma
 
 RESOURCE ID: photobomb_five_electabuzz
 TEXT: 5 encuentros sorpresa con Electabuzz al usar Instantánea de GO
@@ -1477,13 +1522,16 @@ RESOURCE ID: quest_catch_special_mew
 TEXT: ¡Captura un Mew!
 
 RESOURCE ID: quest_complete_dec20cd
-TEXT: December Community Day
+TEXT: Día de la Comunidad de diciembre
 
 RESOURCE ID: quest_complete_elect
 TEXT: Un Electabuzz electrizante
 
 RESOURCE ID: quest_complete_magmt
 TEXT: Un Magmar sin igual
+
+RESOURCE ID: quest_defeat_jessie_james_plural
+TEXT: Derrota a Jessie o James {0} veces
 
 RESOURCE ID: quest_eevee_evolve_plural
 TEXT: Haz evolucionar a Eevee a cada una de sus diferentes evoluciones
@@ -1579,100 +1627,100 @@ RESOURCE ID: quest_special_dialogue_chart_1_1
 TEXT: Mientras estabas en el campo, revisé algunas investigaciones centradas en Charmander y su cadena evolutiva, y obtuve información interesante.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_0
-TEXT: Hello there, %PLAYERNAME%! It’s so great to see you. Can you believe this year is already coming to a close?
+TEXT: ¡Hola, %PLAYERNAME%! Qué alegría verte de nuevo. ¿Puedes creer que este año ya esté llegando a su fin?
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_1
-TEXT: It’s almost as if Pokémon in the wild can feel it, too. A few seem to be appearing in greater numbers than usual!
+TEXT: Es casi como si los Pokémon en estado salvaje también pudieran sentirlo. ¡Parece que algunos están apareciendo con más frecuencia de lo habitual!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_2
-TEXT: Strangely enough, the Pokémon appearing more frequently at the moment seem to be the same as those that did so previously throughout this year.
+TEXT: Curiosamente, los Pokémon que están apareciendo con más frecuencia en este momento parecen ser los mismos que lo hicieron anteriormente a lo largo de este año.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_3
-TEXT: Seeing all these Abra, Rhyhorn, and Piplup in the wild is making me a bit nostalgic. We’ve had quite a year, haven’t we?
+TEXT: Ver a todos estos Abra, Rhyhorn y Piplup en estado salvaje me está poniendo un poco nostálgico. Hemos tenido un año interesante, ¿no?
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_4
-TEXT: As you venture out to catch these Pokémon, I think it might be nice to reminisce on some of the highlights from this year and how much you’ve grown as a Pokémon Trainer along the way.
+TEXT: Mientras te aventuras a atrapar estos Pokémon, creo que estaría bien recordar algunos de los aspectos más destacados del año y lo mucho que han crecido tus dotes de Entrenador Pokémon en el camino.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_5
-TEXT: Who knows—you might even surprise yourself!
+TEXT: Quién sabe, ¡incluso podrías sorprenderte!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_1_0
-TEXT: Great job catching all those Abra, Rhyhorn, and Piplup, Trainer.
+TEXT: Excelente trabajo capturando a todos esos Abra, Rhyhorn y Piplup.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_1_1
-TEXT: As you were doing that, I was busy thinking about all we’ve accomplished together this year.
+TEXT: Mientras estabas en ello, he estado ocupado pensando en todo lo que hemos logrado juntos este año.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_1_2
-TEXT: We discovered the secrets of trade Evolution and met a vast variety of Pokémon originally discovered in the Unova region.
+TEXT: Descubrimos los secretos de la evolución por intercambio y conocimos una gran variedad de Pokémon descubiertos originalmente en la región de Teselia.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_1_3
-TEXT: We even encountered Legendary Pokémon like Tornadus, Thundurus, Reshiram, Zekrom, Landorus, and Kyurem!
+TEXT: ¡Incluso nos encontramos con Pokémon legendarios como Tornadus, Thundurus, Reshiram, Zekrom, Landorus y Kyurem!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_1_4
-TEXT: Then there were the Pokémon originally discovered in the Galar region. I was particularly excited to see Galarian Ponyta, Galarian Rapidash, and Sirfetch’d!
+TEXT: Y después tuvimos los Pokémon descubiertos originalmente en la región de Galar. ¡Me hizo especial ilusión ver a Ponyta de Galar, Rapidash de Galar y Sirfetch'd!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_1_5
-TEXT: Oh! And who could forget the mysterious appearance of Mega-Evolved Pokémon?
+TEXT: ¡Ah! ¿Y cómo olvidar la misteriosa aparición de los Pokémon megaevolucionados?
 
 RESOURCE ID: quest_special_dialogue_dec20cd_1_6
-TEXT: Hard to believe we fit all that into one year, eh, %PLAYERNAME%?
+TEXT: Es difícil de creer que hayamos hecho todo eso en un año, ¿eh, %PLAYERNAME%?
 
 RESOURCE ID: quest_special_dialogue_dec20cd_1_7
-TEXT: Anyway, I’ve rambled on long enough. It’s time for you to get back out there and catch some more Pokémon!
+TEXT: De todas formas, me estoy yendo por las ramas. ¡Es hora de que regreses y captures algunos Pokémon más!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_2_0
-TEXT: Ah—Weedle, Gastly, and Seedot. The stars of some memorable days this past year! I still get a bit jumpy at the sight of acorns. Haha!
+TEXT: Ummm..., y Weedle, Gastly y Seedot. ¡Las estrellas de algunos de los días más memorables de este año! Todavía me pongo un poco nervioso al ver las bellotas. ¡Ja, ja!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_2_1
-TEXT: Gastly gave us a bit of a fright as well. Remember?
+TEXT: Gastly también nos asustó un poco. ¿Te acuerdas?
 
 RESOURCE ID: quest_special_dialogue_dec20cd_2_2
-TEXT: OOOooooOOOoooo... BOO! Haha, sorry—I couldn’t help it.
+TEXT: OOOooooOOOoooo... ¡Bu! Ja, ja, lo siento, no he podido evitarlo.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_2_3
-TEXT: You know, Gastly isn’t the only gaseous thing we saw in abundance this year.
+TEXT: Ya sabes, Gastly no es lo único gaseoso que hemos visto en abundancia este año.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_2_4
-TEXT: That’s right—I’m talking about Team GO Rocket taking to the sky in balloons! An almost cartoonish mode of transportation, and yet surprisingly effective.
+TEXT: Así es, estoy hablando del Team GO Rocket, que tomó los cielos en globo. Un modo de transporte casi caricaturesco y, sin embargo, sorprendentemente eficaz.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_2_5
-TEXT: You know, if the members of Team GO Rocket weren’t so devoted to villainy, their assets and energy would likely make them great allies.
+TEXT: Ya sabes, si los miembros del Team GO Rocket no estuvieran tan dedicados a la villanía, sus recursos y energía probablemente los convertirían en grandes aliados.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_2_6
-TEXT: I hope that world comes to be someday.
+TEXT: Espero que algún día sea así.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_2_7
-TEXT: Ah, pardon my wistfulness. I tend to get more and more pensive as the day wears on. Does that happen to you as well?
+TEXT: En fin, perdona mi melancolía. Tiendo a ponerme más y más pensativo según va pasando el día. ¿Te pasa eso a ti también?
 
 RESOURCE ID: quest_special_dialogue_dec20cd_2_8
-TEXT: Perhaps you can ponder that while you go out and catch more Pokémon, %PLAYERNAME%!
+TEXT: ¡Quizás puedas reflexionar sobre eso mientras sales y atrapas más Pokémon, %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_3_0
-TEXT: It’s certainly been an interesting year, hasn’t it, %PLAYERNAME%? I can’t remember another one like it, and I’ve seen a few!
+TEXT: Sin duda alguna ha sido un año interesante, ¿no es así, %PLAYERNAME%? No recuerdo otro igual, ¡y he visto unos cuantos!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_3_1
-TEXT: But despite all the ways it’s challenged us, I can’t help but think that it’ll make future experiences feel even more precious and special.
+TEXT: Pero a pesar de todos los desafíos, quiero pensar que esto hará que nuestras futuras experiencias sean más valiosas y especiales.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_3_2
-TEXT: After all, no matter what happens, we’re all on this Pokémon journey together—every Trainer, regardless of where they are in the world.
+TEXT: Después de todo, pase lo que pase, estamos todos juntos en este viaje Pokémon; todos los Entrenadores, independientemente de dónde se encuentren en el mundo.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_3_3
-TEXT: That’s truly something special.
+TEXT: Eso es algo realmente especial.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_3_4
-TEXT: So when the going gets tough, remember that you’re not in this alone. And while bad days are inevitable, I like to think they make the good ones that much sweeter.
+TEXT: Así que, cuando las cosas se pongan difíciles, recuerda que no estás en esto en solitario. Y aunque los días malos son inevitables, me gusta pensar que hacen que los buenos sean mucho más dulces.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_3_5
-TEXT: I hope today has been one of the good ones for you!
+TEXT: ¡Espero que hoy haya sido uno de los buenos para ti!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_3_6
-TEXT: The world is ever changing, %PLAYERNAME%. What doesn’t change, however, is the fact that we have each other and our Pokémon.
+TEXT: El mundo cambia constantemente, %PLAYERNAME%. Sin embargo, lo que no cambia es el hecho de que nos tenemos los unos a los otros y a nuestros Pokémon
 
 RESOURCE ID: quest_special_dialogue_dec20cd_3_7
-TEXT: And as the mysterious world of Pokémon continues to grow, so do we—as Trainers, as a community, and as people.
+TEXT: Y a medida que el misterioso mundo de Pokémon continúa creciendo, también lo hacemos nosotros, como Entrenadores, como comunidad y como personas.
 
 RESOURCE ID: quest_special_dialogue_dec20cd_3_8
-TEXT: So here’s to a year for the books—and many more exciting ones to come!
+TEXT: Así que brindo por un año que pasará a la historia, ¡y por todos los emocionantes años que están por venir!
 
 RESOURCE ID: quest_special_dialogue_elect_0_0
 TEXT: ¡Hola, %PLAYERNAME%! Me alegro de verte.
@@ -1745,6 +1793,141 @@ TEXT: Ahora que ha vuelto la electricidad en mi laboratorio móvil, voy a volver
 
 RESOURCE ID: quest_special_dialogue_elect_3_6
 TEXT: Gracias de nuevo por toda tu ayuda, y hasta la próxima. ¡Vamos allá!
+
+RESOURCE ID: quest_special_dialogue_jj_0_0
+TEXT: Jessie: Oye, James, ¿has oído eso?
+
+RESOURCE ID: quest_special_dialogue_jj_0_1
+TEXT: James: ¿Qué pasa, Jessie?
+
+RESOURCE ID: quest_special_dialogue_jj_0_2
+TEXT: Jessie: ¡Parece que hay un Pokémon misterioso en un bosque cercano!
+
+RESOURCE ID: quest_special_dialogue_jj_0_3
+TEXT: James: ¡Adelante!
+
+RESOURCE ID: quest_special_dialogue_jj_0_4
+TEXT: Jessie: Dicen que se llama protector del bosque o algo así.
+
+RESOURCE ID: quest_special_dialogue_jj_0_5
+TEXT: James: ¡Anda! ¡Parece el tipo de Pokémon que le encantaría ver al jefe!
+
+RESOURCE ID: quest_special_dialogue_jj_0_6
+TEXT: Jessie: Va a ser un poco complicado porque no conocemos la zona.
+
+RESOURCE ID: quest_special_dialogue_jj_0_7
+TEXT: James: Ummm, ¡tal vez podamos engañar a alguien para que nos ayude!
+
+RESOURCE ID: quest_special_dialogue_jj_0_8
+TEXT: Jessie: Sí... ¿Eh? ¡Eh, tú! ¡Debes de ser un ayudante que envió el jefe! Sí, ¿por qué si no habría alguien aquí en medio de la nada?
+
+RESOURCE ID: quest_special_dialogue_jj_0_9
+TEXT: James: ¿Ayudante? ¡Oh! ¡Por supuesto! ¡Un ayudante! El jefe tiene grandes expectativas puestas en nosotros, después de todo. Ya que estás aquí, pongámonos manos a la obra.
+
+RESOURCE ID: quest_special_dialogue_jj_1_0
+TEXT: Jessie: ¡Buen trabajo, criatura! ¡No puedo creer que lo hicieras!
+
+RESOURCE ID: quest_special_dialogue_jj_1_1
+TEXT: James: ¡Sí! No está mal tener a alguien a quien mandar. Quiero decir, uy, ¡alguien que nos ayude! Jessie y yo estamos constantemente al pie del cañón, ya sabes.
+
+RESOURCE ID: quest_special_dialogue_jj_1_2
+TEXT: Jessie: Como puedes imaginar, es difícil estar presentables cuando siempre estamos corriendo de acá para allá. Pero, volviendo al grano, cumpliste con tu parte, así que supongo que podemos darte un pequeño descanso.
+
+RESOURCE ID: quest_special_dialogue_jj_1_3
+TEXT: James: ¡Excelente idea, Jessie! ¡Es importante bajar el ritmo de vez en cuando!
+
+RESOURCE ID: quest_special_dialogue_jj_1_4
+TEXT: James: Vete y pasa un poco de tiempo con tu compañero.
+
+RESOURCE ID: quest_special_dialogue_jj_2_0
+TEXT: Jessie: ¡Estoy tan contenta de que el jefe haya enviado a alguien tan útil como tú para ayudarnos!
+
+RESOURCE ID: quest_special_dialogue_jj_2_1
+TEXT: James: Ahora que lo mencionas, no nos has contado nada sobre ti. ¿Por dónde andas normalmente? ¿Cuánto tiempo llevas en el Team Rocket? Oh, ¿qué es lo que más te gusta del jefe? ¡Cuéntanos!
+
+RESOURCE ID: quest_special_dialogue_jj_2_10
+TEXT: James: Oye, ¿quién eres exactamente?
+
+RESOURCE ID: quest_special_dialogue_jj_2_11
+TEXT: James:... ... ...
+
+RESOURCE ID: quest_special_dialogue_jj_2_12
+TEXT: Jessie: Será mejor que empieces a hablar.
+
+RESOURCE ID: quest_special_dialogue_jj_2_13
+TEXT: Jessie: ¡Ajá! ¡Sabía que eras uno de esos mocosos molestos! ¡Todo esto era sospechoso desde el principio! ¿Alguien te envió para que te interpusieras en nuestro camino? ¡Sí, debe de ser eso!
+
+RESOURCE ID: quest_special_dialogue_jj_2_14
+TEXT: James: ¡Confié en ti! ¡Pensé que eras uno de los nuestros!
+
+RESOURCE ID: quest_special_dialogue_jj_2_15
+TEXT: Jessie: ¡Sabes demasiado! ¡No podemos dejarte ir! ¡Que no se nos escape, James!
+
+RESOURCE ID: quest_special_dialogue_jj_2_16
+TEXT: James: ¡No te atrevas a interponerte en nuestro camino! ¡Te arrepentirás si lo haces!
+
+RESOURCE ID: quest_special_dialogue_jj_2_17
+TEXT: Jessie: ¿No sabes quiénes somos? Bueno, ¡vamos a presentarnos formalmente!
+
+RESOURCE ID: quest_special_dialogue_jj_2_18
+TEXT: Jessie: ¿Buscáis problemas?
+
+RESOURCE ID: quest_special_dialogue_jj_2_19
+TEXT: James: ¡Pues escuchad nuestro lema!
+
+RESOURCE ID: quest_special_dialogue_jj_2_2
+TEXT: Jessie:...
+
+RESOURCE ID: quest_special_dialogue_jj_2_20
+TEXT: Jessie: ¡Para proteger al mundo de la devastación!
+
+RESOURCE ID: quest_special_dialogue_jj_2_21
+TEXT: James: ¡Para unir a todos los pueblos en...! ¡EY! ¿¡Estás escuchando!?
+
+RESOURCE ID: quest_special_dialogue_jj_2_3
+TEXT: James: Oye, parece que te ha comido la lengua el gato de repente.
+
+RESOURCE ID: quest_special_dialogue_jj_2_4
+TEXT: James: Jessie, ¿quién te dijo que íbamos a tener un ayudante?
+
+RESOURCE ID: quest_special_dialogue_jj_2_5
+TEXT: Jessie: ¡Nadie me dijo nada!
+
+RESOURCE ID: quest_special_dialogue_jj_2_6
+TEXT: James: Bueno, ¡pues nadie me dijo nada a mí tampoco!
+
+RESOURCE ID: quest_special_dialogue_jj_2_7
+TEXT: Jessie: ¡Pero tú eres quien dijo que lo envió el jefe!
+
+RESOURCE ID: quest_special_dialogue_jj_2_8
+TEXT: James: ¡Yo no dije tal cosa!
+
+RESOURCE ID: quest_special_dialogue_jj_2_9
+TEXT: James:... ... ...
+
+RESOURCE ID: quest_special_dialogue_jj_3_0
+TEXT: Jessie: ¡No puedo creer que nos haya derrotado un mocoso como tú!
+
+RESOURCE ID: quest_special_dialogue_jj_3_1
+TEXT: James: No lo he visto venir. ¿Qué va a decir el jefe...?
+
+RESOURCE ID: quest_special_dialogue_jj_3_2
+TEXT: James: ¡¿Eh?!
+
+RESOURCE ID: quest_special_dialogue_jj_3_3
+TEXT: Jessie: ¡Ey, detrás de ti! ¿No es Celebi? ¿Podría ser el llamado protector del bosque? 
+
+RESOURCE ID: quest_special_dialogue_jj_3_4
+TEXT: James: ¡Maldita sea! ¡Se suponía que ese Pokémon iba a ser nuestro!
+
+RESOURCE ID: quest_special_dialogue_jj_3_5
+TEXT: Jessie: Recuerda nuestras palabras...
+
+RESOURCE ID: quest_special_dialogue_jj_3_6
+TEXT: James: ¡Te atraparemos la próxima vez!
+
+RESOURCE ID: quest_special_dialogue_jj_3_7
+TEXT: Jessie: ¡Despegamos de nuevo!
 
 RESOURCE ID: quest_special_dialogue_lvl_43_0_0
 TEXT: ¡Hola, %PLAYERNAME%! ¡Es impresionante tu progreso como Entrenador!
@@ -2173,19 +2356,19 @@ RESOURCE ID: quest_title_anime_week
 TEXT: Investigación de la Semana de la Animación
 
 RESOURCE ID: quest_title_dec20cd
-TEXT: December Community Day
+TEXT: Día de la Comunidad de diciembre
 
 RESOURCE ID: quest_title_dec20cd_0
-TEXT: December Community Day (1/4)
+TEXT: Día de la Comunidad de diciembre (1/4)
 
 RESOURCE ID: quest_title_dec20cd_1
-TEXT: December Community Day (2/4)
+TEXT: Día de la Comunidad de diciembre (2/4)
 
 RESOURCE ID: quest_title_dec20cd_2
-TEXT: December Community Day (3/4)
+TEXT: Día de la Comunidad de diciembre (3/4)
 
 RESOURCE ID: quest_title_dec20cd_3
-TEXT: December Community Day (4/4)
+TEXT: Día de la Comunidad de diciembre (4/4)
 
 RESOURCE ID: quest_title_elect
 TEXT: Un Electabuzz electrizante
@@ -2376,6 +2559,9 @@ TEXT: ¿Quieres transformar un Caramelo Raro ++ en un Caramelo {0} ++?
 RESOURCE ID: reward_avatar_items
 TEXT: Recompensas de moda
 
+RESOURCE ID: settings_sfida_system_notifications
+TEXT: Notificaciones de inserción
+
 RESOURCE ID: shop_remote_raid_passes_title
 TEXT: ¡Oh, oh! Te has quedado sin pases de incursión remota.
 
@@ -2384,6 +2570,12 @@ TEXT: Están apareciendo más Electabuzz en estado salvaje
 
 RESOURCE ID: spawn_magmar
 TEXT: Están apareciendo más Magmar en estado salvaje
+
+RESOURCE ID: spawn_wooper
+TEXT: Están apareciendo más Wooper en estado salvaje
+
+RESOURCE ID: spotlight_hour_event_name
+TEXT: Hora del Pokémon Destacado
 
 RESOURCE ID: ticket_decembercd
 TEXT: Ticket for Special Research story available in the Shop: December Community Day
