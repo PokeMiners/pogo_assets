@@ -49,8 +49,17 @@ TEXT: Посети Покестоп, чтобы его отсканироват�
 RESOURCE ID: ar_scan_landing_walk_closer
 TEXT: Подойди ближе, чтобы отсканировать этот Покестоп.
 
+RESOURCE ID: arlo_challenge#6
+TEXT: Твоё высокомерие обернётся для тебя крахом, и я положу этому начало.
+
+RESOURCE ID: arlo_greeting#5
+TEXT: Победа Команды Ракета GO неизбежна. Сдавайся, и мы, может, тебя пожалеем.
+
 RESOURCE ID: avatar_bottoms
 TEXT: Низ
+
+RESOURCE ID: avatar_detail_pokemon_caught
+TEXT: Пойманные Покемоны
 
 RESOURCE ID: avatar_f_backpack_animegou_00_bundle_icon
 TEXT: Рюкзак в стиле Го
@@ -191,6 +200,9 @@ TEXT: Юбка LeafGreen
 
 RESOURCE ID: avatar_f_pants_mewtwo_0_bundle_icon
 TEXT: Штаны Мьюту
+
+RESOURCE ID: avatar_f_pants_teamrocket_bundle_icon
+TEXT: Юбка Команды Ракета
 
 RESOURCE ID: avatar_f_pants_teamspark_0_bundle_icon
 TEXT: Брюки в стиле Спарка
@@ -665,16 +677,49 @@ RESOURCE ID: award_badge_rank_up
 TEXT: Защищай дружественные Гимы и атакуй Гимы соперников, чтобы повысить уровень своих Гим-значков.
 
 RESOURCE ID: badge_7_day_streaks
-TEXT: Лови Покемонов или вращай Покестопы семь дней подряд x{0}
+TEXT: Лови Покемонов или вращай Покестопы семь дней подряд x{0}.
 
 RESOURCE ID: badge_7_day_streaks_singular
 TEXT: Лови Покемонов или вращай Покестопы семь дней подряд.
 
+RESOURCE ID: badge_battle_attack_won
+TEXT: Победи в Гим-битвах: {0}.
+
+RESOURCE ID: badge_battle_defend_won
+TEXT: Победи в {0} оборонительных боях!
+
+RESOURCE ID: badge_battle_defend_won_title
+TEXT: Победы в оборонительных боях
+
+RESOURCE ID: badge_battle_training_won
+TEXT: Тренируй Покемонов {0} раз.
+
+RESOURCE ID: badge_berries_fed
+TEXT: Накорми Покемонов {0} ягодами в Гимах.
+
+RESOURCE ID: badge_big_magikarp
+TEXT: Поймай {0} больших Мэджикарпов.
+
+RESOURCE ID: badge_buddy_best
+TEXT: {0} лучших приятелей.
+
+RESOURCE ID: badge_buddy_best_singular
+TEXT: 1 лучший приятель.
+
 RESOURCE ID: badge_capture_total
 TEXT: Поймай {0} Покемонов.
 
+RESOURCE ID: badge_challenge_quests
+TEXT: Выполни {0} заданий для полевых квестов. 
+
+RESOURCE ID: badge_defeated_fort
+TEXT: Победи в {0} сражениях.
+
 RESOURCE ID: badge_deployed_total
 TEXT: Отправь Покемонов в Гимы: {0}.
+
+RESOURCE ID: badge_encountered_total
+TEXT: Повстречай Покемонов: {0}.
 
 RESOURCE ID: badge_event_0008_title
 TEXT: Город под софитами 2020
@@ -701,25 +746,40 @@ RESOURCE ID: badge_evolved_total
 TEXT: Эволюционируй {0} Покемонов.
 
 RESOURCE ID: badge_gotour_2021_green_global
-TEXT: Global, February 20, 2021
+TEXT: 20 февраля 2021 г. по всему миру
 
 RESOURCE ID: badge_gotour_2021_green_global_title
-TEXT: Pokémon GO Tour: Kanto
+TEXT: Тур Pokémon GO: Канто
 
 RESOURCE ID: badge_gotour_2021_red_global
-TEXT: Global, February 20, 2021
+TEXT: 20 февраля 2021 г. по всему миру
 
 RESOURCE ID: badge_gotour_2021_red_global_title
-TEXT: Pokémon GO Tour: Kanto
+TEXT: Тур Pokémon GO: Канто
 
 RESOURCE ID: badge_great_league
-TEXT: Победи в {0} тренерских битвах Великой Лиги
+TEXT: Победи в {0} тренерских битвах Великой Лиги.
 
 RESOURCE ID: badge_great_league_singular
 TEXT: Победи в тренерской битве Великой Лиги.
 
+RESOURCE ID: badge_hatched_total
+TEXT: Выноси {0} яиц.
+
+RESOURCE ID: badge_hours_defended
+TEXT: Защищай Гимы {0} ч.
+
+RESOURCE ID: badge_legendary_battle_won
+TEXT: Победи в {0} Легендарных рейдах.
+
 RESOURCE ID: badge_master_league
 TEXT: Победи в {0} тренерских битвах Мастер-Лиги
+
+RESOURCE ID: badge_max_level_friends
+TEXT: Станьте лучшими друзьями с {0} Тренерами. 
+
+RESOURCE ID: badge_max_level_friends_singular
+TEXT: Станьте лучшими друзьями с {0} Тренером.
 
 RESOURCE ID: badge_mini_collection_singular
 TEXT: Выполни коллекционные испытания.
@@ -727,67 +787,154 @@ TEXT: Выполни коллекционные испытания.
 RESOURCE ID: badge_mini_collection_title
 TEXT: Элитный коллекционер
 
+RESOURCE ID: badge_photobomb
+TEXT: {0} неожиданных встреч в Стоп-кадрe GO.
+
+RESOURCE ID: badge_pikachu
+TEXT: Поймай {0} Пикачу.
+
+RESOURCE ID: badge_pokedex_entries
+TEXT: Зарегистрируй в Покедексе Покемонов из региона Канто: {0}.
+
+RESOURCE ID: badge_pokedex_entries_gen2
+TEXT: Зарегистрируй в Покедексе {0} Покемонов, впервые обнаруженных в регионе Джото.
+
+RESOURCE ID: badge_pokedex_entries_gen3
+TEXT: Зарегистрируй в Покедексе {0} Покемонов, впервые обнаруженных в регионе Хоэнн.
+
+RESOURCE ID: badge_pokedex_entries_gen4
+TEXT: Зарегистрируй в Покедексе {0} Покемонов, впервые обнаруженных в регионе Синно.
+
+RESOURCE ID: badge_pokedex_entries_gen5
+TEXT: Зарегистрируй в Покедексе {0} Покемонов, впервые обнаруженных в регионе Юнова.
+
+RESOURCE ID: badge_pokedex_entries_gen6
+TEXT: Зарегистрируй в Покедексе Покемонов, впервые обнаруженных в регионе Калос: {0}.
+
+RESOURCE ID: badge_pokemon_caught_at_your_lures
+TEXT: Используй приманку, чтобы помочь другому Тренеру поймать {0} Покемонов.
+
+RESOURCE ID: badge_pokemon_caught_at_your_lures_singular
+TEXT: Используй приманку, чтобы помочь другому Тренеру поймать Покемона.
+
+RESOURCE ID: badge_pokemon_purified
+TEXT: Очисти {0} Теневых Покемонов.
+
+RESOURCE ID: badge_pokestops_visited
+TEXT: Посети {0} Покестопов. 
+
+RESOURCE ID: badge_prestige_dropped
+TEXT: Понизь престиж Гима на {0}!
+
+RESOURCE ID: badge_prestige_raised
+TEXT: Подними престиж Гима на {0}!
+
+RESOURCE ID: badge_raid_battle_won
+TEXT: Победи в {0} рейдах.
+
+RESOURCE ID: badge_rocket_grunts_defeated
+TEXT: Победи {0} членов Команды Ракета GO.
+
+RESOURCE ID: badge_small_rattata
+TEXT: Поймай {0} маленьких Раттат.
+
 RESOURCE ID: badge_total_mega_evos
-TEXT: Мегаэволюционируй Покемона x{0}.
+TEXT: Мегаэволюционируй Покемона {0} раз.
+
+RESOURCE ID: badge_trading
+TEXT: Обменяй {0} Покемонов.
+
+RESOURCE ID: badge_travel_km
+TEXT: Пройди {0:0.#} км.
 
 RESOURCE ID: badge_type_bug
-TEXT: Поймать {0} насекомых Покемонов.
+TEXT: Поймай {0} насекомых Покемонов.
 
 RESOURCE ID: badge_type_dark
-TEXT: Поймать {0} тёмных Покемонов.
+TEXT: Поймай {0} тёмных Покемонов.
 
 RESOURCE ID: badge_type_dragon
-TEXT: Поймать {0} драконих Покемонов.
+TEXT: Поймай {0} драконьих Покемонов.
 
 RESOURCE ID: badge_type_electric
-TEXT: Поймать {0} электрических Покемонов.
+TEXT: Поймай {0} электрических Покемонов.
+
+RESOURCE ID: badge_type_fairy
+TEXT: Поймай {0} Покемонов типа Феи.
 
 RESOURCE ID: badge_type_fighting
-TEXT: Поймать {0} боевых Покемонов.
+TEXT: Поймай {0} боевых Покемонов.
 
 RESOURCE ID: badge_type_fire
-TEXT: Поймать {0} огненных Покемонов.
+TEXT: Поймай {0} огненных Покемонов.
+
+RESOURCE ID: badge_type_flying
+TEXT: Поймай {0} Покемонов летающего типа.
 
 RESOURCE ID: badge_type_ghost
-TEXT: Поймай {0} Покемонов типа Привидение.
+TEXT: Поймай {0} Покемонов типа Привидения.
 
 RESOURCE ID: badge_type_grass
-TEXT: Поймать {0} травяных Покемонов.
+TEXT: Поймай {0} травяных Покемонов.
 
 RESOURCE ID: badge_type_ground
-TEXT: Поймать {0} земных Покемонов.
+TEXT: Поймай {0} земляных Покемонов.
 
 RESOURCE ID: badge_type_ice
-TEXT: Поймать {0} ледяных Покемонов.
+TEXT: Поймай {0} ледяных Покемонов.
 
 RESOURCE ID: badge_type_normal
-TEXT: Поймать {0} обычных Покемонов.
+TEXT: Поймай {0} обычных Покемонов.
 
 RESOURCE ID: badge_type_poison
-TEXT: Поймать {0} ядовитых Покемонов.
+TEXT: Поймай {0} ядовитых Покемонов.
 
 RESOURCE ID: badge_type_psychic
-TEXT: Поймать {0} психических Покемонов.
+TEXT: Поймай {0} психических Покемонов.
 
 RESOURCE ID: badge_type_rock
-TEXT: Поймать {0} каменных Покемонов.
+TEXT: Поймай {0} каменных Покемонов.
 
 RESOURCE ID: badge_type_steel
-TEXT: Поймать {0} стальных Покемонов.
+TEXT: Поймай {0} стальных Покемонов.
+
+RESOURCE ID: badge_type_steel_title
+TEXT: Железнодорожник
 
 RESOURCE ID: badge_type_water
-TEXT: Поймать {0} водных Покемонов.
+TEXT: Поймай {0} водных Покемонов.
 
 RESOURCE ID: badge_type_water_title
 TEXT: Пловец
 
 RESOURCE ID: badge_ultra_league
-TEXT: Победи в {0} тренерских битвах Ультралиги
+TEXT: Победи в {0} тренерских битвах Ультралиги.
+
+RESOURCE ID: badge_ultra_league_singular
+TEXT: Победи в тренерской битве Ультралиги.
+
+RESOURCE ID: badge_unique_mega_evos
+TEXT: Мегаэволюционируй Покемонов {0} разных видов.
+
+RESOURCE ID: badge_unique_mega_evos_singular
+TEXT: Мегаэволюционируй {0} Покемона.
+
+RESOURCE ID: badge_unique_pokestops
+TEXT: Посети разные Покестопы: {0}.
+
+RESOURCE ID: badge_unown
+TEXT: Поймай Аноунов: {0}.
 
 RESOURCE ID: batch_transfer_confirm
 TEXT: <size=36><b>Передать Профессору Покемонов: {0}?</b></size>
 
 Ты не сможешь отменить это действие после передачи.
+
+RESOURCE ID: battle_day_marill
+TEXT: Боевой день GO: Мэрилл
+
+RESOURCE ID: battle_day_pidgey
+TEXT: Боевой день GO: Пиджи
 
 RESOURCE ID: battle_hub_stats_wins
 TEXT: Победы
@@ -803,6 +950,9 @@ TEXT: Рекомендуемая команда
 
 RESOURCE ID: battle_special_toast
 TEXT: {0} использовал атаку {1}!
+
+RESOURCE ID: blanche_inspire#4
+TEXT: Сконцентрируйся!
 
 RESOURCE ID: boosted_mega_pokemon_abomasnow
 TEXT: Мега-Абомасноу временно сильнее!
@@ -843,6 +993,15 @@ TEXT: Вдвое короче дистанция, чтобы заработат�
 RESOURCE ID: buddy_detail_cp
 TEXT: Усиление БС
 
+RESOURCE ID: buddy_detail_gift
+TEXT: Поиск подарков
+
+RESOURCE ID: buddy_detail_nearby
+TEXT: Поиск локаций
+
+RESOURCE ID: buddy_detail_souvenir
+TEXT: Поиск сувениров
+
 RESOURCE ID: buddy_general_term_description_cp
 TEXT: Ты можешь подбодрить своего приятеля, чтобы повысить его БC в сражениях.
 
@@ -877,7 +1036,7 @@ RESOURCE ID: buddy_walked_found_xl_candy
 TEXT: {0} found a Candy XL!
 
 RESOURCE ID: bugout_2019_easy_catch_bug
-TEXT: Поймай {0} Покемонов типа Насекомое
+TEXT: Поймай {0} насекомых Покемонов
 
 RESOURCE ID: bugout_2019_easy_catch_ledspin
 TEXT: Поймай {0} Ледибов или Спинараков
@@ -886,10 +1045,10 @@ RESOURCE ID: bugout_2019_easy_catch_wurm
 TEXT: Поймай {0} Вурмплов
 
 RESOURCE ID: bugout_2019_medium_catch_bug
-TEXT: Поймай {0} Покемонов типа Насекомое
+TEXT: Поймай {0} насекомых Покемонов
 
 RESOURCE ID: bugout_2019_medium_evolve_bug
-TEXT: Эволюционируй {0} Покемонов типа Насекомое
+TEXT: Эволюционируй {0} насекомых Покемонов
 
 RESOURCE ID: bulk_upgrade_final_confirmation
 TEXT: Ты действительно хочешь, чтобы Покемон {0} был усилен?
@@ -906,6 +1065,9 @@ TEXT: 3× XP за поимку
 RESOURCE ID: challenge_2019_battle_leader
 TEXT: Сразись с лидером команды x{0}
 
+RESOURCE ID: challenge_2019_battle_trainer
+TEXT: Сразись с другим Тренером
+
 RESOURCE ID: challenge_2019_battle_trainer_plural
 TEXT: Сразись с другим Тренером x{0}
 
@@ -915,8 +1077,41 @@ TEXT: Победи другого Тренера x{0}
 RESOURCE ID: challenge_2019_snapshot_pkmn
 TEXT: Сфотографируй Джирачи x{0}
 
+RESOURCE ID: challenge_2019_snapshot_pkmn_fairy
+TEXT: Сфотографируй {0} Покемонов типа Феи
+
+RESOURCE ID: challenge_2019_snapshot_pkmn_flying
+TEXT: Сфотографируй {0} летающих Покемонов
+
 RESOURCE ID: challenge_2019_snapshot_pkmn_ghost
-TEXT: Сфотографируй Покемонов типа Привидение x{0}
+TEXT: Сфотографируй {0} Покемонов типа Привидение
+
+RESOURCE ID: challenge_2019_snapshot_pkmn_grass
+TEXT: Сфотографируй {0} травяных Покемонов
+
+RESOURCE ID: challenge_2019_snapshot_pkmn_ground
+TEXT: Сфотографируй {0} земляных Покемонов
+
+RESOURCE ID: challenge_2019_snapshot_pkmn_ice
+TEXT: Сфотографируй {0} ледяных Покемонов
+
+RESOURCE ID: challenge_2019_snapshot_pkmn_normal
+TEXT: Сфотографируй {0} обычных Покемонов
+
+RESOURCE ID: challenge_2019_snapshot_pkmn_psychic
+TEXT: Сфотографируй {0} психических Покемонов
+
+RESOURCE ID: challenge_2019_snapshot_pkmn_psychic_steel
+TEXT: Сфотографируй {0} психических или стальных Покемонов
+
+RESOURCE ID: challenge_2019_snapshot_pkmn_rock
+TEXT: Сфотографируй {0} каменных Покемонов
+
+RESOURCE ID: challenge_2019_snapshot_pkmn_steel
+TEXT: Сфотографируй {0} стальных Покемонов
+
+RESOURCE ID: challenge_2019_snapshot_pkmn_water
+TEXT: Сфотографируй {0} водных Покемонов
 
 RESOURCE ID: challenge_aprilmay2020_vote_gastly_community_day
 TEXT: Голосуй за День сообщества с Гастли! Поймай {0} Покемонов
@@ -960,8 +1155,83 @@ TEXT: Голосуй за День сообщества с Граймером! �
 RESOURCE ID: challenge_junejuly2020_vote_porygon_community_day
 TEXT: Голосуй за День сообщества с Поригоном! Поймай {0} Покемонов
 
+RESOURCE ID: challenge_snapshot_pkmn_bug
+TEXT: Сфотографируй {0} насекомых Покемонов
+
+RESOURCE ID: challenge_snapshot_pkmn_bug_single
+TEXT: Сфотографируй 1 насекомого Покемона
+
+RESOURCE ID: challenge_snapshot_pkmn_dark
+TEXT: Сфотографируй {0} тёмных Покемонов
+
+RESOURCE ID: challenge_snapshot_pkmn_dark_single
+TEXT: Сфотографируй 1 тёмного Покемона
+
+RESOURCE ID: challenge_snapshot_pkmn_dragon
+TEXT: Сфотографируй {0} драконьих Покемонов
+
+RESOURCE ID: challenge_snapshot_pkmn_dragon_single
+TEXT: Сфотографируй 1 драконьего Покемона
+
+RESOURCE ID: challenge_snapshot_pkmn_electric
+TEXT: Сфотографируй {0} электрических Покемонов
+
+RESOURCE ID: challenge_snapshot_pkmn_electric_single
+TEXT: Сфотографируй 1 электрического Покемона
+
+RESOURCE ID: challenge_snapshot_pkmn_fairy_single
+TEXT: Сфотографируй 1 Покемона типа Феи
+
+RESOURCE ID: challenge_snapshot_pkmn_fighting
+TEXT: Сфотографируй {0} Покемонов типа Сражения
+
+RESOURCE ID: challenge_snapshot_pkmn_fighting_single
+TEXT: Сфотографируй {0} боевых Покемонов
+
+RESOURCE ID: challenge_snapshot_pkmn_fire
+TEXT: Сфотографируй {0} огненных Покемонов
+
+RESOURCE ID: challenge_snapshot_pkmn_fire_single
+TEXT: Сфотографируй {0} огненных Покемонов
+
+RESOURCE ID: challenge_snapshot_pkmn_flying_single
+TEXT: Сфотографируй 1 летающего Покемона
+
 RESOURCE ID: challenge_snapshot_pkmn_ghost_single
-TEXT: Сфотографируй Покемона типа Привидение
+TEXT: Сфотографируй 1 Покемона типа Привидение
+
+RESOURCE ID: challenge_snapshot_pkmn_grass_single
+TEXT: Сфотографируй 1 травяного Покемона
+
+RESOURCE ID: challenge_snapshot_pkmn_ground_single
+TEXT: Сфотографируй 1 земляного Покемона
+
+RESOURCE ID: challenge_snapshot_pkmn_ice_single
+TEXT: Сфотографируй 1 ледяного Покемона
+
+RESOURCE ID: challenge_snapshot_pkmn_normal_single
+TEXT: Сфотографируй 1 обычного Покемона
+
+RESOURCE ID: challenge_snapshot_pkmn_poison
+TEXT: Сфотографируй {0} ядовитых Покемонов
+
+RESOURCE ID: challenge_snapshot_pkmn_poison_single
+TEXT: Сфотографируй 1 ядовитого Покемона
+
+RESOURCE ID: challenge_snapshot_pkmn_psychic_single
+TEXT: Сфотографируй 1 психического Покемона
+
+RESOURCE ID: challenge_snapshot_pkmn_rock
+TEXT: Сфотографируй {0} каменных Покемонов
+
+RESOURCE ID: challenge_snapshot_pkmn_rock_single
+TEXT: Сфотографируй 1 каменного Покемона
+
+RESOURCE ID: challenge_snapshot_pkmn_steel_single
+TEXT: Сфотографируй 1 стального Покемона
+
+RESOURCE ID: challenge_snapshot_pkmn_water_single
+TEXT: Сфотографируй 1 водного Покемона
 
 RESOURCE ID: change to upload later
 TEXT: UPLOAD LATER
@@ -978,11 +1248,23 @@ TEXT: Take a snapshot near Takaragaike Park Children's Paradise
 RESOURCE ID: city_spotlight_2020_title
 TEXT: Город под софитами 2020
 
+RESOURCE ID: cliff_challenge#6
+TEXT: Ты – насекомое, которое надо растоптать!
+
+RESOURCE ID: cliff_challenge#8
+TEXT: За Команду Ракета GO.
+
+RESOURCE ID: cliff_greeting#8
+TEXT: Зачем доказывать обратное? Команда Ракета GO всегда побеждает!
+
 RESOURCE ID: cliff_greeting#9
 TEXT: Почему ты сражаешься с нами? Команда Ракета GO дала стольким из нас общую цель. Что в этом плохого?
 
 RESOURCE ID: cliff_victory#5
 TEXT: Вот так-то! Команда Ракета GO никогда не проигрывает!
+
+RESOURCE ID: combat_battle
+TEXT: СРАЗИТЬСЯ
 
 RESOURCE ID: combat_buff_lvl1
 TEXT: {0} усилилась!
@@ -996,6 +1278,9 @@ TEXT: {0} необычайно усилилась!
 RESOURCE ID: combat_charge_instruction
 TEXT: Води пальцем по экрану!
 
+RESOURCE ID: combat_combat
+TEXT: Сразиться
+
 RESOURCE ID: combat_debuff_lvl1
 TEXT: {0} упала!
 
@@ -1004,6 +1289,12 @@ TEXT: {0} резко упала!
 
 RESOURCE ID: combat_debuff_lvl3
 TEXT: {0} резко упала!
+
+RESOURCE ID: combat_grunt_quote_bug__female_speaker
+TEXT: Вперёд, мой непобедимый Покемон-Насекомое!
+
+RESOURCE ID: combat_grunt_quote_bug__male_speaker
+TEXT: Вперёд, мой непобедимый Покемон-Насекомое!
 
 RESOURCE ID: combat_journal_draw
 TEXT: Ты и {0} сыграли вничью.
@@ -1031,6 +1322,9 @@ TEXT: ИСПОЛЬЗОВАТЬ ЭТУ КОМАНДУ
 
 RESOURCE ID: community_day_machop_event_name
 TEXT: Community Day: Machop
+
+RESOURCE ID: community_day_roselia_event_name
+TEXT: Community Day: Roselia
 
 RESOURCE ID: consume_combat_pass_warning_desc
 TEXT: Ты можешь продолжать использовать {0}, пока не выиграешь битву.
@@ -1074,8 +1368,26 @@ TEXT: Только один из каждого вида Покемонов мо
 RESOURCE ID: egg_transparency_available_pokemon
 TEXT: HATCHABLE POKÉMON
 
+RESOURCE ID: encounter_excellent_throw
+TEXT: Прекрасно!
+
+RESOURCE ID: encounter_great_throw
+TEXT: Отлично!
+
+RESOURCE ID: encounter_nice_throw
+TEXT: Хорошо!
+
 RESOURCE ID: encounter_raid_pokemon_appeared
 TEXT: Бонусное испытание! Поймай Покемона: {0}!
+
+RESOURCE ID: encounter_score_excellent_throw
+TEXT: Прекрасный бросок
+
+RESOURCE ID: encounter_score_great_throw
+TEXT: Отличный бросок
+
+RESOURCE ID: encounter_score_nice_throw
+TEXT: Хороший бросок
 
 RESOURCE ID: encounter_score_pokemon_caught
 TEXT: Поимка Покемона
@@ -1106,6 +1418,12 @@ TEXT: Johto Celebration Event
 
 RESOURCE ID: event_kanto_celebration
 TEXT: Kanto Celebration Event
+
+RESOURCE ID: event_mega_evolve_reminder
+TEXT: Заработай больше конфет за поимку Покемонов того же типа, что и твой прошедший мегаэволюцию Покемон
+
+RESOURCE ID: event_move_ampharos_dragon_pulse
+TEXT: Эволюционируй Флаффи, чтобы получить Амфароса с Пульсом Дракона
 
 RESOURCE ID: event_sinnoh_celebration
 TEXT: Sinnoh Celebration Event
@@ -1142,6 +1460,9 @@ TEXT: Ивент Эволюции – Поймай {0} Санкернов
 
 RESOURCE ID: evo_2019_evolve_1
 TEXT: Ивент Эволюции – Эволюционируй {0} Покемонов
+
+RESOURCE ID: evo_2019_raid
+TEXT: Ивент Эволюции – Победи в {0} рейдах
 
 RESOURCE ID: evolve_xp_double
 TEXT: 2× XP за эволюционирование Покемона
@@ -1191,6 +1512,24 @@ TEXT: candyxl
 RESOURCE ID: filter_key_evolve_mega
 TEXT: мегаэволюция
 
+RESOURCE ID: filter_label_evolve_mega
+TEXT: Мегаэво-
+люцио-
+нируе-
+мый
+
+RESOURCE ID: filter_label_hatched
+TEXT: Вылу-
+пился
+
+RESOURCE ID: filter_label_legendary
+TEXT: Леген-
+дарный
+
+RESOURCE ID: filter_label_traded
+TEXT: Обме-
+ненный
+
 RESOURCE ID: first_time_encounter|2
 TEXT: Вот несколько Поке-Боллов. Они помогут тебе его поймать!
 
@@ -1229,7 +1568,7 @@ RESOURCE ID: friend_invite_received_toast
 TEXT: Пришёл запрос в друзья от Тренера {0}!
 
 RESOURCE ID: friend_sent_you_gift_notification
-TEXT: Пришёл подарок от Тренера {0}!
+TEXT: Тебе пришёл подарок от Тренера {0}!
 
 RESOURCE ID: gbl_double_dust_rank_up
 TEXT: 2× звёздная пыль за повышение ранга в Боевой Лиге GO
@@ -1267,15 +1606,23 @@ RESOURCE ID: general1.ticket.1_title
 TEXT: Билет на ивент: Галарский Мистер Майм
 
 RESOURCE ID: general1.ticket.2_description
-TEXT: Билет на посещение ивента «Галарский Мистер Майм» с 10:00 19 декабря 2020 г. до 20:00 20 декабря 2020 г. по местному времени, независимо от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
+TEXT: Билет на посещение особого квеста «К вершине, Мачоп!» 16 января с 11:00 до 17:00 по местному времени, независимо от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
 
  ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ ИВЕНТА, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
 
+RESOURCE ID: general1.ticket.2_roset_description
+TEXT: A ticket to access the "Stop and Smell the Roselia" Special Research from February 7, 2021, at 11:00 a.m. to February 7, 2021, at 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+ YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_roset_title
+TEXT: Stop and Smell the Roselia Ticket
+
 RESOURCE ID: general1.ticket.2_title
-TEXT: Билет на ивент: Галарский Мистер Майм
+TEXT: Билет на ивент: К вершине, Мачоп!
 
 RESOURCE ID: general_battle
-TEXT: СРАЖЕНИЕ
+TEXT: СРАЗИТЬСЯ
 
 RESOURCE ID: general_do_not_allow
 TEXT: Не разрешать
@@ -1337,44 +1684,50 @@ TEXT: ...В любом случае твой каменный Голем мож�
 RESOURCE ID: gofest2020_quest_rocket_dialogue_3_0
 TEXT: Молодец, тебе удалось победить Арло, Клиффа и Сиерру. Теперь остался их босс, Джованни. Ну как, %PLAYERNAME%, у тебя всё готово?
 
+RESOURCE ID: gofest2020_quest_rocket_dialogue_3_7
+TEXT: Я слышал, что Джованни часто начинает свои сражения, используя своего Покемона-приятеля, Персиана, который слаб к атакам типа Сражения. В этом тебе сможет помочь пойманный тобой ранее Мачамп.
+
 RESOURCE ID: gofestd_2019_easy_evolve
 TEXT: Глобальный Фестиваль GO – Эволюционируй {0} Покемонов
 
+RESOURCE ID: gofestd_2019_easy_land_great
+TEXT: Глобальный Фестиваль GO – Сделай отличные кручёные броски: {0} подряд
+
 RESOURCE ID: gotour2021_choose_green
-TEXT: Choose Green
+TEXT: Выбрать версию Green
 
 RESOURCE ID: gotour2021_choose_red
-TEXT: Выбрать красный
+TEXT: Выбрать версию Red
 
 RESOURCE ID: gotour2021_choose_version_desc
 TEXT: Ты не сможешь изменить версию после того, как сделаешь выбор.
 
 RESOURCE ID: gotour2021_choose_version_title_green
-TEXT: Do you want to choose Green Version?
+TEXT: Ты хочешь выбрать версию Green?
 
 RESOURCE ID: gotour2021_choose_version_title_red
-TEXT: Ты хочешь выбрать красный?
+TEXT: Ты хочешь выбрать версию Red?
 
 RESOURCE ID: gotour2021_content_hashtag
-TEXT: Post photos with #PokemonGOTour, and we’ll share our favorites!
+TEXT: Публикуй фото с хэштегом #PokemonGOTour, а мы поделимся нашими любимыми снимками!
 
 RESOURCE ID: gotour2021_content_link_green
-TEXT: You have selected Green Version
+TEXT: Была выбрана версия Green
 
 RESOURCE ID: gotour2021_content_link_red
-TEXT: You have selected Red Version
+TEXT: Была выбрана версия Red
 
 RESOURCE ID: gotour2021_content_link_short
-TEXT: Post photos with #PokemonGOTour, and we’ll share our favorites!
+TEXT: Публикуй фото с хэштегом #PokemonGOTour, а мы поделимся нашими любимыми снимками!
 
 RESOURCE ID: gotour2021_minicollect_description_ongoing
 TEXT: Лови, обменивай и эволюционируй этих Покемонов до того, как закончится время, чтобы завершить коллекционные испытания Тура Pokémon GO: Канто!
 
 RESOURCE ID: gotour2021_welcome_green
-TEXT: Welcome to Pokémon GO Tour: Kanto!
+TEXT: Добро пожаловать на Тур Pokémon GO: Канто!
 
 RESOURCE ID: gotour2021_welcome_red
-TEXT: Welcome to Pokémon GO Tour: Kanto!
+TEXT: Добро пожаловать на Тур Pokémon GO: Канто!
 
 RESOURCE ID: group_seasonal
 TEXT: Праздники
@@ -1400,14 +1753,14 @@ TEXT: Битва Покемонов? Круто! Начнём!
 RESOURCE ID: grunt_generic_challenge#5__male_speaker
 TEXT: Битва Покемонов? Круто! Начнём!
 
+RESOURCE ID: grunt_generic_challenge#8__female_speaker
+TEXT: Смотрите, кто возомнил себя героем!
+
+RESOURCE ID: grunt_generic_challenge#8__male_speaker
+TEXT: Смотрите, кто возомнил себя героем!
+
 RESOURCE ID: grunt_generic_greeting#10__female_speaker
 TEXT: О! Так вот кто тут хулиганит!
-
-RESOURCE ID: grunt_generic_greeting#13__female_speaker
-TEXT: Чего тебе надо, чума? Катись отсюда!
-
-RESOURCE ID: grunt_generic_greeting#13__male_speaker
-TEXT: Чего тебе надо, чума? Катись отсюда!
 
 RESOURCE ID: grunt_generic_greeting#14__female_speaker
 TEXT: Кто потерялся, ты? Что-то не похоже. Вид у тебя совсем не испуганный.
@@ -1439,11 +1792,20 @@ TEXT: Замечен нарушитель!
 RESOURCE ID: gt_2020_catch_easy
 TEXT: Стремление к расследованию – Поймай {0} Покемонов
 
+RESOURCE ID: gt_2020_land_great_inarow_easy
+TEXT: Стремление к расследованию – Сделай отличные броски: {0} подряд
+
+RESOURCE ID: gt_2020_land_nice_easy
+TEXT: Стремление к расследованию – Сделай хорошие броски: {0}
+
 RESOURCE ID: gym_deploy_confirmation
 TEXT: Ты хочешь, чтобы Покемон {0} остался защищать этот Гим? Он вернётся к тебе, когда будет побеждён.
 
 RESOURCE ID: gym_level_too_low
 TEXT: Пожалуйста, вернись, когда достигнешь {0}-го уровня!
+
+RESOURCE ID: gym_next_battle
+TEXT: Сразиться
 
 RESOURCE ID: gym_please_buy_raid_ticket
 TEXT: Ты можешь купить боевой премиум-пропуск, чтобы присоединиться к рейду.
@@ -1473,7 +1835,13 @@ RESOURCE ID: halloween_2019_catch_gastly_shuppet_easy_pkmn
 TEXT: Хеллоуин – Поймай {0} Гастли или Шаппетов
 
 RESOURCE ID: halloween_2019_catch_ghost_med_pkmn
-TEXT: Хеллоуин – Поймай {0} Покемонов типа Привидение
+TEXT: Хеллоуин – Поймай {0} Покемонов типа Привидения
+
+RESOURCE ID: halloween_2019_land_excellent_inarow_veryhard_pkmn
+TEXT: Хеллоуин – Сделай прекрасные броски: {0} подряд
+
+RESOURCE ID: halloween_2019_snapshot_easy
+TEXT: Хеллоуин – Сфотографируй {0} Покемонов типа Привидения
 
 RESOURCE ID: hatch_xp_double
 TEXT: 2× XP за вынашивание
@@ -1490,14 +1858,23 @@ TEXT: Праздничное событие – Поймай {0} ледяных 
 RESOURCE ID: holiday_2019_catch_sd
 TEXT: Праздничное событие – Поймай {0} Делибёрдов или Сноуверов
 
+RESOURCE ID: holiday_2019_snapshot
+TEXT: Праздничное событие – Сфотографируй {0} ледяных Покемонов
+
 RESOURCE ID: holidayw_2019_evolve
 TEXT: Праздничное событие – Эволюционируй {0} ледяных Покемонов
 
 RESOURCE ID: home_account_not_found
 TEXT: Аккаунт <i>Pokémon HOME</i> не обнаружен.
 
+RESOURCE ID: home_settings_transfer_warning
+TEXT: Покемоны, перемещённые в Pokémon GO, не могут быть возвращены в Pokémon GO.
+
 RESOURCE ID: iap_category_upgrades
 TEXT: Улучшения
+
+RESOURCE ID: incense_day_pokemon_mareep
+TEXT: Марипы, привлечённые ладаном
 
 RESOURCE ID: incense_effectiveness_double
 TEXT: Ладан в 2 раза эффективнее
@@ -1534,7 +1911,10 @@ RESOURCE ID: item_bag_deployed
 TEXT: Покемон отправлен в Гим – предмет не может быть использован.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access Special Research on January 16 from 11 a.m. to 5 p.m. local time, wherever you are.
+TEXT: Билет на особый квест 16 января с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. 
+
+RESOURCE ID: item_event_ticket_pink_desc_2
+TEXT: Билет на особый квест 21 ноября с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. 
 
 RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: Билет на доступ к специальному ивенту с 10:00 19 декабря 2020 г. до 20:00 20 декабря 2020 г. по местному времени, независимо от твоего местонахождения. 
@@ -1545,18 +1925,24 @@ TEXT: Этот билет активируется автоматически, �
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: Этот билет активируется автоматически, чтобы предоставить тебе доступ к ивенту «Галарский Мистер Майм» с 10:00 19 декабря 2020 г. до 20:00 20 декабря 2020 г. по местному времени, вне зависимости от твоего местонахождения.
 
+RESOURCE ID: item_event_ticket_pink_roset_desc
+TEXT: A ticket to access a special research on February 7 from 11 a.m. to 5 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_roset_details
+TEXT: This ticket will automatically activate to give you access to a special research on February 7, wherever you are in the world.
+
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: Билет на особый ивент 20 февраля 2021 г. с 9:00 до 21:00 по местному времени, вне зависимости от твоего местонахождения. 
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
-TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному мероприятию 20 февраля, вне зависимости от твоего местонахождения.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному мероприятию 20 февраля 2021 г., вне зависимости от твоего местонахождения.
 
- Для участия в мероприятии необходимо выбрать цветовую версию. Попробуйте с друзьями выбрать разные цвета – тогда вы сможете обмениваться и выполнять задания по коллекционированию!
+ Для участия необходимо выбрать версию. Выберите с друзьями разные цвета – тогда вы сможете обмениваться Покемонами и выполнять задания по коллекционированию!
 
 RESOURCE ID: item_global_event_ticket_details_version_selected
-TEXT: Этот билет автоматически активируется, чтобы дать тебе доступ к специальному мероприятию 20 февраля, вне зависимости от твоего местонахождения.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному мероприятию 20 февраля 2021 г., вне зависимости от твоего местонахождения.
 
-Выбранную тобой версию можно увидеть в разделе медалей твоего профиля.
+Ты можешь посмотреть выбранную тобой версию в разделе медалей твоего профиля.
 
 RESOURCE ID: item_hyper_potion_desc
 TEXT: Аэрозольный препарат, который восстанавливает ОЖ однoго Покемона на {1} очков.
@@ -1652,6 +2038,9 @@ TEXT: Previous Level’s Activity
 RESOURCE ID: log_player_sent_you_a_friend_request
 TEXT: Пришёл запрос в друзья от Тренера {0}!
 
+RESOURCE ID: love_cup_title
+TEXT: Love Cup
+
 RESOURCE ID: luckyegg.1_description
 TEXT: Яйцо, приносящее удачу! Игрок получает в 2 раза больше XP за 30 мин.
 
@@ -1721,6 +2110,18 @@ TEXT: Лотад-квест – Поймай {0} Покемонов при по�
 RESOURCE ID: marrd_2019_easy_catch_weather_2
 TEXT: Лотад-квест – Поймай {0} Покемонов при погодном усилении
 
+RESOURCE ID: marrd_2019_easy_land_great
+TEXT: Лотад-квест – Сделай отличные броски: {0}
+
+RESOURCE ID: marrd_2019_easy_land_great_inarow
+TEXT: Лотад-квест – Сделай отличные броски: {0} подряд
+
+RESOURCE ID: marrd_2019_easy_land_nice
+TEXT: Лотад-квест – Сделай хорошие броски: {0}
+
+RESOURCE ID: marrd_2019_easy_land_nice_inarow
+TEXT: Лотад-квест – Сделай хорошие броски: {0} подряд
+
 RESOURCE ID: mega_evo_bonus_buff_desc_mult
 TEXT: Пока {0} находится в состоянии мегаэволюции, ты получишь дополнительные конфеты при поимке Покемонов типа <b>{1}</b> или <b>{2}</b> или любого рейдового босса.
 
@@ -1734,8 +2135,8 @@ RESOURCE ID: mega_evolve
 TEXT: МЕГАЭВОЛЮЦИЯ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-01-14T18:38:58.437772
-at SHA 0512c352d38bb4604242860d2b3ceadd8216ce19
+TEXT: Built at 2021-01-21T17:52:02.209929
+at SHA 5655ae13adf9e22121e6486031085215253505f6
 Patch from: 0.195.2-SHA-a9d032f8
 
 RESOURCE ID: mini_collection_feb21_gen1_event
@@ -1755,6 +2156,9 @@ TEXT: Sinnoh Collection Challenge
 
 RESOURCE ID: mini_collection_jan21_gen5_event
 TEXT: Unova Collection Challenge
+
+RESOURCE ID: mini_collection_jan21_shadow_event
+TEXT: Праздник Джото – Коллекция Ракета
 
 RESOURCE ID: minicollect_completion_date_format
 TEXT: dd/M/yyyy
@@ -1816,6 +2220,18 @@ TEXT: Минччино-квест – Поймай {0} обычных Покем
 RESOURCE ID: mrd_evolve_easy
 TEXT: Минччино-квест – Эволюционируй {0} обычных Покемонов
 
+RESOURCE ID: mrd_land_great_easy
+TEXT: Минччино-квест – Сделай отличные броски: {0}
+
+RESOURCE ID: mrd_land_great_inarow_easy
+TEXT: Минччино-квест – Сделай отличные броски: {0} подряд
+
+RESOURCE ID: mrd_land_nice_easy
+TEXT: Минччино-квест – Сделай хорошие броски: {0}
+
+RESOURCE ID: mrd_land_nice_inarow_easy
+TEXT: Минччино-квест – Сделай хорошие броски: {0} подряд
+
 RESOURCE ID: mrmime_ticket_description
 TEXT: Билет на доступ к ивенту «Галарский Мистер Майм» с 10:00 19 декабря 2020 г. до 20:00 20 декабря 2020 г. по местному времени, независимо от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
 
@@ -1856,6 +2272,12 @@ TEXT: Ты поможешь мне с исследованиями?
 RESOURCE ID: onboard_welcome_screen|8
 TEXT: Тебе нужно будет находить и собирать Покемонов в самых разных местах.
 
+RESOURCE ID: open_sponsored_balloon_postcard_message
+TEXT: Enjoy these free items to help you on your adventure from <b>{0}</b>
+
+RESOURCE ID: open_sponsored_gift_button
+TEXT: Open Gift
+
 RESOURCE ID: paid_raid_ticket_details_desc
 TEXT: Боевой премиум-пропуск можно использовать для участия в рейдовой битве или для получения премиум-наград в Боевой Лиге GO.
 
@@ -1884,6 +2306,9 @@ TEXT: В твоей команде больше нет места.
 
 RESOURCE ID: photobomb_five_machop
 TEXT: 5 surprise encounters with Machop in GO Snapshot
+
+RESOURCE ID: photobomb_five_roselia
+TEXT: 5 Photobombs from Roselia in GO Snapshot
 
 RESOURCE ID: plural_friend_invite_received_toast
 TEXT: Получен запрос в друзья от {0} и {1} других Тренеров!
@@ -2118,6 +2543,9 @@ TEXT: Открывается на {0} уровне!
 
 RESOURCE ID: poi_contrib_upload_later_thanks
 TEXT: Thank you for your contribution!
+
+RESOURCE ID: poi_contrib_uploading_status_singular
+TEXT: Uploading {0}/{1}
 
 RESOURCE ID: poi_error
 TEXT: Ошибка
@@ -2392,6 +2820,21 @@ TEXT: Покемон-Уникальный Рог
 RESOURCE ID: pokemon_category_0122_2339
 TEXT: Танцующий Покемон
 
+RESOURCE ID: pokemon_category_0252
+TEXT: Покемон-Древесный Геккон
+
+RESOURCE ID: pokemon_category_0253
+TEXT: Покемон-Древесный Геккон
+
+RESOURCE ID: pokemon_category_0393
+TEXT: Покемон-Пингвин
+
+RESOURCE ID: pokemon_category_0394
+TEXT: Покемон-Пингвин
+
+RESOURCE ID: pokemon_category_0650
+TEXT: Покемон-Колючий Орех
+
 RESOURCE ID: pokemon_category_0651
 TEXT: Покемон-Колючая Броня
 
@@ -2626,6 +3069,9 @@ TEXT: Арбок обладает огромной силой для сжати�
 RESOURCE ID: pokemon_desc_0026_0050
 TEXT: Если потереть щёки этого Покемона, от них будет исходить сладкий аромат. Но при этом тебя также слегка ударит током!
 
+RESOURCE ID: pokemon_desc_0027
+TEXT: Тело Сэндшрю способно впитывать воду, что позволяет ему выжить в засушливой пустыне. Этот Покемон сворачивается калачиком, чтобы защитить себя от врагов.
+
 RESOURCE ID: pokemon_desc_0027_0052
 TEXT: Кожа на спине этого Покемона твёрдая, как сталь. Хищники стараются добраться до его мягкого живота, поэтому он отчаянно цепляется за землю.
 
@@ -2786,7 +3232,7 @@ RESOURCE ID: pokemon_desc_0208
 TEXT: Стиликс обитает ещё глубже под землей, чем Оникс. Этот Покемон, как известно, копает туннели, идущие к ядру земли. Есть записи о том, что Стиликс достигал глубины более ста метров под землей.
 
 RESOURCE ID: pokemon_desc_0220
-TEXT: Свинуб трётся мордочкой об землю в поисках пищи. Его любимая еда – это грибы, растущие под сушёной травой. Этот Покемон иногда откапывает горячие источники.
+TEXT: Свинуб трётся мордочкой об землю в поисках пищи. Его любимая еда – это грибы, растущие под сухой травой. Этот Покемон иногда откапывает горячие источники.
 
 RESOURCE ID: pokemon_desc_0222
 TEXT: Веточки Корсолы очень красиво переливаются всеми цветами радуги на солнечном свету. Если одна из них отламывается, этот Покемон отращивает её всего за одну ночь.
@@ -2823,6 +3269,9 @@ TEXT: Лудиколо начинает танцевать, как только 
 
 RESOURCE ID: pokemon_desc_0273
 TEXT: Сидот прикрепляется к ветке своей макушкой и высасывает влагу из дерева, на котором висит. Чем больше воды пьёт Сидот, тем больше блестит его тело.
+
+RESOURCE ID: pokemon_desc_0275
+TEXT: Шифтри – загадочный Покемон, который, по слухам, живёт на высоких тысячелетних деревьях. Он создаёт ужасные ураганы при помощи своих веероподобных рук.
 
 RESOURCE ID: pokemon_desc_0280
 TEXT: Ролтс чувствует эмоции людей через рога на голове. Этот Покемон редко появляется перед людьми. Это происходит, если он чувствует, что у человека хорошее настроение.
@@ -2863,8 +3312,11 @@ TEXT: С наступлением ночи Волбит излучает све�
 RESOURCE ID: pokemon_desc_0315
 TEXT: Розелия стреляет острыми шипами, как снарядами, в любого, кто пытается украсть цветы на его руках. Аромат, исходящий от этого Покемона, приносит спокойствие живым существам.
 
+RESOURCE ID: pokemon_desc_0317
+TEXT: Когда Свалот замечает добычу, он выбрасывает из пор ужасно токсичную жидкость и распыляет её. Затем этот Покемон заглатывает ослабевшую жертву целиком своей огромной пастью.
+
 RESOURCE ID: pokemon_desc_0322
-TEXT: Намел – совсем несообразительный Покемон, и он не замечает ударов. Однако он ни секунды не выносит голода. Тело этого Покемона представляет собой кипящий котёл с кипящей магмой.
+TEXT: Намел – совсем несообразительный Покемон, и он не замечает ударов. Однако он ни секунды не выносит голода. Тело этого Покемона представляет собой котёл с кипящей магмой.
 
 RESOURCE ID: pokemon_desc_0324
 TEXT: Торкол роет горную породу в поисках угля. Когда этот Покемон находит уголь, он заполняет им пустоты на своём панцире и сжигает его. Если на Торкола нападают, он выпускает густой чёрный дым и отступает.
@@ -2873,7 +3325,7 @@ RESOURCE ID: pokemon_desc_0325
 TEXT: Споинк подпрыгивает на своём хвосте, что заставляет биться его сердце. В результате этот Покемон не может остановиться, потому что он погибнет.
 
 RESOURCE ID: pokemon_desc_0326
-TEXT: При помощи чёрного жемчуга на своём теле Грампиг для усиления психоволн и получает полный контроль над своим противником. Когда этот Покемон использует эту особую силу, он начинает тяжелее дышать и фыркать.
+TEXT: Грампиг использует чёрный жемчуг на своём теле для усиления психоволн, чтобы получить полный контроль над своим противником. Когда этот Покемон использует эту особую силу, он начинает тяжелее дышать и фыркать.
 
 RESOURCE ID: pokemon_desc_0327
 TEXT: Считается, что все существующие в мире Спинды имеют совершенно уникальные узоры пятен. Нетвёрдая, шаткая походка этого Покемона создаёт впечатление танца.
@@ -2891,7 +3343,7 @@ RESOURCE ID: pokemon_desc_0334
 TEXT: Алтария танцует, кружась в небе среди вздымающихся, похожих на вату облаков. Напевая мелодии своим кристально-чистым голосом, этот Покемон заставляет своих слушателей изумлённо мечтать.
 
 RESOURCE ID: pokemon_desc_0335
-TEXT: Воспоминания о битве со заклятым врагом Севайпером запечатлены в каждой клетке тела Зангуса. Этот Покемон проворно уклоняется от атак и проявляет невероятную ловкость в бою.
+TEXT: Воспоминания о битве с заклятым врагом Севайпером запечатлены в каждой клетке тела Зангуса. Этот Покемон проворно уклоняется от атак и проявляет невероятную ловкость в бою.
 
 RESOURCE ID: pokemon_desc_0344
 TEXT: Говорят, что Клэйдол – это кукла из грязи, сделанная первобытными людьми и ожившая под воздействием таинственного луча. Этот Покемон передвигается во время левитации.
@@ -2906,7 +3358,10 @@ RESOURCE ID: pokemon_desc_0353
 TEXT: Шаппета привлекают чувства ревности и мстительности. Если кто-то испытывает сильное чувство мести, появляется рой этих Покемонов и выстраивается в ряд под крышей дома этого человека.
 
 RESOURCE ID: pokemon_desc_0356
-TEXT: Тело Дасклопса совершенно пустое внутри. Как чёрная дыра, этот Покемон способен поглотить что угодно, и никогда не вернётся обратно.
+TEXT: Тело Дасклопса совершенно пустое внутри. Как чёрная дыра, этот Покемон способен поглотить что угодно, и оно уже никогда не вернётся обратно.
+
+RESOURCE ID: pokemon_desc_0359
+TEXT: Каждый раз после появления Абсола перед людьми случается какое-нибудь стихийное бедствие: то землетрясение, то потоп. В результате за ним закрепилась печальная слава Покемона-катастрофы.
 
 RESOURCE ID: pokemon_desc_0361
 TEXT: Снорант обитает в регионах с сильными снегопадами. Весной и летом этот Покемон предпочитает спокойно жить глубоко в пещерах среди сталактитов и сталагмитов.
@@ -2925,6 +3380,12 @@ TEXT: Бейгон мечтает однажды взлететь в небо. �
 
 RESOURCE ID: pokemon_desc_0372
 TEXT: Клетки внутри бронеподобной оболочки Шелгона находятся в процессе преобразования в совершенно новое тело. Панцирь этого Покемона чрезвычайно тяжёлый, что делает его движения вялыми.
+
+RESOURCE ID: pokemon_desc_0373
+TEXT: Саламенс возник в результате реализации давней мечты. Говорят, что его сильное желание летать вызвало внезапную мутацию в клетках, в результате чего у этого Покемона выросли великолепные крылья.
+
+RESOURCE ID: pokemon_desc_0374
+TEXT: Вместо крови по телу Белдама бежит мощная магнитная сила. Этот Покемон общается с другими, посылая им контролируемые магнитные импульсы.
 
 RESOURCE ID: pokemon_desc_0380
 TEXT: Латиас очень чувствительна к эмоциям людей. Если она чувствует какую-либо враждебность, то взъерошивает перья по всему телу и пронзительно кричит, чтобы запугать врага.
@@ -3001,11 +3462,20 @@ TEXT: Гиппопотас посыпает себя песком, чтобы з
 RESOURCE ID: pokemon_desc_0451
 TEXT: Скорупи зарывается в песок в ожидании добычи. Шипы на его хвосте могут впрыснуть в жертву сильным ядом.
 
+RESOURCE ID: pokemon_desc_0455
+TEXT: Карнивайн цепляется к деревьям на болотах. При помощи душистой слюны он привлекает добычу, а затем съедает её целиком.
+
+RESOURCE ID: pokemon_desc_0462
+TEXT: Всё ещё существуют люди, которые считают, что этот Покемон прилетел из космоса. Он излучает мощное магнитное поле.
+
 RESOURCE ID: pokemon_desc_0464
 TEXT: Этот Покемон вставляет камни в отверстия в ладонях и стреляет ими с помощью мышц. Изредка он использует для стрельбы Геодудов.
 
 RESOURCE ID: pokemon_desc_0467
 TEXT: Чтобы расправиться с врагами, Магмортар стреляет огненными шарами, сжигающими всё дотла. Он не использует этот метод, когда охотится за добычей.
+
+RESOURCE ID: pokemon_desc_0470
+TEXT: Этот Покемон питается за счёт фотосинтеза. Он живёт тихой жизнью в глубине лесов, где текут чистые реки.
 
 RESOURCE ID: pokemon_desc_0483
 TEXT: Он обладает способностью контролировать время. В мифах региона Синно этот Покемон представлен как древнее божество.
@@ -3029,7 +3499,7 @@ RESOURCE ID: pokemon_desc_0502
 TEXT: В результате жёстких тренировок каждый Девотт выучивает разные способы использования гребешков.
 
 RESOURCE ID: pokemon_desc_0503
-TEXT: Самурот способен обезвредить противника одним ударом меча, заключённого в его броне. Достаточно лишь его взгляда, чтобы все затихли.
+TEXT: Самуротт способен обезвредить противника одним ударом меча, заключённого в его броне. Достаточно лишь его взгляда, чтобы все затихли.
 
 RESOURCE ID: pokemon_desc_0504
 TEXT: Чрезвычайно осторожен: одного из этих Покемонов всегда оставляют стоять на страже. Однако Патрат не заметит врага, подкравшегося сзади.
@@ -3049,6 +3519,12 @@ TEXT: Когда Вубат прижимается носом к кому-либ
 RESOURCE ID: pokemon_desc_0535
 TEXT: Вибрируя щеками, Тимпоул испускает неощутимые для человека звуковые волны. Он общается при помощи ритма этих волн.
 
+RESOURCE ID: pokemon_desc_0538
+TEXT: Когда Трох встречает врага большего размера, чем он сам, он хочет его поднять и бросить. Этот Покемон меняет пояса по мере того, как становится сильнее.
+
+RESOURCE ID: pokemon_desc_0539
+TEXT: Завязывание пояса придаёт Суоку энергию и делает его удары более разрушительными. Этот Покемон злится, если ему мешают во время тренировки.
+
 RESOURCE ID: pokemon_desc_0540
 TEXT: Севаддл сам себе делает одежду из листьев, и поэтому его считают талисманом модельеров.
 
@@ -3066,6 +3542,9 @@ TEXT: При нападении врага Коттони для отвлече�
 
 RESOURCE ID: pokemon_desc_0547
 TEXT: Вимсикотт не живёт в каком-то определённом месте. Он свободно парит в вихре, появляясь в самых разных местах, и постоянно шалит.
+
+RESOURCE ID: pokemon_desc_0551
+TEXT: Сэндайл ещё не так хорош в охоте, поэтому в основном поедает падаль в пустыне. Его называют «уборщиком пустыни».
 
 RESOURCE ID: pokemon_desc_0552
 TEXT: Крокорок закапывает часть добычи в песок на случай неудачной охоты.
@@ -3118,6 +3597,12 @@ TEXT: Когда Реюниклюсы пожимают друг другу ру�
 RESOURCE ID: pokemon_desc_0580
 TEXT: Даклетт плавает лучше, чем летает. Он с удовольствием питается своей любимой едой – торфяным мхом, за которым ныряет под воду.
 
+RESOURCE ID: pokemon_desc_0581
+TEXT: Суанны начинают танцевать на закате. Танцующий в центре – это лидер стаи.
+
+RESOURCE ID: pokemon_desc_0582
+TEXT: Когда утреннее солнце попало на сосульку, она пожелала не растаять, и так родился Ваниллайт. Ночью он зарывается в снег, чтобы уснуть.
+
 RESOURCE ID: pokemon_desc_0583
 TEXT: Ваниллиш пережил древний ледниковый период. Этот Покемон невероятно популярен в жарких регионах.
 
@@ -3141,6 +3626,12 @@ TEXT: Тело Кланга состоит из маленькой и больш
 
 RESOURCE ID: pokemon_desc_0606
 TEXT: Бехийем обладает сильными экстрасенсорными способностями. Используя лампочки трёх цветов на руках, этот Покемон манипулирует противниками и переписывает их воспоминания.
+
+RESOURCE ID: pokemon_desc_0609
+TEXT: Сгорая в зловещем пламени Шанделюра, духи сбиваются с пути и остаются вечно блуждать по миру.
+
+RESOURCE ID: pokemon_desc_0610
+TEXT: Эксью помечают свою территорию, оставляя надрезы на деревьях своими бивнями. На месте сломанного бивня быстро вырастает новый.
 
 RESOURCE ID: pokemon_desc_0611
 TEXT: Сломанные бивни Фрэкшура не отрастают, поэтому после каждого боя этот Покемон старательно точит их об речные камни.
@@ -3168,6 +3659,9 @@ TEXT: Когда Кельдио полон решимости, его тело �
 
 RESOURCE ID: pokemon_desc_0719
 TEXT: Будучи внезапной трансформацией Карбинка, его розовое мерцающее тело считается самым прекрасным зрелищем в мире.
+
+RESOURCE ID: pokemon_desc_0863
+TEXT: Шерсть на голове Галарского Перрсеркера затвердела и стала похожа на железный шлем. Он живёт ради битвы.
 
 RESOURCE ID: pokemon_desc_0866
 TEXT: Он отлично танцует чечётку. Он размахивает ледяной тростью в такт своим грациозным движениям.
@@ -3205,6 +3699,9 @@ TEXT: ПОЙМАН, КОГДА БЫЛ ПОБЕЖДЁН ПРОТИВНИК: {0}
 RESOURCE ID: pokemon_info_caught_quest_story
 TEXT: ПОЙМАН В ОСОБОМ КВЕСТЕ
 
+RESOURCE ID: pokemon_info_caught_raid_rnn
+TEXT: ПОЙМАН УДАЛЁННО В РЕЙДЕ
+
 RESOURCE ID: pokemon_info_evolution_confirmation
 TEXT: Эволюционировать этого Покемона: {0}?
 
@@ -3214,11 +3711,17 @@ TEXT: Эволюция
 RESOURCE ID: pokemon_info_evolve_pokemon_deployed
 TEXT: {0} отправлен в Гим.
 
+RESOURCE ID: pokemon_info_goto_gym_button
+TEXT: ПЕРЕЙТИ В ГИМ
+
 RESOURCE ID: pokemon_info_mega_resource_label
 TEXT: Мегаэнергия {0}
 
 RESOURCE ID: pokemon_info_powerup_button
 TEXT: Усиление
+
+RESOURCE ID: pokemon_info_powerup_need_xl_candies
+TEXT: Требуется больше XL {0}-конфет
 
 RESOURCE ID: pokemon_info_powerup_pokemon_deployed
 TEXT: {0} отправлен в Гим.
@@ -3231,6 +3734,9 @@ TEXT: Хочешь очистить Покемона {0}?
 
 Он получит значительное количество БС, меньшую стоимость усиления и выучит эксклюзивную заряженную атаку Возврат!
 
+RESOURCE ID: pokemon_info_purify_button
+TEXT: Очищение
+
 RESOURCE ID: pokemon_info_release_deployed
 TEXT: Отправлен в Гим
 
@@ -3238,6 +3744,12 @@ RESOURCE ID: pokemon_info_transfer_to_professor_confirmation
 TEXT: <size=36><b>Передать Покемона {0} Профессору?</b></size>
 
 Ты не можешь отменить это действие после передачи.
+
+RESOURCE ID: pokemon_info_xl_candy_label
+TEXT: XL {0} -конфеты
+
+RESOURCE ID: pokemon_name_0233
+TEXT: Поригон-2
 
 RESOURCE ID: pokemon_name_0650
 TEXT: Чеспин
@@ -3507,10 +4019,16 @@ RESOURCE ID: quest_at_catch_a
 TEXT: Поймай {0} Абр
 
 RESOURCE ID: quest_battle19_catch_fighting_easy
-TEXT: Поймай {0} Покемонов типа Сражение
+TEXT: Поймай {0} Покемонов типа Сражения
 
 RESOURCE ID: quest_battle19_catch_medium_pkmn
 TEXT: Поймай {0} Макухит или Медитайтов
+
+RESOURCE ID: quest_battle19_land_excellent_inarow_veryhard_pkmn
+TEXT: Сделай прекрасные броски: {0} подряд
+
+RESOURCE ID: quest_battle19_raid_win_veryhard
+TEXT: Победи в {0} рейдах
 
 RESOURCE ID: quest_battle_gbl_plural
 TEXT: Сразись в Боевой Лиге GO x{0}
@@ -3533,6 +4051,9 @@ TEXT: Победи в {0} тренерских битвах Мастер-Лиг�
 RESOURCE ID: quest_battle_master_win_singular
 TEXT: Победи в тренерской битве Мастер-Лиги
 
+RESOURCE ID: quest_battle_raid_plural
+TEXT: Сразись в {0} рейдах
+
 RESOURCE ID: quest_battle_ultra_win_plural
 TEXT: Победи в {0} тренерских битвах Ультралиги
 
@@ -3542,8 +4063,11 @@ TEXT: Победи в тренерской битве Ультралиги
 RESOURCE ID: quest_begins19_catch_specific_plural
 TEXT: День Покемонов – Поймай {0} Пиджей или Раттат
 
+RESOURCE ID: quest_beluga_excellent_singular
+TEXT: Иди и лови! – Сделай прекрасные броски: {0}
+
 RESOURCE ID: quest_catch_b_types_plural
-TEXT: Поймай {0} Покемонов электрического, обычного или ядовитого типа
+TEXT: Поймай {0} электрических, обычных или ядовитых Покемонов
 
 RESOURCE ID: quest_catch_basic_types_plural
 TEXT: Поймай {0} травяных, водных или огненных Покемонов
@@ -3735,7 +4259,7 @@ RESOURCE ID: quest_catch_type_bug_plural
 TEXT: Поймай {0} насекомых Покемонов
 
 RESOURCE ID: quest_catch_type_bug_plural_unique
-TEXT: Поймай {0} разныx особей Покемонов типа Насекомое
+TEXT: Поймай {0} разныx особей насекомых Покемонов
 
 RESOURCE ID: quest_catch_type_bug_singular
 TEXT: Поймай 1 насекомого Покемона
@@ -3746,8 +4270,32 @@ TEXT: Поймай {0} тёмных Покемонов
 RESOURCE ID: quest_catch_type_dark_plural_unique
 TEXT: Поймай {0} разныx особей тёмных Покемонов
 
+RESOURCE ID: quest_catch_type_dragon_singular
+TEXT: Поймай 1 драконьего Покемона
+
+RESOURCE ID: quest_catch_type_electric_plural
+TEXT: Поймай {0} электрических Покемонов
+
+RESOURCE ID: quest_catch_type_electric_singular
+TEXT: Поймай 1 электрического Покемона
+
+RESOURCE ID: quest_catch_type_fairy_plural
+TEXT: Поймай {0} Покемонов типа Феи
+
 RESOURCE ID: quest_catch_type_fairy_plural_unique
 TEXT: Поймай {0} разныx особей Покемонов типа Феи
+
+RESOURCE ID: quest_catch_type_fighting_plural
+TEXT: Поймай {0} Покемонов типа Сражения
+
+RESOURCE ID: quest_catch_type_fighting_singular
+TEXT: Поймай 1 Покемона типа Сражения
+
+RESOURCE ID: quest_catch_type_fire_plural
+TEXT: Поймай {0} огненных Покемонов
+
+RESOURCE ID: quest_catch_type_fire_singular
+TEXT: Поймай 1 огненного Покемона
 
 RESOURCE ID: quest_catch_type_flying_plural
 TEXT: Поймай {0} летающих Покемонов
@@ -3759,10 +4307,13 @@ RESOURCE ID: quest_catch_type_flying_singular
 TEXT: Поймай 1 летающего Покемона
 
 RESOURCE ID: quest_catch_type_ghost_plural
-TEXT: Поймай {0} Покемонов типа Привидение
+TEXT: Поймай {0} Покемонов типа Привидения
 
 RESOURCE ID: quest_catch_type_ghost_plural_unique
 TEXT: Поймай {0} разныx особей Покемонов типа Привидение
+
+RESOURCE ID: quest_catch_type_ghost_singular
+TEXT: Поймай 1 Покемона типа Привидения
 
 RESOURCE ID: quest_catch_type_grass_plural
 TEXT: Поймай {0} травяных Покемонов
@@ -3771,10 +4322,13 @@ RESOURCE ID: quest_catch_type_grass_plural_unique
 TEXT: Поймай {0} разныx особей травяных Покемонов
 
 RESOURCE ID: quest_catch_type_ground_plural
-TEXT: Поймай {0} земных Покемонов
+TEXT: Поймай {0} земляных Покемонов
 
 RESOURCE ID: quest_catch_type_ground_plural_unique
-TEXT: Поймай {0} разныx особей земных Покемонов
+TEXT: Поймай {0} разныx особей земляных Покемонов
+
+RESOURCE ID: quest_catch_type_ground_singular
+TEXT: Поймай 1 земляного Покемона
 
 RESOURCE ID: quest_catch_type_ice_grass_plural_unique
 TEXT: Поймай {0} травяных или ледяных Покемонов
@@ -3787,6 +4341,9 @@ TEXT: Поймай {0} разныx особей ледяных Покемоно�
 
 RESOURCE ID: quest_catch_type_ice_singular
 TEXT: Поймай 1 ледяного Покемона
+
+RESOURCE ID: quest_catch_type_normal_plural
+TEXT: Поймай {0} обычных Покемонов
 
 RESOURCE ID: quest_catch_type_normal_plural_unique
 TEXT: Поймай {0} разныx особей обычных Покемонов
@@ -3837,19 +4394,19 @@ RESOURCE ID: quest_catch_type_water_singular
 TEXT: Поймай 1 водного Покемона
 
 RESOURCE ID: quest_catch_types_rainy_plural
-TEXT: Поймай {0} водных, электрических или Покемонов типа Насекомое
+TEXT: Поймай {0} водных, электрических или насекомых Покемонов
 
 RESOURCE ID: quest_catch_types_rainy_singular
-TEXT: Поймай 1 водного, электрического или Покемона типа Насекомое
+TEXT: Поймай 1 водного, электрического или насекомого Покемона
 
 RESOURCE ID: quest_catch_types_snowy_plural
 TEXT: Поймай {0} ледяных или стальных Покемонов
 
 RESOURCE ID: quest_catch_types_sunny_plural
-TEXT: Поймай {0} травяных, огненных или земных Покемонов
+TEXT: Поймай {0} травяных, огненных или земляных Покемонов
 
 RESOURCE ID: quest_catch_types_sunny_singular
-TEXT: Поймай 1 травяного, огненного или земного Покемона
+TEXT: Поймай 1 травяного, огненного или земляного Покемона
 
 RESOURCE ID: quest_catch_types_windy_plural
 TEXT: Поймай {0} летающих, психических или драконьих Покемонов
@@ -3899,14 +4456,41 @@ TEXT: Выполни коллекционные испытания: {0}
 RESOURCE ID: quest_complete_minicollect_singular
 TEXT: Выполни коллекционное испытание
 
+RESOURCE ID: quest_complete_roset
+TEXT: Stop and Smell the Roselia
+
 RESOURCE ID: quest_defeat_jessie_james_plural
 TEXT: Победи Джесси или Джеймса x{0}
+
+RESOURCE ID: quest_dialogue_genesect_0_5
+TEXT: Пока я разбираюсь в этом, ты поможешь мне исследовать обычных Покемонов? Некоторые повреждения выглядят так, как будто они были вызваны атакой обычного типа.
+
+RESOURCE ID: quest_dialogue_genesect_1_3
+TEXT: Эти повреждения скорее нанесены огненными Покемонами или, по крайней мере, Покемонами, которые знают огненные атаки.
+
+RESOURCE ID: quest_dialogue_genesect_3_3
+TEXT: Здорово, правда? В примечаниях говорится, что, хотя этот Покемон и относится к насекомому и стальному типу, известно, что он может использовать огненные и водные атаки среди прочих атак.
+
+RESOURCE ID: quest_dialogue_genesect_4_1
+TEXT: Я думаю, что благодаря собранной тобой  информации и заметкам из Юновы мы открыли Дженесекта – Покемона насекомого и стального типа!
+
+RESOURCE ID: quest_dialogue_genesect_4_2
+TEXT: Я знаю, о чём ты думаешь: насекомый и стальной тип – это странное сочетание, да?
+
+RESOURCE ID: quest_dialogue_genesect_4_5
+TEXT: У меня всё ещё так много вопросов, но пока почему бы не провести небольшое исследование ледяных Покемонов? Я слышал, что Лёд – это ещё один тип Дженесекта.
 
 RESOURCE ID: quest_dialogue_jirachi_3_0
 TEXT: Отличная работа, %PLAYERNAME%! Ты быстро освоишь этот фотоаппарат! Тебе ничего не показалось странным во время съёмки Покемонов в их местах обитания?
 
 RESOURCE ID: quest_dialogue_jirachi_4_2
 TEXT: Теперь, когда мы пробудили Джирачи, мне интересно, что пожелаешь ты и твои друзья Тренеры. Я уже знаю, чего хочу я – чтобы этот удивительный квест тебе понравился!
+
+RESOURCE ID: quest_dialogue_jirachi_global_3_3
+TEXT: В тексте говорится, что это стальной и психический Покемон, поэтому я думаю, что следует поймать нескольких Покемонов с похожими характеристиками.
+
+RESOURCE ID: quest_elect_catch_b
+TEXT: Поймай {0} Электабаззов
 
 RESOURCE ID: quest_equinox19_catch_medium_pkmn
 TEXT: Поймай {0} Бульбазавров или Чикорит
@@ -3942,7 +4526,10 @@ RESOURCE ID: quest_evolve_type_fairy_plural
 TEXT: Эволюционируй {0} Покемонов типа Феи
 
 RESOURCE ID: quest_evolve_type_fire_plural
-TEXT: Эволюционируй {0} Покемонов огненного типа
+TEXT: Эволюционируй {0} огненных Покемонов
+
+RESOURCE ID: quest_evolve_type_fire_singular
+TEXT: Эволюционируй 1 огненного Покемона
 
 RESOURCE ID: quest_evolve_type_flying_plural
 TEXT: Эволюционируй {0} летающих Покемонов
@@ -3970,6 +4557,18 @@ TEXT: Кламперл-квест – Поймай {0} водных Покемо
 
 RESOURCE ID: quest_febresearchday_evolve_type_water_plural
 TEXT: Кламперл-квест – Эволюционируй {0} водных Покемонов
+
+RESOURCE ID: quest_febresearchday_land_great_plural
+TEXT: Кламперл-квест – Сделай отличные броски: {0}
+
+RESOURCE ID: quest_febresearchday_land_inarow_great_plural
+TEXT: Кламперл-квест – Сделай отличные броски: {0} подряд
+
+RESOURCE ID: quest_febresearchday_land_inarow_nice_plural
+TEXT: Кламперл-квест – Сделай хорошие броски: {0} подряд
+
+RESOURCE ID: quest_febresearchday_land_nice_plural
+TEXT: Кламперл-квест – Сделай хорошие броски: {0}
 
 RESOURCE ID: quest_feed_goldenrazz_plural
 TEXT: Используй золотые Разз-Ягоды для поимки Покемонов: {0}
@@ -3999,7 +4598,7 @@ RESOURCE ID: quest_hallo19_catch_type_dark_plural
 TEXT: Поймай {0} тёмных Покемонов
 
 RESOURCE ID: quest_hallo19_catch_type_ghost_plural
-TEXT: Поймай {0} Покемонов типа Привидение
+TEXT: Поймай {0} Покемонов типа Привидения
 
 RESOURCE ID: quest_hallo19_transfer_plural
 TEXT: Передай {0} Покемонов
@@ -4010,6 +4609,12 @@ TEXT: Праздник Хоэнн – Поймай {0} Зигзагунов ил
 RESOURCE ID: quest_hoenn_celebration_research
 TEXT: Hoenn Celebration Research
 
+RESOURCE ID: quest_jan19rsd_land_great_plural
+TEXT: Фибас-квест – Сделай отличные броски: {0}
+
+RESOURCE ID: quest_jan19rsd_land_nice_plural
+TEXT: Фибас-квест – Сделай хорошие броски: {0}
+
 RESOURCE ID: quest_johtofestival_catch_special17_plural
 TEXT: Фестиваль Джото – Поймай {0} Санкернов
 
@@ -4019,8 +4624,65 @@ TEXT: Фестиваль Джото – Поймай {0} водных Покем
 RESOURCE ID: quest_johtofestival_land_excellent_plural
 TEXT: Фестиваль Джото – сделай отличные броски: {0}
 
+RESOURCE ID: quest_johtofestival_land_inarow_great_curveball_plural
+TEXT: Фестиваль Джото – Сделай отличные кручёные броски: {0} подряд
+
+RESOURCE ID: quest_land_excellent_curveball_plural
+TEXT: Сделай прекрасные кручёные броски: {0}
+
+RESOURCE ID: quest_land_excellent_curveball_singular
+TEXT: Сделай 1 прекрасный кручёный бросок
+
+RESOURCE ID: quest_land_excellent_plural
+TEXT: Сделай прекрасные броски: {0}
+
+RESOURCE ID: quest_land_excellent_singular
+TEXT: Сделай 1 прекрасный бросок
+
+RESOURCE ID: quest_land_great_curveball_plural
+TEXT: Сделай отличные кручёные броски: {0}
+
+RESOURCE ID: quest_land_great_curveball_singular
+TEXT: Сделай 1 отличный кручёный бросок
+
+RESOURCE ID: quest_land_great_plural
+TEXT: Сделай отличные броски: {0}
+
+RESOURCE ID: quest_land_great_singular
+TEXT: Сделай 1 отличный бросок
+
+RESOURCE ID: quest_land_inarow_excellent_curveball_plural
+TEXT: Сделай прекрасные кручёные броски: {0} подряд
+
+RESOURCE ID: quest_land_inarow_excellent_plural
+TEXT: Сделай прекрасные броски: {0} подряд
+
+RESOURCE ID: quest_land_inarow_great_curveball_plural
+TEXT: Сделай отличные кручёные броски: {0} подряд
+
+RESOURCE ID: quest_land_inarow_great_plural
+TEXT: Сделай отличные броски: {0} подряд
+
+RESOURCE ID: quest_land_inarow_nice_curveball_plural
+TEXT: Сделай хорошие кручёные броски: {0} подряд
+
+RESOURCE ID: quest_land_inarow_nice_plural
+TEXT: Сделай хорошие броски: {0} подряд
+
+RESOURCE ID: quest_land_nice_curve_plural
+TEXT: Сделай хорошие кручёные броски: {0}
+
+RESOURCE ID: quest_land_nice_curve_singular
+TEXT: Сделай 1 хороший кручёный бросок
+
 RESOURCE ID: quest_land_nice_electric_plural
-TEXT: Поймай {0} электрических Покемонов прекрасными бросками
+TEXT: Поймай {0} электрических Покемонов хорошими бросками
+
+RESOURCE ID: quest_land_nice_plural
+TEXT: Сделай хорошие броски: {0}
+
+RESOURCE ID: quest_land_nice_singular
+TEXT: Сделай 1 хороший бросок
 
 RESOURCE ID: quest_macht_catch_b
 TEXT: Поймай {0} Мачопов
@@ -4037,8 +4699,17 @@ TEXT: Поймай {0} Мэджикарпов
 RESOURCE ID: quest_magit_evolve_b
 TEXT: Эволюционируй Мэджикарпов: {0}
 
+RESOURCE ID: quest_magmt_catch_b
+TEXT: Поймай {0} Магмаров
+
 RESOURCE ID: quest_mega_evolve_beedrill
 TEXT: Мегаэволюционируй Бидрилла
+
+RESOURCE ID: quest_mega_join_raid_plural
+TEXT: Сразись в {0} мегарейдах
+
+RESOURCE ID: quest_pokemon_appears
+TEXT: Появление Покемона!
 
 RESOURCE ID: quest_poryt_catch_b
 TEXT: Поймай {0} Поригонов
@@ -4053,22 +4724,31 @@ RESOURCE ID: quest_poryt_evolve_s1
 TEXT: Эволюционируй Поригонов-2: {0}
 
 RESOURCE ID: quest_power_up_legendary_plural
-TEXT: Усилить Легендарного Покемона x{0}
+TEXT: Усиль Легендарного Покемона x{0}
 
 RESOURCE ID: quest_power_up_max_plural
-TEXT: Усилить {0} Покемонов до максимальной БС
+TEXT: Усиль {0} Покемонов до максимальной БС
 
 RESOURCE ID: quest_power_up_max_singular
-TEXT: Усилить Покемона до максимальной БС
+TEXT: Усиль Покемона до максимальной БС
 
 RESOURCE ID: quest_power_up_plural
-TEXT: Усилить Покемонов x{0}
+TEXT: Усиль Покемонов x{0}
 
 RESOURCE ID: quest_psychicspec_catch_abra_plural
 TEXT: Поймай {0} Абр или Драузи
 
 RESOURCE ID: quest_psychicspec_catch_type_psychic_plural
 TEXT: Поймай {0} психических Покемонов
+
+RESOURCE ID: quest_reward_start_encounter
+TEXT: Начать встречу
+
+RESOURCE ID: quest_rocket_battle_plural
+TEXT: Сразись с {0} агентами Команды Ракета GO
+
+RESOURCE ID: quest_rocket_battle_win_plural
+TEXT: Победи {0} агентов Команды Ракета GO
 
 RESOURCE ID: quest_rocket_evolve_plural
 TEXT: Эволюционируй {0} Покемонов
@@ -4077,7 +4757,7 @@ RESOURCE ID: quest_rocket_leader_battle_win_singular
 TEXT: Победи лидера Команды Ракета GO
 
 RESOURCE ID: quest_rocket_power_up_plural
-TEXT: Усилить Покемонов x{0}
+TEXT: Усиль Покемонов x{0}
 
 RESOURCE ID: quest_rocket_shadow_plural
 TEXT: Поймай {0} Теневых Покемонов
@@ -4091,17 +4771,32 @@ TEXT: Поймай {0} Теневых Покемонов
 RESOURCE ID: quest_rockethq1_cliff_win_plural
 TEXT: Победи лидера Команды Ракета GO Клиффа x{0}
 
+RESOURCE ID: quest_rockethq1_grunt_win1
+TEXT: Победи {0} агентов Команды Ракета GO
+
+RESOURCE ID: quest_rockethq1_grunt_win2
+TEXT: Победи {0} агентов Команды Ракета GO
+
 RESOURCE ID: quest_rockethq1_leader_win_plural
 TEXT: Победи лидера Команды Ракета GO x{0}
 
 RESOURCE ID: quest_rockethq1_leaders_win_plural
 TEXT: Победи лидера Команды Ракета GO x{0}
 
+RESOURCE ID: quest_rockethq1_raid_win
+TEXT: Победи в {0} рейдах
+
 RESOURCE ID: quest_rockethq1_sierra_win_plural
 TEXT: Победи лидера Команды Ракета GO Сиерру x{0}
 
 RESOURCE ID: quest_rockethq1_trainerbattle_win
 TEXT: Выиграй тренерские битвы Великой Лиги против другого Тренера: {0}
+
+RESOURCE ID: quest_roset_catch_b
+TEXT: Catch {0} Roselia
+
+RESOURCE ID: quest_roset_evolve_b
+TEXT: Evolve {0} Roselia
 
 RESOURCE ID: quest_special_dialogue_at_0_0
 TEXT: Рад снова тебя видеть, %PLAYERNAME%. Тебе не бросилось в глаза, что в этом районе появилось больше Абр?
@@ -4251,7 +4946,7 @@ RESOURCE ID: quest_special_dialogue_hallowyamas_0_4
 TEXT: В-видишь ли, я бы сходил туда, но я занят здесь некоторыми... эмм... исследованиями! Да, точно!
 
 RESOURCE ID: quest_special_dialogue_hallowyamas_0_5
-TEXT: Мне кажется, это Бланш рядом с моей лабораторией. Может, настало время исследовать эволюцию призрачных Покемонов?
+TEXT: Мне кажется, это Бланш рядом с моей лабораторией. Может, настало время исследовать эволюцию Покемонов типа Привидения?
 
 RESOURCE ID: quest_special_dialogue_hallowyamas_1_1
 TEXT: Что это за звук?! О, это просто Ямаск. Кажется, он смотрит на свою маску и плачет.
@@ -4569,7 +5264,10 @@ RESOURCE ID: quest_special_dialogue_meltan_0_5
 TEXT: Хотя оказалось, что этот Покемон – Дитто, использующий приём «Превращение», это не испортило мне настроение!
 
 RESOURCE ID: quest_special_dialogue_meltan_1_1
-TEXT: Пока тебя не было, я просмотрел несколько академических журналов. Я пытался узнать, не встречал ли кто-нибудь из моих коллег-исследователей Покемона с такимм же характеристиками, как тот, которого я видел. Но я ничего не нашёл.
+TEXT: Пока тебя не было, я просмотрел несколько академических журналов. Я пытался узнать, не встречал ли кто-нибудь из моих коллег-исследователей Покемона с такими же характеристиками, как тот, которого я видел. Но я ничего не нашёл.
+
+RESOURCE ID: quest_special_dialogue_meltan_2_2
+TEXT: Какая удача! Знаешь ли, когда моим учителем был профессор Оук, он был моим образцом для подражания. И до сих пор им является!
 
 RESOURCE ID: quest_special_dialogue_mew_0_0
 TEXT: %PLAYERNAME%, как дела? Давно не виделись! Ты теперь настоящий Тренер!
@@ -4587,10 +5285,19 @@ RESOURCE ID: quest_special_dialogue_mew_1_1
 TEXT: Я считаю, что нам нужно искать Мифических Покемонов! Эти Покемоны чрезвычайно редки и уникальны, и многие не верят в их существование.
 
 RESOURCE ID: quest_special_dialogue_mew_2_1
-TEXT: Покемон, который считался вымершим, найден в джунглях далеко на юге. Он настолько редкий, что многие эксперты сомневаются в его существовании. %BREAK%OТолько несколько человек во всём мире видели этого Покемона. Судя по всему, он является только людям с добрым сердцем, которые сильно хотят его увидеть.
+TEXT: Покемон, который считался вымершим, был найден в джунглях далеко на юге. Он настолько редкий, что многие эксперты сомневаются в его существовании. %BREAK%Только несколько человек во всём мире видели этого Покемона. Судя по всему, он является только людям с добрым сердцем, которые сильно хотят его увидеть.
 
 RESOURCE ID: quest_special_dialogue_mew_2_2
 TEXT: Мои коллеги в Канто, в том числе мой инструктор Профессор Оук, долгое время изучали Мью. Похоже, их и наши результаты совпадают!
+
+RESOURCE ID: quest_special_dialogue_mew_3_1
+TEXT: А ты знаешь, что Мью, возможно, хранит генетические коды всех Покемонов? Секреты Мью могут помочь нам разгадать загадку роста и эволюции Покемонов!
+
+RESOURCE ID: quest_special_dialogue_rocket_1_1
+TEXT: После того, как мы со Спарком посетили один из Покестопов, нас вызвал на тренерскую битву человек из организации под названием Команда Ракета GO!
+
+RESOURCE ID: quest_special_dialogue_rocket_1_4
+TEXT: Помоги нам защитить местные Покестопы от Команды Ракета GO, Тренер! И спаси, пожалуйста, всех Теневых Покемонов, которых они бросили!
 
 RESOURCE ID: quest_special_dialogue_rocket_3_0
 TEXT: ВОТ ЭТО ДА! Спасибо, с твоей помощью мы больше узнали о Теневых Покемонах, которых использует Команда Ракета GO!
@@ -4636,6 +5343,96 @@ TEXT: Тебе удалось справиться с этими испытан�
 
 RESOURCE ID: quest_special_dialogue_rockethq7_2_1
 TEXT: Я заметил, что пойман Ларвитар. Они редко встречаются в дикой природе. Может, он из тех яиц Покемонов, которые собирала Команда Ракета GO...
+
+RESOURCE ID: quest_special_dialogue_roset_0_0
+TEXT: Ahhh… do you smell that, Trainer?
+
+RESOURCE ID: quest_special_dialogue_roset_0_1
+TEXT: Earlier today, I was distracted by an amazing aroma as I was taking my daily morning walk.
+
+RESOURCE ID: quest_special_dialogue_roset_0_2
+TEXT: Upon further investigation, I discovered that the scent was coming from an unusually large group of Roselia appearing by a nearby spring.
+
+RESOURCE ID: quest_special_dialogue_roset_0_3
+TEXT: Did you know, its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is, and judging by the aroma these are VERY healthy Roselia!
+
+RESOURCE ID: quest_special_dialogue_roset_0_4
+TEXT: However sweet smelling, do be careful when encountering this Pokémon.
+
+RESOURCE ID: quest_special_dialogue_roset_0_5
+TEXT: The thorns on its head contain a vicious poison and can shoot them as projectiles at any opponent that tries to steal the flowers on its arms.
+
+RESOURCE ID: quest_special_dialogue_roset_0_6
+TEXT: Since this many Roselia appearing at once is quite a rare occurrence, would you mind assisting me with some research?
+
+RESOURCE ID: quest_special_dialogue_roset_1_0
+TEXT: Welcome back, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_roset_1_1
+TEXT: While you were out smelling the Roselia, I wanted to be sure I had the most updated information about this Pokémon to share with you.
+
+RESOURCE ID: quest_special_dialogue_roset_1_2
+TEXT: Even a professor like myself reviews Pokédex information on a regular basis.
+
+RESOURCE ID: quest_special_dialogue_roset_1_3
+TEXT: Roselia, the Thorn Pokémon evolves from Budew, the Bud Pokémon. Budew is sensitive to changes in temperature, the bud is said to bloom when it feels the sun's warm touch.
+
+RESOURCE ID: quest_special_dialogue_roset_1_4
+TEXT: It also shares the same typing as Roselia, both are Grass- and Poision-type.
+
+RESOURCE ID: quest_special_dialogue_roset_1_5
+TEXT: I still need a bit more research on Roselia if you wouldn’t mind assisting me, in my review of the Pokédex I remembered something exciting about this Pokémon and want to see it for myself!
+
+RESOURCE ID: quest_special_dialogue_roset_2_0
+TEXT: Wow… could you imagine if it was Muk appearing instead of Roselia?
+
+RESOURCE ID: quest_special_dialogue_roset_2_1
+TEXT: A big group all gathered in the sun… that would smell AWFUL…
+
+RESOURCE ID: quest_special_dialogue_roset_2_2
+TEXT: Oh! Hey there, %PLAYERNAME%, glad to see you’re back.
+
+RESOURCE ID: quest_special_dialogue_roset_2_3
+TEXT: I found that interesting bit of information I wanted to share with you.
+
+RESOURCE ID: quest_special_dialogue_roset_2_4
+TEXT: According to the Pokédex, Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.
+
+RESOURCE ID: quest_special_dialogue_roset_2_5
+TEXT: Isn’t that fascinating? Have you seen anything like that while you have been out completing research?
+
+RESOURCE ID: quest_special_dialogue_roset_2_6
+TEXT: If so, you are a very lucky Trainer!
+
+RESOURCE ID: quest_special_dialogue_roset_2_7
+TEXT: Now that you are back, I’d like you to evolve one of your Roselia with the Sinnoh Stone I gave you.
+
+RESOURCE ID: quest_special_dialogue_roset_2_8
+TEXT: I’m excited to see the final evolution of this Grass- and Poision-type family of Pokémon!
+
+RESOURCE ID: quest_special_dialogue_roset_3_0
+TEXT: Great work, Trainer! Your Roselia has evolved into the Bouquet Pokémon, Roserade!
+
+RESOURCE ID: quest_special_dialogue_roset_3_1
+TEXT: Движениями танцора, Розрейд атакует плетями, плотно облицованными ядовитыми шипами.
+
+RESOURCE ID: quest_special_dialogue_roset_3_2
+TEXT: Noted: Use caution when dancing with Roserade. If you examine the Pokémon closely, you can see there are differences between each hand.
+
+RESOURCE ID: quest_special_dialogue_roset_3_3
+TEXT: Each of its hands contains different toxins. The poison in its right hand is quick acting. The poison in its left hand is slow acting.
+
+RESOURCE ID: quest_special_dialogue_roset_3_4
+TEXT: What an amazing Pokémon, don’t you agree?
+
+RESOURCE ID: quest_special_dialogue_roset_3_5
+TEXT: Thank you for all your help today, I really appreciate you helping me document this situation so we can keep learning more and more about the Pokémon in the world around us.
+
+RESOURCE ID: quest_special_dialogue_roset_3_6
+TEXT: До встречи, ИДИ и ЛОВИ!
+
+RESOURCE ID: quest_special_dialogue_spiritomb_1_0
+TEXT: %PLAYERNAME%, большое спасибо за твою помощь. Я провёл небольшое исследование Покемонов типа Привидения и выяснил, что существует Покемон типа Привидения и Темноты, имеющий отношение к странному камню.
 
 RESOURCE ID: quest_special_dialogue_tcc_0_0
 TEXT: Привет, %PLAYERNAME%. Я очень впечатлён твоим прогрессом. Была проделана просто фантастическая работа по исследованию Покемонов, первоначально обнаруженных в регионах Канто, Джото, Хоэнн и Синно.
@@ -4811,6 +5608,21 @@ TEXT: Мегаиспытание: Приятель (3/ 4)
 RESOURCE ID: quest_title_megabuddy_3
 TEXT: Мегаиспытание: Приятель (4/ 4)
 
+RESOURCE ID: quest_title_roset
+TEXT: Stop and Smell the Roselia
+
+RESOURCE ID: quest_title_roset_0
+TEXT: Stop and Smell the Roselia (1/4)
+
+RESOURCE ID: quest_title_roset_1
+TEXT: Stop and Smell the Roselia (2/4)
+
+RESOURCE ID: quest_title_roset_2
+TEXT: Stop and Smell the Roselia (3/4)
+
+RESOURCE ID: quest_title_roset_3
+TEXT: Stop and Smell the Roselia (4/4)
+
 RESOURCE ID: quest_title_spwk_0
 TEXT: Особые выходные (1/4)
 
@@ -4883,6 +5695,9 @@ TEXT: Водный фестиваль – Поймай {0} водных Поке
 RESOURCE ID: quest_wayfarer_catch_pokemon_plural
 TEXT: Бонус Wayfarer – Поймай {0} Покемонов
 
+RESOURCE ID: quest_win_raid_3_plural
+TEXT: Победи в {0} рейдах уровня 3 или выше
+
 RESOURCE ID: quest_win_raid_lvl1plus_less1500cp_plural
 TEXT: Победи в {0} рейдах, используя только Покемонов с 1500 БC или меньше
 
@@ -4894,6 +5709,9 @@ TEXT: Победи в {0} трёхзвёздночных рейдах, испо�
 
 RESOURCE ID: quest_win_raid_lvl3plus_less1500cp_singular
 TEXT: Победи в трёхзвёздночном рейде, используя только Покемонов с 1500 БC или меньше
+
+RESOURCE ID: quest_win_raid_plural
+TEXT: Победи в {0} рейдах
 
 RESOURCE ID: quest_win_rocket_leader_less1500cp_plural
 TEXT: Победи лидера Команды Ракета GO, используя только Покемонов с 1500 БC или меньше x{0} 
@@ -4946,6 +5764,9 @@ TEXT: 2× звёздной пыли и XP за рейд
 RESOURCE ID: raid_stardust_xp_triple
 TEXT: 3× звёздной пыли и XP за рейд
 
+RESOURCE ID: raid_tut_how_to_battle
+TEXT: СРАЗИТЬСЯ
+
 RESOURCE ID: raid_tut_pass_message
 TEXT: Чтобы участвовать в битве, нужен пропуск. Если у тебя ещё нет рейдового пропуска, его можно получить бесплатно каждый день. Ты также можешь приобрести боевые премиум-пропуска и пропуска на удалённые рейды в магазине.
 
@@ -4955,6 +5776,21 @@ TEXT: Чтобы участвовать в битве, нужен пропуск
 RESOURCE ID: raid_xp_double
 TEXT: 2× XP за рейд
 
+RESOURCE ID: raidweek_2019_hard_raid
+TEXT: Победи в {0} рейдах
+
+RESOURCE ID: raidweek_2019_medium_raid
+TEXT: Победи в {0} рейдах
+
+RESOURCE ID: rare_xl_candy_usage_confirmation
+TEXT: Превратить редкую XL-конфету в XL {0}-конфету?
+
+RESOURCE ID: remote_raid_nearby_callout
+TEXT: Новое: Сражайся в рейдах удалённо
+
+RESOURCE ID: remote_raid_remote_trainer_bonus
+TEXT: Больше Тренеров может сражаться в удалённых рейдах
+
 RESOURCE ID: retention_friend_bonus_message
 TEXT: <i>Pokémon Go</i> гораздо веселее с друзьями! Ты можешь получать очки опыта (XP), яйца и предметы, обмениваясь подарками с друзьями.
 
@@ -4963,6 +5799,36 @@ TEXT: В 2 раза больше загадочных компонентов о�
 
 RESOURCE ID: safari_2019_catch
 TEXT: Зона Сафари – Поймай {0} Покемонов
+
+RESOURCE ID: safari_battle_singular
+TEXT: Зона Сафари – Сразись с другим Тренером
+
+RESOURCE ID: score_15_10_none
+TEXT: Сделано 0 хороших кручёных бросков
+
+RESOURCE ID: score_15_10_plural
+TEXT: Сделаны хорошие кручёные броски: {0}
+
+RESOURCE ID: score_15_10_singular
+TEXT: Сделан 1 хороший кручёный бросок
+
+RESOURCE ID: score_15_11_none
+TEXT: Сделано 0 отличных кручёных бросков
+
+RESOURCE ID: score_15_11_plural
+TEXT: Сделаны отличные кручёные броски: {0}
+
+RESOURCE ID: score_15_11_singular
+TEXT: Сделан 1 отличный кручёный бросок
+
+RESOURCE ID: score_15_12_none
+TEXT: Сделано 0 прекрасных кручёных бросков
+
+RESOURCE ID: score_15_12_plural
+TEXT: Сделаны прекрасные кручёные броски: {0}
+
+RESOURCE ID: score_15_12_singular
+TEXT: Сделан 1 прекрасный кручёный бросок
 
 RESOURCE ID: score_1_10_11_12_singular
 TEXT: Поймано {0} огненных, водных или травяных Покемонов
@@ -4975,6 +5841,42 @@ TEXT: Поймано {0} водных Покемонов
 
 RESOURCE ID: score_1_12_singular
 TEXT: Поймано {0} травяных Покемонов
+
+RESOURCE ID: score_6_plural
+TEXT: Победа в {0} рейдах
+
+RESOURCE ID: score_8_10_none
+TEXT: Сделано 0 хороших бросков
+
+RESOURCE ID: score_8_10_plural
+TEXT: Сделаны хорошие броски: {0}
+
+RESOURCE ID: score_8_10_singular
+TEXT: Сделан 1 хороший бросок
+
+RESOURCE ID: score_8_11_none
+TEXT: Сделано 0 отличных бросков
+
+RESOURCE ID: score_8_11_plural
+TEXT: Сделаны отличные броски: {0}
+
+RESOURCE ID: score_8_11_singular
+TEXT: Сделан 1 отличный бросок
+
+RESOURCE ID: score_8_12_none
+TEXT: Сделано 0 прекрасных бросков
+
+RESOURCE ID: score_8_12_plural
+TEXT: Сделаны прекрасные броски: {0}
+
+RESOURCE ID: score_8_12_singular
+TEXT: Сделан 1 прекрасный бросок
+
+RESOURCE ID: score_battle_raid_none
+TEXT: Участие в 0 рейдах
+
+RESOURCE ID: score_battle_raid_plural
+TEXT: Участие в {0} рейдах
 
 RESOURCE ID: screen_title_battle_hub
 TEXT: Сражения
@@ -4992,7 +5894,7 @@ RESOURCE ID: sent_gift_to_friend
 TEXT: Отправлен подарок Тренеру {0}.
 
 RESOURCE ID: sent_you_a_gift
-TEXT: Пришёл подарок от {0}!
+TEXT: Тебе пришёл подарок от {0}!
 
 RESOURCE ID: set_friend_nickname
 TEXT: Добавить ник
@@ -5060,8 +5962,14 @@ TEXT: Праздник Синно – Поймай {0} Крикетотов
 RESOURCE ID: sinnoh_collection_name
 TEXT: Sinnoh Collection Challenge
 
+RESOURCE ID: spark_inspire#1
+TEXT: Ты справишься!
+
 RESOURCE ID: spawn_machop
 TEXT: More Machop are appearing in the wild
+
+RESOURCE ID: spawn_roselia
+TEXT: More Roselia are appearing in the wild
 
 RESOURCE ID: spawn_wooper
 TEXT: More Wooper are appearing in the wild
@@ -5104,6 +6012,9 @@ TEXT: Декабрьский день сообщества
 
 RESOURCE ID: ticket_machop
 TEXT: Tickets for the Straight to the Top, Machop! Special Research story available in the shop
+
+RESOURCE ID: ticket_roselia
+TEXT: Ticket for Special Research story available in the Shop: Stop and Smell the Roselia
 
 RESOURCE ID: titan_ar_mapping_scan_cancelled
 TEXT: Сканирование отменено
@@ -5333,6 +6244,57 @@ TEXT: Электронная приманка. 30 минут привлекае�
 RESOURCE ID: troydisk_mossy.1_description
 TEXT: Естественная приманка. Привлекает больше Покемонов, чем обычно, 30 минут – особенно тех, кто любит запах мха. Может вызывать эволюцию некоторых Покемонов.
 
+RESOURCE ID: tutorial_xl_candy_1
+TEXT: Похоже, была найдена XL-конфета! Говорят, их можно использовать, чтобы твои Покемоны становились ещё сильнее, чем с помощью обычных конфет!
+
+RESOURCE ID: type_tutorial_electric__female_speaker
+TEXT: Электрические Покемоны слабы к земляным атакам.
+
+RESOURCE ID: type_tutorial_electric__male_speaker
+TEXT: Электрические Покемоны слабы к земляным атакам.
+
+RESOURCE ID: type_tutorial_fire__female_speaker
+TEXT: Огненные Покемоны слабы к водным, земляным и каменным атакам.
+
+RESOURCE ID: type_tutorial_fire__male_speaker
+TEXT: Огненные Покемоны слабы к водным, земляным и каменным атакам.
+
+RESOURCE ID: type_tutorial_ghost__female_speaker
+TEXT: Покемоны типа Привидения слабы к атакам типа Темноты и Привидения.
+
+RESOURCE ID: type_tutorial_ghost__male_speaker
+TEXT: Покемоны типа Привидения слабы к атакам типа Темноты и Привидения.
+
+RESOURCE ID: type_tutorial_ground__female_speaker
+TEXT: Земляные Покемоны слабы к водным, травяным и ледяным атакам.
+
+RESOURCE ID: type_tutorial_ground__male_speaker
+TEXT: Земляные Покемоны слабы к водным, травяным и ледяным атакам.
+
+RESOURCE ID: type_tutorial_ice__female_speaker
+TEXT: Ледяные Покемоны слабы к огненным, каменным, стальным и боевым атакам.
+
+RESOURCE ID: type_tutorial_ice__male_speaker
+TEXT: Ледяные Покемоны слабы к огненным, каменным, стальным и боевым атакам.
+
+RESOURCE ID: type_tutorial_poison__female_speaker
+TEXT: Ядовитые Покемоны слабы к земляным и психическим атакам.
+
+RESOURCE ID: type_tutorial_poison__male_speaker
+TEXT: Ядовитые Покемоны слабы к земляным и психическим атакам.
+
+RESOURCE ID: type_tutorial_rock__female_speaker
+TEXT: Каменные Покемоны слабы к водным, травяным, земляным, стальным и боевым атакам.
+
+RESOURCE ID: type_tutorial_rock__male_speaker
+TEXT: Каменные Покемоны слабы к водным, травяным, земляным, стальным и боевым атакам.
+
+RESOURCE ID: type_tutorial_steel__female_speaker
+TEXT: Стальные Покемоны слабы к огненным, земляным и боевым атакам.
+
+RESOURCE ID: type_tutorial_steel__male_speaker
+TEXT: Стальные Покемоны слабы к огненным, земляным и боевым атакам.
+
 RESOURCE ID: unova_collection_name
 TEXT: Unova Collection Challenge
 
@@ -5364,7 +6326,7 @@ RESOURCE ID: upload_mgmt_noms
 TEXT: PokéStop Nominations ({0})
 
 RESOURCE ID: upload_mgmt_pending_data
-TEXT: You have {0} contribution(s) pending upload.
+TEXT: You have {0} contribution pending upload.
 
 RESOURCE ID: upload_mgmt_thank_you
 TEXT: Thank you for your contribution.
@@ -5396,8 +6358,14 @@ TEXT: UPLOAD ERROR ({0})
 RESOURCE ID: upmgmt_main_menu_uploaded
 TEXT: UPLOADED ({0})
 
+RESOURCE ID: upmgmt_main_menu_uploading_singular
+TEXT: UPLOADING ({0})
+
 RESOURCE ID: upmgmt_main_upload_failed
 TEXT: Upload failed
+
+RESOURCE ID: upmgmt_settings_msg_plural
+TEXT: You have {0} contributions pending upload
 
 RESOURCE ID: upmgmt_summary_about
 TEXT: About Location Points
@@ -5444,6 +6412,12 @@ TEXT: Ошибка при запросе наград за ранг.
 RESOURCE ID: vss_battle_collect_description
 TEXT: Получить
 
+RESOURCE ID: vss_battle_free_button
+TEXT: Сразиться
+
+RESOURCE ID: vss_battle_premium_button
+TEXT: Сразиться
+
 RESOURCE ID: vss_entry_description
 TEXT: Повышай свой ранг и соревнуйся по всему миру за награды и славу!
 
@@ -5461,6 +6435,12 @@ TEXT: Водный фестиваль – Поймай {0} водных Поке
 
 RESOURCE ID: waterfest_2019_catch_medium
 TEXT: Водный фестиваль – Поймай {0} водных Покемонов
+
+RESOURCE ID: waterfest_2019_raids_medium
+TEXT: Водный фестиваль –Победи в {0} рейдах
+
+RESOURCE ID: waterfest_2019_snapshot_easy
+TEXT: Водный фестиваль – Сфотографируй {0} водных Покемонов
 
 RESOURCE ID: weather_boosted_types_desciption
 TEXT: Эти типы Покемонов сильнее, чаще появляются и дают бонусную звёздную пыль при поимке. 

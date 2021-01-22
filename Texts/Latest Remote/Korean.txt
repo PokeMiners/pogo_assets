@@ -121,11 +121,14 @@ TEXT: 실패했습니다. 다시 선택해 주세요.
 RESOURCE ID: community_day_machop_event_name
 TEXT: 커뮤니티 데이: 알통몬
 
+RESOURCE ID: community_day_roselia_event_name
+TEXT: Community Day: Roselia
+
 RESOURCE ID: december_cd_event_ticket
 TEXT: "12월 커뮤니티 데이" 티켓
 
 RESOURCE ID: egg_transparency_available_pokemon
-TEXT: HATCHABLE POKÉMON
+TEXT: 부화하는 포켓몬
 
 RESOURCE ID: event_hoenn_celebration
 TEXT: 호연 기념 이벤트
@@ -135,6 +138,12 @@ TEXT: 성도 기념 이벤트
 
 RESOURCE ID: event_kanto_celebration
 TEXT: 관동 기념 이벤트
+
+RESOURCE ID: event_mega_evolve_reminder
+TEXT: 메가진화한 포켓몬과 같은 타입의 포켓몬을 잡았을 때 사탕 증가
+
+RESOURCE ID: event_move_ampharos_dragon_pulse
+TEXT: 보송송을 전룡으로 진화시키면 용의파동을 배움
 
 RESOURCE ID: event_sinnoh_celebration
 TEXT: 신오 기념 이벤트
@@ -177,6 +186,14 @@ RESOURCE ID: general1.ticket.2_description_2
 TEXT: 전 세계 어디에 있어도 현지 시간 2020년 12월 12일 11시~ 12월 13일 17시까지 게임 내에서 시작할 수 있는 이벤트 "불뿜기포켓몬의 수수께끼를 풀어라!"를 플레이할 수 있는 티켓. 자세한 내용은 게임 내 새소식에서 확인할 수 있습니다.
 
 이벤트를 최대한 즐기려면 기재된 개최 시간 내에 완료할  필요가 있습니다.
+
+RESOURCE ID: general1.ticket.2_roset_description
+TEXT: A ticket to access the "Stop and Smell the Roselia" Special Research from February 7, 2021, at 11:00 a.m. to February 7, 2021, at 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+ YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_roset_title
+TEXT: Stop and Smell the Roselia Ticket
 
 RESOURCE ID: general1.ticket.2_title
 TEXT: "괴력포켓몬의 수수께끼를 풀어라!" 티켓
@@ -232,6 +249,12 @@ TEXT: 호연 컬렉션 챌린지
 RESOURCE ID: holiday_cup_title
 TEXT: 홀리데이컵
 
+RESOURCE ID: home_privacy_warning
+TEXT: Pokémon GO와 Pokémon HOME을  연계하면, 포켓몬을 전송하는 과정에서 제한된 정보가 The Pokémon Company에 공유됩니다. 자세한 정보에 대해서는 <a href="https://niantic.helpshift.com/a/pokemon-go/?s=accessories-and-services&f=sending-pokemon-to-pokemon-home">헬프</a> 내 기재된 문장을 확인해 주십시오. The Pokémon Company에 제공된 데이터는 The Pokémon Company 개인정보 취급방침에 따라 취급됩니다.
+
+RESOURCE ID: incense_day_pokemon_mareep
+TEXT: 메리프각 향로에 반응
+
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: 현지 시간 2021년 1월 16일 11시~ 17시에 스페셜리서치를 진행하기 위한 티켓.
 
@@ -243,6 +266,12 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2021년1월 16일�
 
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2020년12월 19일 10시~12월 20일 20시까지 스페셜리서치가 진행됩니다.
+
+RESOURCE ID: item_event_ticket_pink_roset_desc
+TEXT: A ticket to access a special research on February 7 from 11 a.m. to 5 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_roset_details
+TEXT: This ticket will automatically activate to give you access to a special research on February 7, wherever you are in the world.
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: This ticket will automatically activate to give you access to a special event on February 20, 2021, wherever you are in the world.
@@ -278,6 +307,9 @@ TEXT: 이긴 레이드
 RESOURCE ID: level_up_stats_title
 TEXT: 레벨업 활동
 
+RESOURCE ID: love_cup_title
+TEXT: Love Cup
+
 RESOURCE ID: m_avatar_poses_bundle_pose_27
 TEXT: 마임맨의 포즈
 
@@ -291,8 +323,8 @@ RESOURCE ID: maximum_tags_error
 TEXT: 태그는 최대 {0}개까지 가능합니다.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-01-14T18:38:58.437772
-at SHA 0512c352d38bb4604242860d2b3ceadd8216ce19
+TEXT: Built at 2021-01-21T17:52:02.209929
+at SHA 5655ae13adf9e22121e6486031085215253505f6
 Patch from: 0.195.2-SHA-a9d032f8
 
 RESOURCE ID: mini_collection_feb21_gen1_event
@@ -312,6 +344,9 @@ TEXT: 신오 컬렉션 챌린지
 
 RESOURCE ID: mini_collection_jan21_gen5_event
 TEXT: 하나 컬렉션 챌린지
+
+RESOURCE ID: mini_collection_jan21_shadow_event
+TEXT: 그림자 컬렉션(성도)
 
 RESOURCE ID: minicollect_completion_date_format
 TEXT: M/dd/yyyy
@@ -366,8 +401,17 @@ TEXT: 전 세계 어디에 있어도 현지 시간 2020년 12월 19일 10시~ 12
 RESOURCE ID: mrmime_ticket_title
 TEXT: "댄스포켓몬의 수수께끼를 풀어라!" 티켓
 
+RESOURCE ID: open_sponsored_balloon_postcard_message
+TEXT: Enjoy these free items to help you on your adventure from <b>{0}</b>
+
+RESOURCE ID: open_sponsored_gift_button
+TEXT: Open Gift
+
 RESOURCE ID: photobomb_five_machop
 TEXT: GO스냅샷으로 알통몬의 서프라이즈 5번
+
+RESOURCE ID: photobomb_five_roselia
+TEXT: 5 Photobombs from Roselia in GO Snapshot
 
 RESOURCE ID: poi_contrib_limit_report_sponsor_content
 TEXT: 스폰서 포켓스톱 장소에 관한 보고 권한이 없습니다.
@@ -380,6 +424,9 @@ TEXT: 하루에 선출할 수 있는 포켓스톱은 {0}건까지 입니다.
 
 RESOURCE ID: poi_contrib_upload_later_thanks
 TEXT: 감사합니다!
+
+RESOURCE ID: poi_contrib_uploading_status_singular
+TEXT: Uploading {0}/{1}
 
 RESOURCE ID: pokemon_category_0122_2339
 TEXT: 댄스포켓몬
@@ -400,7 +447,7 @@ RESOURCE ID: pokemon_name_0866
 TEXT: 마임꽁꽁
 
 RESOURCE ID: pokemon_transfer_legendary_confirmation
-TEXT: Your selection contains Legendary Pokémon or Mythical Pokémon! Are you sure you want to transfer the selected Pokémon?
+TEXT: 전설의 포켓몬과 환상의 포켓몬을 포함하고 있습니다. 정말로 보내겠습니까?
 
 RESOURCE ID: poseidon_passcode_title
 TEXT: Please enter activation code
@@ -432,6 +479,9 @@ TEXT: Complete {0} Collection Challenges
 RESOURCE ID: quest_complete_minicollect_singular
 TEXT: Complete a Collection Challenge
 
+RESOURCE ID: quest_complete_roset
+TEXT: Stop and Smell the Roselia
+
 RESOURCE ID: quest_defeat_jessie_james_plural
 TEXT: 로사 또는 로이에게 {0}번 이긴다
 
@@ -455,6 +505,12 @@ TEXT: 전설의 포켓몬을 {0}번 강화한다
 
 RESOURCE ID: quest_power_up_legendary_singular
 TEXT: 전설의 포켓몬을 1번 강화한다
+
+RESOURCE ID: quest_roset_catch_b
+TEXT: Catch {0} Roselia
+
+RESOURCE ID: quest_roset_evolve_b
+TEXT: Evolve {0} Roselia
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_0
 TEXT: 안녕, %PLAYERNAME%! 만나서 반갑군. 올해도 이제 얼마 안 남았다니 믿어지니?
@@ -858,6 +914,93 @@ TEXT: 그 영화를 보기까지 포켓몬과의 유대감에 대해서는 알�
 RESOURCE ID: quest_special_dialogue_macht_3_5
 TEXT: 이야기를 들어줘서 고마워. 넌 괴력몬과 사이좋게 지내보라고. 또 보자.그때까지 힘차게 GO!
 
+RESOURCE ID: quest_special_dialogue_roset_0_0
+TEXT: Ahhh… do you smell that, Trainer?
+
+RESOURCE ID: quest_special_dialogue_roset_0_1
+TEXT: Earlier today, I was distracted by an amazing aroma as I was taking my daily morning walk.
+
+RESOURCE ID: quest_special_dialogue_roset_0_2
+TEXT: Upon further investigation, I discovered that the scent was coming from an unusually large group of Roselia appearing by a nearby spring.
+
+RESOURCE ID: quest_special_dialogue_roset_0_3
+TEXT: Did you know, its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is, and judging by the aroma these are VERY healthy Roselia!
+
+RESOURCE ID: quest_special_dialogue_roset_0_4
+TEXT: However sweet smelling, do be careful when encountering this Pokémon.
+
+RESOURCE ID: quest_special_dialogue_roset_0_5
+TEXT: The thorns on its head contain a vicious poison and can shoot them as projectiles at any opponent that tries to steal the flowers on its arms.
+
+RESOURCE ID: quest_special_dialogue_roset_0_6
+TEXT: Since this many Roselia appearing at once is quite a rare occurrence, would you mind assisting me with some research?
+
+RESOURCE ID: quest_special_dialogue_roset_1_0
+TEXT: Welcome back, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_roset_1_1
+TEXT: While you were out smelling the Roselia, I wanted to be sure I had the most updated information about this Pokémon to share with you.
+
+RESOURCE ID: quest_special_dialogue_roset_1_2
+TEXT: Even a professor like myself reviews Pokédex information on a regular basis.
+
+RESOURCE ID: quest_special_dialogue_roset_1_3
+TEXT: Roselia, the Thorn Pokémon evolves from Budew, the Bud Pokémon. Budew is sensitive to changes in temperature, the bud is said to bloom when it feels the sun's warm touch.
+
+RESOURCE ID: quest_special_dialogue_roset_1_4
+TEXT: It also shares the same typing as Roselia, both are Grass- and Poision-type.
+
+RESOURCE ID: quest_special_dialogue_roset_1_5
+TEXT: I still need a bit more research on Roselia if you wouldn’t mind assisting me, in my review of the Pokédex I remembered something exciting about this Pokémon and want to see it for myself!
+
+RESOURCE ID: quest_special_dialogue_roset_2_0
+TEXT: Wow… could you imagine if it was Muk appearing instead of Roselia?
+
+RESOURCE ID: quest_special_dialogue_roset_2_1
+TEXT: A big group all gathered in the sun… that would smell AWFUL…
+
+RESOURCE ID: quest_special_dialogue_roset_2_2
+TEXT: Oh! Hey there, %PLAYERNAME%, glad to see you’re back.
+
+RESOURCE ID: quest_special_dialogue_roset_2_3
+TEXT: I found that interesting bit of information I wanted to share with you.
+
+RESOURCE ID: quest_special_dialogue_roset_2_4
+TEXT: According to the Pokédex, Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.
+
+RESOURCE ID: quest_special_dialogue_roset_2_5
+TEXT: Isn’t that fascinating? Have you seen anything like that while you have been out completing research?
+
+RESOURCE ID: quest_special_dialogue_roset_2_6
+TEXT: If so, you are a very lucky Trainer!
+
+RESOURCE ID: quest_special_dialogue_roset_2_7
+TEXT: Now that you are back, I’d like you to evolve one of your Roselia with the Sinnoh Stone I gave you.
+
+RESOURCE ID: quest_special_dialogue_roset_2_8
+TEXT: I’m excited to see the final evolution of this Grass- and Poision-type family of Pokémon!
+
+RESOURCE ID: quest_special_dialogue_roset_3_0
+TEXT: Great work, Trainer! Your Roselia has evolved into the Bouquet Pokémon, Roserade!
+
+RESOURCE ID: quest_special_dialogue_roset_3_1
+TEXT: 댄서 같은 재빠른 몸놀림으로 독가시가 빽빽이 늘어선 채찍을 조종하여 공격한다.
+
+RESOURCE ID: quest_special_dialogue_roset_3_2
+TEXT: Noted: Use caution when dancing with Roserade. If you examine the Pokémon closely, you can see there are differences between each hand.
+
+RESOURCE ID: quest_special_dialogue_roset_3_3
+TEXT: Each of its hands contains different toxins. The poison in its right hand is quick acting. The poison in its left hand is slow acting.
+
+RESOURCE ID: quest_special_dialogue_roset_3_4
+TEXT: What an amazing Pokémon, don’t you agree?
+
+RESOURCE ID: quest_special_dialogue_roset_3_5
+TEXT: Thank you for all your help today, I really appreciate you helping me document this situation so we can keep learning more and more about the Pokémon in the world around us.
+
+RESOURCE ID: quest_special_dialogue_roset_3_6
+TEXT: 그럼 다음에 또 보자!
+
 RESOURCE ID: quest_title_dec20cd
 TEXT: 12월 커뮤니티 데이
 
@@ -906,23 +1049,38 @@ TEXT: 괴력포켓몬의 수수께끼를 풀어라!(3/4)
 RESOURCE ID: quest_title_macht_3
 TEXT: 괴력포켓몬의 수수께끼를 풀어라!(4/4)
 
+RESOURCE ID: quest_title_roset
+TEXT: Stop and Smell the Roselia
+
+RESOURCE ID: quest_title_roset_0
+TEXT: Stop and Smell the Roselia (1/4)
+
+RESOURCE ID: quest_title_roset_1
+TEXT: Stop and Smell the Roselia (2/4)
+
+RESOURCE ID: quest_title_roset_2
+TEXT: Stop and Smell the Roselia (3/4)
+
+RESOURCE ID: quest_title_roset_3
+TEXT: Stop and Smell the Roselia (4/4)
+
 RESOURCE ID: quest_walk_25km_inaweek_plural
 TEXT: 주간 피트니스 25km 보상을 {0}번 받는다
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
-TEXT: Enabling this setting will allow you to transfer Legendary Pokémon and certain Mythical Pokémon when selecting multiple Pokémon in your Pokémon storage. Transferring Pokémon to Professor Willow cannot be undone.
+TEXT: 이 설정을 켜면 전설의 포켓몬과 일부 환상의 포켓몬을 포함해서 복수 선택이 가능해집니다. 박사에게 보낸 포켓몬은 되돌릴 수 없습니다. 
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_title
-TEXT: Are you sure you want to be able to transfer Legendary and Mythical Pokémon when selecting multiple Pokémon?
+TEXT: 전설의 포켓몬과 환상의 포켓몬을 선택할 수 있게 하겠습니까?
 
 RESOURCE ID: settings_pokemon_header
 TEXT: 포켓몬
 
 RESOURCE ID: settings_select_legendary_label
-TEXT: Expanded Group Transfer
+TEXT: 확장 선택
 
 RESOURCE ID: settings_select_legendary_tip
-TEXT: Allows you to transfer Legendary Pokémon and certain Mythical Pokémon when selecting multiple Pokémon in your Pokémon storage.
+TEXT: 복수 선택시 전설의 포켓몬과 일부 환상의 포켓몬을 포함합니다
 
 RESOURCE ID: settings_sfida_system_notifications
 TEXT: 알림 설정
@@ -933,6 +1091,9 @@ TEXT: 신오 컬렉션 챌린지
 RESOURCE ID: spawn_machop
 TEXT: 알통몬이 야생에서 많이 출현
 
+RESOURCE ID: spawn_roselia
+TEXT: More Roselia are appearing in the wild
+
 RESOURCE ID: spawn_wooper
 TEXT: 우파가 야생에서 더 많이 출현
 
@@ -941,6 +1102,9 @@ TEXT: 12월 커뮤니티 데이
 
 RESOURCE ID: ticket_machop
 TEXT: "괴력포켓몬의 수수께끼를 풀어라!" 티켓이 숍에 등장
+
+RESOURCE ID: ticket_roselia
+TEXT: Ticket for Special Research story available in the Shop: Stop and Smell the Roselia
 
 RESOURCE ID: titan_ar_mapping_warning_too_slow
 TEXT: 움직임을 감지하지 못했습니다. 포켓스톱 주변을 천천히 움직여 주세요.
@@ -1041,8 +1205,14 @@ TEXT: 업로드 에러 ({0})
 RESOURCE ID: upmgmt_main_menu_uploaded
 TEXT: 업로드 완료 ({0})
 
+RESOURCE ID: upmgmt_main_menu_uploading_singular
+TEXT: UPLOADING ({0})
+
 RESOURCE ID: upmgmt_main_upload_failed
 TEXT: 업로드 실패
+
+RESOURCE ID: upmgmt_settings_msg_plural
+TEXT: You have {0} contributions pending upload
 
 RESOURCE ID: upmgmt_summary_about
 TEXT: 장소 포인트에 대해

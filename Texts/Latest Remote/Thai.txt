@@ -118,6 +118,11 @@ TEXT: ผู้สืบทอด
 RESOURCE ID: badge_unique_mega_evos_title
 TEXT: ผู้เชี่ยวชาญวิวัฒนาการเมก้า
 
+RESOURCE ID: batch_transfer_confirm
+TEXT: <size=36><b>คุณต้องการถ่ายโอน โปเกมอน {0} ตัว ไปยังศาสตราจารย์หรือไม่?</b></size>
+
+จะไม่สามารถแก้ไขได้หากทำการถ่ายโอนไปแล้ว
+
 RESOURCE ID: buddy_walked_found_candy
 TEXT: {0} พบลูกอม!
 
@@ -205,6 +210,9 @@ TEXT: ป้องกัน
 RESOURCE ID: community_day_machop_event_name
 TEXT: คอมมิวนิตี้เดย์ : วันริกี
 
+RESOURCE ID: community_day_roselia_event_name
+TEXT: Community Day: Roselia
+
 RESOURCE ID: december_cd_event_ticket
 TEXT: ตั๋วคอมมิวนิตี้เดย์เดือนธันวาคม
 
@@ -225,6 +233,12 @@ TEXT: อีเวนต์เฉลิมฉลองโจโตะ
 
 RESOURCE ID: event_kanto_celebration
 TEXT: อีเวนต์เฉลิมฉลองคันโต
+
+RESOURCE ID: event_mega_evolve_reminder
+TEXT: รับลูกอมจากการจับโปเกมอนประเภทเดียวกับโปเกมอนที่วิวัฒนาการเมก้าเพิ่ม
+
+RESOURCE ID: event_move_ampharos_dragon_pulse
+TEXT: วิวัฒนาการโมโคโคเป็นเด็นริวที่รู้ท่า “คลื่นมังกร”
 
 RESOURCE ID: event_sinnoh_celebration
 TEXT: อีเวนต์เฉลิมฉลองชินโอ
@@ -265,6 +279,14 @@ RESOURCE ID: general1.ticket.2_description
 TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษ "วันริกีเดินหน้าลุย!" ในวันที่ 16 มกราคม 2020 เวลา 11:00 - 17:00 น. ตามเวลาท้องถิ่นไม่ว่าคุณจะอยู่ที่ใด สามารถดูรายละเอียดได้ที่ข่าวสารในเกม
 
 คุณต้องเล่นเกมในช่วงเวลาที่กำหนดเพื่อรับโบนัสทั้งหมดจากอีเวนต์พิเศษ
+
+RESOURCE ID: general1.ticket.2_roset_description
+TEXT: A ticket to access the "Stop and Smell the Roselia" Special Research from February 7, 2021, at 11:00 a.m. to February 7, 2021, at 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+ YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_roset_title
+TEXT: Stop and Smell the Roselia Ticket
 
 RESOURCE ID: general1.ticket.2_title
 TEXT: ตั๋ว "วันริกีเดินหน้าลุย!"
@@ -312,16 +334,16 @@ RESOURCE ID: gotour2021_choose_version_title_red
 TEXT: Do you want to choose Red Version?
 
 RESOURCE ID: gotour2021_content_hashtag
-TEXT: Post photos with #PokemonGOTour, and we’ll share our favorites!
+TEXT: เราจะเลือกรูปภาพที่ถูกใจจากในโพสต์ที่ติด #PokemonGOTour มาแนะนำ!
 
 RESOURCE ID: gotour2021_content_link_green
-TEXT: You have selected Green Version
+TEXT: คุณได้เลือกเวอร์ชัน Green
 
 RESOURCE ID: gotour2021_content_link_red
-TEXT: You have selected Red Version
+TEXT: คุณได้เลือกเวอร์ชัน Red
 
 RESOURCE ID: gotour2021_content_link_short
-TEXT: Post photos with #PokemonGOTour, and we’ll share our favorites!
+TEXT: เราจะเลือกรูปภาพที่ถูกใจจากในโพสต์ที่ติด #PokemonGOTour มาแนะนำ!
 
 RESOURCE ID: gotour2021_minicollect_description_ongoing
 TEXT: มาจับ แลกเปลี่ยน และวิวัฒนาการโปเกมอนเหล่านี้ก่อนหมดเวลาเพื่อเคลียร์คำท้านักสะสม Pokémon GO Tour: ภูมิภาคคันโตกันเลย!
@@ -413,6 +435,9 @@ TEXT: การขโมยไอเทมไปจากเสาโปเก�
 RESOURCE ID: hoenn_collection_name
 TEXT: คำท้านักสะสมโฮเอ็น
 
+RESOURCE ID: incense_day_pokemon_mareep
+TEXT: เมรีปถูกดึงดูดด้วยเครื่องหอม
+
 RESOURCE ID: invasion_encounter_onboarding__blanche_speaker|1
 TEXT: แปลกมาก... ดูเหมือนว่าคู่ต่อสู้ของคุณจะทิ้งโปเกมอนที่ใช้แบตเทิลไว้หลังจากพ่ายแพ้ เขามีออร่าที่แปลกประหลาด และชั่วร้ายปกคลุมด้วย
 
@@ -455,6 +480,12 @@ TEXT: ตั๋วนี้จะทำให้คุณเข้าร่ว�
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษของอีเวนต์กาลาร์บาร์เรียด ตั้งแต่วันที่ 19 ธันวาคม 2020 เวลา 10:00 น. จนถึงวันที่ 20 ธันวาคม 2020 เวลา 20:00 น. ตามเวลาท้องถิ่นไม่ว่าคุณจะอยู่ที่ใด
 
+RESOURCE ID: item_event_ticket_pink_roset_desc
+TEXT: A ticket to access a special research on February 7 from 11 a.m. to 5 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_roset_details
+TEXT: This ticket will automatically activate to give you access to a special research on February 7, wherever you are in the world.
+
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: ตั๋วนี้จะทำให้คุณเข้าร่วมอีเวนต์พิเศษในวันที่ 20 กุมภาพันธ์ได้โดยอัตโนมัติไม่ว่าคุณจะอยู่ที่ใดในโลก
 
@@ -489,6 +520,9 @@ TEXT: ชนะการตีบอส
 RESOURCE ID: level_up_stats_title
 TEXT: กิจกรรมที่ทำในเลเวลก่อนหน้า
 
+RESOURCE ID: love_cup_title
+TEXT: Love Cup
+
 RESOURCE ID: m_avatar_poses_bundle_pose_27
 TEXT: ท่าโพสบาร์เรียด
 
@@ -496,8 +530,8 @@ RESOURCE ID: maximum_tags_error
 TEXT: ไม่สามารถสร้างแท็กได้มากกว่า {0} แท็ก
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-01-14T18:38:58.437772
-at SHA 0512c352d38bb4604242860d2b3ceadd8216ce19
+TEXT: Built at 2021-01-21T17:52:02.209929
+at SHA 5655ae13adf9e22121e6486031085215253505f6
 Patch from: 0.195.2-SHA-a9d032f8
 
 RESOURCE ID: mini_collection_feb21_gen1_event
@@ -517,6 +551,9 @@ TEXT: คำท้านักสะสมชินโอ
 
 RESOURCE ID: mini_collection_jan21_gen5_event
 TEXT: คำท้านักสะสมอิชชู
+
+RESOURCE ID: mini_collection_jan21_shadow_event
+TEXT: เฉลิมฉลองโจโตะ: นักสะสมชาโดว์
 
 RESOURCE ID: minicollect_completion_date_format
 TEXT: M/dd/yyyy
@@ -568,8 +605,17 @@ TEXT: ตั๋วสำหรับเข้าร่วมงานวิจ�
 RESOURCE ID: mrmime_ticket_title
 TEXT: ตั๋วอีเวนต์กาลาร์บาร์เรียด
 
+RESOURCE ID: open_sponsored_balloon_postcard_message
+TEXT: Enjoy these free items to help you on your adventure from <b>{0}</b>
+
+RESOURCE ID: open_sponsored_gift_button
+TEXT: Open Gift
+
 RESOURCE ID: photobomb_five_machop
 TEXT: วันริกีแย่งซีนถ่ายรูปในโกสแนปช็อต 5 ครั้ง
+
+RESOURCE ID: photobomb_five_roselia
+TEXT: 5 Photobombs from Roselia in GO Snapshot
 
 RESOURCE ID: poi_contrib_limit_regen
 TEXT: ยื่นคำร้องเพิ่มจะสามารถทำได้ในอีก {0} วัน
@@ -579,6 +625,9 @@ TEXT: คุณอยู่ห่างจากเสาโปเกสต็�
 
 RESOURCE ID: poi_contrib_upload_later_thanks
 TEXT: ขอบคุณที่ให้ความร่วมมือ!
+
+RESOURCE ID: poi_contrib_uploading_status_singular
+TEXT: Uploading {0}/{1}
 
 RESOURCE ID: poi_submission_success_title
 TEXT: ส่งการยื่นคำขอแล้ว!
@@ -591,6 +640,9 @@ TEXT: ชำระล้าง :
 
 RESOURCE ID: pokemon_category_0122_2339
 TEXT: โปเกมอนนักเต้น
+
+RESOURCE ID: pokemon_category_0364
+TEXT: โปเกมอนหมุนบอล
 
 RESOURCE ID: pokemon_category_0674
 TEXT: โปเกมอนซุกซน
@@ -618,6 +670,14 @@ TEXT: ยอดนักเต้นแท็ป โบกไม้เท้า�
 
 RESOURCE ID: pokemon_go_hashtag
 TEXT: #PokemonGO
+
+RESOURCE ID: pokemon_info_multi_transfer_event_pokemon_final_confirmation
+TEXT: มีโปเกมอนอีเวนต์รวมอยู่ด้วย! แน่ใจหรือไม่ว่าจะถ่ายโอน?
+
+RESOURCE ID: pokemon_info_transfer_to_professor_confirmation
+TEXT: <size=36><b>คุณต้องการถ่ายโอน{0} ไปยังศาสตราจารย์หรือไม่?</b></size>
+
+จะไม่สามารถแก้ไขได้หากทำการถ่ายโอนไปแล้ว
 
 RESOURCE ID: pokemon_name_0664
 TEXT: โคฟูคิมูชิ
@@ -776,7 +836,7 @@ RESOURCE ID: pokemon_name_0866
 TEXT: บาริโครุ
 
 RESOURCE ID: pokemon_transfer_legendary_confirmation
-TEXT: คุณกำลังเลือกโปเกมอนในตำนานและโปเกมอนมายารวมอยู่ด้วย! แน่ใจหรือไม่ว่าจะถ่ายโอนโปเกมอนที่เลือก?
+TEXT: มีโปเกมอนในตำนาน หรือโปเกมอนมายารวมอยู่ด้วย! แน่ใจหรือไม่ว่าจะถ่ายโอน?
 
 RESOURCE ID: poseidon_passcode_title
 TEXT: Please enter activation code
@@ -799,6 +859,9 @@ TEXT: บรรลุคำท้านักสะสม {0} ครั้ง
 RESOURCE ID: quest_complete_minicollect_singular
 TEXT: บรรลุคำท้านักสะสม
 
+RESOURCE ID: quest_complete_roset
+TEXT: Stop and Smell the Roselia
+
 RESOURCE ID: quest_defeat_jessie_james_plural
 TEXT: เอาชนะมุซาชิและโคจิโร {0} ครั้ง
 
@@ -816,6 +879,12 @@ TEXT: วิวัฒนาการวันริกี {0} ตัว
 
 RESOURCE ID: quest_macht_evolve_s1
 TEXT: วิวัฒนาการโกริกี {0} ตัว
+
+RESOURCE ID: quest_roset_catch_b
+TEXT: Catch {0} Roselia
+
+RESOURCE ID: quest_roset_evolve_b
+TEXT: Evolve {0} Roselia
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_0
 TEXT: สวัสดี %PLAYERNAME%! ดีใจที่ได้เจอนะ ไม่น่าเชื่อว่าอีกไม่นานก็สิ้นปีแล้ว
@@ -1198,6 +1267,93 @@ TEXT: เธอไม่รู้หรอกว่าตัวเองจะ�
 RESOURCE ID: quest_special_dialogue_macht_3_5
 TEXT: ขอบคุณที่ฟังเรื่องราวของฉันนะ! ขอให้เธอและไคริกีโชคดี ไว้เจอกันใหม่! เล็ตส์โก!
 
+RESOURCE ID: quest_special_dialogue_roset_0_0
+TEXT: Ahhh… do you smell that, Trainer?
+
+RESOURCE ID: quest_special_dialogue_roset_0_1
+TEXT: Earlier today, I was distracted by an amazing aroma as I was taking my daily morning walk.
+
+RESOURCE ID: quest_special_dialogue_roset_0_2
+TEXT: Upon further investigation, I discovered that the scent was coming from an unusually large group of Roselia appearing by a nearby spring.
+
+RESOURCE ID: quest_special_dialogue_roset_0_3
+TEXT: Did you know, its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is, and judging by the aroma these are VERY healthy Roselia!
+
+RESOURCE ID: quest_special_dialogue_roset_0_4
+TEXT: However sweet smelling, do be careful when encountering this Pokémon.
+
+RESOURCE ID: quest_special_dialogue_roset_0_5
+TEXT: The thorns on its head contain a vicious poison and can shoot them as projectiles at any opponent that tries to steal the flowers on its arms.
+
+RESOURCE ID: quest_special_dialogue_roset_0_6
+TEXT: Since this many Roselia appearing at once is quite a rare occurrence, would you mind assisting me with some research?
+
+RESOURCE ID: quest_special_dialogue_roset_1_0
+TEXT: Welcome back, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_roset_1_1
+TEXT: While you were out smelling the Roselia, I wanted to be sure I had the most updated information about this Pokémon to share with you.
+
+RESOURCE ID: quest_special_dialogue_roset_1_2
+TEXT: Even a professor like myself reviews Pokédex information on a regular basis.
+
+RESOURCE ID: quest_special_dialogue_roset_1_3
+TEXT: Roselia, the Thorn Pokémon evolves from Budew, the Bud Pokémon. Budew is sensitive to changes in temperature, the bud is said to bloom when it feels the sun's warm touch.
+
+RESOURCE ID: quest_special_dialogue_roset_1_4
+TEXT: It also shares the same typing as Roselia, both are Grass- and Poision-type.
+
+RESOURCE ID: quest_special_dialogue_roset_1_5
+TEXT: I still need a bit more research on Roselia if you wouldn’t mind assisting me, in my review of the Pokédex I remembered something exciting about this Pokémon and want to see it for myself!
+
+RESOURCE ID: quest_special_dialogue_roset_2_0
+TEXT: Wow… could you imagine if it was Muk appearing instead of Roselia?
+
+RESOURCE ID: quest_special_dialogue_roset_2_1
+TEXT: A big group all gathered in the sun… that would smell AWFUL…
+
+RESOURCE ID: quest_special_dialogue_roset_2_2
+TEXT: Oh! Hey there, %PLAYERNAME%, glad to see you’re back.
+
+RESOURCE ID: quest_special_dialogue_roset_2_3
+TEXT: I found that interesting bit of information I wanted to share with you.
+
+RESOURCE ID: quest_special_dialogue_roset_2_4
+TEXT: According to the Pokédex, Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.
+
+RESOURCE ID: quest_special_dialogue_roset_2_5
+TEXT: Isn’t that fascinating? Have you seen anything like that while you have been out completing research?
+
+RESOURCE ID: quest_special_dialogue_roset_2_6
+TEXT: If so, you are a very lucky Trainer!
+
+RESOURCE ID: quest_special_dialogue_roset_2_7
+TEXT: Now that you are back, I’d like you to evolve one of your Roselia with the Sinnoh Stone I gave you.
+
+RESOURCE ID: quest_special_dialogue_roset_2_8
+TEXT: I’m excited to see the final evolution of this Grass- and Poision-type family of Pokémon!
+
+RESOURCE ID: quest_special_dialogue_roset_3_0
+TEXT: Great work, Trainer! Your Roselia has evolved into the Bouquet Pokémon, Roserade!
+
+RESOURCE ID: quest_special_dialogue_roset_3_1
+TEXT: เคลื่อนไหวด้วยท่วงท่าที่ราวกับนักเต้นรำ และฟาดด้วยแส้ที่เรียงรายหนาแน่นไปด้วยหนามพิษ
+
+RESOURCE ID: quest_special_dialogue_roset_3_2
+TEXT: Noted: Use caution when dancing with Roserade. If you examine the Pokémon closely, you can see there are differences between each hand.
+
+RESOURCE ID: quest_special_dialogue_roset_3_3
+TEXT: Each of its hands contains different toxins. The poison in its right hand is quick acting. The poison in its left hand is slow acting.
+
+RESOURCE ID: quest_special_dialogue_roset_3_4
+TEXT: What an amazing Pokémon, don’t you agree?
+
+RESOURCE ID: quest_special_dialogue_roset_3_5
+TEXT: Thank you for all your help today, I really appreciate you helping me document this situation so we can keep learning more and more about the Pokémon in the world around us.
+
+RESOURCE ID: quest_special_dialogue_roset_3_6
+TEXT: ลาก่อน จนกว่าจะได้พบกันใหม่นะ เล็ตส์โก!
+
 RESOURCE ID: quest_title_dec20cd
 TEXT: คอมมิวนิตี้เดย์เดือนธันวาคม
 
@@ -1261,6 +1417,21 @@ TEXT: วันริกีเดินหน้าลุย! (3/4)
 RESOURCE ID: quest_title_macht_3
 TEXT: วันริกีเดินหน้าลุย! (4/4)
 
+RESOURCE ID: quest_title_roset
+TEXT: Stop and Smell the Roselia
+
+RESOURCE ID: quest_title_roset_0
+TEXT: Stop and Smell the Roselia (1/4)
+
+RESOURCE ID: quest_title_roset_1
+TEXT: Stop and Smell the Roselia (2/4)
+
+RESOURCE ID: quest_title_roset_2
+TEXT: Stop and Smell the Roselia (3/4)
+
+RESOURCE ID: quest_title_roset_3
+TEXT: Stop and Smell the Roselia (4/4)
+
 RESOURCE ID: quest_walk_25km_inaweek_plural
 TEXT: รับรางวัลเดิน 25 กม. ในหนึ่งสัปดาห์ {0} ครั้ง
 
@@ -1280,10 +1451,10 @@ RESOURCE ID: settings_pokemon_header
 TEXT: โปเกมอน
 
 RESOURCE ID: settings_select_legendary_label
-TEXT: ถ่ายโอนโปเกมอนในตำนานและโปเกมอนมายา
+TEXT: ขยายขอบเขตในการถ่ายโอน
 
 RESOURCE ID: settings_select_legendary_tip
-TEXT: ทำให้สามารถถ่ายโอนโปเกมอนในตำนานและโปเกมอนมายาบางส่วนได้
+TEXT: จะสามารถถ่ายโอนโปเกมอนในตำนานและโปเกมอนมายาบางส่วนได้เมื่อเลือกโปเกมอนหลายตัว
 
 RESOURCE ID: settings_sfida_system_notifications
 TEXT: การแจ้งเตือนแบบพุช
@@ -1321,6 +1492,9 @@ TEXT: คำท้านักสะสมชินโอ
 RESOURCE ID: spawn_machop
 TEXT: วันริกีปรากฏตัวมากขึ้นในธรรมชาติ
 
+RESOURCE ID: spawn_roselia
+TEXT: More Roselia are appearing in the wild
+
 RESOURCE ID: spawn_wooper
 TEXT: อูปาปรากฏตัวมากขึ้นในธรรมชาติ
 
@@ -1329,6 +1503,9 @@ TEXT: คอมมิวนิตี้เดย์เดือนธันว�
 
 RESOURCE ID: ticket_machop
 TEXT: ตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษมีจำหน่ายในร้านค้า : วันริกีเดินหน้าลุย!
+
+RESOURCE ID: ticket_roselia
+TEXT: Ticket for Special Research story available in the Shop: Stop and Smell the Roselia
 
 RESOURCE ID: titan_image_gallery_rpc_failed
 TEXT: การโหลดรูปภาพล้มเหลว กรุณาลองใหม่อีกครั้งในภายหลัง
@@ -1396,8 +1573,14 @@ TEXT: เกิดข้อผิดพลาดในการอัปโห�
 RESOURCE ID: upmgmt_main_menu_uploaded
 TEXT: อัปโหลด ({0}) เสร็จสิ้น
 
+RESOURCE ID: upmgmt_main_menu_uploading_singular
+TEXT: UPLOADING ({0})
+
 RESOURCE ID: upmgmt_main_upload_failed
 TEXT: การอัปโหลดล้มเหลว
+
+RESOURCE ID: upmgmt_settings_msg_plural
+TEXT: You have {0} contributions pending upload
 
 RESOURCE ID: upmgmt_summary_about
 TEXT: เกี่ยวกับจุดที่ตั้ง

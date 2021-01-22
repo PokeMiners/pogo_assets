@@ -133,6 +133,9 @@ TEXT: Impossible de choisir une version d’évènement. Essaie plus tard.
 RESOURCE ID: community_day_machop_event_name
 TEXT: Journée Communauté : Machoc
 
+RESOURCE ID: community_day_roselia_event_name
+TEXT: Community Day: Roselia
+
 RESOURCE ID: december_cd_event_ticket
 TEXT: Ticket : Journée Communauté de décembre
 
@@ -150,6 +153,12 @@ TEXT: Évènement de célébration de Kalos
 
 RESOURCE ID: event_kanto_celebration
 TEXT: Évènement de célébration de Kanto
+
+RESOURCE ID: event_mega_evolve_reminder
+TEXT: Gagne plus de Bonbons Capture venant de Pokémon du même type que ton Pokémon méga-évolué.
+
+RESOURCE ID: event_move_ampharos_dragon_pulse
+TEXT: Fais évoluer Lainergie pour obtenir un Pharamp connaissant Draco-Choc.
 
 RESOURCE ID: event_sinnoh_celebration
 TEXT: Évènement de célébration de Sinnoh
@@ -192,6 +201,14 @@ RESOURCE ID: general1.ticket.2_description_2
 TEXT: Un ticket pour accéder à l’Étude spéciale, “Magmar en fusion”, le 21 novembre 2020, de 11h à 17h (heures locales), où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
 
 Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet évènement spécial.
+
+RESOURCE ID: general1.ticket.2_roset_description
+TEXT: A ticket to access the "Stop and Smell the Roselia" Special Research from February 7, 2021, at 11:00 a.m. to February 7, 2021, at 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+ YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_roset_title
+TEXT: Stop and Smell the Roselia Ticket
 
 RESOURCE ID: general1.ticket.2_title
 TEXT: Ticket : Toujours au top, Machoc !
@@ -238,6 +255,9 @@ TEXT: Bienvenue dans le Circuit Pokémon GO : Kanto !
 RESOURCE ID: hoenn_collection_name
 TEXT: Défi de collection de Hoenn
 
+RESOURCE ID: incense_day_pokemon_mareep
+TEXT: Wattouat attiré par l’Encens
+
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Un ticket pour accéder à un évènement spécial le 16 janvier de 11h à 17h (heures locales), où que tu sois.
 
@@ -249,6 +269,12 @@ TEXT: Ce ticket sera automatiquement activé pour te donner l’accès à une É
 
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: Ce ticket sera automatiquement activé pour te donner l’accès à l’évènement M. Mime de Galar, qui se tiendra du 19 décembre 2020 à 10h au 20 décembre 2020 à 20h (heures locales), où que tu sois.
+
+RESOURCE ID: item_event_ticket_pink_roset_desc
+TEXT: A ticket to access a special research on February 7 from 11 a.m. to 5 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_roset_details
+TEXT: This ticket will automatically activate to give you access to a special research on February 7, wherever you are in the world.
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: This ticket will automatically activate to give you access to a special event on February 20, 2021, wherever you are in the world.
@@ -284,6 +310,9 @@ TEXT: Raids gagnés
 RESOURCE ID: level_up_stats_title
 TEXT: Activité du niveau précédent
 
+RESOURCE ID: love_cup_title
+TEXT: Love Cup
+
 RESOURCE ID: m_avatar_poses_bundle_pose_27
 TEXT: Pose Mime
 
@@ -291,8 +320,8 @@ RESOURCE ID: master_classic_title
 TEXT: Ligue Master Classique
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-01-14T18:38:58.437772
-at SHA 0512c352d38bb4604242860d2b3ceadd8216ce19
+TEXT: Built at 2021-01-21T17:52:02.209929
+at SHA 5655ae13adf9e22121e6486031085215253505f6
 Patch from: 0.195.2-SHA-a9d032f8
 
 RESOURCE ID: mini_collection_feb21_gen1_event
@@ -302,7 +331,7 @@ RESOURCE ID: mini_collection_jan21_gen2_event
 TEXT: Défi de collection de Johto
 
 RESOURCE ID: mini_collection_jan21_gen2_legend_event
-TEXT: Johto Celebration Legendary Collection
+TEXT: Célébration de Johto : Collection légendaire
 
 RESOURCE ID: mini_collection_jan21_gen3_event
 TEXT: Défi de collection de Hoenn
@@ -312,6 +341,9 @@ TEXT: Défi de collection de Sinnoh
 
 RESOURCE ID: mini_collection_jan21_gen5_event
 TEXT: Défi de collection d’Unys
+
+RESOURCE ID: mini_collection_jan21_shadow_event
+TEXT: Célébration de Johto : Collection Rocket
 
 RESOURCE ID: minicollect_completion_date_format
 TEXT: dd/M/yyyy
@@ -366,11 +398,23 @@ Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet 
 RESOURCE ID: mrmime_ticket_title
 TEXT: Ticket d’évènement M. Mime de Galar
 
+RESOURCE ID: open_sponsored_balloon_postcard_message
+TEXT: Enjoy these free items to help you on your adventure from <b>{0}</b>
+
+RESOURCE ID: open_sponsored_gift_button
+TEXT: Open Gift
+
 RESOURCE ID: photobomb_five_machop
 TEXT: Machoc s’introduit 5 fois dans tes Clichés GO
 
+RESOURCE ID: photobomb_five_roselia
+TEXT: 5 Photobombs from Roselia in GO Snapshot
+
 RESOURCE ID: poi_contrib_upload_later_thanks
 TEXT: Thank you for your contribution!
+
+RESOURCE ID: poi_contrib_uploading_status_singular
+TEXT: Uploading {0}/{1}
 
 RESOURCE ID: pokemon_category_0122_2339
 TEXT: Pokémon Danse
@@ -391,7 +435,7 @@ RESOURCE ID: pokemon_name_0866
 TEXT: M. Glaquette
 
 RESOURCE ID: pokemon_transfer_legendary_confirmation
-TEXT: Your selection contains Legendary Pokémon or Mythical Pokémon! Are you sure you want to transfer the selected Pokémon?
+TEXT: Ta sélection contient des Pokémon légendaires ou fabuleux. Veux-tu vraiment transférer les Pokémon sélectionnés ?
 
 RESOURCE ID: poseidon_passcode_title
 TEXT: Please enter activation code
@@ -414,6 +458,9 @@ TEXT: Termine {0} Défis de collection
 RESOURCE ID: quest_complete_minicollect_singular
 TEXT: Termine un Défi de collection
 
+RESOURCE ID: quest_complete_roset
+TEXT: Stop and Smell the Roselia
+
 RESOURCE ID: quest_defeat_jessie_james_plural
 TEXT: Bats Jessie ou James {0} fois
 
@@ -431,6 +478,12 @@ TEXT: Fais évoluer {0} Machoc
 
 RESOURCE ID: quest_macht_evolve_s1
 TEXT: Fais évoluer {0} Machopeur
+
+RESOURCE ID: quest_roset_catch_b
+TEXT: Catch {0} Roselia
+
+RESOURCE ID: quest_roset_evolve_b
+TEXT: Evolve {0} Roselia
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_0
 TEXT: Bonjour, %PLAYERNAME%. Quel plaisir de te revoir ! Je n’arrive pas à croire que l’année touche déjà à sa fin.
@@ -834,6 +887,93 @@ TEXT: On ne sait jamais ce que l’on va découvrir sur soi-même quand on essai
 RESOURCE ID: quest_special_dialogue_macht_3_5
 TEXT: Merci de participer à ce voyage, Dresseur. Je te souhaite bonne chance, à toi et à ton Mackogneur, et te dis « à la prochaine ». À tes marques, prêt, GO !
 
+RESOURCE ID: quest_special_dialogue_roset_0_0
+TEXT: Ahhh… do you smell that, Trainer?
+
+RESOURCE ID: quest_special_dialogue_roset_0_1
+TEXT: Earlier today, I was distracted by an amazing aroma as I was taking my daily morning walk.
+
+RESOURCE ID: quest_special_dialogue_roset_0_2
+TEXT: Upon further investigation, I discovered that the scent was coming from an unusually large group of Roselia appearing by a nearby spring.
+
+RESOURCE ID: quest_special_dialogue_roset_0_3
+TEXT: Did you know, its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is, and judging by the aroma these are VERY healthy Roselia!
+
+RESOURCE ID: quest_special_dialogue_roset_0_4
+TEXT: However sweet smelling, do be careful when encountering this Pokémon.
+
+RESOURCE ID: quest_special_dialogue_roset_0_5
+TEXT: The thorns on its head contain a vicious poison and can shoot them as projectiles at any opponent that tries to steal the flowers on its arms.
+
+RESOURCE ID: quest_special_dialogue_roset_0_6
+TEXT: Since this many Roselia appearing at once is quite a rare occurrence, would you mind assisting me with some research?
+
+RESOURCE ID: quest_special_dialogue_roset_1_0
+TEXT: Tu es de retour, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_roset_1_1
+TEXT: While you were out smelling the Roselia, I wanted to be sure I had the most updated information about this Pokémon to share with you.
+
+RESOURCE ID: quest_special_dialogue_roset_1_2
+TEXT: Even a professor like myself reviews Pokédex information on a regular basis.
+
+RESOURCE ID: quest_special_dialogue_roset_1_3
+TEXT: Roselia, the Thorn Pokémon evolves from Budew, the Bud Pokémon. Budew is sensitive to changes in temperature, the bud is said to bloom when it feels the sun's warm touch.
+
+RESOURCE ID: quest_special_dialogue_roset_1_4
+TEXT: It also shares the same typing as Roselia, both are Grass- and Poision-type.
+
+RESOURCE ID: quest_special_dialogue_roset_1_5
+TEXT: I still need a bit more research on Roselia if you wouldn’t mind assisting me, in my review of the Pokédex I remembered something exciting about this Pokémon and want to see it for myself!
+
+RESOURCE ID: quest_special_dialogue_roset_2_0
+TEXT: Wow… could you imagine if it was Muk appearing instead of Roselia?
+
+RESOURCE ID: quest_special_dialogue_roset_2_1
+TEXT: A big group all gathered in the sun… that would smell AWFUL…
+
+RESOURCE ID: quest_special_dialogue_roset_2_2
+TEXT: Oh! Hey there, %PLAYERNAME%, glad to see you’re back.
+
+RESOURCE ID: quest_special_dialogue_roset_2_3
+TEXT: I found that interesting bit of information I wanted to share with you.
+
+RESOURCE ID: quest_special_dialogue_roset_2_4
+TEXT: According to the Pokédex, Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.
+
+RESOURCE ID: quest_special_dialogue_roset_2_5
+TEXT: Isn’t that fascinating? Have you seen anything like that while you have been out completing research?
+
+RESOURCE ID: quest_special_dialogue_roset_2_6
+TEXT: If so, you are a very lucky Trainer!
+
+RESOURCE ID: quest_special_dialogue_roset_2_7
+TEXT: Now that you are back, I’d like you to evolve one of your Roselia with the Sinnoh Stone I gave you.
+
+RESOURCE ID: quest_special_dialogue_roset_2_8
+TEXT: I’m excited to see the final evolution of this Grass- and Poision-type family of Pokémon!
+
+RESOURCE ID: quest_special_dialogue_roset_3_0
+TEXT: Great work, Trainer! Your Roselia has evolved into the Bouquet Pokémon, Roserade!
+
+RESOURCE ID: quest_special_dialogue_roset_3_1
+TEXT: Gracieux comme un danseur, il abat ses fouets ornés d’épines empoisonnées.
+
+RESOURCE ID: quest_special_dialogue_roset_3_2
+TEXT: Noted: Use caution when dancing with Roserade. If you examine the Pokémon closely, you can see there are differences between each hand.
+
+RESOURCE ID: quest_special_dialogue_roset_3_3
+TEXT: Each of its hands contains different toxins. The poison in its right hand is quick acting. The poison in its left hand is slow acting.
+
+RESOURCE ID: quest_special_dialogue_roset_3_4
+TEXT: What an amazing Pokémon, don’t you agree?
+
+RESOURCE ID: quest_special_dialogue_roset_3_5
+TEXT: Thank you for all your help today, I really appreciate you helping me document this situation so we can keep learning more and more about the Pokémon in the world around us.
+
+RESOURCE ID: quest_special_dialogue_roset_3_6
+TEXT: À la prochaine et en avant !
+
 RESOURCE ID: quest_title_dec20cd
 TEXT: Journée Communauté de décembre
 
@@ -882,23 +1022,38 @@ TEXT: Toujours au top, Machoc ! (3/4)
 RESOURCE ID: quest_title_macht_3
 TEXT: Toujours au top, Machoc ! (4/4)
 
+RESOURCE ID: quest_title_roset
+TEXT: Stop and Smell the Roselia
+
+RESOURCE ID: quest_title_roset_0
+TEXT: Stop and Smell the Roselia (1/4)
+
+RESOURCE ID: quest_title_roset_1
+TEXT: Stop and Smell the Roselia (2/4)
+
+RESOURCE ID: quest_title_roset_2
+TEXT: Stop and Smell the Roselia (3/4)
+
+RESOURCE ID: quest_title_roset_3
+TEXT: Stop and Smell the Roselia (4/4)
+
 RESOURCE ID: quest_walk_25km_inaweek_plural
 TEXT: Marche 25 km par semaine {0} fois en utilisant le Suivi d’exploration
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
-TEXT: Enabling this setting will allow you to transfer Legendary Pokémon and certain Mythical Pokémon when selecting multiple Pokémon in your Pokémon storage. Transferring Pokémon to Professor Willow cannot be undone.
+TEXT: Activer cette option te permettra de transférer des Pokémon légendaires et certains Pokémon fabuleux en sélectionnant plusieurs Pokémon dans ton stockage Pokémon. Transférer des Pokémon au Professeur Willow est définitif.
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_title
-TEXT: Are you sure you want to be able to transfer Legendary and Mythical Pokémon when selecting multiple Pokémon?
+TEXT: Veux-tu vraiment autoriser le transfert de Pokémon légendaires et Pokémon fabuleux lorsque tu sélectionnes plusieurs Pokémon ?
 
 RESOURCE ID: settings_pokemon_header
 TEXT: Pokémon
 
 RESOURCE ID: settings_select_legendary_label
-TEXT: Expanded Group Transfer
+TEXT: Transfert avancé
 
 RESOURCE ID: settings_select_legendary_tip
-TEXT: Allows you to transfer Legendary Pokémon and certain Mythical Pokémon when selecting multiple Pokémon in your Pokémon storage.
+TEXT: Permet de transférer des Pokémon légendaires et certains Pokémon fabuleux en sélectionnant des Pokémon dans ton stockage Pokémon.
 
 RESOURCE ID: settings_sfida_system_notifications
 TEXT: Notifications automatiques
@@ -909,6 +1064,9 @@ TEXT: Défi de collection de Sinnoh
 RESOURCE ID: spawn_machop
 TEXT: Plus de Machoc apparaissent dans la nature
 
+RESOURCE ID: spawn_roselia
+TEXT: More Roselia are appearing in the wild
+
 RESOURCE ID: spawn_wooper
 TEXT: Plus d’Axoloto apparaissent dans la nature
 
@@ -917,6 +1075,9 @@ TEXT: Journée Communauté de décembre
 
 RESOURCE ID: ticket_machop
 TEXT: Tickets pour Étude spéciale dans la Boutique : Toujours au top, Machoc !
+
+RESOURCE ID: ticket_roselia
+TEXT: Ticket for Special Research story available in the Shop: Stop and Smell the Roselia
 
 RESOURCE ID: titan_image_gallery_rpc_failed
 TEXT: Impossible de charger les images. Essaie plus tard.
@@ -963,8 +1124,14 @@ TEXT: UPLOAD ERROR ({0})
 RESOURCE ID: upmgmt_main_menu_uploaded
 TEXT: UPLOADED ({0})
 
+RESOURCE ID: upmgmt_main_menu_uploading_singular
+TEXT: UPLOADING ({0})
+
 RESOURCE ID: upmgmt_main_upload_failed
 TEXT: Upload failed
+
+RESOURCE ID: upmgmt_settings_msg_plural
+TEXT: You have {0} contributions pending upload
 
 RESOURCE ID: upmgmt_summary_about
 TEXT: About Location Points

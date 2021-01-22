@@ -1,3 +1,6 @@
+RESOURCE ID: appraise_v2_late_address
+TEXT:  in der Nähe von {0} gefangen.
+
 RESOURCE ID: avatar_f_backpack_guccibackpack_00_bundle_icon
 TEXT: The North Face x Gucci Rucksack
 
@@ -121,6 +124,9 @@ TEXT: Auswahl der Event-Version fehlgeschlagen. Versuche es später erneut.
 RESOURCE ID: community_day_machop_event_name
 TEXT: Community Day: Machollo
 
+RESOURCE ID: community_day_roselia_event_name
+TEXT: Community Day: Roselia
+
 RESOURCE ID: december_cd_event_ticket
 TEXT: Ticket für den Dezember Community Day
 
@@ -135,6 +141,12 @@ TEXT: Johto-Feier-Event
 
 RESOURCE ID: event_kanto_celebration
 TEXT: Kanto-Feier-Event
+
+RESOURCE ID: event_mega_evolve_reminder
+TEXT: Erhalte mehr Fang-Bonbons von Pokémon, bei denen die Mega-Entwicklung ausgelöst wurde.
+
+RESOURCE ID: event_move_ampharos_dragon_pulse
+TEXT: Entwickle Waaty, um ein Ampharos mit Drachenpuls zu erhalten.
 
 RESOURCE ID: event_sinnoh_celebration
 TEXT: Sinnoh-Feier-Event
@@ -172,6 +184,14 @@ RESOURCE ID: general1.ticket.2_description
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Ganz nach oben, Machollo!“ am 16. Januar 2021 von 11:00 Uhr bis 17:00 Uhr Ortszeit (wo immer du dich befindest). Details unter „Neuigkeiten“ im Spiel.
 
 DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZIAL-EVENTS ZU ERHALTEN.
+
+RESOURCE ID: general1.ticket.2_roset_description
+TEXT: A ticket to access the "Stop and Smell the Roselia" Special Research from February 7, 2021, at 11:00 a.m. to February 7, 2021, at 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+ YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_roset_title
+TEXT: Stop and Smell the Roselia Ticket
 
 RESOURCE ID: general1.ticket.2_title
 TEXT: Ticket: Ganz nach oben, Machollo!
@@ -215,11 +235,14 @@ TEXT: Willkommen zur Pokémon GO-Tour: Kanto!
 RESOURCE ID: gotour2021_welcome_red
 TEXT: Willkommen zur Pokémon GO-Tour: Kanto!
 
-RESOURCE ID: grunt_bm_greeting#1
-TEXT: ...und unseren eigenen Staat zu kreieren!
+RESOURCE ID: grunt_bf_greeting#1
+TEXT: Wir wollen über die Erde regieren ...
 
 RESOURCE ID: hoenn_collection_name
 TEXT: Hoenn-Sammler-Herausforderung
+
+RESOURCE ID: incense_day_pokemon_mareep
+TEXT: Voltilamm werden von Rauch angelockt.
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Ein Ticket für den Zugang zur Spezialforschung am 16. Januar 2021 von 11:00 Uhr bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
@@ -232,6 +255,12 @@ TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezi
 
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Galar-Pantimos-Event vom 19. Dezember 2020 um 10:00 Uhr bis zum 20. Dezember 2020 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_pink_roset_desc
+TEXT: A ticket to access a special research on February 7 from 11 a.m. to 5 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_roset_details
+TEXT: This ticket will automatically activate to give you access to a special research on February 7, wherever you are in the world.
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: Dieses Ticket wird automatisch aktiviert und du erhältst damit am 20. Februar 2021 Zugang zu einem besonderen Event (wo immer du dich befindest).
@@ -267,12 +296,15 @@ TEXT: Gewonnene Raids
 RESOURCE ID: level_up_stats_title
 TEXT: Aktivität im vorigen Level
 
+RESOURCE ID: love_cup_title
+TEXT: Love Cup
+
 RESOURCE ID: m_avatar_poses_bundle_pose_27
 TEXT: Pantimos-Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-01-14T18:38:58.437772
-at SHA 0512c352d38bb4604242860d2b3ceadd8216ce19
+TEXT: Built at 2021-01-21T17:52:02.209929
+at SHA 5655ae13adf9e22121e6486031085215253505f6
 Patch from: 0.195.2-SHA-a9d032f8
 
 RESOURCE ID: mini_collection_feb21_gen1_event
@@ -282,7 +314,7 @@ RESOURCE ID: mini_collection_jan21_gen2_event
 TEXT: Johto-Sammler-Herausforderung
 
 RESOURCE ID: mini_collection_jan21_gen2_legend_event
-TEXT: Johto Celebration Legendary Collection
+TEXT: Johto-Feier: Legendäre Kollektion
 
 RESOURCE ID: mini_collection_jan21_gen3_event
 TEXT: Hoenn-Sammler-Herausforderung
@@ -292,6 +324,9 @@ TEXT: Sinnoh-Sammler-Herausforderung
 
 RESOURCE ID: mini_collection_jan21_gen5_event
 TEXT: Einall-Sammler-Herausforderung
+
+RESOURCE ID: mini_collection_jan21_shadow_event
+TEXT: Johto-Feier: Rocket-Kollektion
 
 RESOURCE ID: minicollect_completion_date_format
 TEXT: dd.M.yyyy
@@ -343,11 +378,23 @@ DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZ
 RESOURCE ID: mrmime_ticket_title
 TEXT: Galar-Pantimos-Event-Ticket
 
+RESOURCE ID: open_sponsored_balloon_postcard_message
+TEXT: Enjoy these free items to help you on your adventure from <b>{0}</b>
+
+RESOURCE ID: open_sponsored_gift_button
+TEXT: Open Gift
+
 RESOURCE ID: photobomb_five_machop
 TEXT: 5 überraschende Begegnungen mit Machollo in GO-Schnappschuss
 
+RESOURCE ID: photobomb_five_roselia
+TEXT: 5 Photobombs from Roselia in GO Snapshot
+
 RESOURCE ID: poi_contrib_upload_later_thanks
 TEXT: Danke für deinen Beitrag!
+
+RESOURCE ID: poi_contrib_uploading_status_singular
+TEXT: {0}/{1} wird hochgeladen
 
 RESOURCE ID: pokemon_category_0122_2339
 TEXT: Tanz-Pokémon
@@ -400,6 +447,9 @@ TEXT: Schließe {0} Sammler-Herausforderungen ab.
 RESOURCE ID: quest_complete_minicollect_singular
 TEXT: Schließe eine Sammler-Herausforderung ab.
 
+RESOURCE ID: quest_complete_roset
+TEXT: Stop and Smell the Roselia
+
 RESOURCE ID: quest_defeat_jessie_james_plural
 TEXT: Besiege Jessie oder James {0}-mal.
 
@@ -417,6 +467,12 @@ TEXT: Entwickle {0} Machollo
 
 RESOURCE ID: quest_macht_evolve_s1
 TEXT: Entwickle {0} Maschock
+
+RESOURCE ID: quest_roset_catch_b
+TEXT: Catch {0} Roselia
+
+RESOURCE ID: quest_roset_evolve_b
+TEXT: Evolve {0} Roselia
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_0
 TEXT: Hallo, %PLAYERNAME%! Es ist so schön, dich zu sehen. Unglaublich, dass dieses Jahr schon fast vorüber ist, oder?
@@ -677,10 +733,10 @@ RESOURCE ID: quest_special_dialogue_jj_2_2
 TEXT: Jessie: ...
 
 RESOURCE ID: quest_special_dialogue_jj_2_20
-TEXT: Jessie: Um die Welt vor Verwüstung zu schützen!
+TEXT: Jessie: Wir wollen über die Erde regieren ...
 
 RESOURCE ID: quest_special_dialogue_jj_2_21
-TEXT: James: Und unseren eigenen Staat zu kreieren – HEY! Hörst du überhaupt zu?
+TEXT: James: ...und unseren eigenen Staat kreieren – HEY! Hörst du überhaupt zu?
 
 RESOURCE ID: quest_special_dialogue_jj_2_3
 TEXT: James: Hey, warum sagst du denn nichts?
@@ -820,6 +876,93 @@ TEXT: Man weiß nie, was man über sich selbst lernen kann, bevor man neue Dinge
 RESOURCE ID: quest_special_dialogue_macht_3_5
 TEXT: Danke, dass du mich auf dieser Reise begleitet hast, Trainer. Ich wünsche dir und deinem Machomei alles Gute. Wir sehen uns beim nächsten Mal! Nichts wie raus und GO!
 
+RESOURCE ID: quest_special_dialogue_roset_0_0
+TEXT: Ahhh… do you smell that, Trainer?
+
+RESOURCE ID: quest_special_dialogue_roset_0_1
+TEXT: Earlier today, I was distracted by an amazing aroma as I was taking my daily morning walk.
+
+RESOURCE ID: quest_special_dialogue_roset_0_2
+TEXT: Upon further investigation, I discovered that the scent was coming from an unusually large group of Roselia appearing by a nearby spring.
+
+RESOURCE ID: quest_special_dialogue_roset_0_3
+TEXT: Did you know, its flowers give off a relaxing fragrance. The stronger its aroma, the healthier the Roselia is, and judging by the aroma these are VERY healthy Roselia!
+
+RESOURCE ID: quest_special_dialogue_roset_0_4
+TEXT: However sweet smelling, do be careful when encountering this Pokémon.
+
+RESOURCE ID: quest_special_dialogue_roset_0_5
+TEXT: The thorns on its head contain a vicious poison and can shoot them as projectiles at any opponent that tries to steal the flowers on its arms.
+
+RESOURCE ID: quest_special_dialogue_roset_0_6
+TEXT: Since this many Roselia appearing at once is quite a rare occurrence, would you mind assisting me with some research?
+
+RESOURCE ID: quest_special_dialogue_roset_1_0
+TEXT: Willkommen zurück, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_roset_1_1
+TEXT: While you were out smelling the Roselia, I wanted to be sure I had the most updated information about this Pokémon to share with you.
+
+RESOURCE ID: quest_special_dialogue_roset_1_2
+TEXT: Even a professor like myself reviews Pokédex information on a regular basis.
+
+RESOURCE ID: quest_special_dialogue_roset_1_3
+TEXT: Roselia, the Thorn Pokémon evolves from Budew, the Bud Pokémon. Budew is sensitive to changes in temperature, the bud is said to bloom when it feels the sun's warm touch.
+
+RESOURCE ID: quest_special_dialogue_roset_1_4
+TEXT: It also shares the same typing as Roselia, both are Grass- and Poision-type.
+
+RESOURCE ID: quest_special_dialogue_roset_1_5
+TEXT: I still need a bit more research on Roselia if you wouldn’t mind assisting me, in my review of the Pokédex I remembered something exciting about this Pokémon and want to see it for myself!
+
+RESOURCE ID: quest_special_dialogue_roset_2_0
+TEXT: Wow… could you imagine if it was Muk appearing instead of Roselia?
+
+RESOURCE ID: quest_special_dialogue_roset_2_1
+TEXT: A big group all gathered in the sun… that would smell AWFUL…
+
+RESOURCE ID: quest_special_dialogue_roset_2_2
+TEXT: Oh! Hey there, %PLAYERNAME%, glad to see you’re back.
+
+RESOURCE ID: quest_special_dialogue_roset_2_3
+TEXT: I found that interesting bit of information I wanted to share with you.
+
+RESOURCE ID: quest_special_dialogue_roset_2_4
+TEXT: According to the Pokédex, Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.
+
+RESOURCE ID: quest_special_dialogue_roset_2_5
+TEXT: Isn’t that fascinating? Have you seen anything like that while you have been out completing research?
+
+RESOURCE ID: quest_special_dialogue_roset_2_6
+TEXT: If so, you are a very lucky Trainer!
+
+RESOURCE ID: quest_special_dialogue_roset_2_7
+TEXT: Now that you are back, I’d like you to evolve one of your Roselia with the Sinnoh Stone I gave you.
+
+RESOURCE ID: quest_special_dialogue_roset_2_8
+TEXT: I’m excited to see the final evolution of this Grass- and Poision-type family of Pokémon!
+
+RESOURCE ID: quest_special_dialogue_roset_3_0
+TEXT: Great work, Trainer! Your Roselia has evolved into the Bouquet Pokémon, Roserade!
+
+RESOURCE ID: quest_special_dialogue_roset_3_1
+TEXT: Mit den Bewegungen eines Tänzers holt es aus und schlägt mit Ranken um sich, die giftige Dornen haben.
+
+RESOURCE ID: quest_special_dialogue_roset_3_2
+TEXT: Noted: Use caution when dancing with Roserade. If you examine the Pokémon closely, you can see there are differences between each hand.
+
+RESOURCE ID: quest_special_dialogue_roset_3_3
+TEXT: Each of its hands contains different toxins. The poison in its right hand is quick acting. The poison in its left hand is slow acting.
+
+RESOURCE ID: quest_special_dialogue_roset_3_4
+TEXT: What an amazing Pokémon, don’t you agree?
+
+RESOURCE ID: quest_special_dialogue_roset_3_5
+TEXT: Thank you for all your help today, I really appreciate you helping me document this situation so we can keep learning more and more about the Pokémon in the world around us.
+
+RESOURCE ID: quest_special_dialogue_roset_3_6
+TEXT: Bis zum nächsten Mal, los geht's!
+
 RESOURCE ID: quest_title_dec20cd
 TEXT: Dezember Community Day
 
@@ -868,11 +1011,26 @@ TEXT: Ganz nach oben, Machollo! (3/4)
 RESOURCE ID: quest_title_macht_3
 TEXT: Ganz nach oben, Machollo! (4/4)
 
+RESOURCE ID: quest_title_roset
+TEXT: Stop and Smell the Roselia
+
+RESOURCE ID: quest_title_roset_0
+TEXT: Stop and Smell the Roselia (1/4)
+
+RESOURCE ID: quest_title_roset_1
+TEXT: Stop and Smell the Roselia (2/4)
+
+RESOURCE ID: quest_title_roset_2
+TEXT: Stop and Smell the Roselia (3/4)
+
+RESOURCE ID: quest_title_roset_3
+TEXT: Stop and Smell the Roselia (4/4)
+
 RESOURCE ID: quest_walk_25km_inaweek_plural
 TEXT: Erhalte {0}-mal die wöchentliche 25-km-Abenteuer-Sync-Belohnung.
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
-TEXT: Durch das Aktivieren dieser Einstellung können Legendäre und einige Mysteriöse Pokémon verschickt werden, wenn du mehrere Pokémon in deiner Pokémon-Aufbewahrung auswählst. Das Verschicken kann nicht rückgängig gemacht werden.
+TEXT: Durch das Aktivieren dieser Einstellung können Legendäre und einige Mysteriöse Pokémon verschickt werden, wenn du mehrere Pokémon in deiner Pokémon-Aufbewahrung auswählst. Das Verschicken an Prof. Willow kann nicht rückgängig gemacht werden.
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_title
 TEXT: Bist du dir sicher, dass du Legendäre und Mysteriöse Pokémon verschicken möchtest, wenn du mehrere Pokémon auswählst?
@@ -895,6 +1053,9 @@ TEXT: Sinnoh-Sammler-Herausforderung
 RESOURCE ID: spawn_machop
 TEXT: Wilde Machollo erscheinen mit vermehrter Häufigkeit.
 
+RESOURCE ID: spawn_roselia
+TEXT: More Roselia are appearing in the wild
+
 RESOURCE ID: spawn_wooper
 TEXT: Wilde Felino erscheinen mit vermehrter Häufigkeit.
 
@@ -904,8 +1065,14 @@ TEXT: Dezember Community Day
 RESOURCE ID: ticket_machop
 TEXT: Tickets für die Spezialforschung „Ganz nach oben, Machollo!“ im Shop erhältlich.
 
+RESOURCE ID: ticket_roselia
+TEXT: Ticket for Special Research story available in the Shop: Stop and Smell the Roselia
+
 RESOURCE ID: titan_image_gallery_rpc_failed
 TEXT: Fehler beim Laden der Bilder. Bitte versuche es später noch einmal.
+
+RESOURCE ID: titan_settings_ar_upload_no_scans_msg
+TEXT: Du hast keine PokéStop-Scans zum Hochladen.
 
 RESOURCE ID: unova_collection_name
 TEXT: Einall-Sammler-Herausforderung
@@ -932,7 +1099,7 @@ RESOURCE ID: upload_mgmt_noms
 TEXT: PokéStop-Nominierungen ({0})
 
 RESOURCE ID: upload_mgmt_pending_data
-TEXT: {0} Beiträge zum Hochladen.
+TEXT: {0} Beitrag zum Hochladen.
 
 RESOURCE ID: upload_mgmt_upload_all
 TEXT: ALLES HOCHLADEN ({0} MB)
@@ -953,10 +1120,10 @@ RESOURCE ID: upload_mgmt_uploading_all_msg
 TEXT: ({0}) HOCHLADEN
 
 RESOURCE ID: upload_mgmt_uploading_individual
-TEXT: ({0}) WIRD/WERDEN HOCHGELADEN
+TEXT: ({0}) WERDEN HOCHGELADEN
 
 RESOURCE ID: uploading {0}/{1}
-TEXT: {0}/{1} wird/werden hochgeladen
+TEXT: {0}/{1} werden hochgeladen
 
 RESOURCE ID: upmgmt_delete_cancel
 TEXT: ABBRECHEN
@@ -970,8 +1137,14 @@ TEXT: FEHLERMELDUNG ({0})
 RESOURCE ID: upmgmt_main_menu_uploaded
 TEXT: ({0}) HOCHGELADEN
 
+RESOURCE ID: upmgmt_main_menu_uploading_singular
+TEXT: ({0}) WIRD HOCHGELADEN
+
 RESOURCE ID: upmgmt_main_upload_failed
 TEXT: Hochladen fehlgeschlagen
+
+RESOURCE ID: upmgmt_settings_msg_plural
+TEXT: {0} Beiträge zum Hochladen.
 
 RESOURCE ID: upmgmt_summary_about
 TEXT: Standortpunkte
