@@ -19,6 +19,9 @@ TEXT: ใช้ท่าโจมตีที่โปเกมอนของ�
 RESOURCE ID: add_friend_confirmation_title
 TEXT: ส่งคำขอเป็นเพื่อนไปหา {0} หรือไม่?
 
+RESOURCE ID: app_launch_deeplink
+TEXT: https://pokemongolive.com/launchapp
+
 RESOURCE ID: arlo_greeting#3
 TEXT: หึ… คนกระจอกอย่างแกกล้าดียังไงมาพูดกับฉัน?
 
@@ -53,7 +56,7 @@ RESOURCE ID: avatar_f_hat_munnapack_01_bundle_icon
 TEXT: Gray Beret
 
 RESOURCE ID: avatar_f_hat_newyearhat2021_00_bundle_icon
-TEXT: New Year's Party Hat
+TEXT: New Year’s Party Hat
 
 RESOURCE ID: avatar_f_hat_whimsicottearmuff_00_bundle_icon
 TEXT: ที่ปิดหูเอลฟุน
@@ -101,7 +104,7 @@ RESOURCE ID: avatar_f_shoes_winterboots_03_bundle_icon
 TEXT: รองเท้าบู๊ตฤดูหนาว 4
 
 RESOURCE ID: avatar_hat_gotour_kanto_bundle_icon
-TEXT: GO Tour Hat
+TEXT: หมวก GO Tour
 
 RESOURCE ID: avatar_m_backpack_guccibackpack_00_bundle_icon
 TEXT: The North Face x Gucci Backpack
@@ -134,7 +137,7 @@ RESOURCE ID: avatar_m_hat_munnapack_01_bundle_icon
 TEXT: Gray Beret
 
 RESOURCE ID: avatar_m_hat_newyearhat2021_00_bundle_icon
-TEXT: New Year's Party Hat
+TEXT: New Year’s Party Hat
 
 RESOURCE ID: avatar_m_hat_whimsicottearmuff_00_bundle_icon
 TEXT: ที่ปิดหูเอลฟุน
@@ -182,10 +185,10 @@ RESOURCE ID: avatar_m_shoes_winterboots_03_bundle_icon
 TEXT: รองเท้าบู๊ตฤดูหนาว 4
 
 RESOURCE ID: avatar_seasonal
-TEXT: วันหยุด
+TEXT: Pokémon GO Tour: คันโต
 
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
-TEXT: Shiny Mew Shirt
+TEXT: เสื้อลายมิว (สีแตกต่าง)
 
 RESOURCE ID: avatar_sponsor
 TEXT: ได้รับการสนับสนุน
@@ -226,9 +229,9 @@ TEXT: <size=36><b>คุณต้องการถ่ายโอน โปเ�
 จะไม่สามารถแก้ไขได้หากทำการถ่ายโอนไปแล้ว
 
 RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Only {0} Eligible Pokémon can be transferred to the professor?</b></size>
+TEXT: <size=36><b>Only {0} eligible Pokémon can be transferred to the professor.</b></size>
 
-Any Pokémon not eligible to be transferred will remain in storage. You can't undo this action once you transfer.
+Any Pokémon not eligible to be transferred will remain in storage. Transferred Pokémon cannot be reclaimed.
 
 RESOURCE ID: batch_transfer_unique_event_pokemon
 TEXT: {0} Event Pokémon
@@ -243,7 +246,7 @@ RESOURCE ID: batch_transfer_unique_not_included
 TEXT: Unique Pokémon are not included.
 
 RESOURCE ID: batch_transfer_unique_warning_message
-TEXT: Are you sure you want to transfer these to the Professor?
+TEXT: Are you sure you want to transfer these Pokémon to the professor?
 
 RESOURCE ID: batch_transfer_unique_warning_title
 TEXT: Your Selection Contains Unique Pokémon:
@@ -2516,6 +2519,9 @@ TEXT: เตรียมพร้อมสำหรับการต่อส�
 RESOURCE ID: combat_stat_defense
 TEXT: ป้องกัน
 
+RESOURCE ID: community_day_fletchling_event_name
+TEXT: Community Day: Fletchling
+
 RESOURCE ID: community_day_machop_event_name
 TEXT: คอมมิวนิตี้เดย์ : วันริกี
 
@@ -2913,6 +2919,14 @@ TEXT: ตั๋วสำหรับเข้าร่วมงานวิจ�
 
 คุณต้องเล่นเกมในช่วงเวลาที่กำหนดเพื่อรับโบนัสทั้งหมดจากอีเวนต์พิเศษ
 
+RESOURCE ID: general1.ticket.2_flett_description
+TEXT: A ticket to access The Bravest Bird Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_flett_title
+TEXT: The Bravest Bird Ticket
+
 RESOURCE ID: general1.ticket.2_roset_description
 TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษ "ดอมดมกลิ่นหอมของโรเซเลีย" ในวันที่ 7 กุมภาพันธ์ 2021 ตั้งแต่เวลา 11:00-17:00 น. ตามเวลาท้องถิ่นไม่ว่าคุณจะอยู่ที่ใด สามารถดูรายละเอียดได้ที่ข่าวสารในเกม
 
@@ -3159,121 +3173,121 @@ RESOURCE ID: gotour_kanto_srd_dialogue_3_1
 TEXT: ถ้าพูดถึงภูมิภาคคันโตแล้ว โปเกมอนที่จะได้มาเป็นคู่หูตัวแรกนั้น...
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_2
-TEXT: The first is Bulbasaur, the Seed Pokémon, #001 in the Pokédex. This Grass-type Pokémon has a plant seed on its back right from the day it’s born.
+TEXT: โปเกมอนเมล็ด หรือฟุชิกิดาเนะ โปเกมอนหมายเลข 001 ในโปเกเด็กซ์ โดยโปเกมอนหญ้าตัวนี้จะเลี้ยงผลเมล็ดขนาดใหญ่ที่อยู่กลางหลังด้วยการอาบแสงอาทิตย์
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_3
-TEXT: Another option is Charmander, the Lizard Pokémon. It’s a Fire-type Pokémon, and it has a flame on its tail that shows the strength of its life force.
+TEXT: นอกจากนี้ยังมีโปเกมอนกิ้งก่า หรือฮิโตคาเงะ โปเกมอนไฟตัวนี้มีหางที่ติดไฟตั้งแต่เกิด หากไฟดับนั่นหมายถึงการจบชีวิต
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_4
-TEXT: Last—but certainly not least—is Squirtle, the Tiny Turtle Pokémon. After birth, this Water-type Pokémon's back swells and hardens into a shell.
+TEXT: ตัวสุดท้ายคือโปเกมอนลูกเต่า หรือเซนิกาเมะ กระดองทรงกลมและร่องนั้นมีไว้เพื่อลดแรงเสียดทานของน้ำ
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_5
-TEXT: Each of these Pokémon have their strengths and weaknesses, so be sure to study up! For now, though, it’s time to get back to your adventure.
+TEXT: โปเกมอนเหล่านี้ต่างก็มีทั้งจุดแข็งและจุดอ่อน เพราะฉะนั้นอย่าลืมศึกษาอย่างถี่ถ้วนล่ะ! ส่วนตอนนี้ก็ได้เวลาออกเดินทางอีกครั้งแล้ว!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_6
-TEXT: I’d like you to spend some time with your buddy. The relationship between a Trainer and their Pokémon is of utmost importance!
+TEXT: สายสัมพันธ์ระหว่างเทรนเนอร์และโปเกมอนเป็นสิ่งที่สำคัญมาก อย่าลืมใช้เวลาร่วมกับคู่หูของเธอล่ะ!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_7
-TEXT: How about going on a walk together? I always enjoy exploring with my buddy!
+TEXT: อย่างฉันก็ชอบออกไปเดินเล่นพร้อมกับคู่หูมากเลย! เธอเองก็ลองดูสิ!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_0
-TEXT: Wonderful work, Trainer! Glad to see you’re growing closer to your buddy. Keep it up, and you’ll become even closer in no time.
+TEXT: เยี่ยมไปเลยเทรนเนอร์! เธอดูสนิทสนมกับคู่หูของตัวเองมากขึ้นเยอะเลยนะ อีกไม่นานความสัมพันธ์ของพวกเธอต้องแน่นแฟ้นสุด ๆ อย่างแน่นอน
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_1
-TEXT: When it comes to being a Trainer, people often talk about catching techniques or battle strategies, but I find that friendship is just as essential.
+TEXT: ทุกคนมักบอกว่าสิ่งสำคัญสำหรับการเป็นเทรนเนอร์คือทักษะในการจับ และกลยุทธ์ในการต่อสู้ แต่ฉันคิดว่าสายสัมพันธ์เองก็เป็นสิ่งที่สำคัญไม่แพ้กัน
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_2
-TEXT: Not only are the relationships you build with your Pokémon incredibly important, but so are the friendships you build with other Trainers.
+TEXT: นอกจากสายสัมพันธ์ระหว่างเธอกับโปเกมอนแล้ว สายสัมพันธ์ระหว่างเทรนเนอร์เองก็เช่นกัน
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_3
-TEXT: Your personal journeys and goals may vary, but at the end of the day, you’re all Trainers! You should do your best to connect with the other Trainers you meet on your travels.
+TEXT: แม้ว่าการเดินทางและเป้าหมายของเทรนเนอร์แต่ละคนจะต่างกันออกไป แต่พวกเธอทุกคนก็เป็นเทรนเนอร์เหมือน ๆ กัน เพราะฉะนั้นอย่าลืมผูกมิตรกับคนอื่นด้วยล่ะ!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_4
-TEXT: In that spirit, how about sending your friends some Gifts to brighten their day? I’m sure they’d love to hear from you!
+TEXT: ว่าแล้วก็ส่งของขวัญให้เพื่อนหน่อยไหม? พวกเขาต้องดีใจแน่!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_0
-TEXT: Welcome back, Trainer! Hope you enjoyed connecting with other Trainers. I see you were even able to trade a few Pokémon!
+TEXT: ยินดีต้อนรับกลับมานะ เทรนเนอร์! ดูเหมือนเธอจะแลกเปลี่ยนโปเกมอนกับเพื่อนมาด้วยสินะ!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_1
-TEXT: Trading is a fabulous way to acquire Pokémon you might not have otherwise encountered.
+TEXT: การแลกเปลี่ยนเป็นวิธีการที่ดีที่สุดที่จะทำให้เราได้โปเกมอนที่เราหาไม่พบล่ะ
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_2
-TEXT: And not only do you get a new entry in your Pokédex, but you also get a new friend!
+TEXT: แถมยังได้เพื่อนเพิ่มอีกด้วย!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_3
-TEXT: You’ve already made great progress on your journey. I think it’s time to show off the skills you’ve learned along the way!
+TEXT: เอาล่ะ ได้เวลาที่เธอจะแสดงทักษะที่เรียนรู้มาตลอดการเดินทางแล้ว!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_4
-TEXT: How about showcasing your throwing expertise by catching some Pokémon? Don’t forget to make use of your Berries, too.
+TEXT: แสดงฝีมือการขว้างบอลโดยการจับโปเกมอนให้ดูหน่อยสิ อย่าลืมใช้ผลไม้ด้วยล่ะ!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_5
-TEXT: I’m especially fond of Pinap Berries. They help you earn extra Candy for the Pokémon you’re catching—and they’re tasty to boot!
+TEXT: ส่วนตัวแล้วฉันชอบผลไพน์เป็นพิเศษ เพราะผลไพน์ช่วยให้เราได้รับลูกอมจากการจับโปเกมอนเพิ่มยังไงล่ะ แถมยังเป็นของโปรดของฉันด้วยนะ
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_0
-TEXT: I’m sure I had a stash of Pinap Berries here somewhere... Oh! Welcome back, %PLAYERNAME%! Guess my snack will have to wait.
+TEXT: ...เผลอเอากองผลไพน์ไปวางไว้ที่ไหนกันนะ... อ้าว! กลับมาแล้วเหรอ %PLAYERNAME%!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_1
-TEXT: I’ve been checking up on your progress, and I have to say, I’m very impressed! It seems there’s no challenge you can’t overcome.
+TEXT: ดูเหมือนว่าการตรวจสอบจะไปได้สวย เยี่ยมมาก! ไม่มีอะไรที่เธอทำไม่ได้เลยสินะ
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_2
-TEXT: As I’m sure you know, a well-rounded Trainer needs to have a great team of Pokémon to battle against other Trainers or even challenge Pokémon in raids.
+TEXT: เธอคงรู้อยู่แล้วว่าเทรนเนอร์ที่มีความสามารถรอบด้าน ต้องมาพร้อมกับทีมโปเกมอนที่แข็งแกร่ง
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_3
-TEXT: I think this is a great time to power up some of your Pokémon and bolster your team.
+TEXT: นี่น่าจะเป็นโอกาสอันดีในการพาวเวอร์อัปโปเกมอนเพื่อให้ทีมของเธอแข็งแกร่งขึ้น
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_4
-TEXT: While you focus on that, I’ll be looking into an interesting rumor I caught wind of.
+TEXT: ระหว่างที่เธอกำลังยุ่ง ฉันจะหาข้อมูลเกี่ยวกกับข่าวลือที่ได้ยินมาเพิ่มนะ
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_5
-TEXT: There have been reports of encounters with a Pokémon that’s able to transform into another Pokémon entirely. Fascinating stuff!
+TEXT: ช่วงนี้มีรายงานเกี่ยวกับโปเกมอนที่สามารถแปลงร่างเป็นโปเกมอนตัวอื่นได้เหมือนเป๊ะเข้ามาเยอะเลยล่ะ!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_6
-TEXT: I’ll be sure to share whatever I find when you return.
+TEXT: ยังไงถ้าได้ข้อมูลอะไรเพิ่มจะมาบอกนะ
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_0
-TEXT: Glad you’re back, Trainer. After looking into those reports, it certainly sounds like the work of Ditto, the Transformation Pokémon.
+TEXT: กลับมาแล้วสินะเทรนเนอร์! หลังจากที่ลองตรวจสอบรายงานหลาย ๆ ฉบับแล้วมีแนวโน้มที่จะเป็นโปเกมอนแปลงร่าง หรือเมตามอนล่ะ
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_1
-TEXT: Ditto rearranges its cell structure to transform itself into other shapes. What an incredible Pokémon!
+TEXT: เมตามอนประกอบเปลี่ยนเซลล์ทั่วร่างและแปลงร่างให้เหมือนกับสิ่งอื่นได้ เป็นโปเกมอนที่น่าทึ่งมากเลยล่ะ!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_2
-TEXT: However, there seems to be something more to this situation.
+TEXT: แต่ก็แปลกอยู่นะ ถ้าแค่เมตามอนปรากฏตัวก็ไม่น่าจะมีอะไรแปลก..
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_3
-TEXT: Could you help me with some research so we can find out what exactly is going on?
+TEXT: ช่วยตรวจสอบเรื่องนี้หน่อยได้ไหม?
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_4
-TEXT: I’ll continue my work here to see if I can uncover some more information that might help us.
+TEXT: เดี๋ยวฉันจะลองหาข้อมูลเพิ่มเติมดูนะ
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_0
-TEXT: %PLAYERNAME%! Is it true?! You encountered a Shiny Ditto?! I’m stunned!
+TEXT: %PLAYERNAME%! เธอพบเมตามอนสีแตกต่างอย่างนั้นเหรอ? ไม่น่าเชื่อ...
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_1
-TEXT: You’ve had quite the journey, haven’t you? It’s been a joy to follow your progress, as always.
+TEXT: เป็นการเดินทางที่คุ้มค่ามากเลยนะว่าไหม? 
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_2
-TEXT: Believe it or not, though, there’s still another mystery that needs solving.
+TEXT: ...แต่ก็ยังมีปริศนาที่ต้องไขอยู่อีกหลายอย่าง
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_3
-TEXT: You see, after looking over the research you’ve conducted, I think we might be on the trail of the New Species Pokémon, Mew.
+TEXT: หลังจากดูข้อมูลที่เธอรวบรวมมา ฉันคิดว่าเรากำลังพบร่องรอยของโปเกมอนพันธุ์ใหม่ที่ชื่อมิวล่ะ
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_4
-TEXT: We've documented Mew in the past, but something’s different this time—though I can’t yet say what that is.
+TEXT: เคยมีการตรวจสอบเกี่ยวกับมิวมาก่อนในอดีต แต่ดูเหมือนว่าครั้งนี้จะมีบางอย่างต่างออกไป...
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_5
-TEXT: Whatever the case, I think it’s safe to say this is going to be a memorable adventure!
+TEXT: รู้สึกตื่นเต้นขึ้นมาแล้วสิ นี่ต้องเป็นการค้นคว้าที่น่าจดจำแน่ ๆ
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_6
-TEXT: In the meantime, keep an eye out for another research assignment. I have a feeling this is going to be an especially challenging endeavor, but I’m sure you’re up to it!
+TEXT: รองานวิจัยชิ้นต่อไปด้วยล่ะ ต้องเป็นงานวิจัยที่ท้าทายสุด ๆ แน่นอน!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_7
-TEXT: For now, though, I think congratulations are in order. You did a tremendous job on today’s Kanto-themed journey!
+TEXT: ถ้าเป็นเธอต้องทำได้แน่ ยังไงก็ตาม ขอบคุณที่ช่วยทำงานวิจัยธีมคันโตนะ!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_8
-TEXT: I hope you were able to make some special memories with your Pokémon and fellow Trainers. Thanks again for all your help and hard work!
+TEXT: หวังว่าเธอจะได้ความทรงจำดี ๆ จากการช่วยทำวิจัยในครั้งนี้ ขอบคุณมากจริง ๆ
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_9
-TEXT: Now, let’s GO!
+TEXT: เอาล่ะ เล็ตส์โก!
 
 RESOURCE ID: gotour_kanto_srd_title
 TEXT: Pokémon GO Tour: คันโต
@@ -3319,6 +3333,9 @@ TEXT: GO Tour คันโต: เอาชนะผู้ท้าชิงท�
 
 RESOURCE ID: grass_type_event
 TEXT: ระลอกฉับพลัน: หญ้า
+
+RESOURCE ID: great_league_remix_title
+TEXT: Great League Remix
 
 RESOURCE ID: ground_type_event
 TEXT: ระลอกฉับพลัน: ดิน
@@ -3452,6 +3469,12 @@ TEXT: ตั๋วนี้จะทำให้คุณเข้าร่ว�
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษของอีเวนต์กาลาร์บาร์เรียด ตั้งแต่วันที่ 19 ธันวาคม 2020 เวลา 10:00 น. จนถึงวันที่ 20 ธันวาคม 2020 เวลา 20:00 น. ตามเวลาท้องถิ่นไม่ว่าคุณจะอยู่ที่ใด
 
+RESOURCE ID: item_event_ticket_pink_flett_desc
+TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_flett_details
+TEXT: This ticket will automatically activate to give you access to Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_pink_roset_desc
 TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษในวันที่ 7 กุมภาพันธ์ 2021 ตั้งแต่เวลา 11:00-17:00 น. ตามเวลาท้องถิ่น
 
@@ -3478,10 +3501,10 @@ RESOURCE ID: kanto_collection_name
 TEXT: คำท้านักสะสมคันโต
 
 RESOURCE ID: level_up_share_achievement_button
-TEXT: SHARE ACHIEVEMENT ({0})
+TEXT: แชร์ความสำเร็จ ({0})
 
 RESOURCE ID: level_up_share_select_message
-TEXT: Select an achievement to share
+TEXT: เลือกความสำเร็จที่ต้องการแชร์
 
 RESOURCE ID: level_up_stats_pokemon_caught
 TEXT: จับโปเกมอน
@@ -5665,105 +5688,105 @@ RESOURCE ID: m_avatar_poses_bundle_pose_27
 TEXT: ท่าโพสบาร์เรียด
 
 RESOURCE ID: masterwork_sm_dialogue_1_0
-TEXT: Ah, %PLAYERNAME%! Glad to have you aboard this expedition. Say, have you ever heard this particular tune?
+TEXT: อ๊ะ %PLAYERNAME%! ออกเดินทางไปตรวจสอบกันเถอะ! จะว่าไปเธอเคยได้ยินทำนองเพลงนี้ไหม?
 
 RESOURCE ID: masterwork_sm_dialogue_1_1
-TEXT: Da da da doo, da dee da dum... That’s what I hear in my head when I think of a certain sailor and his Wingull that I met while traveling through the Hoenn region in my younger years.
+TEXT: ดา ดา ดา ดู... ดา ดี๊ ดา ด่า... ทุกครั้งที่คิดถึงเรื่องของกะลาสีเรือคนหนึ่งกับคาโมเมะของเขาที่พบระหว่างการเดินทางในภูมิภาคโฮเอ็นก็จะได้ยินทำนองเพลงนี้ในหัวตลอดเลยล่ะ
 
 RESOURCE ID: masterwork_sm_dialogue_1_2
-TEXT: I believe the tune was originally a sea shanty. Sailors would sing songs like this together on their seafaring adventures to keep morale high and help find a rhythm during certain tasks.
+TEXT: เป็นเพลงที่ชาวทะเลมักจะร้องด้วยกันตอนที่เดินทางข้ามท้องทะเลเพื่อสร้างขวัญกำลังใจและยังช่วยให้ทำงานที่ต้องใช้ความพร้อมเพรียงได้ดีอีกด้วย
 
 RESOURCE ID: masterwork_sm_dialogue_1_3
-TEXT: I’m no sailor, but I do find myself feeling luckier after humming it! Haha!
+TEXT: ถึงฉันจะไม่ใช่กะลาสีเรือ แต่ก็ชอบฮัมเพลงนี้เวลาอารมณ์ดีเหมือนกัน!
 
 RESOURCE ID: masterwork_sm_dialogue_1_4
-TEXT: Anyway, we’re here to look into the strange situation we uncovered during your Kanto-themed journey.
+TEXT: กลับมาที่เรื่องงานวิจัยนะ ตอนนี้เรากลับมาตรวจสอบเหตุการณ์ที่เธอพบในช่วงที่กำลังช่วยทำวิจัยในธีมคันโตก่อนหน้านี้
 
 RESOURCE ID: masterwork_sm_dialogue_1_5
-TEXT: I’m talking, of course, about reports of encounters with Mew, the New Species Pokémon. There have been several sightings of a Shiny one recently, which is tremendously exciting!
+TEXT: แน่นอนว่าฉันหมายถึงโปเกมอนพันธุ์ใหม่ หรือมิวนั่นเอง มีรายงานว่ามีผู้พบเห็นมิวสีแตกต่างเมื่อไม่นานมานี้
 
 RESOURCE ID: masterwork_sm_dialogue_1_6
-TEXT: That means our goal on this expedition is to find not only one of the most elusive Pokémon to ever exist, but a Shiny one at that!
+TEXT: นั่นหมายความว่าเป้าหมายของเราไม่ได้เป็นเพียงโปเกมอนที่หาตัวได้ยากที่สุด แต่ยังเป็นสายพันธุ์สีแตกต่างอีกด้วย!
 
 RESOURCE ID: masterwork_sm_dialogue_1_7
-TEXT: You’ve experienced a lot on your journeys thus far, %PLAYERNAME%. But perhaps the most wonderful thing about Pokémon is that there’s always something new to discover.
+TEXT: เธอพบกับอุปสรรคและก้าวผ่านมันมาได้หลายต่อหลายครั้งนะ %PLAYERNAME% แต่โลกของโปเกมอนก็ยังมีสิ่งใหม่ ๆ ให้ศึกษาได้อย่างไม่รู้จบ และในครั้งนี้ก็เช่นกัน
 
 RESOURCE ID: masterwork_sm_dialogue_1_8
-TEXT: I hope you’re excited for what’s to come, because I have a feeling it’s going to be a real test of your skills as a Trainer!
+TEXT: นี่ต้องเป็นการเดินทางที่ทดสอบฝีมือในฐานะเทรนเนอร์อย่างแน่นอน ขอให้สนุกกับการเดินทางในครั้งนี้นะ!
 
 RESOURCE ID: masterwork_sm_dialogue_1_9
 TEXT: ไปเลย GO!
 
 RESOURCE ID: masterwork_sm_dialogue_2_0
-TEXT: Wow, %PLAYERNAME%—great work! Your knowledge of the Kanto region is beginning to rival even my own!
+TEXT: ว้าวเยี่ยมมากเลย %PLAYERNAME%! ตอนนี้เธอคงรู้เรื่องภูมิภาคคันโตละเอียดยิ่งกว่าฉันแล้วล่ะ!
 
 RESOURCE ID: masterwork_sm_dialogue_2_1
-TEXT: Our next task is to learn more about Pokémon DNA.
+TEXT: ต่อไปเราก็ต้องศึกษาเกี่ยวกับ DNA ของโปเกมอนเพิ่ม
 
 RESOURCE ID: masterwork_sm_dialogue_2_2
-TEXT: I know that sounds pretty heavy on the science, but don’t worry—I’ll take care of that part. All I need you to do is get out there and catch lots of different types of Pokémon!
+TEXT: ไม่ได้หมายถึงว่าจะต้องทำการทดลองทางวิทยาศาสตร์หรอกนะ ฉันแค่อยากให้เธอจับโปเกมอนทุกประเภทให้หน่อยน่ะ
 
 RESOURCE ID: masterwork_sm_dialogue_2_3
-TEXT: Mew’s DNA is said to contain the genetic codes of all Pokémon, so to better understand Mew, we should try to understand as much as we can about the genetics of other Pokémon.
+TEXT: ว่ากันว่ามิวมีพันธุกรรมของโปเกมอนทุกชนิดอยู่ ฉะนั้นการทำความเข้าใจพันธุกรรมของโปเกมอนตัวอื่น ๆ ก็จะช่วยให้เข้าใจมิวได้ดียิ่งขึ้นเช่นกัน
 
 RESOURCE ID: masterwork_sm_dialogue_3_0
-TEXT: Incredible work, %PLAYERNAME%! Seeing you learn so much about different Pokémon reminded me of how vast the world of Pokémon truly is.
+TEXT: ทำได้ดีมาก %PLAYERNAME%! ไม่ได้ทำการตรวจสอบที่มีขอบเขตกว้างขนาดนี้มานานแล้ว เห็นแล้วยิ่งรู้สึกได้เลยว่าโลกของโปเกมอนนี่ช่างกว้างใหญ่เหลือเกิน
 
 RESOURCE ID: masterwork_sm_dialogue_3_1
-TEXT: Knowledge is funny in that the more we gain, the more realize how much we still lack. Some might find that frustrating, but for me it’s inspiring!
+TEXT: ยิ่งรู้มากขึ้นเท่าไหร่ เราก็จะพบว่ายังมีอีกหลายเรื่องที่เรายังไม่รู้ เพราะฉะนั้นเราถึงต้องค้นคว้าต่อไปเรื่อย ๆ ยังไงล่ะ!
 
 RESOURCE ID: masterwork_sm_dialogue_3_2
-TEXT: You know, there’s a part in that sea shanty I mentioned before that seems applicable here.
+TEXT: รู้ไหมว่าเพลงของชาวทะเลที่ฉันพูดถึงก่อนหน้านี้มีท่อนที่พูดถึง...
 
 RESOURCE ID: masterwork_sm_dialogue_3_3
-TEXT: I don’t remember the exact words, but the gist is that we should travel across the land, searching far and wide to learn about all the amazing Pokémon there are in the world.
+TEXT: ประมาณว่า...เมื่อเราออกเดินทางข้ามน้ำข้ามทะเล เราจะได้เรียนรู้สิ่งมหัศจรรย์เกี่ยวกับโปเกมอนมากยิ่งขึ้น
 
 RESOURCE ID: masterwork_sm_dialogue_3_4
-TEXT: Words to live by, I say! Let’s get out there and track down that Shiny Mew, Trainer!
+TEXT: เรียกได้ว่าเป็นท่อนที่ตราตรึงใจมากเลย! เอาล่ะ ออกไปตามหามิวสีแตกต่างกันเถอะ!
 
 RESOURCE ID: masterwork_sm_dialogue_4_0
-TEXT: %PLAYERNAME%, you... You did it! You actually found and caught a Shiny Mew!
+TEXT: %PLAYERNAME% สะ...สำเร็จแล้ว! จับมิวสีแตกต่างได้แล้วสินะ!
 
 RESOURCE ID: masterwork_sm_dialogue_4_1
-TEXT: Has it even sunk in yet? This is a monumental achievement, Trainer. Take a moment to congratulate yourself!
+TEXT: เธออาจจะยังตกใจอยู่ก็ได้ แต่มาฉลองให้กับความสำเร็จอันยิ่งใหญ่กันเถอะ!
 
 RESOURCE ID: masterwork_sm_dialogue_4_2
-TEXT: Hm? It’s my achievement as well? Haha! No, no, I just hummed you a shanty and guided you like any Pokémon Professor worth their sea salt would.
+TEXT: หา? ถือเป็นความสำเร็จของฉันด้วยอย่างนั้นเหรอ? ฮ่าฮ่า! ไม่หรอก ฉันแค่ฮัมเพลงชาวเรือให้ฟัง และแนะนำเธอในฐานะศาสตราจารย์โปเกมอนคนหนึ่งเท่านั้นเอง
 
 RESOURCE ID: masterwork_sm_dialogue_4_3
-TEXT: But thanks are certainly in order for the Pokémon you’ve befriended on your journey. They played a big part in your research, after all!
+TEXT: ยังไงก็ตาม นี่ถือเป็นผลงานของเธอกับโปเกมอนของเธอที่ร่วมฝ่าฟันความยากลำบากมาด้วยกัน!
 
 RESOURCE ID: masterwork_sm_dialogue_4_4
-TEXT: The ones you’ve caught, the ones you’ve battled with, and the ones that traveled with you as your buddy—each Pokémon played a critical part in helping you achieve this goal.
+TEXT: ไม่ว่าจะเป็นโปเกมอนที่เธอจับมาได้ โปเกมอนที่ต่อสู้ด้วย หรือโปเกมอนคู่หูที่เดินทางมาด้วยกัน ก็ล้วนแต่มีส่วนช่วยให้เธอบรรลุเป้าหมายในครั้งนี้ทั้งนั้น
 
 RESOURCE ID: masterwork_sm_dialogue_4_5
-TEXT: As Trainers, we owe an eternal debt to our Pokémon. After all, we can’t very well be Trainers without them!
+TEXT: ต้องขอบคุณโปเกมอนที่ทำให้เรามาถึงจุดนี้ได้ล่ะนะ!
 
 RESOURCE ID: masterwork_sm_dialogue_4_6
-TEXT: A Trainer’s journey is meant to be filled with amazing memories, ambitious dreams, and unexpected adventures. I think this particular journey checked all those boxes pretty handily!
+TEXT: การเดินทางของเทรนเนอร์นั้นเต็มไปด้วยความทรงจำแสนประทับใจ ความฝันอันยิ่งใหญ่ และการผจญภัยที่ไม่คาดฝัน และดูเหมือนว่าเธอจะได้สัมผัสมันทั้งหมดในงานวิจัยที่ผ่านมานะ!
 
 RESOURCE ID: masterwork_sm_dialogue_4_7
-TEXT: I’m sure it won’t be the last to do so, either. Now, until next time...let’s GO!
+TEXT: และนี่จะไม่ใช่ครั้งสุดท้ายอย่างแน่นอน ไว้พบกันใหม่...เล็ตส์โก!
 
 RESOURCE ID: masterwork_sm_title
-TEXT: All-in-One #151
+TEXT: งานวิจัยระยะยาว #151
 
 RESOURCE ID: masterwork_sm_title_1
-TEXT: All-in-One #151 (1/4)
+TEXT: งานวิจัยระยะยาว #151 (1/4)
 
 RESOURCE ID: masterwork_sm_title_2
-TEXT: All-in-One #151 (2/4)
+TEXT: งานวิจัยระยะยาว #151 (2/4)
 
 RESOURCE ID: masterwork_sm_title_3
-TEXT: All-in-One #151 (3/4)
+TEXT: งานวิจัยระยะยาว #151 (3/4)
 
 RESOURCE ID: masterwork_sm_title_4
-TEXT: All-in-One #151 (4/4)
+TEXT: งานวิจัยระยะยาว #151 (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-02-11T17:52:10.730049
-at SHA f17a0fb1257d4a3793641103566ffc3940d2fd1e
-Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e
+TEXT: Built at 2021-02-18T20:51:54.014750
+at SHA 5890d27a131a6c14c5700b7dc0ee92d127db700f
+Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052
 
 RESOURCE ID: mini_collection_feb21_gen1_event
 TEXT: คำท้านักสะสมคันโต
@@ -5847,6 +5870,9 @@ TEXT: ของขวัญจาก <b>{0}</b>!
 
 RESOURCE ID: open_sponsored_gift_button
 TEXT: เปิด
+
+RESOURCE ID: photobomb_five_fletchling
+TEXT: 5 surprise encounters with Fletchling in GO Snapshot
 
 RESOURCE ID: photobomb_five_machop
 TEXT: วันริกีแย่งซีนถ่ายรูปในโกสแนปช็อต 5 ครั้ง
@@ -6146,6 +6172,9 @@ TEXT: จับไคออกา {0} ตัว
 
 RESOURCE ID: quest_catch_luvdisc
 TEXT: จับเลิฟคัส {0} ตัว
+
+RESOURCE ID: quest_complete_flett
+TEXT: The Bravest Bird
 
 RESOURCE ID: quest_complete_macht
 TEXT: วันริกีเดินหน้าลุย!
@@ -7200,6 +7229,15 @@ TEXT: วิวัฒนาการซูแบท
 RESOURCE ID: quest_evolve_zweilous_singular
 TEXT: วิวัฒนาการจิเฮด
 
+RESOURCE ID: quest_flett_catch_b
+TEXT: Catch {0} Fletchling
+
+RESOURCE ID: quest_flett_evolve_b
+TEXT: Evolve {0} Fletchling
+
+RESOURCE ID: quest_flett_evolve_s1
+TEXT: Evolve {0} Fletchinder
+
 RESOURCE ID: quest_hoenn_celebration_research
 TEXT: งานวิจัยเฉลิมฉลองโฮเอ็น
 
@@ -7262,6 +7300,87 @@ TEXT: ถ่ายภาพฟุชิกิดาเนะ
 
 RESOURCE ID: quest_snapshot_charmander
 TEXT: ถ่ายภาพฮิโตคาเงะ
+
+RESOURCE ID: quest_special_dialogue_flett_0_0
+TEXT: Hey there, %PLAYERNAME%. Hope you are doing well.
+
+RESOURCE ID: quest_special_dialogue_flett_0_1
+TEXT: Me? Well, I’ve had a wonderful day so far visiting with this large group of Fletchling that has seemingly migrated to the area.
+
+RESOURCE ID: quest_special_dialogue_flett_0_2
+TEXT: I overheard their beautiful chirps and just had to investigate and they totally stole my heart.
+
+RESOURCE ID: quest_special_dialogue_flett_0_3
+TEXT: This Tiny Robin Pokémon is actually quite amiable and easy to train. But when battle is joined, it shows its ferocious side!
+
+RESOURCE ID: quest_special_dialogue_flett_0_4
+TEXT: These Pokémon are known to be quite friendly, but the number of them in the area is a bit odd.
+
+RESOURCE ID: quest_special_dialogue_flett_0_5
+TEXT: Would you mind completing some tasks so we can get some more information on what is happening?
+
+RESOURCE ID: quest_special_dialogue_flett_1_0
+TEXT: Great work, Trainer. Looks like you have your very own Fletchling to join you on your journey!
+
+RESOURCE ID: quest_special_dialogue_flett_1_1
+TEXT: Did you know, its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed.
+
+RESOURCE ID: quest_special_dialogue_flett_1_2
+TEXT: I’m always so fascinated to learn about how Pokémon and their Trainers work and live together. I’m going to remember this bit of information on the next cold night.
+
+RESOURCE ID: quest_special_dialogue_flett_1_3
+TEXT: Anyway, this Normal- and Flying-Type Pokémon actually evolves into the Fire- and Flying-Type Pokémon, Fletchinder.
+
+RESOURCE ID: quest_special_dialogue_flett_1_4
+TEXT: Known as the Ember Pokémon, they are exceedingly territorial and aggressive.
+
+RESOURCE ID: quest_special_dialogue_flett_1_5
+TEXT: They are also incredibly fast, its speed right after takeoff already puts it in the top speed class of all bird Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_1_6
+TEXT: When you are ready, I think it is time for you to evolve your Fletchling into Fletchinder.
+
+RESOURCE ID: quest_special_dialogue_flett_2_0
+TEXT: Ah, what a fine looking Fletchinder you have there, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_flett_2_1
+TEXT: While you were out completing your research, I was recalling some information about this interesting Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_2_2
+TEXT: Take this training tip seriously, don't just WING it - make sure to take care and not burn yourself when training your Fletchinder.
+
+RESOURCE ID: quest_special_dialogue_flett_2_3
+TEXT: From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.
+
+RESOURCE ID: quest_special_dialogue_flett_2_4
+TEXT: Remember, only you can prevent high grass fires.
+
+RESOURCE ID: quest_special_dialogue_flett_2_5
+TEXT: We are making great progress on our research, however, there is a few more things I’d like you to do.
+
+RESOURCE ID: quest_special_dialogue_flett_2_6
+TEXT: I’d love to observe a Talonflame, do you think you could evolve your Fletchinder? I’ve wanted to take a closer look at their incredible wings.
+
+RESOURCE ID: quest_special_dialogue_flett_3_0
+TEXT: Welcome back, %PLAYERNAME% and hello, Talonflame!
+
+RESOURCE ID: quest_special_dialogue_flett_3_1
+TEXT: Thank you for all your hard work today, but it certainly looks like it paid off now that you have the Scorching Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_3_2
+TEXT: I certainly think they will make a great addition to your team, in the fever of an exciting battle it showers embers from the gaps between its feathers and takes to the air.
+
+RESOURCE ID: quest_special_dialogue_flett_3_3
+TEXT: Being both Fire- and Flying-Type, Talonflame has tough wings that don’t allow fire to pass through them. A long time ago, firefighters' outfits were made from Talonflame wings.
+
+RESOURCE ID: quest_special_dialogue_flett_3_4
+TEXT: Simply amazing, I’m always so impressed by this brave bird and can’t wait to see what the two of you as a team accomplish.
+
+RESOURCE ID: quest_special_dialogue_flett_3_5
+TEXT: I really appreciate your help today looking into this situation and hope you learned some useful information about this fiery family of Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_3_6
+TEXT: ไว้พบกันใหม่นะ เล็ตส์โก!
 
 RESOURCE ID: quest_special_dialogue_galarian_mrmime_0_0
 TEXT: %PLAYERNAME%! ดีจริง ๆ ที่ได้พบคุณ! ช่วงนี้มีเหตุการณ์สุดประหลาดเกิดขึ้นด้วยล่ะ
@@ -7599,6 +7718,21 @@ TEXT: ขอบคุณที่มาช่วยในการตรวจ�
 RESOURCE ID: quest_special_dialogue_roset_3_6
 TEXT: ไว้พบกันใหม่นะ เล็ตส์โก!
 
+RESOURCE ID: quest_title_flett
+TEXT: The Bravest Bird
+
+RESOURCE ID: quest_title_flett_0
+TEXT: The Bravest Bird (1/4)
+
+RESOURCE ID: quest_title_flett_1
+TEXT: The Bravest Bird (2/4)
+
+RESOURCE ID: quest_title_flett_2
+TEXT: The Bravest Bird (3/4)
+
+RESOURCE ID: quest_title_flett_3
+TEXT: The Bravest Bird (4/4)
+
 RESOURCE ID: quest_title_galarian_mrmime
 TEXT: ตามหาเจ้าของเสียงเต้นแท็ป!
 
@@ -7712,6 +7846,9 @@ TEXT: ถ่ายโอนโปเกมอนประเภทโลหะ {
 
 RESOURCE ID: quest_transfer_type_water_plural
 TEXT: ถ่ายโอนโปเกมอนประเภทน้ำ {0} ตัว
+
+RESOURCE ID: quest_visit_different_pokestops
+TEXT: หมุนเสาโปเกสต็อปที่ไม่ซ้ำกัน {0} ครั้ง
 
 RESOURCE ID: quest_visit_unique_pokestops_plural
 TEXT: หมุนเสาโปเกสต็อปหรือยิมที่ไม่ซ้ำกัน {0} ครั้ง
@@ -12054,11 +12191,17 @@ TEXT: สุดสัปดาห์ตีบอสรอบพิเศษ : �
 RESOURCE ID: raid_weekend_zygarde
 TEXT: Special Raid Weekend: Zygarde
 
+RESOURCE ID: raid_xp_25_fivestar
+TEXT: 1.25x five-star Raid XP
+
 RESOURCE ID: raid_xp_increase
 TEXT: Increased XP from raids
 
 RESOURCE ID: reorder_pokemon_tag_error
 TEXT: Failed to reorder tag
+
+RESOURCE ID: retro_cup_title
+TEXT: Retro Cup
 
 RESOURCE ID: rock_type_event
 TEXT: ระลอกฉับพลัน: หิน
@@ -12114,6 +12257,9 @@ TEXT: ไว้เป็นคู่ต่อสู้ที่สมน้ำ�
 RESOURCE ID: sinnoh_collection_name
 TEXT: คำท้านักสะสมชินโอ
 
+RESOURCE ID: spawn_fletchling
+TEXT: More Fletchling are appearing in the wild
+
 RESOURCE ID: spawn_machop
 TEXT: วันริกีปรากฏตัวมากขึ้นในธรรมชาติ
 
@@ -12129,6 +12275,9 @@ TEXT: ระลอกฉับพลัน: โลหะ
 RESOURCE ID: ticket_decembercd
 TEXT: คอมมิวนิตี้เดย์เดือนธันวาคม
 
+RESOURCE ID: ticket_fletchling
+TEXT: Ticket for Special Research story available in the Shop: The Bravest Bird
+
 RESOURCE ID: ticket_machop
 TEXT: ตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษมีจำหน่ายในร้านค้า : วันริกีเดินหน้าลุย!
 
@@ -12139,7 +12288,7 @@ RESOURCE ID: timed_research_pokemon
 TEXT: โปเกมอนเด่นในงานวิจัยแบบจำกัดเวลา
 
 RESOURCE ID: titan_image_gallery_rpc_failed
-TEXT: Failed to load images. Please try again later.
+TEXT: การโหลดรูปภาพล้มเหลว กรุณาลองใหม่อีกครั้งในภายหลัง
 
 RESOURCE ID: trade_distance_increase
 TEXT: Increased trade range
@@ -12196,7 +12345,7 @@ RESOURCE ID: upload_mgmt_thank_you
 TEXT: ขอบคุณที่ให้ความร่วมมือ!
 
 RESOURCE ID: upload_mgmt_upload_confirm_info
-TEXT: คุณกำลังจะอัปโหลดข้อมูล {0} MB ซึ่งอาจมีค่าบริการหากคุณไม่ได้เชื่อมต่อกับ Wi-Fi 
+TEXT: คุณกำลังจะอัปโหลดข้อมูล {0} MB ซึ่งอาจมีค่าบริการหากคุณไม่ได้เชื่อมต่อกับ Wi-Fi
 
 RESOURCE ID: upload_mgmt_upload_failed
 TEXT: การอัปโหลดล้มเหลว
@@ -12214,7 +12363,7 @@ RESOURCE ID: upload_mgmt_waiting_upload_msg
 TEXT: กำลังรออัปโหลด
 
 RESOURCE ID: upmgmt_confirm_data_size
-TEXT: You’re about to upload {0} MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
+TEXT: คุณกำลังจะอัปโหลดข้อมูล {0} MB ซึ่งอาจมีค่าบริการหากคุณไม่ได้เชื่อมต่อกับ Wi-Fi
 
 RESOURCE ID: upmgmt_confirm_upload_later
 TEXT: อัปโหลดภายหลัง
@@ -12241,7 +12390,7 @@ RESOURCE ID: upmgmt_main_delete_individual
 TEXT: ลบ
 
 RESOURCE ID: upmgmt_main_images_header
-TEXT: PokéStop Images ({0})
+TEXT: รูปภาพเสาโปเกสต็อป ({0})
 
 RESOURCE ID: upmgmt_main_manage_contrib
 TEXT: จัดการคำร้อง

@@ -11,13 +11,16 @@ RESOURCE ID: 5076_title
 TEXT: Pokémon GO-Tour: Kanto
 
 RESOURCE ID: __female_speaker
-TEXT: Am besten solltest du Attacken einsetzen, die Schwächen der gegnerischen Pokémon ausnutzen!
+TEXT: Am besten solltest du Attacken einsetzen, die die Schwächen der gegnerischen Pokémon ausnutzen!
 
 RESOURCE ID: __male_speaker
-TEXT: Am besten solltest du Attacken einsetzen, die Schwächen der gegnerischen Pokémon ausnutzen!
+TEXT: Am besten solltest du Attacken einsetzen, die die Schwächen der gegnerischen Pokémon ausnutzen!
 
 RESOURCE ID: add_friends_privacy_prompt
 TEXT: Freunde können dein Trainerprofil, Erfolge und gefangene Pokémon sehen. Sie werden eventuell auch über deinen Standort informiert, wenn du ihnen ein Geschenk schickst oder mit ihnen Pokémon tauschst.
+
+RESOURCE ID: app_launch_deeplink
+TEXT: https://pokemongolive.com/launchapp
 
 RESOURCE ID: appraise_v2_late_address
 TEXT:  in der Nähe von {0} gefangen.
@@ -26,13 +29,13 @@ RESOURCE ID: avatar_f_backpack_guccibackpack_00_bundle_icon
 TEXT: The North Face x Gucci Rucksack
 
 RESOURCE ID: avatar_f_face_3dmask_00_bundle_icon
-TEXT: Grass-type Mask
+TEXT: Pflanzen-Typ-Maske
 
 RESOURCE ID: avatar_f_face_3dmask_01_bundle_icon
-TEXT: Fire-type Mask
+TEXT: Feuer-Typ-Maske
 
 RESOURCE ID: avatar_f_face_3dmask_02_bundle_icon
-TEXT: Water-type Mask
+TEXT: Wasser-Typ-Maske
 
 RESOURCE ID: avatar_f_glasses_newyearglasses2021_00_bundle_icon
 TEXT: 2021-Brille
@@ -104,13 +107,13 @@ RESOURCE ID: avatar_m_backpack_guccibackpack_00_bundle_icon
 TEXT: The North Face x Gucci Rucksack
 
 RESOURCE ID: avatar_m_face_3dmask_00_bundle_icon
-TEXT: Grass-type Mask
+TEXT: Pflanzen-Typ-Maske
 
 RESOURCE ID: avatar_m_face_3dmask_01_bundle_icon
-TEXT: Fire-type Mask
+TEXT: Feuer-Typ-Maske
 
 RESOURCE ID: avatar_m_face_3dmask_02_bundle_icon
-TEXT: Water-type Mask
+TEXT: Wasser-Typ-Maske
 
 RESOURCE ID: avatar_m_glasses_newyearglasses2021_00_bundle_icon
 TEXT: 2021-Brille
@@ -176,7 +179,7 @@ RESOURCE ID: avatar_m_shoes_winterboots_03_bundle_icon
 TEXT: Winterstiefel 4
 
 RESOURCE ID: avatar_seasonal
-TEXT: Feiertage
+TEXT: Pokémon GO-Tour: Kanto
 
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
 TEXT: Schillerndes Mew-Shirt
@@ -209,9 +212,9 @@ RESOURCE ID: badge_mini_collection_title
 TEXT: Top-Sammler
 
 RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Only {0} Eligible Pokémon can be transferred to the professor?</b></size>
+TEXT: <size=36><b>Only {0} eligible Pokémon can be transferred to the professor.</b></size>
 
-Any Pokémon not eligible to be transferred will remain in storage. You can't undo this action once you transfer.
+Any Pokémon not eligible to be transferred will remain in storage. Transferred Pokémon cannot be reclaimed.
 
 RESOURCE ID: batch_transfer_unique_event_pokemon
 TEXT: {0} Event Pokémon
@@ -226,7 +229,7 @@ RESOURCE ID: batch_transfer_unique_not_included
 TEXT: Unique Pokémon are not included.
 
 RESOURCE ID: batch_transfer_unique_warning_message
-TEXT: Are you sure you want to transfer these to the Professor?
+TEXT: Are you sure you want to transfer these Pokémon to the professor?
 
 RESOURCE ID: batch_transfer_unique_warning_title
 TEXT: Your Selection Contains Unique Pokémon:
@@ -2427,6 +2430,9 @@ TEXT:  Event-Sammler-Herausforderung
 RESOURCE ID: combat_gotour_kanto_cup
 TEXT: GO-Tour: Kanto-Cup
 
+RESOURCE ID: community_day_fletchling_event_name
+TEXT: Community Day: Fletchling
+
 RESOURCE ID: community_day_machop_event_name
 TEXT: Community Day: Machollo
 
@@ -2803,6 +2809,14 @@ TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Ganz nach oben, Machol
 
 DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZIAL-EVENTS ZU ERHALTEN.
 
+RESOURCE ID: general1.ticket.2_flett_description
+TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Der frühe Vogel“ am 6. März 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest). Details unter „Neuigkeiten“ im Spiel.
+
+DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZIAL-EVENTS ZU ERHALTEN.
+
+RESOURCE ID: general1.ticket.2_flett_title
+TEXT: Ticket: Der frühe Vogel
+
 RESOURCE ID: general1.ticket.2_roset_description
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Es ist ein Roselia entsprungen“ am 7. Februar 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest). Details unter „Neuigkeiten“ im Spiel.
 
@@ -2986,10 +3000,10 @@ RESOURCE ID: gotour_kanto_sr_title_8
 TEXT: GO-Tour Kanto: Die Reise eines Trainers (8/8)
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_0
-TEXT: Hey, %PLAYERNAME%! Hör mal zu ... Ich habe extra geübt.
+TEXT: Hey, %PLAYERNAME%! Hör mal zu ... ich habe extra geübt.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_1
-TEXT: Hallo! Herzlich Willkommen in der Welt von Pokémon GO! Mein Name ist Willow. Man nennt mich den Pokémon-Professor!
+TEXT: Hallo! Herzlich willkommen in der Welt von Pokémon GO! Mein Name ist Willow. Man nennt mich den Pokémon-Professor!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_2
 TEXT: Diese Welt wird von Wesen bewohnt, die man Pokémon nennt! Für manche Leute sind Pokémon Haustiere, andere tragen Kämpfe mit ihnen aus. Ich selbst ... habe mein Hobby zum Beruf gemacht und studiere Pokémon.
@@ -2998,7 +3012,7 @@ RESOURCE ID: gotour_kanto_srd_dialogue_1_3
 TEXT: Hat dich das an jemanden erinnert? Seit vielen Jahren haben Trainer aus der Kanto-Region diese Ansprache gehört, bevor sie sich auf ihre Reise begeben haben.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_4
-TEXT: Heute habe ich die Ehre diese Ansprache zu machen, weil du kurz davor bist dich auf deine eigene Kanto-Reise zu begeben.
+TEXT: Heute habe ich die Ehre, diese Ansprache zu halten, weil du kurz davor bist, dich auf deine eigene Kanto-Reise zu begeben.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_5
 TEXT: Aber unvorbereitet werde ich dich nicht gehen lassen! Ich habe hier ein paar Sachen, die dir bestimmt helfen werden.
@@ -3010,10 +3024,10 @@ RESOURCE ID: gotour_kanto_srd_dialogue_2_1
 TEXT: Wenn du dich heute in dein Abenteuer stürzt, versuche dir vorzustellen, dass du direkt ins hohe Gras der Kanto-Region schreitest.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_2
-TEXT: Ich habe das Gefühl, dass dir ein Pokémon begegnen wird, das dir ein wunderbarer Partner sein wird für diese Reise. Vergiss nicht ein paar Schnappschüsse von den Pokémon zu machen, auf die du während deiner Reise triffst.
+TEXT: Ich habe das Gefühl, dass du ein Pokémon treffen wirst, das dir auf dieser Reise ein wunderbarer Partner sein wird. Vergiss nicht, ein paar Schnappschüsse von den Pokémon zu machen, die dir unterwegs begegnen!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_3
-TEXT: Auf Abenteuern finde ich es immer sehr hilfreich, Dinge festzuhalten. Das zählt nicht nur für Funde, sondern auch Erinnerungen. Du wirst sicherlich reichlich von beiden machen!
+TEXT: Auf Abenteuern finde ich es immer sehr hilfreich, nicht nur Forschungsergebnisse, sondern auch Eindrücke festzuhalten. Du wirst sicherlich reichlich von beiden sammeln!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_4
 TEXT: Um die Worte eines weisen Professors zu zitieren: Eine unglaubliche Reise in die Welt der Pokémon erwartet dich! Eine Welt voller Wunder, Abenteuer und Geheimnisse! Kurz gesagt, ein Traum wird wahr! Nichts wie los!
@@ -3025,7 +3039,7 @@ RESOURCE ID: gotour_kanto_srd_dialogue_3_1
 TEXT: In der Kanto-Region haben Trainer oft drei Optionen, wenn sie ihr erstes Partner-Pokémon wählen.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_2
-TEXT: Das Erste ist ein Bisasam, das Samen-Pokémon, #001 im Pokédex. Dieses Pokémon vom Typ Pflanze hat von Geburt an einen Pflanzensamen auf dem Rücken.
+TEXT: Die erste Option ist Bisasam, das Samen-Pokémon,  Nr. 001 im Pokédex. Dieses Pokémon vom Typ Pflanze hat von Geburt an einen Pflanzensamen auf dem Rücken.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_3
 TEXT: Option zwei ist Glumanda, das Echsen-Pokémon. Es ist ein Pokémon vom Typ Feuer und hat eine Flamme an seiner Schwanzspitze, die seine Lebensenergie widerspiegelt.
@@ -3040,13 +3054,13 @@ RESOURCE ID: gotour_kanto_srd_dialogue_3_6
 TEXT: Ich hätte es gerne, dass du etwas Zeit mit deinem Kumpel verbringst. Der Bund zwischen Trainer und Pokémon ist unglaublich wichtig!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_7
-TEXT: Wie wäre es, wenn ihr zusammen spazieren geht? Ich liebe es immer mit meinem Kumpel die Welt zu erforschen!
+TEXT: Wie wäre es, wenn ihr zusammen spazieren geht? Ich liebe es immer, mit meinem Kumpel die Welt zu erforschen!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_0
-TEXT: Wundervolle Arbeit, Trainer! Ich freue mich zu sehen, dass du ein inniges Verhältnis mit deinem Kumpel hast. Mach weiter so und ihr werdet bald beste Freunde sein.
+TEXT: Wundervolle Arbeit, Trainer! Ich freue mich zu sehen, dass du ein inniges Verhältnis zu deinem Kumpel hast. Mach weiter so, und ihr werdet bald beste Freunde sein.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_1
-TEXT: Wenn es darum geht, Trainer zu sein, wird oft über Fangtechniken oder Kampfstrategien gesprochen, aber ich finde, dass Freundschaft mindestens genauso wichtig ist.
+TEXT: Unter Trainern wird oft über Fangtechniken oder Kampfstrategien gesprochen, aber ich finde, dass Freundschaft mindestens genauso wichtig ist.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_2
 TEXT: Nicht nur die Beziehungen zwischen dir und deinen Pokémon sind unglaublich wichtig, sondern auch die Freundschaften zwischen dir und anderen Trainern.
@@ -3055,49 +3069,49 @@ RESOURCE ID: gotour_kanto_srd_dialogue_4_3
 TEXT: Eure persönlichen Reisen und Ziele mögen verschieden sein, aber letzten Endes seid ihr alle Trainer! Du solltest dein Bestes geben, um Freundschaften mit Trainern zu pflegen, denen du auf deiner Reise begegnest.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_4
-TEXT: Wie wäre es also, wenn du deinen Freunden ein paar Geschenke schicken würdest, um ihren Tag zu versüßen? Ich bin mir sicher, dass sie gerne von dir hören würden!
+TEXT: Wie wäre es also, wenn du deinen Freunden ein paar Geschenke schickst, um ihren Tag zu versüßen? Ich bin mir sicher, dass sie gerne von dir hören würden!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_0
-TEXT: Willkommen zurück, Trainer! Hoffentlich hat es dir Spaß gemacht andere Trainer kennenzulernen. Anscheinend hast du sogar ein paar Pokémon tauschen können.
+TEXT: Willkommen zurück, Trainer! Hoffentlich hat es dir Spaß gemacht, andere Trainer kennenzulernen. Anscheinend hast du sogar ein paar Pokémon tauschen können!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_1
-TEXT: Tauschen ist eine super Möglichkeit, um Pokémon zu erhalten, denen du sonst nie begegnet wärst.
+TEXT: Tauschen ist eine super Möglichkeit, um Pokémon zu erhalten, denen du sonst vielleicht nie begegnet wärst.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_2
-TEXT: Du bekommst ja nicht nur einen neuen Eintrag in den Pokédex, sondern auch einen neuen Freund!
+TEXT: Du bekommst ja nicht nur einen neuen Eintrag im Pokédex, sondern auch einen neuen Freund!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_3
 TEXT: Du hast bereits tolle Fortschritte auf deiner Reise gemacht. Ich glaube, es ist an der Zeit, dass du deine neu erworbenen Fähigkeiten zur Schau stellst!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_4
-TEXT: Wie wäre es, wenn du deine Wurfkompetenz unter Beweis stellen würdest, indem du ein paar Pokémon fängst? Vergiss nicht auch deine Beeren zu verwenden!
+TEXT: Wie wäre es, wenn du deine Wurfkompetenz unter Beweis stellst, indem du ein paar Pokémon fängst? Und vergiss nicht, deine Beeren zu verwenden!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_5
-TEXT: Mir gefallen Sananabeeren am besten. Sie helfen dir zusätzliche Bonbons für das Pokémon zu erhalten, das du fängst. Außerdem sind sie auch lecker!
+TEXT: Mir gefallen besonders Sananabeeren. Sie helfen dir, zusätzliche Bonbons für das Pokémon zu erhalten, das du fängst. Außerdem sind sie auch lecker!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_0
-TEXT: Ich war mir sicher, dass ich hier irgendwo Sananabeeren hatte ... Oh! Willkommen zurück, %PLAYERNAME%! Mein Snack wird wohl warten müssen.
+TEXT: Ich bin sicher, dass ich hier irgendwo Sananabeeren habe ... Oh! Willkommen zurück, %PLAYERNAME%! Mein Snack wird wohl warten müssen.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_1
-TEXT: Ich habe deine Fortschritte überprüft und ich muss sagen, dass ich sehr beeindruckt bin! Es scheint keine Herausforderung zu geben, die du nicht bewältigen kannst.
+TEXT: Ich habe deine Fortschritte überprüft und muss sagen, dass ich sehr beeindruckt bin! Es scheint keine Herausforderung zu geben, die du nicht bewältigen kannst.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_2
 TEXT: Wie du sicherlich bereits weißt, braucht ein vielseitiger Trainer ein gut abgerundetes Pokémon-Team, um gegen andere Trainer zu kämpfen oder Pokémon in Raids herauszufordern.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_3
-TEXT: Jetzt scheint mir die perfekte Zeit, um ein Power-Up bei einigen deiner Pokémon durchzuführen und dein Team zu stärken.
+TEXT: Jetzt ist die perfekte Zeit, um bei einigen deiner Pokémon Power-up zu verwenden und dein Team zu stärken.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_4
-TEXT: Während du dich darauf konzentrierst, werde ich mich einem interessanten Gerücht widmen, von dem ich Wind bekommen habe.
+TEXT: Während du dich darauf konzentrierst, werde ich einem interessanten Gerücht nachgehen, von dem ich Wind bekommen habe.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_5
 TEXT: Es gibt Berichte über Begegnungen mit einem Pokémon, das sich in andere Pokémon verwandeln kann. Unglaublich faszinierend!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_6
-TEXT: Ich werde meine Funde mit dir teilen, wenn du wiederkommst.
+TEXT: Ich werde meine Erkenntnisse mit dir teilen, wenn du wiederkommst.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_0
-TEXT: Gut dich wiederzusehen, Trainer! Nachdem ich mir diese Berichte näher betrachtet habe, sieht mir das ganze sehr nach Ditto, dem Transform-Pokémon aus.
+TEXT: Schön, dich wiederzusehen, Trainer! Ich bin diesen Berichten nachgegangen, und das sieht mir sehr nach Ditto, dem Transform-Pokémon aus.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_1
 TEXT: Ditto kann seine Zellstruktur neu anordnen, um sich zu verwandeln. Was für ein unglaubliches Pokémon!
@@ -3106,7 +3120,7 @@ RESOURCE ID: gotour_kanto_srd_dialogue_7_2
 TEXT: Aber es scheint noch mehr dahinterzustecken ...
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_3
-TEXT: Kannst du mir mit der Forschung weiterhelfen, damit wir wissen, womit wir es hier zu tun haben?
+TEXT: Würdest du mir bei meiner Forschung helfen, damit wir wissen, womit wir es hier zu tun haben?
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_4
 TEXT: Ich werde meine Arbeit hier weiterführen, um zu sehen, ob ich nicht noch mehr nützliche Informationen ans Tageslicht bringen kann.
@@ -3115,16 +3129,16 @@ RESOURCE ID: gotour_kanto_srd_dialogue_8_0
 TEXT: %PLAYERNAME%! Ist es wahr?! Du hast ein Schillerndes Ditto gefunden?! Ich bin schockiert!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_1
-TEXT: Du musst eine ganz schöne Reise hinter dir haben. Es bringt mir immer unglaublich viel Freude, deinen Fortschritt zu beobachten.
+TEXT: Du musst eine ganz schöne Reise hinter dir haben. Es bringt mir unglaublich viel Freude, deinen Fortschritt zu beobachten.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_2
-TEXT: Ob du es nun glaubst oder nicht, es gibt noch ein weiteres Rätsel, das gelöst werden muss.
+TEXT: Ob du es glaubst oder nicht, es gibt noch ein weiteres Rätsel, das gelöst werden muss.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_3
-TEXT: Nachdem ich mir die Forschungen näher betrachtet habe, die du vervollständigt hast, halte ich es für möglich, dass wir dem Neue-Art-Pokémon Mew auf der Spur sind.
+TEXT: Nachdem ich mich eingehend mit den von dir vervollständigten Forschungen beschäftigt habe, halte ich es jetzt für möglich, dass wir dem Neue Art-Pokémon Mew auf der Spur sind.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_4
-TEXT: Wir haben Mew in der Vergangenheit dokumentiert, aber dieses Mal ist es anders ... ich weiß nur noch nicht was.
+TEXT: Wir haben Mew in der Vergangenheit dokumentiert, aber dieses Mal ist etwas anders ... ich weiß nur noch nicht was.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_5
 TEXT: Wie auch immer, ich glaube, dass dies ein unvergessliches Abenteuer wird!
@@ -3133,10 +3147,10 @@ RESOURCE ID: gotour_kanto_srd_dialogue_8_6
 TEXT: In der Zwischenzeit kannst du Ausschau nach einer weiteren Forschungsaufgabe halten. Ich habe das Gefühl, dass dies ein besonders herausforderndes Unterfangen sein wird, aber du wirst es sicherlich meistern!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_7
-TEXT: Im Moment denke ich jedoch, dass Glückwünsche angebracht sind. Du hast heute während deiner Kanto-Reise hervorragende Arbeit geleistet.
+TEXT: Im Moment denke ich jedoch, dass Glückwünsche angebracht sind. Du hast heute auf deiner Kanto-Reise hervorragende Arbeit geleistet!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_8
-TEXT: Ich hoffe, dass du die Zeit mit deinem Pokémon und anderen Trainern genossen hast. Danke nochmal für all deine Hilfe und harte Arbeit!
+TEXT: Ich hoffe, dass du die Zeit mit deinen Pokémon und anderen Trainern genossen hast. Danke nochmal für all deine Hilfe und harte Arbeit!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_9
 TEXT: Nichts wie los!
@@ -3186,6 +3200,9 @@ TEXT: GO-Tour Kanto: Besiege alle Herausforderer (4/4)
 RESOURCE ID: grass_type_event
 TEXT: Typ-Alarm: Pflanze
 
+RESOURCE ID: great_league_remix_title
+TEXT: Great League Remix
+
 RESOURCE ID: ground_type_event
 TEXT: Typ-Alarm: Boden
 
@@ -3212,6 +3229,12 @@ TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezi
 
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Galar-Pantimos-Event vom 19. Dezember 2020 um 10:00 Uhr bis zum 20. Dezember 2020 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_pink_flett_desc
+TEXT: Ein Ticket für den Zugang zur Spezialforschung am 6. März 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_pink_flett_details
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung am 6. März 2021 von 11:00 Uhr bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_roset_desc
 TEXT: Ein Ticket für den Zugang zur Spezialforschung am 7. Februar 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
@@ -5426,73 +5449,73 @@ RESOURCE ID: m_avatar_poses_bundle_pose_27
 TEXT: Pantimos-Pose
 
 RESOURCE ID: masterwork_sm_dialogue_1_0
-TEXT: Ah, %PLAYERNAME%! Ich bin froh, dich auf dieser Expedition dabei zu haben. Hast du jemals diese besondere Melodie gehört?
+TEXT: Ah, %PLAYERNAME%! Ich bin froh, dich auf dieser Expedition dabei zu haben. Hast du jemals diese Melodie gehört?
 
 RESOURCE ID: masterwork_sm_dialogue_1_1
-TEXT: Da da da duu, da die da dum... Das höre ich in meinem Kopf, wenn ich an einen bestimmten Kapitän mit seinem Wingull namens Pecko denke. Die beiden habe ich vor vielen Jahren in der Hoenn-Region getroffen.
+TEXT: Da da da duu, da di da dum ... Das höre ich in meinem Kopf, wenn ich an einen gewissen Kapitän und sein Wingull denke. Die beiden habe ich vor vielen Jahren in der Hoenn-Region getroffen.
 
 RESOURCE ID: masterwork_sm_dialogue_1_2
 TEXT: Ich glaube, dass es ursprünglich mal ein Seemannslied war. Seefahrer sangen Lieder wie dieses zusammen auf ihren Schifffahrtsabenteuern, um die Moral aufrecht zu erhalten und im Rhythmus rudern zu können. 
 
 RESOURCE ID: masterwork_sm_dialogue_1_3
-TEXT: Ich bin kein Seefahrer, aber ich scheine immer ein wenig mehr Glück zu haben nachdem ich es summe. Haha!
+TEXT: Ich bin kein Seefahrer, aber ich scheine immer ein wenig mehr Glück zu haben, nachdem ich es gesummt habe. Haha!
 
 RESOURCE ID: masterwork_sm_dialogue_1_4
-TEXT: Wie auch immer ... Wir sind hier, um uns die seltsame Situation näher anzusehen, auf die wir während unserer Kanto-Reise gestoßen sind.
+TEXT: Wie auch immer ... wir wollen ja eigentlich die seltsame Situation untersuchen, auf die wir während unserer Kanto-Reise gestoßen sind.
 
 RESOURCE ID: masterwork_sm_dialogue_1_5
 TEXT: Ich rede natürlich von Berichten über Begegnungen mit Mew, dem Neue Art-Pokémon. In letzter Zeit wurden mehrere Schillernde Exemplare gesichtet, was wirklich unglaublich aufregend ist!
 
 RESOURCE ID: masterwork_sm_dialogue_1_6
-TEXT: Das bedeutet, dass es unser Ziel auf dieser Expedition ist einem Pokémon zu begegnen, das fast unmöglich zu finden ist. Als ob das nicht reichen würde, wollen wir auch noch ein Schillerndes Exemplar!
+TEXT: Das Ziel unserer Expedition ist es also, eines der seltensten Pokémon überhaupt zu finden, und dazu auch noch gleich ein Schillerndes Exemplar davon!
 
 RESOURCE ID: masterwork_sm_dialogue_1_7
 TEXT: Du hast auf deiner Reise bis jetzt einiges erlebt, %PLAYERNAME%. Aber das Beste an Pokémon ist, dass es immer etwas Neues zu entdecken gibt.
 
 RESOURCE ID: masterwork_sm_dialogue_1_8
-TEXT: Hoffentlich bist du gespannt auf die Dinge, die dich erwarten, weil ich das Gefühl habe, dass sie deine Fähigkeiten als Trainer wirklich auf die Probe stellen werden.
+TEXT: Hoffentlich bist du gespannt auf die Dinge, die dich erwarten, weil ich das Gefühl habe, dass sie deine Fähigkeiten als Trainer wirklich auf die Probe stellen werden!
 
 RESOURCE ID: masterwork_sm_dialogue_1_9
 TEXT: Nichts wie los!
 
 RESOURCE ID: masterwork_sm_dialogue_2_0
-TEXT: Wow, %PLAYERNAME%, gute Arbeit! Dein Wissen über die Kanto-Region scheint selbst meinem bereits zu konkurrieren!
+TEXT: Wow, %PLAYERNAME%, gute Arbeit! Dein Wissen über die Kanto-Region kommt bald meinem gleich!
 
 RESOURCE ID: masterwork_sm_dialogue_2_1
 TEXT: Unsere nächste Aufgabe ist es, mehr über Pokémon-DNA zu erfahren.
 
 RESOURCE ID: masterwork_sm_dialogue_2_2
-TEXT: Ich weiß, dass es sehr wissenschaftslastig anhört, aber keine Sorge — Ich werde mich um diesen Teil kümmern. Ich brauche lediglich deine Hilfe, um ganz viele verschiedene Pokémon zu fangen.
+TEXT: Ich weiß, das klingt sehr wissenschaftlich, aber keine Sorge — ich werde mich um diesen Teil kümmern. Ich brauche lediglich deine Hilfe, um viele verschiedene Arten von Pokémon zu fangen.
 
 RESOURCE ID: masterwork_sm_dialogue_2_3
 TEXT: Mews DNA soll die genetischen Codes aller existierenden Pokémon enthalten. Um also Mew besser verstehen zu können, sollten wir so viel wie möglich über die Genetik anderer Pokémon verstehen.
 
 RESOURCE ID: masterwork_sm_dialogue_3_0
-TEXT: Unglaubliche Arbeit, %PLAYERNAME%! Dir dabei zuzusehen, wie du so viel über verschiedene Pokémon lernst, erinnert mich daran, wie groß die Welt der Pokémon doch wirklich ist.
+TEXT: Unglaubliche Arbeit, %PLAYERNAME%! Wenn ich sehe, wie viel du über verschiedene Pokémon gelernt hast, werde ich daran erinnert, wie groß die Welt der Pokémon doch wirklich ist.
 
 RESOURCE ID: masterwork_sm_dialogue_3_1
-TEXT: Wissen ist wirklich etwas Lustiges. Je mehr wir dazugewinnen, desto klarer wird uns, wieviel Wissen uns noch fehlt. Einige mögen das frustrierend finden, aber für mich ist das eine wahre Inspiration!
+TEXT: Wissen ist etwas Komisches, denn je mehr wir dazugewinnen, desto klarer wird uns, wie viel uns noch fehlt. Einige mögen das frustrierend finden, aber für mich ist das eine wahre Inspiration!
 
 RESOURCE ID: masterwork_sm_dialogue_3_2
-TEXT: In dem Seemannslied, das ich zuvor erwähnt hatte, scheint es einen sehr zutreffenden Punkt zu geben.
+TEXT: Weißt du, es gibt einen Teil in diesem Seemannslied, das ich zuvor erwähnt habe, der hier zutreffend zu sein scheint.
 
 RESOURCE ID: masterwork_sm_dialogue_3_3
-TEXT: Ich erinnere mich nicht an die genauen Worte, aber der wesentliche Punkt war, dass wir durch die Welt reisen und weit und breit suchen sollten, um mehr über die erstaunlichen Pokémon dieser Welt zu erfahren.
+TEXT: Ich erinnere mich nicht an die genauen Worte, aber der wesentliche Punkt ist, dass wir durch die Welt reisen und weit und breit suchen sollten, um mehr über die erstaunlichen Pokémon dieser Welt zu erfahren.
 
 RESOURCE ID: masterwork_sm_dialogue_3_4
-TEXT: Worte, nach denen man sich im Leben richten sollte! Lass uns gehen und das Schillernde Mew finden, Trainer!
+TEXT: Worte fürs Leben! Lass uns gehen und das Schillernde Mew finden, Trainer!
 
 RESOURCE ID: masterwork_sm_dialogue_4_0
-TEXT: %PLAYERNAME%, du... Du hast es geschafft! Du hast tatsächlich ein Schillerndes Mew gefangen!
+TEXT: %PLAYERNAME%, du... du hast es geschafft! Du hast tatsächlich ein Schillerndes Mew gefangen!
 
 RESOURCE ID: masterwork_sm_dialogue_4_1
-TEXT: Hast du es überhaupt schon registriert, dass es tatsächlich passiert ist? Das ist ein monumentaler Fortschritt, Trainer. Du kannst dir ruhig auf die Schultern klopfen!
+TEXT: Hast du es überhaupt schon begriffen? Das ist ein monumentaler Erfolg, Trainer. Du kannst dir ruhig auf die Schulter klopfen!
 
 RESOURCE ID: masterwork_sm_dialogue_4_2
-TEXT: Was? Es ist auch mein Verdienst? Haha! Nein, nein! Ich habe lediglich ein Seemannslied gesungen und dir den Weg gewiesen, wie es jeder Pokémon Professor getan hätte.
+TEXT: Was? Es ist auch mein Verdienst? Haha! Nein, nein! Ich habe lediglich ein Seemannslied gesungen und dir den Weg gewiesen, wie es jeder Pokémon-Professor getan hätte.
 
 RESOURCE ID: masterwork_sm_dialogue_4_3
-TEXT: Aber den Pokémon, mit denen du dich auf dieser Reise angefreundet hast, gebührt sicherlich dein Dank. Sie haben ja immerhin eine große Rolle in deiner Forschung gespielt!
+TEXT: Aber den Pokémon, mit denen du dich auf dieser Reise angefreundet hast, gebührt sicherlich dein Dank. Sie haben ja eine große Rolle in deiner Forschung gespielt!
 
 RESOURCE ID: masterwork_sm_dialogue_4_4
 TEXT: Die Pokémon, die du gefangen hast, mit denen du gekämpft hast und mit denen du gereist bist, haben alle dazu beigetragen, dass du dieses Ziel erreicht hast.
@@ -5504,27 +5527,27 @@ RESOURCE ID: masterwork_sm_dialogue_4_6
 TEXT: Die Reise eines Trainers soll mit erstaunlichen Erinnerungen, ehrgeizigen Träumen und unerwarteten Abenteuern gefüllt sein. Ich glaube, dass diese Reise all diese Kriterien mit Leichtigkeit erfüllt hat!
 
 RESOURCE ID: masterwork_sm_dialogue_4_7
-TEXT: Ich bin mir sicher, dass es sicherlich nicht die Letzte sein wird. Bis zum nächsten Mal! Nichts wie los!
+TEXT: Ich bin mir sicher, dass es sicherlich nicht die letzte sein wird. Bis zum nächsten Mal! Nichts wie los!
 
 RESOURCE ID: masterwork_sm_title
-TEXT: Alle in einem… Nr. 151
+TEXT: Alle in einem … Nr. 151
 
 RESOURCE ID: masterwork_sm_title_1
-TEXT: Alle in einem… Nr. 151 (1/4)
+TEXT: Alle in einem … Nr. 151 (1/4)
 
 RESOURCE ID: masterwork_sm_title_2
-TEXT: Alle in einem… Nr. 151 (2/4)
+TEXT: Alle in einem … Nr. 151 (2/4)
 
 RESOURCE ID: masterwork_sm_title_3
-TEXT: Alle in einem… Nr. 151 (3/4)
+TEXT: Alle in einem … Nr. 151 (3/4)
 
 RESOURCE ID: masterwork_sm_title_4
-TEXT: Alle in einem… Nr. 151 (4/4)
+TEXT: Alle in einem … Nr. 151 (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-02-11T17:52:10.730049
-at SHA f17a0fb1257d4a3793641103566ffc3940d2fd1e
-Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e
+TEXT: Built at 2021-02-18T20:51:54.014750
+at SHA 5890d27a131a6c14c5700b7dc0ee92d127db700f
+Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052
 
 RESOURCE ID: mini_collection_feb21_gen1_event
 TEXT: Kanto-Sammler-Herausforderung
@@ -5609,6 +5632,9 @@ TEXT: Viel Spaß mit diesen kostenlosen Items von <b>{0}</b>!
 RESOURCE ID: open_sponsored_gift_button
 TEXT: Öffnen
 
+RESOURCE ID: photobomb_five_fletchling
+TEXT: 5 surprise encounters with Fletchling in GO Snapshot
+
 RESOURCE ID: photobomb_five_machop
 TEXT: 5 überraschende Begegnungen mit Machollo in GO-Schnappschuss
 
@@ -5680,6 +5706,9 @@ TEXT: Fange ein Fynx.
 
 RESOURCE ID: quest_catch_special_froakie
 TEXT: Fange ein Froxy.
+
+RESOURCE ID: quest_complete_flett
+TEXT: The Bravest Bird
 
 RESOURCE ID: quest_complete_macht
 TEXT: Ganz nach oben, Machollo!
@@ -6734,6 +6763,15 @@ TEXT: Entwickle ein Zubat.
 RESOURCE ID: quest_evolve_zweilous_singular
 TEXT: Entwickle ein Duodino.
 
+RESOURCE ID: quest_flett_catch_b
+TEXT: Catch {0} Fletchling
+
+RESOURCE ID: quest_flett_evolve_b
+TEXT: Evolve {0} Fletchling
+
+RESOURCE ID: quest_flett_evolve_s1
+TEXT: Evolve {0} Fletchinder
+
 RESOURCE ID: quest_hoenn_celebration_research
 TEXT: Hoenn-Feier-Forschung
 
@@ -6796,6 +6834,87 @@ TEXT: Mache einen Schnappschuss von Bisasam.
 
 RESOURCE ID: quest_snapshot_charmander
 TEXT: Mache einen Schnappschuss von Glumanda.
+
+RESOURCE ID: quest_special_dialogue_flett_0_0
+TEXT: Hey there, %PLAYERNAME%. Hope you are doing well.
+
+RESOURCE ID: quest_special_dialogue_flett_0_1
+TEXT: Me? Well, I’ve had a wonderful day so far visiting with this large group of Fletchling that has seemingly migrated to the area.
+
+RESOURCE ID: quest_special_dialogue_flett_0_2
+TEXT: I overheard their beautiful chirps and just had to investigate and they totally stole my heart.
+
+RESOURCE ID: quest_special_dialogue_flett_0_3
+TEXT: This Tiny Robin Pokémon is actually quite amiable and easy to train. But when battle is joined, it shows its ferocious side!
+
+RESOURCE ID: quest_special_dialogue_flett_0_4
+TEXT: These Pokémon are known to be quite friendly, but the number of them in the area is a bit odd.
+
+RESOURCE ID: quest_special_dialogue_flett_0_5
+TEXT: Would you mind completing some tasks so we can get some more information on what is happening?
+
+RESOURCE ID: quest_special_dialogue_flett_1_0
+TEXT: Great work, Trainer. Looks like you have your very own Fletchling to join you on your journey!
+
+RESOURCE ID: quest_special_dialogue_flett_1_1
+TEXT: Did you know, its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed.
+
+RESOURCE ID: quest_special_dialogue_flett_1_2
+TEXT: I’m always so fascinated to learn about how Pokémon and their Trainers work and live together. I’m going to remember this bit of information on the next cold night.
+
+RESOURCE ID: quest_special_dialogue_flett_1_3
+TEXT: Anyway, this Normal- and Flying-Type Pokémon actually evolves into the Fire- and Flying-Type Pokémon, Fletchinder.
+
+RESOURCE ID: quest_special_dialogue_flett_1_4
+TEXT: Known as the Ember Pokémon, they are exceedingly territorial and aggressive.
+
+RESOURCE ID: quest_special_dialogue_flett_1_5
+TEXT: They are also incredibly fast, its speed right after takeoff already puts it in the top speed class of all bird Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_1_6
+TEXT: When you are ready, I think it is time for you to evolve your Fletchling into Fletchinder.
+
+RESOURCE ID: quest_special_dialogue_flett_2_0
+TEXT: Ah, what a fine looking Fletchinder you have there, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_flett_2_1
+TEXT: While you were out completing your research, I was recalling some information about this interesting Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_2_2
+TEXT: Take this training tip seriously, don't just WING it - make sure to take care and not burn yourself when training your Fletchinder.
+
+RESOURCE ID: quest_special_dialogue_flett_2_3
+TEXT: From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.
+
+RESOURCE ID: quest_special_dialogue_flett_2_4
+TEXT: Remember, only you can prevent high grass fires.
+
+RESOURCE ID: quest_special_dialogue_flett_2_5
+TEXT: We are making great progress on our research, however, there is a few more things I’d like you to do.
+
+RESOURCE ID: quest_special_dialogue_flett_2_6
+TEXT: I’d love to observe a Talonflame, do you think you could evolve your Fletchinder? I’ve wanted to take a closer look at their incredible wings.
+
+RESOURCE ID: quest_special_dialogue_flett_3_0
+TEXT: Welcome back, %PLAYERNAME% and hello, Talonflame!
+
+RESOURCE ID: quest_special_dialogue_flett_3_1
+TEXT: Thank you for all your hard work today, but it certainly looks like it paid off now that you have the Scorching Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_3_2
+TEXT: I certainly think they will make a great addition to your team, in the fever of an exciting battle it showers embers from the gaps between its feathers and takes to the air.
+
+RESOURCE ID: quest_special_dialogue_flett_3_3
+TEXT: Being both Fire- and Flying-Type, Talonflame has tough wings that don’t allow fire to pass through them. A long time ago, firefighters' outfits were made from Talonflame wings.
+
+RESOURCE ID: quest_special_dialogue_flett_3_4
+TEXT: Simply amazing, I’m always so impressed by this brave bird and can’t wait to see what the two of you as a team accomplish.
+
+RESOURCE ID: quest_special_dialogue_flett_3_5
+TEXT: I really appreciate your help today looking into this situation and hope you learned some useful information about this fiery family of Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_3_6
+TEXT: Until next time, let’s GO!
 
 RESOURCE ID: quest_special_dialogue_galarian_mrmime_0_0
 TEXT: %PLAYERNAME%! Es ist so schön dich zu sehen! Die seltsamsten Dinge sind in letzter Zeit passiert.
@@ -7067,6 +7186,21 @@ TEXT: Bis zum nächsten Mal, nichts wie raus und GO!
 RESOURCE ID: quest_spin_daysinarow
 TEXT: Drehe {0} Tage hintereinander einen PokéStop.
 
+RESOURCE ID: quest_title_flett
+TEXT: The Bravest Bird
+
+RESOURCE ID: quest_title_flett_0
+TEXT: The Bravest Bird (1/4)
+
+RESOURCE ID: quest_title_flett_1
+TEXT: The Bravest Bird (2/4)
+
+RESOURCE ID: quest_title_flett_2
+TEXT: The Bravest Bird (3/4)
+
+RESOURCE ID: quest_title_flett_3
+TEXT: The Bravest Bird (4/4)
+
 RESOURCE ID: quest_title_galarian_mrmime
 TEXT: Was klappert denn da?
 
@@ -7183,6 +7317,9 @@ TEXT: Verschicke {0} Pokémon vom Typ Stahl.
 
 RESOURCE ID: quest_transfer_type_water_plural
 TEXT: Verschicke {0} Pokémon vom Typ Wasser.
+
+RESOURCE ID: quest_visit_different_pokestops
+TEXT: Drehe {0} verschiedene PokéStops.
 
 RESOURCE ID: quest_visit_pokestops_singular
 TEXT: Drehe einen PokéStop oder eine Arena.
@@ -11522,12 +11659,18 @@ TEXT: Spezial-Raid-Wochenende: Duodino
 RESOURCE ID: raid_weekend_zygarde
 TEXT: Spezial-Raid-Wochenende: Zygarde
 
+RESOURCE ID: raid_xp_25_fivestar
+TEXT: 1.25x five-star Raid XP
+
 RESOURCE ID: remoteraidticket.3_title
 TEXT: 3 Fern-Raid-
 Pässe
 
 RESOURCE ID: reorder_pokemon_tag_error
-TEXT: Failed to reorder tag
+TEXT: Tag konnte nicht neu angeordnet werden
+
+RESOURCE ID: retro_cup_title
+TEXT: Retro Cup
 
 RESOURCE ID: rock_type_event
 TEXT: Typ-Alarm: Gestein
@@ -11556,6 +11699,9 @@ TEXT:
 RESOURCE ID: sinnoh_collection_name
 TEXT: Sinnoh-Sammler-Herausforderung
 
+RESOURCE ID: spawn_fletchling
+TEXT: More Fletchling are appearing in the wild
+
 RESOURCE ID: spawn_machop
 TEXT: Wilde Machollo erscheinen mit vermehrter Häufigkeit.
 
@@ -11570,6 +11716,9 @@ TEXT: Typ-Alarm: Stahl
 
 RESOURCE ID: ticket_decembercd
 TEXT: Dezember Community Day
+
+RESOURCE ID: ticket_fletchling
+TEXT: Ticket for Special Research story available in the Shop: The Bravest Bird
 
 RESOURCE ID: ticket_machop
 TEXT: Tickets für die Spezialforschung „Ganz nach oben, Machollo!“ im Shop erhältlich.
@@ -11620,7 +11769,7 @@ RESOURCE ID: upload_mgmt_cancel_all
 TEXT: ALLE ABBRECHEN
 
 RESOURCE ID: upload_mgmt_confirm_delete_individual
-TEXT: Möchtest du diesen Beitrag ({0}) löschen?
+TEXT: Möchtest du diesen Beitrag löschen?
 
 RESOURCE ID: upload_mgmt_images
 TEXT: PokéStop-Fotos ({0})
@@ -11659,7 +11808,7 @@ RESOURCE ID: upmgmt_delete_cancel
 TEXT: ABBRECHEN
 
 RESOURCE ID: upmgmt_delete_msg
-TEXT: Möchtest du diesen Beitrag ({0}) löschen?
+TEXT: Möchtest du diesen Beitrag löschen?
 
 RESOURCE ID: upmgmt_delete_yes
 TEXT: JA
@@ -11734,7 +11883,7 @@ RESOURCE ID: upmgmt_settings_info_button
 TEXT: (Richtlinien für Vorschläge)
 
 RESOURCE ID: upmgmt_settings_info_title
-TEXT: Vorschläge
+TEXT: Spielervorschläge
 
 RESOURCE ID: upmgmt_settings_manage
 TEXT: VERWALTEN

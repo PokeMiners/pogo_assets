@@ -19,8 +19,11 @@ TEXT: Make sure to use attacks your opponent’s Pokémon are weak to!
 RESOURCE ID: add_friend_confirmation_title
 TEXT: Send a Friend Request to {0}?
 
+RESOURCE ID: app_launch_deeplink
+TEXT: https://pokemongolive.com/launchapp
+
 RESOURCE ID: ar_plus_arcore_installation_desc
-TEXT: AR+ requires ARCore to be installed. Do you want to install now? You'll need to restart Pokémon GO.
+TEXT: AR+ requires ARCore to be installed. Do you want to install it now? You'll need to restart Pokémon GO.
 
 RESOURCE ID: ar_plus_tap_bush_toast
 TEXT: Tap to find the Pokémon.
@@ -59,7 +62,7 @@ RESOURCE ID: avatar_f_hat_munnapack_01_bundle_icon
 TEXT: Gray Beret
 
 RESOURCE ID: avatar_f_hat_newyearhat2021_00_bundle_icon
-TEXT: New Year's Party Hat
+TEXT: New Year’s Party Hat
 
 RESOURCE ID: avatar_f_hat_whimsicottearmuff_00_bundle_icon
 TEXT: Whimsicott Earmuffs
@@ -137,7 +140,7 @@ RESOURCE ID: avatar_m_hat_munnapack_01_bundle_icon
 TEXT: Gray Beret
 
 RESOURCE ID: avatar_m_hat_newyearhat2021_00_bundle_icon
-TEXT: New Year's Party Hat
+TEXT: New Year’s Party Hat
 
 RESOURCE ID: avatar_m_hat_whimsicottearmuff_00_bundle_icon
 TEXT: Whimsicott Earmuffs
@@ -182,7 +185,7 @@ RESOURCE ID: avatar_m_shoes_winterboots_03_bundle_icon
 TEXT: Winter Boots 4
 
 RESOURCE ID: avatar_seasonal
-TEXT: Holiday
+TEXT: Pokémon GO Tour: Kanto
 
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
 TEXT: Shiny Mew Shirt
@@ -215,9 +218,9 @@ RESOURCE ID: badge_mini_collection_title
 TEXT: Elite Collector
 
 RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Only {0} Eligible Pokémon can be transferred to the professor?</b></size>
+TEXT: <size=36><b>Only {0} eligible Pokémon can be transferred to the professor.</b></size>
 
-Any Pokémon not eligible to be transferred will remain in storage. You can't undo this action once you transfer.
+Any Pokémon not eligible to be transferred will remain in storage. Transferred Pokémon cannot be reclaimed.
 
 RESOURCE ID: batch_transfer_unique_event_pokemon
 TEXT: {0} Event Pokémon
@@ -232,7 +235,7 @@ RESOURCE ID: batch_transfer_unique_not_included
 TEXT: Unique Pokémon are not included.
 
 RESOURCE ID: batch_transfer_unique_warning_message
-TEXT: Are you sure you want to transfer these to the Professor?
+TEXT: Are you sure you want to transfer these Pokémon to the professor?
 
 RESOURCE ID: batch_transfer_unique_warning_title
 TEXT: Your Selection Contains Unique Pokémon:
@@ -2430,6 +2433,9 @@ TEXT: Event-themed Collection Challenge
 RESOURCE ID: combat_gotour_kanto_cup
 TEXT: GO Tour: Kanto Cup
 
+RESOURCE ID: community_day_fletchling_event_name
+TEXT: Community Day: Fletchling
+
 RESOURCE ID: community_day_machop_event_name
 TEXT: Community Day: Machop
 
@@ -2806,6 +2812,14 @@ TEXT: A ticket to access the Straight to the Top, Machop! Special Research on Ja
 
 YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
+RESOURCE ID: general1.ticket.2_flett_description
+TEXT: A ticket to access The Bravest Bird Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_flett_title
+TEXT: The Bravest Bird Ticket
+
 RESOURCE ID: general1.ticket.2_roset_description
 TEXT: A ticket to access the Stop and Smell the Roselia Special Research on February 7, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
 
@@ -3100,7 +3114,7 @@ RESOURCE ID: gotour_kanto_srd_dialogue_6_6
 TEXT: I’ll be sure to share whatever I find when you return.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_0
-TEXT: Glad you’re back, Trainer. After looking into those reports, it certainly sounds like the work of Ditto, the Transformation Pokémon.
+TEXT: Glad you’re back, Trainer. After looking into those reports, it certainly sounds like the work of Ditto, the Transform Pokémon.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_1
 TEXT: Ditto rearranges its cell structure to transform itself into other shapes. What an incredible Pokémon!
@@ -3189,6 +3203,9 @@ TEXT: GO Tour Kanto: Defeat All Challengers (4/4)
 RESOURCE ID: grass_type_event
 TEXT: Type Surge: Grass
 
+RESOURCE ID: great_league_remix_title
+TEXT: Great League Remix
+
 RESOURCE ID: ground_type_event
 TEXT: Type Surge: Ground
 
@@ -3202,7 +3219,7 @@ RESOURCE ID: incense_day_pokemon_mareep
 TEXT: Mareep attracted to Incense
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access  Special Research on February 7, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: A ticket to access Special Research on February 7, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: A ticket to access a special event from December 19, 2020, at 10:00 a.m. to December 20, 2020, 8:00 p.m. local time, wherever you are.
@@ -3213,8 +3230,14 @@ TEXT: This ticket will automatically activate to give you access to Special Rese
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: This ticket will automatically activate to give you access to the Galarian Mr. Mime event from December 19, 2020, at 10:00 a.m. to December 20, 2020, at 8:00 p.m. local time, wherever you are.
 
+RESOURCE ID: item_event_ticket_pink_flett_desc
+TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_flett_details
+TEXT: This ticket will automatically activate to give you access to Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_pink_roset_desc
-TEXT: A ticket to access  Special Research on February 7, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: A ticket to access Special Research on February 7, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_roset_details
 TEXT: This ticket will automatically activate to give you access to Special Research on February 7, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
@@ -5513,9 +5536,9 @@ RESOURCE ID: masterwork_sm_title_4
 TEXT: All-in-One #151 (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-02-11T17:52:10.730049
-at SHA f17a0fb1257d4a3793641103566ffc3940d2fd1e
-Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e
+TEXT: Built at 2021-02-18T20:51:54.014750
+at SHA 5890d27a131a6c14c5700b7dc0ee92d127db700f
+Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052
 
 RESOURCE ID: mini_collection_feb21_gen1_event
 TEXT: Kanto Collection Challenge
@@ -5600,6 +5623,9 @@ TEXT: Enjoy these free items from <b>{0}</b>!
 RESOURCE ID: open_sponsored_gift_button
 TEXT: Open Gift
 
+RESOURCE ID: photobomb_five_fletchling
+TEXT: 5 surprise encounters with Fletchling in GO Snapshot
+
 RESOURCE ID: photobomb_five_machop
 TEXT: 5 surprise encounters with Machop in GO Snapshot
 
@@ -5607,11 +5633,11 @@ RESOURCE ID: photobomb_five_roselia
 TEXT: 5 surprise encounters with Roselia in GO Snapshot
 
 RESOURCE ID: player_suspended_warning
-TEXT: Your suspension term has now ended and you are now able access your account.
+TEXT: Your suspension term has ended and you are now able access your account.
 
-This previous suspension was a result of activity on your account that indicated the use of modified client software or unauthorized third-party software in violation of our Terms of Service.
+The prior suspension was a result of activity on your account that indicated the use of modified client software or unauthorized third-party software in violation of our Terms of Service.
 
-This is your last opportunity to reform your ways. Any further transgressions will result in a your account being permanently banned.
+This is your last opportunity to reform your ways. Any further transgressions will result in your account being permanently banned.
 
 Visit the <a href="three_strike_policy_url">Help Center</a> for more information.
 
@@ -5686,6 +5712,9 @@ TEXT: Catch {0} Kyogre
 
 RESOURCE ID: quest_catch_luvdisc
 TEXT: Catch {0} Luvdisc
+
+RESOURCE ID: quest_complete_flett
+TEXT: The Bravest Bird
 
 RESOURCE ID: quest_complete_macht
 TEXT: Straight to the Top, Machop!
@@ -6528,7 +6557,7 @@ RESOURCE ID: quest_evolve_smoochum_singular
 TEXT: Evolve one Smoochum
 
 RESOURCE ID: quest_evolve_sneasel_singular
-TEXT: Evolve one Sneasel
+TEXT: Evolve a Sneasel
 
 RESOURCE ID: quest_evolve_snivy_singular
 TEXT: Evolve one Snivy
@@ -6743,6 +6772,15 @@ TEXT: Evolve one Zubat
 RESOURCE ID: quest_evolve_zweilous_singular
 TEXT: Evolve one Zweilous
 
+RESOURCE ID: quest_flett_catch_b
+TEXT: Catch {0} Fletchling
+
+RESOURCE ID: quest_flett_evolve_b
+TEXT: Evolve {0} Fletchling
+
+RESOURCE ID: quest_flett_evolve_s1
+TEXT: Evolve {0} Fletchinder
+
 RESOURCE ID: quest_hoenn_celebration_research
 TEXT: Hoenn Celebration Research
 
@@ -6756,7 +6794,7 @@ RESOURCE ID: quest_kanto_green_sandshrew
 TEXT: GO Tour: Catch Sandshrew
 
 RESOURCE ID: quest_kanto_green_vulpix
-TEXT: GO Tour: Catch Vulpix for trading
+TEXT: GO Tour: Catch Vulpix
 
 RESOURCE ID: quest_kanto_hatch_plural
 TEXT: GO Tour Kanto: Hatch {0} Eggs
@@ -6805,6 +6843,87 @@ TEXT: Take a snapshot of Bulbasaur
 
 RESOURCE ID: quest_snapshot_charmander
 TEXT: Take a snapshot of Charmander
+
+RESOURCE ID: quest_special_dialogue_flett_0_0
+TEXT: Hey there, %PLAYERNAME%. Hope you are doing well.
+
+RESOURCE ID: quest_special_dialogue_flett_0_1
+TEXT: Me? Well, I’ve had a wonderful day so far visiting with this large group of Fletchling that has seemingly migrated to the area.
+
+RESOURCE ID: quest_special_dialogue_flett_0_2
+TEXT: I overheard their beautiful chirps and just had to investigate and they totally stole my heart.
+
+RESOURCE ID: quest_special_dialogue_flett_0_3
+TEXT: This Tiny Robin Pokémon is actually quite amiable and easy to train. But when battle is joined, it shows its ferocious side!
+
+RESOURCE ID: quest_special_dialogue_flett_0_4
+TEXT: These Pokémon are known to be quite friendly, but the number of them in the area is a bit odd.
+
+RESOURCE ID: quest_special_dialogue_flett_0_5
+TEXT: Would you mind completing some tasks so we can get some more information on what is happening?
+
+RESOURCE ID: quest_special_dialogue_flett_1_0
+TEXT: Great work, Trainer. Looks like you have your very own Fletchling to join you on your journey!
+
+RESOURCE ID: quest_special_dialogue_flett_1_1
+TEXT: Did you know, its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed.
+
+RESOURCE ID: quest_special_dialogue_flett_1_2
+TEXT: I’m always so fascinated to learn about how Pokémon and their Trainers work and live together. I’m going to remember this bit of information on the next cold night.
+
+RESOURCE ID: quest_special_dialogue_flett_1_3
+TEXT: Anyway, this Normal- and Flying-Type Pokémon actually evolves into the Fire- and Flying-Type Pokémon, Fletchinder.
+
+RESOURCE ID: quest_special_dialogue_flett_1_4
+TEXT: Known as the Ember Pokémon, they are exceedingly territorial and aggressive.
+
+RESOURCE ID: quest_special_dialogue_flett_1_5
+TEXT: They are also incredibly fast, its speed right after takeoff already puts it in the top speed class of all bird Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_1_6
+TEXT: When you are ready, I think it is time for you to evolve your Fletchling into Fletchinder.
+
+RESOURCE ID: quest_special_dialogue_flett_2_0
+TEXT: Ah, what a fine looking Fletchinder you have there, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_flett_2_1
+TEXT: While you were out completing your research, I was recalling some information about this interesting Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_2_2
+TEXT: Take this training tip seriously, don't just WING it - make sure to take care and not burn yourself when training your Fletchinder.
+
+RESOURCE ID: quest_special_dialogue_flett_2_3
+TEXT: From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.
+
+RESOURCE ID: quest_special_dialogue_flett_2_4
+TEXT: Remember, only you can prevent high grass fires.
+
+RESOURCE ID: quest_special_dialogue_flett_2_5
+TEXT: We are making great progress on our research, however, there is a few more things I’d like you to do.
+
+RESOURCE ID: quest_special_dialogue_flett_2_6
+TEXT: I’d love to observe a Talonflame, do you think you could evolve your Fletchinder? I’ve wanted to take a closer look at their incredible wings.
+
+RESOURCE ID: quest_special_dialogue_flett_3_0
+TEXT: Welcome back, %PLAYERNAME% and hello, Talonflame!
+
+RESOURCE ID: quest_special_dialogue_flett_3_1
+TEXT: Thank you for all your hard work today, but it certainly looks like it paid off now that you have the Scorching Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_3_2
+TEXT: I certainly think they will make a great addition to your team, in the fever of an exciting battle it showers embers from the gaps between its feathers and takes to the air.
+
+RESOURCE ID: quest_special_dialogue_flett_3_3
+TEXT: Being both Fire- and Flying-Type, Talonflame has tough wings that don’t allow fire to pass through them. A long time ago, firefighters' outfits were made from Talonflame wings.
+
+RESOURCE ID: quest_special_dialogue_flett_3_4
+TEXT: Simply amazing, I’m always so impressed by this brave bird and can’t wait to see what the two of you as a team accomplish.
+
+RESOURCE ID: quest_special_dialogue_flett_3_5
+TEXT: I really appreciate your help today looking into this situation and hope you learned some useful information about this fiery family of Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_3_6
+TEXT: Until next time, let’s GO!
 
 RESOURCE ID: quest_special_dialogue_galarian_mrmime_0_0
 TEXT: %PLAYERNAME%! It’s so great to see you! The strangest things have been happening lately.
@@ -7067,6 +7186,21 @@ TEXT: Thanks for all your assistance today, Trainer. Documenting situations like
 RESOURCE ID: quest_special_dialogue_roset_3_6
 TEXT: Until next time, let’s GO!
 
+RESOURCE ID: quest_title_flett
+TEXT: The Bravest Bird
+
+RESOURCE ID: quest_title_flett_0
+TEXT: The Bravest Bird (1/4)
+
+RESOURCE ID: quest_title_flett_1
+TEXT: The Bravest Bird (2/4)
+
+RESOURCE ID: quest_title_flett_2
+TEXT: The Bravest Bird (3/4)
+
+RESOURCE ID: quest_title_flett_3
+TEXT: The Bravest Bird (4/4)
+
 RESOURCE ID: quest_title_galarian_mrmime
 TEXT: Tap... Tap... Tappity-Tap...
 
@@ -7165,6 +7299,9 @@ TEXT: Transfer {0} Steel-type Pokémon
 
 RESOURCE ID: quest_transfer_type_water_plural
 TEXT: Transfer {0} Water-type Pokémon
+
+RESOURCE ID: quest_visit_different_pokestops
+TEXT: Spin {0} different PokéStops
 
 RESOURCE ID: quest_visit_unique_pokestops_plural
 TEXT: Spin {0} different PokéStops or Gyms
@@ -11501,8 +11638,14 @@ TEXT: Special Raid Weekend: Zweilous
 RESOURCE ID: raid_weekend_zygarde
 TEXT: Special Raid Weekend: Zygarde
 
+RESOURCE ID: raid_xp_25_fivestar
+TEXT: 1.25x five-star Raid XP
+
 RESOURCE ID: reorder_pokemon_tag_error
 TEXT: Failed to reorder tag
+
+RESOURCE ID: retro_cup_title
+TEXT: Retro Cup
 
 RESOURCE ID: rock_type_event
 TEXT: Type Surge: Rock
@@ -11538,6 +11681,9 @@ TEXT:
 RESOURCE ID: sinnoh_collection_name
 TEXT: Sinnoh Collection Challenge
 
+RESOURCE ID: spawn_fletchling
+TEXT: More Fletchling are appearing in the wild
+
 RESOURCE ID: spawn_machop
 TEXT: More Machop are appearing in the wild
 
@@ -11558,6 +11704,9 @@ TEXT: https://www.nianticlabs.com/terms/en/
 
 RESOURCE ID: ticket_decembercd
 TEXT: December Community Day
+
+RESOURCE ID: ticket_fletchling
+TEXT: Ticket for Special Research story available in the Shop: The Bravest Bird
 
 RESOURCE ID: ticket_machop
 TEXT: Tickets for the Straight to the Top, Machop! Special Research story available in the shop
@@ -11608,7 +11757,7 @@ RESOURCE ID: upload_mgmt_cancel_all
 TEXT: CANCEL ALL
 
 RESOURCE ID: upload_mgmt_confirm_delete_individual
-TEXT: Do you want to delete this contribution ({0})?
+TEXT: Do you want to delete this contribution?
 
 RESOURCE ID: upload_mgmt_images
 TEXT: PokéStop Images ({0})
@@ -11650,7 +11799,7 @@ RESOURCE ID: upmgmt_delete_cancel
 TEXT: CANCEL
 
 RESOURCE ID: upmgmt_delete_msg
-TEXT: Do you want to delete this contribution ({0})?
+TEXT: Do you want to delete this contribution?
 
 RESOURCE ID: upmgmt_delete_yes
 TEXT: YES

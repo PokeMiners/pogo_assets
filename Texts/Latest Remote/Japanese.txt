@@ -16,6 +16,9 @@ TEXT: 相手ポケモンが弱いタイプのわざを使おう！
 RESOURCE ID: __male_speaker
 TEXT: 相手ポケモンが弱いタイプのわざを使おう！
 
+RESOURCE ID: app_launch_deeplink
+TEXT: https://pokemongolive.com/launchapp
+
 RESOURCE ID: avatar_f_backpack_guccibackpack_00_bundle_icon
 TEXT: The North Face x Gucci バックパック
 
@@ -92,7 +95,7 @@ RESOURCE ID: avatar_f_shoes_winterboots_03_bundle_icon
 TEXT: ウィンターブーツ
 
 RESOURCE ID: avatar_hat_gotour_kanto_bundle_icon
-TEXT: GO Tour Hat
+TEXT: GOTourキャップ
 
 RESOURCE ID: avatar_m_backpack_guccibackpack_00_bundle_icon
 TEXT: The North Face x Gucci バックパック
@@ -170,10 +173,10 @@ RESOURCE ID: avatar_m_shoes_winterboots_03_bundle_icon
 TEXT: ウィンターブーツ
 
 RESOURCE ID: avatar_seasonal
-TEXT: ウィンター
+TEXT: Pokémon GO Tour：カントー地方
 
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
-TEXT: Shiny Mew Shirt
+TEXT: ミュウ(色違い)Tシャツ
 
 RESOURCE ID: avatar_sponsor
 TEXT: SPONSORED
@@ -209,9 +212,9 @@ RESOURCE ID: badge_mini_collection_title
 TEXT: すご腕コレクター
 
 RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Only {0} Eligible Pokémon can be transferred to the professor?</b></size>
+TEXT: <size=36><b>Only {0} eligible Pokémon can be transferred to the professor.</b></size>
 
-Any Pokémon not eligible to be transferred will remain in storage. You can't undo this action once you transfer.
+Any Pokémon not eligible to be transferred will remain in storage. Transferred Pokémon cannot be reclaimed.
 
 RESOURCE ID: batch_transfer_unique_event_pokemon
 TEXT: {0} Event Pokémon
@@ -226,7 +229,7 @@ RESOURCE ID: batch_transfer_unique_not_included
 TEXT: Unique Pokémon are not included.
 
 RESOURCE ID: batch_transfer_unique_warning_message
-TEXT: Are you sure you want to transfer these to the Professor?
+TEXT: Are you sure you want to transfer these Pokémon to the professor?
 
 RESOURCE ID: batch_transfer_unique_warning_title
 TEXT: Your Selection Contains Unique Pokémon:
@@ -2424,6 +2427,9 @@ TEXT: イベントに沿ったコレクションチャレンジ
 RESOURCE ID: combat_gotour_kanto_cup
 TEXT: GO Tour：カントーカップ
 
+RESOURCE ID: community_day_fletchling_event_name
+TEXT: コミュニティ・デイ：ヤヤコマ
+
 RESOURCE ID: community_day_machop_event_name
 TEXT: コミュニティ・デイ：ワンリキー
 
@@ -2808,6 +2814,14 @@ RESOURCE ID: general1.ticket.2_description
 TEXT: 世界中のどこにいても、現地時間2021年1月16日11:00AM～5:00PMに「かいりきポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
 
 イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
+
+RESOURCE ID: general1.ticket.2_flett_description
+TEXT: 世界中のどこにいても、現地時間2021年3月6日11:00AM～5:00PMにゲーム内イベント「コマドリポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
+
+イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
+
+RESOURCE ID: general1.ticket.2_flett_title
+TEXT: 「コマドリポケモンを解明せよ！」チケット
 
 RESOURCE ID: general1.ticket.2_roset_description
 TEXT: 世界中のどこにいても、現地時間2021年2月7日11:00AM～5:00PMにゲーム内イベント「いばらポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
@@ -3194,6 +3208,9 @@ TEXT: GO Tour カントー地方：バトル (4/4)
 RESOURCE ID: grass_type_event
 TEXT: タイプ上昇：くさ
 
+RESOURCE ID: great_league_remix_title
+TEXT: SLリミックス
+
 RESOURCE ID: ground_type_event
 TEXT: タイプ上昇：じめん
 
@@ -3217,6 +3234,12 @@ TEXT: このチケットは自動的に発動し、現地時間2021年2月7日11
 
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: このチケットは自動的に発動し、現地時間2020年12月19日10:00AM～2020年12月20日8:00PMにスペシャルリサーチが行えるようになります。
+
+RESOURCE ID: item_event_ticket_pink_flett_desc
+TEXT: 現地時間2021年3月6日11:00AM～5:00PMにスペシャルリサーチを遂行するためのチケット。
+
+RESOURCE ID: item_event_ticket_pink_flett_details
+TEXT: このチケットは自動的に発動し、現地時間2021年3月6日にスペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_roset_desc
 TEXT: 現地時間2021年2月7日11:00AM～5:00PMにスペシャルリサーチを遂行するためのチケット。
@@ -5539,9 +5562,9 @@ RESOURCE ID: masterwork_sm_title_4
 TEXT: 続行リサーチ151 (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-02-11T17:52:10.730049
-at SHA f17a0fb1257d4a3793641103566ffc3940d2fd1e
-Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e
+TEXT: Built at 2021-02-18T20:51:54.014750
+at SHA 5890d27a131a6c14c5700b7dc0ee92d127db700f
+Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052
 
 RESOURCE ID: mini_collection_feb21_gen1_event
 TEXT: カントーコレクションチャレンジ
@@ -5625,6 +5648,9 @@ TEXT: <b>{0}</b>からのギフトです。
 
 RESOURCE ID: open_sponsored_gift_button
 TEXT: ギフトを開ける
+
+RESOURCE ID: photobomb_five_fletchling
+TEXT: GOスナップショットでヤヤコマのサプライズ5回
 
 RESOURCE ID: photobomb_five_machop
 TEXT: GOスナップショットでワンリキーのサプライズ5回
@@ -5937,6 +5963,9 @@ TEXT: カイオーガを{0}匹捕まえる
 
 RESOURCE ID: quest_catch_luvdisc
 TEXT: ラブカスを{0}匹捕まえる
+
+RESOURCE ID: quest_complete_flett
+TEXT: コマドリポケモンを解明せよ！
 
 RESOURCE ID: quest_complete_macht
 TEXT: かいりきポケモンを解明せよ！
@@ -6988,6 +7017,15 @@ TEXT: ズバットを進化させる
 RESOURCE ID: quest_evolve_zweilous_singular
 TEXT: ジヘッドを進化させる
 
+RESOURCE ID: quest_flett_catch_b
+TEXT: ヤヤコマを{0}匹捕まえる
+
+RESOURCE ID: quest_flett_evolve_b
+TEXT: ヤヤコマを{0}匹進化させる
+
+RESOURCE ID: quest_flett_evolve_s1
+TEXT: ヒノヤコマを{0}匹進化させる
+
 RESOURCE ID: quest_hoenn_celebration_research
 TEXT: ホウエンセレブレーションリサーチ
 
@@ -7050,6 +7088,87 @@ TEXT: フシギダネのGOスナップショット写真を撮る
 
 RESOURCE ID: quest_snapshot_charmander
 TEXT: ヒトカゲのGOスナップショット写真を撮る
+
+RESOURCE ID: quest_special_dialogue_flett_0_0
+TEXT: やぁ、%PLAYERNAME%、調子はどうかな？
+
+RESOURCE ID: quest_special_dialogue_flett_0_1
+TEXT: わたしのほうは、ヤヤコマのさえずりに心奪われていたところだ。
+
+RESOURCE ID: quest_special_dialogue_flett_0_2
+TEXT: たくさん飛んできているようで、調査を依頼したい！
+
+RESOURCE ID: quest_special_dialogue_flett_0_3
+TEXT: コマドリポケモンであるヤヤコマは、人懐っこく、あつかいやすい、と言われている。
+
+RESOURCE ID: quest_special_dialogue_flett_0_4
+TEXT: 観察するかぎり、そうとも言えないヤヤコマもいそうなんだ。
+
+RESOURCE ID: quest_special_dialogue_flett_0_5
+TEXT: きみから届く調査結果をもとに、検証したいと思う。よろしく頼むよ！
+
+RESOURCE ID: quest_special_dialogue_flett_1_0
+TEXT: 素晴らしい！捕まえたヤヤコマとは仲良くなれそうかい？
+
+RESOURCE ID: quest_special_dialogue_flett_1_1
+TEXT: ヤヤコマの体はいつも温かいので、寒い地域のトレーナーは、ヤヤコマと一緒に寝て暖を取るそうだ。
+
+RESOURCE ID: quest_special_dialogue_flett_1_2
+TEXT: ポケモンとトレーナーの協力のかたちは、さまざまだが、これは便利だな！寒い夜に、ぜひ試してみよう。
+
+RESOURCE ID: quest_special_dialogue_flett_1_3
+TEXT: ヤヤコマのタイプは、ノーマルとひこう。ヒノヤコマに進化すると、ほのおタイプとひこうタイプになる。
+
+RESOURCE ID: quest_special_dialogue_flett_1_4
+TEXT: ひのこポケモンであるヒノヤコマは、縄張り意識が強く、好戦的だ。
+
+RESOURCE ID: quest_special_dialogue_flett_1_5
+TEXT: とりポケモンのなかでも、トップクラスの速さを誇る。
+
+RESOURCE ID: quest_special_dialogue_flett_1_6
+TEXT: ヤヤコマをヒノヤコマに進化させてみてくれ！
+
+RESOURCE ID: quest_special_dialogue_flett_2_0
+TEXT: おー、きみのヒノヤコマ、精悍な顔つきだな、%PLAYERNAME%！
+
+RESOURCE ID: quest_special_dialogue_flett_2_1
+TEXT: そういえば、警告しておくのを忘れた。
+
+RESOURCE ID: quest_special_dialogue_flett_2_2
+TEXT: ヒノヤコマは、火の粉をクチバシから飛ばし、草むらを焦がすことで、
+
+RESOURCE ID: quest_special_dialogue_flett_2_3
+TEXT: 驚いて飛び出してくる獲物を捕まえる。
+
+RESOURCE ID: quest_special_dialogue_flett_2_4
+TEXT: きみがしっかりしていないと、周りの草むらが、まる焼けになってしまうぞ！
+
+RESOURCE ID: quest_special_dialogue_flett_2_5
+TEXT: どんどん調査を進めようか。忘れてはならないのは、ファイアローを調査すること。
+
+RESOURCE ID: quest_special_dialogue_flett_2_6
+TEXT: 具体的には、ファイアローの羽を、詳しく調査することだ。
+
+RESOURCE ID: quest_special_dialogue_flett_3_0
+TEXT: よくやってくれた、%PLAYERNAME%！そして、ハロー、ファイアロー！
+
+RESOURCE ID: quest_special_dialogue_flett_3_1
+TEXT: 今日もきみの頑張りに感謝だ。れっかポケモン、ファイアローを手に入れることができた。
+
+RESOURCE ID: quest_special_dialogue_flett_3_2
+TEXT: 羽のすき間から火の粉を吹きだしながら、獲物に向かって飛ぶ姿が見られるんだな。
+
+RESOURCE ID: quest_special_dialogue_flett_3_3
+TEXT: ほのおとひこうタイプのポケモンにふさわしく、火を通さない丈夫な羽を持っている。昔の消防士の服は、ファイアローの羽でできていたそうだ。
+
+RESOURCE ID: quest_special_dialogue_flett_3_4
+TEXT: さぞ美しい服だったんだろうな．．．きみとファイアローが、とても勇ましく見えるよ。
+
+RESOURCE ID: quest_special_dialogue_flett_3_5
+TEXT: 今日も、非常に有意義な調査だった。きみにも気付きがあったのではないかな？
+
+RESOURCE ID: quest_special_dialogue_flett_3_6
+TEXT: では、また会うときまで、元気にGO！
 
 RESOURCE ID: quest_special_dialogue_galarian_mrmime_0_0
 TEXT: %PLAYERNAME%！ちょうど良いところへきてくれた！ひとつ気になっていることがあるんだ。数日前のこと．．．
@@ -7309,6 +7428,21 @@ TEXT: 一緒に踊ろう、なんて考えないほうがいいな．．．き�
 RESOURCE ID: quest_special_dialogue_roset_3_6
 TEXT: では、次に会う日まで、元気にGOだ！
 
+RESOURCE ID: quest_title_flett
+TEXT: コマドリポケモンを解明せよ！
+
+RESOURCE ID: quest_title_flett_0
+TEXT: コマドリポケモンを解明せよ！(1/4)
+
+RESOURCE ID: quest_title_flett_1
+TEXT: コマドリポケモンを解明せよ！(2/4)
+
+RESOURCE ID: quest_title_flett_2
+TEXT: コマドリポケモンを解明せよ！(3/4)
+
+RESOURCE ID: quest_title_flett_3
+TEXT: コマドリポケモンを解明せよ！(4/4)
+
 RESOURCE ID: quest_title_galarian_mrmime
 TEXT: ダンスポケモンを解明せよ！
 
@@ -7407,6 +7541,9 @@ TEXT: はがねタイプのポケモンを{0}匹送る
 
 RESOURCE ID: quest_transfer_type_water_plural
 TEXT: みずタイプのポケモンを{0}匹送る
+
+RESOURCE ID: quest_visit_different_pokestops
+TEXT: 違うポケストップ{0}個を回す
 
 RESOURCE ID: quest_visit_unique_pokestops_plural
 TEXT: 違うポケストップかジム{0}個を回す
@@ -11740,8 +11877,14 @@ TEXT: レイドウィークエンド：ジヘッド
 RESOURCE ID: raid_weekend_zygarde
 TEXT: レイドウィークエンド：ジガルデ
 
+RESOURCE ID: raid_xp_25_fivestar
+TEXT: 1.25x five-star Raid XP
+
 RESOURCE ID: reorder_pokemon_tag_error
 TEXT: タグ順を変更できませんでした
+
+RESOURCE ID: retro_cup_title
+TEXT: レトロカップ
 
 RESOURCE ID: rock_type_event
 TEXT: タイプ上昇：いわ
@@ -11767,6 +11910,9 @@ TEXT: 複数選択時に伝説のポケモンと幻のポケモン（一部）�
 RESOURCE ID: sinnoh_collection_name
 TEXT: シンオウコレクションチャレンジ
 
+RESOURCE ID: spawn_fletchling
+TEXT: ヤヤコマがより多く野生で出現
+
 RESOURCE ID: spawn_machop
 TEXT: ワンリキーがより多く野生で出現
 
@@ -11786,6 +11932,9 @@ RESOURCE ID: ticket_electabuzz_description
 TEXT: 世界中のどこにいても、現地時間2020年11月15日の11:00 AM～5:00 PMに、ゲーム内でスタートできるイベント「でんげきポケモンの謎を解け！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
 
 イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
+
+RESOURCE ID: ticket_fletchling
+TEXT: 「コマドリポケモンを解明せよ！」チケットがショップに登場
 
 RESOURCE ID: ticket_machop
 TEXT: 「かいりきポケモンを解明せよ！」チケットがショップに登場
@@ -11836,7 +11985,7 @@ RESOURCE ID: upload_mgmt_cancel_all
 TEXT: すべてキャンセル
 
 RESOURCE ID: upload_mgmt_confirm_delete_individual
-TEXT: この投稿({0})を削除しますか？
+TEXT: この投稿を削除しますか？
 
 RESOURCE ID: upload_mgmt_images
 TEXT: ポケストップ画像 ({0})
@@ -11881,7 +12030,7 @@ RESOURCE ID: upmgmt_delete_cancel
 TEXT: キャンセル
 
 RESOURCE ID: upmgmt_delete_msg
-TEXT: この投稿（{0}）を削除しますか？
+TEXT: この投稿を削除しますか？
 
 RESOURCE ID: upmgmt_delete_yes
 TEXT: はい

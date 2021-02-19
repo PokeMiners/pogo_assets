@@ -11,13 +11,16 @@ RESOURCE ID: 5076_title
 TEXT: Тур Pokémon GO: Канто
 
 RESOURCE ID: __female_speaker
-TEXT: Make sure to use attacks your opponent’s Pokémon are weak to!
+TEXT: Используй атаки, к которым слабы Покемоны твоего соперника!
 
 RESOURCE ID: __male_speaker
-TEXT: Make sure to use attacks your opponent’s Pokémon are weak to!
+TEXT: Используй атаки, к которым слабы Покемоны твоего соперника!
 
 RESOURCE ID: add_friend_confirmation_title
 TEXT: Send a Friend Request to {0}?
+
+RESOURCE ID: app_launch_deeplink
+TEXT: https://pokemongolive.com/launchapp
 
 RESOURCE ID: appraise_intro_1|1
 TEXT: Привет, {0}. Если ты хочешь, я могу провести оценку твоего Покемона {1}.
@@ -96,13 +99,13 @@ RESOURCE ID: avatar_f_backpack_zubatbp_0_bundle_icon
 TEXT: Рюкзак с Зубатом
 
 RESOURCE ID: avatar_f_face_3dmask_00_bundle_icon
-TEXT: Grass-type Mask
+TEXT: Маска травяного типа
 
 RESOURCE ID: avatar_f_face_3dmask_01_bundle_icon
-TEXT: Fire-type Mask
+TEXT: Маска огненного типа
 
 RESOURCE ID: avatar_f_face_3dmask_02_bundle_icon
-TEXT: Water-type Mask
+TEXT: Маска водного типа
 
 RESOURCE ID: avatar_f_face_defaultmask_00_bundle_icon
 TEXT: Простая маска
@@ -373,7 +376,7 @@ RESOURCE ID: avatar_f_socks_empty_bundle_icon
 TEXT: Без носков
 
 RESOURCE ID: avatar_hat_gotour_kanto_bundle_icon
-TEXT: GO Tour Hat
+TEXT: шапка Тур GO
 
 RESOURCE ID: avatar_lock_badge
 TEXT: Открывается с медалью {1} на уровне {0}
@@ -425,13 +428,13 @@ RESOURCE ID: avatar_m_backpack_zubatbp_0_bundle_icon
 TEXT: Рюкзак с Зубатом
 
 RESOURCE ID: avatar_m_face_3dmask_00_bundle_icon
-TEXT: Grass-type Mask
+TEXT: Маска травяного типа
 
 RESOURCE ID: avatar_m_face_3dmask_01_bundle_icon
-TEXT: Fire-type Mask
+TEXT: Маска огненного типа
 
 RESOURCE ID: avatar_m_face_3dmask_02_bundle_icon
-TEXT: Water-type Mask
+TEXT: Маска водного типа
 
 RESOURCE ID: avatar_m_face_defaultmask_00_bundle_icon
 TEXT: Простая маска
@@ -722,7 +725,7 @@ RESOURCE ID: avatar_m_socks_empty_bundle_icon
 TEXT: Без носков
 
 RESOURCE ID: avatar_seasonal
-TEXT: Праздники
+TEXT: Тур Pokémon GO: Канто
 
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
 TEXT: Футболка с Сияющим Мью
@@ -988,9 +991,9 @@ TEXT: <size=36><b>Передать Профессору Покемонов: {0}?
 Ты не сможешь отменить это действие после передачи.
 
 RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Only {0} Eligible Pokémon can be transferred to the professor?</b></size>
+TEXT: <size=36><b>Only {0} eligible Pokémon can be transferred to the professor.</b></size>
 
-Any Pokémon not eligible to be transferred will remain in storage. You can't undo this action once you transfer.
+Any Pokémon not eligible to be transferred will remain in storage. Transferred Pokémon cannot be reclaimed.
 
 RESOURCE ID: batch_transfer_unique_event_pokemon
 TEXT: {0} Event Pokémon
@@ -1005,7 +1008,7 @@ RESOURCE ID: batch_transfer_unique_not_included
 TEXT: Unique Pokémon are not included.
 
 RESOURCE ID: batch_transfer_unique_warning_message
-TEXT: Are you sure you want to transfer these to the Professor?
+TEXT: Are you sure you want to transfer these Pokémon to the professor?
 
 RESOURCE ID: batch_transfer_unique_warning_title
 TEXT: Your Selection Contains Unique Pokémon:
@@ -3654,7 +3657,7 @@ RESOURCE ID: combat_debuff_lvl3
 TEXT: {0} резко упала!
 
 RESOURCE ID: combat_gotour_kanto_cup
-TEXT: GO Tour: Kanto Cup
+TEXT: Тур GO: Кубок Канто
 
 RESOURCE ID: combat_grunt_quote_bug__female_speaker
 TEXT: Вперёд, мой непобедимый Покемон-Насекомое!
@@ -3733,6 +3736,9 @@ TEXT: Оставшиеся Покемоны
 
 RESOURCE ID: combat_use_this_party
 TEXT: ИСПОЛЬЗОВАТЬ ЭТУ КОМАНДУ
+
+RESOURCE ID: community_day_fletchling_event_name
+TEXT: Community Day: Fletchling
 
 RESOURCE ID: community_day_machop_event_name
 TEXT: Community Day: Machop
@@ -4285,6 +4291,12 @@ RESOURCE ID: filter_label_legendary
 TEXT: Леген-
 дарный
 
+RESOURCE ID: filter_label_mythical
+TEXT: Мифический
+
+RESOURCE ID: filter_label_purified
+TEXT: Очищенный
+
 RESOURCE ID: filter_label_traded
 TEXT: Обме-
 нянный
@@ -4382,6 +4394,14 @@ RESOURCE ID: general1.ticket.2_description_2
 TEXT: Билет на посещение особого квеста «Несравненный Магмар» 21 ноября 2020 г. с 11 до 17 часов по местному времени, независимо от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
 
 ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ СОБЫТИЯ, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
+
+RESOURCE ID: general1.ticket.2_flett_description
+TEXT: A ticket to access The Bravest Bird Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_flett_title
+TEXT: The Bravest Bird Ticket
 
 RESOURCE ID: general1.ticket.2_roset_description
 TEXT: Билет на доступ к особому квесту «Сладкий аромат Розелии» 7 февраля 2021 г. с 11 до 17 часов по местному времени, независимо от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
@@ -4616,25 +4636,25 @@ RESOURCE ID: gotour2021_content_hashtag
 TEXT: Публикуй фото с хэштегом #PokemonGOTour, а мы поделимся нашими любимыми снимками!
 
 RESOURCE ID: gotour2021_content_link_cerulean_city
-TEXT: Now: Cerulean City hour!
+TEXT: Сейчас: Час Церулин-Сити!
 
 RESOURCE ID: gotour2021_content_link_fuchsia_city
-TEXT: Now: Fuchsia City hour!
+TEXT: Сейчас: Час Фуксия-Сити!
 
 RESOURCE ID: gotour2021_content_link_green
 TEXT: Была выбрана версия <i>Green</i>
 
 RESOURCE ID: gotour2021_content_link_open
-TEXT: Сейчас: все Покемоны!
+TEXT: Сейчас: Все Покемоны события!
 
 RESOURCE ID: gotour2021_content_link_pallet_town
-TEXT: Now: Pallet Town hour!
+TEXT: Сейчас: Час Паллет Тауна!
 
 RESOURCE ID: gotour2021_content_link_pewter_city
-TEXT: Now: Pewter City hour!
+TEXT: Сейчас: Час Пьютер-Сити!
 
 RESOURCE ID: gotour2021_content_link_pok_mon_league
-TEXT: Now: Pokémon League hour!
+TEXT: Сейчас: Час Лиги Покемонов!
 
 RESOURCE ID: gotour2021_content_link_red
 TEXT: Была выбрана версия <i>Red</i>
@@ -4754,187 +4774,187 @@ RESOURCE ID: gotour_kanto_sr_title_8
 TEXT: Тур GO: Канто – Путь Тренера (8/8)
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_0
-TEXT: Hey there, %PLAYERNAME%! Check this out—I’ve been practicing.
+TEXT: Привет, %PLAYERNAME%! Вот, послушай – я практиковался.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_1
-TEXT: Hello there! Welcome to the world of Pokémon GO! My name is Willow. People call me the Pokémon Prof!
+TEXT: Привет! Добро пожаловать в мир Pokémon GO! Меня зовут Профессор Уиллоу. А ещё меня называют Профессором Покемонов!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_2
-TEXT: This world is inhabited by creatures called Pokémon! Some people keep Pokémon as companions. Others have them do battle. Myself? I study Pokémon as a profession.
+TEXT: Этот мир населён существами, известными как Покемоны! Есть люди, для которых Покемоны стали компаньонами. Есть те, кто участвует с Покемонами в сражениях. Что касается меня, моя работа – изучать Покемонов.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_3
-TEXT: Did that remind you of anyone? For many years, Trainers from Kanto have heard similar remarks before embarking on their journeys through the region.
+TEXT: Это тебе никого не напоминает? Вот уже много лет Тренеры из Канто слышат такие речи, прежде чем отправиться в путешествие по региону.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_4
-TEXT: I have the honor of making them today because you’re about to head out on your own Kanto-inspired journey.
+TEXT: Мне выпала честь произносить эти речи сегодня, потому что тебе предстоит отправиться в приключение в стиле Канто.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_5
-TEXT: But we can’t have you leaving unprepared! I’ve put together some supplies I think you’ll find useful.
+TEXT: Но я не могу позволить тебе отправиться в путь с пустыми руками! Я собрал кое-какие припасы, которые могут тебе пригодиться.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_0
-TEXT: Berries, Potions, and Poké Balls. Looks like you’re all set!
+TEXT: Ягоды, эликсиры и Поке-Боллы. Похоже, всё готово!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_1
-TEXT: As you begin today’s adventure, try to imagine you’re stepping straight into the tall grass of Kanto.
+TEXT: Когда ты отправишься в сегодняшнее приключение, представь, как идёшь по высокой траве в Канто.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_2
-TEXT: I have a feeling you’ll meet a Pokémon that will make a wonderful partner on your journey. Be sure to take some snapshots of the Pokémon you encounter along the way!
+TEXT: У меня такое чувство, что ты встретишь Покемона, который станет тебе прекрасным напарником в путешествии. И не забывай фотографировать Покемонов, которых встречаешь на пути!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_3
-TEXT: On adventures, I find it’s helpful to document not only your findings but also your memories. And I’m sure you’ll make plenty of both!
+TEXT: Я считаю, что во время путешествий полезно всё документировать – не только находки, но и воспоминания. Тебя наверняка ждёт много и того, и другого!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_4
-TEXT: Now, in the words of a wise professor: Your very own Pokémon legend is about to unfold! A world of dreams and adventures with Pokémon awaits! Let's GO!
+TEXT: А теперь, как сказал один мудрый профессор: вот-вот начнётся твоё легендарное путешествие в мир Покемонов! Мир, полный чудес и приключений! Вперёд, ИДИ и ЛОВИ!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_0
-TEXT: How’s your journey going, %PLAYERNAME%? Oh! Found a partner Pokémon to join you, eh? Wonderful work.
+TEXT: Как твоё приключение, %PLAYERNAME%? О! У тебя появился Покемон-напарник? Замечательно!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_1
-TEXT: In the Kanto region, Trainers are often presented with three options when it comes to their first partner Pokémon.
+TEXT: В регионе Канто Тренерам зачастую предлагается выбрать одного из трёх Покемонов в качестве стартовика.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_2
-TEXT: The first is Bulbasaur, the Seed Pokémon, #001 in the Pokédex. This Grass-type Pokémon has a plant seed on its back right from the day it’s born.
+TEXT: Первый – это Бульбазавр, Покемон-Семя, под номером 001 в Покедексе. У этого травяного Покемона на спине с самого рождения есть семя.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_3
-TEXT: Another option is Charmander, the Lizard Pokémon. It’s a Fire-type Pokémon, and it has a flame on its tail that shows the strength of its life force.
+TEXT: Второй Покемон – это Чармандер, Покемон-Ящерица. По пламени на хвосте этого огненного Покемона можно определить, сколько у него жизненной силы.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_4
-TEXT: Last—but certainly not least—is Squirtle, the Tiny Turtle Pokémon. After birth, this Water-type Pokémon's back swells and hardens into a shell.
+TEXT: Третий – Сквиртл, Покемон-Черепашка. После рождения этого водного Покемона его спина набухает и затвердевает, превращаясь в панцирь.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_5
-TEXT: Each of these Pokémon have their strengths and weaknesses, so be sure to study up! For now, though, it’s time to get back to your adventure.
+TEXT: У каждого из этих Покемонов есть сильные и слабые стороны, так что постарайся узнать о них побольше! А пока пора возвращаться к твоим приключениям.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_6
-TEXT: I’d like you to spend some time with your buddy. The relationship between a Trainer and their Pokémon is of utmost importance!
+TEXT: Мне бы хотелось, чтобы вы с приятелем провели время вместе. Отношения Тренера с Покемоном очень важны!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_7
-TEXT: How about going on a walk together? I always enjoy exploring with my buddy!
+TEXT: Как насчёт совместной прогулки? Мне очень нравится посещать новые места с моим приятелем!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_0
-TEXT: Wonderful work, Trainer! Glad to see you’re growing closer to your buddy. Keep it up, and you’ll become even closer in no time.
+TEXT: Отличная работа, Тренер! Я очень рад, что вы с приятелем хорошо подружились. Так держать! Уже скоро ваша дружба станет ещё крепче.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_1
-TEXT: When it comes to being a Trainer, people often talk about catching techniques or battle strategies, but I find that friendship is just as essential.
+TEXT: Когда люди говорят о Тренерах, многие упоминают стратегии поимки или сражений, но, по-моему, дружба с Покемоном не менее важна.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_2
-TEXT: Not only are the relationships you build with your Pokémon incredibly important, but so are the friendships you build with other Trainers.
+TEXT: Но необычайно важно строить отношения не только с Покемонами, а также и с другими Тренерами.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_3
-TEXT: Your personal journeys and goals may vary, but at the end of the day, you’re all Trainers! You should do your best to connect with the other Trainers you meet on your travels.
+TEXT: Независимо от ваших путей и целей, в конечном счёте вы все Тренеры! Старайся подружиться с Тренерами, которых встречаешь во время путешествий.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_4
-TEXT: In that spirit, how about sending your friends some Gifts to brighten their day? I’m sure they’d love to hear from you!
+TEXT: Раз уж мы заговорили о дружбе, почему бы тебе не отправить своим друзьям подарки, чтобы их порадовать? Уверен, им будет приятно получить весточку от тебя!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_0
-TEXT: Welcome back, Trainer! Hope you enjoyed connecting with other Trainers. I see you were even able to trade a few Pokémon!
+TEXT: С возвращением, Тренер! Надеюсь, тебе понравилось общаться с другими Тренерами. Я вижу, что тебе даже удалось обменяться несколькими Покемонами!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_1
-TEXT: Trading is a fabulous way to acquire Pokémon you might not have otherwise encountered.
+TEXT: Обмен – это прекрасный способ получить Покемонов, которых иначе было бы очень трудно повстречать.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_2
-TEXT: And not only do you get a new entry in your Pokédex, but you also get a new friend!
+TEXT: А в итоге ты не только пополняешь свой Покедекс, но и получаешь нового друга!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_3
-TEXT: You’ve already made great progress on your journey. I think it’s time to show off the skills you’ve learned along the way!
+TEXT: Тебе удалось сильно продвинуться вперёд в твоём путешествии. Думаю, пришло время показать, чему тебе удалось научиться!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_4
-TEXT: How about showcasing your throwing expertise by catching some Pokémon? Don’t forget to make use of your Berries, too.
+TEXT: Как насчёт того, чтобы показать твои навыки бросков и поймать несколько Покемонов? И не забывай использовать ягоды.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_5
-TEXT: I’m especially fond of Pinap Berries. They help you earn extra Candy for the Pokémon you’re catching—and they’re tasty to boot!
+TEXT: Мне особенно нравятся Пайнеп-Ягоды. Они помогают зарабатывать дополнительные конфеты за поимку Покемона – и к тому же, они очень вкусные!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_0
-TEXT: I’m sure I had a stash of Pinap Berries here somewhere... Oh! Welcome back, %PLAYERNAME%! Guess my snack will have to wait.
+TEXT: Я уверен, у меня где-то здесь припрятаны Пайнеп-Ягоды... О! С возвращением, %PLAYERNAME%! Пожалуй, мой перекус подождёт.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_1
-TEXT: I’ve been checking up on your progress, and I have to say, I’m very impressed! It seems there’s no challenge you can’t overcome.
+TEXT: Я следил за твоим прогрессом, и хочу сказать, что я впечатлён! Похоже, нет такого испытания, которое тебе не по силам.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_2
-TEXT: As I’m sure you know, a well-rounded Trainer needs to have a great team of Pokémon to battle against other Trainers or even challenge Pokémon in raids.
+TEXT: Как ты скорее всего знаешь, всесторонне развитому Тренеру нужна отличная команда Покемонов, чтобы сражаться с другими Тренерами или бросать вызов Покемонам в рейдах.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_3
-TEXT: I think this is a great time to power up some of your Pokémon and bolster your team.
+TEXT: Похоже, сейчас подходящий момент, чтобы усилить некоторых из твоих Покемонов и укрепить твою команду.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_4
-TEXT: While you focus on that, I’ll be looking into an interesting rumor I caught wind of.
+TEXT: Пока ты работаешь над этим, я хочу проверить один интересный слух, который я услышал.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_5
-TEXT: There have been reports of encounters with a Pokémon that’s able to transform into another Pokémon entirely. Fascinating stuff!
+TEXT: Поступили сообщения о Покемонах, которые могут превращаться в совершенно других Покемонов. Это невероятно увлекательно!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_6
-TEXT: I’ll be sure to share whatever I find when you return.
+TEXT: Я поделюсь с тобой своими выводами, когда ты вернёшься.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_0
-TEXT: Glad you’re back, Trainer. After looking into those reports, it certainly sounds like the work of Ditto, the Transformation Pokémon.
+TEXT: Рад твоему возвращению, Тренер. Я посмотрел отчёты, и, похоже, это действительно Дитто, Превращающийся Покемон.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_1
-TEXT: Ditto rearranges its cell structure to transform itself into other shapes. What an incredible Pokémon!
+TEXT: Дитто перестраивает свою клеточную структуру, чтобы его тело приняло другую форму. Просто необыкновенный Покемон!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_2
-TEXT: However, there seems to be something more to this situation.
+TEXT: Но, похоже, дело не только в этом...
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_3
-TEXT: Could you help me with some research so we can find out what exactly is going on?
+TEXT: Ты мне поможешь провести пару исследований, чтобы выяснить, что именно происходит?
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_4
-TEXT: I’ll continue my work here to see if I can uncover some more information that might help us.
+TEXT: Я тем временем продолжу работать. Посмотрим, удастся ли мне найти информацию, которая нам поможет.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_0
-TEXT: %PLAYERNAME%! Is it true?! You encountered a Shiny Ditto?! I’m stunned!
+TEXT: %PLAYERNAME%! Это правда?! Тебе повстречался сияющий Дитто? Я поражён!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_1
-TEXT: You’ve had quite the journey, haven’t you? It’s been a joy to follow your progress, as always.
+TEXT: Тебе удалось пройти долгий путь. Мне всегда так приятно наблюдать за твоим прогрессом.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_2
-TEXT: Believe it or not, though, there’s still another mystery that needs solving.
+TEXT: Веришь или нет, но есть ещё одна загадка, которую необходимо разгадать.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_3
-TEXT: You see, after looking over the research you’ve conducted, I think we might be on the trail of the New Species Pokémon, Mew.
+TEXT: Видишь ли, просмотрев результаты наших исследований, я решил, что мы, кажется, напали на след Покемона-Новые Особи, Мью.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_4
-TEXT: We've documented Mew in the past, but something’s different this time—though I can’t yet say what that is.
+TEXT: У нас уже были данные о Мью, но этот раз чем-то отличается – хотя я пока не могу точно сказать, чем.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_5
-TEXT: Whatever the case, I think it’s safe to say this is going to be a memorable adventure!
+TEXT: Как бы то ни было, думаю, можно с уверенностью сказать, что это приключение будет незабываемым!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_6
-TEXT: In the meantime, keep an eye out for another research assignment. I have a feeling this is going to be an especially challenging endeavor, but I’m sure you’re up to it!
+TEXT: А тем временем жди следующего задания по исследованию. У меня предчувствие, что оно будет особенно сложным. Но я уверен, ты справишься!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_7
-TEXT: For now, though, I think congratulations are in order. You did a tremendous job on today’s Kanto-themed journey!
+TEXT: А пока что я хочу тебя поздравить. Отличная работа сегодня во время приключения в Канто!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_8
-TEXT: I hope you were able to make some special memories with your Pokémon and fellow Trainers. Thanks again for all your help and hard work!
+TEXT: Надеюсь, вы с Покемонами и другими Тренерами отлично провели время. Ещё раз спасибо тебе за помощь и упорный труд!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_9
-TEXT: Now, let’s GO!
+TEXT: А теперь ИДИ И ЛОВИ!
 
 RESOURCE ID: gotour_kanto_srd_title
 TEXT: Тур Pokémon GO: Канто
 
 RESOURCE ID: gotour_kanto_srd_title_1
-TEXT: Pokémon GO Tour: Kanto (1/8)
+TEXT: Тур Pokémon GO: Канто (1/8)
 
 RESOURCE ID: gotour_kanto_srd_title_2
-TEXT: Pokémon GO Tour: Kanto (2/8)
+TEXT: Тур Pokémon GO: Канто (2/8)
 
 RESOURCE ID: gotour_kanto_srd_title_3
-TEXT: Pokémon GO Tour: Kanto (3/8)
+TEXT: Тур Pokémon GO: Канто (3/8)
 
 RESOURCE ID: gotour_kanto_srd_title_4
-TEXT: Pokémon GO Tour: Kanto (4/8)
+TEXT: Тур Pokémon GO: Канто (4/8)
 
 RESOURCE ID: gotour_kanto_srd_title_5
-TEXT: Pokémon GO Tour: Kanto (5/8)
+TEXT: Тур Pokémon GO: Канто (5/8)
 
 RESOURCE ID: gotour_kanto_srd_title_6
-TEXT: Pokémon GO Tour: Kanto (6/8)
+TEXT: Тур Pokémon GO: Канто (6/8)
 
 RESOURCE ID: gotour_kanto_srd_title_7
-TEXT: Pokémon GO Tour: Kanto (7/8)
+TEXT: Тур Pokémon GO: Канто (7/8)
 
 RESOURCE ID: gotour_kanto_srd_title_8
-TEXT: Pokémon GO Tour: Kanto (8/8)
+TEXT: Тур Pokémon GO: Канто (8/8)
 
 RESOURCE ID: gotour_kanto_timed_title
 TEXT: Тур GO: Канто – Победи всех противников
@@ -4953,6 +4973,9 @@ TEXT: Тур GO: Канто – Победи всех противников (4/
 
 RESOURCE ID: grass_type_event
 TEXT: Активизация типа: Трава
+
+RESOURCE ID: great_league_remix_title
+TEXT: Great League Remix
 
 RESOURCE ID: ground_type_event
 TEXT: Активизация типа: Земля
@@ -5190,7 +5213,7 @@ RESOURCE ID: item_bag_deployed
 TEXT: Покемон отправлен в Гим – предмет не может быть использован.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Билет на особый квест 7 февраля 2021 г. с 11 до 17 часов по местному времени, вне зависимости от твоего местонахождения. 
+TEXT: Билет на особое событие 7 февраля 2021 г. с 11 до 21 часов по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_desc_2
 TEXT: Билет на особый квест 21 ноября с 11:00 до 17:00 часов по местному времени, вне зависимости от твоего местонахождения. 
@@ -5203,6 +5226,12 @@ TEXT: Этот билет активируется автоматически, �
 
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: Этот билет активируется автоматически, чтобы предоставить тебе доступ к событию «Галарский Мистер Майм» с 10:00 19 декабря 2020 г. до 20:00 20 декабря 2020 г. по местному времени, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_event_ticket_pink_flett_desc
+TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_flett_details
+TEXT: This ticket will automatically activate to give you access to Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_roset_desc
 TEXT: Билет на особый квест 7 февраля 2021 г. с 11 до 17 часов по местному времени, вне зависимости от твоего местонахождения. 
@@ -5296,6 +5325,9 @@ TEXT: Kalos Collection Challenge
 RESOURCE ID: kanto_collection_name
 TEXT: Kanto Collection Challenge
 
+RESOURCE ID: kanto_cup_title
+TEXT: Кубок Канто
+
 RESOURCE ID: kanto_event_name
 TEXT: Событие Канто
 
@@ -5321,7 +5353,7 @@ RESOURCE ID: league_ruleset_info_timestamp_both_subtitle
 TEXT: В кубке можно использовать только Покемонов, пойманных после {0} и до {1}.
 
 RESOURCE ID: level_up_share_achievement_button
-TEXT: SHARE ACHIEVEMENT ({0})
+TEXT: ПОДЕЛИТЬСЯ ДОСТИЖЕНИЕМ ({0})
 
 RESOURCE ID: level_up_share_select_message
 TEXT: Выбери достижение, которым хочешь поделиться
@@ -5339,2170 +5371,2170 @@ RESOURCE ID: level_up_stats_title
 TEXT: Активность предыдущего уровня
 
 RESOURCE ID: limited_research_abomasnow
-TEXT: Ограниченный квест: Абомасноуом
+TEXT: Ограниченный квест: Абомасноу
 
 RESOURCE ID: limited_research_abra
-TEXT: Ограниченный квест: Абраом
+TEXT: Ограниченный квест: Абра
 
 RESOURCE ID: limited_research_absol
-TEXT: Ограниченный квест: Абсолом
+TEXT: Ограниченный квест: Абсол
 
 RESOURCE ID: limited_research_accelgor
-TEXT: Ограниченный квест: Акселгором
+TEXT: Ограниченный квест: Акселгор
 
 RESOURCE ID: limited_research_aegislash
-TEXT: Ограниченный квест: Иджислашом
+TEXT: Ограниченный квест: Иджислаш
 
 RESOURCE ID: limited_research_aerodactyl
-TEXT: Ограниченный квест: Аэродактильом
+TEXT: Ограниченный квест: Аэродактиль
 
 RESOURCE ID: limited_research_aggron
-TEXT: Ограниченный квест: Аггроном
+TEXT: Ограниченный квест: Аггрон
 
 RESOURCE ID: limited_research_aipom
-TEXT: Ограниченный квест: Эйпомом
+TEXT: Ограниченный квест: Эйпом
 
 RESOURCE ID: limited_research_alakazam
-TEXT: Ограниченный квест: Алаказамом
+TEXT: Ограниченный квест: Алаказам
 
 RESOURCE ID: limited_research_alomomola
-TEXT: Ограниченный квест: Аломомолаом
+TEXT: Ограниченный квест: Аломомола
 
 RESOURCE ID: limited_research_altaria
-TEXT: Ограниченный квест: Алтарияом
+TEXT: Ограниченный квест: Алтария
 
 RESOURCE ID: limited_research_amaura
-TEXT: Ограниченный квест: Амаураом
+TEXT: Ограниченный квест: Амаура
 
 RESOURCE ID: limited_research_ambipom
-TEXT: Ограниченный квест: Амбипомом
+TEXT: Ограниченный квест: Амбипом
 
 RESOURCE ID: limited_research_amoonguss
-TEXT: Ограниченный квест: Амунгусом
+TEXT: Ограниченный квест: Амунгус
 
 RESOURCE ID: limited_research_ampharos
-TEXT: Ограниченный квест: Амфаросом
+TEXT: Ограниченный квест: Амфарос
 
 RESOURCE ID: limited_research_anorith
-TEXT: Ограниченный квест: Аноритом
+TEXT: Ограниченный квест: Анорит
 
 RESOURCE ID: limited_research_arbok
-TEXT: Ограниченный квест: Арбоком
+TEXT: Ограниченный квест: Арбок
 
 RESOURCE ID: limited_research_arcanine
-TEXT: Ограниченный квест: Арканайном
+TEXT: Ограниченный квест: Арканайн
 
 RESOURCE ID: limited_research_arceus
-TEXT: Ограниченный квест: Аркеусом
+TEXT: Ограниченный квест: Аркеус
 
 RESOURCE ID: limited_research_archen
-TEXT: Ограниченный квест: Аркеном
+TEXT: Ограниченный квест: Аркен
 
 RESOURCE ID: limited_research_archeops
-TEXT: Ограниченный квест: Аркеопсом
+TEXT: Ограниченный квест: Аркеопс
 
 RESOURCE ID: limited_research_ariados
-TEXT: Ограниченный квест: Ариадосом
+TEXT: Ограниченный квест: Ариадос
 
 RESOURCE ID: limited_research_armaldo
-TEXT: Ограниченный квест: Армальдоом
+TEXT: Ограниченный квест: Армальдо
 
 RESOURCE ID: limited_research_aromatisse
-TEXT: Ограниченный квест: Ароматиссом
+TEXT: Ограниченный квест: Ароматисс
 
 RESOURCE ID: limited_research_aron
-TEXT: Ограниченный квест: Ароном
+TEXT: Ограниченный квест: Арон
 
 RESOURCE ID: limited_research_articuno
-TEXT: Ограниченный квест: Артикуноом
+TEXT: Ограниченный квест: Артикуно
 
 RESOURCE ID: limited_research_audino
-TEXT: Ограниченный квест: Одиноом
+TEXT: Ограниченный квест: Одино
 
 RESOURCE ID: limited_research_aurorus
-TEXT: Ограниченный квест: Аврорусом
+TEXT: Ограниченный квест: Аврорус
 
 RESOURCE ID: limited_research_avalugg
-TEXT: Ограниченный квест: Авалаггом
+TEXT: Ограниченный квест: Авалагг
 
 RESOURCE ID: limited_research_axew
-TEXT: Ограниченный квест: Эксьюом
+TEXT: Ограниченный квест: Эксью
 
 RESOURCE ID: limited_research_azelf
-TEXT: Ограниченный квест: Азелфом
+TEXT: Ограниченный квест: Азелф
 
 RESOURCE ID: limited_research_azumarill
-TEXT: Ограниченный квест: Азумариллом
+TEXT: Ограниченный квест: Азумарилл
 
 RESOURCE ID: limited_research_azurill
-TEXT: Ограниченный квест: Азуриллом
+TEXT: Ограниченный квест: Азурилл
 
 RESOURCE ID: limited_research_bagon
-TEXT: Ограниченный квест: Бейгоном
+TEXT: Ограниченный квест: Бейгон
 
 RESOURCE ID: limited_research_baltoy
-TEXT: Ограниченный квест: Балтойом
+TEXT: Ограниченный квест: Балтой
 
 RESOURCE ID: limited_research_banette
-TEXT: Ограниченный квест: Банеттом
+TEXT: Ограниченный квест: Банетт
 
 RESOURCE ID: limited_research_barbaracle
-TEXT: Ограниченный квест: Барбераклом
+TEXT: Ограниченный квест: Барберакл
 
 RESOURCE ID: limited_research_barboach
-TEXT: Ограниченный квест: Барбочом
+TEXT: Ограниченный квест: Барбоч
 
 RESOURCE ID: limited_research_basculin
-TEXT: Ограниченный квест: Баскулином
+TEXT: Ограниченный квест: Баскулин
 
 RESOURCE ID: limited_research_bastiodon
-TEXT: Ограниченный квест: Бастиодоном
+TEXT: Ограниченный квест: Бастиодон
 
 RESOURCE ID: limited_research_bayleef
-TEXT: Ограниченный квест: Бэйлифом
+TEXT: Ограниченный квест: Бэйлиф
 
 RESOURCE ID: limited_research_beartic
-TEXT: Ограниченный квест: Бертиком
+TEXT: Ограниченный квест: Бертик
 
 RESOURCE ID: limited_research_beautifly
-TEXT: Ограниченный квест: Бьютифлайом
+TEXT: Ограниченный квест: Бьютифлай
 
 RESOURCE ID: limited_research_beedrill
-TEXT: Ограниченный квест: Бидриллом
+TEXT: Ограниченный квест: Бидрилл
 
 RESOURCE ID: limited_research_beheeyem
-TEXT: Ограниченный квест: Бехийемом
+TEXT: Ограниченный квест: Бехийем
 
 RESOURCE ID: limited_research_beldum
-TEXT: Ограниченный квест: Белдамом
+TEXT: Ограниченный квест: Белдам
 
 RESOURCE ID: limited_research_bellossom
-TEXT: Ограниченный квест: Беллосомом
+TEXT: Ограниченный квест: Беллосом
 
 RESOURCE ID: limited_research_bellsprout
-TEXT: Ограниченный квест: Беллспраутом
+TEXT: Ограниченный квест: Беллспраут
 
 RESOURCE ID: limited_research_bergmite
-TEXT: Ограниченный квест: Бергмайтом
+TEXT: Ограниченный квест: Бергмайт
 
 RESOURCE ID: limited_research_bibarel
-TEXT: Ограниченный квест: Бибарелом
+TEXT: Ограниченный квест: Бибарел
 
 RESOURCE ID: limited_research_bidoof
-TEXT: Ограниченный квест: Бидуфом
+TEXT: Ограниченный квест: Бидуф
 
 RESOURCE ID: limited_research_binacle
-TEXT: Ограниченный квест: Байнаклом
+TEXT: Ограниченный квест: Байнакл
 
 RESOURCE ID: limited_research_bisharp
-TEXT: Ограниченный квест: Бишарпом
+TEXT: Ограниченный квест: Бишарп
 
 RESOURCE ID: limited_research_blastoise
-TEXT: Ограниченный квест: Бластойзом
+TEXT: Ограниченный квест: Бластойз
 
 RESOURCE ID: limited_research_blaziken
-TEXT: Ограниченный квест: Блейзикеном
+TEXT: Ограниченный квест: Блейзикен
 
 RESOURCE ID: limited_research_blissey
-TEXT: Ограниченный квест: Блиссиом
+TEXT: Ограниченный квест: Блисси
 
 RESOURCE ID: limited_research_blitzle
-TEXT: Ограниченный квест: Блитцлом
+TEXT: Ограниченный квест: Блитцл
 
 RESOURCE ID: limited_research_boldore
-TEXT: Ограниченный квест: Болдором
+TEXT: Ограниченный квест: Болдор
 
 RESOURCE ID: limited_research_bonsly
-TEXT: Ограниченный квест: Бонслайом
+TEXT: Ограниченный квест: Бонслай
 
 RESOURCE ID: limited_research_bouffalant
-TEXT: Ограниченный квест: Буффалантом
+TEXT: Ограниченный квест: Буффалант
 
 RESOURCE ID: limited_research_braixen
-TEXT: Ограниченный квест: Брейксеном
+TEXT: Ограниченный квест: Брейксен
 
 RESOURCE ID: limited_research_braviary
-TEXT: Ограниченный квест: Бревиариом
+TEXT: Ограниченный квест: Бревиари
 
 RESOURCE ID: limited_research_breloom
-TEXT: Ограниченный квест: Брелумом
+TEXT: Ограниченный квест: Брелум
 
 RESOURCE ID: limited_research_bronzong
-TEXT: Ограниченный квест: Бронзонгом
+TEXT: Ограниченный квест: Бронзонг
 
 RESOURCE ID: limited_research_bronzor
-TEXT: Ограниченный квест: Бронзором
+TEXT: Ограниченный квест: Бронзор
 
 RESOURCE ID: limited_research_budew
-TEXT: Ограниченный квест: Бадьюом
+TEXT: Ограниченный квест: Бадью
 
 RESOURCE ID: limited_research_buizel
-TEXT: Ограниченный квест: Буизелом
+TEXT: Ограниченный квест: Буизел
 
 RESOURCE ID: limited_research_bulbasaur
-TEXT: Ограниченный квест: Бульбазавром
+TEXT: Ограниченный квест: Бульбазавр
 
 RESOURCE ID: limited_research_buneary
-TEXT: Ограниченный квест: Бунириом
+TEXT: Ограниченный квест: Бунири
 
 RESOURCE ID: limited_research_bunnelby
-TEXT: Ограниченный квест: Баннелбиом
+TEXT: Ограниченный квест: Баннелби
 
 RESOURCE ID: limited_research_burmy
-TEXT: Ограниченный квест: Бурмиом
+TEXT: Ограниченный квест: Бурми
 
 RESOURCE ID: limited_research_butterfree
-TEXT: Ограниченный квест: Баттерфриом
+TEXT: Ограниченный квест: Баттерфри
 
 RESOURCE ID: limited_research_cacnea
-TEXT: Ограниченный квест: Какнеяом
+TEXT: Ограниченный квест: Какнея
 
 RESOURCE ID: limited_research_cacturne
-TEXT: Ограниченный квест: Кактурном
+TEXT: Ограниченный квест: Кактурн
 
 RESOURCE ID: limited_research_camerupt
-TEXT: Ограниченный квест: Камераптом
+TEXT: Ограниченный квест: Камерапт
 
 RESOURCE ID: limited_research_carbink
-TEXT: Ограниченный квест: Карбинком
+TEXT: Ограниченный квест: Карбинк
 
 RESOURCE ID: limited_research_carnivine
-TEXT: Ограниченный квест: Карнивайном
+TEXT: Ограниченный квест: Карнивайн
 
 RESOURCE ID: limited_research_carracosta
-TEXT: Ограниченный квест: Карракостаом
+TEXT: Ограниченный квест: Карракоста
 
 RESOURCE ID: limited_research_carvanha
-TEXT: Ограниченный квест: Карваньяом
+TEXT: Ограниченный квест: Карванья
 
 RESOURCE ID: limited_research_cascoon
-TEXT: Ограниченный квест: Каскуном
+TEXT: Ограниченный квест: Каскун
 
 RESOURCE ID: limited_research_castform
-TEXT: Ограниченный квест: Кастформом
+TEXT: Ограниченный квест: Кастформ
 
 RESOURCE ID: limited_research_caterpie
-TEXT: Ограниченный квест: Катерпиом
+TEXT: Ограниченный квест: Катерпи
 
 RESOURCE ID: limited_research_celebi
-TEXT: Ограниченный квест: Селебиом
+TEXT: Ограниченный квест: Селеби
 
 RESOURCE ID: limited_research_chandelure
-TEXT: Ограниченный квест: Шанделюром
+TEXT: Ограниченный квест: Шанделюр
 
 RESOURCE ID: limited_research_chansey
-TEXT: Ограниченный квест: Ченсиом
+TEXT: Ограниченный квест: Ченси
 
 RESOURCE ID: limited_research_charizard
-TEXT: Ограниченный квест: Чаризардом
+TEXT: Ограниченный квест: Чаризард
 
 RESOURCE ID: limited_research_charmander
-TEXT: Ограниченный квест: Чармандером
+TEXT: Ограниченный квест: Чармандер
 
 RESOURCE ID: limited_research_charmeleon
-TEXT: Ограниченный квест: Чармелеоном
+TEXT: Ограниченный квест: Чармелеон
 
 RESOURCE ID: limited_research_chatot
-TEXT: Ограниченный квест: Чатотом
+TEXT: Ограниченный квест: Чатот
 
 RESOURCE ID: limited_research_cherrim
-TEXT: Ограниченный квест: Черримом
+TEXT: Ограниченный квест: Черрим
 
 RESOURCE ID: limited_research_cherubi
-TEXT: Ограниченный квест: Черабиом
+TEXT: Ограниченный квест: Чераби
 
 RESOURCE ID: limited_research_chesnaught
-TEXT: Ограниченный квест: Чеснотом
+TEXT: Ограниченный квест: Чеснот
 
 RESOURCE ID: limited_research_chespin
-TEXT: Ограниченный квест: Чеспином
+TEXT: Ограниченный квест: Чеспин
 
 RESOURCE ID: limited_research_chikorita
-TEXT: Ограниченный квест: Чикоритаом
+TEXT: Ограниченный квест: Чикорита
 
 RESOURCE ID: limited_research_chimchar
-TEXT: Ограниченный квест: Чимчаром
+TEXT: Ограниченный квест: Чимчар
 
 RESOURCE ID: limited_research_chimecho
-TEXT: Ограниченный квест: Чаймекоом
+TEXT: Ограниченный квест: Чаймеко
 
 RESOURCE ID: limited_research_chinchou
-TEXT: Ограниченный квест: Чинчоуом
+TEXT: Ограниченный квест: Чинчоу
 
 RESOURCE ID: limited_research_chingling
-TEXT: Ограниченный квест: Чинглингом
+TEXT: Ограниченный квест: Чинглинг
 
 RESOURCE ID: limited_research_cinccino
-TEXT: Ограниченный квест: Чинччиноом
+TEXT: Ограниченный квест: Чинччино
 
 RESOURCE ID: limited_research_clamperl
-TEXT: Ограниченный квест: Кламперлом
+TEXT: Ограниченный квест: Кламперл
 
 RESOURCE ID: limited_research_clauncher
-TEXT: Ограниченный квест: Клаунчером
+TEXT: Ограниченный квест: Клаунчер
 
 RESOURCE ID: limited_research_clawitzer
-TEXT: Ограниченный квест: Кловитцером
+TEXT: Ограниченный квест: Кловитцер
 
 RESOURCE ID: limited_research_claydol
-TEXT: Ограниченный квест: Клэйдолом
+TEXT: Ограниченный квест: Клэйдол
 
 RESOURCE ID: limited_research_clefable
-TEXT: Ограниченный квест: Клефейблом
+TEXT: Ограниченный квест: Клефейбл
 
 RESOURCE ID: limited_research_clefairy
-TEXT: Ограниченный квест: Клефэйриом
+TEXT: Ограниченный квест: Клефэйри
 
 RESOURCE ID: limited_research_cleffa
-TEXT: Ограниченный квест: Клеффаом
+TEXT: Ограниченный квест: Клеффа
 
 RESOURCE ID: limited_research_cloyster
-TEXT: Ограниченный квест: Клойстером
+TEXT: Ограниченный квест: Клойстер
 
 RESOURCE ID: limited_research_cobalion
-TEXT: Ограниченный квест: Кобалионом
+TEXT: Ограниченный квест: Кобалион
 
 RESOURCE ID: limited_research_cofagrigus
-TEXT: Ограниченный квест: Кофагригусом
+TEXT: Ограниченный квест: Кофагригус
 
 RESOURCE ID: limited_research_combee
-TEXT: Ограниченный квест: Комбиом
+TEXT: Ограниченный квест: Комби
 
 RESOURCE ID: limited_research_combusken
-TEXT: Ограниченный квест: Комбаскеном
+TEXT: Ограниченный квест: Комбаскен
 
 RESOURCE ID: limited_research_conkeldurr
-TEXT: Ограниченный квест: Конкельдаром
+TEXT: Ограниченный квест: Конкельдар
 
 RESOURCE ID: limited_research_corphish
-TEXT: Ограниченный квест: Корфишом
+TEXT: Ограниченный квест: Корфиш
 
 RESOURCE ID: limited_research_corsola
-TEXT: Ограниченный квест: Корсолаом
+TEXT: Ограниченный квест: Корсола
 
 RESOURCE ID: limited_research_cottonee
-TEXT: Ограниченный квест: Коттониом
+TEXT: Ограниченный квест: Коттони
 
 RESOURCE ID: limited_research_cradily
-TEXT: Ограниченный квест: Крадилиом
+TEXT: Ограниченный квест: Крадили
 
 RESOURCE ID: limited_research_cranidos
-TEXT: Ограниченный квест: Кранидосом
+TEXT: Ограниченный квест: Кранидос
 
 RESOURCE ID: limited_research_crawdaunt
-TEXT: Ограниченный квест: Крадонтом
+TEXT: Ограниченный квест: Крадонт
 
 RESOURCE ID: limited_research_cresselia
-TEXT: Ограниченный квест: Кресселияом
+TEXT: Ограниченный квест: Кресселия
 
 RESOURCE ID: limited_research_croagunk
-TEXT: Ограниченный квест: Кроганком
+TEXT: Ограниченный квест: Кроганк
 
 RESOURCE ID: limited_research_crobat
-TEXT: Ограниченный квест: Кробатом
+TEXT: Ограниченный квест: Кробат
 
 RESOURCE ID: limited_research_croconaw
-TEXT: Ограниченный квест: Кроконавом
+TEXT: Ограниченный квест: Кроконав
 
 RESOURCE ID: limited_research_crustle
-TEXT: Ограниченный квест: Крастлом
+TEXT: Ограниченный квест: Крастл
 
 RESOURCE ID: limited_research_cryogonal
-TEXT: Ограниченный квест: Криогоналом
+TEXT: Ограниченный квест: Криогонал
 
 RESOURCE ID: limited_research_cubchoo
-TEXT: Ограниченный квест: Кабчуом
+TEXT: Ограниченный квест: Кабчу
 
 RESOURCE ID: limited_research_cubone
-TEXT: Ограниченный квест: Кьюбоном
+TEXT: Ограниченный квест: Кьюбон
 
 RESOURCE ID: limited_research_cyndaquil
-TEXT: Ограниченный квест: Синдаквилом
+TEXT: Ограниченный квест: Синдаквил
 
 RESOURCE ID: limited_research_darkrai
-TEXT: Ограниченный квест: Даркрайом
+TEXT: Ограниченный квест: Даркрай
 
 RESOURCE ID: limited_research_darmanitan
-TEXT: Ограниченный квест: Дарманитаном
+TEXT: Ограниченный квест: Дарманитан
 
 RESOURCE ID: limited_research_darumaka
-TEXT: Ограниченный квест: Дарумакаом
+TEXT: Ограниченный квест: Дарумака
 
 RESOURCE ID: limited_research_dedenne
-TEXT: Ограниченный квест: Деденнеом
+TEXT: Ограниченный квест: Деденне
 
 RESOURCE ID: limited_research_deerling
-TEXT: Ограниченный квест: Дирлингом
+TEXT: Ограниченный квест: Дирлинг
 
 RESOURCE ID: limited_research_deino
-TEXT: Ограниченный квест: Дейноом
+TEXT: Ограниченный квест: Дейно
 
 RESOURCE ID: limited_research_delcatty
-TEXT: Ограниченный квест: Делкаттиом
+TEXT: Ограниченный квест: Делкатти
 
 RESOURCE ID: limited_research_delibird
-TEXT: Ограниченный квест: Делибёрдом
+TEXT: Ограниченный квест: Делибёрд
 
 RESOURCE ID: limited_research_delphox
-TEXT: Ограниченный квест: Делфоксом
+TEXT: Ограниченный квест: Делфокс
 
 RESOURCE ID: limited_research_deoxys
-TEXT: Ограниченный квест: Деоксисом
+TEXT: Ограниченный квест: Деоксис
 
 RESOURCE ID: limited_research_dewgong
-TEXT: Ограниченный квест: Дьюгонгом
+TEXT: Ограниченный квест: Дьюгонг
 
 RESOURCE ID: limited_research_dewott
-TEXT: Ограниченный квест: Девоттом
+TEXT: Ограниченный квест: Девотт
 
 RESOURCE ID: limited_research_dialga
-TEXT: Ограниченный квест: Диалгаом
+TEXT: Ограниченный квест: Диалга
 
 RESOURCE ID: limited_research_diancie
-TEXT: Ограниченный квест: Диансиом
+TEXT: Ограниченный квест: Дианси
 
 RESOURCE ID: limited_research_diggersby
-TEXT: Ограниченный квест: Диггерсбиом
+TEXT: Ограниченный квест: Диггерсби
 
 RESOURCE ID: limited_research_diglett
-TEXT: Ограниченный квест: Диглеттом
+TEXT: Ограниченный квест: Диглетт
 
 RESOURCE ID: limited_research_ditto
-TEXT: Ограниченный квест: Диттоом
+TEXT: Ограниченный квест: Дитто
 
 RESOURCE ID: limited_research_dodrio
-TEXT: Ограниченный квест: Додриоом
+TEXT: Ограниченный квест: Додрио
 
 RESOURCE ID: limited_research_doduo
-TEXT: Ограниченный квест: Додуоом
+TEXT: Ограниченный квест: Додуо
 
 RESOURCE ID: limited_research_donphan
-TEXT: Ограниченный квест: Донфэном
+TEXT: Ограниченный квест: Донфэн
 
 RESOURCE ID: limited_research_doublade
-TEXT: Ограниченный квест: Дублейдом
+TEXT: Ограниченный квест: Дублейд
 
 RESOURCE ID: limited_research_dragalge
-TEXT: Ограниченный квест: Драгалджом
+TEXT: Ограниченный квест: Драгалдж
 
 RESOURCE ID: limited_research_dragonair
-TEXT: Ограниченный квест: Драгонэйром
+TEXT: Ограниченный квест: Драгонэйр
 
 RESOURCE ID: limited_research_dragonite
-TEXT: Ограниченный квест: Драгонайтом
+TEXT: Ограниченный квест: Драгонайт
 
 RESOURCE ID: limited_research_drapion
-TEXT: Ограниченный квест: Драпионом
+TEXT: Ограниченный квест: Драпион
 
 RESOURCE ID: limited_research_dratini
-TEXT: Ограниченный квест: Дратиниом
+TEXT: Ограниченный квест: Дратини
 
 RESOURCE ID: limited_research_drifblim
-TEXT: Ограниченный квест: Дрифблимом
+TEXT: Ограниченный квест: Дрифблим
 
 RESOURCE ID: limited_research_drifloon
-TEXT: Ограниченный квест: Дрифлуном
+TEXT: Ограниченный квест: Дрифлун
 
 RESOURCE ID: limited_research_drilbur
-TEXT: Ограниченный квест: Дрилбуром
+TEXT: Ограниченный квест: Дрилбур
 
 RESOURCE ID: limited_research_drowzee
-TEXT: Ограниченный квест: Драузиом
+TEXT: Ограниченный квест: Драузи
 
 RESOURCE ID: limited_research_druddigon
-TEXT: Ограниченный квест: Драддигоном
+TEXT: Ограниченный квест: Драддигон
 
 RESOURCE ID: limited_research_ducklett
-TEXT: Ограниченный квест: Даклеттом
+TEXT: Ограниченный квест: Даклетт
 
 RESOURCE ID: limited_research_dugtrio
-TEXT: Ограниченный квест: Дагтриоом
+TEXT: Ограниченный квест: Дагтрио
 
 RESOURCE ID: limited_research_dunsparce
-TEXT: Ограниченный квест: Данспарсом
+TEXT: Ограниченный квест: Данспарс
 
 RESOURCE ID: limited_research_duosion
-TEXT: Ограниченный квест: Дуожном
+TEXT: Ограниченный квест: Дуожн
 
 RESOURCE ID: limited_research_durant
-TEXT: Ограниченный квест: Дюрантом
+TEXT: Ограниченный квест: Дюрант
 
 RESOURCE ID: limited_research_dusclops
-TEXT: Ограниченный квест: Дасклопсом
+TEXT: Ограниченный квест: Дасклопс
 
 RESOURCE ID: limited_research_dusknoir
-TEXT: Ограниченный квест: Даскнуаром
+TEXT: Ограниченный квест: Даскнуар
 
 RESOURCE ID: limited_research_duskull
-TEXT: Ограниченный квест: Даскаллом
+TEXT: Ограниченный квест: Даскалл
 
 RESOURCE ID: limited_research_dustox
-TEXT: Ограниченный квест: Дастоксом
+TEXT: Ограниченный квест: Дастокс
 
 RESOURCE ID: limited_research_dwebble
-TEXT: Ограниченный квест: Двебблом
+TEXT: Ограниченный квест: Двеббл
 
 RESOURCE ID: limited_research_eelektrik
-TEXT: Ограниченный квест: Электриком
+TEXT: Ограниченный квест: Электрик
 
 RESOURCE ID: limited_research_eelektross
-TEXT: Ограниченный квест: Электроссом
+TEXT: Ограниченный квест: Электросс
 
 RESOURCE ID: limited_research_eevee
-TEXT: Ограниченный квест: Ивиом
+TEXT: Ограниченный квест: Иви
 
 RESOURCE ID: limited_research_ekans
-TEXT: Ограниченный квест: Экансом
+TEXT: Ограниченный квест: Эканс
 
 RESOURCE ID: limited_research_electabuzz
-TEXT: Ограниченный квест: Электабаззом
+TEXT: Ограниченный квест: Электабазз
 
 RESOURCE ID: limited_research_electivire
-TEXT: Ограниченный квест: Электривайром
+TEXT: Ограниченный квест: Электривайр
 
 RESOURCE ID: limited_research_electrike
-TEXT: Ограниченный квест: Электрайком
+TEXT: Ограниченный квест: Электрайк
 
 RESOURCE ID: limited_research_electrode
-TEXT: Ограниченный квест: Электродом
+TEXT: Ограниченный квест: Электрод
 
 RESOURCE ID: limited_research_elekid
-TEXT: Ограниченный квест: Элекидом
+TEXT: Ограниченный квест: Элекид
 
 RESOURCE ID: limited_research_elgyem
-TEXT: Ограниченный квест: Элгиемом
+TEXT: Ограниченный квест: Элгием
 
 RESOURCE ID: limited_research_emboar
-TEXT: Ограниченный квест: Эмбором
+TEXT: Ограниченный квест: Эмбор
 
 RESOURCE ID: limited_research_emolga
-TEXT: Ограниченный квест: Эмолгаом
+TEXT: Ограниченный квест: Эмолга
 
 RESOURCE ID: limited_research_empoleon
-TEXT: Ограниченный квест: Эмполеоном
+TEXT: Ограниченный квест: Эмполеон
 
 RESOURCE ID: limited_research_entei
-TEXT: Ограниченный квест: Энтейом
+TEXT: Ограниченный квест: Энтей
 
 RESOURCE ID: limited_research_escavalier
-TEXT: Ограниченный квест: Эскавальером
+TEXT: Ограниченный квест: Эскавальер
 
 RESOURCE ID: limited_research_espeon
-TEXT: Ограниченный квест: Эспеоном
+TEXT: Ограниченный квест: Эспеон
 
 RESOURCE ID: limited_research_espurr
-TEXT: Ограниченный квест: Эспурром
+TEXT: Ограниченный квест: Эспурр
 
 RESOURCE ID: limited_research_excadrill
-TEXT: Ограниченный квест: Экскадриллом
+TEXT: Ограниченный квест: Экскадрилл
 
 RESOURCE ID: limited_research_exeggcute
-TEXT: Ограниченный квест: Эксегкьютом
+TEXT: Ограниченный квест: Эксегкьют
 
 RESOURCE ID: limited_research_exeggutor
-TEXT: Ограниченный квест: Экзегкьютором
+TEXT: Ограниченный квест: Экзегкьютор
 
 RESOURCE ID: limited_research_exploud
-TEXT: Ограниченный квест: Эксплаудом
+TEXT: Ограниченный квест: Эксплауд
 
 RESOURCE ID: limited_research_farfetch'd
-TEXT: Ограниченный квест: Фарфетчдом
+TEXT: Ограниченный квест: Фарфетчд
 
 RESOURCE ID: limited_research_fearow
-TEXT: Ограниченный квест: Фироуом
+TEXT: Ограниченный квест: Фироу
 
 RESOURCE ID: limited_research_feebas
-TEXT: Ограниченный квест: Фибасом
+TEXT: Ограниченный квест: Фибас
 
 RESOURCE ID: limited_research_fennekin
-TEXT: Ограниченный квест: Феннекином
+TEXT: Ограниченный квест: Феннекин
 
 RESOURCE ID: limited_research_feraligatr
-TEXT: Ограниченный квест: Фералигейтором
+TEXT: Ограниченный квест: Фералигейтор
 
 RESOURCE ID: limited_research_ferroseed
-TEXT: Ограниченный квест: Ферросидом
+TEXT: Ограниченный квест: Ферросид
 
 RESOURCE ID: limited_research_ferrothorn
-TEXT: Ограниченный квест: Ферроторном
+TEXT: Ограниченный квест: Ферроторн
 
 RESOURCE ID: limited_research_finneon
-TEXT: Ограниченный квест: Финнеоном
+TEXT: Ограниченный квест: Финнеон
 
 RESOURCE ID: limited_research_flaaffy
-TEXT: Ограниченный квест: Флааффиом
+TEXT: Ограниченный квест: Флааффи
 
 RESOURCE ID: limited_research_flabébé
-TEXT: Ограниченный квест: Флабебеом
+TEXT: Ограниченный квест: Флабебе
 
 RESOURCE ID: limited_research_flareon
-TEXT: Ограниченный квест: Флареоном
+TEXT: Ограниченный квест: Флареон
 
 RESOURCE ID: limited_research_fletchinder
-TEXT: Ограниченный квест: Флетчлиндером
+TEXT: Ограниченный квест: Флетчлиндер
 
 RESOURCE ID: limited_research_fletchling
-TEXT: Ограниченный квест: Флетчлингом
+TEXT: Ограниченный квест: Флетчлинг
 
 RESOURCE ID: limited_research_floatzel
-TEXT: Ограниченный квест: Флоатзельом
+TEXT: Ограниченный квест: Флоатзель
 
 RESOURCE ID: limited_research_floette
-TEXT: Ограниченный квест: Флоэттом
+TEXT: Ограниченный квест: Флоэтт
 
 RESOURCE ID: limited_research_florges
-TEXT: Ограниченный квест: Флоржесом
+TEXT: Ограниченный квест: Флоржес
 
 RESOURCE ID: limited_research_flygon
-TEXT: Ограниченный квест: Флайгоном
+TEXT: Ограниченный квест: Флайгон
 
 RESOURCE ID: limited_research_foongus
-TEXT: Ограниченный квест: Фунгусом
+TEXT: Ограниченный квест: Фунгус
 
 RESOURCE ID: limited_research_forretress
-TEXT: Ограниченный квест: Форретресcом
+TEXT: Ограниченный квест: Форретресc
 
 RESOURCE ID: limited_research_fraxure
-TEXT: Ограниченный квест: Фрэкшуром
+TEXT: Ограниченный квест: Фрэкшур
 
 RESOURCE ID: limited_research_frillish
-TEXT: Ограниченный квест: Фриллишом
+TEXT: Ограниченный квест: Фриллиш
 
 RESOURCE ID: limited_research_froakie
-TEXT: Ограниченный квест: Фрокиом
+TEXT: Ограниченный квест: Фроки
 
 RESOURCE ID: limited_research_frogadier
-TEXT: Ограниченный квест: Фрогадиром
+TEXT: Ограниченный квест: Фрогадир
 
 RESOURCE ID: limited_research_froslass
-TEXT: Ограниченный квест: Фрослассом
+TEXT: Ограниченный квест: Фросласс
 
 RESOURCE ID: limited_research_furfrou
-TEXT: Ограниченный квест: Фурфуом
+TEXT: Ограниченный квест: Фурфу
 
 RESOURCE ID: limited_research_furret
-TEXT: Ограниченный квест: Фурретом
+TEXT: Ограниченный квест: Фуррет
 
 RESOURCE ID: limited_research_gabite
-TEXT: Ограниченный квест: Габайтом
+TEXT: Ограниченный квест: Габайт
 
 RESOURCE ID: limited_research_gallade
-TEXT: Ограниченный квест: Галлейдом
+TEXT: Ограниченный квест: Галлейд
 
 RESOURCE ID: limited_research_galvantula
-TEXT: Ограниченный квест: Галвантулаом
+TEXT: Ограниченный квест: Галвантула
 
 RESOURCE ID: limited_research_garbodor
-TEXT: Ограниченный квест: Гарбодором
+TEXT: Ограниченный квест: Гарбодор
 
 RESOURCE ID: limited_research_garchomp
-TEXT: Ограниченный квест: Гарчомпом
+TEXT: Ограниченный квест: Гарчомп
 
 RESOURCE ID: limited_research_gardevoir
-TEXT: Ограниченный квест: Гардевойром
+TEXT: Ограниченный квест: Гардевойр
 
 RESOURCE ID: limited_research_gastly
-TEXT: Ограниченный квест: Гастлиом
+TEXT: Ограниченный квест: Гастли
 
 RESOURCE ID: limited_research_gastrodon
-TEXT: Ограниченный квест: Гастродоном
+TEXT: Ограниченный квест: Гастродон
 
 RESOURCE ID: limited_research_genesect
-TEXT: Ограниченный квест: Дженесектом
+TEXT: Ограниченный квест: Дженесект
 
 RESOURCE ID: limited_research_gengar
-TEXT: Ограниченный квест: Генгаром
+TEXT: Ограниченный квест: Генгар
 
 RESOURCE ID: limited_research_geodude
-TEXT: Ограниченный квест: Геодудом
+TEXT: Ограниченный квест: Геодуд
 
 RESOURCE ID: limited_research_gible
-TEXT: Ограниченный квест: Гиблом
+TEXT: Ограниченный квест: Гибл
 
 RESOURCE ID: limited_research_gigalith
-TEXT: Ограниченный квест: Гигалитом
+TEXT: Ограниченный квест: Гигалит
 
 RESOURCE ID: limited_research_girafarig
-TEXT: Ограниченный квест: Жирафаригом
+TEXT: Ограниченный квест: Жирафариг
 
 RESOURCE ID: limited_research_giratina
-TEXT: Ограниченный квест: Гиратинаом
+TEXT: Ограниченный квест: Гиратина
 
 RESOURCE ID: limited_research_glaceon
-TEXT: Ограниченный квест: Глейсеоном
+TEXT: Ограниченный квест: Глейсеон
 
 RESOURCE ID: limited_research_glalie
-TEXT: Ограниченный квест: Глейлиом
+TEXT: Ограниченный квест: Глейли
 
 RESOURCE ID: limited_research_glameow
-TEXT: Ограниченный квест: Глеймяуом
+TEXT: Ограниченный квест: Глеймяу
 
 RESOURCE ID: limited_research_gligar
-TEXT: Ограниченный квест: Глайгаром
+TEXT: Ограниченный квест: Глайгар
 
 RESOURCE ID: limited_research_gliscor
-TEXT: Ограниченный квест: Глайскором
+TEXT: Ограниченный квест: Глайскор
 
 RESOURCE ID: limited_research_gloom
-TEXT: Ограниченный квест: Глумом
+TEXT: Ограниченный квест: Глум
 
 RESOURCE ID: limited_research_gogoat
-TEXT: Ограниченный квест: Гогоутом
+TEXT: Ограниченный квест: Гогоут
 
 RESOURCE ID: limited_research_golbat
-TEXT: Ограниченный квест: Голбатом
+TEXT: Ограниченный квест: Голбат
 
 RESOURCE ID: limited_research_goldeen
-TEXT: Ограниченный квест: Голдином
+TEXT: Ограниченный квест: Голдин
 
 RESOURCE ID: limited_research_golduck
-TEXT: Ограниченный квест: Голдаком
+TEXT: Ограниченный квест: Голдак
 
 RESOURCE ID: limited_research_golem
-TEXT: Ограниченный квест: Големом
+TEXT: Ограниченный квест: Голем
 
 RESOURCE ID: limited_research_golett
-TEXT: Ограниченный квест: Голеттом
+TEXT: Ограниченный квест: Голетт
 
 RESOURCE ID: limited_research_golurk
-TEXT: Ограниченный квест: Голарком
+TEXT: Ограниченный квест: Голарк
 
 RESOURCE ID: limited_research_goodra
-TEXT: Ограниченный квест: Гудраом
+TEXT: Ограниченный квест: Гудра
 
 RESOURCE ID: limited_research_goomy
-TEXT: Ограниченный квест: Гумиом
+TEXT: Ограниченный квест: Гуми
 
 RESOURCE ID: limited_research_gorebyss
-TEXT: Ограниченный квест: Горбиссом
+TEXT: Ограниченный квест: Горбисс
 
 RESOURCE ID: limited_research_gothita
-TEXT: Ограниченный квест: Гофитаом
+TEXT: Ограниченный квест: Гофита
 
 RESOURCE ID: limited_research_gothitelle
-TEXT: Ограниченный квест: Гофителльом
+TEXT: Ограниченный квест: Гофителль
 
 RESOURCE ID: limited_research_gothorita
-TEXT: Ограниченный квест: Гофоритаом
+TEXT: Ограниченный квест: Гофорита
 
 RESOURCE ID: limited_research_gourgeist
-TEXT: Ограниченный квест: Гургайстом
+TEXT: Ограниченный квест: Гургайст
 
 RESOURCE ID: limited_research_granbull
-TEXT: Ограниченный квест: Грэнбуллом
+TEXT: Ограниченный квест: Грэнбулл
 
 RESOURCE ID: limited_research_graveler
-TEXT: Ограниченный квест: Гравелером
+TEXT: Ограниченный квест: Гравелер
 
 RESOURCE ID: limited_research_greninja
-TEXT: Ограниченный квест: Грениндзяом
+TEXT: Ограниченный квест: Грениндзя
 
 RESOURCE ID: limited_research_grimer
-TEXT: Ограниченный квест: Граймером
+TEXT: Ограниченный квест: Граймер
 
 RESOURCE ID: limited_research_grotle
-TEXT: Ограниченный квест: Гротлом
+TEXT: Ограниченный квест: Гротл
 
 RESOURCE ID: limited_research_groudon
-TEXT: Ограниченный квест: Граудоном
+TEXT: Ограниченный квест: Граудон
 
 RESOURCE ID: limited_research_grovyle
-TEXT: Ограниченный квест: Гровайлом
+TEXT: Ограниченный квест: Гровайл
 
 RESOURCE ID: limited_research_growlithe
-TEXT: Ограниченный квест: Гроулитом
+TEXT: Ограниченный квест: Гроулит
 
 RESOURCE ID: limited_research_grumpig
-TEXT: Ограниченный квест: Грампигом
+TEXT: Ограниченный квест: Грампиг
 
 RESOURCE ID: limited_research_gulpin
-TEXT: Ограниченный квест: Гальпином
+TEXT: Ограниченный квест: Гальпин
 
 RESOURCE ID: limited_research_gurdurr
-TEXT: Ограниченный квест: Гурдурром
+TEXT: Ограниченный квест: Гурдурр
 
 RESOURCE ID: limited_research_gyarados
-TEXT: Ограниченный квест: Гиарадосом
+TEXT: Ограниченный квест: Гиарадос
 
 RESOURCE ID: limited_research_happiny
-TEXT: Ограниченный квест: Хаппиниом
+TEXT: Ограниченный квест: Хаппини
 
 RESOURCE ID: limited_research_hariyama
-TEXT: Ограниченный квест: Хариямаом
+TEXT: Ограниченный квест: Харияма
 
 RESOURCE ID: limited_research_haunter
-TEXT: Ограниченный квест: Хонтером
+TEXT: Ограниченный квест: Хонтер
 
 RESOURCE ID: limited_research_hawlucha
-TEXT: Ограниченный квест: Хавлучаом
+TEXT: Ограниченный квест: Хавлуча
 
 RESOURCE ID: limited_research_haxorus
-TEXT: Ограниченный квест: Хаксорусом
+TEXT: Ограниченный квест: Хаксорус
 
 RESOURCE ID: limited_research_heatmor
-TEXT: Ограниченный квест: Хитмором
+TEXT: Ограниченный квест: Хитмор
 
 RESOURCE ID: limited_research_heatran
-TEXT: Ограниченный квест: Хитраном
+TEXT: Ограниченный квест: Хитран
 
 RESOURCE ID: limited_research_heliolisk
-TEXT: Ограниченный квест: Хелиолиском
+TEXT: Ограниченный квест: Хелиолиск
 
 RESOURCE ID: limited_research_helioptile
-TEXT: Ограниченный квест: Хелиоптайлом
+TEXT: Ограниченный квест: Хелиоптайл
 
 RESOURCE ID: limited_research_heracross
-TEXT: Ограниченный квест: Геракроссом
+TEXT: Ограниченный квест: Геракросс
 
 RESOURCE ID: limited_research_herdier
-TEXT: Ограниченный квест: Хардиером
+TEXT: Ограниченный квест: Хардиер
 
 RESOURCE ID: limited_research_hippopotas
-TEXT: Ограниченный квест: Гиппопотасом
+TEXT: Ограниченный квест: Гиппопотас
 
 RESOURCE ID: limited_research_hippowdon
-TEXT: Ограниченный квест: Гипподоном
+TEXT: Ограниченный квест: Гипподон
 
 RESOURCE ID: limited_research_hitmonchan
-TEXT: Ограниченный квест: Хитмончаном
+TEXT: Ограниченный квест: Хитмончан
 
 RESOURCE ID: limited_research_hitmonlee
-TEXT: Ограниченный квест: Хитмонлиом
+TEXT: Ограниченный квест: Хитмонли
 
 RESOURCE ID: limited_research_hitmontop
-TEXT: Ограниченный квест: Хитмонтопом
+TEXT: Ограниченный квест: Хитмонтоп
 
 RESOURCE ID: limited_research_ho-oh
-TEXT: Ограниченный квест: Хо-Oхом
+TEXT: Ограниченный квест: Хо-Oх
 
 RESOURCE ID: limited_research_honchkrow
-TEXT: Ограниченный квест: Хончкроуом
+TEXT: Ограниченный квест: Хончкроу
 
 RESOURCE ID: limited_research_honedge
-TEXT: Ограниченный квест: Хонеджом
+TEXT: Ограниченный квест: Хонедж
 
 RESOURCE ID: limited_research_hoopa
-TEXT: Ограниченный квест: Хуппаом
+TEXT: Ограниченный квест: Хуппа
 
 RESOURCE ID: limited_research_hoothoot
-TEXT: Ограниченный квест: Хутхутом
+TEXT: Ограниченный квест: Хутхут
 
 RESOURCE ID: limited_research_hoppip
-TEXT: Ограниченный квест: Хоппипом
+TEXT: Ограниченный квест: Хоппип
 
 RESOURCE ID: limited_research_horsea
-TEXT: Ограниченный квест: Хорсиом
+TEXT: Ограниченный квест: Хорси
 
 RESOURCE ID: limited_research_houndoom
-TEXT: Ограниченный квест: Хандумом
+TEXT: Ограниченный квест: Хандум
 
 RESOURCE ID: limited_research_houndour
-TEXT: Ограниченный квест: Хандором
+TEXT: Ограниченный квест: Хандор
 
 RESOURCE ID: limited_research_huntail
-TEXT: Ограниченный квест: Хантейлом
+TEXT: Ограниченный квест: Хантейл
 
 RESOURCE ID: limited_research_hydreigon
-TEXT: Ограниченный квест: Хайдрайгоном
+TEXT: Ограниченный квест: Хайдрайгон
 
 RESOURCE ID: limited_research_hypno
-TEXT: Ограниченный квест: Гипноом
+TEXT: Ограниченный квест: Гипно
 
 RESOURCE ID: limited_research_igglybuff
-TEXT: Ограниченный квест: Игглибаффом
+TEXT: Ограниченный квест: Игглибафф
 
 RESOURCE ID: limited_research_illumise
-TEXT: Ограниченный квест: Иллюмайзом
+TEXT: Ограниченный квест: Иллюмайз
 
 RESOURCE ID: limited_research_infernape
-TEXT: Ограниченный квест: Инфернейпом
+TEXT: Ограниченный квест: Инфернейп
 
 RESOURCE ID: limited_research_inkay
-TEXT: Ограниченный квест: Инкейом
+TEXT: Ограниченный квест: Инкей
 
 RESOURCE ID: limited_research_ivysaur
-TEXT: Ограниченный квест: Айвизавром
+TEXT: Ограниченный квест: Айвизавр
 
 RESOURCE ID: limited_research_jellicent
-TEXT: Ограниченный квест: Джеллисентом
+TEXT: Ограниченный квест: Джеллисент
 
 RESOURCE ID: limited_research_jigglypuff
-TEXT: Ограниченный квест: Джигглипаффом
+TEXT: Ограниченный квест: Джигглипафф
 
 RESOURCE ID: limited_research_jirachi
-TEXT: Ограниченный квест: Джирачиом
+TEXT: Ограниченный квест: Джирачи
 
 RESOURCE ID: limited_research_jolteon
-TEXT: Ограниченный квест: Джолтеоном
+TEXT: Ограниченный квест: Джолтеон
 
 RESOURCE ID: limited_research_joltik
-TEXT: Ограниченный квест: Джолтиком
+TEXT: Ограниченный квест: Джолтик
 
 RESOURCE ID: limited_research_jumpluff
-TEXT: Ограниченный квест: Джамплаффом
+TEXT: Ограниченный квест: Джамплафф
 
 RESOURCE ID: limited_research_jynx
-TEXT: Ограниченный квест: Джинксом
+TEXT: Ограниченный квест: Джинкс
 
 RESOURCE ID: limited_research_kabuto
-TEXT: Ограниченный квест: Кабутоом
+TEXT: Ограниченный квест: Кабуто
 
 RESOURCE ID: limited_research_kabutops
-TEXT: Ограниченный квест: Кабутопсом
+TEXT: Ограниченный квест: Кабутопс
 
 RESOURCE ID: limited_research_kadabra
-TEXT: Ограниченный квест: Кадабраом
+TEXT: Ограниченный квест: Кадабра
 
 RESOURCE ID: limited_research_kakuna
-TEXT: Ограниченный квест: Какунаом
+TEXT: Ограниченный квест: Какуна
 
 RESOURCE ID: limited_research_kangaskhan
-TEXT: Ограниченный квест: Кангасханом
+TEXT: Ограниченный квест: Кангасхан
 
 RESOURCE ID: limited_research_karrablast
-TEXT: Ограниченный квест: Каррабластом
+TEXT: Ограниченный квест: Каррабласт
 
 RESOURCE ID: limited_research_kecleon
-TEXT: Ограниченный квест: Кеклеоном
+TEXT: Ограниченный квест: Кеклеон
 
 RESOURCE ID: limited_research_keldeo
-TEXT: Ограниченный квест: Кельдиоом
+TEXT: Ограниченный квест: Кельдио
 
 RESOURCE ID: limited_research_kingdra
-TEXT: Ограниченный квест: Кингдраом
+TEXT: Ограниченный квест: Кингдра
 
 RESOURCE ID: limited_research_kingler
-TEXT: Ограниченный квест: Кинглером
+TEXT: Ограниченный квест: Кинглер
 
 RESOURCE ID: limited_research_kirlia
-TEXT: Ограниченный квест: Кирлияом
+TEXT: Ограниченный квест: Кирлия
 
 RESOURCE ID: limited_research_klang
-TEXT: Ограниченный квест: Клангом
+TEXT: Ограниченный квест: Кланг
 
 RESOURCE ID: limited_research_klefki
-TEXT: Ограниченный квест: Клефкиом
+TEXT: Ограниченный квест: Клефки
 
 RESOURCE ID: limited_research_klink
-TEXT: Ограниченный квест: Клинком
+TEXT: Ограниченный квест: Клинк
 
 RESOURCE ID: limited_research_klinklang
-TEXT: Ограниченный квест: Клинклангом
+TEXT: Ограниченный квест: Клинкланг
 
 RESOURCE ID: limited_research_koffing
-TEXT: Ограниченный квест: Коффингом
+TEXT: Ограниченный квест: Коффинг
 
 RESOURCE ID: limited_research_krabby
-TEXT: Ограниченный квест: Краббиом
+TEXT: Ограниченный квест: Крабби
 
 RESOURCE ID: limited_research_kricketot
-TEXT: Ограниченный квест: Крикетотом
+TEXT: Ограниченный квест: Крикетот
 
 RESOURCE ID: limited_research_kricketune
-TEXT: Ограниченный квест: Крикетуном
+TEXT: Ограниченный квест: Крикетун
 
 RESOURCE ID: limited_research_krokorok
-TEXT: Ограниченный квест: Крокороком
+TEXT: Ограниченный квест: Крокорок
 
 RESOURCE ID: limited_research_krookodile
-TEXT: Ограниченный квест: Крукодайлом
+TEXT: Ограниченный квест: Крукодайл
 
 RESOURCE ID: limited_research_kyogre
-TEXT: Ограниченный квест: Кайогром
+TEXT: Ограниченный квест: Кайогр
 
 RESOURCE ID: limited_research_kyurem
-TEXT: Ограниченный квест: Куремом
+TEXT: Ограниченный квест: Курем
 
 RESOURCE ID: limited_research_lairon
-TEXT: Ограниченный квест: Лайроном
+TEXT: Ограниченный квест: Лайрон
 
 RESOURCE ID: limited_research_lampent
-TEXT: Ограниченный квест: Лампентом
+TEXT: Ограниченный квест: Лампент
 
 RESOURCE ID: limited_research_landorus
-TEXT: Ограниченный квест: Ландорусом
+TEXT: Ограниченный квест: Ландорус
 
 RESOURCE ID: limited_research_lanturn
-TEXT: Ограниченный квест: Лантурном
+TEXT: Ограниченный квест: Лантурн
 
 RESOURCE ID: limited_research_lapras
-TEXT: Ограниченный квест: Лапрасом
+TEXT: Ограниченный квест: Лапрас
 
 RESOURCE ID: limited_research_larvesta
-TEXT: Ограниченный квест: Ларвестаом
+TEXT: Ограниченный квест: Ларвеста
 
 RESOURCE ID: limited_research_larvitar
-TEXT: Ограниченный квест: Ларвитаром
+TEXT: Ограниченный квест: Ларвитар
 
 RESOURCE ID: limited_research_latias
-TEXT: Ограниченный квест: Латиасом
+TEXT: Ограниченный квест: Латиас
 
 RESOURCE ID: limited_research_latios
-TEXT: Ограниченный квест: Латиосом
+TEXT: Ограниченный квест: Латиос
 
 RESOURCE ID: limited_research_leafeon
-TEXT: Ограниченный квест: Лифеоном
+TEXT: Ограниченный квест: Лифеон
 
 RESOURCE ID: limited_research_leavanny
-TEXT: Ограниченный квест: Ливанниом
+TEXT: Ограниченный квест: Ливанни
 
 RESOURCE ID: limited_research_ledian
-TEXT: Ограниченный квест: Ледианом
+TEXT: Ограниченный квест: Ледиан
 
 RESOURCE ID: limited_research_ledyba
-TEXT: Ограниченный квест: Ледибаом
+TEXT: Ограниченный квест: Ледиба
 
 RESOURCE ID: limited_research_lickilicky
-TEXT: Ограниченный квест: Ликиликиом
+TEXT: Ограниченный квест: Ликилики
 
 RESOURCE ID: limited_research_lickitung
-TEXT: Ограниченный квест: Ликитангом
+TEXT: Ограниченный квест: Ликитанг
 
 RESOURCE ID: limited_research_liepard
-TEXT: Ограниченный квест: Лайпардом
+TEXT: Ограниченный квест: Лайпард
 
 RESOURCE ID: limited_research_lileep
-TEXT: Ограниченный квест: Лилипом
+TEXT: Ограниченный квест: Лилип
 
 RESOURCE ID: limited_research_lilligant
-TEXT: Ограниченный квест: Лиллигантом
+TEXT: Ограниченный квест: Лиллигант
 
 RESOURCE ID: limited_research_lillipup
-TEXT: Ограниченный квест: Лиллипапом
+TEXT: Ограниченный квест: Лиллипап
 
 RESOURCE ID: limited_research_linoone
-TEXT: Ограниченный квест: Лайнуном
+TEXT: Ограниченный квест: Лайнун
 
 RESOURCE ID: limited_research_litleo
-TEXT: Ограниченный квест: Литлеоом
+TEXT: Ограниченный квест: Литлео
 
 RESOURCE ID: limited_research_litwick
-TEXT: Ограниченный квест: Литвиком
+TEXT: Ограниченный квест: Литвик
 
 RESOURCE ID: limited_research_lombre
-TEXT: Ограниченный квест: Ломбрэом
+TEXT: Ограниченный квест: Ломбрэ
 
 RESOURCE ID: limited_research_lopunny
-TEXT: Ограниченный квест: Лопанниом
+TEXT: Ограниченный квест: Лопанни
 
 RESOURCE ID: limited_research_lotad
-TEXT: Ограниченный квест: Лотадом
+TEXT: Ограниченный квест: Лотад
 
 RESOURCE ID: limited_research_loudred
-TEXT: Ограниченный квест: Лаудредом
+TEXT: Ограниченный квест: Лаудред
 
 RESOURCE ID: limited_research_lucario
-TEXT: Ограниченный квест: Лукариоом
+TEXT: Ограниченный квест: Лукарио
 
 RESOURCE ID: limited_research_ludicolo
-TEXT: Ограниченный квест: Лудиколоом
+TEXT: Ограниченный квест: Лудиколо
 
 RESOURCE ID: limited_research_lugia
-TEXT: Ограниченный квест: Лугиаом
+TEXT: Ограниченный квест: Лугиа
 
 RESOURCE ID: limited_research_lumineon
-TEXT: Ограниченный квест: Люминеоном
+TEXT: Ограниченный квест: Люминеон
 
 RESOURCE ID: limited_research_lunatone
-TEXT: Ограниченный квест: Лунатоном
+TEXT: Ограниченный квест: Лунатон
 
 RESOURCE ID: limited_research_luvdisc
-TEXT: Ограниченный квест: Лавдиском
+TEXT: Ограниченный квест: Лавдиск
 
 RESOURCE ID: limited_research_luxio
-TEXT: Ограниченный квест: Лаксиоом
+TEXT: Ограниченный квест: Лаксио
 
 RESOURCE ID: limited_research_luxray
-TEXT: Ограниченный квест: Лаксрэйом
+TEXT: Ограниченный квест: Лаксрэй
 
 RESOURCE ID: limited_research_machamp
-TEXT: Ограниченный квест: Мачампом
+TEXT: Ограниченный квест: Мачамп
 
 RESOURCE ID: limited_research_machoke
-TEXT: Ограниченный квест: Мачоуком
+TEXT: Ограниченный квест: Мачоук
 
 RESOURCE ID: limited_research_machop
-TEXT: Ограниченный квест: Мачопом
+TEXT: Ограниченный квест: Мачоп
 
 RESOURCE ID: limited_research_magby
-TEXT: Ограниченный квест: Магбиом
+TEXT: Ограниченный квест: Магби
 
 RESOURCE ID: limited_research_magcargo
-TEXT: Ограниченный квест: Магкаргоом
+TEXT: Ограниченный квест: Магкарго
 
 RESOURCE ID: limited_research_magikarp
-TEXT: Ограниченный квест: Мэджикарпом
+TEXT: Ограниченный квест: Мэджикарп
 
 RESOURCE ID: limited_research_magmar
-TEXT: Ограниченный квест: Магмаром
+TEXT: Ограниченный квест: Магмар
 
 RESOURCE ID: limited_research_magmortar
-TEXT: Ограниченный квест: Магмортаром
+TEXT: Ограниченный квест: Магмортар
 
 RESOURCE ID: limited_research_magnemite
-TEXT: Ограниченный квест: Магнемайтом
+TEXT: Ограниченный квест: Магнемайт
 
 RESOURCE ID: limited_research_magneton
-TEXT: Ограниченный квест: Магнетоном
+TEXT: Ограниченный квест: Магнетон
 
 RESOURCE ID: limited_research_magnezone
-TEXT: Ограниченный квест: Магнезоном
+TEXT: Ограниченный квест: Магнезон
 
 RESOURCE ID: limited_research_makuhita
-TEXT: Ограниченный квест: Макухитаом
+TEXT: Ограниченный квест: Макухита
 
 RESOURCE ID: limited_research_malamar
-TEXT: Ограниченный квест: Маламаром
+TEXT: Ограниченный квест: Маламар
 
 RESOURCE ID: limited_research_mamoswine
-TEXT: Ограниченный квест: Мамосвайном
+TEXT: Ограниченный квест: Мамосвайн
 
 RESOURCE ID: limited_research_manaphy
-TEXT: Ограниченный квест: Манафиом
+TEXT: Ограниченный квест: Манафи
 
 RESOURCE ID: limited_research_mandibuzz
-TEXT: Ограниченный квест: Мандибаззом
+TEXT: Ограниченный квест: Мандибазз
 
 RESOURCE ID: limited_research_manectric
-TEXT: Ограниченный квест: Манектриком
+TEXT: Ограниченный квест: Манектрик
 
 RESOURCE ID: limited_research_mankey
-TEXT: Ограниченный квест: Манкиом
+TEXT: Ограниченный квест: Манки
 
 RESOURCE ID: limited_research_mantine
-TEXT: Ограниченный квест: Мантайном
+TEXT: Ограниченный квест: Мантайн
 
 RESOURCE ID: limited_research_mantyke
-TEXT: Ограниченный квест: Мантайком
+TEXT: Ограниченный квест: Мантайк
 
 RESOURCE ID: limited_research_maractus
-TEXT: Ограниченный квест: Марактусом
+TEXT: Ограниченный квест: Марактус
 
 RESOURCE ID: limited_research_mareep
-TEXT: Ограниченный квест: Марипом
+TEXT: Ограниченный квест: Марип
 
 RESOURCE ID: limited_research_marill
-TEXT: Ограниченный квест: Мэриллом
+TEXT: Ограниченный квест: Мэрилл
 
 RESOURCE ID: limited_research_marowak
-TEXT: Ограниченный квест: Мароваком
+TEXT: Ограниченный квест: Маровак
 
 RESOURCE ID: limited_research_marshtomp
-TEXT: Ограниченный квест: Марштомпом
+TEXT: Ограниченный квест: Марштомп
 
 RESOURCE ID: limited_research_masquerain
-TEXT: Ограниченный квест: Маскерейном
+TEXT: Ограниченный квест: Маскерейн
 
 RESOURCE ID: limited_research_mawile
-TEXT: Ограниченный квест: Мавайлом
+TEXT: Ограниченный квест: Мавайл
 
 RESOURCE ID: limited_research_medicham
-TEXT: Ограниченный квест: Медичамом
+TEXT: Ограниченный квест: Медичам
 
 RESOURCE ID: limited_research_meditite
-TEXT: Ограниченный квест: Медитайтом
+TEXT: Ограниченный квест: Медитайт
 
 RESOURCE ID: limited_research_meganium
-TEXT: Ограниченный квест: Меганиумом
+TEXT: Ограниченный квест: Меганиум
 
 RESOURCE ID: limited_research_meloetta
-TEXT: Ограниченный квест: Мелоэттаом
+TEXT: Ограниченный квест: Мелоэтта
 
 RESOURCE ID: limited_research_meowstic
-TEXT: Ограниченный квест: Мяустиком
+TEXT: Ограниченный квест: Мяустик
 
 RESOURCE ID: limited_research_meowth
-TEXT: Ограниченный квест: Мяутом
+TEXT: Ограниченный квест: Мяут
 
 RESOURCE ID: limited_research_mesprit
-TEXT: Ограниченный квест: Меспритом
+TEXT: Ограниченный квест: Месприт
 
 RESOURCE ID: limited_research_metagross
-TEXT: Ограниченный квест: Метагроссом
+TEXT: Ограниченный квест: Метагросс
 
 RESOURCE ID: limited_research_metang
-TEXT: Ограниченный квест: Метангом
+TEXT: Ограниченный квест: Метанг
 
 RESOURCE ID: limited_research_metapod
-TEXT: Ограниченный квест: Метаподом
+TEXT: Ограниченный квест: Метапод
 
 RESOURCE ID: limited_research_mew
-TEXT: Ограниченный квест: Мьюом
+TEXT: Ограниченный квест: Мью
 
 RESOURCE ID: limited_research_mewtwo
-TEXT: Ограниченный квест: Мьютуом
+TEXT: Ограниченный квест: Мьюту
 
 RESOURCE ID: limited_research_mienfoo
-TEXT: Ограниченный квест: Минфуом
+TEXT: Ограниченный квест: Минфу
 
 RESOURCE ID: limited_research_mienshao
-TEXT: Ограниченный квест: Миншаоом
+TEXT: Ограниченный квест: Миншао
 
 RESOURCE ID: limited_research_mightyena
-TEXT: Ограниченный квест: Майтиенаом
+TEXT: Ограниченный квест: Майтиена
 
 RESOURCE ID: limited_research_milotic
-TEXT: Ограниченный квест: Майлотиком
+TEXT: Ограниченный квест: Майлотик
 
 RESOURCE ID: limited_research_miltank
-TEXT: Ограниченный квест: Милтанком
+TEXT: Ограниченный квест: Милтанк
 
 RESOURCE ID: limited_research_mime jr.
-TEXT: Ограниченный квест: Майм-Джуниором
+TEXT: Ограниченный квест: Майм-Джуниор
 
 RESOURCE ID: limited_research_minccino
-TEXT: Ограниченный квест: Минччиноом
+TEXT: Ограниченный квест: Минччино
 
 RESOURCE ID: limited_research_minun
-TEXT: Ограниченный квест: Майнуном
+TEXT: Ограниченный квест: Майнун
 
 RESOURCE ID: limited_research_misdreavus
-TEXT: Ограниченный квест: Мисдривусом
+TEXT: Ограниченный квест: Мисдривус
 
 RESOURCE ID: limited_research_mismagius
-TEXT: Ограниченный квест: Мисмагиусом
+TEXT: Ограниченный квест: Мисмагиус
 
 RESOURCE ID: limited_research_moltres
-TEXT: Ограниченный квест: Молтресом
+TEXT: Ограниченный квест: Молтрес
 
 RESOURCE ID: limited_research_monferno
-TEXT: Ограниченный квест: Монферноом
+TEXT: Ограниченный квест: Монферно
 
 RESOURCE ID: limited_research_mothim
-TEXT: Ограниченный квест: Мотимом
+TEXT: Ограниченный квест: Мотим
 
 RESOURCE ID: limited_research_mr. mime
-TEXT: Ограниченный квест: Мистер Маймом
+TEXT: Ограниченный квест: Мистер Майм
 
 RESOURCE ID: limited_research_mudkip
-TEXT: Ограниченный квест: Мадкипом
+TEXT: Ограниченный квест: Мадкип
 
 RESOURCE ID: limited_research_muk
-TEXT: Ограниченный квест: Маком
+TEXT: Ограниченный квест: Мак
 
 RESOURCE ID: limited_research_munchlax
-TEXT: Ограниченный квест: Манчлаксом
+TEXT: Ограниченный квест: Манчлакс
 
 RESOURCE ID: limited_research_munna
-TEXT: Ограниченный квест: Муннаом
+TEXT: Ограниченный квест: Мунна
 
 RESOURCE ID: limited_research_murkrow
-TEXT: Ограниченный квест: Муркроуом
+TEXT: Ограниченный квест: Муркроу
 
 RESOURCE ID: limited_research_musharna
-TEXT: Ограниченный квест: Мушарнаом
+TEXT: Ограниченный квест: Мушарна
 
 RESOURCE ID: limited_research_natu
-TEXT: Ограниченный квест: Натуом
+TEXT: Ограниченный квест: Нату
 
 RESOURCE ID: limited_research_nidoking
-TEXT: Ограниченный квест: Нидокингом
+TEXT: Ограниченный квест: Нидокинг
 
 RESOURCE ID: limited_research_nidoqueen
-TEXT: Ограниченный квест: Нидоквином
+TEXT: Ограниченный квест: Нидоквин
 
 RESOURCE ID: limited_research_nidoran
 TEXT: Ограниченный квест Нидоран♀ и Нидоран♂
 
 RESOURCE ID: limited_research_nidoranfemale
-TEXT: Ограниченный квест: Нидоран♀ом
+TEXT: Ограниченный квест: Нидоран♀
 
 RESOURCE ID: limited_research_nidoranmale
-TEXT: Ограниченный квест: Нидоран♂ом
+TEXT: Ограниченный квест: Нидоран♂
 
 RESOURCE ID: limited_research_nidorina
-TEXT: Ограниченный квест: Нидоринаом
+TEXT: Ограниченный квест: Нидорина
 
 RESOURCE ID: limited_research_nidorino
-TEXT: Ограниченный квест: Нидориноом
+TEXT: Ограниченный квест: Нидорино
 
 RESOURCE ID: limited_research_nincada
-TEXT: Ограниченный квест: Нинкадаом
+TEXT: Ограниченный квест: Нинкада
 
 RESOURCE ID: limited_research_ninetales
-TEXT: Ограниченный квест: Найнтэйлсом
+TEXT: Ограниченный квест: Найнтэйлс
 
 RESOURCE ID: limited_research_ninjask
-TEXT: Ограниченный квест: Нинджаском
+TEXT: Ограниченный квест: Нинджаск
 
 RESOURCE ID: limited_research_noctowl
-TEXT: Ограниченный квест: Ноктоулом
+TEXT: Ограниченный квест: Ноктоул
 
 RESOURCE ID: limited_research_noibat
-TEXT: Ограниченный квест: Нойбатом
+TEXT: Ограниченный квест: Нойбат
 
 RESOURCE ID: limited_research_noivern
-TEXT: Ограниченный квест: Нойверном
+TEXT: Ограниченный квест: Нойверн
 
 RESOURCE ID: limited_research_nosepass
-TEXT: Ограниченный квест: Ноузпассом
+TEXT: Ограниченный квест: Ноузпасс
 
 RESOURCE ID: limited_research_numel
-TEXT: Ограниченный квест: Намелом
+TEXT: Ограниченный квест: Намел
 
 RESOURCE ID: limited_research_nuzleaf
-TEXT: Ограниченный квест: Назлифом
+TEXT: Ограниченный квест: Назлиф
 
 RESOURCE ID: limited_research_octillery
-TEXT: Ограниченный квест: Октиллериом
+TEXT: Ограниченный квест: Октиллери
 
 RESOURCE ID: limited_research_oddish
-TEXT: Ограниченный квест: Оддишом
+TEXT: Ограниченный квест: Оддиш
 
 RESOURCE ID: limited_research_omanyte
-TEXT: Ограниченный квест: Оманайтом
+TEXT: Ограниченный квест: Оманайт
 
 RESOURCE ID: limited_research_omastar
-TEXT: Ограниченный квест: Омастаром
+TEXT: Ограниченный квест: Омастар
 
 RESOURCE ID: limited_research_onix
-TEXT: Ограниченный квест: Ониксом
+TEXT: Ограниченный квест: Оникс
 
 RESOURCE ID: limited_research_oshawott
-TEXT: Ограниченный квест: Ошавоттом
+TEXT: Ограниченный квест: Ошавотт
 
 RESOURCE ID: limited_research_pachirisu
-TEXT: Ограниченный квест: Пачирисуом
+TEXT: Ограниченный квест: Пачирису
 
 RESOURCE ID: limited_research_palkia
-TEXT: Ограниченный квест: Палкияом
+TEXT: Ограниченный квест: Палкия
 
 RESOURCE ID: limited_research_palpitoad
-TEXT: Ограниченный квест: Палпитоудом
+TEXT: Ограниченный квест: Палпитоуд
 
 RESOURCE ID: limited_research_pancham
-TEXT: Ограниченный квест: Панчамом
+TEXT: Ограниченный квест: Панчам
 
 RESOURCE ID: limited_research_pangoro
-TEXT: Ограниченный квест: Пангороом
+TEXT: Ограниченный квест: Пангоро
 
 RESOURCE ID: limited_research_panpour
-TEXT: Ограниченный квест: Панпуром
+TEXT: Ограниченный квест: Панпур
 
 RESOURCE ID: limited_research_pansage
-TEXT: Ограниченный квест: Пансейджом
+TEXT: Ограниченный квест: Пансейдж
 
 RESOURCE ID: limited_research_pansear
-TEXT: Ограниченный квест: Пансиром
+TEXT: Ограниченный квест: Пансир
 
 RESOURCE ID: limited_research_paras
-TEXT: Ограниченный квест: Парасом
+TEXT: Ограниченный квест: Парас
 
 RESOURCE ID: limited_research_parasect
-TEXT: Ограниченный квест: Парасектом
+TEXT: Ограниченный квест: Парасект
 
 RESOURCE ID: limited_research_patrat
-TEXT: Ограниченный квест: Патратом
+TEXT: Ограниченный квест: Патрат
 
 RESOURCE ID: limited_research_pawniard
-TEXT: Ограниченный квест: Поуниардом
+TEXT: Ограниченный квест: Поуниард
 
 RESOURCE ID: limited_research_pelipper
-TEXT: Ограниченный квест: Пелиппером
+TEXT: Ограниченный квест: Пелиппер
 
 RESOURCE ID: limited_research_persian
-TEXT: Ограниченный квест: Персианом
+TEXT: Ограниченный квест: Персиан
 
 RESOURCE ID: limited_research_petilil
-TEXT: Ограниченный квест: Петилилом
+TEXT: Ограниченный квест: Петилил
 
 RESOURCE ID: limited_research_phanpy
-TEXT: Ограниченный квест: Фэнпиом
+TEXT: Ограниченный квест: Фэнпи
 
 RESOURCE ID: limited_research_phantump
-TEXT: Ограниченный квест: Фантампом
+TEXT: Ограниченный квест: Фантамп
 
 RESOURCE ID: limited_research_phione
-TEXT: Ограниченный квест: Фионаом
+TEXT: Ограниченный квест: Фиона
 
 RESOURCE ID: limited_research_pichu
-TEXT: Ограниченный квест: Пичуом
+TEXT: Ограниченный квест: Пичу
 
 RESOURCE ID: limited_research_pidgeot
-TEXT: Ограниченный квест: Пиджеотом
+TEXT: Ограниченный квест: Пиджеот
 
 RESOURCE ID: limited_research_pidgeotto
-TEXT: Ограниченный квест: Пиджeоттоом
+TEXT: Ограниченный квест: Пиджeотто
 
 RESOURCE ID: limited_research_pidgey
-TEXT: Ограниченный квест: Пиджиом
+TEXT: Ограниченный квест: Пиджи
 
 RESOURCE ID: limited_research_pidove
-TEXT: Ограниченный квест: Пидавом
+TEXT: Ограниченный квест: Пидав
 
 RESOURCE ID: limited_research_pignite
-TEXT: Ограниченный квест: Пигнайтом
+TEXT: Ограниченный квест: Пигнайт
 
 RESOURCE ID: limited_research_pikachu
-TEXT: Ограниченный квест: Пикачуом
+TEXT: Ограниченный квест: Пикачу
 
 RESOURCE ID: limited_research_piloswine
-TEXT: Ограниченный квест: Пилосвайном
+TEXT: Ограниченный квест: Пилосвайн
 
 RESOURCE ID: limited_research_pineco
-TEXT: Ограниченный квест: Пайнекоом
+TEXT: Ограниченный квест: Пайнеко
 
 RESOURCE ID: limited_research_pinsir
-TEXT: Ограниченный квест: Пинсиром
+TEXT: Ограниченный квест: Пинсир
 
 RESOURCE ID: limited_research_piplup
-TEXT: Ограниченный квест: Пиплапом
+TEXT: Ограниченный квест: Пиплап
 
 RESOURCE ID: limited_research_plusle
-TEXT: Ограниченный квест: Пласлом
+TEXT: Ограниченный квест: Пласл
 
 RESOURCE ID: limited_research_politoed
-TEXT: Ограниченный квест: Политоедом
+TEXT: Ограниченный квест: Политоед
 
 RESOURCE ID: limited_research_poliwag
-TEXT: Ограниченный квест: Поливагом
+TEXT: Ограниченный квест: Поливаг
 
 RESOURCE ID: limited_research_poliwhirl
-TEXT: Ограниченный квест: Поливирлом
+TEXT: Ограниченный квест: Поливирл
 
 RESOURCE ID: limited_research_poliwrath
-TEXT: Ограниченный квест: Поливратом
+TEXT: Ограниченный квест: Поливрат
 
 RESOURCE ID: limited_research_ponyta
-TEXT: Ограниченный квест: Понитаом
+TEXT: Ограниченный квест: Понита
 
 RESOURCE ID: limited_research_poochyena
-TEXT: Ограниченный квест: Пучиенаом
+TEXT: Ограниченный квест: Пучиена
 
 RESOURCE ID: limited_research_porygon
-TEXT: Ограниченный квест: Поригоном
+TEXT: Ограниченный квест: Поригон
 
 RESOURCE ID: limited_research_porygon-z
-TEXT: Ограниченный квест: Поригон-Zом
+TEXT: Ограниченный квест: Поригон-Z
 
 RESOURCE ID: limited_research_porygon2
-TEXT: Ограниченный квест: Porygon2ом
+TEXT: Ограниченный квест: Porygon2
 
 RESOURCE ID: limited_research_primeape
-TEXT: Ограниченный квест: Праймейпом
+TEXT: Ограниченный квест: Праймейп
 
 RESOURCE ID: limited_research_prinplup
-TEXT: Ограниченный квест: Принплапом
+TEXT: Ограниченный квест: Принплап
 
 RESOURCE ID: limited_research_probopass
-TEXT: Ограниченный квест: Пробопассом
+TEXT: Ограниченный квест: Пробопасс
 
 RESOURCE ID: limited_research_psyduck
-TEXT: Ограниченный квест: Псайдаком
+TEXT: Ограниченный квест: Псайдак
 
 RESOURCE ID: limited_research_pumpkaboo
-TEXT: Ограниченный квест: Пампкабуом
+TEXT: Ограниченный квест: Пампкабу
 
 RESOURCE ID: limited_research_pupitar
-TEXT: Ограниченный квест: Пьюпитаром
+TEXT: Ограниченный квест: Пьюпитар
 
 RESOURCE ID: limited_research_purrloin
-TEXT: Ограниченный квест: Пуррлойном
+TEXT: Ограниченный квест: Пуррлойн
 
 RESOURCE ID: limited_research_purugly
-TEXT: Ограниченный квест: Параглиом
+TEXT: Ограниченный квест: Парагли
 
 RESOURCE ID: limited_research_pyroar
-TEXT: Ограниченный квест: Пироаром
+TEXT: Ограниченный квест: Пироар
 
 RESOURCE ID: limited_research_quagsire
-TEXT: Ограниченный квест: Квагсайром
+TEXT: Ограниченный квест: Квагсайр
 
 RESOURCE ID: limited_research_quilava
-TEXT: Ограниченный квест: Квилаваом
+TEXT: Ограниченный квест: Квилава
 
 RESOURCE ID: limited_research_quilladin
-TEXT: Ограниченный квест: Квилладином
+TEXT: Ограниченный квест: Квилладин
 
 RESOURCE ID: limited_research_qwilfish
-TEXT: Ограниченный квест: Квилфишом
+TEXT: Ограниченный квест: Квилфиш
 
 RESOURCE ID: limited_research_raichu
-TEXT: Ограниченный квест: Райчуом
+TEXT: Ограниченный квест: Райчу
 
 RESOURCE ID: limited_research_raikou
-TEXT: Ограниченный квест: Райкуом
+TEXT: Ограниченный квест: Райку
 
 RESOURCE ID: limited_research_ralts
-TEXT: Ограниченный квест: Ролтсом
+TEXT: Ограниченный квест: Ролтс
 
 RESOURCE ID: limited_research_rampardos
-TEXT: Ограниченный квест: Рэмпардосом
+TEXT: Ограниченный квест: Рэмпардос
 
 RESOURCE ID: limited_research_rapidash
-TEXT: Ограниченный квест: Рапидашом
+TEXT: Ограниченный квест: Рапидаш
 
 RESOURCE ID: limited_research_raticate
-TEXT: Ограниченный квест: Ратикейтом
+TEXT: Ограниченный квест: Ратикейт
 
 RESOURCE ID: limited_research_rattata
-TEXT: Ограниченный квест: Раттатаом
+TEXT: Ограниченный квест: Раттата
 
 RESOURCE ID: limited_research_rayquaza
-TEXT: Ограниченный квест: Райквазаом
+TEXT: Ограниченный квест: Райкваза
 
 RESOURCE ID: limited_research_regice
-TEXT: Ограниченный квест: Реджайсом
+TEXT: Ограниченный квест: Реджайс
 
 RESOURCE ID: limited_research_regigigas
-TEXT: Ограниченный квест: Реджигигасом
+TEXT: Ограниченный квест: Реджигигас
 
 RESOURCE ID: limited_research_regirock
-TEXT: Ограниченный квест: Реджироком
+TEXT: Ограниченный квест: Реджирок
 
 RESOURCE ID: limited_research_registeel
-TEXT: Ограниченный квест: Реджистилом
+TEXT: Ограниченный квест: Реджистил
 
 RESOURCE ID: limited_research_relicanth
-TEXT: Ограниченный квест: Реликантом
+TEXT: Ограниченный квест: Реликант
 
 RESOURCE ID: limited_research_remoraid
-TEXT: Ограниченный квест: Реморэйдом
+TEXT: Ограниченный квест: Реморэйд
 
 RESOURCE ID: limited_research_reshiram
-TEXT: Ограниченный квест: Реширамом
+TEXT: Ограниченный квест: Реширам
 
 RESOURCE ID: limited_research_reuniclus
-TEXT: Ограниченный квест: Реюниклюсом
+TEXT: Ограниченный квест: Реюниклюс
 
 RESOURCE ID: limited_research_rhydon
-TEXT: Ограниченный квест: Райдоном
+TEXT: Ограниченный квест: Райдон
 
 RESOURCE ID: limited_research_rhyhorn
-TEXT: Ограниченный квест: Райхорном
+TEXT: Ограниченный квест: Райхорн
 
 RESOURCE ID: limited_research_rhyperior
-TEXT: Ограниченный квест: Райпериором
+TEXT: Ограниченный квест: Райпериор
 
 RESOURCE ID: limited_research_riolu
-TEXT: Ограниченный квест: Риолуом
+TEXT: Ограниченный квест: Риолу
 
 RESOURCE ID: limited_research_roggenrola
-TEXT: Ограниченный квест: Роггенролаом
+TEXT: Ограниченный квест: Роггенрола
 
 RESOURCE ID: limited_research_roselia
-TEXT: Ограниченный квест: Розелияом
+TEXT: Ограниченный квест: Розелия
 
 RESOURCE ID: limited_research_roserade
-TEXT: Ограниченный квест: Розрейдом
+TEXT: Ограниченный квест: Розрейд
 
 RESOURCE ID: limited_research_rotom
-TEXT: Ограниченный квест: Ротомом
+TEXT: Ограниченный квест: Ротом
 
 RESOURCE ID: limited_research_rufflet
-TEXT: Ограниченный квест: Раффлетом
+TEXT: Ограниченный квест: Раффлет
 
 RESOURCE ID: limited_research_sableye
-TEXT: Ограниченный квест: Сэйблайом
+TEXT: Ограниченный квест: Сэйблай
 
 RESOURCE ID: limited_research_salamence
-TEXT: Ограниченный квест: Саламенсом
+TEXT: Ограниченный квест: Саламенс
 
 RESOURCE ID: limited_research_samurott
-TEXT: Ограниченный квест: Самуроттом
+TEXT: Ограниченный квест: Самуротт
 
 RESOURCE ID: limited_research_sandile
-TEXT: Ограниченный квест: Сэндайлом
+TEXT: Ограниченный квест: Сэндайл
 
 RESOURCE ID: limited_research_sandshrew
-TEXT: Ограниченный квест: Сэндшрюом
+TEXT: Ограниченный квест: Сэндшрю
 
 RESOURCE ID: limited_research_sandslash
-TEXT: Ограниченный квест: Сэндслэшом
+TEXT: Ограниченный квест: Сэндслэш
 
 RESOURCE ID: limited_research_sawk
-TEXT: Ограниченный квест: Суоком
+TEXT: Ограниченный квест: Суок
 
 RESOURCE ID: limited_research_sawsbuck
-TEXT: Ограниченный квест: Сосбаком
+TEXT: Ограниченный квест: Сосбак
 
 RESOURCE ID: limited_research_scatterbug
-TEXT: Ограниченный квест: Скаттербагом
+TEXT: Ограниченный квест: Скаттербаг
 
 RESOURCE ID: limited_research_sceptile
-TEXT: Ограниченный квест: Септайлом
+TEXT: Ограниченный квест: Септайл
 
 RESOURCE ID: limited_research_scizor
-TEXT: Ограниченный квест: Сизором
+TEXT: Ограниченный квест: Сизор
 
 RESOURCE ID: limited_research_scolipede
-TEXT: Ограниченный квест: Сколипидом
+TEXT: Ограниченный квест: Сколипид
 
 RESOURCE ID: limited_research_scrafty
-TEXT: Ограниченный квест: Скрафтиом
+TEXT: Ограниченный квест: Скрафти
 
 RESOURCE ID: limited_research_scraggy
-TEXT: Ограниченный квест: Скрэггиом
+TEXT: Ограниченный квест: Скрэгги
 
 RESOURCE ID: limited_research_scyther
-TEXT: Ограниченный квест: Скайтером
+TEXT: Ограниченный квест: Скайтер
 
 RESOURCE ID: limited_research_seadra
-TEXT: Ограниченный квест: Сидраом
+TEXT: Ограниченный квест: Сидра
 
 RESOURCE ID: limited_research_seaking
-TEXT: Ограниченный квест: Сикингом
+TEXT: Ограниченный квест: Сикинг
 
 RESOURCE ID: limited_research_sealeo
-TEXT: Ограниченный квест: Силеоом
+TEXT: Ограниченный квест: Силео
 
 RESOURCE ID: limited_research_seedot
-TEXT: Ограниченный квест: Сидотом
+TEXT: Ограниченный квест: Сидот
 
 RESOURCE ID: limited_research_seel
-TEXT: Ограниченный квест: Силом
+TEXT: Ограниченный квест: Сил
 
 RESOURCE ID: limited_research_seismitoad
-TEXT: Ограниченный квест: Сейсмитоудом
+TEXT: Ограниченный квест: Сейсмитоуд
 
 RESOURCE ID: limited_research_sentret
-TEXT: Ограниченный квест: Сентретом
+TEXT: Ограниченный квест: Сентрет
 
 RESOURCE ID: limited_research_serperior
-TEXT: Ограниченный квест: Серпериором
+TEXT: Ограниченный квест: Серпериор
 
 RESOURCE ID: limited_research_servine
-TEXT: Ограниченный квест: Сервайном
+TEXT: Ограниченный квест: Сервайн
 
 RESOURCE ID: limited_research_seviper
-TEXT: Ограниченный квест: Севайпером
+TEXT: Ограниченный квест: Севайпер
 
 RESOURCE ID: limited_research_sewaddle
-TEXT: Ограниченный квест: Севаддлом
+TEXT: Ограниченный квест: Севаддл
 
 RESOURCE ID: limited_research_sharpedo
-TEXT: Ограниченный квест: Шарпедоом
+TEXT: Ограниченный квест: Шарпедо
 
 RESOURCE ID: limited_research_shaymin
-TEXT: Ограниченный квест: Шеймином
+TEXT: Ограниченный квест: Шеймин
 
 RESOURCE ID: limited_research_shedinja
-TEXT: Ограниченный квест: Шединьяом
+TEXT: Ограниченный квест: Шединья
 
 RESOURCE ID: limited_research_shelgon
-TEXT: Ограниченный квест: Шелгоном
+TEXT: Ограниченный квест: Шелгон
 
 RESOURCE ID: limited_research_shellder
-TEXT: Ограниченный квест: Шеллдером
+TEXT: Ограниченный квест: Шеллдер
 
 RESOURCE ID: limited_research_shellos
-TEXT: Ограниченный квест: Шеллосом
+TEXT: Ограниченный квест: Шеллос
 
 RESOURCE ID: limited_research_shelmet
-TEXT: Ограниченный квест: Шелметом
+TEXT: Ограниченный квест: Шелмет
 
 RESOURCE ID: limited_research_shieldon
-TEXT: Ограниченный квест: Шилдоном
+TEXT: Ограниченный квест: Шилдон
 
 RESOURCE ID: limited_research_shiftry
-TEXT: Ограниченный квест: Шифтриом
+TEXT: Ограниченный квест: Шифтри
 
 RESOURCE ID: limited_research_shinx
-TEXT: Ограниченный квест: Шинксом
+TEXT: Ограниченный квест: Шинкс
 
 RESOURCE ID: limited_research_shroomish
-TEXT: Ограниченный квест: Шрумишом
+TEXT: Ограниченный квест: Шрумиш
 
 RESOURCE ID: limited_research_shuckle
-TEXT: Ограниченный квест: Шаклом
+TEXT: Ограниченный квест: Шакл
 
 RESOURCE ID: limited_research_shuppet
-TEXT: Ограниченный квест: Шаппетом
+TEXT: Ограниченный квест: Шаппет
 
 RESOURCE ID: limited_research_sigilyph
-TEXT: Ограниченный квест: Сигилифом
+TEXT: Ограниченный квест: Сигилиф
 
 RESOURCE ID: limited_research_silcoon
-TEXT: Ограниченный квест: Силкуном
+TEXT: Ограниченный квест: Силкун
 
 RESOURCE ID: limited_research_simipour
-TEXT: Ограниченный квест: Симипуром
+TEXT: Ограниченный квест: Симипур
 
 RESOURCE ID: limited_research_simisage
-TEXT: Ограниченный квест: Симисейджом
+TEXT: Ограниченный квест: Симисейдж
 
 RESOURCE ID: limited_research_simisear
-TEXT: Ограниченный квест: Симисиром
+TEXT: Ограниченный квест: Симисир
 
 RESOURCE ID: limited_research_skarmory
-TEXT: Ограниченный квест: Скармориом
+TEXT: Ограниченный квест: Скармори
 
 RESOURCE ID: limited_research_skiddo
-TEXT: Ограниченный квест: Скиддоом
+TEXT: Ограниченный квест: Скиддо
 
 RESOURCE ID: limited_research_skiploom
-TEXT: Ограниченный квест: Скиплумом
+TEXT: Ограниченный квест: Скиплум
 
 RESOURCE ID: limited_research_skitty
-TEXT: Ограниченный квест: Скиттиом
+TEXT: Ограниченный квест: Скитти
 
 RESOURCE ID: limited_research_skorupi
-TEXT: Ограниченный квест: Скорупиом
+TEXT: Ограниченный квест: Скорупи
 
 RESOURCE ID: limited_research_skrelp
-TEXT: Ограниченный квест: Скрелпом
+TEXT: Ограниченный квест: Скрелп
 
 RESOURCE ID: limited_research_skuntank
-TEXT: Ограниченный квест: Скантанком
+TEXT: Ограниченный квест: Скантанк
 
 RESOURCE ID: limited_research_slaking
-TEXT: Ограниченный квест: Слакингом
+TEXT: Ограниченный квест: Слакинг
 
 RESOURCE ID: limited_research_slakoth
-TEXT: Ограниченный квест: Слакотом
+TEXT: Ограниченный квест: Слакот
 
 RESOURCE ID: limited_research_sliggoo
-TEXT: Ограниченный квест: Слиггуом
+TEXT: Ограниченный квест: Слиггу
 
 RESOURCE ID: limited_research_slowbro
-TEXT: Ограниченный квест: Слоуброом
+TEXT: Ограниченный квест: Слоубро
 
 RESOURCE ID: limited_research_slowking
-TEXT: Ограниченный квест: Слоукингом
+TEXT: Ограниченный квест: Слоукинг
 
 RESOURCE ID: limited_research_slowpoke
-TEXT: Ограниченный квест: Слоупоком
+TEXT: Ограниченный квест: Слоупок
 
 RESOURCE ID: limited_research_slugma
-TEXT: Ограниченный квест: Слагмаом
+TEXT: Ограниченный квест: Слагма
 
 RESOURCE ID: limited_research_slurpuff
-TEXT: Ограниченный квест: Слёрпаффом
+TEXT: Ограниченный квест: Слёрпафф
 
 RESOURCE ID: limited_research_smeargle
-TEXT: Ограниченный квест: Смирглом
+TEXT: Ограниченный квест: Смиргл
 
 RESOURCE ID: limited_research_smoochum
-TEXT: Ограниченный квест: Смучумом
+TEXT: Ограниченный квест: Смучум
 
 RESOURCE ID: limited_research_sneasel
-TEXT: Ограниченный квест: Снизелом
+TEXT: Ограниченный квест: Снизел
 
 RESOURCE ID: limited_research_snivy
-TEXT: Ограниченный квест: Снайвиом
+TEXT: Ограниченный квест: Снайви
 
 RESOURCE ID: limited_research_snorlax
-TEXT: Ограниченный квест: Снорлаксом
+TEXT: Ограниченный квест: Снорлакс
 
 RESOURCE ID: limited_research_snorunt
-TEXT: Ограниченный квест: Снорантом
+TEXT: Ограниченный квест: Снорант
 
 RESOURCE ID: limited_research_snover
-TEXT: Ограниченный квест: Сноувером
+TEXT: Ограниченный квест: Сноувер
 
 RESOURCE ID: limited_research_snubbull
-TEXT: Ограниченный квест: Снаббуллом
+TEXT: Ограниченный квест: Снаббулл
 
 RESOURCE ID: limited_research_solosis
-TEXT: Ограниченный квест: Солосисом
+TEXT: Ограниченный квест: Солосис
 
 RESOURCE ID: limited_research_solrock
-TEXT: Ограниченный квест: Солроком
+TEXT: Ограниченный квест: Солрок
 
 RESOURCE ID: limited_research_spearow
-TEXT: Ограниченный квест: Спироуом
+TEXT: Ограниченный квест: Спироу
 
 RESOURCE ID: limited_research_spewpa
-TEXT: Ограниченный квест: Спьюпаом
+TEXT: Ограниченный квест: Спьюпа
 
 RESOURCE ID: limited_research_spheal
-TEXT: Ограниченный квест: Сфилом
+TEXT: Ограниченный квест: Сфил
 
 RESOURCE ID: limited_research_spinarak
-TEXT: Ограниченный квест: Спинараком
+TEXT: Ограниченный квест: Спинарак
 
 RESOURCE ID: limited_research_spinda
-TEXT: Ограниченный квест: Спиндаом
+TEXT: Ограниченный квест: Спинда
 
 RESOURCE ID: limited_research_spiritomb
-TEXT: Ограниченный квест: Спиритумом
+TEXT: Ограниченный квест: Спиритум
 
 RESOURCE ID: limited_research_spoink
-TEXT: Ограниченный квест: Споинком
+TEXT: Ограниченный квест: Споинк
 
 RESOURCE ID: limited_research_spritzee
-TEXT: Ограниченный квест: Спритциом
+TEXT: Ограниченный квест: Спритци
 
 RESOURCE ID: limited_research_squirtle
-TEXT: Ограниченный квест: Сквиртлом
+TEXT: Ограниченный квест: Сквиртл
 
 RESOURCE ID: limited_research_stantler
-TEXT: Ограниченный квест: Стантлером
+TEXT: Ограниченный квест: Стантлер
 
 RESOURCE ID: limited_research_staraptor
-TEXT: Ограниченный квест: Стараптором
+TEXT: Ограниченный квест: Стараптор
 
 RESOURCE ID: limited_research_staravia
-TEXT: Ограниченный квест: Старавияом
+TEXT: Ограниченный квест: Старавия
 
 RESOURCE ID: limited_research_starly
-TEXT: Ограниченный квест: Старлиом
+TEXT: Ограниченный квест: Старли
 
 RESOURCE ID: limited_research_starmie
-TEXT: Ограниченный квест: Стармиом
+TEXT: Ограниченный квест: Старми
 
 RESOURCE ID: limited_research_staryu
-TEXT: Ограниченный квест: Старьюом
+TEXT: Ограниченный квест: Старью
 
 RESOURCE ID: limited_research_steelix
-TEXT: Ограниченный квест: Стиликсом
+TEXT: Ограниченный квест: Стиликс
 
 RESOURCE ID: limited_research_stoutland
-TEXT: Ограниченный квест: Стаутлэндом
+TEXT: Ограниченный квест: Стаутлэнд
 
 RESOURCE ID: limited_research_stunfisk
-TEXT: Ограниченный квест: Станфиском
+TEXT: Ограниченный квест: Станфиск
 
 RESOURCE ID: limited_research_stunky
-TEXT: Ограниченный квест: Станкиом
+TEXT: Ограниченный квест: Станки
 
 RESOURCE ID: limited_research_sudowoodo
-TEXT: Ограниченный квест: Судовудуом
+TEXT: Ограниченный квест: Судовуду
 
 RESOURCE ID: limited_research_suicune
-TEXT: Ограниченный квест: Суикуном
+TEXT: Ограниченный квест: Суикун
 
 RESOURCE ID: limited_research_sunflora
-TEXT: Ограниченный квест: Санфлораом
+TEXT: Ограниченный квест: Санфлора
 
 RESOURCE ID: limited_research_sunkern
-TEXT: Ограниченный квест: Санкерном
+TEXT: Ограниченный квест: Санкерн
 
 RESOURCE ID: limited_research_surskit
-TEXT: Ограниченный квест: Сурскитом
+TEXT: Ограниченный квест: Сурскит
 
 RESOURCE ID: limited_research_swablu
-TEXT: Ограниченный квест: Сваблуом
+TEXT: Ограниченный квест: Сваблу
 
 RESOURCE ID: limited_research_swadloon
-TEXT: Ограниченный квест: Свадлуном
+TEXT: Ограниченный квест: Свадлун
 
 RESOURCE ID: limited_research_swalot
-TEXT: Ограниченный квест: Свалотом
+TEXT: Ограниченный квест: Свалот
 
 RESOURCE ID: limited_research_swampert
-TEXT: Ограниченный квест: Свампертом
+TEXT: Ограниченный квест: Свамперт
 
 RESOURCE ID: limited_research_swanna
-TEXT: Ограниченный квест: Суаннаом
+TEXT: Ограниченный квест: Суанна
 
 RESOURCE ID: limited_research_swellow
-TEXT: Ограниченный квест: Свеллоуом
+TEXT: Ограниченный квест: Свеллоу
 
 RESOURCE ID: limited_research_swinub
-TEXT: Ограниченный квест: Свинубом
+TEXT: Ограниченный квест: Свинуб
 
 RESOURCE ID: limited_research_swirlix
-TEXT: Ограниченный квест: Свирликсом
+TEXT: Ограниченный квест: Свирликс
 
 RESOURCE ID: limited_research_swoobat
-TEXT: Ограниченный квест: Свубатом
+TEXT: Ограниченный квест: Свубат
 
 RESOURCE ID: limited_research_sylveon
-TEXT: Ограниченный квест: Сильвеоном
+TEXT: Ограниченный квест: Сильвеон
 
 RESOURCE ID: limited_research_taillow
-TEXT: Ограниченный квест: Тэйллоуом
+TEXT: Ограниченный квест: Тэйллоу
 
 RESOURCE ID: limited_research_talonflame
-TEXT: Ограниченный квест: Талонфлеймом
+TEXT: Ограниченный квест: Талонфлейм
 
 RESOURCE ID: limited_research_tangela
-TEXT: Ограниченный квест: Тангелаом
+TEXT: Ограниченный квест: Тангела
 
 RESOURCE ID: limited_research_tangrowth
-TEXT: Ограниченный квест: Тэнгроутом
+TEXT: Ограниченный квест: Тэнгроут
 
 RESOURCE ID: limited_research_tauros
-TEXT: Ограниченный квест: Тауросом
+TEXT: Ограниченный квест: Таурос
 
 RESOURCE ID: limited_research_teddiursa
-TEXT: Ограниченный квест: Теддиурсаом
+TEXT: Ограниченный квест: Теддиурса
 
 RESOURCE ID: limited_research_tentacool
-TEXT: Ограниченный квест: Тентакулом
+TEXT: Ограниченный квест: Тентакул
 
 RESOURCE ID: limited_research_tentacruel
-TEXT: Ограниченный квест: Тентакрулом
+TEXT: Ограниченный квест: Тентакрул
 
 RESOURCE ID: limited_research_tepig
-TEXT: Ограниченный квест: Тепигом
+TEXT: Ограниченный квест: Тепиг
 
 RESOURCE ID: limited_research_terrakion
-TEXT: Ограниченный квест: Терракионом
+TEXT: Ограниченный квест: Терракион
 
 RESOURCE ID: limited_research_throh
-TEXT: Ограниченный квест: Трохом
+TEXT: Ограниченный квест: Трох
 
 RESOURCE ID: limited_research_thundurus
-TEXT: Ограниченный квест: Тандурусом
+TEXT: Ограниченный квест: Тандурус
 
 RESOURCE ID: limited_research_timburr
-TEXT: Ограниченный квест: Тимбёрром
+TEXT: Ограниченный квест: Тимбёрр
 
 RESOURCE ID: limited_research_tirtouga
-TEXT: Ограниченный квест: Тиртугаом
+TEXT: Ограниченный квест: Тиртуга
 
 RESOURCE ID: limited_research_togekiss
-TEXT: Ограниченный квест: Тогекиссом
+TEXT: Ограниченный квест: Тогекисс
 
 RESOURCE ID: limited_research_togepi
-TEXT: Ограниченный квест: Тогэпиом
+TEXT: Ограниченный квест: Тогэпи
 
 RESOURCE ID: limited_research_togetic
-TEXT: Ограниченный квест: Тогэтиком
+TEXT: Ограниченный квест: Тогэтик
 
 RESOURCE ID: limited_research_torchic
-TEXT: Ограниченный квест: Торчиком
+TEXT: Ограниченный квест: Торчик
 
 RESOURCE ID: limited_research_torkoal
-TEXT: Ограниченный квест: Торколом
+TEXT: Ограниченный квест: Торкол
 
 RESOURCE ID: limited_research_tornadus
-TEXT: Ограниченный квест: Торнадусом
+TEXT: Ограниченный квест: Торнадус
 
 RESOURCE ID: limited_research_torterra
-TEXT: Ограниченный квест: Тортерраом
+TEXT: Ограниченный квест: Тортерра
 
 RESOURCE ID: limited_research_totodile
-TEXT: Ограниченный квест: Тотодайлом
+TEXT: Ограниченный квест: Тотодайл
 
 RESOURCE ID: limited_research_toxicroak
-TEXT: Ограниченный квест: Токсикроуком
+TEXT: Ограниченный квест: Токсикроук
 
 RESOURCE ID: limited_research_tranquill
-TEXT: Ограниченный квест: Транквиллом
+TEXT: Ограниченный квест: Транквилл
 
 RESOURCE ID: limited_research_trapinch
-TEXT: Ограниченный квест: Трапинчом
+TEXT: Ограниченный квест: Трапинч
 
 RESOURCE ID: limited_research_treecko
-TEXT: Ограниченный квест: Трикоом
+TEXT: Ограниченный квест: Трико
 
 RESOURCE ID: limited_research_trevenant
-TEXT: Ограниченный квест: Тревенантом
+TEXT: Ограниченный квест: Тревенант
 
 RESOURCE ID: limited_research_tropius
-TEXT: Ограниченный квест: Тропиусом
+TEXT: Ограниченный квест: Тропиус
 
 RESOURCE ID: limited_research_trubbish
-TEXT: Ограниченный квест: Траббишом
+TEXT: Ограниченный квест: Траббиш
 
 RESOURCE ID: limited_research_turtwig
-TEXT: Ограниченный квест: Тортвигом
+TEXT: Ограниченный квест: Тортвиг
 
 RESOURCE ID: limited_research_tympole
-TEXT: Ограниченный квест: Тимпоулом
+TEXT: Ограниченный квест: Тимпоул
 
 RESOURCE ID: limited_research_tynamo
-TEXT: Ограниченный квест: Тинамоом
+TEXT: Ограниченный квест: Тинамо
 
 RESOURCE ID: limited_research_typhlosion
-TEXT: Ограниченный квест: Тайфложном
+TEXT: Ограниченный квест: Тайфложн
 
 RESOURCE ID: limited_research_tyranitar
-TEXT: Ограниченный квест: Тиранитаром
+TEXT: Ограниченный квест: Тиранитар
 
 RESOURCE ID: limited_research_tyrantrum
-TEXT: Ограниченный квест: Тайрантрамом
+TEXT: Ограниченный квест: Тайрантрам
 
 RESOURCE ID: limited_research_tyrogue
-TEXT: Ограниченный квест: Тайрогом
+TEXT: Ограниченный квест: Тайрог
 
 RESOURCE ID: limited_research_tyrunt
-TEXT: Ограниченный квест: Тайрантом
+TEXT: Ограниченный квест: Тайрант
 
 RESOURCE ID: limited_research_umbreon
-TEXT: Ограниченный квест: Амбреоном
+TEXT: Ограниченный квест: Амбреон
 
 RESOURCE ID: limited_research_unfezant
-TEXT: Ограниченный квест: Унфезантом
+TEXT: Ограниченный квест: Унфезант
 
 RESOURCE ID: limited_research_unown
-TEXT: Ограниченный квест: Аноуном
+TEXT: Ограниченный квест: Аноун
 
 RESOURCE ID: limited_research_ursaring
-TEXT: Ограниченный квест: Урсарингом
+TEXT: Ограниченный квест: Урсаринг
 
 RESOURCE ID: limited_research_uxie
-TEXT: Ограниченный квест: Юксиом
+TEXT: Ограниченный квест: Юкси
 
 RESOURCE ID: limited_research_vanillish
-TEXT: Ограниченный квест: Ваниллишом
+TEXT: Ограниченный квест: Ваниллиш
 
 RESOURCE ID: limited_research_vanillite
-TEXT: Ограниченный квест: Ваниллайтом
+TEXT: Ограниченный квест: Ваниллайт
 
 RESOURCE ID: limited_research_vanilluxe
-TEXT: Ограниченный квест: Ваниллюксом
+TEXT: Ограниченный квест: Ваниллюкс
 
 RESOURCE ID: limited_research_vaporeon
-TEXT: Ограниченный квест: Вапореоном
+TEXT: Ограниченный квест: Вапореон
 
 RESOURCE ID: limited_research_venipede
-TEXT: Ограниченный квест: Венипидом
+TEXT: Ограниченный квест: Венипид
 
 RESOURCE ID: limited_research_venomoth
-TEXT: Ограниченный квест: Веномотом
+TEXT: Ограниченный квест: Веномот
 
 RESOURCE ID: limited_research_venonat
-TEXT: Ограниченный квест: Венонатом
+TEXT: Ограниченный квест: Венонат
 
 RESOURCE ID: limited_research_venusaur
-TEXT: Ограниченный квест: Венузавром
+TEXT: Ограниченный квест: Венузавр
 
 RESOURCE ID: limited_research_vespiquen
-TEXT: Ограниченный квест: Веспиквеном
+TEXT: Ограниченный квест: Веспиквен
 
 RESOURCE ID: limited_research_vibrava
-TEXT: Ограниченный квест: Вибраваом
+TEXT: Ограниченный квест: Вибрава
 
 RESOURCE ID: limited_research_victini
-TEXT: Ограниченный квест: Виктиниом
+TEXT: Ограниченный квест: Виктини
 
 RESOURCE ID: limited_research_victreebel
-TEXT: Ограниченный квест: Виктрибелом
+TEXT: Ограниченный квест: Виктрибел
 
 RESOURCE ID: limited_research_vigoroth
-TEXT: Ограниченный квест: Вигоротом
+TEXT: Ограниченный квест: Вигорот
 
 RESOURCE ID: limited_research_vileplume
-TEXT: Ограниченный квест: Вайлплюмом
+TEXT: Ограниченный квест: Вайлплюм
 
 RESOURCE ID: limited_research_virizion
-TEXT: Ограниченный квест: Вирижионом
+TEXT: Ограниченный квест: Вирижион
 
 RESOURCE ID: limited_research_vivillon
-TEXT: Ограниченный квест: Вивийоном
+TEXT: Ограниченный квест: Вивийон
 
 RESOURCE ID: limited_research_volbeat
-TEXT: Ограниченный квест: Волбитом
+TEXT: Ограниченный квест: Волбит
 
 RESOURCE ID: limited_research_volcanion
-TEXT: Ограниченный квест: Вулканионом
+TEXT: Ограниченный квест: Вулканион
 
 RESOURCE ID: limited_research_volcarona
-TEXT: Ограниченный квест: Волкаронаом
+TEXT: Ограниченный квест: Волкарона
 
 RESOURCE ID: limited_research_voltorb
-TEXT: Ограниченный квест: Волторбом
+TEXT: Ограниченный квест: Волторб
 
 RESOURCE ID: limited_research_vullaby
-TEXT: Ограниченный квест: Виллабиом
+TEXT: Ограниченный квест: Виллаби
 
 RESOURCE ID: limited_research_vulpix
-TEXT: Ограниченный квест: Валпиксом
+TEXT: Ограниченный квест: Валпикс
 
 RESOURCE ID: limited_research_wailmer
-TEXT: Ограниченный квест: Вэйлмером
+TEXT: Ограниченный квест: Вэйлмер
 
 RESOURCE ID: limited_research_wailord
-TEXT: Ограниченный квест: Вэйлордом
+TEXT: Ограниченный квест: Вэйлорд
 
 RESOURCE ID: limited_research_walrein
-TEXT: Ограниченный квест: Валрейном
+TEXT: Ограниченный квест: Валрейн
 
 RESOURCE ID: limited_research_wartortle
-TEXT: Ограниченный квест: Вартортлом
+TEXT: Ограниченный квест: Вартортл
 
 RESOURCE ID: limited_research_watchog
-TEXT: Ограниченный квест: Уочхогом
+TEXT: Ограниченный квест: Уочхог
 
 RESOURCE ID: limited_research_weavile
-TEXT: Ограниченный квест: Вивайлом
+TEXT: Ограниченный квест: Вивайл
 
 RESOURCE ID: limited_research_weedle
-TEXT: Ограниченный квест: Видлом
+TEXT: Ограниченный квест: Видл
 
 RESOURCE ID: limited_research_weepinbell
-TEXT: Ограниченный квест: Випинбеллом
+TEXT: Ограниченный квест: Випинбелл
 
 RESOURCE ID: limited_research_weezing
-TEXT: Ограниченный квест: Визингом
+TEXT: Ограниченный квест: Визинг
 
 RESOURCE ID: limited_research_whimsicott
-TEXT: Ограниченный квест: Вимсикоттом
+TEXT: Ограниченный квест: Вимсикотт
 
 RESOURCE ID: limited_research_whirlipede
-TEXT: Ограниченный квест: Вирлипидом
+TEXT: Ограниченный квест: Вирлипид
 
 RESOURCE ID: limited_research_whiscash
-TEXT: Ограниченный квест: Вискашом
+TEXT: Ограниченный квест: Вискаш
 
 RESOURCE ID: limited_research_whismur
-TEXT: Ограниченный квест: Визмуром
+TEXT: Ограниченный квест: Визмур
 
 RESOURCE ID: limited_research_wigglytuff
-TEXT: Ограниченный квест: Вигглитаффом
+TEXT: Ограниченный квест: Вигглитафф
 
 RESOURCE ID: limited_research_wingull
-TEXT: Ограниченный квест: Вингаллом
+TEXT: Ограниченный квест: Вингалл
 
 RESOURCE ID: limited_research_wobbuffet
-TEXT: Ограниченный квест: Воббаффетом
+TEXT: Ограниченный квест: Воббаффет
 
 RESOURCE ID: limited_research_woobat
-TEXT: Ограниченный квест: Вубатом
+TEXT: Ограниченный квест: Вубат
 
 RESOURCE ID: limited_research_wooper
-TEXT: Ограниченный квест: Вупером
+TEXT: Ограниченный квест: Вупер
 
 RESOURCE ID: limited_research_wormadam
-TEXT: Ограниченный квест: Вормадамом
+TEXT: Ограниченный квест: Вормадам
 
 RESOURCE ID: limited_research_wurmple
-TEXT: Ограниченный квест: Вурмплом
+TEXT: Ограниченный квест: Вурмпл
 
 RESOURCE ID: limited_research_wynaut
-TEXT: Ограниченный квест: Вайнотом
+TEXT: Ограниченный квест: Вайнот
 
 RESOURCE ID: limited_research_xatu
-TEXT: Ограниченный квест: Ксатуом
+TEXT: Ограниченный квест: Ксату
 
 RESOURCE ID: limited_research_xerneas
-TEXT: Ограниченный квест: Зирнисом
+TEXT: Ограниченный квест: Зирнис
 
 RESOURCE ID: limited_research_yamask
-TEXT: Ограниченный квест: Ямаском
+TEXT: Ограниченный квест: Ямаск
 
 RESOURCE ID: limited_research_yanma
-TEXT: Ограниченный квест: Янмаом
+TEXT: Ограниченный квест: Янма
 
 RESOURCE ID: limited_research_yanmega
-TEXT: Ограниченный квест: Янмегаом
+TEXT: Ограниченный квест: Янмега
 
 RESOURCE ID: limited_research_yveltal
-TEXT: Ограниченный квест: Ивелталом
+TEXT: Ограниченный квест: Ивелтал
 
 RESOURCE ID: limited_research_zangoose
-TEXT: Ограниченный квест: Зангусом
+TEXT: Ограниченный квест: Зангус
 
 RESOURCE ID: limited_research_zapdos
-TEXT: Ограниченный квест: Запдосом
+TEXT: Ограниченный квест: Запдос
 
 RESOURCE ID: limited_research_zebstrika
-TEXT: Ограниченный квест: Зебстрикаом
+TEXT: Ограниченный квест: Зебстрика
 
 RESOURCE ID: limited_research_zekrom
-TEXT: Ограниченный квест: Зекромом
+TEXT: Ограниченный квест: Зекром
 
 RESOURCE ID: limited_research_zigzagoon
-TEXT: Ограниченный квест: Зигзагуном
+TEXT: Ограниченный квест: Зигзагун
 
 RESOURCE ID: limited_research_zoroark
-TEXT: Ограниченный квест: Зороарком
+TEXT: Ограниченный квест: Зороарк
 
 RESOURCE ID: limited_research_zorua
-TEXT: Ограниченный квест: Зоруаом
+TEXT: Ограниченный квест: Зоруа
 
 RESOURCE ID: limited_research_zubat
-TEXT: Ограниченный квест: Зубатом
+TEXT: Ограниченный квест: Зубат
 
 RESOURCE ID: limited_research_zweilous
-TEXT: Ограниченный квест: Цвайлосом
+TEXT: Ограниченный квест: Цвайлос
 
 RESOURCE ID: limited_research_zygarde
-TEXT: Ограниченный квест: Зайгардом
+TEXT: Ограниченный квест: Зайгард
 
 RESOURCE ID: live_events_shop_category_description
 TEXT: Присоединись к особому событию
@@ -7613,100 +7645,100 @@ RESOURCE ID: master_classic_title
 TEXT: Классическая Мастер-Лига
 
 RESOURCE ID: masterwork_sm_dialogue_1_0
-TEXT: Ah, %PLAYERNAME%! Glad to have you aboard this expedition. Say, have you ever heard this particular tune?
+TEXT: Ах, %PLAYERNAME%! Рад видеть тебя в составе этой экспедиции. Скажи, тебе доводилось когда-нибудь слышать эту мелодию?
 
 RESOURCE ID: masterwork_sm_dialogue_1_1
-TEXT: Da da da doo, da dee da dum... That’s what I hear in my head when I think of a certain sailor and his Wingull that I met while traveling through the Hoenn region in my younger years.
+TEXT: Да-да-да-ду, да-ди-да-дум... Эта мелодия звучит у меня в голове, когда я думаю об одном моряке и его Вингалле. Я встретил их в молодости во время путешествия по региону Хоэнн.
 
 RESOURCE ID: masterwork_sm_dialogue_1_2
-TEXT: I believe the tune was originally a sea shanty. Sailors would sing songs like this together on their seafaring adventures to keep morale high and help find a rhythm during certain tasks.
+TEXT: Думаю, изначально это была песня моряков. Во время путешествий моряки пели для поддержания боевого духа и более слаженной работы команды.
 
 RESOURCE ID: masterwork_sm_dialogue_1_3
-TEXT: I’m no sailor, but I do find myself feeling luckier after humming it! Haha!
+TEXT: Я, конечно, не мореплаватель, но я чувствую себя везучим, когда напеваю эту песню. Ха-ха!
 
 RESOURCE ID: masterwork_sm_dialogue_1_4
-TEXT: Anyway, we’re here to look into the strange situation we uncovered during your Kanto-themed journey.
+TEXT: В любом случае... мы здесь, чтобы разобраться в странной ситуации, с которой мы столкнулись во время твоего путешествия в Канто.
 
 RESOURCE ID: masterwork_sm_dialogue_1_5
-TEXT: I’m talking, of course, about reports of encounters with Mew, the New Species Pokémon. There have been several sightings of a Shiny one recently, which is tremendously exciting!
+TEXT: Я, конечно, имею в виду сообщения о появлении Мью, Покемона-Новые Особи. Недавно несколько раз был замечен сияющий экземпляр, что невероятно волнительно!
 
 RESOURCE ID: masterwork_sm_dialogue_1_6
-TEXT: That means our goal on this expedition is to find not only one of the most elusive Pokémon to ever exist, but a Shiny one at that!
+TEXT: Это означает, что цель этой экспедиции – обнаружить Покемона, которого практически невозможно найти. И, ко всему прочему, нам нужен Cияющий Мью!
 
 RESOURCE ID: masterwork_sm_dialogue_1_7
-TEXT: You’ve experienced a lot on your journeys thus far, %PLAYERNAME%. But perhaps the most wonderful thing about Pokémon is that there’s always something new to discover.
+TEXT: Тебе многое довелось узнать за время твоих приключений, %PLAYERNAME%. Но, пожалуй, самым удивительным в Покемонах мне кажется тот факт, что нам всегда будет что о них узнать.
 
 RESOURCE ID: masterwork_sm_dialogue_1_8
-TEXT: I hope you’re excited for what’s to come, because I have a feeling it’s going to be a real test of your skills as a Trainer!
+TEXT: Надеюсь, ты уже в предвкушении будущих событий. Что-то мне подсказывает, что это будет настоящей проверкой твоих тренерских способностей!
 
 RESOURCE ID: masterwork_sm_dialogue_1_9
 TEXT: ИДИ И ЛОВИ!
 
 RESOURCE ID: masterwork_sm_dialogue_2_0
-TEXT: Wow, %PLAYERNAME%—great work! Your knowledge of the Kanto region is beginning to rival even my own!
+TEXT: Вау, %PLAYERNAME%, отличная работа! Кажется, ты уже скоро будешь знать регион Канто так же хорошо, как я!
 
 RESOURCE ID: masterwork_sm_dialogue_2_1
-TEXT: Our next task is to learn more about Pokémon DNA.
+TEXT: Наша следующая задача – это больше узнать о ДНК Покемонов.
 
 RESOURCE ID: masterwork_sm_dialogue_2_2
-TEXT: I know that sounds pretty heavy on the science, but don’t worry—I’ll take care of that part. All I need you to do is get out there and catch lots of different types of Pokémon!
+TEXT: Знаю, звучит очень по-научному, но не волнуйся – эту часть я возьму на себя. Всё, что от тебя требуется – это поймать много разных типов Покемонов!
 
 RESOURCE ID: masterwork_sm_dialogue_2_3
-TEXT: Mew’s DNA is said to contain the genetic codes of all Pokémon, so to better understand Mew, we should try to understand as much as we can about the genetics of other Pokémon.
+TEXT: Считается, что ДНК Мью хранит в себе генетические коды всех Покемонов. Поэтому чтобы лучше понять Мью, нам нужно как можно больше узнать о генетике других Покемонов.
 
 RESOURCE ID: masterwork_sm_dialogue_3_0
-TEXT: Incredible work, %PLAYERNAME%! Seeing you learn so much about different Pokémon reminded me of how vast the world of Pokémon truly is.
+TEXT: Потрясающая работа, %PLAYERNAME%! Когда я вижу, как много ты узнаёшь о разных Покемонах, я вспоминаю, насколько всё-таки огромен их мир.
 
 RESOURCE ID: masterwork_sm_dialogue_3_1
-TEXT: Knowledge is funny in that the more we gain, the more realize how much we still lack. Some might find that frustrating, but for me it’s inspiring!
+TEXT: Знания – забавная вещь. Чем больше мы их получаем, тем яснее нам становится, как мало мы всё ещё знаем. У кого-то от этого опускаются руки, а вот меня это только вдохновляет!
 
 RESOURCE ID: masterwork_sm_dialogue_3_2
-TEXT: You know, there’s a part in that sea shanty I mentioned before that seems applicable here.
+TEXT: В песне моряков, о которой я говорил раньше, есть часть, которая как раз подходит к этому моменту.
 
 RESOURCE ID: masterwork_sm_dialogue_3_3
-TEXT: I don’t remember the exact words, but the gist is that we should travel across the land, searching far and wide to learn about all the amazing Pokémon there are in the world.
+TEXT: Точных слов я не помню, но речь там шла о том, что мы должны путешествовать, добираясь до самых далёких уголков мира. А цель этого пути – узнать обо всех удивительных Покемонах, которые есть на свете.
 
 RESOURCE ID: masterwork_sm_dialogue_3_4
-TEXT: Words to live by, I say! Let’s get out there and track down that Shiny Mew, Trainer!
+TEXT: Отличный девиз, я считаю! Пойдём искать Cияющего Мью, Тренер!
 
 RESOURCE ID: masterwork_sm_dialogue_4_0
-TEXT: %PLAYERNAME%, you... You did it! You actually found and caught a Shiny Mew!
+TEXT: % PLAYERNAME%, тебе... тебе удалось найти и поймать Сияющего Мью!
 
 RESOURCE ID: masterwork_sm_dialogue_4_1
-TEXT: Has it even sunk in yet? This is a monumental achievement, Trainer. Take a moment to congratulate yourself!
+TEXT: К тебе уже пришло осознание, что это действительно произошло? Это невероятный прорыв, Тренер. Можешь поздравить себя!
 
 RESOURCE ID: masterwork_sm_dialogue_4_2
-TEXT: Hm? It’s my achievement as well? Haha! No, no, I just hummed you a shanty and guided you like any Pokémon Professor worth their sea salt would.
+TEXT: Что? В этом есть и моя заслуга тоже? Ха-ха! Нет, нет! Я всего лишь пел песню моряков и направлял тебя – это просто капля в море.
 
 RESOURCE ID: masterwork_sm_dialogue_4_3
-TEXT: But thanks are certainly in order for the Pokémon you’ve befriended on your journey. They played a big part in your research, after all!
+TEXT: А вот Покемоны, с которыми тебе довелось подружиться во время этого приключения, безусловно, заслуживают твоей благодарности. В конце концов, они сыграли важную роль в твоих исследованиях!
 
 RESOURCE ID: masterwork_sm_dialogue_4_4
-TEXT: The ones you’ve caught, the ones you’ve battled with, and the ones that traveled with you as your buddy—each Pokémon played a critical part in helping you achieve this goal.
+TEXT: Каждый Покемон на твоём пути – будь то пойманный тобой Покемон или тот, который участвовал с тобой в сражении, или твой Покемон-приятель – каждый сыграл ключевую роль, помогая тебе достичь этой цели.
 
 RESOURCE ID: masterwork_sm_dialogue_4_5
-TEXT: As Trainers, we owe an eternal debt to our Pokémon. After all, we can’t very well be Trainers without them!
+TEXT: Мы, Тренеры, в большом долгу перед Покемонами. Ведь без них нам бы не быть Тренерами!
 
 RESOURCE ID: masterwork_sm_dialogue_4_6
-TEXT: A Trainer’s journey is meant to be filled with amazing memories, ambitious dreams, and unexpected adventures. I think this particular journey checked all those boxes pretty handily!
+TEXT: Путь Тренера должен быть наполнен удивительными событиями, амбициозными мечтами и неожиданными приключениями. Я считаю, что в этом путешествии всё это несомненно имело место!
 
 RESOURCE ID: masterwork_sm_dialogue_4_7
-TEXT: I’m sure it won’t be the last to do so, either. Now, until next time...let’s GO!
+TEXT: Я уверен, что этот раз будет не последним. До следующей встречи... ИДИ И ЛОВИ!
 
 RESOURCE ID: masterwork_sm_title
-TEXT: All-in-One #151
+TEXT: Все в одном №151
 
 RESOURCE ID: masterwork_sm_title_1
-TEXT: All-in-One #151 (1/4)
+TEXT: Все в одном №151 (1/4)
 
 RESOURCE ID: masterwork_sm_title_2
-TEXT: All-in-One #151 (2/4)
+TEXT: Все в одном №151 (2/4)
 
 RESOURCE ID: masterwork_sm_title_3
-TEXT: All-in-One #151 (3/4)
+TEXT: Все в одном №151 (3/4)
 
 RESOURCE ID: masterwork_sm_title_4
-TEXT: All-in-One #151 (4/4)
+TEXT: Все в одном №151 (4/4)
 
 RESOURCE ID: maximum_tags_error
 TEXT: Достигнуто максимальное число тегов: {0}.
@@ -7724,9 +7756,9 @@ RESOURCE ID: mega_evolve
 TEXT: МЕГАЭВОЛЮЦИЯ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-02-11T17:52:10.730049
-at SHA f17a0fb1257d4a3793641103566ffc3940d2fd1e
-Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e
+TEXT: Built at 2021-02-18T20:51:54.014750
+at SHA 5890d27a131a6c14c5700b7dc0ee92d127db700f
+Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052
 
 RESOURCE ID: mini_collection_feb21_gen1_event
 TEXT: Kanto Collection Challenge
@@ -7884,6 +7916,9 @@ TEXT: В твоей команде больше нет места.
 
 RESOURCE ID: pgp_tips_3_text_2
 TEXT: Нажми кнопку для поиска предметов на Покестопе. Разноцветное мигание означает, что предметы были найдены, а красный цвет – что ты слишком далеко от Покестопа.
+
+RESOURCE ID: photobomb_five_fletchling
+TEXT: 5 surprise encounters with Fletchling in GO Snapshot
 
 RESOURCE ID: photobomb_five_machop
 TEXT: 5 surprise encounters with Machop in GO Snapshot
@@ -8825,6 +8860,18 @@ TEXT: Рунеригус
 RESOURCE ID: pokemon_transfer_legendary_confirmation
 TEXT: Среди выбранных тобой Покемонов есть Легендарные или Мифические Покемоны! Ты точно хочешь передать выбранных Покемонов?
 
+RESOURCE ID: pokemon_type_bug
+TEXT: Насекомое
+
+RESOURCE ID: pokemon_type_fighting
+TEXT: Сражение
+
+RESOURCE ID: pokemon_type_flying
+TEXT: Летающий
+
+RESOURCE ID: pokemon_type_ghost
+TEXT: Привидение
+
 RESOURCE ID: pokemontype_filter_group_key
 TEXT: Тип Покемона
 
@@ -9286,6 +9333,9 @@ TEXT: Непростые хвосты
 
 RESOURCE ID: quest_complete_elect
 TEXT: Электризующий Электабазз
+
+RESOURCE ID: quest_complete_flett
+TEXT: The Bravest Bird
 
 RESOURCE ID: quest_complete_hallowyamas
 TEXT: Жуткая развязка: срывая маски
@@ -10460,6 +10510,15 @@ TEXT: Кламперл-квест – Сделай хорошие броски: 
 RESOURCE ID: quest_febresearchday_land_nice_plural
 TEXT: Кламперл-квест – Сделай хорошие броски: {0}
 
+RESOURCE ID: quest_flett_catch_b
+TEXT: Catch {0} Fletchling
+
+RESOURCE ID: quest_flett_evolve_b
+TEXT: Evolve {0} Fletchling
+
+RESOURCE ID: quest_flett_evolve_s1
+TEXT: Evolve {0} Fletchinder
+
 RESOURCE ID: quest_gofest_0
 TEXT: Фестиваль GO – Поймай {0} Покемонов
 
@@ -10960,6 +11019,87 @@ TEXT: Раз уж в моей мобильной лаборатории снов
 
 RESOURCE ID: quest_special_dialogue_elect_3_6
 TEXT: Ещё раз спасибо тебе за помощь, и до встречи, а пока ИДИ И ЛОВИ!
+
+RESOURCE ID: quest_special_dialogue_flett_0_0
+TEXT: Hey there, %PLAYERNAME%. Hope you are doing well.
+
+RESOURCE ID: quest_special_dialogue_flett_0_1
+TEXT: Me? Well, I’ve had a wonderful day so far visiting with this large group of Fletchling that has seemingly migrated to the area.
+
+RESOURCE ID: quest_special_dialogue_flett_0_2
+TEXT: I overheard their beautiful chirps and just had to investigate and they totally stole my heart.
+
+RESOURCE ID: quest_special_dialogue_flett_0_3
+TEXT: This Tiny Robin Pokémon is actually quite amiable and easy to train. But when battle is joined, it shows its ferocious side!
+
+RESOURCE ID: quest_special_dialogue_flett_0_4
+TEXT: These Pokémon are known to be quite friendly, but the number of them in the area is a bit odd.
+
+RESOURCE ID: quest_special_dialogue_flett_0_5
+TEXT: Would you mind completing some tasks so we can get some more information on what is happening?
+
+RESOURCE ID: quest_special_dialogue_flett_1_0
+TEXT: Great work, Trainer. Looks like you have your very own Fletchling to join you on your journey!
+
+RESOURCE ID: quest_special_dialogue_flett_1_1
+TEXT: Did you know, its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed.
+
+RESOURCE ID: quest_special_dialogue_flett_1_2
+TEXT: I’m always so fascinated to learn about how Pokémon and their Trainers work and live together. I’m going to remember this bit of information on the next cold night.
+
+RESOURCE ID: quest_special_dialogue_flett_1_3
+TEXT: Anyway, this Normal- and Flying-Type Pokémon actually evolves into the Fire- and Flying-Type Pokémon, Fletchinder.
+
+RESOURCE ID: quest_special_dialogue_flett_1_4
+TEXT: Known as the Ember Pokémon, they are exceedingly territorial and aggressive.
+
+RESOURCE ID: quest_special_dialogue_flett_1_5
+TEXT: They are also incredibly fast, its speed right after takeoff already puts it in the top speed class of all bird Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_1_6
+TEXT: When you are ready, I think it is time for you to evolve your Fletchling into Fletchinder.
+
+RESOURCE ID: quest_special_dialogue_flett_2_0
+TEXT: Ah, what a fine looking Fletchinder you have there, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_flett_2_1
+TEXT: While you were out completing your research, I was recalling some information about this interesting Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_2_2
+TEXT: Take this training tip seriously, don't just WING it - make sure to take care and not burn yourself when training your Fletchinder.
+
+RESOURCE ID: quest_special_dialogue_flett_2_3
+TEXT: From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.
+
+RESOURCE ID: quest_special_dialogue_flett_2_4
+TEXT: Remember, only you can prevent high grass fires.
+
+RESOURCE ID: quest_special_dialogue_flett_2_5
+TEXT: We are making great progress on our research, however, there is a few more things I’d like you to do.
+
+RESOURCE ID: quest_special_dialogue_flett_2_6
+TEXT: I’d love to observe a Talonflame, do you think you could evolve your Fletchinder? I’ve wanted to take a closer look at their incredible wings.
+
+RESOURCE ID: quest_special_dialogue_flett_3_0
+TEXT: Welcome back, %PLAYERNAME% and hello, Talonflame!
+
+RESOURCE ID: quest_special_dialogue_flett_3_1
+TEXT: Thank you for all your hard work today, but it certainly looks like it paid off now that you have the Scorching Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_3_2
+TEXT: I certainly think they will make a great addition to your team, in the fever of an exciting battle it showers embers from the gaps between its feathers and takes to the air.
+
+RESOURCE ID: quest_special_dialogue_flett_3_3
+TEXT: Being both Fire- and Flying-Type, Talonflame has tough wings that don’t allow fire to pass through them. A long time ago, firefighters' outfits were made from Talonflame wings.
+
+RESOURCE ID: quest_special_dialogue_flett_3_4
+TEXT: Simply amazing, I’m always so impressed by this brave bird and can’t wait to see what the two of you as a team accomplish.
+
+RESOURCE ID: quest_special_dialogue_flett_3_5
+TEXT: I really appreciate your help today looking into this situation and hope you learned some useful information about this fiery family of Pokémon.
+
+RESOURCE ID: quest_special_dialogue_flett_3_6
+TEXT: Until next time, let’s GO!
 
 RESOURCE ID: quest_special_dialogue_galarian_mrmime_0_0
 TEXT: %PLAYERNAME%! Рад тебя видеть! В последнее время со мной происходят очень странные вещи.
@@ -11936,6 +12076,21 @@ TEXT: Электризующий Электабазз (3/4)
 RESOURCE ID: quest_title_elect_3
 TEXT: Электризующий Электабазз (4/4)
 
+RESOURCE ID: quest_title_flett
+TEXT: The Bravest Bird
+
+RESOURCE ID: quest_title_flett_0
+TEXT: The Bravest Bird (1/4)
+
+RESOURCE ID: quest_title_flett_1
+TEXT: The Bravest Bird (2/4)
+
+RESOURCE ID: quest_title_flett_2
+TEXT: The Bravest Bird (3/4)
+
+RESOURCE ID: quest_title_flett_3
+TEXT: The Bravest Bird (4/4)
+
 RESOURCE ID: quest_title_galarian_mrmime
 TEXT: Стук-постук
 
@@ -12127,6 +12282,9 @@ TEXT: День св. Валентина – Поймай {0} Лавдисков
 
 RESOURCE ID: quest_val19_catch_specific_singular
 TEXT: День св. Валентина – Поймай 1 Ченси
+
+RESOURCE ID: quest_visit_different_pokestops
+TEXT: Покрути разные Покестопы: {0}
 
 RESOURCE ID: quest_visit_pokestop_new_plural
 TEXT: Покрути новые Покестопы: {0}
@@ -16559,6 +16717,9 @@ TEXT: Особые рейдовые выходные: Цвайлос
 RESOURCE ID: raid_weekend_zygarde
 TEXT: Особые рейдовые выходные: Зайгард
 
+RESOURCE ID: raid_xp_25_fivestar
+TEXT: 1.25x five-star Raid XP
+
 RESOURCE ID: raid_xp_double
 TEXT: 2× XP за рейд
 
@@ -16584,10 +16745,13 @@ RESOURCE ID: remote_raid_remote_trainer_bonus
 TEXT: Больше Тренеров может сражаться в удалённых рейдах
 
 RESOURCE ID: reorder_pokemon_tag_error
-TEXT: Failed to reorder tag
+TEXT: Не удалось упорядочить тег
 
 RESOURCE ID: retention_friend_bonus_message
 TEXT: <i>Pokémon Go</i> гораздо веселее с друзьями! Ты можешь получать очки опыта (XP), яйца и предметы, обмениваясь подарками с друзьями.
+
+RESOURCE ID: retro_cup_title
+TEXT: Ретро-кубок
 
 RESOURCE ID: rock_type_event
 TEXT: Активизация типа: Камень
@@ -16796,6 +16960,9 @@ TEXT: Ты справишься!
 RESOURCE ID: spark_inspire#2
 TEXT: У тебя ещё получится!
 
+RESOURCE ID: spawn_fletchling
+TEXT: More Fletchling are appearing in the wild
+
 RESOURCE ID: spawn_machop
 TEXT: More Machop are appearing in the wild
 
@@ -16866,6 +17033,9 @@ RESOURCE ID: ticket_electabuzz_description
 TEXT: Билет для получения доступа к квесту «Электризующий Электабазз» 15 ноября 2020 г. с 11 до 17 часов по местному времени, независимо от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
 
 ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ СОБЫТИЯ, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
+
+RESOURCE ID: ticket_fletchling
+TEXT: Ticket for Special Research story available in the Shop: The Bravest Bird
 
 RESOURCE ID: ticket_machop
 TEXT: Tickets for the Straight to the Top, Machop! Special Research story available in the shop
@@ -17033,7 +17203,7 @@ RESOURCE ID: upload_mgmt_ar_scans
 TEXT: Сканы Покестопа ({0})
 
 RESOURCE ID: upload_mgmt_confirm_delete_individual
-TEXT: Ты хочешь удалить эту заявку ({0})?
+TEXT: Ты хочешь удалить эту заявку?
 
 RESOURCE ID: upload_mgmt_confirm_yes
 TEXT: ДА
@@ -17114,7 +17284,7 @@ RESOURCE ID: upmgmt_delete_cancel
 TEXT: ОТМЕНИТЬ
 
 RESOURCE ID: upmgmt_delete_msg
-TEXT: Ты хочешь удалить эту заявку ({0})?
+TEXT: Ты хочешь удалить эту заявку?
 
 RESOURCE ID: upmgmt_delete_yes
 TEXT: ДА
@@ -17183,13 +17353,13 @@ RESOURCE ID: upmgmt_settings_cancel_all
 TEXT: ОТМЕНА ЗАГРУЗКИ
 
 RESOURCE ID: upmgmt_settings_header
-TEXT: POKÉSTOP CONTRIBUTION
+TEXT: ДОБАВЛЕНИЯ К ПОКЕСТОПУ
 
 RESOURCE ID: upmgmt_settings_info_button
-TEXT: (Nomination Guidelines)
+TEXT: (Правила подачи заявок)
 
 RESOURCE ID: upmgmt_settings_info_title
-TEXT: Player Nominations
+TEXT: Заявки игрока
 
 RESOURCE ID: upmgmt_settings_manage
 TEXT: УПРАВЛЕНИЕ
@@ -17207,7 +17377,7 @@ RESOURCE ID: upmgmt_settings_upload_all
 TEXT: ЗАГРУЗИТЬ ВСЕ ({0} МБ)
 
 RESOURCE ID: upmgmt_settings_uploading_progress
-TEXT: Uploading PokéStop Contributions
+TEXT: Загрузка правок и добавлений к Покестопу
 
 RESOURCE ID: upmgmt_summary_failure_header
 TEXT: Ошибка загрузки
