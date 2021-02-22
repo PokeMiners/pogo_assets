@@ -362,7 +362,7 @@ RESOURCE ID: appraise_v2_dateless_uncached_loc
 TEXT: Dieses {0} wurde in der Nähe von
 
 RESOURCE ID: appraise_v2_late_address
-TEXT: {0} gefangen.
+TEXT:  in der Nähe von {0} gefangen.
 
 RESOURCE ID: appraise_v2_mystery_origin
 TEXT: Die Herkunft dieses {0} ist unbekannt!
@@ -3452,6 +3452,18 @@ TEXT: Weltweit, 25.–26. Juli 2020
 RESOURCE ID: badge_gofest_2020_global_title
 TEXT: Pokémon GO-Fest
 
+RESOURCE ID: badge_gotour_2021_green_global
+TEXT: Global, 20. Februar 2021
+
+RESOURCE ID: badge_gotour_2021_green_global_title
+TEXT: Pokémon GO-Tour: Kanto
+
+RESOURCE ID: badge_gotour_2021_red_global
+TEXT: Global, 20. Februar 2021
+
+RESOURCE ID: badge_gotour_2021_red_global_title
+TEXT: Pokémon GO-Tour: Kanto
+
 RESOURCE ID: badge_great_league
 TEXT: Gewinne {0} Trainerkämpfe in der Superliga.
 
@@ -5260,7 +5272,7 @@ RESOURCE ID: buddy_tutorial_basic_content_p1
 TEXT: Du verdienst ein Herz pro {0} km, die du mit deinem Kumpel spazieren gehst, bis zu {1}-mal pro Tag. Die gelaufene Distanz wird nur gezählt, solange dein Kumpel mit dir auf der Karte geht.
 
 RESOURCE ID: buddy_tutorial_basic_content_p2
-TEXT: Wenn dein Kumpel hungrig ist, gib ihm einen Snack. Du verdienst ein Herz für jeden Snack, bis dein Kumpel satt ist.
+TEXT: Wenn dein Kumpel hungrig ist, gib ihm einen Snack. Füttere ihn, bis er satt ist, und du kannst ein Herz verdienen.
 
 RESOURCE ID: buddy_tutorial_basic_content_p3
 TEXT: Wenn du mit deinem Kumpel im AR-Modus spielst, steigt sein Wohlbefinden und du verdienst ein Herz.
@@ -5957,7 +5969,7 @@ RESOURCE ID: challenge_snapshot_pkmn_water_single
 TEXT: Mache einen Schnappschuss von einem Pokémon vom Typ Wasser.
 
 RESOURCE ID: change to upload later
-TEXT: CHANGE TO UPLOAD LATER
+TEXT: SPÄTER HOCHLADEN
 
 RESOURCE ID: change_stickers_button
 TEXT: STICKER ÄNDERN
@@ -5976,6 +5988,9 @@ TEXT: Lade-TMs können nicht bei Crypto-Pokémon eingesetzt werden.
 
 RESOURCE ID: chicago_fest_july_2017_title
 TEXT: <i>Pokémon GO</i>-Fest
+
+RESOURCE ID: choose_event_variant_failed
+TEXT: Auswahl der Event-Version fehlgeschlagen. Versuche es später erneut.
 
 RESOURCE ID: city_abomey_calavi
 TEXT: Abomey-Calavi
@@ -7500,6 +7515,9 @@ TEXT: Community Day
 RESOURCE ID: community_day_gastly_event_name
 TEXT: Community Day: Nebulak
 
+RESOURCE ID: community_day_machop_event_name
+TEXT: Community Day: Machollo
+
 RESOURCE ID: community_day_magikarp_event_name
 TEXT: Community Day: Karpador
 
@@ -7508,6 +7526,9 @@ TEXT: Community Day: Magmar
 
 RESOURCE ID: community_day_porygon_event_name
 TEXT: Community Day: Porygon
+
+RESOURCE ID: community_day_roselia_event_name
+TEXT: Community Day: Roselia
 
 RESOURCE ID: community_day_seedot_event_name
 TEXT: Community Day: Samurzel
@@ -7819,7 +7840,7 @@ RESOURCE ID: egg_received
 TEXT: So ein Glück! Du hast ein Ei erhalten!
 
 RESOURCE ID: egg_transparency_available_pokemon
-TEXT: Available Pokémon
+TEXT: SCHLÜPFBARE POKÉMON
 
 RESOURCE ID: egg_walk_to_hatch
 TEXT: Laufe {0} km, um das Ei schlüpfen zu lassen!
@@ -8268,8 +8289,14 @@ TEXT: Kalos-Feier-Event
 RESOURCE ID: event_kanto_celebration
 TEXT: Kanto-Feier-Event
 
+RESOURCE ID: event_mega_evolve_reminder
+TEXT: Erhalte mehr Fang-Bonbons von Pokémon, bei denen die Mega-Entwicklung ausgelöst wurde.
+
 RESOURCE ID: event_move_alakazam_counter
 TEXT: Entwickle Kadabra zu Simsala, die die Sofort-Attacke Konter beherrschen.
+
+RESOURCE ID: event_move_ampharos_dragon_pulse
+TEXT: Entwickle Waaty, um ein Ampharos mit Drachenpuls zu erhalten.
 
 RESOURCE ID: event_registration_success
 TEXT: Du hast dich erfolgreich für {0} registriert!
@@ -9354,7 +9381,7 @@ RESOURCE ID: general1.ticket.1_title
 TEXT: Galar-Pantimos-Event-Ticket
 
 RESOURCE ID: general1.ticket.2_description
-TEXT: Ein Ticket zur Teilnahme am Galar-Pantimos-Event vom 19. Dezember 2020 um 10:00 Uhr bis zum 20. Dezember 2020 um 20:00 Uhr Ortszeit (wo immer du dich befindest). Details unter „Neuigkeiten“ im Spiel.
+TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Ganz nach oben, Machollo!“ am 16. Januar 2021 von 11:00 Uhr bis 17:00 Uhr Ortszeit (wo immer du dich befindest). Details unter „Neuigkeiten“ im Spiel.
 
 DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZIAL-EVENTS ZU ERHALTEN.
 
@@ -9363,8 +9390,16 @@ TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Kein Problem für Magm
 
 DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZIAL-EVENTS ZU ERHALTEN.
 
+RESOURCE ID: general1.ticket.2_roset_description
+TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Es ist ein Roselia entsprungen“ am 7. Februar 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest). Details unter „Neuigkeiten“ im Spiel.
+
+DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZIAL-EVENTS ZU ERHALTEN.
+
+RESOURCE ID: general1.ticket.2_roset_title
+TEXT: Ticket: Es ist ein Roselia entsprungen
+
 RESOURCE ID: general1.ticket.2_title
-TEXT: Galar-Pantimos-Event-Ticket
+TEXT: Ticket: Ganz nach oben, Machollo!
 
 RESOURCE ID: general1.ticket.2_title_2
 TEXT: Ticket: Kein Problem für Magmar
@@ -10230,6 +10265,42 @@ TEXT: Authentifizierung fehlgeschlagen. Versuche es noch mal.
 RESOURCE ID: google_login_button
 TEXT: Google
 
+RESOURCE ID: gotour2021_choose_green
+TEXT: Grün auswählen
+
+RESOURCE ID: gotour2021_choose_red
+TEXT: Rot auswählen
+
+RESOURCE ID: gotour2021_choose_version_desc
+TEXT: Sobald du deine Event-Version ausgewählt hast, kannst du diese nicht mehr ändern.
+
+RESOURCE ID: gotour2021_choose_version_title_green
+TEXT: Möchtest du die Grüne Edition wählen?
+
+RESOURCE ID: gotour2021_choose_version_title_red
+TEXT: Möchtest du die Rote Edition wählen?
+
+RESOURCE ID: gotour2021_content_hashtag
+TEXT: Poste Fotos mit #PokemonGOTour und wir teilen unsere Favoriten!
+
+RESOURCE ID: gotour2021_content_link_green
+TEXT: Du hast Grüne Edition gewählt.
+
+RESOURCE ID: gotour2021_content_link_red
+TEXT: Du hast Rote Edition gewählt.
+
+RESOURCE ID: gotour2021_content_link_short
+TEXT: Poste Fotos mit #PokemonGOTour und wir teilen unsere Favoriten!
+
+RESOURCE ID: gotour2021_minicollect_description_ongoing
+TEXT: Fange, tausche oder entwickle diese Pokémon, bevor die Zeit abläuft, um deine Sammler-Herausforderungen für die Pokémon GO-Tour: Kanto abzuschließen!
+
+RESOURCE ID: gotour2021_welcome_green
+TEXT: Willkommen zur Pokémon GO-Tour: Kanto!
+
+RESOURCE ID: gotour2021_welcome_red
+TEXT: Willkommen zur Pokémon GO-Tour: Kanto!
+
 RESOURCE ID: group_seasonal
 TEXT: Feiertage
 
@@ -10378,7 +10449,7 @@ RESOURCE ID: grunt_bf_defeat#4
 TEXT: Ich habe nur verloren, weil ich diese geliehenen Pokémon benutze! Du bist Team Rocket nicht gewachsen!
 
 RESOURCE ID: grunt_bf_greeting#1
-TEXT: Um die Welt vor Verwüstung zu schützen!
+TEXT: Wir wollen über die Erde regieren ...
 
 RESOURCE ID: grunt_bf_victory#1
 TEXT: Da habe ich gerade Liebe und Wahrheit verurteilt!
@@ -11503,6 +11574,9 @@ TEXT: Rauch-Tag
 RESOURCE ID: incense_day_pokemon_carvanha
 TEXT: Kanivanha werden von Rauch angelockt.
 
+RESOURCE ID: incense_day_pokemon_mareep
+TEXT: Voltilamm werden von Rauch angelockt.
+
 RESOURCE ID: incense_day_pokemon_sentret
 TEXT: Wiesor werden von Rauch angelockt
 
@@ -11825,7 +11899,7 @@ RESOURCE ID: item_dragon_scale_name
 TEXT: Drachenhaut
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Ein Ticket für den Zugang zur Spezialforschung vom 19. Dezember 2020 um 10:00 Uhr bis zum 20. Dezember 2020 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
+TEXT: Ein Ticket für den Zugang zur Spezialforschung am 16. Januar 2021 von 11:00 Uhr bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_desc_2
 TEXT: Ein Ticket für den Zugang zur Spezialforschung am 21. November 2020 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
@@ -11834,7 +11908,7 @@ RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: Ein Ticket für den Zugang zur Spezialforschung vom 19. Dezember 2020 um 10:00 Uhr bis zum 20. Dezember 2020 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Galar-Pantimos-Event vom 19. Dezember 2020 um 10:00 Uhr bis zum 20. Dezember 2020 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung am 16. Januar 2021 von 11:00 Uhr bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_details_2
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung am 21. November (wo immer du dich befindest).
@@ -11844,6 +11918,12 @@ TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Galar
 
 RESOURCE ID: item_event_ticket_pink_name
 TEXT: Ticket
+
+RESOURCE ID: item_event_ticket_pink_roset_desc
+TEXT: Ein Ticket für den Zugang zur Spezialforschung am 7. Februar 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_event_ticket_pink_roset_details
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung am 7. Februar 2021 von 11:00 Uhr bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_free_raid_ticket_desc
 TEXT: Pass für die Teilnahme an einem Raid-Kampf. Du bekommst pro Tag einen kostenlosen Pass bei einer Arena, wenn du noch keinen hast.
@@ -11880,6 +11960,16 @@ TEXT: Ein Ticket für den Zugang zur Spezialforschung am 20. Februar 2021 von 9:
 
 RESOURCE ID: item_global_event_ticket_details
 TEXT: Dieses Ticket aktiviert sich automatisch am 20. Februar 2021 um 9:00 Uhr (Ortszeit).
+
+RESOURCE ID: item_global_event_ticket_details_no_version_selected
+TEXT: Dieses Ticket wird automatisch aktiviert und du erhältst damit am 20. Februar 2021 Zugang zu einem besonderen Event (wo immer du dich befindest).
+
+Du musst eine Event-Version auswählen, um teilzunehmen. Versuche eine andere Version als die deiner Freunde zu wählen, damit du Pokémon tauschen kannst, um die Sammler-Herausforderungen abzuschließen!
+
+RESOURCE ID: item_global_event_ticket_details_version_selected
+TEXT: Dieses Ticket wird automatisch aktiviert und du erhältst damit am 20. Februar 2021 Zugang zu einem besonderen Event (wo immer du dich befindest).
+
+Du kannst die von dir gewählte Event-Version bei den Medaillen in deinem Trainer-Profil einsehen.
 
 RESOURCE ID: item_global_event_ticket_name
 TEXT: Ticket
@@ -12370,6 +12460,9 @@ TEXT: Begrenzte Forschung mit Mauzi
 RESOURCE ID: limited_research_nidoran
 TEXT: Begrenzte Forschung mit Nidoran♀ und Nidoran♂
 
+RESOURCE ID: limited_research_sneasel
+TEXT: Begrenzte Forschung mit Sniebel
+
 RESOURCE ID: limited_research_snubbull
 TEXT: Begrenzte Forschung mit Snubbull
 
@@ -12466,6 +12559,9 @@ TEXT: Benutzernamen eingeben
 
 RESOURCE ID: login_username_short
 TEXT: Benutzername
+
+RESOURCE ID: love_cup_title
+TEXT: Love-Cup
 
 RESOURCE ID: lucky_egg_duration_double
 TEXT: 2× Glücks-Ei-Wirkungszeit
@@ -12866,15 +12962,18 @@ RESOURCE ID: mega_walking_progress
 TEXT: Lauffortschritt
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2021-01-28T10:47:41.267876
-at SHA c67f002e53f553a680660598e0ae6a05bd805363
-Pipeline 549386, job 4886650
+TEXT: Built at 2021-02-18T11:31:15.726265
+at SHA f3ff6052fe83a0f0d5d00cac4d18c15a24b9c347
+Pipeline 564226, job 5051231
 
 RESOURCE ID: mini_collection_feb21_gen1_event
 TEXT: Kanto-Sammler-Herausforderung
 
 RESOURCE ID: mini_collection_jan21_gen2_event
 TEXT: Johto-Sammler-Herausforderung
+
+RESOURCE ID: mini_collection_jan21_gen2_legend_event
+TEXT: Johto-Feier: Legendäre Kollektion
 
 RESOURCE ID: mini_collection_jan21_gen3_event
 TEXT: Hoenn-Sammler-Herausforderung
@@ -12884,6 +12983,9 @@ TEXT: Sinnoh-Sammler-Herausforderung
 
 RESOURCE ID: mini_collection_jan21_gen5_event
 TEXT: Einall-Sammler-Herausforderung
+
+RESOURCE ID: mini_collection_jan21_shadow_event
+TEXT: Johto-Feier: Rocket-Kollektion
 
 RESOURCE ID: minicollect_completion_date_format
 TEXT: dd.M.yyyy
@@ -14172,6 +14274,12 @@ TEXT: Öffnen
 RESOURCE ID: open_settings
 TEXT: Einstellungen öffnen
 
+RESOURCE ID: open_sponsored_balloon_postcard_message
+TEXT: Viel Spaß mit diesen kostenlosen Items von <b>{0}</b>!
+
+RESOURCE ID: open_sponsored_gift_button
+TEXT: Öffnen
+
 RESOURCE ID: other_section_title
 TEXT: Sonstiges
 
@@ -14393,6 +14501,9 @@ TEXT: 5 überraschende Begegnungen mit Elektek in GO-Schnappschuss
 RESOURCE ID: photobomb_five_gastly
 TEXT: 5 überraschende Begegnungen mit Nebulak in GO-Schnappschuss
 
+RESOURCE ID: photobomb_five_machop
+TEXT: 5 überraschende Begegnungen mit Machollo in GO-Schnappschuss
+
 RESOURCE ID: photobomb_five_magikarp
 TEXT: 5 überraschende Begegnungen mit Karpador in GO-Schnappschuss
 
@@ -14401,6 +14512,9 @@ TEXT: 5 überraschende Begegnungen mit Magmar in GO-Schnappschuss
 
 RESOURCE ID: photobomb_five_porygon
 TEXT: 5 überraschende Begegnungen mit Porygon in GO-Schnappschuss.
+
+RESOURCE ID: photobomb_five_roselia
+TEXT: 5 überraschende Begegnungen mit Roselia in GO-Schnappschuss
 
 RESOURCE ID: photobomb_five_seedot
 TEXT: 5 überraschende Begegnungen mit Samurzel in GO-Schnappschuss
@@ -14815,7 +14929,10 @@ RESOURCE ID: poi_contrib_unavailable_min_player_lvl
 TEXT: Wird bei Level {0} freigeschaltet!
 
 RESOURCE ID: poi_contrib_upload_later_thanks
-TEXT: Thank you for your contribution!
+TEXT: Danke für deinen Beitrag!
+
+RESOURCE ID: poi_contrib_uploading_status_singular
+TEXT: {0}/{1} wird hochgeladen
 
 RESOURCE ID: poi_error
 TEXT: Fehler
@@ -22589,7 +22706,7 @@ RESOURCE ID: pokemon_shiny_info_transfer_to_professor_confirmation
 TEXT: Möchtest du dieses Schillernde Pokémon wirklich an den Professor schicken?
 
 RESOURCE ID: pokemon_transfer_legendary_confirmation
-TEXT: Your selection contains Legendary or Mythical Pokémon! Are you sure you want to transfer the selected Pokémon?
+TEXT: Deine Auswahl enthält Legendäre oder Mysteriöse Pokémon! Möchtest du die ausgewählten Pokémon wirklich verschicken?
 
 RESOURCE ID: pokemon_type_bug
 TEXT: Käfer
@@ -23073,6 +23190,12 @@ TEXT: Verwende eine Beere beim Fangen eines Pokémon.
 RESOURCE ID: quest_catch_in_day_plural
 TEXT: Fange {0} Pokémon an einem einzigen Tag.
 
+RESOURCE ID: quest_catch_jan21_hoenn1_plural
+TEXT: Fange {0} Groudon.
+
+RESOURCE ID: quest_catch_jan21_hoenn2_plural
+TEXT: Fange {0} Kyogre.
+
 RESOURCE ID: quest_catch_legendary_inarow_plural
 TEXT: Fange ein Legendäres Pokémon in deinen nächsten {0} Begegnungen mit Legendären Pokémon.
 
@@ -23538,11 +23661,14 @@ TEXT: Das großartige Nebulak
 RESOURCE ID: quest_complete_hallowyamas
 TEXT: Eine gruselig-makabre Nachricht
 
+RESOURCE ID: quest_complete_macht
+TEXT: Ganz nach oben, Machollo!
+
 RESOURCE ID: quest_complete_magit
 TEXT: Riesenplatscher
 
 RESOURCE ID: quest_complete_magmt
-TEXT: Kein Problem für Magmar
+TEXT: No Match for Magmar
 
 RESOURCE ID: quest_complete_meltan
 TEXT: Mehr zu Meltan
@@ -23582,6 +23708,9 @@ TEXT: Zeit zum Trainieren
 
 RESOURCE ID: quest_complete_rockethq7
 TEXT: Eine ei-genartige Entwicklung
+
+RESOURCE ID: quest_complete_roset
+TEXT: Es ist ein Roselia entsprungen
 
 RESOURCE ID: quest_complete_spiritomb
 TEXT: Eine gruselige Nachricht 2018
@@ -23976,6 +24105,9 @@ TEXT: Entwickle ein Snubbull.
 RESOURCE ID: quest_evolve_singular
 TEXT: Entwickle ein Pokémon.
 
+RESOURCE ID: quest_evolve_sneasel_singular
+TEXT: Entwickle ein Sniebel.
+
 RESOURCE ID: quest_evolve_special0_singular
 TEXT: Entwickle ein Karpador.
 
@@ -24213,6 +24345,9 @@ TEXT: Hoenn-Feier: Entwickle {0} Waumpel.
 RESOURCE ID: quest_hoenn19_hatch_eggs
 TEXT: Hoenn-Feier: Brüte {0} Eier aus.
 
+RESOURCE ID: quest_hoenn_celebration_research
+TEXT: Hoenn-Feier-Forschung
+
 RESOURCE ID: quest_incense_plural
 TEXT: Verwende {0} Rauch.
 
@@ -24341,6 +24476,15 @@ TEXT: Erhalte 1 Glücks-Pokémon durch einen Tausch.
 
 RESOURCE ID: quest_lunar19_friends_trade_plural
 TEXT: Tausche {0} Pokémon mit einem Freund.
+
+RESOURCE ID: quest_macht_catch_b
+TEXT: Fange {0} Machollo
+
+RESOURCE ID: quest_macht_evolve_b
+TEXT: Entwickle {0} Machollo
+
+RESOURCE ID: quest_macht_evolve_s1
+TEXT: Entwickle {0} Maschock
 
 RESOURCE ID: quest_magit_catch_b
 TEXT: Fange {0} Karpador.
@@ -24587,6 +24731,12 @@ TEXT: Setze {0} sehr effektive Lade-Attacken in Arenakämpfen ein.
 
 RESOURCE ID: quest_rockethq1_trainerbattle_win
 TEXT: Gewinne {0} Superliga-Trainerkämpfe gegen einen anderen Trainer.
+
+RESOURCE ID: quest_roset_catch_b
+TEXT: Fange {0} Roselia.
+
+RESOURCE ID: quest_roset_evolve_b
+TEXT: Entwickle {0} Roselia.
 
 RESOURCE ID: quest_send_gifts_plural
 TEXT: Schicke {0} Geschenke an Freunde.
@@ -25427,10 +25577,10 @@ RESOURCE ID: quest_special_dialogue_jj_2_2
 TEXT: Jessie: ...
 
 RESOURCE ID: quest_special_dialogue_jj_2_20
-TEXT: Jessie: Um die Welt vor Verwüstung zu schützen!
+TEXT: Jessie: Wir wollen über die Erde regieren ...
 
 RESOURCE ID: quest_special_dialogue_jj_2_21
-TEXT: James: Und unseren eigenen Staat zu kreieren – HEY! Hörst du überhaupt zu?
+TEXT: James: ...und unseren eigenen Staat kreieren – HEY! Hörst du überhaupt zu?
 
 RESOURCE ID: quest_special_dialogue_jj_2_3
 TEXT: James: Hey, warum sagst du denn nichts?
@@ -25559,7 +25709,7 @@ RESOURCE ID: quest_special_dialogue_lvl_43_3_5
 TEXT: Ich weiß, dass du immer weiter trainieren wirst, und werde deine Fortschritte weiter im Auge behalten. Ich melde mich, wenn ich weitere Herausforderungen für dich habe.
 
 RESOURCE ID: quest_special_dialogue_lvl_43_3_6
-TEXT: Bis dahin, %PLAYERNAME%...nichts wie raus und GO!
+TEXT: Bis dahin, %PLAYERNAME% ... nichts wie raus und GO!
 
 RESOURCE ID: quest_special_dialogue_lvl_45_0_0
 TEXT: Hey da, %PLAYERNAME%! Dein Fortschritt interessiert mich. Du scheinst als Trainer noch mehr gewachsen zu sein, seit wir das letzte Mal gesprochen haben!
@@ -25812,6 +25962,99 @@ TEXT: Ich kann nur hoffen, dass du genauso stolz auf dich bist wie die Teamleite
 
 RESOURCE ID: quest_special_dialogue_lvl_50_3_6
 TEXT: Danke für alles, %PLAYERNAME%. Ich weiß, ich kann mich immer auf dich verlassen! Und ich bin sicher, du weißt, was ich jetzt noch schnell sagen will, bevor ich vor Rührung sprachlos werde: Nichts wie raus und GO!
+
+RESOURCE ID: quest_special_dialogue_macht_0_0
+TEXT: ...
+
+RESOURCE ID: quest_special_dialogue_macht_0_1
+TEXT: Oh! %PLAYERNAME%, du hast mich erschreckt! Ich habe gerade über ein paar Filme nachgedacht, die ich vor Kurzem gesehen habe.
+
+RESOURCE ID: quest_special_dialogue_macht_0_2
+TEXT: Du hättest also nicht gedacht, dass ich mir gerne Filme ansehe? Haha! Naja, Pokémon ist und bleibt meine größte Leidenschaft, aber das hält mich nicht von Recherchen außerhalb der Pokémon-Welt ab.
+
+RESOURCE ID: quest_special_dialogue_macht_0_3
+TEXT: Selbstfindung ist wichtig für die Seele, in allen Aspekten des Lebens. Es kann auch sehr viel Spaß machen! Ich habe gelernt, dass ich ab und an gerne einen Film schaue, um Zeit zu vertreiben.
+
+RESOURCE ID: quest_special_dialogue_macht_0_4
+TEXT: Außerdem gibt es unheimlich viele Filme mit Pokémon! Ich liebe es, wenn sich meine Interessen vereinigen!
+
+RESOURCE ID: quest_special_dialogue_macht_0_5
+TEXT: Ich habe neulich einen unglaublich spannenden Actionfilm angesehen. Es ging um einen Kämpfer, der trotz aller Widrigkeiten neben seinem treuen Machollo zum Profiboxer wurde.
+
+RESOURCE ID: quest_special_dialogue_macht_0_6
+TEXT: Das Leben hatte ihn in den Seilen, aber er hat sich nicht unterkriegen lassen! Wenn das nicht inspirierend ist.
+
+RESOURCE ID: quest_special_dialogue_macht_0_7
+TEXT: Wusstest du, dass Machollo es lieben zu trainieren und ihre Muskeln aufzubauen? Sie sind niemals zufrieden, selbst wenn sie den ganzen Tag hart trainieren! Ich wünschte, ich hätte diese Energie bei meiner Feldforschung!
+
+RESOURCE ID: quest_special_dialogue_macht_0_8
+TEXT: Apropos Machollo: Hast du bemerkt, dass mehr von ihnen im Freien auftauchen? Das hat mich überhaupt erst an diesen Film erinnert!
+
+RESOURCE ID: quest_special_dialogue_macht_0_9
+TEXT: Könntest du versuchen mehr über Machollo zu erfahren?
+
+RESOURCE ID: quest_special_dialogue_macht_1_0
+TEXT: Hey, %PLAYERNAME%! Du hast großartige Arbeit geleistet, so viele Machollo zu fangen! Ich frage mich, ob ihr euch so nahestehen werdet, wie die zwei Charaktere in dem Film.
+
+RESOURCE ID: quest_special_dialogue_macht_1_1
+TEXT: Die Hauptfigur hatte es wirklich nicht leicht, aber sein Machollo hielt ihn motiviert und inspiriert.
+
+RESOURCE ID: quest_special_dialogue_macht_1_2
+TEXT: Dann offenbarte sich ihm die unglaubliche Gelegenheit gegen andere Kämpfer anzutreten. Mein Lieblingsteil war, als Machollo sich zu Maschock entwickelte!
+
+RESOURCE ID: quest_special_dialogue_macht_1_3
+TEXT: Ist die Beziehung zwischen Trainer und Pokémon nicht wunderbar? Maschock sind auch wirklich unglaubliche Pokémon.
+
+RESOURCE ID: quest_special_dialogue_macht_1_4
+TEXT: Der muskulöse Körper eines Maschock ist so stark, dass das Pokémon einen kraftregulierenden Gürtel tragen muss, um seine Energie im Zaum zu halten.
+
+RESOURCE ID: quest_special_dialogue_macht_1_5
+TEXT: Eigentlich solltest du genügend Machollo-Bonbons haben, um Machollo zu deinem ganz eigenen Maschock zu entwickeln. Es ist fast so, als würdest du diesen Film selbst ausleben!
+
+RESOURCE ID: quest_special_dialogue_macht_2_0
+TEXT: Wow! Das ist ein echt muskulöses Maschock! Gut gemacht!
+
+RESOURCE ID: quest_special_dialogue_macht_2_1
+TEXT: Manchmal zieht sich Maschock auf Felder oder in die Berge zurück, um zu trainieren. Ist diese Entschlossenheit nicht erstaunlich?
+
+RESOURCE ID: quest_special_dialogue_macht_2_2
+TEXT: Es erinnert mich an eine Trainingsmontage in diesem Film. Der Trainer und sein Maschock sind in die Berge gereist, um gemeinsam zu trainieren.
+
+RESOURCE ID: quest_special_dialogue_macht_2_3
+TEXT: Das Erblühen ihrer Freundschaft hat mich fast zu Tränen gerührt! Wie sie sich gegenseitig ermutigt haben, hat mich daran erinnert, warum ich Pokémon so liebe, besonders als Maschock sich zu Machomei entwickelt hat!
+
+RESOURCE ID: quest_special_dialogue_macht_2_4
+TEXT: Hoppla, da bin ich wieder abgeschweift ... Machollo und Maschock sind auf jeden Fall sehr beeindruckende Pokémon, aber Machomei kämpft auf einem ganz anderen Level.
+
+RESOURCE ID: quest_special_dialogue_macht_2_5
+TEXT: Seine vier Arme reagieren blitzschnell. Deshalb kann das Machomei mehrere Schläge auf einmal ausführen!
+
+RESOURCE ID: quest_special_dialogue_macht_2_6
+TEXT: Hoo-hah! Das war der unverkennbare Move des Machomei im Film. Haha, wer hätte gedacht, dass ich mich mal zum Filmexperten entwickeln würde? Kapiert? Entwickeln?
+
+RESOURCE ID: quest_special_dialogue_macht_2_7
+TEXT: Und weiter geht's ...
+
+RESOURCE ID: quest_special_dialogue_macht_2_8
+TEXT: Wie wäre es, wenn du Machomei etwas recherchieren würdest? Dein Maschock scheint erpicht darauf zu sein, stärker zu werden. Wir sollten es zu Machomei entwickeln und sehen, was passiert!
+
+RESOURCE ID: quest_special_dialogue_macht_3_0
+TEXT: Wow, %PLAYERNAME%! Ich habe dich mit deinem neu entwickelten Machomei gesehen und konnte meinen Augen kaum glauben. Eine Szene, wie aus dem Film!
+
+RESOURCE ID: quest_special_dialogue_macht_3_1
+TEXT: Der Trainer hat das Turnier gewonnen und hätte es ohne sein Machomei nicht geschafft.
+
+RESOURCE ID: quest_special_dialogue_macht_3_2
+TEXT: Filme sind einfach klasse! Besonders Filme über Pokémon und ihre Trainer.
+
+RESOURCE ID: quest_special_dialogue_macht_3_3
+TEXT: Ich gehe mal davon aus, dass du und Machomei euch diesen Film nicht ansehen müsst – ihr habt ihn ja praktisch zum Leben erweckt! Es war eine wahre Inspiration euch zuzusehen. Ich kann nur hoffen, dass ich diese Inspiration in mir trage, während ich mein Pokémon besser kennenlerne.
+
+RESOURCE ID: quest_special_dialogue_macht_3_4
+TEXT: Man weiß nie, was man über sich selbst lernen kann, bevor man neue Dinge ausprobiert – genau wie man nie vorhersehen kann, mit welchem Pokémon man eine lebenslange Freundschaft entwickeln wird, bis man es gefangen hat!
+
+RESOURCE ID: quest_special_dialogue_macht_3_5
+TEXT: Danke, dass du mich auf dieser Reise begleitet hast, Trainer. Ich wünsche dir und deinem Machomei alles Gute. Wir sehen uns beim nächsten Mal! Nichts wie raus und GO!
 
 RESOURCE ID: quest_special_dialogue_magit_0_0
 TEXT: Schön dich zu sehen, %PLAYERNAME%! Hörst du das Geräusch?
@@ -27096,6 +27339,93 @@ TEXT: Ganz zu schweigen von all den Crypto-Pokémon, die du unterwegs gerettet h
 RESOURCE ID: quest_special_dialogue_rockethq7_5_2
 TEXT: Dies ist wahrscheinlich nicht das letzte Mal, dass wir Giovanni oder Team GO Rocket sehen werden, aber das bedeutet auch, dass wahrscheinlich mehr Eigenartige Eier gesammelt und Crypto-Pokémon gerettet werden müssen! Lass uns loslegen, Trainer!
 
+RESOURCE ID: quest_special_dialogue_roset_0_0
+TEXT: Ahhh ... Riechst du das, Trainer?
+
+RESOURCE ID: quest_special_dialogue_roset_0_1
+TEXT: Ich habe diesen wunderbaren Duft zum ersten Mal während einer meiner morgendlichen Spaziergänge gerochen.
+
+RESOURCE ID: quest_special_dialogue_roset_0_2
+TEXT: Nach weiteren Nachforschungen habe ich herausgefunden, dass dieser Duft von einer unglaublich großen Anzahl von Roselia erzeugt wurde, die sich in der Nähe versammelt hatten.
+
+RESOURCE ID: quest_special_dialogue_roset_0_3
+TEXT: Wusstest du, dass man die Gesundheit eines Roselia an der Stärke dessen Aromas ermitteln kann? Nur zu deiner Information – das waren ein paar SEHR gesunde Roselia!
+
+RESOURCE ID: quest_special_dialogue_roset_0_4
+TEXT: Doch obwohl sie wirklich sehr angenehm riechen und auch wunderschön aussehen, rate ich dir, diese Schönheiten mit Vorsicht zu genießen.
+
+RESOURCE ID: quest_special_dialogue_roset_0_5
+TEXT: Die Dornen auf Roselias Kopf enthalten ein grausames Gift und es kann diese Dornen auf jeden Gegner schießen, der versucht, seine Blumen vom Arm zu pflücken. Wie man so schön sagt ... Keine Rose ohne Dornen!
+
+RESOURCE ID: quest_special_dialogue_roset_0_6
+TEXT: Es ist sehr ungewöhnlich, so viele Roselia an einem Ort zu sehen. Könntest du mir dabei helfen, dieses Phänomen zu untersuchen?
+
+RESOURCE ID: quest_special_dialogue_roset_1_0
+TEXT: Willkommen zurück, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_roset_1_1
+TEXT: Ich habe ein paar Nachforschungen über Roselia betrieben, während du unterwegs warst.
+
+RESOURCE ID: quest_special_dialogue_roset_1_2
+TEXT: Es werden andauernd neue Entdeckungen über Pokémon gemacht. Es ist also wichtig, dass deine Informationen auf dem neusten Stand sind.
+
+RESOURCE ID: quest_special_dialogue_roset_1_3
+TEXT: Das Dorn-Pokémon Roselia entwickelt sich aus dem Knospen-Pokémon Knospi. Knospi ist sehr temperaturempfindlich und seine Knospe soll angeblich erblühen, wenn sie genug warmen Sonnenschein ausgesetzt wird.
+
+RESOURCE ID: quest_special_dialogue_roset_1_4
+TEXT: Es ist sowohl Typ Pflanze als auch Typ Gift, genau wie Roselia.
+
+RESOURCE ID: quest_special_dialogue_roset_1_5
+TEXT: Nach dem näheren Betrachten dieser zwei Pokémon habe ich mich an etwas sehr Aufregendes erinnert! Ich muss jedoch noch etwas mehr Nachforschung betreiben, bevor ich meine Funde teile. Könntest du mir dabei helfen?
+
+RESOURCE ID: quest_special_dialogue_roset_2_0
+TEXT: Was duftende Pokémon angeht, können wir uns glücklich schätzen, dass Roselia so häufig erscheint und nicht etwa eine Horde von Sleimok. 
+
+RESOURCE ID: quest_special_dialogue_roset_2_1
+TEXT: Eine riesen Horde Sleimok unter der brennenden Mittagssonne ... Es würde hier stinken wie gebackener Müll!
+
+RESOURCE ID: quest_special_dialogue_roset_2_2
+TEXT: Oh! Hallo, %PLAYERNAME%. Ich habe nicht gemerkt, dass du schon zurück bist.
+
+RESOURCE ID: quest_special_dialogue_roset_2_3
+TEXT: Ich bin auf interessante Informationen gestoßen, die ich mit dir besprechen wollte.
+
+RESOURCE ID: quest_special_dialogue_roset_2_4
+TEXT: Laut meiner Forschungen enthüllen Roselia, die nährstoffreiches Quellwasser trinken, sehr seltene Färbungen, wenn sie erblühen.
+
+RESOURCE ID: quest_special_dialogue_roset_2_5
+TEXT: Ist das nicht faszinierend? Ist dir das während deiner Nachforschungen ebenfalls aufgefallen?
+
+RESOURCE ID: quest_special_dialogue_roset_2_6
+TEXT: Du scheinst eine Glückssträhne zu haben. Ich würde es also nicht ausschließen!
+
+RESOURCE ID: quest_special_dialogue_roset_2_7
+TEXT: Jetzt, da du wieder hier bist, solltest du ein Roselia mit dem Sinnoh-Stein entwickeln, den ich dir gegeben habe.
+
+RESOURCE ID: quest_special_dialogue_roset_2_8
+TEXT: Ich bin gespannt auf die letzte Entwicklung dieses Pflanzen- und Gift-Pokémon!
+
+RESOURCE ID: quest_special_dialogue_roset_3_0
+TEXT: Super gemacht, Trainer! Dein Roselia hat sich zu dem Blumenstrauß-Pokémon Roserade entwickelt!
+
+RESOURCE ID: quest_special_dialogue_roset_3_1
+TEXT: Es bewegt sich grazil wie ein Tänzer und schlägt dann gnadenlos mit dornigen Ranken um sich.
+
+RESOURCE ID: quest_special_dialogue_roset_3_2
+TEXT: Oh, ist dir aufgefallen, dass Roserades Hände unterschiedlich gefärbt sind?
+
+RESOURCE ID: quest_special_dialogue_roset_3_3
+TEXT: Jede enthält ein anderes Gift. Das Gift in der rechten Hand wirkt schnell, während das Gift in der linken Hand langsam wirkt.
+
+RESOURCE ID: quest_special_dialogue_roset_3_4
+TEXT: Was für ein unglaubliches Pokémon!
+
+RESOURCE ID: quest_special_dialogue_roset_3_5
+TEXT: Danke für all deine Hilfe heute, Trainer. Diese Art von Ereignissen festzuhalten ist unglaublich wichtig, um mehr über die Pokémon dieser Welt zu lernen.
+
+RESOURCE ID: quest_special_dialogue_roset_3_6
+TEXT: Bis zum nächsten Mal, nichts wie raus und GO!
+
 RESOURCE ID: quest_special_dialogue_spiritomb_0_0
 TEXT: Oh, %PLAYERNAME%! Du kommst gerade recht.
 
@@ -27324,7 +27654,7 @@ RESOURCE ID: quest_special_dialogue_yokosuka_1_1
 TEXT: Die Ergebnisse deiner Arbeit haben eine unglaubliche Menge an Sternenstaub produziert. Vielleicht kannst du ihn gut für Power-ups oder im Tausch von Pokémon gebrauchen! Viel Spaß, %PLAYERNAME%!
 
 RESOURCE ID: quest_spin_daysinarow
-TEXT: Besuche {0} Tage hintereinander PokéStops.
+TEXT: Drehe {0} Tage hintereinander einen PokéStop.
 
 RESOURCE ID: quest_st_catch_s
 TEXT: Fange 15 Samurzel.
@@ -27785,6 +28115,21 @@ TEXT: Level-50-Herausforderung (3/4)
 RESOURCE ID: quest_title_lvl_50_3
 TEXT: Level-50-Herausforderung (4/4)
 
+RESOURCE ID: quest_title_macht
+TEXT: Ganz nach oben, Machollo!
+
+RESOURCE ID: quest_title_macht_0
+TEXT: Ganz nach oben, Machollo! (1/4)
+
+RESOURCE ID: quest_title_macht_1
+TEXT: Ganz nach oben, Machollo! (2/4)
+
+RESOURCE ID: quest_title_macht_2
+TEXT: Ganz nach oben, Machollo! (3/4)
+
+RESOURCE ID: quest_title_macht_3
+TEXT: Ganz nach oben, Machollo! (4/4)
+
 RESOURCE ID: quest_title_magit
 TEXT: Riesenplatscher
 
@@ -27801,19 +28146,19 @@ RESOURCE ID: quest_title_magit_3
 TEXT: Riesenplatscher (4/4)
 
 RESOURCE ID: quest_title_magmt
-TEXT: Kein Problem für Magmar
+TEXT: No Match for Magmar
 
 RESOURCE ID: quest_title_magmt_0
-TEXT: Kein Problem für Magmar (1/4)
+TEXT: No Match for Magmar (1/4)
 
 RESOURCE ID: quest_title_magmt_1
-TEXT: Kein Problem für Magmar (2/4)
+TEXT: No Match for Magmar (2/4)
 
 RESOURCE ID: quest_title_magmt_2
-TEXT: Kein Problem für Magmar (3/4)
+TEXT: No Match for Magmar (3/4)
 
 RESOURCE ID: quest_title_magmt_3
-TEXT: Kein Problem für Magmar (4/4)
+TEXT: No Match for Magmar (4/4)
 
 RESOURCE ID: quest_title_megabattle_0
 TEXT: Mega-Kampf-Herausforderung (1/4)
@@ -28087,6 +28432,21 @@ TEXT: Eine ei-genartige Entwicklung (5/6)
 
 RESOURCE ID: quest_title_rockethq7_5
 TEXT: Eine ei-genartige Entwicklung (6/6)
+
+RESOURCE ID: quest_title_roset
+TEXT: Es ist ein Roselia entsprungen
+
+RESOURCE ID: quest_title_roset_0
+TEXT: Es ist ein Roselia entsprungen (1/4)
+
+RESOURCE ID: quest_title_roset_1
+TEXT: Es ist ein Roselia entsprungen (2/4)
+
+RESOURCE ID: quest_title_roset_2
+TEXT: Es ist ein Roselia entsprungen (3/4)
+
+RESOURCE ID: quest_title_roset_3
+TEXT: Es ist ein Roselia entsprungen (4/4)
 
 RESOURCE ID: quest_title_spiritomb
 TEXT: Eine gruselige Nachricht 2018
@@ -28371,7 +28731,7 @@ RESOURCE ID: quest_transfer_pokemon_singular
 TEXT: Verschicke ein Pokémon.
 
 RESOURCE ID: quest_transfer_type_ghost_plural
-TEXT: Übertrage {0} Pokémon vom Typ Geist.
+TEXT: Verschicke {0} Pokémon vom Typ Geist.
 
 RESOURCE ID: quest_val19_catch_specific_plural
 TEXT: Valentinstag: Fange {0} Liebiskus.
@@ -28389,7 +28749,7 @@ RESOURCE ID: quest_visit_pokestops_plural
 TEXT: Drehe {0} PokéStops oder Arenen.
 
 RESOURCE ID: quest_visit_pokestops_singular
-TEXT: Drehe einen PokéStop.
+TEXT: Drehe einen PokéStop oder eine Arena.
 
 RESOURCE ID: quest_walk_25km_inaweek_plural
 TEXT: Erhalte {0}-mal die wöchentliche 25-km-Abenteuer-Sync-Belohnung.
@@ -29148,6 +29508,9 @@ TEXT: STICKER
 RESOURCE ID: rocket_balloon_increase
 TEXT: Team GO Rocket-Ballons erscheinen häufiger
 
+RESOURCE ID: rocket_celebration_event_name
+TEXT: Team GO Rocket-Feier
+
 RESOURCE ID: rocket_component_double
 TEXT: 2×  Mysteriöse Teile von Team GO Rocket-Rüpeln
 
@@ -29708,10 +30071,10 @@ RESOURCE ID: settings_go_to_support|a
 TEXT: Hilfe erhalten
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
-TEXT: Enabling this setting will allow you to transfer Legendary Pokémon and certain Mythical Pokémon when selecting multiple Pokémon at once in your collection. Transferring Pokémon to Professor Willow cannot be undone.
+TEXT: Durch das Aktivieren dieser Einstellung können Legendäre und einige Mysteriöse Pokémon verschickt werden, wenn du mehrere Pokémon in deiner Pokémon-Aufbewahrung auswählst. Das Verschicken an Prof. Willow kann nicht rückgängig gemacht werden.
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_title
-TEXT: Are you sure you want to be able to transfer Legendary and Mythical Pokémon when selecting multiple Pokémon?
+TEXT: Bist du dir sicher, dass du Legendäre und Mysteriöse Pokémon verschicken möchtest, wenn du mehrere Pokémon auswählst?
 
 RESOURCE ID: settings_lnt
 TEXT: Erkunde verantwortungsbewusst
@@ -29804,10 +30167,10 @@ RESOURCE ID: settings_reset_cache_confirm
 TEXT: Möchtest du die Spieldaten wirklich aktualisieren?
 
 RESOURCE ID: settings_select_legendary_label
-TEXT: Transfer Legendary and Mythical Pokémon When Selecting Pokémon
+TEXT: Erweiterter Versand
 
 RESOURCE ID: settings_select_legendary_tip
-TEXT: Allows you to transfer Legendary Pokémon and certain Mythical Pokémon when selecting multiple Pokémon at once in your collection.
+TEXT: Ermöglicht das Verschicken von Legendären Pokémon und bestimmten Mysteriösen Pokémon, wenn mehrere Pokémon in der Pokémon-Aufbewahrung ausgewählt wurden.
 
 RESOURCE ID: settings_sfida
 TEXT: Pokémon GO Plus
@@ -30351,6 +30714,9 @@ TEXT: Wilde Elektek erscheinen mit vermehrter Häufigkeit.
 RESOURCE ID: spawn_gastly
 TEXT: Wilde Nebulak erscheinen mit vermehrter Häufigkeit.
 
+RESOURCE ID: spawn_machop
+TEXT: Wilde Machollo erscheinen mit vermehrter Häufigkeit.
+
 RESOURCE ID: spawn_magikarp
 TEXT: Wilde Karpador erscheinen mit vermehrter Häufigkeit.
 
@@ -30359,6 +30725,9 @@ TEXT: Wilde Magmar erscheinen mit vermehrter Häufigkeit.
 
 RESOURCE ID: spawn_porygon
 TEXT: Wilde Porygon erscheinen mit vermehrter Häufigkeit.
+
+RESOURCE ID: spawn_roselia
+TEXT: Wilde Roselia erscheinen mit vermehrter Häufigkeit.
 
 RESOURCE ID: spawn_seedot
 TEXT: Wilde Samurzel erscheinen mit vermehrter Häufigkeit.
@@ -30412,7 +30781,7 @@ RESOURCE ID: sponsored_gift_tutorial_button
 TEXT: Zu den Einstellungen
 
 RESOURCE ID: sponsored_gift_tutorial_description_1
-TEXT: Wenn du Arenen und PokéStops besuchst, erhältst du möglicherweise gesponserte Geschenke sowie eine für deinen Standort relevante gesponserte Nachricht.
+TEXT: Wenn du die Welt um dich herum erkundest, erhältst du möglicherweise gesponserte Geschenke sowie für deinen Standort relevante gesponserte Nachrichten. Gesponserte Geschenke haben jetzt einen coolen neuen Look!
 
 RESOURCE ID: sponsored_gift_tutorial_description_2
 TEXT: Wie immer geben wir deine persönlichen Daten nicht an Sponsoren weiter. Weitere Informationen zu dieser Funktion erhältst du beim Niantic-Support. 
@@ -30765,6 +31134,9 @@ TEXT: Ticket: Spannung mit Elektek
 RESOURCE ID: ticket_gastly
 TEXT: Tickets für die Spezialforschung „Das großartige Nebulak“ im Shop erhältlich.
 
+RESOURCE ID: ticket_machop
+TEXT: Tickets für die Spezialforschung „Ganz nach oben, Machollo!“ im Shop erhältlich.
+
 RESOURCE ID: ticket_magikarp
 TEXT: Tickets für die Spezialforschung „Riesenplatscher“ im Shop erhältlich.
 
@@ -30773,6 +31145,9 @@ TEXT: Tickets für die Spezialforschung „Kein Problem für Magmar“ im Shop e
 
 RESOURCE ID: ticket_porygon
 TEXT: Tickets für die Spezialforschung „Porygon dekodieren" im Shop erhältlich
+
+RESOURCE ID: ticket_roselia
+TEXT: Tickets für Spezialforschung im Shop erhältlich
 
 RESOURCE ID: ticket_seedot
 TEXT: Ticket für die Spezialforschung „Doppelt sehen" im Shop erhältlich
@@ -30850,6 +31225,9 @@ TEXT: Alle Trainer müssen als globale Gemeinschaft zusammenarbeiten, um diese H
 RESOURCE ID: timed_research
 TEXT: Befristete Forschung verfügbar
 
+RESOURCE ID: timed_research_pokemon
+TEXT: Featured Pokémon in Timed Research
+
 RESOURCE ID: timed_research_pokemon_meowth
 TEXT: Mauzi in Befristeter Forschung
 
@@ -30894,7 +31272,7 @@ RESOURCE ID: titan_image_gallery_photo_count_singular
 TEXT: 1 Foto
 
 RESOURCE ID: titan_image_gallery_rpc_failed
-TEXT: Failed to load images. Please try again later.
+TEXT: Fehler beim Laden der Fotos. Bitte versuche es später noch einmal.
 
 RESOURCE ID: titan_image_gallery_submission_time
 TEXT: Vor {0} {1}
@@ -31006,7 +31384,7 @@ RESOURCE ID: titan_poi_ar_video_upload_now_button_no_size
 TEXT: JETZT HOCHLADEN
 
 RESOURCE ID: titan_poi_ar_video_upload_now_button_with_size
-TEXT: Upload-Größe: {0} MB
+TEXT: ({0} MB)
 
 RESOURCE ID: titan_poi_ar_video_upload_prompt
 TEXT: Du bist gerade dabei, Daten in Größe von {0} MB hochzuladen. Falls dein Gerät nicht mit Wi-Fi verbunden ist, können Datengebühren anfallen.
@@ -31060,7 +31438,7 @@ RESOURCE ID: titan_settings_ar_upload_msg
 TEXT: Scan wird hochgeladen
 
 RESOURCE ID: titan_settings_ar_upload_no_scans_msg
-TEXT: Du hast keine PokéStop-Scans, die hochgeladen werden können
+TEXT: Du hast keine PokéStop-Scans zum Hochladen.
 
 RESOURCE ID: titan_settings_ar_upload_progress
 TEXT: {0} %
@@ -31742,22 +32120,22 @@ RESOURCE ID: upgrade_item_bag_button
 TEXT: Beutel erweitern
 
 RESOURCE ID: upload later
-TEXT: UPLOAD LATER
+TEXT: SPÄTER HOCHLADEN
 
 RESOURCE ID: upload now
-TEXT: UPLOAD NOW
+TEXT: JETZT HOCHLADEN
 
 RESOURCE ID: upload_mgmt_ar_scans
-TEXT: AR-Scans: {0}
+TEXT: PokéStop-Scans ({0})
 
 RESOURCE ID: upload_mgmt_cancel_all
-TEXT: HOCHLADEN ABBRECHEN
+TEXT: ALLE ABBRECHEN
 
 RESOURCE ID: upload_mgmt_cancel_individual
 TEXT: ABBRECHEN
 
 RESOURCE ID: upload_mgmt_confirm_delete_individual
-TEXT: Möchtest du {0} ({1} MB) löschen?
+TEXT: Möchtest du diesen Beitrag ({0}) löschen?
 
 RESOURCE ID: upload_mgmt_confirm_yes
 TEXT: JA
@@ -31766,7 +32144,7 @@ RESOURCE ID: upload_mgmt_delete_individual
 TEXT: LÖSCHEN
 
 RESOURCE ID: upload_mgmt_images
-TEXT: Fotos: {0}
+TEXT: PokéStop-Fotos ({0})
 
 RESOURCE ID: upload_mgmt_manage
 TEXT: VERWALTEN
@@ -31778,13 +32156,13 @@ RESOURCE ID: upload_mgmt_no_pending_data
 TEXT: Du hast keine Beiträge zum Hochladen.
 
 RESOURCE ID: upload_mgmt_noms
-TEXT: PokéStop-Nominierungen: {0}
+TEXT: PokéStop-Nominierungen ({0})
 
 RESOURCE ID: upload_mgmt_ok
 TEXT: O. K.
 
 RESOURCE ID: upload_mgmt_pending_data
-TEXT: {0} MB warten darauf, hochgeladen zu werden.
+TEXT: Du hast {0} Beitrag zum Hochladen.
 
 RESOURCE ID: upload_mgmt_retry
 TEXT: ERNEUT VERSUCHEN
@@ -31793,7 +32171,7 @@ RESOURCE ID: upload_mgmt_thank_you
 TEXT: Danke für deinen Beitrag!
 
 RESOURCE ID: upload_mgmt_upload_all
-TEXT: ALLE HOCHLADEN ({0} MB)
+TEXT: ALLES HOCHLADEN ({0} MB)
 
 RESOURCE ID: upload_mgmt_upload_confirm
 TEXT: Möchtest du jetzt hochladen?
@@ -31811,58 +32189,91 @@ RESOURCE ID: upload_mgmt_upload_later
 TEXT: SPÄTER HOCHLADEN
 
 RESOURCE ID: upload_mgmt_upload_later_instruction
-TEXT: Wenn du bereit bist, deinen Beitrag hochzuladen, gehe bitte zu Einstellungen > Spielervorschläge.
+TEXT: Wenn du bereit bist, deinen Beitrag hochzuladen, gehe bitte zum Hauptmenü.
 
 RESOURCE ID: upload_mgmt_uploading_all_msg
-TEXT: ({0} MB) werden hochgeladen...
+TEXT: ({0}) HOCHLADEN
 
 RESOURCE ID: upload_mgmt_uploading_individual
-TEXT: Wird hochgeladen...
+TEXT: ({0}) WERDEN HOCHGELADEN
 
 RESOURCE ID: upload_mgmt_waiting_upload_msg
 TEXT: Warten aufs Hochladen
 
 RESOURCE ID: uploading {0}/{1}
-TEXT: Uploading {0}/{1}
+TEXT: {0}/{1} werden hochgeladen
 
 RESOURCE ID: upmgmt_delete_cancel
-TEXT: CANCEL
+TEXT: ABBRECHEN
 
 RESOURCE ID: upmgmt_delete_yes
-TEXT: YES
+TEXT: JA
 
 RESOURCE ID: upmgmt_main_menu_upload_failed
-TEXT: UPLOAD ERROR ({0})
+TEXT: UPLOADFEHLER ({0})
 
 RESOURCE ID: upmgmt_main_menu_uploaded
-TEXT: UPLOADED ({0})
+TEXT: ({0}) HOCHGELADEN
+
+RESOURCE ID: upmgmt_main_menu_uploading_singular
+TEXT: ({0}) WIRD HOCHGELADEN
+
+RESOURCE ID: upmgmt_main_size_kb
+TEXT: ({0} KB)
+
+RESOURCE ID: upmgmt_main_size_mb
+TEXT: ({0} MB)
+
+RESOURCE ID: upmgmt_main_type_image_item
+TEXT: PokéStop-Foto
+
+RESOURCE ID: upmgmt_main_type_nom_item
+TEXT: PokéStop-Nominierung
+
+RESOURCE ID: upmgmt_main_type_scan_item
+TEXT: PokéStop-Scan
 
 RESOURCE ID: upmgmt_main_upload_failed
-TEXT: Upload failed
+TEXT: Hochladen fehlgeschlagen
+
+RESOURCE ID: upmgmt_settings_header
+TEXT: POKÉSTOP CONTRIBUTION
+
+RESOURCE ID: upmgmt_settings_info_button
+TEXT: (Nomination Guidelines)
+
+RESOURCE ID: upmgmt_settings_info_title
+TEXT: Player Nominations
+
+RESOURCE ID: upmgmt_settings_msg_plural
+TEXT: Du hast {0} Beiträge zum Hochladen.
+
+RESOURCE ID: upmgmt_settings_uploading_progress
+TEXT: Uploading Pokestop Contributions
 
 RESOURCE ID: upmgmt_summary_about
-TEXT: About Location Points
+TEXT: Infos zu Standortpunkten
 
 RESOURCE ID: upmgmt_summary_failure_msg
-TEXT: {0} file(s) failed to upload.
+TEXT: {0} Datei(en) konnte(n) nicht hochgeladen werden.
 
 RESOURCE ID: upmgmt_summary_retry_later
-TEXT: RETRY LATER
+TEXT: SPÄTER VERSUCHEN
 
 RESOURCE ID: upmgmt_summary_retry_msg
-TEXT: Do you want to retry uploading now?
+TEXT: Möchtest du das Hochladen jetzt erneut versuchen?
 
 RESOURCE ID: upmgmt_summary_retry_now
-TEXT: RETRY NOW
+TEXT: JETZT VERSUCHEN
 
 RESOURCE ID: upmgmt_summary_success_header
-TEXT: {0} file(s) uploaded!
+TEXT: {0} Datei(en) hochgeladen!
 
 RESOURCE ID: upmgmt_summary_success_msg
-TEXT: You finished uploading!
+TEXT: Hochladen abgeschlossen!
 
 RESOURCE ID: upmgmt_summary_success_points
-TEXT: Total {0} location point(s) added to PokéStop(s)/Gym(s).
+TEXT: Insgesamt {0} Standortpunkt(e) zu PokéStops/Arenen hinzugefügt.
 
 RESOURCE ID: use_raid_ticket_confirmation
 TEXT: Verwende einen Pass, um dem Raid-Kampf beizutreten.
