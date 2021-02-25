@@ -40,6 +40,9 @@ TEXT: Water-type Mask
 RESOURCE ID: avatar_f_glasses_newyearglasses2021_00_bundle_icon
 TEXT: 2021 Specs
 
+RESOURCE ID: avatar_f_hat_elesa_00_bundle_icon
+TEXT: Elesa-Style Headband
+
 RESOURCE ID: avatar_f_hat_guccihat_00_bundle_icon
 TEXT: The North Face x Gucci Hat
 
@@ -63,6 +66,9 @@ TEXT: ที่ปิดหูเอลฟุน
 
 RESOURCE ID: avatar_f_pants_munnapack_00_bundle_icon
 TEXT: Munna Pants
+
+RESOURCE ID: avatar_f_shirt_elesa_00_bundle_icon
+TEXT: Elesa-Style Top
 
 RESOURCE ID: avatar_f_shirt_greedentsweater_00_bundle_icon
 TEXT: เสื้อกันหนาวโยคุบะริสึ
@@ -90,6 +96,9 @@ TEXT: Venusaur Jacket
 
 RESOURCE ID: avatar_f_shirt_whitecoat_00_bundle_icon
 TEXT: เสื้อโค้ทสีขาว
+
+RESOURCE ID: avatar_f_shoes_elesa_00_bundle_icon
+TEXT: Elesa-Style Shoes
 
 RESOURCE ID: avatar_f_shoes_winterboots_00_bundle_icon
 TEXT: รองเท้าบู๊ตฤดูหนาว 1
@@ -121,6 +130,9 @@ TEXT: Water-type Mask
 RESOURCE ID: avatar_m_glasses_newyearglasses2021_00_bundle_icon
 TEXT: 2021 Specs
 
+RESOURCE ID: avatar_m_hat_elesa_00_bundle_icon
+TEXT: Elesa-Style Headband
+
 RESOURCE ID: avatar_m_hat_guccihat_00_bundle_icon
 TEXT: The North Face x Gucci Hat
 
@@ -142,8 +154,14 @@ TEXT: New Year’s Party Hat
 RESOURCE ID: avatar_m_hat_whimsicottearmuff_00_bundle_icon
 TEXT: ที่ปิดหูเอลฟุน
 
+RESOURCE ID: avatar_m_pants_elesa_00_bundle_icon
+TEXT: Elesa-Style Pants
+
 RESOURCE ID: avatar_m_pants_munnapack_00_bundle_icon
 TEXT: Munna Pants
+
+RESOURCE ID: avatar_m_shirt_elesa_00_bundle_icon
+TEXT: Elesa-Style Top
 
 RESOURCE ID: avatar_m_shirt_greedentsweater_00_bundle_icon
 TEXT: เสื้อกันหนาวโยคุบะริสึ
@@ -171,6 +189,9 @@ TEXT: Venusaur Jacket
 
 RESOURCE ID: avatar_m_shirt_whitecoat_00_bundle_icon
 TEXT: เสื้อโค้ทสีขาว
+
+RESOURCE ID: avatar_m_shoes_elesa_00_bundle_icon
+TEXT: Elesa-Style Shoes
 
 RESOURCE ID: avatar_m_shoes_winterboots_00_bundle_icon
 TEXT: รองเท้าบู๊ตฤดูหนาว 1
@@ -229,27 +250,27 @@ TEXT: <size=36><b>คุณต้องการถ่ายโอน โปเ�
 จะไม่สามารถแก้ไขได้หากทำการถ่ายโอนไปแล้ว
 
 RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Only {0} eligible Pokémon can be transferred to the professor.</b></size>
+TEXT: <size=36><b>Only {0} of the selected Pokémon can be transferred to the professor.</b></size>
 
-Any Pokémon not eligible to be transferred will remain in storage. Transferred Pokémon cannot be reclaimed.
+Any Pokémon that can’t be transferred will remain in your Pokémon storage. Transferred Pokémon cannot be reclaimed.
 
 RESOURCE ID: batch_transfer_unique_event_pokemon
 TEXT: {0} Event Pokémon
 
 RESOURCE ID: batch_transfer_unique_included
-TEXT: Unique Pokémon are included.
+TEXT: You have selected at least one Legendary, Mythical, or event Pokémon.
 
 RESOURCE ID: batch_transfer_unique_legendary_or_mythical_pokemon
 TEXT: {0} Legendary or Mythical Pokémon
 
 RESOURCE ID: batch_transfer_unique_not_included
-TEXT: Unique Pokémon are not included.
+TEXT: You have not selected any Legendary, Mythical, or event Pokémon.
 
 RESOURCE ID: batch_transfer_unique_warning_message
 TEXT: Are you sure you want to transfer these Pokémon to the professor?
 
 RESOURCE ID: batch_transfer_unique_warning_title
-TEXT: Your Selection Contains Unique Pokémon:
+TEXT: Your Selection Contains These Pokémon:
 
 RESOURCE ID: battle_day_abomasnow
 TEXT: โกแบตเทิลเดย์ : ยูกิโน
@@ -2411,6 +2432,12 @@ TEXT: GO Battle Day: Zygarde
 RESOURCE ID: battle_npcs_plural
 TEXT: แบตเทิลผู้ท้าชิง GO Tour {0} คน 
 
+RESOURCE ID: buddy_description
+TEXT: Choose a Pokémon to be your buddy, and it’ll gain Perks as your bond grows.
+
+RESOURCE ID: buddy_feature_name
+TEXT: Buddy Adventure
+
 RESOURCE ID: buddy_walked_found_candy
 TEXT: {0} พบลูกอม!
 
@@ -2520,7 +2547,7 @@ RESOURCE ID: combat_stat_defense
 TEXT: ป้องกัน
 
 RESOURCE ID: community_day_fletchling_event_name
-TEXT: Community Day: Fletchling
+TEXT: คอมมิวนิตี้เดย์ : ยายาโคมะ
 
 RESOURCE ID: community_day_machop_event_name
 TEXT: คอมมิวนิตี้เดย์ : วันริกี
@@ -2870,11 +2897,17 @@ TEXT: นี่มัน ไม่น่าเชื่อ...
 RESOURCE ID: event_regional_brazil_carnaval
 TEXT: คาร์นิวัล
 
+RESOURCE ID: event_season2_name
+TEXT: ฤดูกาลแห่งตำนาน
+
 RESOURCE ID: event_title_mrmime
 TEXT: อีเวนต์กาลาร์บาร์เรียด
 
 RESOURCE ID: f_avatar_poses_bundle_pose_27
 TEXT: ท่าโพสบาร์เรียด
+
+RESOURCE ID: f_avatar_poses_bundle_pose_28
+TEXT: Elesa Pose
 
 RESOURCE ID: fairy_type_event
 TEXT: ระลอกฉับพลัน: แฟรี่
@@ -2920,12 +2953,12 @@ TEXT: ตั๋วสำหรับเข้าร่วมงานวิจ�
 คุณต้องเล่นเกมในช่วงเวลาที่กำหนดเพื่อรับโบนัสทั้งหมดจากอีเวนต์พิเศษ
 
 RESOURCE ID: general1.ticket.2_flett_description
-TEXT: A ticket to access The Bravest Bird Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษ "ปักษาใจฉกาจ" ในวันที่ 6 มีนาคม 2021 ตั้งแต่เวลา 11:00-17:00 น. ตามเวลาท้องถิ่นไม่ว่าคุณจะอยู่ที่ใด สามารถดูรายละเอียดได้ที่ข่าวสารในเกม
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+คุณต้องเล่นเกมในช่วงเวลาที่กำหนดเพื่อรับโบนัสทั้งหมดจากอีเวนต์พิเศษ
 
 RESOURCE ID: general1.ticket.2_flett_title
-TEXT: The Bravest Bird Ticket
+TEXT: ตั๋ว "ปักษาใจฉกาจ"
 
 RESOURCE ID: general1.ticket.2_roset_description
 TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษ "ดอมดมกลิ่นหอมของโรเซเลีย" ในวันที่ 7 กุมภาพันธ์ 2021 ตั้งแต่เวลา 11:00-17:00 น. ตามเวลาท้องถิ่นไม่ว่าคุณจะอยู่ที่ใด สามารถดูรายละเอียดได้ที่ข่าวสารในเกม
@@ -2942,13 +2975,13 @@ RESOURCE ID: general_defense
 TEXT: ป้องกัน
 
 RESOURCE ID: general_include
-TEXT: INCLUDE
+TEXT: TRANSFER
 
 RESOURCE ID: general_km
 TEXT: กม.
 
 RESOURCE ID: general_leave_out
-TEXT: LEAVE OUT
+TEXT: CANCEL
 
 RESOURCE ID: general_transfer
 TEXT: TRANSFER
@@ -3335,7 +3368,7 @@ RESOURCE ID: grass_type_event
 TEXT: ระลอกฉับพลัน: หญ้า
 
 RESOURCE ID: great_league_remix_title
-TEXT: Great League Remix
+TEXT: เกรตลีกรีมิกซ์
 
 RESOURCE ID: ground_type_event
 TEXT: ระลอกฉับพลัน: ดิน
@@ -3470,10 +3503,10 @@ RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษของอีเวนต์กาลาร์บาร์เรียด ตั้งแต่วันที่ 19 ธันวาคม 2020 เวลา 10:00 น. จนถึงวันที่ 20 ธันวาคม 2020 เวลา 20:00 น. ตามเวลาท้องถิ่นไม่ว่าคุณจะอยู่ที่ใด
 
 RESOURCE ID: item_event_ticket_pink_flett_desc
-TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษในวันที่ 6 มีนาคม 2021 ตั้งแต่เวลา 11:00-17:00 น. ตามเวลาท้องถิ่น
 
 RESOURCE ID: item_event_ticket_pink_flett_details
-TEXT: This ticket will automatically activate to give you access to Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: ตั๋วนี้จะทำให้คุณเข้าร่วมงานวิจัยพิเศษในวันที่ 6 มีนาคม 2021 ตั้งแต่เวลา 11:00-17:00 น. ได้โดยอัตโนมัติไม่ว่าคุณจะอยู่ที่ใดในโลก
 
 RESOURCE ID: item_event_ticket_pink_roset_desc
 TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษในวันที่ 7 กุมภาพันธ์ 2021 ตั้งแต่เวลา 11:00-17:00 น. ตามเวลาท้องถิ่น
@@ -5687,6 +5720,9 @@ TEXT: เพิ่มโอกาสได้รับโปเกมอนน�
 RESOURCE ID: m_avatar_poses_bundle_pose_27
 TEXT: ท่าโพสบาร์เรียด
 
+RESOURCE ID: m_avatar_poses_bundle_pose_28
+TEXT: Elesa Pose
+
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: อ๊ะ %PLAYERNAME%! ออกเดินทางไปตรวจสอบกันเถอะ! จะว่าไปเธอเคยได้ยินทำนองเพลงนี้ไหม?
 
@@ -5784,8 +5820,8 @@ RESOURCE ID: masterwork_sm_title_4
 TEXT: งานวิจัยระยะยาว #151 (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-02-18T20:51:54.014750
-at SHA 5890d27a131a6c14c5700b7dc0ee92d127db700f
+TEXT: Built at 2021-02-25T18:35:04.908030
+at SHA 1fd0805f8f27e2381c38a14521d142e87934cc5c
 Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052
 
 RESOURCE ID: mini_collection_feb21_gen1_event
@@ -5872,7 +5908,7 @@ RESOURCE ID: open_sponsored_gift_button
 TEXT: เปิด
 
 RESOURCE ID: photobomb_five_fletchling
-TEXT: 5 surprise encounters with Fletchling in GO Snapshot
+TEXT: ยายาโคมะแย่งซีนถ่ายรูปในโกสแนปช็อต 5 ครั้ง
 
 RESOURCE ID: photobomb_five_machop
 TEXT: วันริกีแย่งซีนถ่ายรูปในโกสแนปช็อต 5 ครั้ง
@@ -6174,7 +6210,7 @@ RESOURCE ID: quest_catch_luvdisc
 TEXT: จับเลิฟคัส {0} ตัว
 
 RESOURCE ID: quest_complete_flett
-TEXT: The Bravest Bird
+TEXT: ปักษาใจฉกาจ
 
 RESOURCE ID: quest_complete_macht
 TEXT: วันริกีเดินหน้าลุย!
@@ -6187,6 +6223,9 @@ TEXT: บรรลุคำท้านักสะสม {0} ครั้ง
 
 RESOURCE ID: quest_complete_minicollect_singular
 TEXT: บรรลุคำท้านักสะสม
+
+RESOURCE ID: quest_complete_rockethq8
+TEXT: ยิ่งทะยานสูง...
 
 RESOURCE ID: quest_complete_roset
 TEXT: ดอมดมกลิ่นหอมของโรเซเลีย
@@ -7230,13 +7269,25 @@ RESOURCE ID: quest_evolve_zweilous_singular
 TEXT: วิวัฒนาการจิเฮด
 
 RESOURCE ID: quest_flett_catch_b
-TEXT: Catch {0} Fletchling
+TEXT: จับยายาโคมะ {0} ตัว
 
 RESOURCE ID: quest_flett_evolve_b
-TEXT: Evolve {0} Fletchling
+TEXT: วิวัฒนาการยายาโคมะ {0} ตัว
 
 RESOURCE ID: quest_flett_evolve_s1
-TEXT: Evolve {0} Fletchinder
+TEXT: วิวัฒนาการฮิโนยาโคมะ {0} ตัว
+
+RESOURCE ID: quest_gotour_kanto_bonus
+TEXT: Pokémon GO Tour: Kanto - Bonus Event
+
+RESOURCE ID: quest_gotour_kanto_bonus_1
+TEXT: Pokémon GO Tour: Kanto - Bonus Event (1/3)
+
+RESOURCE ID: quest_gotour_kanto_bonus_2
+TEXT: Pokémon GO Tour: Kanto - Bonus Event (2/3)
+
+RESOURCE ID: quest_gotour_kanto_bonus_3
+TEXT: Pokémon GO Tour: Kanto - Bonus Event (3/3)
 
 RESOURCE ID: quest_hoenn_celebration_research
 TEXT: งานวิจัยเฉลิมฉลองโฮเอ็น
@@ -7302,82 +7353,82 @@ RESOURCE ID: quest_snapshot_charmander
 TEXT: ถ่ายภาพฮิโตคาเงะ
 
 RESOURCE ID: quest_special_dialogue_flett_0_0
-TEXT: Hey there, %PLAYERNAME%. Hope you are doing well.
+TEXT: Hey there, %PLAYERNAME%. How’s your day?
 
 RESOURCE ID: quest_special_dialogue_flett_0_1
-TEXT: Me? Well, I’ve had a wonderful day so far visiting with this large group of Fletchling that has seemingly migrated to the area.
+TEXT: Personally, mine is going swimmingly. Or perhaps…flappingly? You see, an enormous flock of Fletchling has gathered nearby.
 
 RESOURCE ID: quest_special_dialogue_flett_0_2
-TEXT: I overheard their beautiful chirps and just had to investigate and they totally stole my heart.
+TEXT: I heard some Pokémon chirping up a storm, so I went to investigate and found Fletchling as far as the eye can see!
 
 RESOURCE ID: quest_special_dialogue_flett_0_3
-TEXT: This Tiny Robin Pokémon is actually quite amiable and easy to train. But when battle is joined, it shows its ferocious side!
+TEXT: Fletchling is known as the Tiny Robin Pokémon, and it’s typically quite amiable and easy to train. Send it into battle, though, and you’ll quickly see its more ferocious side!
 
 RESOURCE ID: quest_special_dialogue_flett_0_4
-TEXT: These Pokémon are known to be quite friendly, but the number of them in the area is a bit odd.
+TEXT: A fascinating little Pokémon. But as glad as I am to see it here, it’s quite odd for so many to gather in one place.
 
 RESOURCE ID: quest_special_dialogue_flett_0_5
-TEXT: Would you mind completing some tasks so we can get some more information on what is happening?
+TEXT: Would you mind conducting some research so we can better understand what’s going on?
 
 RESOURCE ID: quest_special_dialogue_flett_1_0
-TEXT: Great work, Trainer. Looks like you have your very own Fletchling to join you on your journey!
+TEXT: Great work, Trainer. Looks like you’ve got your very own Fletchling to join you on your journey!
 
 RESOURCE ID: quest_special_dialogue_flett_1_1
-TEXT: Did you know, its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed.
+TEXT: Did you know that Fletchling’s body is always warm? In fact, Trainers who live in cold areas apparently sleep with this Pokémon in their beds. How about that?
 
 RESOURCE ID: quest_special_dialogue_flett_1_2
-TEXT: I’m always so fascinated to learn about how Pokémon and their Trainers work and live together. I’m going to remember this bit of information on the next cold night.
+TEXT: I’m always fascinated to learn about how Pokémon and their Trainers work and live together. And it never hurts to know how to cope on cold nights, eh?
 
 RESOURCE ID: quest_special_dialogue_flett_1_3
-TEXT: Anyway, this Normal- and Flying-Type Pokémon actually evolves into the Fire- and Flying-Type Pokémon, Fletchinder.
+TEXT: Anyway, Fletchling evolves into the Fire- and Flying-type Pokémon Fletchinder.
 
 RESOURCE ID: quest_special_dialogue_flett_1_4
-TEXT: Known as the Ember Pokémon, they are exceedingly territorial and aggressive.
+TEXT: Known as the Ember Pokémon, Fletchinder is exceedingly territorial and aggressive.
 
 RESOURCE ID: quest_special_dialogue_flett_1_5
-TEXT: They are also incredibly fast, its speed right after takeoff already puts it in the top speed class of all bird Pokémon.
+TEXT: It’s also incredibly fast. Its speed from takeoff puts it easily among the fastest of all bird Pokémon.
 
 RESOURCE ID: quest_special_dialogue_flett_1_6
-TEXT: When you are ready, I think it is time for you to evolve your Fletchling into Fletchinder.
+TEXT: When you’re ready, why don’t you try evolving your Fletchling into Fletchinder? I’d love to witness that famous speed firsthand!
 
 RESOURCE ID: quest_special_dialogue_flett_2_0
-TEXT: Ah, what a fine looking Fletchinder you have there, %PLAYERNAME%.
+TEXT: That’s a mighty fine Fletchinder you have there, %PLAYERNAME%. Congratulations!
 
 RESOURCE ID: quest_special_dialogue_flett_2_1
-TEXT: While you were out completing your research, I was recalling some information about this interesting Pokémon.
+TEXT: Naturally, I’ve been busy as well. In fact, I have some information you may find useful as you train Fletchinder.
 
 RESOURCE ID: quest_special_dialogue_flett_2_2
-TEXT: Take this training tip seriously, don't just WING it - make sure to take care and not burn yourself when training your Fletchinder.
+TEXT: You see, Fletchinder is known to expel embers from its beak to set grass on fire. Then, it pounces on the bewildered prey that flee the flames.
 
 RESOURCE ID: quest_special_dialogue_flett_2_3
-TEXT: From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.
+TEXT: Pretty intense, huh? Best not to wing it during training, if you catch my draft—er, drift.
 
 RESOURCE ID: quest_special_dialogue_flett_2_4
-TEXT: Remember, only you can prevent high grass fires.
+TEXT: Try not to let any fires Fletchinder starts get out of hand, too. We’re all responsible for caring for our environment, after all!
 
 RESOURCE ID: quest_special_dialogue_flett_2_5
-TEXT: We are making great progress on our research, however, there is a few more things I’d like you to do.
+TEXT: With that said, there are still a few more tasks I’d like you to complete in aid of our research.
 
 RESOURCE ID: quest_special_dialogue_flett_2_6
-TEXT: I’d love to observe a Talonflame, do you think you could evolve your Fletchinder? I’ve wanted to take a closer look at their incredible wings.
+TEXT: Chief among those is to obtain a Talonflame, the evolution of Fletchinder. They’re said to have simply magnificent wings! Do you think you could evolve your Fletchinder, Trainer?
 
 RESOURCE ID: quest_special_dialogue_flett_3_0
-TEXT: Welcome back, %PLAYERNAME% and hello, Talonflame!
+TEXT: Welcome back, %PLAYERNAME%—and hello, Talonflame!
 
 RESOURCE ID: quest_special_dialogue_flett_3_1
-TEXT: Thank you for all your hard work today, but it certainly looks like it paid off now that you have the Scorching Pokémon.
+TEXT: I know I’ve put you through your paces today, but it’s all paid off in the end! You’re now the proud Trainer of Talonflame, the Scorching Pokémon.
 
 RESOURCE ID: quest_special_dialogue_flett_3_2
-TEXT: I certainly think they will make a great addition to your team, in the fever of an exciting battle it showers embers from the gaps between its feathers and takes to the air.
+TEXT: Talonflame is known to shower embers from the gaps between its feathers during the heat of battle. It then takes to the air, reaching speeds of up to 310 mph.
 
 RESOURCE ID: quest_special_dialogue_flett_3_3
-TEXT: Being both Fire- and Flying-Type, Talonflame has tough wings that don’t allow fire to pass through them. A long time ago, firefighters' outfits were made from Talonflame wings.
+TEXT: Remember how I mentioned Talonflame’s wings before? Fire can’t pass through them, so they were used to outfit firefighters way back when.
 
 RESOURCE ID: quest_special_dialogue_flett_3_4
-TEXT: Simply amazing, I’m always so impressed by this brave bird and can’t wait to see what the two of you as a team accomplish.
+TEXT: Amazing stuff! I’m always impressed by this brave bird. The two of you will no doubt accomplish great things—and at great speeds!
 
 RESOURCE ID: quest_special_dialogue_flett_3_5
-TEXT: I really appreciate your help today looking into this situation and hope you learned some useful information about this fiery family of Pokémon.
+TEXT: Thanks for your help today, Trainer. I hope you had as much fun as I did!
 
 RESOURCE ID: quest_special_dialogue_flett_3_6
 TEXT: ไว้พบกันใหม่นะ เล็ตส์โก!
@@ -7631,6 +7682,75 @@ TEXT: Wow, learning about Magmar and its Evolutionary line has really lit a fire
 RESOURCE ID: quest_special_dialogue_magmt_3_4
 TEXT: See you around, %PLAYERNAME%!
 
+RESOURCE ID: quest_special_dialogue_rockethq7_4_1_alt
+TEXT: I managed to build another Super Rocket Radar to help you track down Giovanni. But be careful—Blanche and Candela’s reports revealed that Giovanni has got a Legendary Shadow Pokémon with him!
+
+RESOURCE ID: quest_special_dialogue_rockethq7_4_2_alt
+TEXT: You need to save it, Trainer! I have no doubt Giovanni plans on using this poor Pokémon to nefarious ends.
+
+RESOURCE ID: quest_special_dialogue_rockethq7_5_1_alt
+TEXT: Not only did you stop Team GO Rocket, but you also saved several Pokémon along the way!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_0
+TEXT: ไง %PLAYERNAME% ขอโทษที่เรียกมากะทันหันนะ เผอิญมีปัญหานิดหน่อยน่ะ
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_1
+TEXT: ดูเหมือนว่าแก๊งโกร็อกเกตจะวางแผนชั่วร้ายอะไรบางอย่างอยู่! เราต้องเตรียมหาทางรับมือแล้วล่ะ
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_2
+TEXT: ว่าแล้วก็ เล็ตส์โก!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_0
+TEXT: ทำได้ดีมาก %PLAYERNAME% ขอบคุณที่ช่วยจัดการลูกสมุนแก๊งโกร็อกเกตและช่วยเหลือเหล่าโปเกมอนชาโดว์ออกมานะ!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_1
+TEXT: ระหว่างที่เธอกำลังจัดการเจ้าพวกนั้น ฉันได้รับรายงานว่าแก๊งโกร็อกเกตได้โปเกมอนในตำนานประเภทบินมาครอบครองล่ะ
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_2
+TEXT: บลองช์กำลังออกไปสอดแนมดูว่าพวกมันจับโปเกมอนในตำนานตัวไหนมา อีกไม่นานก็คงรู้แล้วล่ะ
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_3
+TEXT: ระหว่างนี้เราก็ตรวจสอบเกี่ยวกับโปเกมอนประเภทบินกันเถอะ
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_0
+TEXT: ขอบคุณที่จับโปเกมอนประเภทบินมาให้นะ %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_1
+TEXT: ฉันกับบลองช์กำลังวิเคราะห์ข้อมูลเกี่ยวกับโปเกมอนในตำนานที่โดนแก๊งโกร็อกเกตจับตัวไป
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_2
+TEXT: ตอนนี้หลักฐานทั้งหมดชี้ว่าโปเกมอนในตำนานที่ถูกจับไปน่าจะเป็นโปเกมอนที่มีความสำคัญกับพวกหัวหน้าทีมล่ะ...
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_3
+TEXT: เธอช่วยกลับไปทำการตรวจสอบต่อได้ไหม? เราจะปล่อยให้แก๊งโกร็อกเกตทำตามใจชอบไม่ได้โดยเด็ดขาด!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_0
+TEXT: ยินดีต้อนรับกลับมานะ! ว้าว นี่มันพีเจียตกับพลังงานเมก้าของพีเจียต!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_1
+TEXT: ถึงจะเป็นโปเกมอนที่น่าเกรงขามก็เถอะ แต่พีเจียตไม่น่าใช่โปเกมอนประเภทบินที่เราได้รับรายงานมาหรอกนะ
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_2
+TEXT: จากข้อมูลล่าสุดที่บลองช์ได้มา ดูเหมือนว่าโปเกมอนในตำนานประเภทบินตัวนี้จะอยู่กับซากากิล่ะ
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_3
+TEXT: วิธีตามหาตัวซากากิที่ง่ายที่สุดก็คือการหาตัวพวกหัวหน้าแก๊งโกร็อกเกตให้เจอก่อน เอาล่ะ ถึงตาเธอออกโรงแล้ว!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_4_0
+TEXT: เยี่ยมไปเลย %PLAYERNAME%! เธอช่วยได้มากเลยล่ะ ตอนนี้ฉันกับพวกหัวหน้าทีมได้ข้อมูลสำคัญมาแล้วล่ะ
+
+RESOURCE ID: quest_special_dialogue_rockethq8_4_1
+TEXT: และฉันก็สร้างซูเปอร์ร็อกเกตเรดาร์อันใหม่ที่ช่วยในการแกะรอยซากากิให้แล้ว ไปช่วยโปเกมอนในตำนานตัวนั้นกันเลย!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_0
+TEXT: วิเศษไปเลย %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_1
+TEXT: แม้การต่อสู้กับแก๊งโกร็อกเกตจะยังไม่จบสิ้น แต่อย่างน้อยวันนี้พวกเราก็ทำลายแผนการชั่วร้ายได้สำเร็จนะ!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_2
+TEXT: ไว้พบกันใหม่นะ เล็ตส์โก!
+
 RESOURCE ID: quest_special_dialogue_roset_0_0
 TEXT: อา...เธอได้กลิ่นหอมอะไรหรือเปล่า?
 
@@ -7719,19 +7839,19 @@ RESOURCE ID: quest_special_dialogue_roset_3_6
 TEXT: ไว้พบกันใหม่นะ เล็ตส์โก!
 
 RESOURCE ID: quest_title_flett
-TEXT: The Bravest Bird
+TEXT: ปักษาใจฉกาจ
 
 RESOURCE ID: quest_title_flett_0
-TEXT: The Bravest Bird (1/4)
+TEXT: ปักษาใจฉกาจ (1/4)
 
 RESOURCE ID: quest_title_flett_1
-TEXT: The Bravest Bird (2/4)
+TEXT: ปักษาใจฉกาจ (2/4)
 
 RESOURCE ID: quest_title_flett_2
-TEXT: The Bravest Bird (3/4)
+TEXT: ปักษาใจฉกาจ (3/4)
 
 RESOURCE ID: quest_title_flett_3
-TEXT: The Bravest Bird (4/4)
+TEXT: ปักษาใจฉกาจ (4/4)
 
 RESOURCE ID: quest_title_galarian_mrmime
 TEXT: ตามหาเจ้าของเสียงเต้นแท็ป!
@@ -7780,6 +7900,27 @@ TEXT: No Match for Magmar (3/4)
 
 RESOURCE ID: quest_title_magmt_3
 TEXT: No Match for Magmar (4/4)
+
+RESOURCE ID: quest_title_rockethq8
+TEXT: ยิ่งทะยานสูง...
+
+RESOURCE ID: quest_title_rockethq8_0
+TEXT: ยิ่งทะยานสูง...(1/6)
+
+RESOURCE ID: quest_title_rockethq8_1
+TEXT: ยิ่งทะยานสูง...(2/6)
+
+RESOURCE ID: quest_title_rockethq8_2
+TEXT: ยิ่งทะยานสูง...(3/6)
+
+RESOURCE ID: quest_title_rockethq8_3
+TEXT: ยิ่งทะยานสูง...(4/6)
+
+RESOURCE ID: quest_title_rockethq8_4
+TEXT: ยิ่งทะยานสูง...(5/6)
+
+RESOURCE ID: quest_title_rockethq8_5
+TEXT: ยิ่งทะยานสูง...(6/6)
 
 RESOURCE ID: quest_title_roset
 TEXT: ดอมดมกลิ่นหอมของโรเซเลีย
@@ -12192,22 +12333,37 @@ RESOURCE ID: raid_weekend_zygarde
 TEXT: Special Raid Weekend: Zygarde
 
 RESOURCE ID: raid_xp_25_fivestar
-TEXT: 1.25x five-star Raid XP
+TEXT: XP จากการตีบอสห้าดาว 1.25 เท่า
 
 RESOURCE ID: raid_xp_increase
 TEXT: Increased XP from raids
 
+RESOURCE ID: remote_raid_description
+TEXT: Join raids farther away on the map or via friend invites using a Remote Raid Pass.
+
+RESOURCE ID: remote_raid_name
+TEXT: Raid Remotely
+
 RESOURCE ID: reorder_pokemon_tag_error
-TEXT: Failed to reorder tag
+TEXT: การเปลี่ยนลำดับแท็กล้มเหลว
 
 RESOURCE ID: retro_cup_title
-TEXT: Retro Cup
+TEXT: การแข่งขันย้อนยุค
 
 RESOURCE ID: rock_type_event
 TEXT: ระลอกฉับพลัน: หิน
 
 RESOURCE ID: rocket_celebration_event_name
 TEXT: การเฉลิมฉลองของแก๊งโกร็อกเกต
+
+RESOURCE ID: rocket_description
+TEXT: Defeat the members of Team GO Rocket you see at PokéStops and in balloons to save Shadow Pokémon.
+
+RESOURCE ID: rocket_feature_name
+TEXT: Team GO Rocket
+
+RESOURCE ID: settings_go_to_support|a
+TEXT: ศูนย์ช่วยเหลือ & ติดต่อสอบถาม
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
 TEXT: เมื่อเปิดการตั้งค่านี้ จะสามารถถ่ายโอนโปเกมอนในตำนานและโปเกมอนมายาบางส่วนได้ เมื่อดำเนินการถ่ายโอนโปเกมอนให้ศาสตราจารย์วิลโลว์แล้ว จะไม่สามารถยกเลิกได้
@@ -12258,7 +12414,7 @@ RESOURCE ID: sinnoh_collection_name
 TEXT: คำท้านักสะสมชินโอ
 
 RESOURCE ID: spawn_fletchling
-TEXT: More Fletchling are appearing in the wild
+TEXT: ยายาโคมะปรากฏตัวออกมามากขึ้น
 
 RESOURCE ID: spawn_machop
 TEXT: วันริกีปรากฏตัวมากขึ้นในธรรมชาติ
@@ -12276,7 +12432,7 @@ RESOURCE ID: ticket_decembercd
 TEXT: คอมมิวนิตี้เดย์เดือนธันวาคม
 
 RESOURCE ID: ticket_fletchling
-TEXT: Ticket for Special Research story available in the Shop: The Bravest Bird
+TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "ปักษาใจฉกาจ" ได้ที่ร้านค้า
 
 RESOURCE ID: ticket_machop
 TEXT: ตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษมีจำหน่ายในร้านค้า : วันริกีเดินหน้าลุย!
@@ -12324,7 +12480,7 @@ RESOURCE ID: upload_mgmt_ar_scans
 TEXT: การสแกนเสาโปเกสต็อป ({0})
 
 RESOURCE ID: upload_mgmt_confirm_delete_individual
-TEXT: ต้องการลบคำร้อง ({0}) หรือไม่?
+TEXT: ต้องการลบคำร้องหรือไม่?
 
 RESOURCE ID: upload_mgmt_images
 TEXT: รูปภาพเสาโปเกสต็อป ({0})
@@ -12378,7 +12534,7 @@ RESOURCE ID: upmgmt_delete_cancel
 TEXT: ยกเลิก
 
 RESOURCE ID: upmgmt_delete_msg
-TEXT: ต้องการลบคำร้อง ({0}) หรือไม่?
+TEXT: ต้องการลบคำร้องหรือไม่?
 
 RESOURCE ID: upmgmt_delete_yes
 TEXT: ใช่

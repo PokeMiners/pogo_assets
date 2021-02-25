@@ -34,6 +34,9 @@ TEXT: マスク みずタイプ
 RESOURCE ID: avatar_f_glasses_newyearglasses2021_00_bundle_icon
 TEXT: 2021メガネ
 
+RESOURCE ID: avatar_f_hat_elesa_00_bundle_icon
+TEXT: Elesa-Style Headband
+
 RESOURCE ID: avatar_f_hat_guccihat_00_bundle_icon
 TEXT: The North Face x Gucci 帽子
 
@@ -58,6 +61,9 @@ TEXT: エルフーンイヤーマフラー
 RESOURCE ID: avatar_f_pants_munnapack_00_bundle_icon
 TEXT: ムンナ ボトムス
 
+RESOURCE ID: avatar_f_shirt_elesa_00_bundle_icon
+TEXT: Elesa-Style Top
+
 RESOURCE ID: avatar_f_shirt_greedentsweater_00_bundle_icon
 TEXT: ヨクバリスセーター
 
@@ -81,6 +87,9 @@ TEXT: ジャケット フシギバナ
 
 RESOURCE ID: avatar_f_shirt_whitecoat_00_bundle_icon
 TEXT: ダッフルコート 白
+
+RESOURCE ID: avatar_f_shoes_elesa_00_bundle_icon
+TEXT: Elesa-Style Shoes
 
 RESOURCE ID: avatar_f_shoes_winterboots_00_bundle_icon
 TEXT: ウィンターブーツ
@@ -112,6 +121,9 @@ TEXT: マスク みずタイプ
 RESOURCE ID: avatar_m_glasses_newyearglasses2021_00_bundle_icon
 TEXT: 2021メガネ
 
+RESOURCE ID: avatar_m_hat_elesa_00_bundle_icon
+TEXT: Elesa-Style Headband
+
 RESOURCE ID: avatar_m_hat_guccihat_00_bundle_icon
 TEXT: The North Face x Gucci 帽子
 
@@ -133,8 +145,14 @@ TEXT: パーティーハット
 RESOURCE ID: avatar_m_hat_whimsicottearmuff_00_bundle_icon
 TEXT: エルフーンイヤーマフラー
 
+RESOURCE ID: avatar_m_pants_elesa_00_bundle_icon
+TEXT: Elesa-Style Pants
+
 RESOURCE ID: avatar_m_pants_munnapack_00_bundle_icon
 TEXT: ムンナ ボトムス
+
+RESOURCE ID: avatar_m_shirt_elesa_00_bundle_icon
+TEXT: Elesa-Style Top
 
 RESOURCE ID: avatar_m_shirt_greedentsweater_00_bundle_icon
 TEXT: ヨクバリスセーター
@@ -159,6 +177,9 @@ TEXT: ジャケット フシギバナ
 
 RESOURCE ID: avatar_m_shirt_whitecoat_00_bundle_icon
 TEXT: ダッフルコート 白
+
+RESOURCE ID: avatar_m_shoes_elesa_00_bundle_icon
+TEXT: Elesa-Style Shoes
 
 RESOURCE ID: avatar_m_shoes_winterboots_00_bundle_icon
 TEXT: ウィンターブーツ
@@ -212,27 +233,27 @@ RESOURCE ID: badge_mini_collection_title
 TEXT: すご腕コレクター
 
 RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Only {0} eligible Pokémon can be transferred to the professor.</b></size>
+TEXT: <size=36><b>選択されたポケモンのうち{0}匹のみ博士に送ることができます。</b></size>
 
-Any Pokémon not eligible to be transferred will remain in storage. Transferred Pokémon cannot be reclaimed.
+送ることができないポケモンはボックスに残ります。送ったポケモンを戻すことはできません。
 
 RESOURCE ID: batch_transfer_unique_event_pokemon
-TEXT: {0} Event Pokémon
+TEXT: 特殊なポケモン：{0}匹
 
 RESOURCE ID: batch_transfer_unique_included
-TEXT: Unique Pokémon are included.
+TEXT: 伝説、幻、もしくはその他の特殊なポケモンが含まれています！
 
 RESOURCE ID: batch_transfer_unique_legendary_or_mythical_pokemon
-TEXT: {0} Legendary or Mythical Pokémon
+TEXT: 伝説もしくは幻のポケモン：{0}匹
 
 RESOURCE ID: batch_transfer_unique_not_included
-TEXT: Unique Pokémon are not included.
+TEXT: 伝説、幻、もしくはその他の特殊なポケモンは含まれていません。
 
 RESOURCE ID: batch_transfer_unique_warning_message
-TEXT: Are you sure you want to transfer these Pokémon to the professor?
+TEXT: 本当に博士に送ってもいいですか？
 
 RESOURCE ID: batch_transfer_unique_warning_title
-TEXT: Your Selection Contains Unique Pokémon:
+TEXT: 選択したポケモン：
 
 RESOURCE ID: battle_day_abomasnow
 TEXT: GOバトル・デイ：ユキノオー
@@ -2394,6 +2415,12 @@ TEXT: GOバトル・デイ：ジガルデ
 RESOURCE ID: battle_npcs_plural
 TEXT: GO Tour チャレンジャー{0}人と対戦する
 
+RESOURCE ID: buddy_description
+TEXT: お気に入りのポケモンを相棒にして、絆を深めることで、ごほうびをもらいましょう。
+
+RESOURCE ID: buddy_feature_name
+TEXT: 相棒アドベンチャー
+
 RESOURCE ID: buddy_walked_found_xl_candy
 TEXT: {0}がアメXLを見つけた！
 
@@ -2781,11 +2808,17 @@ TEXT: え！　こうなっちゃった？！
 RESOURCE ID: event_regional_brazil_carnaval
 TEXT: カーニバル
 
+RESOURCE ID: event_season2_name
+TEXT: レジェンドシーズン
+
 RESOURCE ID: event_title_mrmime
 TEXT: バリヤードのイベント
 
 RESOURCE ID: f_avatar_poses_bundle_pose_27
 TEXT: バリヤードのポーズ
+
+RESOURCE ID: f_avatar_poses_bundle_pose_28
+TEXT: Elesa Pose
 
 RESOURCE ID: fairy_type_event
 TEXT: タイプ上昇：フェアリー
@@ -2835,16 +2868,16 @@ RESOURCE ID: general1.ticket.2_title
 TEXT: 「かいりきポケモンを解明せよ！」チケット
 
 RESOURCE ID: general_include
-TEXT: INCLUDE
+TEXT: 送る
 
 RESOURCE ID: general_km
 TEXT: km
 
 RESOURCE ID: general_leave_out
-TEXT: LEAVE OUT
+TEXT: キャンセル
 
 RESOURCE ID: general_transfer
-TEXT: TRANSFER
+TEXT: 送る
 
 RESOURCE ID: ghost_type_event
 TEXT: タイプ上昇：ゴースト
@@ -5459,6 +5492,9 @@ TEXT: 交換でキラポケモンのチャンス増
 RESOURCE ID: m_avatar_poses_bundle_pose_27
 TEXT: バリヤードのポーズ
 
+RESOURCE ID: m_avatar_poses_bundle_pose_28
+TEXT: Elesa Pose
+
 RESOURCE ID: marketing_notification_opt_in_message
 TEXT: 通知方法には、テキスト、サウンド、アイコンバッジがあります。設定で指定できます。
 
@@ -5562,8 +5598,8 @@ RESOURCE ID: masterwork_sm_title_4
 TEXT: 続行リサーチ151 (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-02-18T20:51:54.014750
-at SHA 5890d27a131a6c14c5700b7dc0ee92d127db700f
+TEXT: Built at 2021-02-25T18:35:04.908030
+at SHA 1fd0805f8f27e2381c38a14521d142e87934cc5c
 Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052
 
 RESOURCE ID: mini_collection_feb21_gen1_event
@@ -5938,7 +5974,7 @@ RESOURCE ID: pokemon_go_hashtag
 TEXT: #PokemonGO
 
 RESOURCE ID: pokemon_info_none_transferable
-TEXT: None of the selected Pokémon can be transferred.
+TEXT: すべて送ることができないポケモンです
 
 RESOURCE ID: pokemon_inventory_special_egg_help
 TEXT: タマゴが9個ある場合、ウィークリーの歩行距離によるリワードや、GOロケット団リーダーを倒してもらえるタマゴは、ここに入ります
@@ -5975,6 +6011,9 @@ TEXT: コレクションチャレンジを{0}個 完了する
 
 RESOURCE ID: quest_complete_minicollect_singular
 TEXT: コレクションチャレンジを完了する
+
+RESOURCE ID: quest_complete_rockethq8
+TEXT: 悪の組織に立ち向かえ7
 
 RESOURCE ID: quest_complete_roset
 TEXT: いばらポケモンを解明せよ！
@@ -7026,6 +7065,18 @@ TEXT: ヤヤコマを{0}匹進化させる
 RESOURCE ID: quest_flett_evolve_s1
 TEXT: ヒノヤコマを{0}匹進化させる
 
+RESOURCE ID: quest_gotour_kanto_bonus
+TEXT: Pokémon GO Tour: Kanto - Bonus Event
+
+RESOURCE ID: quest_gotour_kanto_bonus_1
+TEXT: Pokémon GO Tour: Kanto - Bonus Event (1/3)
+
+RESOURCE ID: quest_gotour_kanto_bonus_2
+TEXT: Pokémon GO Tour: Kanto - Bonus Event (2/3)
+
+RESOURCE ID: quest_gotour_kanto_bonus_3
+TEXT: Pokémon GO Tour: Kanto - Bonus Event (3/3)
+
 RESOURCE ID: quest_hoenn_celebration_research
 TEXT: ホウエンセレブレーションリサーチ
 
@@ -7341,6 +7392,75 @@ TEXT: あの映画を見るまで、ポケモンとの絆については、知�
 RESOURCE ID: quest_special_dialogue_macht_3_5
 TEXT: はなしを聞いてくれて、ありがとう。きみは、カイリキーと仲良く頑張れよ。また会おう。それまで、元気にGOだ！
 
+RESOURCE ID: quest_special_dialogue_rockethq7_4_1_alt
+TEXT: I managed to build another Super Rocket Radar to help you track down Giovanni. But be careful—Blanche and Candela’s reports revealed that Giovanni has got a Legendary Shadow Pokémon with him!
+
+RESOURCE ID: quest_special_dialogue_rockethq7_4_2_alt
+TEXT: You need to save it, Trainer! I have no doubt Giovanni plans on using this poor Pokémon to nefarious ends.
+
+RESOURCE ID: quest_special_dialogue_rockethq7_5_1_alt
+TEXT: Not only did you stop Team GO Rocket, but you also saved several Pokémon along the way!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_0
+TEXT: やぁ、%PLAYERNAME%！こんな時間にすまない。ちょっとした問題が発生した。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_1
+TEXT: そうだ。GOロケット団に、あやしい動きが見える。お願いしたいことはわかると思う。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_2
+TEXT: 言うまでもなく、GOだ！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_0
+TEXT: よくやった、%PLAYERNAME%！GOロケット団のしたっぱを倒し、シャドウポケモンを救ってくれてありがとう！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_1
+TEXT: 今入った情報によると、GOロケット団が新たに、ひこうタイプの伝説のポケモンを手にいれたらしい。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_2
+TEXT: ブランシェが、すでに詳細を確認するために動いてくれている。すぐに明らかになるとは思うが．．．
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_3
+TEXT: ひこうタイプのポケモンにまで調査の範囲を広げてみよう。頼んだぞ！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_0
+TEXT: ひこうタイプのポケモンを捕まえてくれて、ありがとう、%PLAYERNAME%！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_1
+TEXT: わたしとブランシェも、きみが集めてくれた手掛かりをもとに分析を進め、真相に一歩近づいたところだ。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_2
+TEXT: やつらが手に入れた伝説のポケモンなんだが、どうやら、チームリーダーとなんらかの関連性があるなど、
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_3
+TEXT: いつもとは違う様子なんだ。さらに調査が必要だが、十分に注意して進めてくれ！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_0
+TEXT: ピジョットか！メガエナジーも！！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_1
+TEXT: メガシンカしたピジョットということもあり得るのか？いや、ひこうタイプだ、という以外には、共通点はなさそうだな。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_2
+TEXT: ブランシェが得た最新情報によると、ひこうタイプの伝説のポケモンを連れているのは、サカキらしい。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_3
+TEXT: GOロケット団リーダーを探し出すのが一番早い方法だろう。きみならできるはずだ。さぁ、勇気を持って、GO！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_4_0
+TEXT: すばらしい、%PLAYERNAME%！協力して問題に立ち向かえてうれしいよ。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_4_1
+TEXT: 急いでサカキを倒し、ポケモンを救ってくれ！こちらも急いでスーパーロケットレーダーを組み立てておいた。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_0
+TEXT: 見事だ、%PLAYERNAME%！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_1
+TEXT: GOロケット団との戦いが続く限り、注意は必要だな。今日のところはひとまず抑え込みに成功した。本当にありがとう！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_2
+TEXT: また会える日まで、元気にGOだ！
+
 RESOURCE ID: quest_special_dialogue_roset_0_0
 TEXT: あー、この香り、この香り！
 
@@ -7475,6 +7595,27 @@ TEXT: かいりきポケモンを解明せよ！(3/4)
 
 RESOURCE ID: quest_title_macht_3
 TEXT: かいりきポケモンを解明せよ！(4/4)
+
+RESOURCE ID: quest_title_rockethq8
+TEXT: 悪の組織に立ち向かえ7
+
+RESOURCE ID: quest_title_rockethq8_0
+TEXT: 悪の組織に立ち向かえ7(1/6)
+
+RESOURCE ID: quest_title_rockethq8_1
+TEXT: 悪の組織に立ち向かえ7(2/6)
+
+RESOURCE ID: quest_title_rockethq8_2
+TEXT: 悪の組織に立ち向かえ7(3/6)
+
+RESOURCE ID: quest_title_rockethq8_3
+TEXT: 悪の組織に立ち向かえ7(4/6)
+
+RESOURCE ID: quest_title_rockethq8_4
+TEXT: 悪の組織に立ち向かえ7(5/6)
+
+RESOURCE ID: quest_title_rockethq8_5
+TEXT: 悪の組織に立ち向かえ7(6/6)
 
 RESOURCE ID: quest_title_roset
 TEXT: いばらポケモンを解明せよ！
@@ -11878,7 +12019,13 @@ RESOURCE ID: raid_weekend_zygarde
 TEXT: レイドウィークエンド：ジガルデ
 
 RESOURCE ID: raid_xp_25_fivestar
-TEXT: 1.25x five-star Raid XP
+TEXT: 1.25x 5つ星レイド獲得XP
+
+RESOURCE ID: remote_raid_description
+TEXT: リモートレイドパスを使うと、直接行けないレイドに参加できます。フレンドからの招待で参加することもできます。
+
+RESOURCE ID: remote_raid_name
+TEXT: リモートレイド
 
 RESOURCE ID: reorder_pokemon_tag_error
 TEXT: タグ順を変更できませんでした
@@ -11891,6 +12038,15 @@ TEXT: タイプ上昇：いわ
 
 RESOURCE ID: rocket_celebration_event_name
 TEXT: GOロケット団セレブレーション
+
+RESOURCE ID: rocket_description
+TEXT: ポケストップに現れたり、気球に乗っているGOロケット団のメンバーを倒して、シャドウポケモンを救いましょう。
+
+RESOURCE ID: rocket_feature_name
+TEXT: GOロケット団
+
+RESOURCE ID: settings_go_to_support|a
+TEXT: ヘルプ＆お問い合わせ
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
 TEXT: この設定をオンにすると、伝説のポケモンや一部の幻のポケモンを含めて複数選択することができるようになります。博士に送ってしまったポケモンを戻すことはできません。

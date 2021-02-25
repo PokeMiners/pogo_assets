@@ -37,6 +37,9 @@ TEXT: 물타입 마스크
 RESOURCE ID: avatar_f_glasses_newyearglasses2021_00_bundle_icon
 TEXT: 2021안경
 
+RESOURCE ID: avatar_f_hat_elesa_00_bundle_icon
+TEXT: Elesa-Style Headband
+
 RESOURCE ID: avatar_f_hat_guccihat_00_bundle_icon
 TEXT: The North Face x Gucci 모자
 
@@ -61,6 +64,9 @@ TEXT: 엘풍 귀마개
 RESOURCE ID: avatar_f_pants_munnapack_00_bundle_icon
 TEXT: 몽나 하의
 
+RESOURCE ID: avatar_f_shirt_elesa_00_bundle_icon
+TEXT: Elesa-Style Top
+
 RESOURCE ID: avatar_f_shirt_greedentsweater_00_bundle_icon
 TEXT: 요씽리스 스웨터
 
@@ -84,6 +90,9 @@ TEXT: 이상해꽃 재킷
 
 RESOURCE ID: avatar_f_shirt_whitecoat_00_bundle_icon
 TEXT: 더플코트 화이트
+
+RESOURCE ID: avatar_f_shoes_elesa_00_bundle_icon
+TEXT: Elesa-Style Shoes
 
 RESOURCE ID: avatar_f_shoes_winterboots_00_bundle_icon
 TEXT: 윈터 부츠
@@ -115,6 +124,9 @@ TEXT: 물타입 마스크
 RESOURCE ID: avatar_m_glasses_newyearglasses2021_00_bundle_icon
 TEXT: 2021안경
 
+RESOURCE ID: avatar_m_hat_elesa_00_bundle_icon
+TEXT: Elesa-Style Headband
+
 RESOURCE ID: avatar_m_hat_guccihat_00_bundle_icon
 TEXT: The North Face x Gucci 모자
 
@@ -136,8 +148,14 @@ TEXT: 파티 모자
 RESOURCE ID: avatar_m_hat_whimsicottearmuff_00_bundle_icon
 TEXT: 엘풍 귀마개
 
+RESOURCE ID: avatar_m_pants_elesa_00_bundle_icon
+TEXT: Elesa-Style Pants
+
 RESOURCE ID: avatar_m_pants_munnapack_00_bundle_icon
 TEXT: 몽나 하의
+
+RESOURCE ID: avatar_m_shirt_elesa_00_bundle_icon
+TEXT: Elesa-Style Top
 
 RESOURCE ID: avatar_m_shirt_greedentsweater_00_bundle_icon
 TEXT: 요씽리스 스웨터
@@ -162,6 +180,9 @@ TEXT: 이상해꽃 재킷
 
 RESOURCE ID: avatar_m_shirt_whitecoat_00_bundle_icon
 TEXT: 더플코트 화이트
+
+RESOURCE ID: avatar_m_shoes_elesa_00_bundle_icon
+TEXT: Elesa-Style Shoes
 
 RESOURCE ID: avatar_m_shoes_winterboots_00_bundle_icon
 TEXT: 윈터 부츠
@@ -212,27 +233,27 @@ RESOURCE ID: badge_mini_collection_title
 TEXT: 대단한 컬렉터
 
 RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Only {0} eligible Pokémon can be transferred to the professor.</b></size>
+TEXT: <size=36><b>Only {0} of the selected Pokémon can be transferred to the professor.</b></size>
 
-Any Pokémon not eligible to be transferred will remain in storage. Transferred Pokémon cannot be reclaimed.
+Any Pokémon that can’t be transferred will remain in your Pokémon storage. Transferred Pokémon cannot be reclaimed.
 
 RESOURCE ID: batch_transfer_unique_event_pokemon
 TEXT: {0} Event Pokémon
 
 RESOURCE ID: batch_transfer_unique_included
-TEXT: Unique Pokémon are included.
+TEXT: You have selected at least one Legendary, Mythical, or event Pokémon.
 
 RESOURCE ID: batch_transfer_unique_legendary_or_mythical_pokemon
 TEXT: {0} Legendary or Mythical Pokémon
 
 RESOURCE ID: batch_transfer_unique_not_included
-TEXT: Unique Pokémon are not included.
+TEXT: You have not selected any Legendary, Mythical, or event Pokémon.
 
 RESOURCE ID: batch_transfer_unique_warning_message
 TEXT: Are you sure you want to transfer these Pokémon to the professor?
 
 RESOURCE ID: batch_transfer_unique_warning_title
-TEXT: Your Selection Contains Unique Pokémon:
+TEXT: Your Selection Contains These Pokémon:
 
 RESOURCE ID: battle_day_abomasnow
 TEXT: GO배틀 데이: 눈설왕
@@ -2394,11 +2415,20 @@ TEXT: GO배틀 데이: 지가르데
 RESOURCE ID: battle_npcs_plural
 TEXT: GO Tour 도전자 {0}명과 배틀한다
 
+RESOURCE ID: buddy_description
+TEXT: Choose a Pokémon to be your buddy, and it’ll gain Perks as your bond grows.
+
+RESOURCE ID: buddy_feature_name
+TEXT: Buddy Adventure
+
 RESOURCE ID: buddy_walked_found_xl_candy
 TEXT: {0}(이)가 사탕XL을 발견했다!
 
 RESOURCE ID: bug_type_event
 TEXT: Type Surge: Bug
+
+RESOURCE ID: candy_exchange_button
+TEXT: 교환
 
 RESOURCE ID: career_research_sm_title
 TEXT: 오래된 해도
@@ -2428,7 +2458,7 @@ RESOURCE ID: combat_gotour_kanto_cup
 TEXT: GO Tour: 관동컵
 
 RESOURCE ID: community_day_fletchling_event_name
-TEXT: Community Day: Fletchling
+TEXT: 커뮤니티 데이: 화살꼬빈
 
 RESOURCE ID: community_day_machop_event_name
 TEXT: 커뮤니티 데이: 알통몬
@@ -2778,6 +2808,9 @@ TEXT: 어! 이렇게 되는 거야?!
 RESOURCE ID: event_regional_brazil_carnaval
 TEXT: 카니발
 
+RESOURCE ID: event_season2_name
+TEXT: 레전드 시즌
+
 RESOURCE ID: event_sinnoh_celebration
 TEXT: 신오 기념 이벤트
 
@@ -2789,6 +2822,9 @@ TEXT: 하나 기념 이벤트
 
 RESOURCE ID: f_avatar_poses_bundle_pose_27
 TEXT: 마임맨의 포즈
+
+RESOURCE ID: f_avatar_poses_bundle_pose_28
+TEXT: Elesa Pose
 
 RESOURCE ID: fairy_type_event
 TEXT: Type Surge: Fairy
@@ -2822,12 +2858,12 @@ TEXT: 전 세계 어디에 있어도 현지 시간 2021년 1월 16일 11시~ 17�
 이벤트를 최대한 즐기려면 기재된 개최 시간 내에 완료할  필요가 있습니다.
 
 RESOURCE ID: general1.ticket.2_flett_description
-TEXT: A ticket to access The Bravest Bird Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: 전 세계 어디에 있어도 현지 시간 2021년 3월 6일 11시~ 17시까지 게임 내에서 시작할 수 있는 이벤트 "울새포켓몬의 수수께끼를 풀어라!"를 플레이할 수 있는 티켓. 자세한 내용은 게임 내 새소식에서 확인할 수 있습니다.
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+이벤트를 최대한 즐기려면 기재된 개최 시간 내에 완료할  필요가 있습니다.
 
 RESOURCE ID: general1.ticket.2_flett_title
-TEXT: The Bravest Bird Ticket
+TEXT: 울새포켓몬의 수수께끼를 풀어라! 티켓
 
 RESOURCE ID: general1.ticket.2_roset_description
 TEXT: 전 세계 어디에 있어도 현지 시간 2021년 2월 7일 11시~ 17시까지 게임 내에서 시작할 수 있는 이벤트 "가시포켓몬의 수수께끼를 풀어라!"를 플레이할 수 있는 티켓. 자세한 내용은 게임 내 새소식에서 확인할 수 있습니다.
@@ -2841,13 +2877,13 @@ RESOURCE ID: general1.ticket.2_title
 TEXT: "괴력포켓몬의 수수께끼를 풀어라!" 티켓
 
 RESOURCE ID: general_include
-TEXT: INCLUDE
+TEXT: TRANSFER
 
 RESOURCE ID: general_km
 TEXT: KM
 
 RESOURCE ID: general_leave_out
-TEXT: LEAVE OUT
+TEXT: CANCEL
 
 RESOURCE ID: general_transfer
 TEXT: TRANSFER
@@ -3246,10 +3282,10 @@ RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2020년12월 19일 10시~12월 20일 20시까지 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_pink_flett_desc
-TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: 현지 시간 2021년 3월 6일 11시~ 17시에 스페셜리서치를 진행하기 위한 티켓.
 
 RESOURCE ID: item_event_ticket_pink_flett_details
-TEXT: This ticket will automatically activate to give you access to Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: 이 티켓은 자동으로 활성화 되어 현지시간 2021년 3월 6일에 스페셜리서치를 진행할 수 있습니다.
 
 RESOURCE ID: item_event_ticket_pink_roset_desc
 TEXT: 현지 시간 2021년 2월 7일 11시~ 17시에 스페셜리서치를 진행하기 위한 티켓.
@@ -5466,6 +5502,9 @@ TEXT: 교환으로 반짝반짝 포켓몬 가능성 증가
 RESOURCE ID: m_avatar_poses_bundle_pose_27
 TEXT: 마임맨의 포즈
 
+RESOURCE ID: m_avatar_poses_bundle_pose_28
+TEXT: Elesa Pose
+
 RESOURCE ID: manage_pokemon_tag_remove
 TEXT:  {1}에게서 {0} 태그 삭제
 
@@ -5569,8 +5608,8 @@ RESOURCE ID: masterwork_sm_title_4
 TEXT: 장기리서치151 (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-02-18T20:51:54.014750
-at SHA 5890d27a131a6c14c5700b7dc0ee92d127db700f
+TEXT: Built at 2021-02-25T18:35:04.908030
+at SHA 1fd0805f8f27e2381c38a14521d142e87934cc5c
 Patch from: 0.197.1-SHA-a183a070, 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052
 
 RESOURCE ID: mini_collection_feb21_gen1_event
@@ -5660,7 +5699,7 @@ RESOURCE ID: open_sponsored_gift_button
 TEXT: 선물을 연다
 
 RESOURCE ID: photobomb_five_fletchling
-TEXT: 5 surprise encounters with Fletchling in GO Snapshot
+TEXT: GO스냅샷으로 화살꼬빈의 서프라이즈 5회
 
 RESOURCE ID: photobomb_five_machop
 TEXT: GO스냅샷으로 알통몬의 서프라이즈 5번
@@ -5744,7 +5783,7 @@ RESOURCE ID: quest_catch_luvdisc
 TEXT: 사랑동이를 {0}마리 잡는다
 
 RESOURCE ID: quest_complete_flett
-TEXT: The Bravest Bird
+TEXT: 울새포켓몬의 수수께끼를 풀어라!
 
 RESOURCE ID: quest_complete_macht
 TEXT: 괴력포켓몬의 수수께끼를 풀어라!
@@ -5757,6 +5796,9 @@ TEXT: Complete {0} Collection Challenges
 
 RESOURCE ID: quest_complete_minicollect_singular
 TEXT: Complete a Collection Challenge
+
+RESOURCE ID: quest_complete_rockethq8
+TEXT: 악의 조직에 맞서라7
 
 RESOURCE ID: quest_complete_roset
 TEXT: 가시포켓몬의 수수께끼를 풀어라!
@@ -6806,13 +6848,25 @@ RESOURCE ID: quest_evolve_zweilous_singular
 TEXT: 디헤드(을)를 진화시킨다
 
 RESOURCE ID: quest_flett_catch_b
-TEXT: Catch {0} Fletchling
+TEXT: 화살꼬빈을 {0}마리 잡는다
 
 RESOURCE ID: quest_flett_evolve_b
-TEXT: Evolve {0} Fletchling
+TEXT: 화살꼬빈을 진화시킨다
 
 RESOURCE ID: quest_flett_evolve_s1
-TEXT: Evolve {0} Fletchinder
+TEXT: 불화살빈을 {0}마리 진화시킨다
+
+RESOURCE ID: quest_gotour_kanto_bonus
+TEXT: Pokémon GO Tour: Kanto - Bonus Event
+
+RESOURCE ID: quest_gotour_kanto_bonus_1
+TEXT: Pokémon GO Tour: Kanto - Bonus Event (1/3)
+
+RESOURCE ID: quest_gotour_kanto_bonus_2
+TEXT: Pokémon GO Tour: Kanto - Bonus Event (2/3)
+
+RESOURCE ID: quest_gotour_kanto_bonus_3
+TEXT: Pokémon GO Tour: Kanto - Bonus Event (3/3)
 
 RESOURCE ID: quest_hoenn_celebration_research
 TEXT: 호연 기념 리서치
@@ -6884,85 +6938,85 @@ RESOURCE ID: quest_snapshot_charmander
 TEXT: 파이리 GO스냅샷을 찍는다
 
 RESOURCE ID: quest_special_dialogue_flett_0_0
-TEXT: Hey there, %PLAYERNAME%. Hope you are doing well.
+TEXT: 안녕, %PLAYERNAME%. 어떻게 지내니?
 
 RESOURCE ID: quest_special_dialogue_flett_0_1
-TEXT: Me? Well, I’ve had a wonderful day so far visiting with this large group of Fletchling that has seemingly migrated to the area.
+TEXT: 나는 요즘 화살꼬빈의 지저귐에 마음을 빼앗기고 있어.
 
 RESOURCE ID: quest_special_dialogue_flett_0_2
-TEXT: I overheard their beautiful chirps and just had to investigate and they totally stole my heart.
+TEXT: 많이 날고 있는 것 같으니 조사를 의뢰하고 싶군!
 
 RESOURCE ID: quest_special_dialogue_flett_0_3
-TEXT: This Tiny Robin Pokémon is actually quite amiable and easy to train. But when battle is joined, it shows its ferocious side!
+TEXT: 울새포켓몬인 화살꼬빈은 사람을 잘 따르고 다루기 쉽다고 전해지고 있어.
 
 RESOURCE ID: quest_special_dialogue_flett_0_4
-TEXT: These Pokémon are known to be quite friendly, but the number of them in the area is a bit odd.
+TEXT: 관찰하는 한 그렇지 않은 화살꼬빈도 있을 거야.
 
 RESOURCE ID: quest_special_dialogue_flett_0_5
-TEXT: Would you mind completing some tasks so we can get some more information on what is happening?
+TEXT: 너의 조사 결과를 토대로 검증하려고 하니 잘 부탁해!
 
 RESOURCE ID: quest_special_dialogue_flett_1_0
-TEXT: Great work, Trainer. Looks like you have your very own Fletchling to join you on your journey!
+TEXT: 훌륭해! 잡은 화살꼬빈과는 친해질 수 있을 거 같니?
 
 RESOURCE ID: quest_special_dialogue_flett_1_1
-TEXT: Did you know, its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed.
+TEXT: 화살꼬빈의 몸은 항상 따듯해서 추운 지역의 트레이너는 화살꼬빈과 함께 자고 보온을 취한다고 해.
 
 RESOURCE ID: quest_special_dialogue_flett_1_2
-TEXT: I’m always so fascinated to learn about how Pokémon and their Trainers work and live together. I’m going to remember this bit of information on the next cold night.
+TEXT: 포켓몬과 트레이너 협력은 다양한 방법인데 이건 편리하구나! 추운 겨울에 꼭 시험해봐.
 
 RESOURCE ID: quest_special_dialogue_flett_1_3
-TEXT: Anyway, this Normal- and Flying-Type Pokémon actually evolves into the Fire- and Flying-Type Pokémon, Fletchinder.
+TEXT: 화살꼬빈의 타입은 노말과 비행. 불화살빈으로 진화하면 불꽃타입과 비행타입이 되지.
 
 RESOURCE ID: quest_special_dialogue_flett_1_4
-TEXT: Known as the Ember Pokémon, they are exceedingly territorial and aggressive.
+TEXT: 불티포켓몬인 불화살빈은 영역에 대한 개념이 강하고 호전적이야.
 
 RESOURCE ID: quest_special_dialogue_flett_1_5
-TEXT: They are also incredibly fast, its speed right after takeoff already puts it in the top speed class of all bird Pokémon.
+TEXT: 새 포켓몬 중에서도 톱클래스 스피드를 자랑하지.
 
 RESOURCE ID: quest_special_dialogue_flett_1_6
-TEXT: When you are ready, I think it is time for you to evolve your Fletchling into Fletchinder.
+TEXT: 화살꼬빈을 불화살빈으로 진화시켜봐!
 
 RESOURCE ID: quest_special_dialogue_flett_2_0
-TEXT: Ah, what a fine looking Fletchinder you have there, %PLAYERNAME%.
+TEXT: %PLAYERNAME%, 너의 불화살빈 정말 훌륭하군!
 
 RESOURCE ID: quest_special_dialogue_flett_2_1
-TEXT: While you were out completing your research, I was recalling some information about this interesting Pokémon.
+TEXT: 참, 경고하는 걸 까먹었군.
 
 RESOURCE ID: quest_special_dialogue_flett_2_2
-TEXT: Take this training tip seriously, don't just WING it - make sure to take care and not burn yourself when training your Fletchinder.
+TEXT: 불화살빈은 부리에서 불꽃을 뿜어 풀숲을 태우고
 
 RESOURCE ID: quest_special_dialogue_flett_2_3
-TEXT: From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.
+TEXT: 놀라서 뛰쳐나온 사냥감을 잡아.
 
 RESOURCE ID: quest_special_dialogue_flett_2_4
-TEXT: Remember, only you can prevent high grass fires.
+TEXT: 네가 정신 차리지 않으면 주변 풀숲이 불타버릴 거야!
 
 RESOURCE ID: quest_special_dialogue_flett_2_5
-TEXT: We are making great progress on our research, however, there is a few more things I’d like you to do.
+TEXT: 계속 조사를 진행해줘. 잊지 말아야 할 것은 파이어로를 조사하는 거야.
 
 RESOURCE ID: quest_special_dialogue_flett_2_6
-TEXT: I’d love to observe a Talonflame, do you think you could evolve your Fletchinder? I’ve wanted to take a closer look at their incredible wings.
+TEXT: 구체적으로는 파이어로 날개를 자세히 조사해줘.
 
 RESOURCE ID: quest_special_dialogue_flett_3_0
-TEXT: Welcome back, %PLAYERNAME% and hello, Talonflame!
+TEXT: 잘 왔어 %PLAYERNAME%! 그리고 안녕 파이어로!
 
 RESOURCE ID: quest_special_dialogue_flett_3_1
-TEXT: Thank you for all your hard work today, but it certainly looks like it paid off now that you have the Scorching Pokémon.
+TEXT: 오늘도 네가 많이 도와줘서 고마워. 열화포켓몬 파이어로를 손에 넣을 수 있었어.
 
 RESOURCE ID: quest_special_dialogue_flett_3_2
-TEXT: I certainly think they will make a great addition to your team, in the fever of an exciting battle it showers embers from the gaps between its feathers and takes to the air.
+TEXT: 깃털 사이로 불똥을 뿜어내며 사냥감을 향해 날아가는 모습을 볼 수 있겠어.
 
 RESOURCE ID: quest_special_dialogue_flett_3_3
-TEXT: Being both Fire- and Flying-Type, Talonflame has tough wings that don’t allow fire to pass through them. A long time ago, firefighters' outfits were made from Talonflame wings.
+TEXT: 불꽃타입과 비행타입 포켓몬에 걸맞게 불을 통하지 않는 단단한 날개를 가지고 있어. 옛날 소방사 옷은 파이어로 날개로 되어 있었다고 하는군.
 
 RESOURCE ID: quest_special_dialogue_flett_3_4
-TEXT: Simply amazing, I’m always so impressed by this brave bird and can’t wait to see what the two of you as a team accomplish.
+TEXT: 정말 아름다웠을 거야... 너와 파이어로가 아주 용맹하게 보여.
 
 RESOURCE ID: quest_special_dialogue_flett_3_5
-TEXT: I really appreciate your help today looking into this situation and hope you learned some useful information about this fiery family of Pokémon.
+TEXT: 오늘도 뜻깊은 조사였어. 너도 그렇지?
 
 RESOURCE ID: quest_special_dialogue_flett_3_6
-TEXT: Until next time, let’s GO!
+TEXT: 그럼 다음에 만날 때까지 힘차게 GO!
 
 RESOURCE ID: quest_special_dialogue_galarian_mrmime_0_0
 TEXT: %PLAYERNAME%! 잘 왔어! 좀 이상한 일이 일어나서 말이야. 며칠전에...
@@ -7225,6 +7279,75 @@ TEXT: Wow, learning about Magmar and its Evolutionary line has really lit a fire
 RESOURCE ID: quest_special_dialogue_magmt_3_4
 TEXT: See you around, %PLAYERNAME%!
 
+RESOURCE ID: quest_special_dialogue_rockethq7_4_1_alt
+TEXT: I managed to build another Super Rocket Radar to help you track down Giovanni. But be careful—Blanche and Candela’s reports revealed that Giovanni has got a Legendary Shadow Pokémon with him!
+
+RESOURCE ID: quest_special_dialogue_rockethq7_4_2_alt
+TEXT: You need to save it, Trainer! I have no doubt Giovanni plans on using this poor Pokémon to nefarious ends.
+
+RESOURCE ID: quest_special_dialogue_rockethq7_5_1_alt
+TEXT: Not only did you stop Team GO Rocket, but you also saved several Pokémon along the way!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_0
+TEXT: 안녕, %PLAYERNAME%! 이런 시간에 미안하군. 약간의 문제가 발생했어.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_1
+TEXT: 그래. GO로켓단에 수상한 움직임이 있어. 부탁하고 싶은 게 뭔지 알거라 생각한다.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_2
+TEXT: 지금 바로 GO다!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_0
+TEXT: 잘 왔어, %PLAYERNAME%! GO로켓단의 조무래기를 쓰러뜨리고 그림자 포켓몬을 구해줘서 고마워!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_1
+TEXT: 지금 들은 정보에 의하면 GO로켓단이 새롭게 비행타입 포켓몬을 손에 넣었다고 하는군.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_2
+TEXT: 블랑쉬가 벌써 자세한 내용을 확인하기 위해 움직이고 있어. 바로 알게 되겠지만...
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_3
+TEXT: 비행타입 포켓몬까지 조사 범위를 넓혀서 부탁할게!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_0
+TEXT: 비행타입 포켓몬을 잡아줘서 고마워, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_1
+TEXT: 나와 블랑쉬도 네가 모아준 단서를 토대로 분석해서 진상에 한 걸음 다가갔어.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_2
+TEXT: 녀석들이 손에 넣은 전설의 포켓몬 말인데, 아무래도 팀의 리더와 뭔가 관계가 있는 등
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_3
+TEXT: 평소와 다른 모습이야. 더 조사가 필요하겠지만 충분히 조심하면서 진행해줘!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_0
+TEXT: 피죤투군! 메가 에너지도!!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_1
+TEXT: 메가진화 한 피죤투라는 걸까? 아니야, 비행타입 말고는 공통점이 없어 보여.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_2
+TEXT: 블랑쉬가 얻은 새로운 정보에 의하면 비행타입 전설의 포켓몬을 데리고 있는 건 비주기인 것 같아.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_3
+TEXT: GO로켓단 리더를 찾아내는 게 제일 빠른 방법일 거야. 너라면 할 수 있을 거야. 자, 용기를 가지고 GO!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_4_0
+TEXT: 아주 잘했어, %PLAYERNAME%! 협력해서 문제에 맞설 수 있어서 아주 기뻐.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_4_1
+TEXT: 빨리 비주기를 쓰러뜨리고 포켓몬을 구해줘! 우리도 빨리 슈퍼 로켓레이더를 만들었어.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_0
+TEXT: 정말 훌륭해, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_1
+TEXT: GO로켓단과의 배틀이 계속되는 한, 주의해야겠군. 오늘은 일단 이걸로 제압에 성공했어. 정말 고마워!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_2
+TEXT: 다시 만날 때까지 힘차게 GO!
+
 RESOURCE ID: quest_special_dialogue_roset_0_0
 TEXT: 어... 이 향기! 이 향기야!
 
@@ -7313,19 +7436,19 @@ RESOURCE ID: quest_special_dialogue_roset_3_6
 TEXT: 그럼 다음에 또 보자!
 
 RESOURCE ID: quest_title_flett
-TEXT: The Bravest Bird
+TEXT: 울새포켓몬의 수수께끼를 풀어라!
 
 RESOURCE ID: quest_title_flett_0
-TEXT: The Bravest Bird (1/4)
+TEXT: 울새포켓몬의 수수께끼를 풀어라!(1/4)
 
 RESOURCE ID: quest_title_flett_1
-TEXT: The Bravest Bird (2/4)
+TEXT: 울새포켓몬의 수수께끼를 풀어라!(2/4)
 
 RESOURCE ID: quest_title_flett_2
-TEXT: The Bravest Bird (3/4)
+TEXT: 울새포켓몬의 수수께끼를 풀어라!(3/4)
 
 RESOURCE ID: quest_title_flett_3
-TEXT: The Bravest Bird (4/4)
+TEXT: 울새포켓몬의 수수께끼를 풀어라!(4/4)
 
 RESOURCE ID: quest_title_galarian_mrmime
 TEXT: 댄스포켓몬의 수수께끼를 풀어라!
@@ -7374,6 +7497,27 @@ TEXT: No Match for Magmar (3/4)
 
 RESOURCE ID: quest_title_magmt_3
 TEXT: No Match for Magmar (4/4)
+
+RESOURCE ID: quest_title_rockethq8
+TEXT: 악의 조직에 맞서라7
+
+RESOURCE ID: quest_title_rockethq8_0
+TEXT: 악의 조직에 맞서라7(1/6)
+
+RESOURCE ID: quest_title_rockethq8_1
+TEXT: 악의 조직에 맞서라7(2/6)
+
+RESOURCE ID: quest_title_rockethq8_2
+TEXT: 악의 조직에 맞서라7(3/6)
+
+RESOURCE ID: quest_title_rockethq8_3
+TEXT: 악의 조직에 맞서라7(4/6)
+
+RESOURCE ID: quest_title_rockethq8_4
+TEXT: 악의 조직에 맞서라7(5/6)
+
+RESOURCE ID: quest_title_rockethq8_5
+TEXT: 악의 조직에 맞서라7(6/6)
 
 RESOURCE ID: quest_title_roset
 TEXT: 가시포켓몬의 수수께끼를 풀어라!
@@ -11780,10 +11924,16 @@ RESOURCE ID: raid_weekend_zygarde
 TEXT: 스페셜 레이드 위켄드: 지가르데
 
 RESOURCE ID: raid_xp_25_fivestar
-TEXT: 1.25x five-star Raid XP
+TEXT: 1.25x 별5개 레이드 XP
+
+RESOURCE ID: remote_raid_description
+TEXT: Join raids farther away on the map or via friend invites using a Remote Raid Pass.
+
+RESOURCE ID: remote_raid_name
+TEXT: Raid Remotely
 
 RESOURCE ID: reorder_pokemon_tag_error
-TEXT: Failed to reorder tag
+TEXT: 태그 순서를 변경하지 못했습니다
 
 RESOURCE ID: retro_cup_title
 TEXT: Retro Cup
@@ -11793,6 +11943,15 @@ TEXT: Type Surge: Rock
 
 RESOURCE ID: rocket_celebration_event_name
 TEXT: GO로켓단 기념
+
+RESOURCE ID: rocket_description
+TEXT: Defeat the members of Team GO Rocket you see at PokéStops and in balloons to save Shadow Pokémon.
+
+RESOURCE ID: rocket_feature_name
+TEXT: Team GO Rocket
+
+RESOURCE ID: settings_go_to_support|a
+TEXT: 도움말&문의
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
 TEXT: 이 설정을 켜면 전설의 포켓몬과 일부 환상의 포켓몬을 포함해서 복수 선택이 가능해집니다. 박사에게 보낸 포켓몬은 되돌릴 수 없습니다. 
@@ -11816,7 +11975,7 @@ RESOURCE ID: sinnoh_collection_name
 TEXT: 신오 컬렉션 챌린지
 
 RESOURCE ID: spawn_fletchling
-TEXT: More Fletchling are appearing in the wild
+TEXT: 화살꼬빈이 야생에서 많이 출현
 
 RESOURCE ID: spawn_machop
 TEXT: 알통몬이 야생에서 많이 출현
@@ -11834,7 +11993,7 @@ RESOURCE ID: ticket_decembercd
 TEXT: 12월 커뮤니티 데이
 
 RESOURCE ID: ticket_fletchling
-TEXT: Ticket for Special Research story available in the Shop: The Bravest Bird
+TEXT: '울새포켓몬의 수수께끼를 풀어라!'의 티켓이 숍에 등장
 
 RESOURCE ID: ticket_machop
 TEXT: "괴력포켓몬의 수수께끼를 풀어라!" 티켓이 숍에 등장
@@ -11894,7 +12053,7 @@ RESOURCE ID: upload_mgmt_cancel_individual
 TEXT: 취소
 
 RESOURCE ID: upload_mgmt_confirm_delete_individual
-TEXT: 이 투고 내용({0})(을)를 삭제하겠습니까?
+TEXT: 이 투고 내용을 삭제하겠습니까?
 
 RESOURCE ID: upload_mgmt_delete_individual
 TEXT: 삭제
@@ -11966,7 +12125,7 @@ RESOURCE ID: upmgmt_delete_cancel
 TEXT: CANCEL
 
 RESOURCE ID: upmgmt_delete_msg
-TEXT: 이 투고 내용({0})(을)를 삭제하겠습니까?
+TEXT: 이 투고 내용을 삭제하겠습니까?
 
 RESOURCE ID: upmgmt_delete_yes
 TEXT: YES
