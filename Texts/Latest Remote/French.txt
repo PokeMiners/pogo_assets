@@ -145,38 +145,33 @@ TEXT: Évènement mondial, le 20 février 2021
 RESOURCE ID: badge_gotour_2021_red_global_title
 TEXT: Circuit Pokémon GO : Kanto
 
-RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Only {0} of the selected Pokémon can be transferred to the professor.</b></size>
-
-Any Pokémon that can’t be transferred will remain in your Pokémon storage. Transferred Pokémon cannot be reclaimed.
-
 RESOURCE ID: batch_transfer_eligible_confirm_plural
-TEXT: <size=36><b>Only {0} of the selected Pokémon can be transferred to the professor.</b></size>
+TEXT: <size=36><b>Seuls {0} des Pokémon sélectionnés peuvent être transférés au professeur.</b></size>
 
-Any Pokémon that can’t be transferred will remain in your Pokémon storage. Transferred Pokémon cannot be reclaimed.
+Les Pokémon non éligibles pour le transfert resteront dans ton stockage Pokémon. Les Pokémon transférés ne peuvent pas être récupérés.
 
 RESOURCE ID: batch_transfer_eligible_confirm_singular
-TEXT: <size=36><b>Only 1 of the selected Pokémon can be transferred to the professor.</b></size>
+TEXT: <size=36><b>Seul un des Pokémon sélectionnés peut être transféré au professeur.</b></size>
 
-Any Pokémon that can’t be transferred will remain in your Pokémon storage. Transferred Pokémon cannot be reclaimed.
+Les Pokémon non éligibles pour le transfert resteront dans ton stockage Pokémon. Les Pokémon transférés ne peuvent pas être récupérés.
 
 RESOURCE ID: batch_transfer_unique_event_pokemon
 TEXT: {0} Pokémon d’évènement
 
 RESOURCE ID: batch_transfer_unique_included
-TEXT: You have selected at least one Legendary, Mythical, or event Pokémon.
+TEXT: Tu as sélectionné au moins un Pokémon légendaire, fabuleux ou d’évènement.
 
 RESOURCE ID: batch_transfer_unique_legendary_or_mythical_pokemon
 TEXT: {0} Pokémon légendaire(s) ou fabuleux
 
 RESOURCE ID: batch_transfer_unique_not_included
-TEXT: You have not selected any Legendary, Mythical, or event Pokémon.
+TEXT: Tu n’as sélectionné aucun Pokémon légendaire, fabuleux ou d’évènement.
 
 RESOURCE ID: batch_transfer_unique_warning_message
 TEXT: Veux-tu vraiment transférer ces Pokémon au professeur ?
 
 RESOURCE ID: batch_transfer_unique_warning_title
-TEXT: Your Selection Contains These Pokémon:
+TEXT: Ta sélection contient les Pokémon suivants :
 
 RESOURCE ID: battle_day_abomasnow
 TEXT: Journée Combat GO : Blizzaroi
@@ -2414,7 +2409,7 @@ RESOURCE ID: event_move_ampharos_dragon_pulse
 TEXT: Fais évoluer Lainergie pour obtenir un Pharamp connaissant Draco-Choc.
 
 RESOURCE ID: event_move_metagross_meteor_mash
-TEXT: Evolve Metang to get a Metagross that knows Meteor Mash
+TEXT: Fais évoluer Métang pour obtenir un Métalosse connaissant Poing Météore.
 
 RESOURCE ID: event_name_bonus_generic
 TEXT: Évènement bonus
@@ -2787,7 +2782,7 @@ RESOURCE ID: general_leave_out
 TEXT: ANNULER
 
 RESOURCE ID: general_raid_error
-TEXT: General raid error.
+TEXT: There was an error with the raid.
 
 RESOURCE ID: general_transfer
 TEXT: TRANSFÉRER
@@ -3162,7 +3157,7 @@ RESOURCE ID: ice_type_event
 TEXT: Afflux du type : Glace
 
 RESOURCE ID: incense_day_pokemon_beldum
-TEXT: Beldum attracted to Incense
+TEXT: Terhal attiré par l’Encens
 
 RESOURCE ID: incense_day_pokemon_mareep
 TEXT: Wattouat attiré par l’Encens
@@ -3184,6 +3179,9 @@ TEXT: Un ticket pour accéder à une Étude spéciale le 7 février 2021 de 11h 
 
 RESOURCE ID: item_event_ticket_pink_roset_details
 TEXT: Ce ticket sera automatiquement activé pour te donner accès à l’Étude spéciale du 7 février 2021 de 11h à 17h (heures locales), où que tu sois.
+
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: Un ticket pour accéder à une Étude spéciale le 6 mars 2021 de 11h à 17h (heures locales), où que tu sois.
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: Ce ticket sera automatiquement activé et te donnera accès à un évènement spécial le 20 février 2021, où que tu sois dans le monde.
@@ -5476,8 +5474,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: Heure des Méga Raids
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-03T22:52:03.449901
-at SHA 25eb1390ee248ba156d2fc71cada38a8063a344a
+TEXT: Built at 2021-03-05T23:37:40.711065
+at SHA 629fdae07ac67dce0d734305a516593a3ee0f43e
 Patch from: 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace
 
 RESOURCE ID: mini_collection_feb21_vday_event
@@ -11587,6 +11585,15 @@ TEXT: Week-end spécial de Raids : Zygarde
 
 RESOURCE ID: raid_xp_25_fivestar
 TEXT: PX de Raids de niveau 5 multipliés par 1,25
+
+RESOURCE ID: rejoin_details_failed
+TEXT: The raid details could not be obtained. IID: {0}
+
+RESOURCE ID: rejoin_no_battle
+TEXT: The Raid Battle no longer exists. IID: {0}
+
+RESOURCE ID: rejoin_no_lobby
+TEXT: The lobby no longer exists. IID: {0}
 
 RESOURCE ID: remote_raid_description
 TEXT: Participe à un Raid plus éloigné sur la carte ou via l’invitation d’un ami en utilisant un passe de Raid à distance.

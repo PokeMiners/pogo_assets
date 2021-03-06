@@ -145,11 +145,6 @@ TEXT: Global, 20. Februar 2021
 RESOURCE ID: badge_gotour_2021_red_global_title
 TEXT: Pokémon GO-Tour: Kanto
 
-RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Nur {0} der ausgewählten Pokémon kann/können an den Professor verschickt werden.</b></size>
-
-Alle Pokémon, die nicht verschickt werden können, bleiben in der Aufbewahrung. Verschickte Pokémon können nicht zurückgefordert werden.
-
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>Nur {0} der ausgewählten Pokémon können an den Professor verschickt werden.</b></size>
 
@@ -2420,7 +2415,7 @@ RESOURCE ID: event_move_ampharos_dragon_pulse
 TEXT: Entwickle Waaty, um ein Ampharos mit Drachenpuls zu erhalten.
 
 RESOURCE ID: event_move_metagross_meteor_mash
-TEXT: Evolve Metang to get a Metagross that knows Meteor Mash
+TEXT: Entwickle Metang, um ein Metagross zu erhalten, das Sternenhieb beherrscht.
 
 RESOURCE ID: event_name_bonus_generic
 TEXT: Bonus-Event
@@ -2785,7 +2780,7 @@ RESOURCE ID: general_leave_out
 TEXT: ABBRECHEN
 
 RESOURCE ID: general_raid_error
-TEXT: General raid error.
+TEXT: There was an error with the raid.
 
 RESOURCE ID: general_transfer
 TEXT: VERSCHICKEN
@@ -3190,7 +3185,7 @@ RESOURCE ID: ice_type_event
 TEXT: Typ-Alarm: Eis
 
 RESOURCE ID: incense_day_pokemon_beldum
-TEXT: Beldum attracted to Incense
+TEXT: Tanhel werden von Rauch angelockt.
 
 RESOURCE ID: incense_day_pokemon_mareep
 TEXT: Voltilamm werden von Rauch angelockt.
@@ -3212,6 +3207,12 @@ TEXT: Ein Ticket für den Zugang zur Spezialforschung am 7. Februar 2021 von 11:
 
 RESOURCE ID: item_event_ticket_pink_roset_details
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung am 7. Februar 2021 von 11:00 Uhr bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: Ein Ticket für den Zugang zur Spezialforschung am 6. März 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_global_event_ticket_details
+TEXT: Ein Ticket für den Zugang zur Spezialforschung am 6. März 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: Dieses Ticket wird automatisch aktiviert und du erhältst damit am 20. Februar 2021 Zugang zu einem besonderen Event (wo immer du dich befindest).
@@ -5501,8 +5502,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: Mega-Raid-Stunde
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-03T22:52:03.449901
-at SHA 25eb1390ee248ba156d2fc71cada38a8063a344a
+TEXT: Built at 2021-03-05T23:37:40.711065
+at SHA 629fdae07ac67dce0d734305a516593a3ee0f43e
 Patch from: 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace
 
 RESOURCE ID: mini_collection_feb21_vday_event
@@ -6859,7 +6860,7 @@ RESOURCE ID: quest_special_dialogue_flett_1_4
 TEXT: Dartignis ist als das Funkenregen-Pokémon bekannt, und es ist äußerst territorial und aggressiv.
 
 RESOURCE ID: quest_special_dialogue_flett_1_5
-TEXT: Außerdem ist es unglaublich schnell. Mit seiner Startgeschwindigkeit gehört es zu den schnellsten aller Vogel-Pokémon.
+TEXT: Außerdem ist es unglaublich schnell. Mit seiner Startgeschwindigkeit gehört es zu den schnellsten aller vogelartigen Pokémon.
 
 RESOURCE ID: quest_special_dialogue_flett_1_6
 TEXT: Versuche doch einmal, dein Dartiri zu Dartignis zu entwickeln, wenn du bereit bist. Diese atemberaubende Geschwindigkeit würde ich gerne mit meinen eigenen Augen sehen!
@@ -11759,6 +11760,15 @@ TEXT: Spezial-Raid-Wochenende: Zygarde
 
 RESOURCE ID: raid_xp_25_fivestar
 TEXT: 1,25× Stufe-5-Raid-EP
+
+RESOURCE ID: rejoin_details_failed
+TEXT: The raid details could not be obtained. IID: {0}
+
+RESOURCE ID: rejoin_no_battle
+TEXT: The Raid Battle no longer exists. IID: {0}
+
+RESOURCE ID: rejoin_no_lobby
+TEXT: The lobby no longer exists. IID: {0}
 
 RESOURCE ID: remote_raid_description
 TEXT: Nimm mit einem Fern-Raid-Pass an Raids teil, die sich weiter weg auf der Karte befinden oder zu denen dich ein Freund einlädt.

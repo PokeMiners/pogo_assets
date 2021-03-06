@@ -170,7 +170,7 @@ RESOURCE ID: avatar_f_socks_empty_bundle_icon
 TEXT: Без носков
 
 RESOURCE ID: avatar_hat_gotour_kanto_bundle_icon
-TEXT: GO Tour Hat
+TEXT: Кепка Тур GO
 
 RESOURCE ID: avatar_m_backpack_frlg_bundle_icon
 TEXT: Рюкзак FireRed
@@ -561,11 +561,6 @@ TEXT: Посети разные Покестопы: {0}.
 
 RESOURCE ID: badge_unown
 TEXT: Поймай Аноунов: {0}.
-
-RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Только {0} из выбранных Покемонов могут быть переданы профессору.</b></size>
-
-Любой Покемон, которого нельзя передать, останется в твоём хранилище Покемонов. Покемона, который был передан, нельзя вернуть.
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>Только {0} из выбранных Покемонов могут быть переданы профессору.</b></size>
@@ -2825,7 +2820,8 @@ RESOURCE ID: bundle.general1.large.1_title
 TEXT: Ультракоробка
 
 RESOURCE ID: bundle.general5.small.1_title
-TEXT: Событие-коробка
+TEXT: Событие-
+коробка
 
 RESOURCE ID: candy_trade_xl
 TEXT: Конфета → конфета XL
@@ -3206,7 +3202,7 @@ RESOURCE ID: community_day_roselia_event_name
 TEXT: День сообщества: Розелия
 
 RESOURCE ID: complete_geotarget_quest
-TEXT: Complete an AR Mapping task
+TEXT: Выполни задание по AR-съёмке
 
 RESOURCE ID: dark_type_event
 TEXT: Активизация типа: Темнота
@@ -3255,6 +3251,12 @@ TEXT: Отличный бросок
 
 RESOURCE ID: encounter_score_nice_throw
 TEXT: Хороший бросок
+
+RESOURCE ID: error_fitness_unavailable
+TEXT: Фитнес-метрика в настоящее время недоступна. Повтори попытку позже.
+
+RESOURCE ID: error_weak_network
+TEXT: В настоящее время твоё сетевое соединение нестабильно. Повтори попытку позже.
 
 RESOURCE ID: event_friendship_2020
 TEXT: 12 дней дружбы
@@ -3799,7 +3801,7 @@ RESOURCE ID: general_leave_out
 TEXT: ОТМЕНИТЬ
 
 RESOURCE ID: general_raid_error
-TEXT: General raid error.
+TEXT: There was an error with the raid.
 
 RESOURCE ID: general_transfer
 TEXT: ПЕРЕДАТЬ
@@ -4315,7 +4317,7 @@ RESOURCE ID: grass_type_event
 TEXT: Активизация типа: Трава
 
 RESOURCE ID: great_league_remix_title
-TEXT: Great League Remix
+TEXT: Великая Лига: Ремикс
 
 RESOURCE ID: ground_type_event
 TEXT: Активизация типа: Земля
@@ -4436,7 +4438,7 @@ TEXT: Супер
 инкубатор
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Билет на специальный квест 6 марта 2021 г. с 11 до 17 часов по местному времени, вне зависимости от твоего местонахождения. 
+TEXT: Билет на специальный квест 6 марта 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_desc_2
 TEXT: Билет на специальный квест 21 ноября с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. 
@@ -4445,7 +4447,7 @@ RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: Билет на доступ к специальному событию с 10:00 2020 г. 19 декабря до 20:00 20 декабря 2020 г. по местному времени, независимо от твоего местонахождения. 
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к особому квесту 6 марта 2021 г. с 11:00 до 17:00 часов по местному времени, вне зависимости от твоего местонахождения.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к особому квесту 6 марта 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к событию «Галарский Мистер Майм» с 10:00 19 декабря 2020 г. до 20:00 20 декабря 2020 г. по местному времени, вне зависимости от твоего местонахождения.
@@ -4463,7 +4465,10 @@ RESOURCE ID: item_event_ticket_pink_roset_details
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 7 февраля 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: Билет на особое событие 20 февраля 2021 г. с 9:00 до 21:00 по местному времени, вне зависимости от твоего местонахождения.
+TEXT: Билет на специальный квест 6 марта 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_global_event_ticket_details
+TEXT: Билет на специальный квест 6 марта 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному событию 20 февраля 2021 г., вне зависимости от твоего местонахождения.
@@ -6877,8 +6882,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: Час мегарейдов
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-03T22:52:03.449901
-at SHA 25eb1390ee248ba156d2fc71cada38a8063a344a
+TEXT: Built at 2021-03-05T23:37:40.711065
+at SHA 629fdae07ac67dce0d734305a516593a3ee0f43e
 Patch from: 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace
 
 RESOURCE ID: mini_collection_feb21_vday_event
@@ -6889,6 +6894,9 @@ TEXT: Johto Celebration Legendary Collection
 
 RESOURCE ID: mini_collection_jan21_shadow_event
 TEXT: Праздник Джото – Коллекция Ракета
+
+RESOURCE ID: minutes_and_seconds
+TEXT: {0} М. {1} С.
 
 RESOURCE ID: move_name_0055
 TEXT: Удар Карате
@@ -7632,7 +7640,7 @@ RESOURCE ID: quest_equinox19_evolve_type_grass_plural_2
 TEXT: Эволюционируй {0} травяных Покемонов
 
 RESOURCE ID: quest_evolve_abra_singular
-TEXT: Эволюционируй 1 Покемона: Абраа
+TEXT: Эволюционируй 1 Покемона: Абра
 
 RESOURCE ID: quest_evolve_aipom_singular
 TEXT: Эволюционируй 1 Покемона: Эйпом
@@ -7671,7 +7679,7 @@ RESOURCE ID: quest_evolve_beldum_singular
 TEXT: Эволюционируй 1 Покемона: Белдам
 
 RESOURCE ID: quest_evolve_bellsprout_singular
-TEXT: Эволюционируй 1 Покемона: Беллспраута
+TEXT: Эволюционируй 1 Покемона: Беллспраут
 
 RESOURCE ID: quest_evolve_bergmite_singular
 TEXT: Эволюционируй 1 Покемона: Бергмайт
@@ -7707,7 +7715,7 @@ RESOURCE ID: quest_evolve_bulbasaur
 TEXT: Эволюционируй 1 Бульбазавра
 
 RESOURCE ID: quest_evolve_bulbasaur_singular
-TEXT: Эволюционируй 1 Покемона: Бульбазавра
+TEXT: Эволюционируй 1 Покемона: Бульбазавр
 
 RESOURCE ID: quest_evolve_buneary_singular
 TEXT: Эволюционируй 1 Покемона: Бунири
@@ -7728,7 +7736,7 @@ RESOURCE ID: quest_evolve_cascoon_singular
 TEXT: Эволюционируй 1 Покемона: Каскун
 
 RESOURCE ID: quest_evolve_caterpie_singular
-TEXT: Эволюционируй 1 Покемона: Катерпиа
+TEXT: Эволюционируй 1 Покемона: Катерпи
 
 RESOURCE ID: quest_evolve_chansey_singular
 TEXT: Эволюционируй 1 Покемона: Ченси
@@ -7737,10 +7745,10 @@ RESOURCE ID: quest_evolve_charmander
 TEXT: Эволюционируй 1 Чармандера
 
 RESOURCE ID: quest_evolve_charmander_singular
-TEXT: Эволюционируй 1 Покемона: Чармандера
+TEXT: Эволюционируй 1 Покемона: Чармандер
 
 RESOURCE ID: quest_evolve_charmeleon_singular
-TEXT: Эволюционируй 1 Покемона: Чармелеона
+TEXT: Эволюционируй 1 Покемона: Чармелеон
 
 RESOURCE ID: quest_evolve_cherubi_singular
 TEXT: Эволюционируй 1 Покемона: Чераби
@@ -7767,7 +7775,7 @@ RESOURCE ID: quest_evolve_clauncher_singular
 TEXT: Эволюционируй 1 Покемона: Клаунчер
 
 RESOURCE ID: quest_evolve_clefairy_singular
-TEXT: Эволюционируй 1 Покемона: Клефэйриа
+TEXT: Эволюционируй 1 Покемона: Клефэйри
 
 RESOURCE ID: quest_evolve_cleffa_singular
 TEXT: Эволюционируй 1 Покемона: Клеффа
@@ -7815,7 +7823,7 @@ RESOURCE ID: quest_evolve_dewott_singular
 TEXT: Эволюционируй 1 Покемона: Девотт
 
 RESOURCE ID: quest_evolve_diglett_singular
-TEXT: Эволюционируй 1 Покемона: Диглетта
+TEXT: Эволюционируй 1 Покемона: Диглетт
 
 RESOURCE ID: quest_evolve_doduo_singular
 TEXT: Эволюционируй 1 Покемона: Додуо
@@ -7866,7 +7874,7 @@ RESOURCE ID: quest_evolve_eevee_types_plural
 TEXT: Эволюционируй {0} электрических, водных или огненных Покемонов
 
 RESOURCE ID: quest_evolve_ekans_singular
-TEXT: Эволюционируй 1 Покемона: Эканса
+TEXT: Эволюционируй 1 Покемона: Эканс
 
 RESOURCE ID: quest_evolve_electabuzz_singular
 TEXT: Эволюционируй 1 Покемона: Электабазз
@@ -7953,10 +7961,10 @@ RESOURCE ID: quest_evolve_gligar_singular
 TEXT: Эволюционируй 1 Покемона: Глайгар
 
 RESOURCE ID: quest_evolve_gloom_singular
-TEXT: Эволюционируй 1 Покемона: Глума
+TEXT: Эволюционируй 1 Покемона: Глум
 
 RESOURCE ID: quest_evolve_golbat_singular
-TEXT: Эволюционируй 1 Покемона: Голбата
+TEXT: Эволюционируй 1 Покемона: Голбат
 
 RESOURCE ID: quest_evolve_goldeen_singular
 TEXT: Эволюционируй 1 Покемона: Голдин
@@ -7986,7 +7994,7 @@ RESOURCE ID: quest_evolve_grovyle_singular
 TEXT: Эволюционируй 1 Покемона: Гровайл
 
 RESOURCE ID: quest_evolve_growlithe_singular
-TEXT: Эволюционируй 1 Покемона: Гроулита
+TEXT: Эволюционируй 1 Покемона: Гроулит
 
 RESOURCE ID: quest_evolve_gulpin_singular
 TEXT: Эволюционируй 1 Покемона: Гальпин
@@ -8040,10 +8048,10 @@ RESOURCE ID: quest_evolve_items_plural
 TEXT: Используй предметы, чтобы эволюционировать Покемонов x{0}
 
 RESOURCE ID: quest_evolve_ivysaur_singular
-TEXT: Эволюционируй 1 Покемона: Айвизавра
+TEXT: Эволюционируй 1 Покемона: Айвизавр
 
 RESOURCE ID: quest_evolve_jigglypuff_singular
-TEXT: Эволюционируй 1 Покемона: Джигглипаффа
+TEXT: Эволюционируй 1 Покемона: Джигглипафф
 
 RESOURCE ID: quest_evolve_joltik_singular
 TEXT: Эволюционируй 1 Покемона: Джолтик
@@ -8052,10 +8060,10 @@ RESOURCE ID: quest_evolve_kabuto_singular
 TEXT: Эволюционируй 1 Покемона: Кабуто
 
 RESOURCE ID: quest_evolve_kadabra_singular
-TEXT: Эволюционируй 1 Покемона: Кадабраа
+TEXT: Эволюционируй 1 Покемона: Кадабра
 
 RESOURCE ID: quest_evolve_kakuna_singular
-TEXT: Эволюционируй 1 Покемона: Какунаа
+TEXT: Эволюционируй 1 Покемона: Какуна
 
 RESOURCE ID: quest_evolve_karrablast_singular
 TEXT: Эволюционируй 1 Покемона: Каррабласт
@@ -8124,10 +8132,10 @@ RESOURCE ID: quest_evolve_luxio_singular
 TEXT: Эволюционируй 1 Покемона: Лаксио
 
 RESOURCE ID: quest_evolve_machoke_singular
-TEXT: Эволюционируй 1 Покемона: Мачоука
+TEXT: Эволюционируй 1 Покемона: Мачоук
 
 RESOURCE ID: quest_evolve_machop_singular
-TEXT: Эволюционируй 1 Покемона: Мачопа
+TEXT: Эволюционируй 1 Покемона: Мачоп
 
 RESOURCE ID: quest_evolve_magby_singular
 TEXT: Эволюционируй 1 Покемона: Магби
@@ -8145,7 +8153,7 @@ RESOURCE ID: quest_evolve_makuhita_singular
 TEXT: Эволюционируй 1 Покемона: Макухита
 
 RESOURCE ID: quest_evolve_mankey_singular
-TEXT: Эволюционируй 1 Покемона: Манкиа
+TEXT: Эволюционируй 1 Покемона: Манки
 
 RESOURCE ID: quest_evolve_mantyke_singular
 TEXT: Эволюционируй 1 Покемона: Мантайк
@@ -8163,13 +8171,13 @@ RESOURCE ID: quest_evolve_meditite_singular
 TEXT: Эволюционируй 1 Покемона: Медитайт
 
 RESOURCE ID: quest_evolve_meowth_singular
-TEXT: Эволюционируй 1 Покемона: Мяута
+TEXT: Эволюционируй 1 Покемона: Мяут
 
 RESOURCE ID: quest_evolve_metang_singular
 TEXT: Эволюционируй 1 Покемона: Метанг
 
 RESOURCE ID: quest_evolve_metapod_singular
-TEXT: Эволюционируй 1 Покемона: Метапода
+TEXT: Эволюционируй 1 Покемона: Метапод
 
 RESOURCE ID: quest_evolve_mienfoo_singular
 TEXT: Эволюционируй 1 Покемона: Минфу
@@ -8205,16 +8213,16 @@ RESOURCE ID: quest_evolve_natu_singular
 TEXT: Эволюционируй 1 Покемона: Нату
 
 RESOURCE ID: quest_evolve_nidoranfemale_singular
-TEXT: Эволюционируй 1 Покемона: Нидоран♀а
+TEXT: Эволюционируй 1 Покемона: Нидоран♀
 
 RESOURCE ID: quest_evolve_nidoranmale_singular
-TEXT: Эволюционируй 1 Покемона: Нидоран♂а
+TEXT: Эволюционируй 1 Покемона: Нидоран♂
 
 RESOURCE ID: quest_evolve_nidorina_singular
-TEXT: Эволюционируй 1 Покемона: Нидоринаа
+TEXT: Эволюционируй 1 Покемона: Нидорина
 
 RESOURCE ID: quest_evolve_nidorino_singular
-TEXT: Эволюционируй 1 Покемона: Нидориноа
+TEXT: Эволюционируй 1 Покемона: Нидорино
 
 RESOURCE ID: quest_evolve_nincada_singular
 TEXT: Эволюционируй 1 Покемона: Нинкада
@@ -8232,7 +8240,7 @@ RESOURCE ID: quest_evolve_nuzleaf_singular
 TEXT: Эволюционируй 1 Покемона: Назлиф
 
 RESOURCE ID: quest_evolve_oddish_singular
-TEXT: Эволюционируй 1 Покемона: Оддиша
+TEXT: Эволюционируй 1 Покемона: Оддиш
 
 RESOURCE ID: quest_evolve_omanyte_singular
 TEXT: Эволюционируй 1 Покемона: Оманайт
@@ -8259,7 +8267,7 @@ RESOURCE ID: quest_evolve_pansear_singular
 TEXT: Эволюционируй 1 Покемона: Пансир
 
 RESOURCE ID: quest_evolve_paras_singular
-TEXT: Эволюционируй 1 Покемона: Параса
+TEXT: Эволюционируй 1 Покемона: Парас
 
 RESOURCE ID: quest_evolve_patrat_singular
 TEXT: Эволюционируй 1 Покемона: Патрат
@@ -8280,10 +8288,10 @@ RESOURCE ID: quest_evolve_pichu_singular
 TEXT: Эволюционируй 1 Покемона: Пичу
 
 RESOURCE ID: quest_evolve_pidgeotto_singular
-TEXT: Эволюционируй 1 Покемона: Пиджeоттоа
+TEXT: Эволюционируй 1 Покемона: Пиджeотто
 
 RESOURCE ID: quest_evolve_pidgey_singular
-TEXT: Эволюционируй 1 Покемона: Пиджиа
+TEXT: Эволюционируй 1 Покемона: Пиджи
 
 RESOURCE ID: quest_evolve_pidove_singular
 TEXT: Эволюционируй 1 Покемона: Пидав
@@ -8292,7 +8300,7 @@ RESOURCE ID: quest_evolve_pignite_singular
 TEXT: Эволюционируй 1 Покемона: Пигнайт
 
 RESOURCE ID: quest_evolve_pikachu_singular
-TEXT: Эволюционируй 1 Покемона: Пикачуа
+TEXT: Эволюционируй 1 Покемона: Пикачу
 
 RESOURCE ID: quest_evolve_piloswine_singular
 TEXT: Эволюционируй 1 Покемона: Пилосвайн
@@ -8310,10 +8318,10 @@ RESOURCE ID: quest_evolve_poison_type_singular
 TEXT: Эволюционируй 1 ядовитого Покемона
 
 RESOURCE ID: quest_evolve_poliwag_singular
-TEXT: Эволюционируй 1 Покемона: Поливага
+TEXT: Эволюционируй 1 Покемона: Поливаг
 
 RESOURCE ID: quest_evolve_poliwhirl_singular
-TEXT: Эволюционируй 1 Покемона: Поливирла
+TEXT: Эволюционируй 1 Покемона: Поливирл
 
 RESOURCE ID: quest_evolve_ponyta_singular
 TEXT: Эволюционируй 1 Покемона: Понита
@@ -8328,7 +8336,7 @@ RESOURCE ID: quest_evolve_prinplup_singular
 TEXT: Эволюционируй 1 Покемона: Принплап
 
 RESOURCE ID: quest_evolve_psyduck_singular
-TEXT: Эволюционируй 1 Покемона: Псайдака
+TEXT: Эволюционируй 1 Покемона: Псайдак
 
 RESOURCE ID: quest_evolve_pumpkaboo_singular
 TEXT: Эволюционируй 1 Покемона: Пампкабу
@@ -8352,7 +8360,7 @@ RESOURCE ID: quest_evolve_ralts_singular
 TEXT: Эволюционируй 1 Покемона: Ролтс
 
 RESOURCE ID: quest_evolve_rattata_singular
-TEXT: Эволюционируй 1 Покемона: Раттатаа
+TEXT: Эволюционируй 1 Покемона: Раттата
 
 RESOURCE ID: quest_evolve_remoraid_singular
 TEXT: Эволюционируй 1 Покемона: Реморэйд
@@ -8379,7 +8387,7 @@ RESOURCE ID: quest_evolve_sandile_singular
 TEXT: Эволюционируй 1 Покемона: Сэндайл
 
 RESOURCE ID: quest_evolve_sandshrew_singular
-TEXT: Эволюционируй 1 Покемона: Сэндшрюа
+TEXT: Эволюционируй 1 Покемона: Сэндшрю
 
 RESOURCE ID: quest_evolve_scatterbug_singular
 TEXT: Эволюционируй 1 Покемона: Скаттербаг
@@ -8490,7 +8498,7 @@ RESOURCE ID: quest_evolve_solosis_singular
 TEXT: Эволюционируй 1 Покемона: Солосис
 
 RESOURCE ID: quest_evolve_spearow_singular
-TEXT: Эволюционируй 1 Покемона: Спироуа
+TEXT: Эволюционируй 1 Покемона: Спироу
 
 RESOURCE ID: quest_evolve_spewpa_singular
 TEXT: Эволюционируй 1 Покемона: Спьюпа
@@ -8508,7 +8516,7 @@ RESOURCE ID: quest_evolve_spritzee_singular
 TEXT: Эволюционируй 1 Покемона: Спритци
 
 RESOURCE ID: quest_evolve_squirtle_singular
-TEXT: Эволюционируй 1 Покемона: Сквиртла
+TEXT: Эволюционируй 1 Покемона: Сквиртл
 
 RESOURCE ID: quest_evolve_staravia_singular
 TEXT: Эволюционируй 1 Покемона: Старавия
@@ -8553,7 +8561,7 @@ RESOURCE ID: quest_evolve_teddiursa_singular
 TEXT: Эволюционируй 1 Покемона: Теддиурса
 
 RESOURCE ID: quest_evolve_tentacool_singular
-TEXT: Эволюционируй 1 Покемона: Тентакула
+TEXT: Эволюционируй 1 Покемона: Тентакул
 
 RESOURCE ID: quest_evolve_tepig_singular
 TEXT: Эволюционируй 1 Покемона: Тепиг
@@ -8646,7 +8654,7 @@ RESOURCE ID: quest_evolve_venipede_singular
 TEXT: Эволюционируй 1 Покемона: Венипид
 
 RESOURCE ID: quest_evolve_venonat_singular
-TEXT: Эволюционируй 1 Покемона: Веноната
+TEXT: Эволюционируй 1 Покемона: Венонат
 
 RESOURCE ID: quest_evolve_vibrava_singular
 TEXT: Эволюционируй 1 Покемона: Вибрава
@@ -8664,19 +8672,19 @@ RESOURCE ID: quest_evolve_vullaby_singular
 TEXT: Эволюционируй 1 Покемона: Виллаби
 
 RESOURCE ID: quest_evolve_vulpix_singular
-TEXT: Эволюционируй 1 Покемона: Валпикса
+TEXT: Эволюционируй 1 Покемона: Валпикс
 
 RESOURCE ID: quest_evolve_wailmer_singular
 TEXT: Эволюционируй 1 Покемона: Вэйлмер
 
 RESOURCE ID: quest_evolve_wartortle_singular
-TEXT: Эволюционируй 1 Покемона: Вартортла
+TEXT: Эволюционируй 1 Покемона: Вартортл
 
 RESOURCE ID: quest_evolve_weedle_singular
-TEXT: Эволюционируй 1 Покемона: Видла
+TEXT: Эволюционируй 1 Покемона: Видл
 
 RESOURCE ID: quest_evolve_weepinbell_singular
-TEXT: Эволюционируй 1 Покемона: Випинбелла
+TEXT: Эволюционируй 1 Покемона: Випинбелл
 
 RESOURCE ID: quest_evolve_whirlipede_singular
 TEXT: Эволюционируй 1 Покемона: Вирлипид
@@ -8712,7 +8720,7 @@ RESOURCE ID: quest_evolve_zorua_singular
 TEXT: Эволюционируй 1 Покемона: Зоруа
 
 RESOURCE ID: quest_evolve_zubat_singular
-TEXT: Эволюционируй 1 Покемона: Зубата
+TEXT: Эволюционируй 1 Покемона: Зубат
 
 RESOURCE ID: quest_evolve_zweilous_singular
 TEXT: Эволюционируй 1 Покемона: Цвайлос
@@ -8732,14 +8740,17 @@ TEXT: Кламперл-квест – Сделай хорошие броски: 
 RESOURCE ID: quest_febresearchday_land_nice_plural
 TEXT: Кламперл-квест – Сделай хорошие броски: {0}
 
+RESOURCE ID: quest_field_research_plural
+TEXT: Выполни {0} заданий для полевых квестов. 
+
 RESOURCE ID: quest_flett_catch_b
-TEXT: Поймай Флетчлингов: {0} 
+TEXT: Поймай {0} Флетчлингов
 
 RESOURCE ID: quest_flett_evolve_b
-TEXT: Эволюционируй Флетчлингов: {0} 
+TEXT: Эволюционируй {0} Флетчлингов
 
 RESOURCE ID: quest_flett_evolve_s1
-TEXT: Эволюционируй Флетчлиндеров: {0} 
+TEXT: Эволюционируй Флетчлиндеров: {0}
 
 RESOURCE ID: quest_gotour_kanto_bonus
 TEXT: Тур Pokémon GO: Канто - Бонусное событие
@@ -9210,76 +9221,76 @@ RESOURCE ID: quest_special_dialogue_elect_3_6
 TEXT: Ещё раз спасибо тебе за помощь, и до встречи, а пока ИДИ И ЛОВИ!
 
 RESOURCE ID: quest_special_dialogue_flett_0_0
-TEXT: Привет, %PLAYERNAME%. Как проходит день?
+TEXT: Привет, %PLAYERNAME%. Как проходит твой день?
 
 RESOURCE ID: quest_special_dialogue_flett_0_1
-TEXT: Лично у меня всё идёт плавно, как взмах крыльев. Видишь ли, поблизости собралась огромная стая Флетчлингов..
+TEXT: Лично у меня всё идёт плавно, как взмах крыльев. Видишь ли, поблизости собралась огромная стая Флетчлингов.
 
 RESOURCE ID: quest_special_dialogue_flett_0_2
-TEXT: Я услышал чириканье каких-то Покемонов и, отправившись на разведку, увидел Флетчлингов так далеко, насколько видит глаз!
+TEXT: Я услышал чириканье каких-то Покемонов и, отправившись на разведку, увидел Флетчлингов повсюду, насколько хватало глаз!
 
 RESOURCE ID: quest_special_dialogue_flett_0_3
-TEXT: Флетчлинг известен как Покемон-Маленький Дрозд. Обычно он довольно дружелюбен и его легко дрессировать. Однако, если отправить его сражаться, ты быстро убедишься в его более жёсткой стороне!
+TEXT: Флетчлинг известен как Покемон-Маленький Дрозд. Обычно он довольно дружелюбен и легко поддаётся тренировке. Но ты очень скоро увидишь, насколько ожесточённо он может сражаться!
 
 RESOURCE ID: quest_special_dialogue_flett_0_4
-TEXT: Удивительный маленький Покемон. Но как бы я ни был рад увидеть его здесь, довольно странно, что их так много собралось в одном месте.
+TEXT: Это удивительный маленький Покемон. Но хотя я и рад встретить его здесь, мне кажется странным, что так много Флетчлингов собралось в одном месте.
 
 RESOURCE ID: quest_special_dialogue_flett_0_5
 TEXT: Проведёшь небольшое исследование, чтобы мы могли лучше понять, что происходит?
 
 RESOURCE ID: quest_special_dialogue_flett_1_0
-TEXT: Отличная работа, Тренер. Похоже, у тебя есть свой собственный Флетчлинг, который присоединится к твоему путешествию!
+TEXT: Отличная работа, Тренер. Похоже, у тебя теперь есть свой собственный Флетчлинг, который присоединится к твоему путешествию!
 
 RESOURCE ID: quest_special_dialogue_flett_1_1
-TEXT: Ты знаешь, что у Флетчлинга всегда повышенная температура тела? Что интересно, Тренеры, которые живут в холодных регионах, спят с этим Покемоном, чтобы согреться. Здорово, правда?
+TEXT: Ты знаешь, что тело Флетчлинга всегда тёплое? Поэтому в холодных регионах Тренеры спят вместе с этими Покемонами, чтобы согреться. Здорово, правда?
 
 RESOURCE ID: quest_special_dialogue_flett_1_2
-TEXT: Мне всегда интересно, как Покемоны и их Тренеры работают и живут вместе. И никогда не помешает научиться, как пережить холодные ночи,  правда?
+TEXT: Мне очень интересно наблюдать, как Покемоны и их Тренеры работают и живут вместе. И всегда полезно знать, как пережить холодные ночи, правда?
 
 RESOURCE ID: quest_special_dialogue_flett_1_3
-TEXT: Так или иначе, Флетчлинг эволюционирует в огненного и летающего Покемона Флетчиндера.
+TEXT: Так или иначе, Флетчлинг эволюционирует в огненного и летающего Покемона Флетчлиндера.
 
 RESOURCE ID: quest_special_dialogue_flett_1_4
-TEXT: Известный как Тлеющий Покемон, Флетчиндер чрезвычайно территориален и агрессивен.
+TEXT: Известный как Тлеющий Покемон, Флетчлиндер чрезвычайно территориален и агрессивен.
 
 RESOURCE ID: quest_special_dialogue_flett_1_5
-TEXT: К тому же он невероятно быстр. Его скорость во время взлёта делает его одним из самых быстрых из всех Покемонов-птиц.
+TEXT: К тому же он невероятно быстр. Его скорость во время взлёта делает его одним из самых быстрых Покемонов-птиц.
 
 RESOURCE ID: quest_special_dialogue_flett_1_6
-TEXT: Когда придёт время, почему бы тебе не попробовать эволюционировать своего Флетчлинга в Флетчлиндера? Я хотел бы воочию увидеть, как он быстро летает!
+TEXT: Когда у тебя будет возможность, попробуй эволюционировать своего Флетчлинга в Флетчлиндера. Я хотел бы воочию увидеть, как он быстро летает!
 
 RESOURCE ID: quest_special_dialogue_flett_2_0
-TEXT: У тебя там отличный Флетчиндер, %PLAYERNAME%. Поздравляю!
+TEXT: %PLAYERNAME%, у тебя, я смотрю, отличный Флетчлиндер. Поздравляю!
 
 RESOURCE ID: quest_special_dialogue_flett_2_1
-TEXT: Конечно, я тоже был занят. На самом деле, у меня есть информация, которая может тебе пригодиться при обучении Флетчиндера.
+TEXT: Конечно, я тоже был занят. На самом деле, у меня есть информация, которая может тебе пригодиться при обучении Флетчлиндера.
 
 RESOURCE ID: quest_special_dialogue_flett_2_2
-TEXT: Видишь ли, Флетчиндер, как известно, выплёвывает угли из клюва, чтобы поджечь траву. Затем он набрасывается на растерянную добычу, спасающуюся от огня.
+TEXT: Видишь ли, Флетчлиндер высекает клювом искры, чтобы поджечь траву, а потом нападает на испуганную добычу, убегающую от огня.
 
 RESOURCE ID: quest_special_dialogue_flett_2_3
-TEXT: Трудновато, да? Лучше не увлекаться скоростью во время тренировки, если ты меня понимаешь...
+TEXT: Невероятно, не правда ли? Только постарайся во время тренировок не опалить себе крылья... то есть руки.
 
 RESOURCE ID: quest_special_dialogue_flett_2_4
-TEXT: Следи за тем, чтобы пожары, которые начинает Флетчиндер, не вышли из-под контроля. В конце концов, мы все несём ответственность за охрану окружающей среды!
+TEXT: И следи за тем, чтобы пожары, которые начинает Флетчлиндер, не вышли из-под контроля. В конце концов, мы все несём ответственность за охрану окружающей среды!
 
 RESOURCE ID: quest_special_dialogue_flett_2_5
-TEXT: С учётом сказанного, есть ещё несколько заданий, которые хотелось бы закончить для нашего исследования.
+TEXT: С учётом сказанного, есть ещё несколько заданий, которые я попрошу тебя выполнить для нашего исследования.
 
 RESOURCE ID: quest_special_dialogue_flett_2_6
-TEXT: Самое главное – это получить Талонфлейма, эволюцию Флетчиндера. Говорят, у них просто великолепные крылья! Как ты думаешь, у тебя получится эволюционировать своего Флетчиндера, Тренер?
+TEXT: Самое главное – это получить Талонфлейма, эволюцию Флетчлиндера. Говорят, у них просто великолепные крылья! Как ты думаешь, у тебя получится эволюционировать своего Флетчлиндера, Тренер?
 
 RESOURCE ID: quest_special_dialogue_flett_3_0
-TEXT: С возвращением %PLAYERNAME%, и привет, Талонфлейм!
+TEXT: С возвращением %PLAYERNAME%! Привет, Талонфлейм!
 
 RESOURCE ID: quest_special_dialogue_flett_3_1
 TEXT: Я знаю, что заставил тебя поработать сегодня, но в конечном итоге это принесёт плоды! Теперь ты гордый Тренер Талонфлейма, Знойного Покемона.
 
 RESOURCE ID: quest_special_dialogue_flett_3_2
-TEXT: Талонфлейм, как известно, выбрасывает из перьев угли во время битвы. Затем он взмывает ввысь, достигая скорости почти 500 км/ч.
+TEXT: Как известно, в пылу ожесточённой схватки из оперения Талонфлейма рассыпаются искры. Затем он взмывает ввысь, достигая скорости почти 500 км/ч.
 
 RESOURCE ID: quest_special_dialogue_flett_3_3
-TEXT: Помнишь, я рассказывал тебе о крыльях Талонфлейма? У него огнеупорные крылья, поэтому из них раньше шили форму для пожарных.
+TEXT: Помнишь, я рассказывал тебе о крыльях Талонфлейма? Так как они огнеупорные, в прошлом из них шили форму для пожарных.
 
 RESOURCE ID: quest_special_dialogue_flett_3_4
 TEXT: Потрясающе! Я всегда восхищаюсь этой смелой птицей. Вместе вы без сомнения достигнете высот – да ещё с какой скоростью!
@@ -9289,6 +9300,12 @@ TEXT: Спасибо за твою помощь сегодня, Тренер. Н
 
 RESOURCE ID: quest_special_dialogue_flett_3_6
 TEXT: А теперь ИДИ И ЛОВИ!
+
+RESOURCE ID: quest_special_dialogue_gofest_0_5
+TEXT: Выполни следующие задания для квеста.
+{0}
+{1}
+{2}
 
 RESOURCE ID: quest_special_dialogue_gt_3_0
 TEXT: Поздравляю, Тренер. Твой Хонтер теперь стал Покемоном-Тенью, Генгаром! Давай-ка я расскажу тебе страшную историю. Только возьму фонарик.
@@ -9890,6 +9907,12 @@ TEXT: Но у меня есть хорошие новости! Я выяснил
 RESOURCE ID: quest_special_dialogue_meltan_4_4
 TEXT: Я думаю, что наш следующий шаг – это изучить больше похожих Покемонов. Выполнить следующие задания, чтобы узнать больше о Покемонах с жидкими поверхностями тела или кислотой желудка, достаточно сильной, чтобы плавить металлы?
 
+RESOURCE ID: quest_special_dialogue_mew_0_5
+TEXT: Выполни следующие задания для квеста.
+{0}
+{1}
+{2}
+
 RESOURCE ID: quest_special_dialogue_mew_2_1
 TEXT: Покемон, который считался вымершим, был найден в джунглях далеко на юге. Он настолько редкий, что многие эксперты сомневаются в его существовании. %BREAK%Только несколько человек во всём мире видели этого Покемона. Судя по всему, он является только людям с добрым сердцем, которые сильно хотят его увидеть.
 
@@ -9907,6 +9930,12 @@ TEXT: Может быть, Мью скрывается или замаскиро
 
 RESOURCE ID: quest_special_dialogue_mew_5_1
 TEXT: Давай соберём некоторые данные, чтобы создать инструмент для его поиска. У меня есть идея... Хорошо бы изучить несколько сильных Покемонов! Поможешь мне?
+
+RESOURCE ID: quest_special_dialogue_mew_5_2
+TEXT: Выполни следующие задания для квеста.
+{0}
+{1}
+{2}
 
 RESOURCE ID: quest_special_dialogue_poryt_0_0
 TEXT: Привет, %PLAYERNAME%! Приятно снова тебя видеть! Я всегда рад, когда мне помогают с исследованиями.
@@ -10246,6 +10275,12 @@ TEXT: %PLAYERNAME%, большое спасибо за твою помощь. Я
 
 RESOURCE ID: quest_special_dialogue_tcc_0_0
 TEXT: Привет, %PLAYERNAME%. Я очень впечатлён твоим прогрессом. Была проделана просто фантастическая работа по исследованию Покемонов, первоначально обнаруженных в регионах Канто, Джото, Хоэнн и Синно.
+
+RESOURCE ID: quest_special_dialogue_yokosuka_0_3
+TEXT: Выполни следующие задания для квеста.
+{0}
+{1}
+{2}
 
 RESOURCE ID: quest_time_remaining_day_plural
 TEXT: Осталось {0} дн., чтобы завершить этот специальный квест
@@ -14912,8 +14947,20 @@ TEXT: Превратить редкую конфету XL в {0}-конфету 
 RESOURCE ID: recycle_dialog_prefix
 TEXT: Удалить
 
+RESOURCE ID: rejoin_details_failed
+TEXT: The raid details could not be obtained. IID: {0}
+
+RESOURCE ID: rejoin_no_battle
+TEXT: The Raid Battle no longer exists. IID: {0}
+
+RESOURCE ID: rejoin_no_lobby
+TEXT: The lobby no longer exists. IID: {0}
+
 RESOURCE ID: remote_raid_description
 TEXT: Присоединяйся к рейдам на расстоянии и по приглашению друзей, используя пропуск на удалённый рейд.
+
+RESOURCE ID: remote_raid_invite_rate_limit_desc
+TEXT: Достигнуто максимальное количество приглашений, которые ты можешь отправить в течение некоторого времени. Повтори попытку позже.
 
 RESOURCE ID: remote_raid_name
 TEXT: Сражайся в рейдах удалённо
@@ -15037,6 +15084,9 @@ TEXT: Выбрать подарок для удаления
 
 RESOURCE ID: sent_you_a_gift
 TEXT: Тебе пришёл подарок от {0}!
+
+RESOURCE ID: server_lockout
+TEXT: Игра <i>Pokémon GO</i> в настоящее время закрыта на техническое обслуживание. Повтори попытку позже.
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
 TEXT: Включение этой опции позволит тебе передавать Легендарных и некоторых Мифических Покемонов, когда в хранилище выбрано несколько Покемонов. Передачу Покемонов Профессору Уиллоу нельзя отменить.
@@ -15191,13 +15241,13 @@ RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Wi-Fi рекомендуется
 
 RESOURCE ID: today_view_city_ar_bonus
-TEXT: Citywide AR Mapping task rewards
+TEXT: Награды за задания по общегородской AR-съёмке
 
 RESOURCE ID: today_view_city_scan_competition
-TEXT: AR Mapping task city competition
+TEXT: Соревнование по общегородской AR-съёмке
 
 RESOURCE ID: today_view_city_timed_research
-TEXT: Citywide Timed Research
+TEXT: Общегородской квест на время
 
 RESOURCE ID: trade_distance_increase
 TEXT: Увеличено расстояние для обмена

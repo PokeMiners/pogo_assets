@@ -157,11 +157,6 @@ TEXT: Pokémon GO Tour: Kanto
 RESOURCE ID: badge_rocket_giovanni_defeated
 TEXT: Defeat the Team GO Rocket Boss {0} times.
 
-RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Only {0} of the selected Pokémon can be transferred to the professor.</b></size>
-
-Any Pokémon that can’t be transferred will remain in your Pokémon storage. Transferred Pokémon cannot be reclaimed.
-
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>Only {0} of the selected Pokémon can be transferred to the professor.</b></size>
 
@@ -2794,7 +2789,7 @@ RESOURCE ID: general_leave_out
 TEXT: CANCEL
 
 RESOURCE ID: general_raid_error
-TEXT: General raid error.
+TEXT: There was an error with the raid.
 
 RESOURCE ID: general_transfer
 TEXT: TRANSFER
@@ -3191,6 +3186,12 @@ TEXT: A ticket to access Special Research on February 7, 2021, from 11:00 a.m. t
 
 RESOURCE ID: item_event_ticket_pink_roset_details
 TEXT: This ticket will automatically activate to give you access to Special Research on February 7, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_global_event_ticket_details
+TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: This ticket will automatically activate to give you access to a special event on February 20, 2021, wherever you are in the world.
@@ -5480,8 +5481,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: Mega Raid Hour
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-03T22:52:03.449901
-at SHA 25eb1390ee248ba156d2fc71cada38a8063a344a
+TEXT: Built at 2021-03-05T23:37:40.711065
+at SHA 629fdae07ac67dce0d734305a516593a3ee0f43e
 Patch from: 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace
 
 RESOURCE ID: mini_collection_feb21_vday_event
@@ -11615,6 +11616,15 @@ TEXT: Special Raid Weekend: Zygarde
 
 RESOURCE ID: raid_xp_25_fivestar
 TEXT: 1.25x five-star Raid XP
+
+RESOURCE ID: rejoin_details_failed
+TEXT: The raid details could not be obtained. IID: {0}
+
+RESOURCE ID: rejoin_no_battle
+TEXT: The Raid Battle no longer exists. IID: {0}
+
+RESOURCE ID: rejoin_no_lobby
+TEXT: The lobby no longer exists. IID: {0}
 
 RESOURCE ID: remote_raid_description
 TEXT: Join raids farther away on the map or via friend invites using a Remote Raid Pass.

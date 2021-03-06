@@ -19,6 +19,9 @@ TEXT: 相手ポケモンが弱いタイプのわざを使おう！
 RESOURCE ID: app_launch_deeplink
 TEXT: https://pokemongolive.com/launchapp
 
+RESOURCE ID: arphoto_warning_pokemon_too_close
+TEXT: ポケモンが近すぎるので、もう少し距離をあけてください
+
 RESOURCE ID: avatar_f_face_3dmask_00_bundle_icon
 TEXT: マスク くさタイプ
 
@@ -142,11 +145,6 @@ TEXT: グローバル、2021年2月20日
 
 RESOURCE ID: badge_gotour_2021_red_global_title
 TEXT: Pokémon GO Tour：カントー地方
-
-RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>選択されたポケモンのうち{0}匹のみ博士に送ることができます。</b></size>
-
-送ることができないポケモンはボックスに残ります。送ったポケモンを戻すことはできません。
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>選択されたポケモンのうち{0}匹のみ博士に送ることができます。</b></size>
@@ -2372,6 +2370,9 @@ TEXT: エラー：選択できませんでした。再度お試しください�
 RESOURCE ID: collection_challenge_event
 TEXT: イベントに沿ったコレクションチャレンジ
 
+RESOURCE ID: combat_error_opponent_opted_out
+TEXT: 相手が対戦を受け付けていません
+
 RESOURCE ID: combat_gotour_kanto_cup
 TEXT: GO Tour：カントーカップ
 
@@ -2780,7 +2781,7 @@ RESOURCE ID: general_leave_out
 TEXT: キャンセル
 
 RESOURCE ID: general_raid_error
-TEXT: General raid error.
+TEXT: レイドエラー（一般）
 
 RESOURCE ID: general_transfer
 TEXT: 送る
@@ -3181,7 +3182,10 @@ RESOURCE ID: item_event_ticket_pink_roset_details
 TEXT: このチケットは自動的に発動し、現地時間2021年2月7日11:00AM～5:00PMにスペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: 現地時間2021年2月20日9:00AM～9:00PMにスペシャルリサーチを遂行するためのチケット。
+TEXT: 現地時間2021年3月6日11:00AM～5:00PMにスペシャルリサーチを遂行するためのチケット。
+
+RESOURCE ID: item_global_event_ticket_details
+TEXT: 現地時間2021年3月6日11:00AM～5:00PMにスペシャルリサーチを遂行するためのチケット。
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: このチケットは自動的に発動し、現地時間2021年2月20日のイベントに参加できるようになります。
@@ -5477,8 +5481,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: メガレイドアワー
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-03T22:52:03.449901
-at SHA 25eb1390ee248ba156d2fc71cada38a8063a344a
+TEXT: Built at 2021-03-05T23:37:40.711065
+at SHA 629fdae07ac67dce0d734305a516593a3ee0f43e
 Patch from: 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace
 
 RESOURCE ID: mini_collection_feb21_vday_event
@@ -11579,6 +11583,15 @@ TEXT: レイドウィークエンド：ジガルデ
 
 RESOURCE ID: raid_xp_25_fivestar
 TEXT: 1.25x 5つ星レイド獲得XP
+
+RESOURCE ID: rejoin_details_failed
+TEXT: レイドの詳細を取得できませんでした IID: {0}
+
+RESOURCE ID: rejoin_no_battle
+TEXT: レイドバトルがありません IID: {0}
+
+RESOURCE ID: rejoin_no_lobby
+TEXT: ロビーがありません IID: {0}
 
 RESOURCE ID: remote_raid_description
 TEXT: リモートレイドパスを使用して、直接行けないレイドに参加できます。フレンドからの招待で参加することもできます。

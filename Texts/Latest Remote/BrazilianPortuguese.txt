@@ -142,11 +142,6 @@ TEXT: Globalmente, 20 de fevereiro de 2021
 RESOURCE ID: badge_gotour_2021_red_global_title
 TEXT: Pokémon GO Tour: Kanto
 
-RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Apenas {0} dos Pokémon selecionados podem ser transferidos para o Professor.</b></size>
-
-Qualquer Pokémon que não possa ser transferido continuará no seu estoque de Pokémon. Pokémon que forem transferidos não podem ser recuperados.
-
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>Apenas {0} dos Pokémon selecionados podem ser transferidos para o Professor.</b></size>
 
@@ -2414,7 +2409,7 @@ RESOURCE ID: event_move_ampharos_dragon_pulse
 TEXT: Evolua Flaaffy para obter Ampharos que sabe Pulso do Dragão
 
 RESOURCE ID: event_move_metagross_meteor_mash
-TEXT: Evolve Metang to get a Metagross that knows Meteor Mash
+TEXT: Evolua Metang para conseguir Metagross que sabe Meteoro Esmagador
 
 RESOURCE ID: event_name_bonus_generic
 TEXT: Evento bônus
@@ -2779,7 +2774,7 @@ RESOURCE ID: general_leave_out
 TEXT: CANCELAR
 
 RESOURCE ID: general_raid_error
-TEXT: General raid error.
+TEXT: There was an error with the raid.
 
 RESOURCE ID: general_transfer
 TEXT: TRANSFERIR
@@ -3154,7 +3149,7 @@ RESOURCE ID: ice_type_event
 TEXT: Invasão de tipo: Gelo
 
 RESOURCE ID: incense_day_pokemon_beldum
-TEXT: Beldum attracted to Incense
+TEXT: Beldum atraídos por Incenso
 
 RESOURCE ID: incense_day_pokemon_mareep
 TEXT: Mareep atraídos por Incenso
@@ -3176,6 +3171,12 @@ TEXT: Um ingresso para acessar uma pesquisa especial no dia 7 de fevereiro de 20
 
 RESOURCE ID: item_event_ticket_pink_roset_details
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso à pesquisa especial no dia 7 de fevereiro de 2021, das 11h às 17h, horário local, de onde você estiver.
+
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: Um ingresso para acessar uma pesquisa especial no dia 6 de março de 2021, das 11h às 17h, horário local, de onde você estiver.
+
+RESOURCE ID: item_global_event_ticket_details
+TEXT: Um ingresso para acessar uma pesquisa especial no dia 6 de março de 2021, das 11h às 17h, horário local, de onde você estiver.
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: This ticket will automatically activate to give you access to a special event on February 20, 2021, wherever you are in the world.
@@ -5465,8 +5466,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: Hora de Megarreides
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-03T22:52:03.449901
-at SHA 25eb1390ee248ba156d2fc71cada38a8063a344a
+TEXT: Built at 2021-03-05T23:37:40.711065
+at SHA 629fdae07ac67dce0d734305a516593a3ee0f43e
 Patch from: 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace
 
 RESOURCE ID: mini_collection_feb21_vday_event
@@ -11582,6 +11583,15 @@ TEXT: Fim de semana especial de Reides: Zygarde
 
 RESOURCE ID: raid_xp_25_fivestar
 TEXT: 1,25× PE por Reide de cinco estrelas
+
+RESOURCE ID: rejoin_details_failed
+TEXT: The raid details could not be obtained. IID: {0}
+
+RESOURCE ID: rejoin_no_battle
+TEXT: The Raid Battle no longer exists. IID: {0}
+
+RESOURCE ID: rejoin_no_lobby
+TEXT: The lobby no longer exists. IID: {0}
 
 RESOURCE ID: remote_raid_description
 TEXT: Participe de Reides distantes no mapa ou por meio de convites de amigos usando um Passe de Reide a Distância.

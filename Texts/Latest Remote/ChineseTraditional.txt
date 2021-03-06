@@ -151,11 +151,6 @@ TEXT: Earn {0} Wayfarer Agreements
 RESOURCE ID: badge_wayfarer_singular
 TEXT: Earn a Wayfarer Agreement
 
-RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>目前選擇的寶可夢中，只有 {0} 隻能傳送給博士。</b></size>
-
-無法傳送的寶可夢將會留在盒子裡。寶可夢傳送給博士後將無法取消。
-
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>目前選擇的寶可夢中，只有 {0} 隻能傳送給博士。</b></size>
 
@@ -2380,6 +2375,9 @@ TEXT: 無法選擇版本，請稍後再試一次
 RESOURCE ID: collection_challenge_event
 TEXT: 活動主題收藏家挑戰
 
+RESOURCE ID: combat_error_opponent_opted_out
+TEXT: 此訓練家目前不接受挑戰
+
 RESOURCE ID: combat_gotour_kanto_cup
 TEXT: GO Tour: Kanto Cup
 
@@ -2803,7 +2801,7 @@ RESOURCE ID: general_leave_out
 TEXT: 取消
 
 RESOURCE ID: general_raid_error
-TEXT: General raid error.
+TEXT: There was an error with the raid.
 
 RESOURCE ID: general_transfer
 TEXT: 傳送
@@ -3230,6 +3228,12 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_pink_roset_details
 TEXT: 入場券將會自動啟用，不論你在何處，都能在當地時間2021年2月7日11:00～17:00領取特殊調查的課題。
+
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間3月6日11:00～17:00獲得特殊調查的課題。
+
+RESOURCE ID: item_global_event_ticket_details
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間3月6日11:00～17:00獲得特殊調查的課題。
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: 這張入場券將會自動啟用。你可以使用這張入場券來參加當地時間2021年2月20日的活動。
@@ -5525,8 +5529,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: 超級團體戰時間
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-03T22:52:03.449901
-at SHA 25eb1390ee248ba156d2fc71cada38a8063a344a
+TEXT: Built at 2021-03-05T23:37:40.711065
+at SHA 629fdae07ac67dce0d734305a516593a3ee0f43e
 Patch from: 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace
 
 RESOURCE ID: mini_collection_feb21_vday_event
@@ -11918,6 +11922,15 @@ TEXT: 參加五星團體戰可獲得的XP增為1.25倍
 
 RESOURCE ID: raid_xp_increase
 TEXT: Increased XP from raids
+
+RESOURCE ID: rejoin_details_failed
+TEXT: The raid details could not be obtained. IID: {0}
+
+RESOURCE ID: rejoin_no_battle
+TEXT: The Raid Battle no longer exists. IID: {0}
+
+RESOURCE ID: rejoin_no_lobby
+TEXT: The lobby no longer exists. IID: {0}
 
 RESOURCE ID: remote_raid_description
 TEXT: Join raids farther away on the map or via friend invites using a Remote Raid Pass.

@@ -175,11 +175,6 @@ TEXT: Il 20 febbraio 2021 in tutto il mondo
 RESOURCE ID: badge_gotour_2021_red_global_title
 TEXT: Tour di Pokémon GO di Kanto
 
-RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Solo {0} dei Pokémon selezionati possono essere trasferiti al professore.</b></size>
-
-Tutti i Pokémon che non possono essere trasferiti rimarranno nel tuo spazio Pokémon. I Pokémon trasferiti non possono essere recuperati.
-
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>Solo {0} dei Pokémon selezionati possono essere trasferiti al professore.</b></size>
 
@@ -2824,7 +2819,7 @@ RESOURCE ID: general_leave_out
 TEXT: ANNULLA
 
 RESOURCE ID: general_raid_error
-TEXT: General raid error.
+TEXT: There was an error with the raid.
 
 RESOURCE ID: general_transfer
 TEXT: TRASFERISCI
@@ -3224,6 +3219,9 @@ TEXT: Un biglietto per accedere a un ricerca speciale il 7 febbraio 2021 dalle 1
 
 RESOURCE ID: item_event_ticket_pink_roset_details
 TEXT: Questo biglietto si attiverà automaticamente per darti accesso alla ricerca speciale il 7 febbraio 2021 dalle 11:00 alle 17:00 ora locale, ovunque tu sia.
+
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: Un biglietto per accedere a un ricerca speciale il 6 marzo 2021 dalle 11:00 alle 17:00 ora locale, ovunque tu sia.
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: Questo biglietto si attiverà automaticamente dandoti accesso a un evento speciale il 20 febbraio 2021, ovunque ti trovi.
@@ -5519,8 +5517,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: ora dei megaraid
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-03T22:52:03.449901
-at SHA 25eb1390ee248ba156d2fc71cada38a8063a344a
+TEXT: Built at 2021-03-05T23:37:40.711065
+at SHA 629fdae07ac67dce0d734305a516593a3ee0f43e
 Patch from: 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace
 
 RESOURCE ID: mini_collection_feb21_vday_event
@@ -11651,6 +11649,15 @@ TEXT: Weekend di raid speciali dedicato a Zygarde
 
 RESOURCE ID: raid_xp_25_fivestar
 TEXT: PE da raid livello 5 moltiplicati per 1,25
+
+RESOURCE ID: rejoin_details_failed
+TEXT: The raid details could not be obtained. IID: {0}
+
+RESOURCE ID: rejoin_no_battle
+TEXT: The Raid Battle no longer exists. IID: {0}
+
+RESOURCE ID: rejoin_no_lobby
+TEXT: The lobby no longer exists. IID: {0}
 
 RESOURCE ID: remote_raid_description
 TEXT: Partecipa ai raid più lontani sulla mappa o tramite inviti di amici utilizzando un biglietto raid da remoto.
