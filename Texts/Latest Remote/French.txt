@@ -22,6 +22,69 @@ TEXT: Envoyer une Invitation d’ami à {0} ?
 RESOURCE ID: add_friends_privacy_prompt
 TEXT: Tes amis peuvent voir ton profil de Dresseur, tes succès et les Pokémon que tu as attrapés. Ils peuvent également voir ton emplacement lorsque tu leur envoies un Cadeau ou échanges un Pokémon.
 
+RESOURCE ID: add_niantic_friend_tip
+TEXT: Ajouter des amis dans ce jeu te permet de les ajouter à tous les jeux Niantic auxquels vous jouez tous les deux.
+
+RESOURCE ID: add_referrer_already_added_accept_invite
+TEXT: Ton Invitation d’ami avec ce Dresseur est en attente. Elle doit être acceptée pour que tu continues à recevoir des récompenses de parrainage. Tu peux saisir un autre code de parrainage si tu le souhaites.
+
+RESOURCE ID: add_referrer_already_added_already_friends
+TEXT: Vous êtes déjà amis dans Pokémon GO, tu continueras donc à recevoir des récompenses de parrainage. Tu peux saisir un autre code de parrainage si tu le souhaites.
+
+RESOURCE ID: add_referrer_already_added_friend_later
+TEXT: Vous devez être amis dans Pokémon GO pour continuer à recevoir des récompenses de parrainage. Tu peux saisir un autre code de parrainage si tu le souhaites.
+
+RESOURCE ID: add_referrer_already_added_maybe_friend_later
+TEXT: Si vous n’êtes pas déjà amis dans Pokémon GO, pense à le faire pour continuer de recevoir des récompenses de parrainage. Tu peux saisir un autre code de parrainage si tu le souhaites.
+
+RESOURCE ID: add_referrer_already_added_sent_invite
+TEXT: Une Invitation d’ami a été envoyée. Quand elle sera acceptée, tu pourras gagner des récompenses au cours de ton aventure. Tu peux saisir un autre code de parrainage si tu le souhaites.
+
+RESOURCE ID: add_referrer_already_added_title
+TEXT: Le lien de parrainage a déjà été établi avec ce Dresseur.
+
+RESOURCE ID: add_referrer_disabled
+TEXT: Impossible d’établir le lien.
+
+RESOURCE ID: add_referrer_disabled_sent_invite
+TEXT: Le lien de parrainage n’a pas pu être établi, mais une Invitation d’ami a été envoyée.
+
+RESOURCE ID: add_referrer_error_past_grace_period_message
+TEXT: Tu ne peux plus utiliser de code de parrainage.
+
+RESOURCE ID: add_referrer_error_past_grace_period_sent_invite
+TEXT: Tu ne peux plus utiliser de code de parrainage, mais une Invitation d’ami a été envoyée.
+
+RESOURCE ID: add_referrer_error_past_grace_period_title
+TEXT: La période de parrainage est terminée.
+
+RESOURCE ID: add_referrer_error_unknown
+TEXT: Impossible d’établir le lien de parrainage.
+
+RESOURCE ID: add_referrer_error_unknown_sent_friend_request
+TEXT: Une Invitation d’ami a été envoyée, mais le lien de parrainage n’a pas pu être établi.
+
+RESOURCE ID: add_referrer_success_accept_invite
+TEXT: Cette personne t’a déjà envoyé une Invitation d’ami. Quand tu l’auras acceptée, tu pourras gagner des récompenses tout au long de ton aventure.
+
+RESOURCE ID: add_referrer_success_already_friends
+TEXT: Tu es déjà ami avec ce joueur dans Pokémon GO, tu pourras donc gagner des récompenses au cours de ton aventure.
+
+RESOURCE ID: add_referrer_success_friend_later
+TEXT: N’oublie pas ensuite de devenir ami avec cette personne dans Pokémon GO pour recevoir plus de récompenses de parrainage.
+
+RESOURCE ID: add_referrer_success_invite_will_be_sent_later
+TEXT: Une Invitation d’ami sera envoyée. Une fois ta demande acceptée, tu pourras recevoir des récompenses de parrainage.
+
+RESOURCE ID: add_referrer_success_maybe_friend_later
+TEXT: Si vous n’êtes pas déjà amis dans Pokémon GO, pense à le faire plus tard pour recevoir plus de récompenses de parrainage.
+
+RESOURCE ID: add_referrer_success_sent_invite
+TEXT: Une Invitation d’ami a été envoyée. Une fois ta demande acceptée, tu pourras recevoir des récompenses de parrainage au cours de ton aventure.
+
+RESOURCE ID: add_referrer_success_title
+TEXT: Code de parrainage confirmé
+
 RESOURCE ID: app_launch_deeplink
 TEXT: https://pokemongolive.com/fr/
 
@@ -133,17 +196,14 @@ TEXT: Circuit Pokémon GO : Kanto
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
 TEXT: T-shirt Mew chromatique
 
-RESOURCE ID: badge_gotour_2021_green_global
-TEXT: Évènement mondial, le 20 février 2021
+RESOURCE ID: badge_trainers_referred
+TEXT: {0} Dresseurs parrainés
 
-RESOURCE ID: badge_gotour_2021_green_global_title
-TEXT: Circuit Pokémon GO : Kanto
+RESOURCE ID: badge_trainers_referred_singular
+TEXT: Un Dresseur parrainé
 
-RESOURCE ID: badge_gotour_2021_red_global
-TEXT: Évènement mondial, le 20 février 2021
-
-RESOURCE ID: badge_gotour_2021_red_global_title
-TEXT: Circuit Pokémon GO : Kanto
+RESOURCE ID: badge_trainers_referred_title
+TEXT: Parrainage
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>Seuls {0} des Pokémon sélectionnés peuvent être transférés au professeur.</b></size>
@@ -2333,6 +2393,9 @@ TEXT: Journée Combat GO : Zygarde
 RESOURCE ID: battle_npcs_plural
 TEXT: Combats {0} adversaires du Circuit GO
 
+RESOURCE ID: bonus_milestone_rewards_title
+TEXT: RÉCOMPENSES D’OBJECTIF BONUS
+
 RESOURCE ID: buddy_description
 TEXT: Choisis un Pokémon pour être ton copain. Crée des liens avec lui pour lui donner des Avantages.
 
@@ -2363,9 +2426,6 @@ TEXT: 2 fois plus de Poussières Étoiles de capture pour chaque Pokémon en ve
 RESOURCE ID: charge_up_event_name
 TEXT: En charge
 
-RESOURCE ID: choose_event_variant_failed
-TEXT: Impossible de choisir une version d’évènement. Essaie plus tard.
-
 RESOURCE ID: collection_challenge_event
 TEXT: Event-themed Collection Challenge
 
@@ -2375,11 +2435,8 @@ TEXT: GO Tour: Kanto Cup
 RESOURCE ID: community_day_fletchling_event_name
 TEXT: Journée Communauté : Passerouge
 
-RESOURCE ID: community_day_machop_event_name
-TEXT: Journée Communauté : Machoc
-
-RESOURCE ID: community_day_roselia_event_name
-TEXT: Journée Communauté : Rosélia
+RESOURCE ID: copy_referral_code_toast
+TEXT: Ton code de parrainage a été copié.
 
 RESOURCE ID: dark_type_event
 TEXT: Afflux du type : Ténèbres
@@ -2393,20 +2450,14 @@ TEXT: Bats {0} adversaires du Circuit GO
 RESOURCE ID: dragon_type_event
 TEXT: Afflux du type : Dragon
 
-RESOURCE ID: egg_transparency_available_pokemon
-TEXT: POKÉMON À ÉCLORE
-
 RESOURCE ID: egg_transparency_help
 TEXT: Les Pokémon en haut de cette liste sont plus susceptibles d’éclore de cet Œuf.
 
 RESOURCE ID: electric_type_event
 TEXT: Afflux du type : Électrik
 
-RESOURCE ID: event_mega_evolve_reminder
-TEXT: Gagne plus de Bonbons Capture venant de Pokémon du même type que ton Pokémon méga-évolué.
-
-RESOURCE ID: event_move_ampharos_dragon_pulse
-TEXT: Fais évoluer Lainergie pour obtenir un Pharamp connaissant Draco-Choc.
+RESOURCE ID: error_generate_referral_code_failed
+TEXT: Impossible de trouver ton code de parrainage.
 
 RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: Fais évoluer Métang pour obtenir un Métalosse connaissant Poing Météore.
@@ -2743,11 +2794,6 @@ TEXT: Un ticket pour accéder à l’Étude spéciale “Un oiseau des plus cour
 
 Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet évènement spécial.
 
-RESOURCE ID: general1.ticket.2_description_2
-TEXT: Un ticket pour accéder à l’Étude spéciale, “Magmar en fusion”, le 21 novembre 2020, de 11h à 17h (heures locales), où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
-
-Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet évènement spécial.
-
 RESOURCE ID: general1.ticket.2_flett_description
 TEXT: Un ticket pour accéder à l’Étude spéciale “Un oiseau des plus courageux” le 6 mars 2021 de 11h à 17h (heures locales), où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
 
@@ -2757,20 +2803,12 @@ RESOURCE ID: general1.ticket.2_flett_title
 TEXT: Ticket : Un oiseau des plus courageux
 
 RESOURCE ID: general1.ticket.2_machop_description
-TEXT: Un ticket pour accéder à l’Étude spéciale, “Magmar en fusion”, le 21 novembre 2020, de 11h à 17h (heures locales) où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
+TEXT: Un ticket pour accéder à l’évènement “Toujours au top, Machoc !” le 16 janvier de 11h à 17h (heures locales), où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
 
 Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet évènement spécial.
 
 RESOURCE ID: general1.ticket.2_machop_title
-TEXT: Ticket : Magmar en fusion
-
-RESOURCE ID: general1.ticket.2_roset_description
-TEXT: Un ticket pour accéder à l’Étude spéciale “Prenez le temps d’admirer les Rosélia”, le 7 février 2021 de 11h à 17h (heures locales), où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
-
-Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet évènement spécial.
-
-RESOURCE ID: general1.ticket.2_roset_title
-TEXT: Ticket : Prenez le temps d’admirer les Rosélia
+TEXT: Ticket : Toujours au top, Machoc !
 
 RESOURCE ID: general1.ticket.2_title
 TEXT: Ticket : Un oiseau des plus courageux
@@ -2782,7 +2820,7 @@ RESOURCE ID: general_leave_out
 TEXT: ANNULER
 
 RESOURCE ID: general_raid_error
-TEXT: There was an error with the raid.
+TEXT: Une erreur s’est produite avec ce Raid.
 
 RESOURCE ID: general_transfer
 TEXT: TRANSFÉRER
@@ -2790,32 +2828,11 @@ TEXT: TRANSFÉRER
 RESOURCE ID: ghost_type_event
 TEXT: Afflux du type : Spectre
 
-RESOURCE ID: gotour2021_choose_green
-TEXT: Choisir la version Verte
-
-RESOURCE ID: gotour2021_choose_red
-TEXT: Choisir la version Rouge
-
-RESOURCE ID: gotour2021_choose_version_desc
-TEXT: Une fois la version choisie, tu ne pourras plus en changer.
-
-RESOURCE ID: gotour2021_choose_version_title_green
-TEXT: Veux-tu vraiment la Version Verte ?
-
-RESOURCE ID: gotour2021_choose_version_title_red
-TEXT: Veux-tu vraiment la Version Rouge ?
-
-RESOURCE ID: gotour2021_content_hashtag
-TEXT: Publie tes photos avec #CircuitPokemonGO, et nous partagerons nos préférées !
-
 RESOURCE ID: gotour2021_content_link_cerulean_city
 TEXT: C’est maintenant : l’heure d’Azuria !
 
 RESOURCE ID: gotour2021_content_link_fuchsia_city
 TEXT: C’est maintenant : l’heure de Parmanie !
-
-RESOURCE ID: gotour2021_content_link_green
-TEXT: Tu as sélectionné la Version Verte
 
 RESOURCE ID: gotour2021_content_link_open
 TEXT: C’est maintenant : tous les Pokémon des évènements !
@@ -2829,23 +2846,8 @@ TEXT: C’est maintenant : l’heure d’Argenta !
 RESOURCE ID: gotour2021_content_link_pok_mon_league
 TEXT: C’est maintenant : l’heure de la Ligue Pokémon !
 
-RESOURCE ID: gotour2021_content_link_red
-TEXT: Tu as sélectionné la Version Rouge
-
-RESOURCE ID: gotour2021_content_link_short
-TEXT: Publie tes photos avec #CircuitPokemonGO, et nous partagerons nos préférées !
-
-RESOURCE ID: gotour2021_minicollect_description_ongoing
-TEXT: Attrape, échange ou fais évoluer des Pokémon pour récupérer ces Pokémon avant la fin de tes Défis de collection du Circuit Pokémon GO : Kanto.
-
-RESOURCE ID: gotour2021_welcome_green
-TEXT: Bienvenue dans le Circuit Pokémon GO : Kanto !
-
-RESOURCE ID: gotour2021_welcome_red
-TEXT: Bienvenue dans le Circuit Pokémon GO : Kanto !
-
 RESOURCE ID: gotour_kanto
-TEXT: Circuit Pokémon GO : Kanto
+TEXT: Circuit Pokémon GO : Kanto
 
 RESOURCE ID: gotour_kanto_cerulean_city
 TEXT: Circuit GO : Kanto – Azuria
@@ -3103,7 +3105,7 @@ RESOURCE ID: gotour_kanto_srd_dialogue_8_9
 TEXT: Et c’est parti !
 
 RESOURCE ID: gotour_kanto_srd_title
-TEXT: Pokémon GO Tour: Kanto
+TEXT: Circuit Pokémon GO : Kanto
 
 RESOURCE ID: gotour_kanto_srd_title_1
 TEXT: Circuit Pokémon GO : Kanto (1/8)
@@ -3159,8 +3161,14 @@ TEXT: Afflux du type : Glace
 RESOURCE ID: incense_day_pokemon_beldum
 TEXT: Terhal attiré par l’Encens
 
-RESOURCE ID: incense_day_pokemon_mareep
-TEXT: Wattouat attiré par l’Encens
+RESOURCE ID: input_referral_code_time_remaining_plural
+TEXT: Il te reste {0} heures pour saisir un code de parrainage.
+
+RESOURCE ID: input_referral_code_time_remaining_singular
+TEXT: Il te reste {0} heure pour saisir un code de parrainage.
+
+RESOURCE ID: invalid_referral_code
+TEXT: Code de parrainage non valide
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Un ticket pour accéder à une Étude spéciale le 6 mars 2021 de 11h à 17h (heures locales), où que tu sois.
@@ -3173,12 +3181,6 @@ TEXT: Un ticket pour accéder à une Étude spéciale le 6 mars 2021 de 11h à
 
 RESOURCE ID: item_event_ticket_pink_flett_details
 TEXT: Ce ticket sera automatiquement activé pour te donner accès à l’Étude spéciale du 6 mars 2021 de 11h à 17h (heures locales), où que tu sois.
-
-RESOURCE ID: item_event_ticket_pink_roset_desc
-TEXT: Un ticket pour accéder à une Étude spéciale le 7 février 2021 de 11h à 17h (heures locales), où que tu sois.
-
-RESOURCE ID: item_event_ticket_pink_roset_details
-TEXT: Ce ticket sera automatiquement activé pour te donner accès à l’Étude spéciale du 7 février 2021 de 11h à 17h (heures locales), où que tu sois.
 
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: Un ticket pour accéder à une Étude spéciale le 6 mars 2021 de 11h à 17h (heures locales), où que tu sois.
@@ -4933,9 +4935,6 @@ TEXT: Étude ciblée : Queulorior
 RESOURCE ID: limited_research_smoochum
 TEXT: Étude ciblée : Lippouti
 
-RESOURCE ID: limited_research_sneasel
-TEXT: Étude ciblée : Farfuret
-
 RESOURCE ID: limited_research_snivy
 TEXT: Étude ciblée : Vipélierre
 
@@ -5359,9 +5358,6 @@ TEXT: Étude ciblée : Diamat
 RESOURCE ID: limited_research_zygarde
 TEXT: Étude ciblée : Zygarde
 
-RESOURCE ID: love_cup_title
-TEXT: Coupe Passion
-
 RESOURCE ID: lucky_friend_increase
 TEXT: Probabilité augmentée de devenir des Amis Chanceux
 
@@ -5471,45 +5467,27 @@ RESOURCE ID: mega_candy_hour
 TEXT: Heure du Méga bonus : [Candy]
 
 RESOURCE ID: mega_raid_hour
-TEXT: Heure des Méga Raids
+TEXT: Heure des Méga-Raids
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-05T23:37:40.711065
-at SHA 629fdae07ac67dce0d734305a516593a3ee0f43e
-Patch from: 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace
+TEXT: Built at 2021-03-11T00:37:14.795998
+at SHA cf7220018140265d1d1b1e6f06f2780dd0c56ba3
+Patch from: 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace, 0.203.0-SHA-d5885bda
+
+RESOURCE ID: milestone_rewards_title
+TEXT: RÉCOMPENSES D’OBJECTIF
 
 RESOURCE ID: mini_collection_feb21_vday_event
 TEXT: Valentine’s Day 2021 Collection
 
-RESOURCE ID: mini_collection_jan21_gen2_legend_event
-TEXT: Célébration de Johto : Collection légendaire
-
-RESOURCE ID: mini_collection_jan21_shadow_event
-TEXT: Célébration de Johto : Collection Rocket
-
 RESOURCE ID: normal_type_event
 TEXT: Afflux du type : Normal
-
-RESOURCE ID: open_sponsored_balloon_postcard_message
-TEXT: Profite de ces objets gratuits de la part de <b>{0}</b> !
-
-RESOURCE ID: open_sponsored_gift_button
-TEXT: Ouvrir
 
 RESOURCE ID: photobomb_five_fletchling
 TEXT: Passerouge s’introduit 5 fois dans tes Clichés GO
 
-RESOURCE ID: photobomb_five_machop
-TEXT: Machoc s’introduit 5 fois dans tes Clichés GO
-
-RESOURCE ID: photobomb_five_roselia
-TEXT: Rosélia s’introduit 5 fois dans tes Clichés GO
-
 RESOURCE ID: poi_contrib_upload_later
 TEXT: ENVOYER PLUS TARD
-
-RESOURCE ID: poi_contrib_upload_later_thanks
-TEXT: Merci de ta contribution !
 
 RESOURCE ID: poi_contrib_upload_now
 TEXT: ENVOYER MAINTENANT
@@ -5517,29 +5495,20 @@ TEXT: ENVOYER MAINTENANT
 RESOURCE ID: poi_contrib_uploading_status_plural
 TEXT: Envoi en cours : {0}/{1}
 
-RESOURCE ID: poi_contrib_uploading_status_singular
-TEXT: Envoi en cours : {0}/{1}
-
 RESOURCE ID: poison_type_event
 TEXT: Afflux du type : Poison
+
+RESOURCE ID: pokemon_info_caught_quest_referral
+TEXT: ATTRAPÉ APRÈS AVOIR ATTEINT UN OBJECTIF DE PARRAINAGE
+
+RESOURCE ID: pokemon_info_none_not_unique_transferable
+TEXT: There are no eligible Pokémon within your selection to be transferred.
 
 RESOURCE ID: pokemon_info_none_transferable
 TEXT: Aucun des Pokémon sélectionnés ne peut être transféré.
 
-RESOURCE ID: pokemon_transfer_legendary_confirmation
-TEXT: Ta sélection contient des Pokémon légendaires ou fabuleux. Veux-tu vraiment transférer les Pokémon sélectionnés ?
-
-RESOURCE ID: poseidon_passcode_title
-TEXT: Saisis un code d’activation
-
 RESOURCE ID: psychic_type_event
 TEXT: Afflux du type : Psy
-
-RESOURCE ID: quest_catch_jan21_hoenn1_plural
-TEXT: Attrape {0} Groudon
-
-RESOURCE ID: quest_catch_jan21_hoenn2_plural
-TEXT: Attrape {0} Kyogre
 
 RESOURCE ID: quest_catch_luvdisc
 TEXT: Catch {0} Luvdisc
@@ -5547,14 +5516,8 @@ TEXT: Catch {0} Luvdisc
 RESOURCE ID: quest_complete_flett
 TEXT: Un oiseau des plus courageux
 
-RESOURCE ID: quest_complete_macht
-TEXT: Toujours au top, Machoc !
-
 RESOURCE ID: quest_complete_rockethq8
 TEXT: À se brûler les ailes...
-
-RESOURCE ID: quest_complete_roset
-TEXT: Prenez le temps d’admirer les Rosélia
 
 RESOURCE ID: quest_evolve_abra_singular
 TEXT: Fais évoluer un Abra
@@ -6378,9 +6341,6 @@ TEXT: Fais évoluer un Limagma
 RESOURCE ID: quest_evolve_smoochum_singular
 TEXT: Fais évoluer un Lippouti
 
-RESOURCE ID: quest_evolve_sneasel_singular
-TEXT: Fais évoluer un Farfuret
-
 RESOURCE ID: quest_evolve_snivy_singular
 TEXT: Fais évoluer un Vipélierre
 
@@ -6612,9 +6572,6 @@ TEXT: Circuit Pokémon GO : Kanto - Évènement bonus (2/3)
 RESOURCE ID: quest_gotour_kanto_bonus_3
 TEXT: Circuit Pokémon GO : Kanto - Évènement bonus (3/3)
 
-RESOURCE ID: quest_hoenn_celebration_research
-TEXT: Étude de célébration de Hoenn
-
 RESOURCE ID: quest_kanto_green_bellsprout
 TEXT: Circuit GO : attrape un Chétiflor
 
@@ -6651,23 +6608,8 @@ TEXT: Circuit GO : attrape un Férosinge
 RESOURCE ID: quest_kanto_red_oddish
 TEXT: Circuit GO : attrape un Mystherbe
 
-RESOURCE ID: quest_macht_catch_b
-TEXT: Attrape {0} Machoc
-
-RESOURCE ID: quest_macht_evolve_b
-TEXT: Fais évoluer {0} Machoc
-
-RESOURCE ID: quest_macht_evolve_s1
-TEXT: Fais évoluer {0} Machopeur
-
 RESOURCE ID: quest_platinum_kanto_badge
 TEXT: Remporte la médaille de platine de Kanto
-
-RESOURCE ID: quest_roset_catch_b
-TEXT: Attrape {0} Rosélia
-
-RESOURCE ID: quest_roset_evolve_b
-TEXT: Fais évoluer {0} Rosélia
 
 RESOURCE ID: quest_snapshot_bulbasaur
 TEXT: Prends une photo d’un Bulbizarre
@@ -6765,99 +6707,6 @@ TEXT: Merci de ton aide aujourd’hui, Dresseur. J’espère que tu as pris auta
 RESOURCE ID: quest_special_dialogue_flett_3_6
 TEXT: À la prochaine et en avant !
 
-RESOURCE ID: quest_special_dialogue_macht_0_0
-TEXT: ...
-
-RESOURCE ID: quest_special_dialogue_macht_0_1
-TEXT: Oh ! %PLAYERNAME%, tu m’as surpris. Je pensais à des films que j’ai vus récemment.
-
-RESOURCE ID: quest_special_dialogue_macht_0_2
-TEXT: Quoi, tu ne me prenais pas pour un fan de cinéma ? Haha ! Bien que le monde des Pokémon soit ma passion, j’ai essayé d’explorer mes centres d’intérêt en dehors de la recherche et des Pokémon.
-
-RESOURCE ID: quest_special_dialogue_macht_0_3
-TEXT: La découverte de soi est importante pour se développer dans tous les domaines de la vie. Cela peut aussi être très amusant ! J’ai appris que j’aime parfois regarder un film pour passer le temps.
-
-RESOURCE ID: quest_special_dialogue_macht_0_4
-TEXT: De plus, beaucoup de films mettent en scène des Pokémon ! J’adore quand mes centres d’intérêt se recoupent !
-
-RESOURCE ID: quest_special_dialogue_macht_0_5
-TEXT: J’ai vu un film d’action passionnant l’autre jour. Il s’agissait d’un boxeur qui, contre toute attente, devient boxeur professionnel aux côtés de son fidèle Machoc.
-
-RESOURCE ID: quest_special_dialogue_macht_0_6
-TEXT: Il a enduré des coups durs dans la vie, mais il s'est accroché ! Voilà qui est inspirant.
-
-RESOURCE ID: quest_special_dialogue_macht_0_7
-TEXT: Savais-tu que les Machoc aiment s’entraîner et se muscler ? Ils ne sont jamais satisfaits, même lorsqu’ils s’entraînent dur toute la journée. J’aimerais avoir cette énergie quand je mène mes enquêtes !
-
-RESOURCE ID: quest_special_dialogue_macht_0_8
-TEXT: En parlant des Machoc : as-tu remarqué qu’ils sont de plus en plus nombreux à apparaître dans la nature ? C’est ce qui m’a fait penser à ce film, au début !
-
-RESOURCE ID: quest_special_dialogue_macht_0_9
-TEXT: Pourrais-tu aller en apprendre davantage sur Machoc ?
-
-RESOURCE ID: quest_special_dialogue_macht_1_0
-TEXT: Salut, %PLAYERNAME% ! Félicitations pour tous les Machoc attrapés. Je me demande si vous serez aussi proches que les deux personnages de ce film.
-
-RESOURCE ID: quest_special_dialogue_macht_1_1
-TEXT: Le personnage principal a eu des débuts assez difficiles, mais son Machoc lui a permis de rester motivé et inspiré.
-
-RESOURCE ID: quest_special_dialogue_macht_1_2
-TEXT: Ensuite, il a eu l’incroyable opportunité de se mesurer à d’autres boxeurs. Ma partie préférée a été quand son Machoc a évolué en Machopeur !
-
-RESOURCE ID: quest_special_dialogue_macht_1_3
-TEXT: La relation entre un Dresseur et son Pokémon n’est-elle pas merveilleuse ? Les Machopeur sont aussi des Pokémon vraiment remarquables.
-
-RESOURCE ID: quest_special_dialogue_macht_1_4
-TEXT: Le corps musclé d’un Machopeur est si puissant qu’il lui faut une ceinture de force pour équilibrer ses mouvements.
-
-RESOURCE ID: quest_special_dialogue_macht_1_5
-TEXT: Il se trouve que tu devrais avoir maintenant assez de Bonbons Machoc pour faire évoluer Machoc en Machopeur. C’est presque comme si tu vivais toi-même ce film !
-
-RESOURCE ID: quest_special_dialogue_macht_2_0
-TEXT: Waouh, c’est un Machopeur très musclé ! Belle Évolution.
-
-RESOURCE ID: quest_special_dialogue_macht_2_1
-TEXT: Parfois, Machopeur va dans les champs et les montagnes pour s’entraîner. Ce dévouement n’est-il pas incroyable ?
-
-RESOURCE ID: quest_special_dialogue_macht_2_2
-TEXT: Cela me rappelle une séquence d’entraînement dans ce film. Le Dresseur et son Machopeur allaient dans les montagnes pour s’entraîner ensemble.
-
-RESOURCE ID: quest_special_dialogue_macht_2_3
-TEXT: Voir leur amitié s’épanouir m’a presque ému aux larmes ! La façon dont ils s’encourageaient m’a rappelé pourquoi j’aime les Pokémon, surtout quand le Machopeur s’est transformé en Mackogneur !
-
-RESOURCE ID: quest_special_dialogue_macht_2_4
-TEXT: Oups, je recommence... Quoi qu’il en soit, Machoc et Machopeur sont des Pokémon très impressionnants, mais Mackogneur est à un tout autre niveau.
-
-RESOURCE ID: quest_special_dialogue_macht_2_5
-TEXT: Ses quatre bras réagissent plus rapidement que son cerveau, et Mackogneur peut donner plusieurs coups de poing à la fois !
-
-RESOURCE ID: quest_special_dialogue_macht_2_6
-TEXT: Tadaaa ! C’était la capacité signature de Mackogneur dans le film. Haha, qui aurait cru que je deviendrais un fan de cinéma ?
-
-RESOURCE ID: quest_special_dialogue_macht_2_7
-TEXT: On avance...
-
-RESOURCE ID: quest_special_dialogue_macht_2_8
-TEXT: Et si tu faisais quelques recherches sur Mackogneur ? Ton Machopeur semble vouloir se renforcer. Essayons de le faire évoluer en Mackogneur et voyons ce qui se passe !
-
-RESOURCE ID: quest_special_dialogue_macht_3_0
-TEXT: Bravo, %PLAYERNAME% ! Je t’ai vu approcher avec ton Mackogneur nouvellement évolué, et je n’en croyais pas mes yeux. C’était comme la fin de ce film !
-
-RESOURCE ID: quest_special_dialogue_macht_3_1
-TEXT: Le Dresseur a fini par gagner le tournoi, et il n’aurait pas pu le faire sans son Mackogneur à ses côtés.
-
-RESOURCE ID: quest_special_dialogue_macht_3_2
-TEXT: Les films sont si puissants ! Surtout ceux qui parlent des Pokémon et de leurs Dresseurs.
-
-RESOURCE ID: quest_special_dialogue_macht_3_3
-TEXT: Je suppose que Mackogneur et toi n’avez pas besoin de regarder ce film, car vous l’avez pratiquement vécu aujourd’hui ! C’était très émouvant d’en être témoin, et j’espère que ceci m’inspirera au fur et à mesure que mon Pokémon et moi deviendrons complices.
-
-RESOURCE ID: quest_special_dialogue_macht_3_4
-TEXT: On ne sait jamais ce que l’on va découvrir sur soi-même quand on essaie de nouvelles choses, tout comme on ne sait jamais avec quel Pokémon on va finir par se lier d’amitié pour la vie, jusqu’à ce qu’on l’attrape.
-
-RESOURCE ID: quest_special_dialogue_macht_3_5
-TEXT: Merci de participer à ce voyage, Dresseur. Je te souhaite bonne chance, à toi et à ton Mackogneur, et te dis « à la prochaine ». À tes marques, prêt, GO !
-
 RESOURCE ID: quest_special_dialogue_rockethq7_4_1_alt
 TEXT: J’ai construit un autre Super Radar Rocket qui te permettra de localiser Giovanni. Mais fais attention, d’après les rapports de Blanche et Candela, Giovanni a un Pokémon légendaire avec lui.
 
@@ -6926,93 +6775,6 @@ TEXT: Le combat contre la Team GO Rocket et ses plans diaboliques se poursuit,
 
 RESOURCE ID: quest_special_dialogue_rockethq8_5_2
 TEXT: Alors, à la prochaine et en avant !
-
-RESOURCE ID: quest_special_dialogue_roset_0_0
-TEXT: Ahhh... Tu sens ça, Dresseur ?
-
-RESOURCE ID: quest_special_dialogue_roset_0_1
-TEXT: J’ai senti cette odeur pour la première fois lors de ma promenade matinale.
-
-RESOURCE ID: quest_special_dialogue_roset_0_2
-TEXT: En cherchant un peu, j’ai découvert que cette odeur provenait d’un large groupe de Rosélia rassemblés dans les environs.
-
-RESOURCE ID: quest_special_dialogue_roset_0_3
-TEXT: Tu savais que l’on pouvait juger de la santé d’un Rosélia par l’intensité de son arôme ? Eh bien, je peux te dire que ces Rosélia sont en excellente forme !
-
-RESOURCE ID: quest_special_dialogue_roset_0_4
-TEXT: Bien qu’ils sentent bon et qu’ils soient jolis, je te conseille de te méfier si tu en rencontres un.
-
-RESOURCE ID: quest_special_dialogue_roset_0_5
-TEXT: Les épines sur la tête de Rosélia renferment un terrible poison, et il peut les lancer aux adversaires qui tenteraient de lui voler les fleurs de ses bras. Il n’y a pas de roses sans épines comme on dit !
-
-RESOURCE ID: quest_special_dialogue_roset_0_6
-TEXT: C’est étonnant de voir autant de Rosélia au même endroit. Tu veux bien m’aider dans mes recherches pour comprendre ce phénomène ?
-
-RESOURCE ID: quest_special_dialogue_roset_1_0
-TEXT: Tu es de retour, %PLAYERNAME%!
-
-RESOURCE ID: quest_special_dialogue_roset_1_1
-TEXT: Pendant que tu étais sur le terrain, j’ai fait quelques recherches sur Rosélia.
-
-RESOURCE ID: quest_special_dialogue_roset_1_2
-TEXT: Quand on s’intéresse aux Pokémon, on fait de nouvelles découvertes tous les jours, il est donc important de garder les informations recueillies à jour.
-
-RESOURCE ID: quest_special_dialogue_roset_1_3
-TEXT: Rosélia, le Pokémon Épine, est l’Évolution de Rozbouton, le Pokémon Bourgeon. Rozbouton est sensible aux variations de température et son bourgeon s’ouvre avec la chaleur du soleil.
-
-RESOURCE ID: quest_special_dialogue_roset_1_4
-TEXT: Tout comme Rosélia, c’est un Pokémon de type Plante et Poison.
-
-RESOURCE ID: quest_special_dialogue_roset_1_5
-TEXT: En examinant ces deux Pokémon, je me suis souvenu de quelque chose d’incroyable ! Il faut encore que j’approfondisse mes recherches avant de pouvoir les publier. Tu veux bien m’aider ?
-
-RESOURCE ID: quest_special_dialogue_roset_2_0
-TEXT: Parmi tous les Pokémon qui dégagent une odeur, on a de la chance que ce soit des Rosélia qui apparaissent en masse et non des Grotadmorv.
-
-RESOURCE ID: quest_special_dialogue_roset_2_1
-TEXT: Un rassemblement de Grotadmorv en plein soleil... Bonjour l’odeur de poubelle chaude !
-
-RESOURCE ID: quest_special_dialogue_roset_2_2
-TEXT: Oh ! Salut, %PLAYERNAME%. Je n’avais pas vu que tu étais rentré.
-
-RESOURCE ID: quest_special_dialogue_roset_2_3
-TEXT: J’ai appris quelque chose d’intéressant que je voudrais partager avec toi.
-
-RESOURCE ID: quest_special_dialogue_roset_2_4
-TEXT: D’après mes recherches, les Rosélia qui boivent de l’eau de source riche en nutriments donnent des fleurs d’une couleur rare.
-
-RESOURCE ID: quest_special_dialogue_roset_2_5
-TEXT: C’est fascinant, non ? Est-ce que tu as vu quelque chose de cette nature pendant tes recherches ?
-
-RESOURCE ID: quest_special_dialogue_roset_2_6
-TEXT: La chance te sourit, alors ça ne m’aurait pas étonné.
-
-RESOURCE ID: quest_special_dialogue_roset_2_7
-TEXT: Maintenant que tu es là, j’aimerais que tu fasses évoluer un Rosélia avec la Pierre Sinnoh que je t’ai donnée.
-
-RESOURCE ID: quest_special_dialogue_roset_2_8
-TEXT: J’ai hâte de voir l’Évolution finale de cette chaîne évolutive de type Plante et Poison.
-
-RESOURCE ID: quest_special_dialogue_roset_3_0
-TEXT: Excellent travail, Dresseur ! Ton Rosélia a évolué en Roserade, le Pokémon Bouquet.
-
-RESOURCE ID: quest_special_dialogue_roset_3_1
-TEXT: Gracieux comme un danseur, il abat ses fouets ornés d’épines empoisonnées.
-
-RESOURCE ID: quest_special_dialogue_roset_3_2
-TEXT: Oh, tu avais remarqué que les mains de Roserade étaient de couleurs différentes ?
-
-RESOURCE ID: quest_special_dialogue_roset_3_3
-TEXT: Chacune de ses mains renferme un poison différent. Le poison de la main droite agit rapidement, tandis que celui de la main gauche est plus lent.
-
-RESOURCE ID: quest_special_dialogue_roset_3_4
-TEXT: Quel Pokémon incroyable !
-
-RESOURCE ID: quest_special_dialogue_roset_3_5
-TEXT: Merci de ton aide, Dresseur. Faire des rapports sur des situations telles que celle-ci est essentiel si l’on veut en apprendre plus sur les Pokémon qui nous entourent.
-
-RESOURCE ID: quest_special_dialogue_roset_3_6
-TEXT: À la prochaine et en avant !
 
 RESOURCE ID: quest_special_dialogue_season2_0_0
 TEXT: Salut, %PLAYERNAME%, content de te voir.
@@ -7128,21 +6890,6 @@ TEXT: Un oiseau des plus courageux (3/4)
 RESOURCE ID: quest_title_flett_3
 TEXT: Un oiseau des plus courageux (4/4)
 
-RESOURCE ID: quest_title_macht
-TEXT: Toujours au top, Machoc !
-
-RESOURCE ID: quest_title_macht_0
-TEXT: Toujours au top, Machoc ! (1/4)
-
-RESOURCE ID: quest_title_macht_1
-TEXT: Toujours au top, Machoc ! (2/4)
-
-RESOURCE ID: quest_title_macht_2
-TEXT: Toujours au top, Machoc ! (3/4)
-
-RESOURCE ID: quest_title_macht_3
-TEXT: Toujours au top, Machoc ! (4/4)
-
 RESOURCE ID: quest_title_rockethq8
 TEXT: À se brûler les ailes...
 
@@ -7163,21 +6910,6 @@ TEXT: À se brûler les ailes... (5/6)
 
 RESOURCE ID: quest_title_rockethq8_5
 TEXT: À se brûler les ailes... (6/6)
-
-RESOURCE ID: quest_title_roset
-TEXT: Prenez le temps d’admirer les Rosélia
-
-RESOURCE ID: quest_title_roset_0
-TEXT: Prenez le temps d’admirer les Rosélia (1/4)
-
-RESOURCE ID: quest_title_roset_1
-TEXT: Prenez le temps d’admirer les Rosélia (2/4)
-
-RESOURCE ID: quest_title_roset_2
-TEXT: Prenez le temps d’admirer les Rosélia (3/4)
-
-RESOURCE ID: quest_title_roset_3
-TEXT: Prenez le temps d’admirer les Rosélia (4/4)
 
 RESOURCE ID: quest_title_season2
 TEXT: Saison des légendes
@@ -7255,7 +6987,7 @@ RESOURCE ID: quest_visit_unique_pokestops_plural
 TEXT: Fais tourner {0} Arènes ou PokéStops différents
 
 RESOURCE ID: quest_walk_km_plural
-TEXT: Walk {0} km
+TEXT: {0} km parcourus
 
 RESOURCE ID: raid_day_abomasnow
 TEXT: Journée de Raids : Blizzaroi
@@ -11586,14 +11318,122 @@ TEXT: Week-end spécial de Raids : Zygarde
 RESOURCE ID: raid_xp_25_fivestar
 TEXT: PX de Raids de niveau 5 multipliés par 1,25
 
+RESOURCE ID: referee_completed_milestone
+TEXT: {0} a atteint un objectif.
+
+RESOURCE ID: referral_code_copy
+TEXT: Copier le code de parrainage
+
+RESOURCE ID: referral_code_share
+TEXT: Partager le code de parrainage
+
+RESOURCE ID: referral_disclaimer
+TEXT: Si tu parraines une personne qui a déjà commencé son aventure Pokémon GO, tu recevras des récompenses uniquement si le Dresseur parrainé ne s’est pas connecté depuis plus de {0} jours.
+
+RESOURCE ID: referral_enter_code_about
+TEXT: Tu peux obtenir des codes de parrainage de la part de tes amis qui jouent à Pokémon GO.
+
+RESOURCE ID: referral_enter_code_button
+TEXT: Tu as un code de parrainage ?
+
+RESOURCE ID: referral_enter_code_later
+TEXT: Tu peux aussi saisir un code de parrainage dans le menu Amis jusqu’à 72 h après avoir commencé ton aventure.
+
+RESOURCE ID: referral_enter_code_skip
+TEXT: Passer
+
+RESOURCE ID: referral_enter_invite_code
+TEXT: Saisir un code de parrainage :
+
+RESOURCE ID: referral_friend_invite_error_friend_later_message
+TEXT: Veux-tu tout de même ajouter cette personne comme parrain ? Tu recevras une récompense pour ton inscription, mais si tu veux gagner des récompenses supplémentaires, tu devras devenir ami avec la personne qui t’a parrainé dans Pokémon GO.
+
+RESOURCE ID: referral_friend_invite_error_friend_list_full_message
+TEXT: Tu recevras une récompense pour ton inscription, mais si tu veux gagner des récompenses supplémentaires, tu devras devenir ami avec la personne qui t’a parrainé dans Pokémon GO.
+
+RESOURCE ID: referral_friend_invite_error_inbox_full_title
+TEXT: Ce Dresseur a trop d’Invitations d’amis en attente.
+
+RESOURCE ID: referral_friend_invite_error_outbox_full_title
+TEXT: Tu ne peux plus envoyer d’Invitations d’amis pour le moment.
+
+RESOURCE ID: referral_friend_invite_error_player_does_not_exist_deleted
+TEXT: Le compte de ce Dresseur peut avoir été supprimé.
+
+RESOURCE ID: referral_friend_invite_error_self
+TEXT: Tu ne peux pas utiliser ton propre code de parrainage.
+
+RESOURCE ID: referral_friend_invite_error_their_friend_list_full_title
+TEXT: Ton ami ne peut pas ajouter d’autres amis.
+
+RESOURCE ID: referral_friend_invite_error_title
+TEXT: Impossible d’envoyer une Invitation d’ami.
+
+RESOURCE ID: referral_friend_invite_error_your_friend_list_full_title
+TEXT: Ta liste d’amis est pleine.
+
+RESOURCE ID: referral_friend_invite_later_error_title
+TEXT: Impossible d’envoyer une Invitation d’ami au Dresseur qui t’a invité.
+
+RESOURCE ID: referral_initial_reward_generic_name
+TEXT: Ton ami
+
+RESOURCE ID: referral_initial_reward_joined
+TEXT: Ton ami a rejoint Pokémon GO !
+
+RESOURCE ID: referral_initial_reward_label
+TEXT: Tu as gagné les récompenses suivantes :
+
+RESOURCE ID: referral_initial_reward_returned
+TEXT: Ton ami est de retour dans Pokémon GO !
+
+RESOURCE ID: referral_initial_reward_welcome
+TEXT: Ton ami te souhaite la bienvenue dans Pokémon GO !
+
+RESOURCE ID: referral_initial_reward_welcome_back
+TEXT: Ton ami est heureux de te retrouver dans Pokémon GO !
+
+RESOURCE ID: referral_invite
+TEXT: Inviter
+
+RESOURCE ID: referral_invite_subtitle
+TEXT: Invite tes amis à jouer à Pokémon GO et gagne des récompenses
+
+RESOURCE ID: referral_invite_title
+TEXT: Invitation à jouer à Pokémon GO
+
+RESOURCE ID: referral_log_complete_milestone
+TEXT: Objectif de parrainage atteint : {0}.
+
+RESOURCE ID: referral_reward_example_description
+TEXT: Voici quelques récompenses que tu peux gagner lorsque des amis que tu as invités atteignent un certain objectif dans Pokémon GO. Ton ami gagnera également des récompenses, dont 100 Poké Balls pour commencer son aventure !
+
+RESOURCE ID: referral_system_disabled
+TEXT: La fonctionnalité de parrainage n’est pas disponible pour le moment.
+
+RESOURCE ID: referral_welcome
+TEXT: Bienvenue !
+
+RESOURCE ID: referral_welcome_back
+TEXT: Quelle joie de te retrouver !
+
+RESOURCE ID: referral_welcome_back_subtitle
+TEXT: Beaucoup de choses ont changé depuis ta dernière visite. Voici quelques fonctionnalités qui ont été ajoutées.
+
+RESOURCE ID: referral_welcome_subtitle
+TEXT: Ton aventure Pokémon GO est sur le point de commencer.
+
+RESOURCE ID: referral_your_code
+TEXT: Ton code de parrainage
+
 RESOURCE ID: rejoin_details_failed
-TEXT: The raid details could not be obtained. IID: {0}
+TEXT: Impossible d’obtenir les détails du Raid. IID : {0}
 
 RESOURCE ID: rejoin_no_battle
-TEXT: The Raid Battle no longer exists. IID: {0}
+TEXT: Le Combat de Raid n’existe plus. IID : {0}
 
 RESOURCE ID: rejoin_no_lobby
-TEXT: The lobby no longer exists. IID: {0}
+TEXT: La salle d’attente n’existe plus. IID : {0}
 
 RESOURCE ID: remote_raid_description
 TEXT: Participe à un Raid plus éloigné sur la carte ou via l’invitation d’un ami en utilisant un passe de Raid à distance.
@@ -11610,9 +11450,6 @@ TEXT: Coupe Rétro
 RESOURCE ID: rock_type_event
 TEXT: Afflux du type : Roche
 
-RESOURCE ID: rocket_celebration_event_name
-TEXT: Célébration de la Team GO Rocket
-
 RESOURCE ID: rocket_description
 TEXT: Bats les membres de la Team GO Rocket près des PokéStops ou dans les montgolfières pour sauver les Pokémon Obscurs.
 
@@ -11625,35 +11462,11 @@ TEXT: Heure GO Rocket
 RESOURCE ID: searching_for_legends_event_name
 TEXT: À la recherche de légendes
 
-RESOURCE ID: settings_friend_request_accepted
-TEXT: Invitation d’ami acceptée
-
-RESOURCE ID: settings_friend_request_received
-TEXT: Invitation d’ami reçue
-
-RESOURCE ID: settings_legendary_multi_selection_confirmation_description
-TEXT: Activer cette option te permettra de transférer des Pokémon légendaires et certains Pokémon fabuleux en sélectionnant plusieurs Pokémon dans ton stockage Pokémon. Transférer des Pokémon au Professeur Willow est définitif.
-
-RESOURCE ID: settings_legendary_multi_selection_confirmation_title
-TEXT: Veux-tu vraiment autoriser le transfert de Pokémon légendaires et Pokémon fabuleux lorsque tu sélectionnes plusieurs Pokémon ?
-
-RESOURCE ID: settings_select_legendary_label
-TEXT: Transfert avancé
-
-RESOURCE ID: settings_select_legendary_tip
-TEXT: Permet de transférer des Pokémon légendaires et certains Pokémon fabuleux en sélectionnant des Pokémon dans ton stockage Pokémon.
+RESOURCE ID: share_my_referral_code_message
+TEXT: Si tu découvres Pokémon GO pour la première fois ou joues à nouveau en utilisant mon code de parrainage {0}, tu obtiendras 100 Poké Balls, gagneras des objets spéciaux en bonus et plus encore ! {1}
 
 RESOURCE ID: spawn_fletchling
 TEXT: Davantage de Passerouge apparaissent dans la nature
-
-RESOURCE ID: spawn_machop
-TEXT: Plus de Machoc apparaissent dans la nature
-
-RESOURCE ID: spawn_roselia
-TEXT: Davantage de Rosélia apparaissent dans la nature
-
-RESOURCE ID: sponsored_gift_tutorial_description_1
-TEXT: Lorsque tu explores les environs, tu peux recevoir des Cadeaux sponsorisés accompagnés d’un message de l’annonceur en rapport avec le lieu où tu te trouves. Les Cadeaux sponsorisés ont un nouveau look !
 
 RESOURCE ID: steel_type_event
 TEXT: Afflux du type : Acier
@@ -11661,26 +11474,20 @@ TEXT: Afflux du type : Acier
 RESOURCE ID: ticket_fletchling
 TEXT: Tickets pour l’Étude spéciale “Un oiseau des plus courageux” disponibles dans la Boutique
 
-RESOURCE ID: ticket_machop
-TEXT: Tickets pour Étude spéciale dans la Boutique : Toujours au top, Machoc !
-
-RESOURCE ID: ticket_roselia
-TEXT: Tickets pour l’Étude spéciale disponibles dans la Boutique
-
 RESOURCE ID: timed_research_pokemon
 TEXT: Pokémon en vedette dans l’Étude ponctuelle
 
 RESOURCE ID: titan_image_gallery_rpc_failed
 TEXT: Impossible de télécharger les images. Réessaie plus tard.
 
-RESOURCE ID: titan_poi_ar_video_upload_now_button_with_size
-TEXT: ({0} Mo)
-
 RESOURCE ID: titan_poi_ar_video_upload_prompt
 TEXT: Tu es sur le point d’envoyer {0} Mo de données. Sans connexion Wi-Fi, des frais de données peuvent s’appliquer.
 
 RESOURCE ID: titan_settings_ar_upload_wifi_size_warning
 TEXT: Tu es sur le point d’envoyer {0} Mo de données. Sans connexion Wi-Fi, des frais de données peuvent s’appliquer.
+
+RESOURCE ID: titan_upload_wifi_recommended
+TEXT: Wi-Fi recommandé
 
 RESOURCE ID: type_event_egg
 TEXT: Des Pokémon dont le type est en vedette éclosent plus souvent dans les Œufs
@@ -11703,41 +11510,14 @@ TEXT: Des Pokémon dont le type est en vedette apparaissent plus souvent dans le
 RESOURCE ID: type_event_wild
 TEXT: Des Pokémon dont le type est en vedette apparaissent plus fréquemment dans la nature
 
-RESOURCE ID: upload_mgmt_ar_scans
-TEXT: Scans de PokéStop ({0})
-
-RESOURCE ID: upload_mgmt_cancel_all
-TEXT: TOUT ANNULER
+RESOURCE ID: unfriend_niantic_friend_tip
+TEXT: En supprimant cet ami de ce jeu Niantic, tu le supprimeras en tant qu'ami dans tous les jeux auxquels vous jouez tous les deux.
 
 RESOURCE ID: upload_mgmt_confirm_delete_individual
 TEXT: Veux-tu vraiment supprimer cette contribution ?
 
 RESOURCE ID: upload_mgmt_images
 TEXT: Images de PokéStops ({0})
-
-RESOURCE ID: upload_mgmt_no_pending_data
-TEXT: Tu n’as pas de contribution en attente d’envoi.
-
-RESOURCE ID: upload_mgmt_noms
-TEXT: Nominations de PokéStops ({0})
-
-RESOURCE ID: upload_mgmt_pending_data
-TEXT: Tu as {0} contribution en attente d’envoi.
-
-RESOURCE ID: upload_mgmt_thank_you
-TEXT: Merci de ta contribution.
-
-RESOURCE ID: upload_mgmt_upload_confirm_info
-TEXT: Tu es sur le point d’envoyer {0} Mo de données. Sans connexion Wi-Fi, des frais de données peuvent s’appliquer.
-
-RESOURCE ID: upload_mgmt_upload_later_instruction
-TEXT: Pour envoyer ta contribution, ouvre le menu principal.
-
-RESOURCE ID: upload_mgmt_uploading_all_msg
-TEXT: ENVOYER ({0})
-
-RESOURCE ID: upload_mgmt_uploading_individual
-TEXT: EN COURS D’ENVOI ({0})
 
 RESOURCE ID: upmgmt_confirm_data_size
 TEXT: Tu es sur le point d’envoyer {0} Mo de données. Sans connexion Wi-Fi, des frais de données peuvent s’appliquer.
@@ -11751,14 +11531,8 @@ TEXT: Veux-tu faire l’envoi maintenant ?
 RESOURCE ID: upmgmt_confirm_yes
 TEXT: OUI
 
-RESOURCE ID: upmgmt_delete_cancel
-TEXT: ANNULER
-
 RESOURCE ID: upmgmt_delete_msg
 TEXT: Veux-tu vraiment supprimer cette contribution ?
-
-RESOURCE ID: upmgmt_delete_yes
-TEXT: OUI
 
 RESOURCE ID: upmgmt_main_cancel_individual
 TEXT: ANNULER
@@ -11775,16 +11549,7 @@ TEXT: GÉRER LES CONTRIBUTIONS
 RESOURCE ID: upmgmt_main_menu_upload_error
 TEXT: ERREUR(S) D’ENVOI ({0})
 
-RESOURCE ID: upmgmt_main_menu_upload_failed
-TEXT: ERREUR(S) D’ENVOI ({0})
-
-RESOURCE ID: upmgmt_main_menu_uploaded
-TEXT: ENVOYÉ(S) ({0})
-
 RESOURCE ID: upmgmt_main_menu_uploading_plural
-TEXT: EN COURS D’ENVOI ({0})
-
-RESOURCE ID: upmgmt_main_menu_uploading_singular
 TEXT: EN COURS D’ENVOI ({0})
 
 RESOURCE ID: upmgmt_main_nominations_header
@@ -11795,24 +11560,6 @@ TEXT: RÉESSAYER
 
 RESOURCE ID: upmgmt_main_scans_header
 TEXT: Scans de PokéStops ({0})
-
-RESOURCE ID: upmgmt_main_size_kb
-TEXT: ({0} Ko)
-
-RESOURCE ID: upmgmt_main_size_mb
-TEXT: ({0} Mo)
-
-RESOURCE ID: upmgmt_main_type_image_item
-TEXT: Image de PokéStop
-
-RESOURCE ID: upmgmt_main_type_nom_item
-TEXT: Nomination de PokéStop
-
-RESOURCE ID: upmgmt_main_type_scan_item
-TEXT: Scan de PokéStop
-
-RESOURCE ID: upmgmt_main_upload_failed
-TEXT: Échec de l’envoi
 
 RESOURCE ID: upmgmt_main_upload_individual
 TEXT: ENVOYER
@@ -11838,9 +11585,6 @@ TEXT: GÉRER
 RESOURCE ID: upmgmt_settings_msg_none
 TEXT: Tu n’as pas de contribution en attente d’envoi.
 
-RESOURCE ID: upmgmt_settings_msg_plural
-TEXT: Tu as {0} contributions en attente d’envoi.
-
 RESOURCE ID: upmgmt_settings_msg_singular
 TEXT: Tu as {0} contribution en attente d’envoi.
 
@@ -11853,26 +11597,8 @@ TEXT: Téléchargement des contributions de PokéStops
 RESOURCE ID: upmgmt_summary_failure_header
 TEXT: Échec de l’envoi
 
-RESOURCE ID: upmgmt_summary_failure_msg
-TEXT: Échec de l’envoi de {0} fichier(s).
-
 RESOURCE ID: upmgmt_summary_ok
 TEXT: OK
-
-RESOURCE ID: upmgmt_summary_retry_later
-TEXT: RÉESSAYER PLUS TARD
-
-RESOURCE ID: upmgmt_summary_retry_msg
-TEXT: Veux-tu réessayer l’envoi maintenant ?
-
-RESOURCE ID: upmgmt_summary_retry_now
-TEXT: RÉESSAYER MAINTENANT
-
-RESOURCE ID: upmgmt_summary_success_header
-TEXT: Fichiers envoyés : {0}
-
-RESOURCE ID: upmgmt_summary_success_msg
-TEXT: Tu as fini ton envoi.
 
 RESOURCE ID: upmgmt_summary_thanks
 TEXT: Merci de ta contribution.
@@ -11882,4 +11608,10 @@ TEXT: Afflux du type : Eau
 
 RESOURCE ID: weather_week_event_name
 TEXT: Semaine météo
+
+RESOURCE ID: you_completed_milestone
+TEXT: Tu as atteint un objectif. Récupère ta récompense sur la page de Dresseur de {0} dans le menu Amis.
+
+RESOURCE ID: your_referral_code_changed
+TEXT: Ton code de parrainage a changé.
 

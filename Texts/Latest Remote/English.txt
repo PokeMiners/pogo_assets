@@ -16,6 +16,69 @@ TEXT: Make sure to use attacks your opponent’s Pokémon are weak to!
 RESOURCE ID: __male_speaker
 TEXT: Make sure to use attacks your opponent’s Pokémon are weak to!
 
+RESOURCE ID: add_niantic_friend_tip
+TEXT: If you add this friend in this game, you’ll add them as a friend in all Niantic games you both play.
+
+RESOURCE ID: add_referrer_already_added_accept_invite
+TEXT: You have a pending Friend Request from this Trainer. Confirm your friendship to continue receiving referral rewards. You may enter another referral code, if you wish.
+
+RESOURCE ID: add_referrer_already_added_already_friends
+TEXT: You’re already friends in Pokémon GO, so you’ll continue receiving referral rewards. You may enter another referral code, if you wish.
+
+RESOURCE ID: add_referrer_already_added_friend_later
+TEXT: You must become friends in Pokémon GO to continue receiving referral rewards. You may enter another referral code, if you wish.
+
+RESOURCE ID: add_referrer_already_added_maybe_friend_later
+TEXT: If you aren’t already friends in Pokémon GO, you must become friends to continue receiving referral rewards. You may enter another referral code, if you wish.
+
+RESOURCE ID: add_referrer_already_added_sent_invite
+TEXT: A Friend Request has been sent. Once your friendship is confirmed, you’ll be able to earn referral rewards as you continue your journey. You may enter another referral code, if you wish.
+
+RESOURCE ID: add_referrer_already_added_title
+TEXT: A referral connection has already been established with this Trainer
+
+RESOURCE ID: add_referrer_disabled
+TEXT: A connection could not be established.
+
+RESOURCE ID: add_referrer_disabled_sent_invite
+TEXT: A referral connection could not be established, but a Friend Request was sent.
+
+RESOURCE ID: add_referrer_error_past_grace_period_message
+TEXT: You may no longer redeem a referral code.
+
+RESOURCE ID: add_referrer_error_past_grace_period_sent_invite
+TEXT: You may no longer redeem a referral code, but a Friend Request was sent.
+
+RESOURCE ID: add_referrer_error_past_grace_period_title
+TEXT: The referral period has ended
+
+RESOURCE ID: add_referrer_error_unknown
+TEXT: Failed to establish a referral connection.
+
+RESOURCE ID: add_referrer_error_unknown_sent_friend_request
+TEXT: A Friend Request has been sent, but a referral connection could not be established.
+
+RESOURCE ID: add_referrer_success_accept_invite
+TEXT: This person has already sent you a Friend Request. Once you confirm your friendship, you’ll be able to earn referral rewards as you progress on your journey.
+
+RESOURCE ID: add_referrer_success_already_friends
+TEXT: You’re already friends with this person in Pokémon GO, so you’ll be able to earn referral rewards as you progress on your journey.
+
+RESOURCE ID: add_referrer_success_friend_later
+TEXT: Remember to become friends in Pokémon GO later to receive more referral rewards.
+
+RESOURCE ID: add_referrer_success_invite_will_be_sent_later
+TEXT: A Friend Request will be sent. Once your friendship is confirmed, you'll be able to earn referral rewards.
+
+RESOURCE ID: add_referrer_success_maybe_friend_later
+TEXT: If you’re not already friends in Pokémon GO, remember to become friends later to receive more referral rewards.
+
+RESOURCE ID: add_referrer_success_sent_invite
+TEXT: A Friend Request has been sent. Once your friendship is confirmed, you’ll be able to earn referral rewards as you continue your journey.
+
+RESOURCE ID: add_referrer_success_title
+TEXT: Referral Code Confirmed
+
 RESOURCE ID: app_launch_deeplink
 TEXT: https://pokemongolive.com/launchapp
 
@@ -142,20 +205,17 @@ TEXT: Pokémon GO Tour: Kanto
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
 TEXT: Shiny Mew Shirt
 
-RESOURCE ID: badge_gotour_2021_green_global
-TEXT: Global, February 20, 2021
-
-RESOURCE ID: badge_gotour_2021_green_global_title
-TEXT: Pokémon GO Tour: Kanto
-
-RESOURCE ID: badge_gotour_2021_red_global
-TEXT: Global, February 20, 2021
-
-RESOURCE ID: badge_gotour_2021_red_global_title
-TEXT: Pokémon GO Tour: Kanto
-
 RESOURCE ID: badge_rocket_giovanni_defeated
 TEXT: Defeat the Team GO Rocket Boss {0} times.
+
+RESOURCE ID: badge_trainers_referred
+TEXT: Refer {0} Trainers
+
+RESOURCE ID: badge_trainers_referred_singular
+TEXT: Refer a Trainer
+
+RESOURCE ID: badge_trainers_referred_title
+TEXT: Friend Finder
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>Only {0} of the selected Pokémon can be transferred to the professor.</b></size>
@@ -2345,6 +2405,9 @@ TEXT: GO Battle Day: Zygarde
 RESOURCE ID: battle_npcs_plural
 TEXT: Battle {0} GO Tour Challengers
 
+RESOURCE ID: bonus_milestone_rewards_title
+TEXT: BONUS MILESTONE REWARDS
+
 RESOURCE ID: buddy_description
 TEXT: Choose a Pokémon to be your buddy, and it’ll gain Perks as your bond grows.
 
@@ -2375,9 +2438,6 @@ TEXT: 2× Catch Stardust for catching featured Pokémon
 RESOURCE ID: charge_up_event_name
 TEXT: Charge Up
 
-RESOURCE ID: choose_event_variant_failed
-TEXT: Failed to choose the event version. Try again later.
-
 RESOURCE ID: collection_challenge_event
 TEXT: Event-themed Collection Challenge
 
@@ -2387,11 +2447,8 @@ TEXT: GO Tour: Kanto Cup
 RESOURCE ID: community_day_fletchling_event_name
 TEXT: Community Day: Fletchling
 
-RESOURCE ID: community_day_machop_event_name
-TEXT: Community Day: Machop
-
-RESOURCE ID: community_day_roselia_event_name
-TEXT: Community Day: Roselia
+RESOURCE ID: copy_referral_code_toast
+TEXT: Your referral code has been copied.
 
 RESOURCE ID: costume_pokemon_wild
 TEXT: Event Pokémon appearing in the wild
@@ -2408,20 +2465,14 @@ TEXT: Defeat {0} GO Tour Challengers
 RESOURCE ID: dragon_type_event
 TEXT: Type Surge: Dragon
 
-RESOURCE ID: egg_transparency_available_pokemon
-TEXT: HATCHABLE POKÉMON
-
 RESOURCE ID: egg_transparency_help
 TEXT: Pokémon higher on this list are more likely to hatch from this Egg.
 
 RESOURCE ID: electric_type_event
 TEXT: Type Surge: Electric
 
-RESOURCE ID: event_mega_evolve_reminder
-TEXT: Earn more Catch Candy from Pokémon of your Mega-Evolved Pokémon’s type
-
-RESOURCE ID: event_move_ampharos_dragon_pulse
-TEXT: Evolve Flaaffy to get an Ampharos that knows Dragon Pulse
+RESOURCE ID: error_generate_referral_code_failed
+TEXT: Failed to locate your referral code.
 
 RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: Evolve Metang to get a Metagross that knows Meteor Mash
@@ -2771,14 +2822,6 @@ YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES
 RESOURCE ID: general1.ticket.2_machop_title
 TEXT: Straight to the Top, Machop! Ticket
 
-RESOURCE ID: general1.ticket.2_roset_description
-TEXT: A ticket to access the Stop and Smell the Roselia Special Research on February 7, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
-
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
-
-RESOURCE ID: general1.ticket.2_roset_title
-TEXT: Stop and Smell the Roselia Ticket
-
 RESOURCE ID: general1.ticket.2_title
 TEXT: The Bravest Bird Ticket
 
@@ -2797,32 +2840,11 @@ TEXT: TRANSFER
 RESOURCE ID: ghost_type_event
 TEXT: Type Surge: Ghost
 
-RESOURCE ID: gotour2021_choose_green
-TEXT: Choose Green
-
-RESOURCE ID: gotour2021_choose_red
-TEXT: Choose Red
-
-RESOURCE ID: gotour2021_choose_version_desc
-TEXT: Once you choose your event version, you can’t change your choice.
-
-RESOURCE ID: gotour2021_choose_version_title_green
-TEXT: Do you want to choose Green Version?
-
-RESOURCE ID: gotour2021_choose_version_title_red
-TEXT: Do you want to choose Red Version?
-
-RESOURCE ID: gotour2021_content_hashtag
-TEXT: Post photos with #PokemonGOTour, and we’ll share our favorites!
-
 RESOURCE ID: gotour2021_content_link_cerulean_city
 TEXT: Now: Cerulean City hour!
 
 RESOURCE ID: gotour2021_content_link_fuchsia_city
 TEXT: Now: Fuchsia City hour!
-
-RESOURCE ID: gotour2021_content_link_green
-TEXT: You have selected Green Version
 
 RESOURCE ID: gotour2021_content_link_open
 TEXT: Now: All event-featured Pokémon!
@@ -2835,21 +2857,6 @@ TEXT: Now: Pewter City hour!
 
 RESOURCE ID: gotour2021_content_link_pok_mon_league
 TEXT: Now: Pokémon League hour!
-
-RESOURCE ID: gotour2021_content_link_red
-TEXT: You have selected Red Version
-
-RESOURCE ID: gotour2021_content_link_short
-TEXT: Post photos with #PokemonGOTour, and we’ll share our favorites!
-
-RESOURCE ID: gotour2021_minicollect_description_ongoing
-TEXT: Catch, trade, or evolve to collect these Pokémon before time expires to complete your Pokémon GO Tour: Kanto Collection Challenges!
-
-RESOURCE ID: gotour2021_welcome_green
-TEXT: Welcome to Pokémon GO Tour: Kanto!
-
-RESOURCE ID: gotour2021_welcome_red
-TEXT: Welcome to Pokémon GO Tour: Kanto!
 
 RESOURCE ID: gotour_kanto
 TEXT: Pokémon GO Tour: Kanto
@@ -3166,8 +3173,14 @@ TEXT: Type Surge: Ice
 RESOURCE ID: incense_day_pokemon_beldum
 TEXT: Beldum attracted to Incense
 
-RESOURCE ID: incense_day_pokemon_mareep
-TEXT: Mareep attracted to Incense
+RESOURCE ID: input_referral_code_time_remaining_plural
+TEXT: {0} hours remain to enter a referral code
+
+RESOURCE ID: input_referral_code_time_remaining_singular
+TEXT: {0} hour remains to enter a referral code
+
+RESOURCE ID: invalid_referral_code
+TEXT: Invalid referral code
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
@@ -3184,24 +3197,11 @@ TEXT: This ticket will automatically activate to give you access to Special Rese
 RESOURCE ID: item_event_ticket_pink_roset_desc
 TEXT: A ticket to access Special Research on February 7, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
 
-RESOURCE ID: item_event_ticket_pink_roset_details
-TEXT: This ticket will automatically activate to give you access to Special Research on February 7, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
-
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_global_event_ticket_details
 TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
-
-RESOURCE ID: item_global_event_ticket_details_no_version_selected
-TEXT: This ticket will automatically activate to give you access to a special event on February 20, 2021, wherever you are in the world.
-
-You must choose an event version to participate. Try to pick a different version from your friends so you can trade Pokémon to complete Collection Challenges!
-
-RESOURCE ID: item_global_event_ticket_details_version_selected
-TEXT: This ticket will automatically activate to give you access to a special event on February 20, 2021, wherever you are in the world.
-
-You can see the event version you chose in your Trainer profile’s Medals section.
 
 RESOURCE ID: level_up_share_achievement_button
 TEXT: SHARE ACHIEVEMENT ({0})
@@ -4940,9 +4940,6 @@ TEXT: Smeargle Limited Research
 RESOURCE ID: limited_research_smoochum
 TEXT: Smoochum Limited Research
 
-RESOURCE ID: limited_research_sneasel
-TEXT: Sneasel Limited Research
-
 RESOURCE ID: limited_research_snivy
 TEXT: Snivy Limited Research
 
@@ -5366,9 +5363,6 @@ TEXT: Zweilous Limited Research
 RESOURCE ID: limited_research_zygarde
 TEXT: Zygarde Limited Research
 
-RESOURCE ID: love_cup_title
-TEXT: Love Cup
-
 RESOURCE ID: lucky_friend_increase
 TEXT: Increased chance to become Lucky Friends
 
@@ -5481,36 +5475,21 @@ RESOURCE ID: mega_raid_hour
 TEXT: Mega Raid Hour
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-05T23:37:40.711065
-at SHA 629fdae07ac67dce0d734305a516593a3ee0f43e
-Patch from: 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace
+TEXT: Built at 2021-03-11T00:37:14.795998
+at SHA cf7220018140265d1d1b1e6f06f2780dd0c56ba3
+Patch from: 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace, 0.203.0-SHA-d5885bda
+
+RESOURCE ID: milestone_rewards_title
+TEXT: MILESTONE REWARDS
 
 RESOURCE ID: mini_collection_feb21_vday_event
 TEXT: Valentine’s Day 2021 Collection
 
-RESOURCE ID: mini_collection_jan21_gen2_legend_event
-TEXT: Johto Celebration Legendary Collection
-
-RESOURCE ID: mini_collection_jan21_shadow_event
-TEXT: Johto Celebration: Rocket Collection
-
 RESOURCE ID: normal_type_event
 TEXT: Type Surge: Normal
 
-RESOURCE ID: open_sponsored_balloon_postcard_message
-TEXT: Enjoy these free items from <b>{0}</b>!
-
-RESOURCE ID: open_sponsored_gift_button
-TEXT: Open Gift
-
 RESOURCE ID: photobomb_five_fletchling
 TEXT: 5 surprise encounters with Fletchling in GO Snapshot
-
-RESOURCE ID: photobomb_five_machop
-TEXT: 5 surprise encounters with Machop in GO Snapshot
-
-RESOURCE ID: photobomb_five_roselia
-TEXT: 5 surprise encounters with Roselia in GO Snapshot
 
 RESOURCE ID: player_suspended_warning
 TEXT: Your suspension term has ended and you are now able access your account.
@@ -5536,32 +5515,20 @@ TEXT: UPLOAD NOW
 RESOURCE ID: poi_contrib_uploading_status_plural
 TEXT: Uploading {0}/{1}
 
-RESOURCE ID: poi_contrib_uploading_status_singular
-TEXT: Uploading {0}/{1}
-
 RESOURCE ID: poison_type_event
 TEXT: Type Surge: Poison
 
-RESOURCE ID: pokemon_category_0650
-TEXT: Spiny Nut Pokémon
+RESOURCE ID: pokemon_info_caught_quest_referral
+TEXT: CAUGHT AFTER COMPLETING A REFERRAL MILESTONE
 
-RESOURCE ID: pokemon_desc_0102
-TEXT: This Pokémon consists of six eggs that form a closely knit cluster. The six eggs attract each other and spin around. When cracks increasingly appear on the eggs, Exeggcute is close to Evolution.
+RESOURCE ID: pokemon_info_none_not_unique_transferable
+TEXT: There are no eligible Pokémon within your selection to be transferred.
 
 RESOURCE ID: pokemon_info_none_transferable
 TEXT: None of the selected Pokémon can be transferred.
 
-RESOURCE ID: pokemon_transfer_legendary_confirmation
-TEXT: Your selection contains Legendary Pokémon or Mythical Pokémon! Are you sure you want to transfer the selected Pokémon?
-
 RESOURCE ID: psychic_type_event
 TEXT: Type Surge: Psychic
-
-RESOURCE ID: quest_catch_jan21_hoenn1_plural
-TEXT: Catch {0} Groudon
-
-RESOURCE ID: quest_catch_jan21_hoenn2_plural
-TEXT: Catch {0} Kyogre
 
 RESOURCE ID: quest_catch_luvdisc
 TEXT: Catch {0} Luvdisc
@@ -5569,14 +5536,8 @@ TEXT: Catch {0} Luvdisc
 RESOURCE ID: quest_complete_flett
 TEXT: The Bravest Bird
 
-RESOURCE ID: quest_complete_macht
-TEXT: Straight to the Top, Machop!
-
 RESOURCE ID: quest_complete_rockethq8
 TEXT: The Higher They Fly...
-
-RESOURCE ID: quest_complete_roset
-TEXT: Stop and Smell the Roselia
 
 RESOURCE ID: quest_evolve_abra_singular
 TEXT: Evolve one Abra
@@ -6640,9 +6601,6 @@ TEXT: Pokémon GO Tour: Kanto - Bonus Event (2/3)
 RESOURCE ID: quest_gotour_kanto_bonus_3
 TEXT: Pokémon GO Tour: Kanto - Bonus Event (3/3)
 
-RESOURCE ID: quest_hoenn_celebration_research
-TEXT: Hoenn Celebration Research
-
 RESOURCE ID: quest_kanto_green_bellsprout
 TEXT: GO Tour: Catch Bellsprout
 
@@ -6679,23 +6637,8 @@ TEXT: GO Tour: Catch Mankey
 RESOURCE ID: quest_kanto_red_oddish
 TEXT: GO Tour: Catch Oddish
 
-RESOURCE ID: quest_macht_catch_b
-TEXT: Catch {0} Machop
-
-RESOURCE ID: quest_macht_evolve_b
-TEXT: Evolve {0} Machop
-
-RESOURCE ID: quest_macht_evolve_s1
-TEXT: Evolve {0} Machoke
-
 RESOURCE ID: quest_platinum_kanto_badge
 TEXT: Earn the platinum Kanto medal
-
-RESOURCE ID: quest_roset_catch_b
-TEXT: Catch {0} Roselia
-
-RESOURCE ID: quest_roset_evolve_b
-TEXT: Evolve {0} Roselia
 
 RESOURCE ID: quest_snapshot_bulbasaur
 TEXT: Take a snapshot of Bulbasaur
@@ -6793,99 +6736,6 @@ TEXT: Thanks for your help today, Trainer. I hope you had as much fun as I did!
 RESOURCE ID: quest_special_dialogue_flett_3_6
 TEXT: Now, let’s GO!
 
-RESOURCE ID: quest_special_dialogue_macht_0_0
-TEXT: ...
-
-RESOURCE ID: quest_special_dialogue_macht_0_1
-TEXT: Oh! %PLAYERNAME%, you caught me by surprise. I was just thinking about some movies I’ve seen recently.
-
-RESOURCE ID: quest_special_dialogue_macht_0_2
-TEXT: What, you didn’t take me for a movie guy? Haha! Well, while the world of Pokémon is my greatest passion, I’ve been trying to explore my interests outside of research and Pokémon as well.
-
-RESOURCE ID: quest_special_dialogue_macht_0_3
-TEXT: Self-discovery is important for personal growth in all walks of life. It can also be quite fun! I’ve learned that I really enjoy watching a film to pass the time now and again.
-
-RESOURCE ID: quest_special_dialogue_macht_0_4
-TEXT: Also, a lot of movies feature Pokémon! Don’t you love it when your interests overlap?
-
-RESOURCE ID: quest_special_dialogue_macht_0_5
-TEXT: I saw an incredibly thrilling action movie the other day. It was about a fighter who, against all odds, becomes a professional boxer alongside his trusty Machop.
-
-RESOURCE ID: quest_special_dialogue_macht_0_6
-TEXT: Life had him on the ropes, but he just kept punching back! Talk about inspiring.
-
-RESOURCE ID: quest_special_dialogue_macht_0_7
-TEXT: Did you know that Machop love to work out and build their muscles? They’re never satisfied, even when they train hard all day long! I wish I had that energy when I do fieldwork!
-
-RESOURCE ID: quest_special_dialogue_macht_0_8
-TEXT: Speaking of Machop: Did you notice that more of them are appearing in the wild? That’s what reminded me of that movie in the first place!
-
-RESOURCE ID: quest_special_dialogue_macht_0_9
-TEXT: Could you head out and learn more about Machop?
-
-RESOURCE ID: quest_special_dialogue_macht_1_0
-TEXT: Hey there, %PLAYERNAME%! Great job catching all those Machop. I wonder if you’ll grow as close as the two characters in that movie.
-
-RESOURCE ID: quest_special_dialogue_macht_1_1
-TEXT: The main character started in a pretty tough place, but his Machop kept him motivated and inspired.
-
-RESOURCE ID: quest_special_dialogue_macht_1_2
-TEXT: Then, he was given an incredible opportunity to compete against other fighters. My favorite part was when his Machop evolved into Machoke!
-
-RESOURCE ID: quest_special_dialogue_macht_1_3
-TEXT: Isn’t the relationship between a Trainer and their Pokémon wonderful? Machoke are truly remarkable Pokémon, too.
-
-RESOURCE ID: quest_special_dialogue_macht_1_4
-TEXT: A Machoke’s muscular body is so powerful, the Pokémon must wear a power-save belt to regulate its motions.
-
-RESOURCE ID: quest_special_dialogue_macht_1_5
-TEXT: As it happens, you should have enough Machop Candies now to evolve Machop into a Machoke of your own. It’s almost like you’re living out that movie yourself!
-
-RESOURCE ID: quest_special_dialogue_macht_2_0
-TEXT: Wow—that’s one muscular Machoke! Great work evolving it.
-
-RESOURCE ID: quest_special_dialogue_macht_2_1
-TEXT: Sometimes, Machoke will head to fields and mountains to exercise and train. Isn’t that dedication amazing?
-
-RESOURCE ID: quest_special_dialogue_macht_2_2
-TEXT: It reminds me of a training montage in that film. The Trainer and his Machoke traveled to the mountains to train together.
-
-RESOURCE ID: quest_special_dialogue_macht_2_3
-TEXT: Watching their friendship blossom almost moved me to tears! The way they encouraged each other reminded me why I love Pokémon, especially when the Machoke evolved into Machamp!
-
-RESOURCE ID: quest_special_dialogue_macht_2_4
-TEXT: Oops, there I go again… Anyway, Machop and Machoke are very impressive Pokémon, but Machamp is on an entirely different level.
-
-RESOURCE ID: quest_special_dialogue_macht_2_5
-TEXT: Its four arms react more quickly than it can think, so Machamp can execute several punches at once!
-
-RESOURCE ID: quest_special_dialogue_macht_2_6
-TEXT: Hoo-hah! That was the movie Machamp’s signature move. Haha, who knew I’d become such a film buff? Get it? Buff?
-
-RESOURCE ID: quest_special_dialogue_macht_2_7
-TEXT: Moving right along…
-
-RESOURCE ID: quest_special_dialogue_macht_2_8
-TEXT: How about you do a bit of research on Machamp? Your Machoke seems pumped to get stronger. Let’s try evolving it into Machamp and see what happens!
-
-RESOURCE ID: quest_special_dialogue_macht_3_0
-TEXT: Wow, %PLAYERNAME%! I saw you approaching with your newly evolved Machamp, and I almost couldn’t believe my eyes. It was just like the end of that movie!
-
-RESOURCE ID: quest_special_dialogue_macht_3_1
-TEXT: The Trainer ended up winning the tournament, and he couldn’t have done it without his Machamp by his side.
-
-RESOURCE ID: quest_special_dialogue_macht_3_2
-TEXT: Movies are so powerful! Especially ones about Pokémon and their Trainers.
-
-RESOURCE ID: quest_special_dialogue_macht_3_3
-TEXT: I suppose you and Machamp don’t need to watch that particular film, though—you practically lived it today! It’s been inspiring to witness, and I hope to carry that inspiration with me as I grow closer to my own Pokémon.
-
-RESOURCE ID: quest_special_dialogue_macht_3_4
-TEXT: You never know what you’ll discover about yourself when you try new things—just like how you never know which Pokémon you’ll end up forming a lifelong friendship with until you catch them!
-
-RESOURCE ID: quest_special_dialogue_macht_3_5
-TEXT: Thanks for coming along with me on this journey, Trainer. I wish you and your Machamp well, and I’ll see you next time. Let’s GO!
-
 RESOURCE ID: quest_special_dialogue_rockethq7_4_1_alt
 TEXT: I managed to build another Super Rocket Radar to help you track down Giovanni. But be careful—Blanche and Candela’s reports revealed that Giovanni has got a Legendary Shadow Pokémon with him!
 
@@ -6955,93 +6805,6 @@ TEXT: The fight against Team GO Rocket and their malicious machinations continue
 RESOURCE ID: quest_special_dialogue_rockethq8_5_2
 TEXT: So, until next time—let’s GO!
 
-RESOURCE ID: quest_special_dialogue_roset_0_0
-TEXT: Ahhh... Do you smell that, Trainer?
-
-RESOURCE ID: quest_special_dialogue_roset_0_1
-TEXT: I first caught a whiff of that curious aroma as I was out on my daily morning walk.
-
-RESOURCE ID: quest_special_dialogue_roset_0_2
-TEXT: Upon investigation, I discovered that the scent was being produced by an uncommonly large group of Roselia that had assembled nearby.
-
-RESOURCE ID: quest_special_dialogue_roset_0_3
-TEXT: Did you know you can judge a Roselia’s health by the strength of its aroma? Well, let me tell you—those were VERY healthy Roselia!
-
-RESOURCE ID: quest_special_dialogue_roset_0_4
-TEXT: But while they certainly smell nice and look pretty, I advise you to take care when encountering them.
-
-RESOURCE ID: quest_special_dialogue_roset_0_5
-TEXT: The thorns on Roselia’s head contain a vicious poison, and it can launch them at any opponent bold enough to try to steal the flowers on its arms. Every rose, as they say!
-
-RESOURCE ID: quest_special_dialogue_roset_0_6
-TEXT: It’s unusual to see so many Roselia in one place. Would you mind assisting me in researching this phenomenon?
-
-RESOURCE ID: quest_special_dialogue_roset_1_0
-TEXT: Welcome back, %PLAYERNAME%!
-
-RESOURCE ID: quest_special_dialogue_roset_1_1
-TEXT: While you were out in the field, I did some reading on Roselia.
-
-RESOURCE ID: quest_special_dialogue_roset_1_2
-TEXT: When it comes to Pokémon, new discoveries are being made all the time—so it’s important to make sure your information is up to date.
-
-RESOURCE ID: quest_special_dialogue_roset_1_3
-TEXT: Roselia, the Thorn Pokémon, evolves from Budew, the Bud Pokémon. Budew is sensitive to changes in temperature, and its bud is said to bloom when warmed by the sun.
-
-RESOURCE ID: quest_special_dialogue_roset_1_4
-TEXT: It’s also both Grass and Poison type, much like Roselia.
-
-RESOURCE ID: quest_special_dialogue_roset_1_5
-TEXT: In reviewing these two Pokémon, I remembered something tremendously exciting! I still need to conduct a bit more research before sharing my findings, however. Would you mind assisting me?
-
-RESOURCE ID: quest_special_dialogue_roset_2_0
-TEXT: As aromatic Pokémon go, we’re pretty fortunate it’s Roselia appearing en masse and not, say, Muk.
-
-RESOURCE ID: quest_special_dialogue_roset_2_1
-TEXT: A big group of Muk gathered under the sun... The whole place would smell like baked garbage!
-
-RESOURCE ID: quest_special_dialogue_roset_2_2
-TEXT: Oh! Hey there, %PLAYERNAME%. Didn’t realize you were back.
-
-RESOURCE ID: quest_special_dialogue_roset_2_3
-TEXT: I found that interesting bit of information I wanted to share with you.
-
-RESOURCE ID: quest_special_dialogue_roset_2_4
-TEXT: According to my research, Roselia that drink nutritionally rich springwater are said to reveal rare coloration when they bloom.
-
-RESOURCE ID: quest_special_dialogue_roset_2_5
-TEXT: Isn’t that fascinating? Have you seen anything like that while you’ve been out doing research?
-
-RESOURCE ID: quest_special_dialogue_roset_2_6
-TEXT: You seem to have a lucky streak, so I wouldn’t put it past you!
-
-RESOURCE ID: quest_special_dialogue_roset_2_7
-TEXT: Now that you’re back, I’d like you to evolve a Roselia with the Sinnoh Stone I gave you.
-
-RESOURCE ID: quest_special_dialogue_roset_2_8
-TEXT: I’m excited to see the final Evolution in this line of Grass- and Poison-type Pokémon!
-
-RESOURCE ID: quest_special_dialogue_roset_3_0
-TEXT: Great work, Trainer! Your Roselia has evolved into the Bouquet Pokémon, Roserade!
-
-RESOURCE ID: quest_special_dialogue_roset_3_1
-TEXT: It moves like a dancer and strikes with whips that are densely lined with poison thorns.
-
-RESOURCE ID: quest_special_dialogue_roset_3_2
-TEXT: Oh, and have you noticed that each of Roserade’s hands is a different color?
-
-RESOURCE ID: quest_special_dialogue_roset_3_3
-TEXT: Each contains a different toxin. The poison in its right hand is quick acting, while the poison in its left hand is slow acting.
-
-RESOURCE ID: quest_special_dialogue_roset_3_4
-TEXT: What an amazing Pokémon!
-
-RESOURCE ID: quest_special_dialogue_roset_3_5
-TEXT: Thanks for all your assistance today, Trainer. Documenting situations like this is essential to learning more about the Pokémon in the world around us.
-
-RESOURCE ID: quest_special_dialogue_roset_3_6
-TEXT: Until next time, let’s GO!
-
 RESOURCE ID: quest_special_dialogue_season2_0_0
 TEXT: Hey there, %PLAYERNAME%! It’s good to see you.
 
@@ -7091,7 +6854,7 @@ RESOURCE ID: quest_special_dialogue_season2_2_3
 TEXT: Let’s focus on Tornadus next. The texts say Tornadus expels massive energy from its tail, causing severe storms, and that its power is great enough to blow houses away.
 
 RESOURCE ID: quest_special_dialogue_season2_2_4
-TEXT: Like Landorus, Tornadus also has both Incarnate and Therian formes. Hmm… Maybe researching Flying-type Pokémon in the area is our best bet for now? Let’s give it a shot, Trainer!
+TEXT: Like Landorus, Tornadus also has both Incarnate and Therian Formes. Hmm... Maybe researching Flying-type Pokémon in the area is our best bet for now? Let’s give it a shot, Trainer!
 
 RESOURCE ID: quest_special_dialogue_season2_3_0
 TEXT: Excellent work, Trainer! Thanks for documenting that information about Tornadus. It seems you even found yourself a darling Ducklett along the way! Is it all it’s quacked up to be? Haha!
@@ -7112,7 +6875,7 @@ RESOURCE ID: quest_special_dialogue_season2_3_5
 TEXT: For now, though, let’s continue our research and turn our attention to the last of the three Unovan Legendary Pokémon detailed in those stories—Thundurus.
 
 RESOURCE ID: quest_special_dialogue_season2_3_6
-TEXT: Thundurus is known as the Bolt Strike Pokémon, and its story also references both Incarnate and Therian formes. The spikes on its tail are said to discharge immense bolts of lightning.
+TEXT: Thundurus is known as the Bolt Strike Pokémon, and its story also references both Incarnate and Therian Formes. The spikes on its tail are said to discharge immense bolts of lightning.
 
 RESOURCE ID: quest_special_dialogue_season2_3_7
 TEXT: For the sake of consistency, let’s go ahead and research Electric-type Pokémon in the area as we compile our notes on Thundurus.
@@ -7156,21 +6919,6 @@ TEXT: The Bravest Bird (3/4)
 RESOURCE ID: quest_title_flett_3
 TEXT: The Bravest Bird (4/4)
 
-RESOURCE ID: quest_title_macht
-TEXT: Straight to the Top, Machop!
-
-RESOURCE ID: quest_title_macht_0
-TEXT: Straight to the Top, Machop! (1/4)
-
-RESOURCE ID: quest_title_macht_1
-TEXT: Straight to the Top, Machop! (2/4)
-
-RESOURCE ID: quest_title_macht_2
-TEXT: Straight to the Top, Machop! (3/4)
-
-RESOURCE ID: quest_title_macht_3
-TEXT: Straight to the Top, Machop! (4/4)
-
 RESOURCE ID: quest_title_rockethq8
 TEXT: The Higher They Fly...
 
@@ -7191,21 +6939,6 @@ TEXT: The Higher They Fly... (5/6)
 
 RESOURCE ID: quest_title_rockethq8_5
 TEXT: The Higher They Fly... (6/6)
-
-RESOURCE ID: quest_title_roset
-TEXT: Stop and Smell the Roselia
-
-RESOURCE ID: quest_title_roset_0
-TEXT: Stop and Smell the Roselia (1/4)
-
-RESOURCE ID: quest_title_roset_1
-TEXT: Stop and Smell the Roselia (2/4)
-
-RESOURCE ID: quest_title_roset_2
-TEXT: Stop and Smell the Roselia (3/4)
-
-RESOURCE ID: quest_title_roset_3
-TEXT: Stop and Smell the Roselia (4/4)
 
 RESOURCE ID: quest_title_season2
 TEXT: Season of Legends
@@ -11615,7 +11348,115 @@ RESOURCE ID: raid_weekend_zygarde
 TEXT: Special Raid Weekend: Zygarde
 
 RESOURCE ID: raid_xp_25_fivestar
-TEXT: 1.25x five-star Raid XP
+TEXT: 1.25× five-star Raid XP
+
+RESOURCE ID: referee_completed_milestone
+TEXT: {0} Has Completed a Milestone!
+
+RESOURCE ID: referral_code_copy
+TEXT: Copy Referral Code
+
+RESOURCE ID: referral_code_share
+TEXT: Share Referral Code
+
+RESOURCE ID: referral_disclaimer
+TEXT: If you refer someone who’s already started their Pokémon GO adventure, you’ll only be eligible for rewards if the referred Trainer hasn't logged in for over {0} days.
+
+RESOURCE ID: referral_enter_code_about
+TEXT: You can receive referral codes from friends who play Pokémon GO.
+
+RESOURCE ID: referral_enter_code_button
+TEXT: Have a referral code?
+
+RESOURCE ID: referral_enter_code_later
+TEXT: You can also enter a referral code in the Friends menu up to 72 hours after starting your journey.
+
+RESOURCE ID: referral_enter_code_skip
+TEXT: Skip
+
+RESOURCE ID: referral_enter_invite_code
+TEXT: Enter referral code:
+
+RESOURCE ID: referral_friend_invite_error_friend_later_message
+TEXT: Would you like to try adding this person as a referrer anyway? You’ll still receive a reward for signing in, but to earn more referral rewards, you’ll need to become friends in Pokémon GO with the person who referred you.
+
+RESOURCE ID: referral_friend_invite_error_friend_list_full_message
+TEXT: You’ll still receive a reward for signing in, but to earn more referral rewards, you’ll need to become friends in Pokémon GO with the person who referred you.
+
+RESOURCE ID: referral_friend_invite_error_inbox_full_title
+TEXT: This Trainer has too many pending Friend Requests.
+
+RESOURCE ID: referral_friend_invite_error_outbox_full_title
+TEXT: You cannot send any more Friend Requests at this time.
+
+RESOURCE ID: referral_friend_invite_error_player_does_not_exist_deleted
+TEXT: This Trainer’s account may have been deleted.
+
+RESOURCE ID: referral_friend_invite_error_self
+TEXT: You cannot refer yourself.
+
+RESOURCE ID: referral_friend_invite_error_their_friend_list_full_title
+TEXT: Your Friend Can’t Add Any More Friends
+
+RESOURCE ID: referral_friend_invite_error_title
+TEXT: Unable to send Friend Request
+
+RESOURCE ID: referral_friend_invite_error_your_friend_list_full_title
+TEXT: Your Friend List Is Full
+
+RESOURCE ID: referral_friend_invite_later_error_title
+TEXT: Unable to send Friend Request to the Trainer who invited you. 
+
+RESOURCE ID: referral_initial_reward_generic_name
+TEXT: Your Friend
+
+RESOURCE ID: referral_initial_reward_joined
+TEXT: Your friend has joined Pokémon GO!
+
+RESOURCE ID: referral_initial_reward_label
+TEXT: You earned the following:
+
+RESOURCE ID: referral_initial_reward_returned
+TEXT: Your friend has returned to Pokémon GO!
+
+RESOURCE ID: referral_initial_reward_welcome
+TEXT: Your friend welcomes you to Pokémon GO!
+
+RESOURCE ID: referral_initial_reward_welcome_back
+TEXT: Your friend welcomes you back to Pokémon GO!
+
+RESOURCE ID: referral_invite
+TEXT: Invite
+
+RESOURCE ID: referral_invite_subtitle
+TEXT: Invite Your Friends to Pokémon GO and Earn Rewards
+
+RESOURCE ID: referral_invite_title
+TEXT: Invite to Pokémon GO
+
+RESOURCE ID: referral_log_complete_milestone
+TEXT: Completed Referral Milestone: {0}.
+
+RESOURCE ID: referral_reward_example_description
+TEXT: Here are some rewards you can earn when a friend you’ve invited hits certain milestones in Pokémon GO. Your friend will earn rewards as well, like 100 Poké Balls for starting their journey!
+
+RESOURCE ID: referral_system_disabled
+TEXT: The referral feature is currently disabled.
+
+RESOURCE ID: referral_welcome
+TEXT: Welcome!
+
+RESOURCE ID: referral_welcome_back
+TEXT: Welcome Back!
+
+RESOURCE ID: referral_welcome_back_subtitle
+TEXT: A lot has changed since you last played. Here are some of the new features that have been added.
+
+RESOURCE ID: referral_welcome_subtitle
+TEXT: Your Pokémon GO journey is about to begin!
+
+RESOURCE ID: referral_your_code
+TEXT: Your Referral Code
 
 RESOURCE ID: rejoin_details_failed
 TEXT: The raid details could not be obtained. IID: {0}
@@ -11641,9 +11482,6 @@ TEXT: Retro Cup
 RESOURCE ID: rock_type_event
 TEXT: Type Surge: Rock
 
-RESOURCE ID: rocket_celebration_event_name
-TEXT: Team GO Rocket Celebration
-
 RESOURCE ID: rocket_description
 TEXT: Defeat the members of Team GO Rocket you see at PokéStops and in balloons to save Shadow Pokémon.
 
@@ -11656,15 +11494,6 @@ TEXT: GO Rocket Hour
 RESOURCE ID: searching_for_legends_event_name
 TEXT: Searching for Legends
 
-RESOURCE ID: settings_legendary_multi_selection_confirmation_description
-TEXT: Enabling this setting will allow you to transfer Legendary Pokémon and certain Mythical Pokémon when selecting multiple Pokémon in your Pokémon storage. Transferring Pokémon to Professor Willow cannot be undone.
-
-RESOURCE ID: settings_select_legendary_label
-TEXT: Expanded Group Transfer
-
-RESOURCE ID: settings_select_legendary_tip
-TEXT: Allows you to transfer Legendary Pokémon and certain Mythical Pokémon when selecting multiple Pokémon in your Pokémon storage.
-
 RESOURCE ID: settings_sfida_howto_pair_prompt
 TEXT: Unable to connect to Pokémon GO Plus.
 Would you like to view some troubleshooting tips?
@@ -11672,20 +11501,14 @@ Would you like to view some troubleshooting tips?
 RESOURCE ID: settings_sfida_store
 TEXT: Buy a Pokémon GO Plus
 
+RESOURCE ID: share_my_referral_code_message
+TEXT: If you join or return to Pokémon GO using my referral code {0}, you’ll instantly get 100 Poké Balls, be able to earn special bonus items, and more. {1}
+
 RESOURCE ID: shop_exchange_for_suffix
 TEXT: 
 
 RESOURCE ID: spawn_fletchling
 TEXT: More Fletchling are appearing in the wild
-
-RESOURCE ID: spawn_machop
-TEXT: More Machop are appearing in the wild
-
-RESOURCE ID: spawn_roselia
-TEXT: More Roselia are appearing in the wild
-
-RESOURCE ID: sponsored_gift_tutorial_description_1
-TEXT: As you explore the world around you, you may receive Sponsored Gifts along with messages from advertisers relevant to your location. Sponsored Gifts now have a fresh, new look!
 
 RESOURCE ID: sponsored_gift_tutorial_description_2
 TEXT: As always, we do not share your personal information with sponsors. For more information on this feature, please check out Niantic Support.
@@ -11696,17 +11519,11 @@ TEXT: Type Surge: Steel
 RESOURCE ID: ticket_fletchling
 TEXT: Tickets for The Bravest Bird Special Research story available in the shop
 
-RESOURCE ID: ticket_machop
-TEXT: Tickets for the Straight to the Top, Machop! Special Research story available in the shop
-
-RESOURCE ID: ticket_roselia
-TEXT: Tickets for Special Research available in the shop
-
 RESOURCE ID: timed_research
 TEXT: Timed Research available
 
-RESOURCE ID: timed_research_pokemon
-TEXT: Featured Pokémon in Timed Research
+RESOURCE ID: titan_upload_wifi_recommended
+TEXT: Wi-Fi recommended
 
 RESOURCE ID: trade_evolution_hint
 TEXT: If this Pokémon is received through a trade, it can be evolved without using Candy.
@@ -11732,11 +11549,11 @@ TEXT: Featured Pokémon type appearing more often in raids
 RESOURCE ID: type_event_wild
 TEXT: Featured Pokémon type appearing more often in the wild
 
+RESOURCE ID: unfriend_niantic_friend_tip
+TEXT: If you remove this friend in this game, you’ll remove them as a friend in all Niantic games you both play.
+
 RESOURCE ID: upload_mgmt_confirm_delete_individual
 TEXT: Do you want to delete this contribution?
-
-RESOURCE ID: upload_mgmt_pending_data
-TEXT: You have {0} contribution pending upload.
 
 RESOURCE ID: upmgmt_confirm_data_size
 TEXT: You’re about to upload {0} MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
@@ -11771,9 +11588,6 @@ TEXT: UPLOAD ERROR ({0})
 RESOURCE ID: upmgmt_main_menu_uploading_plural
 TEXT: UPLOADING ({0})
 
-RESOURCE ID: upmgmt_main_menu_uploading_singular
-TEXT: UPLOADING ({0})
-
 RESOURCE ID: upmgmt_main_nominations_header
 TEXT: PokéStop Nominations ({0})
 
@@ -11782,21 +11596,6 @@ TEXT: RETRY
 
 RESOURCE ID: upmgmt_main_scans_header
 TEXT: PokéStop Scans ({0})
-
-RESOURCE ID: upmgmt_main_size_kb
-TEXT: ({0} KB)
-
-RESOURCE ID: upmgmt_main_size_mb
-TEXT: ({0} MB)
-
-RESOURCE ID: upmgmt_main_type_image_item
-TEXT: PokéStop Image
-
-RESOURCE ID: upmgmt_main_type_nom_item
-TEXT: PokéStop Nomination
-
-RESOURCE ID: upmgmt_main_type_scan_item
-TEXT: PokéStop Scan
 
 RESOURCE ID: upmgmt_main_upload_individual
 TEXT: UPLOAD
@@ -11807,23 +11606,11 @@ TEXT: Waiting to be uploaded
 RESOURCE ID: upmgmt_settings_cancel_all
 TEXT: CANCEL ALL
 
-RESOURCE ID: upmgmt_settings_header
-TEXT: POKÉSTOP CONTRIBUTION
-
-RESOURCE ID: upmgmt_settings_info_button
-TEXT: (Nomination Guidelines)
-
-RESOURCE ID: upmgmt_settings_info_title
-TEXT: Player Nominations
-
 RESOURCE ID: upmgmt_settings_manage
 TEXT: MANAGE
 
 RESOURCE ID: upmgmt_settings_msg_none
 TEXT: You have no contributions pending upload.
-
-RESOURCE ID: upmgmt_settings_msg_plural
-TEXT: You have {0} contributions pending upload
 
 RESOURCE ID: upmgmt_settings_msg_singular
 TEXT: You have {0} contribution pending upload.
@@ -11848,4 +11635,10 @@ TEXT: Type Surge: Water
 
 RESOURCE ID: weather_week_event_name
 TEXT: Weather Week
+
+RESOURCE ID: you_completed_milestone
+TEXT: You’ve completed a milestone! Claim it on {0}’s Trainer page in the Friends menu.
+
+RESOURCE ID: your_referral_code_changed
+TEXT: Your referral code has been changed.
 

@@ -19,6 +19,69 @@ TEXT: Ricordati di usare gli attacchi che sfruttano le debolezze dei Pokémon av
 RESOURCE ID: add_friends_privacy_prompt
 TEXT: Gli amici potranno vedere i rispettivi profili, progressi e Pokémon catturati, e anche la posizione quando invii loro un pacco amicizia o scambi un Pokémon.
 
+RESOURCE ID: add_niantic_friend_tip
+TEXT: Se aggiungi amici a questo gioco Niantic, verranno aggiunti anche a tutti gli altri ai quali giocate insieme.
+
+RESOURCE ID: add_referrer_already_added_accept_invite
+TEXT: Hai una richiesta di amicizia in sospeso da questo Allenatore. Conferma la richiesta per continuare a ricevere delle ricompense da invito. Se vuoi, puoi inserire un altro codice d’invito.
+
+RESOURCE ID: add_referrer_already_added_already_friends
+TEXT: Sei già diventato amico di questa persona in Pokémon GO, quindi continuerai a ricevere delle ricompense da invito. Se vuoi, puoi inserire un altro codice d’invito.
+
+RESOURCE ID: add_referrer_already_added_friend_later
+TEXT: Devi diventare amico di questa persona in Pokémon GO per continuare a ricevere delle ricompense da invito. Se vuoi, puoi inserire un altro codice d’invito.
+
+RESOURCE ID: add_referrer_already_added_maybe_friend_later
+TEXT: Se non sei già diventato amico di questa persona in Pokémon GO, dovrai farlo per poter continuare a ricevere delle ricompense da invito. Se vuoi, puoi inserire un altro codice d’invito.
+
+RESOURCE ID: add_referrer_already_added_sent_invite
+TEXT: La richiesta di amicizia è stata inviata. Una volta confermata, potrai ricevere delle ricompense da invito mentre prosegui nella tua avventura. Se vuoi, puoi inserire un altro codice d’invito.
+
+RESOURCE ID: add_referrer_already_added_title
+TEXT: È già stata stabilita una connessione per invito con questo Allenatore
+
+RESOURCE ID: add_referrer_disabled
+TEXT: Non è stato possibile stabilire una connessione.
+
+RESOURCE ID: add_referrer_disabled_sent_invite
+TEXT: Non è stato possibile stabilire una connessione per invito ma la richiesta di amicizia è stata inviata.
+
+RESOURCE ID: add_referrer_error_past_grace_period_message
+TEXT: Non è più possibile riscattare i codici d’invito.
+
+RESOURCE ID: add_referrer_error_past_grace_period_sent_invite
+TEXT: Non è più possibile riscattare i codici d’invito ma la richiesta di amicizia è stata inviata.
+
+RESOURCE ID: add_referrer_error_past_grace_period_title
+TEXT: Il periodo di validità dei codici d’invito è terminato
+
+RESOURCE ID: add_referrer_error_unknown
+TEXT: Impossibile stabilire una connessione per invito.
+
+RESOURCE ID: add_referrer_error_unknown_sent_friend_request
+TEXT: La richiesta di amicizia è stata inviata ma non è stato possibile stabilire una connessione per invito.
+
+RESOURCE ID: add_referrer_success_accept_invite
+TEXT: Questa persona ti ha già inviato una richiesta di amicizia. Una volta confermata, potrai ricevere delle ricompense da invito man mano che continui la tua avventura.
+
+RESOURCE ID: add_referrer_success_already_friends
+TEXT: Tu e questa persona siete già diventati amici in Pokémon GO, quindi potrai ricevere delle ricompense da invito man mano che continui la tua avventura.
+
+RESOURCE ID: add_referrer_success_friend_later
+TEXT: Ricorda che dovrai diventare amico di questa persona in Pokémon GO per ricevere altre ricompense da invito.
+
+RESOURCE ID: add_referrer_success_invite_will_be_sent_later
+TEXT: Verrà inviata una richiesta di amicizia. Una volta confermata la tua amicizia, sarai in grado di ottenere ricompense da invito.
+
+RESOURCE ID: add_referrer_success_maybe_friend_later
+TEXT: Se non sei già diventato amico di questa persona in Pokémon GO, ricordati di farlo in seguito per ricevere altre ricompense da invito.
+
+RESOURCE ID: add_referrer_success_sent_invite
+TEXT: La richiesta di amicizia è stata inviata. Una volta confermata, potrai ricevere delle ricompense da invito mentre prosegui nella tua avventura.
+
+RESOURCE ID: add_referrer_success_title
+TEXT: Codice d’invito confermato
+
 RESOURCE ID: app_launch_deeplink
 TEXT: https://pokemongolive.com/it
 
@@ -163,17 +226,14 @@ TEXT: T-shirt Mew cromatico
 RESOURCE ID: avatar_sponsor
 TEXT: SPONSORIZZATI
 
-RESOURCE ID: badge_gotour_2021_green_global
-TEXT: Il 20 febbraio 2021 in tutto il mondo
+RESOURCE ID: badge_trainers_referred
+TEXT: Invita {0} Allenatori
 
-RESOURCE ID: badge_gotour_2021_green_global_title
-TEXT: Tour di Pokémon GO di Kanto
+RESOURCE ID: badge_trainers_referred_singular
+TEXT: Invita un Allenatore
 
-RESOURCE ID: badge_gotour_2021_red_global
-TEXT: Il 20 febbraio 2021 in tutto il mondo
-
-RESOURCE ID: badge_gotour_2021_red_global_title
-TEXT: Tour di Pokémon GO di Kanto
+RESOURCE ID: badge_trainers_referred_title
+TEXT: Acchiappamici
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>Solo {0} dei Pokémon selezionati possono essere trasferiti al professore.</b></size>
@@ -1346,9 +1406,6 @@ TEXT: Giornata Lotte GO dedicata a Maractus
 RESOURCE ID: battle_day_mareep
 TEXT: Giornata Lotte GO dedicata a Mareep
 
-RESOURCE ID: battle_day_marill
-TEXT: Giornata Lotte GO dedicata a Marill
-
 RESOURCE ID: battle_day_marowak
 TEXT: Giornata Lotte GO dedicata a Marowak
 
@@ -1585,9 +1642,6 @@ TEXT: Giornata Lotte GO dedicata a Pidgeot
 
 RESOURCE ID: battle_day_pidgeotto
 TEXT: Giornata Lotte GO dedicata a Pidgeotto
-
-RESOURCE ID: battle_day_pidgey
-TEXT: Giornata Lotte GO dedicata a Pidgey
 
 RESOURCE ID: battle_day_pidove
 TEXT: Giornata Lotte GO dedicata a Pidove
@@ -2369,6 +2423,9 @@ TEXT: Giornata Lotte GO dedicata a Zygarde
 RESOURCE ID: battle_npcs_plural
 TEXT: Lotta contro {0} sfidanti del Tour GO
 
+RESOURCE ID: bonus_milestone_rewards_title
+TEXT: RICOMPENSE BONUS DA OBIETTIVO
+
 RESOURCE ID: buddy_description
 TEXT: Scegli un Pokémon come tuo compagno e acquisirà nuovi talenti man mano che il vostro legame si rafforzerà.
 
@@ -2399,9 +2456,6 @@ TEXT: Doppio della polvere di stelle da cattura per i Pokémon protagonisti dell
 RESOURCE ID: charge_up_event_name
 TEXT: Elettromania
 
-RESOURCE ID: choose_event_variant_failed
-TEXT: Impossibile scegliere la versione dell’evento. Riprova più tardi.
-
 RESOURCE ID: collection_challenge_event
 TEXT: Sfida di collezione a tema
 
@@ -2411,9 +2465,6 @@ TEXT: Coppa Tour GO di Kanto
 RESOURCE ID: community_day_fletchling_event_name
 TEXT: Community Day: Fletchling
 
-RESOURCE ID: community_day_machop_event_name
-TEXT: Community Day dedicato a Machop
-
 RESOURCE ID: community_day_roselia_event_name
 TEXT: Community Day dedicato a Roselia
 
@@ -2422,6 +2473,9 @@ TEXT: {0} sarà disponibile finché non vincerai la lotta.
 
 RESOURCE ID: consume_combat_pass_warning_title
 TEXT: Vuoi usare il {0}?
+
+RESOURCE ID: copy_referral_code_toast
+TEXT: Il tuo codice d’invito è stato copiato.
 
 RESOURCE ID: dark_type_event
 TEXT: Invasione di tipo Buio
@@ -2435,23 +2489,17 @@ TEXT: Sconfiggi {0} sfidanti del Tour GO
 RESOURCE ID: dragon_type_event
 TEXT: Invasione di tipo Drago
 
-RESOURCE ID: egg_transparency_available_pokemon
-TEXT: POKÉMON DA UOVO
-
 RESOURCE ID: egg_transparency_help
 TEXT: I primi Pokémon di questa lista hanno maggiori probabilità di nascere da questo Uovo.
 
 RESOURCE ID: electric_type_event
 TEXT: Invasione di tipo Elettro
 
-RESOURCE ID: event_mega_evolve_reminder
-TEXT: Ottieni più caramelle catturando Pokémon dello stesso tipo del tuo Pokémon megaevoluto
-
-RESOURCE ID: event_move_ampharos_dragon_pulse
-TEXT: Fai evolvere Flaaffy per ottenere un Ampharos che conosce Dragopulsar
+RESOURCE ID: error_generate_referral_code_failed
+TEXT: Impossibile individuare il tuo codice d’invito.
 
 RESOURCE ID: event_move_metagross_meteor_mash
-TEXT: Evolve Metang to get a Metagross that knows Meteor Mash
+TEXT: Fai evolvere Metang per ottenere un Metagross che conosce Meteorpugno
 
 RESOURCE ID: event_name_bonus_generic
 TEXT: Evento bonus
@@ -2794,20 +2842,12 @@ RESOURCE ID: general1.ticket.2_flett_title
 TEXT: Biglietto: Un coraggioso volatile
 
 RESOURCE ID: general1.ticket.2_machop_description
-TEXT: Un biglietto per accedere alla ricerca speciale “Fuoco e fiamme con Magmar” il 21 novembre 2020 dalle 11:00 alle 17:00 (ora locale), ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità della app.
+TEXT: Un biglietto per partecipare alla ricerca speciale “Sei una forza, Machop!” dalle 11:00 alle 17:00 (ora locale) del 16 gennaio, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
 
-PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+PER RICEVERE I BONUS DELL’EVENTO, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 
 RESOURCE ID: general1.ticket.2_machop_title
-TEXT: Biglietto: Fuoco e fiamme con Magmar
-
-RESOURCE ID: general1.ticket.2_roset_description
-TEXT: Un biglietto per accedere alla ricerca speciale “Profumo di Roselia” del 7 febbraio 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
-
-PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
-
-RESOURCE ID: general1.ticket.2_roset_title
-TEXT: Biglietto per “Profumo di Roselia”
+TEXT: Biglietto per “Sei una forza, Machop!”
 
 RESOURCE ID: general1.ticket.2_title
 TEXT: Biglietto: Un coraggioso volatile
@@ -2819,7 +2859,7 @@ RESOURCE ID: general_leave_out
 TEXT: ANNULLA
 
 RESOURCE ID: general_raid_error
-TEXT: There was an error with the raid.
+TEXT: Si è verificato un errore con il raid.
 
 RESOURCE ID: general_transfer
 TEXT: TRASFERISCI
@@ -2827,32 +2867,11 @@ TEXT: TRASFERISCI
 RESOURCE ID: ghost_type_event
 TEXT: Invasione di tipo Spettro
 
-RESOURCE ID: gotour2021_choose_green
-TEXT: Scegli Versione Verde
-
-RESOURCE ID: gotour2021_choose_red
-TEXT: Scegli Versione Rossa
-
-RESOURCE ID: gotour2021_choose_version_desc
-TEXT: Una volta scelta la versione dell’evento, non puoi modificare la tua scelta.
-
-RESOURCE ID: gotour2021_choose_version_title_green
-TEXT: Vuoi scegliere la Versione Verde?
-
-RESOURCE ID: gotour2021_choose_version_title_red
-TEXT: Vuoi scegliere la Versione Rossa?
-
-RESOURCE ID: gotour2021_content_hashtag
-TEXT: Pubblica le tue foto usando l’hashtag #TourDiPokemonGO e condivideremo le nostre preferite!
-
 RESOURCE ID: gotour2021_content_link_cerulean_city
 TEXT: L’ora di Celestopoli è iniziata!
 
 RESOURCE ID: gotour2021_content_link_fuchsia_city
 TEXT: L’ora di Fucsiapoli è iniziata!
-
-RESOURCE ID: gotour2021_content_link_green
-TEXT: Hai selezionato la Versione Verde
 
 RESOURCE ID: gotour2021_content_link_open
 TEXT: Arrivano i Pokémon protagonisti dell’evento!
@@ -2865,21 +2884,6 @@ TEXT: L’ora di Plumbeopoli è iniziata!
 
 RESOURCE ID: gotour2021_content_link_pok_mon_league
 TEXT: L’ora della Lega Pokémon è iniziata!
-
-RESOURCE ID: gotour2021_content_link_red
-TEXT: Hai selezionato la Versione Rossa
-
-RESOURCE ID: gotour2021_content_link_short
-TEXT: Pubblica le tue foto usando l’hashtag #TourDiPokemonGO e condivideremo le nostre preferite!
-
-RESOURCE ID: gotour2021_minicollect_description_ongoing
-TEXT: Cattura, scambia o fai evolvere e colleziona questi Pokémon prima che scada il tempo per completare le tue sfide di collezione del Tour di Pokémon GO di Kanto.
-
-RESOURCE ID: gotour2021_welcome_green
-TEXT: Ti diamo il benvenuto al Tour di Pokémon GO di Kanto!
-
-RESOURCE ID: gotour2021_welcome_red
-TEXT: Ti diamo il benvenuto al Tour di Pokémon GO di Kanto!
 
 RESOURCE ID: gotour_kanto
 TEXT: Tour di Pokémon GO di Kanto
@@ -3194,10 +3198,16 @@ RESOURCE ID: ice_type_event
 TEXT: Invasione di tipo Ghiaccio
 
 RESOURCE ID: incense_day_pokemon_beldum
-TEXT: Beldum attracted to Incense
+TEXT: I Beldum sono attratti dall’aroma
 
-RESOURCE ID: incense_day_pokemon_mareep
-TEXT: I Mareep sono attratti dall’aroma
+RESOURCE ID: input_referral_code_time_remaining_plural
+TEXT: Ti restano {0} ore per inserire un codice d’invito
+
+RESOURCE ID: input_referral_code_time_remaining_singular
+TEXT: Ti resta {0} ora per inserire un codice d’invito
+
+RESOURCE ID: invalid_referral_code
+TEXT: Codice d’invito non valido
 
 RESOURCE ID: invasion_encounter_onboarding__blanche_speaker|2
 TEXT: ma credo di sapere di che Pokémon si tratta... Riesci a catturarlo così possiamo dare un’occhiata più da vicino?
@@ -3214,24 +3224,8 @@ TEXT: Un biglietto per accedere a un ricerca speciale il 6 marzo 2021 dalle 11:0
 RESOURCE ID: item_event_ticket_pink_flett_details
 TEXT: Questo biglietto si attiverà automaticamente per darti accesso alla ricerca speciale il 6 marzo 2021 dalle 11:00 alle 17:00 ora locale, ovunque tu sia.
 
-RESOURCE ID: item_event_ticket_pink_roset_desc
-TEXT: Un biglietto per accedere a un ricerca speciale il 7 febbraio 2021 dalle 11:00 alle 17:00 ora locale, ovunque tu sia.
-
-RESOURCE ID: item_event_ticket_pink_roset_details
-TEXT: Questo biglietto si attiverà automaticamente per darti accesso alla ricerca speciale il 7 febbraio 2021 dalle 11:00 alle 17:00 ora locale, ovunque tu sia.
-
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: Un biglietto per accedere a un ricerca speciale il 6 marzo 2021 dalle 11:00 alle 17:00 ora locale, ovunque tu sia.
-
-RESOURCE ID: item_global_event_ticket_details_no_version_selected
-TEXT: Questo biglietto si attiverà automaticamente dandoti accesso a un evento speciale il 20 febbraio 2021, ovunque ti trovi.
-
-Per partecipare, devi scegliere una versione dell’evento. Ti consigliamo di scegliere una versione diversa da quella dei tuoi amici per scambiare Pokémon e completare così le sfide di collezione!
-
-RESOURCE ID: item_global_event_ticket_details_version_selected
-TEXT: Questo biglietto si attiverà automaticamente dandoti accesso a un evento speciale il 20 febbraio 2021, ovunque ti trovi.
-
-Puoi vedere la versione dell’evento che hai scelto nella sezione Premi del tuo profilo Allenatore.
 
 RESOURCE ID: level_up_share_achievement_button
 TEXT: CONDIVIDI PROGRESSI ({0})
@@ -4970,9 +4964,6 @@ TEXT: Ricerca mirata dedicata a Smeargle
 RESOURCE ID: limited_research_smoochum
 TEXT: Ricerca mirata dedicata a Smoochum
 
-RESOURCE ID: limited_research_sneasel
-TEXT: Ricerca mirata dedicata a Sneasel
-
 RESOURCE ID: limited_research_snivy
 TEXT: Ricerca mirata dedicata a Snivy
 
@@ -5396,9 +5387,6 @@ TEXT: Ricerca mirata dedicata a Zweilous
 RESOURCE ID: limited_research_zygarde
 TEXT: Ricerca mirata dedicata a Zygarde
 
-RESOURCE ID: love_cup_title
-TEXT: Coppa Tenerezza
-
 RESOURCE ID: lucky_friend_increase
 TEXT: Maggiore possibilità di diventare amici fortunati
 
@@ -5517,36 +5505,24 @@ RESOURCE ID: mega_raid_hour
 TEXT: ora dei megaraid
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-05T23:37:40.711065
-at SHA 629fdae07ac67dce0d734305a516593a3ee0f43e
-Patch from: 0.199.0-SHA-c67f002e, 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace
+TEXT: Built at 2021-03-11T00:37:14.795998
+at SHA cf7220018140265d1d1b1e6f06f2780dd0c56ba3
+Patch from: 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace, 0.203.0-SHA-d5885bda
+
+RESOURCE ID: milestone_rewards_title
+TEXT: RICOMPENSE DA OBIETTIVO
 
 RESOURCE ID: mini_collection_feb21_vday_event
 TEXT: Collezione di San Valentino 2021
 
-RESOURCE ID: mini_collection_jan21_gen2_legend_event
-TEXT: Collezione leggendaria festeggiamenti di Johto
-
-RESOURCE ID: mini_collection_jan21_shadow_event
-TEXT: Festeggiamenti di Johto: collezione Rocket
-
 RESOURCE ID: normal_type_event
 TEXT: Invasione di tipo Normale
-
-RESOURCE ID: open_sponsored_balloon_postcard_message
-TEXT: Divertiti con questi strumenti gratuiti da parte di <b>{0}</b>!
-
-RESOURCE ID: open_sponsored_gift_button
-TEXT: Apri
 
 RESOURCE ID: photobomb_five_abra
 TEXT: Cinque incontri a sorpresa con Abra in modalità foto GO
 
 RESOURCE ID: photobomb_five_fletchling
 TEXT: 5 surprise encounters with Fletchling in GO Snapshot
-
-RESOURCE ID: photobomb_five_machop
-TEXT: Cinque incontri a sorpresa con Machop in modalità foto GO
 
 RESOURCE ID: photobomb_five_roselia
 TEXT: Cinque incontri a sorpresa con Roselia in modalità foto GO
@@ -5563,38 +5539,26 @@ TEXT: CARICA ORA
 RESOURCE ID: poi_contrib_uploading_status_plural
 TEXT: Caricamento in corso {0}/{1}
 
-RESOURCE ID: poi_contrib_uploading_status_singular
-TEXT: Caricamento in corso {0}/{1}
-
 RESOURCE ID: poison_type_event
 TEXT: Invasione di tipo Veleno
+
+RESOURCE ID: pokemon_info_caught_quest_referral
+TEXT: CATTURATO DOPO AVER COMPLETATO UN OBIETTIVO DA INVITO
+
+RESOURCE ID: pokemon_info_none_not_unique_transferable
+TEXT: There are no eligible Pokémon within your selection to be transferred.
 
 RESOURCE ID: pokemon_info_none_transferable
 TEXT: Nessuno dei Pokémon selezionati può essere trasferito.
 
-RESOURCE ID: pokemon_transfer_legendary_confirmation
-TEXT: Hai selezionato anche dei Pokémon leggendari o dei Pokémon misteriosi! Vuoi davvero trasferire i Pokémon selezionati?
-
-RESOURCE ID: poseidon_passcode_title
-TEXT: Inserisci un codice di attivazione
-
 RESOURCE ID: psychic_type_event
 TEXT: Invasione di tipo Psico
-
-RESOURCE ID: quest_catch_jan21_hoenn1_plural
-TEXT: Cattura {0} Groudon
-
-RESOURCE ID: quest_catch_jan21_hoenn2_plural
-TEXT: Cattura {0} Kyogre
 
 RESOURCE ID: quest_catch_luvdisc
 TEXT: Cattura {0} Luvdisc
 
 RESOURCE ID: quest_complete_flett
 TEXT: Un coraggioso volatile
-
-RESOURCE ID: quest_complete_macht
-TEXT: Sei una forza, Machop!
 
 RESOURCE ID: quest_complete_rockethq8
 TEXT: Grossi guai ad alta quota
@@ -6430,9 +6394,6 @@ TEXT: Fai evolvere 1 Slugma
 RESOURCE ID: quest_evolve_smoochum_singular
 TEXT: Fai evolvere 1 Smoochum
 
-RESOURCE ID: quest_evolve_sneasel_singular
-TEXT: Fai evolvere 1 Sneasel
-
 RESOURCE ID: quest_evolve_snivy_singular
 TEXT: Fai evolvere 1 Snivy
 
@@ -6664,18 +6625,6 @@ TEXT: Tour di Pokémon GO di Kanto - Evento bonus (2/3)
 RESOURCE ID: quest_gotour_kanto_bonus_3
 TEXT: Tour di Pokémon GO di Kanto - Evento bonus (3/3)
 
-RESOURCE ID: quest_hoenn19_catch_specific_plural
-TEXT: Festeggiamenti di Hoenn: cattura {0} Zigzagoon o Taillow
-
-RESOURCE ID: quest_hoenn19_evolve_specific_plural
-TEXT: Festeggiamenti di Hoenn: fai evolvere {0} Wurmple
-
-RESOURCE ID: quest_hoenn19_hatch_eggs
-TEXT: Festeggiamenti di Hoenn: fai schiudere {0} Uova
-
-RESOURCE ID: quest_hoenn_celebration_research
-TEXT: Ricerca dei festeggiamenti di Hoenn
-
 RESOURCE ID: quest_kanto_green_bellsprout
 TEXT: Tour GO: cattura Bellsprout
 
@@ -6712,20 +6661,8 @@ TEXT: Tour GO: cattura Mankey
 RESOURCE ID: quest_kanto_red_oddish
 TEXT: Tour GO: cattura Oddish
 
-RESOURCE ID: quest_macht_catch_b
-TEXT: Cattura {0} Machop
-
-RESOURCE ID: quest_macht_evolve_b
-TEXT: Fai evolvere {0} Machop
-
-RESOURCE ID: quest_macht_evolve_s1
-TEXT: Fai evolvere {0} Machoke
-
 RESOURCE ID: quest_platinum_kanto_badge
 TEXT: Ottieni il premio di platino di Kanto
-
-RESOURCE ID: quest_rocket_battle_plural
-TEXT: Sfida {0} reclute del Team GO Rocket
 
 RESOURCE ID: quest_roset_catch_b
 TEXT: Cattura {0} Roselia
@@ -6829,99 +6766,6 @@ TEXT: Grazie infinite per il tuo aiuto di oggi. Io mi sono divertito e spero sia
 RESOURCE ID: quest_special_dialogue_flett_3_6
 TEXT: Pronti, partenza... GO!
 
-RESOURCE ID: quest_special_dialogue_macht_0_0
-TEXT: ...
-
-RESOURCE ID: quest_special_dialogue_macht_0_1
-TEXT: Oh! %PLAYERNAME%, mi hai colto di sorpresa. Stavo giusto pensando ad alcuni film che ho visto di recente.
-
-RESOURCE ID: quest_special_dialogue_macht_0_2
-TEXT: Che c’è, non mi facevi un appassionato di cinema? Haha! Ebbene, anche se il mondo dei Pokémon è la mia più grande passione, ultimamente sto cercando di esplorare i miei interessi al di fuori della ricerca e dei Pokémon.
-
-RESOURCE ID: quest_special_dialogue_macht_0_3
-TEXT: Scoprire sé stessi aiuta a crescere, e può anche essere molto divertente! Io per esempio ho scoperto che ogni tanto mi piace guardare qualche film nel tempo libero.
-
-RESOURCE ID: quest_special_dialogue_macht_0_4
-TEXT: Inoltre, ci sono molti film con i Pokémon! È bello quando puoi unire l’utile al dilettevole, vero?
-
-RESOURCE ID: quest_special_dialogue_macht_0_5
-TEXT: L’altro giorno ho visto un film d’azione molto bello che parlava di un lottatore che, nonostante tutto, riesce a diventare un pugile professionista insieme al suo fidato Machop.
-
-RESOURCE ID: quest_special_dialogue_macht_0_6
-TEXT: La vita lo aveva messo veramente alle strette, ma non si è dato certo per vinto. Una vera fonte di ispirazione!
-
-RESOURCE ID: quest_special_dialogue_macht_0_7
-TEXT: Sapevi che Machop ama allenarsi e mettere su muscoli? Non è mai soddisfatto, neanche quando si allena duramente tutto il giorno. Vorrei avere io quell’energia quando lavoro!
-
-RESOURCE ID: quest_special_dialogue_macht_0_8
-TEXT: A proposito di Machop: hai notato che ne stanno comparendo molti allo stato selvatico? È per questo che mi è tornato in mente quel film.
-
-RESOURCE ID: quest_special_dialogue_macht_0_9
-TEXT: Potresti andare in giro e scoprire qualcosa in più su Machop?
-
-RESOURCE ID: quest_special_dialogue_macht_1_0
-TEXT: Ehi, %PLAYERNAME%! Ottimo lavoro nel catturare tutti quei Machop. Mi chiedo se diventerete amici come i due personaggi di quel film.
-
-RESOURCE ID: quest_special_dialogue_macht_1_1
-TEXT: Il personaggio principale si trovava in difficoltà all’inizio, ma il suo Machop gli ha dato la giusta carica e l’ha spinto a reagire.
-
-RESOURCE ID: quest_special_dialogue_macht_1_2
-TEXT: Poi, è riuscito a ottenere l’incredibile opportunità di competere contro altri lottatori. La mia parte preferita è stata quando il suo Machop si è evoluto in Machoke!
-
-RESOURCE ID: quest_special_dialogue_macht_1_3
-TEXT: Non è meraviglioso il rapporto che c’è tra un Allenatore e il suo Pokémon? Anche i Machoke sono Pokémon davvero notevoli.
-
-RESOURCE ID: quest_special_dialogue_macht_1_4
-TEXT: Il corpo muscoloso di un Machoke è così potente che il Pokémon deve indossare una cintura antiforza per regolare i suoi movimenti.
-
-RESOURCE ID: quest_special_dialogue_macht_1_5
-TEXT: A quanto pare, ora dovresti avere abbastanza caramelle Machop per far evolvere Machop in un Machoke. È quasi come la storia di quel film!
-
-RESOURCE ID: quest_special_dialogue_macht_2_0
-TEXT: Wow, questo è proprio un Machoke muscoloso! Ottimo lavoro, questa sì che un’evoluzione!
-
-RESOURCE ID: quest_special_dialogue_macht_2_1
-TEXT: A volte, Machoke se ne andrà tra i campi e le montagne per esercitarsi e allenarsi. Non è incredibile la sua tenacia?
-
-RESOURCE ID: quest_special_dialogue_macht_2_2
-TEXT: Mi ricorda una delle scene del film, in cui l’Allenatore e il suo Machoke sono andati in montagna per allenarsi insieme.
-
-RESOURCE ID: quest_special_dialogue_macht_2_3
-TEXT: Veder sbocciare la loro amicizia mi ha commosso! Il modo in cui si incoraggiavano a vicenda mi ha ricordato perché amo i Pokémon, specialmente quando Machoke si è evoluto in Machamp!
-
-RESOURCE ID: quest_special_dialogue_macht_2_4
-TEXT: Ops, mi sto dilungando di nuovo… Comunque, Machop e Machoke sono Pokémon straordinari, ma Machamp è proprio di un’altra categoria.
-
-RESOURCE ID: quest_special_dialogue_macht_2_5
-TEXT: Le sue quattro braccia reagiscono più veloci della sua mente, quindi Machamp può scagliare più pugni contemporaneamente!
-
-RESOURCE ID: quest_special_dialogue_macht_2_6
-TEXT: Ah! Questa era la mossa distintiva di Machamp nel film. Haha, chi l’avrebbe detto che sarei diventato un tale appassionato di film?
-
-RESOURCE ID: quest_special_dialogue_macht_2_7
-TEXT: Comunque...
-
-RESOURCE ID: quest_special_dialogue_macht_2_8
-TEXT: Che ne dici di fare un po’ di ricerca su Machamp? Sembra proprio che il tuo Machoke non veda l’ora di diventare più forte. Proviamo a farlo evolvere in Machamp e vediamo cosa succede!
-
-RESOURCE ID: quest_special_dialogue_macht_3_0
-TEXT: Wow, %PLAYERNAME%! Ti ho visto arrivare con il tuo Machamp appena evoluto e quasi non potevo credere ai miei occhi. Era proprio come la scena finale di quel film!
-
-RESOURCE ID: quest_special_dialogue_macht_3_1
-TEXT: Alla fine l’Allenatore è riuscito a vincere il torneo, ma non ce l’avrebbe fatta senza il suo Machamp al suo fianco.
-
-RESOURCE ID: quest_special_dialogue_macht_3_2
-TEXT: I film possono avere un grande impatto sulle persone! Soprattutto quelli sui Pokémon e sui loro Allenatori.
-
-RESOURCE ID: quest_special_dialogue_macht_3_3
-TEXT: Suppongo che tu e Machamp non abbiate bisogno di vedere quel film perché praticamente lo avete già vissuto! Siete stati una grande fonte d’ispirazione e spero che questa esperienza mi aiuterà a conoscere sempre meglio il mio Pokémon.
-
-RESOURCE ID: quest_special_dialogue_macht_3_4
-TEXT: Non sai mai cosa puoi scoprire su te stesso quando provi cose nuove... proprio come non sai mai con quale Pokémon stringerai una grande amicizia fino a che non lo catturi!
-
-RESOURCE ID: quest_special_dialogue_macht_3_5
-TEXT: Grazie per avermi accompagnato in questo viaggio. Auguro a te e al tuo Machamp buon proseguimento... Alla prossima, pronti, partenza... GO!
-
 RESOURCE ID: quest_special_dialogue_rockethq7_4_1_alt
 TEXT: Sono riuscito a mettere a punto un altro super radar Rocket per aiutarti a scovare Giovanni. Attenzione, però: Blanche e Candela sono venute a sapere che Giovanni ha con sé un Pokémon Ombra leggendario.
 
@@ -7012,9 +6856,6 @@ TEXT: Le spine sulla sua testa contengono un veleno micidiale e Roselia può spa
 RESOURCE ID: quest_special_dialogue_roset_0_6
 TEXT: È strano che così tanti Roselia si ritrovino nello stesso luogo. Ti va di aiutarmi a indagare?
 
-RESOURCE ID: quest_special_dialogue_roset_1_0
-TEXT: Rieccoti, %PLAYERNAME%!
-
 RESOURCE ID: quest_special_dialogue_roset_1_1
 TEXT: Mentre eri in giro, ho cercato qualche informazione su Roselia.
 
@@ -7060,9 +6901,6 @@ TEXT: Sono proprio curioso di vedere lo stadio evolutivo finale di questo Pokém
 RESOURCE ID: quest_special_dialogue_roset_3_0
 TEXT: Ottimo lavoro, il tuo Roselia si è evoluto in Roserade, il Pokémon Floreale.
 
-RESOURCE ID: quest_special_dialogue_roset_3_1
-TEXT: Con i movimenti di una ballerina, colpisce con le fruste, piene di spine velenose.
-
 RESOURCE ID: quest_special_dialogue_roset_3_2
 TEXT: Oh, e hai notato che i suoi bouquet sono di colore diverso?
 
@@ -7074,9 +6912,6 @@ TEXT: Che Pokémon fantastico!
 
 RESOURCE ID: quest_special_dialogue_roset_3_5
 TEXT: Grazie mille per il tuo aiuto. Documentare situazioni del genere è fondamentale per comprendere meglio il mondo dei Pokémon intorno a noi.
-
-RESOURCE ID: quest_special_dialogue_roset_3_6
-TEXT: Alla prossima, pronti, partenza... GO!
 
 RESOURCE ID: quest_special_dialogue_season2_0_0
 TEXT: Ehilà, %PLAYERNAME%! Sono davvero felice di vederti.
@@ -7191,21 +7026,6 @@ TEXT: Un coraggioso volatile (3/4)
 
 RESOURCE ID: quest_title_flett_3
 TEXT: Un coraggioso volatile (4/4)
-
-RESOURCE ID: quest_title_macht
-TEXT: Sei una forza, Machop!
-
-RESOURCE ID: quest_title_macht_0
-TEXT: Sei una forza, Machop! (1/4)
-
-RESOURCE ID: quest_title_macht_1
-TEXT: Sei una forza, Machop! (2/4)
-
-RESOURCE ID: quest_title_macht_2
-TEXT: Sei una forza, Machop! (3/4)
-
-RESOURCE ID: quest_title_macht_3
-TEXT: Sei una forza, Machop! (4/4)
 
 RESOURCE ID: quest_title_rockethq8
 TEXT: Grossi guai ad alta quota
@@ -11650,14 +11470,122 @@ TEXT: Weekend di raid speciali dedicato a Zygarde
 RESOURCE ID: raid_xp_25_fivestar
 TEXT: PE da raid livello 5 moltiplicati per 1,25
 
+RESOURCE ID: referee_completed_milestone
+TEXT: {0} ha completato un obiettivo!
+
+RESOURCE ID: referral_code_copy
+TEXT: Copia il codice d’invito
+
+RESOURCE ID: referral_code_share
+TEXT: Condividi il codice d’invito
+
+RESOURCE ID: referral_disclaimer
+TEXT: Se inviti qualcuno che ha già iniziato la sua avventura in Pokémon GO, potrai ricevere ricompense solo se l’Allenatore che ha usato il tuo codice d’invito non effettua l’accesso da più di {0} giorni.
+
+RESOURCE ID: referral_enter_code_about
+TEXT: Puoi ricevere un codice d’invito dai tuoi amici che giocano a Pokémon GO.
+
+RESOURCE ID: referral_enter_code_button
+TEXT: Hai un codice d’invito?
+
+RESOURCE ID: referral_enter_code_later
+TEXT: Puoi inserire un codice d’invito anche nel menu amici fino a 72 ore dall’inizio della tua avventura.
+
+RESOURCE ID: referral_enter_code_skip
+TEXT: Salta
+
+RESOURCE ID: referral_enter_invite_code
+TEXT: Inserisci il codice d’invito:
+
+RESOURCE ID: referral_friend_invite_error_friend_later_message
+TEXT: Vuoi comunque provare ad aggiungere questa persona? Riceverai una ricompensa da invito ma per ottenerne altre di questo tipo dovrai diventare amico della persona che ti ha invitato in Pokémon GO.
+
+RESOURCE ID: referral_friend_invite_error_friend_list_full_message
+TEXT: Riceverai una ricompensa da invito ma per ottenerne altre di questo tipo dovrai diventare amico della persona che ti ha invitato in Pokémon GO.
+
+RESOURCE ID: referral_friend_invite_error_inbox_full_title
+TEXT: Questo Allenatore ha troppe richieste di amicizia in sospeso.
+
+RESOURCE ID: referral_friend_invite_error_outbox_full_title
+TEXT: Non puoi inviare altre richiesta di amicizia al momento.
+
+RESOURCE ID: referral_friend_invite_error_player_does_not_exist_deleted
+TEXT: L’account di questo Allenatore potrebbe essere stato eliminato.
+
+RESOURCE ID: referral_friend_invite_error_self
+TEXT: Non puoi usare il tuo codice d’invito.
+
+RESOURCE ID: referral_friend_invite_error_their_friend_list_full_title
+TEXT: Il tuo amico non può aggiungere altri amici
+
+RESOURCE ID: referral_friend_invite_error_title
+TEXT: Impossibile inviare la richiesta di amicizia
+
+RESOURCE ID: referral_friend_invite_error_your_friend_list_full_title
+TEXT: La tua lista amici è piena
+
+RESOURCE ID: referral_friend_invite_later_error_title
+TEXT: Impossibile inviare la richiesta di amicizia all’Allenatore che ti ha invitato. 
+
+RESOURCE ID: referral_initial_reward_generic_name
+TEXT: Il tuo amico
+
+RESOURCE ID: referral_initial_reward_joined
+TEXT: Il tuo amico si è iscritto a Pokémon GO!
+
+RESOURCE ID: referral_initial_reward_label
+TEXT: Hai ottenuto le seguenti ricompense:
+
+RESOURCE ID: referral_initial_reward_returned
+TEXT: Il tuo amico è tornato su Pokémon GO!
+
+RESOURCE ID: referral_initial_reward_welcome
+TEXT: Il tuo amico ti dà il benvenuto in Pokémon GO!
+
+RESOURCE ID: referral_initial_reward_welcome_back
+TEXT: Il tuo amico ti dà il bentornato in Pokémon GO!
+
+RESOURCE ID: referral_invite
+TEXT: Invita
+
+RESOURCE ID: referral_invite_subtitle
+TEXT: Invita i tuoi amici a giocare a Pokémon GO e ricevi delle ricompense
+
+RESOURCE ID: referral_invite_title
+TEXT: Invito a giocare a Pokémon GO
+
+RESOURCE ID: referral_log_complete_milestone
+TEXT: Obiettivi da invito completati: {0}.
+
+RESOURCE ID: referral_reward_example_description
+TEXT: Ecco alcune ricompense che puoi ricevere quando un amico che hai invitato raggiunge determinati obiettivi in Pokémon GO. Anche il tuo amico riceverà delle ricompense, come 100 Poké Ball per aver intrapreso il suo viaggio!
+
+RESOURCE ID: referral_system_disabled
+TEXT: La funzionalità d’invito è al momento disabilitata.
+
+RESOURCE ID: referral_welcome
+TEXT: Benvenuto!
+
+RESOURCE ID: referral_welcome_back
+TEXT: Rieccoti!
+
+RESOURCE ID: referral_welcome_back_subtitle
+TEXT: Sono cambiate molte cose dall’ultima volta che hai giocato. Ecco alcune delle nuove funzionalità che sono state aggiunte.
+
+RESOURCE ID: referral_welcome_subtitle
+TEXT: La tua avventura in Pokémon GO sta per iniziare.
+
+RESOURCE ID: referral_your_code
+TEXT: Il tuo codice d’invito
+
 RESOURCE ID: rejoin_details_failed
-TEXT: The raid details could not be obtained. IID: {0}
+TEXT: Impossibile ottenere i dettagli del raid. IID: {0}
 
 RESOURCE ID: rejoin_no_battle
-TEXT: The Raid Battle no longer exists. IID: {0}
+TEXT: Il raid non esiste più. IID: {0}
 
 RESOURCE ID: rejoin_no_lobby
-TEXT: The lobby no longer exists. IID: {0}
+TEXT: La coda d’attesa non esiste più. IID: {0}
 
 RESOURCE ID: remote_raid_description
 TEXT: Partecipa ai raid più lontani sulla mappa o tramite inviti di amici utilizzando un biglietto raid da remoto.
@@ -11674,9 +11602,6 @@ TEXT: Coppa Retro
 RESOURCE ID: rock_type_event
 TEXT: Invasione di tipo Roccia
 
-RESOURCE ID: rocket_celebration_event_name
-TEXT: Festeggiamenti del Team GO Rocket
-
 RESOURCE ID: rocket_description
 TEXT: Sconfiggi i membri del Team GO Rocket presso i Pokéstop e nelle mongolfiere per salvare i Pokémon Ombra.
 
@@ -11689,56 +11614,23 @@ TEXT: ora del Team GO Rocket
 RESOURCE ID: searching_for_legends_event_name
 TEXT: In cerca dei leggendari
 
-RESOURCE ID: settings_legendary_multi_selection_confirmation_description
-TEXT: Attivando questa impostazione potrai trasferire i Pokémon leggendari e alcuni Pokémon misteriosi selezionando più Pokémon nel tuo spazio Pokémon. Il trasferimento di Pokémon al Professor Willow non può essere annullato.
-
-RESOURCE ID: settings_legendary_multi_selection_confirmation_title
-TEXT: Vuoi davvero attivare l’impostazione che consente di trasferire i Pokémon leggendari e i Pokémon misteriosi selezionando più Pokémon nel tuo spazio Pokémon?
-
-RESOURCE ID: settings_select_legendary_label
-TEXT: Trasferimento ampliato
-
-RESOURCE ID: settings_select_legendary_tip
-TEXT: Consente di trasferire i Pokémon leggendari e alcuni Pokémon misteriosi selezionando più Pokémon nel tuo spazio Pokémon.
+RESOURCE ID: share_my_referral_code_message
+TEXT: Se ti iscrivi o torni su Pokémon GO utilizzando il mio codice d’invito {0}, riceverai immediatamente 100 Poké Ball e potrai ottenere dei bonus speciali e altro ancora. {1}
 
 RESOURCE ID: shop_exchange_for_suffix
 TEXT: 
 
-RESOURCE ID: sinnoh_2020_catch_medium1
-TEXT: Festeggiamenti di Sinnoh: cattura {0} Turtwig, Chimchar o Piplup
-
-RESOURCE ID: sinnoh_2020_catch_medium2
-TEXT: Festeggiamenti di Sinnoh: cattura {0} Kricketot
-
-RESOURCE ID: sinnoh_2020_evolve_item
-TEXT: Festeggiamenti di Sinnoh: usa una Pietra Sinnoh per far evolvere un Pokémon
-
-RESOURCE ID: sinnoh_2020_hatch_hard
-TEXT: Festeggiamenti di Sinnoh: fai schiudere {0} Uova
-
-RESOURCE ID: sinnoh_2020_raids_medium
-TEXT: Festeggiamenti di Sinnoh: vinci un raid
-
 RESOURCE ID: spawn_fletchling
 TEXT: More Fletchling are appearing in the wild
 
-RESOURCE ID: spawn_machop
-TEXT: Più Machop fanno capolino allo stato selvatico
-
 RESOURCE ID: spawn_roselia
 TEXT: Più Roselia fanno capolino allo stato selvatico
-
-RESOURCE ID: sponsored_gift_tutorial_description_1
-TEXT: Quando esplori l’ambiente circostante, potresti ricevere dei pacchi amicizia da parte di uno sponsor e messaggi pubblicitari relativi al posto in cui ti trovi. I pacchi amicizia degli sponsor hanno un look tutto nuovo!
 
 RESOURCE ID: steel_type_event
 TEXT: Invasione di tipo Acciaio
 
 RESOURCE ID: ticket_fletchling
 TEXT: Tickets for The Bravest Bird Special Research story available in the shop
-
-RESOURCE ID: ticket_machop
-TEXT: I biglietti per la ricerca speciale intitolata “Sei una forza, Machop!” sono disponibili nel negozio
 
 RESOURCE ID: ticket_roselia
 TEXT: Biglietti per la ricerca speciale disponibili nel negozio
@@ -11749,8 +11641,8 @@ TEXT: Pokémon protagonista della ricerca a tempo
 RESOURCE ID: titan_image_gallery_rpc_failed
 TEXT: Impossibile caricare le immagini. Riprova più tardi.
 
-RESOURCE ID: titan_poi_ar_video_upload_now_button_with_size
-TEXT: ({0} MB)
+RESOURCE ID: titan_upload_wifi_recommended
+TEXT: Si consiglia l’utilizzo del Wi-Fi
 
 RESOURCE ID: type_event_egg
 TEXT: I Pokémon del tipo di quelli protagonisti dell’evento nasceranno più frequentemente dalle Uova
@@ -11773,20 +11665,17 @@ TEXT: I Pokémon del tipo di quelli protagonisti dell’evento appariranno più 
 RESOURCE ID: type_event_wild
 TEXT: I Pokémon del tipo di quelli protagonisti dell’evento appariranno più frequentemente allo stato selvatico
 
+RESOURCE ID: unfriend_niantic_friend_tip
+TEXT: Se rimuovi l'amico che hai selezionato da questo gioco Niantic, verrà rimosso anche da tutti gli altri ai quali giocate insieme.
+
 RESOURCE ID: upload_mgmt_confirm_delete_individual
 TEXT: Vuoi cancellare questo contributo?
 
 RESOURCE ID: upload_mgmt_images
 TEXT: Foto Pokéstop: {0}
 
-RESOURCE ID: upload_mgmt_pending_data
-TEXT: Hai {0} contributo in attesa di caricamento.
-
 RESOURCE ID: upload_mgmt_upload_failed
 TEXT: Caricamento non riuscito
-
-RESOURCE ID: upload_mgmt_uploading_individual
-TEXT: In caricamento ({0})
 
 RESOURCE ID: upload_mgmt_waiting_upload_msg
 TEXT: In attesa di caricamento
@@ -11836,9 +11725,6 @@ TEXT: CARICATI: ({0})
 RESOURCE ID: upmgmt_main_menu_uploading_plural
 TEXT: In caricamento ({0})
 
-RESOURCE ID: upmgmt_main_menu_uploading_singular
-TEXT: In caricamento ({0})
-
 RESOURCE ID: upmgmt_main_nominations_header
 TEXT: Candidature Pokéstop: {0}
 
@@ -11847,21 +11733,6 @@ TEXT: RIPROVA
 
 RESOURCE ID: upmgmt_main_scans_header
 TEXT: Scansioni AR: {0}
-
-RESOURCE ID: upmgmt_main_size_kb
-TEXT: ({0} KB)
-
-RESOURCE ID: upmgmt_main_size_mb
-TEXT: ({0} MB)
-
-RESOURCE ID: upmgmt_main_type_image_item
-TEXT: Immagine Pokéstop
-
-RESOURCE ID: upmgmt_main_type_nom_item
-TEXT: Candidatura Pokéstop
-
-RESOURCE ID: upmgmt_main_type_scan_item
-TEXT: Scansione Pokéstop
 
 RESOURCE ID: upmgmt_main_upload_failed
 TEXT: Caricamento non riuscito
@@ -11889,9 +11760,6 @@ TEXT: GESTISCI
 
 RESOURCE ID: upmgmt_settings_msg_none
 TEXT: Non hai contributi in attesa di caricamento.
-
-RESOURCE ID: upmgmt_settings_msg_plural
-TEXT: Hai {0} contributi in attesa di caricamento
 
 RESOURCE ID: upmgmt_settings_msg_singular
 TEXT: Hai {0} contributo in attesa di caricamento.
@@ -11934,4 +11802,10 @@ TEXT: Invasione di tipo Acqua
 
 RESOURCE ID: weather_week_event_name
 TEXT: Settimana del clima
+
+RESOURCE ID: you_completed_milestone
+TEXT: Hai completato un obiettivo! Riscatta la tua ricompensa dalla pagina Allenatore di {0} nel menu amici.
+
+RESOURCE ID: your_referral_code_changed
+TEXT: Il tuo codice d’invito è stato cambiato.
 
