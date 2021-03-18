@@ -2465,6 +2465,12 @@ TEXT: 急速上昇：電屬性
 RESOURCE ID: error_generate_referral_code_failed
 TEXT: 找不到你的推薦代碼
 
+RESOURCE ID: error_refresh_referral_code_failed
+TEXT: 無法更新推薦代碼
+
+RESOURCE ID: error_refresh_referral_code_in_cooldown
+TEXT: 目前無法更新推薦代碼。請稍後再試一次。
+
 RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: 讓金屬怪進化成巨金怪，牠就能學會彗星拳
 
@@ -2777,6 +2783,18 @@ TEXT: 傳說的季節
 RESOURCE ID: f_avatar_poses_bundle_pose_28
 TEXT: 小菊兒
 
+RESOURCE ID: f_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_spring2021gulpin_00_bundle_icon
+TEXT: 溶食獸春裝組合
+
+RESOURCE ID: f_shirt_spring2021plusle_00_bundle_icon
+TEXT: 負電拍拍春裝組合
+
 RESOURCE ID: fairy_type_event
 TEXT: 急速上昇：妖精屬性
 
@@ -2788,6 +2806,9 @@ TEXT: 急速上昇：火屬性
 
 RESOURCE ID: flying_type_event
 TEXT: 急速上昇：飛行屬性
+
+RESOURCE ID: found_referral_code_from_link
+TEXT: Found a referral code from your link!
 
 RESOURCE ID: gbl_pokemon_featured
 TEXT: 可在GO對戰聯盟獎勵中遇見焦點寶可夢
@@ -2806,21 +2827,21 @@ RESOURCE ID: general1.ticket.2_flett_title
 TEXT: 「最勇敢的小鳥」入場券
 
 RESOURCE ID: general1.ticket.2_machop_description
-TEXT: A ticket to access the Straight to the Top, Machop! Special Research on January 16 from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2021年1月16日11:00～17:00領取腕力社群日「腕力衝衝衝」的特殊調查。詳情請至遊戲內快訊確認。
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+請務必在上述活動時間內完成活動指定的課題，以取得活動獎勵。
 
 RESOURCE ID: general1.ticket.2_machop_title
-TEXT: Straight to the Top, Machop! Ticket
+TEXT: 「腕力衝衝衝」入場券
 
 RESOURCE ID: general1.ticket.2_title
 TEXT: 「最勇敢的小鳥」入場券
 
 RESOURCE ID: general_include
-TEXT: 傳送
+TEXT: 確定
 
 RESOURCE ID: general_leave_out
-TEXT: 取消
+TEXT: 除外
 
 RESOURCE ID: general_raid_error
 TEXT: 團體戰發生錯誤
@@ -5363,6 +5384,18 @@ TEXT: 在交換時獲得亮晶晶寶可夢的機率提高
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: 小菊兒
 
+RESOURCE ID: m_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_spring2021gulpin_00_bundle_icon
+TEXT: 溶食獸春裝組合
+
+RESOURCE ID: m_shirt_spring2021plusle_00_bundle_icon
+TEXT: 負電拍拍春裝組合
+
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: 嘿，%PLAYERNAME%！很高興你能來參與這場冒險。對了，你有聽過這個旋律嗎？
 
@@ -5466,8 +5499,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: 超級團體戰時間
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-11T00:37:14.795998
-at SHA cf7220018140265d1d1b1e6f06f2780dd0c56ba3
+TEXT: Built at 2021-03-18T01:18:07.681452
+at SHA f69791492e30d67ffc3ebb82715602273458d154
 Patch from: 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace, 0.203.0-SHA-d5885bda
 
 RESOURCE ID: milestone_rewards_title
@@ -5501,7 +5534,7 @@ RESOURCE ID: pokemon_info_caught_quest_referral
 TEXT: 在完成推薦制度里程碑後捕捉到
 
 RESOURCE ID: pokemon_info_none_not_unique_transferable
-TEXT: There are no eligible Pokémon within your selection to be transferred.
+TEXT: 你所選的寶可夢無法傳送
 
 RESOURCE ID: pokemon_info_none_transferable
 TEXT: 你所選的寶可夢全都不能傳送
@@ -11697,6 +11730,9 @@ TEXT: OK
 
 RESOURCE ID: upmgmt_summary_thanks
 TEXT: 感謝你的編輯
+
+RESOURCE ID: waiting_for_referral_code_from_link
+TEXT: Looking for referral code from your link
 
 RESOURCE ID: water_type_event
 TEXT: 急速上昇：水屬性

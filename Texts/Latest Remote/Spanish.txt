@@ -197,7 +197,7 @@ RESOURCE ID: badge_trainers_referred
 TEXT: Invita a {0} Entrenadores
 
 RESOURCE ID: badge_trainers_referred_singular
-TEXT: Refer a Trainer
+TEXT: Invita a un Entrenador
 
 RESOURCE ID: badge_trainers_referred_title
 TEXT: Buscamigos
@@ -2459,6 +2459,12 @@ TEXT: Oleada de tipo: Eléctrico
 RESOURCE ID: error_generate_referral_code_failed
 TEXT: No se ha podido encontrar tu código de invitación.
 
+RESOURCE ID: error_refresh_referral_code_failed
+TEXT: No se ha podido actualizar tu código de invitación.
+
+RESOURCE ID: error_refresh_referral_code_in_cooldown
+TEXT: Tu código de invitación no se puede actualizar en este momento. Vuelve a intentarlo más tarde.
+
 RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: Haz evolucionar a Metang para conseguir un Metagross que conozca Puño Meteoro
 
@@ -2771,6 +2777,18 @@ TEXT: Temporada de Leyendas
 RESOURCE ID: f_avatar_poses_bundle_pose_28
 TEXT: Pose de Camila
 
+RESOURCE ID: f_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_spring2021gulpin_00_bundle_icon
+TEXT: Gulpin Romper
+
+RESOURCE ID: f_shirt_spring2021plusle_00_bundle_icon
+TEXT: Minun Romper
+
 RESOURCE ID: fairy_type_event
 TEXT: Oleada de tipo: Hada
 
@@ -2785,6 +2803,9 @@ TEXT: Oleada de tipo: Fuego
 
 RESOURCE ID: flying_type_event
 TEXT: Oleada de tipo: Volador
+
+RESOURCE ID: found_referral_code_from_link
+TEXT: Found a referral code from your link!
 
 RESOURCE ID: gbl_pokemon_featured
 TEXT: Encuentros con los Pokémon protagonistas como recompensa en la Liga Combates GO
@@ -2814,10 +2835,10 @@ RESOURCE ID: general1.ticket.2_title
 TEXT: Entrada: El ave más valiente
 
 RESOURCE ID: general_include
-TEXT: TRANSFERIR
+TEXT: INCLUIR
 
 RESOURCE ID: general_leave_out
-TEXT: CANCELAR
+TEXT: EXCLUIR
 
 RESOURCE ID: general_raid_error
 TEXT: Se ha producido un error con la incursión.
@@ -5365,6 +5386,18 @@ TEXT: Mayor probabilidad de conseguir Pokémon con suerte en intercambios
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: Pose de Camila
 
+RESOURCE ID: m_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_spring2021gulpin_00_bundle_icon
+TEXT: Gulpin Hoodie Set
+
+RESOURCE ID: m_shirt_spring2021plusle_00_bundle_icon
+TEXT: Minun Sweater Set
+
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: ¡Ah, %PLAYERNAME%! Me alegro de tenerte a bordo de esta expedición. Dime, ¿alguna vez has escuchado esta melodía en particular?
 
@@ -5468,8 +5501,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: Hora de Megaincursiones
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-11T00:37:14.795998
-at SHA cf7220018140265d1d1b1e6f06f2780dd0c56ba3
+TEXT: Built at 2021-03-18T01:18:07.681452
+at SHA f69791492e30d67ffc3ebb82715602273458d154
 Patch from: 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace, 0.203.0-SHA-d5885bda
 
 RESOURCE ID: milestone_rewards_title
@@ -5503,7 +5536,7 @@ RESOURCE ID: pokemon_info_caught_quest_referral
 TEXT: CAPTURADO TRAS COMPLETAR UN OBJETIVO POR INVITACIÓN
 
 RESOURCE ID: pokemon_info_none_not_unique_transferable
-TEXT: There are no eligible Pokémon within your selection to be transferred.
+TEXT: Los Pokémon seleccionados no se pueden transferir.
 
 RESOURCE ID: pokemon_info_none_transferable
 TEXT: Ninguno de los Pokémon seleccionados puede ser transferido.
@@ -11726,6 +11759,9 @@ TEXT: Archivos cargados: {0}
 
 RESOURCE ID: upmgmt_summary_thanks
 TEXT: Gracias por tu contribución.
+
+RESOURCE ID: waiting_for_referral_code_from_link
+TEXT: Looking for referral code from your link
 
 RESOURCE ID: water_type_event
 TEXT: Oleada de tipo: Agua

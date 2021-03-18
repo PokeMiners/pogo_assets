@@ -2465,6 +2465,12 @@ TEXT: ระลอกฉับพลัน: ไฟฟ้า
 RESOURCE ID: error_generate_referral_code_failed
 TEXT: การโหลดโค้ดเชิญของคุณล้มเหลว
 
+RESOURCE ID: error_refresh_referral_code_failed
+TEXT: รีเฟรชโค้ดเชิญของคุณไม่สำเร็จ
+
+RESOURCE ID: error_refresh_referral_code_in_cooldown
+TEXT: ไม่สามารถรีเฟรชโค้ดเชิญได้ในขณะนี้ กรุณาลองใหม่อีกครั้งในภายหลัง
+
 RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: วิวัฒนาการเมแทงก์เป็นเมทากรอสที่รู้ท่า "โคเม็ทพันช์"
 
@@ -2777,6 +2783,18 @@ TEXT: ฤดูกาลแห่งตำนาน
 RESOURCE ID: f_avatar_poses_bundle_pose_28
 TEXT: Elesa Pose
 
+RESOURCE ID: f_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_spring2021gulpin_00_bundle_icon
+TEXT: Gulpin Romper
+
+RESOURCE ID: f_shirt_spring2021plusle_00_bundle_icon
+TEXT: Minun Romper
+
 RESOURCE ID: fairy_type_event
 TEXT: ระลอกฉับพลัน: แฟรี่
 
@@ -2788,6 +2806,9 @@ TEXT: ระลอกฉับพลัน: ไฟ
 
 RESOURCE ID: flying_type_event
 TEXT: ระลอกฉับพลัน: บิน
+
+RESOURCE ID: found_referral_code_from_link
+TEXT: Found a referral code from your link!
 
 RESOURCE ID: gbl_pokemon_featured
 TEXT: พบกับโปเกมอนเด่นจากรางวัลโกแบตเทิลลีก
@@ -2812,21 +2833,21 @@ RESOURCE ID: general1.ticket.2_flett_title
 TEXT: ตั๋ว "ปักษาใจฉกาจ"
 
 RESOURCE ID: general1.ticket.2_machop_description
-TEXT: A ticket to access the Straight to the Top, Machop! Special Research on January 16 from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษ "วันริกีเดินหน้าลุย!" ในวันที่ 16 มกราคม 2020 เวลา 11:00 - 17:00 น. ตามเวลาท้องถิ่นไม่ว่าคุณจะอยู่ที่ใด สามารถดูรายละเอียดได้ที่ข่าวสารในเกม
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+คุณต้องเล่นเกมในช่วงเวลาที่กำหนดเพื่อรับโบนัสทั้งหมดจากอีเวนต์พิเศษ
 
 RESOURCE ID: general1.ticket.2_machop_title
-TEXT: Straight to the Top, Machop! Ticket
+TEXT: ตั๋ว "วันริกีเดินหน้าลุย!"
 
 RESOURCE ID: general1.ticket.2_title
 TEXT: ตั๋ว "ปักษาใจฉกาจ"
 
 RESOURCE ID: general_include
-TEXT: ถ่ายโอน
+TEXT: ยืนยัน
 
 RESOURCE ID: general_leave_out
-TEXT: ยกเลิก
+TEXT: ละเว้น
 
 RESOURCE ID: general_raid_error
 TEXT: เกิดข้อผิดพลาดในการตีบอส
@@ -5366,6 +5387,18 @@ TEXT: เพิ่มโอกาสได้รับโปเกมอนน�
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: Elesa Pose
 
+RESOURCE ID: m_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_spring2021gulpin_00_bundle_icon
+TEXT: Gulpin Hoodie Set
+
+RESOURCE ID: m_shirt_spring2021plusle_00_bundle_icon
+TEXT: Minun Sweater Set
+
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: อ๊ะ %PLAYERNAME%! ออกเดินทางไปตรวจสอบกันเถอะ! จะว่าไปเธอเคยได้ยินทำนองเพลงนี้ไหม?
 
@@ -5469,8 +5502,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: ชั่วโมงตีบอสเมก้า
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-11T00:37:14.795998
-at SHA cf7220018140265d1d1b1e6f06f2780dd0c56ba3
+TEXT: Built at 2021-03-18T01:18:07.681452
+at SHA f69791492e30d67ffc3ebb82715602273458d154
 Patch from: 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace, 0.203.0-SHA-d5885bda
 
 RESOURCE ID: milestone_rewards_title
@@ -5504,7 +5537,7 @@ RESOURCE ID: pokemon_info_caught_quest_referral
 TEXT: จับได้จากการทำภารกิจเชิญชวนเพื่อนสำเร็จ
 
 RESOURCE ID: pokemon_info_none_not_unique_transferable
-TEXT: There are no eligible Pokémon within your selection to be transferred.
+TEXT: ไม่มีโปเกมอนที่สามารถถ่ายโอนได้
 
 RESOURCE ID: pokemon_info_none_transferable
 TEXT: โปเกมอนทุกตัวไม่สามารถถ่ายโอนได้
@@ -11613,6 +11646,9 @@ TEXT: ตกลง
 
 RESOURCE ID: upmgmt_summary_thanks
 TEXT: ขอบคุณสำหรับการร้องเรียนของคุณ
+
+RESOURCE ID: waiting_for_referral_code_from_link
+TEXT: Looking for referral code from your link
 
 RESOURCE ID: water_type_event
 TEXT: ระลอกฉับพลัน: น้ำ

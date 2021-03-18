@@ -2474,6 +2474,12 @@ TEXT: Type Surge: Electric
 RESOURCE ID: error_generate_referral_code_failed
 TEXT: Failed to locate your referral code.
 
+RESOURCE ID: error_refresh_referral_code_failed
+TEXT: Your referral code could not be refreshed.
+
+RESOURCE ID: error_refresh_referral_code_in_cooldown
+TEXT: Your referral code cannot be refreshed right now. Please try again later.
+
 RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: Evolve Metang to get a Metagross that knows Meteor Mash
 
@@ -2786,6 +2792,18 @@ TEXT: Season of Legends
 RESOURCE ID: f_avatar_poses_bundle_pose_28
 TEXT: Elesa Pose
 
+RESOURCE ID: f_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_spring2021gulpin_00_bundle_icon
+TEXT: Gulpin Romper
+
+RESOURCE ID: f_shirt_spring2021plusle_00_bundle_icon
+TEXT: Minun Romper
+
 RESOURCE ID: fairy_type_event
 TEXT: Type Surge: Fairy
 
@@ -2797,6 +2815,9 @@ TEXT: Type Surge: Fire
 
 RESOURCE ID: flying_type_event
 TEXT: Type Surge: Flying
+
+RESOURCE ID: found_referral_code_from_link
+TEXT: Found a referral code from your link!
 
 RESOURCE ID: gbl_pokemon_featured
 TEXT: Featured Pokémon in GO Battle League reward encounters
@@ -2826,10 +2847,10 @@ RESOURCE ID: general1.ticket.2_title
 TEXT: The Bravest Bird Ticket
 
 RESOURCE ID: general_include
-TEXT: TRANSFER
+TEXT: INCLUDE
 
 RESOURCE ID: general_leave_out
-TEXT: CANCEL
+TEXT: LEAVE OUT
 
 RESOURCE ID: general_raid_error
 TEXT: There was an error with the raid.
@@ -5372,6 +5393,18 @@ TEXT: Increased chance for Lucky Pokémon in trades
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: Elesa Pose
 
+RESOURCE ID: m_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_spring2021gulpin_00_bundle_icon
+TEXT: Gulpin Hoodie Set
+
+RESOURCE ID: m_shirt_spring2021plusle_00_bundle_icon
+TEXT: Minun Sweater Set
+
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: Ah, %PLAYERNAME%! Glad to have you aboard this expedition. Say, have you ever heard this particular tune?
 
@@ -5475,8 +5508,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: Mega Raid Hour
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-11T00:37:14.795998
-at SHA cf7220018140265d1d1b1e6f06f2780dd0c56ba3
+TEXT: Built at 2021-03-18T01:18:07.681452
+at SHA f69791492e30d67ffc3ebb82715602273458d154
 Patch from: 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace, 0.203.0-SHA-d5885bda
 
 RESOURCE ID: milestone_rewards_title
@@ -5522,7 +5555,7 @@ RESOURCE ID: pokemon_info_caught_quest_referral
 TEXT: CAUGHT AFTER COMPLETING A REFERRAL MILESTONE
 
 RESOURCE ID: pokemon_info_none_not_unique_transferable
-TEXT: There are no eligible Pokémon within your selection to be transferred.
+TEXT: The selected Pokémon cannot be transferred.
 
 RESOURCE ID: pokemon_info_none_transferable
 TEXT: None of the selected Pokémon can be transferred.
@@ -11629,6 +11662,9 @@ TEXT: OK
 
 RESOURCE ID: upmgmt_summary_thanks
 TEXT: Thank you for your contribution.
+
+RESOURCE ID: waiting_for_referral_code_from_link
+TEXT: Looking for referral code from your link
 
 RESOURCE ID: water_type_event
 TEXT: Type Surge: Water

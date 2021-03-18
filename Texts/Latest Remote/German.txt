@@ -2456,6 +2456,12 @@ TEXT: Typ-Alarm: Elektro
 RESOURCE ID: error_generate_referral_code_failed
 TEXT: Dein Empfehlungscode konnte nicht gefunden werden.
 
+RESOURCE ID: error_refresh_referral_code_failed
+TEXT: Dein Empfehlungscode konnte nicht aktualisiert werden.
+
+RESOURCE ID: error_refresh_referral_code_in_cooldown
+TEXT: Dein Empfehlungscode kann derzeit nicht aktualisiert werden. Bitte versuche es später noch einmal.
+
 RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: Entwickle Metang, um ein Metagross zu erhalten, das Sternenhieb beherrscht.
 
@@ -2768,6 +2774,18 @@ TEXT: Legendäre Jahreszeit
 RESOURCE ID: f_avatar_poses_bundle_pose_28
 TEXT: Kamilla-Pose
 
+RESOURCE ID: f_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_spring2021gulpin_00_bundle_icon
+TEXT: Gulpin Romper
+
+RESOURCE ID: f_shirt_spring2021plusle_00_bundle_icon
+TEXT: Minun Romper
+
 RESOURCE ID: fairy_type_event
 TEXT: Typ-Alarm: Fee
 
@@ -2779,6 +2797,9 @@ TEXT: Typ-Alarm: Feuer
 
 RESOURCE ID: flying_type_event
 TEXT: Typ-Alarm: Flug
+
+RESOURCE ID: found_referral_code_from_link
+TEXT: Found a referral code from your link!
 
 RESOURCE ID: gbl_pokemon_featured
 TEXT: Pokémon als Belohnung in GO-Kampfliga-Begegnungen
@@ -2808,10 +2829,10 @@ RESOURCE ID: general1.ticket.2_title
 TEXT: Ticket: Der frühe Vogel
 
 RESOURCE ID: general_include
-TEXT: VERSCHICKEN
+TEXT: EINSCHLIESSEN
 
 RESOURCE ID: general_leave_out
-TEXT: ABBRECHEN
+TEXT: WEGLASSEN
 
 RESOURCE ID: general_raid_error
 TEXT: Beim Raid gab es einen Fehler.
@@ -5351,6 +5372,18 @@ TEXT: Erhöhte Chance Glücks-Pokémon durch Tauschen zu erhalten
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: Kamilla-Pose
 
+RESOURCE ID: m_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_spring2021gulpin_00_bundle_icon
+TEXT: Gulpin Hoodie Set
+
+RESOURCE ID: m_shirt_spring2021plusle_00_bundle_icon
+TEXT: Minun Sweater Set
+
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: Ah, %PLAYERNAME%! Ich bin froh, dich auf dieser Expedition dabei zu haben. Hast du jemals diese Melodie gehört?
 
@@ -5454,8 +5487,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: Mega-Raid-Stunde
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-11T00:37:14.795998
-at SHA cf7220018140265d1d1b1e6f06f2780dd0c56ba3
+TEXT: Built at 2021-03-18T01:18:07.681452
+at SHA f69791492e30d67ffc3ebb82715602273458d154
 Patch from: 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace, 0.203.0-SHA-d5885bda
 
 RESOURCE ID: milestone_rewards_title
@@ -5486,7 +5519,7 @@ RESOURCE ID: pokemon_info_caught_quest_referral
 TEXT: GEFANGEN NACH DEM ERREICHEN EINES EMPFEHLUNGS-MEILENSTEINS
 
 RESOURCE ID: pokemon_info_none_not_unique_transferable
-TEXT: There are no eligible Pokémon within your selection to be transferred.
+TEXT: Keins der ausgewählten Pokémon kann verschickt werden.
 
 RESOURCE ID: pokemon_info_none_transferable
 TEXT: Keines der ausgewählten Pokémon kann verschickt werden.
@@ -11581,6 +11614,9 @@ TEXT: O. K.
 
 RESOURCE ID: upmgmt_summary_thanks
 TEXT: Danke für deinen Beitrag.
+
+RESOURCE ID: waiting_for_referral_code_from_link
+TEXT: Looking for referral code from your link
 
 RESOURCE ID: water_type_event
 TEXT: Typ-Alarm: Wasser

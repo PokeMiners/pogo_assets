@@ -2465,6 +2465,12 @@ TEXT: Type Surge: Electric
 RESOURCE ID: error_generate_referral_code_failed
 TEXT: 리퍼럴 코드를 취득할 수 없었습니다.
 
+RESOURCE ID: error_refresh_referral_code_failed
+TEXT: 리퍼럴 코드를 갱신하지 못했습니다. 
+
+RESOURCE ID: error_refresh_referral_code_in_cooldown
+TEXT: 리퍼럴 코드를 갱신하지 못했습니다. 잠시 후 다시 시도해 주십시오.
+
 RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: 메탕구를 메타그로스로 진화시키면 코멧펀치를 배운다
 
@@ -2777,6 +2783,18 @@ TEXT: 레전드 시즌
 RESOURCE ID: f_avatar_poses_bundle_pose_28
 TEXT: 카밀레
 
+RESOURCE ID: f_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_spring2021gulpin_00_bundle_icon
+TEXT: 꼴깍몬 점프 슈트
+
+RESOURCE ID: f_shirt_spring2021plusle_00_bundle_icon
+TEXT: 마이농 점프 슈트
+
 RESOURCE ID: fairy_type_event
 TEXT: Type Surge: Fairy
 
@@ -2788,6 +2806,9 @@ TEXT: Type Surge: Fire
 
 RESOURCE ID: flying_type_event
 TEXT: Type Surge: Flying
+
+RESOURCE ID: found_referral_code_from_link
+TEXT: Found a referral code from your link!
 
 RESOURCE ID: gbl_pokemon_featured
 TEXT: GO배틀리그 리워드로 주목 포켓몬을 만날 수 있다
@@ -2817,10 +2838,10 @@ RESOURCE ID: general1.ticket.2_title
 TEXT: 울새포켓몬의 수수께끼를 풀어라! 티켓
 
 RESOURCE ID: general_include
-TEXT: 보내기
+TEXT: 포함한다
 
 RESOURCE ID: general_leave_out
-TEXT: 취소
+TEXT: 포함하지 않는다
 
 RESOURCE ID: general_raid_error
 TEXT: 레이드에 오류가 있습니다.
@@ -5366,6 +5387,18 @@ TEXT: 교환으로 반짝반짝 포켓몬 가능성 증가
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: 카밀레
 
+RESOURCE ID: m_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_spring2021gulpin_00_bundle_icon
+TEXT: 꼴깍몬 후드 세트
+
+RESOURCE ID: m_shirt_spring2021plusle_00_bundle_icon
+TEXT: 마이농 스프링 니트 세트
+
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: 안녕, %PLAYERNAME%! 어서 조사를 해볼까! 그 전에... 다다다두 다디 다~듀~~
 
@@ -5469,8 +5502,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: 메가 레이드 아워
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-11T00:37:14.795998
-at SHA cf7220018140265d1d1b1e6f06f2780dd0c56ba3
+TEXT: Built at 2021-03-18T01:18:07.681452
+at SHA f69791492e30d67ffc3ebb82715602273458d154
 Patch from: 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace, 0.203.0-SHA-d5885bda
 
 RESOURCE ID: milestone_rewards_title
@@ -11718,6 +11751,9 @@ TEXT: OK
 
 RESOURCE ID: upmgmt_summary_thanks
 TEXT: 감사합니다.
+
+RESOURCE ID: waiting_for_referral_code_from_link
+TEXT: Looking for referral code from your link
 
 RESOURCE ID: water_type_event
 TEXT: Type Surge: Water

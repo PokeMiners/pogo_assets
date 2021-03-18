@@ -2463,7 +2463,7 @@ RESOURCE ID: combat_gotour_kanto_cup
 TEXT: Coppa Tour GO di Kanto
 
 RESOURCE ID: community_day_fletchling_event_name
-TEXT: Community Day: Fletchling
+TEXT: Community Day dedicato a Fletchling
 
 RESOURCE ID: community_day_roselia_event_name
 TEXT: Community Day dedicato a Roselia
@@ -2497,6 +2497,12 @@ TEXT: Invasione di tipo Elettro
 
 RESOURCE ID: error_generate_referral_code_failed
 TEXT: Impossibile individuare il tuo codice d’invito.
+
+RESOURCE ID: error_refresh_referral_code_failed
+TEXT: Non è stato possibile aggiornare il tuo codice d’invito.
+
+RESOURCE ID: error_refresh_referral_code_in_cooldown
+TEXT: Al momento il tuo codice d’invito non può essere aggiornato. Riprova più tardi.
 
 RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: Fai evolvere Metang per ottenere un Metagross che conosce Meteorpugno
@@ -2813,6 +2819,18 @@ TEXT: Camelia
 RESOURCE ID: f_glasses_lv40glasses_00
 TEXT: occhiali livello 41
 
+RESOURCE ID: f_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: f_shirt_spring2021gulpin_00_bundle_icon
+TEXT: Gulpin Romper
+
+RESOURCE ID: f_shirt_spring2021plusle_00_bundle_icon
+TEXT: Minun Romper
+
 RESOURCE ID: fairy_type_event
 TEXT: Invasione di tipo Folletto
 
@@ -2824,6 +2842,9 @@ TEXT: Invasione di tipo Fuoco
 
 RESOURCE ID: flying_type_event
 TEXT: Invasione di tipo Volante
+
+RESOURCE ID: found_referral_code_from_link
+TEXT: Found a referral code from your link!
 
 RESOURCE ID: gbl_pokemon_featured
 TEXT: Ricompense della Lega Lotte GO con incontri con i Pokémon protagonisti dell’evento
@@ -2853,10 +2874,10 @@ RESOURCE ID: general1.ticket.2_title
 TEXT: Biglietto: Un coraggioso volatile
 
 RESOURCE ID: general_include
-TEXT: TRASFERISCI
+TEXT: INCLUDI
 
 RESOURCE ID: general_leave_out
-TEXT: ANNULLA
+TEXT: ESCLUDI
 
 RESOURCE ID: general_raid_error
 TEXT: Si è verificato un errore con il raid.
@@ -5402,6 +5423,18 @@ TEXT: Camelia
 RESOURCE ID: m_hat_lvl50cap_0
 TEXT: cappello livello 45
 
+RESOURCE ID: m_shirt_holifestival2021black_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_holifestival2021white_00_bundle_icon
+TEXT: Festival of Colors T-Shirt
+
+RESOURCE ID: m_shirt_spring2021gulpin_00_bundle_icon
+TEXT: Gulpin Hoodie Set
+
+RESOURCE ID: m_shirt_spring2021plusle_00_bundle_icon
+TEXT: Minun Sweater Set
+
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: Ah, %PLAYERNAME%! Che bello poter contare su di te per quest’avventura. Dimmi, ti dice niente questo motivetto?
 
@@ -5505,8 +5538,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: ora dei megaraid
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-03-11T00:37:14.795998
-at SHA cf7220018140265d1d1b1e6f06f2780dd0c56ba3
+TEXT: Built at 2021-03-18T01:18:07.681452
+at SHA f69791492e30d67ffc3ebb82715602273458d154
 Patch from: 0.201.0-SHA-f3ff6052, 0.201.1-SHA-034a4ace, 0.203.0-SHA-d5885bda
 
 RESOURCE ID: milestone_rewards_title
@@ -5515,6 +5548,9 @@ TEXT: RICOMPENSE DA OBIETTIVO
 RESOURCE ID: mini_collection_feb21_vday_event
 TEXT: Collezione di San Valentino 2021
 
+RESOURCE ID: mini_collection_jan21_gen2_legend_event
+TEXT: Collezione leggendaria dei festeggiamenti di Johto
+
 RESOURCE ID: normal_type_event
 TEXT: Invasione di tipo Normale
 
@@ -5522,7 +5558,7 @@ RESOURCE ID: photobomb_five_abra
 TEXT: Cinque incontri a sorpresa con Abra in modalità foto GO
 
 RESOURCE ID: photobomb_five_fletchling
-TEXT: 5 surprise encounters with Fletchling in GO Snapshot
+TEXT: Cinque incontri a sorpresa con Fletchling in modalità foto GO
 
 RESOURCE ID: photobomb_five_roselia
 TEXT: Cinque incontri a sorpresa con Roselia in modalità foto GO
@@ -5546,7 +5582,7 @@ RESOURCE ID: pokemon_info_caught_quest_referral
 TEXT: CATTURATO DOPO AVER COMPLETATO UN OBIETTIVO DA INVITO
 
 RESOURCE ID: pokemon_info_none_not_unique_transferable
-TEXT: There are no eligible Pokémon within your selection to be transferred.
+TEXT: I Pokémon selezionati non possono essere trasferiti.
 
 RESOURCE ID: pokemon_info_none_transferable
 TEXT: Nessuno dei Pokémon selezionati può essere trasferito.
@@ -6394,6 +6430,9 @@ TEXT: Fai evolvere 1 Slugma
 RESOURCE ID: quest_evolve_smoochum_singular
 TEXT: Fai evolvere 1 Smoochum
 
+RESOURCE ID: quest_evolve_sneasel_singular
+TEXT: Fai evolvere uno Sneasel
+
 RESOURCE ID: quest_evolve_snivy_singular
 TEXT: Fai evolvere 1 Snivy
 
@@ -6635,7 +6674,7 @@ RESOURCE ID: quest_kanto_green_sandshrew
 TEXT: Tour GO: cattura Sandshrew
 
 RESOURCE ID: quest_kanto_green_vulpix
-TEXT: Tour GO: cattura Vulpix da scambiare
+TEXT: Tour GO: cattura Vulpix
 
 RESOURCE ID: quest_kanto_hatch_plural
 TEXT: Tour GO di Kanto: fai schiudere {0} Uova
@@ -6944,7 +6983,7 @@ RESOURCE ID: quest_special_dialogue_season2_1_3
 TEXT: Questa prima storia racconta di un Pokémon leggendario chiamato Landorus. Secondo la storia, le terre visitate da Landorus produrrebbero raccolti così abbondanti che viene visto come una benedizione per i campi.
 
 RESOURCE ID: quest_special_dialogue_season2_1_4
-TEXT: Landorus sembra avere due forme: la Forma Incarnazione, e la più rara Forma Totem. Ho sicuramente visto questo Pokémon nel mio sogno, anche se adesso mi sembra tutto più nebbioso...
+TEXT: Landorus sembra avere due forme: la Forma Incarnazione, e la più rara Forma Totem. Non sono riuscito a trovare alcuna immagine che ritragga quest’ultima, ma tutte le fonti che ho consultato sono concordi sulla sua sua esistenza.
 
 RESOURCE ID: quest_special_dialogue_season2_1_5
 TEXT: Per adesso, perché non facciamo un po’ di ricerche sui Pokémon di tipo Terra? Forse così facendo possiamo essere più preparati a identificare la Forma Totem di Landorus quando verrà il momento.
@@ -6983,7 +7022,7 @@ RESOURCE ID: quest_special_dialogue_season2_3_5
 TEXT: Per adesso, continuiamo la nostra ricerca e rivolgiamo la nostra attenzione all’ultimo dei tre Pokémon leggendari di Unima descritti in quelle storie: Thundurus.
 
 RESOURCE ID: quest_special_dialogue_season2_3_6
-TEXT: Thundurus è conosciuto come il Pokémon Fulminante e la sua storia fa riferimento anche alla Forma Incarnazione e la Forma Totem. Si dice lanci poderose scariche elettriche dagli aculei della coda.
+TEXT: Thundurus è conosciuto come il Pokémon Fulminante e anche la sua storia fa riferimento alla Forma Incarnazione e alla Forma Totem. Si dice lanci poderose scariche elettriche dagli aculei della coda.
 
 RESOURCE ID: quest_special_dialogue_season2_3_7
 TEXT: Per non lasciare niente al caso, assicuriamoci anche di raccogliere informazioni sui Pokémon di tipo Elettro nella zona, mentre compiliamo i nostri appunti su Thundurus.
@@ -11621,7 +11660,7 @@ RESOURCE ID: shop_exchange_for_suffix
 TEXT: 
 
 RESOURCE ID: spawn_fletchling
-TEXT: More Fletchling are appearing in the wild
+TEXT: Più Fletchling fanno capolino allo stato selvatico
 
 RESOURCE ID: spawn_roselia
 TEXT: Più Roselia fanno capolino allo stato selvatico
@@ -11630,7 +11669,7 @@ RESOURCE ID: steel_type_event
 TEXT: Invasione di tipo Acciaio
 
 RESOURCE ID: ticket_fletchling
-TEXT: Tickets for The Bravest Bird Special Research story available in the shop
+TEXT: I biglietti per la ricerca speciale intitolata “Un coraggioso volatile” sono disponibili nel negozio
 
 RESOURCE ID: ticket_roselia
 TEXT: Biglietti per la ricerca speciale disponibili nel negozio
@@ -11667,6 +11706,12 @@ TEXT: I Pokémon del tipo di quelli protagonisti dell’evento appariranno più 
 
 RESOURCE ID: unfriend_niantic_friend_tip
 TEXT: Se rimuovi l'amico che hai selezionato da questo gioco Niantic, verrà rimosso anche da tutti gli altri ai quali giocate insieme.
+
+RESOURCE ID: upload_mgmt_ar_scans
+TEXT: Scansioni Pokéstop: {0}
+
+RESOURCE ID: upload_mgmt_cancel_all
+TEXT: ANNULLA TUTTO
 
 RESOURCE ID: upload_mgmt_confirm_delete_individual
 TEXT: Vuoi cancellare questo contributo?
@@ -11723,7 +11768,7 @@ RESOURCE ID: upmgmt_main_menu_uploaded
 TEXT: CARICATI: ({0})
 
 RESOURCE ID: upmgmt_main_menu_uploading_plural
-TEXT: In caricamento ({0})
+TEXT: IN CARICAMENTO ({0})
 
 RESOURCE ID: upmgmt_main_nominations_header
 TEXT: Candidature Pokéstop: {0}
@@ -11732,7 +11777,7 @@ RESOURCE ID: upmgmt_main_retry_individual
 TEXT: RIPROVA
 
 RESOURCE ID: upmgmt_main_scans_header
-TEXT: Scansioni AR: {0}
+TEXT: Scansioni Pokéstop: {0}
 
 RESOURCE ID: upmgmt_main_upload_failed
 TEXT: Caricamento non riuscito
@@ -11744,7 +11789,7 @@ RESOURCE ID: upmgmt_main_waiting_upload_msg
 TEXT: In attesa di caricamento
 
 RESOURCE ID: upmgmt_settings_cancel_all
-TEXT: ANNULLA CARICAMENTO
+TEXT: ANNULLA TUTTO
 
 RESOURCE ID: upmgmt_settings_header
 TEXT: CONTRIBUTO POKÉSTOP
@@ -11796,6 +11841,9 @@ TEXT: Caricamento completato
 
 RESOURCE ID: upmgmt_summary_thanks
 TEXT: Grazie per il tuo contributo.
+
+RESOURCE ID: waiting_for_referral_code_from_link
+TEXT: Looking for referral code from your link
 
 RESOURCE ID: water_type_event
 TEXT: Invasione di tipo Acqua
