@@ -26,10 +26,10 @@ RESOURCE ID: __backup__
 TEXT: 厲害！看來你捉到 {1} 屬性的 {0} 了！
 
 RESOURCE ID: __female_speaker
-TEXT: 使出招式時記得要選擇能剋住對手的屬性！
+TEXT: Make sure to use attacks your opponent’s Pokémon are weak to!
 
 RESOURCE ID: __male_speaker
-TEXT: 使出招式時記得要選擇能剋住對手的屬性！
+TEXT: Make sure to use attacks your opponent’s Pokémon are weak to!
 
 RESOURCE ID: about_screen_btn
 TEXT: 關於 Pokémon GO
@@ -86,7 +86,7 @@ RESOURCE ID: ad_feedback_complaint_reason_offensive
 TEXT: I find it offensive
 
 RESOURCE ID: ad_feedback_complaint_reason_political
-TEXT: It refers to a political candidate or issue
+TEXT: 和選舉候選人或政治議題相關
 
 RESOURCE ID: ad_feedback_complaint_reason_scam_or_misleading
 TEXT: It’s a scam or misleading
@@ -1042,6 +1042,9 @@ TEXT: 飄飄球帽
 RESOURCE ID: avatar_f_hat_eeveecap_0_bundle_icon
 TEXT: 伊布帽
 
+RESOURCE ID: avatar_f_hat_elesa_00_bundle_icon
+TEXT: 小菊兒耳機
+
 RESOURCE ID: avatar_f_hat_empty_bundle_icon
 TEXT: 不戴帽子
 
@@ -1347,6 +1350,9 @@ TEXT: 隨風球T恤
 
 RESOURCE ID: avatar_f_shirt_earthday_2018_bundle_icon
 TEXT: 藍海衝浪T
+
+RESOURCE ID: avatar_f_shirt_elesa_00_bundle_icon
+TEXT: 小菊兒長上衣
 
 RESOURCE ID: avatar_f_shirt_fragment_bundle_icon
 TEXT: HF設計師聯名款T恤
@@ -1654,6 +1660,9 @@ TEXT: 慢跑鞋
 RESOURCE ID: avatar_f_shoes_delibird_0_bundle_icon
 TEXT: 信使鳥短靴
 
+RESOURCE ID: avatar_f_shoes_elesa_00_bundle_icon
+TEXT: 小菊兒運動鞋
+
 RESOURCE ID: avatar_f_shoes_empty_bundle_icon
 TEXT: 不穿鞋子
 
@@ -1787,7 +1796,7 @@ RESOURCE ID: avatar_halloween
 TEXT: 萬聖節
 
 RESOURCE ID: avatar_hat_gotour_kanto_bundle_icon
-TEXT: GO Tour棒球帽
+TEXT: GO Tour Hat
 
 RESOURCE ID: avatar_hats
 TEXT: 帽子
@@ -2011,6 +2020,9 @@ TEXT: 飄飄球帽
 RESOURCE ID: avatar_m_hat_eeveecap_0_bundle_icon
 TEXT: 伊布帽
 
+RESOURCE ID: avatar_m_hat_elesa_00_bundle_icon
+TEXT: 小菊兒耳機
+
 RESOURCE ID: avatar_m_hat_empty_bundle_icon
 TEXT: 不戴帽子
 
@@ -2185,6 +2197,9 @@ TEXT: N風長褲
 RESOURCE ID: avatar_m_pants_default_bundle_icon
 TEXT: 訓練家短褲
 
+RESOURCE ID: avatar_m_pants_elesa_00_bundle_icon
+TEXT: 小菊兒長褲
+
 RESOURCE ID: avatar_m_pants_fisher_bundle_icon
 TEXT: 釣魚者長褲
 
@@ -2310,6 +2325,9 @@ TEXT: 隨風球T恤
 
 RESOURCE ID: avatar_m_shirt_earthday_2018_bundle_icon
 TEXT: 藍海衝浪T
+
+RESOURCE ID: avatar_m_shirt_elesa_00_bundle_icon
+TEXT: 小菊兒上衣
 
 RESOURCE ID: avatar_m_shirt_fisher_bundle_icon
 TEXT: 釣魚者背心
@@ -2620,6 +2638,9 @@ TEXT: 慢跑鞋
 RESOURCE ID: avatar_m_shoes_delibird_0_bundle_icon
 TEXT: 信使鳥短靴
 
+RESOURCE ID: avatar_m_shoes_elesa_00_bundle_icon
+TEXT: 小菊兒運動鞋
+
 RESOURCE ID: avatar_m_shoes_empty_bundle_icon
 TEXT: 不穿鞋子
 
@@ -2753,7 +2774,7 @@ RESOURCE ID: avatar_seasonal
 TEXT: Pokémon GO Tour：關都地區
 
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
-TEXT: 異色夢幻T恤
+TEXT: Shiny Mew Shirt
 
 RESOURCE ID: avatar_shoes
 TEXT: 鞋子
@@ -4121,10 +4142,10 @@ RESOURCE ID: badge_unown_value_format
 TEXT: N0
 
 RESOURCE ID: badge_wayfarer
-TEXT: 獲得 {0} 個Wayfarer Agreement
+TEXT: Earn {0} Wayfarer Agreements
 
 RESOURCE ID: badge_wayfarer_singular
-TEXT: 獲得1個Wayfarer Agreement
+TEXT: Earn a Wayfarer Agreement
 
 RESOURCE ID: badge_wayfarer_title
 TEXT: Wayfarer
@@ -4256,9 +4277,19 @@ TEXT: <size=36>確定要將這 {0} 隻寶可夢傳送給博士嗎？</size>
 傳送開始後將無法取消。
 
 RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Only {0} eligible Pokémon can be transferred to the professor.</b></size>
+TEXT: <size=36><b>目前選擇的寶可夢中，只有 {0} 隻能傳送給博士。</b></size>
 
-Any Pokémon not eligible to be transferred will remain in storage. Transferred Pokémon cannot be reclaimed.
+無法傳送的寶可夢將會留在盒子裡。寶可夢傳送給博士後將無法取消。
+
+RESOURCE ID: batch_transfer_eligible_confirm_plural
+TEXT: <size=36><b>目前選擇的寶可夢中，只有 {0} 隻能傳送給博士。</b></size>
+
+無法傳送的寶可夢將會留在盒子裡。寶可夢傳送給博士後將無法取消。
+
+RESOURCE ID: batch_transfer_eligible_confirm_singular
+TEXT: <size=36><b>Only 1 of the selected Pokémon can be transferred to the professor.</b></size>
+
+Any Pokémon that can’t be transferred will remain in your Pokémon storage. Transferred Pokémon cannot be reclaimed.
 
 RESOURCE ID: batch_transfer_header
 TEXT: 選擇寶可夢
@@ -4267,22 +4298,22 @@ RESOURCE ID: batch_transfer_result
 TEXT: 收到博士送來的糖果
 
 RESOURCE ID: batch_transfer_unique_event_pokemon
-TEXT: {0} Event Pokémon
+TEXT: {0} 隻特殊寶可夢
 
 RESOURCE ID: batch_transfer_unique_included
-TEXT: Unique Pokémon are included.
+TEXT: 你選擇的寶可夢裡包含了傳說的寶可夢、幻之寶可夢或是其他活動寶可夢！
 
 RESOURCE ID: batch_transfer_unique_legendary_or_mythical_pokemon
-TEXT: {0} Legendary or Mythical Pokémon
+TEXT: {0} 隻傳說的寶可夢／幻之寶可夢
 
 RESOURCE ID: batch_transfer_unique_not_included
-TEXT: Unique Pokémon are not included.
+TEXT: 你選擇的寶可夢裡未包含傳說的寶可夢、幻之寶可夢或是其他活動寶可夢。
 
 RESOURCE ID: batch_transfer_unique_warning_message
-TEXT: Are you sure you want to transfer these Pokémon to the professor?
+TEXT: 確定要將這些寶可夢傳送給博士嗎？
 
 RESOURCE ID: batch_transfer_unique_warning_title
-TEXT: Your Selection Contains Unique Pokémon:
+TEXT: 你所選擇的寶可夢：
 
 RESOURCE ID: battle_charged_move_callout
 TEXT: {0} 使出了
@@ -6764,6 +6795,9 @@ TEXT: 一起玩
 RESOURCE ID: buddy_consumables_journal
 TEXT: 你的夥伴為你找到了一個禮物！
 
+RESOURCE ID: buddy_description
+TEXT: 選擇一隻寶可夢做為你的夥伴，當你們的感情越好，牠就會帶禮物來給你。
+
 RESOURCE ID: buddy_detail_basic_buddy
 TEXT: 提升友誼等級後，將可獲得來自夥伴的謝禮！點擊心型圖示，確認細節。
 
@@ -6796,6 +6830,9 @@ TEXT: 尋找位置
 
 RESOURCE ID: buddy_detail_souvenir
 TEXT: 尋找紀念品
+
+RESOURCE ID: buddy_feature_name
+TEXT: 和夥伴一起冒險
 
 RESOURCE ID: buddy_feed_stop_content
 TEXT: 夥伴的肚子還是很餓，沒辦法陪你一起走路
@@ -8073,6 +8110,9 @@ TEXT: 變更自己的訓練家代碼
 RESOURCE ID: charge_tm_used_on_shadow_pokemon
 TEXT: 無法對暗影寶可夢使用特殊招式學習器
 
+RESOURCE ID: charge_up_event_name
+TEXT: 電力十足
+
 RESOURCE ID: chicago_fest_july_2017_title
 TEXT: Pokémon GO Fest
 
@@ -8906,7 +8946,7 @@ RESOURCE ID: collect_ar_data_title
 TEXT: 收集AR資料
 
 RESOURCE ID: collection_challenge_event
-TEXT: Event-themed Collection Challenge
+TEXT: 活動主題收藏家挑戰
 
 RESOURCE ID: coloss_2019_new_friend_medium
 TEXT: 巨大的探索：和一位訓練家成為朋友
@@ -9140,7 +9180,7 @@ RESOURCE ID: combat_go
 TEXT: GO!
 
 RESOURCE ID: combat_gotour_kanto_cup
-TEXT: GO Tour：關都盃
+TEXT: GO Tour: Kanto Cup
 
 RESOURCE ID: combat_great_league
 TEXT: 超級聯盟
@@ -9606,7 +9646,7 @@ RESOURCE ID: community_day_event_name
 TEXT: 社群日
 
 RESOURCE ID: community_day_fletchling_event_name
-TEXT: Community Day: Fletchling
+TEXT: 社群日：小箭雀
 
 RESOURCE ID: community_day_gastly_event_name
 TEXT: 社群日：鬼斯
@@ -9708,7 +9748,7 @@ RESOURCE ID: days_and_hours
 TEXT: {0}日{1}小時
 
 RESOURCE ID: december_cd_event_ticket
-TEXT: 十二月社群日入場券
+TEXT: 「燃燒吧！鴨嘴火獸！」入場券
 
 RESOURCE ID: decline_action_label
 TEXT: 拒絕
@@ -10377,7 +10417,7 @@ RESOURCE ID: error_social_player_banned
 TEXT: 無法使用此功能
 
 RESOURCE ID: error_sponsored_gift_already_opened
-TEXT: 已經開過這個禮物了
+TEXT: You have already opened this Gift
 
 RESOURCE ID: error_start_raid_battle
 TEXT: 進入團體戰時出現錯誤
@@ -10411,6 +10451,9 @@ TEXT: 讓勇基拉進化成胡地後，牠就能學會雙倍奉還
 
 RESOURCE ID: event_move_ampharos_dragon_pulse
 TEXT: 讓茸茸羊進化成電龍，牠就能學會龍之波動
+
+RESOURCE ID: event_move_metagross_meteor_mash
+TEXT: Evolve Metang to get a Metagross that knows Meteor Mash
 
 RESOURCE ID: event_name_bonus_generic
 TEXT: 額外獎勵活動
@@ -10721,6 +10764,9 @@ TEXT: 成功登入 {0} 了！
 RESOURCE ID: event_season1_name
 TEXT: 慶祝的季節
 
+RESOURCE ID: event_season2_name
+TEXT: 傳說的季節
+
 RESOURCE ID: event_sinnoh_celebration
 TEXT: 神奧慶典
 
@@ -10906,6 +10952,9 @@ TEXT: 等級43 姿勢
 
 RESOURCE ID: f_avatar_poses_bundle_pose_27
 TEXT: 魔牆人偶的姿勢
+
+RESOURCE ID: f_avatar_poses_bundle_pose_28
+TEXT: 小菊兒
 
 RESOURCE ID: f_avatar_poses_empty_bundle_pose_empty
 TEXT: 閒著
@@ -11810,9 +11859,9 @@ RESOURCE ID: general1.ticket.1_title
 TEXT: 伽勒爾魔牆人偶活動入場券
 
 RESOURCE ID: general1.ticket.2_description
-TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2021年1月16日11:00～17:00領取腕力社群日「腕力衝衝衝」的特殊調查。詳情請至遊戲內快訊確認。
+TEXT: 一張可以獲得三月社群日特殊調查的入場券。不論你身處世界何處，你都可以使用這張入場券在當地時間2021年3月6日11:00～17:00時領取三月社群日特殊調查。詳情請至遊戲內快訊確認。
 
-請務必在上述活動時間內完成活動指定的課題，以取得活動獎勵。
+ 請務必在上述活動時間內參與，以取得活動獎勵。
 
 RESOURCE ID: general1.ticket.2_description_2
 TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2020年11月21日11:00～17:00領取鴨嘴火獸社群日的特殊調查「燃燒吧！鴨嘴火獸！」。詳情請至遊戲內快訊確認。
@@ -11827,6 +11876,14 @@ TEXT: 一張可以獲得三月社群日特殊調查的入場券。不論你身�
 RESOURCE ID: general1.ticket.2_flett_title
 TEXT: 「最勇敢的小鳥」入場券
 
+RESOURCE ID: general1.ticket.2_machop_description
+TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2020年11月21日11:00～17:00領取鴨嘴火獸社群日的特殊調查「燃燒吧！鴨嘴火獸！」。詳情請至遊戲內快訊確認。
+
+請務必在上述活動時間內完成活動指定的課題，以取得活動獎勵。
+
+RESOURCE ID: general1.ticket.2_machop_title
+TEXT: 「燃燒吧！鴨嘴火獸！」入場券
+
 RESOURCE ID: general1.ticket.2_roset_description
 TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2021年2月7日11:00～17:00領取毒薔薇社群日的特殊調查「好一朵美麗的毒薔薇」。詳情請至遊戲內快訊確認。
 
@@ -11836,7 +11893,7 @@ RESOURCE ID: general1.ticket.2_roset_title
 TEXT: 「好一朵美麗的毒薔薇」入場券
 
 RESOURCE ID: general1.ticket.2_title
-TEXT: 「腕力衝衝衝」入場券
+TEXT: 「最勇敢的小鳥」入場券
 
 RESOURCE ID: general1.ticket.2_title_2
 TEXT: 「燃燒吧！鴨嘴火獸！」入場券
@@ -11918,7 +11975,7 @@ RESOURCE ID: general_hp
 TEXT: HP
 
 RESOURCE ID: general_include
-TEXT: INCLUDE
+TEXT: 傳送
 
 RESOURCE ID: general_kg
 TEXT: kg
@@ -11927,7 +11984,7 @@ RESOURCE ID: general_km
 TEXT: 公里
 
 RESOURCE ID: general_leave_out
-TEXT: LEAVE OUT
+TEXT: 取消
 
 RESOURCE ID: general_m
 TEXT: m
@@ -11959,6 +12016,9 @@ TEXT: 你的同行隊伍已經滿了
 RESOURCE ID: general_quit
 TEXT: 結束
 
+RESOURCE ID: general_raid_error
+TEXT: General raid error.
+
 RESOURCE ID: general_report_title
 TEXT: 回報問題
 
@@ -11978,7 +12038,7 @@ RESOURCE ID: general_total_caps
 TEXT: TOTAL
 
 RESOURCE ID: general_transfer
-TEXT: TRANSFER
+TEXT: 傳送
 
 RESOURCE ID: general_vs
 TEXT: VS
@@ -12733,25 +12793,25 @@ RESOURCE ID: gotour2021_content_hashtag
 TEXT: 在社群網站上分享照片時記得加上 #PokemonGOTour 標籤，我們會分享我們的最愛喔！
 
 RESOURCE ID: gotour2021_content_link_cerulean_city
-TEXT: Now：華藍市時間！
+TEXT: Now: Cerulean City hour!
 
 RESOURCE ID: gotour2021_content_link_fuchsia_city
-TEXT: Now：淺紅市時間！
+TEXT: Now: Fuchsia City hour!
 
 RESOURCE ID: gotour2021_content_link_green
 TEXT: 你選擇的是綠版
 
 RESOURCE ID: gotour2021_content_link_open
-TEXT: Now：所有活動主題寶可夢！
+TEXT: Now: All event-featured Pokémon!
 
 RESOURCE ID: gotour2021_content_link_pallet_town
-TEXT: Now：真新鎮時間！
+TEXT: Now: Pallet Town hour!
 
 RESOURCE ID: gotour2021_content_link_pewter_city
-TEXT: Now：深灰市時間！
+TEXT: Now: Pewter City hour!
 
 RESOURCE ID: gotour2021_content_link_pok_mon_league
-TEXT: Now：寶可夢聯盟時間！
+TEXT: Now: Pokémon League hour!
 
 RESOURCE ID: gotour2021_content_link_red
 TEXT: 你選擇的是紅版
@@ -12871,184 +12931,184 @@ RESOURCE ID: gotour_kanto_sr_title_8
 TEXT: GO Tour 關都地區：一個訓練家的冒險旅程 (8/8)
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_0
-TEXT: 嘿，%PLAYERNAME%！你看你看！
+TEXT: Hey there, %PLAYERNAME%! Check this out—I’ve been practicing.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_1
-TEXT: 歡迎來到的Pokémon GO的世界！我叫維羅，大家都叫我寶可夢博士！
+TEXT: Hello there! Welcome to the world of Pokémon GO! My name is Willow. People call me the Pokémon Prof!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_2
-TEXT: 在這個世界裡，到處都棲息著一種叫做寶可夢的生物！有些人會把牠們當做寵物來寵愛，也有人會指揮牠們來對戰。至於我嘛……則是專門在研究這些寶可夢。
+TEXT: This world is inhabited by creatures called Pokémon! Some people keep Pokémon as companions. Others have them do battle. Myself? I study Pokémon as a profession.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_3
-TEXT: 你還記得這幾句話嗎？這是我當年用來歡迎訓練家踏入關都地區的台詞。
+TEXT: Did that remind you of anyone? For many years, Trainers from Kanto have heard similar remarks before embarking on their journeys through the region.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_4
-TEXT: 你們今天即將展開以關都地區為主題的調查，所以我決定再次回顧當年的台詞。
+TEXT: I have the honor of making them today because you’re about to head out on your own Kanto-inspired journey.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_1_5
-TEXT: 為了讓你這趟旅程更加順利，我幫你準備了一些必要的道具。
+TEXT: But we can’t have you leaving unprepared! I’ve put together some supplies I think you’ll find useful.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_0
-TEXT: 樹果、傷藥和精靈球……看來你已經做好準備了！
+TEXT: Berries, Potions, and Poké Balls. Looks like you’re all set!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_1
-TEXT: 對了，在你出門之前，記得先模擬一下在關都地區的草叢裡捕捉寶可夢的情景。
+TEXT: As you begin today’s adventure, try to imagine you’re stepping straight into the tall grass of Kanto.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_2
-TEXT: 你一定能在這趟旅程中找到許多寶可夢！別忘了在路上多拍幾張照片啊！
+TEXT: I have a feeling you’ll meet a Pokémon that will make a wonderful partner on your journey. Be sure to take some snapshots of the Pokémon you encounter along the way!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_3
-TEXT: 那些照片不僅能成為調查的紀錄，同時也能為讓冒險的記憶更加鮮明。
+TEXT: On adventures, I find it’s helpful to document not only your findings but also your memories. And I’m sure you’ll make plenty of both!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_2_4
-TEXT: 讓我借用一下當年那位知名博士的台詞……從現在起，你的故事就要正式開始了！向著夢想與冒險的寶可夢世界出發吧！Let's GO!
+TEXT: Now, in the words of a wise professor: Your very own Pokémon legend is about to unfold! A world of dreams and adventures with Pokémon awaits! Let's GO!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_0
-TEXT: %PLAYERNAME%，路上一切都還順利嗎？看來你捉到不少寶可夢了呢。
+TEXT: How’s your journey going, %PLAYERNAME%? Oh! Found a partner Pokémon to join you, eh? Wonderful work.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_1
-TEXT: 在關都地區，訓練家們通常會從3隻寶可夢中選1隻寶可夢做為他們的第一個夥伴。
+TEXT: In the Kanto region, Trainers are often presented with three options when it comes to their first partner Pokémon.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_2
-TEXT: 首先是種子寶可夢妙蛙種子，寶可夢圖鑑上的第001號寶可夢。這隻寶可夢出生的時候背上就種著奇妙的種子。
+TEXT: The first is Bulbasaur, the Seed Pokémon, #001 in the Pokédex. This Grass-type Pokémon has a plant seed on its back right from the day it’s born.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_3
-TEXT: 另1隻則是蜥蜴寶可夢小火龍。牠是火屬性的寶可夢，尾巴上的火焰是牠的生命力的象徵。
+TEXT: Another option is Charmander, the Lizard Pokémon. It’s a Fire-type Pokémon, and it has a flame on its tail that shows the strength of its life force.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_4
-TEXT: 最後則是小龜寶可夢傑尼龜，牠是一隻水屬性寶可夢，龜甲出生後需要一段時間才會變硬。
+TEXT: Last—but certainly not least—is Squirtle, the Tiny Turtle Pokémon. After birth, this Water-type Pokémon's back swells and hardens into a shell.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_5
-TEXT: 我想要好好研究這3隻寶可夢的特徵……
+TEXT: Each of these Pokémon have their strengths and weaknesses, so be sure to study up! For now, though, it’s time to get back to your adventure.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_6
-TEXT: 不過既然要深入調查，我想今天是做不完的……
+TEXT: I’d like you to spend some time with your buddy. The relationship between a Trainer and their Pokémon is of utmost importance!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_3_7
-TEXT: 那就請你帶著你的夥伴寶可夢繼續做調查，交給你了！
+TEXT: How about going on a walk together? I always enjoy exploring with my buddy!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_0
-TEXT: 辛苦你了！你和夥伴的默契真好！
+TEXT: Wonderful work, Trainer! Glad to see you’re growing closer to your buddy. Keep it up, and you’ll become even closer in no time.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_1
-TEXT: 身為一個訓練家，捕捉寶可夢和磨鍊對戰技巧固然重要…
+TEXT: When it comes to being a Trainer, people often talk about catching techniques or battle strategies, but I find that friendship is just as essential.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_2
-TEXT: 但加深人類和寶可夢之間的友情，也是一樣重要的。
+TEXT: Not only are the relationships you build with your Pokémon incredibly important, but so are the friendships you build with other Trainers.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_3
-TEXT: 我希望你能和其他訓練家並肩合作，一起探索寶可夢的世界。
+TEXT: Your personal journeys and goals may vary, but at the end of the day, you’re all Trainers! You should do your best to connect with the other Trainers you meet on your travels.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_4_4
-TEXT: 你可以試著傳送友情禮物給朋友們，幫他們加油打氣。我想他們一定會很開心的！
+TEXT: In that spirit, how about sending your friends some Gifts to brighten their day? I’m sure they’d love to hear from you!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_0
-TEXT: 你回來啦！和其他訓練家的交流還愉快嗎？看來你有和其他人交換寶可夢呢！
+TEXT: Welcome back, Trainer! Hope you enjoyed connecting with other Trainers. I see you were even able to trade a few Pokémon!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_1
-TEXT: 當你找不到特定寶可夢時，交換通常會是一個很不錯的方法。
+TEXT: Trading is a fabulous way to acquire Pokémon you might not have otherwise encountered.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_2
-TEXT: 這不只能擴展你的寶可夢圖鑑，也能為你增添新朋友。
+TEXT: And not only do you get a new entry in your Pokédex, but you also get a new friend!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_3
-TEXT: 這是這趟旅程的折返點，我想你該好好發揮你身為訓練家的實力了！
+TEXT: You’ve already made great progress on your journey. I think it’s time to show off the skills you’ve learned along the way!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_4
-TEXT: 試著在捕捉寶可夢時使用樹果吧！
+TEXT: How about showcasing your throwing expertise by catching some Pokémon? Don’t forget to make use of your Berries, too.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_5_5
-TEXT: 我個人最推荐的是凰梨果，它不僅能幫你獲得更多糖果，而且還很好吃！
+TEXT: I’m especially fond of Pinap Berries. They help you earn extra Candy for the Pokémon you’re catching—and they’re tasty to boot!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_0
-TEXT: 我記得我有很多凰梨果啊……噢，%PLAYERNAME%你回來啦！
+TEXT: I’m sure I had a stash of Pinap Berries here somewhere... Oh! Welcome back, %PLAYERNAME%! Guess my snack will have to wait.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_1
-TEXT: 看來一切都超級順利呢！我都快要趕不上你的進度了！
+TEXT: I’ve been checking up on your progress, and I have to say, I’m very impressed! It seems there’s no challenge you can’t overcome.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_2
-TEXT: 你的實力真是太過堅強。
+TEXT: As I’m sure you know, a well-rounded Trainer needs to have a great team of Pokémon to battle against other Trainers or even challenge Pokémon in raids.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_3
-TEXT: 接下來也請你繼續做調查。噢，這次要麻煩你專注在寶可夢的強化和進化上。
+TEXT: I think this is a great time to power up some of your Pokémon and bolster your team.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_4
-TEXT: 我收到了一條線報，想要繼續追查一下。
+TEXT: While you focus on that, I’ll be looking into an interesting rumor I caught wind of.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_5
-TEXT: 你知道嗎，聽說有一隻寶可夢會變身成其他寶可夢！！
+TEXT: There have been reports of encounters with a Pokémon that’s able to transform into another Pokémon entirely. Fascinating stuff!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_6_6
-TEXT: 我會在你回來之前好好收集情報的。
+TEXT: I’ll be sure to share whatever I find when you return.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_0
-TEXT: 辛苦了！我調查之後發現，那隻能變身的寶可夢是百變怪。
+TEXT: Glad you’re back, Trainer. After looking into those reports, it certainly sounds like the work of Ditto, the Transformation Pokémon.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_1
-TEXT: 百變怪能夠藉由重組全身的細胞，變得與看到的東西一模一樣。
+TEXT: Ditto rearranges its cell structure to transform itself into other shapes. What an incredible Pokémon!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_2
-TEXT: 不過我總覺得哪裡怪怪的……光是百變怪出現的話，應該不會造成這麼大一場騷動。
+TEXT: However, there seems to be something more to this situation.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_3
-TEXT: 你可以去幫我再多捉一些寶可夢嗎？或許我們能找出什麼蛛絲馬跡。
+TEXT: Could you help me with some research so we can find out what exactly is going on?
 
 RESOURCE ID: gotour_kanto_srd_dialogue_7_4
-TEXT: 我這邊也會繼續做調查，看看能不能找到其他線索。
+TEXT: I’ll continue my work here to see if I can uncover some more information that might help us.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_0
-TEXT: %PLAYERNAME%，我聽說你遇見異色百變怪了！？真的假的！？
+TEXT: %PLAYERNAME%! Is it true?! You encountered a Shiny Ditto?! I’m stunned!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_1
-TEXT: 今天有太多驚人的發現了，你說是吧！
+TEXT: You’ve had quite the journey, haven’t you? It’s been a joy to follow your progress, as always.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_2
-TEXT: 雖然說現在還有一個謎團等著我們去解開……
+TEXT: Believe it or not, though, there’s still another mystery that needs solving.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_3
-TEXT: 我確認了一下你收集來的數據，我發現我們可能找到了新種寶可夢夢幻的相關情報……
+TEXT: You see, after looking over the research you’ve conducted, I think we might be on the trail of the New Species Pokémon, Mew.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_4
-TEXT: 我們以前曾經調查過夢幻，不過我覺得這次狀況似乎有些不一樣……
+TEXT: We've documented Mew in the past, but something’s different this time—though I can’t yet say what that is.
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_5
-TEXT: 這發現真叫人興奮！！要開始全新的調查嗎？當然沒問題！！
+TEXT: Whatever the case, I think it’s safe to say this is going to be a memorable adventure!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_6
-TEXT: 我想下一次調查一定會非常具有挑戰性，但你一定沒問題！
+TEXT: In the meantime, keep an eye out for another research assignment. I have a feeling this is going to be an especially challenging endeavor, but I’m sure you’re up to it!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_7
-TEXT: 不過我們今天就先到此為止吧。謝謝你陪我一起調查關都地區！
+TEXT: For now, though, I think congratulations are in order. You did a tremendous job on today’s Kanto-themed journey!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_8
-TEXT: 感謝你的幫忙。每個訓練家都讓我學到了好多。
+TEXT: I hope you were able to make some special memories with your Pokémon and fellow Trainers. Thanks again for all your help and hard work!
 
 RESOURCE ID: gotour_kanto_srd_dialogue_8_9
-TEXT: Let's GO!
+TEXT: Now, let’s GO!
 
 RESOURCE ID: gotour_kanto_srd_title
 TEXT: Pokémon GO Tour：關都地區
 
 RESOURCE ID: gotour_kanto_srd_title_1
-TEXT: Pokémon GO Tour：關都地區 (1/8)
+TEXT: Pokémon GO Tour: Kanto (1/8)
 
 RESOURCE ID: gotour_kanto_srd_title_2
-TEXT: Pokémon GO Tour：關都地區 (2/8)
+TEXT: Pokémon GO Tour: Kanto (2/8)
 
 RESOURCE ID: gotour_kanto_srd_title_3
-TEXT: Pokémon GO Tour：關都地區 (3/8)
+TEXT: Pokémon GO Tour: Kanto (3/8)
 
 RESOURCE ID: gotour_kanto_srd_title_4
-TEXT: Pokémon GO Tour：關都地區 (4/8)
+TEXT: Pokémon GO Tour: Kanto (4/8)
 
 RESOURCE ID: gotour_kanto_srd_title_5
-TEXT: Pokémon GO Tour：關都地區 (5/8)
+TEXT: Pokémon GO Tour: Kanto (5/8)
 
 RESOURCE ID: gotour_kanto_srd_title_6
-TEXT: Pokémon GO Tour：關都地區 (6/8)
+TEXT: Pokémon GO Tour: Kanto (6/8)
 
 RESOURCE ID: gotour_kanto_srd_title_7
-TEXT: Pokémon GO Tour：關都地區 (7/8)
+TEXT: Pokémon GO Tour: Kanto (7/8)
 
 RESOURCE ID: gotour_kanto_srd_title_8
 TEXT: Pokémon GO Tour：關都地區 (8/8)
@@ -14030,43 +14090,43 @@ RESOURCE ID: gym_start_battle_error
 TEXT: 無法開始對戰
 
 RESOURCE ID: gym_tag_ace
-TEXT: 菁英
+TEXT: ACE
 
 RESOURCE ID: gym_tag_easy
-TEXT: 簡單
+TEXT: EASY
 
 RESOURCE ID: gym_tag_event
 TEXT: 活動
 
 RESOURCE ID: gym_tag_exclusive
-TEXT: 限定
+TEXT: EXCLUSIVE
 
 RESOURCE ID: gym_tag_gofest
 TEXT: GO FEST
 
 RESOURCE ID: gym_tag_great
-TEXT: 超級球級
+TEXT: GREAT
 
 RESOURCE ID: gym_tag_hard
-TEXT: 困難
+TEXT: HARD
 
 RESOURCE ID: gym_tag_master
-TEXT: 大師球級
+TEXT: MASTER
 
 RESOURCE ID: gym_tag_medium
-TEXT: 普通
+TEXT: MEDIUM
 
 RESOURCE ID: gym_tag_mystery
 TEXT: ???
 
 RESOURCE ID: gym_tag_normal
-TEXT: 精靈球級
+TEXT: NORMAL
 
 RESOURCE ID: gym_tag_special
-TEXT: 特別
+TEXT: SPECIAL
 
 RESOURCE ID: gym_tag_ultra
-TEXT: 高級球級
+TEXT: ULTRA
 
 RESOURCE ID: gym_tut_desc_1
 TEXT: 旋轉道館的轉盤來取得道具。
@@ -14349,6 +14409,9 @@ TEXT: 急速上昇：冰屬性
 
 RESOURCE ID: incense_day
 TEXT: 薰香日
+
+RESOURCE ID: incense_day_pokemon_beldum
+TEXT: Beldum attracted to Incense
 
 RESOURCE ID: incense_day_pokemon_carvanha
 TEXT: 薰香可吸引利牙魚
@@ -14678,7 +14741,7 @@ RESOURCE ID: item_dragon_scale_name
 TEXT: 龍之麟片
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2021年2月7日11:00～17:00獲得特殊調查的課題。
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間3月6日11:00～17:00獲得特殊調查的課題。
 
 RESOURCE ID: item_event_ticket_pink_desc_2
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間11月21日11:00～17:00獲得特殊調查的課題。
@@ -14687,7 +14750,7 @@ RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: 只要擁有這張入場券，不論你在何處都能在當地時間2020年12月19日10:00～2020年12月20日20:00挑戰特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: 入場券將會自動啟用，不論你在何處，都能在當地時間2021年2月7日11:00～17:00領取特殊調查的課題。
+TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2021年3月6日活動時間內領取特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_details_2
 TEXT: 入場券將會自動啟用。不論你身在何處，都可以在當地時間11月21日的活動時間內領取到特殊調查課題。
@@ -17667,6 +17730,9 @@ TEXT: 等級43 姿勢
 RESOURCE ID: m_avatar_poses_bundle_pose_27
 TEXT: 魔牆人偶的姿勢
 
+RESOURCE ID: m_avatar_poses_bundle_pose_28
+TEXT: 小菊兒
+
 RESOURCE ID: m_avatar_poses_empty_bundle_pose_empty
 TEXT: 閒著
 
@@ -17818,100 +17884,100 @@ RESOURCE ID: master_no_legendary
 TEXT: 紀念盃
 
 RESOURCE ID: masterwork_sm_dialogue_1_0
-TEXT: 嘿，%PLAYERNAME%！很高興你能來參與這場冒險。對了，你有聽過這個旋律嗎？
+TEXT: Ah, %PLAYERNAME%! Glad to have you aboard this expedition. Say, have you ever heard this particular tune?
 
 RESOURCE ID: masterwork_sm_dialogue_1_1
-TEXT: 噠噠噠嘟、噠迪噠咚……每當我回想起年輕時去豐緣地區旅行時遇見的那個水手和他的長翅鷗，
+TEXT: Da da da doo, da dee da dum... That’s what I hear in my head when I think of a certain sailor and his Wingull that I met while traveling through the Hoenn region in my younger years.
 
 RESOURCE ID: masterwork_sm_dialogue_1_2
-TEXT: 腦內就會浮現這段旋律。我想這是他們在航海時會哼的旋律。
+TEXT: I believe the tune was originally a sea shanty. Sailors would sing songs like this together on their seafaring adventures to keep morale high and help find a rhythm during certain tasks.
 
 RESOURCE ID: masterwork_sm_dialogue_1_3
-TEXT: 我不是水手，但我心情好的時候也會哼上兩句。
+TEXT: I’m no sailor, but I do find myself feeling luckier after humming it! Haha!
 
 RESOURCE ID: masterwork_sm_dialogue_1_4
-TEXT: 喔，先別說那個了。我們來研究一下關都地區主題調查裡的那個謎團吧。
+TEXT: Anyway, we’re here to look into the strange situation we uncovered during your Kanto-themed journey.
 
 RESOURCE ID: masterwork_sm_dialogue_1_5
-TEXT: 據說有人見到了異色的夢幻，所以我去追蹤了一下相關的報告。
+TEXT: I’m talking, of course, about reports of encounters with Mew, the New Species Pokémon. There have been several sightings of a Shiny one recently, which is tremendously exciting!
 
 RESOURCE ID: masterwork_sm_dialogue_1_6
-TEXT: 我必須說，那些報告的可信度非常高。夢幻本身就是很罕見的寶可夢，沒想到我們居然還能見到異色的夢幻……
+TEXT: That means our goal on this expedition is to find not only one of the most elusive Pokémon to ever exist, but a Shiny one at that!
 
 RESOURCE ID: masterwork_sm_dialogue_1_7
-TEXT: %PLAYERNAME%，我們探索寶可夢的世界這麼久了，但這塊領域博大精深，總是能有新發現。
+TEXT: You’ve experienced a lot on your journeys thus far, %PLAYERNAME%. But perhaps the most wonderful thing about Pokémon is that there’s always something new to discover.
 
 RESOURCE ID: masterwork_sm_dialogue_1_8
-TEXT: 我希望你能發揮實力，努力完成這次的調查！
+TEXT: I hope you’re excited for what’s to come, because I have a feeling it’s going to be a real test of your skills as a Trainer!
 
 RESOURCE ID: masterwork_sm_dialogue_1_9
 TEXT: Let’s GO!
 
 RESOURCE ID: masterwork_sm_dialogue_2_0
-TEXT: %PLAYERNAME%，你真是太厲害了！我想你現在應該比我還了解關都地區吧！
+TEXT: Wow, %PLAYERNAME%—great work! Your knowledge of the Kanto region is beginning to rival even my own!
 
 RESOURCE ID: masterwork_sm_dialogue_2_1
-TEXT: 我們接下來要研究的，是寶可夢的基因。
+TEXT: Our next task is to learn more about Pokémon DNA.
 
 RESOURCE ID: masterwork_sm_dialogue_2_2
-TEXT: 研究基因需要專業知識和技術，所以這任務就交給我。我需要你去幫我捕捉每個屬性的寶可夢。
+TEXT: I know that sounds pretty heavy on the science, but don’t worry—I’ll take care of that part. All I need you to do is get out there and catch lots of different types of Pokémon!
 
 RESOURCE ID: masterwork_sm_dialogue_2_3
-TEXT: 據說夢幻擁有所有寶可夢的基因。為了更進一步了解夢幻的生態，我希望能夠盡可能掌握其他寶可夢的基因情報。
+TEXT: Mew’s DNA is said to contain the genetic codes of all Pokémon, so to better understand Mew, we should try to understand as much as we can about the genetics of other Pokémon.
 
 RESOURCE ID: masterwork_sm_dialogue_3_0
-TEXT: 天啊，%PLAYERNAME%你真是個傑出的訓練家！我好久沒做這麼廣泛的調查，你讓我再次深刻體會到寶可夢世界是如此深奧。
+TEXT: Incredible work, %PLAYERNAME%! Seeing you learn so much about different Pokémon reminded me of how vast the world of Pokémon truly is.
 
 RESOURCE ID: masterwork_sm_dialogue_3_1
-TEXT: 獲得的知識越多，就越能理解自己是多麼無知。有些人或許會對這個事實感到沮喪，但對我而言，這是極為振奮人心的事實！
+TEXT: Knowledge is funny in that the more we gain, the more realize how much we still lack. Some might find that frustrating, but for me it’s inspiring!
 
 RESOURCE ID: masterwork_sm_dialogue_3_2
-TEXT: 我之前跟你提到的水手之歌裡，也有類似的歌詞……
+TEXT: You know, there’s a part in that sea shanty I mentioned before that seems applicable here.
 
 RESOURCE ID: masterwork_sm_dialogue_3_3
-TEXT: 我不太記得確切的歌詞，不過我記得它提到在這廣闊的世界裡，我們不斷地在探索地平線的另一端。
+TEXT: I don’t remember the exact words, but the gist is that we should travel across the land, searching far and wide to learn about all the amazing Pokémon there are in the world.
 
 RESOURCE ID: masterwork_sm_dialogue_3_4
-TEXT: 你不覺得這是研究者的座右銘嗎？我們一起去尋找夢幻吧！
+TEXT: Words to live by, I say! Let’s get out there and track down that Shiny Mew, Trainer!
 
 RESOURCE ID: masterwork_sm_dialogue_4_0
-TEXT: %PLAYERNAME%……你、你終於……捉到異色夢幻了！！
+TEXT: %PLAYERNAME%, you... You did it! You actually found and caught a Shiny Mew!
 
 RESOURCE ID: masterwork_sm_dialogue_4_1
-TEXT: 我想你或許還覺得不可置信，但這真的是一項非常不得了的成就，你應該要好好誇讚自己！
+TEXT: Has it even sunk in yet? This is a monumental achievement, Trainer. Take a moment to congratulate yourself!
 
 RESOURCE ID: masterwork_sm_dialogue_4_2
-TEXT: 嗯？你說我也有貢獻？欵，我也只是在一旁哼唱水手的歌而已啊，哈哈。
+TEXT: Hm? It’s my achievement as well? Haha! No, no, I just hummed you a shanty and guided you like any Pokémon Professor worth their sea salt would.
 
 RESOURCE ID: masterwork_sm_dialogue_4_3
-TEXT: 是你的努力得到了回報！
+TEXT: But thanks are certainly in order for the Pokémon you’ve befriended on your journey. They played a big part in your research, after all!
 
 RESOURCE ID: masterwork_sm_dialogue_4_4
-TEXT: 你捉到的寶可夢、你對戰過的寶可夢、和你一起冒險的夥伴寶可夢……每隻寶可夢都在這趟旅程中扮演了重要的角色。
+TEXT: The ones you’ve caught, the ones you’ve battled with, and the ones that traveled with you as your buddy—each Pokémon played a critical part in helping you achieve this goal.
 
 RESOURCE ID: masterwork_sm_dialogue_4_5
-TEXT: 身為訓練家的我們，當然要好好感謝牠們！
+TEXT: As Trainers, we owe an eternal debt to our Pokémon. After all, we can’t very well be Trainers without them!
 
 RESOURCE ID: masterwork_sm_dialogue_4_6
-TEXT: 訓練家的每一天都充滿了夢想和冒險，而這趟旅程的每一天都是最美好的回憶。
+TEXT: A Trainer’s journey is meant to be filled with amazing memories, ambitious dreams, and unexpected adventures. I think this particular journey checked all those boxes pretty handily!
 
 RESOURCE ID: masterwork_sm_dialogue_4_7
-TEXT: 我相信這不會是我們最後一個研究，接下來也請你多多指教囉！
+TEXT: I’m sure it won’t be the last to do so, either. Now, until next time...let’s GO!
 
 RESOURCE ID: masterwork_sm_title
-TEXT: #151長期調查
+TEXT: All-in-One #151
 
 RESOURCE ID: masterwork_sm_title_1
-TEXT: #151長期調查 (1/4)
+TEXT: All-in-One #151 (1/4)
 
 RESOURCE ID: masterwork_sm_title_2
-TEXT: #151長期調查  (2/4)
+TEXT: All-in-One #151 (2/4)
 
 RESOURCE ID: masterwork_sm_title_3
-TEXT: #151長期調查  (3/4)
+TEXT: All-in-One #151 (3/4)
 
 RESOURCE ID: masterwork_sm_title_4
-TEXT: #151長期調查  (4/4)
+TEXT: All-in-One #151 (4/4)
 
 RESOURCE ID: maximum_tags_error
 TEXT: 最多只可建立 {0} 個標籤
@@ -17933,6 +17999,9 @@ TEXT: 超級對戰挑戰
 
 RESOURCE ID: mega_buddy_event
 TEXT: 超級夥伴挑戰
+
+RESOURCE ID: mega_candy_hour
+TEXT: 超級獎勵時間：[糖果]
 
 RESOURCE ID: mega_candy_plus_energy_walking_desc
 TEXT: 步行距離越遠，夥伴就能找到更多糖果。當你的夥伴心情為「欣喜若狂」時，找到糖果所需的步行距離就會減少。此外，有些夥伴還能為你找到超級能量喔！
@@ -17983,7 +18052,7 @@ RESOURCE ID: mega_evo_cp_increase
 TEXT: CP {0} → <color=#2ECDA8>{1}</color>
 
 RESOURCE ID: mega_evolution
-TEXT: 超級進化
+TEXT: Mega Evolution
 
 RESOURCE ID: mega_evolve
 TEXT: 超級進化
@@ -17993,6 +18062,9 @@ TEXT: 不能將超級進化後的寶可夢指派至道館。
 
 RESOURCE ID: mega_raid_event
 TEXT: 超級團體戰挑戰
+
+RESOURCE ID: mega_raid_hour
+TEXT: 超級團體戰時間
 
 RESOURCE ID: mega_raids_increase
 TEXT: 超級團體戰場次增加
@@ -18007,9 +18079,9 @@ RESOURCE ID: mega_walking_progress
 TEXT: 步行進度
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2021-03-22T16:41:53.668233
-at SHA dd25d685104fa21e0ffd54087e3c3ed8af18e8a9
-Pipeline 583770, job 5316813
+TEXT: Built at 2021-04-06T08:36:15.605757
+at SHA 8f1f1038a8518d9b11e9614aed09ca0e4ca197a6
+Pipeline 597489, job 5457998
 
 RESOURCE ID: mini_collection_feb21_gen1_event
 TEXT: 關都收藏家挑戰
@@ -19172,7 +19244,7 @@ RESOURCE ID: now_playing_ticker
 TEXT: 正在參加此挑戰：
 
 RESOURCE ID: nsbluetoothalwaysusagedescription
-TEXT: 允許和其他裝置配對
+TEXT: Allows pairing to devices, including peripherals and consoles.
 
 RESOURCE ID: occlusions_forced_on_toast
 TEXT: 已開啟實境融合
@@ -19550,7 +19622,7 @@ RESOURCE ID: photobomb_five_electabuzz
 TEXT: 電擊獸將在GO Snapshot中驚喜現身5次
 
 RESOURCE ID: photobomb_five_fletchling
-TEXT: 5 surprise encounters with Fletchling in GO Snapshot
+TEXT: 小箭雀將在GO Snapshot中驚喜現身5次
 
 RESOURCE ID: photobomb_five_gastly
 TEXT: 鬼斯將在GO Snapshot中驚喜現身5次
@@ -20365,16 +20437,16 @@ RESOURCE ID: pokedex_details_weight_not_caught
 TEXT: ？？？
 
 RESOURCE ID: pokedex_filter_button_all
-TEXT: 所有：{0}
+TEXT: All: {0}
 
 RESOURCE ID: pokedex_filter_button_mega
-TEXT: 超級：{0}
+TEXT: Mega: {0}
 
 RESOURCE ID: pokedex_mode_name_all
-TEXT: 所有
+TEXT: All
 
 RESOURCE ID: pokedex_mode_name_mega
-TEXT: 超級
+TEXT: Mega
 
 RESOURCE ID: pokedex_notencountered
 TEXT: 還沒遇見的寶可夢
@@ -25217,16 +25289,16 @@ RESOURCE ID: pokemon_info_location_unknown
 TEXT: 地點不明
 
 RESOURCE ID: pokemon_info_mega_evolution_confirmation
-TEXT: 你要讓 {0} 進行超級進化嗎？
+TEXT: Do you want to Mega Evolve {0}?
 
 RESOURCE ID: pokemon_info_mega_evolution_replace
-TEXT: {0} 將無法繼續超級進化
+TEXT: Your {0} will no longer be Mega Evolved.
 
 RESOURCE ID: pokemon_info_mega_evolution_replace_detail
-TEXT: 一次只能有1隻寶可夢進行超級進化。
+TEXT: Only one Pokémon may be Mega Evolved at a time.
 
 RESOURCE ID: pokemon_info_mega_evolution_time
-TEXT: 超級進化將持續 {0} 小時
+TEXT: Mega Evolution lasts for {0} hours.
 
 RESOURCE ID: pokemon_info_mega_evolve_need_resources
 TEXT: 需要更多{0}的超級能量
@@ -25256,7 +25328,7 @@ RESOURCE ID: pokemon_info_multi_transfer_shiny_pokemon_error
 TEXT: 不能選擇異色寶可夢
 
 RESOURCE ID: pokemon_info_none_transferable
-TEXT: None of the selected Pokémon can be transferred.
+TEXT: 你所選的寶可夢全都不能傳送
 
 RESOURCE ID: pokemon_info_not_transferable
 TEXT: 所選的寶可夢中有部分不能傳送
@@ -25438,7 +25510,7 @@ RESOURCE ID: pokemon_name_0003
 TEXT: 妙蛙花
 
 RESOURCE ID: pokemon_name_0003_0001
-TEXT: 超級妙蛙花
+TEXT: Mega Venusaur
 
 RESOURCE ID: pokemon_name_0004
 TEXT: 小火龍
@@ -25450,10 +25522,10 @@ RESOURCE ID: pokemon_name_0006
 TEXT: 噴火龍
 
 RESOURCE ID: pokemon_name_0006_0002
-TEXT: 超級噴火龍Ｘ
+TEXT: Mega Charizard X
 
 RESOURCE ID: pokemon_name_0006_0003
-TEXT: 超級噴火龍Ｙ
+TEXT: Mega Charizard Y
 
 RESOURCE ID: pokemon_name_0007
 TEXT: 傑尼龜
@@ -25465,7 +25537,7 @@ RESOURCE ID: pokemon_name_0009
 TEXT: 水箭龜
 
 RESOURCE ID: pokemon_name_0009_0001
-TEXT: 超級水箭龜
+TEXT: Mega Blastoise
 
 RESOURCE ID: pokemon_name_0010
 TEXT: 綠毛蟲
@@ -25486,7 +25558,7 @@ RESOURCE ID: pokemon_name_0015
 TEXT: 大針蜂
 
 RESOURCE ID: pokemon_name_0015_0001
-TEXT: 超級大針蜂
+TEXT: Mega Beedrill
 
 RESOURCE ID: pokemon_name_0016
 TEXT: 波波
@@ -25498,7 +25570,7 @@ RESOURCE ID: pokemon_name_0018
 TEXT: 大比鳥
 
 RESOURCE ID: pokemon_name_0018_0001
-TEXT: 超級大比鳥
+TEXT: Mega Pidgeot
 
 RESOURCE ID: pokemon_name_0019
 TEXT: 小拉達
@@ -25642,7 +25714,7 @@ RESOURCE ID: pokemon_name_0065
 TEXT: 胡地
 
 RESOURCE ID: pokemon_name_0065_0001
-TEXT: 超級胡地
+TEXT: Mega Alakazam
 
 RESOURCE ID: pokemon_name_0066
 TEXT: 腕力
@@ -25735,7 +25807,7 @@ RESOURCE ID: pokemon_name_0094
 TEXT: 耿鬼
 
 RESOURCE ID: pokemon_name_0094_0001
-TEXT: 超級耿鬼
+TEXT: Mega Gengar
 
 RESOURCE ID: pokemon_name_0095
 TEXT: 大岩蛇
@@ -25801,7 +25873,7 @@ RESOURCE ID: pokemon_name_0115
 TEXT: 袋獸
 
 RESOURCE ID: pokemon_name_0115_0001
-TEXT: 超級袋獸
+TEXT: Mega Kangaskhan
 
 RESOURCE ID: pokemon_name_0116
 TEXT: 墨海馬
@@ -25840,7 +25912,7 @@ RESOURCE ID: pokemon_name_0127
 TEXT: 凱羅斯
 
 RESOURCE ID: pokemon_name_0127_0001
-TEXT: 超級凱羅斯
+TEXT: Mega Pinsir
 
 RESOURCE ID: pokemon_name_0128
 TEXT: 肯泰羅
@@ -25852,7 +25924,7 @@ RESOURCE ID: pokemon_name_0130
 TEXT: 暴鯉龍
 
 RESOURCE ID: pokemon_name_0130_0001
-TEXT: 超級暴鯉龍
+TEXT: Mega Gyarados
 
 RESOURCE ID: pokemon_name_0131
 TEXT: 拉普拉斯
@@ -25891,7 +25963,7 @@ RESOURCE ID: pokemon_name_0142
 TEXT: 化石翼龍
 
 RESOURCE ID: pokemon_name_0142_0001
-TEXT: 超級化石翼龍
+TEXT: Mega Aerodactyl
 
 RESOURCE ID: pokemon_name_0143
 TEXT: 卡比獸
@@ -25918,10 +25990,10 @@ RESOURCE ID: pokemon_name_0150
 TEXT: 超夢
 
 RESOURCE ID: pokemon_name_0150_0002
-TEXT: 超級超夢Ｘ
+TEXT: Mega Mewtwo X
 
 RESOURCE ID: pokemon_name_0150_0003
-TEXT: 超級超夢Ｙ
+TEXT: Mega Mewtwo Y
 
 RESOURCE ID: pokemon_name_0151
 TEXT: 夢幻
@@ -26017,7 +26089,7 @@ RESOURCE ID: pokemon_name_0181
 TEXT: 電龍
 
 RESOURCE ID: pokemon_name_0181_0001
-TEXT: 超級電龍
+TEXT: Mega Ampharos
 
 RESOURCE ID: pokemon_name_0182
 TEXT: 美麗花
@@ -26101,7 +26173,7 @@ RESOURCE ID: pokemon_name_0208
 TEXT: 大鋼蛇
 
 RESOURCE ID: pokemon_name_0208_0001
-TEXT: 超級大鋼蛇
+TEXT: Mega Steelix
 
 RESOURCE ID: pokemon_name_0209
 TEXT: 布魯
@@ -26116,7 +26188,7 @@ RESOURCE ID: pokemon_name_0212
 TEXT: 巨鉗螳螂
 
 RESOURCE ID: pokemon_name_0212_0001
-TEXT: 超級巨鉗螳螂
+TEXT: Mega Scizor
 
 RESOURCE ID: pokemon_name_0213
 TEXT: 壺壺
@@ -26125,7 +26197,7 @@ RESOURCE ID: pokemon_name_0214
 TEXT: 赫拉克羅斯
 
 RESOURCE ID: pokemon_name_0214_0001
-TEXT: 超級赫拉克羅斯
+TEXT: Mega Heracross
 
 RESOURCE ID: pokemon_name_0215
 TEXT: 狃拉
@@ -26173,7 +26245,7 @@ RESOURCE ID: pokemon_name_0229
 TEXT: 黑魯加
 
 RESOURCE ID: pokemon_name_0229_0001
-TEXT: 超級黑魯加
+TEXT: Mega Houndoom
 
 RESOURCE ID: pokemon_name_0230
 TEXT: 刺龍王
@@ -26233,7 +26305,7 @@ RESOURCE ID: pokemon_name_0248
 TEXT: 班基拉斯
 
 RESOURCE ID: pokemon_name_0248_0001
-TEXT: 超級班基拉斯
+TEXT: Mega Tyranitar
 
 RESOURCE ID: pokemon_name_0249
 TEXT: 洛奇亞
@@ -26254,7 +26326,7 @@ RESOURCE ID: pokemon_name_0254
 TEXT: 蜥蜴王
 
 RESOURCE ID: pokemon_name_0254_0001
-TEXT: 超級蜥蜴王
+TEXT: Mega Sceptile
 
 RESOURCE ID: pokemon_name_0255
 TEXT: 火稚雞
@@ -26266,7 +26338,7 @@ RESOURCE ID: pokemon_name_0257
 TEXT: 火焰雞
 
 RESOURCE ID: pokemon_name_0257_0001
-TEXT: 超級火焰雞
+TEXT: Mega Blaziken
 
 RESOURCE ID: pokemon_name_0258
 TEXT: 水躍魚
@@ -26278,7 +26350,7 @@ RESOURCE ID: pokemon_name_0260
 TEXT: 巨沼怪
 
 RESOURCE ID: pokemon_name_0260_0001
-TEXT: 超級巨沼怪
+TEXT: Mega Swampert
 
 RESOURCE ID: pokemon_name_0261
 TEXT: 土狼犬
@@ -26347,7 +26419,7 @@ RESOURCE ID: pokemon_name_0282
 TEXT: 沙奈朵
 
 RESOURCE ID: pokemon_name_0282_0001
-TEXT: 超級沙奈朵
+TEXT: Mega Gardevoir
 
 RESOURCE ID: pokemon_name_0283
 TEXT: 溜溜糖球
@@ -26410,13 +26482,13 @@ RESOURCE ID: pokemon_name_0302
 TEXT: 勾魂眼
 
 RESOURCE ID: pokemon_name_0302_0001
-TEXT: 超級勾魂眼
+TEXT: Mega Sableye
 
 RESOURCE ID: pokemon_name_0303
 TEXT: 大嘴娃
 
 RESOURCE ID: pokemon_name_0303_0001
-TEXT: 超級大嘴娃
+TEXT: Mega Mawile
 
 RESOURCE ID: pokemon_name_0304
 TEXT: 可可多拉
@@ -26428,7 +26500,7 @@ RESOURCE ID: pokemon_name_0306
 TEXT: 波士可多拉
 
 RESOURCE ID: pokemon_name_0306_0001
-TEXT: 超級波士可多拉
+TEXT: Mega Aggron
 
 RESOURCE ID: pokemon_name_0307
 TEXT: 瑪沙那
@@ -26437,7 +26509,7 @@ RESOURCE ID: pokemon_name_0308
 TEXT: 恰雷姆
 
 RESOURCE ID: pokemon_name_0308_0001
-TEXT: 超級恰雷姆
+TEXT: Mega Medicham
 
 RESOURCE ID: pokemon_name_0309
 TEXT: 落雷獸
@@ -26446,7 +26518,7 @@ RESOURCE ID: pokemon_name_0310
 TEXT: 雷電獸
 
 RESOURCE ID: pokemon_name_0310_0001
-TEXT: 超級雷電獸
+TEXT: Mega Manectric
 
 RESOURCE ID: pokemon_name_0311
 TEXT: 正電拍拍
@@ -26476,7 +26548,7 @@ RESOURCE ID: pokemon_name_0319
 TEXT: 巨牙鯊
 
 RESOURCE ID: pokemon_name_0319_0001
-TEXT: 超級巨牙鯊
+TEXT: Mega Sharpedo
 
 RESOURCE ID: pokemon_name_0320
 TEXT: 吼吼鯨
@@ -26491,7 +26563,7 @@ RESOURCE ID: pokemon_name_0323
 TEXT: 噴火駝
 
 RESOURCE ID: pokemon_name_0323_0001
-TEXT: 超級噴火駝
+TEXT: Mega Camerupt
 
 RESOURCE ID: pokemon_name_0324
 TEXT: 煤炭龜
@@ -26527,7 +26599,7 @@ RESOURCE ID: pokemon_name_0334
 TEXT: 七夕青鳥
 
 RESOURCE ID: pokemon_name_0334_0001
-TEXT: 超級七夕青鳥
+TEXT: Mega Altaria
 
 RESOURCE ID: pokemon_name_0335
 TEXT: 貓鼬斬
@@ -26590,7 +26662,7 @@ RESOURCE ID: pokemon_name_0354
 TEXT: 詛咒娃娃
 
 RESOURCE ID: pokemon_name_0354_0001
-TEXT: 超級詛咒娃娃
+TEXT: Mega Banette
 
 RESOURCE ID: pokemon_name_0355
 TEXT: 夜巡靈
@@ -26608,7 +26680,7 @@ RESOURCE ID: pokemon_name_0359
 TEXT: 阿勃梭魯
 
 RESOURCE ID: pokemon_name_0359_0001
-TEXT: 超級阿勃梭魯
+TEXT: Mega Absol
 
 RESOURCE ID: pokemon_name_0360
 TEXT: 小果然
@@ -26620,7 +26692,7 @@ RESOURCE ID: pokemon_name_0362
 TEXT: 冰鬼護
 
 RESOURCE ID: pokemon_name_0362_0001
-TEXT: 超級冰鬼護
+TEXT: Mega Glalie
 
 RESOURCE ID: pokemon_name_0363
 TEXT: 海豹球
@@ -26656,7 +26728,7 @@ RESOURCE ID: pokemon_name_0373
 TEXT: 暴飛龍
 
 RESOURCE ID: pokemon_name_0373_0001
-TEXT: 超級暴飛龍
+TEXT: Mega Salamence
 
 RESOURCE ID: pokemon_name_0374
 TEXT: 鐵啞鈴
@@ -26668,7 +26740,7 @@ RESOURCE ID: pokemon_name_0376
 TEXT: 巨金怪
 
 RESOURCE ID: pokemon_name_0376_0001
-TEXT: 超級巨金怪
+TEXT: Mega Metagross
 
 RESOURCE ID: pokemon_name_0377
 TEXT: 雷吉洛克
@@ -26683,31 +26755,31 @@ RESOURCE ID: pokemon_name_0380
 TEXT: 拉帝亞斯
 
 RESOURCE ID: pokemon_name_0380_0001
-TEXT: 超級拉帝亞斯
+TEXT: Mega Latias
 
 RESOURCE ID: pokemon_name_0381
 TEXT: 拉帝歐斯
 
 RESOURCE ID: pokemon_name_0381_0001
-TEXT: 超級拉帝歐斯
+TEXT: Mega Latios
 
 RESOURCE ID: pokemon_name_0382
 TEXT: 蓋歐卡
 
 RESOURCE ID: pokemon_name_0382_0001
-TEXT: 原始蓋歐卡
+TEXT: Primal Kyogre
 
 RESOURCE ID: pokemon_name_0383
 TEXT: 固拉多
 
 RESOURCE ID: pokemon_name_0383_0001
-TEXT: 原始固拉多
+TEXT: Primal Groudon
 
 RESOURCE ID: pokemon_name_0384
 TEXT: 烈空坐
 
 RESOURCE ID: pokemon_name_0384_0001
-TEXT: 超級烈空坐
+TEXT: Mega Rayquaza
 
 RESOURCE ID: pokemon_name_0385
 TEXT: 基拉祈
@@ -26842,7 +26914,7 @@ RESOURCE ID: pokemon_name_0428
 TEXT: 長耳兔
 
 RESOURCE ID: pokemon_name_0428_0001
-TEXT: 超級長耳兔
+TEXT: Mega Lopunny
 
 RESOURCE ID: pokemon_name_0429
 TEXT: 夢妖魔
@@ -26896,7 +26968,7 @@ RESOURCE ID: pokemon_name_0445
 TEXT: 烈咬陸鯊
 
 RESOURCE ID: pokemon_name_0445_0001
-TEXT: 超級烈咬陸鯊
+TEXT: Mega Garchomp
 
 RESOURCE ID: pokemon_name_0446
 TEXT: 小卡比獸
@@ -26908,7 +26980,7 @@ RESOURCE ID: pokemon_name_0448
 TEXT: 路卡利歐
 
 RESOURCE ID: pokemon_name_0448_0001
-TEXT: 超級路卡利歐
+TEXT: Mega Lucario
 
 RESOURCE ID: pokemon_name_0449
 TEXT: 沙河馬
@@ -26947,7 +27019,7 @@ RESOURCE ID: pokemon_name_0460
 TEXT: 暴雪王
 
 RESOURCE ID: pokemon_name_0460_0001
-TEXT: 超級暴雪王
+TEXT: Mega Abomasnow
 
 RESOURCE ID: pokemon_name_0461
 TEXT: 瑪狃拉
@@ -26995,7 +27067,7 @@ RESOURCE ID: pokemon_name_0475
 TEXT: 艾路雷朵
 
 RESOURCE ID: pokemon_name_0475_0001
-TEXT: 超級艾路雷朵
+TEXT: Mega Gallade
 
 RESOURCE ID: pokemon_name_0476
 TEXT: 大朝北鼻
@@ -27166,7 +27238,7 @@ RESOURCE ID: pokemon_name_0531
 TEXT: 差不多娃娃
 
 RESOURCE ID: pokemon_name_0531_0001
-TEXT: 超級差不多娃娃
+TEXT: Mega Audino
 
 RESOURCE ID: pokemon_name_0532
 TEXT: 搬運小匠
@@ -27733,7 +27805,7 @@ RESOURCE ID: pokemon_name_0719
 TEXT: 蒂安希
 
 RESOURCE ID: pokemon_name_0719_0001
-TEXT: 超級蒂安希
+TEXT: Mega Diancie
 
 RESOURCE ID: pokemon_name_0720
 TEXT: 胡帕
@@ -28782,6 +28854,9 @@ TEXT: 孜孜不倦
 
 RESOURCE ID: quest_complete_rockethq7
 TEXT: 怪哉怪蛋
+
+RESOURCE ID: quest_complete_rockethq8
+TEXT: 遠走高飛……
 
 RESOURCE ID: quest_complete_roset
 TEXT: 好一朵美麗的毒薔薇
@@ -30421,6 +30496,18 @@ TEXT: 獲得 5 面金色獎牌
 RESOURCE ID: quest_gold_medal_singular
 TEXT: 獲得1面金色獎牌
 
+RESOURCE ID: quest_gotour_kanto_bonus
+TEXT: Pokémon GO Tour：關都地區 - 額外獎勵活動
+
+RESOURCE ID: quest_gotour_kanto_bonus_1
+TEXT: Pokémon GO Tour：關都地區 - 額外獎勵活動 (1/3)
+
+RESOURCE ID: quest_gotour_kanto_bonus_2
+TEXT: Pokémon GO Tour：關都地區 - 額外獎勵活動 (2/3)
+
+RESOURCE ID: quest_gotour_kanto_bonus_3
+TEXT: Pokémon GO Tour：關都地區 - 額外獎勵活動 (3/3)
+
 RESOURCE ID: quest_gt_catch_b
 TEXT: 捕捉 {0} 隻鬼斯
 
@@ -30908,6 +30995,9 @@ TEXT: 為小火龍拍攝1張GO Snapshot照片
 RESOURCE ID: quest_snapshot_genesect
 TEXT: 為蓋諾賽克特拍攝 {0} 張照片
 
+RESOURCE ID: quest_snapshot_landorus
+TEXT: 為土地雲拍攝1張照片
+
 RESOURCE ID: quest_snapshot_regi_ice
 TEXT: 為雷吉艾斯拍攝1張GO Snapshot照片
 
@@ -30916,6 +31006,12 @@ TEXT: 為雷吉洛克拍攝1張GO Snapshot照片
 
 RESOURCE ID: quest_snapshot_regi_steel
 TEXT: 為雷吉斯奇魯拍攝1張GO Snapshot照片
+
+RESOURCE ID: quest_snapshot_thundurus
+TEXT: 為雷電雲拍攝1張照片
+
+RESOURCE ID: quest_snapshot_tornadus
+TEXT: 為龍捲雲拍攝1張照片
 
 RESOURCE ID: quest_snapshots_inarow_plural
 TEXT: 連續 {0} 天為寶可夢拍攝GO Snapshot照片
@@ -31338,85 +31434,85 @@ RESOURCE ID: quest_special_dialogue_elect_3_6
 TEXT: 這次真的很感謝你，接下來可能也會要請你幫忙，到時候再麻煩你囉！
 
 RESOURCE ID: quest_special_dialogue_flett_0_0
-TEXT: Hey there, %PLAYERNAME%. Hope you are doing well.
+TEXT: 嗨，%PLAYERNAME%！你最近還好嗎？
 
 RESOURCE ID: quest_special_dialogue_flett_0_1
-TEXT: Me? Well, I’ve had a wonderful day so far visiting with this large group of Fletchling that has seemingly migrated to the area.
+TEXT: 你知道嗎？最近我研究室附近出現了一大群小箭雀。
 
 RESOURCE ID: quest_special_dialogue_flett_0_2
-TEXT: I overheard their beautiful chirps and just had to investigate and they totally stole my heart.
+TEXT: 所以我想請你去幫我調查一下這些寶可夢。
 
 RESOURCE ID: quest_special_dialogue_flett_0_3
-TEXT: This Tiny Robin Pokémon is actually quite amiable and easy to train. But when battle is joined, it shows its ferocious side!
+TEXT: 知更鳥寶可夢小箭雀雖然是種容易與人親近的寶可夢，而且也很易於訓練，但只要一旦進入戰鬥，就會變得非常兇猛。
 
 RESOURCE ID: quest_special_dialogue_flett_0_4
-TEXT: These Pokémon are known to be quite friendly, but the number of them in the area is a bit odd.
+TEXT: 這些小巧的寶可夢不知道為什麼會突然出現在這附近，
 
 RESOURCE ID: quest_special_dialogue_flett_0_5
-TEXT: Would you mind completing some tasks so we can get some more information on what is happening?
+TEXT: 我想等你的調查結果報告出爐後好好確認一下，所以萬事拜託啦！
 
 RESOURCE ID: quest_special_dialogue_flett_1_0
-TEXT: Great work, Trainer. Looks like you have your very own Fletchling to join you on your journey!
+TEXT: 辛苦了！看來你跟小箭雀相處地不錯嘛！
 
 RESOURCE ID: quest_special_dialogue_flett_1_1
-TEXT: Did you know, its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed.
+TEXT: 你知道嗎？據說小箭雀身體總是很溫暖。寒冷地區的訓練家似乎會和牠一起睡覺呢。
 
 RESOURCE ID: quest_special_dialogue_flett_1_2
-TEXT: I’m always so fascinated to learn about how Pokémon and their Trainers work and live together. I’m going to remember this bit of information on the next cold night.
+TEXT: 寶可夢跟人類之間的合作關係總是耐人尋味，不過我倒是從來沒想過能夠在睡覺時用寶可夢取暖！我還真想試試看呢。
 
 RESOURCE ID: quest_special_dialogue_flett_1_3
-TEXT: Anyway, this Normal- and Flying-Type Pokémon actually evolves into the Fire- and Flying-Type Pokémon, Fletchinder.
+TEXT: 擁有一般屬性和飛行屬性的小箭雀在進化成火箭雀之後，會擁有火屬性和飛行屬性。
 
 RESOURCE ID: quest_special_dialogue_flett_1_4
-TEXT: Known as the Ember Pokémon, they are exceedingly territorial and aggressive.
+TEXT: 火花寶可夢火箭雀地盤意識很強，且性情好戰。
 
 RESOURCE ID: quest_special_dialogue_flett_1_5
-TEXT: They are also incredibly fast, its speed right after takeoff already puts it in the top speed class of all bird Pokémon.
+TEXT: 牠剛起飛時的速度在所有的鳥寶可夢之中是數一數二的。
 
 RESOURCE ID: quest_special_dialogue_flett_1_6
-TEXT: When you are ready, I think it is time for you to evolve your Fletchling into Fletchinder.
+TEXT: 等你準備好之後，就讓小箭雀進化成火箭雀吧。我很想親眼見識一下牠的速度呢！
 
 RESOURCE ID: quest_special_dialogue_flett_2_0
-TEXT: Ah, what a fine looking Fletchinder you have there, %PLAYERNAME%.
+TEXT: %PLAYERNAME%！你的火箭雀看起來真是精悍啊！
 
 RESOURCE ID: quest_special_dialogue_flett_2_1
-TEXT: While you were out completing your research, I was recalling some information about this interesting Pokémon.
+TEXT: 是說我忘了事先提醒你，
 
 RESOURCE ID: quest_special_dialogue_flett_2_2
-TEXT: Take this training tip seriously, don't just WING it - make sure to take care and not burn yourself when training your Fletchinder.
+TEXT: 火箭雀從會鳥嘴裡噴出火花來燒焦草叢，
 
 RESOURCE ID: quest_special_dialogue_flett_2_3
-TEXT: From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.
+TEXT: 然後捕捉受到驚嚇而逃出來的獵物。
 
 RESOURCE ID: quest_special_dialogue_flett_2_4
-TEXT: Remember, only you can prevent high grass fires.
+TEXT: 所以你千萬要小心，別讓牠把整片草原都燒焦了。
 
 RESOURCE ID: quest_special_dialogue_flett_2_5
-TEXT: We are making great progress on our research, however, there is a few more things I’d like you to do.
+TEXT: 我們繼續去做調查吧，你還有一些課題沒完成。
 
 RESOURCE ID: quest_special_dialogue_flett_2_6
-TEXT: I’d love to observe a Talonflame, do you think you could evolve your Fletchinder? I’ve wanted to take a closer look at their incredible wings.
+TEXT: 其中最重要的，就是找到一隻由火箭雀進化而成的烈箭鷹。牠的羽毛是我們研究的重點。
 
 RESOURCE ID: quest_special_dialogue_flett_3_0
-TEXT: Welcome back, %PLAYERNAME% and hello, Talonflame!
+TEXT: %PLAYERNAME%，你回來啦！噢，歡迎你加入啊，烈箭鷹！
 
 RESOURCE ID: quest_special_dialogue_flett_3_1
-TEXT: Thank you for all your hard work today, but it certainly looks like it paid off now that you have the Scorching Pokémon.
+TEXT: 感謝你今天幫了我這麼多忙！你也終於找到烈火寶可夢烈箭鷹了呢！
 
 RESOURCE ID: quest_special_dialogue_flett_3_2
-TEXT: I certainly think they will make a great addition to your team, in the fever of an exciting battle it showers embers from the gaps between its feathers and takes to the air.
+TEXT: 據說烈箭鷹會從翅膀的縫隙裡噴出火花，同時以500公里的時速直線衝向獵物。
 
 RESOURCE ID: quest_special_dialogue_flett_3_3
-TEXT: Being both Fire- and Flying-Type, Talonflame has tough wings that don’t allow fire to pass through them. A long time ago, firefighters' outfits were made from Talonflame wings.
+TEXT: 你還記得我之前有提到烈箭鷹的羽毛嗎？牠的羽毛很結實而且能夠防火，在過去消防隊員的制服是用烈箭鷹的羽毛製成的。
 
 RESOURCE ID: quest_special_dialogue_flett_3_4
-TEXT: Simply amazing, I’m always so impressed by this brave bird and can’t wait to see what the two of you as a team accomplish.
+TEXT: 你的烈箭鷹看起來是如此勇猛，所以我想那消防服一定很美！
 
 RESOURCE ID: quest_special_dialogue_flett_3_5
-TEXT: I really appreciate your help today looking into this situation and hope you learned some useful information about this fiery family of Pokémon.
+TEXT: 謝謝你今天的幫忙，我希望你和我一樣樂在其中！
 
 RESOURCE ID: quest_special_dialogue_flett_3_6
-TEXT: Until next time, let’s GO!
+TEXT: Let's GO!
 
 RESOURCE ID: quest_special_dialogue_galarian_mrmime_0_0
 TEXT: %PLAYERNAME%，好久不見了！最近我身邊發生了一些不可思議的事……
@@ -33627,8 +33723,14 @@ TEXT: 這真是太驚人了，%PLAYERNAME%！看來這多少能讓他們安份�
 RESOURCE ID: quest_special_dialogue_rockethq7_4_1
 TEXT: 我做了一台新的超級火箭隊雷達，你就拿它去追蹤阪木吧。不過你千萬要小心……布蘭雪和坎迪拉跟我說他手上有暗影超夢！
 
+RESOURCE ID: quest_special_dialogue_rockethq7_4_1_alt
+TEXT: 我幫你做了另一個超級火箭隊雷達，你可以用它來追蹤阪木。不過你在外面做調查的時候千萬要小心，布蘭雪和坎迪拉的報告都指出阪木找到了另一隻傳說暗影寶可夢！
+
 RESOURCE ID: quest_special_dialogue_rockethq7_4_2
 TEXT: 以前阪木也曾帶著暗影超夢出現，但我做夢也沒想到他會捲土重來！
+
+RESOURCE ID: quest_special_dialogue_rockethq7_4_2_alt
+TEXT: 請你務必救出牠，別讓牠被阪木拿去做壞事！
 
 RESOURCE ID: quest_special_dialogue_rockethq7_4_3
 TEXT: 請你務必救出暗影超夢，別讓牠被阪木拿去做壞事！
@@ -33639,8 +33741,71 @@ TEXT: %PLAYERNAME%，幹得好！你又再次打敗了GO火箭隊的手下、幹
 RESOURCE ID: quest_special_dialogue_rockethq7_5_1
 TEXT: 而且你還拯救了暗影超夢和這麼多暗影寶可夢！
 
+RESOURCE ID: quest_special_dialogue_rockethq7_5_1_alt
+TEXT: 你不僅成功阻止了GO火箭隊，而且還拯救了暗影寶可夢！
+
 RESOURCE ID: quest_special_dialogue_rockethq7_5_2
 TEXT: 這或許不會是我們最後一次見到阪木和GO火箭隊，所以請你務必保持戒心，繼續拯救暗影寶可夢和收集怪蛋。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_0
+TEXT: 嘿，%PLAYERNAME%！你好嗎？抱歉突然打擾，不過我這邊發生了一點問題。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_1
+TEXT: 沒錯……就是GO火箭隊。他們最近的行蹤可疑，我想你應該很清楚我們接下來要做什麼。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_2
+TEXT: Let's GO!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_0
+TEXT: %PLAYERNAME%，你回來啦。感謝你收拾了這麼多GO火箭隊手下並救出暗影寶可夢！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_1
+TEXT: 你在外面收拾那些手下的時候，我收到線報指出GO火箭隊找到了一隻飛行屬性的傳說的寶可夢。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_2
+TEXT: 布蘭雪正在偵察他們目前的動靜，我想我們很快就會知道到底發生了什麼事。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_3
+TEXT: 在等布蘭雪回報的這段時間，我們也繼續去調查飛行屬性寶可夢吧。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_0
+TEXT: %PLAYERNAME%，感謝你幫我捕捉了這麼多飛行屬性寶可夢！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_1
+TEXT: 布蘭雪跟我一直忙著分析你帶回來的數據，希望能找出GO火箭隊究竟捉到了哪隻傳說的寶可夢。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_2
+TEXT: 不幸的是，我們認為他們找到的寶可夢似乎跟隊長們有密切的關係。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_3
+TEXT: 我覺得事情不太對勁，看來勢必要做更進一步的調查。你在外面做調查的時候務必小心！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_0
+TEXT: 大比鳥和大比鳥超級能量！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_1
+TEXT: 也許他們捉到的是超級進化的大比鳥？呃，不對，除了飛行屬性這點之外似乎沒有其他共通之處。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_2
+TEXT: 布蘭雪收集到的最新情報顯示，阪木正是帶著那隻飛行屬性的傳說的寶可夢四處神出鬼沒的人。
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_3
+TEXT: 我們認為現在的首要之務就是找出GO火箭隊幹部。我相信你一定可以的，加油！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_4_0
+TEXT: %PLAYERNAME%，真是辛苦你了！你真的幫了我一個大忙！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_4_1
+TEXT: 我火速幫你組了一個超級火箭隊雷達，希望你能用它找出阪木並打倒牠，救出那隻傳說的寶可夢！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_0
+TEXT: 真是驚人的表現，%PLAYERNAME%！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_1
+TEXT: 你永遠都不知道GO火箭隊他們有什麼鬼點子，所以時時都不能鬆下戒心。不過至少我們今天成功打倒了他們！真的很感謝你！
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_2
+TEXT: 那麼，下次再見囉！
 
 RESOURCE ID: quest_special_dialogue_roset_0_0
 TEXT: 噢……你有聞到那股香氣嗎？
@@ -33728,6 +33893,105 @@ TEXT: 感謝你今天的幫忙！我們今後也要繼續努力觀察身邊的�
 
 RESOURCE ID: quest_special_dialogue_roset_3_6
 TEXT: 那麼，下次再見囉！
+
+RESOURCE ID: quest_special_dialogue_season2_0_0
+TEXT: 嘿，%PLAYERNAME%，你最近還好嗎？
+
+RESOURCE ID: quest_special_dialogue_season2_0_1
+TEXT: 你知道我最近一直在擴展調查範圍，所以最近也有機會接觸到一些當地的神話或是傳說。
+
+RESOURCE ID: quest_special_dialogue_season2_0_2
+TEXT: 其中一個是合眾地區的神話，裡面提到了三隻能改變形態的傳說的寶可夢。
+
+RESOURCE ID: quest_special_dialogue_season2_0_3
+TEXT: 你也知道我最喜歡這種值得深究的調查主題，我甚至連作夢都會夢到牠們呢！
+
+RESOURCE ID: quest_special_dialogue_season2_0_4
+TEXT: 所以我想請你幫我一起做研究！可以請你先去幫我捉一些岩石屬性的寶可夢嗎？
+
+RESOURCE ID: quest_special_dialogue_season2_0_5
+TEXT: 你知道，做研究總是需要腳踏實地的。那就麻煩你囉！
+
+RESOURCE ID: quest_special_dialogue_season2_1_0
+TEXT: 辛苦了！接下來我們要做更進一步的研究。
+
+RESOURCE ID: quest_special_dialogue_season2_1_1
+TEXT: 我想要一一解開這些神話的謎團。
+
+RESOURCE ID: quest_special_dialogue_season2_1_2
+TEXT: 畢竟要是牠們突然出現了，我可不想慌了手腳。所以我們現在就要做好充分的準備。
+
+RESOURCE ID: quest_special_dialogue_season2_1_3
+TEXT: 第一個是關於土地雲的神話。據說只要是土地雲造訪過的土地，作物都會結實纍纍，所以牠被稱為農田之神。
+
+RESOURCE ID: quest_special_dialogue_season2_1_4
+TEXT: 土地雲擁有兩種形態，一是化身形態，一是極為罕見的靈獸形態。我非常確定靈獸形態存在，但我從來沒見過牠的圖片……
+
+RESOURCE ID: quest_special_dialogue_season2_1_5
+TEXT: 但既然牠跟大地有密切的關係，我們就先來研究地面屬性的寶可夢吧。
+
+RESOURCE ID: quest_special_dialogue_season2_2_0
+TEXT: %PLAYERNAME%，真是太感謝你了！我研究地面屬性的寶可夢後，對土地雲有更進一步的了解。
+
+RESOURCE ID: quest_special_dialogue_season2_2_1
+TEXT: 你說你捉到螺釘地鼠了！？我是有說要研究大地，但可沒說要鑽進大地啊……
+
+RESOURCE ID: quest_special_dialogue_season2_2_2
+TEXT: 看來目前能找到的土地雲相關線索就這樣了，我們接著研究下一隻寶可夢吧。
+
+RESOURCE ID: quest_special_dialogue_season2_2_3
+TEXT: 接下來，我們來看看龍捲雲吧。文獻上說從龍捲雲尾部噴出的能量會引起暴風雨，威力甚至足以將整棟房屋吹走。
+
+RESOURCE ID: quest_special_dialogue_season2_2_4
+TEXT: 牠和土地雲一樣，擁有化身形態和靈獸形態。不過龍捲雲是飛行屬性的寶可夢，所以我想我們這次應該去研究飛行屬性的寶可夢？
+
+RESOURCE ID: quest_special_dialogue_season2_3_0
+TEXT: 你的調查真是太出色了！什麼？你在路上還捉到了鴨寶寶？看來這趟旅程真是越來越有趣了呢。
+
+RESOURCE ID: quest_special_dialogue_season2_3_1
+TEXT: 我們目前能找到的龍捲雲資料就這麼多了。雖然牠的靈獸形態仍然是個謎，不過我們還是繼續往前吧。
+
+RESOURCE ID: quest_special_dialogue_season2_3_2
+TEXT: 在研究我夢中最後一隻傳說的寶可夢前，有件事我得先跟你說一下。
+
+RESOURCE ID: quest_special_dialogue_season2_3_3
+TEXT: 其實我之前睡午覺得時候，我又夢到了那三隻合眾地區的傳說的寶可夢，而且牠們的身影極為清晰……但牠們轉眼就消失了。你不知道這狀況很弔詭嗎？
+
+RESOURCE ID: quest_special_dialogue_season2_3_4
+TEXT: 我覺得牠們似乎侵蝕了我的夢境……我想你最好也小心一點，不知道其他寶可夢是不是會突然出現。
+
+RESOURCE ID: quest_special_dialogue_season2_3_5
+TEXT: 不過我們現在就先來調查最後一隻傳說的寶可夢「雷電雲」吧。
+
+RESOURCE ID: quest_special_dialogue_season2_3_6
+TEXT: 雷擊寶可夢雷電雲同樣也擁有化身形態和靈獸形態，據說牠會從尾部的尖刺發出電擊、製造落雷呢。
+
+RESOURCE ID: quest_special_dialogue_season2_3_7
+TEXT: 我們就先去調查電屬性的寶可夢，然後來完成雷電雲的報告吧。
+
+RESOURCE ID: quest_special_dialogue_season2_4_0
+TEXT: %PLAYERNAME%，你回來啦。我有件事要告訴你！
+
+RESOURCE ID: quest_special_dialogue_season2_4_1
+TEXT: 我要先謝謝你幫我收集土地雲、龍捲雲和雷電雲的相關情報。
+
+RESOURCE ID: quest_special_dialogue_season2_4_2
+TEXT: 我相信不論牠們接下來以任何一種形態出現，我們都能穩住陣腳，不至於驚慌失措。
+
+RESOURCE ID: quest_special_dialogue_season2_4_3
+TEXT: 對了，你還記得我之前睡午覺時發生的事嗎？
+
+RESOURCE ID: quest_special_dialogue_season2_4_4
+TEXT: 看來那似乎跟食夢寶可夢食夢夢有關。
+
+RESOURCE ID: quest_special_dialogue_season2_4_5
+TEXT: 據說食夢夢在吃掉人類或寶可夢的夢之後會吐出煙霧。吃了快樂的夢時，煙霧是粉紅色的；如果是惡夢，煙霧則是黑灰色的。
+
+RESOURCE ID: quest_special_dialogue_season2_4_6
+TEXT: 我想牠吃了我的夢之後，一定能吐出超美的粉紅煙霧。
+
+RESOURCE ID: quest_special_dialogue_season2_4_7
+TEXT: 我要進一步研究食夢夢這隻不可思議的寶可夢。之後也要請你多多幫忙囉！
 
 RESOURCE ID: quest_special_dialogue_spiritomb_0_0
 TEXT: 嘿，%PLAYERNAME%！你來得正是時候。
@@ -34751,6 +35015,27 @@ TEXT: 怪哉怪蛋 (5/6)
 RESOURCE ID: quest_title_rockethq7_5
 TEXT: 怪哉怪蛋 (6/6)
 
+RESOURCE ID: quest_title_rockethq8
+TEXT: 遠走高飛……
+
+RESOURCE ID: quest_title_rockethq8_0
+TEXT: 遠走高飛……(1/6)
+
+RESOURCE ID: quest_title_rockethq8_1
+TEXT: 遠走高飛……(2/6)
+
+RESOURCE ID: quest_title_rockethq8_2
+TEXT: 遠走高飛……(3/6)
+
+RESOURCE ID: quest_title_rockethq8_3
+TEXT: 遠走高飛……(4/6)
+
+RESOURCE ID: quest_title_rockethq8_4
+TEXT: 遠走高飛……(5/6)
+
+RESOURCE ID: quest_title_rockethq8_5
+TEXT: 遠走高飛……(6/6)
+
 RESOURCE ID: quest_title_roset
 TEXT: 好一朵美麗的毒薔薇
 
@@ -34765,6 +35050,24 @@ TEXT: 好一朵美麗的毒薔薇 (3/4)
 
 RESOURCE ID: quest_title_roset_3
 TEXT: 好一朵美麗的毒薔薇 (4/4)
+
+RESOURCE ID: quest_title_season2
+TEXT: 傳說的季節
+
+RESOURCE ID: quest_title_season2_0
+TEXT: 傳說的季節 (1/5)
+
+RESOURCE ID: quest_title_season2_1
+TEXT: 傳說的季節 (2/5)
+
+RESOURCE ID: quest_title_season2_2
+TEXT: 傳說的季節 (3/5)
+
+RESOURCE ID: quest_title_season2_3
+TEXT: 傳說的季節 (4/5)
+
+RESOURCE ID: quest_title_season2_4
+TEXT: 傳說的季節 (5/5)
 
 RESOURCE ID: quest_title_spiritomb
 TEXT: 令人毛骨悚然的訊息 2018
@@ -35049,58 +35352,58 @@ RESOURCE ID: quest_transfer_pokemon_singular
 TEXT: 傳送1隻寶可夢
 
 RESOURCE ID: quest_transfer_type_bug_plural
-TEXT:  傳送 {0} 隻蟲屬性的寶可夢
+TEXT: 傳送 {0} 隻蟲屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_dark_plural
-TEXT:  傳送 {0} 隻惡屬性的寶可夢
+TEXT: 傳送 {0} 隻惡屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_dragon_plural
-TEXT:  傳送 {0} 隻龍屬性的寶可夢
+TEXT: 傳送 {0} 隻龍屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_electric_plural
-TEXT:  傳送 {0} 隻電屬性的寶可夢
+TEXT: 傳送 {0} 隻電屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_fairy_plural
-TEXT:  傳送 {0} 隻妖精屬性的寶可夢
+TEXT: 傳送 {0} 隻妖精屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_fighting_plural
-TEXT:  傳送 {0} 隻格鬥屬性的寶可夢
+TEXT: 傳送 {0} 隻格鬥屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_fire_plural
-TEXT:  傳送 {0} 隻火屬性的寶可夢
+TEXT: 傳送 {0} 隻火屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_flying_plural
-TEXT:  傳送 {0} 隻飛行屬性的寶可夢
+TEXT: 傳送 {0} 隻飛行屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_ghost_plural
 TEXT:  傳送 {0} 隻幽靈屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_grass_plural
-TEXT:  傳送 {0} 隻草屬性的寶可夢
+TEXT: 傳送 {0} 隻草屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_ground_plural
-TEXT:  傳送 {0} 隻地面屬性的寶可夢
+TEXT: 傳送 {0} 隻地面屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_ice_plural
-TEXT:  傳送 {0} 隻冰屬性的寶可夢
+TEXT: 傳送 {0} 隻冰屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_normal_plural
-TEXT:  傳送 {0} 隻一般屬性的寶可夢
+TEXT: 傳送 {0} 隻一般屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_poison_plural
-TEXT:  傳送 {0} 隻毒屬性的寶可夢
+TEXT: 傳送 {0} 隻毒屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_psychic_plural
-TEXT:  傳送 {0} 隻超能力屬性的寶可夢
+TEXT: 傳送 {0} 隻超能力屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_rock_plural
-TEXT:  傳送 {0} 隻岩石屬性的寶可夢
+TEXT: 傳送 {0} 隻岩石屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_steel_plural
-TEXT:  傳送 {0} 隻鋼屬性的寶可夢
+TEXT: 傳送 {0} 隻鋼屬性的寶可夢
 
 RESOURCE ID: quest_transfer_type_water_plural
-TEXT:  傳送 {0} 隻水屬性的寶可夢
+TEXT: 傳送 {0} 隻水屬性的寶可夢
 
 RESOURCE ID: quest_val19_catch_specific_plural
 TEXT: Valentine's Day: 捕捉 {0} 隻愛心魚
@@ -35139,7 +35442,7 @@ RESOURCE ID: quest_walk_eevee_for_evo
 TEXT: 把伊布設為夥伴，並一起行走10公里
 
 RESOURCE ID: quest_walk_km_plural
-TEXT: 行走 {0} km
+TEXT: 步行 {0} km
 
 RESOURCE ID: quest_waterfestival_catch_feed_plural
 TEXT: 潑水節：捕捉寶可夢時使用 {0} 顆樹果來輔助
@@ -35423,7 +35726,7 @@ RESOURCE ID: raid_damage_bonus
 TEXT: 傷害量
 
 RESOURCE ID: raid_day
-TEXT: 團體戰日
+TEXT: Raid Day
 
 RESOURCE ID: raid_day_abomasnow
 TEXT: 團體戰日：暴雪王
@@ -37648,13 +37951,13 @@ RESOURCE ID: raid_hour_raids_four
 TEXT: 四星團體戰增加
 
 RESOURCE ID: raid_hour_raids_one
-TEXT: 一星團體戰增加
+TEXT: Increased number of one-star raids
 
 RESOURCE ID: raid_hour_raids_three
-TEXT: 三星團體戰增加
+TEXT: Increased number of three-star raids
 
 RESOURCE ID: raid_hour_raids_two
-TEXT: 二星團體戰增加
+TEXT: Increased number of two-star raids
 
 RESOURCE ID: raid_howto_button
 TEXT: 玩法
@@ -39991,7 +40294,7 @@ RESOURCE ID: raid_weekend_zygarde
 TEXT: 週末特別團體戰：基格爾德
 
 RESOURCE ID: raid_xp_25_fivestar
-TEXT: 1.25x five-star Raid XP
+TEXT: 參加五星團體戰可獲得的XP增為1.25倍
 
 RESOURCE ID: raid_xp_double
 TEXT: 參加團體戰可獲得的XP加倍
@@ -40064,6 +40367,9 @@ TEXT: {0} 秒
 
 RESOURCE ID: remote_raid_damage_warning
 TEXT: 使用遠距團體戰入場券時，寶可夢造成的傷害將會被降低
+
+RESOURCE ID: remote_raid_description
+TEXT: Join raids farther away on the map or via friend invites using a Remote Raid Pass.
 
 RESOURCE ID: remote_raid_friends_header
 TEXT: 朋友
@@ -40138,6 +40444,9 @@ TEXT: 附近
 RESOURCE ID: remote_raid_max_remote_ticket_warning
 TEXT: 目前持有的遠距團體戰入場券已達上限（{0}張）。請先至少使用一張後再來購買。
 
+RESOURCE ID: remote_raid_name
+TEXT: Raid Remotely
+
 RESOURCE ID: remote_raid_nearby_callout
 TEXT: New！遠距團體戰
 
@@ -40190,7 +40499,7 @@ RESOURCE ID: remove_tag_error
 TEXT: 無法移除標籤
 
 RESOURCE ID: reorder_pokemon_tag_error
-TEXT: Failed to reorder tag
+TEXT: 無法重新排列標籤
 
 RESOURCE ID: report_issues_link
 TEXT: https://pokemongo.nianticlabs.com/support/contact/en
@@ -40231,8 +40540,17 @@ TEXT: GO火箭隊慶典
 RESOURCE ID: rocket_component_double
 TEXT: 打敗GO火箭隊手下後可獲得2個神秘零件
 
+RESOURCE ID: rocket_description
+TEXT: 打到乘坐熱氣球出現或是在寶可補給站出沒的GO火箭隊成員，拯救暗影寶可夢。
+
 RESOURCE ID: rocket_event_name
 TEXT: GO火箭隊活動
+
+RESOURCE ID: rocket_feature_name
+TEXT: GO火箭隊
+
+RESOURCE ID: rocket_hour
+TEXT: GO火箭隊時間
 
 RESOURCE ID: rocket_jj_increase
 TEXT: 喵喵熱氣球、武藏和小次郎更常出現
@@ -40655,7 +40973,10 @@ RESOURCE ID: screen_you_title
 TEXT: 自己
 
 RESOURCE ID: search_label
-TEXT: Search
+TEXT: 搜尋
+
+RESOURCE ID: searching_for_legends_event_name
+TEXT: 天地神話
 
 RESOURCE ID: second_abbrev
 TEXT: s
@@ -40787,7 +41108,7 @@ RESOURCE ID: settings_go_to_support
 TEXT: 常見問題
 
 RESOURCE ID: settings_go_to_support|a
-TEXT: 查看常見問題
+TEXT: 常見問題＆聯絡客服
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
 TEXT: 開啟此功能後，你將可以在選擇複數寶可夢時選擇傳說的寶可夢和部分幻之寶可夢。請注意，寶可夢傳送給維羅博士後將無法把寶可夢帶回來。
@@ -41392,7 +41713,7 @@ RESOURCE ID: solrock_lunatone_regions
 TEXT: 月石和太陽岩將在不同的地區出沒
 
 RESOURCE ID: solstice_event_name
-TEXT: 季節活動
+TEXT: Solstice
 
 RESOURCE ID: spark_inspire#1
 TEXT: 你一定可以的！
@@ -41431,7 +41752,7 @@ RESOURCE ID: spawn_electabuzz
 TEXT: 更多電擊獸出現在地圖上
 
 RESOURCE ID: spawn_fletchling
-TEXT: More Fletchling are appearing in the wild
+TEXT: 更多小箭雀出現在地圖上
 
 RESOURCE ID: spawn_gastly
 TEXT: 更多鬼斯出現在地圖上
@@ -41497,16 +41818,16 @@ RESOURCE ID: sponsored_gift_screenshot_error
 TEXT: 無法儲存螢幕截圖。請確認照片存取權限。
 
 RESOURCE ID: sponsored_gift_screenshot_saved
-TEXT: 圖片已儲存！
+TEXT: Offer saved to your photos!
 
 RESOURCE ID: sponsored_gift_tutorial_button
-TEXT:  開啟設定
+TEXT: Go to Settings
 
 RESOURCE ID: sponsored_gift_tutorial_description_1
 TEXT: 拜訪道館和寶可補給時，你有機會收到附近贊助商提供的禮物和相關廣告訊息。
 
 RESOURCE ID: sponsored_gift_tutorial_description_2
-TEXT: 即使你選擇接收這份禮物，我們也不會將你的個人資訊分享給贊助商。更多關於贊助商禮物功能的詳細資訊，請至Niantic協助中心確認。
+TEXT: As always, we do not share your personal information with sponsors. For more information on this feature, please check out Niantic Support.
 
 RESOURCE ID: sponsored_gift_tutorial_description_3
 TEXT: You can manage Gifts from sponsors in your settings. This option allows you to receive Gifts from sponsors when available. This does not affect Gifts you send or receive that came from Sponsored PokéStop Locations.
@@ -41857,7 +42178,7 @@ RESOURCE ID: ticket_electabuzz_title
 TEXT: 入場券：橡實寶可夢的小秘密
 
 RESOURCE ID: ticket_fletchling
-TEXT: Ticket for Special Research story available in the Shop: The Bravest Bird
+TEXT: 特殊調查「最勇敢的小鳥」的入場券在商店中上架
 
 RESOURCE ID: ticket_gastly
 TEXT: 特殊調查「詭異的鬼斯」的入場券已在商店中上架
@@ -42188,6 +42509,9 @@ TEXT: 使用行動數據
 
 RESOURCE ID: titan_settings_title_ar_data
 TEXT: 寶可補給站掃描
+
+RESOURCE ID: titan_upload_wifi_recommended
+TEXT: 推荐使用Wi-Fi
 
 RESOURCE ID: title_raid_has_ended
 TEXT: 這場團體戰已經結束了
@@ -43447,6 +43771,9 @@ TEXT: 出太陽
 
 RESOURCE ID: weather_weather
 TEXT: 天氣
+
+RESOURCE ID: weather_week_event_name
+TEXT: 氣象週
 
 RESOURCE ID: weather_windy
 TEXT: 強風

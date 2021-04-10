@@ -1067,6 +1067,9 @@ RESOURCE ID: avatar_f_hat_eeveecap_0_bundle_icon
 TEXT: Evoli-
 Kappe
 
+RESOURCE ID: avatar_f_hat_elesa_00_bundle_icon
+TEXT: Kopfhörer im Stil von Kamilla
+
 RESOURCE ID: avatar_f_hat_empty_bundle_icon
 TEXT: Kein Hut
 
@@ -1408,6 +1411,9 @@ T-Shirt
 
 RESOURCE ID: avatar_f_shirt_earthday_2018_bundle_icon
 TEXT: Blue Surfer-Shirt
+
+RESOURCE ID: avatar_f_shirt_elesa_00_bundle_icon
+TEXT: Outfit im Stil von Kamilla
 
 RESOURCE ID: avatar_f_shirt_fragment_bundle_icon
 TEXT: Shirt A
@@ -1752,6 +1758,9 @@ TEXT: Turboschuhe
 RESOURCE ID: avatar_f_shoes_delibird_0_bundle_icon
 TEXT: Botogel-
 Stiefel
+
+RESOURCE ID: avatar_f_shoes_elesa_00_bundle_icon
+TEXT: Schuhe im Stil von Kamilla
 
 RESOURCE ID: avatar_f_shoes_empty_bundle_icon
 TEXT: Keine Schuhe
@@ -2148,6 +2157,9 @@ RESOURCE ID: avatar_m_hat_eeveecap_0_bundle_icon
 TEXT: Evoli-
 Kappe
 
+RESOURCE ID: avatar_m_hat_elesa_00_bundle_icon
+TEXT: Kopfhörer im Stil von Kamilla
+
 RESOURCE ID: avatar_m_hat_empty_bundle_icon
 TEXT: Kein Hut
 
@@ -2341,6 +2353,9 @@ TEXT: Hose im Stil von N
 RESOURCE ID: avatar_m_pants_default_bundle_icon
 TEXT: Trainer-Shorts
 
+RESOURCE ID: avatar_m_pants_elesa_00_bundle_icon
+TEXT: Hose im Stil von Kamilla
+
 RESOURCE ID: avatar_m_pants_fisher_bundle_icon
 TEXT: Angler-Hose
 
@@ -2482,6 +2497,9 @@ T-Shirt
 
 RESOURCE ID: avatar_m_shirt_earthday_2018_bundle_icon
 TEXT: Blue Surfer-Shirt
+
+RESOURCE ID: avatar_m_shirt_elesa_00_bundle_icon
+TEXT: Oberteil im Stil von Kamilla
 
 RESOURCE ID: avatar_m_shirt_fisher_bundle_icon
 TEXT: Angler-Weste
@@ -2828,6 +2846,9 @@ TEXT: Turboschuhe
 RESOURCE ID: avatar_m_shoes_delibird_0_bundle_icon
 TEXT: Botogel-
 Stiefel
+
+RESOURCE ID: avatar_m_shoes_elesa_00_bundle_icon
+TEXT: Schuhe im Stil von Kamilla
 
 RESOURCE ID: avatar_m_shoes_empty_bundle_icon
 TEXT: Keine Schuhe
@@ -4473,9 +4494,19 @@ TEXT: <size=36><b>Möchtest du wirklich {0} Pokémon an den Professor schicken?<
 Nachdem du sie an den Professor geschickt hast, kannst du sie nicht zurückholen.
 
 RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>Only {0} eligible Pokémon can be transferred to the professor.</b></size>
+TEXT: <size=36><b>Nur {0} der ausgewählten Pokémon kann/können an den Professor verschickt werden.</b></size>
 
-Any Pokémon not eligible to be transferred will remain in storage. Transferred Pokémon cannot be reclaimed.
+Alle Pokémon, die nicht verschickt werden können, bleiben in der Aufbewahrung. Verschickte Pokémon können nicht zurückgefordert werden.
+
+RESOURCE ID: batch_transfer_eligible_confirm_plural
+TEXT: <size=36><b>Nur {0} der ausgewählten Pokémon können an den Professor verschickt werden.</b></size>
+
+Alle Pokémon, die nicht verschickt werden können, bleiben in deiner Pokémon-Aufbewahrung. Verschickte Pokémon können nicht zurückgeholt werden.
+
+RESOURCE ID: batch_transfer_eligible_confirm_singular
+TEXT: <size=36><b>Nur 1 der ausgewählten Pokémon kann an den Professor verschickt werden.</b></size>
+
+Alle Pokémon, die nicht verschickt werden können, bleiben in deiner Pokémon-Aufbewahrung. Verschickte Pokémon können nicht zurückgeholt werden.
 
 RESOURCE ID: batch_transfer_header
 TEXT: Pokémon wählen
@@ -4484,22 +4515,22 @@ RESOURCE ID: batch_transfer_result
 TEXT: Bonbons vom Professor erhalten!
 
 RESOURCE ID: batch_transfer_unique_event_pokemon
-TEXT: {0} Event Pokémon
+TEXT: {0} Event-Pokémon
 
 RESOURCE ID: batch_transfer_unique_included
-TEXT: Unique Pokémon are included.
+TEXT: Du hast mindestens ein Legendäres, Mysteriöses oder Event-Pokémon ausgewählt.
 
 RESOURCE ID: batch_transfer_unique_legendary_or_mythical_pokemon
-TEXT: {0} Legendary or Mythical Pokémon
+TEXT: {0} Legendäre(s) oder Mysteriöse(s) Pokémon
 
 RESOURCE ID: batch_transfer_unique_not_included
-TEXT: Unique Pokémon are not included.
+TEXT: Du hast keine Legendären, Mysteriösen oder Event-Pokémon ausgewählt.
 
 RESOURCE ID: batch_transfer_unique_warning_message
-TEXT: Are you sure you want to transfer these Pokémon to the professor?
+TEXT: Bist du sicher, dass du diese Pokémon an den Professor verschicken möchtest?
 
 RESOURCE ID: batch_transfer_unique_warning_title
-TEXT: Your Selection Contains Unique Pokémon:
+TEXT: Deine Auswahl enthält diese Pokémon:
 
 RESOURCE ID: battle_charged_move_callout
 TEXT: {0} hat {1} eingesetzt!
@@ -6981,6 +7012,9 @@ TEXT: Spielt zusammen
 RESOURCE ID: buddy_consumables_journal
 TEXT: Dein Kumpel hat dir ein Geschenk gebracht.
 
+RESOURCE ID: buddy_description
+TEXT: Wähle ein Pokémon als Kumpel und es erhält Bonusse, wenn eure Bindung stärker wird.
+
 RESOURCE ID: buddy_detail_basic_buddy
 TEXT: Wenn du deinen Kumpel-Level erhöhst, kannst du mehr Bonusse verdienen! Tippe auf ein Herz, um mehr zu sehen.
 
@@ -7013,6 +7047,9 @@ TEXT: Finde Orte
 
 RESOURCE ID: buddy_detail_souvenir
 TEXT: Finde Souvenirs
+
+RESOURCE ID: buddy_feature_name
+TEXT: Kumpel-Abenteuer
 
 RESOURCE ID: buddy_feed_stop_content
 TEXT: Dein Kumpel sieht immer noch hungrig aus und kommt deswegen noch nicht mit dir auf die Karte.
@@ -8291,6 +8328,9 @@ TEXT: Deinen Trainercode ändern
 
 RESOURCE ID: charge_tm_used_on_shadow_pokemon
 TEXT: Lade-TMs können nicht bei Crypto-Pokémon eingesetzt werden.
+
+RESOURCE ID: charge_up_event_name
+TEXT: Elektrotastisch
 
 RESOURCE ID: chicago_fest_july_2017_title
 TEXT: <i>Pokémon GO</i>-Fest
@@ -9825,7 +9865,7 @@ RESOURCE ID: community_day_event_name
 TEXT: Community Day
 
 RESOURCE ID: community_day_fletchling_event_name
-TEXT: Community Day: Fletchling
+TEXT: Community Day: Dartiri
 
 RESOURCE ID: community_day_gastly_event_name
 TEXT: Community Day: Nebulak
@@ -9927,7 +9967,7 @@ RESOURCE ID: days_and_hours
 TEXT: {0}T {1}Std
 
 RESOURCE ID: december_cd_event_ticket
-TEXT: Ticket für den Dezember Community Day
+TEXT: Ticket: Kein Problem für Magmar
 
 RESOURCE ID: decline_action_label
 TEXT: Ablehnen
@@ -10631,6 +10671,9 @@ TEXT: Entwickle Kadabra zu Simsala, die die Sofort-Attacke Konter beherrschen.
 RESOURCE ID: event_move_ampharos_dragon_pulse
 TEXT: Entwickle Waaty, um ein Ampharos mit Drachenpuls zu erhalten.
 
+RESOURCE ID: event_move_metagross_meteor_mash
+TEXT: Evolve Metang to get a Metagross that knows Meteor Mash
+
 RESOURCE ID: event_name_bonus_generic
 TEXT: Bonus-Event
 
@@ -10940,6 +10983,9 @@ TEXT: Du hast dich erfolgreich für {0} registriert!
 RESOURCE ID: event_season1_name
 TEXT: Festliche Jahreszeit
 
+RESOURCE ID: event_season2_name
+TEXT: Legendäre Jahreszeit
+
 RESOURCE ID: event_sinnoh_celebration
 TEXT: Sinnoh-Feier-Event
 
@@ -11125,6 +11171,9 @@ TEXT: Level-47-Pose
 
 RESOURCE ID: f_avatar_poses_bundle_pose_27
 TEXT: Pantimos-Pose
+
+RESOURCE ID: f_avatar_poses_bundle_pose_28
+TEXT: Kamilla-Pose
 
 RESOURCE ID: f_avatar_poses_empty_bundle_pose_empty
 TEXT: Bereit
@@ -12032,7 +12081,7 @@ RESOURCE ID: general1.ticket.1_title
 TEXT: Galar-Pantimos-Event-Ticket
 
 RESOURCE ID: general1.ticket.2_description
-TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Ganz nach oben, Machollo!“ am 16. Januar 2021 von 11:00 Uhr bis 17:00 Uhr Ortszeit (wo immer du dich befindest). Details unter „Neuigkeiten“ im Spiel.
+TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Der frühe Vogel“ am 6. März 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest). Details unter „Neuigkeiten“ im Spiel.
 
 DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZIAL-EVENTS ZU ERHALTEN.
 
@@ -12049,6 +12098,14 @@ DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZ
 RESOURCE ID: general1.ticket.2_flett_title
 TEXT: Ticket: Der frühe Vogel
 
+RESOURCE ID: general1.ticket.2_machop_description
+TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Kein Problem für Magmar“ am 21. November 2020 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest). Details unter „Neuigkeiten“ im Spiel.
+
+DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZIAL-EVENTS ZU ERHALTEN.
+
+RESOURCE ID: general1.ticket.2_machop_title
+TEXT: Ticket: Kein Problem für Magmar
+
 RESOURCE ID: general1.ticket.2_roset_description
 TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Es ist ein Roselia entsprungen“ am 7. Februar 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest). Details unter „Neuigkeiten“ im Spiel.
 
@@ -12058,7 +12115,7 @@ RESOURCE ID: general1.ticket.2_roset_title
 TEXT: Ticket: Es ist ein Roselia entsprungen
 
 RESOURCE ID: general1.ticket.2_title
-TEXT: Ticket: Ganz nach oben, Machollo!
+TEXT: Ticket: Der frühe Vogel
 
 RESOURCE ID: general1.ticket.2_title_2
 TEXT: Ticket: Kein Problem für Magmar
@@ -12140,7 +12197,7 @@ RESOURCE ID: general_hp
 TEXT: KP
 
 RESOURCE ID: general_include
-TEXT: INCLUDE
+TEXT: VERSCHICKEN
 
 RESOURCE ID: general_kg
 TEXT: kg
@@ -12149,7 +12206,7 @@ RESOURCE ID: general_km
 TEXT: km
 
 RESOURCE ID: general_leave_out
-TEXT: LEAVE OUT
+TEXT: ABBRECHEN
 
 RESOURCE ID: general_m
 TEXT: m
@@ -12181,6 +12238,9 @@ TEXT: Aufbewahrungslimit erreicht!
 RESOURCE ID: general_quit
 TEXT: Verlassen
 
+RESOURCE ID: general_raid_error
+TEXT: General raid error.
+
 RESOURCE ID: general_report_title
 TEXT: Problem melden
 
@@ -12200,7 +12260,7 @@ RESOURCE ID: general_total_caps
 TEXT: GESAMT
 
 RESOURCE ID: general_transfer
-TEXT: TRANSFER
+TEXT: VERSCHICKEN
 
 RESOURCE ID: general_vs
 TEXT: VS
@@ -13294,7 +13354,7 @@ RESOURCE ID: grass_type_event
 TEXT: Typ-Alarm: Pflanze
 
 RESOURCE ID: great_league_remix_title
-TEXT: Great League Remix
+TEXT: Superliga-Remix
 
 RESOURCE ID: ground_type_event
 TEXT: Typ-Alarm: Boden
@@ -14252,31 +14312,31 @@ RESOURCE ID: gym_start_battle_error
 TEXT: Kampf konnte nicht begonnen werden.
 
 RESOURCE ID: gym_tag_ace
-TEXT: ASS
+TEXT: ACE
 
 RESOURCE ID: gym_tag_easy
-TEXT: EINFACH
+TEXT: EASY
 
 RESOURCE ID: gym_tag_event
 TEXT: EVENT
 
 RESOURCE ID: gym_tag_exclusive
-TEXT: EXKLUSIV
+TEXT: EXCLUSIVE
 
 RESOURCE ID: gym_tag_gofest
-TEXT: GO-FEST
+TEXT: GO FEST
 
 RESOURCE ID: gym_tag_great
-TEXT: SUPER
+TEXT: GREAT
 
 RESOURCE ID: gym_tag_hard
-TEXT: SCHWER
+TEXT: HARD
 
 RESOURCE ID: gym_tag_master
-TEXT: MEISTER
+TEXT: MASTER
 
 RESOURCE ID: gym_tag_medium
-TEXT: MITTEL
+TEXT: MEDIUM
 
 RESOURCE ID: gym_tag_mystery
 TEXT: ???
@@ -14285,7 +14345,7 @@ RESOURCE ID: gym_tag_normal
 TEXT: NORMAL
 
 RESOURCE ID: gym_tag_special
-TEXT: SPEZIAL
+TEXT: SPECIAL
 
 RESOURCE ID: gym_tag_ultra
 TEXT: HYPER
@@ -14571,6 +14631,9 @@ TEXT: Typ-Alarm: Eis
 
 RESOURCE ID: incense_day
 TEXT: Rauch-Tag
+
+RESOURCE ID: incense_day_pokemon_beldum
+TEXT: Beldum attracted to Incense
 
 RESOURCE ID: incense_day_pokemon_carvanha
 TEXT: Kanivanha werden von Rauch angelockt.
@@ -14900,7 +14963,7 @@ RESOURCE ID: item_dragon_scale_name
 TEXT: Drachenhaut
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Ein Ticket für den Zugang zur Spezialforschung am 7. Februar 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
+TEXT: Ein Ticket für den Zugang zur Spezialforschung am 6. März 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_desc_2
 TEXT: Ein Ticket für den Zugang zur Spezialforschung am 21. November 2020 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
@@ -14909,7 +14972,7 @@ RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: Ein Ticket für den Zugang zur Spezialforschung vom 19. Dezember 2020 um 10:00 Uhr bis zum 20. Dezember 2020 um 20:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung am 7. Februar 2021 von 11:00 Uhr bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
+TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung am 6. März 2021 von 11:00 Uhr bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
 
 RESOURCE ID: item_event_ticket_pink_details_2
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung am 21. November (wo immer du dich befindest).
@@ -17889,6 +17952,9 @@ TEXT: Level-47-Pose
 RESOURCE ID: m_avatar_poses_bundle_pose_27
 TEXT: Pantimos-Pose
 
+RESOURCE ID: m_avatar_poses_bundle_pose_28
+TEXT: Kamilla-Pose
+
 RESOURCE ID: m_avatar_poses_empty_bundle_pose_empty
 TEXT: Bereit
 
@@ -18158,6 +18224,9 @@ TEXT: Mega-Kampf-Herausforderung
 RESOURCE ID: mega_buddy_event
 TEXT: Mega-Kumpel-Herausforderung
 
+RESOURCE ID: mega_candy_hour
+TEXT: Mega-Bonus-Stunde: [Bonbons]
+
 RESOURCE ID: mega_candy_plus_energy_walking_desc
 TEXT: Auf deinem Spaziergang kannst du Bonbons für das Pokémon verdienen, das du als Kumpel gewählt hast. Wenn dein Kumpel aufgeregt ist, reduziert sich die Distanz, die du laufen musst, um ein Bonbon zu verdienen! Durch Knurspe wird dein Kumpel schneller aufgeregt als durch andere Snacks! Du kannst außerdem Mega-Energien passend zu deinem Kumpel erhalten!
 
@@ -18218,6 +18287,9 @@ TEXT: Mega-Pokémon können keiner Arena zugewiesen werden, um bei der Verteidig
 RESOURCE ID: mega_raid_event
 TEXT: Mega-Raid-Herausforderung
 
+RESOURCE ID: mega_raid_hour
+TEXT: Mega-Raid-Stunde
+
 RESOURCE ID: mega_raids_increase
 TEXT: Erhöhte Mega-Raid-Anzahl
 
@@ -18231,9 +18303,9 @@ RESOURCE ID: mega_walking_progress
 TEXT: Lauffortschritt
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2021-03-22T16:41:53.668233
-at SHA dd25d685104fa21e0ffd54087e3c3ed8af18e8a9
-Pipeline 583770, job 5316813
+TEXT: Built at 2021-04-06T08:36:15.605757
+at SHA 8f1f1038a8518d9b11e9614aed09ca0e4ca197a6
+Pipeline 597489, job 5457998
 
 RESOURCE ID: mini_collection_feb21_gen1_event
 TEXT: Kanto-Sammler-Herausforderung
@@ -19774,7 +19846,7 @@ RESOURCE ID: photobomb_five_electabuzz
 TEXT: 5 überraschende Begegnungen mit Elektek in GO-Schnappschuss
 
 RESOURCE ID: photobomb_five_fletchling
-TEXT: 5 surprise encounters with Fletchling in GO Snapshot
+TEXT: 5 überraschende Begegnungen mit Dartiri in GO-Schnappschuss
 
 RESOURCE ID: photobomb_five_gastly
 TEXT: 5 überraschende Begegnungen mit Nebulak in GO-Schnappschuss
@@ -25481,7 +25553,7 @@ RESOURCE ID: pokemon_info_multi_transfer_shiny_pokemon_error
 TEXT: Du kannst keine Schillernden Pokémon wählen.
 
 RESOURCE ID: pokemon_info_none_transferable
-TEXT: None of the selected Pokémon can be transferred.
+TEXT: Keines der ausgewählten Pokémon kann verschickt werden.
 
 RESOURCE ID: pokemon_info_not_transferable
 TEXT: Eines oder mehrere der ausgewählten Pokémon können nicht verschickt werden.
@@ -25725,7 +25797,7 @@ RESOURCE ID: pokemon_name_0018
 TEXT: Tauboss
 
 RESOURCE ID: pokemon_name_0018_0001
-TEXT: Mega-Tauboss
+TEXT: Mega Pidgeot
 
 RESOURCE ID: pokemon_name_0019
 TEXT: Rattfratz
@@ -26067,7 +26139,7 @@ RESOURCE ID: pokemon_name_0127
 TEXT: Pinsir
 
 RESOURCE ID: pokemon_name_0127_0001
-TEXT: Mega-Pinsir
+TEXT: Mega Pinsir
 
 RESOURCE ID: pokemon_name_0128
 TEXT: Tauros
@@ -26145,10 +26217,10 @@ RESOURCE ID: pokemon_name_0150
 TEXT: Mewtu
 
 RESOURCE ID: pokemon_name_0150_0002
-TEXT: Mega-Mewtu X
+TEXT: Mega Mewtwo X
 
 RESOURCE ID: pokemon_name_0150_0003
-TEXT: Mega-Mewtu Y
+TEXT: Mega Mewtwo Y
 
 RESOURCE ID: pokemon_name_0151
 TEXT: Mew
@@ -26244,7 +26316,7 @@ RESOURCE ID: pokemon_name_0181
 TEXT: Ampharos
 
 RESOURCE ID: pokemon_name_0181_0001
-TEXT: Mega-Ampharos
+TEXT: Mega Ampharos
 
 RESOURCE ID: pokemon_name_0182
 TEXT: Blubella
@@ -26328,7 +26400,7 @@ RESOURCE ID: pokemon_name_0208
 TEXT: Stahlos
 
 RESOURCE ID: pokemon_name_0208_0001
-TEXT: Mega-Stahlos
+TEXT: Mega Steelix
 
 RESOURCE ID: pokemon_name_0209
 TEXT: Snubbull
@@ -26343,7 +26415,7 @@ RESOURCE ID: pokemon_name_0212
 TEXT: Scherox
 
 RESOURCE ID: pokemon_name_0212_0001
-TEXT: Mega-Scherox
+TEXT: Mega Scizor
 
 RESOURCE ID: pokemon_name_0213
 TEXT: Pottrott
@@ -26352,7 +26424,7 @@ RESOURCE ID: pokemon_name_0214
 TEXT: Skaraborn
 
 RESOURCE ID: pokemon_name_0214_0001
-TEXT: Mega-Skaraborn
+TEXT: Mega Heracross
 
 RESOURCE ID: pokemon_name_0215
 TEXT: Sniebel
@@ -26400,7 +26472,7 @@ RESOURCE ID: pokemon_name_0229
 TEXT: Hundemon
 
 RESOURCE ID: pokemon_name_0229_0001
-TEXT: Mega-Hundemon
+TEXT: Mega Houndoom
 
 RESOURCE ID: pokemon_name_0230
 TEXT: Seedraking
@@ -26460,7 +26532,7 @@ RESOURCE ID: pokemon_name_0248
 TEXT: Despotar
 
 RESOURCE ID: pokemon_name_0248_0001
-TEXT: Mega-Despotar
+TEXT: Mega Tyranitar
 
 RESOURCE ID: pokemon_name_0249
 TEXT: Lugia
@@ -26481,7 +26553,7 @@ RESOURCE ID: pokemon_name_0254
 TEXT: Gewaldro
 
 RESOURCE ID: pokemon_name_0254_0001
-TEXT: Mega-Gewaldro
+TEXT: Mega Sceptile
 
 RESOURCE ID: pokemon_name_0255
 TEXT: Flemmli
@@ -26493,7 +26565,7 @@ RESOURCE ID: pokemon_name_0257
 TEXT: Lohgock
 
 RESOURCE ID: pokemon_name_0257_0001
-TEXT: Mega-Lohgock
+TEXT: Mega Blaziken
 
 RESOURCE ID: pokemon_name_0258
 TEXT: Hydropi
@@ -26505,7 +26577,7 @@ RESOURCE ID: pokemon_name_0260
 TEXT: Sumpex
 
 RESOURCE ID: pokemon_name_0260_0001
-TEXT: Mega-Sumpex
+TEXT: Mega Swampert
 
 RESOURCE ID: pokemon_name_0261
 TEXT: Fiffyen
@@ -26574,7 +26646,7 @@ RESOURCE ID: pokemon_name_0282
 TEXT: Guardevoir
 
 RESOURCE ID: pokemon_name_0282_0001
-TEXT: Mega-Guardevoir
+TEXT: Mega Gardevoir
 
 RESOURCE ID: pokemon_name_0283
 TEXT: Gehweiher
@@ -26637,7 +26709,7 @@ RESOURCE ID: pokemon_name_0302
 TEXT: Zobiris
 
 RESOURCE ID: pokemon_name_0302_0001
-TEXT: Mega-Zobiris
+TEXT: Mega Sableye
 
 RESOURCE ID: pokemon_name_0303
 TEXT: Flunkifer
@@ -26655,7 +26727,7 @@ RESOURCE ID: pokemon_name_0306
 TEXT: Stolloss
 
 RESOURCE ID: pokemon_name_0306_0001
-TEXT: Mega-Stolloss
+TEXT: Mega Aggron
 
 RESOURCE ID: pokemon_name_0307
 TEXT: Meditie
@@ -26664,7 +26736,7 @@ RESOURCE ID: pokemon_name_0308
 TEXT: Meditalis
 
 RESOURCE ID: pokemon_name_0308_0001
-TEXT: Mega-Meditalis
+TEXT: Mega Medicham
 
 RESOURCE ID: pokemon_name_0309
 TEXT: Frizelbliz
@@ -26673,7 +26745,7 @@ RESOURCE ID: pokemon_name_0310
 TEXT: Voltenso
 
 RESOURCE ID: pokemon_name_0310_0001
-TEXT: Mega-Voltenso
+TEXT: Mega Manectric
 
 RESOURCE ID: pokemon_name_0311
 TEXT: Plusle
@@ -26703,7 +26775,7 @@ RESOURCE ID: pokemon_name_0319
 TEXT: Tohaido
 
 RESOURCE ID: pokemon_name_0319_0001
-TEXT: Mega-Tohaido
+TEXT: Mega Sharpedo
 
 RESOURCE ID: pokemon_name_0320
 TEXT: Wailmer
@@ -26718,7 +26790,7 @@ RESOURCE ID: pokemon_name_0323
 TEXT: Camerupt
 
 RESOURCE ID: pokemon_name_0323_0001
-TEXT: Mega-Camerupt
+TEXT: Mega Camerupt
 
 RESOURCE ID: pokemon_name_0324
 TEXT: Qurtel
@@ -26754,7 +26826,7 @@ RESOURCE ID: pokemon_name_0334
 TEXT: Altaria
 
 RESOURCE ID: pokemon_name_0334_0001
-TEXT: Mega-Altaria
+TEXT: Mega Altaria
 
 RESOURCE ID: pokemon_name_0335
 TEXT: Sengo
@@ -26835,7 +26907,7 @@ RESOURCE ID: pokemon_name_0359
 TEXT: Absol
 
 RESOURCE ID: pokemon_name_0359_0001
-TEXT: Mega-Absol
+TEXT: Mega Absol
 
 RESOURCE ID: pokemon_name_0360
 TEXT: Isso
@@ -26847,7 +26919,7 @@ RESOURCE ID: pokemon_name_0362
 TEXT: Firnontor
 
 RESOURCE ID: pokemon_name_0362_0001
-TEXT: Mega-Firnontor
+TEXT: Mega Glalie
 
 RESOURCE ID: pokemon_name_0363
 TEXT: Seemops
@@ -26883,7 +26955,7 @@ RESOURCE ID: pokemon_name_0373
 TEXT: Brutalanda
 
 RESOURCE ID: pokemon_name_0373_0001
-TEXT: Mega-Brutalanda
+TEXT: Mega Salamence
 
 RESOURCE ID: pokemon_name_0374
 TEXT: Tanhel
@@ -26895,7 +26967,7 @@ RESOURCE ID: pokemon_name_0376
 TEXT: Metagross
 
 RESOURCE ID: pokemon_name_0376_0001
-TEXT: Mega-Metagross
+TEXT: Mega Metagross
 
 RESOURCE ID: pokemon_name_0377
 TEXT: Regirock
@@ -26910,31 +26982,31 @@ RESOURCE ID: pokemon_name_0380
 TEXT: Latias
 
 RESOURCE ID: pokemon_name_0380_0001
-TEXT: Mega-Latias
+TEXT: Mega Latias
 
 RESOURCE ID: pokemon_name_0381
 TEXT: Latios
 
 RESOURCE ID: pokemon_name_0381_0001
-TEXT: Mega-Latios
+TEXT: Mega Latios
 
 RESOURCE ID: pokemon_name_0382
 TEXT: Kyogre
 
 RESOURCE ID: pokemon_name_0382_0001
-TEXT: Proto-Kyogre
+TEXT: Primal Kyogre
 
 RESOURCE ID: pokemon_name_0383
 TEXT: Groudon
 
 RESOURCE ID: pokemon_name_0383_0001
-TEXT: Proto-Groudon
+TEXT: Primal Groudon
 
 RESOURCE ID: pokemon_name_0384
 TEXT: Rayquaza
 
 RESOURCE ID: pokemon_name_0384_0001
-TEXT: Mega-Rayquaza
+TEXT: Mega Rayquaza
 
 RESOURCE ID: pokemon_name_0385
 TEXT: Jirachi
@@ -27069,7 +27141,7 @@ RESOURCE ID: pokemon_name_0428
 TEXT: Schlapor
 
 RESOURCE ID: pokemon_name_0428_0001
-TEXT: Mega-Schlapor
+TEXT: Mega Lopunny
 
 RESOURCE ID: pokemon_name_0429
 TEXT: Traunmagil
@@ -27123,7 +27195,7 @@ RESOURCE ID: pokemon_name_0445
 TEXT: Knakrack
 
 RESOURCE ID: pokemon_name_0445_0001
-TEXT: Mega-Knakrack
+TEXT: Mega Garchomp
 
 RESOURCE ID: pokemon_name_0446
 TEXT: Mampfaxo
@@ -27135,7 +27207,7 @@ RESOURCE ID: pokemon_name_0448
 TEXT: Lucario
 
 RESOURCE ID: pokemon_name_0448_0001
-TEXT: Mega-Lucario
+TEXT: Mega Lucario
 
 RESOURCE ID: pokemon_name_0449
 TEXT: Hippopotas
@@ -27174,7 +27246,7 @@ RESOURCE ID: pokemon_name_0460
 TEXT: Rexblisar
 
 RESOURCE ID: pokemon_name_0460_0001
-TEXT: Mega-Rexblisar
+TEXT: Mega Abomasnow
 
 RESOURCE ID: pokemon_name_0461
 TEXT: Snibunna
@@ -27222,7 +27294,7 @@ RESOURCE ID: pokemon_name_0475
 TEXT: Galagladi
 
 RESOURCE ID: pokemon_name_0475_0001
-TEXT: Mega-Galagladi
+TEXT: Mega Gallade
 
 RESOURCE ID: pokemon_name_0476
 TEXT: Voluminas
@@ -27393,7 +27465,7 @@ RESOURCE ID: pokemon_name_0531
 TEXT: Ohrdoch
 
 RESOURCE ID: pokemon_name_0531_0001
-TEXT: Mega-Ohrdoch
+TEXT: Mega Audino
 
 RESOURCE ID: pokemon_name_0532
 TEXT: Praktibalk
@@ -27960,7 +28032,7 @@ RESOURCE ID: pokemon_name_0719
 TEXT: Diancie
 
 RESOURCE ID: pokemon_name_0719_0001
-TEXT: Mega-Diancie
+TEXT: Mega Diancie
 
 RESOURCE ID: pokemon_name_0720
 TEXT: Hoopa
@@ -28159,7 +28231,7 @@ RESOURCE ID: pokestop_unavailable_soon
 TEXT: Dieser PokéStop schließt bald.
 
 RESOURCE ID: poseidon_passcode_title
-TEXT: Please enter activation code
+TEXT: Bitte gib den Aktivierungscode ein.
 
 RESOURCE ID: privacy_location_helptext
 TEXT: Schalte die Hintergrundortung ein, damit du Bonbons und Belohnungen verdienen und Pokémon-Eier ausbrüten kannst, selbst wenn du Pokémon GO nicht benutzt.
@@ -28955,7 +29027,7 @@ RESOURCE ID: quest_complete_elect
 TEXT: Spannung mit Elektek
 
 RESOURCE ID: quest_complete_flett
-TEXT: The Bravest Bird
+TEXT: Der frühe Vogel
 
 RESOURCE ID: quest_complete_gt
 TEXT: Das großartige Nebulak
@@ -29010,6 +29082,9 @@ TEXT: Zeit zum Trainieren
 
 RESOURCE ID: quest_complete_rockethq7
 TEXT: Eine ei-genartige Entwicklung
+
+RESOURCE ID: quest_complete_rockethq8
+TEXT: Höhenflug
 
 RESOURCE ID: quest_complete_roset
 TEXT: Es ist ein Roselia entsprungen
@@ -30593,13 +30668,13 @@ RESOURCE ID: quest_first_pokestop_of_the_day
 TEXT: Erster PokéStop des Tages
 
 RESOURCE ID: quest_flett_catch_b
-TEXT: Catch {0} Fletchling
+TEXT: Fange {0} Dartiri.
 
 RESOURCE ID: quest_flett_evolve_b
-TEXT: Evolve {0} Fletchling
+TEXT: Entwickle {0} Dartiri.
 
 RESOURCE ID: quest_flett_evolve_s1
-TEXT: Evolve {0} Fletchinder
+TEXT: Entwickle {0} Dartignis.
 
 RESOURCE ID: quest_gbl_rank
 TEXT: Erreiche Rang {0} in der GO-Kampfliga.
@@ -30648,6 +30723,18 @@ TEXT: Verdiene 5 Gold-Medaillen.
 
 RESOURCE ID: quest_gold_medal_singular
 TEXT: Verdiene 1 Gold-Medaille.
+
+RESOURCE ID: quest_gotour_kanto_bonus
+TEXT: Pokémon GO-Tour: Kanto - Bonus-Event
+
+RESOURCE ID: quest_gotour_kanto_bonus_1
+TEXT: Pokémon GO-Tour: Kanto - Bonus-Event (1/3)
+
+RESOURCE ID: quest_gotour_kanto_bonus_2
+TEXT: Pokémon GO-Tour: Kanto - Bonus-Event (2/3)
+
+RESOURCE ID: quest_gotour_kanto_bonus_3
+TEXT: Pokémon GO-Tour: Kanto - Bonus-Event (3/3)
 
 RESOURCE ID: quest_gt_catch_b
 TEXT: Fange {0} Nebulak.
@@ -31135,6 +31222,9 @@ TEXT: Mache einen Schnappschuss von Glumanda.
 RESOURCE ID: quest_snapshot_genesect
 TEXT: Mache {0} Schnappschüsse von Genesect.
 
+RESOURCE ID: quest_snapshot_landorus
+TEXT: Mache einen Schnappschuss von Demeteros.
+
 RESOURCE ID: quest_snapshot_regi_ice
 TEXT: Mache einen Schnappschuss von Regice.
 
@@ -31143,6 +31233,12 @@ TEXT: Mache einen Schnappschuss von Regirock.
 
 RESOURCE ID: quest_snapshot_regi_steel
 TEXT: Mache einen Schnappschuss von Registeel.
+
+RESOURCE ID: quest_snapshot_thundurus
+TEXT: Mache einen Schnappschuss von Voltolos.
+
+RESOURCE ID: quest_snapshot_tornadus
+TEXT: Mache einen Schnappschuss von Boreos.
 
 RESOURCE ID: quest_snapshots_inarow_plural
 TEXT: Mache {0} Tage hintereinander einen Schnappschuss eines Pokémon.
@@ -31565,85 +31661,85 @@ RESOURCE ID: quest_special_dialogue_elect_3_6
 TEXT: Nochmals vielen Dank für all deine Hilfe und bis zum nächsten Mal, los geht's!
 
 RESOURCE ID: quest_special_dialogue_flett_0_0
-TEXT: Hey there, %PLAYERNAME%. Hope you are doing well.
+TEXT: Hallo, %PLAYERNAME%. Wie läuft dein Tag?
 
 RESOURCE ID: quest_special_dialogue_flett_0_1
-TEXT: Me? Well, I’ve had a wonderful day so far visiting with this large group of Fletchling that has seemingly migrated to the area.
+TEXT: Meiner läuft wie am Schnürchen. Oder eher ... fliegt wie am Schnürchen. Denn ein riesiger Schwarm Dartiri hat sich in der Nähe versammelt.
 
 RESOURCE ID: quest_special_dialogue_flett_0_2
-TEXT: I overheard their beautiful chirps and just had to investigate and they totally stole my heart.
+TEXT: Ich habe ein unaufhörliches Pokémon-Gezwitscher gehört, deshalb bin ich nach draußen gegangen und habe Dartiri gefunden ... so weit das Auge reicht!
 
 RESOURCE ID: quest_special_dialogue_flett_0_3
-TEXT: This Tiny Robin Pokémon is actually quite amiable and easy to train. But when battle is joined, it shows its ferocious side!
+TEXT: Dartiri ist als das Rotkehlchen-Pokémon bekannt. Es ist normalerweise sehr liebenswert und leicht zu trainieren. Aber wenn du es in den Kampf schickst, wirst du sehr schnell seine rasende Seite erleben!
 
 RESOURCE ID: quest_special_dialogue_flett_0_4
-TEXT: These Pokémon are known to be quite friendly, but the number of them in the area is a bit odd.
+TEXT: Ein faszinierendes kleines Pokémon. So sehr ich mich auch darüber freue, es hier zu sehen, erscheint es mir doch sehr ungewöhnlich, dass sich so viele dieser Pokémon an einem Ort versammeln.
 
 RESOURCE ID: quest_special_dialogue_flett_0_5
-TEXT: Would you mind completing some tasks so we can get some more information on what is happening?
+TEXT: Würde es dir etwas ausmachen, Nachforschungen anzustellen, damit wir besser verstehen können, was hier vor sich geht?
 
 RESOURCE ID: quest_special_dialogue_flett_1_0
-TEXT: Great work, Trainer. Looks like you have your very own Fletchling to join you on your journey!
+TEXT: Großartige Arbeit, Trainer. Sieht ganz danach aus, als hättest du dir dein eigenes Dartiri gefangen, das dich auf deiner Reise begleitet!
 
 RESOURCE ID: quest_special_dialogue_flett_1_1
-TEXT: Did you know, its body is always warm. Trainers who live in cold areas apparently sleep with it in their bed.
+TEXT: Wusstest du, dass der Körper von Dartiri immer warm ist? Tatsächlich nehmen Trainer, die in kalten Regionen wohnen, dieses Pokémon zum Wärmen mit ins Bett. Interessant, oder?
 
 RESOURCE ID: quest_special_dialogue_flett_1_2
-TEXT: I’m always so fascinated to learn about how Pokémon and their Trainers work and live together. I’m going to remember this bit of information on the next cold night.
+TEXT: Ich liebe es, mehr über das gemeinsame Leben von Trainern und Pokémon zu erfahren. Und es ist doch sicherlich gut zu wissen, wie man sich in kalten Nächten warmhalten kann, oder?
 
 RESOURCE ID: quest_special_dialogue_flett_1_3
-TEXT: Anyway, this Normal- and Flying-Type Pokémon actually evolves into the Fire- and Flying-Type Pokémon, Fletchinder.
+TEXT: Wie auch immer ... Dartiri entwickelt sich zu dem Feuer- und Flug-Pokémon Dartignis.
 
 RESOURCE ID: quest_special_dialogue_flett_1_4
-TEXT: Known as the Ember Pokémon, they are exceedingly territorial and aggressive.
+TEXT: Dartignis ist als das Funkenregen-Pokémon bekannt, und es ist äußerst territorial und aggressiv.
 
 RESOURCE ID: quest_special_dialogue_flett_1_5
-TEXT: They are also incredibly fast, its speed right after takeoff already puts it in the top speed class of all bird Pokémon.
+TEXT: Außerdem ist es unglaublich schnell. Mit seiner Startgeschwindigkeit gehört es zu den schnellsten aller Vogel-Pokémon.
 
 RESOURCE ID: quest_special_dialogue_flett_1_6
-TEXT: When you are ready, I think it is time for you to evolve your Fletchling into Fletchinder.
+TEXT: Versuche doch einmal, dein Dartiri zu Dartignis zu entwickeln, wenn du bereit bist. Diese atemberaubende Geschwindigkeit würde ich gerne mit meinen eigenen Augen sehen!
 
 RESOURCE ID: quest_special_dialogue_flett_2_0
-TEXT: Ah, what a fine looking Fletchinder you have there, %PLAYERNAME%.
+TEXT: Das ist ein wunderschönes Dartignis, das du da hast, %PLAYERNAME%. Herzlichen Glückwunsch!
 
 RESOURCE ID: quest_special_dialogue_flett_2_1
-TEXT: While you were out completing your research, I was recalling some information about this interesting Pokémon.
+TEXT: Natürlich war ich auch beschäftigt. Und zwar habe ich einige Informationen gefunden, die du beim Trainieren von Dartignis nützlich finden könntest.
 
 RESOURCE ID: quest_special_dialogue_flett_2_2
-TEXT: Take this training tip seriously, don't just WING it - make sure to take care and not burn yourself when training your Fletchinder.
+TEXT: Dartignis ist dafür bekannt, Funken aus seinem Schnabel zu speien, um Gras in Brand zu setzen. Dann stürzt es sich auf die erschrockene Beute, die vor den Flammen flieht.
 
 RESOURCE ID: quest_special_dialogue_flett_2_3
-TEXT: From its beak, it expels embers that set the tall grass on fire. Then it pounces on the bewildered prey that pop out of the grass.
+TEXT: Ganz schön heftig, oder? Am besten bist du beim Training vorsichtig, sonst verbrennst du dir die Flügel ... äh, Hände.
 
 RESOURCE ID: quest_special_dialogue_flett_2_4
-TEXT: Remember, only you can prevent high grass fires.
+TEXT: Lasse die ganzen Brände, die Dartignis entfacht, nicht außer Kontrolle geraten. Schließlich sind wir alle für unsere Umwelt verantwortlich!
 
 RESOURCE ID: quest_special_dialogue_flett_2_5
-TEXT: We are making great progress on our research, however, there is a few more things I’d like you to do.
+TEXT: Es gibt aber noch ein paar andere Aufgaben, die du für unsere Forschung erledigen musst.
 
 RESOURCE ID: quest_special_dialogue_flett_2_6
-TEXT: I’d love to observe a Talonflame, do you think you could evolve your Fletchinder? I’ve wanted to take a closer look at their incredible wings.
+TEXT: Am wichtigsten ist es, Dartignis zu Fiaro zu entwickeln. Diese sollen unglaublich prächtige Flügel haben! Könntest du dein Dartignis vielleicht entwickeln, Trainer?
 
 RESOURCE ID: quest_special_dialogue_flett_3_0
-TEXT: Welcome back, %PLAYERNAME% and hello, Talonflame!
+TEXT: Willkommen zurück, %PLAYERNAME%. Und hallo, Fiaro!
 
 RESOURCE ID: quest_special_dialogue_flett_3_1
-TEXT: Thank you for all your hard work today, but it certainly looks like it paid off now that you have the Scorching Pokémon.
+TEXT: Ich weiß, dass ich dich heute auf Herz und Nieren geprüft habe, aber am Ende hat es sich doch gelohnt! Du bist jetzt der stolze Trainer von Fiaro, dem Stichflammen-Pokémon.
 
 RESOURCE ID: quest_special_dialogue_flett_3_2
-TEXT: I certainly think they will make a great addition to your team, in the fever of an exciting battle it showers embers from the gaps between its feathers and takes to the air.
+TEXT: Fiaro ist dafür bekannt, in der Hitze des Gefechts Funken aus den Zwischenräumen seines Gefieders zu sprühen. Es schwingt sich dann in die Lüfte und erreicht Geschwindigkeiten von bis zu 500 km/h.
 
 RESOURCE ID: quest_special_dialogue_flett_3_3
-TEXT: Being both Fire- and Flying-Type, Talonflame has tough wings that don’t allow fire to pass through them. A long time ago, firefighters' outfits were made from Talonflame wings.
+TEXT: Erinnerst du dich daran, dass ich Fiaros Flügel zuvor erwähnt hatte? Feuer kann sie nicht durchdringen, weshalb früher die Uniformen von Feuerwehrmännern damit bestückt wurden.
 
 RESOURCE ID: quest_special_dialogue_flett_3_4
-TEXT: Simply amazing, I’m always so impressed by this brave bird and can’t wait to see what the two of you as a team accomplish.
+TEXT: Wirklich erstaunlich! Ich bin immer wieder von diesem tapferen Pokémon beeindruckt. Ihr zwei werdet zweifellos großartige Dinge vollbringen, und das mit großartiger Geschwindigkeit!
 
 RESOURCE ID: quest_special_dialogue_flett_3_5
-TEXT: I really appreciate your help today looking into this situation and hope you learned some useful information about this fiery family of Pokémon.
+TEXT: Danke für deine Hilfe heute, Trainer. Ich hoffe, du hattest so viel Spaß wie ich!
 
 RESOURCE ID: quest_special_dialogue_flett_3_6
-TEXT: Until next time, let’s GO!
+TEXT: Nichts wie los!
 
 RESOURCE ID: quest_special_dialogue_galarian_mrmime_0_0
 TEXT: %PLAYERNAME%! Es ist so schön dich zu sehen! Die seltsamsten Dinge sind in letzter Zeit passiert.
@@ -33793,8 +33889,14 @@ TEXT: Unglaubliche Arbeit, %PLAYERNAME%! Hoffentlich hält das sie für eine Wei
 RESOURCE ID: quest_special_dialogue_rockethq7_4_1
 TEXT: Ich habe es geschafft, ein weiteres Super-Rocket-Radar für dich herzustellen, mit dem du Giovanni ausfindig machen kannst. Aber sei vorsichtig, laut einem Erfahrungsbericht von Blanche und Candela hat er Crypto-Mewtu dabei!
 
+RESOURCE ID: quest_special_dialogue_rockethq7_4_1_alt
+TEXT: Ich habe es geschafft, einen weiteren Super-Rocket-Radar fertigzustellen, damit du Giovanni aufspüren kannst. Aber sei vorsichtig! Blanche und Candela haben herausgefunden, dass Giovanni ein Legendäres Crypto-Pokémon bei sich hat!
+
 RESOURCE ID: quest_special_dialogue_rockethq7_4_2
 TEXT: Möglicherweise bist du Crypto-Mewtu beim letzten Erscheinen von Giovanni begegnet. Wir hatten letztes Mal gedacht, dass wir es nicht noch mal sehen würden, aber es sieht so aus, als wäre es zurück!
+
+RESOURCE ID: quest_special_dialogue_rockethq7_4_2_alt
+TEXT: Du musst es retten, Trainer! Ich habe keinen Zweifel, dass Giovanni plant, dieses arme Pokémon für schändliche Zwecke einzusetzen.
 
 RESOURCE ID: quest_special_dialogue_rockethq7_4_3
 TEXT: Du musst Crypto-Mewtu retten, Trainer! Ich habe das Gefühl, Giovanni plant, dieses arme Pokémon für schändliche Zwecke einzusetzen.
@@ -33805,8 +33907,71 @@ TEXT: Zeit zum Feiern, %PLAYERNAME%. Du hast es wieder geschafft, Team GO Rocket
 RESOURCE ID: quest_special_dialogue_rockethq7_5_1
 TEXT: Ganz zu schweigen von all den Crypto-Pokémon, die du unterwegs gerettet hast, einschließlich Crypto-Mewtu!
 
+RESOURCE ID: quest_special_dialogue_rockethq7_5_1_alt
+TEXT: Du hast Team GO Rocket nicht nur aufgehalten, sondern auch noch mehrere Pokémon gerettet!
+
 RESOURCE ID: quest_special_dialogue_rockethq7_5_2
 TEXT: Dies ist wahrscheinlich nicht das letzte Mal, dass wir Giovanni oder Team GO Rocket sehen werden, aber das bedeutet auch, dass wahrscheinlich mehr Eigenartige Eier gesammelt und Crypto-Pokémon gerettet werden müssen! Lass uns loslegen, Trainer!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_0
+TEXT: Schön dich zu sehen, %PLAYERNAME%! Es tut mir Leid, dass ich dich so gedrängt habe zu kommen, aber ich befürchte, dass Ärger auf uns wartet.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_1
+TEXT: Du hast es wahrscheinlich schon vermutet – Team Rocket hat mal wieder nichts Gutes im Sinn! Wir sind uns noch nicht sicher, was sie diesmal geplant haben, aber wir müssen sie aufhalten, soviel ist klar!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_0_2
+TEXT: Nichts wie los!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_0
+TEXT: Willkommen zurück, %PLAYERNAME%! Du hast großartige Arbeit geleistet. Du hast die Team GO Rocket-Rüpel besiegt und die armen Crypto-Pokémon befreit!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_1
+TEXT: Während du gekämpft hast, ist mir zu Ohren gekommen, dass Team GO Rocket ein Legendäres Pokémon vom Typ Flug ergattert hat.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_2
+TEXT: Blanche versucht zurzeit herauszufinden, mit welchem Legendären Pokémon wir es hier zu tun haben. Ich bin mir sicher, dass wir bald mehr wissen.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_1_3
+TEXT: Warum betreibst du nicht ein paar Nachforschungen über Pokémon vom Typ Flug, während wir warten?
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_0
+TEXT: Danke, dass du all diese Flug-Pokémon gefangen hast, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_1
+TEXT: Blanche und ich haben sie analysiert, um mehr über das Legendäre Pokémon zu erfahren, das Team GO Rocket gefangen hat.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_2
+TEXT: Wir vermuten, dass dieses Pokémon den Teamleitern sehr am Herzen liegt.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_2_3
+TEXT: Kannst du dich wieder auf den Weg machen, während wir mehr Informationen sammeln? Wir müssen Team GO Rocket von ihrem Vorhaben abbringen!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_0
+TEXT: Willkommen zurück, Trainer! Ich sehe, dass du ein Tauboss und ein wenig Tauboss-Mega-Energie gefunden hast.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_1
+TEXT: So beeindruckt ich auch von diesem Pokémon bin, ich glaube nicht, dass es das Flug-Pokémon ist, von dem wir in den Berichten gehört haben.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_2
+TEXT: Blanches aktuellste Infos deuten darauf hin, dass Giovanni derjenige ist, der dieses mysteriöse Legendäre Pokémon vom Typ Flug hat. Wir müssen ihn also finden.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_3
+TEXT: Wir glauben, dass wir dies am besten machen, indem wir zuerst Team GO Rocket-Bosse ausfindig machen. Genau da kommst du ins Spiel, Trainer. Nichts wie los!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_4_0
+TEXT: Großartige Arbeit, %PLAYERNAME%! Du warst wirklich eine große Hilfe bei unseren Bemühungen, Giovanni aufzuspüren. Ich bin erleichtert dir mitzuteilen, dass die Teamleiter und ich erhebliche Fortschritte in unseren Ermittlungen gemacht haben.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_4_1
+TEXT: Ich habe es geschafft, einen weiteren Super-Rocket-Radar für dich fertigzustellen. Du kannst ihn benutzen, um Giovanni zu finden, zu besiegen und das Legendäre Pokémon zu befreien!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_0
+TEXT: Wie immer, fantastische Arbeit, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_1
+TEXT: Der Kampf gegen Team GO Rocket und ihre kriminellen Machenschaften ist noch nicht vorbei, aber zumindest können wir heute gut schlafen, da wir wissen, dass wir ihr neuestes Vorhaben verhindert haben.
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_2
+TEXT: Bis zum nächsten Mal, los geht's!
 
 RESOURCE ID: quest_special_dialogue_roset_0_0
 TEXT: Ahhh ... Riechst du das, Trainer?
@@ -33894,6 +34059,105 @@ TEXT: Danke für all deine Hilfe heute, Trainer. Diese Art von Ereignissen festz
 
 RESOURCE ID: quest_special_dialogue_roset_3_6
 TEXT: Bis zum nächsten Mal, nichts wie raus und GO!
+
+RESOURCE ID: quest_special_dialogue_season2_0_0
+TEXT: Hallo, %PLAYERNAME%! Ich freue mich sehr, dich zu sehen.
+
+RESOURCE ID: quest_special_dialogue_season2_0_1
+TEXT: Wie du weißt, habe ich vor nicht allzu langer Zeit Forschungen über verschiedene Regionen der Pokémon-Welt betrieben. Während dieser Forschungen bin ich auf einige Bücher gestoßen, die Geschichten und Legenden vieler Regionen beinhalteten.
+
+RESOURCE ID: quest_special_dialogue_season2_0_2
+TEXT: Einer dieser Bände erzählte von drei Legendären Pokémon aus der Einall-Region, welche die Möglichkeit besaßen, ihre Form zu ändern.
+
+RESOURCE ID: quest_special_dialogue_season2_0_3
+TEXT: Das hat natürlich mein Interesse geweckt und ich habe mich so in meine Forschungen vertieft, dass ich anfing diese drei Legendären Pokémon sogar in meinen Träumen zu sehen!
+
+RESOURCE ID: quest_special_dialogue_season2_0_4
+TEXT: Und deshalb habe ich dich hergebeten. Kannst du mir bitte mit den Nachforschungen helfen, Trainer? Wir könnten ein paar Gesteins-Pokémon fangen ... nur damit wir ein felsenfestes Fundament haben, auf das wir aufbauen können.
+
+RESOURCE ID: quest_special_dialogue_season2_0_5
+TEXT: Kapiert? Felsenfest? Weil sie vom ... Typ Gestein sind? Na gut, ich würde mich über deine Hilfe freuen. Nichts wie los!
+
+RESOURCE ID: quest_special_dialogue_season2_1_0
+TEXT: Willkommen zurück, Trainer. Jetzt, da wir eine gute Grundlage für unsere Forschung haben, müssen wir die wichtigsten Details genauer betrachten.
+
+RESOURCE ID: quest_special_dialogue_season2_1_1
+TEXT: Es gibt drei Geschichten, die ich untersuchen möchte. Ich denke also, dass wir uns eine Geschichte nach der anderen vornehmen sollten, um zu sehen, was wir erfahren können.
+
+RESOURCE ID: quest_special_dialogue_season2_1_2
+TEXT: Ich hoffe, dass wir so viel wie nur möglich über diese Pokémon erfahren können, damit wir gut vorbereitet sind, wenn wir Hinweise und Anzeichen von möglichen Erscheinungen sehen.
+
+RESOURCE ID: quest_special_dialogue_season2_1_3
+TEXT: Diese erste Geschichte handelt von einem Legendären Pokémon namens Demeteros. Der Legende zufolge können Ortschaften, in denen Demeteros erschienen ist, mit unglaublich reicher Ernte rechnen, weshalb es als „Herr des Ackerbaus“ bekannt ist.
+
+RESOURCE ID: quest_special_dialogue_season2_1_4
+TEXT: Demeteros scheint zwei Formen zu haben: die Inkarnationsform und die sehr selten gesehene Tiergeistform. Ich habe leider noch keine Darstellung der letztgenannten Form gefunden, aber alle Texte, die ich gelesen habe, sind sich ihrer Existenz einig!
+
+RESOURCE ID: quest_special_dialogue_season2_1_5
+TEXT: Warum erforschen wir fürs Erste nicht einfach Pokémon vom Typ Boden? Vielleicht können wir so Demeteros Tiergeistform besser identifizieren, wenn es soweit ist.
+
+RESOURCE ID: quest_special_dialogue_season2_2_0
+TEXT: Danke, %PLAYERNAME%! Ich denke, dass wir Demeteros jetzt besser verstehen, nachdem wir Pokémon vom Typ Boden erforscht haben.
+
+RESOURCE ID: quest_special_dialogue_season2_2_1
+TEXT: Ist das ein Rotomurf, das du da hast? Wo hast du das denn ausgegraben? ... Haha! Tut mir leid.
+
+RESOURCE ID: quest_special_dialogue_season2_2_2
+TEXT: Naja, da wir, fürs Erste, allen unseren Hinweisen über Demeteros nachgegangen sind, sollten wir uns um ein anderes Pokémon aus meinen Träumen kümmern.
+
+RESOURCE ID: quest_special_dialogue_season2_2_3
+TEXT: Wir sollten uns jetzt um Boreos kümmern. Den Geschichten zufolge stößt Boreos massive Energie aus seiner Rute aus, was zu schweren Stürmen führt. Seine Kräfte sollen groß genug sein, um ganze Häuser einfach wegzublasen. 
+
+RESOURCE ID: quest_special_dialogue_season2_2_4
+TEXT: Genau wie Demeteros kann auch Boreos sowohl die Inkarnations- als auch die Tiergeistform annehmen. Mhh ... vielleicht wird es am besten sein, wenn wir Pokémon vom Typ Flug in der Umgebung erforschen? Lass es uns versuchen, Trainer!
+
+RESOURCE ID: quest_special_dialogue_season2_3_0
+TEXT: Hervorragende Arbeit, Trainer! Danke, dass du diese Informationen über Boreos dokumentiert hast. Es scheint, als hättest du auf dem Weg sogar ein süßes Piccolente gefunden! Warum bin ich so fröhlich? Haha!
+
+RESOURCE ID: quest_special_dialogue_season2_3_1
+TEXT: Ich glaube, wir haben vorerst genug über Boreos gelernt. Seine Tiergeistform ist mir immer noch ein Rätsel, aber hoffentlich nicht mehr lange!
+
+RESOURCE ID: quest_special_dialogue_season2_3_2
+TEXT: Bevor wir anfangen, das letzte Legendäre Pokémon aus meinen Träumen zu untersuchen, muss ich dir etwas erzählen ... etwas Seltsames.
+
+RESOURCE ID: quest_special_dialogue_season2_3_3
+TEXT: Weißt du, ich wurde durch unsere Nachforschungen so erschöpft, dass ich einen Mittagsschlaf gemacht habe. Bevor ich mich versah, träumte ich schon wieder von diesen drei Legendären Einall-Pokémon. Der Traum war so klar, doch dann fing er an zu schwinden ...
+
+RESOURCE ID: quest_special_dialogue_season2_3_4
+TEXT: Es war fast so, als hätte etwas den Traum selbst aufgegessen. Ich bin mir immer noch nicht sicher, was das alles bedeuten soll, aber wir sollten definitiv nach verdächtigen Hinweisen Ausschau halten. Ich vermute, dass ein Pokémon in der Nähe dahinterstecken könnte.
+
+RESOURCE ID: quest_special_dialogue_season2_3_5
+TEXT: Lass uns fürs Erste jedoch unsere Forschungen fortsetzen und unsere Aufmerksamkeit auf das letzte der drei Legendären Einall-Pokémon richten, das in diesen Geschichten beschrieben wird ... Voltolos.
+
+RESOURCE ID: quest_special_dialogue_season2_3_6
+TEXT: Voltolos ist auch als Torpedo-Pokémon bekannt und seine Geschichte erwähnt ebenfalls die Inkarnations- und die Tiergeistform. Die Stacheln an seinem Schweif sollen unglaubliche Blitze ausstoßen.
+
+RESOURCE ID: quest_special_dialogue_season2_3_7
+TEXT: Lass uns Pokémon des Typ Elektro in der Gegend untersuchen, damit wir auch konsistent und unsere Notizen über Voltolos vollständig sind.
+
+RESOURCE ID: quest_special_dialogue_season2_4_0
+TEXT: Aha, da bist du ja, %PLAYERNAME%! Ich habe große Neuigkeiten!
+
+RESOURCE ID: quest_special_dialogue_season2_4_1
+TEXT: Aber zuerst möchte ich dir für all deine harte Arbeit und die Informationen über Demeteros, Boreos und Voltolos danken.
+
+RESOURCE ID: quest_special_dialogue_season2_4_2
+TEXT: Ich bin zuversichtlich, dass du gut vorbereitet bist, wenn dir einer dieser unglaublichen Legendären Pokémon begegnet ... egal in welcher Form.
+
+RESOURCE ID: quest_special_dialogue_season2_4_3
+TEXT: Erinnerst du dich noch an meine schwindenden Träume, von denen ich dir erzählt habe? Ich glaube, dass ich endlich die Ursache dafür entdeckt habe.
+
+RESOURCE ID: quest_special_dialogue_season2_4_4
+TEXT: Während ich den Pokédex nach möglichen Übeltätern durchsuchte, bin ich über einen Eintrag von Somniam gestolpert ... dem Traumfresser-Pokémon. Siehst du, warum dies mein Interesse geweckt hat?
+
+RESOURCE ID: quest_special_dialogue_season2_4_5
+TEXT: Man sagt, dass Somniam die Träume von Menschen und Pokémon frisst und dann Dunst ausstößt. Wenn es ein schöner Traum war, ist dieser Dunst pink, bei Albträumen ist er schwarz.
+
+RESOURCE ID: quest_special_dialogue_season2_4_6
+TEXT: Mein Traum über die Legendären Pokémon aus der Einall-Region war großartig. Ich gehe also davon aus, dass Somniams Dunst an diesem Tag wunderschön rosig war!
+
+RESOURCE ID: quest_special_dialogue_season2_4_7
+TEXT: Somniam scheint ein faszinierendes Pokémon zu sein. Ich kann es nicht erwarten, es weiter zu erforschen. Hoffentlich wirst du mir wieder helfen, wenn es dann soweit ist, Trainer! Aber jetzt, nichts wie los!
 
 RESOURCE ID: quest_special_dialogue_spiritomb_0_0
 TEXT: Oh, %PLAYERNAME%! Du kommst gerade recht.
@@ -34318,19 +34582,19 @@ RESOURCE ID: quest_title_elect_3
 TEXT: Spannung mit Elektek (4/4)
 
 RESOURCE ID: quest_title_flett
-TEXT: The Bravest Bird
+TEXT: Der frühe Vogel
 
 RESOURCE ID: quest_title_flett_0
-TEXT: The Bravest Bird (1/4)
+TEXT: Der frühe Vogel (1/4)
 
 RESOURCE ID: quest_title_flett_1
-TEXT: The Bravest Bird (2/4)
+TEXT: Der frühe Vogel (2/4)
 
 RESOURCE ID: quest_title_flett_2
-TEXT: The Bravest Bird (3/4)
+TEXT: Der frühe Vogel (3/4)
 
 RESOURCE ID: quest_title_flett_3
-TEXT: The Bravest Bird (4/4)
+TEXT: Der frühe Vogel (4/4)
 
 RESOURCE ID: quest_title_galarian_mrmime
 TEXT: Was klappert denn da?
@@ -34917,6 +35181,27 @@ TEXT: Eine ei-genartige Entwicklung (5/6)
 RESOURCE ID: quest_title_rockethq7_5
 TEXT: Eine ei-genartige Entwicklung (6/6)
 
+RESOURCE ID: quest_title_rockethq8
+TEXT: Höhenflug
+
+RESOURCE ID: quest_title_rockethq8_0
+TEXT: Höhenflug (1/6)
+
+RESOURCE ID: quest_title_rockethq8_1
+TEXT: Höhenflug (2/6)
+
+RESOURCE ID: quest_title_rockethq8_2
+TEXT: Höhenflug (3/6)
+
+RESOURCE ID: quest_title_rockethq8_3
+TEXT: Höhenflug (4/6)
+
+RESOURCE ID: quest_title_rockethq8_4
+TEXT: Höhenflug (5/6)
+
+RESOURCE ID: quest_title_rockethq8_5
+TEXT: Höhenflug (6/6)
+
 RESOURCE ID: quest_title_roset
 TEXT: Es ist ein Roselia entsprungen
 
@@ -34931,6 +35216,24 @@ TEXT: Es ist ein Roselia entsprungen (3/4)
 
 RESOURCE ID: quest_title_roset_3
 TEXT: Es ist ein Roselia entsprungen (4/4)
+
+RESOURCE ID: quest_title_season2
+TEXT: Legendäre Jahreszeit
+
+RESOURCE ID: quest_title_season2_0
+TEXT: Legendäre Jahreszeit (1/5)
+
+RESOURCE ID: quest_title_season2_1
+TEXT: Legendäre Jahreszeit (2/5)
+
+RESOURCE ID: quest_title_season2_2
+TEXT: Legendäre Jahreszeit (3/5)
+
+RESOURCE ID: quest_title_season2_3
+TEXT: Legendäre Jahreszeit (4/5)
+
+RESOURCE ID: quest_title_season2_4
+TEXT: Legendäre Jahreszeit (5/5)
 
 RESOURCE ID: quest_title_spiritomb
 TEXT: Eine gruselige Nachricht 2018
@@ -40156,7 +40459,7 @@ RESOURCE ID: raid_weekend_zygarde
 TEXT: Spezial-Raid-Wochenende: Zygarde
 
 RESOURCE ID: raid_xp_25_fivestar
-TEXT: 1.25x five-star Raid XP
+TEXT: 1,25× Stufe-5-Raid-EP
 
 RESOURCE ID: raid_xp_double
 TEXT: 2× Raid-EP
@@ -40229,6 +40532,9 @@ TEXT: {0} S
 
 RESOURCE ID: remote_raid_damage_warning
 TEXT: Pokémon verursachen weniger Schaden, wenn sie aus der Ferne in Raids kämpfen.
+
+RESOURCE ID: remote_raid_description
+TEXT: Nimm mit einem Fern-Raid-Pass an Raids teil, die sich weiter weg auf der Karte befinden oder zu denen dich ein Freund einlädt.
 
 RESOURCE ID: remote_raid_friends_header
 TEXT: Deine Freunde
@@ -40303,6 +40609,9 @@ TEXT: Lokal
 RESOURCE ID: remote_raid_max_remote_ticket_warning
 TEXT: Du hast die maximale Anzahl von {0} Fern-Raid-Pässen erreicht. Bitte versuche es erneut, wenn du weniger Fern-Raid-Pässe hast.
 
+RESOURCE ID: remote_raid_name
+TEXT: Raid aus der Ferne
+
 RESOURCE ID: remote_raid_nearby_callout
 TEXT: Neu: Raid aus der Ferne
 
@@ -40371,7 +40680,7 @@ RESOURCE ID: retention_power_walk_message
 TEXT: Gehe auf einen flotten Spaziergang! Versuche, ein Sternenstück, ein Glücks-Ei und Rauch gleichzeitig einzusetzen.
 
 RESOURCE ID: retro_cup_title
-TEXT: Retro Cup
+TEXT: Retro-Cup
 
 RESOURCE ID: returned_defender_sub_section_title
 TEXT: Heute zurückgekehrt
@@ -40397,8 +40706,17 @@ TEXT: Team GO Rocket-Feier
 RESOURCE ID: rocket_component_double
 TEXT: 2×  Mysteriöse Teile von Team GO Rocket-Rüpeln
 
+RESOURCE ID: rocket_description
+TEXT: Besiege die Mitglieder von Team GO Rocket, die dir bei PokéStops und in Ballons begegnen, um Crypto-Pokémon zu retten.
+
 RESOURCE ID: rocket_event_name
 TEXT: Team GO Rocket-Event
+
+RESOURCE ID: rocket_feature_name
+TEXT: Team GO Rocket
+
+RESOURCE ID: rocket_hour
+TEXT: GO Rocket-Stunde
 
 RESOURCE ID: rocket_jj_increase
 TEXT: Mauzi-Ballons mit Jessie und James erscheinen häufiger
@@ -40449,7 +40767,7 @@ RESOURCE ID: sa_registration_url
 TEXT: https://niantic-sso.kws.superawesome.tv/de/register
 
 RESOURCE ID: safari zone
-TEXT: SAFARI-ZONE
+TEXT: SAFARI ZONE
 
 RESOURCE ID: safari_2019_buddy_plural
 TEXT: Safari-Zone: Verdiene {0} Bonbons durch Spazieren mit deinem Kumpel.
@@ -40822,6 +41140,9 @@ TEXT: Du
 
 RESOURCE ID: search_label
 TEXT: Suche
+
+RESOURCE ID: searching_for_legends_event_name
+TEXT: Suche nach Legenden
 
 RESOURCE ID: second_abbrev
 TEXT: S
@@ -41595,7 +41916,7 @@ RESOURCE ID: spawn_electabuzz
 TEXT: Wilde Elektek erscheinen mit vermehrter Häufigkeit.
 
 RESOURCE ID: spawn_fletchling
-TEXT: More Fletchling are appearing in the wild
+TEXT: Wilde Dartiri erscheinen mit vermehrter Häufigkeit.
 
 RESOURCE ID: spawn_gastly
 TEXT: Wilde Nebulak erscheinen mit vermehrter Häufigkeit.
@@ -42018,10 +42339,10 @@ TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Spannung mit Elektek�
 DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZIAL-EVENTS ZU ERHALTEN.
 
 RESOURCE ID: ticket_electabuzz_title
-TEXT: Ticket: Spannung mit Elektek
+TEXT: Ticket: Doppelt sehen
 
 RESOURCE ID: ticket_fletchling
-TEXT: Ticket for Special Research story available in the Shop: The Bravest Bird
+TEXT: Tickets für die Spezialforschung „Der frühe Vogel“ im Shop erhältlich
 
 RESOURCE ID: ticket_gastly
 TEXT: Tickets für die Spezialforschung „Das großartige Nebulak“ im Shop erhältlich.
@@ -42352,6 +42673,9 @@ TEXT: Hochladen mit Mobilfunkdaten
 
 RESOURCE ID: titan_settings_title_ar_data
 TEXT: PokéStop-Scan
+
+RESOURCE ID: titan_upload_wifi_recommended
+TEXT: Wi-Fi empfohlen
 
 RESOURCE ID: title_raid_has_ended
 TEXT: Der Raid ist vorbei.
@@ -43611,6 +43935,9 @@ TEXT: Sonnig
 
 RESOURCE ID: weather_weather
 TEXT: Wetter
+
+RESOURCE ID: weather_week_event_name
+TEXT: Wetterwoche
 
 RESOURCE ID: weather_windy
 TEXT: Windig
