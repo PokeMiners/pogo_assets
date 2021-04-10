@@ -167,6 +167,9 @@ TEXT: Choose a Pokémon to be your buddy, and it’ll gain Perks as your bond gr
 RESOURCE ID: buddy_feature_name
 TEXT: Buddy Adventure
 
+RESOURCE ID: buddy_tutorial_basic_content_p4
+TEXT: Battling in Gyms, in raids, against other Trainers, or against Team GO Rocket with your buddy in your battle party will strengthen your bond and can earn you a heart.
+
 RESOURCE ID: charge_up_event_name
 TEXT: Charge Up
 
@@ -187,6 +190,9 @@ TEXT: Eggstravaganza
 
 RESOURCE ID: egg_transparency_available_pokemon
 TEXT: Hatchable Pokémon
+
+RESOURCE ID: egg_transparency_help
+TEXT: Groups of Pokémon that are higher on the list are more likely to hatch from this Egg.
 
 RESOURCE ID: error_generate_referral_code_failed
 TEXT: Failed to locate your referral code.
@@ -222,7 +228,7 @@ RESOURCE ID: friendship_day_event_name
 TEXT: Friendship Day
 
 RESOURCE ID: general1.ticket.2_description
-TEXT: A ticket to access The Bravest Bird Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: A ticket to access the Snivy in the Sunshine Special Research on April 11, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
 
 YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
@@ -243,7 +249,13 @@ RESOURCE ID: general1.ticket.2_snivt_title
 TEXT: Snivy in the Sunshine Ticket
 
 RESOURCE ID: general1.ticket.2_title
-TEXT: The Bravest Bird Ticket
+TEXT: Snivy in the Sunshine Ticket
+
+RESOURCE ID: general_include
+TEXT: INCLUDE
+
+RESOURCE ID: general_leave_out
+TEXT: LEAVE OUT
 
 RESOURCE ID: general_raid_error
 TEXT: There was an error with the raid.
@@ -261,10 +273,10 @@ RESOURCE ID: invalid_referral_code
 TEXT: Invalid referral code
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: A ticket to access Special Research on April 11, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: This ticket will automatically activate to give you access to Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: This ticket will automatically activate to give you access to Special Research on April 11, 2021, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_snivt_desc
 TEXT: A ticket to access Special Research on April 11, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
@@ -273,10 +285,10 @@ RESOURCE ID: item_event_ticket_pink_snivt_details
 TEXT: This ticket will automatically activate to give you access to Special Research on April 11, 2021, wherever you are.
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: This ticket will automatically activate to give you access to Special Research on April 11, 2021, wherever you are.
 
 RESOURCE ID: item_global_event_ticket_details
-TEXT: A ticket to access Special Research on March 6, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: A ticket to access Special Research on April 11, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_troy_disk_rainy_desc
 TEXT: A wet Lure Module that attracts Pokémon for 30 minutes, especially ones that love the rain. It can also cause some Pokémon to evolve.
@@ -294,9 +306,9 @@ RESOURCE ID: mega_raid_hour
 TEXT: Mega Raid Hour
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-02T19:00:31.975226
-at SHA 88351076fd733a9a14f1d75869897c072f8163b3
-Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685
+TEXT: Built at 2021-04-09T22:19:03.116291
+at SHA 222ca89b1c658c00bea8b677321fa141750dc594
+Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a
 
 RESOURCE ID: milestone_rewards_title
 TEXT: MILESTONE REWARDS
@@ -307,6 +319,9 @@ TEXT: Spring into Spring 2021 Collection
 RESOURCE ID: mini_collection_apr21_friendship_day
 TEXT: Friendship Day Collection Challenge
 
+RESOURCE ID: move_name_0343
+TEXT: Leaf Storm
+
 RESOURCE ID: photobomb_five_snivy
 TEXT: 5 surprise encounters with Snivy in GO Snapshot
 
@@ -315,6 +330,15 @@ TEXT: Shiny 3 Stars
 
 RESOURCE ID: pokedex_category_unlocked_body
 TEXT: You can now keep track of {0} in your Pokédex.
+
+RESOURCE ID: pokedex_category_unlocked_body_singular
+TEXT: You can now keep track of {0} Pokémon in your Pokédex.
+
+RESOURCE ID: pokedex_category_unlocked_body_threeplus
+TEXT: You can now keep track of {0}, and {1} Pokémon in your Pokédex.
+
+RESOURCE ID: pokedex_category_unlocked_body_two
+TEXT: You can now keep track of {0} and {1} Pokémon in your Pokédex. 
 
 RESOURCE ID: pokedex_category_unlocked_button
 TEXT: View Pokédex
@@ -362,76 +386,76 @@ RESOURCE ID: quest_snapshot_tornadus
 TEXT: Take a snapshot of Tornadus
 
 RESOURCE ID: quest_snapshot_wild
-TEXT: Take {0} Snapshots of Wild Pokémon
+TEXT: Take {0} snapshots of wild Pokémon
 
 RESOURCE ID: quest_snapshot_wild_bug
-TEXT: Take {0} Snapshots of Wild Bug-type Pokémon
+TEXT: Take {0} snapshots of wild Bug-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_dark
-TEXT: Take {0} Snapshots of Wild Dark-type Pokémon
+TEXT: Take {0} snapshots of wild Dark-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_dragon
-TEXT: Take {0} Snapshots of Wild Dragon-type Pokémon
+TEXT: Take {0} snapshots of wild Dragon-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_electric
-TEXT: Take {0} Snapshots of Wild Electric-type Pokémon
+TEXT: Take {0} snapshots of wild Electric-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_fairy
-TEXT: Take {0} Snapshots of Wild Fairy-type Pokémon
+TEXT: Take {0} snapshots of wild Fairy-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_fighting
-TEXT: Take {0} Snapshots of Wild Fighting-type Pokémon
+TEXT: Take {0} snapshots of wild Fighting-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_fire
-TEXT: Take {0} Snapshots of Wild Fire-type Pokémon
+TEXT: Take {0} snapshots of wild Fire-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_flying
-TEXT: Take {0} Snapshots of Wild Flying-type Pokémon
+TEXT: Take {0} snapshots of wild Flying-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
-TEXT: Take a Snapshot of a Wild Geodude, Sandshrew, or Cacnea
+TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
 
 RESOURCE ID: quest_snapshot_wild_ghost
-TEXT: Take {0} Snapshots of Wild Ghost-type Pokémon
+TEXT: Take {0} snapshots of wild Ghost-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_grass
-TEXT: Take {0} Snapshots of Wild Grass-type Pokémon
+TEXT: Take {0} snapshots of wild Grass-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_ground
-TEXT: Take {0} Snapshots of Wild Ground-type Pokémon
+TEXT: Take {0} snapshots of wild Ground-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_hoothoot
-TEXT: Take a Snapshot of a Wild Hoothoot
+TEXT: Take a snapshot of Hoothoot in the wild
 
 RESOURCE ID: quest_snapshot_wild_ice
-TEXT: Take {0} Snapshots of Wild Ice-type Pokémon
+TEXT: Take {0} snapshots of wild Ice-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
-TEXT: Take a Snapshot of a Wild Lotad, Metapod, or Aipom
+TEXT: Take a snapshot of Metapod, Aipom, or Lotad in the wild
 
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
-TEXT: Take a Snapshot of a Wild Luvdisc, Chinchou, or Finneon
+TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
 
 RESOURCE ID: quest_snapshot_wild_normal
-TEXT: Take {0} Snapshots of Wild Normal-type Pokémon
+TEXT: Take {0} snapshots of wild Normal-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_poison
-TEXT: Take {0} Snapshots of Wild Poison-type Pokémon
+TEXT: Take {0} snapshots of wild Poison-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_psychic
-TEXT: Take {0} Snapshots of Wild Psychic-type Pokémon
+TEXT: Take {0} snapshots of wild Psychic-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_rock
-TEXT: Take {0} Snapshots of Wild Rock-type Pokémon
+TEXT: Take {0} snapshots of wild Rock-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
-TEXT: Take a Snapshot of a Wild Skarmory, Dodrio, Mantine
+TEXT: Take a snapshot of Dodrio, Mantine, or Skarmory in the wild
 
 RESOURCE ID: quest_snapshot_wild_steel
-TEXT: Take {0} Snapshots of Wild Steel-type Pokémon
+TEXT: Take {0} snapshots of wild Steel-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_water
-TEXT: Take {0} Snapshots of Wild Water-type Pokémon
+TEXT: Take {0} snapshots of wild Water-type Pokémon
 
 RESOURCE ID: quest_snivt_catch_b
 TEXT: Catch {0} Snivy
@@ -814,60 +838,6 @@ TEXT: Snivy in the Sunshine (3/4)
 RESOURCE ID: quest_title_snivt_3
 TEXT: Snivy in the Sunshine (4/4)
 
-RESOURCE ID: quest_wild_bug_types
-TEXT: More Bug-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_dark_types
-TEXT: More Dark-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_dragon_types
-TEXT: More Dragon-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_electric_types
-TEXT: More Electric-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_fairy_types
-TEXT: More Fairy-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_fighting_types
-TEXT: More Fighting-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_fire_types
-TEXT: More Fire-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_flying_types
-TEXT: More Flying-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_ghost_types
-TEXT: More Ghost-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_grass_types
-TEXT: More Grass-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_ground_types
-TEXT: More Ground-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_ice_types
-TEXT: More Ice-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_normal_types
-TEXT: More Normal-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_poison_types
-TEXT: More Poison-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_psychic_types
-TEXT: More Psychic-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_rock_types
-TEXT: More Rock-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_steel_types
-TEXT: More Steel-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_water_types
-TEXT: More Water-type Pokémon appearing in the wild
-
 RESOURCE ID: raid_xp_25_fivestar
 TEXT: 1.25× five-star Raid XP
 
@@ -1017,6 +987,60 @@ TEXT: If you join or return to Pokémon GO using my referral code {0}, you’ll 
 
 RESOURCE ID: spawn_snivy
 TEXT: More Snivy are appearing in the wild
+
+RESOURCE ID: spawn_wild_bug_types
+TEXT: More Bug-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_dark_types
+TEXT: More Dark-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_dragon_types
+TEXT: More Dragon-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_electric_types
+TEXT: More Electric-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_fairy_types
+TEXT: More Fairy-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_fighting_types
+TEXT: More Fighting-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_fire_types
+TEXT: More Fire-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_flying_types
+TEXT: More Flying-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_ghost_types
+TEXT: More Ghost-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_grass_types
+TEXT: More Grass-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_ground_types
+TEXT: More Ground-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_ice_types
+TEXT: More Ice-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_normal_types
+TEXT: More Normal-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_poison_types
+TEXT: More Poison-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_psychic_types
+TEXT: More Psychic-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_rock_types
+TEXT: More Rock-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_steel_types
+TEXT: More Steel-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_water_types
+TEXT: More Water-type Pokémon appearing in the wild
 
 RESOURCE ID: special_evo_prompt
 TEXT: Special Evolution

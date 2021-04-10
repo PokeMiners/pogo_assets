@@ -64,6 +64,18 @@ TEXT: Запрос в друзья был отправлен. Когда он б
 RESOURCE ID: add_referrer_success_title
 TEXT: Код приглашения подтверждён
 
+RESOURCE ID: appraise_v2_caught
+TEXT: Этот Покемон {0} был пойман {1} около {2}.
+
+RESOURCE ID: appraise_v2_date_uncached_loc
+TEXT: Этот Покемон {0} был пойман {1}.
+
+RESOURCE ID: appraise_v2_dateless_caught
+TEXT: Этот Покемон {0} был пойман около Покестопа {1}.
+
+RESOURCE ID: appraise_v2_dateless_uncached_loc
+TEXT: Этот Покемон {0} был пойман
+
 RESOURCE ID: aprilfools_event_name
 TEXT: Розыгрыш Покемонов
 
@@ -128,10 +140,10 @@ RESOURCE ID: avatar_f_shirt_safarizone2020_bundle_icon
 TEXT: Футболка Зона Сафари 2020
 
 RESOURCE ID: avatar_f_shirt_spring2021gulpin_00_bundle_icon
-TEXT: Весенний наряд с Гальпином
+TEXT: Комбинезон Гальпин
 
 RESOURCE ID: avatar_f_shirt_spring2021plusle_00_bundle_icon
-TEXT: Весенний наряд с Майнуном
+TEXT: Комбинезон Майнун
 
 RESOURCE ID: avatar_f_shoes_bwn_00_bundle_icon
 TEXT: Обувь в стиле Н
@@ -212,10 +224,10 @@ RESOURCE ID: avatar_m_shirt_safarizone2020_bundle_icon
 TEXT: Футболка Зона Сафари 2020
 
 RESOURCE ID: avatar_m_shirt_spring2021gulpin_00_bundle_icon
-TEXT: Весенний наряд с Гальпином
+TEXT: Комплект с худи Гальпин
 
 RESOURCE ID: avatar_m_shirt_spring2021plusle_00_bundle_icon
-TEXT: Весенний наряд с Майнуном
+TEXT: Комплект со свитером Майнун
 
 RESOURCE ID: avatar_m_shoes_bwn_00_bundle_icon
 TEXT: Обувь в стиле Н
@@ -336,6 +348,9 @@ TEXT: Яйцестраваганза
 RESOURCE ID: egg_transparency_available_pokemon
 TEXT: Возможные Покемоны
 
+RESOURCE ID: egg_transparency_help
+TEXT: Чем выше в списке находятся Покемоны, тем больше вероятность, что они вылупятся из этого яйца.
+
 RESOURCE ID: err_cannot_join_raid_group
 TEXT: Не удалось присоединиться к рейд-группе.
 
@@ -432,7 +447,7 @@ TEXT: Билет на событие «Галарский Мистер Майм�
  ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ ИВЕНТА, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
 
 RESOURCE ID: general1.ticket.2_description
-TEXT: Билет на специальный квест «Самая смелая птица» 6 марта 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
+TEXT: Билет на специальный квест «Снайви на солнышке» 11 апреля 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
 
 ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ СОБЫТИЯ, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
 
@@ -471,7 +486,7 @@ RESOURCE ID: general1.ticket.2_snivt_title
 TEXT: Билет: Снайви на солнышке
 
 RESOURCE ID: general1.ticket.2_title
-TEXT: Билет: Самая смелая птица
+TEXT: Билет: Снайви на солнышке
 
 RESOURCE ID: general1.ticket.3_description
 TEXT: Билет на фестиваль Pokémon GO 25 и 26 июля 2020 г. с 10:00 до 20:00 по местному времени, независимо от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
@@ -535,7 +550,7 @@ RESOURCE ID: invitations_not_available_special_title
 TEXT: Не удалось пригласить друзей на этот рейд
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Билет на специальный квест 6 марта 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
+TEXT: Билет на специальный квест 11 апреля 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_desc_2
 TEXT: Билет на специальный квест 21 ноября с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. 
@@ -544,7 +559,7 @@ RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: Билет на специальное событие с 10:00 2020 г. 19 декабря до 20:00 20 декабря 2020 г. по местному времени, независимо от твоего местонахождения. 
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к особому квесту 6 марта 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 11 апреля 2021 г. вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_details_2
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 21 ноября, вне зависимости от твоего местонахождения.
@@ -571,10 +586,10 @@ RESOURCE ID: item_event_ticket_pink_snivt_details
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 11 апреля 2021 г. вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: Билет на специальный квест 6 марта 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 11 апреля 2021 г. вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_global_event_ticket_details
-TEXT: Этот билет активируется автоматически 20 февраля 2021 г. в 9:00 по местному времени
+TEXT: Билет на специальный квест 11 апреля 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_troy_disk_rainy_desc
 TEXT: Влажная приманка. Привлекает Покемонов 30 минут, особенно тех, кто любит дождь. Может вызвать эволюцию некоторых Покемонов.
@@ -616,9 +631,9 @@ RESOURCE ID: mega_raid_hour
 TEXT: Час мегарейдов
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-02T19:00:31.975226
-at SHA 88351076fd733a9a14f1d75869897c072f8163b3
-Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685
+TEXT: Built at 2021-04-09T22:19:03.116291
+at SHA 222ca89b1c658c00bea8b677321fa141750dc594
+Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a
 
 RESOURCE ID: milestone_rewards_title
 TEXT: НАГРАДЫ ЗА ДОСТИЖЕНИЕ ЦЕЛИ
@@ -649,6 +664,9 @@ TEXT: Коллекционное испытание Юнова
 
 RESOURCE ID: minutes_and_seconds
 TEXT: {0} М. {1} С.
+
+RESOURCE ID: move_name_0343
+TEXT: Вихрь Листьев
 
 RESOURCE ID: mrmime_ticket_description
 TEXT: Билет на событие «Галарский Мистер Майм» с 10:00 19 декабря 2020 г. до 20:00 20 декабря 2020 г. по местному времени, независимо от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
@@ -713,19 +731,28 @@ RESOURCE ID: poi_contrib_sponsor_loc_maxed
 TEXT: Достигнуто максимальное число сообщений об ошибке в местоположении за день: {0}.
 
 RESOURCE ID: pokedex_category_shiny_appraisal_3
-TEXT: Shiny 3 Stars
+TEXT: Сияющий 3 звезды
 
 RESOURCE ID: pokedex_category_unlocked_body
-TEXT: You can now keep track of {0} in your Pokédex.
+TEXT: Теперь ты можешь отслеживать в своём Покедексе: {0}.
+
+RESOURCE ID: pokedex_category_unlocked_body_singular
+TEXT: Теперь ты можешь отслеживать в своём Покедексе этого Покемона: {0}
+
+RESOURCE ID: pokedex_category_unlocked_body_threeplus
+TEXT: Теперь ты можешь отслеживать в своём Покедексе этих Покемонов : {0} и {1} 
+
+RESOURCE ID: pokedex_category_unlocked_body_two
+TEXT: Теперь ты можешь отслеживать этих Покемонов в своём Покедексе: {0} и {1} 
 
 RESOURCE ID: pokedex_category_unlocked_button
-TEXT: View Pokédex
+TEXT: Посмотреть Покедекс
 
 RESOURCE ID: pokedex_category_unlocked_header
-TEXT: Pokédex Classification Unlocked!
+TEXT: Разблокирован класс Покедекса!
 
 RESOURCE ID: pokedex_category_unlocked_plural_header
-TEXT: Pokédex Classifications Unlocked!
+TEXT: Разблокированы классы Покедекса!
 
 RESOURCE ID: pokedex_sort_favorite
 TEXT: Избранные
@@ -1897,76 +1924,76 @@ RESOURCE ID: quest_snapshot_tornadus
 TEXT: Сфотографируй Торнадуса
 
 RESOURCE ID: quest_snapshot_wild
-TEXT: Take {0} Snapshots of Wild Pokémon
+TEXT: Take {0} snapshots of wild Pokémon
 
 RESOURCE ID: quest_snapshot_wild_bug
-TEXT: Take {0} Snapshots of Wild Bug-type Pokémon
+TEXT: Take {0} snapshots of wild Bug-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_dark
-TEXT: Take {0} Snapshots of Wild Dark-type Pokémon
+TEXT: Take {0} snapshots of wild Dark-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_dragon
-TEXT: Take {0} Snapshots of Wild Dragon-type Pokémon
+TEXT: Take {0} snapshots of wild Dragon-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_electric
-TEXT: Take {0} Snapshots of Wild Electric-type Pokémon
+TEXT: Take {0} snapshots of wild Electric-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_fairy
-TEXT: Take {0} Snapshots of Wild Fairy-type Pokémon
+TEXT: Take {0} snapshots of wild Fairy-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_fighting
-TEXT: Take {0} Snapshots of Wild Fighting-type Pokémon
+TEXT: Take {0} snapshots of wild Fighting-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_fire
-TEXT: Take {0} Snapshots of Wild Fire-type Pokémon
+TEXT: Take {0} snapshots of wild Fire-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_flying
-TEXT: Take {0} Snapshots of Wild Flying-type Pokémon
+TEXT: Take {0} snapshots of wild Flying-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
-TEXT: Take a Snapshot of a Wild Geodude, Sandshrew, or Cacnea
+TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
 
 RESOURCE ID: quest_snapshot_wild_ghost
-TEXT: Take {0} Snapshots of Wild Ghost-type Pokémon
+TEXT: Take {0} snapshots of wild Ghost-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_grass
-TEXT: Take {0} Snapshots of Wild Grass-type Pokémon
+TEXT: Take {0} snapshots of wild Grass-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_ground
-TEXT: Take {0} Snapshots of Wild Ground-type Pokémon
+TEXT: Take {0} snapshots of wild Ground-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_hoothoot
-TEXT: Take a Snapshot of a Wild Hoothoot
+TEXT: Take a snapshot of Hoothoot in the wild
 
 RESOURCE ID: quest_snapshot_wild_ice
-TEXT: Take {0} Snapshots of Wild Ice-type Pokémon
+TEXT: Take {0} snapshots of wild Ice-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
-TEXT: Take a Snapshot of a Wild Lotad, Metapod, or Aipom
+TEXT: Take a snapshot of Metapod, Aipom, or Lotad in the wild
 
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
-TEXT: Take a Snapshot of a Wild Luvdisc, Chinchou, or Finneon
+TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
 
 RESOURCE ID: quest_snapshot_wild_normal
-TEXT: Take {0} Snapshots of Wild Normal-type Pokémon
+TEXT: Take {0} snapshots of wild Normal-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_poison
-TEXT: Take {0} Snapshots of Wild Poison-type Pokémon
+TEXT: Take {0} snapshots of wild Poison-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_psychic
-TEXT: Take {0} Snapshots of Wild Psychic-type Pokémon
+TEXT: Take {0} snapshots of wild Psychic-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_rock
-TEXT: Take {0} Snapshots of Wild Rock-type Pokémon
+TEXT: Take {0} snapshots of wild Rock-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
-TEXT: Take a Snapshot of a Wild Skarmory, Dodrio, Mantine
+TEXT: Take a snapshot of Dodrio, Mantine, or Skarmory in the wild
 
 RESOURCE ID: quest_snapshot_wild_steel
-TEXT: Take {0} Snapshots of Wild Steel-type Pokémon
+TEXT: Take {0} snapshots of wild Steel-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_water
-TEXT: Take {0} Snapshots of Wild Water-type Pokémon
+TEXT: Take {0} snapshots of wild Water-type Pokémon
 
 RESOURCE ID: quest_snivt_catch_b
 TEXT: Поймай {0} Снайви
@@ -2347,73 +2374,73 @@ RESOURCE ID: quest_special_dialogue_season2_4_7
 TEXT: Мунна мне кажется интересным Покемоном, и мне не терпится изучить его получше. Надеюсь, ты мне поможешь, когда придёт время! А теперь вперёд!
 
 RESOURCE ID: quest_special_dialogue_snivt_0_0
-TEXT: Hey there, %PLAYERNAME%! Perfect timing.
+TEXT: Привет, %PLAYERNAME%! Ты как раз вовремя.
 
 RESOURCE ID: quest_special_dialogue_snivt_0_1
-TEXT: I just got back from a lengthy stroll in the sunshine. It’s incredible how much a bit of fresh air can affect your energy and mood!
+TEXT: Я только что вернулся с долгой прогулки под солнцем. Невероятно, как немного свежего воздуха может добавить энергии и улучшить настроение!
 
 RESOURCE ID: quest_special_dialogue_snivt_0_2
-TEXT: But that’s not the only thing that’s got me feeling chipper. You see, I witnessed something quite interesting while I was out and about.
+TEXT: Но это не всё, что придало мне бодрости. Знаешь, пока я прогуливался, я стал свидетелем чего-то весьма интересного.
 
 RESOURCE ID: quest_special_dialogue_snivt_0_3
-TEXT: Perhaps in response to the abundant sunlight, a congregation of Snivy appears to have formed nearby.
+TEXT: Возможно, из-за обильного солнечного света неподалёку собралось столько Снайви.
 
 RESOURCE ID: quest_special_dialogue_snivt_0_4
-TEXT: I don’t know about you, but this seems to me like a golden opportunity to research the Grass Snake Pokémon. Could you lend me a hand?
+TEXT: Не знаю, как тебе, но мне кажется, что это прекрасная возможность исследовать этого Покемона-Травяную Змею. Хочешь мне помочь?
 
 RESOURCE ID: quest_special_dialogue_snivt_0_5
-TEXT: They’re known to be fairly calm, so you shouldn’t have much trouble observing them.
+TEXT: Как известно, это довольно миролюбивые Покемоны, поэтому у тебя не должно возникнуть проблем с наблюдением за ними.
 
 RESOURCE ID: quest_special_dialogue_snivt_0_6
-TEXT: Good luck out there!
+TEXT: Удачи тебе!
 
 RESOURCE ID: quest_special_dialogue_snivt_1_0
-TEXT: Welcome back, Trainer! Great work.
+TEXT: С возвращением, Тренер! Отличная работа.
 
 RESOURCE ID: quest_special_dialogue_snivt_1_1
-TEXT: I have some information for you on why Snivy are so fond of the sun.
+TEXT: У меня для тебя есть информация о том, почему Снайви так любят солнце.
 
 RESOURCE ID: quest_special_dialogue_snivt_1_2
-TEXT: These Grass-type Pokémon photosynthesize by bathing their tails in sunlight. Much like the sunshine they crave, Snivy are quite bright!
+TEXT: У этих травяных Покемонов происходит процесс фотосинтеза, когда на их хвосты попадают лучи солнца. И сами Снайви яркие, как солнышко, которое они так любят!
 
 RESOURCE ID: quest_special_dialogue_snivt_1_3
-TEXT: They were first encountered in the Unova region, where they were known for their intelligence and calm demeanor. Fascinating!
+TEXT: Впервые их обнаружили в регионе Юнова, где они известны своим умом и мирным нравом. Удивительные Покемоны!
 
 RESOURCE ID: quest_special_dialogue_snivt_1_4
-TEXT: While we continue researching their sudden appearance, could you evolve a Snivy for me? I’d like to document its Evolution, Servine.
+TEXT: Пока мы продолжаем исследовать их внезапное появление, сможешь эволюционировать Снайви? Я хотел бы изучить Сервайна – его эволюцию.
 
 RESOURCE ID: quest_special_dialogue_snivt_1_5
-TEXT: Take care when you do, however—Servine is known for its masterful whipping techniques.
+TEXT: Но будь бдителен – Сервайн известен тем, что умеет мастерски бить хвостом.
 
 RESOURCE ID: quest_special_dialogue_snivt_2_0
-TEXT: Wonderful work, %PLAYERNAME%! That’s a mighty fine Servine.
+TEXT: Отличная работа, %PLAYERNAME%! Это прекрасный Сервайн.
 
 RESOURCE ID: quest_special_dialogue_snivt_2_1
-TEXT: Like Snivy, Servine is known as the Grass Snake Pokémon. It moves along the ground as if sliding. Though it’s far from sluggish, it won’t hesitate to seek out the shadows of thick foliage to avoid attacks.
+TEXT: Как и Снайви, Сервайн является Покемоном-Травяной Змеёй. Он плавно движется по земле, как будто скользит. Несмотря на то, что Сервайн – активный Покемон, он предпочитает избегать нападений в густой листве кустарников.
 
 RESOURCE ID: quest_special_dialogue_snivt_2_2
-TEXT: Now that we’ve properly documented Snivy and Servine, I’d like to move on to Serperior, Snivy’s final Evolution.
+TEXT: Теперь, когда мы должным образом задокументировали Снайви и Сервайна, я хотел бы перейти к Серпериору, последней эволюции Снайви.
 
 RESOURCE ID: quest_special_dialogue_snivt_2_3
-TEXT: Serperior is known as the Regal Pokémon, and much like Snivy and Servine, it also has a penchant for sunlight. It takes in solar energy and boosts it internally.
+TEXT: Серпериор известен как Царский Покемон и так же, как и Снайви и Сервайн, предпочитает солнечный свет. Он поглощает солнечную энергию и усиливает её мощь внутри себя.
 
 RESOURCE ID: quest_special_dialogue_snivt_2_4
-TEXT: Could you evolve your Servine into Serperior for me, Trainer? It’ll be a great boon to my research, and you’ll have a powerful Grass-type Pokémon to join your journey as well!
+TEXT: Ты можешь эволюционировать Сервайна в Серпериора для меня, Тренер? Это поможет моим исследованиям, а у тебя будет мощный травяной Покемон, который присоединится к твоему путешествию!
 
 RESOURCE ID: quest_special_dialogue_snivt_3_0
-TEXT: Fantastic work, Trainer! I have no doubt Serperior will prove a potent asset on your adventures.
+TEXT: Замечательная работа, Тренер! Я не сомневаюсь, что Серпериор окажется важным помощником в твоих приключениях.
 
 RESOURCE ID: quest_special_dialogue_snivt_3_1
-TEXT: It has an incredible ability to stop its opponents’ movements with a single glare. Should the opponent prove bold enough to continue, Serperior will give its all in battle.
+TEXT: У него есть удивительная способность останавливать противника одним взглядом. Если же у противника достанет смелости продолжать битву, то Серпериор выложится в сражении на все сто.
 
 RESOURCE ID: quest_special_dialogue_snivt_3_2
-TEXT: Having a Pokémon like that by your side would be pretty inspiring, I’d say!
+TEXT: Я бы сказал, что иметь такого Покемона рядом очень вдохновляет!
 
 RESOURCE ID: quest_special_dialogue_snivt_3_3
-TEXT: Anyway, thanks again for all your help in this sun-soaked endeavor. I think I’ll take one more walk before the day’s done—can’t let weather like this go to waste!
+TEXT: В любом случае, ещё раз благодарю за помощь в этой солнечной затее. Думаю, я ещё раз пройдусь сегодня – ведь нельзя допустить, чтобы такая погода пропала зря!
 
 RESOURCE ID: quest_special_dialogue_snivt_3_4
-TEXT: Until next time, let’s GO!
+TEXT: До следующего раза, ИДИ и ЛОВИ!
 
 RESOURCE ID: quest_special_dialogue_yokosuka_0_3
 TEXT: Выполни следующие задания для квеста.
@@ -2507,60 +2534,6 @@ TEXT: Снайви на солнышке (3/4)
 
 RESOURCE ID: quest_title_snivt_3
 TEXT: Снайви на солнышке (4/4)
-
-RESOURCE ID: quest_wild_bug_types
-TEXT: More Bug-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_dark_types
-TEXT: More Dark-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_dragon_types
-TEXT: More Dragon-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_electric_types
-TEXT: More Electric-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_fairy_types
-TEXT: More Fairy-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_fighting_types
-TEXT: More Fighting-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_fire_types
-TEXT: More Fire-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_flying_types
-TEXT: More Flying-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_ghost_types
-TEXT: More Ghost-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_grass_types
-TEXT: More Grass-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_ground_types
-TEXT: More Ground-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_ice_types
-TEXT: More Ice-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_normal_types
-TEXT: More Normal-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_poison_types
-TEXT: More Poison-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_psychic_types
-TEXT: More Psychic-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_rock_types
-TEXT: More Rock-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_steel_types
-TEXT: More Steel-type Pokémon appearing in the wild
-
-RESOURCE ID: quest_wild_water_types
-TEXT: More Water-type Pokémon appearing in the wild
 
 RESOURCE ID: quests_story_major_reward_header
 TEXT: Специальный квест завершён!
@@ -2747,6 +2720,60 @@ TEXT: Появляется больше диких Мачопов
 
 RESOURCE ID: spawn_snivy
 TEXT: Появляется больше диких Снайви
+
+RESOURCE ID: spawn_wild_bug_types
+TEXT: More Bug-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_dark_types
+TEXT: More Dark-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_dragon_types
+TEXT: More Dragon-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_electric_types
+TEXT: More Electric-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_fairy_types
+TEXT: More Fairy-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_fighting_types
+TEXT: More Fighting-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_fire_types
+TEXT: More Fire-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_flying_types
+TEXT: More Flying-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_ghost_types
+TEXT: More Ghost-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_grass_types
+TEXT: More Grass-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_ground_types
+TEXT: More Ground-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_ice_types
+TEXT: More Ice-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_normal_types
+TEXT: More Normal-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_poison_types
+TEXT: More Poison-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_psychic_types
+TEXT: More Psychic-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_rock_types
+TEXT: More Rock-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_steel_types
+TEXT: More Steel-type Pokémon appearing in the wild
+
+RESOURCE ID: spawn_wild_water_types
+TEXT: More Water-type Pokémon appearing in the wild
 
 RESOURCE ID: spawn_wooper
 TEXT: Появляется больше диких Вуперов
