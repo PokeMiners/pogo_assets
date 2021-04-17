@@ -73,6 +73,9 @@ TEXT: 리퍼럴 코드를 확인했습니다
 RESOURCE ID: aprilfools_event_name
 TEXT: 장난끼 많은 포켓몬
 
+RESOURCE ID: avatar_f_backpack_snapcamera_00_bundle_icon
+TEXT: GO스냅샷 카메라
+
 RESOURCE ID: avatar_f_hat_elesa_00_bundle_icon
 TEXT: 카밀레 헤드폰
 
@@ -97,6 +100,9 @@ TEXT: 꼴깍몬 점프 슈트
 RESOURCE ID: avatar_f_shirt_spring2021plusle_00_bundle_icon
 TEXT: 마이농 점프 슈트
 
+RESOURCE ID: avatar_f_shirt_sustainability2021_00_bundle_icon
+TEXT: 지속가능성 위크 티셔츠
+
 RESOURCE ID: avatar_f_shoes_elesa_00_bundle_icon
 TEXT: 카밀레 신발
 
@@ -105,6 +111,9 @@ TEXT: 메가이어롭 스니커
 
 RESOURCE ID: avatar_hat_gotour_kanto_bundle_icon
 TEXT: GO Tour 캡
+
+RESOURCE ID: avatar_m_backpack_snapcamera_00_bundle_icon
+TEXT: GO스냅샷 카메라
 
 RESOURCE ID: avatar_m_hat_elesa_00_bundle_icon
 TEXT: 카밀레 헤드폰
@@ -132,6 +141,9 @@ TEXT: 꼴깍몬 후드 세트
 
 RESOURCE ID: avatar_m_shirt_spring2021plusle_00_bundle_icon
 TEXT: 마이농 스프링 니트 세트
+
+RESOURCE ID: avatar_m_shirt_sustainability2021_00_bundle_icon
+TEXT: 지속가능성 위크 티셔츠
 
 RESOURCE ID: avatar_m_shoes_elesa_00_bundle_icon
 TEXT: 카밀레 신발
@@ -243,7 +255,7 @@ RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: 메탕구를 메타그로스로 진화시키면 코멧펀치를 배운다
 
 RESOURCE ID: event_name_snap
-TEXT: New Pokémon Snap Celebration
+TEXT: 「New 포켓몬 스냅」 기념 이벤트
 
 RESOURCE ID: event_regional_india_holi
 TEXT: 컬러 페스티벌
@@ -671,9 +683,9 @@ RESOURCE ID: mega_raid_hour
 TEXT: 메가 레이드 아워
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-09T22:19:03.116291
-at SHA 222ca89b1c658c00bea8b677321fa141750dc594
-Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a
+TEXT: Built at 2021-04-16T18:43:05.463466
+at SHA 762ab19fc9c7f8b77d61a0f1ebf6aec2202b33e8
+Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573
 
 RESOURCE ID: milestone_rewards_title
 TEXT: 마일스톤 리워드
@@ -682,10 +694,16 @@ RESOURCE ID: mini_collection_apr21_egg_event
 TEXT: 봄 이벤트 2021컬렉션
 
 RESOURCE ID: mini_collection_apr21_friendship_day
-TEXT: Friendship Day Collection Challenge
+TEXT: 프렌드십 데이 컬렉션 챌린지
 
 RESOURCE ID: move_name_0343
 TEXT: 리프스톰
+
+RESOURCE ID: no_friend_score_description
+TEXT: 
+
+RESOURCE ID: no_friend_score_description_alt
+TEXT: Tell your friends to join you in the global challenge!
 
 RESOURCE ID: photobomb_five_fletchling
 TEXT: GO스냅샷으로 화살꼬빈의 서프라이즈 5회
@@ -700,13 +718,13 @@ RESOURCE ID: pokedex_category_unlocked_body
 TEXT: 도감에 {0}(이)가 표시됩니다
 
 RESOURCE ID: pokedex_category_unlocked_body_singular
-TEXT: {0}포켓몬의 도감 표시를 언록했습니다.
+TEXT: {0} 포켓몬의 도감 표시를 언록했습니다.
 
 RESOURCE ID: pokedex_category_unlocked_body_threeplus
-TEXT: {0}(와)과 {1}포켓몬의 도감 표시를 언록했습니다.
+TEXT: {0} 포켓몬과 {1} 포켓몬의 도감 표시를 언록했습니다.
 
 RESOURCE ID: pokedex_category_unlocked_body_two
-TEXT: {0}(와)과 {1}포켓몬의 도감 표시를 언록했습니다.
+TEXT: {0} 포켓몬과 {1} 포켓몬의 도감 표시를 언록했습니다.
 
 RESOURCE ID: pokedex_category_unlocked_button
 TEXT: 도감 보기
@@ -728,6 +746,18 @@ TEXT: 모두
 
 RESOURCE ID: pokedex_mode_name_mega
 TEXT: 메가
+
+RESOURCE ID: pokemon_category_0865
+TEXT: 천둥오리포켓몬
+
+RESOURCE ID: pokemon_desc_0052_2335
+TEXT: 전투적인 해양 민족과지내는 동안 단련되어몸 여기저기가 강철로 변화했다.
+
+RESOURCE ID: pokemon_desc_0083_2338
+TEXT: 가라르에 사는 파오리의 모습.굵고 튼튼한 파를 휘두르며용감하게 싸우는 전사다.
+
+RESOURCE ID: pokemon_desc_0865
+TEXT: 많은 싸움에서 살아남은 자만이이 모습으로 진화한다.파가 시들면 전장을 떠난다.
 
 RESOURCE ID: pokemon_info_caught_quest_referral
 TEXT: 리퍼럴 마일스톤을 달성해서 잡았다
@@ -898,7 +928,7 @@ RESOURCE ID: pokemon_name_0719_0001
 TEXT: 메가디안시
 
 RESOURCE ID: quest_catch_trubbish_plural
-TEXT: Catch {0} Trubbish
+TEXT: 깨봉이를 {0}마리 잡는다
 
 RESOURCE ID: quest_complete_flett
 TEXT: 울새포켓몬의 수수께끼를 풀어라!
@@ -940,76 +970,85 @@ RESOURCE ID: quest_snapshot_tornadus
 TEXT: 토네로스의 GO스냅샷 사진을 찍는다
 
 RESOURCE ID: quest_snapshot_wild
-TEXT: Take {0} snapshots of wild Pokémon
+TEXT: 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_bug
-TEXT: Take {0} snapshots of wild Bug-type Pokémon
+TEXT: 벌레타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_dark
-TEXT: Take {0} snapshots of wild Dark-type Pokémon
+TEXT: 악타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_dragon
-TEXT: Take {0} snapshots of wild Dragon-type Pokémon
+TEXT: 드래곤타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
-RESOURCE ID: quest_snapshot_wild_electric
-TEXT: Take {0} snapshots of wild Electric-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_fairy
-TEXT: Take {0} snapshots of wild Fairy-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_fighting
-TEXT: Take {0} snapshots of wild Fighting-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_fire
-TEXT: Take {0} snapshots of wild Fire-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_flying
-TEXT: Take {0} snapshots of wild Flying-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
-TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
-
-RESOURCE ID: quest_snapshot_wild_ghost
-TEXT: Take {0} snapshots of wild Ghost-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_grass
-TEXT: Take {0} snapshots of wild Grass-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_ground
-TEXT: Take {0} snapshots of wild Ground-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_hoothoot
-TEXT: Take a snapshot of Hoothoot in the wild
-
-RESOURCE ID: quest_snapshot_wild_ice
-TEXT: Take {0} snapshots of wild Ice-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
-TEXT: Take a snapshot of Metapod, Aipom, or Lotad in the wild
-
-RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
+RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
 TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
 
+RESOURCE ID: quest_snapshot_wild_electric
+TEXT: 전기타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_fairy
+TEXT: 페어리타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_fighting
+TEXT: 격투타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_fire
+TEXT: 불꽃타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_flying
+TEXT: 비행타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
+TEXT: 야생 꼬마돌 또는 모래두지 또는 선인왕의 GO스냅샷을 찍는다
+
+RESOURCE ID: quest_snapshot_wild_ghost
+TEXT: 고스트타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_grass
+TEXT: 풀타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_ground
+TEXT: 땅타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_hoothoot
+TEXT: 야생 부우부의 GO스냅샷을 찍는다
+
+RESOURCE ID: quest_snapshot_wild_ice
+TEXT: 얼음타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
+TEXT: 야생 연꽃몬 또는 단데기 또는 에이팜의 GO스냅샷을 찍는다
+
+RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
+TEXT: 야생 사랑동이 또는 초라기 또는 형광어의 GO스냅샷을 찍는다
+
 RESOURCE ID: quest_snapshot_wild_normal
-TEXT: Take {0} snapshots of wild Normal-type Pokémon
+TEXT: 노말타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_poison
-TEXT: Take {0} snapshots of wild Poison-type Pokémon
+TEXT: 독타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_psychic
-TEXT: Take {0} snapshots of wild Psychic-type Pokémon
+TEXT: 에스퍼타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_rock
-TEXT: Take {0} snapshots of wild Rock-type Pokémon
+TEXT: 바위타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_singular
+TEXT: Take a snapshot of a wild Pokémon
 
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
-TEXT: Take a snapshot of Dodrio, Mantine, or Skarmory in the wild
+TEXT: 야생 무장조 또는 두트리오 또는 만타인의 GO스냅샷을 찍는다
 
 RESOURCE ID: quest_snapshot_wild_steel
-TEXT: Take {0} snapshots of wild Steel-type Pokémon
+TEXT: 강철타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
+TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
 
 RESOURCE ID: quest_snapshot_wild_water
-TEXT: Take {0} snapshots of wild Water-type Pokémon
+TEXT: 물타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snivt_catch_b
 TEXT: 주리비얀을 {0}마리 잡는다
@@ -1566,6 +1605,9 @@ TEXT: 천지 신화
 RESOURCE ID: settings_go_to_support|a
 TEXT: 도움말&문의
 
+RESOURCE ID: settings_sound_effects_alt
+TEXT: Sound
+
 RESOURCE ID: share_my_referral_code_message
 TEXT: 내 코드 {0}(을)를 사용해서 Pokémon GO를 시작 또는 다시 플레이하면 몬스터볼 100개를 받을 수 있으며 스페셜 보너스도 있습니다.{1}
 
@@ -1579,58 +1621,58 @@ RESOURCE ID: spawn_snivy
 TEXT: 주리비얀이 야생에서 많이 출현
 
 RESOURCE ID: spawn_wild_bug_types
-TEXT: More Bug-type Pokémon appearing in the wild
+TEXT: 벌레타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_dark_types
-TEXT: More Dark-type Pokémon appearing in the wild
+TEXT: 악타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_dragon_types
-TEXT: More Dragon-type Pokémon appearing in the wild
+TEXT: 드래곤타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_electric_types
-TEXT: More Electric-type Pokémon appearing in the wild
+TEXT: 전기타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_fairy_types
-TEXT: More Fairy-type Pokémon appearing in the wild
+TEXT: 벌레타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_fighting_types
-TEXT: More Fighting-type Pokémon appearing in the wild
+TEXT: 격투타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_fire_types
-TEXT: More Fire-type Pokémon appearing in the wild
+TEXT: 불꽃타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_flying_types
-TEXT: More Flying-type Pokémon appearing in the wild
+TEXT: 비행타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_ghost_types
-TEXT: More Ghost-type Pokémon appearing in the wild
+TEXT: 고스트타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_grass_types
-TEXT: More Grass-type Pokémon appearing in the wild
+TEXT: 풀타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_ground_types
-TEXT: More Ground-type Pokémon appearing in the wild
+TEXT: 땅타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_ice_types
-TEXT: More Ice-type Pokémon appearing in the wild
+TEXT: 얼음타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_normal_types
-TEXT: More Normal-type Pokémon appearing in the wild
+TEXT: 노말타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_poison_types
-TEXT: More Poison-type Pokémon appearing in the wild
+TEXT: 독타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_psychic_types
-TEXT: More Psychic-type Pokémon appearing in the wild
+TEXT: 에스퍼타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_rock_types
-TEXT: More Rock-type Pokémon appearing in the wild
+TEXT: 바위타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_steel_types
-TEXT: More Steel-type Pokémon appearing in the wild
+TEXT: 강철타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: spawn_wild_water_types
-TEXT: More Water-type Pokémon appearing in the wild
+TEXT: 물타입 포켓몬이 평소보다 많이 야생에 출현
 
 RESOURCE ID: special_evo_prompt
 TEXT: 특별한 진화
@@ -1664,6 +1706,12 @@ TEXT: '울새포켓몬의 수수께끼를 풀어라!'의 티켓이 숍에 등장
 
 RESOURCE ID: ticket_snivy
 TEXT: '풀뱀포켓몬의 수수께끼를 풀어라!' 티켓이 숍에 등장
+
+RESOURCE ID: timed_challenge_bonus_modal_description
+TEXT: 전 세계 트레이너가 하나가 되어 완료하는 챌린지입니다!
+
+RESOURCE ID: timed_challenge_bonus_modal_description_alt
+TEXT: All Trainers participating in a global challenge will contribute to a global goal. Once Trainers achieve the goal, a timed bonus will activate for all participants.
 
 RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Wi-Fi 사용 권장

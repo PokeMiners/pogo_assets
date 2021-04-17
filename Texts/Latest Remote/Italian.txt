@@ -70,6 +70,9 @@ TEXT: Pokémon dispettosi
 RESOURCE ID: avatar_f_backpack_backpacker_0_bundle_icon
 TEXT: zaino Giramondo
 
+RESOURCE ID: avatar_f_backpack_snapcamera_00_bundle_icon
+TEXT: fotocamera GO
+
 RESOURCE ID: avatar_f_hat_elesa_00_bundle_icon
 TEXT: cuffie stile Camelia
 
@@ -97,6 +100,9 @@ TEXT: completo Gulpin
 RESOURCE ID: avatar_f_shirt_spring2021plusle_00_bundle_icon
 TEXT: completo Minun
 
+RESOURCE ID: avatar_f_shirt_sustainability2021_00_bundle_icon
+TEXT: T-shirt sostenibilità
+
 RESOURCE ID: avatar_f_shoes_elesa_00_bundle_icon
 TEXT: scarpe stile Camelia
 
@@ -108,6 +114,9 @@ TEXT: Scarpe Landa Corona
 
 RESOURCE ID: avatar_m_backpack_backpacker_0_bundle_icon
 TEXT: zaino Giramondo
+
+RESOURCE ID: avatar_m_backpack_snapcamera_00_bundle_icon
+TEXT: fotocamera GO
 
 RESOURCE ID: avatar_m_hat_elesa_00_bundle_icon
 TEXT: cuffie stile Camelia
@@ -144,6 +153,9 @@ TEXT: completo Gulpin con felpa
 
 RESOURCE ID: avatar_m_shirt_spring2021plusle_00_bundle_icon
 TEXT: completo Minun con maglia
+
+RESOURCE ID: avatar_m_shirt_sustainability2021_00_bundle_icon
+TEXT: T-shirt sostenibilità
 
 RESOURCE ID: avatar_m_shirt_veterantrainerxy_0_bundle_icon
 TEXT: Pantacollant Veterana
@@ -206,6 +218,9 @@ TEXT: Scegli un Pokémon come tuo compagno e acquisirà nuovi talenti man mano c
 RESOURCE ID: buddy_feature_name
 TEXT: Avventure con il tuo compagno
 
+RESOURCE ID: buddy_tutorial_basic_content_p4
+TEXT: Lottare nelle Palestre, nei raid, contro altri Allenatori o contro il Team GO Rocket con il tuo compagno nella tua squadra aumenterà il vostro livello di affiatamento e ti può far guadagnare un cuore.
+
 RESOURCE ID: charge_up_event_name
 TEXT: Elettromania
 
@@ -255,7 +270,7 @@ RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: Fai evolvere Metang per ottenere un Metagross che conosce Meteorpugno
 
 RESOURCE ID: event_name_snap
-TEXT: New Pokémon Snap Celebration
+TEXT: Speciale New Pokémon Snap
 
 RESOURCE ID: event_npc04_victory__male_speaker
 TEXT: Continua a lottare e la vittoria sarà tua!
@@ -392,9 +407,9 @@ RESOURCE ID: mega_raid_hour
 TEXT: ora dei megaraid
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-09T22:19:03.116291
-at SHA 222ca89b1c658c00bea8b677321fa141750dc594
-Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a
+TEXT: Built at 2021-04-16T18:43:05.463466
+at SHA 762ab19fc9c7f8b77d61a0f1ebf6aec2202b33e8
+Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573
 
 RESOURCE ID: milestone_rewards_title
 TEXT: RICOMPENSE DA OBIETTIVO
@@ -403,13 +418,19 @@ RESOURCE ID: mini_collection_apr21_egg_event
 TEXT: Collezione Profumo di primavera 2021
 
 RESOURCE ID: mini_collection_apr21_friendship_day
-TEXT: Sfida di collezione della giornata dell’amicizia
+TEXT: Sfida di collezione della giornata degli amici
 
 RESOURCE ID: mini_collection_jan21_gen2_legend_event
 TEXT: Collezione leggendaria dei festeggiamenti di Johto
 
 RESOURCE ID: move_name_0343
 TEXT: Verdebufera
+
+RESOURCE ID: no_friend_score_description
+TEXT: 
+
+RESOURCE ID: no_friend_score_description_alt
+TEXT: Tell your friends to join you in the global challenge!
 
 RESOURCE ID: photobomb_five_fletchling
 TEXT: Cinque incontri a sorpresa con Fletchling in modalità foto GO
@@ -424,13 +445,13 @@ RESOURCE ID: pokedex_category_unlocked_body
 TEXT: Ora puoi seguire la classificazione {0} nel tuo Pokédex.
 
 RESOURCE ID: pokedex_category_unlocked_body_singular
-TEXT: You can now keep track of {0} Pokémon in your Pokédex.
+TEXT: Ora puoi tenere traccia dei Pokémon con classificazione {0} nel tuo Pokédex.
 
 RESOURCE ID: pokedex_category_unlocked_body_threeplus
-TEXT: Ora puoi seguire la classificazione dei Pokémon {0}, e {1} nel tuo Pokédex.
+TEXT: Ora puoi tenere traccia dei Pokémon con classificazione {0} e {1} nel tuo Pokédex.
 
 RESOURCE ID: pokedex_category_unlocked_body_two
-TEXT: Ora puoi seguire la classificazione dei Pokémon {0} e {1} nel tuo Pokédex.
+TEXT: Ora puoi tenere traccia dei Pokémon con classificazione {0} e {1} nel tuo Pokédex. 
 
 RESOURCE ID: pokedex_category_unlocked_button
 TEXT: Apri il Pokédex
@@ -499,76 +520,85 @@ RESOURCE ID: quest_snapshot_tornadus
 TEXT: Fai una foto a Tornadus
 
 RESOURCE ID: quest_snapshot_wild
-TEXT: Take {0} snapshots of wild Pokémon
+TEXT: Fai {0} foto a dei Pokémon allo stato selvatico
 
 RESOURCE ID: quest_snapshot_wild_bug
-TEXT: Take {0} snapshots of wild Bug-type Pokémon
+TEXT: Fai {0} foto ai Pokémon di tipo Coleottero allo stato selvatico
 
 RESOURCE ID: quest_snapshot_wild_dark
-TEXT: Take {0} snapshots of wild Dark-type Pokémon
+TEXT: Fai {0} foto ai Pokémon di tipo Buio allo stato selvatico
 
 RESOURCE ID: quest_snapshot_wild_dragon
-TEXT: Take {0} snapshots of wild Dragon-type Pokémon
+TEXT: Fai {0} foto a dei Pokémon di tipo Drago allo stato selvatico
 
-RESOURCE ID: quest_snapshot_wild_electric
-TEXT: Take {0} snapshots of wild Electric-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_fairy
-TEXT: Take {0} snapshots of wild Fairy-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_fighting
-TEXT: Take {0} snapshots of wild Fighting-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_fire
-TEXT: Take {0} snapshots of wild Fire-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_flying
-TEXT: Take {0} snapshots of wild Flying-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
-TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
-
-RESOURCE ID: quest_snapshot_wild_ghost
-TEXT: Take {0} snapshots of wild Ghost-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_grass
-TEXT: Take {0} snapshots of wild Grass-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_ground
-TEXT: Take {0} snapshots of wild Ground-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_hoothoot
-TEXT: Take a snapshot of Hoothoot in the wild
-
-RESOURCE ID: quest_snapshot_wild_ice
-TEXT: Take {0} snapshots of wild Ice-type Pokémon
-
-RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
-TEXT: Take a snapshot of Metapod, Aipom, or Lotad in the wild
-
-RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
+RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
 TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
 
+RESOURCE ID: quest_snapshot_wild_electric
+TEXT: Fai {0} foto ai Pokémon di tipo Elettro allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_fairy
+TEXT: Fai {0} foto ai Pokémon di tipo Folletto allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_fighting
+TEXT: Fai {0} foto a dei Pokémon di tipo Lotta allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_fire
+TEXT: Fai {0} foto ai Pokémon di tipo Fuoco allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_flying
+TEXT: Fai {0} foto ai Pokémon di tipo Volante allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
+TEXT: Fai una foto a Sandshrew, Geodude o Cacnea allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_ghost
+TEXT: Fai {0} foto a dei Pokémon di tipo Spettro allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_grass
+TEXT: Fai {0} foto ai Pokémon di tipo Erba allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_ground
+TEXT: Fai {0} foto ai Pokémon di tipo Terra allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_hoothoot
+TEXT: Fai una foto a Hoothoot allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_ice
+TEXT: Fai {0} foto ai Pokémon di tipo Ghiaccio allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
+TEXT: Fai una foto a Metapod, Aipom o Lotad allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
+TEXT: Fai una foto a Chinchou, Luvdisc o Finneon allo stato selvatico
+
 RESOURCE ID: quest_snapshot_wild_normal
-TEXT: Take {0} snapshots of wild Normal-type Pokémon
+TEXT: Fai {0} foto ai Pokémon di tipo Normale allo stato selvatico
 
 RESOURCE ID: quest_snapshot_wild_poison
-TEXT: Take {0} snapshots of wild Poison-type Pokémon
+TEXT: Fai {0} foto ai Pokémon di tipo Veleno allo stato selvatico
 
 RESOURCE ID: quest_snapshot_wild_psychic
-TEXT: Take {0} snapshots of wild Psychic-type Pokémon
+TEXT: Fai {0} foto ai Pokémon di tipo Psico allo stato selvatico
 
 RESOURCE ID: quest_snapshot_wild_rock
-TEXT: Take {0} snapshots of wild Rock-type Pokémon
+TEXT: Fai {0} foto ai Pokémon di tipo Roccia allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_singular
+TEXT: Take a snapshot of a wild Pokémon
 
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
-TEXT: Take a snapshot of Dodrio, Mantine, or Skarmory in the wild
+TEXT: Fai una foto a Dodrio, Mantine o Skarmory allo stato selvatico
 
 RESOURCE ID: quest_snapshot_wild_steel
-TEXT: Take {0} snapshots of wild Steel-type Pokémon
+TEXT: Fai {0} foto ai Pokémon di tipo Acciaio allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
+TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
 
 RESOURCE ID: quest_snapshot_wild_water
-TEXT: Take {0} snapshots of wild Water-type Pokémon
+TEXT: Fai {0} foto ai Pokémon di tipo Acqua allo stato selvatico
 
 RESOURCE ID: quest_snivt_catch_b
 TEXT: Cattura {0} Snivy
@@ -1113,6 +1143,9 @@ TEXT: ora del Team GO Rocket
 RESOURCE ID: searching_for_legends_event_name
 TEXT: In cerca dei leggendari
 
+RESOURCE ID: settings_sound_effects_alt
+TEXT: Sound
+
 RESOURCE ID: share_my_referral_code_message
 TEXT: Se ti iscrivi o torni su Pokémon GO utilizzando il mio codice d’invito {0}, riceverai immediatamente 100 Poké Ball e potrai ottenere dei bonus speciali e altro ancora. {1}
 
@@ -1159,58 +1192,58 @@ RESOURCE ID: spawn_weedle
 TEXT: Più Weedle stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_bug_types
-TEXT: More Bug-type Pokémon appearing in the wild
+TEXT: More Bug-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_dark_types
-TEXT: More Dark-type Pokémon appearing in the wild
+TEXT: More Dark-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_dragon_types
-TEXT: More Dragon-type Pokémon appearing in the wild
+TEXT: More Dragon-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_electric_types
-TEXT: More Electric-type Pokémon appearing in the wild
+TEXT: More Electric-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_fairy_types
-TEXT: More Fairy-type Pokémon appearing in the wild
+TEXT: More Fairy-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_fighting_types
-TEXT: More Fighting-type Pokémon appearing in the wild
+TEXT: More Fighting-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_fire_types
-TEXT: More Fire-type Pokémon appearing in the wild
+TEXT: More Fire-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_flying_types
-TEXT: More Flying-type Pokémon appearing in the wild
+TEXT: More Flying-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_ghost_types
-TEXT: More Ghost-type Pokémon appearing in the wild
+TEXT: More Ghost-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_grass_types
-TEXT: Dei Pokémon di tipo Erba stanno apparendo allo stato selvatico
+TEXT: Più Pokémon di tipo Erba stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_ground_types
-TEXT: More Ground-type Pokémon appearing in the wild
+TEXT: More Ground-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_ice_types
-TEXT: More Ice-type Pokémon appearing in the wild
+TEXT: More Ice-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_normal_types
-TEXT: More Normal-type Pokémon appearing in the wild
+TEXT: More Normal-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_poison_types
-TEXT: More Poison-type Pokémon appearing in the wild
+TEXT: More Poison-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_psychic_types
-TEXT: More Psychic-type Pokémon appearing in the wild
+TEXT: More Psychic-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_rock_types
-TEXT: More Rock-type Pokémon appearing in the wild
+TEXT: More Rock-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_steel_types
-TEXT: More Steel-type Pokémon appearing in the wild
+TEXT: More Steel-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wild_water_types
-TEXT: More Water-type Pokémon appearing in the wild
+TEXT: More Water-type Pokémon are appearing in the wild
 
 RESOURCE ID: spawn_wooper
 TEXT: Più Wooper stanno apparendo allo stato selvatico
@@ -1250,6 +1283,12 @@ TEXT: I biglietti per la ricerca speciale intitolata “Un coraggioso volatile�
 
 RESOURCE ID: ticket_snivy
 TEXT: Biglietto per la ricerca speciale disponibili nel negozio
+
+RESOURCE ID: timed_challenge_bonus_modal_description
+TEXT: Tutti gli Allenatori devono collaborare come una community per completare questa sfida.
+
+RESOURCE ID: timed_challenge_bonus_modal_description_alt
+TEXT: All Trainers participating in a global challenge will contribute to a global goal. Once Trainers achieve the goal, a timed bonus will activate for all participants.
 
 RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Si consiglia l’utilizzo del Wi-Fi

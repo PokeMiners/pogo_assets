@@ -77,6 +77,9 @@ TEXT: ARモード使用時は周囲の安全をよく確認してください。
 RESOURCE ID: arphoto_warning_pokemon_too_close
 TEXT: ポケモンが近すぎるので、もう少し距離をあけてください
 
+RESOURCE ID: avatar_f_backpack_snapcamera_00_bundle_icon
+TEXT: GOスナップショット カメラ
+
 RESOURCE ID: avatar_f_hat_elesa_00_bundle_icon
 TEXT: カミツレ ヘッドホン
 
@@ -101,6 +104,9 @@ TEXT: コンビネゾン　ゴクリン
 RESOURCE ID: avatar_f_shirt_spring2021plusle_00_bundle_icon
 TEXT: コンビネゾン　マイナン
 
+RESOURCE ID: avatar_f_shirt_sustainability2021_00_bundle_icon
+TEXT: サスティナビリティウィーク　Tシャツ
+
 RESOURCE ID: avatar_f_shoes_elesa_00_bundle_icon
 TEXT: カミツレ シューズ
 
@@ -109,6 +115,9 @@ TEXT: スニーカー　メガミミロップ
 
 RESOURCE ID: avatar_hat_gotour_kanto_bundle_icon
 TEXT: GOTourキャップ
+
+RESOURCE ID: avatar_m_backpack_snapcamera_00_bundle_icon
+TEXT: GOスナップショット カメラ
 
 RESOURCE ID: avatar_m_hat_elesa_00_bundle_icon
 TEXT: カミツレ ヘッドホン
@@ -137,6 +146,9 @@ TEXT: フーディーセット　ゴクリン
 RESOURCE ID: avatar_m_shirt_spring2021plusle_00_bundle_icon
 TEXT: スプリングニットセット　マイナン
 
+RESOURCE ID: avatar_m_shirt_sustainability2021_00_bundle_icon
+TEXT: サスティナビリティウィーク　Tシャツ
+
 RESOURCE ID: avatar_m_shoes_elesa_00_bundle_icon
 TEXT: カミツレ シューズ
 
@@ -160,12 +172,12 @@ RESOURCE ID: badge_trainers_referred_title
 TEXT: フレンドファインダー
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
-TEXT: <size=36><b>選択されたポケモンのうち{0}匹のみ博士に送ることができます。</b></size>
+TEXT: <size=36><b>選択されたポケモンのうち{0}匹のみ博士に送ることができます</b></size>
 
 送ることができないポケモンはボックスに残ります。送ったポケモンを戻すことはできません。
 
 RESOURCE ID: batch_transfer_eligible_confirm_singular
-TEXT: <size=36><b>選択されたポケモンのうち1匹のみ博士に送ることができます。</b></size>
+TEXT: <size=36><b>選択されたポケモンのうち1匹のみ博士に送ることができます</b></size>
 
 送ることができないポケモンはボックスに残ります。送ったポケモンを戻すことはできません。
 
@@ -224,7 +236,7 @@ RESOURCE ID: egg_transparency_help
 TEXT: リスト上部に表示されるポケモンほど、出会えることが多いポケモンです
 
 RESOURCE ID: encounter_pokemon_box_full_title
-TEXT: ポケモンボックスがいっぱいです！
+TEXT: ポケモンボックスがいっぱいです
 
 RESOURCE ID: error_generate_referral_code_failed
 TEXT: リファラルコードを取得できませんでした
@@ -417,9 +429,9 @@ RESOURCE ID: mega_raid_hour
 TEXT: メガレイドアワー
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-09T22:19:03.116291
-at SHA 222ca89b1c658c00bea8b677321fa141750dc594
-Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a
+TEXT: Built at 2021-04-16T18:43:05.463466
+at SHA 762ab19fc9c7f8b77d61a0f1ebf6aec2202b33e8
+Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573
 
 RESOURCE ID: milestone_rewards_title
 TEXT: マイルストーンリワード
@@ -432,6 +444,12 @@ TEXT: フレンドシップデイチャレンジ
 
 RESOURCE ID: move_name_0343
 TEXT: リーフストーム
+
+RESOURCE ID: no_friend_score_description
+TEXT: 
+
+RESOURCE ID: no_friend_score_description_alt
+TEXT: フレンドにグローバルチャレンジ参加をお願いしよう！
 
 RESOURCE ID: photobomb_five_snivy
 TEXT: GOスナップショットでツタージャのサプライズ5回
@@ -463,215 +481,230 @@ TEXT: 図鑑カテゴリがアンロックされた！
 RESOURCE ID: pokedex_details_purified
 TEXT: ライト:
 
-RESOURCE ID: pokemon_desc_0122_2339
-TEXT: タップダンスが得意。冷気でつくった氷の床を蹴り上げバリヤーのごとく身を　守る。
+RESOURCE ID: pokemon_desc_0263_0946
+TEXT: おちつきなくはしりまわっている。ほかのポケモンをみつけるとわざとぶつかってケンカをうる。
+
+RESOURCE ID: pokemon_desc_0264_0948
+TEXT: ながいしたでえものをちょうはつ。おこったあいてにきょうれつなタックルをおみまいするぞ。
+
+RESOURCE ID: pokemon_desc_0518
+TEXT: おでこからでるゆめのけむりは食べた夢の内容によってさまざまな色に変わるのだ。
 
 RESOURCE ID: pokemon_desc_0650
-TEXT: 普段やわらかい頭のトゲは力をこめると鋭くとがり 岩をもつらぬくほど硬くなる。
+TEXT: 普段　やわらかい　頭の　トゲは力を　こめると　鋭く　とがり岩をも　つらぬくほど　硬くなる。
 
 RESOURCE ID: pokemon_desc_0651
-TEXT: 体を覆う頑丈な殻が敵の攻撃を弾き返し鋭いトゲで反撃する。
+TEXT: 体を　覆う　頑丈な　殻が敵の　攻撃を　弾き返し鋭い　トゲで　反撃する。
 
 RESOURCE ID: pokemon_desc_0652
-TEXT: 体当たりで５０トンの戦車をひっくり返すパワー。自分が盾となって仲間を守る。
+TEXT: 体当たりで　５０トンの　戦車をひっくり返す　パワー。自分が　盾となって　仲間を　守る。
 
 RESOURCE ID: pokemon_desc_0653
-TEXT: 小枝を食べると元気になって摂氏２００度を超える熱気を大きな耳から噴き出す。
+TEXT: 小枝を　食べると　元気になって摂氏２００度を　超える　熱気を大きな　耳から　噴き出す。
 
 RESOURCE ID: pokemon_desc_0654
-TEXT: 木の枝を尻尾に挿している。尻尾の毛の摩擦熱で枝に火をつけて戦う。
+TEXT: 木の枝を　尻尾に　挿している。尻尾の　毛の　摩擦熱で枝に　火をつけて　戦う。
 
 RESOURCE ID: pokemon_desc_0655
-TEXT: 杖の先端で燃える炎を見つめて精神統一すると未来の出来事を見通せる。
+TEXT: 杖の　先端で　燃える　炎を　見つめて精神統一すると未来の　出来事を　見通せる。
 
 RESOURCE ID: pokemon_desc_0656
-TEXT: 胸と背中から泡を出す。弾力のある泡で攻撃を受け止めてダメージを減らす。
+TEXT: 胸と　背中から　泡を　出す。弾力のある　泡で　攻撃を　受け止めてダメージを　減らす。
 
 RESOURCE ID: pokemon_desc_0657
-TEXT: 泡で包んだ小石を投げる技を使う。３０メートル先の空き缶に当てるコントロール。
+TEXT: 泡で　包んだ　小石を　投げる技を　使う。３０メートル　先の空き缶に　当てる　コントロール。
 
 RESOURCE ID: pokemon_desc_0658
-TEXT: 水を圧縮して手裏剣を作り出す。高速回転させて飛ばすと金属も真っ二つ。
+TEXT: 水を　圧縮して　手裏剣を　作り出す。高速回転させて　飛ばすと金属も　真っ二つ。
 
 RESOURCE ID: pokemon_desc_0659
-TEXT: 大きな耳で地面を掘って巣穴を作る。一晩中休まずに掘り続けられる。
+TEXT: 大きな　耳で　地面を　掘って巣穴を　作る。一晩中　休まずに　掘り続けられる。
 
 RESOURCE ID: pokemon_desc_0660
-TEXT: 大きな耳は１トンを超える 岩を楽に持ち上げるパワー。工事現場で大活躍する。
+TEXT: 大きな　耳は　１トンを　超える 岩を楽に　持ち上げる　パワー。工事現場で　大活躍する。
+
+RESOURCE ID: pokemon_desc_0661
+TEXT: 人懐っこい　性格。美しい　さえずりと尾羽を　振る　動きで仲間に　合図を　送る。
 
 RESOURCE ID: pokemon_desc_0662
-TEXT: 火の粉をクチバシから飛ばして草むらを焦がし驚いて飛び出した獲物を捕まえる。
+TEXT: 火の粉を　クチバシから　飛ばして草むらを　焦がし　驚いて飛び出した　獲物を　捕まえる。
+
+RESOURCE ID: pokemon_desc_0663
+TEXT: 激しい　戦いで　興奮すると全身の　羽毛の　すきまから火の粉を　噴き出して　飛行する。
 
 RESOURCE ID: pokemon_desc_0664
-TEXT: とりポケモンに襲われると黒い粉をまき散らす。触れるとマヒする毒の粉だ。
+TEXT: とりポケモンに　襲われると黒い　粉を　まき散らす。触れると　マヒする　毒の粉だ。
 
 RESOURCE ID: pokemon_desc_0665
-TEXT: しげみの陰に隠れて暮らす。敵に襲われると体の毛を鋭く逆立てて威嚇する。
+TEXT: しげみの　陰に　隠れて　暮らす。敵に　襲われると　体の　毛を鋭く　逆立てて　威嚇する。
 
 RESOURCE ID: pokemon_desc_0666
-TEXT: 世界にはさまざまな羽模様のビビヨンがいる。住んでいる土地の気候が影響しているようだ。
+TEXT: 世界には　さまざまな　羽模様のビビヨンがいる。住んでいる　土地の気候が　影響しているようだ。
 
 RESOURCE ID: pokemon_desc_0667
-TEXT: 強い相手に立ち向かうときほどたてがみが高温になり全身に力がみなぎるのだ。
+TEXT: 強い　相手に　立ち向かうときほどたてがみが　高温になり全身に　力が　みなぎるのだ。
 
 RESOURCE ID: pokemon_desc_0668
-TEXT: 群れの中で一番大きな炎のたてがみを持つオスがリーダーとして仲間を率いる。
+TEXT: 群れの　中で　一番　大きな　炎のたてがみを　持つ　オスがリーダーとして　仲間を　率いる。
 
 RESOURCE ID: pokemon_desc_0669
-TEXT: 花の秘めた力を引き出して自在に操る。フラベベが持つ花はもはや体の一部だ。
+TEXT: 花の　秘めた　力を　引き出して自在に　操る。フラベベが　持つ　花はもはや　体の　一部だ。
 
 RESOURCE ID: pokemon_desc_0670
-TEXT: 花畑を飛び回り枯れかけた花を世話する。花の秘められた力を引き出して戦う。
+TEXT: 花畑を　飛び回り　枯れかけた　花を世話する。花の　秘められた　力を引き出して　戦う。
 
 RESOURCE ID: pokemon_desc_0671
-TEXT: テリトリーは見事な花園。草花の放つエネルギーを浴びて自分のパワーにするのだ。
+TEXT: テリトリーは　見事な　花園。草花の　放つ　エネルギーを　浴びて自分の　パワーにするのだ。
 
 RESOURCE ID: pokemon_desc_0672
-TEXT: 人と暮らすようになった最初のポケモンと言われる。穏やかな性格のポケモン。
+TEXT: 人と　暮らすようになった最初の　ポケモンと　言われる。穏やかな　性格の　ポケモン。
 
 RESOURCE ID: pokemon_desc_0673
-TEXT: ツノを握るわずかな違いからトレーナーの気持ち読み取るので一体となって走れるのだ。
+TEXT: ツノを　握る　わずかな　違いからトレーナーの　気持ちを　読み取るので一体となって　走れるのだ。
 
 RESOURCE ID: pokemon_desc_0674
-TEXT: 敵になめられないようがんばってにらみつけるが効果は薄い。くわえた葉っぱがトレードマーク。
+TEXT: 敵に　なめられないよう　がんばってにらみつけるが　効果は　薄い。くわえた　葉っぱが　トレードマーク。
 
 RESOURCE ID: pokemon_desc_0675
-TEXT: 気性が荒くケンカっ早いが弱いものいじめは許さない。葉っぱで敵の動きを読む。
+TEXT: 気性が　荒く　ケンカっ早いが弱いものいじめは　許さない。葉っぱで　敵の　動きを　読む。
+
+RESOURCE ID: pokemon_desc_0676
+TEXT: ボサボサの　体毛を　刈りこむと姿が　美しくなる　だけでなく身体の　キレが　良くなるのだ。
 
 RESOURCE ID: pokemon_desc_0677
-TEXT: 強力なサイコパワーが漏れ出さないように放出する器官を耳でふさいでいるのだ。
+TEXT: 強力な　サイコパワーが漏れ出さないように　放出する　器官を耳で　ふさいでいるのだ。
 
 RESOURCE ID: pokemon_desc_0678
-TEXT: 危険が迫ると耳を持ち上げ１０トントラックをひねりつぶすサイコパワーを解放する。
+TEXT: 危険が　迫ると　耳を　持ち上げ１０トン　トラックを　ひねりつぶすサイコパワーを　解放する。
 
 RESOURCE ID: pokemon_desc_0679
-TEXT: 死者の魂が古代の剣に宿って生まれたらしい。人にとりつき命を吸う。
+TEXT: 死者の　魂が　古代の　剣に宿って　生まれたらしい。人に　とりつき　命を　吸う。
 
 RESOURCE ID: pokemon_desc_0680
-TEXT: 進化して２本に分裂した。テレパシーで会話して連係攻撃で敵を切り刻む。
+TEXT: 進化して　２本に　分裂した。テレパシーで　会話して連係攻撃で　敵を　切り刻む。
 
 RESOURCE ID: pokemon_desc_0681
-TEXT: 歴代の王が連れていた。霊力で人やポケモンの心を操り従わせる。
+TEXT: 歴代の　王が　連れていた。霊力で　人や　ポケモンの心を　操り　従わせる。
 
 RESOURCE ID: pokemon_desc_0682
-TEXT: かいだ者をうっとりさせる香りを体から漂わせる。食べたもので香りが変わる。
+TEXT: かいだ　者を　うっとりさせる香りを　体から　漂わせる。食べた　もので　香りが　変わる。
 
 RESOURCE ID: pokemon_desc_0683
-TEXT: さまざまなにおいを作り出す。相手の嫌がるにおいを出して戦いを有利に進めるのだ。
+TEXT: さまざまな　においを　作り出す。相手の　嫌がる　においを　出して戦いを　有利に　進めるのだ。
 
 RESOURCE ID: pokemon_desc_0684
-TEXT: わたあめのような甘くてベタつく白い糸を出して相手を絡め取り動きを封じる。
+TEXT: わたあめのような　甘くて　ベタつく白い　糸を　出して相手を　絡め取り　動きを　封じる。
 
 RESOURCE ID: pokemon_desc_0685
-TEXT: わずかなにおいでもかぎわける 敏感なきゅうかくを活かしてパティシエの手伝いをしている。
+TEXT: わずかな　においでも　かぎわける敏感な　きゅうかくを　活かしてパティシエの　手伝いを　している。
 
 RESOURCE ID: pokemon_desc_0686
-TEXT: 発光体の点滅を見つめた相手は 目がくらみ戦う気持ちがなくなってしまうのだ。
+TEXT: 発光体の　点滅を　見つめた　相手は目が　くらみ　戦う　気持ちがなくなってしまうのだ。
 
 RESOURCE ID: pokemon_desc_0687
-TEXT: ポケモンで一番強力な催眠術を使う。相手を意のままに操ってしまうのだ。
+TEXT: ポケモンで　一番　強力な催眠術を　使う。相手を　意のままに操ってしまうのだ。
 
 RESOURCE ID: pokemon_desc_0688
-TEXT: ２匹のカメテテがひとつの岩で暮らす。ケンカするとどちらかが他の岩に移る。
+TEXT: ２匹の　カメテテが　ひとつの　岩で暮らす。ケンカすると　どちらかが他の　岩に　移る。
 
 RESOURCE ID: pokemon_desc_0689
-TEXT: 進化のとき２匹のカメテテが７匹に分裂したポケモン。７匹分のパワーで戦う。
+TEXT: 進化のとき　２匹の　カメテテが７匹に　分裂した　ポケモン。７匹分の　パワーで　戦う。
 
 RESOURCE ID: pokemon_desc_0690
-TEXT: 腐った海藻に擬態する。気づかずに近寄ってきた獲物に毒液を浴びせてしとめる。
+TEXT: 腐った　海藻に　擬態する。気づかずに　近寄ってきた　獲物に毒液を　浴びせて　しとめる。
 
 RESOURCE ID: pokemon_desc_0691
-TEXT: タンカーの船体を腐らせる猛毒を縄張りに入りこんだものに見境なく吐きかける。
+TEXT: タンカーの　船体を　腐らせる　猛毒を縄張りに　入りこんだ　ものに見境なく　吐きかける。
 
 RESOURCE ID: pokemon_desc_0692
-TEXT: 大きなハサミから圧縮した水をピストルのように撃ち出し飛んでいる獲物を撃ち落とす。
+TEXT: 大きな　ハサミから　圧縮した　水をピストルのように　撃ち出し飛んでいる　獲物を　撃ち落とす。
 
 RESOURCE ID: pokemon_desc_0693
-TEXT: 水の砲弾を発射する巨大な腕を持つ。タンカーの船体を撃ち抜くぞ。
+TEXT: 水の　砲弾を　発射する巨大な　腕を　持つ。タンカーの　船体を　撃ち抜くぞ。
 
 RESOURCE ID: pokemon_desc_0694
-TEXT: 砂漠で生活する。太陽の光を浴びて発電すればエサを食べなくても平気なのだ。
+TEXT: 砂漠で　生活する。太陽の　光を　浴びて　発電すればエサを　食べなくても　平気なのだ。
 
 RESOURCE ID: pokemon_desc_0695
-TEXT: エリマキを広げて発電する。エレザード１匹で高層ビルで必要な電気を作れるのだ。
+TEXT: エリマキを　広げて　発電する。エレザード　１匹で　高層ビルで必要な　電気を　作れるのだ。
 
 RESOURCE ID: pokemon_desc_0696
-TEXT: 化石から復活したポケモン。気に入らないことがあるとかんしゃくを起こして大暴れ。
+TEXT: 化石から　復活した　ポケモン。気に入らない　ことが　あるとかんしゃくを　起こして　大暴れ。
 
 RESOURCE ID: pokemon_desc_0697
-TEXT: 分厚い鉄板を紙のようにかみちぎるおおあごで古代の世界では無敵を誇った。
+TEXT: 分厚い　鉄板を　紙のようにかみちぎる　おおあごで　古代の世界では　無敵を　誇った。
 
 RESOURCE ID: pokemon_desc_0698
-TEXT: １億年前から氷漬けになっていた体の一部から復活した古代のポケモン。
+TEXT: １億年前から　氷漬けに　なっていた体の　一部から　復活した古代の　ポケモン。
 
 RESOURCE ID: pokemon_desc_0699
-TEXT: マイナス１５０度の冷気をひし形の結晶から出して敵を包み氷漬けにする。
+TEXT: マイナス１５０度の　冷気をひし形の　結晶から　出して敵を　包み　氷漬けにする。
 
 RESOURCE ID: pokemon_desc_0700
-TEXT: リボンのような触角から気持ちを和らげる波動を送りこみ 戦いをやめさせる。
+TEXT: リボンのような　触角から気持ちを　和らげる　波動を　送りこみ戦いを　やめさせる。
 
 RESOURCE ID: pokemon_desc_0701
-TEXT: 体格は小柄だがカイリキーやハリテヤマなど大きなポケモンと互角に戦うテクニシャン。
+TEXT: 体格は　小柄だが　カイリキーやハリテヤマなど　大きな　ポケモンと互角に　戦う　テクニシャン。
 
 RESOURCE ID: pokemon_desc_0702
-TEXT: ヒゲがアンテナの役割。電波を送受信して遠くの仲間と連絡を取り合うのだ。
+TEXT: ヒゲが　アンテナの　役割。電波を　送受信して　遠くの　仲間と連絡を　取り合うのだ。
 
 RESOURCE ID: pokemon_desc_0703
-TEXT: 地下深くの高温高圧な環境で生まれた。頭の石からエネルギーを放つ。
+TEXT: 地下深くの　高温　高圧な環境で　生まれた。頭の　石から　エネルギーを　放つ。
 
 RESOURCE ID: pokemon_desc_0704
-TEXT: 一番弱いドラゴンポケモン。ヌメヌメの体が乾かないようジメジメした日陰で暮らす。
+TEXT: 一番　弱い　ドラゴンポケモン。ヌメヌメの　体が　乾かないようジメジメした　日陰で　暮らす。
 
 RESOURCE ID: pokemon_desc_0705
-TEXT: なんでも溶かしてしまう粘液を分泌して敵を撃退する。目玉は退化して見えていない。
+TEXT: なんでも　溶かしてしまう　粘液を分泌して　敵を　撃退する。目玉は　退化して　見えていない。
 
 RESOURCE ID: pokemon_desc_0706
-TEXT: 人懐っこいドラゴンポケモン。大好きなトレーナーに抱き着いて粘液でヌルヌルにしてしまう。
+TEXT: 人懐っこい　ドラゴンポケモン。大好きな　トレーナーに　抱き着いて粘液で　ヌルヌルにしてしまう。
 
 RESOURCE ID: pokemon_desc_0707
-TEXT: カギを集める習性。敵に襲われるとジャラジャラとカギを打ち鳴らして威嚇する。
+TEXT: カギを　集める　習性。敵に　襲われると　ジャラジャラとカギを　打ち鳴らして　威嚇する。
+
+RESOURCE ID: pokemon_desc_0708
+TEXT: 腐った　切り株に　魂が　宿りポケモンに　なった。人の　寄りつかない　森に　住む。
 
 RESOURCE ID: pokemon_desc_0709
-TEXT: ほかの木々を自在に操る。森を荒らす人間は死ぬまで森から出られないようにするのだ。
+TEXT: ほかの　木々を　自在に　操る。森を　荒らす　人間は　死ぬまで森から　出られないようにするのだ。
 
 RESOURCE ID: pokemon_desc_0710
-TEXT: 成仏できない魂をカボチャの体に入れている。日暮れとともに動きはじめる。
+TEXT: 成仏できない　魂をカボチャの　体に　入れている。日暮れと　ともに　動きはじめる。
 
 RESOURCE ID: pokemon_desc_0711
-TEXT: 新月の夜に不気味な声で歌いながら街中をさまよう。その歌を聞くとのろわれる。
+TEXT: 新月の　夜に　不気味な　声で歌いながら　街中を　さまよう。その歌を　聞くと　のろわれる。
 
 RESOURCE ID: pokemon_desc_0712
-TEXT: 体を覆う氷が敵の攻撃を防ぐ。割られても冷気ですぐに氷を張る。
+TEXT: 体を　覆う　氷が敵の　攻撃を　防ぐ。割られても冷気で　すぐに　氷を　張る。
 
 RESOURCE ID: pokemon_desc_0713
-TEXT: 凍りついた体は鋼鉄のように硬い。立ちふさがるものを巨体で押しつぶし移動する。
+TEXT: 凍りついた　体は　鋼鉄のように硬い。立ちふさがる　ものを巨体で　押しつぶし　移動する。
 
 RESOURCE ID: pokemon_desc_0714
-TEXT: 真っ暗な洞窟で暮らす。２０万ヘルツの超音波を大きな耳から発射する。
+TEXT: 真っ暗な　洞窟で　暮らす。２０万ヘルツの　超音波を大きな　耳から　発射する。
 
 RESOURCE ID: pokemon_desc_0715
-TEXT: 月明かりすらない闇夜を飛び油断している獲物を襲う。暗闇の戦いでは無敵だ。
+TEXT: 月明かりすら　ない　闇夜を　飛び油断している　獲物を　襲う。暗闇の　戦いでは　無敵だ。
 
 RESOURCE ID: pokemon_desc_0716
-TEXT: 永遠の命を分け与えると言われている。樹木の姿で１０００年眠り復活する。
+TEXT: 永遠の　命を　分け与えると言われている。樹木の　姿で１０００年　眠り　復活する。
 
 RESOURCE ID: pokemon_desc_0717
-TEXT: 翼と尾羽を広げて赤く輝くとき生き物の命を吸い取る伝説のポケモン。
+TEXT: 翼と　尾羽を　広げて　赤く　輝くとき生き物の　命を　吸い取る伝説の　ポケモン。
 
 RESOURCE ID: pokemon_desc_0718
-TEXT: カロス地方の生態系が崩れると姿を現して秘めた力を発揮するらしい。
+TEXT: カロス地方の　生態系が　崩れると姿を　現して秘めた　力を　発揮するらしい。
 
 RESOURCE ID: pokemon_desc_0719
-TEXT: メレシーの突然変異。ピンク色に輝く体は世界一美しいと言われる。
+TEXT: メレシーの　突然変異。ピンク色に　輝く　体は世界一　美しいと　言われる。
 
 RESOURCE ID: pokemon_desc_0720
-TEXT: 真の姿は巨大な力を持っている。財宝欲しさにそれが隠された城ごと引き抜き奪い去ったという伝説がある。
+TEXT: 真の姿は　巨大な　力を　持っている。財宝　欲しさに　それが　隠された　城ごと引き抜き　奪い去った　という　伝説が　ある。
 
 RESOURCE ID: pokemon_desc_0721
-TEXT: 水蒸気を噴き出して自分の姿を濃霧で隠す。人の立ち入らない山に住むという。
-
-RESOURCE ID: pokemon_desc_0866
-TEXT: タップダンスの達人。氷でできたステッキを振り軽やかなステップを披露する。
+TEXT: 水蒸気を　噴き出して　自分の　姿を濃霧で　隠す。人の　立ち入らない山に　住むという。
 
 RESOURCE ID: pokemon_info_caught_quest_referral
 TEXT: リファラルマイルストーンを達成して捕まえた
@@ -681,6 +714,9 @@ TEXT: 送ることができるポケモンは含まれていません
 
 RESOURCE ID: pokemon_info_none_transferable
 TEXT: すべて送ることができないポケモンです
+
+RESOURCE ID: pokemon_info_not_transferable
+TEXT: 送ることができないポケモンが含まれています
 
 RESOURCE ID: quest_catch_trubbish_plural
 TEXT: ヤブクロンを{0}匹捕まえる
@@ -723,6 +759,9 @@ TEXT: あくタイプの野生ポケモンのGOスナップショット写真を
 
 RESOURCE ID: quest_snapshot_wild_dragon
 TEXT: ドラゴンタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
+TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
 
 RESOURCE ID: quest_snapshot_wild_electric
 TEXT: でんきタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
@@ -775,11 +814,17 @@ TEXT: エスパータイプの野生ポケモンのGOスナップショット写
 RESOURCE ID: quest_snapshot_wild_rock
 TEXT: いわタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
+RESOURCE ID: quest_snapshot_wild_singular
+TEXT: Take a snapshot of a wild Pokémon
+
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
 TEXT: 野生のエアームド、ドードリオか、マンタインのGOスナップショット写真を撮る
 
 RESOURCE ID: quest_snapshot_wild_steel
 TEXT: はがねタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
+TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
 
 RESOURCE ID: quest_snapshot_wild_water
 TEXT: みずタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
@@ -1241,6 +1286,9 @@ TEXT: 天と地の神話
 RESOURCE ID: settings_go_to_support|a
 TEXT: ヘルプ＆お問い合わせ
 
+RESOURCE ID: settings_sound_effects_alt
+TEXT: 効果音
+
 RESOURCE ID: share_my_referral_code_message
 TEXT: わたしのコード{0}を使用してPokémon GOを開始または再開するとモンスターボール100個がもらえるほか、スペシャルボーナスも用意されています。{1}
 
@@ -1330,6 +1378,12 @@ TEXT: このギフトを受け取っても、プレイヤーの個人情報が�
 
 RESOURCE ID: ticket_snivy
 TEXT: スペシャルリサーチのチケットがショップに登場
+
+RESOURCE ID: timed_challenge_bonus_modal_description
+TEXT: 全世界のトレーナーが一丸となって完了を目指すチャレンジです！
+
+RESOURCE ID: timed_challenge_bonus_modal_description_alt
+TEXT: グローバルチャレンジに参加するトレーナーの成果によってゴールが達成されると、一定の期間有効なボーナスが発生します。
 
 RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Wi-Fi 接続推奨
