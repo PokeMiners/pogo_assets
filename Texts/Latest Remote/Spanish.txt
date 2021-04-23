@@ -139,6 +139,15 @@ TEXT: Calzado estilo Camila
 RESOURCE ID: avatar_m_shoes_megalopunnyitems_00_bundle_icon
 TEXT: Zapatillas de Mega-Lopunny
 
+RESOURCE ID: badge_pokestops_scanned
+TEXT: Scan {0} Pokéstop and Gym.
+
+RESOURCE ID: badge_pokestops_scanned_singular
+TEXT: Scan 1 Pokéstop or Gym.
+
+RESOURCE ID: badge_pokestops_scanned_title
+TEXT: Scanner
+
 RESOURCE ID: badge_trainers_referred
 TEXT: Invita a {0} Entrenadores
 
@@ -195,7 +204,7 @@ RESOURCE ID: buddy_feature_name
 TEXT: Aventuras con tu compañero
 
 RESOURCE ID: buddy_tutorial_basic_content_p4
-TEXT: Combatir en Gimnasios, en incursiones, contra otros Entrenadores, o contra el Team GO Rocket con tu compañero en tu equipo de combate fortalecerá vuestro vínculo, y podrías recibir un corazón.
+TEXT: Combatir en Gimnasios, en incursiones, contra otros Entrenadores o contra el Team GO Rocket con tu compañero en tu equipo de combate fortalecerá vuestro vínculo, y podrías recibir un corazón.
 
 RESOURCE ID: charge_up_event_name
 TEXT: Recárgate
@@ -358,6 +367,12 @@ TEXT: Un Módulo Cebo mojado que atrae Pokémon durante 30 minutos, especialment
 RESOURCE ID: item_troy_disk_rainy_name
 TEXT: Módulo Cebo Lluvioso
 
+RESOURCE ID: luminous_x_event_name
+TEXT: Luminous Legends X
+
+RESOURCE ID: luminous_y_event_name
+TEXT: Luminous Legends Y
+
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: Pose de Camila
 
@@ -371,8 +386,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: Hora de Megaincursiones
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-16T18:43:05.463466
-at SHA 762ab19fc9c7f8b77d61a0f1ebf6aec2202b33e8
+TEXT: Built at 2021-04-23T00:10:25.402134
+at SHA 45e6e1af94b8d574464e87633b29a6edc8b36d3b
 Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573
 
 RESOURCE ID: milestone_rewards_title
@@ -391,7 +406,7 @@ RESOURCE ID: no_friend_score_description
 TEXT: 
 
 RESOURCE ID: no_friend_score_description_alt
-TEXT: Tell your friends to join you in the global challenge!
+TEXT: ¡Invita a tus amigos a participar contigo en el desafío global!
 
 RESOURCE ID: photobomb_five_snivy
 TEXT: 5 encuentros sorpresa con Snivy al usar Instantánea de GO
@@ -616,7 +631,7 @@ RESOURCE ID: quest_complete_rockethq8
 TEXT: Cuanto más alto vuelan...
 
 RESOURCE ID: quest_complete_snivt
-TEXT: Snivy in the Sunshine
+TEXT: Snivy bajo el sol
 
 RESOURCE ID: quest_flett_catch_b
 TEXT: Captura {0} Fletchling
@@ -648,52 +663,49 @@ TEXT: Consigue 1 instantánea de Thundurus
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: Consigue 1 instantánea de Tornadus
 
-RESOURCE ID: quest_snapshot_wild
-TEXT: Consigue {0} instantáneas de Pokémon en estado salvaje
-
-RESOURCE ID: quest_snapshot_wild_bug
+RESOURCE ID: quest_snapshot_wild_bug_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Bicho en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_dark
+RESOURCE ID: quest_snapshot_wild_dark_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Siniestro en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_dragon
+RESOURCE ID: quest_snapshot_wild_dragon_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Dragón en estado salvaje
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
-TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
+TEXT: Consigue una instantánea de Chinchou, Finneon o Ducklett en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_electric
+RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Eléctrico en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_fairy
+RESOURCE ID: quest_snapshot_wild_fairy_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Hada en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_fighting
+RESOURCE ID: quest_snapshot_wild_fighting_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Lucha en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_fire
+RESOURCE ID: quest_snapshot_wild_fire_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Fuego en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_flying
+RESOURCE ID: quest_snapshot_wild_flying_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Volador en estado salvaje
 
 RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
 TEXT: Consigue una instantánea de Sandshrew, Geodude o Cacnea en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_ghost
+RESOURCE ID: quest_snapshot_wild_ghost_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Fantasma en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_grass
+RESOURCE ID: quest_snapshot_wild_grass_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Planta en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_ground
+RESOURCE ID: quest_snapshot_wild_ground_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Tierra en estado salvaje
 
 RESOURCE ID: quest_snapshot_wild_hoothoot
 TEXT: Consigue una instantánea de Hoothoot en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_ice
+RESOURCE ID: quest_snapshot_wild_ice_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Hielo en estado salvaje
 
 RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
@@ -702,31 +714,34 @@ TEXT: Consigue una instantánea de Metapod, Aipom o Lotad en estado salvaje
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
 TEXT: Consigue una instantánea de Chinchou, Luvdisc o Finneon en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_normal
+RESOURCE ID: quest_snapshot_wild_normal_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Normal en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_poison
+RESOURCE ID: quest_snapshot_wild_plural
+TEXT: Consigue {0} instantáneas de Pokémon en estado salvaje
+
+RESOURCE ID: quest_snapshot_wild_poison_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Veneno en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_psychic
+RESOURCE ID: quest_snapshot_wild_psychic_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Psíquico en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_rock
+RESOURCE ID: quest_snapshot_wild_rock_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Roca en estado salvaje
 
 RESOURCE ID: quest_snapshot_wild_singular
-TEXT: Take a snapshot of a wild Pokémon
+TEXT: Consigue una instantánea de un Pokémon en estado salvaje
 
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
 TEXT: Consigue una instantánea de Dodrio, Mantine o Skarmory en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_steel
+RESOURCE ID: quest_snapshot_wild_steel_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Acero en estado salvaje
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
-TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
+TEXT: Consigue una instantánea de Sandshrew, Trapinch o Cacnea en estado salvaje
 
-RESOURCE ID: quest_snapshot_wild_water
+RESOURCE ID: quest_snapshot_wild_water_plural
 TEXT: Consigue {0} instantáneas de Pokémon de tipo Agua en estado salvaje
 
 RESOURCE ID: quest_snivt_catch_b
@@ -1071,6 +1086,48 @@ TEXT: El ave más valiente (3/4)
 RESOURCE ID: quest_title_flett_3
 TEXT: El ave más valiente (4/4)
 
+RESOURCE ID: quest_title_luminous_x_0
+TEXT: Luminous Legends X (1/7)
+
+RESOURCE ID: quest_title_luminous_x_1
+TEXT: Luminous Legends X (2/7)
+
+RESOURCE ID: quest_title_luminous_x_2
+TEXT: Luminous Legends X (3/7)
+
+RESOURCE ID: quest_title_luminous_x_3
+TEXT: Luminous Legends X (4/7)
+
+RESOURCE ID: quest_title_luminous_x_4
+TEXT: Luminous Legends X (5/7)
+
+RESOURCE ID: quest_title_luminous_x_5
+TEXT: Luminous Legends X (6/7)
+
+RESOURCE ID: quest_title_luminous_x_6
+TEXT: Luminous Legends X (7/7)
+
+RESOURCE ID: quest_title_luminous_y_0
+TEXT: Luminous Legends Y (1/7)
+
+RESOURCE ID: quest_title_luminous_y_1
+TEXT: Luminous Legends Y (2/7)
+
+RESOURCE ID: quest_title_luminous_y_2
+TEXT: Luminous Legends Y (3/7)
+
+RESOURCE ID: quest_title_luminous_y_3
+TEXT: Luminous Legends Y (4/7)
+
+RESOURCE ID: quest_title_luminous_y_4
+TEXT: Luminous Legends Y (5/7)
+
+RESOURCE ID: quest_title_luminous_y_5
+TEXT: Luminous Legends Y (6/7)
+
+RESOURCE ID: quest_title_luminous_y_6
+TEXT: Luminous Legends Y (7/7)
+
 RESOURCE ID: quest_title_rockethq8
 TEXT: Cuanto más alto vuelan...
 
@@ -1276,7 +1333,7 @@ RESOURCE ID: searching_for_legends_event_name
 TEXT: En Busca de Leyendas
 
 RESOURCE ID: settings_sound_effects_alt
-TEXT: Sound
+TEXT: Sonido
 
 RESOURCE ID: share_my_referral_code_message
 TEXT: Si te unes por primera vez o vuelves a Pokémon GO usando mi código de invitación {0}, conseguirás automáticamente 100 Poké Balls, podrás ganar objetos de bonus especiales y mucho más. {1}
@@ -1285,58 +1342,58 @@ RESOURCE ID: spawn_snivy
 TEXT: Están apareciendo más Snivy en estado salvaje
 
 RESOURCE ID: spawn_wild_bug_types
-TEXT: More Bug-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Bicho en estado salvaje
 
 RESOURCE ID: spawn_wild_dark_types
-TEXT: More Dark-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Siniestro en estado salvaje
 
 RESOURCE ID: spawn_wild_dragon_types
-TEXT: More Dragon-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Dragón en estado salvaje
 
 RESOURCE ID: spawn_wild_electric_types
-TEXT: More Electric-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Eléctrico en estado salvaje
 
 RESOURCE ID: spawn_wild_fairy_types
-TEXT: More Fairy-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Hada en estado salvaje
 
 RESOURCE ID: spawn_wild_fighting_types
-TEXT: More Fighting-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Lucha en estado salvaje
 
 RESOURCE ID: spawn_wild_fire_types
-TEXT: More Fire-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Fuego en estado salvaje
 
 RESOURCE ID: spawn_wild_flying_types
-TEXT: More Flying-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Volador en estado salvaje
 
 RESOURCE ID: spawn_wild_ghost_types
-TEXT: More Ghost-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Fantasma en estado salvaje
 
 RESOURCE ID: spawn_wild_grass_types
 TEXT: Más Pokémon de tipo Planta están apareciendo en estado salvaje
 
 RESOURCE ID: spawn_wild_ground_types
-TEXT: More Ground-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Tierra en estado salvaje
 
 RESOURCE ID: spawn_wild_ice_types
-TEXT: More Ice-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Hielo en estado salvaje
 
 RESOURCE ID: spawn_wild_normal_types
-TEXT: More Normal-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Normal en estado salvaje
 
 RESOURCE ID: spawn_wild_poison_types
-TEXT: More Poison-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Veneno en estado salvaje
 
 RESOURCE ID: spawn_wild_psychic_types
-TEXT: More Psychic-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Psíquico en estado salvaje
 
 RESOURCE ID: spawn_wild_rock_types
-TEXT: More Rock-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Roca en estado salvaje
 
 RESOURCE ID: spawn_wild_steel_types
-TEXT: More Steel-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Acero en estado salvaje
 
 RESOURCE ID: spawn_wild_water_types
-TEXT: More Water-type Pokémon are appearing in the wild
+TEXT: Están apareciendo más Pokémon de tipo Agua en estado salvaje
 
 RESOURCE ID: special_evo_prompt
 TEXT: Evolución especial
@@ -1366,7 +1423,16 @@ RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: Todos los Entrenadores deben trabajar juntos como una comunidad global para completar este desafío.
 
 RESOURCE ID: timed_challenge_bonus_modal_description_alt
-TEXT: All Trainers participating in a global challenge will contribute to a global goal. Once Trainers achieve the goal, a timed bonus will activate for all participants.
+TEXT: Todos los Entrenadores que participen en un desafío global contribuirán a un objetivo global. Una vez que los Entrenadores logren el objetivo, se activará un bonus temporal para todos los participantes.
+
+RESOURCE ID: titan_poi_scan_added
+TEXT: Contribuciones de escaneo adicionales que se añadirán mañana: {0}
+
+RESOURCE ID: titan_poi_scan_available
+TEXT: Contribuciones de escaneo disponibles hoy: {0}
+
+RESOURCE ID: titan_poi_scan_maxed
+TEXT: Has alcanzado el número máximo diario de contribuciones de escaneo: {0}
 
 RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Se recomienda el uso de Wi-Fi
@@ -1388,6 +1454,9 @@ TEXT: Tiempo atmosférico
 
 RESOURCE ID: weather_week_event_name
 TEXT: Semana Meteorológica
+
+RESOURCE ID: xp_bonus_hourly
+TEXT: 20000 PX
 
 RESOURCE ID: you_completed_milestone
 TEXT: ¡Has completado un objetivo! Reclámalo en la página de Entrenador de {0} en el menú de AMIGOS

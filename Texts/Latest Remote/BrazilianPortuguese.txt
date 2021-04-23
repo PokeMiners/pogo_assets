@@ -139,6 +139,15 @@ TEXT: Tênis estilo da Elesa
 RESOURCE ID: avatar_m_shoes_megalopunnyitems_00_bundle_icon
 TEXT: Tênis de Mega Lopunny
 
+RESOURCE ID: badge_pokestops_scanned
+TEXT: Scan {0} Pokéstop and Gym.
+
+RESOURCE ID: badge_pokestops_scanned_singular
+TEXT: Scan 1 Pokéstop or Gym.
+
+RESOURCE ID: badge_pokestops_scanned_title
+TEXT: Scanner
+
 RESOURCE ID: badge_trainers_referred
 TEXT: Indique {0} Treinadores
 
@@ -231,7 +240,7 @@ RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: Evolua Metang para conseguir Metagross que sabe Meteoro Esmagador
 
 RESOURCE ID: event_name_snap
-TEXT: New Pokémon Snap Celebration
+TEXT: Celebração New Pokémon Snap
 
 RESOURCE ID: event_regional_india_holi
 TEXT: Festival das Cores
@@ -357,6 +366,12 @@ TEXT: Um Módulo Atrair molhado que atrai Pokémon por 30 minutos, especialmente
 RESOURCE ID: item_troy_disk_rainy_name
 TEXT: Módulo Atrair Chuvoso
 
+RESOURCE ID: luminous_x_event_name
+TEXT: Luminous Legends X
+
+RESOURCE ID: luminous_y_event_name
+TEXT: Luminous Legends Y
+
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: Pose da Elesa
 
@@ -367,8 +382,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: Hora de Megarreides
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-16T18:43:05.463466
-at SHA 762ab19fc9c7f8b77d61a0f1ebf6aec2202b33e8
+TEXT: Built at 2021-04-23T00:10:25.402134
+at SHA 45e6e1af94b8d574464e87633b29a6edc8b36d3b
 Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573
 
 RESOURCE ID: milestone_rewards_title
@@ -387,7 +402,7 @@ RESOURCE ID: no_friend_score_description
 TEXT: 
 
 RESOURCE ID: no_friend_score_description_alt
-TEXT: Tell your friends to join you in the global challenge!
+TEXT: Convide os seus amigos para participar com você do desafio global!
 
 RESOURCE ID: photobomb_five_fletchling
 TEXT: 5 encontros surpresa com Fletchling ao usar o Retrato GO
@@ -545,52 +560,49 @@ TEXT: Tirar 1 foto de Thundurus.
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: Tirar 1 foto de Tornadus.
 
-RESOURCE ID: quest_snapshot_wild
-TEXT: Take {0} snapshots of wild Pokémon
-
-RESOURCE ID: quest_snapshot_wild_bug
+RESOURCE ID: quest_snapshot_wild_bug_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Inseto.
 
-RESOURCE ID: quest_snapshot_wild_dark
+RESOURCE ID: quest_snapshot_wild_dark_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Sombrio.
 
-RESOURCE ID: quest_snapshot_wild_dragon
+RESOURCE ID: quest_snapshot_wild_dragon_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Dragão.
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
-TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
+TEXT: Tirar 1 foto de Chinchou, Finneon ou Ducklett selvagem.
 
-RESOURCE ID: quest_snapshot_wild_electric
+RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Elétrico.
 
-RESOURCE ID: quest_snapshot_wild_fairy
+RESOURCE ID: quest_snapshot_wild_fairy_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Fada.
 
-RESOURCE ID: quest_snapshot_wild_fighting
+RESOURCE ID: quest_snapshot_wild_fighting_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Lutador.
 
-RESOURCE ID: quest_snapshot_wild_fire
+RESOURCE ID: quest_snapshot_wild_fire_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Fogo.
 
-RESOURCE ID: quest_snapshot_wild_flying
+RESOURCE ID: quest_snapshot_wild_flying_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Voador.
 
 RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
 TEXT: Tirar 1 foto de Sandshrew, Geodude ou Cacnea selvagem.
 
-RESOURCE ID: quest_snapshot_wild_ghost
+RESOURCE ID: quest_snapshot_wild_ghost_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Fantasma.
 
-RESOURCE ID: quest_snapshot_wild_grass
+RESOURCE ID: quest_snapshot_wild_grass_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Planta.
 
-RESOURCE ID: quest_snapshot_wild_ground
+RESOURCE ID: quest_snapshot_wild_ground_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Terrestre.
 
 RESOURCE ID: quest_snapshot_wild_hoothoot
 TEXT: Tirar 1 foto de Hoothoot selvagem.
 
-RESOURCE ID: quest_snapshot_wild_ice
+RESOURCE ID: quest_snapshot_wild_ice_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Gelo.
 
 RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
@@ -599,31 +611,34 @@ TEXT: Tirar 1 foto de Metapod, Aipom ou Lotad selvagem.
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
 TEXT: Tirar 1 foto de Chinchou, Luvdisc ou Finneon selvagem.
 
-RESOURCE ID: quest_snapshot_wild_normal
+RESOURCE ID: quest_snapshot_wild_normal_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Normal.
 
-RESOURCE ID: quest_snapshot_wild_poison
+RESOURCE ID: quest_snapshot_wild_plural
+TEXT: Tirar {0} fotos de Pokémon selvagem.
+
+RESOURCE ID: quest_snapshot_wild_poison_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Venenoso.
 
-RESOURCE ID: quest_snapshot_wild_psychic
+RESOURCE ID: quest_snapshot_wild_psychic_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Psíquico.
 
-RESOURCE ID: quest_snapshot_wild_rock
+RESOURCE ID: quest_snapshot_wild_rock_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Pedra.
 
 RESOURCE ID: quest_snapshot_wild_singular
-TEXT: Take a snapshot of a wild Pokémon
+TEXT: Tirar 1 foto de um Pokémon selvagem.
 
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
 TEXT: Tirar 1 foto de Dodrio, Mantine ou Skarmory selvagem.
 
-RESOURCE ID: quest_snapshot_wild_steel
+RESOURCE ID: quest_snapshot_wild_steel_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Aço.
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
-TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
+TEXT: Tirar 1 foto de Sandshrew, Trapinch ou Cacnea selvagem.
 
-RESOURCE ID: quest_snapshot_wild_water
+RESOURCE ID: quest_snapshot_wild_water_plural
 TEXT: Tirar {0} fotos de Pokémon selvagens de tipo Água.
 
 RESOURCE ID: quest_snivt_catch_b
@@ -968,6 +983,48 @@ TEXT: Passarinho bom de bico (3/4)
 RESOURCE ID: quest_title_flett_3
 TEXT: Passarinho bom de bico (4/4)
 
+RESOURCE ID: quest_title_luminous_x_0
+TEXT: Luminous Legends X (1/7)
+
+RESOURCE ID: quest_title_luminous_x_1
+TEXT: Luminous Legends X (2/7)
+
+RESOURCE ID: quest_title_luminous_x_2
+TEXT: Luminous Legends X (3/7)
+
+RESOURCE ID: quest_title_luminous_x_3
+TEXT: Luminous Legends X (4/7)
+
+RESOURCE ID: quest_title_luminous_x_4
+TEXT: Luminous Legends X (5/7)
+
+RESOURCE ID: quest_title_luminous_x_5
+TEXT: Luminous Legends X (6/7)
+
+RESOURCE ID: quest_title_luminous_x_6
+TEXT: Luminous Legends X (7/7)
+
+RESOURCE ID: quest_title_luminous_y_0
+TEXT: Luminous Legends Y (1/7)
+
+RESOURCE ID: quest_title_luminous_y_1
+TEXT: Luminous Legends Y (2/7)
+
+RESOURCE ID: quest_title_luminous_y_2
+TEXT: Luminous Legends Y (3/7)
+
+RESOURCE ID: quest_title_luminous_y_3
+TEXT: Luminous Legends Y (4/7)
+
+RESOURCE ID: quest_title_luminous_y_4
+TEXT: Luminous Legends Y (5/7)
+
+RESOURCE ID: quest_title_luminous_y_5
+TEXT: Luminous Legends Y (6/7)
+
+RESOURCE ID: quest_title_luminous_y_6
+TEXT: Luminous Legends Y (7/7)
+
 RESOURCE ID: quest_title_rockethq8
 TEXT: Quanto mais alto se voa...
 
@@ -1170,7 +1227,7 @@ RESOURCE ID: searching_for_legends_event_name
 TEXT: Em busca de lendas
 
 RESOURCE ID: settings_sound_effects_alt
-TEXT: Sound
+TEXT: Aúdio
 
 RESOURCE ID: share_my_referral_code_message
 TEXT: Se você começar a jogar ou voltar a se aventurar no Pokémon GO usando meu código de indicação {0}, receberá instantaneamente 100 Poké Bolas, poderá ganhar itens de bônus especiais e muito mais. {1}
@@ -1182,58 +1239,58 @@ RESOURCE ID: spawn_snivy
 TEXT: Snivy estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_bug_types
-TEXT: More Bug-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Inseto estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_dark_types
-TEXT: More Dark-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Sombrio estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_dragon_types
-TEXT: More Dragon-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Dragão estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_electric_types
-TEXT: More Electric-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Elétrico estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_fairy_types
-TEXT: More Fairy-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Fada estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_fighting_types
-TEXT: More Fighting-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Lutador estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_fire_types
-TEXT: More Fire-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Fogo estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_flying_types
-TEXT: More Flying-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Voador estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_ghost_types
-TEXT: More Ghost-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Fantasma estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_grass_types
-TEXT: Pokémon de tipo Planta selvagens estão aparecendo com mais frequência.
+TEXT: Pokémon selvagens de tipo Planta estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_ground_types
-TEXT: More Ground-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Terrestre estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_ice_types
-TEXT: More Ice-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Gelo estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_normal_types
-TEXT: More Normal-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Normal estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_poison_types
-TEXT: More Poison-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Venenoso estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_psychic_types
-TEXT: More Psychic-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Psíquico estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_rock_types
-TEXT: More Rock-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Pedra estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_steel_types
-TEXT: More Steel-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Aço estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_wild_water_types
-TEXT: More Water-type Pokémon are appearing in the wild
+TEXT: Pokémon selvagens de tipo Água estão aparecendo com mais frequência
 
 RESOURCE ID: special_evo_prompt
 TEXT: Evolução especial
@@ -1263,7 +1320,16 @@ RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: Todos os Treinadores devem trabalhar juntos como uma comunidade global para completar este desafio.
 
 RESOURCE ID: timed_challenge_bonus_modal_description_alt
-TEXT: All Trainers participating in a global challenge will contribute to a global goal. Once Trainers achieve the goal, a timed bonus will activate for all participants.
+TEXT: Todos os Treinadores participando de um desafio global contribuirão com o objetivo global. Assim que os Treinadores tiverem completado o objetivo, um bônus limitado será ativado para todos os participantes.
+
+RESOURCE ID: titan_poi_scan_added
+TEXT: Contribuições de scan que serão adicionadas amanhã:
+
+RESOURCE ID: titan_poi_scan_available
+TEXT: Contribuições de scan disponíveis hoje: {0}.
+
+RESOURCE ID: titan_poi_scan_maxed
+TEXT: Você atingiu seu máximo diário de contribuições de scan de {0}.
 
 RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Wi-fi recomendado
@@ -1291,6 +1357,9 @@ TEXT: Clima
 
 RESOURCE ID: weather_week_event_name
 TEXT: Semana climática
+
+RESOURCE ID: xp_bonus_hourly
+TEXT: 20000 PE
 
 RESOURCE ID: you_completed_milestone
 TEXT: Você completou uma conquista! Resgate-a na página de Treinador de {0}, no menu de Amigos.

@@ -157,6 +157,15 @@ TEXT: Mega Lopunny Shoes
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
 TEXT: เสื้อลายมิว (สีแตกต่าง)
 
+RESOURCE ID: badge_pokestops_scanned
+TEXT: Scan {0} Pokéstop and Gym.
+
+RESOURCE ID: badge_pokestops_scanned_singular
+TEXT: Scan 1 Pokéstop or Gym.
+
+RESOURCE ID: badge_pokestops_scanned_title
+TEXT: Scanner
+
 RESOURCE ID: badge_trainers_referred
 TEXT: เชิญเพื่อน {0} คน
 
@@ -202,6 +211,9 @@ TEXT: เลือกโปเกมอนคู่หู แล้วรับ�
 
 RESOURCE ID: buddy_feature_name
 TEXT: การผจญภัยกับคู่หู
+
+RESOURCE ID: buddy_tutorial_basic_content_p4
+TEXT: การตีบอส การแบตเทิลที่ยิม หรือกับผู้เล่นอื่น หรือกับแก๊งโกร็อกเกตในขณะที่คู่หูอยู่ในทีมที่ใช้แบตเทิล จะทำให้สายสัมพันธ์แน่นแฟ้นขึ้นและได้รับหัวใจเพิ่ม
 
 RESOURCE ID: charge_up_event_name
 TEXT: ชาร์จพลัง
@@ -466,6 +478,12 @@ TEXT: อุปกรณ์ปล่อยลัวร์น้ำฝน สา�
 RESOURCE ID: item_troy_disk_rainy_name
 TEXT: อุปกรณ์ปล่อยลัวร์น้ำฝน
 
+RESOURCE ID: luminous_x_event_name
+TEXT: Luminous Legends X
+
+RESOURCE ID: luminous_y_event_name
+TEXT: Luminous Legends Y
+
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: Elesa Pose
 
@@ -572,8 +590,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: ชั่วโมงตีบอสเมก้า
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-16T18:43:05.463466
-at SHA 762ab19fc9c7f8b77d61a0f1ebf6aec2202b33e8
+TEXT: Built at 2021-04-23T00:10:25.402134
+at SHA 45e6e1af94b8d574464e87633b29a6edc8b36d3b
 Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573
 
 RESOURCE ID: milestone_rewards_title
@@ -714,52 +732,49 @@ TEXT: ถ่ายภาพโวลโทลอส
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: ถ่ายภาพทอร์เนลอส
 
-RESOURCE ID: quest_snapshot_wild
-TEXT: ถ่ายภาพโปเกมอนป่า {0} ภาพ
-
-RESOURCE ID: quest_snapshot_wild_bug
+RESOURCE ID: quest_snapshot_wild_bug_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทแมลง {0} ภาพ
 
-RESOURCE ID: quest_snapshot_wild_dark
+RESOURCE ID: quest_snapshot_wild_dark_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทความมืด {0} ภาพ
 
-RESOURCE ID: quest_snapshot_wild_dragon
+RESOURCE ID: quest_snapshot_wild_dragon_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทมังกร {0} ภาพ
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
-TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
+TEXT: ถ่ายภาพโคอารูฮิ ชอนชี หรือเคโคโอที่พบในธรรมชาติ
 
-RESOURCE ID: quest_snapshot_wild_electric
+RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทไฟฟ้า {0} ภาพ
 
-RESOURCE ID: quest_snapshot_wild_fairy
+RESOURCE ID: quest_snapshot_wild_fairy_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทแฟรี่ {0} ภาพ
 
-RESOURCE ID: quest_snapshot_wild_fighting
+RESOURCE ID: quest_snapshot_wild_fighting_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทต่อสู้ {0} ภาพ
 
-RESOURCE ID: quest_snapshot_wild_fire
+RESOURCE ID: quest_snapshot_wild_fire_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทไฟ {0} ภาพ
 
-RESOURCE ID: quest_snapshot_wild_flying
+RESOURCE ID: quest_snapshot_wild_flying_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทบิน {0} ภาพ
 
 RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
 TEXT: ถ่ายภาพแซนด์ อิชิซึบูเตะ หรือซาโบเนียที่พบในธรรมชาติ
 
-RESOURCE ID: quest_snapshot_wild_ghost
+RESOURCE ID: quest_snapshot_wild_ghost_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทผี {0} ภาพ
 
-RESOURCE ID: quest_snapshot_wild_grass
+RESOURCE ID: quest_snapshot_wild_grass_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทหญ้า {0} ภาพ
 
-RESOURCE ID: quest_snapshot_wild_ground
+RESOURCE ID: quest_snapshot_wild_ground_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทดิน {0} ภาพ
 
 RESOURCE ID: quest_snapshot_wild_hoothoot
 TEXT: ถ่ายภาพโฮโฮที่พบในธรรมชาติ
 
-RESOURCE ID: quest_snapshot_wild_ice
+RESOURCE ID: quest_snapshot_wild_ice_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทน้ำแข็ง {0} ภาพ
 
 RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
@@ -768,31 +783,34 @@ TEXT: ถ่ายภาพทรานเซล เอย์แพม หรื
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
 TEXT: ถ่ายภาพชอนชี เลิฟคัส หรือเคโคโอที่พบในธรรมชาติ
 
-RESOURCE ID: quest_snapshot_wild_normal
+RESOURCE ID: quest_snapshot_wild_normal_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทปกติ {0} ภาพ
 
-RESOURCE ID: quest_snapshot_wild_poison
+RESOURCE ID: quest_snapshot_wild_plural
+TEXT: ถ่ายภาพโปเกมอนป่า {0} ภาพ
+
+RESOURCE ID: quest_snapshot_wild_poison_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทพิษ {0} ภาพ
 
-RESOURCE ID: quest_snapshot_wild_psychic
+RESOURCE ID: quest_snapshot_wild_psychic_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทพลังจิต {0} ภาพ
 
-RESOURCE ID: quest_snapshot_wild_rock
+RESOURCE ID: quest_snapshot_wild_rock_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทหิน {0} ภาพ
 
 RESOURCE ID: quest_snapshot_wild_singular
-TEXT: Take a snapshot of a wild Pokémon
+TEXT: ถ่ายภาพโปเกมอนป่า
 
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
 TEXT: ถ่ายภาพโดโดริโอ แมนไทน์ หรือแอร์มุโดที่พบในธรรมชาติ
 
-RESOURCE ID: quest_snapshot_wild_steel
+RESOURCE ID: quest_snapshot_wild_steel_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทโลหะ {0} ภาพ
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
-TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
+TEXT: ถ่ายภาพนัคครา แซนด์ หรือซาโบเนียที่พบในธรรมชาติ
 
-RESOURCE ID: quest_snapshot_wild_water
+RESOURCE ID: quest_snapshot_wild_water_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทน้ำ {0} ภาพ
 
 RESOURCE ID: quest_snivt_catch_b
@@ -1134,6 +1152,48 @@ TEXT: ปักษาใจฉกาจ (3/4)
 RESOURCE ID: quest_title_flett_3
 TEXT: ปักษาใจฉกาจ (4/4)
 
+RESOURCE ID: quest_title_luminous_x_0
+TEXT: Luminous Legends X (1/7)
+
+RESOURCE ID: quest_title_luminous_x_1
+TEXT: Luminous Legends X (2/7)
+
+RESOURCE ID: quest_title_luminous_x_2
+TEXT: Luminous Legends X (3/7)
+
+RESOURCE ID: quest_title_luminous_x_3
+TEXT: Luminous Legends X (4/7)
+
+RESOURCE ID: quest_title_luminous_x_4
+TEXT: Luminous Legends X (5/7)
+
+RESOURCE ID: quest_title_luminous_x_5
+TEXT: Luminous Legends X (6/7)
+
+RESOURCE ID: quest_title_luminous_x_6
+TEXT: Luminous Legends X (7/7)
+
+RESOURCE ID: quest_title_luminous_y_0
+TEXT: Luminous Legends Y (1/7)
+
+RESOURCE ID: quest_title_luminous_y_1
+TEXT: Luminous Legends Y (2/7)
+
+RESOURCE ID: quest_title_luminous_y_2
+TEXT: Luminous Legends Y (3/7)
+
+RESOURCE ID: quest_title_luminous_y_3
+TEXT: Luminous Legends Y (4/7)
+
+RESOURCE ID: quest_title_luminous_y_4
+TEXT: Luminous Legends Y (5/7)
+
+RESOURCE ID: quest_title_luminous_y_5
+TEXT: Luminous Legends Y (6/7)
+
+RESOURCE ID: quest_title_luminous_y_6
+TEXT: Luminous Legends Y (7/7)
+
 RESOURCE ID: quest_title_rockethq8
 TEXT: ยิ่งทะยานสูง...
 
@@ -1446,6 +1506,15 @@ TEXT: เทรนเนอร์ทุกคนจะต้องทำงา�
 RESOURCE ID: timed_challenge_bonus_modal_description_alt
 TEXT: All Trainers participating in a global challenge will contribute to a global goal. Once Trainers achieve the goal, a timed bonus will activate for all participants.
 
+RESOURCE ID: titan_poi_scan_added
+TEXT: {0} more scanning contribution(s) will be added tomorrow.
+
+RESOURCE ID: titan_poi_scan_available
+TEXT: You have {0} scanning contribution(s) available today.
+
+RESOURCE ID: titan_poi_scan_maxed
+TEXT: You have reached your max daily scanning contribution(s) of {0}.
+
 RESOURCE ID: titan_upload_wifi_recommended
 TEXT: แนะนำให้ใช้ Wi-Fi
 
@@ -1472,6 +1541,9 @@ TEXT: สภาพอากาศ
 
 RESOURCE ID: weather_week_event_name
 TEXT: สัปดาห์สภาพอากาศ
+
+RESOURCE ID: xp_bonus_hourly
+TEXT: 20000 XP
 
 RESOURCE ID: you_completed_milestone
 TEXT: คุณทำภารกิจสำเร็จแล้ว! ไปรับรางวัลที่หน้าเทรนเนอร์ของ {0} ในหน้าเมนูเพื่อน

@@ -172,6 +172,15 @@ TEXT: scarpe MegaLopunny
 RESOURCE ID: avatar_m_shoes_swshdlc2costume_00_bundle_icon
 TEXT: Scarpe Landa Corona
 
+RESOURCE ID: badge_pokestops_scanned
+TEXT: Scan {0} Pokéstop and Gym.
+
+RESOURCE ID: badge_pokestops_scanned_singular
+TEXT: Scan 1 Pokéstop or Gym.
+
+RESOURCE ID: badge_pokestops_scanned_title
+TEXT: Scanner
+
 RESOURCE ID: badge_trainers_referred
 TEXT: Invita {0} Allenatori
 
@@ -391,6 +400,12 @@ TEXT: Modulo esca pluviale
 RESOURCE ID: jessie_james_boosted_encounter
 TEXT: La Mongolfiera di Meowth con Jessie e James è in giro
 
+RESOURCE ID: luminous_x_event_name
+TEXT: Luminous Legends X
+
+RESOURCE ID: luminous_y_event_name
+TEXT: Luminous Legends Y
+
 RESOURCE ID: m_avatar_poses_bundle_pose_09
 TEXT: Poké Ball pronta
 
@@ -407,8 +422,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: ora dei megaraid
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-16T18:43:05.463466
-at SHA 762ab19fc9c7f8b77d61a0f1ebf6aec2202b33e8
+TEXT: Built at 2021-04-23T00:10:25.402134
+at SHA 45e6e1af94b8d574464e87633b29a6edc8b36d3b
 Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573
 
 RESOURCE ID: milestone_rewards_title
@@ -519,53 +534,50 @@ TEXT: Fai una foto a Thundurus
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: Fai una foto a Tornadus
 
-RESOURCE ID: quest_snapshot_wild
-TEXT: Fai {0} foto a dei Pokémon allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_bug_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Coleottero
 
-RESOURCE ID: quest_snapshot_wild_bug
-TEXT: Fai {0} foto ai Pokémon di tipo Coleottero allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_dark_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Buio
 
-RESOURCE ID: quest_snapshot_wild_dark
-TEXT: Fai {0} foto ai Pokémon di tipo Buio allo stato selvatico
-
-RESOURCE ID: quest_snapshot_wild_dragon
-TEXT: Fai {0} foto a dei Pokémon di tipo Drago allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_dragon_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Drago
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
-TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
+TEXT: Fai una foto a Chinchou, Finneon o Ducklett allo stato selvatico
 
-RESOURCE ID: quest_snapshot_wild_electric
-TEXT: Fai {0} foto ai Pokémon di tipo Elettro allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_electric_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Elettro
 
-RESOURCE ID: quest_snapshot_wild_fairy
-TEXT: Fai {0} foto ai Pokémon di tipo Folletto allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_fairy_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Folletto
 
-RESOURCE ID: quest_snapshot_wild_fighting
-TEXT: Fai {0} foto a dei Pokémon di tipo Lotta allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_fighting_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Lotta
 
-RESOURCE ID: quest_snapshot_wild_fire
-TEXT: Fai {0} foto ai Pokémon di tipo Fuoco allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_fire_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Fuoco
 
-RESOURCE ID: quest_snapshot_wild_flying
-TEXT: Fai {0} foto ai Pokémon di tipo Volante allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_flying_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Volante
 
 RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
 TEXT: Fai una foto a Sandshrew, Geodude o Cacnea allo stato selvatico
 
-RESOURCE ID: quest_snapshot_wild_ghost
-TEXT: Fai {0} foto a dei Pokémon di tipo Spettro allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_ghost_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Spettro
 
-RESOURCE ID: quest_snapshot_wild_grass
-TEXT: Fai {0} foto ai Pokémon di tipo Erba allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_grass_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Erba
 
-RESOURCE ID: quest_snapshot_wild_ground
-TEXT: Fai {0} foto ai Pokémon di tipo Terra allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_ground_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Terra
 
 RESOURCE ID: quest_snapshot_wild_hoothoot
 TEXT: Fai una foto a Hoothoot allo stato selvatico
 
-RESOURCE ID: quest_snapshot_wild_ice
-TEXT: Fai {0} foto ai Pokémon di tipo Ghiaccio allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_ice_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Ghiaccio
 
 RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
 TEXT: Fai una foto a Metapod, Aipom o Lotad allo stato selvatico
@@ -573,32 +585,35 @@ TEXT: Fai una foto a Metapod, Aipom o Lotad allo stato selvatico
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
 TEXT: Fai una foto a Chinchou, Luvdisc o Finneon allo stato selvatico
 
-RESOURCE ID: quest_snapshot_wild_normal
-TEXT: Fai {0} foto ai Pokémon di tipo Normale allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_normal_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Normale
 
-RESOURCE ID: quest_snapshot_wild_poison
-TEXT: Fai {0} foto ai Pokémon di tipo Veleno allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_plural
+TEXT: Fai {0} foto ai Pokémon allo stato selvatico
 
-RESOURCE ID: quest_snapshot_wild_psychic
-TEXT: Fai {0} foto ai Pokémon di tipo Psico allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_poison_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Veleno
 
-RESOURCE ID: quest_snapshot_wild_rock
-TEXT: Fai {0} foto ai Pokémon di tipo Roccia allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_psychic_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Psico
+
+RESOURCE ID: quest_snapshot_wild_rock_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Roccia
 
 RESOURCE ID: quest_snapshot_wild_singular
-TEXT: Take a snapshot of a wild Pokémon
+TEXT: Fai una foto a un Pokémon allo stato selvatico
 
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
 TEXT: Fai una foto a Dodrio, Mantine o Skarmory allo stato selvatico
 
-RESOURCE ID: quest_snapshot_wild_steel
-TEXT: Fai {0} foto ai Pokémon di tipo Acciaio allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_steel_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Acciaio
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
-TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
+TEXT: Fai una foto a Sandshrew, Trapinch o Cacnea allo stato selvatico
 
-RESOURCE ID: quest_snapshot_wild_water
-TEXT: Fai {0} foto ai Pokémon di tipo Acqua allo stato selvatico
+RESOURCE ID: quest_snapshot_wild_water_plural
+TEXT: Fai {0} foto ai Pokémon selvatici di tipo Acqua
 
 RESOURCE ID: quest_snivt_catch_b
 TEXT: Cattura {0} Snivy
@@ -942,6 +957,48 @@ TEXT: Un coraggioso volatile (3/4)
 RESOURCE ID: quest_title_flett_3
 TEXT: Un coraggioso volatile (4/4)
 
+RESOURCE ID: quest_title_luminous_x_0
+TEXT: Luminous Legends X (1/7)
+
+RESOURCE ID: quest_title_luminous_x_1
+TEXT: Luminous Legends X (2/7)
+
+RESOURCE ID: quest_title_luminous_x_2
+TEXT: Luminous Legends X (3/7)
+
+RESOURCE ID: quest_title_luminous_x_3
+TEXT: Luminous Legends X (4/7)
+
+RESOURCE ID: quest_title_luminous_x_4
+TEXT: Luminous Legends X (5/7)
+
+RESOURCE ID: quest_title_luminous_x_5
+TEXT: Luminous Legends X (6/7)
+
+RESOURCE ID: quest_title_luminous_x_6
+TEXT: Luminous Legends X (7/7)
+
+RESOURCE ID: quest_title_luminous_y_0
+TEXT: Luminous Legends Y (1/7)
+
+RESOURCE ID: quest_title_luminous_y_1
+TEXT: Luminous Legends Y (2/7)
+
+RESOURCE ID: quest_title_luminous_y_2
+TEXT: Luminous Legends Y (3/7)
+
+RESOURCE ID: quest_title_luminous_y_3
+TEXT: Luminous Legends Y (4/7)
+
+RESOURCE ID: quest_title_luminous_y_4
+TEXT: Luminous Legends Y (5/7)
+
+RESOURCE ID: quest_title_luminous_y_5
+TEXT: Luminous Legends Y (6/7)
+
+RESOURCE ID: quest_title_luminous_y_6
+TEXT: Luminous Legends Y (7/7)
+
 RESOURCE ID: quest_title_rockethq8
 TEXT: Grossi guai ad alta quota
 
@@ -1192,58 +1249,58 @@ RESOURCE ID: spawn_weedle
 TEXT: Più Weedle stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_bug_types
-TEXT: More Bug-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Coleottero stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_dark_types
-TEXT: More Dark-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Buio stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_dragon_types
-TEXT: More Dragon-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Drago stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_electric_types
-TEXT: More Electric-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Elettro stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_fairy_types
-TEXT: More Fairy-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Folletto stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_fighting_types
-TEXT: More Fighting-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Lotta stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_fire_types
-TEXT: More Fire-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Fuoco stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_flying_types
-TEXT: More Flying-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Volante stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_ghost_types
-TEXT: More Ghost-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Spettro stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_grass_types
 TEXT: Più Pokémon di tipo Erba stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_ground_types
-TEXT: More Ground-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Terra stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_ice_types
-TEXT: More Ice-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Ghiaccio stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_normal_types
-TEXT: More Normal-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Normale stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_poison_types
-TEXT: More Poison-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Veleno stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_psychic_types
-TEXT: More Psychic-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Psico stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_rock_types
-TEXT: More Rock-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Roccia stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_steel_types
-TEXT: More Steel-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Acciaio stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wild_water_types
-TEXT: More Water-type Pokémon are appearing in the wild
+TEXT: Più Pokémon di tipo Acqua stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_wooper
 TEXT: Più Wooper stanno apparendo allo stato selvatico
@@ -1290,6 +1347,15 @@ TEXT: Tutti gli Allenatori devono collaborare come una community per completare 
 RESOURCE ID: timed_challenge_bonus_modal_description_alt
 TEXT: All Trainers participating in a global challenge will contribute to a global goal. Once Trainers achieve the goal, a timed bonus will activate for all participants.
 
+RESOURCE ID: titan_poi_scan_added
+TEXT: {0} more scanning contribution(s) will be added tomorrow.
+
+RESOURCE ID: titan_poi_scan_available
+TEXT: You have {0} scanning contribution(s) available today.
+
+RESOURCE ID: titan_poi_scan_maxed
+TEXT: You have reached your max daily scanning contribution(s) of {0}.
+
 RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Si consiglia l’utilizzo del Wi-Fi
 
@@ -1331,6 +1397,9 @@ TEXT: Condizioni atmosferiche
 
 RESOURCE ID: weather_week_event_name
 TEXT: Settimana del clima
+
+RESOURCE ID: xp_bonus_hourly
+TEXT: 20000 PE
 
 RESOURCE ID: you_completed_milestone
 TEXT: Hai completato un obiettivo! Riscatta la tua ricompensa dalla pagina Allenatore di {0} nel menu amici.

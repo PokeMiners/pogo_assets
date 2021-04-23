@@ -154,6 +154,15 @@ TEXT: 메가이어롭 스니커
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
 TEXT: 색이 다른 뮤 티셔츠
 
+RESOURCE ID: badge_pokestops_scanned
+TEXT: Scan {0} Pokéstop and Gym.
+
+RESOURCE ID: badge_pokestops_scanned_singular
+TEXT: Scan 1 Pokéstop or Gym.
+
+RESOURCE ID: badge_pokestops_scanned_title
+TEXT: Scanner
+
 RESOURCE ID: badge_trainers_referred
 TEXT: 트레이너 {0}명에게 모험을 권유했다
 
@@ -205,6 +214,9 @@ TEXT: 포켓몬을 파트너 포켓몬으로 두면 유대감이 깊어져 보�
 
 RESOURCE ID: buddy_feature_name
 TEXT: 파트너 포켓몬과 모험
+
+RESOURCE ID: buddy_tutorial_basic_content_p4
+TEXT: 파트너 포켓몬을 파티에 넣어서 체육관 배틀, 레이드배틀, 트레이너 대전, GO로켓단 대전을 하면 유대감이 깊어져 하트가 늘어납니다.
 
 RESOURCE ID: candy_exchange_button
 TEXT: 교환
@@ -574,6 +586,12 @@ TEXT: 포켓스톱에 사용하면 30분 동안 물을 뿜어내 특정 포켓�
 RESOURCE ID: item_troy_disk_rainy_name
 TEXT: 레이니 루어모듈
 
+RESOURCE ID: luminous_x_event_name
+TEXT: Luminous Legends X
+
+RESOURCE ID: luminous_y_event_name
+TEXT: Luminous Legends Y
+
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: 카밀레
 
@@ -683,8 +701,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: 메가 레이드 아워
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-16T18:43:05.463466
-at SHA 762ab19fc9c7f8b77d61a0f1ebf6aec2202b33e8
+TEXT: Built at 2021-04-23T00:10:25.402134
+at SHA 45e6e1af94b8d574464e87633b29a6edc8b36d3b
 Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573
 
 RESOURCE ID: milestone_rewards_title
@@ -969,52 +987,49 @@ TEXT: 볼트로스의 GO스냅샷 사진을 찍는다
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: 토네로스의 GO스냅샷 사진을 찍는다
 
-RESOURCE ID: quest_snapshot_wild
-TEXT: 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
-
-RESOURCE ID: quest_snapshot_wild_bug
+RESOURCE ID: quest_snapshot_wild_bug_plural
 TEXT: 벌레타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
-RESOURCE ID: quest_snapshot_wild_dark
+RESOURCE ID: quest_snapshot_wild_dark_plural
 TEXT: 악타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
-RESOURCE ID: quest_snapshot_wild_dragon
+RESOURCE ID: quest_snapshot_wild_dragon_plural
 TEXT: 드래곤타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
-TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
+TEXT: 야생 꼬지보리 또는 초라기 또는 형광어의 GO스냅샷을 찍는다
 
-RESOURCE ID: quest_snapshot_wild_electric
+RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: 전기타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
-RESOURCE ID: quest_snapshot_wild_fairy
+RESOURCE ID: quest_snapshot_wild_fairy_plural
 TEXT: 페어리타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
-RESOURCE ID: quest_snapshot_wild_fighting
+RESOURCE ID: quest_snapshot_wild_fighting_plural
 TEXT: 격투타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
-RESOURCE ID: quest_snapshot_wild_fire
+RESOURCE ID: quest_snapshot_wild_fire_plural
 TEXT: 불꽃타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
-RESOURCE ID: quest_snapshot_wild_flying
+RESOURCE ID: quest_snapshot_wild_flying_plural
 TEXT: 비행타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
 TEXT: 야생 꼬마돌 또는 모래두지 또는 선인왕의 GO스냅샷을 찍는다
 
-RESOURCE ID: quest_snapshot_wild_ghost
+RESOURCE ID: quest_snapshot_wild_ghost_plural
 TEXT: 고스트타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
-RESOURCE ID: quest_snapshot_wild_grass
+RESOURCE ID: quest_snapshot_wild_grass_plural
 TEXT: 풀타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
-RESOURCE ID: quest_snapshot_wild_ground
+RESOURCE ID: quest_snapshot_wild_ground_plural
 TEXT: 땅타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_hoothoot
 TEXT: 야생 부우부의 GO스냅샷을 찍는다
 
-RESOURCE ID: quest_snapshot_wild_ice
+RESOURCE ID: quest_snapshot_wild_ice_plural
 TEXT: 얼음타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
@@ -1023,31 +1038,34 @@ TEXT: 야생 연꽃몬 또는 단데기 또는 에이팜의 GO스냅샷을 찍�
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
 TEXT: 야생 사랑동이 또는 초라기 또는 형광어의 GO스냅샷을 찍는다
 
-RESOURCE ID: quest_snapshot_wild_normal
+RESOURCE ID: quest_snapshot_wild_normal_plural
 TEXT: 노말타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
-RESOURCE ID: quest_snapshot_wild_poison
+RESOURCE ID: quest_snapshot_wild_plural
+TEXT: 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_poison_plural
 TEXT: 독타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
-RESOURCE ID: quest_snapshot_wild_psychic
+RESOURCE ID: quest_snapshot_wild_psychic_plural
 TEXT: 에스퍼타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
-RESOURCE ID: quest_snapshot_wild_rock
+RESOURCE ID: quest_snapshot_wild_rock_plural
 TEXT: 바위타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_singular
-TEXT: Take a snapshot of a wild Pokémon
+TEXT: 야생 포켓몬의 GO스냅샷을 1장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
 TEXT: 야생 무장조 또는 두트리오 또는 만타인의 GO스냅샷을 찍는다
 
-RESOURCE ID: quest_snapshot_wild_steel
+RESOURCE ID: quest_snapshot_wild_steel_plural
 TEXT: 강철타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
-TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
+TEXT: 야생 톱치 또는 모래두지 또는 선인왕의 GO스냅샷을 찍는다
 
-RESOURCE ID: quest_snapshot_wild_water
+RESOURCE ID: quest_snapshot_wild_water_plural
 TEXT: 물타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snivt_catch_b
@@ -1392,6 +1410,48 @@ TEXT: 울새포켓몬의 수수께끼를 풀어라!(3/4)
 RESOURCE ID: quest_title_flett_3
 TEXT: 울새포켓몬의 수수께끼를 풀어라!(4/4)
 
+RESOURCE ID: quest_title_luminous_x_0
+TEXT: Luminous Legends X (1/7)
+
+RESOURCE ID: quest_title_luminous_x_1
+TEXT: Luminous Legends X (2/7)
+
+RESOURCE ID: quest_title_luminous_x_2
+TEXT: Luminous Legends X (3/7)
+
+RESOURCE ID: quest_title_luminous_x_3
+TEXT: Luminous Legends X (4/7)
+
+RESOURCE ID: quest_title_luminous_x_4
+TEXT: Luminous Legends X (5/7)
+
+RESOURCE ID: quest_title_luminous_x_5
+TEXT: Luminous Legends X (6/7)
+
+RESOURCE ID: quest_title_luminous_x_6
+TEXT: Luminous Legends X (7/7)
+
+RESOURCE ID: quest_title_luminous_y_0
+TEXT: Luminous Legends Y (1/7)
+
+RESOURCE ID: quest_title_luminous_y_1
+TEXT: Luminous Legends Y (2/7)
+
+RESOURCE ID: quest_title_luminous_y_2
+TEXT: Luminous Legends Y (3/7)
+
+RESOURCE ID: quest_title_luminous_y_3
+TEXT: Luminous Legends Y (4/7)
+
+RESOURCE ID: quest_title_luminous_y_4
+TEXT: Luminous Legends Y (5/7)
+
+RESOURCE ID: quest_title_luminous_y_5
+TEXT: Luminous Legends Y (6/7)
+
+RESOURCE ID: quest_title_luminous_y_6
+TEXT: Luminous Legends Y (7/7)
+
 RESOURCE ID: quest_title_rockethq8
 TEXT: 악의 조직에 맞서라7
 
@@ -1713,6 +1773,15 @@ TEXT: 전 세계 트레이너가 하나가 되어 완료하는 챌린지입니�
 RESOURCE ID: timed_challenge_bonus_modal_description_alt
 TEXT: All Trainers participating in a global challenge will contribute to a global goal. Once Trainers achieve the goal, a timed bonus will activate for all participants.
 
+RESOURCE ID: titan_poi_scan_added
+TEXT: {0} more scanning contribution(s) will be added tomorrow.
+
+RESOURCE ID: titan_poi_scan_available
+TEXT: You have {0} scanning contribution(s) available today.
+
+RESOURCE ID: titan_poi_scan_maxed
+TEXT: You have reached your max daily scanning contribution(s) of {0}.
+
 RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Wi-Fi 사용 권장
 
@@ -1736,6 +1805,9 @@ TEXT: 날씨
 
 RESOURCE ID: weather_week_event_name
 TEXT: 웨더 위크
+
+RESOURCE ID: xp_bonus_hourly
+TEXT: 20000 XP
 
 RESOURCE ID: you_completed_milestone
 TEXT: 마일스톤을 달성했습니다! 프렌드 탭에서 {0}님의 화면을 열고 리워드를 받아 주세요.

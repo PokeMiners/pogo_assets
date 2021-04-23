@@ -105,7 +105,8 @@ RESOURCE ID: avatar_f_shirt_spring2021plusle_00_bundle_icon
 TEXT: コンビネゾン　マイナン
 
 RESOURCE ID: avatar_f_shirt_sustainability2021_00_bundle_icon
-TEXT: サスティナビリティウィーク　Tシャツ
+TEXT: サスティナビリティウィーク
+Tシャツ
 
 RESOURCE ID: avatar_f_shoes_elesa_00_bundle_icon
 TEXT: カミツレ シューズ
@@ -147,7 +148,8 @@ RESOURCE ID: avatar_m_shirt_spring2021plusle_00_bundle_icon
 TEXT: スプリングニットセット　マイナン
 
 RESOURCE ID: avatar_m_shirt_sustainability2021_00_bundle_icon
-TEXT: サスティナビリティウィーク　Tシャツ
+TEXT: サスティナビリティウィーク
+Tシャツ
 
 RESOURCE ID: avatar_m_shoes_elesa_00_bundle_icon
 TEXT: カミツレ シューズ
@@ -161,6 +163,15 @@ TEXT: ミュウ(色違い)Tシャツ
 RESOURCE ID: award_badge_rank_up
 TEXT: 仲間チームのジムにして
 バッジランクを上げよう
+
+RESOURCE ID: badge_pokestops_scanned
+TEXT: Scan {0} Pokéstop and Gym.
+
+RESOURCE ID: badge_pokestops_scanned_singular
+TEXT: Scan 1 Pokéstop or Gym.
+
+RESOURCE ID: badge_pokestops_scanned_title
+TEXT: Scanner
 
 RESOURCE ID: badge_trainers_referred
 TEXT: トレーナー{0}人を冒険に誘った！
@@ -207,6 +218,9 @@ TEXT: ポケモンを選び相棒にすると、絆が深まるにつれて、�
 
 RESOURCE ID: buddy_feature_name
 TEXT: 相棒と一緒に冒険
+
+RESOURCE ID: buddy_tutorial_basic_content_p4
+TEXT: 相棒のポケモンをバトルパーティに含めて、ジムバトル、レイドバトル、トレーナーもしくはGOロケット団対戦を行うと、絆が深まりハートが増えます。
 
 RESOURCE ID: charge_up_event_name
 TEXT: チャージ完了！
@@ -368,6 +382,12 @@ TEXT: ポケストップへ使うと、30分間水を出して雨が好きなポ
 RESOURCE ID: item_troy_disk_rainy_name
 TEXT: レイニールアー
 
+RESOURCE ID: luminous_x_event_name
+TEXT: Luminous Legends X
+
+RESOURCE ID: luminous_y_event_name
+TEXT: Luminous Legends Y
+
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: カミツレ
 
@@ -429,8 +449,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: メガレイドアワー
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-16T18:43:05.463466
-at SHA 762ab19fc9c7f8b77d61a0f1ebf6aec2202b33e8
+TEXT: Built at 2021-04-23T00:10:25.402134
+at SHA 45e6e1af94b8d574464e87633b29a6edc8b36d3b
 Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573
 
 RESOURCE ID: milestone_rewards_title
@@ -748,52 +768,49 @@ TEXT: ボルトロスのGOスナップショット写真を撮る
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: トルネロスのGOスナップショット写真を撮る
 
-RESOURCE ID: quest_snapshot_wild
-TEXT: 野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_bug
+RESOURCE ID: quest_snapshot_wild_bug_plural
 TEXT: むしタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
-RESOURCE ID: quest_snapshot_wild_dark
+RESOURCE ID: quest_snapshot_wild_dark_plural
 TEXT: あくタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
-RESOURCE ID: quest_snapshot_wild_dragon
+RESOURCE ID: quest_snapshot_wild_dragon_plural
 TEXT: ドラゴンタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
-TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
+TEXT: 野生のコアルヒー、チョンチーか、ケイコウオのGOスナップショット写真を撮る
 
-RESOURCE ID: quest_snapshot_wild_electric
+RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: でんきタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
-RESOURCE ID: quest_snapshot_wild_fairy
+RESOURCE ID: quest_snapshot_wild_fairy_plural
 TEXT: フェアリータイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
-RESOURCE ID: quest_snapshot_wild_fighting
+RESOURCE ID: quest_snapshot_wild_fighting_plural
 TEXT: かくとうタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
-RESOURCE ID: quest_snapshot_wild_fire
+RESOURCE ID: quest_snapshot_wild_fire_plural
 TEXT: ほのおタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
-RESOURCE ID: quest_snapshot_wild_flying
+RESOURCE ID: quest_snapshot_wild_flying_plural
 TEXT: ひこうタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
 RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
-TEXT: 野生のイシツブテ、サンドか、サボネアのGOスナップショット写真を撮る
+TEXT: 野生のサンド、イシツブテか、サボネアのGOスナップショット写真を撮る
 
-RESOURCE ID: quest_snapshot_wild_ghost
+RESOURCE ID: quest_snapshot_wild_ghost_plural
 TEXT: ゴーストタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
-RESOURCE ID: quest_snapshot_wild_grass
+RESOURCE ID: quest_snapshot_wild_grass_plural
 TEXT: くさタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
-RESOURCE ID: quest_snapshot_wild_ground
+RESOURCE ID: quest_snapshot_wild_ground_plural
 TEXT: じめんタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
 RESOURCE ID: quest_snapshot_wild_hoothoot
 TEXT: 野生のホーホーのGOスナップショット写真を撮る
 
-RESOURCE ID: quest_snapshot_wild_ice
+RESOURCE ID: quest_snapshot_wild_ice_plural
 TEXT: こおりタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
 RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
@@ -802,31 +819,34 @@ TEXT: 野生のハスボー、トランセルか、エイパムのGOスナップ
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
 TEXT: 野生のラブカス、チョンチーか、ケイコウオのGOスナップショット写真を撮る
 
-RESOURCE ID: quest_snapshot_wild_normal
+RESOURCE ID: quest_snapshot_wild_normal_plural
 TEXT: ノーマルタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
-RESOURCE ID: quest_snapshot_wild_poison
+RESOURCE ID: quest_snapshot_wild_plural
+TEXT: 野生ポケモンのGOスナップショット写真を撮る
+
+RESOURCE ID: quest_snapshot_wild_poison_plural
 TEXT: どくタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
-RESOURCE ID: quest_snapshot_wild_psychic
+RESOURCE ID: quest_snapshot_wild_psychic_plural
 TEXT: エスパータイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
-RESOURCE ID: quest_snapshot_wild_rock
+RESOURCE ID: quest_snapshot_wild_rock_plural
 TEXT: いわタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
 RESOURCE ID: quest_snapshot_wild_singular
-TEXT: Take a snapshot of a wild Pokémon
+TEXT: 野生ポケモンのGOスナップショット写真を撮る
 
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
 TEXT: 野生のエアームド、ドードリオか、マンタインのGOスナップショット写真を撮る
 
-RESOURCE ID: quest_snapshot_wild_steel
+RESOURCE ID: quest_snapshot_wild_steel_plural
 TEXT: はがねタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
-TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
+TEXT: 野生のナックラー、サンドか、サボネアのGOスナップショット写真を撮る
 
-RESOURCE ID: quest_snapshot_wild_water
+RESOURCE ID: quest_snapshot_wild_water_plural
 TEXT: みずタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
 RESOURCE ID: quest_snivt_catch_b
@@ -1074,6 +1094,48 @@ TEXT: 協力に感謝する！わたしも急いでレポートをまとめて�
 
 RESOURCE ID: quest_special_dialogue_snivt_3_4
 TEXT: では、また会おう。それまで元気にGOだ！
+
+RESOURCE ID: quest_title_luminous_x_0
+TEXT: Luminous Legends X (1/7)
+
+RESOURCE ID: quest_title_luminous_x_1
+TEXT: Luminous Legends X (2/7)
+
+RESOURCE ID: quest_title_luminous_x_2
+TEXT: Luminous Legends X (3/7)
+
+RESOURCE ID: quest_title_luminous_x_3
+TEXT: Luminous Legends X (4/7)
+
+RESOURCE ID: quest_title_luminous_x_4
+TEXT: Luminous Legends X (5/7)
+
+RESOURCE ID: quest_title_luminous_x_5
+TEXT: Luminous Legends X (6/7)
+
+RESOURCE ID: quest_title_luminous_x_6
+TEXT: Luminous Legends X (7/7)
+
+RESOURCE ID: quest_title_luminous_y_0
+TEXT: Luminous Legends Y (1/7)
+
+RESOURCE ID: quest_title_luminous_y_1
+TEXT: Luminous Legends Y (2/7)
+
+RESOURCE ID: quest_title_luminous_y_2
+TEXT: Luminous Legends Y (3/7)
+
+RESOURCE ID: quest_title_luminous_y_3
+TEXT: Luminous Legends Y (4/7)
+
+RESOURCE ID: quest_title_luminous_y_4
+TEXT: Luminous Legends Y (5/7)
+
+RESOURCE ID: quest_title_luminous_y_5
+TEXT: Luminous Legends Y (6/7)
+
+RESOURCE ID: quest_title_luminous_y_6
+TEXT: Luminous Legends Y (7/7)
 
 RESOURCE ID: quest_title_rockethq8
 TEXT: 悪の組織に立ち向かえ7
@@ -1385,6 +1447,15 @@ TEXT: 全世界のトレーナーが一丸となって完了を目指すチャ�
 RESOURCE ID: timed_challenge_bonus_modal_description_alt
 TEXT: グローバルチャレンジに参加するトレーナーの成果によってゴールが達成されると、一定の期間有効なボーナスが発生します。
 
+RESOURCE ID: titan_poi_scan_added
+TEXT: {0} more scanning contribution(s) will be added tomorrow.
+
+RESOURCE ID: titan_poi_scan_available
+TEXT: You have {0} scanning contribution(s) available today.
+
+RESOURCE ID: titan_poi_scan_maxed
+TEXT: You have reached your max daily scanning contribution(s) of {0}.
+
 RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Wi-Fi 接続推奨
 
@@ -1409,6 +1480,9 @@ TEXT: 天候
 
 RESOURCE ID: weather_week_event_name
 TEXT: ウェザーウィーク
+
+RESOURCE ID: xp_bonus_hourly
+TEXT: 20000 XP
 
 RESOURCE ID: you_completed_milestone
 TEXT: マイルストーンを達成しました！フレンドタブから、{0}さんの画面を開いてリワードを受け取りましょう。

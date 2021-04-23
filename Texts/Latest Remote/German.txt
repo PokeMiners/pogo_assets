@@ -142,6 +142,15 @@ TEXT: Schuhe im Stil von Kamilla
 RESOURCE ID: avatar_m_shoes_megalopunnyitems_00_bundle_icon
 TEXT: Mega-Schlapor-Schuhe
 
+RESOURCE ID: badge_pokestops_scanned
+TEXT: Scan {0} Pokéstop and Gym.
+
+RESOURCE ID: badge_pokestops_scanned_singular
+TEXT: Scan 1 Pokéstop or Gym.
+
+RESOURCE ID: badge_pokestops_scanned_title
+TEXT: Scanner
+
 RESOURCE ID: badge_trainers_referred
 TEXT: Empfehle {0} Trainer
 
@@ -189,7 +198,7 @@ RESOURCE ID: buddy_feature_name
 TEXT: Kumpel-Abenteuer
 
 RESOURCE ID: buddy_tutorial_basic_content_p4
-TEXT: Wenn du deinen Kumpel als einer deiner Kampfpartner in Arenen, Raids, Trainerkämpfen oder gegen Team GO Rocket verwendest, wird eure Bindung gestärkt und du kannst ein Herz verdienen
+TEXT: Wenn du mit deinem Kumpel im Kampfteam in Arenen, Raids, Trainerkämpfen oder gegen Team GO Rocket kämpfst, stärkt es eure Bindung und du kannst ein Herz verdienen.
 
 RESOURCE ID: charge_up_event_name
 TEXT: Elektrotastisch
@@ -234,7 +243,7 @@ RESOURCE ID: event_move_metagross_meteor_mash
 TEXT: Entwickle Metang, um ein Metagross zu erhalten, das Sternenhieb beherrscht.
 
 RESOURCE ID: event_name_snap
-TEXT: Feier zum Erscheinen von New Pokémon Snap
+TEXT: New Pokémon Snap Feier
 
 RESOURCE ID: event_regional_india_holi
 TEXT: Farbfestival
@@ -365,6 +374,12 @@ TEXT: Dieses feuchte Lockmodul lockt 30 Minuten lang Pokémon an, besonders solc
 RESOURCE ID: item_troy_disk_rainy_name
 TEXT: Regen-Lockmodul
 
+RESOURCE ID: luminous_x_event_name
+TEXT: Luminous Legends X
+
+RESOURCE ID: luminous_y_event_name
+TEXT: Luminous Legends Y
+
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: Kamilla-Pose
 
@@ -375,8 +390,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: Mega-Raid-Stunde
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-16T18:43:05.463466
-at SHA 762ab19fc9c7f8b77d61a0f1ebf6aec2202b33e8
+TEXT: Built at 2021-04-23T00:10:25.402134
+at SHA 45e6e1af94b8d574464e87633b29a6edc8b36d3b
 Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573
 
 RESOURCE ID: milestone_rewards_title
@@ -395,7 +410,7 @@ RESOURCE ID: no_friend_score_description
 TEXT: 
 
 RESOURCE ID: no_friend_score_description_alt
-TEXT: Tell your friends to join you in the global challenge!
+TEXT: Sag deinen Freunden, dass sie an der globalen Herausforderung teilnehmen sollen!
 
 RESOURCE ID: photobomb_five_fletchling
 TEXT: 5 überraschende Begegnungen mit Dartiri in GO-Schnappschuss
@@ -435,6 +450,9 @@ TEXT: Das Leben bei einem kriegerischen Seefahrervolk hat es stärker gemacht. M
 
 RESOURCE ID: pokemon_desc_0083_2338
 TEXT: Dies ist die in Galar ansässige Form von Porenta. Dieser tapfere Krieger schwingt im Kampf eine dicke, robuste Lauchstange.
+
+RESOURCE ID: pokemon_desc_0693
+TEXT: Aus seinen gewaltigen Scheren feuert es mächtige Wassergeschosse ab, die selbst den Rumpf eines Tankschiffes durchdringen.
 
 RESOURCE ID: pokemon_desc_0865
 TEXT: Porenta, die viele Schlachten überstanden haben, entwickeln sich zu Lauchzelot. Verwelkt seine Lauchstange, zieht es sich vom Kämpfen zurück.
@@ -547,23 +565,11 @@ TEXT: Mega-Knakrack
 RESOURCE ID: pokemon_name_0448_0001
 TEXT: Mega-Lucario
 
-RESOURCE ID: pokemon_name_0456
-TEXT: Écayon
-
-RESOURCE ID: pokemon_name_0457
-TEXT: Luminéon
-
 RESOURCE ID: pokemon_name_0460_0001
 TEXT: Mega-Rexblisar
 
-RESOURCE ID: pokemon_name_0462
-TEXT: Magnézone
-
 RESOURCE ID: pokemon_name_0475_0001
 TEXT: Mega-Galagladi
-
-RESOURCE ID: pokemon_name_0479
-TEXT: Motisma
 
 RESOURCE ID: pokemon_name_0531_0001
 TEXT: Mega-Ohrdoch
@@ -613,52 +619,49 @@ TEXT: Mache einen Schnappschuss von Voltolos.
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: Mache einen Schnappschuss von Boreos.
 
-RESOURCE ID: quest_snapshot_wild
-TEXT: Mache {0} Schnappschüsse von Pokémon im Freien.
-
-RESOURCE ID: quest_snapshot_wild_bug
+RESOURCE ID: quest_snapshot_wild_bug_plural
 TEXT: Mache {0} Schnappschüsse von Käfer-Pokémon im Freien.
 
-RESOURCE ID: quest_snapshot_wild_dark
+RESOURCE ID: quest_snapshot_wild_dark_plural
 TEXT: Mache {0} Schnappschüsse von Unlicht-Pokémon im Freien.
 
-RESOURCE ID: quest_snapshot_wild_dragon
+RESOURCE ID: quest_snapshot_wild_dragon_plural
 TEXT: Mache {0} Schnappschüsse von Drachen-Pokémon im Freien.
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
-TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
+TEXT: Mache einen Schnappschuss von Lampi, Finneon oder Piccolente im Freien.
 
-RESOURCE ID: quest_snapshot_wild_electric
+RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: Mache {0} Schnappschüsse von Elektro-Pokémon im Freien.
 
-RESOURCE ID: quest_snapshot_wild_fairy
+RESOURCE ID: quest_snapshot_wild_fairy_plural
 TEXT: Mache {0} Schnappschüsse von Feen-Pokémon im Freien.
 
-RESOURCE ID: quest_snapshot_wild_fighting
+RESOURCE ID: quest_snapshot_wild_fighting_plural
 TEXT: Mache {0} Schnappschüsse von Kampf-Pokémon im Freien.
 
-RESOURCE ID: quest_snapshot_wild_fire
+RESOURCE ID: quest_snapshot_wild_fire_plural
 TEXT: Mache {0} Schnappschüsse von Feuer-Pokémon im Freien.
 
-RESOURCE ID: quest_snapshot_wild_flying
+RESOURCE ID: quest_snapshot_wild_flying_plural
 TEXT: Mache {0} Schnappschüsse von Flug-Pokémon im Freien.
 
 RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
 TEXT: Mache einen Schnappschuss von Sandan, Kleinstein oder Tuska im Freien.
 
-RESOURCE ID: quest_snapshot_wild_ghost
+RESOURCE ID: quest_snapshot_wild_ghost_plural
 TEXT: Mache {0} Schnappschüsse von Geister-Pokémon im Freien.
 
-RESOURCE ID: quest_snapshot_wild_grass
+RESOURCE ID: quest_snapshot_wild_grass_plural
 TEXT: Mache {0} Schnappschüsse von Pflanzen-Pokémon im Freien.
 
-RESOURCE ID: quest_snapshot_wild_ground
+RESOURCE ID: quest_snapshot_wild_ground_plural
 TEXT: Mache {0} Schnappschüsse von Boden-Pokémon im Freien.
 
 RESOURCE ID: quest_snapshot_wild_hoothoot
 TEXT: Mache einen Schnappschuss von Hoothoot im Freien.
 
-RESOURCE ID: quest_snapshot_wild_ice
+RESOURCE ID: quest_snapshot_wild_ice_plural
 TEXT: Mache {0} Schnappschüsse von Eis-Pokémon im Freien.
 
 RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
@@ -667,31 +670,34 @@ TEXT: Mache einen Schnappschuss von Safcon, Griffel oder Loturzel im Freien.
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
 TEXT: Mache einen Schnappschuss von Lampi, Liebiskus oder Finneon im Freien.
 
-RESOURCE ID: quest_snapshot_wild_normal
+RESOURCE ID: quest_snapshot_wild_normal_plural
 TEXT: Mache {0} Schnappschüsse von Normal-Pokémon im Freien.
 
-RESOURCE ID: quest_snapshot_wild_poison
+RESOURCE ID: quest_snapshot_wild_plural
+TEXT: Mache {0} Schnappschüsse von Pokémon im Freien.
+
+RESOURCE ID: quest_snapshot_wild_poison_plural
 TEXT: Mache {0} Schnappschüsse von Gift-Pokémon im Freien.
 
-RESOURCE ID: quest_snapshot_wild_psychic
+RESOURCE ID: quest_snapshot_wild_psychic_plural
 TEXT: Mache {0} Schnappschüsse von Psycho-Pokémon im Freien.
 
-RESOURCE ID: quest_snapshot_wild_rock
+RESOURCE ID: quest_snapshot_wild_rock_plural
 TEXT: Mache {0} Schnappschüsse von Gesteins-Pokémon im Freien.
 
 RESOURCE ID: quest_snapshot_wild_singular
-TEXT: Take a snapshot of a wild Pokémon
+TEXT: Mache einen Schnappschuss von einem Pokémon im Freien.
 
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
 TEXT: Mache einen Schnappschuss von Dodri, Mantax oder Panzaeron im Freien.
 
-RESOURCE ID: quest_snapshot_wild_steel
+RESOURCE ID: quest_snapshot_wild_steel_plural
 TEXT: Mache {0} Schnappschüsse von Stahl-Pokémon im Freien.
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
-TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
+TEXT: Mache einen Schnappschuss von Sandan, Knacklion oder Tuska im Freien.
 
-RESOURCE ID: quest_snapshot_wild_water
+RESOURCE ID: quest_snapshot_wild_water_plural
 TEXT: Mache {0} Schnappschüsse von Wasser-Pokémon im Freien.
 
 RESOURCE ID: quest_snivt_catch_b
@@ -1036,6 +1042,48 @@ TEXT: Der frühe Vogel (3/4)
 RESOURCE ID: quest_title_flett_3
 TEXT: Der frühe Vogel (4/4)
 
+RESOURCE ID: quest_title_luminous_x_0
+TEXT: Luminous Legends X (1/7)
+
+RESOURCE ID: quest_title_luminous_x_1
+TEXT: Luminous Legends X (2/7)
+
+RESOURCE ID: quest_title_luminous_x_2
+TEXT: Luminous Legends X (3/7)
+
+RESOURCE ID: quest_title_luminous_x_3
+TEXT: Luminous Legends X (4/7)
+
+RESOURCE ID: quest_title_luminous_x_4
+TEXT: Luminous Legends X (5/7)
+
+RESOURCE ID: quest_title_luminous_x_5
+TEXT: Luminous Legends X (6/7)
+
+RESOURCE ID: quest_title_luminous_x_6
+TEXT: Luminous Legends X (7/7)
+
+RESOURCE ID: quest_title_luminous_y_0
+TEXT: Luminous Legends Y (1/7)
+
+RESOURCE ID: quest_title_luminous_y_1
+TEXT: Luminous Legends Y (2/7)
+
+RESOURCE ID: quest_title_luminous_y_2
+TEXT: Luminous Legends Y (3/7)
+
+RESOURCE ID: quest_title_luminous_y_3
+TEXT: Luminous Legends Y (4/7)
+
+RESOURCE ID: quest_title_luminous_y_4
+TEXT: Luminous Legends Y (5/7)
+
+RESOURCE ID: quest_title_luminous_y_5
+TEXT: Luminous Legends Y (6/7)
+
+RESOURCE ID: quest_title_luminous_y_6
+TEXT: Luminous Legends Y (7/7)
+
 RESOURCE ID: quest_title_rockethq8
 TEXT: Höhenflug
 
@@ -1246,6 +1294,9 @@ TEXT: Sound
 RESOURCE ID: share_my_referral_code_message
 TEXT: Wenn du meinen Empfehlungscode {0} verwendest, um Pokémon GO beizutreten oder zurückzukommen, erhältst du 100 Pokébälle, besondere Belohnungen und vieles mehr. {1}
 
+RESOURCE ID: social_add_friends
+TEXT: Hinzufügen
+
 RESOURCE ID: spawn_fletchling
 TEXT: Wilde Dartiri erscheinen mit vermehrter Häufigkeit.
 
@@ -1337,7 +1388,16 @@ RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: Alle Trainer müssen als globale Gemeinschaft zusammenarbeiten, um diese Herausforderung zu meistern.
 
 RESOURCE ID: timed_challenge_bonus_modal_description_alt
-TEXT: All Trainers participating in a global challenge will contribute to a global goal. Once Trainers achieve the goal, a timed bonus will activate for all participants.
+TEXT: Alle Trainer, die an einer globalen Herausforderung teilnehmen, tragen zu einem globalen Ziel bei. Sobald die Trainer das Ziel erreicht haben, wird ein befristeter Bonus für alle Teilnehmer aktiviert.
+
+RESOURCE ID: titan_poi_scan_added
+TEXT: Die folgende Anzahl an weiteren Scanbeiträgen wird morgen hinzugefügt: {0}.
+
+RESOURCE ID: titan_poi_scan_available
+TEXT: Dir steht heute die folgende Anzahl an Scanbeiträgen zur Verfügung: {0}.
+
+RESOURCE ID: titan_poi_scan_maxed
+TEXT: Du hast das Maximum an täglichen Scanbeiträgen von {0} erreicht.
 
 RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Wi-Fi empfohlen
@@ -1356,6 +1416,9 @@ TEXT: Wetter
 
 RESOURCE ID: weather_week_event_name
 TEXT: Wetterwoche
+
+RESOURCE ID: xp_bonus_hourly
+TEXT: 20000 EP
 
 RESOURCE ID: you_completed_milestone
 TEXT: Du hast einen Meilenstein erreicht! Erhalte deine Belohnung auf {0}s Trainerseite im Freunde-Menü.

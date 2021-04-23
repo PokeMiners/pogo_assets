@@ -139,6 +139,15 @@ TEXT: Elesa-Style Shoes
 RESOURCE ID: avatar_m_shoes_megalopunnyitems_00_bundle_icon
 TEXT: Mega Lopunny Shoes
 
+RESOURCE ID: badge_pokestops_scanned
+TEXT: Scan {0} Pokéstop and Gym.
+
+RESOURCE ID: badge_pokestops_scanned_singular
+TEXT: Scan 1 Pokéstop or Gym.
+
+RESOURCE ID: badge_pokestops_scanned_title
+TEXT: Scanner
+
 RESOURCE ID: badge_rocket_giovanni_defeated
 TEXT: Defeat the Team GO Rocket Boss {0} times.
 
@@ -308,6 +317,12 @@ TEXT: A wet Lure Module that attracts Pokémon for 30 minutes, especially ones t
 RESOURCE ID: item_troy_disk_rainy_name
 TEXT: Rainy Lure Module
 
+RESOURCE ID: luminous_x_event_name
+TEXT: Luminous Legends X
+
+RESOURCE ID: luminous_y_event_name
+TEXT: Luminous Legends Y
+
 RESOURCE ID: m_avatar_poses_bundle_pose_28
 TEXT: Elesa Pose
 
@@ -318,8 +333,8 @@ RESOURCE ID: mega_raid_hour
 TEXT: Mega Raid Hour
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-16T18:43:05.463466
-at SHA 762ab19fc9c7f8b77d61a0f1ebf6aec2202b33e8
+TEXT: Built at 2021-04-23T00:10:25.402134
+at SHA 45e6e1af94b8d574464e87633b29a6edc8b36d3b
 Patch from: 0.203.0-SHA-d5885bda, 0.203.1-SHA-dd25d685, 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573
 
 RESOURCE ID: milestone_rewards_title
@@ -366,9 +381,6 @@ TEXT: Pokédex Classification Unlocked!
 
 RESOURCE ID: pokedex_category_unlocked_plural_header
 TEXT: Pokédex Classifications Unlocked!
-
-RESOURCE ID: pokemon_category_0650
-TEXT: Spiky Nut Pokémon
 
 RESOURCE ID: pokemon_desc_0102
 TEXT: This Pokémon consists of six eggs that form a closely knit cluster. The six eggs attract each other and spin around. When cracks increasingly appear on the eggs, Exeggcute is close to evolution.
@@ -442,52 +454,49 @@ TEXT: Take a snapshot of Thundurus
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: Take a snapshot of Tornadus
 
-RESOURCE ID: quest_snapshot_wild
-TEXT: Take {0} snapshots of wild Pokémon
-
-RESOURCE ID: quest_snapshot_wild_bug
+RESOURCE ID: quest_snapshot_wild_bug_plural
 TEXT: Take {0} snapshots of wild Bug-type Pokémon
 
-RESOURCE ID: quest_snapshot_wild_dark
+RESOURCE ID: quest_snapshot_wild_dark_plural
 TEXT: Take {0} snapshots of wild Dark-type Pokémon
 
-RESOURCE ID: quest_snapshot_wild_dragon
+RESOURCE ID: quest_snapshot_wild_dragon_plural
 TEXT: Take {0} snapshots of wild Dragon-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
-TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
+TEXT: Take a snapshot of Chinchou, Finneon, or Ducklett in the wild
 
-RESOURCE ID: quest_snapshot_wild_electric
+RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: Take {0} snapshots of wild Electric-type Pokémon
 
-RESOURCE ID: quest_snapshot_wild_fairy
+RESOURCE ID: quest_snapshot_wild_fairy_plural
 TEXT: Take {0} snapshots of wild Fairy-type Pokémon
 
-RESOURCE ID: quest_snapshot_wild_fighting
+RESOURCE ID: quest_snapshot_wild_fighting_plural
 TEXT: Take {0} snapshots of wild Fighting-type Pokémon
 
-RESOURCE ID: quest_snapshot_wild_fire
+RESOURCE ID: quest_snapshot_wild_fire_plural
 TEXT: Take {0} snapshots of wild Fire-type Pokémon
 
-RESOURCE ID: quest_snapshot_wild_flying
+RESOURCE ID: quest_snapshot_wild_flying_plural
 TEXT: Take {0} snapshots of wild Flying-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
 TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
 
-RESOURCE ID: quest_snapshot_wild_ghost
+RESOURCE ID: quest_snapshot_wild_ghost_plural
 TEXT: Take {0} snapshots of wild Ghost-type Pokémon
 
-RESOURCE ID: quest_snapshot_wild_grass
+RESOURCE ID: quest_snapshot_wild_grass_plural
 TEXT: Take {0} snapshots of wild Grass-type Pokémon
 
-RESOURCE ID: quest_snapshot_wild_ground
+RESOURCE ID: quest_snapshot_wild_ground_plural
 TEXT: Take {0} snapshots of wild Ground-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_hoothoot
 TEXT: Take a snapshot of Hoothoot in the wild
 
-RESOURCE ID: quest_snapshot_wild_ice
+RESOURCE ID: quest_snapshot_wild_ice_plural
 TEXT: Take {0} snapshots of wild Ice-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
@@ -496,16 +505,19 @@ TEXT: Take a snapshot of Metapod, Aipom, or Lotad in the wild
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
 TEXT: Take a snapshot of Chinchou, Luvdisc, or Finneon in the wild
 
-RESOURCE ID: quest_snapshot_wild_normal
+RESOURCE ID: quest_snapshot_wild_normal_plural
 TEXT: Take {0} snapshots of wild Normal-type Pokémon
 
-RESOURCE ID: quest_snapshot_wild_poison
+RESOURCE ID: quest_snapshot_wild_plural
+TEXT: Take {0} snapshots of wild Pokémon
+
+RESOURCE ID: quest_snapshot_wild_poison_plural
 TEXT: Take {0} snapshots of wild Poison-type Pokémon
 
-RESOURCE ID: quest_snapshot_wild_psychic
+RESOURCE ID: quest_snapshot_wild_psychic_plural
 TEXT: Take {0} snapshots of wild Psychic-type Pokémon
 
-RESOURCE ID: quest_snapshot_wild_rock
+RESOURCE ID: quest_snapshot_wild_rock_plural
 TEXT: Take {0} snapshots of wild Rock-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_singular
@@ -514,13 +526,13 @@ TEXT: Take a snapshot of a wild Pokémon
 RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
 TEXT: Take a snapshot of Dodrio, Mantine, or Skarmory in the wild
 
-RESOURCE ID: quest_snapshot_wild_steel
+RESOURCE ID: quest_snapshot_wild_steel_plural
 TEXT: Take {0} snapshots of wild Steel-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
-TEXT: Take a snapshot of Sandshrew, Geodude, or Cacnea in the wild
+TEXT: Take a snapshot of Sandshrew, Trapinch, or Cacnea in the wild
 
-RESOURCE ID: quest_snapshot_wild_water
+RESOURCE ID: quest_snapshot_wild_water_plural
 TEXT: Take {0} snapshots of wild Water-type Pokémon
 
 RESOURCE ID: quest_snivt_catch_b
@@ -850,6 +862,48 @@ TEXT: Anyway, thanks again for all your help in this sun-soaked endeavor. I thin
 RESOURCE ID: quest_special_dialogue_snivt_3_4
 TEXT: Until next time, let’s GO!
 
+RESOURCE ID: quest_title_luminous_x_0
+TEXT: Luminous Legends X (1/7)
+
+RESOURCE ID: quest_title_luminous_x_1
+TEXT: Luminous Legends X (2/7)
+
+RESOURCE ID: quest_title_luminous_x_2
+TEXT: Luminous Legends X (3/7)
+
+RESOURCE ID: quest_title_luminous_x_3
+TEXT: Luminous Legends X (4/7)
+
+RESOURCE ID: quest_title_luminous_x_4
+TEXT: Luminous Legends X (5/7)
+
+RESOURCE ID: quest_title_luminous_x_5
+TEXT: Luminous Legends X (6/7)
+
+RESOURCE ID: quest_title_luminous_x_6
+TEXT: Luminous Legends X (7/7)
+
+RESOURCE ID: quest_title_luminous_y_0
+TEXT: Luminous Legends Y (1/7)
+
+RESOURCE ID: quest_title_luminous_y_1
+TEXT: Luminous Legends Y (2/7)
+
+RESOURCE ID: quest_title_luminous_y_2
+TEXT: Luminous Legends Y (3/7)
+
+RESOURCE ID: quest_title_luminous_y_3
+TEXT: Luminous Legends Y (4/7)
+
+RESOURCE ID: quest_title_luminous_y_4
+TEXT: Luminous Legends Y (5/7)
+
+RESOURCE ID: quest_title_luminous_y_5
+TEXT: Luminous Legends Y (6/7)
+
+RESOURCE ID: quest_title_luminous_y_6
+TEXT: Luminous Legends Y (7/7)
+
 RESOURCE ID: quest_title_rockethq8
 TEXT: The Higher They Fly...
 
@@ -1144,6 +1198,15 @@ TEXT: All Trainers must work together as a global community to complete this cha
 RESOURCE ID: timed_challenge_bonus_modal_description_alt
 TEXT: All Trainers participating in a global challenge will contribute to a global goal. Once Trainers achieve the goal, a timed bonus will activate for all participants.
 
+RESOURCE ID: titan_poi_scan_added
+TEXT: {0} more scanning contribution(s) will be added tomorrow.
+
+RESOURCE ID: titan_poi_scan_available
+TEXT: You have {0} scanning contribution(s) available today.
+
+RESOURCE ID: titan_poi_scan_maxed
+TEXT: You have reached your max daily scanning contribution(s) of {0}.
+
 RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Wi-Fi recommended
 
@@ -1161,6 +1224,9 @@ TEXT: Weather
 
 RESOURCE ID: weather_week_event_name
 TEXT: Weather Week
+
+RESOURCE ID: xp_bonus_hourly
+TEXT: 20,000 XP
 
 RESOURCE ID: you_completed_milestone
 TEXT: You’ve completed a milestone! Claim it on {0}’s Trainer page in the Friends menu.
