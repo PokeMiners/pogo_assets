@@ -148,6 +148,75 @@ TEXT: {0}さんにフレンド申請を送る
 RESOURCE ID: add_friends_privacy_prompt
 TEXT: 最後に捕まえたポケモンやギフトを贈った場所を含む、お互いのプロフィールを見られるようになります。
 
+RESOURCE ID: add_niantic_friend_tip
+TEXT: このゲームでフレンドを追加すると、自分とフレンドがプレイするすべてのNianticゲームにフレンドとして追加されます。
+
+RESOURCE ID: add_referrer_already_added_accept_invite
+TEXT: このプレイヤーからのフレンド申請を承認していません。リファラルリワードを受け取るには、承認する必要があります。
+
+RESOURCE ID: add_referrer_already_added_already_friends
+TEXT: すでにPokémon GOのフレンドに
+なっているため、リファラルリワードを受け取ることができます。
+
+RESOURCE ID: add_referrer_already_added_friend_later
+TEXT: リファラルリワードを受け取るためには、
+Pokémon GOのフレンドになる必要があります。
+
+RESOURCE ID: add_referrer_already_added_maybe_friend_later
+TEXT: Pokémon GOのフレンドになって
+いない場合は、フレンドになることで、リファラルリワードを受け取ることができるようになります。
+
+RESOURCE ID: add_referrer_already_added_sent_invite
+TEXT: フレンド申請が送信されました。紹介者とフレンドになると、プレイ状況に応じてリワードが受け取れるようになります。
+
+RESOURCE ID: add_referrer_already_added_title
+TEXT: このプレイヤーとは、紹介関係が確立されています
+
+RESOURCE ID: add_referrer_disabled
+TEXT: 紹介関係を確立できませんでした
+
+RESOURCE ID: add_referrer_disabled_sent_invite
+TEXT: 紹介関係を確立することができませんでしたが、フレンド申請は送信されました。
+
+RESOURCE ID: add_referrer_error_past_grace_period_message
+TEXT: リファラルコード期限切れです
+
+RESOURCE ID: add_referrer_error_past_grace_period_sent_invite
+TEXT: リファラルコードの期限が切れていますが、フレンド申請は送信されました
+
+RESOURCE ID: add_referrer_error_past_grace_period_title
+TEXT: リファラル期限終了
+
+RESOURCE ID: add_referrer_error_unknown
+TEXT: 紹介関係を確立できませんでした
+
+RESOURCE ID: add_referrer_error_unknown_sent_friend_request
+TEXT: フレンド申請は送信されましたが、紹介関係は確立できませんでした
+
+RESOURCE ID: add_referrer_success_accept_invite
+TEXT: このプレイヤーから、すでにフレンド申請が出されています。フレンドになると、プレイ状況に応じてリワードを受け取ることができるようになります。
+
+RESOURCE ID: add_referrer_success_already_friends
+TEXT: このプレイヤーとは、すでに
+Pokémon GOのフレンドになっているので、プレイ状況に応じてリワードを受け取ることができます。
+
+RESOURCE ID: add_referrer_success_friend_later
+TEXT: さらにリワードを受け取るには、
+Pokémon GOのフレンドになる必要があります。
+
+RESOURCE ID: add_referrer_success_invite_will_be_sent_later
+TEXT: フレンド申請が送信されます。フレンド申請が受け付けられると、プレイ状況に応じてリワードが受け取れるようになります。
+
+RESOURCE ID: add_referrer_success_maybe_friend_later
+TEXT: さらにリワードを受け取るには、
+Pokémon GOのフレンドになる必要がありますが、フレンドになっていない場合は、フレンド登録することを忘れないでください。
+
+RESOURCE ID: add_referrer_success_sent_invite
+TEXT: フレンド申請が送信されました。紹介者とフレンドになると、プレイ状況に応じてリワードが受け取れるようになります。
+
+RESOURCE ID: add_referrer_success_title
+TEXT: リファラルコードを確認しました
+
 RESOURCE ID: add_stickers_button
 TEXT: ステッカーを貼る
 
@@ -388,6 +457,9 @@ TEXT: 場所は{0}付近。
 RESOURCE ID: appraise_v2_mystery_origin
 TEXT: この{0}をいつどこで捕まえたかわからない．．．
 
+RESOURCE ID: aprilfools_event_name
+TEXT: トリッキーなポケモン
+
 RESOURCE ID: ar_encounter
 TEXT: AR
 
@@ -444,7 +516,7 @@ RESOURCE ID: ar_plus_prompt_title
 TEXT: AR+ でポケモンを捕まえる新しい体験を！
 
 RESOURCE ID: ar_plus_safety_prompt
-TEXT: ARモード使用時は、周囲の安全をよく確認してください。 
+TEXT: ARモード使用時は周囲の安全をよく確認してください。 
 お子さま連れの場合は、お子さまから目を離さないでください。
 
 RESOURCE ID: ar_plus_safety_toast
@@ -725,7 +797,7 @@ RESOURCE ID: arphoto_tutorial_share_title
 TEXT: 気軽にシェアしよう
 
 RESOURCE ID: arphoto_warning_pokemon_too_close
-TEXT: ポケモンが近すぎるので、もう少し距離をあけてください。
+TEXT: ポケモンが近すぎるので、もう少し距離をあけてください
 
 RESOURCE ID: arphoto_warning_surroundings
 TEXT: 撮影を行うときは、周囲の状況に十分注意を払ってください
@@ -1102,6 +1174,9 @@ TEXT: レベル45 帽子
 RESOURCE ID: avatar_f_hat_magikarp_bundle_icon
 TEXT: コイキング帽子
 
+RESOURCE ID: avatar_f_hat_megalopunnyitems_00_bundle_icon
+TEXT: カチューシャ　メガミミロップ
+
 RESOURCE ID: avatar_f_hat_meltan_0_bundle_icon
 TEXT: メルタンキャップ
 
@@ -1414,6 +1489,12 @@ TEXT: はっぴ チームインスティンクト
 RESOURCE ID: avatar_f_shirt_hgss_bundle_icon
 TEXT: ジョウトトップス
 
+RESOURCE ID: avatar_f_shirt_holifestival2021black_00_bundle_icon
+TEXT: カラーフェスティバルTシャツ　黒
+
+RESOURCE ID: avatar_f_shirt_holifestival2021white_00_bundle_icon
+TEXT: カラーフェスティバルTシャツ　白
+
 RESOURCE ID: avatar_f_shirt_ingress_bundle_icon
 TEXT: Ingress Prime ホワイト
 
@@ -1440,6 +1521,9 @@ TEXT: レベル50 ジャケット
 
 RESOURCE ID: avatar_f_shirt_lvl50_01_bundle_icon
 TEXT: レベル50 ジャケット
+
+RESOURCE ID: avatar_f_shirt_megalopunnyitems_00_bundle_icon
+TEXT: オーバーオール　メガミミロップ
 
 RESOURCE ID: avatar_f_shirt_melmetaljacket_00_bundle_icon
 TEXT: メルメタル ダウンジャケット
@@ -1533,6 +1617,12 @@ TEXT: ミュウ（色違い）Tシャツ
 
 RESOURCE ID: avatar_f_shirt_spiritomb_0_bundle_icon
 TEXT: ミカルゲTシャツ
+
+RESOURCE ID: avatar_f_shirt_spring2021gulpin_00_bundle_icon
+TEXT: コンビネゾン　ゴクリン
+
+RESOURCE ID: avatar_f_shirt_spring2021plusle_00_bundle_icon
+TEXT: コンビネゾン　マイナン
 
 RESOURCE ID: avatar_f_shirt_ss_0_bundle_icon
 TEXT: ガラル主人公 ワンピース
@@ -1687,6 +1777,9 @@ TEXT: サンダル 2020
 RESOURCE ID: avatar_f_shoes_luvdiscpack_0_bundle_icon
 TEXT: ラブカスシューズ
 
+RESOURCE ID: avatar_f_shoes_megalopunnyitems_00_bundle_icon
+TEXT: スニーカー　メガミミロップ
+
 RESOURCE ID: avatar_f_shoes_melmetalshoes_00_bundle_icon
 TEXT: メルメタル シューズ
 
@@ -1796,7 +1889,7 @@ RESOURCE ID: avatar_halloween
 TEXT: ハロウィン
 
 RESOURCE ID: avatar_hat_gotour_kanto_bundle_icon
-TEXT: GO Tour Hat
+TEXT: GOTourキャップ
 
 RESOURCE ID: avatar_hats
 TEXT: 帽子
@@ -2082,6 +2175,9 @@ TEXT: レベル45 帽子
 
 RESOURCE ID: avatar_m_hat_magikarp_bundle_icon
 TEXT: コイキング帽子
+
+RESOURCE ID: avatar_m_hat_megalopunnyitems_00_bundle_icon
+TEXT: カチューシャ　メガミミロップ
 
 RESOURCE ID: avatar_m_hat_meltan_0_bundle_icon
 TEXT: メルタンキャップ
@@ -2392,6 +2488,12 @@ TEXT: はっぴ チームインスティンクト
 RESOURCE ID: avatar_m_shirt_hgss_bundle_icon
 TEXT: ジョウトトップス
 
+RESOURCE ID: avatar_m_shirt_holifestival2021black_00_bundle_icon
+TEXT: カラーフェスティバルTシャツ　黒
+
+RESOURCE ID: avatar_m_shirt_holifestival2021white_00_bundle_icon
+TEXT: カラーフェスティバルTシャツ　白
+
 RESOURCE ID: avatar_m_shirt_ingress_bundle_icon
 TEXT: Ingress Prime ホワイト
 
@@ -2427,6 +2529,9 @@ TEXT: レベル50 ジャケット
 
 RESOURCE ID: avatar_m_shirt_lvl50_01_bundle_icon
 TEXT: レベル50 ジャケット
+
+RESOURCE ID: avatar_m_shirt_megalopunnyitems_00_bundle_icon
+TEXT: オーバーオール　メガミミロップ
 
 RESOURCE ID: avatar_m_shirt_melmetaljacket_00_bundle_icon
 TEXT: メルメタル ダウンジャケット
@@ -2517,6 +2622,12 @@ TEXT: ミュウ（色違い）Tシャツ
 
 RESOURCE ID: avatar_m_shirt_spiritomb_0_bundle_icon
 TEXT: ミカルゲTシャツ
+
+RESOURCE ID: avatar_m_shirt_spring2021gulpin_00_bundle_icon
+TEXT: フーディーセット　ゴクリン
+
+RESOURCE ID: avatar_m_shirt_spring2021plusle_00_bundle_icon
+TEXT: スプリングニットセット　マイナン
 
 RESOURCE ID: avatar_m_shirt_ss_0_bundle_icon
 TEXT: ガラル主人公 シャツ
@@ -2671,6 +2782,9 @@ TEXT: サンダル 2020
 RESOURCE ID: avatar_m_shoes_luvdiscpack_0_bundle_icon
 TEXT: ラブカスシューズ
 
+RESOURCE ID: avatar_m_shoes_megalopunnyitems_00_bundle_icon
+TEXT: スニーカー　メガミミロップ
+
 RESOURCE ID: avatar_m_shoes_melmetalshoes_00_bundle_icon
 TEXT: メルメタル シューズ
 
@@ -2774,7 +2888,7 @@ RESOURCE ID: avatar_seasonal
 TEXT: Pokémon GO Tour：カントー地方
 
 RESOURCE ID: avatar_shirt_shiny_mew_bundle_icon
-TEXT: Shiny Mew Shirt
+TEXT: ミュウ(色違い)Tシャツ
 
 RESOURCE ID: avatar_shoes
 TEXT: シューズ
@@ -3923,6 +4037,15 @@ TEXT: ジェントルマン
 RESOURCE ID: badge_trading_value_format
 TEXT: N0
 
+RESOURCE ID: badge_trainers_referred
+TEXT: トレーナー{0}人を冒険に誘った！
+
+RESOURCE ID: badge_trainers_referred_singular
+TEXT: トレーナー1人を冒険に誘った！
+
+RESOURCE ID: badge_trainers_referred_title
+TEXT: フレンドファインダー
+
 RESOURCE ID: badge_travel_km
 TEXT: {0} km 歩いた！
 
@@ -4272,11 +4395,6 @@ RESOURCE ID: batch_transfer_confirm
 TEXT: <size=36>博士に {0} 匹送りますか？</size>
 
 開始後キャンセルはできません。
-
-RESOURCE ID: batch_transfer_eligible_confirm
-TEXT: <size=36><b>選択されたポケモンのうち{0}匹のみ博士に送ることができます。</b></size>
-
-送ることができないポケモンはボックスに残ります。送ったポケモンを戻すことはできません。
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>選択されたポケモンのうち{0}匹のみ博士に送ることができます。</b></size>
@@ -6706,6 +6824,9 @@ TEXT: 探知できず．．．今日の活動はここまで、ということ�
 
 RESOURCE ID: blanche_map_time_warning|2
 TEXT: 朝まで待とう。しばらくは顔を見せないに違いない。
+
+RESOURCE ID: bonus_milestone_rewards_title
+TEXT: ボーナスマイルストーンリワード
 
 RESOURCE ID: boosted_mega_pokemon_abomasnow
 TEXT: メガユキノオーがパワーアップ
@@ -9149,7 +9270,7 @@ RESOURCE ID: combat_error_opponent_minimum_level
 TEXT: {0}さんは対戦できるレベルに達していません
 
 RESOURCE ID: combat_error_opponent_opted_out
-TEXT: 対戦招待はありません
+TEXT: 相手が対戦を受け付けていません
 
 RESOURCE ID: combat_exit_confirmation
 TEXT: ここを離れますか？
@@ -9668,6 +9789,9 @@ TEXT: コミュニティ・デイ：ロゼリア
 RESOURCE ID: community_day_seedot_event_name
 TEXT: コミュニティ・デイ：タネボー
 
+RESOURCE ID: community_day_snivy_event_name
+TEXT: コミュニティ・デイ：ツタージャ
+
 RESOURCE ID: community_day_weedle_event_name
 TEXT: コミュニティ・デイ：ビードル
 
@@ -9703,6 +9827,9 @@ TEXT: コードをコピー
 
 RESOURCE ID: copy_friend_code_toast
 TEXT: 自分のトレーナーコードをコピーしました
+
+RESOURCE ID: copy_referral_code_toast
+TEXT: コードをコピーしました！
 
 RESOURCE ID: costume_pokemon_eggs
 TEXT: 着飾ったポケモンがタマゴからかえる
@@ -9747,7 +9874,7 @@ RESOURCE ID: days_and_hours
 TEXT: {0}日{1}時間
 
 RESOURCE ID: december_cd_event_ticket
-TEXT: 「ひふきポケモンを解明せよ！」チケット
+TEXT: 12月コミュニティ・デイチケット
 
 RESOURCE ID: decline_action_label
 TEXT: 辞退する
@@ -9950,6 +10077,12 @@ TEXT: タイプ上昇：ドラゴン
 RESOURCE ID: dragonboat_event_name
 TEXT: ドラゴンボートフェスティバル
 
+RESOURCE ID: earthday_event_name
+TEXT: サステナビリティデイ
+
+RESOURCE ID: earthweek_event_name
+TEXT: サステナビリティウィーク
+
 RESOURCE ID: easter_2019_easy_hatch
 TEXT: イースターイベント: タマゴを1個かえす
 
@@ -9958,6 +10091,9 @@ TEXT: イースターイベント: タマゴを{0}個かえす
 
 RESOURCE ID: easter_2019_medium_hatch
 TEXT: イースターイベント: タマゴを{0}個かえす
+
+RESOURCE ID: easter_event_name
+TEXT: イースターイベント
 
 RESOURCE ID: edit_pokemon_tag_error
 TEXT: タグ編集ができませんでした
@@ -10104,7 +10240,7 @@ RESOURCE ID: encounter_pokeball_inventory_empty
 TEXT: ボールがもうありません
 
 RESOURCE ID: encounter_pokemon_box_full_title
-TEXT: ボックスがいっぱいです！
+TEXT: ポケモンボックスがいっぱいです！
 
 RESOURCE ID: encounter_pokemon_broke_free
 TEXT: あ！ボールから抜けだした！
@@ -10349,6 +10485,9 @@ TEXT: フレンドリストがいっぱいです！
 RESOURCE ID: error_generate_friendcode_failed
 TEXT: トレーナーコードを取得できませんでした。
 
+RESOURCE ID: error_generate_referral_code_failed
+TEXT: リファラルコードを取得できませんでした
+
 RESOURCE ID: error_get_friends_list_failed
 TEXT: フレンドリストが取得できませんでした
 
@@ -10400,6 +10539,12 @@ TEXT: ポケモンの編成更新エラー
 RESOURCE ID: error_raid_active
 TEXT: ボスポケモンがジムを占拠しています！
 
+RESOURCE ID: error_refresh_referral_code_failed
+TEXT: コードを更新できませんでした
+
+RESOURCE ID: error_refresh_referral_code_in_cooldown
+TEXT: コードを更新できません。しばらくしてから再度お試しください。
+
 RESOURCE ID: error_send_friend_request_title
 TEXT: {0}さんにフレンド申請を送ることができませんでした
 
@@ -10416,7 +10561,7 @@ RESOURCE ID: error_social_player_banned
 TEXT: この機能にアクセスできません
 
 RESOURCE ID: error_sponsored_gift_already_opened
-TEXT: You have already opened this Gift
+TEXT: 開封済みギフトです
 
 RESOURCE ID: error_start_raid_battle
 TEXT: レイドバトル開始エラー
@@ -10456,6 +10601,9 @@ TEXT: メタングをメタグロスに進化させるとコメットパンチ�
 
 RESOURCE ID: event_name_bonus_generic
 TEXT: ボーナスイベント
+
+RESOURCE ID: event_name_snap
+TEXT: 『New ポケモンスナップ』セレブレーション
 
 RESOURCE ID: event_npc00_combat_quote__female_speaker
 TEXT: わたしの　ファッション　素敵でしょ？
@@ -10756,6 +10904,9 @@ TEXT: え！　こうなっちゃった？！
 
 RESOURCE ID: event_regional_brazil_carnaval
 TEXT: カーニバル
+
+RESOURCE ID: event_regional_india_holi
+TEXT: カラーフェスティバル
 
 RESOURCE ID: event_registration_success
 TEXT: {0} チェックインに成功しました！
@@ -11284,7 +11435,7 @@ RESOURCE ID: first_time_ar_mode_prompt_ar_on_btn
 TEXT: はい
 
 RESOURCE ID: first_time_ar_mode_prompt_description
-TEXT: 使ってみましょう。ARボタンからオフにすることもできます。
+TEXT: 安全を十分に確認したうえで、ARモードを使用してください。お子さま連れの場合は、お子さまから目を離さないようお願いいたします。
 
 RESOURCE ID: first_time_ar_mode_prompt_title
 TEXT: 現実世界を背景にしてみましょう！
@@ -11562,6 +11713,9 @@ TEXT: ホワイト
 RESOURCE ID: form_winter
 TEXT: ふゆのすがた
 
+RESOURCE ID: found_referral_code_from_link
+TEXT: コードが見つかりました！
+
 RESOURCE ID: fragment_collected
 TEXT: ふしぎなパーツを手に入れた！
 
@@ -11673,6 +11827,9 @@ TEXT: Lv {0}
 
 RESOURCE ID: friendship_bonus_increase
 TEXT: より速く仲良し度が上がる
+
+RESOURCE ID: friendship_day_event_name
+TEXT: フレンドシップ・デイ
 
 RESOURCE ID: friendship_detail_attack_bonus
 TEXT: アタックボーナス
@@ -11872,12 +12029,12 @@ RESOURCE ID: general1.ticket.2_flett_title
 TEXT: 「コマドリポケモンを解明せよ！」チケット
 
 RESOURCE ID: general1.ticket.2_machop_description
-TEXT: 世界中のどこにいても、現地時間2020年11月21日の11:00AM～5:00PMに、ゲーム内でスタートできるイベント「ひふきポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
+TEXT: 世界中のどこにいても、現地時間2021年1月16日11:00AM～5:00PMに「かいりきポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
 
 イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
 
 RESOURCE ID: general1.ticket.2_machop_title
-TEXT: 「ひふきポケモンを解明せよ！」チケット
+TEXT: 「かいりきポケモンを解明せよ！」チケット
 
 RESOURCE ID: general1.ticket.2_roset_description
 TEXT: 世界中のどこにいても、現地時間2021年2月7日11:00AM～5:00PMにゲーム内イベント「いばらポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
@@ -11886,6 +12043,14 @@ TEXT: 世界中のどこにいても、現地時間2021年2月7日11:00AM～5:00
 
 RESOURCE ID: general1.ticket.2_roset_title
 TEXT: 「いばらポケモンを解明せよ！」チケット
+
+RESOURCE ID: general1.ticket.2_snivt_description
+TEXT: 世界中のどこにいても、現地時間2021年4月11日11:00AM～5:00PMにゲーム内イベント「くさへびポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
+
+イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
+
+RESOURCE ID: general1.ticket.2_snivt_title
+TEXT: 「くさへびポケモンを解明せよ！」チケット
 
 RESOURCE ID: general1.ticket.2_title
 TEXT: 「コマドリポケモンを解明せよ！」チケット
@@ -11970,7 +12135,7 @@ RESOURCE ID: general_hp
 TEXT: HP
 
 RESOURCE ID: general_include
-TEXT: 送る
+TEXT: 含める
 
 RESOURCE ID: general_kg
 TEXT: kg
@@ -11979,7 +12144,7 @@ RESOURCE ID: general_km
 TEXT: km
 
 RESOURCE ID: general_leave_out
-TEXT: キャンセル
+TEXT: 含めない
 
 RESOURCE ID: general_m
 TEXT: m
@@ -12012,7 +12177,7 @@ RESOURCE ID: general_quit
 TEXT: 逃げる
 
 RESOURCE ID: general_raid_error
-TEXT: General raid error.
+TEXT: レイドエラー（一般）
 
 RESOURCE ID: general_report_title
 TEXT: フィードバック
@@ -12788,25 +12953,25 @@ RESOURCE ID: gotour2021_content_hashtag
 TEXT: #PokemonGOTourをつけて投稿された写真のなかから、ピックアップしてご紹介！
 
 RESOURCE ID: gotour2021_content_link_cerulean_city
-TEXT: ライブ：ハナダシティアワー！
+TEXT: Now：ハナダシティアワー！
 
 RESOURCE ID: gotour2021_content_link_fuchsia_city
-TEXT: ライブ：セキチクシティアワー！
+TEXT: Now：セキチクシティアワー！
 
 RESOURCE ID: gotour2021_content_link_green
 TEXT: Green Version
 
 RESOURCE ID: gotour2021_content_link_open
-TEXT: 全アワーのポケモンが出現中！
+TEXT: Now：イベントに沿ったポケモン！
 
 RESOURCE ID: gotour2021_content_link_pallet_town
-TEXT: ライブ：マサラタウンアワー！
+TEXT: Now：マサラタウンアワー！
 
 RESOURCE ID: gotour2021_content_link_pewter_city
-TEXT: ライブ：ニビシティアワー！
+TEXT: Now：ニビシティアワー！
 
 RESOURCE ID: gotour2021_content_link_pok_mon_league
-TEXT: ライブ：ポケモンリーグアワー！
+TEXT: Now：ポケモンリーグアワー！
 
 RESOURCE ID: gotour2021_content_link_red
 TEXT: Red Version
@@ -12892,7 +13057,7 @@ RESOURCE ID: gotour_kanto_red_trade
 TEXT: GO Tour カントー地方：赤（交換）
 
 RESOURCE ID: gotour_kanto_red_trade_description
-TEXT: フレンドと交換して手に入れよう
+TEXT: フレンドと交換して手にいれよう
 
 RESOURCE ID: gotour_kanto_research
 TEXT: GO Tour カントー地方：リサーチ
@@ -14556,8 +14721,17 @@ TEXT: スーパーふかそうち
 RESOURCE ID: initial_onboarding_privacy_tip
 TEXT: プライバシー保護：安全を最優先するため、どの機能をオンにするか、を選んでご使用いただけます。
 
+RESOURCE ID: input_referral_code_time_remaining_plural
+TEXT: リファラルコード入力有効時間は、残り{0}時間です。 {0}時間後、または、他のプレイヤーからのコードを入力したあとに自分のコードがもらえます。
+
+RESOURCE ID: input_referral_code_time_remaining_singular
+TEXT: リファラルコード入力有効時間は、残り{0}時間です。 {0}時間後、または、他のプレイヤーからのコードを入力したあとに自分のコードがもらえます。
+
 RESOURCE ID: invalid_character_tag_name_warning
 TEXT: 使えない文字が含まれています
+
+RESOURCE ID: invalid_referral_code
+TEXT: 無効なリファラルコード
 
 RESOURCE ID: invasion_combat_journal_win
 TEXT: {0}を倒した！
@@ -14796,6 +14970,12 @@ TEXT: 現地時間2021年2月7日11:00AM～5:00PMにスペシャルリサーチ�
 RESOURCE ID: item_event_ticket_pink_roset_details
 TEXT: このチケットは自動的に発動し、現地時間2021年2月7日11:00AM～5:00PMにスペシャルリサーチが行えるようになります。
 
+RESOURCE ID: item_event_ticket_pink_snivt_desc
+TEXT: 現地時間2021年4月11日11:00AM～5:00PMにスペシャルリサーチを遂行するためのチケット。
+
+RESOURCE ID: item_event_ticket_pink_snivt_details
+TEXT: このチケットは自動的に発動し、現地時間2021年4月11日にスペシャルリサーチが行えるようになります。
+
 RESOURCE ID: item_free_raid_ticket_desc
 TEXT: レイドバトルの参加に必要なパス。ジムのフォトディスクを回すと一日一枚手に入る。一枚しか持てない。
 
@@ -14827,10 +15007,10 @@ RESOURCE ID: item_giovanni_map_name
 TEXT: スーパーロケットレーダー
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: 現地時間2021年2月20日9:00AM～9:00PMにスペシャルリサーチを遂行するためのチケット。
+TEXT: 現地時間2021年3月6日11:00AM～5:00PMにスペシャルリサーチを遂行するためのチケット。
 
 RESOURCE ID: item_global_event_ticket_details
-TEXT: このチケットは現地時間2021年2月20日9:00AMに自動的に発動します。
+TEXT: 現地時間2021年3月6日11:00AM～5:00PMにスペシャルリサーチを遂行するためのチケット。
 
 RESOURCE ID: item_global_event_ticket_details_no_version_selected
 TEXT: このチケットは自動的に発動し、現地時間2021年2月20日のイベントに参加できるようになります。
@@ -15120,6 +15300,12 @@ TEXT: ハーブルアー
 
 RESOURCE ID: item_troy_disk_name
 TEXT: ルアーモジュール
+
+RESOURCE ID: item_troy_disk_rainy_desc
+TEXT: ポケストップへ使うと、30分間水を出して雨が好きなポケモンを引き寄せる。特定のポケモンの進化を促す作用もある。
+
+RESOURCE ID: item_troy_disk_rainy_name
+TEXT: レイニールアー
 
 RESOURCE ID: item_ultra_ball_desc
 TEXT: スーパーボールよりもさらにポケモンを捕まえやすくなったすごく性能のいいボール。
@@ -17937,55 +18123,55 @@ RESOURCE ID: masterwork_sm_dialogue_1_9
 TEXT: さぁ、GOだ！
 
 RESOURCE ID: masterwork_sm_dialogue_2_0
-TEXT: Wow, %PLAYERNAME%—great work! Your knowledge of the Kanto region is beginning to rival even my own!
+TEXT: 素晴らしい調査ぶりだ、%PLAYERNAME%！カントー地方については、きみのほうが詳しくなったんじゃないか？
 
 RESOURCE ID: masterwork_sm_dialogue_2_1
-TEXT: Our next task is to learn more about Pokémon DNA.
+TEXT: 次に取り組むのは、ポケモンの遺伝子だ。
 
 RESOURCE ID: masterwork_sm_dialogue_2_2
-TEXT: I know that sounds pretty heavy on the science, but don’t worry—I’ll take care of that part. All I need you to do is get out there and catch lots of different types of Pokémon!
+TEXT: と言っても、遺伝子そのものを研究する、という意味じゃない。きみにすべてのタイプのポケモンを捕まえてもらいたいんだ。
 
 RESOURCE ID: masterwork_sm_dialogue_2_3
-TEXT: Mew’s DNA is said to contain the genetic codes of all Pokémon, so to better understand Mew, we should try to understand as much as we can about the genetics of other Pokémon.
+TEXT: ミュウの遺伝子には、すべてのポケモンの情報が含まれている、と言われている。ここで、いま一度、幅広くポケモンを把握しよう、という試みだ。頼んだぞ！
 
 RESOURCE ID: masterwork_sm_dialogue_3_0
-TEXT: Incredible work, %PLAYERNAME%! Seeing you learn so much about different Pokémon reminded me of how vast the world of Pokémon truly is.
+TEXT: よくやってくれた、%PLAYERNAME%！ここまで幅広い調査は、久しぶりだ。初心にかえることができたよ。
 
 RESOURCE ID: masterwork_sm_dialogue_3_1
-TEXT: Knowledge is funny in that the more we gain, the more realize how much we still lack. Some might find that frustrating, but for me it’s inspiring!
+TEXT: 知識を得れば得るほど、自分たちはまだ何も知らない、ということを思い知る。だからこそ、探求したくなるんだ。
 
 RESOURCE ID: masterwork_sm_dialogue_3_2
-TEXT: You know, there’s a part in that sea shanty I mentioned before that seems applicable here.
+TEXT: わたしが、思わず口ずさむといった船乗りの歌の歌詞にも、こうある．．．
 
 RESOURCE ID: masterwork_sm_dialogue_3_3
-TEXT: I don’t remember the exact words, but the gist is that we should travel across the land, searching far and wide to learn about all the amazing Pokémon there are in the world.
+TEXT: うろ覚えだが、「広い世界、見据えるのは海の向こう」のような歌詞だったと思う．．．
 
 RESOURCE ID: masterwork_sm_dialogue_3_4
-TEXT: Words to live by, I say! Let’s get out there and track down that Shiny Mew, Trainer!
+TEXT: いつでも胸に刻んでおきたい言葉だと思わないか？さぁ、ミュウをさがそう！
 
 RESOURCE ID: masterwork_sm_dialogue_4_0
-TEXT: %PLAYERNAME%, you... You did it! You actually found and caught a Shiny Mew!
+TEXT: %PLAYERNAME%．．．つ、ついに．．．色違いのミュウを捕まえたんだな！
 
 RESOURCE ID: masterwork_sm_dialogue_4_1
-TEXT: Has it even sunk in yet? This is a monumental achievement, Trainer. Take a moment to congratulate yourself!
+TEXT: 実感がわかない、とは思うが、今日は自分をほめてやってもいいぞ！
 
 RESOURCE ID: masterwork_sm_dialogue_4_2
-TEXT: Hm? It’s my achievement as well? Haha! No, no, I just hummed you a shanty and guided you like any Pokémon Professor worth their sea salt would.
+TEXT: わたしも少しは貢献？いやー、今日は船乗りの歌を歌っていただけだからな．．．手塩にかけてトレーナーを育てた、とは言えるか？
 
 RESOURCE ID: masterwork_sm_dialogue_4_3
-TEXT: But thanks are certainly in order for the Pokémon you’ve befriended on your journey. They played a big part in your research, after all!
+TEXT: いずれにせよ、きみの努力が実を結んだ！素晴らしいことだ！
 
 RESOURCE ID: masterwork_sm_dialogue_4_4
-TEXT: The ones you’ve caught, the ones you’ve battled with, and the ones that traveled with you as your buddy—each Pokémon played a critical part in helping you achieve this goal.
+TEXT: さまざまなポケモンと出会い、バトルの腕を磨き、相棒との時間を楽しむことができるのも、
 
 RESOURCE ID: masterwork_sm_dialogue_4_5
-TEXT: As Trainers, we owe an eternal debt to our Pokémon. After all, we can’t very well be Trainers without them!
+TEXT: ポケモンのおかげだから、ポケモンにも感謝だな！
 
 RESOURCE ID: masterwork_sm_dialogue_4_6
-TEXT: A Trainer’s journey is meant to be filled with amazing memories, ambitious dreams, and unexpected adventures. I think this particular journey checked all those boxes pretty handily!
+TEXT: トレーナーとしての生活には、思い出、夢、冒険があふれているものだ。今回の調査は、それを体感するような調査だったと言える。
 
 RESOURCE ID: masterwork_sm_dialogue_4_7
-TEXT: I’m sure it won’t be the last to do so, either. Now, until next time...let’s GO!
+TEXT: これからも、頼むよ。また会おう。それまで、元気にGO！
 
 RESOURCE ID: masterwork_sm_title
 TEXT: 続行リサーチ151
@@ -18102,9 +18288,18 @@ RESOURCE ID: mega_walking_progress
 TEXT: 歩いて見つけるもの
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2021-04-15T09:53:33.936713
-at SHA d86ac573bb83d608aa6a240a4c0e487cf87b556b
-Pipeline 604646, job 5547398
+TEXT: Built at 2021-04-20T09:31:15.673238
+at SHA cae7daba268a210075cce517e2c2c47394a57bc3
+Pipeline 607915, job 5587130
+
+RESOURCE ID: milestone_rewards_title
+TEXT: マイルストーンリワード
+
+RESOURCE ID: mini_collection_apr21_egg_event
+TEXT: イースター2021チャレンジ
+
+RESOURCE ID: mini_collection_apr21_friendship_day
+TEXT: フレンドシップデイチャレンジ
 
 RESOURCE ID: mini_collection_feb21_gen1_event
 TEXT: カントーコレクションチャレンジ
@@ -19671,6 +19866,9 @@ TEXT: GOスナップショットでロゼリアのサプライズ5回
 RESOURCE ID: photobomb_five_seedot
 TEXT: GOスナップショットでタネボーのサプライズ5回
 
+RESOURCE ID: photobomb_five_snivy
+TEXT: GOスナップショットでツタージャのサプライズ5回
+
 RESOURCE ID: photobomb_five_weedle
 TEXT: GOスナップショットでビードルのサプライズ5回
 
@@ -20422,6 +20620,21 @@ TEXT: 一日の {0} ポケコイン獲得上限に達しています。
 RESOURCE ID: pokedex_all_types
 TEXT: すべてのタイプ
 
+RESOURCE ID: pokedex_category_shiny_appraisal_3
+TEXT: 色違い3つ星
+
+RESOURCE ID: pokedex_category_unlocked_body
+TEXT: 図鑑に{0}が表示されます
+
+RESOURCE ID: pokedex_category_unlocked_button
+TEXT: 図鑑を見る
+
+RESOURCE ID: pokedex_category_unlocked_header
+TEXT: 図鑑カテゴリがアンロックされた！
+
+RESOURCE ID: pokedex_category_unlocked_plural_header
+TEXT: 図鑑カテゴリがアンロックされた！
+
 RESOURCE ID: pokedex_details_category_not_caught
 TEXT: ？？？？？ポケモン
 
@@ -20441,7 +20654,7 @@ RESOURCE ID: pokedex_details_lucky
 TEXT: キラ:
 
 RESOURCE ID: pokedex_details_purified
-TEXT: ライト：
+TEXT: ライト:
 
 RESOURCE ID: pokedex_details_seen
 TEXT: 見つけた数:
@@ -23162,7 +23375,7 @@ RESOURCE ID: pokemon_desc_0122
 TEXT: 目に見えないものを身振りでそこにあると信じ込ませるパントマイムの達人。信じさせたものは本当に現れる。
 
 RESOURCE ID: pokemon_desc_0122_2339
-TEXT: タップダンスが　得意。　冷気でつくった　氷の　床を　蹴り上げバリヤーの　ごとく　身を　守る。
+TEXT: タップダンスが得意。冷気でつくった氷の床を蹴り上げバリヤーのごとく身を　守る。
 
 RESOURCE ID: pokemon_desc_0123
 TEXT: 目にも止まらぬスピードが両腕のカマの切れ味をさらに鋭くするのだ。一振りすれば大木も真っ二つだ。
@@ -24764,220 +24977,220 @@ RESOURCE ID: pokemon_desc_0649
 TEXT: ３億年前にいたポケモン。プラズマ団に改造され背中に砲台をつけられた。
 
 RESOURCE ID: pokemon_desc_0650
-TEXT: 普段　やわらかい　頭の　トゲは  力を　こめると　鋭く　とがり  岩をも　つらぬくほど　硬くなる。
+TEXT: 普段やわらかい頭のトゲは力をこめると鋭くとがり 岩をもつらぬくほど硬くなる。
 
 RESOURCE ID: pokemon_desc_0651
-TEXT: 体を　覆う　頑丈な　殻が  敵の　攻撃を　弾き返し  鋭い　トゲで　反撃する。
+TEXT: 体を覆う頑丈な殻が敵の攻撃を弾き返し鋭いトゲで反撃する。
 
 RESOURCE ID: pokemon_desc_0652
-TEXT: 体当たりで　５０トンの　戦車を  ひっくり返す　パワー。  自分が　盾となって　仲間を　守る。
+TEXT: 体当たりで５０トンの戦車をひっくり返すパワー。自分が盾となって仲間を守る。
 
 RESOURCE ID: pokemon_desc_0653
-TEXT: 小枝を　食べると　元気になって  摂氏２００度を　超える　熱気を  大きな　耳から　噴き出す。
+TEXT: 小枝を食べると元気になって摂氏２００度を超える熱気を大きな耳から噴き出す。
 
 RESOURCE ID: pokemon_desc_0654
-TEXT: 木の枝を　尻尾に　挿している。  尻尾の　毛の　摩擦熱で  枝に　火をつけて　戦う。
+TEXT: 木の枝を尻尾に挿している。尻尾の毛の摩擦熱で枝に火をつけて戦う。
 
 RESOURCE ID: pokemon_desc_0655
-TEXT: 杖の　先端で　燃える　炎を　見つめて  精神統一すると  未来の　出来事を　見通せる。
+TEXT: 杖の先端で燃える炎を見つめて精神統一すると未来の出来事を見通せる。
 
 RESOURCE ID: pokemon_desc_0656
-TEXT: 胸と　背中から　泡を　出す。  弾力のある　泡で　攻撃を　受け止めて  ダメージを　減らす。
+TEXT: 胸と背中から泡を出す。弾力のある泡で攻撃を受け止めてダメージを減らす。
 
 RESOURCE ID: pokemon_desc_0657
-TEXT: 泡で　包んだ　小石を　投げる  技を　使う。３０メートル　先の  空き缶に　当てる　コントロール。
+TEXT: 泡で包んだ小石を投げる技を使う。３０メートル先の空き缶に当てるコントロール。
 
 RESOURCE ID: pokemon_desc_0658
-TEXT: 水を　圧縮して　手裏剣を　作り出す。  高速回転させて　飛ばすと  金属も　真っ二つ。
+TEXT: 水を圧縮して手裏剣を作り出す。高速回転させて飛ばすと金属も真っ二つ。
 
 RESOURCE ID: pokemon_desc_0659
-TEXT: 大きな　耳で　地面を　掘って  巣穴を　作る。  一晩中　休まずに　掘り続けられる。
+TEXT: 大きな耳で地面を掘って巣穴を作る。一晩中休まずに掘り続けられる。
 
 RESOURCE ID: pokemon_desc_0660
-TEXT: 大きな　耳は　１トンを　超える 岩を  楽に　持ち上げる　パワー。  工事現場で　大活躍する。
+TEXT: 大きな耳は１トンを超える 岩を楽に持ち上げるパワー。工事現場で大活躍する。
 
 RESOURCE ID: pokemon_desc_0661
 TEXT: 人懐っこい　性格。美しい　さえずりと  尾羽を　振る　動きで  仲間に　合図を　送る。
 
 RESOURCE ID: pokemon_desc_0662
-TEXT: 火の粉を　クチバシから　飛ばして  草むらを　焦がし　驚いて  飛び出した　獲物を　捕まえる。
+TEXT: 火の粉をクチバシから飛ばして草むらを焦がし驚いて飛び出した獲物を捕まえる。
 
 RESOURCE ID: pokemon_desc_0663
 TEXT: 激しい　戦いで　興奮すると  全身の　羽毛の　すきまから  火の粉を　噴き出して　飛行する。
 
 RESOURCE ID: pokemon_desc_0664
-TEXT: とりポケモンに　襲われると  黒い　粉を　まき散らす。  触れると　マヒする　毒の粉だ。
+TEXT: とりポケモンに襲われると黒い粉をまき散らす。触れるとマヒする毒の粉だ。
 
 RESOURCE ID: pokemon_desc_0665
-TEXT: しげみの　陰に　隠れて　暮らす。  敵に　襲われると　体の　毛を  鋭く　逆立てて　威嚇する。
+TEXT: しげみの陰に隠れて暮らす。敵に襲われると体の毛を鋭く逆立てて威嚇する。
 
 RESOURCE ID: pokemon_desc_0666
-TEXT: 世界には　さまざまな　羽模様の  ビビヨンがいる。住んでいる　土地の  気候が　影響しているようだ。
+TEXT: 世界にはさまざまな羽模様のビビヨンがいる。住んでいる土地の気候が影響しているようだ。
 
 RESOURCE ID: pokemon_desc_0667
-TEXT: 強い　相手に　立ち向かうときほど  たてがみが　高温になり  全身に　力が　みなぎるのだ。
+TEXT: 強い相手に立ち向かうときほどたてがみが高温になり全身に力がみなぎるのだ。
 
 RESOURCE ID: pokemon_desc_0668
-TEXT: 群れの　中で　一番　大きな　炎の  たてがみを　持つ　オスが  リーダーとして　仲間を　率いる。
+TEXT: 群れの中で一番大きな炎のたてがみを持つオスがリーダーとして仲間を率いる。
 
 RESOURCE ID: pokemon_desc_0669
-TEXT: 花の　秘めた　力を　引き出して  自在に　操る。フラベベが　持つ　花は  もはや　体の　一部だ。
+TEXT: 花の秘めた力を引き出して自在に操る。フラベベが持つ花はもはや体の一部だ。
 
 RESOURCE ID: pokemon_desc_0670
-TEXT: 花畑を　飛び回り　枯れかけた　花を  世話する。花の　秘められた　力を  引き出して　戦う。
+TEXT: 花畑を飛び回り枯れかけた花を世話する。花の秘められた力を引き出して戦う。
 
 RESOURCE ID: pokemon_desc_0671
-TEXT: テリトリーは　見事な　花園。  草花の　放つ　エネルギーを　浴びて  自分の　パワーにするのだ。
+TEXT: テリトリーは見事な花園。草花の放つエネルギーを浴びて自分のパワーにするのだ。
 
 RESOURCE ID: pokemon_desc_0672
-TEXT: 人と　暮らすようになった  最初の　ポケモンと　言われる。  穏やかな　性格の　ポケモン。
+TEXT: 人と暮らすようになった最初のポケモンと言われる。穏やかな性格のポケモン。
 
 RESOURCE ID: pokemon_desc_0673
-TEXT: ツノを　握る　わずかな　違いから  トレーナーの　気持ちを　読み取るので  一体となって　走れるのだ。
+TEXT: ツノを握るわずかな違いからトレーナーの気持ち読み取るので一体となって走れるのだ。
 
 RESOURCE ID: pokemon_desc_0674
-TEXT: 敵に　なめられないよう　がんばって  にらみつけるが　効果は　薄い。  くわえた　葉っぱが　トレードマーク。
+TEXT: 敵になめられないようがんばってにらみつけるが効果は薄い。くわえた葉っぱがトレードマーク。
 
 RESOURCE ID: pokemon_desc_0675
-TEXT: 気性が　荒く　ケンカっ早いが  弱いものいじめは　許さない。  葉っぱで　敵の　動きを　読む。
+TEXT: 気性が荒くケンカっ早いが弱いものいじめは許さない。葉っぱで敵の動きを読む。
 
 RESOURCE ID: pokemon_desc_0676
 TEXT: ボサボサの　体毛を　刈りこむと  姿が　美しくなる　だけでなく  身体の　キレが　良くなるのだ。
 
 RESOURCE ID: pokemon_desc_0677
-TEXT: 強力な　サイコパワーが  漏れ出さないように　放出する　器官を  耳で　ふさいでいるのだ。
+TEXT: 強力なサイコパワーが漏れ出さないように放出する器官を耳でふさいでいるのだ。
 
 RESOURCE ID: pokemon_desc_0678
-TEXT: 危険が　迫ると　耳を　持ち上げ  １０トン　トラックを　ひねりつぶす  サイコパワーを　解放する。
+TEXT: 危険が迫ると耳を持ち上げ１０トントラックをひねりつぶすサイコパワーを解放する。
 
 RESOURCE ID: pokemon_desc_0679
-TEXT: 死者の　魂が　古代の　剣に  宿って　生まれたらしい。  人に　とりつき　命を　吸う。
+TEXT: 死者の魂が古代の剣に宿って生まれたらしい。人にとりつき命を吸う。
 
 RESOURCE ID: pokemon_desc_0680
-TEXT: 進化して　２本に　分裂した。  テレパシーで　会話して  連係攻撃で　敵を　切り刻む。
+TEXT: 進化して２本に分裂した。テレパシーで会話して連係攻撃で敵を切り刻む。
 
 RESOURCE ID: pokemon_desc_0681
-TEXT: 歴代の　王が　連れていた。  霊力で　人や　ポケモンの  心を　操り　従わせる。
+TEXT: 歴代の王が連れていた。霊力で人やポケモンの心を操り従わせる。
 
 RESOURCE ID: pokemon_desc_0682
-TEXT: かいだ　者を　うっとりさせる  香りを　体から　漂わせる。  食べた　もので　香りが　変わる。
+TEXT: かいだ者をうっとりさせる香りを体から漂わせる。食べたもので香りが変わる。
 
 RESOURCE ID: pokemon_desc_0683
-TEXT: さまざまな　においを　作り出す。  相手の　嫌がる　においを　出して  戦いを　有利に　進めるのだ。
+TEXT: さまざまなにおいを作り出す。相手の嫌がるにおいを出して戦いを有利に進めるのだ。
 
 RESOURCE ID: pokemon_desc_0684
-TEXT: わたあめのような　甘くて　ベタつく  白い　糸を　出して  相手を　絡め取り　動きを　封じる。
+TEXT: わたあめのような甘くてベタつく白い糸を出して相手を絡め取り動きを封じる。
 
 RESOURCE ID: pokemon_desc_0685
-TEXT: わずかな　においでも　かぎわける  敏感な　きゅうかくを　活かして  パティシエの　手伝いを　している。
+TEXT: わずかなにおいでもかぎわける 敏感なきゅうかくを活かしてパティシエの手伝いをしている。
 
 RESOURCE ID: pokemon_desc_0686
-TEXT: 発光体の　点滅を　見つめた　相手は  目が　くらみ　戦う　気持ちが  なくなってしまうのだ。
+TEXT: 発光体の点滅を見つめた相手は 目がくらみ戦う気持ちがなくなってしまうのだ。
 
 RESOURCE ID: pokemon_desc_0687
-TEXT: ポケモンで　一番　強力な  催眠術を　使う。相手を　意のままに  操ってしまうのだ。
+TEXT: ポケモンで一番強力な催眠術を使う。相手を意のままに操ってしまうのだ。
 
 RESOURCE ID: pokemon_desc_0688
-TEXT: ２匹の　カメテテが　ひとつの　岩で  暮らす。ケンカすると　どちらかが  他の　岩に　移る。
+TEXT: ２匹のカメテテがひとつの岩で暮らす。ケンカするとどちらかが他の岩に移る。
 
 RESOURCE ID: pokemon_desc_0689
-TEXT: 進化のとき　２匹の　カメテテが  ７匹に　分裂した　ポケモン。  ７匹分の　パワーで　戦う。
+TEXT: 進化のとき２匹のカメテテが７匹に分裂したポケモン。７匹分のパワーで戦う。
 
 RESOURCE ID: pokemon_desc_0690
-TEXT: 腐った　海藻に　擬態する。  気づかずに　近寄ってきた　獲物に  毒液を　浴びせて　しとめる。
+TEXT: 腐った海藻に擬態する。気づかずに近寄ってきた獲物に毒液を浴びせてしとめる。
 
 RESOURCE ID: pokemon_desc_0691
-TEXT: タンカーの　船体を　腐らせる　猛毒を  縄張りに　入りこんだ　ものに  見境なく　吐きかける。
+TEXT: タンカーの船体を腐らせる猛毒を縄張りに入りこんだものに見境なく吐きかける。
 
 RESOURCE ID: pokemon_desc_0692
-TEXT: 大きな　ハサミから　圧縮した　水を  ピストルのように　撃ち出し  飛んでいる　獲物を　撃ち落とす。
+TEXT: 大きなハサミから圧縮した水をピストルのように撃ち出し飛んでいる獲物を撃ち落とす。
 
 RESOURCE ID: pokemon_desc_0693
-TEXT: 水の　砲弾を　発射する  巨大な　腕を　持つ。  タンカーの　船体を　撃ち抜くぞ。
+TEXT: 水の砲弾を発射する巨大な腕を持つ。タンカーの船体を撃ち抜くぞ。
 
 RESOURCE ID: pokemon_desc_0694
-TEXT: 砂漠で　生活する。  太陽の　光を　浴びて　発電すれば  エサを　食べなくても　平気なのだ。
+TEXT: 砂漠で生活する。太陽の光を浴びて発電すればエサを食べなくても平気なのだ。
 
 RESOURCE ID: pokemon_desc_0695
-TEXT: エリマキを　広げて　発電する。  エレザード　１匹で　高層ビルで  必要な　電気を　作れるのだ。
+TEXT: エリマキを広げて発電する。エレザード１匹で高層ビルで必要な電気を作れるのだ。
 
 RESOURCE ID: pokemon_desc_0696
-TEXT: 化石から　復活した　ポケモン。  気に入らない　ことが　あると  かんしゃくを　起こして　大暴れ。
+TEXT: 化石から復活したポケモン。気に入らないことがあるとかんしゃくを起こして大暴れ。
 
 RESOURCE ID: pokemon_desc_0697
-TEXT: 分厚い　鉄板を　紙のように  かみちぎる　おおあごで　古代の  世界では　無敵を　誇った。
+TEXT: 分厚い鉄板を紙のようにかみちぎるおおあごで古代の世界では無敵を誇った。
 
 RESOURCE ID: pokemon_desc_0698
-TEXT: １億年前から　氷漬けに　なっていた  体の　一部から　復活した  古代の　ポケモン。
+TEXT: １億年前から氷漬けになっていた体の一部から復活した古代のポケモン。
 
 RESOURCE ID: pokemon_desc_0699
-TEXT: マイナス１５０度の　冷気を  ひし形の　結晶から　出して  敵を　包み　氷漬けにする。
+TEXT: マイナス１５０度の冷気をひし形の結晶から出して敵を包み氷漬けにする。
 
 RESOURCE ID: pokemon_desc_0700
-TEXT: リボンのような　触角から  気持ちを　和らげる　波動を　送りこみ  戦いを　やめさせる。
+TEXT: リボンのような触角から気持ちを和らげる波動を送りこみ 戦いをやめさせる。
 
 RESOURCE ID: pokemon_desc_0701
-TEXT: 体格は　小柄だが　カイリキーや  ハリテヤマなど　大きな　ポケモンと  互角に　戦う　テクニシャン。
+TEXT: 体格は小柄だがカイリキーやハリテヤマなど大きなポケモンと互角に戦うテクニシャン。
 
 RESOURCE ID: pokemon_desc_0702
-TEXT: ヒゲが　アンテナの　役割。  電波を　送受信して　遠くの　仲間と  連絡を　取り合うのだ。
+TEXT: ヒゲがアンテナの役割。電波を送受信して遠くの仲間と連絡を取り合うのだ。
 
 RESOURCE ID: pokemon_desc_0703
-TEXT: 地下深くの　高温　高圧な  環境で　生まれた。  頭の　石から　エネルギーを　放つ。
+TEXT: 地下深くの高温高圧な環境で生まれた。頭の石からエネルギーを放つ。
 
 RESOURCE ID: pokemon_desc_0704
-TEXT: 一番　弱い　ドラゴンポケモン。  ヌメヌメの　体が　乾かないよう  ジメジメした　日陰で　暮らす。
+TEXT: 一番弱いドラゴンポケモン。ヌメヌメの体が乾かないようジメジメした日陰で暮らす。
 
 RESOURCE ID: pokemon_desc_0705
-TEXT: なんでも　溶かしてしまう　粘液を  分泌して　敵を　撃退する。  目玉は　退化して　見えていない。
+TEXT: なんでも溶かしてしまう粘液を分泌して敵を撃退する。目玉は退化して見えていない。
 
 RESOURCE ID: pokemon_desc_0706
-TEXT: 人懐っこい　ドラゴンポケモン。  大好きな　トレーナーに　抱き着いて  粘液で　ヌルヌルにしてしまう。
+TEXT: 人懐っこいドラゴンポケモン。大好きなトレーナーに抱き着いて粘液でヌルヌルにしてしまう。
 
 RESOURCE ID: pokemon_desc_0707
-TEXT: カギを　集める　習性。  敵に　襲われると　ジャラジャラと  カギを　打ち鳴らして　威嚇する。
+TEXT: カギを集める習性。敵に襲われるとジャラジャラとカギを打ち鳴らして威嚇する。
 
 RESOURCE ID: pokemon_desc_0708
 TEXT: 腐った　切り株に　魂が　宿り  ポケモンに　なった。  人の　寄りつかない　森に　住む。
 
 RESOURCE ID: pokemon_desc_0709
-TEXT: ほかの　木々を　自在に　操る。  森を　荒らす　人間は　死ぬまで  森から　出られないようにするのだ。
+TEXT: ほかの木々を自在に操る。森を荒らす人間は死ぬまで森から出られないようにするのだ。
 
 RESOURCE ID: pokemon_desc_0710
-TEXT: 成仏できない　魂を  カボチャの　体に　入れている。  日暮れと　ともに　動きはじめる。
+TEXT: 成仏できない魂をカボチャの体に入れている。日暮れとともに動きはじめる。
 
 RESOURCE ID: pokemon_desc_0711
-TEXT: 新月の　夜に　不気味な　声で  歌いながら　街中を　さまよう。  その歌を　聞くと　のろわれる。
+TEXT: 新月の夜に不気味な声で歌いながら街中をさまよう。その歌を聞くとのろわれる。
 
 RESOURCE ID: pokemon_desc_0712
-TEXT: 体を　覆う　氷が  敵の　攻撃を　防ぐ。割られても  冷気で　すぐに　氷を　張る。
+TEXT: 体を覆う氷が敵の攻撃を防ぐ。割られても冷気ですぐに氷を張る。
 
 RESOURCE ID: pokemon_desc_0713
-TEXT: 凍りついた　体は　鋼鉄のように  硬い。立ちふさがる　ものを  巨体で　押しつぶし　移動する。
+TEXT: 凍りついた体は鋼鉄のように硬い。立ちふさがるものを巨体で押しつぶし移動する。
 
 RESOURCE ID: pokemon_desc_0714
-TEXT: 真っ暗な　洞窟で　暮らす。  ２０万ヘルツの　超音波を  大きな　耳から　発射する。
+TEXT: 真っ暗な洞窟で暮らす。２０万ヘルツの超音波を大きな耳から発射する。
 
 RESOURCE ID: pokemon_desc_0715
-TEXT: 月明かりすら　ない　闇夜を　飛び  油断している　獲物を　襲う。  暗闇の　戦いでは　無敵だ。
+TEXT: 月明かりすらない闇夜を飛び油断している獲物を襲う。暗闇の戦いでは無敵だ。
 
 RESOURCE ID: pokemon_desc_0716
-TEXT: 永遠の　命を　分け与えると  言われている。樹木の　姿で  １０００年　眠り　復活する。
+TEXT: 永遠の命を分け与えると言われている。樹木の姿で１０００年眠り復活する。
 
 RESOURCE ID: pokemon_desc_0717
-TEXT: 翼と　尾羽を　広げて　赤く　輝くとき  生き物の　命を　吸い取る  伝説の　ポケモン。
+TEXT: 翼と尾羽を広げて赤く輝くとき生き物の命を吸い取る伝説のポケモン。
 
 RESOURCE ID: pokemon_desc_0718
-TEXT: カロス地方の　生態系が　崩れると  姿を　現して  秘めた　力を　発揮するらしい。
+TEXT: カロス地方の生態系が崩れると姿を現して秘めた力を発揮するらしい。
 
 RESOURCE ID: pokemon_desc_0719
-TEXT: メレシーの　突然変異。  ピンク色に　輝く　体は  世界一　美しいと　言われる。
+TEXT: メレシーの突然変異。ピンク色に輝く体は世界一美しいと言われる。
 
 RESOURCE ID: pokemon_desc_0720
-TEXT: 真の姿は　巨大な　力を　持っている。  財宝　欲しさに　それが　隠された　城ごと  引き抜き　奪い去った　という　伝説が　ある。
+TEXT: 真の姿は巨大な力を持っている。財宝欲しさにそれが隠された城ごと引き抜き奪い去ったという伝説がある。
 
 RESOURCE ID: pokemon_desc_0721
-TEXT: 水蒸気を　噴き出して　自分の　姿を  濃霧で　隠す。人の　立ち入らない  山に　住むという。
+TEXT: 水蒸気を噴き出して自分の姿を濃霧で隠す。人の立ち入らない山に住むという。
 
 RESOURCE ID: pokemon_desc_0808
 TEXT: とろりと溶けた鋼の体。地中の鉄分や金属を溶かして吸収する。
@@ -24995,7 +25208,7 @@ RESOURCE ID: pokemon_desc_0865
 TEXT: 歴戦を生き抜いたものがこの姿に進化する。ネギが枯れるとき戦場を去る。
 
 RESOURCE ID: pokemon_desc_0866
-TEXT: タップダンスの　達人。氷で　できた　ステッキを　振り軽やかな　ステップを　披露する。
+TEXT: タップダンスの達人。氷でできたステッキを振り軽やかなステップを披露する。
 
 RESOURCE ID: pokemon_desc_0867
 TEXT: 強い呪いをこめて描かれた古代の絵がデスマスの魂を取り込み動きだした。
@@ -25204,6 +25417,9 @@ TEXT: GOスナップショットのサプライズ後に捕まえた
 RESOURCE ID: pokemon_info_caught_quest_challenge
 TEXT: フィールドリサーチで捕まえた
 
+RESOURCE ID: pokemon_info_caught_quest_referral
+TEXT: リファラルマイルストーンを達成して捕まえた
+
 RESOURCE ID: pokemon_info_caught_quest_stamp
 TEXT: 大発見を達成して捕まえた
 
@@ -25353,6 +25569,9 @@ TEXT: このポケモンを送ることはできません
 
 RESOURCE ID: pokemon_info_multi_transfer_shiny_pokemon_error
 TEXT: 色違いのポケモンは選択できません！
+
+RESOURCE ID: pokemon_info_none_not_unique_transferable
+TEXT: 送ることができるポケモンは含まれていません
 
 RESOURCE ID: pokemon_info_none_transferable
 TEXT: すべて送ることができないポケモンです
@@ -28032,9 +28251,6 @@ TEXT: このポケストップは閉鎖中です
 RESOURCE ID: pokestop_unavailable_soon
 TEXT: このポケストップはもうすぐ閉じます
 
-RESOURCE ID: poseidon_passcode_title
-TEXT: Please enter activation code
-
 RESOURCE ID: privacy_location_helptext
 TEXT: アプリを開いていないときでも、ポケモンにアメを見つけてもらったり、タマゴをかえすことができるように、バックグラウンド動作中の位置情報アクセスを許可してください。
 
@@ -28605,6 +28821,9 @@ TEXT: マグマッグかゴクリンを{0}匹捕まえる
 RESOURCE ID: quest_catch_special_voltorb
 TEXT: ビリリダマを{0}匹捕まえる
 
+RESOURCE ID: quest_catch_trubbish_plural
+TEXT: ヤブクロンを{0}匹捕まえる
+
 RESOURCE ID: quest_catch_type_bug_plural
 TEXT: むしタイプのポケモンを{0}匹捕まえる
 
@@ -28889,6 +29108,9 @@ TEXT: 悪の組織に立ち向かえ7
 
 RESOURCE ID: quest_complete_roset
 TEXT: いばらポケモンを解明せよ！
+
+RESOURCE ID: quest_complete_snivt
+TEXT: くさへびポケモンを解明せよ！
 
 RESOURCE ID: quest_complete_spiritomb
 TEXT: 石に込められた謎を解け！'18
@@ -31041,11 +31263,92 @@ TEXT: ボルトロスのGOスナップショット写真を撮る
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: トルネロスのGOスナップショット写真を撮る
 
+RESOURCE ID: quest_snapshot_wild
+TEXT: 野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_bug
+TEXT: むしタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_dark
+TEXT: あくタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_dragon
+TEXT: ドラゴンタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_electric
+TEXT: でんきタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_fairy
+TEXT: フェアリータイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_fighting
+TEXT: かくとうタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_fire
+TEXT: ほのおタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_flying
+TEXT: ひこうタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
+TEXT: 野生のイシツブテ、サンドか、サボネアのGOスナップショット写真を撮る
+
+RESOURCE ID: quest_snapshot_wild_ghost
+TEXT: ゴーストタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_grass
+TEXT: くさタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_ground
+TEXT: じめんタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_hoothoot
+TEXT: 野生のホーホーのGOスナップショット写真を撮る
+
+RESOURCE ID: quest_snapshot_wild_ice
+TEXT: こおりタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_lotad_metapod_aipom
+TEXT: 野生のハスボー、トランセルか、エイパムのGOスナップショット写真を撮る
+
+RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
+TEXT: 野生のラブカス、チョンチーか、ケイコウオのGOスナップショット写真を撮る
+
+RESOURCE ID: quest_snapshot_wild_normal
+TEXT: ノーマルタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_poison
+TEXT: どくタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_psychic
+TEXT: エスパータイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_rock
+TEXT: いわタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_skarmory_dodrio_mantine
+TEXT: 野生のエアームド、ドードリオか、マンタインのGOスナップショット写真を撮る
+
+RESOURCE ID: quest_snapshot_wild_steel
+TEXT: はがねタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_water
+TEXT: みずタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
 RESOURCE ID: quest_snapshots_inarow_plural
 TEXT: ポケモンのGOスナップショット写真を{0}日連続で撮る
 
 RESOURCE ID: quest_snapshots_plural
 TEXT: GOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snivt_catch_b
+TEXT: ツタージャを{0}匹捕まえる
+
+RESOURCE ID: quest_snivt_evolve_b
+TEXT: ツタージャを{0}匹進化させる
+
+RESOURCE ID: quest_snivt_evolve_s1
+TEXT: ジャノビーを{0}匹進化させる
 
 RESOURCE ID: quest_special_dialogue_at_0_0
 TEXT: また会えたね、%PLAYERNAME%。ケーシィが何匹もいるのに気付いたかい？
@@ -33885,6 +34188,75 @@ TEXT: わたしの夢を食べて、美しいピンク色の煙を吐いてい�
 RESOURCE ID: quest_special_dialogue_season2_4_7
 TEXT: ムンナについては、わたしのほうでよく調べてみるよ。また協力をお願いすることがあると思うが、そのときは頼んだよ。さぁ、元気にGOだ！
 
+RESOURCE ID: quest_special_dialogue_snivt_0_0
+TEXT: やぁ、%PLAYERNAME%！ちょうどよかった。
+
+RESOURCE ID: quest_special_dialogue_snivt_0_1
+TEXT: いま散歩から戻ったところなんだが、すっかりリフレッシュして、
+
+RESOURCE ID: quest_special_dialogue_snivt_0_2
+TEXT: 気分も最高なんだ。日差しが強かったせいか、ツタージャが集結しているのを見てね。
+
+RESOURCE ID: quest_special_dialogue_snivt_0_3
+TEXT: かなりの数だった。くさへびポケモンの調査なんて楽しそうじゃないか！
+
+RESOURCE ID: quest_special_dialogue_snivt_0_4
+TEXT: 協力をお願いできるかな？
+
+RESOURCE ID: quest_special_dialogue_snivt_0_5
+TEXT: 攻撃してきたりしないと思うので、じっくり観察してみてくれ。
+
+RESOURCE ID: quest_special_dialogue_snivt_0_6
+TEXT: では、早速調査を始めてもらおうか！
+
+RESOURCE ID: quest_special_dialogue_snivt_1_0
+TEXT: やぁ、おかえり！
+
+RESOURCE ID: quest_special_dialogue_snivt_1_1
+TEXT: ツタージャがなぜ太陽の光を求めるのか、わかったよ。
+
+RESOURCE ID: quest_special_dialogue_snivt_1_2
+TEXT: しっぽで太陽を浴びて光合成するんだ。このポケモン、
+
+RESOURCE ID: quest_special_dialogue_snivt_1_3
+TEXT: イッシュ地方で最初に発見されたんだが、とてもかしこいポケモンなんだよ。
+
+RESOURCE ID: quest_special_dialogue_snivt_1_4
+TEXT: レポートにまとめるにあたって、ジャノビーに進化させてみてくれないか？
+
+RESOURCE ID: quest_special_dialogue_snivt_1_5
+TEXT: つるのムチには気を付けるんだぞ！
+
+RESOURCE ID: quest_special_dialogue_snivt_2_0
+TEXT: よくやった、%PLAYERNAME%！きみのジャノビー、本当にスタイリッシュだな。
+
+RESOURCE ID: quest_special_dialogue_snivt_2_1
+TEXT: くさへびポケモンには変わりないのだが、地面をすべるように走るというから、すばやさが特徴だな。生い茂った草木の陰に隠れて攻撃を避けることもできる。
+
+RESOURCE ID: quest_special_dialogue_snivt_2_2
+TEXT: ツタージャ、ジャノビーときたら、次は．．．ジャローダ！
+
+RESOURCE ID: quest_special_dialogue_snivt_2_3
+TEXT: ロイヤルポケモンであるジャローダ。太陽エネルギーを体内で増幅させることで知られており、太陽の光とは切っても切れないポケモンだ。
+
+RESOURCE ID: quest_special_dialogue_snivt_2_4
+TEXT: ジャローダに進化させたら、一緒に冒険する良き相棒になってくれるんじゃないかな？
+
+RESOURCE ID: quest_special_dialogue_snivt_3_0
+TEXT: すばらしい！ジャローダに進化させることができたんだな！
+
+RESOURCE ID: quest_special_dialogue_snivt_3_1
+TEXT: 気高いひとみでにらむことで、相手に恐怖を与えるポケモンだ。相手が平気だと見るや、本気で戦うんだ。
+
+RESOURCE ID: quest_special_dialogue_snivt_3_2
+TEXT: そんな戦い方を、近くで見てみたいものだ！
+
+RESOURCE ID: quest_special_dialogue_snivt_3_3
+TEXT: 協力に感謝する！わたしも急いでレポートをまとめてしまうよ。草原にでも行きたくなってきた．．．
+
+RESOURCE ID: quest_special_dialogue_snivt_3_4
+TEXT: では、また会おう。それまで元気にGOだ！
+
 RESOURCE ID: quest_special_dialogue_spiritomb_0_0
 TEXT: おや、%PLAYERNAME%じゃないか！ちょうどよかった。
 
@@ -34956,6 +35328,21 @@ TEXT: 神話を読み解け！(4/5)
 RESOURCE ID: quest_title_season2_4
 TEXT: 神話を読み解け！(5/5)
 
+RESOURCE ID: quest_title_snivt
+TEXT: くさへびポケモンを解明せよ！
+
+RESOURCE ID: quest_title_snivt_0
+TEXT: くさへびポケモンを解明せよ！(1/4)
+
+RESOURCE ID: quest_title_snivt_1
+TEXT: くさへびポケモンを解明せよ！(2/4)
+
+RESOURCE ID: quest_title_snivt_2
+TEXT: くさへびポケモンを解明せよ！(3/4)
+
+RESOURCE ID: quest_title_snivt_3
+TEXT: くさへびポケモンを解明せよ！(4/4)
+
 RESOURCE ID: quest_title_spiritomb
 TEXT: 石に込められた謎を解け！'18
 
@@ -35351,6 +35738,60 @@ TEXT: ウォーターフェスティバル：レイドバトルで1回勝つ
 
 RESOURCE ID: quest_wayfarer_catch_pokemon_plural
 TEXT: Wayfarer Bonus: ポケモンを{0}匹捕まえる
+
+RESOURCE ID: quest_wild_bug_types
+TEXT: むしタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_dark_types
+TEXT: あくタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_dragon_types
+TEXT: ドラゴンタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_electric_types
+TEXT: でんきタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_fairy_types
+TEXT: フェアリータイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_fighting_types
+TEXT: かくとうタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_fire_types
+TEXT: ほのおタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_flying_types
+TEXT: ひこうタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_ghost_types
+TEXT: ゴーストタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_grass_types
+TEXT: くさタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_ground_types
+TEXT: じめんタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_ice_types
+TEXT: こおりタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_normal_types
+TEXT: ノーマルタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_poison_types
+TEXT: どくタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_psychic_types
+TEXT: エスパータイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_rock_types
+TEXT: いわタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_steel_types
+TEXT: はがねタイプのポケモンがより多く野生で出現
+
+RESOURCE ID: quest_wild_water_types
+TEXT: みずタイプのポケモンがより多く野生で出現
 
 RESOURCE ID: quest_win_gym_plural
 TEXT: ジムで{0}回バトルに勝つ
@@ -40229,11 +40670,138 @@ TEXT: 捨てる道具：
 RESOURCE ID: recycle_dialog_suffix
 TEXT: {0}
 
+RESOURCE ID: referee_completed_milestone
+TEXT: {0}さんがマイルストーンを達成しました！
+
+RESOURCE ID: referral_code_copy
+TEXT: コードをコピー
+
+RESOURCE ID: referral_code_share
+TEXT: リファラルコード共有
+
+RESOURCE ID: referral_disclaimer
+TEXT: トレーナーを招待して再開してもらった場合、ログインしていない期間が{0}日を超えない限りリワードを受け取ることができません。
+
+RESOURCE ID: referral_enter_code_about
+TEXT: コードはPokémon GOをプレイして
+いる友人から入手できます
+
+RESOURCE ID: referral_enter_code_button
+TEXT: リファラルコードを持っていますか？
+
+RESOURCE ID: referral_enter_code_fill
+TEXT: 自動入力
+
+RESOURCE ID: referral_enter_code_later
+TEXT: 72時間以内であれば、フレンドタブからコードを入力することもできます
+
+RESOURCE ID: referral_enter_code_skip
+TEXT: スキップ
+
+RESOURCE ID: referral_enter_invite_code
+TEXT: リファラルコードを入力
+
+RESOURCE ID: referral_friend_invite_error_friend_later_message
+TEXT: このプレイヤーを紹介者に追加しますか？リファラルコード使用のリワードは受け取ることができますが、以降のリワードを受け取るには、紹介者とフレンドになる必要があります。
+
+RESOURCE ID: referral_friend_invite_error_friend_list_full_message
+TEXT: リファラルコード使用のリワードは受け取ることができます。以降のリワードを受け取るには、紹介者とフレンドになる必要があります。
+
+RESOURCE ID: referral_friend_invite_error_inbox_full_title
+TEXT: このプレイヤーには未承認のフレンド申請があります
+
+RESOURCE ID: referral_friend_invite_error_outbox_full_title
+TEXT: フレンド申請を送ることができません
+
+RESOURCE ID: referral_friend_invite_error_player_does_not_exist_deleted
+TEXT: このプレイヤーのアカウントは削除された可能性があります
+
+RESOURCE ID: referral_friend_invite_error_self
+TEXT: 自分を紹介することはできません
+
+RESOURCE ID: referral_friend_invite_error_their_friend_list_full_title
+TEXT: 友人のフレンドリストがいっぱいです
+
+RESOURCE ID: referral_friend_invite_error_title
+TEXT: フレンド申請を送ることができませんでした
+
+RESOURCE ID: referral_friend_invite_error_your_friend_list_full_title
+TEXT: フレンドリストがいっぱいです！
+
+RESOURCE ID: referral_friend_invite_later_error_title
+TEXT: 紹介者のトレーナーにフレンド申請を送ることができませんでした
+
+RESOURCE ID: referral_initial_reward_generic_name
+TEXT: フレンド
+
+RESOURCE ID: referral_initial_reward_joined
+TEXT: あなたのフレンドが
+Pokémon GOを始めました！
+
+RESOURCE ID: referral_initial_reward_label
+TEXT: リワード
+
+RESOURCE ID: referral_initial_reward_returned
+TEXT: あなたのフレンドが
+Pokémon GOを再開しました！
+
+RESOURCE ID: referral_initial_reward_welcome
+TEXT: 友人のご紹介によりPokémon GOを
+開始していただきありがとうございます！
+
+RESOURCE ID: referral_initial_reward_welcome_back
+TEXT: 友人のご紹介によりPokémon GOを
+再開していただきありがとうございます！
+
+RESOURCE ID: referral_invite
+TEXT: 招待する
+
+RESOURCE ID: referral_invite_subtitle
+TEXT: 友人を招待して
+リワードをもらおう
+
+RESOURCE ID: referral_invite_title
+TEXT: Pokémon GO 招待
+
+RESOURCE ID: referral_log_complete_milestone
+TEXT: マイルストーン{0}を達成した！
+
+RESOURCE ID: referral_reward_example_description
+TEXT: 紹介したフレンドのプレイ状況に応じてもらえるリワードです。フレンドにも
+モンスターボール100個をはじめとする別のリワードが用意されています。
+
+RESOURCE ID: referral_system_disabled
+TEXT: リファラル機能は、ただいまお使いいただけません
+
+RESOURCE ID: referral_welcome
+TEXT: ようこそ！
+
+RESOURCE ID: referral_welcome_back
+TEXT: おかえりなさい！
+
+RESOURCE ID: referral_welcome_back_subtitle
+TEXT: 追加された機能や要素をお楽しみください！
+
+RESOURCE ID: referral_welcome_subtitle
+TEXT: 冒険の日々が始まります！
+
+RESOURCE ID: referral_your_code
+TEXT: 自分のリファラルコード
+
 RESOURCE ID: region_filter_group_key
 TEXT: 地方
 
 RESOURCE ID: registration_choice_screen
 TEXT: 登録するアカウントサービスを選択してください
+
+RESOURCE ID: rejoin_details_failed
+TEXT: レイドの詳細を取得できませんでした IID: {0}
+
+RESOURCE ID: rejoin_no_battle
+TEXT: レイドバトルがありません IID: {0}
+
+RESOURCE ID: rejoin_no_lobby
+TEXT: ロビーがありません IID: {0}
 
 RESOURCE ID: remote_raid_battle_helptext
 TEXT: リモートレイドパス使用
@@ -40393,7 +40961,7 @@ RESOURCE ID: retention_friend_bonus_message
 TEXT: フレンドにギフトを贈ってXPゲット！ギフトを開けてタマゴや道具をゲット！
 
 RESOURCE ID: retention_power_walk_message
-TEXT: ほしのかけらとしあわせタマゴを使ってレベルアップしよう！
+TEXT:  ほしのかけらとしあわせタマゴを使ってレベルアップしよう！
 
 RESOURCE ID: retro_cup_title
 TEXT: レトロカップ
@@ -40409,6 +40977,9 @@ TEXT: 着せ替えアイテム
 
 RESOURCE ID: reward_sticker
 TEXT: ステッカー
+
+RESOURCE ID: rivals_event_name
+TEXT: ライバルイベント
 
 RESOURCE ID: rock_type_event
 TEXT: タイプ上昇：いわ
@@ -41242,6 +41813,9 @@ TEXT: {0}でのEXレイドパスを{1}さんに送りました！
 RESOURCE ID: share_my_friend_code_message
 TEXT: Pokémon GO フレンドになりましょう！わたしのトレーナーコードは{0}です！
 
+RESOURCE ID: share_my_referral_code_message
+TEXT: わたしのコード{0}を使用してPokémon GOを開始または再開するとモンスターボール100個がもらえるほか、スペシャルボーナスも用意されています。{1}
+
 RESOURCE ID: share_title
 TEXT: 共有
 
@@ -41654,6 +42228,9 @@ TEXT: ロゼリアがより多く野生で出現
 RESOURCE ID: spawn_seedot
 TEXT: タネボーがより多く野生で出現
 
+RESOURCE ID: spawn_snivy
+TEXT: ツタージャがより多く野生で出現
+
 RESOURCE ID: spawn_weedle
 TEXT: ビードルがより多く野生で出現
 
@@ -41668,6 +42245,24 @@ TEXT: 会場限定：ポケモンを{0}匹捕まえる
 
 RESOURCE ID: special_event_gifts
 TEXT: 会場限定：ギフトを{0}個贈る
+
+RESOURCE ID: special_evo_prompt
+TEXT: 特別な進化
+
+RESOURCE ID: special_evo_prompt_daytime
+TEXT: {0}が進化できるのは日中だけです
+
+RESOURCE ID: special_evo_prompt_lure_module
+TEXT: {0}が進化するには{1}の近くにいる必要があります
+
+RESOURCE ID: special_evo_prompt_nighttime
+TEXT: {0}が進化できるのは夜間だけです
+
+RESOURCE ID: special_evo_prompt_rain
+TEXT: {0}が進化するには雨天か、{1}の近くにいる必要があります
+
+RESOURCE ID: special_evo_prompt_upside_down
+TEXT: {0}が進化するには、なんらかの助けが必要なようです
 
 RESOURCE ID: special_filter_group_key
 TEXT: 特別
@@ -41697,16 +42292,16 @@ RESOURCE ID: sponsored_gift_screenshot_error
 TEXT: 画像を保存できませんでした。ストレージへのアクセス権をご確認ください。
 
 RESOURCE ID: sponsored_gift_screenshot_saved
-TEXT: Offer saved to your photos!
+TEXT: 画像を保存しました！
 
 RESOURCE ID: sponsored_gift_tutorial_button
-TEXT: Go to Settings
+TEXT: 設定を開く
 
 RESOURCE ID: sponsored_gift_tutorial_description_1
 TEXT: スポンサーギフトが新しくなりました！冒険の途中で、そのエリアに関連する広告付きスポンサーギフトを受け取ることがあります。
 
 RESOURCE ID: sponsored_gift_tutorial_description_2
-TEXT: As always, we do not share your personal information with sponsors. For more information on this feature, please check out Niantic Support.
+TEXT: このギフトを受け取っても、プレイヤーの個人情報がスポンサーに共有されることはありません。スポンサーギフトについての詳細は、ヘルプをご覧ください。
 
 RESOURCE ID: sponsored_gift_tutorial_description_3
 TEXT: スポンサーギフト表示は、設定でオン・オフできます。スポンサーギフト表示をオフにしても、フレンドに贈ることができるタイプのギフトの受け取りには影響がありません。
@@ -42079,6 +42674,9 @@ TEXT: 「いばらポケモンを解明せよ！」チケットがショップ�
 
 RESOURCE ID: ticket_seedot
 TEXT: 「どんぐりポケモンの謎を解け！」チケットがショップに登場
+
+RESOURCE ID: ticket_snivy
+TEXT: スペシャルリサーチのチケットがショップに登場
 
 RESOURCE ID: ticket_weedle
 TEXT: 「けむしポケモンの謎を解け！」チケットがショップに登場
@@ -42725,7 +43323,7 @@ RESOURCE ID: trade_tips_p2|6
 TEXT: 交換することでフレンドとの仲良し度を高めることができます。
 
 RESOURCE ID: trade_tips_p2|7
-TEXT: シャドウポケモンや、幻のポケモンは交換できません
+TEXT: シャドウポケモンや、幻のポケモンは交換できません。
 
 RESOURCE ID: trade_toast_must_cancel_first
 TEXT: 選択をキャンセルしてください
@@ -43039,6 +43637,9 @@ RESOURCE ID: unauthorized_device_lockout_1|a
 TEXT: お使いの端末のOSのバージョンが非対応、または、特定の操作（ROOT化など）が検出されたため、Pokémon GO を起動できません。
 
 詳細は、<a href="unauthorized_device_help_center_link">ヘルプセンター</a> でご確認ください。
+
+RESOURCE ID: unfriend_niantic_friend_tip
+TEXT: このNianticゲームからこのフレンドを削除すると、両者がプレイするすべてのゲームにおいてフレンドとして削除されます。
 
 RESOURCE ID: unfriend_niantic_friend_title
 TEXT: {0}さんを削除してもいいですか？
@@ -43563,6 +44164,9 @@ TEXT: 昨シーズンのランクとレーティングはリセットされま�
 RESOURCE ID: vss_season_reset_title
 TEXT: 新ランク決定！
 
+RESOURCE ID: waiting_for_referral_code_from_link
+TEXT: コードをさがしています
+
 RESOURCE ID: water_festival_event_name
 TEXT: ウォーターフェスティバル
 
@@ -43615,7 +44219,8 @@ RESOURCE ID: weather_careful
 TEXT: 先ず安全を確認！
 
 RESOURCE ID: weather_careful_description
-TEXT: 荒天下での活動に際しては、お住まいの地域の各種注意報・警報をご確認のうえ、特に注意を払ってください！
+TEXT: 荒天下での活動に際しては、お住まいの地域の各種注意報・警報をご確認のうえ、
+ 特に注意を払ってください！
 
 RESOURCE ID: weather_clear
 TEXT: 晴天
@@ -43645,11 +44250,17 @@ TEXT: 天候が正確に反映されていません
 RESOURCE ID: weather_report_option_2
 TEXT: 天候は正確ですが、最新の状況を反映していません
 
+RESOURCE ID: weather_report_title
+TEXT: 天候
+
 RESOURCE ID: weather_snow
 TEXT: 雪
 
 RESOURCE ID: weather_sunny
 TEXT: 晴天
+
+RESOURCE ID: weather_warning_title
+TEXT: 天候
 
 RESOURCE ID: weather_weather
 TEXT: 天候
@@ -43693,6 +44304,9 @@ TEXT: 世界観光の日: 捕まえた場所の距離が10,000km離れている�
 RESOURCE ID: yesterday
 TEXT: 昨日
 
+RESOURCE ID: you_completed_milestone
+TEXT: マイルストーンを達成しました！フレンドタブから、{0}さんの画面を開いてリワードを受け取りましょう。
+
 RESOURCE ID: you_may_see_this_later
 TEXT: 後から変更可能
 
@@ -43704,6 +44318,9 @@ TEXT: トレーナーコードが変更されました
 
 RESOURCE ID: your_friend_code_desc
 TEXT: このコードを入力してもらうとフレンドになれます
+
+RESOURCE ID: your_referral_code_changed
+TEXT: リファラルコードを変更しました
 
 RESOURCE ID: your_trainer_code_title
 TEXT: 自分のトレーナーコード
