@@ -311,9 +311,15 @@ TEXT: Lendas luminosas X
 RESOURCE ID: luminous_y_event_name
 TEXT: Lendas luminosas Y
 
+RESOURCE ID: lurerainy.1_description
+TEXT: Um Módulo Atrair molhado que atrai Pokémon por 30 minutos, especialmente os que amam a chuva. Também pode fazer com que alguns Pokémon evoluam.
+
+RESOURCE ID: lurerainy.1_title
+TEXT: Módulo Atrair Chuvoso
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-29T17:43:31.115063
-at SHA 2d5c1c5c1e0a1eeb53f778d880fe1f071fe09431
+TEXT: Built at 2021-05-04T17:16:19.493161
+at SHA 4312944ce437aef59058ee889d5c6c678e810e2b
 Patch from: 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573, 0.207.0-SHA-cae7daba
 
 RESOURCE ID: milestone_rewards_title
@@ -364,6 +370,21 @@ TEXT: Classificação de Pokédex desbloqueada!
 RESOURCE ID: pokedex_category_unlocked_plural_header
 TEXT: Classificações de Pokédex desbloqueadas!
 
+RESOURCE ID: pokemon_category_0675
+TEXT: Pokémon Atemorizante
+
+RESOURCE ID: pokemon_category_0682
+TEXT: Pokémon Perfume
+
+RESOURCE ID: pokemon_category_0683
+TEXT: Pokémon Fragrância
+
+RESOURCE ID: pokemon_category_0684
+TEXT: Pokémon Algodão-Doce
+
+RESOURCE ID: pokemon_category_0685
+TEXT: Pokémon Suspiro
+
 RESOURCE ID: pokemon_category_0688
 TEXT: Duas Mãos
 
@@ -382,14 +403,44 @@ TEXT: Pokémon Revólver d'Água
 RESOURCE ID: pokemon_category_0693
 TEXT: Obuseiro
 
+RESOURCE ID: pokemon_category_0700
+TEXT: Pokémon Entrelaçamento
+
+RESOURCE ID: pokemon_category_0704
+TEXT: Pokémon Tecido Mole
+
+RESOURCE ID: pokemon_category_0705
+TEXT: Pokémon Tecido Mole
+
+RESOURCE ID: pokemon_category_0716
+TEXT: Pokémon Vida
+
+RESOURCE ID: pokemon_category_0717
+TEXT: Pokémon Destruição
+
 RESOURCE ID: pokemon_desc_0052_2335
 TEXT: A vivência com marinheiros bárbaros endureceu tanto o corpo deste Pokémon que partes dele se transformaram em ferro.
 
 RESOURCE ID: pokemon_desc_0083_2338
 TEXT: Farfetch'd da região de Galar são guerreiros corajosos e empunham alhos-porós espessos e resistentes em batalha.
 
+RESOURCE ID: pokemon_desc_0674
+TEXT: Dá o melhor de si para ser levado a sério por seus inimigos, mas seu olhar penetrante não é intimidador o suficiente. Mascar folhas é sua marca registrada.
+
 RESOURCE ID: pokemon_desc_0675
-TEXT: Although it possesses a violent temperament, it won't put up with bullying. It uses the leaf in its mouth to sense the movements of its enemies.
+TEXT: Embora seu temperamento seja violento, não suporta provocações. Ele usa a folha em sua boca para detectar os movimentos de seus inimigos.
+
+RESOURCE ID: pokemon_desc_0682
+TEXT: Expele um aroma que arrebata aqueles que o sentem. Essa fragrância muda dependendo do que ele comeu.
+
+RESOURCE ID: pokemon_desc_0683
+TEXT: Ele cria vários aromas, agradáveis e desagradáveis, e emite odores que seus inimigos não gostam para obter vantagem na batalha.
+
+RESOURCE ID: pokemon_desc_0684
+TEXT: Para emaranhar seus oponentes em batalha, expele fios brancos tão doces e grudentos quanto algodão-doce.
+
+RESOURCE ID: pokemon_desc_0685
+TEXT: Pode diferenciar o mais fraco dos odores. Ele usa seu olfato apurado para ajudar doceiros no trabalho.
 
 RESOURCE ID: pokemon_desc_0688
 TEXT: Dois Binacle vivem juntos em uma rocha. Quando brigam, um deles muda para uma rocha diferente.
@@ -412,17 +463,26 @@ TEXT: Suas enormes garras lançam bolas de canhão de água poderosas o suficien
 RESOURCE ID: pokemon_desc_0699
 TEXT: The diamond-shaped crystals on its body expel air as cold as -240 degrees Fahrenheit, surrounding its enemies and encasing them in ice.
 
+RESOURCE ID: pokemon_desc_0700
+TEXT: Ele envia uma aura tranquilizadora de seus cornichos que parecem antenas para acalmar as batalhas.
+
 RESOURCE ID: pokemon_desc_0704
-TEXT: The weakest Dragon-type Pokémon, it lives in damp, shady places, so its body doesn't dry out.
+TEXT: O mais fraco dos Pokémon tipo Dragão, vive em locais úmidos e com muita sombra para não secar o corpo.
 
 RESOURCE ID: pokemon_desc_0705
-TEXT: It drives away opponents by excreting a sticky liquid that can dissolve anything. Its eyes devolved, so it can't see anything.
+TEXT: Ele afasta os oponentes ao excretar um líquido grudento capaz de dissolver qualquer coisa. Seus olhos involuíram, e ele não pode ver nada.
+
+RESOURCE ID: pokemon_desc_0706
+TEXT: Esse Pokémon tipo Dragão muito amigável adora abraçar seu amado Treinador, deixando-o coberto em um visgo pegajoso.
 
 RESOURCE ID: pokemon_desc_0712
 TEXT: It blocks opponents' attacks with the ice that shields its body. It uses cold air to repair any cracks with new ice.
 
+RESOURCE ID: pokemon_desc_0716
+TEXT: Lendas dizem que ele pode compartilhar a vida eterna. Dormiu por mil anos na forma de uma árvore antes de reviver.
+
 RESOURCE ID: pokemon_desc_0717
-TEXT: When this legendary Pokémon's wings and tail feathers spread wide and glow red, it absorbs the life force of living creatures.
+TEXT: Quando as asas e penas da cauda deste lendário Pokémon estão abertas e brilhando em vermelho, ele absorve a energia vital dos seres vivos.
 
 RESOURCE ID: pokemon_desc_0718
 TEXT: When the Kalos region's ecosystem falls into disarray, it appears and reveals its secret power.
@@ -802,6 +862,9 @@ TEXT: PREENCHER
 RESOURCE ID: referral_enter_code_later
 TEXT: Você também pode inserir um código de indicação no menu de Amigos até 72 horas após o início de sua jornada.
 
+RESOURCE ID: referral_enter_code_later_parameterized
+TEXT: You can also enter a referral code in the Friends menu up to {0} hours after starting your journey.
+
 RESOURCE ID: referral_enter_code_skip
 TEXT: Pular
 
@@ -1008,6 +1071,12 @@ TEXT: Você atingiu seu máximo diário de contribuições de scan de {0}.
 
 RESOURCE ID: tricky_pokemon_event_name
 TEXT: Pokémon travessos
+
+RESOURCE ID: troydisk_rainy.1_description
+TEXT: Um Módulo Atrair molhado que atrai Pokémon por 30 minutos, especialmente os que amam a chuva. Também pode fazer com que alguns Pokémon evoluam.
+
+RESOURCE ID: troydisk_rainy.1_title
+TEXT: Módulo Atrair Chuvoso
 
 RESOURCE ID: unfriend_niantic_friend_tip
 TEXT: Remover essa amizade deste jogo da Niantic a removerá de todos os jogos que vocês dois jogarem.

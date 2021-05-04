@@ -370,6 +370,9 @@ TEXT: Il te reste {0} heure pour saisir un code de parrainage. Ton propre code d
 RESOURCE ID: invalid_referral_code
 TEXT: Code de parrainage non valide
 
+RESOURCE ID: invitations_not_available_special_desc
+TEXT: Tu ne peux pas inviter des amis à des Combats de Raids contre certains Pokémon légendaires, régionaux ou d’évènement.
+
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Un ticket pour accéder à une Étude spéciale le 11 avril 2021 de 11h à 17h (heures locales), où que tu sois.
 
@@ -406,12 +409,18 @@ TEXT: Légendes illuminées X
 RESOURCE ID: luminous_y_event_name
 TEXT: Légendes illuminées Y
 
+RESOURCE ID: lurerainy.1_description
+TEXT: Un Module Leurre mouillé attirant davantage de Pokémon pendant 30 minutes, surtout ceux qui aiment la pluie. Peut aussi provoquer une Évolution.
+
+RESOURCE ID: lurerainy.1_title
+TEXT: Module Leurre Pluvieux
+
 RESOURCE ID: mega_raid_hour
 TEXT: Heure des Méga-Raids
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-29T17:43:31.115063
-at SHA 2d5c1c5c1e0a1eeb53f778d880fe1f071fe09431
+TEXT: Built at 2021-05-04T17:16:19.493161
+at SHA 4312944ce437aef59058ee889d5c6c678e810e2b
 Patch from: 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573, 0.207.0-SHA-cae7daba
 
 RESOURCE ID: milestone_rewards_title
@@ -846,6 +855,9 @@ TEXT: REMPLIR
 RESOURCE ID: referral_enter_code_later
 TEXT: Tu peux aussi saisir un code de parrainage dans le menu Amis jusqu’à 72 h après avoir commencé ton aventure.
 
+RESOURCE ID: referral_enter_code_later_parameterized
+TEXT: You can also enter a referral code in the Friends menu up to {0} hours after starting your journey.
+
 RESOURCE ID: referral_enter_code_skip
 TEXT: Passer
 
@@ -1042,13 +1054,19 @@ RESOURCE ID: timed_challenge_bonus_modal_description_alt
 TEXT: Tous les Dresseurs qui participent à ce Défi global auront un but commun. Une fois que les Dresseurs auront relevé le défi, ils recevront tous un bonus à durée limitée.
 
 RESOURCE ID: titan_poi_scan_added
-TEXT: {0} more scanning contribution(s) will be added tomorrow.
+TEXT: You’ll have {0} more scan contribution(s) available tomorrow.
 
 RESOURCE ID: titan_poi_scan_available
-TEXT: You have {0} scanning contribution(s) available today.
+TEXT: You have {0} scan contribution(s) available today.
 
 RESOURCE ID: titan_poi_scan_maxed
-TEXT: You have reached your max daily scanning contribution(s) of {0}.
+TEXT: You’ve reached your max daily scan contribution(s) of {0}.
+
+RESOURCE ID: troydisk_rainy.1_description
+TEXT: Un Module Leurre mouillé attirant davantage de Pokémon pendant 30 minutes, surtout ceux qui aiment la pluie. Peut aussi provoquer une Évolution.
+
+RESOURCE ID: troydisk_rainy.1_title
+TEXT: Module Leurre Pluvieux
 
 RESOURCE ID: unfriend_niantic_friend_tip
 TEXT: En supprimant cet ami de ce jeu Niantic, tu le supprimeras en tant qu'ami dans tous les jeux auxquels vous jouez tous les deux.

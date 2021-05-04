@@ -236,12 +236,12 @@ RESOURCE ID: general1.ticket.2_snivt_title
 TEXT: ตั๋ว "ซึทาจะใต้แสงตะวัน"
 
 RESOURCE ID: general1.ticket.2_swabt_description
-TEXT: A ticket to access the "Cotton-Winged Bird" Special Research from May 15, 2021, at 11:00 a.m. to May 15, 2021, at 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษ "ทิลท์โทปีกปุยฝ้าย" ในวันที่ 15 พฤษภาคม 2021 ตั้งแต่เวลา 11:00-17:00 น. ตามเวลาท้องถิ่นไม่ว่าคุณจะอยู่ที่ใด สามารถดูรายละเอียดได้ที่ข่าวสารในเกม
 
- YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+คุณต้องเล่นเกมในช่วงเวลาที่กำหนดเพื่อรับโบนัสทั้งหมดจากอีเวนต์พิเศษ
 
 RESOURCE ID: general1.ticket.2_swabt_title
-TEXT: Cotton-Winged Bird Ticket
+TEXT: ตั๋ว "ทิลท์โทปีกปุยฝ้าย"
 
 RESOURCE ID: general1.ticket.2_title
 TEXT: ตั๋ว "ซึทาจะใต้แสงตะวัน"
@@ -394,10 +394,10 @@ RESOURCE ID: item_event_ticket_pink_snivt_details
 TEXT: ตั๋วนี้จะทำให้คุณเข้าร่วมงานวิจัยพิเศษในวันที่ 11 เมษายน 2021 ได้โดยอัตโนมัติไม่ว่าคุณจะอยู่ที่ใดในโลก
 
 RESOURCE ID: item_event_ticket_pink_swabt_desc
-TEXT: A ticket to access a special research on May 15 from 11 a.m. to 5 p.m. local time, wherever you are.
+TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษในวันที่ 15 พฤษภาคม ตั้งแต่เวลา 11:00 - 17:00 น. ตามเวลาท้องถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_pink_swabt_details
-TEXT: This ticket will automatically activate to give you access to a special research on May 15, wherever you are in the world.
+TEXT: ตั๋วนี้จะทำให้คุณเข้าร่วมงานวิจัยพิเศษในวันที่ 15 พฤษภาคมได้โดยอัตโนมัติตามเวลาท้องถิ่นทั่วโลก
 
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: ตั๋วนี้จะทำให้คุณเข้าร่วมงานวิจัยพิเศษในวันที่ 11 เมษายน 2021 ได้โดยอัตโนมัติไม่ว่าคุณจะอยู่ที่ใดในโลก
@@ -416,6 +416,12 @@ TEXT: ตำนานแฟรี่ X
 
 RESOURCE ID: luminous_y_event_name
 TEXT: ตำนานแฟรี่ Y
+
+RESOURCE ID: lurerainy.1_description
+TEXT: อุปกรณ์ปล่อยลัวร์น้ำฝน สามารถดึงดูดโปเกมอนป่าภายในช่วง 30 นาที โดยเฉพาะโปเกมอนที่ชื่นชอบฝน และทำให้โปเกมอนบางตัววิวัฒนาการได้ด้วย
+
+RESOURCE ID: lurerainy.1_title
+TEXT: อุปกรณ์ปล่อยลัวร์น้ำฝน
 
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: อ๊ะ %PLAYERNAME%! ออกเดินทางไปตรวจสอบกันเถอะ! จะว่าไปเธอเคยได้ยินทำนองเพลงนี้ไหม?
@@ -514,8 +520,8 @@ RESOURCE ID: masterwork_sm_title_4
 TEXT: งานวิจัยระยะยาว #151 (4/4)
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-29T17:43:31.115063
-at SHA 2d5c1c5c1e0a1eeb53f778d880fe1f071fe09431
+TEXT: Built at 2021-05-04T17:16:19.493161
+at SHA 4312944ce437aef59058ee889d5c6c678e810e2b
 Patch from: 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573, 0.207.0-SHA-cae7daba
 
 RESOURCE ID: milestone_rewards_title
@@ -974,6 +980,9 @@ TEXT: กรอก
 RESOURCE ID: referral_enter_code_later
 TEXT: สามารถกรอกโค้ดเชิญในหน้าเมนูเพื่อนได้ภายใน 72 ชั่วโมงหลังจากเริ่มเล่นเกมเช่นกัน
 
+RESOURCE ID: referral_enter_code_later_parameterized
+TEXT: You can also enter a referral code in the Friends menu up to {0} hours after starting your journey.
+
 RESOURCE ID: referral_enter_code_skip
 TEXT: ข้าม
 
@@ -1173,16 +1182,22 @@ RESOURCE ID: timed_challenge_bonus_modal_description_alt
 TEXT: All Trainers participating in a global challenge will contribute to a global goal. Once Trainers achieve the goal, a timed bonus will activate for all participants.
 
 RESOURCE ID: titan_poi_scan_added
-TEXT: {0} more scanning contribution(s) will be added tomorrow.
+TEXT: You’ll have {0} more scan contribution(s) available tomorrow.
 
 RESOURCE ID: titan_poi_scan_available
-TEXT: You have {0} scanning contribution(s) available today.
+TEXT: You have {0} scan contribution(s) available today.
 
 RESOURCE ID: titan_poi_scan_maxed
-TEXT: You have reached your max daily scanning contribution(s) of {0}.
+TEXT: You’ve reached your max daily scan contribution(s) of {0}.
 
 RESOURCE ID: tricky_pokemon_event_name
 TEXT: โปเกมอนที่แสนซุกซน
+
+RESOURCE ID: troydisk_rainy.1_description
+TEXT: อุปกรณ์ปล่อยลัวร์น้ำฝน สามารถดึงดูดโปเกมอนป่าภายในช่วง 30 นาที โดยเฉพาะโปเกมอนที่ชื่นชอบฝน และทำให้โปเกมอนบางตัววิวัฒนาการได้ด้วย
+
+RESOURCE ID: troydisk_rainy.1_title
+TEXT: อุปกรณ์ปล่อยลัวร์น้ำฝน
 
 RESOURCE ID: unfriend_niantic_friend_tip
 TEXT: การลบเพื่อนคนนี้ออกจากเกมนี้ของ Niantic จะเป็นการลบเพื่อนคนดังกล่าวออกจากในทุกเกมที่คุณทั้งคู่เล่น

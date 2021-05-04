@@ -268,12 +268,12 @@ RESOURCE ID: general1.ticket.2_snivt_title
 TEXT: 「藤藤蛇的日光浴」入場券
 
 RESOURCE ID: general1.ticket.2_swabt_description
-TEXT: A ticket to access the "Cotton-Winged Bird" Special Research from May 15, 2021, at 11:00 a.m. to May 15, 2021, at 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: 一張可以獲得五月社群日特殊調查的入場券。不論你身處世界何處，你都可以使用這張入場券在當地時間2021年5月15日11:00～17:00時領取五月社群日特殊調查「綿翼小鳥」。詳情請至遊戲內快訊確認。
 
- YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+ 請務必在上述活動時間內參與，以取得活動獎勵。
 
 RESOURCE ID: general1.ticket.2_swabt_title
-TEXT: Cotton-Winged Bird Ticket
+TEXT: 「綿翼小鳥」入場券
 
 RESOURCE ID: general1.ticket.2_title
 TEXT: 「藤藤蛇的日光浴」入場券
@@ -540,10 +540,10 @@ RESOURCE ID: item_event_ticket_pink_snivt_details
 TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2021年4月11日活動時間內領取特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_swabt_desc
-TEXT: A ticket to access a special research on May 15 from 11 a.m. to 5 p.m. local time, wherever you are.
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間5月15日11:00～17:00獲得特殊調查的課題。
 
 RESOURCE ID: item_event_ticket_pink_swabt_details
-TEXT: This ticket will automatically activate to give you access to a special research on May 15, wherever you are in the world.
+TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2021年5月15日活動時間內領取特殊調查。
 
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2021年4月11日活動時間內領取特殊調查。
@@ -562,6 +562,12 @@ TEXT: 妖精傳說X
 
 RESOURCE ID: luminous_y_event_name
 TEXT: 妖精傳說Y
+
+RESOURCE ID: lurerainy.1_description
+TEXT: 滴著雨露的誘餌模組，效果將持續30分鐘。可以吸引喜愛雨水的寶可夢，也可以讓特定寶可夢進化。
+
+RESOURCE ID: lurerainy.1_title
+TEXT: 雨露誘餌模組
 
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: 嘿，%PLAYERNAME%！很高興你能來參與這場冒險。對了，你有聽過這個旋律嗎？
@@ -660,8 +666,8 @@ RESOURCE ID: mega_evolution
 TEXT: 超級進化
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-04-29T17:43:31.115063
-at SHA 2d5c1c5c1e0a1eeb53f778d880fe1f071fe09431
+TEXT: Built at 2021-05-04T17:16:19.493161
+at SHA 4312944ce437aef59058ee889d5c6c678e810e2b
 Patch from: 0.205.0-SHA-7816514a, 0.205.1-SHA-d86ac573, 0.207.0-SHA-cae7daba
 
 RESOURCE ID: milestone_rewards_title
@@ -908,7 +914,7 @@ RESOURCE ID: quest_complete_snivt
 TEXT: 藤藤蛇的日光浴
 
 RESOURCE ID: quest_complete_swabt
-TEXT: Cotton-Winged Bird
+TEXT: 綿翼小鳥
 
 RESOURCE ID: quest_snapshot_wild_bug_plural
 TEXT: 為野生的蟲屬性寶可夢拍攝 {0} 張GO Snapshot照片
@@ -1157,10 +1163,10 @@ RESOURCE ID: quest_special_dialogue_swabt_3_7
 TEXT: Until next time -- let's GO!
 
 RESOURCE ID: quest_swabt_catch_b
-TEXT: Catch {0} Swablu
+TEXT: 捕捉 {0} 隻青綿鳥
 
 RESOURCE ID: quest_swabt_evolve_b
-TEXT: Evolve {0} Swablu
+TEXT: 讓 {0} 隻青綿鳥進化
 
 RESOURCE ID: quest_title_luminous_x_0
 TEXT: 妖精傳說X (1/7)
@@ -1223,19 +1229,19 @@ RESOURCE ID: quest_title_spwk_yoshinoya
 TEXT: Special Weekend (吉野家)
 
 RESOURCE ID: quest_title_swabt
-TEXT: Cotton-Winged Bird
+TEXT: 綿翼小鳥
 
 RESOURCE ID: quest_title_swabt_0
-TEXT: Cotton-Winged Bird (1/4)
+TEXT: 綿翼小鳥 (1/4)
 
 RESOURCE ID: quest_title_swabt_1
-TEXT: Cotton-Winged Bird (2/4)
+TEXT: 綿翼小鳥 (2/4)
 
 RESOURCE ID: quest_title_swabt_2
-TEXT: Cotton-Winged Bird (3/4)
+TEXT: 綿翼小鳥 (3/4)
 
 RESOURCE ID: quest_title_swabt_3
-TEXT: Cotton-Winged Bird (4/4)
+TEXT: 綿翼小鳥 (4/4)
 
 RESOURCE ID: quest_transfer_type_bug_plural
 TEXT:  傳送 {0} 隻蟲屬性的寶可夢
@@ -1326,6 +1332,9 @@ TEXT: 自動輸入
 
 RESOURCE ID: referral_enter_code_later
 TEXT: 在你開始玩遊戲的72小時之內，你隨時都可以打開朋友標籤頁輸入推薦代碼
+
+RESOURCE ID: referral_enter_code_later_parameterized
+TEXT: You can also enter a referral code in the Friends menu up to {0} hours after starting your journey.
 
 RESOURCE ID: referral_enter_code_skip
 TEXT: 跳過
@@ -1538,16 +1547,22 @@ RESOURCE ID: timed_challenge_bonus_modal_description_alt
 TEXT: All Trainers participating in a global challenge will contribute to a global goal. Once Trainers achieve the goal, a timed bonus will activate for all participants.
 
 RESOURCE ID: titan_poi_scan_added
-TEXT: {0} more scanning contribution(s) will be added tomorrow.
+TEXT: You’ll have {0} more scan contribution(s) available tomorrow.
 
 RESOURCE ID: titan_poi_scan_available
-TEXT: You have {0} scanning contribution(s) available today.
+TEXT: You have {0} scan contribution(s) available today.
 
 RESOURCE ID: titan_poi_scan_maxed
-TEXT: You have reached your max daily scanning contribution(s) of {0}.
+TEXT: You’ve reached your max daily scan contribution(s) of {0}.
 
 RESOURCE ID: tricky_pokemon_event_name
 TEXT: 詭計多端的寶可夢
+
+RESOURCE ID: troydisk_rainy.1_description
+TEXT: 滴著雨露的誘餌模組，效果將持續30分鐘。可以吸引喜愛雨水的寶可夢，也可以讓特定寶可夢進化。
+
+RESOURCE ID: troydisk_rainy.1_title
+TEXT: 雨露誘餌模組
 
 RESOURCE ID: unfriend_niantic_friend_tip
 TEXT: 從此Niantic遊戲中刪除此朋友後，在雙方的所有遊戲中的該朋友都將被刪除。
