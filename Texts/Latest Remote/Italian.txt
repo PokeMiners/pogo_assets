@@ -2,13 +2,13 @@ RESOURCE ID: abi_address_book_button
 TEXT: CONTACTS LIST
 
 RESOURCE ID: abi_contact_signed_up_notification
-TEXT: People in your Contacts List have started their adventures in Pokémon GO! Add Friends to join them!
+TEXT: Trainers on your contacts list have started their adventures in Pokémon GO! Go to the Friends menu to send Friend Requests to them.
 
 RESOURCE ID: abi_new_player_onboarding_accept_button_text
-TEXT: FIND FRIENDS WITH CONTACT LIST
+TEXT: FIND FRIENDS ON CONTACTS LIST
 
 RESOURCE ID: abi_new_player_onboarding_extra_info
-TEXT: You choose which contacts to be friends with and this can be disabled anytime in settings.
+TEXT: You can disable this feature anytime in the Settings menu. You can choose which contacts to send Friend Requests to.
 
 RESOURCE ID: abi_new_player_onboarding_feature_1
 TEXT: Trade Pokémon
@@ -17,19 +17,19 @@ RESOURCE ID: abi_new_player_onboarding_feature_2
 TEXT: Send Gifts
 
 RESOURCE ID: abi_new_player_onboarding_feature_3
-TEXT: Join in Raids
+TEXT: Join raids
 
 RESOURCE ID: abi_new_player_onboarding_feature_4
-TEXT: Take GO Snapshots
+TEXT: Take snapshots
 
 RESOURCE ID: abi_new_player_onboarding_feature_5
-TEXT: Battle your Pokémon & More!
+TEXT: Battle each other
 
 RESOURCE ID: abi_new_player_onboarding_list_header
-TEXT: Easily find friends using your contact list on your phone to:
+TEXT: Send Friend Requests to Trainers on your contacts list! With friends, you can...
 
 RESOURCE ID: abi_new_player_onboarding_title
-TEXT: Pokémon GO is Better with Friends!
+TEXT: Pokémon GO Is Better with Friends!
 
 RESOURCE ID: avatar_f_backpack_snapcamera_00_bundle_icon
 TEXT: fotocamera GO
@@ -104,22 +104,22 @@ RESOURCE ID: badge_pokemon_caught_at_your_lures_singular
 TEXT: Usa un modulo esca per aiutare un Allenatore a catturare un Pokémon.
 
 RESOURCE ID: badge_pokestops_scanned
-TEXT: Scan {0} Pokéstop and Gym.
+TEXT: Scansiona {0} Pokéstop e Palestre.
 
 RESOURCE ID: badge_pokestops_scanned_singular
-TEXT: Scan 1 Pokéstop or Gym.
+TEXT: Scansiona 1 Pokéstop o Palestra.
 
 RESOURCE ID: badge_pokestops_scanned_title
-TEXT: Scanner
+TEXT: Fan dello scan
 
 RESOURCE ID: bonus_reward_100_catch_xp
-TEXT: +100 Catch XP
+TEXT: 100 PE da cattura in più
 
 RESOURCE ID: bonus_reward_200_catch_xp
-TEXT: +200 Catch XP
+TEXT: 200 PE da cattura in più
 
 RESOURCE ID: bonus_reward_3_catch_candy
-TEXT: +3 Catch Candy
+TEXT: 3 caramelle da cattura in più
 
 RESOURCE ID: buddy_tutorial_basic_content_p4
 TEXT: Lottare nelle Palestre, nei raid, contro altri Allenatori o contro il Team GO Rocket con il tuo compagno nella tua squadra aumenterà il vostro livello di affiatamento e ti può far guadagnare un cuore.
@@ -129,6 +129,9 @@ TEXT: Community Day dedicato a Swablu
 
 RESOURCE ID: egg_transparency_help
 TEXT: I primi gruppi di Pokémon di questa lista hanno maggiori probabilità di nascere da questo Uovo.
+
+RESOURCE ID: element_cup_title
+TEXT: Element Cup
 
 RESOURCE ID: error_no_pokemon_in_inventory
 TEXT: Al momento non hai {0}.
@@ -182,11 +185,14 @@ TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso a u
 RESOURCE ID: item_global_event_ticket_details
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso a una ricerca speciale il 15 maggio 2021, ovunque ti trovi.
 
+RESOURCE ID: item_item_storage_upgrade
+TEXT: Spazio Borsa
+
 RESOURCE ID: item_remote_raid_ticket_name
 TEXT: Biglietto raid da remoto
 
 RESOURCE ID: log_verbose_raid_modal_desc_cache
-TEXT: This raid’s data will be stored for 24 hours or until your next raid, and you can upload it at any time before then in the Settings menu.
+TEXT: A raid’s data will be stored for 24 hours or until your next raid, and you can upload it at any time before then in the Settings menu.
 
 RESOURCE ID: log_verbose_raid_modal_desc_info
 TEXT: With the Raid Logging feature, you can upload data from raids you participate in, which will help Niantic improve future raids.
@@ -207,7 +213,7 @@ RESOURCE ID: log_verbose_raid_modal_title
 TEXT: Help Improve Raids!
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_info
-TEXT: You’re about to upload XX MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
+TEXT: You’re about to upload {0} MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_title
 TEXT: Do you want to upload now?
@@ -228,10 +234,10 @@ RESOURCE ID: log_verbose_raid_settings_desc_upload
 TEXT: Uploading Raid Log
 
 RESOURCE ID: log_verbose_raid_settings_disable_log
-TEXT: Raid Logging Is Disabled
+TEXT: Enable Raid Logging
 
 RESOURCE ID: log_verbose_raid_settings_enable_log
-TEXT: Raid Logging Is Enabled
+TEXT: Enable Raid Logging
 
 RESOURCE ID: log_verbose_raid_settings_header
 TEXT: Current Raid Log
@@ -261,9 +267,9 @@ RESOURCE ID: m_avatar_poses_bundle_pose_22
 TEXT: Blu
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-05-13T00:32:31.263688
-at SHA 5aab62c6fadbb9a37e4f9f34780dc5e74b24e127
-Patch from: 0.207.0-SHA-cae7daba, 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4
+TEXT: Built at 2021-05-20T03:04:20.618437
+at SHA 373be0b1a0d1aa53195277f67f596d6a0341049b
+Patch from: 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4, 0.209.0-SHA-e8df565c
 
 RESOURCE ID: mini_collection_apr21_friendship_day
 TEXT: Sfida di collezione della giornata degli amici
@@ -298,6 +304,9 @@ TEXT: Classificazione del Pokédex sbloccata!
 RESOURCE ID: pokedex_category_unlocked_plural_header
 TEXT: Classificazioni del Pokédex sbloccate!
 
+RESOURCE ID: quest_catch_pokemon_task
+TEXT: Cattura Pokémon
+
 RESOURCE ID: quest_catch_trubbish_plural
 TEXT: Cattura {0} Trubbish
 
@@ -315,6 +324,9 @@ TEXT: Fai {0} foto ai Pokémon selvatici di tipo Drago
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
 TEXT: Fai una foto a Chinchou, Finneon o Ducklett allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_eevee
+TEXT: Fai una foto a Eevee allo stato selvatico
 
 RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: Fai {0} foto ai Pokémon selvatici di tipo Elettro
@@ -611,10 +623,13 @@ RESOURCE ID: referral_enter_code_later_parameterized
 TEXT: Puoi inserire un codice d’invito anche nel menu amici fino a {0} ore dall’inizio della tua avventura.
 
 RESOURCE ID: regional_catch_challenge_event_name
-TEXT: Regional Catch Challenge
+TEXT: Sfida di cattura regionale
 
 RESOURCE ID: regional_catch_challenge_reward_event_name
-TEXT: Regional Catch Challenge Rewards
+TEXT: Ricompense per la sfida di cattura regionale
+
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
+TEXT: Cattura Pokémon
 
 RESOURCE ID: settings_sound_effects_alt
 TEXT: Effetti audio
@@ -695,7 +710,7 @@ RESOURCE ID: titan_poi_scan_maxed
 TEXT: Hai raggiunto il numero massimo di contributi scansione a disposizione per oggi: {0}
 
 RESOURCE ID: today_view_catch_competition
-TEXT: Regional Catch Competition
+TEXT: Gara di cattura regionale
 
 RESOURCE ID: troydisk_rainy.1_description
 TEXT: Un modulo esca che attira i Pokémon, specialmente quelli amanti della pioggia, per 30 minuti. Può anche far evolvere alcuni Pokémon.

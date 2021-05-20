@@ -2,13 +2,13 @@ RESOURCE ID: abi_address_book_button
 TEXT: CONTACTS LIST
 
 RESOURCE ID: abi_contact_signed_up_notification
-TEXT: People in your Contacts List have started their adventures in Pokémon GO! Add Friends to join them!
+TEXT: Trainers on your contacts list have started their adventures in Pokémon GO! Go to the Friends menu to send Friend Requests to them.
 
 RESOURCE ID: abi_new_player_onboarding_accept_button_text
-TEXT: FIND FRIENDS WITH CONTACT LIST
+TEXT: FIND FRIENDS ON CONTACTS LIST
 
 RESOURCE ID: abi_new_player_onboarding_extra_info
-TEXT: You choose which contacts to be friends with and this can be disabled anytime in settings.
+TEXT: You can disable this feature anytime in the Settings menu. You can choose which contacts to send Friend Requests to.
 
 RESOURCE ID: abi_new_player_onboarding_feature_1
 TEXT: Trade Pokémon
@@ -17,19 +17,19 @@ RESOURCE ID: abi_new_player_onboarding_feature_2
 TEXT: Send Gifts
 
 RESOURCE ID: abi_new_player_onboarding_feature_3
-TEXT: Join in Raids
+TEXT: Join raids
 
 RESOURCE ID: abi_new_player_onboarding_feature_4
-TEXT: Take GO Snapshots
+TEXT: Take snapshots
 
 RESOURCE ID: abi_new_player_onboarding_feature_5
-TEXT: Battle your Pokémon & More!
+TEXT: Battle each other
 
 RESOURCE ID: abi_new_player_onboarding_list_header
-TEXT: Easily find friends using your contact list on your phone to:
+TEXT: Send Friend Requests to Trainers on your contacts list! With friends, you can...
 
 RESOURCE ID: abi_new_player_onboarding_title
-TEXT: Pokémon GO is Better with Friends!
+TEXT: Pokémon GO Is Better with Friends!
 
 RESOURCE ID: avatar_f_backpack_snapcamera_00_bundle_icon
 TEXT: GO Snapshot Camera
@@ -92,13 +92,13 @@ RESOURCE ID: badge_pokestops_scanned_title
 TEXT: Scanner
 
 RESOURCE ID: bonus_reward_100_catch_xp
-TEXT: +100 Catch XP
+TEXT: XP การจับเพิ่มขึ้น +100 
 
 RESOURCE ID: bonus_reward_200_catch_xp
-TEXT: +200 Catch XP
+TEXT: XP การจับเพิ่มขึ้น +200 
 
 RESOURCE ID: bonus_reward_3_catch_candy
-TEXT: +3 Catch Candy
+TEXT: ลูกอมจากการจับเพิ่มขึ้น +3 
 
 RESOURCE ID: buddy_tutorial_basic_content_p4
 TEXT: การตีบอส การแบตเทิลที่ยิม หรือกับผู้เล่นอื่น หรือกับแก๊งโกร็อกเกตในขณะที่คู่หูอยู่ในทีมที่ใช้แบตเทิล จะทำให้สายสัมพันธ์แน่นแฟ้นขึ้นและได้รับหัวใจเพิ่ม
@@ -108,6 +108,9 @@ TEXT: คอมมิวนิตี้เดย์ : ทิลท์โท
 
 RESOURCE ID: egg_transparency_help
 TEXT: เหล่าโปเกมอนที่อยู่ด้านบนของรายชื่อจะมีโอกาสฟักออกจากไข่สูง
+
+RESOURCE ID: element_cup_title
+TEXT: Element Cup
 
 RESOURCE ID: error_no_pokemon_in_inventory
 TEXT: ไม่มี{0}
@@ -150,13 +153,16 @@ RESOURCE ID: item_event_ticket_pink_swabt_details
 TEXT: ตั๋วนี้จะทำให้คุณเข้าร่วมงานวิจัยพิเศษในวันที่ 15 พฤษภาคมได้โดยอัตโนมัติตามเวลาท้องถิ่นทั่วโลก
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: ตั๋วนี้จะทำให้คุณเข้าร่วมงานวิจัยพิเศษในวันที่ 11 เมษายน 2021 ได้โดยอัตโนมัติไม่ว่าคุณจะอยู่ที่ใดในโลก
+TEXT: ตั๋วนี้จะทำให้คุณเข้าร่วม Pokémon GO Fest ในวันที่ 17 และ 18 กรกฎาคม 2021 ได้โดยอัตโนมัติ
 
 RESOURCE ID: item_global_event_ticket_details
-TEXT: ตั๋วนี้จะทำให้คุณเข้าร่วมงานวิจัยพิเศษในวันที่ 15 พฤษภาคมได้โดยอัตโนมัติตามเวลาท้องถิ่นทั่วโลก
+TEXT: ตั๋วนี้จะทำให้คุณเข้าร่วม Pokémon GO Fest ในวันที่ 17 และ 18 กรกฎาคม 2021 ตั้งแต่เวลา 10:00-18:00 น. ตามเวลาท้องถิ่นได้โดยอัตโนมัติ
+
+RESOURCE ID: item_item_storage_upgrade
+TEXT: กระเป๋าเก็บไอเทม
 
 RESOURCE ID: log_verbose_raid_modal_desc_cache
-TEXT: This raid’s data will be stored for 24 hours or until your next raid, and you can upload it at any time before then in the Settings menu.
+TEXT: A raid’s data will be stored for 24 hours or until your next raid, and you can upload it at any time before then in the Settings menu.
 
 RESOURCE ID: log_verbose_raid_modal_desc_info
 TEXT: With the Raid Logging feature, you can upload data from raids you participate in, which will help Niantic improve future raids.
@@ -177,7 +183,7 @@ RESOURCE ID: log_verbose_raid_modal_title
 TEXT: Help Improve Raids!
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_info
-TEXT: You’re about to upload XX MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
+TEXT: You’re about to upload {0} MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_title
 TEXT: Do you want to upload now?
@@ -198,10 +204,10 @@ RESOURCE ID: log_verbose_raid_settings_desc_upload
 TEXT: Uploading Raid Log
 
 RESOURCE ID: log_verbose_raid_settings_disable_log
-TEXT: Raid Logging Is Disabled
+TEXT: Enable Raid Logging
 
 RESOURCE ID: log_verbose_raid_settings_enable_log
-TEXT: Raid Logging Is Enabled
+TEXT: Enable Raid Logging
 
 RESOURCE ID: log_verbose_raid_settings_header
 TEXT: Current Raid Log
@@ -225,9 +231,9 @@ RESOURCE ID: lurerainy.1_title
 TEXT: อุปกรณ์ปล่อยลัวร์น้ำฝน
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-05-13T00:32:31.263688
-at SHA 5aab62c6fadbb9a37e4f9f34780dc5e74b24e127
-Patch from: 0.207.0-SHA-cae7daba, 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4
+TEXT: Built at 2021-05-20T03:04:20.618437
+at SHA 373be0b1a0d1aa53195277f67f596d6a0341049b
+Patch from: 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4, 0.209.0-SHA-e8df565c
 
 RESOURCE ID: mini_collection_apr21_friendship_day
 TEXT: คำท้านักสะสมวันแห่งมิตรภาพ
@@ -298,6 +304,9 @@ TEXT: In its true form, it possess a huge amount of power. Legends of its avaric
 RESOURCE ID: pokemon_desc_0721
 TEXT: It lets out billows of steam and disappears into the dense fog. It's said to live in mountains where humans do not tread.
 
+RESOURCE ID: quest_catch_pokemon_task
+TEXT: จับโปเกมอน ตัว
+
 RESOURCE ID: quest_catch_trubbish_plural
 TEXT: จับยาบุคุรอน {0} ตัว
 
@@ -315,6 +324,9 @@ TEXT: ถ่ายภาพโปเกมอนป่าประเภทม�
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
 TEXT: ถ่ายภาพโคอารูฮิ ชอนชี หรือเคโคโอที่พบในธรรมชาติ
+
+RESOURCE ID: quest_snapshot_wild_eevee
+TEXT: ถ่ายภาพอีวุยที่พบในธรรมชาติ
 
 RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: ถ่ายภาพโปเกมอนป่าประเภทไฟฟ้า {0} ภาพ
@@ -560,10 +572,13 @@ RESOURCE ID: referral_enter_code_later_parameterized
 TEXT: สามารถกรอกโค้ดเชิญในหน้าเมนูเพื่อนได้ภายใน {0} ชั่วโมงหลังจากเริ่มเล่นเกมเช่นกัน
 
 RESOURCE ID: regional_catch_challenge_event_name
-TEXT: Regional Catch Challenge
+TEXT: คำท้าการจับแบบเฉพาะถิ่น
 
 RESOURCE ID: regional_catch_challenge_reward_event_name
-TEXT: Regional Catch Challenge Rewards
+TEXT: รางวัลคำท้าการจับแบบเฉพาะถิ่น
+
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
+TEXT: จับโปเกมอน ตัว
 
 RESOURCE ID: settings_sound_effects_alt
 TEXT: เสียงเอฟเฟกต์
@@ -644,7 +659,7 @@ RESOURCE ID: titan_poi_scan_maxed
 TEXT: คุณส่งการสแกนถึงขีดจำกัดสูงสุด {0} รายการในแต่ละวันแล้ว
 
 RESOURCE ID: today_view_catch_competition
-TEXT: Regional Catch Competition
+TEXT: การแข่งขันจับแบบเฉพาะถิ่น
 
 RESOURCE ID: troydisk_rainy.1_description
 TEXT: อุปกรณ์ปล่อยลัวร์น้ำฝน สามารถดึงดูดโปเกมอนป่าภายในช่วง 30 นาที โดยเฉพาะโปเกมอนที่ชื่นชอบฝน และทำให้โปเกมอนบางตัววิวัฒนาการได้ด้วย

@@ -2,13 +2,13 @@ RESOURCE ID: abi_address_book_button
 TEXT: CONTACTS LIST
 
 RESOURCE ID: abi_contact_signed_up_notification
-TEXT: People in your Contacts List have started their adventures in Pokémon GO! Add Friends to join them!
+TEXT: Trainers on your contacts list have started their adventures in Pokémon GO! Go to the Friends menu to send Friend Requests to them.
 
 RESOURCE ID: abi_new_player_onboarding_accept_button_text
-TEXT: FIND FRIENDS WITH CONTACT LIST
+TEXT: FIND FRIENDS ON CONTACTS LIST
 
 RESOURCE ID: abi_new_player_onboarding_extra_info
-TEXT: You choose which contacts to be friends with and this can be disabled anytime in settings.
+TEXT: You can disable this feature anytime in the Settings menu. You can choose which contacts to send Friend Requests to.
 
 RESOURCE ID: abi_new_player_onboarding_feature_1
 TEXT: Trade Pokémon
@@ -17,19 +17,19 @@ RESOURCE ID: abi_new_player_onboarding_feature_2
 TEXT: Send Gifts
 
 RESOURCE ID: abi_new_player_onboarding_feature_3
-TEXT: Join in Raids
+TEXT: Join raids
 
 RESOURCE ID: abi_new_player_onboarding_feature_4
-TEXT: Take GO Snapshots
+TEXT: Take snapshots
 
 RESOURCE ID: abi_new_player_onboarding_feature_5
-TEXT: Battle your Pokémon & More!
+TEXT: Battle each other
 
 RESOURCE ID: abi_new_player_onboarding_list_header
-TEXT: Easily find friends using your contact list on your phone to:
+TEXT: Send Friend Requests to Trainers on your contacts list! With friends, you can...
 
 RESOURCE ID: abi_new_player_onboarding_title
-TEXT: Pokémon GO is Better with Friends!
+TEXT: Pokémon GO Is Better with Friends!
 
 RESOURCE ID: avatar_f_backpack_snapcamera_00_bundle_icon
 TEXT: GO Snapshot Camera
@@ -115,6 +115,9 @@ TEXT: Community Day: Swablu
 RESOURCE ID: egg_transparency_help
 TEXT: Groups of Pokémon that are higher on the list are more likely to hatch from this Egg.
 
+RESOURCE ID: element_cup_title
+TEXT: Element Cup
+
 RESOURCE ID: error_no_pokemon_in_inventory
 TEXT: You don’t currently have any {0}.
 
@@ -153,13 +156,16 @@ RESOURCE ID: item_event_ticket_pink_swabt_details
 TEXT: This ticket will automatically activate to give you access to Special Research on May 15, 2021, wherever you are in the world.
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: This ticket will automatically activate to give you access to Special Research on April 11, 2021, wherever you are.
+TEXT: This ticket will automatically activate to give you access to Pokémon GO Fest on July 17 and 18, 2021, wherever you are.
 
 RESOURCE ID: item_global_event_ticket_details
-TEXT: A ticket to access the Cotton-Winged Bird Special Research on May 15, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: A ticket to access Pokémon GO Fest on July 17 and 18, 2021, from 10:00 a.m. to 6:00 p.m. local time each day, wherever you are.
+
+RESOURCE ID: item_item_storage_upgrade
+TEXT: Item Bag
 
 RESOURCE ID: log_verbose_raid_modal_desc_cache
-TEXT: This raid’s data will be stored for 24 hours or until your next raid, and you can upload it at any time before then in the Settings menu.
+TEXT: A raid’s data will be stored for 24 hours or until your next raid, and you can upload it at any time before then in the Settings menu.
 
 RESOURCE ID: log_verbose_raid_modal_desc_info
 TEXT: With the Raid Logging feature, you can upload data from raids you participate in, which will help Niantic improve future raids.
@@ -180,7 +186,7 @@ RESOURCE ID: log_verbose_raid_modal_title
 TEXT: Help Improve Raids!
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_info
-TEXT: You’re about to upload XX MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
+TEXT: You’re about to upload {0} MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_title
 TEXT: Do you want to upload now?
@@ -201,10 +207,10 @@ RESOURCE ID: log_verbose_raid_settings_desc_upload
 TEXT: Uploading Raid Log
 
 RESOURCE ID: log_verbose_raid_settings_disable_log
-TEXT: Raid Logging Is Disabled
+TEXT: Enable Raid Logging
 
 RESOURCE ID: log_verbose_raid_settings_enable_log
-TEXT: Raid Logging Is Enabled
+TEXT: Enable Raid Logging
 
 RESOURCE ID: log_verbose_raid_settings_header
 TEXT: Current Raid Log
@@ -228,9 +234,9 @@ RESOURCE ID: lurerainy.1_title
 TEXT: Rainy Lure Module
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-05-13T00:32:31.263688
-at SHA 5aab62c6fadbb9a37e4f9f34780dc5e74b24e127
-Patch from: 0.207.0-SHA-cae7daba, 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4
+TEXT: Built at 2021-05-20T03:04:20.618437
+at SHA 373be0b1a0d1aa53195277f67f596d6a0341049b
+Patch from: 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4, 0.209.0-SHA-e8df565c
 
 RESOURCE ID: move_name_0343
 TEXT: Leaf Storm
@@ -289,6 +295,9 @@ TEXT: It lets out billows of steam and disappears into the dense fog. It's said 
 RESOURCE ID: pokemon_desc_0866
 TEXT: It's highly skilled at tap-dancing. It waves its cane of ice in time with its graceful movements.
 
+RESOURCE ID: quest_catch_pokemon_task
+TEXT: Catch Pokémon
+
 RESOURCE ID: quest_complete_swabt
 TEXT: Cotton-Winged Bird
 
@@ -303,6 +312,9 @@ TEXT: Take {0} snapshots of wild Dragon-type Pokémon
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
 TEXT: Take a snapshot of Chinchou, Finneon, or Ducklett in the wild
+
+RESOURCE ID: quest_snapshot_wild_eevee
+TEXT: Take a snapshot of Eevee in the wild
 
 RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: Take {0} snapshots of wild Electric-type Pokémon
@@ -534,6 +546,9 @@ TEXT: Regional Catch Challenge
 
 RESOURCE ID: regional_catch_challenge_reward_event_name
 TEXT: Regional Catch Challenge Rewards
+
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
+TEXT: Catch Pokémon
 
 RESOURCE ID: settings_sound_effects
 TEXT: Sound

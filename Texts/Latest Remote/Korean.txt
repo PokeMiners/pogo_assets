@@ -2,13 +2,13 @@ RESOURCE ID: abi_address_book_button
 TEXT: CONTACTS LIST
 
 RESOURCE ID: abi_contact_signed_up_notification
-TEXT: People in your Contacts List have started their adventures in Pokémon GO! Add Friends to join them!
+TEXT: Trainers on your contacts list have started their adventures in Pokémon GO! Go to the Friends menu to send Friend Requests to them.
 
 RESOURCE ID: abi_new_player_onboarding_accept_button_text
-TEXT: FIND FRIENDS WITH CONTACT LIST
+TEXT: FIND FRIENDS ON CONTACTS LIST
 
 RESOURCE ID: abi_new_player_onboarding_extra_info
-TEXT: You choose which contacts to be friends with and this can be disabled anytime in settings.
+TEXT: You can disable this feature anytime in the Settings menu. You can choose which contacts to send Friend Requests to.
 
 RESOURCE ID: abi_new_player_onboarding_feature_1
 TEXT: Trade Pokémon
@@ -17,19 +17,19 @@ RESOURCE ID: abi_new_player_onboarding_feature_2
 TEXT: Send Gifts
 
 RESOURCE ID: abi_new_player_onboarding_feature_3
-TEXT: Join in Raids
+TEXT: Join raids
 
 RESOURCE ID: abi_new_player_onboarding_feature_4
-TEXT: Take GO Snapshots
+TEXT: Take snapshots
 
 RESOURCE ID: abi_new_player_onboarding_feature_5
-TEXT: Battle your Pokémon & More!
+TEXT: Battle each other
 
 RESOURCE ID: abi_new_player_onboarding_list_header
-TEXT: Easily find friends using your contact list on your phone to:
+TEXT: Send Friend Requests to Trainers on your contacts list! With friends, you can...
 
 RESOURCE ID: abi_new_player_onboarding_title
-TEXT: Pokémon GO is Better with Friends!
+TEXT: Pokémon GO Is Better with Friends!
 
 RESOURCE ID: avatar_f_backpack_snapcamera_00_bundle_icon
 TEXT: GO스냅샷 카메라
@@ -98,13 +98,13 @@ RESOURCE ID: badge_pokestops_scanned_title
 TEXT: Scanner
 
 RESOURCE ID: bonus_reward_100_catch_xp
-TEXT: +100 Catch XP
+TEXT: +100 포켓몬 획득 XP
 
 RESOURCE ID: bonus_reward_200_catch_xp
-TEXT: +200 Catch XP
+TEXT: +200 포켓몬 획득 XP
 
 RESOURCE ID: bonus_reward_3_catch_candy
-TEXT: +3 Catch Candy
+TEXT: +3 포켓몬을 잡았을 때 받을 수 있는 사탕
 
 RESOURCE ID: buddy_detail_basic_buddy
 TEXT: 파트너 레벨이 올라가면 파트너가 할 수 있는 일이 늘어납니다. 하트 아이콘을 탭하여 보세요.
@@ -117,6 +117,9 @@ TEXT: 커뮤니티 데이: 파비코
 
 RESOURCE ID: egg_transparency_help
 TEXT: 리스트 위쪽에 있는 포켓몬일수록 만나기 쉬운 포켓몬입니다!
+
+RESOURCE ID: element_cup_title
+TEXT: Element Cup
 
 RESOURCE ID: error_no_pokemon_in_inventory
 TEXT: {0}(이)가 없습니다
@@ -164,8 +167,11 @@ TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2020년4월 11일 
 RESOURCE ID: item_global_event_ticket_details
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2021년5월 5일에 스페셜리서치가 진행됩니다.
 
+RESOURCE ID: item_item_storage_upgrade
+TEXT: 가방 업그레이드
+
 RESOURCE ID: log_verbose_raid_modal_desc_cache
-TEXT: This raid’s data will be stored for 24 hours or until your next raid, and you can upload it at any time before then in the Settings menu.
+TEXT: A raid’s data will be stored for 24 hours or until your next raid, and you can upload it at any time before then in the Settings menu.
 
 RESOURCE ID: log_verbose_raid_modal_desc_info
 TEXT: With the Raid Logging feature, you can upload data from raids you participate in, which will help Niantic improve future raids.
@@ -183,10 +189,10 @@ RESOURCE ID: log_verbose_raid_modal_disable_title
 TEXT: Do you want to disable Raid Logging?
 
 RESOURCE ID: log_verbose_raid_modal_title
-TEXT: Help Improve Raids!
+TEXT: 레이드 개선을 도와주세요!
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_info
-TEXT: You’re about to upload XX MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
+TEXT: You’re about to upload {0} MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_title
 TEXT: Do you want to upload now?
@@ -207,10 +213,10 @@ RESOURCE ID: log_verbose_raid_settings_desc_upload
 TEXT: Uploading Raid Log
 
 RESOURCE ID: log_verbose_raid_settings_disable_log
-TEXT: Raid Logging Is Disabled
+TEXT: Enable Raid Logging
 
 RESOURCE ID: log_verbose_raid_settings_enable_log
-TEXT: Raid Logging Is Enabled
+TEXT: Enable Raid Logging
 
 RESOURCE ID: log_verbose_raid_settings_header
 TEXT: Current Raid Log
@@ -234,9 +240,9 @@ RESOURCE ID: lurerainy.1_title
 TEXT: 레이니 루어모듈
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-05-13T00:32:31.263688
-at SHA 5aab62c6fadbb9a37e4f9f34780dc5e74b24e127
-Patch from: 0.207.0-SHA-cae7daba, 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4
+TEXT: Built at 2021-05-20T03:04:20.618437
+at SHA 373be0b1a0d1aa53195277f67f596d6a0341049b
+Patch from: 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4, 0.209.0-SHA-e8df565c
 
 RESOURCE ID: mini_collection_apr21_friendship_day
 TEXT: 프렌드십 데이 컬렉션 챌린지
@@ -292,6 +298,9 @@ TEXT: 가라르에 사는 파오리의 모습.굵고 튼튼한 파를 휘두르�
 RESOURCE ID: pokemon_desc_0865
 TEXT: 많은 싸움에서 살아남은 자만이이 모습으로 진화한다.파가 시들면 전장을 떠난다.
 
+RESOURCE ID: quest_catch_pokemon_task
+TEXT: 포켓몬마를 잡는다
+
 RESOURCE ID: quest_catch_trubbish_plural
 TEXT: 깨봉이를 {0}마리 잡는다
 
@@ -309,6 +318,9 @@ TEXT: 드래곤타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
 TEXT: 야생 꼬지보리 또는 초라기 또는 형광어의 GO스냅샷을 찍는다
+
+RESOURCE ID: quest_snapshot_wild_eevee
+TEXT: Take a snapshot of Eevee in the wild
 
 RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: 전기타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
@@ -566,10 +578,13 @@ RESOURCE ID: referral_enter_code_later_parameterized
 TEXT: {0}시간 이내라면 프렌드 탭에서 코드를 입력할 수 있습니다.
 
 RESOURCE ID: regional_catch_challenge_event_name
-TEXT: Regional Catch Challenge
+TEXT: 리저널 챌린지
 
 RESOURCE ID: regional_catch_challenge_reward_event_name
-TEXT: Regional Catch Challenge Rewards
+TEXT: 리저널 챌린지 리워드
+
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
+TEXT: 포켓몬마를 잡는다
 
 RESOURCE ID: settings_sound_effects_alt
 TEXT: 효과음
@@ -650,7 +665,7 @@ RESOURCE ID: titan_poi_scan_maxed
 TEXT: 하루에 투고할 수 있는 최대 스캔 수 {0}건에 도달했습니다.
 
 RESOURCE ID: today_view_catch_competition
-TEXT: Regional Catch Competition
+TEXT: 리저널 챌린지 대회
 
 RESOURCE ID: troydisk_rainy.1_description
 TEXT: 포켓스톱에 사용하면 30분 동안 물을 뿜어내 특정 포켓몬을 끌어들입니다. 특정 포켓몬이 진화할 수 있게 합니다.

@@ -121,6 +121,9 @@ TEXT: コミュニティ・デイ：チルット
 RESOURCE ID: egg_transparency_help
 TEXT: リスト上部に表示されるポケモンほど、出会えることが多いポケモンです
 
+RESOURCE ID: element_cup_title
+TEXT: Element Cup
+
 RESOURCE ID: encounter_pokemon_box_full_title
 TEXT: ポケモンボックスがいっぱいです
 
@@ -132,7 +135,7 @@ TEXT: 『New ポケモンスナップ』
 セレブレーション
 
 RESOURCE ID: extreme_weather_warning_title
-TEXT: Extreme weather
+TEXT: 荒天
 
 RESOURCE ID: general1.ticket.2_description
 TEXT: 世界中のどこにいても、現地時間2021年5月15日11:00AM～5:00PMにゲーム内イベント「わたどりポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
@@ -166,13 +169,16 @@ RESOURCE ID: item_event_ticket_pink_swabt_details
 TEXT: このチケットは自動的に発動し、現地時間2021年5月15日にスペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: このチケットは自動的に発動し、現地時間2021年4月11日にスペシャルリサーチが行えるようになります。
+TEXT: このチケットは自動的に発動し、現地時間2021年7月17日・18日開催の Pokémon GO Fest に参加できるようになります。
 
 RESOURCE ID: item_global_event_ticket_details
-TEXT: このチケットは自動的に発動し、現地時間2021年5月15日にスペシャルリサーチが行えるようになります。
+TEXT: 現地時間2020年7月17日・18日10:00 AM～6:00 PM開催の Pokémon GO Fest に参加するためのチケット。
+
+RESOURCE ID: item_item_storage_upgrade
+TEXT: バッグ アップグレード
 
 RESOURCE ID: log_verbose_raid_modal_desc_cache
-TEXT: このレイドのデータは、設定内に24時間もしくは次のレイドバトル開始まで保存され、いつでも送信することができます。
+TEXT: ログデータは、設定内に24時間もしくは次のレイドバトル開始まで保存され、いつでも送信することができます。
 
 RESOURCE ID: log_verbose_raid_modal_desc_info
 TEXT: レイド改善に役立つログを送信できるようになりました。
@@ -181,16 +187,16 @@ RESOURCE ID: log_verbose_raid_modal_desc_url_desc
 TEXT: 詳細は、
 
 RESOURCE ID: log_verbose_raid_modal_desc_url_link
-TEXT: ウェブサイト
+TEXT: ウェブサイトをご覧ください。
 
 RESOURCE ID: log_verbose_raid_modal_disable_description
-TEXT: レイドログ機能をオフにすると、アップロード前のログは失われ、新たにログを送信することもできなくなります。
+TEXT: レイドログ機能をオフにすると、アップロード前のログは消えます
 
 RESOURCE ID: log_verbose_raid_modal_disable_title
 TEXT: レイドログ機能をオフにしますか？
 
 RESOURCE ID: log_verbose_raid_modal_title
-TEXT: レイド改善へのご協力をお願いします！
+TEXT: ご協力をお願いします！
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_info
 TEXT: {0} MBのファイルがアップロードされます。Wi-Fiに接続していない場合、通信料がかかることがあります。
@@ -199,7 +205,7 @@ RESOURCE ID: log_verbose_raid_modal_upload_desc_title
 TEXT: いますぐアップロードしますか？
 
 RESOURCE ID: log_verbose_raid_settings_desc_awaiting
-TEXT: 前回のレイドログ（ {0} MB）アップロードを待っています
+TEXT: レイドログ ({0} MB) アップロード準備ができました
 
 RESOURCE ID: log_verbose_raid_settings_desc_complete
 TEXT: アップロード完了
@@ -217,10 +223,10 @@ RESOURCE ID: log_verbose_raid_settings_disable_log
 TEXT: レイドログ機能はオフになっています
 
 RESOURCE ID: log_verbose_raid_settings_enable_log
-TEXT: 前のレイドログ機能をオンにする
+TEXT: レイドログ機能をオンにする
 
 RESOURCE ID: log_verbose_raid_settings_header
-TEXT: 最新のレイドログ
+TEXT: 最新のログ
 
 RESOURCE ID: log_verbose_raid_settings_title
 TEXT: レイドログ
@@ -241,9 +247,9 @@ RESOURCE ID: lurerainy.1_title
 TEXT: レイニールアー
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-05-13T00:32:31.263688
-at SHA 5aab62c6fadbb9a37e4f9f34780dc5e74b24e127
-Patch from: 0.207.0-SHA-cae7daba, 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4
+TEXT: Built at 2021-05-20T03:04:20.618437
+at SHA 373be0b1a0d1aa53195277f67f596d6a0341049b
+Patch from: 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4, 0.209.0-SHA-e8df565c
 
 RESOURCE ID: move_name_0343
 TEXT: リーフストーム
@@ -500,6 +506,9 @@ TEXT: タップダンスの　達人。氷で　できた　ステッキを　�
 RESOURCE ID: pokemon_info_not_transferable
 TEXT: 送ることができないポケモンが含まれています
 
+RESOURCE ID: quest_catch_pokemon_task
+TEXT: ポケモンを匹捕まえる
+
 RESOURCE ID: quest_complete_swabt
 TEXT: わたどりポケモンを解明せよ！
 
@@ -514,6 +523,9 @@ TEXT: ドラゴンタイプの野生ポケモンのGOスナップショット写
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
 TEXT: 野生のコアルヒー、チョンチーか、ケイコウオのGOスナップショット写真を撮る
+
+RESOURCE ID: quest_snapshot_wild_eevee
+TEXT: 野生のイーブイのGOスナップショット写真を撮る
 
 RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: でんきタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
@@ -582,7 +594,7 @@ RESOURCE ID: quest_special_dialogue_swabt_0_2
 TEXT: だが、綿のようにふくらんでいた雲が、ゆっくり流れていたはずなのに、鳥の羽ばたきのような動きに見えてきて、
 
 RESOURCE ID: quest_special_dialogue_swabt_0_3
-TEXT: いくらなんでも、凝視しすぎかな、と、ふと我にかえったよ。ポケモンの調査を忘れるわけにはいかない、と。
+TEXT: いくらなんでも凝視しすぎかな、と、ふと我にかえったよ。ポケモンの調査を忘れるわけにはいかない、と。
 
 RESOURCE ID: quest_special_dialogue_swabt_0_4
 TEXT: そう、調査の開始だ。協力を頼むよ！
@@ -708,7 +720,8 @@ RESOURCE ID: quest_title_luminous_y_6
 TEXT: フェアリーレジェンドY(7/7)
 
 RESOURCE ID: quest_title_spwk_yoshinoya
-TEXT: スペシャルウィークエンド（吉野家）
+TEXT: スペシャルウィークエンド
+(吉野家)
 
 RESOURCE ID: quest_title_swabt
 TEXT: わたどりポケモンを解明せよ！
@@ -736,6 +749,9 @@ TEXT: リージョナルチャレンジリワード
 
 RESOURCE ID: rivals_event_name
 TEXT: ライバルウィーク
+
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
+TEXT: ポケモンを匹捕まえる
 
 RESOURCE ID: settings_sound_effects_alt
 TEXT: 効果音
@@ -826,6 +842,9 @@ TEXT: レイニールアー
 
 RESOURCE ID: upmgmt_confirm_upload_later
 TEXT: いまはアップロードしない
+
+RESOURCE ID: weather_warning_title
+TEXT: 天候に注意！
 
 RESOURCE ID: xp_bonus_hourly
 TEXT: 20000 XP
