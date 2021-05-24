@@ -109,6 +109,12 @@ TEXT: 捕獲寶可夢時的糖果 +3
 RESOURCE ID: buddy_tutorial_basic_content_p4
 TEXT: 當夥伴跟在你身後走的時候，記得多帶牠去參加各種對戰（道館對戰、團體戰、和其他訓練家對戰和GO火箭隊對戰）。這樣不僅能加深你們之間的感情，也能獲得更多心心。
 
+RESOURCE ID: catch_xp_quadruple
+TEXT: 捕獲寶可夢時的XP增為4倍
+
+RESOURCE ID: combat_move_shadow_bonus
+TEXT: 暗影獎勵
+
 RESOURCE ID: community_day_swablu_event_name
 TEXT: 社群日：青綿鳥
 
@@ -140,6 +146,14 @@ TEXT: 「綿翼小鳥」入場券
 RESOURCE ID: general1.ticket.2_title
 TEXT: 「綿翼小鳥」入場券
 
+RESOURCE ID: general1.ticket.5_description
+TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2021年7月17日、18日的10:00～18:00參加遊戲裡的Pokémon GO Fest。詳情請至遊戲內快訊確認。
+
+請務必在上述活動時間內完成活動指定的課題，以取得活動獎勵。
+
+RESOURCE ID: general1.ticket.5_title
+TEXT: Pokémon GO Fest 2021 入場券
+
 RESOURCE ID: help_center_raid_log_link
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=troubleshooting&f=raid-troubleshooting-guide
 
@@ -156,70 +170,70 @@ RESOURCE ID: item_event_ticket_pink_swabt_details
 TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2021年5月15日活動時間內領取特殊調查。
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2021年4月11日活動時間內領取特殊調查。
+TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2021年7月17-18日活動時間內參加Pokémon GO Fest。
 
 RESOURCE ID: item_global_event_ticket_details
-TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2021年5月15日活動時間內領取特殊調查。
+TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2021年7月17-18日10:00～18:00參加Pokémon GO Fest。
 
 RESOURCE ID: item_item_storage_upgrade
 TEXT: 升級包包
 
 RESOURCE ID: log_verbose_raid_modal_desc_cache
-TEXT: A raid’s data will be stored for 24 hours or until your next raid, and you can upload it at any time before then in the Settings menu.
+TEXT: 分析資訊將會被儲存24小時，或是被儲存到下次團體戰開始為止。你隨時都可以從「設定」上傳分析資訊。
 
 RESOURCE ID: log_verbose_raid_modal_desc_info
-TEXT: With the Raid Logging feature, you can upload data from raids you participate in, which will help Niantic improve future raids.
+TEXT: 現在你可以將參加團體戰時的分析資訊傳送給Niantic，協助我們改善團體戰。
 
 RESOURCE ID: log_verbose_raid_modal_desc_url_desc
-TEXT: To learn more,
+TEXT: 更多資訊，
 
 RESOURCE ID: log_verbose_raid_modal_desc_url_link
-TEXT: visit this website.
+TEXT: 請至官方網站確認。
 
 RESOURCE ID: log_verbose_raid_modal_disable_description
-TEXT: If you disable Raid Logging, any raid logs that you haven’t uploaded will be deleted.
+TEXT: 關閉團體戰分析資訊功能後，未上傳的團體戰分析資訊將會被刪除。
 
 RESOURCE ID: log_verbose_raid_modal_disable_title
-TEXT: Do you want to disable Raid Logging?
+TEXT: 要關閉團體戰分析資訊功能嗎？
 
 RESOURCE ID: log_verbose_raid_modal_title
-TEXT: Help Improve Raids!
+TEXT: 請協助我們改善團體戰！
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_info
-TEXT: You’re about to upload {0} MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
+TEXT: 接下來將上傳 {0} MB的檔案。若未連接至Wi-Fi，將使用行動數據上傳。
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_title
-TEXT: Do you want to upload now?
+TEXT: 要立刻上傳嗎？
 
 RESOURCE ID: log_verbose_raid_settings_desc_awaiting
-TEXT: Your raid log is ready to upload. (Upload size: {0} MB)
+TEXT: 目前可上傳團體戰分析資訊（檔案大小：{0} MB）
 
 RESOURCE ID: log_verbose_raid_settings_desc_complete
-TEXT: Upload Complete!
+TEXT: 完成上傳！
 
 RESOURCE ID: log_verbose_raid_settings_desc_none
-TEXT: You don’t have a raid log stored.
+TEXT: 目前沒有分析資訊
 
 RESOURCE ID: log_verbose_raid_settings_desc_thanks
-TEXT: Your raid log has been uploaded. Thank you for your contribution!
+TEXT: 已完成上傳，感謝你的協助！
 
 RESOURCE ID: log_verbose_raid_settings_desc_upload
-TEXT: Uploading Raid Log
+TEXT: 正在上傳團體戰分析資訊
 
 RESOURCE ID: log_verbose_raid_settings_disable_log
-TEXT: Enable Raid Logging
+TEXT: 關閉團體戰分析資訊功能
 
 RESOURCE ID: log_verbose_raid_settings_enable_log
-TEXT: Enable Raid Logging
+TEXT: 開啟團體戰分析資訊功能
 
 RESOURCE ID: log_verbose_raid_settings_header
-TEXT: Current Raid Log
+TEXT: 最新分析資訊
 
 RESOURCE ID: log_verbose_raid_settings_title
-TEXT: Raid Logging
+TEXT: 團體戰分析資訊
 
 RESOURCE ID: log_verbose_raid_settings_upload_button
-TEXT: Upload
+TEXT: 上傳
 
 RESOURCE ID: luminous_x_event_name
 TEXT: 妖精傳說X
@@ -234,8 +248,8 @@ RESOURCE ID: lurerainy.1_title
 TEXT: 雨露誘餌模組
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-05-20T03:04:20.618437
-at SHA 373be0b1a0d1aa53195277f67f596d6a0341049b
+TEXT: Built at 2021-05-21T22:47:44.435268
+at SHA 283dd2d3cd794632d35ded8aef38f11ddeb3bf77
 Patch from: 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4, 0.209.0-SHA-e8df565c
 
 RESOURCE ID: mini_collection_apr21_friendship_day
@@ -308,7 +322,7 @@ RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
 TEXT: 為野生的燈籠魚、螢光魚或鴨寶寶拍攝1張GO Snapshot照片
 
 RESOURCE ID: quest_snapshot_wild_eevee
-TEXT: Take a snapshot of Eevee in the wild
+TEXT: 在野外為伊布拍攝1張GO Snapshot照片
 
 RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: 為野生的電屬性寶可夢拍攝 {0} 張GO Snapshot照片
@@ -610,8 +624,35 @@ TEXT: 地區挑戰
 RESOURCE ID: regional_catch_challenge_reward_event_name
 TEXT: 地區挑戰獎勵
 
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_none
+TEXT: Caught 0 Pokémon
+
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_plural
+TEXT: Caught {0} Pokémon
+
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
-TEXT: 捕捉 寶可夢
+TEXT: Caught 1 Pokémon
+
+RESOURCE ID: score_1_none
+TEXT: Caught 0 Pokémon
+
+RESOURCE ID: score_1_plural
+TEXT: Caught {0} Pokémon
+
+RESOURCE ID: score_1_singular
+TEXT: Caught 1 Pokémon
+
+RESOURCE ID: score_catch_pokemon
+TEXT: Caught {0} Pokémon
+
+RESOURCE ID: score_spin_pokestop_none
+TEXT: Spun 0 PokéStops
+
+RESOURCE ID: score_spin_pokestop_plural
+TEXT: Spun {0} PokéStops
+
+RESOURCE ID: score_spin_pokestop_singular
+TEXT: Spun {0} PokéStops
 
 RESOURCE ID: settings_sound_effects_alt
 TEXT: 音效
@@ -680,7 +721,7 @@ RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: 所有訓練家必須同心協力，一起完成這項挑戰！
 
 RESOURCE ID: timed_challenge_bonus_modal_description_alt
-TEXT: All Trainers participating in a global challenge will contribute to a global goal. Once Trainers achieve the goal, a timed bonus will activate for all participants.
+TEXT: 所有參加全球大挑戰的訓練家們達成目標後就能獲得限時獎勵。
 
 RESOURCE ID: titan_image_gallery_submission_time
 TEXT: {0}{1}前
@@ -723,9 +764,6 @@ TEXT: 滴著雨露的誘餌模組，效果將持續30分鐘。可以吸引喜愛
 
 RESOURCE ID: troydisk_rainy.1_title
 TEXT: 雨露誘餌模組
-
-RESOURCE ID: upmgmt_confirm_upload_later
-TEXT: UPLOAD LATER
 
 RESOURCE ID: xp_bonus_hourly
 TEXT: 20000 XP

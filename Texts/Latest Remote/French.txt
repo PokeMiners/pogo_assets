@@ -124,6 +124,9 @@ TEXT: +3 Bonbons de capture
 RESOURCE ID: buddy_tutorial_basic_content_p4
 TEXT: Combattre dans les Arènes, dans les Raids, contre d’autres Dresseurs ou contre la Team GO Rocket avec ton copain dans ton équipe de combat renforcera vos liens et te fera gagner un cœur.
 
+RESOURCE ID: catch_xp_quadruple
+TEXT: 4 fois plus de PX de capture
+
 RESOURCE ID: city_spotlight_2020_auckland_snap1
 TEXT: Prends une photo près de Victoria Park
 
@@ -236,6 +239,14 @@ TEXT: Ticket : Oiseau aux ailes duveteuses
 RESOURCE ID: general1.ticket.2_title
 TEXT: Ticket : Oiseau aux ailes duveteuses
 
+RESOURCE ID: general1.ticket.5_description
+TEXT: Un ticket pour accéder au Festival Pokémon GO les 17 et 18 juillet 2021, de 10h à 18h (heures locales), où que tu sois. Remise spéciale pour fêter les 5 ans de Pokémon GO. Consulte les Actualités en jeu pour plus d’infos.
+
+Tu dois jouer aux heures indiquées pour recevoir les bonus des évènements spéciaux.
+
+RESOURCE ID: general1.ticket.5_title
+TEXT: Ticket pour le Festival Pokémon GO 2021
+
 RESOURCE ID: help_center_raid_log_link
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=web&l=fr&s=troubleshooting&f=raid-troubleshooting-guide
 
@@ -255,70 +266,70 @@ RESOURCE ID: item_event_ticket_pink_swabt_details
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à une Étude spéciale le 15 mai 2021, où tu sois dans le monde.
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: This ticket will automatically activate to give you access to Pokémon GO Fest on July 17 and 18, 2021, wherever you are.
+TEXT: Ce ticket s’activera automatiquement pour te donner accès au Festival Pokémon GO les 17 et 18 juillet 2021, où que tu sois.
 
 RESOURCE ID: item_global_event_ticket_details
-TEXT: A ticket to access Pokémon GO Fest on July 17 and 18, 2021, from 10:00 a.m. to 6:00 p.m. local time each day, wherever you are.
+TEXT: Un ticket pour accéder au Festival Pokémon GO les 17 et 18 juillet 2021 de 10h à 18h (heures locales), où que tu sois.
 
 RESOURCE ID: item_item_storage_upgrade
 TEXT: Sac d’objets
 
 RESOURCE ID: log_verbose_raid_modal_desc_cache
-TEXT: A raid’s data will be stored for 24 hours or until your next raid, and you can upload it at any time before then in the Settings menu.
+TEXT: Tes données seront conservées 24h ou jusqu’à ton prochain Raid, et tu peux les envoyer à tout moment depuis les Options.
 
 RESOURCE ID: log_verbose_raid_modal_desc_info
-TEXT: With the Raid Logging feature, you can upload data from raids you participate in, which will help Niantic improve future raids.
+TEXT: Avec l’historique de Raids, tu peux envoyer les données des Raids auxquels tu participes et aider Niantic à améliorer les prochains.
 
 RESOURCE ID: log_verbose_raid_modal_desc_url_desc
-TEXT: To learn more,
+TEXT: Pour en savoir plus,
 
 RESOURCE ID: log_verbose_raid_modal_desc_url_link
-TEXT: visit this website.
+TEXT: rends-toi sur ce site Web.
 
 RESOURCE ID: log_verbose_raid_modal_disable_description
-TEXT: If you disable Raid Logging, any raid logs that you haven’t uploaded will be deleted.
+TEXT: Si tu désactives l’historique de Raids, tout historique non envoyé sera supprimé.
 
 RESOURCE ID: log_verbose_raid_modal_disable_title
-TEXT: Do you want to disable Raid Logging?
+TEXT: Veux-tu désactiver l’historique de Raids ?
 
 RESOURCE ID: log_verbose_raid_modal_title
-TEXT: Help Improve Raids!
+TEXT: Aide-nous à améliorer les Raids !
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_info
-TEXT: You’re about to upload {0} MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
+TEXT: Tu es sur le point d’envoyer {0} Mo de données. Sans connexion Wi-Fi, des frais de données peuvent s’appliquer.
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_title
-TEXT: Do you want to upload now?
+TEXT: Veux-tu l’envoyer maintenant ?
 
 RESOURCE ID: log_verbose_raid_settings_desc_awaiting
-TEXT: Your raid log is ready to upload. (Upload size: {0} MB)
+TEXT: Ton historique de Raids est prêt à être envoyé. (Taille : {0} Mo)
 
 RESOURCE ID: log_verbose_raid_settings_desc_complete
-TEXT: Upload Complete!
+TEXT: Envoi terminé
 
 RESOURCE ID: log_verbose_raid_settings_desc_none
-TEXT: You don’t have a raid log stored.
+TEXT: Ton historique de Raids est vide.
 
 RESOURCE ID: log_verbose_raid_settings_desc_thanks
-TEXT: Your raid log has been uploaded. Thank you for your contribution!
+TEXT: Ton historique de Raids a été envoyé. Merci pour ta contribution.
 
 RESOURCE ID: log_verbose_raid_settings_desc_upload
-TEXT: Uploading Raid Log
+TEXT: Envoi de l’historique de Raids...
 
 RESOURCE ID: log_verbose_raid_settings_disable_log
-TEXT: Enable Raid Logging
+TEXT: Activer l’historique de Raids
 
 RESOURCE ID: log_verbose_raid_settings_enable_log
-TEXT: Enable Raid Logging
+TEXT: Activer l’historique de Raids
 
 RESOURCE ID: log_verbose_raid_settings_header
-TEXT: Current Raid Log
+TEXT: Historique de Raids actuel
 
 RESOURCE ID: log_verbose_raid_settings_title
-TEXT: Raid Logging
+TEXT: Historique de Raids
 
 RESOURCE ID: log_verbose_raid_settings_upload_button
-TEXT: Upload
+TEXT: Envoyer
 
 RESOURCE ID: luminous_x_event_name
 TEXT: Légendes illuminées X
@@ -333,8 +344,8 @@ RESOURCE ID: lurerainy.1_title
 TEXT: Module Leurre Pluvieux
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-05-20T03:04:20.618437
-at SHA 373be0b1a0d1aa53195277f67f596d6a0341049b
+TEXT: Built at 2021-05-21T22:47:44.435268
+at SHA 283dd2d3cd794632d35ded8aef38f11ddeb3bf77
 Patch from: 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4, 0.209.0-SHA-e8df565c
 
 RESOURCE ID: mini_collection_apr21_friendship_day
@@ -718,8 +729,35 @@ TEXT: Défi régional de capture
 RESOURCE ID: regional_catch_challenge_reward_event_name
 TEXT: Récompenses du Défi régional de capture
 
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_none
+TEXT: Caught 0 Pokémon
+
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_plural
+TEXT: Caught {0} Pokémon
+
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
-TEXT: Attrape Pokémon
+TEXT: Caught 1 Pokémon
+
+RESOURCE ID: score_1_none
+TEXT: Caught 0 Pokémon
+
+RESOURCE ID: score_1_plural
+TEXT: Caught {0} Pokémon
+
+RESOURCE ID: score_1_singular
+TEXT: Caught 1 Pokémon
+
+RESOURCE ID: score_catch_pokemon
+TEXT: Caught {0} Pokémon
+
+RESOURCE ID: score_spin_pokestop_none
+TEXT: Spun 0 PokéStops
+
+RESOURCE ID: score_spin_pokestop_plural
+TEXT: Spun {0} PokéStops
+
+RESOURCE ID: score_spin_pokestop_singular
+TEXT: Spun {0} PokéStops
 
 RESOURCE ID: settings_sound_effects
 TEXT: Son

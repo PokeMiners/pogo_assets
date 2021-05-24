@@ -2,13 +2,13 @@ RESOURCE ID: abi_address_book_button
 TEXT: LISTA DE CONTACTOS
 
 RESOURCE ID: abi_contact_signed_up_notification
-TEXT: ¡Los Entrenadores de tu lista de contactos han comenzado sus aventuras en Pokémon GO! Ve al menú de AMIGOS para enviarles una solicitud de amistad.
+TEXT: ¡Hay Entrenadores de tu lista de contactos que han comenzado sus aventuras en Pokémon GO! Ve al menú de AMIGOS para enviarles una solicitud de amistad.
 
 RESOURCE ID: abi_new_player_onboarding_accept_button_text
 TEXT: ENCUENTRA AMIGOS EN LA LISTA DE CONTACTOS
 
 RESOURCE ID: abi_new_player_onboarding_extra_info
-TEXT: Puedes elegir a qué contactos enviar solicitudes de amistad. Puedes desactivar la posibilidad de enviar solicitudes de amistad en el menú de opciones.
+TEXT: Puedes desactivar esta función en cualquier momento en el menú de opciones. Puedes elegir a qué contactos enviar solicitudes de amistad.
 
 RESOURCE ID: abi_new_player_onboarding_feature_1
 TEXT: Intercambia Pokémon
@@ -121,6 +121,9 @@ TEXT: 3 Caramelos por captura adicionales
 RESOURCE ID: buddy_tutorial_basic_content_p4
 TEXT: Combatir en Gimnasios, en incursiones, contra otros Entrenadores o contra el Team GO Rocket con tu compañero en tu equipo de combate fortalecerá vuestro vínculo, y podrías recibir un corazón.
 
+RESOURCE ID: catch_xp_quadruple
+TEXT: Cuádruple de PX por captura
+
 RESOURCE ID: community_day_fletchling_event_name
 TEXT: Día de la Comunidad: Fletchling
 
@@ -158,6 +161,14 @@ TEXT: Entrada: Ave de alas algodonadas
 RESOURCE ID: general1.ticket.2_title
 TEXT: Entrada: Ave de alas algodonadas
 
+RESOURCE ID: general1.ticket.5_description
+TEXT: Una entrada para acceder al Festival de Pokémon GO el 17 y el 18 de julio de 2021 de 10 a. m. a 6 p. m. cada día en tu hora local, estés donde estés. Con descuento solo este año para celebrar el quinto aniversario de Pokémon GO. Puedes encontrar más información en las noticias dentro de la aplicación.
+
+ DEBES JUGAR DURANTE LAS HORAS ESPECIFICADAS PARA RECIBIR TODOS LOS BONUS ESPECIALES DEL EVENTO.
+
+RESOURCE ID: general1.ticket.5_title
+TEXT: Entrada para el Festival de Pokémon GO 2021
+
 RESOURCE ID: global_challenge_arena_title
 TEXT: Escenario del desafío global
 
@@ -177,16 +188,16 @@ RESOURCE ID: item_event_ticket_pink_swabt_details
 TEXT: Esta entrada se activará automáticamente para darte acceso a una investigación especial el 15 de Mayo de 2021, sea cual sea el lugar del mundo en el que te encuentres.
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: Esta entrada se activará automáticamente para darte acceso a una investigación especial el 11 de abril de 2021, estés donde estés.
+TEXT: Esta entrada se activará automáticamente para darte acceso al Festival de Pokémon GO el 17 y el 18 de julio de 2021, estés donde estés.
 
 RESOURCE ID: item_global_event_ticket_details
-TEXT: Esta entrada se activará automáticamente para darte acceso a una investigación especial el 15 de Mayo de 2021, sea cual sea el lugar del mundo en el que te encuentres.
+TEXT: Una entrada para acceder al Festival de Pokémon GO el 17 y el 18 de julio de 2021 de 10 a. m. a 6 p. m. cada día en tu hora local, estés donde estés.
 
 RESOURCE ID: item_item_storage_upgrade
 TEXT: Aumento de espacio (Bolsa)
 
 RESOURCE ID: log_verbose_raid_modal_desc_cache
-TEXT: Los datos de una incursión se almacenarán durante 24 horas o hasta tu próxima incursión, y puedes cargarlos en cualquier momento antes de esa fecha en el menú Opciones.
+TEXT: Los datos de una incursión se almacenarán durante 24 horas o hasta tu próxima incursión, y puedes cargarlos en cualquier momento antes de esa fecha en el menú de opciones.
 
 RESOURCE ID: log_verbose_raid_modal_desc_info
 TEXT: Con la función de registro de incursiones, puedes cargar datos de las incursiones en las que participes, lo que ayudará a Niantic a mejorar las futuras incursiones.
@@ -210,13 +221,13 @@ RESOURCE ID: log_verbose_raid_modal_upload_desc_info
 TEXT: Estás a punto de cargar {0} MB de datos. Puede que se apliquen tarifas de datos si no tienes conexión Wi-Fi.
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_title
-TEXT: ¿Quieres cargar ahora?
+TEXT: ¿Quieres realizar la carga ahora?
 
 RESOURCE ID: log_verbose_raid_settings_desc_awaiting
 TEXT: Tu registro de incursiones está listo para cargarse. (Tamaño de la carga: {0} MB)
 
 RESOURCE ID: log_verbose_raid_settings_desc_complete
-TEXT: ¡Carga completada!
+TEXT: ¡Se ha completado la carga!
 
 RESOURCE ID: log_verbose_raid_settings_desc_none
 TEXT: No tienes un registro de incursiones guardado.
@@ -225,7 +236,7 @@ RESOURCE ID: log_verbose_raid_settings_desc_thanks
 TEXT: Se ha cargado tu registro de incursiones. ¡Gracias por tu contribución!
 
 RESOURCE ID: log_verbose_raid_settings_desc_upload
-TEXT: Cargando el registro de incursiones
+TEXT: Cargando el registro de incursiones...
 
 RESOURCE ID: log_verbose_raid_settings_disable_log
 TEXT: Activar registro de incursiones
@@ -255,8 +266,8 @@ RESOURCE ID: lurerainy.1_title
 TEXT: Módulo Cebo Lluvioso
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-05-20T03:04:20.618437
-at SHA 373be0b1a0d1aa53195277f67f596d6a0341049b
+TEXT: Built at 2021-05-21T22:47:44.435268
+at SHA 283dd2d3cd794632d35ded8aef38f11ddeb3bf77
 Patch from: 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4, 0.209.0-SHA-e8df565c
 
 RESOURCE ID: mini_collection_apr21_friendship_day
@@ -586,8 +597,35 @@ TEXT: Desafío de Captura Regional
 RESOURCE ID: regional_catch_challenge_reward_event_name
 TEXT: Recompensas del Desafío de Captura Regional
 
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_none
+TEXT: Caught 0 Pokémon
+
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_plural
+TEXT: Caught {0} Pokémon
+
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
-TEXT: Captura Pokémon
+TEXT: Caught 1 Pokémon
+
+RESOURCE ID: score_1_none
+TEXT: Caught 0 Pokémon
+
+RESOURCE ID: score_1_plural
+TEXT: Caught {0} Pokémon
+
+RESOURCE ID: score_1_singular
+TEXT: Caught 1 Pokémon
+
+RESOURCE ID: score_catch_pokemon
+TEXT: Caught {0} Pokémon
+
+RESOURCE ID: score_spin_pokestop_none
+TEXT: Spun 0 PokéStops
+
+RESOURCE ID: score_spin_pokestop_plural
+TEXT: Spun {0} PokéStops
+
+RESOURCE ID: score_spin_pokestop_singular
+TEXT: Spun {0} PokéStops
 
 RESOURCE ID: settings_sound_effects
 TEXT: Sonido

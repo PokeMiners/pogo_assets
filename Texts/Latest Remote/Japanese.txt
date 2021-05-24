@@ -2,13 +2,13 @@ RESOURCE ID: abi_address_book_button
 TEXT: 連絡先リスト
 
 RESOURCE ID: abi_contact_signed_up_notification
-TEXT: 連絡先に含まれていたお知り合いがPokémon Pokémon GO の冒険を始めました。フレンドに登録しましょう！
+TEXT: 連絡先に含まれていたお知り合いがPokémon Pokémon GO の冒険を始めました。フレンド申請を送りましょう！
 
 RESOURCE ID: abi_new_player_onboarding_accept_button_text
 TEXT: 連絡先からフレンドになる人をさがす
 
 RESOURCE ID: abi_new_player_onboarding_extra_info
-TEXT: 選んだ連絡先は設定からいつでもオフにできます。
+TEXT: 連絡先から選んでフレンド申請を送ることができるようになります。この機能は設定からいつでもオフにできます。
 
 RESOURCE ID: abi_new_player_onboarding_feature_1
 TEXT: ポケモンを交換する
@@ -26,7 +26,7 @@ RESOURCE ID: abi_new_player_onboarding_feature_5
 TEXT: 対戦をする
 
 RESOURCE ID: abi_new_player_onboarding_list_header
-TEXT: 連絡先のリストを使って以下のことを可能にします。
+TEXT: 連絡先リストを使ってフレンド申請を送りましょう。フレンドになると、以下のことができます。
 
 RESOURCE ID: abi_new_player_onboarding_title
 TEXT: 仲間がいればもっと楽しい！
@@ -115,6 +115,9 @@ TEXT: +3 ポケモンを捕まえたときのアメ
 RESOURCE ID: buddy_tutorial_basic_content_p4
 TEXT: 相棒のポケモンをバトルパーティに含めて、ジムバトル、レイドバトル、トレーナーもしくはGOロケット団対戦を行うと、絆が深まりハートが増えます。
 
+RESOURCE ID: catch_xp_quadruple
+TEXT: 4× ポケモン獲得XP
+
 RESOURCE ID: community_day_swablu_event_name
 TEXT: コミュニティ・デイ：チルット
 
@@ -122,7 +125,7 @@ RESOURCE ID: egg_transparency_help
 TEXT: リスト上部に表示されるポケモンほど、出会えることが多いポケモンです
 
 RESOURCE ID: element_cup_title
-TEXT: Element Cup
+TEXT: エレメントカップ
 
 RESOURCE ID: encounter_pokemon_box_full_title
 TEXT: ポケモンボックスがいっぱいです
@@ -153,6 +156,14 @@ TEXT: わたどりポケモンを解明せよ！
 RESOURCE ID: general1.ticket.2_title
 TEXT: わたどりポケモンを解明せよ！
 
+RESOURCE ID: general1.ticket.5_description
+TEXT: 世界中のどこにいても、現地時間2021年7月17日・18日10:00AM～6:00PMに、Pokémon GO Fest に参加できるチケット。詳細は、ゲーム内ニュースで確認できます。
+
+イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
+
+RESOURCE ID: general1.ticket.5_title
+TEXT: Pokémon GO Fest 2021 チケット
+
 RESOURCE ID: help_center_raid_log_link
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=troubleshooting&f=raid-troubleshooting-guide
 
@@ -172,7 +183,7 @@ RESOURCE ID: item_global_event_ticket_desc
 TEXT: このチケットは自動的に発動し、現地時間2021年7月17日・18日開催の Pokémon GO Fest に参加できるようになります。
 
 RESOURCE ID: item_global_event_ticket_details
-TEXT: 現地時間2020年7月17日・18日10:00 AM～6:00 PM開催の Pokémon GO Fest に参加するためのチケット。
+TEXT: 現地時間2021年7月17日・18日10:00 AM～6:00 PM開催の Pokémon GO Fest に参加するためのチケット。
 
 RESOURCE ID: item_item_storage_upgrade
 TEXT: バッグ アップグレード
@@ -220,10 +231,10 @@ RESOURCE ID: log_verbose_raid_settings_desc_upload
 TEXT: レイドログアップロード中
 
 RESOURCE ID: log_verbose_raid_settings_disable_log
-TEXT: レイドログ機能はオフになっています
+TEXT: レイドログ機能をオンにする
 
 RESOURCE ID: log_verbose_raid_settings_enable_log
-TEXT: レイドログ機能をオンにする
+TEXT: レイドログ機能オン
 
 RESOURCE ID: log_verbose_raid_settings_header
 TEXT: 最新のログ
@@ -247,8 +258,8 @@ RESOURCE ID: lurerainy.1_title
 TEXT: レイニールアー
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-05-20T03:04:20.618437
-at SHA 373be0b1a0d1aa53195277f67f596d6a0341049b
+TEXT: Built at 2021-05-21T22:47:44.435268
+at SHA 283dd2d3cd794632d35ded8aef38f11ddeb3bf77
 Patch from: 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4, 0.209.0-SHA-e8df565c
 
 RESOURCE ID: move_name_0343
@@ -750,8 +761,35 @@ TEXT: リージョナルチャレンジリワード
 RESOURCE ID: rivals_event_name
 TEXT: ライバルウィーク
 
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_none
+TEXT: Caught 0 Pokémon
+
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_plural
+TEXT: Caught {0} Pokémon
+
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
-TEXT: ポケモンを匹捕まえる
+TEXT: Caught 1 Pokémon
+
+RESOURCE ID: score_1_none
+TEXT: Caught 0 Pokémon
+
+RESOURCE ID: score_1_plural
+TEXT: Caught {0} Pokémon
+
+RESOURCE ID: score_1_singular
+TEXT: Caught 1 Pokémon
+
+RESOURCE ID: score_catch_pokemon
+TEXT: Caught {0} Pokémon
+
+RESOURCE ID: score_spin_pokestop_none
+TEXT: Spun 0 PokéStops
+
+RESOURCE ID: score_spin_pokestop_plural
+TEXT: Spun {0} PokéStops
+
+RESOURCE ID: score_spin_pokestop_singular
+TEXT: Spun {0} PokéStops
 
 RESOURCE ID: settings_sound_effects_alt
 TEXT: 効果音

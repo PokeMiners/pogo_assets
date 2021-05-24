@@ -112,6 +112,9 @@ TEXT: 파트너 레벨이 올라가면 파트너가 할 수 있는 일이 늘어
 RESOURCE ID: buddy_tutorial_basic_content_p4
 TEXT: 파트너 포켓몬을 파티에 넣어서 체육관 배틀, 레이드배틀, 트레이너 대전, GO로켓단 대전을 하면 유대감이 깊어져 하트가 늘어납니다.
 
+RESOURCE ID: catch_xp_quadruple
+TEXT: 4× 포켓몬 잡았을 때 XP
+
 RESOURCE ID: community_day_swablu_event_name
 TEXT: 커뮤니티 데이: 파비코
 
@@ -146,6 +149,14 @@ TEXT: 솜새포켓몬의 수수께끼를 풀어라
 RESOURCE ID: general1.ticket.2_title
 TEXT: 솜새포켓몬의 수수께끼를 풀어라
 
+RESOURCE ID: general1.ticket.5_description
+TEXT: 전 세계 어디에 있어도 현지 시간 2021년 7월 17일과 18일, 10시~18시까지 Pokémon GO Fest에 참가할 수 있는 티켓입니다. 자세한 내용은 게임 새소식에서 확인할 수 있습니다.
+
+이벤트를 최대한 즐기기 위해서는 기재된 개최 시간 내에 플레이를 종료해야 합니다.
+
+RESOURCE ID: general1.ticket.5_title
+TEXT: Pokémon GO Fest 2021 티켓
+
 RESOURCE ID: help_center_raid_log_link
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=troubleshooting&f=raid-troubleshooting-guide
 
@@ -162,70 +173,70 @@ RESOURCE ID: item_event_ticket_pink_swabt_details
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2021년5월 5일에 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2020년4월 11일 스페셜리서치가 진행됩니다.
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2021년7월 17일~18일에 개최하는 Pokémon GO Fest에 참가할 수 있습니다.
 
 RESOURCE ID: item_global_event_ticket_details
-TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2021년5월 5일에 스페셜리서치가 진행됩니다.
+TEXT: 현지시간 2021년 7월 17일과 18일, 10시~18시까지 개최하는 Pokémon GO Fest에 참가하기 위한 티켓.
 
 RESOURCE ID: item_item_storage_upgrade
 TEXT: 가방 업그레이드
 
 RESOURCE ID: log_verbose_raid_modal_desc_cache
-TEXT: A raid’s data will be stored for 24 hours or until your next raid, and you can upload it at any time before then in the Settings menu.
+TEXT: 로그 데이터는 설정 내 24시간 또는 다음 레이드배틀 시작까지 보관되며 언제라도 보낼 수 있습니다.
 
 RESOURCE ID: log_verbose_raid_modal_desc_info
-TEXT: With the Raid Logging feature, you can upload data from raids you participate in, which will help Niantic improve future raids.
+TEXT: 레이드 개선에 도움을 줄 로그를 보낼 수 있습니다.
 
 RESOURCE ID: log_verbose_raid_modal_desc_url_desc
-TEXT: To learn more,
+TEXT: 자세한 내용은
 
 RESOURCE ID: log_verbose_raid_modal_desc_url_link
-TEXT: visit this website.
+TEXT: 사이트를 확인해 주세요.
 
 RESOURCE ID: log_verbose_raid_modal_disable_description
-TEXT: If you disable Raid Logging, any raid logs that you haven’t uploaded will be deleted.
+TEXT: 레이드 로그 기능을 끄면 업로드 전 로그는 삭제됩니다.
 
 RESOURCE ID: log_verbose_raid_modal_disable_title
-TEXT: Do you want to disable Raid Logging?
+TEXT: 레이드 로그 기능을 끄겠습니까?
 
 RESOURCE ID: log_verbose_raid_modal_title
 TEXT: 레이드 개선을 도와주세요!
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_info
-TEXT: You’re about to upload {0} MB of data. If you aren’t connected to Wi-Fi, data rates may apply.
+TEXT: {0} MB 파일을 업로드합니다. Wi-Fi에 연결되지 않은 경우 정보 이용료가 부과될 수 있습니다.
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_title
-TEXT: Do you want to upload now?
+TEXT: 지금 바로 업로드 하겠습니까?
 
 RESOURCE ID: log_verbose_raid_settings_desc_awaiting
-TEXT: Your raid log is ready to upload. (Upload size: {0} MB)
+TEXT: 레이드 로그({0}MB) 업로드 준비가 완료 되었습니다.
 
 RESOURCE ID: log_verbose_raid_settings_desc_complete
-TEXT: Upload Complete!
+TEXT: 업로드 완료!
 
 RESOURCE ID: log_verbose_raid_settings_desc_none
-TEXT: You don’t have a raid log stored.
+TEXT: 보관된 레이드 로그가 없습니다.
 
 RESOURCE ID: log_verbose_raid_settings_desc_thanks
-TEXT: Your raid log has been uploaded. Thank you for your contribution!
+TEXT: 레이드 로그를 보냈습니다.
 
 RESOURCE ID: log_verbose_raid_settings_desc_upload
-TEXT: Uploading Raid Log
+TEXT: 레이드 로그 업로드 중
 
 RESOURCE ID: log_verbose_raid_settings_disable_log
-TEXT: Enable Raid Logging
+TEXT: 레이드 로그 기능 비활성
 
 RESOURCE ID: log_verbose_raid_settings_enable_log
-TEXT: Enable Raid Logging
+TEXT: 레이드 로그 기능 켬
 
 RESOURCE ID: log_verbose_raid_settings_header
-TEXT: Current Raid Log
+TEXT: 최신 로그
 
 RESOURCE ID: log_verbose_raid_settings_title
-TEXT: Raid Logging
+TEXT: 레이드 로그
 
 RESOURCE ID: log_verbose_raid_settings_upload_button
-TEXT: Upload
+TEXT: 업로드
 
 RESOURCE ID: luminous_x_event_name
 TEXT: 페어리 레전드 X
@@ -240,8 +251,8 @@ RESOURCE ID: lurerainy.1_title
 TEXT: 레이니 루어모듈
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-05-20T03:04:20.618437
-at SHA 373be0b1a0d1aa53195277f67f596d6a0341049b
+TEXT: Built at 2021-05-21T22:47:44.435268
+at SHA 283dd2d3cd794632d35ded8aef38f11ddeb3bf77
 Patch from: 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4, 0.209.0-SHA-e8df565c
 
 RESOURCE ID: mini_collection_apr21_friendship_day
@@ -320,7 +331,7 @@ RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
 TEXT: 야생 꼬지보리 또는 초라기 또는 형광어의 GO스냅샷을 찍는다
 
 RESOURCE ID: quest_snapshot_wild_eevee
-TEXT: Take a snapshot of Eevee in the wild
+TEXT: 야생 이브이의 GO스냅샷을 찍는다
 
 RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: 전기타입 야생 포켓몬의 GO스냅샷을 {0}장 찍는다
@@ -583,8 +594,35 @@ TEXT: 리저널 챌린지
 RESOURCE ID: regional_catch_challenge_reward_event_name
 TEXT: 리저널 챌린지 리워드
 
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_none
+TEXT: Caught 0 Pokémon
+
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_plural
+TEXT: Caught {0} Pokémon
+
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
-TEXT: 포켓몬마를 잡는다
+TEXT: Caught 1 Pokémon
+
+RESOURCE ID: score_1_none
+TEXT: Caught 0 Pokémon
+
+RESOURCE ID: score_1_plural
+TEXT: Caught {0} Pokémon
+
+RESOURCE ID: score_1_singular
+TEXT: Caught 1 Pokémon
+
+RESOURCE ID: score_catch_pokemon
+TEXT: Caught {0} Pokémon
+
+RESOURCE ID: score_spin_pokestop_none
+TEXT: Spun 0 PokéStops
+
+RESOURCE ID: score_spin_pokestop_plural
+TEXT: Spun {0} PokéStops
+
+RESOURCE ID: score_spin_pokestop_singular
+TEXT: Spun {0} PokéStops
 
 RESOURCE ID: settings_sound_effects_alt
 TEXT: 효과음
@@ -672,9 +710,6 @@ TEXT: 포켓스톱에 사용하면 30분 동안 물을 뿜어내 특정 포켓�
 
 RESOURCE ID: troydisk_rainy.1_title
 TEXT: 레이니 루어모듈
-
-RESOURCE ID: upmgmt_confirm_upload_later
-TEXT: UPLOAD LATER
 
 RESOURCE ID: xp_bonus_hourly
 TEXT: 20000 XP

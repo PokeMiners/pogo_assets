@@ -121,6 +121,9 @@ TEXT: +3 Fang-Bonbons
 RESOURCE ID: buddy_tutorial_basic_content_p4
 TEXT: Wenn du mit deinem Kumpel im Kampfteam in Arenen, Raids, Trainerkämpfen oder gegen Team GO Rocket kämpfst, stärkt es eure Bindung und du kannst ein Herz verdienen.
 
+RESOURCE ID: catch_xp_quadruple
+TEXT: 4× Fang-EP
+
 RESOURCE ID: community_day_swablu_event_name
 TEXT: Community Day: Wablu
 
@@ -137,7 +140,7 @@ RESOURCE ID: event_name_snap
 TEXT: New Pokémon Snap Feier
 
 RESOURCE ID: extreme_weather_warning_title
-TEXT: Extreme weather
+TEXT: Unwetterwarnung
 
 RESOURCE ID: form_no_drive
 TEXT: Normalform
@@ -161,11 +164,19 @@ TEXT: Ticket: Flauschige Watteflügel
 RESOURCE ID: general1.ticket.2_title
 TEXT: Ticket: Flauschige Watteflügel
 
+RESOURCE ID: general1.ticket.5_description
+TEXT: Ein Ticket zur Teilnahme am Pokémon GO-Fest am 17. und 18. Juli 2021 von 10:00 bis 18:00 Uhr Ortszeit an beiden Tagen (wo immer du dich befindest). Details findest du unter „Neuigkeiten“ im Spiel.
+
+DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZIAL-EVENTS ZU ERHALTEN.
+
+RESOURCE ID: general1.ticket.5_title
+TEXT: Ticket: Pokémon GO-Fest 2021
+
 RESOURCE ID: giovanni_greeting#10
 TEXT: Du willst mich herausfordern? Ich hoffe, du bist ein würdiger Gegner.
 
 RESOURCE ID: help_center_raid_log_link
-TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=troubleshooting&f=raid-troubleshooting-guide
+TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=web&l=de&s=troubleshooting&f=raid-troubleshooting-guide
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Ein Ticket für den Zugang zur Spezialforschung am 15. Mai 2021 von 11:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
@@ -189,25 +200,25 @@ RESOURCE ID: item_item_storage_upgrade
 TEXT: Item-Beutel
 
 RESOURCE ID: log_verbose_raid_modal_desc_cache
-TEXT: Die Daten eines Raids werden bis zu 24 Stunden gespeichert oder bis du einem weiteren Raid beitrittst. Du kannst die Daten davor jeder Zeit hochladen.
+TEXT: Die Daten eines Raids werden 24 Stunden lang bzw. bis zu deinem nächsten Raid gespeichert. Du kannst die Daten in diesem Zeitraum in den Einstellungen hochladen.
 
 RESOURCE ID: log_verbose_raid_modal_desc_info
-TEXT: Mit der Funktion Raid-Erfassung kannst du Daten von Raids, an denen du Teil genommen hast, hochladen. Das wird Niantic helfen, Raids zu verbessern.
+TEXT: Mit der Funktion Raid-Protokollierung kannst du Daten von Raids, an denen du teilnimmst, hochladen. Dies wird Niantic dabei helfen, Raids in Zukunft zu verbessern.
 
 RESOURCE ID: log_verbose_raid_modal_desc_url_desc
-TEXT: Um mehr zu erfahren,
+TEXT: Weitere Informationen
 
 RESOURCE ID: log_verbose_raid_modal_desc_url_link
-TEXT: besuche diese Website.
+TEXT: findest du auf dieser Website.
 
 RESOURCE ID: log_verbose_raid_modal_disable_description
-TEXT: Wenn du Raid-Erfassung deaktivierst, werden Raid-Protokolle gelöscht, die du noch nicht hochgeladen hast.
+TEXT: Wenn du Raid-Protokollierung deaktivierst, werden jegliche Raid-Protokolle, die du nicht hochgeladen hast, gelöscht.
 
 RESOURCE ID: log_verbose_raid_modal_disable_title
-TEXT: Willst du Raid-Erfassung deaktivieren?
+TEXT: Willst du Raid-Protokollierung deaktivieren?
 
 RESOURCE ID: log_verbose_raid_modal_title
-TEXT: Hilf dabei, Raids zu verbessern!
+TEXT: Hilf mit, Raids zu verbessern!
 
 RESOURCE ID: log_verbose_raid_modal_upload_desc_info
 TEXT: Du bist dabei, Daten in Größe von {0} MB hochzuladen. Falls dein Gerät nicht mit Wi-Fi verbunden ist, können Datengebühren anfallen.
@@ -216,13 +227,13 @@ RESOURCE ID: log_verbose_raid_modal_upload_desc_title
 TEXT: Möchtest du jetzt hochladen?
 
 RESOURCE ID: log_verbose_raid_settings_desc_awaiting
-TEXT: Dein Raid-Protokoll kann hochgeladen werden. (Größe: {0} MB)
+TEXT: Dein Raid-Protokoll ist bereit zum Hochladen. (Upload-Größe: {0} MB)
 
 RESOURCE ID: log_verbose_raid_settings_desc_complete
-TEXT: Hochladen abgeschlossen!
+TEXT: Upload abgeschlossen!
 
 RESOURCE ID: log_verbose_raid_settings_desc_none
-TEXT: Dein Raid-Protokoll ist leer.
+TEXT: Du hast kein Raid-Protokoll gespeichert.
 
 RESOURCE ID: log_verbose_raid_settings_desc_thanks
 TEXT: Dein Raid-Protokoll wurde hochgeladen. Danke für deine Hilfe!
@@ -231,16 +242,16 @@ RESOURCE ID: log_verbose_raid_settings_desc_upload
 TEXT: Raid-Protokoll hochladen
 
 RESOURCE ID: log_verbose_raid_settings_disable_log
-TEXT: Raid-Erfassung aktivieren
+TEXT: Raid-Protokollierung aktivieren
 
 RESOURCE ID: log_verbose_raid_settings_enable_log
-TEXT: Raid-Erfassung aktivieren
+TEXT: Raid-Protokollierung aktivieren
 
 RESOURCE ID: log_verbose_raid_settings_header
 TEXT: Aktuelles Raid-Protokoll
 
 RESOURCE ID: log_verbose_raid_settings_title
-TEXT: Raid-Erfassung
+TEXT: Raid-Protokollierung
 
 RESOURCE ID: log_verbose_raid_settings_upload_button
 TEXT: Hochladen
@@ -258,8 +269,8 @@ RESOURCE ID: lurerainy.1_title
 TEXT: Regen-Lockmodul
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-05-20T03:04:20.618437
-at SHA 373be0b1a0d1aa53195277f67f596d6a0341049b
+TEXT: Built at 2021-05-21T22:47:44.435268
+at SHA 283dd2d3cd794632d35ded8aef38f11ddeb3bf77
 Patch from: 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4, 0.209.0-SHA-e8df565c
 
 RESOURCE ID: mini_collection_apr21_friendship_day
@@ -565,8 +576,35 @@ TEXT: Regionale Fang-Herausforderung
 RESOURCE ID: regional_catch_challenge_reward_event_name
 TEXT: Belohnungen für die Regionale Fang-Herausforderung
 
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_none
+TEXT: Caught 0 Pokémon
+
+RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_plural
+TEXT: Caught {0} Pokémon
+
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
-TEXT: Fange Pokémon.
+TEXT: Caught 1 Pokémon
+
+RESOURCE ID: score_1_none
+TEXT: Caught 0 Pokémon
+
+RESOURCE ID: score_1_plural
+TEXT: Caught {0} Pokémon
+
+RESOURCE ID: score_1_singular
+TEXT: Caught 1 Pokémon
+
+RESOURCE ID: score_catch_pokemon
+TEXT: Caught {0} Pokémon
+
+RESOURCE ID: score_spin_pokestop_none
+TEXT: Spun 0 PokéStops
+
+RESOURCE ID: score_spin_pokestop_plural
+TEXT: Spun {0} PokéStops
+
+RESOURCE ID: score_spin_pokestop_singular
+TEXT: Spun {0} PokéStops
 
 RESOURCE ID: settings_sound_effects
 TEXT: Sound
@@ -660,6 +698,12 @@ TEXT: Dieses feuchte Lockmodul lockt 30 Minuten lang Pokémon an, besonders solc
 
 RESOURCE ID: troydisk_rainy.1_title
 TEXT: Regen-Lockmodul
+
+RESOURCE ID: weather_extreme_description
+TEXT: Wetterbedingungen können gefährlich sein – achte auf deine Umgebung! Näheres erfährst du bei deinem lokalen Wetterdienst.
+
+RESOURCE ID: weather_warning_title
+TEXT: Wetterwarnung
 
 RESOURCE ID: xp_bonus_hourly
 TEXT: 20000 EP
