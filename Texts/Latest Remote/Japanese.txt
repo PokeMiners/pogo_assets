@@ -46,9 +46,6 @@ TEXT: 仲間がいればもっと楽しい！
 RESOURCE ID: abi_new_player_onboarding_title_2
 TEXT: 連絡先リストから仲間を見つける
 
-RESOURCE ID: avatar_f_backpack_snapcamera_00_bundle_icon
-TEXT: GOスナップショット カメラ
-
 RESOURCE ID: avatar_f_gloves_korrina_00_bundle_icon
 TEXT: コルニ　グローブ
 
@@ -88,10 +85,6 @@ TEXT: レジロック　ウィンドブレーカー
 RESOURCE ID: avatar_f_shirt_registeeljersies_00_bundle_icon
 TEXT: レジスチル　ウィンドブレーカー
 
-RESOURCE ID: avatar_f_shirt_sustainability2021_00_bundle_icon
-TEXT: サスティナビリティウィーク
-Tシャツ
-
 RESOURCE ID: avatar_f_shirt_sylveonitems_00_bundle_icon
 TEXT: ニンフィア　フーディー
 
@@ -109,9 +102,6 @@ TEXT: レジスチル　シューズ
 
 RESOURCE ID: avatar_f_shoes_sylveonitems_00_bundle_icon
 TEXT: ニンフィア　スニーカー
-
-RESOURCE ID: avatar_m_backpack_snapcamera_00_bundle_icon
-TEXT: GOスナップショット カメラ
 
 RESOURCE ID: avatar_m_gloves_korrina_00_bundle_icon
 TEXT: コルニ　グローブ
@@ -154,10 +144,6 @@ TEXT: レジロック　ウィンドブレーカー
 
 RESOURCE ID: avatar_m_shirt_registeeljersies_00_bundle_icon
 TEXT: レジスチル　ウィンドブレーカー
-
-RESOURCE ID: avatar_m_shirt_sustainability2021_00_bundle_icon
-TEXT: サスティナビリティウィーク
-Tシャツ
 
 RESOURCE ID: avatar_m_shirt_sylveonitems_00_bundle_icon
 TEXT: ニンフィア　フーディー
@@ -207,16 +193,6 @@ TEXT: ポケストップまたはジムをスキャンした！
 RESOURCE ID: badge_pokestops_scanned_title
 TEXT: スキャナー
 
-RESOURCE ID: batch_transfer_eligible_confirm_plural
-TEXT: <size=36><b>選択されたポケモンのうち{0}匹のみ博士に送ることができます</b></size>
-
-送ることができないポケモンはボックスに残ります。送ったポケモンを戻すことはできません。
-
-RESOURCE ID: batch_transfer_eligible_confirm_singular
-TEXT: <size=36><b>選択されたポケモンのうち1匹のみ博士に送ることができます</b></size>
-
-送ることができないポケモンはボックスに残ります。送ったポケモンを戻すことはできません。
-
 RESOURCE ID: bonus_reward_100_catch_xp
 TEXT: +100 ポケモン獲得XP
 
@@ -226,8 +202,17 @@ TEXT: +200 ポケモン獲得XP
 RESOURCE ID: bonus_reward_3_catch_candy
 TEXT: +3 ポケモンを捕まえたときのアメ
 
-RESOURCE ID: buddy_tutorial_basic_content_p4
-TEXT: 相棒のポケモンをバトルパーティに含めて、ジムバトル、レイドバトル、トレーナーもしくはGOロケット団対戦を行うと、絆が深まりハートが増えます。
+RESOURCE ID: breakthrough_free_remote_raid_pass
+TEXT: 大発見でリモートレイドパス
+
+RESOURCE ID: breakthrough_xp_double
+TEXT: 2x 大発見XP
+
+RESOURCE ID: catch_candy_xl_chance_double
+TEXT: 2x アメXLのチャンス増
+
+RESOURCE ID: catch_candy_xl_chance_triple
+TEXT: 3x アメXLのチャンス増
 
 RESOURCE ID: catch_xp_quadruple
 TEXT: 4× ポケモン獲得XP
@@ -238,21 +223,11 @@ TEXT: コミュニティ・デイ：フカマル
 RESOURCE ID: community_day_swablu_event_name
 TEXT: コミュニティ・デイ：チルット
 
-RESOURCE ID: egg_transparency_help
-TEXT: リスト上部に表示されるポケモンほど、出会えることが多いポケモンです
-
 RESOURCE ID: element_cup_title
 TEXT: エレメントカップ
 
-RESOURCE ID: encounter_pokemon_box_full_title
-TEXT: ポケモンボックスがいっぱいです
-
 RESOURCE ID: error_no_pokemon_in_inventory
 TEXT: {0}を持っていません
-
-RESOURCE ID: event_name_snap
-TEXT: 『New ポケモンスナップ』
-セレブレーション
 
 RESOURCE ID: event_season3_name
 TEXT: ディスカバリーシーズン
@@ -264,7 +239,7 @@ RESOURCE ID: f_avatar_poses_bundle_pose_29
 TEXT: コルニ　ポーズ
 
 RESOURCE ID: general1.ticket.2_description
-TEXT: 世界中のどこにいても、現地時間2021年5月15日11:00AM～5:00PMにゲーム内イベント「わたどりポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
+TEXT: 世界中のどこにいても、現地時間2021年6月6日の11:00AM～5:00PMに、ゲーム内でスタートできるイベント「りくザメポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
 
 イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
 
@@ -285,7 +260,7 @@ RESOURCE ID: general1.ticket.2_swabt_title
 TEXT: わたどりポケモンを解明せよ！
 
 RESOURCE ID: general1.ticket.2_title
-TEXT: わたどりポケモンを解明せよ！
+TEXT: 「りくザメポケモンを解明せよ！」チケット
 
 RESOURCE ID: general1.ticket.5_description
 TEXT: 世界中のどこにいても、現地時間2021年7月17日・18日10:00AM～6:00PMに、Pokémon GO Fest に参加できるチケット。詳細は、ゲーム内ニュースで確認できます。
@@ -295,14 +270,17 @@ TEXT: 世界中のどこにいても、現地時間2021年7月17日・18日10:00
 RESOURCE ID: general1.ticket.5_title
 TEXT: Pokémon GO Fest 2021 チケット
 
+RESOURCE ID: gf2021_content_hashtag
+TEXT: #PokemonGOFest2021をつけて投稿された写真のなかから、ピックアップしてご紹介！
+
 RESOURCE ID: help_center_raid_log_link
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=troubleshooting&f=raid-troubleshooting-guide
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 現地時間2021年5月15日11:00AM～5:00PMにスペシャルリサーチを遂行するためのチケット。
+TEXT: 現地時間2021年6月6日11:00AM～5:00PMにスペシャルリサーチを遂行するためのチケット。
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: このチケットは自動的に発動し、現地時間2021年5月15日にスペシャルリサーチが行えるようになります。
+TEXT: このチケットは自動的に発動し、現地時間2021年6月6日にスペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_giblt_desc
 TEXT: 現地時間2021年6月6日11:00AM～5:00PMにスペシャルリサーチを遂行するためのチケット。
@@ -401,18 +379,9 @@ RESOURCE ID: m_avatar_poses_bundle_pose_29
 TEXT: コルニ　ポーズ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-05-26T21:41:19.337122
-at SHA 0d4ff1332aa38d53a36ce910e673c486c7f59c17
-Patch from: 0.207.1-SHA-aa630308, 0.207.2-SHA-acdc29d4, 0.209.0-SHA-e8df565c
-
-RESOURCE ID: move_name_0343
-TEXT: リーフストーム
-
-RESOURCE ID: no_friend_score_description
-TEXT: 
-
-RESOURCE ID: no_friend_score_description_alt
-TEXT: フレンドにグローバルチャレンジ参加をお願いしよう！
+TEXT: Built at 2021-06-03T16:31:44.460880
+at SHA 15b5d1af04ab1c6a957cd398540563c0133ff703
+Patch from: 0.209.0-SHA-e8df565c
 
 RESOURCE ID: photobomb_five_gible
 TEXT: GOスナップショットでフカマルのサプライズ5回
@@ -420,248 +389,22 @@ TEXT: GOスナップショットでフカマルのサプライズ5回
 RESOURCE ID: photobomb_five_swablu
 TEXT: GOスナップショットでチルットのサプライズ5回
 
-RESOURCE ID: pokedex_category_unlocked_body_singular
-TEXT: {0}ポケモンの図鑑表示をアンロックしました
+RESOURCE ID: pokedex_category_shiny_appraisal_3
+TEXT: いろちがい3つ星
 
-RESOURCE ID: pokedex_category_unlocked_body_threeplus
-TEXT: {0}と{1}ポケモンの図鑑表示をアンロックしました
+RESOURCE ID: pokedex_category_unlocked_header
+TEXT: 図鑑カテゴリが
+アンロックされた！
 
-RESOURCE ID: pokedex_category_unlocked_body_two
-TEXT: {0}と{1}ポケモンの図鑑表示をアンロックしました
+RESOURCE ID: pokedex_category_unlocked_plural_header
+TEXT: 図鑑カテゴリが
+アンロックされた！
 
-RESOURCE ID: pokemon_desc_0122_2339
-TEXT: タップダンスが　得意。　冷気でつくった　氷の　床を　蹴り上げバリヤーの　ごとく　身を　守る。
+RESOURCE ID: quest_beat_raid_singular_minutes
+TEXT: レイドに{0}分未満かけて勝つ
 
-RESOURCE ID: pokemon_desc_0263_0946
-TEXT: おちつきなくはしりまわっている。ほかのポケモンをみつけるとわざとぶつかってケンカをうる。
-
-RESOURCE ID: pokemon_desc_0264_0948
-TEXT: ながいしたでえものをちょうはつ。おこったあいてにきょうれつなタックルをおみまいするぞ。
-
-RESOURCE ID: pokemon_desc_0518
-TEXT: おでこからでるゆめのけむりは食べた夢の内容によってさまざまな色に変わるのだ。
-
-RESOURCE ID: pokemon_desc_0650
-TEXT: 普段　やわらかい　頭の　トゲは力を　こめると　鋭く　とがり岩をも　つらぬくほど　硬くなる。
-
-RESOURCE ID: pokemon_desc_0651
-TEXT: 体を　覆う　頑丈な　殻が敵の　攻撃を　弾き返し鋭い　トゲで　反撃する。
-
-RESOURCE ID: pokemon_desc_0652
-TEXT: 体当たりで　５０トンの　戦車をひっくり返す　パワー。自分が　盾となって　仲間を　守る。
-
-RESOURCE ID: pokemon_desc_0653
-TEXT: 小枝を　食べると　元気になって摂氏２００度を　超える　熱気を大きな　耳から　噴き出す。
-
-RESOURCE ID: pokemon_desc_0654
-TEXT: 木の枝を　尻尾に　挿している。尻尾の　毛の　摩擦熱で枝に　火をつけて　戦う。
-
-RESOURCE ID: pokemon_desc_0655
-TEXT: 杖の　先端で　燃える　炎を　見つめて精神統一すると未来の　出来事を　見通せる。
-
-RESOURCE ID: pokemon_desc_0656
-TEXT: 胸と　背中から　泡を　出す。弾力のある　泡で　攻撃を　受け止めてダメージを　減らす。
-
-RESOURCE ID: pokemon_desc_0657
-TEXT: 泡で　包んだ　小石を　投げる技を　使う。３０メートル　先の空き缶に　当てる　コントロール。
-
-RESOURCE ID: pokemon_desc_0658
-TEXT: 水を　圧縮して　手裏剣を　作り出す。高速回転させて　飛ばすと金属も　真っ二つ。
-
-RESOURCE ID: pokemon_desc_0659
-TEXT: 大きな　耳で　地面を　掘って巣穴を　作る。一晩中　休まずに　掘り続けられる。
-
-RESOURCE ID: pokemon_desc_0660
-TEXT: 大きな　耳は　１トンを　超える 岩を楽に　持ち上げる　パワー。工事現場で　大活躍する。
-
-RESOURCE ID: pokemon_desc_0661
-TEXT: 人懐っこい　性格。美しい　さえずりと尾羽を　振る　動きで仲間に　合図を　送る。
-
-RESOURCE ID: pokemon_desc_0662
-TEXT: 火の粉を　クチバシから　飛ばして草むらを　焦がし　驚いて飛び出した　獲物を　捕まえる。
-
-RESOURCE ID: pokemon_desc_0663
-TEXT: 激しい　戦いで　興奮すると全身の　羽毛の　すきまから火の粉を　噴き出して　飛行する。
-
-RESOURCE ID: pokemon_desc_0664
-TEXT: とりポケモンに　襲われると黒い　粉を　まき散らす。触れると　マヒする　毒の粉だ。
-
-RESOURCE ID: pokemon_desc_0665
-TEXT: しげみの　陰に　隠れて　暮らす。敵に　襲われると　体の　毛を鋭く　逆立てて　威嚇する。
-
-RESOURCE ID: pokemon_desc_0666
-TEXT: 世界には　さまざまな　羽模様のビビヨンがいる。住んでいる　土地の気候が　影響しているようだ。
-
-RESOURCE ID: pokemon_desc_0667
-TEXT: 強い　相手に　立ち向かうときほどたてがみが　高温になり全身に　力が　みなぎるのだ。
-
-RESOURCE ID: pokemon_desc_0668
-TEXT: 群れの　中で　一番　大きな　炎のたてがみを　持つ　オスがリーダーとして　仲間を　率いる。
-
-RESOURCE ID: pokemon_desc_0669
-TEXT: 花の　秘めた　力を　引き出して自在に　操る。フラベベが　持つ　花はもはや　体の　一部だ。
-
-RESOURCE ID: pokemon_desc_0670
-TEXT: 花畑を　飛び回り　枯れかけた　花を世話する。花の　秘められた　力を引き出して　戦う。
-
-RESOURCE ID: pokemon_desc_0671
-TEXT: テリトリーは　見事な　花園。草花の　放つ　エネルギーを　浴びて自分の　パワーにするのだ。
-
-RESOURCE ID: pokemon_desc_0672
-TEXT: 人と　暮らすようになった最初の　ポケモンと　言われる。穏やかな　性格の　ポケモン。
-
-RESOURCE ID: pokemon_desc_0673
-TEXT: ツノを　握る　わずかな　違いからトレーナーの　気持ちを　読み取るので一体となって　走れるのだ。
-
-RESOURCE ID: pokemon_desc_0674
-TEXT: 敵に　なめられないよう　がんばってにらみつけるが　効果は　薄い。くわえた　葉っぱが　トレードマーク。
-
-RESOURCE ID: pokemon_desc_0675
-TEXT: 気性が　荒く　ケンカっ早いが弱いものいじめは　許さない。葉っぱで　敵の　動きを　読む。
-
-RESOURCE ID: pokemon_desc_0676
-TEXT: ボサボサの　体毛を　刈りこむと姿が　美しくなる　だけでなく身体の　キレが　良くなるのだ。
-
-RESOURCE ID: pokemon_desc_0677
-TEXT: 強力な　サイコパワーが漏れ出さないように　放出する　器官を耳で　ふさいでいるのだ。
-
-RESOURCE ID: pokemon_desc_0678
-TEXT: 危険が　迫ると　耳を　持ち上げ１０トン　トラックを　ひねりつぶすサイコパワーを　解放する。
-
-RESOURCE ID: pokemon_desc_0679
-TEXT: 死者の　魂が　古代の　剣に宿って　生まれたらしい。人に　とりつき　命を　吸う。
-
-RESOURCE ID: pokemon_desc_0680
-TEXT: 進化して　２本に　分裂した。テレパシーで　会話して連係攻撃で　敵を　切り刻む。
-
-RESOURCE ID: pokemon_desc_0681
-TEXT: 歴代の　王が　連れていた。霊力で　人や　ポケモンの心を　操り　従わせる。
-
-RESOURCE ID: pokemon_desc_0682
-TEXT: かいだ　者を　うっとりさせる香りを　体から　漂わせる。食べた　もので　香りが　変わる。
-
-RESOURCE ID: pokemon_desc_0683
-TEXT: さまざまな　においを　作り出す。相手の　嫌がる　においを　出して戦いを　有利に　進めるのだ。
-
-RESOURCE ID: pokemon_desc_0684
-TEXT: わたあめのような　甘くて　ベタつく白い　糸を　出して相手を　絡め取り　動きを　封じる。
-
-RESOURCE ID: pokemon_desc_0685
-TEXT: わずかな　においでも　かぎわける敏感な　きゅうかくを　活かしてパティシエの　手伝いを　している。
-
-RESOURCE ID: pokemon_desc_0686
-TEXT: 発光体の　点滅を　見つめた　相手は目が　くらみ　戦う　気持ちがなくなってしまうのだ。
-
-RESOURCE ID: pokemon_desc_0687
-TEXT: ポケモンで　一番　強力な催眠術を　使う。相手を　意のままに操ってしまうのだ。
-
-RESOURCE ID: pokemon_desc_0688
-TEXT: ２匹の　カメテテが　ひとつの　岩で暮らす。ケンカすると　どちらかが他の　岩に　移る。
-
-RESOURCE ID: pokemon_desc_0689
-TEXT: 進化のとき　２匹の　カメテテが７匹に　分裂した　ポケモン。７匹分の　パワーで　戦う。
-
-RESOURCE ID: pokemon_desc_0690
-TEXT: 腐った　海藻に　擬態する。気づかずに　近寄ってきた　獲物に毒液を　浴びせて　しとめる。
-
-RESOURCE ID: pokemon_desc_0691
-TEXT: タンカーの　船体を　腐らせる　猛毒を縄張りに　入りこんだ　ものに見境なく　吐きかける。
-
-RESOURCE ID: pokemon_desc_0692
-TEXT: 大きな　ハサミから　圧縮した　水をピストルのように　撃ち出し飛んでいる　獲物を　撃ち落とす。
-
-RESOURCE ID: pokemon_desc_0693
-TEXT: 水の　砲弾を　発射する巨大な　腕を　持つ。タンカーの　船体を　撃ち抜くぞ。
-
-RESOURCE ID: pokemon_desc_0694
-TEXT: 砂漠で　生活する。太陽の　光を　浴びて　発電すればエサを　食べなくても　平気なのだ。
-
-RESOURCE ID: pokemon_desc_0695
-TEXT: エリマキを　広げて　発電する。エレザード　１匹で　高層ビルで必要な　電気を　作れるのだ。
-
-RESOURCE ID: pokemon_desc_0696
-TEXT: 化石から　復活した　ポケモン。気に入らない　ことが　あるとかんしゃくを　起こして　大暴れ。
-
-RESOURCE ID: pokemon_desc_0697
-TEXT: 分厚い　鉄板を　紙のようにかみちぎる　おおあごで　古代の世界では　無敵を　誇った。
-
-RESOURCE ID: pokemon_desc_0698
-TEXT: １億年前から　氷漬けに　なっていた体の　一部から　復活した古代の　ポケモン。
-
-RESOURCE ID: pokemon_desc_0699
-TEXT: マイナス１５０度の　冷気をひし形の　結晶から　出して敵を　包み　氷漬けにする。
-
-RESOURCE ID: pokemon_desc_0700
-TEXT: リボンのような　触角から気持ちを　和らげる　波動を　送りこみ戦いを　やめさせる。
-
-RESOURCE ID: pokemon_desc_0701
-TEXT: 体格は　小柄だが　カイリキーやハリテヤマなど　大きな　ポケモンと互角に　戦う　テクニシャン。
-
-RESOURCE ID: pokemon_desc_0702
-TEXT: ヒゲが　アンテナの　役割。電波を　送受信して　遠くの　仲間と連絡を　取り合うのだ。
-
-RESOURCE ID: pokemon_desc_0703
-TEXT: 地下深くの　高温　高圧な環境で　生まれた。頭の　石から　エネルギーを　放つ。
-
-RESOURCE ID: pokemon_desc_0704
-TEXT: 一番　弱い　ドラゴンポケモン。ヌメヌメの　体が　乾かないようジメジメした　日陰で　暮らす。
-
-RESOURCE ID: pokemon_desc_0705
-TEXT: なんでも　溶かしてしまう　粘液を分泌して　敵を　撃退する。目玉は　退化して　見えていない。
-
-RESOURCE ID: pokemon_desc_0706
-TEXT: 人懐っこい　ドラゴンポケモン。大好きな　トレーナーに　抱き着いて粘液で　ヌルヌルにしてしまう。
-
-RESOURCE ID: pokemon_desc_0707
-TEXT: カギを　集める　習性。敵に　襲われると　ジャラジャラとカギを　打ち鳴らして　威嚇する。
-
-RESOURCE ID: pokemon_desc_0708
-TEXT: 腐った　切り株に　魂が　宿りポケモンに　なった。人の　寄りつかない　森に　住む。
-
-RESOURCE ID: pokemon_desc_0709
-TEXT: ほかの　木々を　自在に　操る。森を　荒らす　人間は　死ぬまで森から　出られないようにするのだ。
-
-RESOURCE ID: pokemon_desc_0710
-TEXT: 成仏できない　魂をカボチャの　体に　入れている。日暮れと　ともに　動きはじめる。
-
-RESOURCE ID: pokemon_desc_0711
-TEXT: 新月の　夜に　不気味な　声で歌いながら　街中を　さまよう。その歌を　聞くと　のろわれる。
-
-RESOURCE ID: pokemon_desc_0712
-TEXT: 体を　覆う　氷が敵の　攻撃を　防ぐ。割られても冷気で　すぐに　氷を　張る。
-
-RESOURCE ID: pokemon_desc_0713
-TEXT: 凍りついた　体は　鋼鉄のように硬い。立ちふさがる　ものを巨体で　押しつぶし　移動する。
-
-RESOURCE ID: pokemon_desc_0714
-TEXT: 真っ暗な　洞窟で　暮らす。２０万ヘルツの　超音波を大きな　耳から　発射する。
-
-RESOURCE ID: pokemon_desc_0715
-TEXT: 月明かりすら　ない　闇夜を　飛び油断している　獲物を　襲う。暗闇の　戦いでは　無敵だ。
-
-RESOURCE ID: pokemon_desc_0716
-TEXT: 永遠の　命を　分け与えると言われている。樹木の　姿で１０００年　眠り　復活する。
-
-RESOURCE ID: pokemon_desc_0717
-TEXT: 翼と　尾羽を　広げて　赤く　輝くとき生き物の　命を　吸い取る伝説の　ポケモン。
-
-RESOURCE ID: pokemon_desc_0718
-TEXT: カロス地方の　生態系が　崩れると姿を　現して秘めた　力を　発揮するらしい。
-
-RESOURCE ID: pokemon_desc_0719
-TEXT: メレシーの　突然変異。ピンク色に　輝く　体は世界一　美しいと　言われる。
-
-RESOURCE ID: pokemon_desc_0720
-TEXT: 真の姿は　巨大な　力を　持っている。財宝　欲しさに　それが　隠された　城ごと引き抜き　奪い去った　という　伝説が　ある。
-
-RESOURCE ID: pokemon_desc_0721
-TEXT: 水蒸気を　噴き出して　自分の　姿を濃霧で　隠す。人の　立ち入らない山に　住むという。
-
-RESOURCE ID: pokemon_desc_0866
-TEXT: タップダンスの　達人。氷で　できた　ステッキを　振り軽やかな　ステップを　披露する。
-
-RESOURCE ID: pokemon_info_not_transferable
-TEXT: 送ることができないポケモンが含まれています
+RESOURCE ID: quest_beat_raid_singular_seconds
+TEXT: レイドに{0}秒未満かけて勝つ
 
 RESOURCE ID: quest_catch_pokemon_task
 TEXT: ポケモンを匹捕まえる
@@ -672,6 +415,9 @@ TEXT: りくざめポケモンを解明せよ！
 RESOURCE ID: quest_complete_swabt
 TEXT: わたどりポケモンを解明せよ！
 
+RESOURCE ID: quest_evolve_slowpoke_plural
+TEXT: ヤドンを{0}匹進化させる
+
 RESOURCE ID: quest_giblt_catch_b
 TEXT: フカマルを{0}匹捕まえる
 
@@ -681,152 +427,86 @@ TEXT: フカマルを{0}匹進化させる
 RESOURCE ID: quest_giblt_evolve_s1
 TEXT: ガバイトを{0}匹進化させる
 
-RESOURCE ID: quest_snapshot_wild_bug_plural
-TEXT: むしタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_dark_plural
-TEXT: あくタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_dragon_plural
-TEXT: ドラゴンタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
-TEXT: 野生のコアルヒー、チョンチーか、ケイコウオのGOスナップショット写真を撮る
-
 RESOURCE ID: quest_snapshot_wild_eevee
 TEXT: 野生のイーブイのGOスナップショット写真を撮る
-
-RESOURCE ID: quest_snapshot_wild_electric_plural
-TEXT: でんきタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_fairy_plural
-TEXT: フェアリータイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_fighting_plural
-TEXT: かくとうタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_fire_plural
-TEXT: ほのおタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_flying_plural
-TEXT: ひこうタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_geodude_sandshrew_cacnea
-TEXT: 野生のサンド、イシツブテか、サボネアのGOスナップショット写真を撮る
-
-RESOURCE ID: quest_snapshot_wild_ghost_plural
-TEXT: ゴーストタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_grass_plural
-TEXT: くさタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_ground_plural
-TEXT: じめんタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_ice_plural
-TEXT: こおりタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_normal_plural
-TEXT: ノーマルタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
 RESOURCE ID: quest_snapshot_wild_plural
 TEXT: 野生ポケモンのGOスナップショット写真を{0}枚撮る
 
-RESOURCE ID: quest_snapshot_wild_poison_plural
-TEXT: どくタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_psychic_plural
-TEXT: エスパータイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_rock_plural
-TEXT: いわタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_singular
-TEXT: 野生ポケモンのGOスナップショット写真を撮る
-
-RESOURCE ID: quest_snapshot_wild_steel_plural
-TEXT: はがねタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
-RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
-TEXT: 野生のナックラー、サンドか、サボネアのGOスナップショット写真を撮る
-
-RESOURCE ID: quest_snapshot_wild_water_plural
-TEXT: みずタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
-
 RESOURCE ID: quest_special_dialogue_giblt_0_0
-TEXT: %PLAYERNAME%! Excellent timing.
+TEXT: %PLAYERNAME%、グッドタイミング！
 
 RESOURCE ID: quest_special_dialogue_giblt_0_1
-TEXT: I just made a tremendously exciting discovery!
+TEXT: すごいものを見つけたんだ！
 
 RESOURCE ID: quest_special_dialogue_giblt_0_2
-TEXT: Earlier today, I was exploring a nearby cave to collect some samples when I noticed a peculiar warmth along one of the walls.
+TEXT: 今朝洞窟でサンプル収集をしていて、岩肌が暖かく感じる場所にさしかかったとき、
 
 RESOURCE ID: quest_special_dialogue_giblt_0_3
-TEXT: Suddenly, something jumped out and tried to bite me!
+TEXT: 何かが突然飛び出してきて、危うくかみつかれそうに！
 
 RESOURCE ID: quest_special_dialogue_giblt_0_4
-TEXT: I quickly realized I had stumbled upon a nest of Gible, the Land Shark Pokémon. Gible is known to react to anything that moves, so sometimes it leaps out and chomps passersby.
+TEXT: りくザメポケモン、フカマルのすみかに足を踏み入れてしまったんだ。フカマルは動くものに反応するので、飛び出してきて通りかかりの人にかみつくこともある。
 
 RESOURCE ID: quest_special_dialogue_giblt_0_5
-TEXT: I know it just wanted a nibble, but that’s a nibble too much in my book!
+TEXT: フカマルに、ツカマルところだった．．．！？
 
 RESOURCE ID: quest_special_dialogue_giblt_0_6
-TEXT: Anyway, it’s not every day you run into a gaggle of Gible. Do you think you could head out and do some research on their appearance here?
+TEXT: ．．．とにかく、この広まるフカマル状態、調査してくれないか？
 
 RESOURCE ID: quest_special_dialogue_giblt_1_0
-TEXT: Welcome back, Trainer.
+TEXT: よし、戻ったな。
 
 RESOURCE ID: quest_special_dialogue_giblt_1_1
-TEXT: While you were out tracking down the Land Shark Pokémon, I took a closer look at the cave I was telling you about earlier.
+TEXT: きみが、りくザメポケモン調査を行っているあいだ、洞窟に行ってみた。
 
 RESOURCE ID: quest_special_dialogue_giblt_1_2
-TEXT: I was reminded of an interesting tidbit about Gible. It nests inside small, horizontal holes in cave walls warmed by geothermal heat.
+TEXT: 岩肌を観察していて思い出したよ。フカマルは、地熱で暖められた洞窟の狭い横穴に住むことを。
 
 RESOURCE ID: quest_special_dialogue_giblt_1_3
-TEXT: Gible seems to love warm places, and that cave certainly fits the bill.
+TEXT: 確かに地熱を感じられた。フカマルはじめんタイプ、
 
 RESOURCE ID: quest_special_dialogue_giblt_1_4
-TEXT: We’ve learned a lot about this Dragon- and Ground-type, but there is always more to discover!
+TEXT: そして、ドラゴンタイプでもある興味深いポケモンだ。
 
 RESOURCE ID: quest_special_dialogue_giblt_1_5
-TEXT: When you’re ready, how about you try evolving your Gible into Gabite?
+TEXT: 進化の調査も必須だな。ガバイトに進化させてみてくれ！
 
 RESOURCE ID: quest_special_dialogue_giblt_2_0
-TEXT: Nice job evolving your Gible into Gabite, %PLAYERNAME%!
+TEXT: ガバイトへの進化、見事だった、%PLAYERNAME%！
 
 RESOURCE ID: quest_special_dialogue_giblt_2_1
-TEXT: Gabite is known as the Cave Pokémon, and it loves sparkly things.
+TEXT: ほらあなポケモンのガバイトは、光り輝くものが好きなんだ。
 
 RESOURCE ID: quest_special_dialogue_giblt_2_2
-TEXT: It emits ultrasonic waves from protrusions on either side of its head to probe pitch-dark caves.
+TEXT: 頭の左右の突起から超音波を出して、真っ暗な洞穴のようすを調べるとされている。
 
 RESOURCE ID: quest_special_dialogue_giblt_2_3
-TEXT: What a useful ability! Maybe it could help me avoid bumping into lab equipment in the middle of the night...
+TEXT: 真夜中の研究所で役に立つだろうな。装置に足をぶつけずにすむ．．．
 
 RESOURCE ID: quest_special_dialogue_giblt_2_4
-TEXT: We’ve seen Gible and Gabite, but there’s still one more Evolution we need to document. Come see me when you’ve evolved your Gabite, Trainer!
+TEXT: フカマル、ガバイトときて、次は、わかっているね？進化できたら、報告してくれ！
 
 RESOURCE ID: quest_special_dialogue_giblt_3_0
-TEXT: Ah! Fantastic work, %PLAYERNAME%. That’s an admirable Garchomp!
+TEXT: 完璧だ、%PLAYERNAME%！かっこいいガブリアスじゃないか！
 
 RESOURCE ID: quest_special_dialogue_giblt_3_1
-TEXT: Known as the Mach Pokémon, its body is covered in fine scales that reduce drag, enabling it to fly at high speeds.
+TEXT: マッハポケモンであるガブリアスの体は、きめの細かいウロコでおおわれていて、空気抵抗を減らす。だから高速で飛べるんだ。
 
 RESOURCE ID: quest_special_dialogue_giblt_3_2
-TEXT: Those scales don't just reduce wind resistance—their sharp edges also cause injury to any opponent that touches them. Pretty spiffy, eh?
+TEXT: 細かく尖っているウロコは、空気抵抗を減らすだけでなく、襲ってきた相手を傷つける。ハイテクだと思わないか？
 
 RESOURCE ID: quest_special_dialogue_giblt_3_3
-TEXT: I think you’ll find Garchomp to be a powerful companion on your adventures.
+TEXT: 一緒に冒険すれば心強いポケモンだろう。
 
 RESOURCE ID: quest_special_dialogue_giblt_3_4
-TEXT: I can’t wait to see how your relationship develops on your journey!
+TEXT: 良い関係を築いていってほしい。
 
 RESOURCE ID: quest_special_dialogue_giblt_3_5
-TEXT: Thanks for all your help today, Trainer. I hope you had a fin-tastic time!
+TEXT: 今日は一緒に調査してくれてありがとう。また会う日まで、
 
 RESOURCE ID: quest_special_dialogue_giblt_3_6
-TEXT: Now, let’s GO!
+TEXT: とびきり元気にGOだ！！
 
 RESOURCE ID: quest_special_dialogue_swabt_0_0
 TEXT: やぁ、%PLAYERNAME%！今日も果てしなく広がる青い空の下、ポケモンに思いをはせていたところだ！
@@ -997,6 +677,9 @@ TEXT: わたどりポケモンを解明せよ！(3/4)
 RESOURCE ID: quest_title_swabt_3
 TEXT: わたどりポケモンを解明せよ！(4/4)
 
+RESOURCE ID: raid_weekend_bonus_candy
+TEXT: レイドウィークエンドボーナス：アメ
+
 RESOURCE ID: referral_enter_code_later_parameterized
 TEXT: {0}時間以内であれば、フレンドタブからコードを入力することもできます
 
@@ -1006,41 +689,44 @@ TEXT: リージョナルチャレンジ
 RESOURCE ID: regional_catch_challenge_reward_event_name
 TEXT: リージョナルチャレンジリワード
 
-RESOURCE ID: rivals_event_name
-TEXT: ライバルウィーク
-
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_none
-TEXT: Caught 0 Pokémon
+TEXT: ポケモンを0匹捕まえた
 
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_plural
-TEXT: Caught {0} Pokémon
+TEXT: ポケモンを{0}匹捕まえた
 
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
-TEXT: Caught 1 Pokémon
+TEXT: ポケモンを1匹捕まえた
 
 RESOURCE ID: score_1_none
-TEXT: Caught 0 Pokémon
+TEXT: ポケモンを0匹捕まえた
 
 RESOURCE ID: score_1_plural
-TEXT: Caught {0} Pokémon
+TEXT: ポケモンを{0}匹捕まえた
 
 RESOURCE ID: score_1_singular
-TEXT: Caught 1 Pokémon
+TEXT: ポケモンを1匹捕まえた
 
 RESOURCE ID: score_catch_pokemon
-TEXT: Caught {0} Pokémon
+TEXT: ポケモンを{0}匹捕まえた
 
 RESOURCE ID: score_spin_pokestop_none
-TEXT: Spun 0 PokéStops
+TEXT: ポケストップ0個を回した
 
 RESOURCE ID: score_spin_pokestop_plural
-TEXT: Spun {0} PokéStops
+TEXT: ポケストップ{0}個を回した
 
 RESOURCE ID: score_spin_pokestop_singular
-TEXT: Spun 1 PokéStop
+TEXT: ポケストップ1個を回した
 
-RESOURCE ID: settings_sound_effects_alt
-TEXT: 効果音
+RESOURCE ID: settings_help_label
+TEXT: ヘルプ
+
+RESOURCE ID: slow_discovery_2021_collection_challenge
+TEXT: ヤドン祭チャレンジ
+
+RESOURCE ID: slowpoke_event_june_2021
+TEXT: ヤドン祭
 
 RESOURCE ID: spawn_gible
 TEXT: フカマルがより多く野生で出現
@@ -1048,71 +734,27 @@ TEXT: フカマルがより多く野生で出現
 RESOURCE ID: spawn_swablu
 TEXT: チルットがより多く野生で出現
 
-RESOURCE ID: spawn_wild_bug_types
-TEXT: むしタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_dark_types
-TEXT: あくタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_dragon_types
-TEXT: ドラゴンタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_electric_types
-TEXT: でんきタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_fairy_types
-TEXT: フェアリータイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_fighting_types
-TEXT: かくとうタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_fire_types
-TEXT: ほのおタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_flying_types
-TEXT: ひこうタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_ghost_types
-TEXT: ゴーストタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_grass_types
-TEXT: くさタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_ground_types
-TEXT: じめんタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_ice_types
-TEXT: こおりタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_normal_types
-TEXT: ノーマルタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_poison_types
-TEXT: どくタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_psychic_types
-TEXT: エスパータイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_rock_types
-TEXT: いわタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_steel_types
-TEXT: はがねタイプのポケモンがより多く野生で出現
-
-RESOURCE ID: spawn_wild_water_types
-TEXT: みずタイプのポケモンがより多く野生で出現
-
 RESOURCE ID: ticket_gible
 TEXT: 「りくザメポケモンの謎を解け！」チケットがショップに登場
 
 RESOURCE ID: ticket_swablu
 TEXT: 「わたどりポケモンを解明せよ！」チケットがショップに登場
 
-RESOURCE ID: timed_challenge_bonus_modal_description
-TEXT: 全世界のトレーナーが一丸となって完了を目指すチャレンジです！
+RESOURCE ID: titan_poi_ar_data_contribute_more
+TEXT: ご協力ありがとうございます
 
-RESOURCE ID: timed_challenge_bonus_modal_description_alt
-TEXT: グローバルチャレンジに参加するトレーナーの成果によってゴールが達成されると、一定の期間有効なボーナスが発生します。
+このポケストップまたはジムの詳細を教えていただけますか？
+
+RESOURCE ID: titan_poi_ar_data_thank_you
+TEXT: ご協力ありがとうございます
+
+ポケストップのスキャンデータは、設定メニューからアップロードできます。
+
+RESOURCE ID: titan_poi_ar_video_upload_now_button_no_size
+TEXT: いますぐアップロード
+
+RESOURCE ID: titan_poi_ar_video_upload_with_size
+TEXT: アップロードしますか？（{0}MB）
 
 RESOURCE ID: titan_poi_scan_added
 TEXT: 明日{0}件追加されます。
@@ -1122,6 +764,9 @@ TEXT: {0}件のスキャン投稿ができます。
 
 RESOURCE ID: titan_poi_scan_maxed
 TEXT: 一日に投稿できるスキャン上限 ({0}) に達しました。
+
+RESOURCE ID: titan_settings_ar_upload_info
+TEXT: ポケストップスキャン{0}件 ({1} MB) のアップロード待機中です
 
 RESOURCE ID: today_view_catch_competition
 TEXT: リージョナルチャレンジ大会
@@ -1137,7 +782,4 @@ TEXT: いまはアップロードしない
 
 RESOURCE ID: weather_warning_title
 TEXT: 天候に注意！
-
-RESOURCE ID: xp_bonus_hourly
-TEXT: 20000 XP
 
