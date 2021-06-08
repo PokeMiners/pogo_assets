@@ -10,6 +10,9 @@ TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=friends-gifting-trading&f=ad
 RESOURCE ID: abi_new_player_onboarding_abi_info
 TEXT: You choose which contacts to be friends with.
 
+RESOURCE ID: abi_new_player_onboarding_abi_info_2
+TEXT: Easily connect with Niantic Friends by letting Niantic periodically upload your Contacts list. Revoke permission through your device's settings at any time.
+
 RESOURCE ID: abi_new_player_onboarding_accept_button_text
 TEXT: 從聯絡人一覽表中尋找朋友
 
@@ -61,6 +64,9 @@ TEXT: 雷吉洛克 棒球帽
 RESOURCE ID: avatar_f_hat_registeeljersies_00_bundle_icon
 TEXT: 雷吉斯奇魯 棒球帽
 
+RESOURCE ID: avatar_f_hat_slowpoketailshirts_00_bundle_icon
+TEXT: 呆呆獸頭套
+
 RESOURCE ID: avatar_f_hat_sylveonitems_00_bundle_icon
 TEXT: 仙子伊布 緞帶蝴蝶結髮圈
 
@@ -84,6 +90,12 @@ TEXT: 雷吉洛克 防風外套
 
 RESOURCE ID: avatar_f_shirt_registeeljersies_00_bundle_icon
 TEXT: 雷吉斯奇魯 防風外套
+
+RESOURCE ID: avatar_f_shirt_slowpokeshirts_00_bundle_icon
+TEXT: 呆呆獸呆呆獸T恤
+
+RESOURCE ID: avatar_f_shirt_slowpoketailshirts_00_bundle_icon
+TEXT: 呆呆獸尾巴T恤
 
 RESOURCE ID: avatar_f_shirt_sylveonitems_00_bundle_icon
 TEXT: 仙子伊布 帽T
@@ -118,6 +130,9 @@ TEXT: 雷吉洛克 棒球帽
 RESOURCE ID: avatar_m_hat_registeeljersies_00_bundle_icon
 TEXT: 雷吉斯奇魯 棒球帽
 
+RESOURCE ID: avatar_m_hat_slowpoketailshirts_00_bundle_icon
+TEXT: 呆呆獸頭套
+
 RESOURCE ID: avatar_m_hat_sylveonitems_00_bundle_icon
 TEXT: 仙子伊布 頭帶
 
@@ -144,6 +159,12 @@ TEXT: 雷吉洛克 防風外套
 
 RESOURCE ID: avatar_m_shirt_registeeljersies_00_bundle_icon
 TEXT: 雷吉斯奇魯 防風外套
+
+RESOURCE ID: avatar_m_shirt_slowpokeshirts_00_bundle_icon
+TEXT: 呆呆獸呆呆獸T恤
+
+RESOURCE ID: avatar_m_shirt_slowpoketailshirts_00_bundle_icon
+TEXT: 呆呆獸尾巴T恤
 
 RESOURCE ID: avatar_m_shirt_sylveonitems_00_bundle_icon
 TEXT: 仙子伊布 帽T
@@ -312,6 +333,9 @@ TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2021�
 RESOURCE ID: item_item_storage_upgrade_name
 TEXT: 升級包包
 
+RESOURCE ID: item_kings_rock
+TEXT: 王者之證
+
 RESOURCE ID: item_pokemon_storage_upgrade_name
 TEXT: 升級寶可夢盒子
 
@@ -388,15 +412,36 @@ RESOURCE ID: m_avatar_poses_bundle_pose_29
 TEXT: 可爾妮的姿勢
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-06-03T16:31:44.460880
-at SHA 15b5d1af04ab1c6a957cd398540563c0133ff703
+TEXT: Built at 2021-06-07T16:14:26.160577
+at SHA 2e2158cd4dbf8bb7624bb7f01638af46e3f8b1fb
 Patch from: 0.209.0-SHA-e8df565c
+
+RESOURCE ID: no_friend_score_description_alt
+TEXT: 邀請朋友一起參加全球大挑戰吧！
 
 RESOURCE ID: photobomb_five_gible
 TEXT: 圓陸鯊將在GO Snapshot中驚喜現身5次
 
 RESOURCE ID: photobomb_five_swablu
 TEXT: 青綿鳥將在GO Snapshot中驚喜現身5次
+
+RESOURCE ID: pokemon_category_0199_2584
+TEXT: 詛咒師寶可夢
+
+RESOURCE ID: pokemon_desc_0079_2582
+TEXT: 平時一直都在發呆， 但偶爾會突然露出銳利的神色。 據說這和牠所吃的食物有關。
+
+RESOURCE ID: pokemon_desc_0080_2583
+TEXT: 被大舌貝咬住的刺激和體內的香料發生化學反應，讓牠變成了毒屬性。
+
+RESOURCE ID: pokemon_desc_0199_2584
+TEXT: 受到進化的衝擊和毒素的影響，大舌貝的智力飆升到了可以控制呆呆王的程度。
+
+RESOURCE ID: quest_beat_raid_10_minutes
+TEXT: 在 10 分內獲得團體戰勝利
+
+RESOURCE ID: quest_beat_raid_60_seconds
+TEXT: 在 60 秒內獲得團體戰勝利
 
 RESOURCE ID: quest_beat_raid_singular_minutes
 TEXT: 在 {0} 分內獲得團體戰勝利
@@ -415,6 +460,12 @@ TEXT: 綿翼小鳥
 
 RESOURCE ID: quest_evolve_slowpoke_plural
 TEXT: 讓 {0} 隻呆呆獸進化
+
+RESOURCE ID: quest_evolve_type_psychic_plural
+TEXT: 讓 {0} 隻超能力屬性的寶可夢進化
+
+RESOURCE ID: quest_evolve_type_psychic_singular
+TEXT: 讓1隻超能力屬性的寶可夢進化
 
 RESOURCE ID: quest_giblt_catch_b
 TEXT: 捕捉 {0} 隻圓陸鯊
@@ -690,34 +741,34 @@ RESOURCE ID: regional_catch_challenge_reward_event_name
 TEXT: 地區挑戰獎勵
 
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_none
-TEXT: Caught 0 Pokémon
+TEXT: 捉到0隻寶可夢
 
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_plural
-TEXT: Caught {0} Pokémon
+TEXT: 捉到 {0} 隻寶可夢
 
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
-TEXT: Caught 1 Pokémon
+TEXT: 捉到1隻寶可夢
 
 RESOURCE ID: score_1_none
-TEXT: Caught 0 Pokémon
+TEXT: 捉到0隻寶可夢
 
 RESOURCE ID: score_1_plural
-TEXT: Caught {0} Pokémon
+TEXT: 捉到 {0} 隻寶可夢
 
 RESOURCE ID: score_1_singular
-TEXT: Caught 1 Pokémon
+TEXT: 捉到1隻寶可夢
 
 RESOURCE ID: score_catch_pokemon
-TEXT: Caught {0} Pokémon
+TEXT: 捉到 {0} 隻寶可夢
 
 RESOURCE ID: score_spin_pokestop_none
-TEXT: Spun 0 PokéStops
+TEXT: 旋轉0個寶可補給站的轉盤
 
 RESOURCE ID: score_spin_pokestop_plural
-TEXT: Spun {0} PokéStops
+TEXT: 旋轉 {0} 個寶可補給站的轉盤
 
 RESOURCE ID: score_spin_pokestop_singular
-TEXT: Spun 1 PokéStop
+TEXT: 旋轉1個寶可補給站的轉盤
 
 RESOURCE ID: settings_help_label
 TEXT: Help

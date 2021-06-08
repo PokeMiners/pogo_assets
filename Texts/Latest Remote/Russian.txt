@@ -5,10 +5,13 @@ RESOURCE ID: abi_contact_signed_up_notification
 TEXT: Тренеры из твоего списка контактов начали свои приключения в Pokémon GO! Перейди в меню «Друзья», чтобы отправить им запрос в друзья.
 
 RESOURCE ID: abi_helpshift_url
-TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=friends-gifting-trading&f=adding-friends
+TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=web&l=ru&s=friends-gifting-trading&f=adding-friends
 
 RESOURCE ID: abi_new_player_onboarding_abi_info
 TEXT: You choose which contacts to be friends with.
+
+RESOURCE ID: abi_new_player_onboarding_abi_info_2
+TEXT: Easily connect with Niantic Friends by letting Niantic periodically upload your Contacts list. Revoke permission through your device's settings at any time.
 
 RESOURCE ID: abi_new_player_onboarding_accept_button_text
 TEXT: НАЙТИ ДРУЗЕЙ В СПИСКЕ КОНТАКТОВ
@@ -61,6 +64,9 @@ TEXT: Кепка Реджирок
 RESOURCE ID: avatar_f_hat_registeeljersies_00_bundle_icon
 TEXT: Кепка Реджистил
 
+RESOURCE ID: avatar_f_hat_slowpoketailshirts_00_bundle_icon
+TEXT: Шапка Слоупок
+
 RESOURCE ID: avatar_f_hat_sylveonitems_00_bundle_icon
 TEXT: Бант Сильвеон
 
@@ -90,6 +96,12 @@ TEXT: Ветровка Реджирок
 
 RESOURCE ID: avatar_f_shirt_registeeljersies_00_bundle_icon
 TEXT: Куртка Реджистил
+
+RESOURCE ID: avatar_f_shirt_slowpokeshirts_00_bundle_icon
+TEXT: Футболка Бесконечный Слоупок
+
+RESOURCE ID: avatar_f_shirt_slowpoketailshirts_00_bundle_icon
+TEXT: Футболка Слоупок с хвостом
 
 RESOURCE ID: avatar_f_shirt_sylveonitems_00_bundle_icon
 TEXT: Худи Сильвеон
@@ -124,6 +136,9 @@ TEXT: Кепка Реджирок
 RESOURCE ID: avatar_m_hat_registeeljersies_00_bundle_icon
 TEXT: Кепка Реджистил
 
+RESOURCE ID: avatar_m_hat_slowpoketailshirts_00_bundle_icon
+TEXT: Шапка Слоупок
+
 RESOURCE ID: avatar_m_hat_sylveonitems_00_bundle_icon
 TEXT: Повязка Сильвеон
 
@@ -156,6 +171,12 @@ TEXT: Ветровка Реджирок
 
 RESOURCE ID: avatar_m_shirt_registeeljersies_00_bundle_icon
 TEXT: Куртка Реджистил
+
+RESOURCE ID: avatar_m_shirt_slowpokeshirts_00_bundle_icon
+TEXT: Футболка Бесконечный Слоупок
+
+RESOURCE ID: avatar_m_shirt_slowpoketailshirts_00_bundle_icon
+TEXT: Футболка Слоупок с хвостом
 
 RESOURCE ID: avatar_m_shirt_sylveonitems_00_bundle_icon
 TEXT: Худи Сильвеон
@@ -197,13 +218,13 @@ RESOURCE ID: badge_event_yoshinoya
 TEXT: Май 2021: Yoshinoya
 
 RESOURCE ID: badge_pokestops_scanned
-TEXT: Scan {0} Pokéstop and Gym.
+TEXT: Сканируй Покестопы и Гимы: {0}.
 
 RESOURCE ID: badge_pokestops_scanned_singular
-TEXT: Scan 1 Pokéstop or Gym.
+TEXT: Сканируй 1 Покестоп или Гим.
 
 RESOURCE ID: badge_pokestops_scanned_title
-TEXT: Scanner
+TEXT: Cканер
 
 RESOURCE ID: bonus_reward_100_catch_xp
 TEXT: +100 XP за поимку
@@ -221,10 +242,10 @@ RESOURCE ID: breakthrough_xp_double
 TEXT: 2× XP за научный прорыв
 
 RESOURCE ID: catch_candy_xl_chance_double
-TEXT: 2× chance to obtain Candy XL
+TEXT: 2× chance to get Candy XL from catching Pokémon
 
 RESOURCE ID: catch_candy_xl_chance_triple
-TEXT: 3× chance to obtain Candy XL
+TEXT: 3× chance to get Candy XL from catching Pokémon
 
 RESOURCE ID: catch_xp_quadruple
 TEXT: 4× XP за поимку
@@ -233,13 +254,13 @@ RESOURCE ID: challenge_2019_snapshot_pkmn_ghost
 TEXT: Сделай {0} фото Покемонов типа Привидения
 
 RESOURCE ID: community_day_gible_event_name
-TEXT: Community Day: Gible
+TEXT: День сообщества: Гибл
 
 RESOURCE ID: community_day_swablu_event_name
 TEXT: День сообщества: Сваблу
 
 RESOURCE ID: element_cup_title
-TEXT: Element Cup
+TEXT: Кубок элементов
 
 RESOURCE ID: error_no_pokemon_in_inventory
 TEXT: У тебя сейчас нет этого Покемона: {0}.
@@ -266,7 +287,8 @@ TEXT: Билет на событие «Галарский Мистер Майм�
 
 RESOURCE ID: general1.ticket.2_description
 TEXT: Билет на специальный квест «На один зуб» 6 июня 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
-\ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ СОБЫТИЯ, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
+
+ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ СОБЫТИЯ, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
 
 RESOURCE ID: general1.ticket.2_description_2
 TEXT: Билет на специальный квест «Несравненный Магмар» 21 ноября 2020 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
@@ -307,7 +329,7 @@ TEXT: Билет на фестиваль Pokémon GO 25 и 26 июля 2020 г. 
 ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ СОБЫТИЯ, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
 
 RESOURCE ID: general1.ticket.5_description
-TEXT: Билет на Фестиваль Pokémon GO 17 и 18 июля 2021 г. с 10:00 до 18:00 по местному времени, вне зависимости от твоего местонахождения. Только в этом году специальная цена на билет в честь празднования пятилетнего юбилея Pokémon GO. Подробности можно найти во внутриигровых новостях.
+TEXT: Билет на Фестиваль Pokémon GO 17 и 18 июля 2021 г. с 10:00 до 18:00 по местному времени, вне зависимости от твоего местонахождения. В этом году специальная цена на билет в честь празднования пятилетнего юбилея Pokémon GO. Подробности можно найти во внутриигровых новостях.
 
 ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ СОБЫТИЯ, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
 
@@ -349,6 +371,9 @@ TEXT: Билет на Фестиваль Pokémon GO 17 и 18 июля 2021 г. 
 
 RESOURCE ID: item_item_storage_upgrade_name
 TEXT: Рюкзак для предметов
+
+RESOURCE ID: item_kings_rock
+TEXT: Королевский камень
 
 RESOURCE ID: item_pokemon_storage_upgrade_name
 TEXT: Хранилище Покемонов
@@ -429,8 +454,8 @@ RESOURCE ID: m_shirt_tshirt_fest_chicago_2017_bundle_icon
 TEXT: Футболка Фестиваль GO 
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-06-03T16:31:44.460880
-at SHA 15b5d1af04ab1c6a957cd398540563c0133ff703
+TEXT: Built at 2021-06-07T16:14:26.160577
+at SHA 2e2158cd4dbf8bb7624bb7f01638af46e3f8b1fb
 Patch from: 0.209.0-SHA-e8df565c
 
 RESOURCE ID: mrmime_ticket_description
@@ -442,10 +467,13 @@ RESOURCE ID: no_friend_score_description_alt
 TEXT: Пригласи друзей присоединиться к глобальному испытанию!
 
 RESOURCE ID: photobomb_five_gible
-TEXT: 5 surprise encounters with Gible in GO Snapshot
+TEXT: 5 неожиданных встреч с Гиблом в Стоп-кадре GO
 
 RESOURCE ID: photobomb_five_swablu
 TEXT: 5 неожиданных встреч со Сваблу в Стоп-кадре GO
+
+RESOURCE ID: pokemon_category_0199_2584
+TEXT: Hexpert Pokémon
 
 RESOURCE ID: pokemon_category_0327
 TEXT: Покемон-Пятнистая Панда
@@ -503,6 +531,12 @@ TEXT: Мало кто может противостоять его Ментал�
 
 RESOURCE ID: pokemon_desc_0079
 TEXT: Слоупок ловит свою добычу на хвост, используя его как удочку. Этот Покемон часто забывает, чем он занимался секунду назад, и проводит весь день просто бездельничая у кромки воды.
+
+RESOURCE ID: pokemon_desc_0079_2582
+TEXT: Although this Pokémon is normally zoned out, its expression abruptly sharpens on occasion. The cause for this seems to lie in Slowpoke's diet.
+
+RESOURCE ID: pokemon_desc_0080_2583
+TEXT: A Shellder bite set off a chemical reaction with the spices inside Slowbro's body, causing Slowbro to become a Poison-type Pokémon.
 
 RESOURCE ID: pokemon_desc_0082
 TEXT: Магнетон излучает мощную магнитную силу, способную сломать любые механические устройства. В результате крупные города оповещаются сиренами, предупреждающими о масштабном нашествии этого Покемона.
@@ -587,6 +621,9 @@ TEXT: Когда Квагсайр охотится за пищей в воде, 
 
 RESOURCE ID: pokemon_desc_0198
 TEXT: Считалось, что Муркроу приносит неудачу, поэтому его боялись и ненавидели. Этот Покемон проявляет большой интерес ко всем блестящим предметам и даже пытается украсть кольца с пальцев женщин.
+
+RESOURCE ID: pokemon_desc_0199_2584
+TEXT: A combination of toxins and the shock of evolving has increased Shellder’s intelligence to the point that Shellder now controls Slowking.
 
 RESOURCE ID: pokemon_desc_0200
 TEXT: Мисдривус пугает людей жутким плачем. Очевидно, этот Покемон использует своё красное ожерелье, чтобы поглощать страх своих врагов и превращать его в питательную энергию.
@@ -945,6 +982,12 @@ TEXT: Этот Покемон мастерски отбивает чечётку
 RESOURCE ID: pokemon_name_0534
 TEXT: Конклдурр
 
+RESOURCE ID: quest_beat_raid_10_minutes
+TEXT: Победи в рейде меньше чем за 10 мин.
+
+RESOURCE ID: quest_beat_raid_60_seconds
+TEXT: Победи в рейде меньше чем за 60 сек.
+
 RESOURCE ID: quest_beat_raid_singular_minutes
 TEXT: Победи в рейде меньше чем за {0} мин.
 
@@ -962,6 +1005,12 @@ TEXT: Птица с хлопковыми крыльями
 
 RESOURCE ID: quest_evolve_slowpoke_plural
 TEXT: Эволюционируй {0} Слоупоков
+
+RESOURCE ID: quest_evolve_type_psychic_plural
+TEXT: Эволюционируй {0} психических Покемонов
+
+RESOURCE ID: quest_evolve_type_psychic_singular
+TEXT: Эволюционируй 1 психических Покемона
 
 RESOURCE ID: quest_giblt_catch_b
 TEXT: Поймай {0} Гиблов
@@ -1273,7 +1322,7 @@ RESOURCE ID: score_spin_pokestop_singular
 TEXT: Spun 1 PokéStop
 
 RESOURCE ID: settings_help_label
-TEXT: Help
+TEXT: Помощь
 
 RESOURCE ID: settings_sound_effects
 TEXT: Звук
@@ -1288,7 +1337,7 @@ RESOURCE ID: slowpoke_event_june_2021
 TEXT: Очень медленное открытие
 
 RESOURCE ID: spawn_gible
-TEXT: More Gible are appearing in the wild
+TEXT: Появляется больше диких Гиблов
 
 RESOURCE ID: spawn_swablu
 TEXT: Появляется больше диких Сваблу
@@ -1350,7 +1399,7 @@ TEXT: Билет на специальный квест «Электризующ
 ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ СОБЫТИЯ, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
 
 RESOURCE ID: ticket_gible
-TEXT: Tickets for the Just a Nibble Special Research story available in the shop
+TEXT: Билеты на специальный квест «На один зуб» доступны в магазине
 
 RESOURCE ID: ticket_swablu
 TEXT: Билеты на специальный квест «Птица с хлопковыми крыльями» доступны в магазине
