@@ -11,7 +11,7 @@ RESOURCE ID: abi_new_player_onboarding_abi_info
 TEXT: Du entscheidest, mit welchen Kontakten du befreundet sein möchtest.
 
 RESOURCE ID: abi_new_player_onboarding_abi_info_2
-TEXT: Easily connect with Niantic Friends by letting Niantic periodically upload your Contacts list. Revoke permission through your device's settings at any time.
+TEXT: Easily connect with friends by letting Pokémon GO access your contacts list periodically. You can turn off this feature in your device’s settings at any time.
 
 RESOURCE ID: abi_new_player_onboarding_accept_button_text
 TEXT: FINDE FREUNDE IN KONTAKTLISTE
@@ -205,6 +205,12 @@ TEXT: Spezial-Wochenende
 RESOURCE ID: badge_event_yoshinoya
 TEXT: Mai 2021: Yoshinoya
 
+RESOURCE ID: badge_mvt
+TEXT: Lande {0}-mal auf der Raid-Kampf-Anzeige für Trainer-Erfolge.
+
+RESOURCE ID: badge_mvt_title
+TEXT: Raid-Experte
+
 RESOURCE ID: badge_pokemon_caught_at_your_lures
 TEXT: Verwende ein Lockmodul, um einem Trainer beim Fangen von {0} Pokémon zu helfen.
 
@@ -219,6 +225,15 @@ TEXT: Scanne einen PokéStop oder eine Arena.
 
 RESOURCE ID: badge_pokestops_scanned_title
 TEXT: Scanner
+
+RESOURCE ID: badge_raid_battle_stat
+TEXT: Lande {0}-mal auf der Raid-Kampf-Anzeige für Trainer-Erfolge.
+
+RESOURCE ID: badge_raid_battle_stat_singular
+TEXT: Lande einmal auf der Raid-Kampf-Anzeige für Trainer-Erfolge.
+
+RESOURCE ID: badge_raid_battle_stat_title
+TEXT: Raid-Experte
 
 RESOURCE ID: bonus_reward_100_catch_xp
 TEXT: +100 Fang-EP
@@ -236,10 +251,10 @@ RESOURCE ID: breakthrough_xp_double
 TEXT: 2× EP von Forschungsdurchbrüchen
 
 RESOURCE ID: catch_candy_xl_chance_double
-TEXT: Zweifache Chance, Bonbon XL zu erhalten
+TEXT: Zweifache Chance, durch das Fangen von Pokémon Bonbon XL zu erhalten
 
 RESOURCE ID: catch_candy_xl_chance_triple
-TEXT: Dreifache Chance, Bonbon XL zu erhalten
+TEXT: Dreifache Chance, durch das Fangen von Pokémon Bonbon XL zu erhalten
 
 RESOURCE ID: catch_xp_quadruple
 TEXT: 4× Fang-EP
@@ -327,6 +342,9 @@ TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zum Poké
 RESOURCE ID: item_global_event_ticket_details
 TEXT: Ein Ticket für den Zugang zum Pokémon GO-Fest am 17. und 18. Juli 2021 von 10:00 bis 18:00 Uhr Ortszeit an beiden Tagen (wo immer du dich befindest).
 
+RESOURCE ID: item_great_ball_desc
+TEXT: Ein Ball mit guter Erfolgsquote. Dem Pokéball in jeder Hinsicht überlegen.
+
 RESOURCE ID: item_item_storage_upgrade_name
 TEXT: Item-Beutel
 
@@ -409,9 +427,156 @@ RESOURCE ID: m_avatar_poses_bundle_pose_29
 TEXT: Connie-Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-06-07T16:14:26.160577
-at SHA 2e2158cd4dbf8bb7624bb7f01638af46e3f8b1fb
+TEXT: Built at 2021-06-09T22:49:59.328876
+at SHA 83830ca239167c19c87cdd665a2a77ce07f8aa71
 Patch from: 0.209.0-SHA-e8df565c
+
+RESOURCE ID: mvt_featured
+TEXT: Highlight:
+
+RESOURCE ID: mvt_go_to_summary
+TEXT: Zusammenfassung
+
+RESOURCE ID: mvt_stat_customize_avatar_player_details
+TEXT: Hatte ein cooles Outfit an
+
+RESOURCE ID: mvt_stat_customize_avatar_player_title
+TEXT: Stil-Kenner
+
+RESOURCE ID: mvt_stat_customize_avatar_pokemon_details
+TEXT: Hatte ein cooles Outfit an
+
+RESOURCE ID: mvt_stat_customize_avatar_pokemon_title
+TEXT: Stil-Kenner
+
+RESOURCE ID: mvt_stat_damage_dealt_player_details
+TEXT: Hat {0} Schaden zugefügt
+
+RESOURCE ID: mvt_stat_damage_dealt_player_title
+TEXT: Bester Puncher
+
+RESOURCE ID: mvt_stat_damage_dealt_pokemon_details
+TEXT: Hat {0} Schaden zugefügt
+
+RESOURCE ID: mvt_stat_damage_dealt_pokemon_title
+TEXT: Bester Puncher
+
+RESOURCE ID: mvt_stat_final_strike_player_details
+TEXT: Setzte die letzte Attacke ein
+
+RESOURCE ID: mvt_stat_final_strike_player_title
+TEXT: Letzter Angriff
+
+RESOURCE ID: mvt_stat_final_strike_pokemon_details
+TEXT: Setzte die letzte Attacke ein
+
+RESOURCE ID: mvt_stat_final_strike_pokemon_title
+TEXT: Letzter Angriff
+
+RESOURCE ID: mvt_stat_num_charged_attacks_player_details
+TEXT: Hat {0} Lade-Attacken eingesetzt
+
+RESOURCE ID: mvt_stat_num_charged_attacks_player_title
+TEXT: Geballte Ladung
+
+RESOURCE ID: mvt_stat_num_charged_attacks_pokemon_details
+TEXT: Hat {0} Lade-Attacken eingesetzt
+
+RESOURCE ID: mvt_stat_num_charged_attacks_pokemon_title
+TEXT: Geballte Ladung
+
+RESOURCE ID: mvt_stat_num_friends_in_raid_player_details
+TEXT: Hat mit {0} Freunden im Raid gekämpft
+
+RESOURCE ID: mvt_stat_num_friends_in_raid_player_title
+TEXT: Reichlich Freunde
+
+RESOURCE ID: mvt_stat_num_friends_in_raid_pokemon_details
+TEXT: Hat mit {0} Freunden im Raid gekämpft
+
+RESOURCE ID: mvt_stat_num_friends_in_raid_pokemon_title
+TEXT: Reichlich Freunde
+
+RESOURCE ID: mvt_stat_pokemon_height_player_details
+TEXT: Hat das größte Pokémon in den Kampf geschickt
+
+RESOURCE ID: mvt_stat_pokemon_height_player_title
+TEXT: Groß rauskommen
+
+RESOURCE ID: mvt_stat_pokemon_height_pokemon_details
+TEXT: Hat das größte Pokémon in den Kampf geschickt
+
+RESOURCE ID: mvt_stat_pokemon_height_pokemon_title
+TEXT: Groß rauskommen
+
+RESOURCE ID: mvt_stat_recent_walking_distance_player_details
+TEXT: Ist gestern vor dem Raid {0} km gelaufen
+
+RESOURCE ID: mvt_stat_recent_walking_distance_player_title
+TEXT: Starläufer
+
+RESOURCE ID: mvt_stat_recent_walking_distance_pokemon_details
+TEXT: Ist gestern vor dem Raid {0} km gelaufen
+
+RESOURCE ID: mvt_stat_recent_walking_distance_pokemon_title
+TEXT: Starläufer
+
+RESOURCE ID: mvt_stat_remote_distance_player_details
+TEXT: Hat aus {0} km Entfernung mitgekämpft
+
+RESOURCE ID: mvt_stat_remote_distance_player_title
+TEXT: Reisender
+
+RESOURCE ID: mvt_stat_remote_distance_pokemon_details
+TEXT: Hat aus {0} km Entfernung mitgekämpft
+
+RESOURCE ID: mvt_stat_remote_distance_pokemon_title
+TEXT: Reisender
+
+RESOURCE ID: mvt_stat_survival_duration_player_details
+TEXT: Hat {0} Sekunden gekämpft
+
+RESOURCE ID: mvt_stat_survival_duration_player_title
+TEXT: Ausdauer-Spezialist
+
+RESOURCE ID: mvt_stat_survival_duration_pokemon_details
+TEXT: Hat {0} Sekunden gekämpft
+
+RESOURCE ID: mvt_stat_survival_duration_pokemon_title
+TEXT: Ausdauer-Spezialist
+
+RESOURCE ID: mvt_stat_use_buddy_player_details
+TEXT: Hat ein Kumpel-Pokémon in den Kampf geschickt
+
+RESOURCE ID: mvt_stat_use_buddy_player_title
+TEXT: Raid-Kumpel
+
+RESOURCE ID: mvt_stat_use_buddy_pokemon_details
+TEXT: Hat ein Kumpel-Pokémon in den Kampf geschickt
+
+RESOURCE ID: mvt_stat_use_buddy_pokemon_title
+TEXT: Raid-Kumpel
+
+RESOURCE ID: mvt_stat_use_mega_evo_player_details
+TEXT: Hat ein Mega-Entwicklungs-Pokémon im Kampf eingesetzt
+
+RESOURCE ID: mvt_stat_use_mega_evo_player_title
+TEXT: Meister der Mega-Entwicklung
+
+RESOURCE ID: mvt_stat_use_mega_evo_pokemon_details
+TEXT: Hat ein Mega-Entwicklungs-Pokémon im Kampf eingesetzt
+
+RESOURCE ID: mvt_stat_use_mega_evo_pokemon_title
+TEXT: Meister der Mega-Entwicklung
+
+RESOURCE ID: mvt_title
+TEXT: Trainer-Erfolge
+
+RESOURCE ID: photo_saved
+TEXT: Foto gespeichert
+
+RESOURCE ID: photo_unable_to_save
+TEXT: Das Foto konnte nicht gespeichert werden.
 
 RESOURCE ID: photobomb_five_gible
 TEXT: 5 überraschende Begegnungen mit Kaumalat in GO-Schnappschuss
@@ -446,8 +611,14 @@ TEXT: Gewinne einen Raid in weniger als {0} Minuten.
 RESOURCE ID: quest_beat_raid_singular_seconds
 TEXT: Gewinne einen Raid in weniger als {0} Sekunden.
 
+RESOURCE ID: quest_catch_lunatone_plural
+TEXT: Fange {0} Lunastein.
+
 RESOURCE ID: quest_catch_pokemon_task
 TEXT: Fange Pokémon.
+
+RESOURCE ID: quest_catch_solrock_plural
+TEXT: Fange {0} Sonnfel.
 
 RESOURCE ID: quest_complete_giblt
 TEXT: Nur ein Häppchen
@@ -472,6 +643,9 @@ TEXT: Entwickle {0} Kaumalat.
 
 RESOURCE ID: quest_giblt_evolve_s1
 TEXT: Entwickle {0} Knarksel.
+
+RESOURCE ID: quest_referral_initial_milestone
+TEXT: Logged in to Pokémon GO
 
 RESOURCE ID: quest_rocket_battle_win_plural
 TEXT: Besiege {0} Team GO Rocket-Rüpel.
@@ -802,6 +976,9 @@ TEXT: Dieses feuchte Lockmodul lockt 30 Minuten lang Pokémon an, besonders solc
 
 RESOURCE ID: troydisk_rainy.1_title
 TEXT: Regen-Lockmodul
+
+RESOURCE ID: ultra_league_remix_title
+TEXT: Ultra League Remix
 
 RESOURCE ID: weather_extreme_description
 TEXT: Wetterbedingungen können gefährlich sein – achte auf deine Umgebung! Näheres erfährst du bei deinem lokalen Wetterdienst.

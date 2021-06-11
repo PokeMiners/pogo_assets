@@ -8,10 +8,10 @@ RESOURCE ID: abi_helpshift_url
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=friends-gifting-trading&f=adding-friends
 
 RESOURCE ID: abi_new_player_onboarding_abi_info
-TEXT: You choose which contacts to be friends with.
+TEXT: You choose which contacts to send Friend Requests to.
 
 RESOURCE ID: abi_new_player_onboarding_abi_info_2
-TEXT: Easily connect with Niantic Friends by letting Niantic periodically upload your Contacts list. Revoke permission through your device's settings at any time.
+TEXT: Easily connect with friends by letting Pokémon GO access your contacts list periodically. You can turn off this feature in your device’s settings at any time.
 
 RESOURCE ID: abi_new_player_onboarding_accept_button_text
 TEXT: 從聯絡人一覽表中尋找朋友
@@ -38,16 +38,16 @@ RESOURCE ID: abi_new_player_onboarding_list_header
 TEXT: 向手機裡的聯絡人傳送朋友申請。成為朋友後，你們就可以……
 
 RESOURCE ID: abi_new_player_onboarding_opt_in_check_box
-TEXT: Let others send me Friend Requests if I am in their imported Contacts.
+TEXT: Let others send me Friend Requests if I am in their contacts list.
 
 RESOURCE ID: abi_new_player_onboarding_opt_in_info
-TEXT: This can be disabled anytime in Niantic Account Settings.
+TEXT: This can be disabled anytime in the Niantic Social Account Settings menu.
 
 RESOURCE ID: abi_new_player_onboarding_title
 TEXT: 和朋友一起玩更好玩！
 
 RESOURCE ID: abi_new_player_onboarding_title_2
-TEXT: Easily Find Friends Using Your Contact List in Your Phone
+TEXT: Find Friends Using Your Contacts List
 
 RESOURCE ID: avatar_f_gloves_korrina_00_bundle_icon
 TEXT: 可爾妮 手套
@@ -205,6 +205,12 @@ TEXT: Special Weekend
 RESOURCE ID: badge_event_yoshinoya
 TEXT: 2021年5月：吉野家
 
+RESOURCE ID: badge_mvt
+TEXT: 在訓練家成就畫面登場 {0} 次
+
+RESOURCE ID: badge_mvt_title
+TEXT: 團體戰專家
+
 RESOURCE ID: badge_pokemon_caught_at_your_lures
 TEXT: 用誘餌模組協助訓練家捕捉寶可夢（共計{0}隻）
 
@@ -219,6 +225,15 @@ TEXT: Scan 1 Pokéstop or Gym.
 
 RESOURCE ID: badge_pokestops_scanned_title
 TEXT: Scanner
+
+RESOURCE ID: badge_raid_battle_stat
+TEXT: 在訓練家成就畫面登場 {0} 次
+
+RESOURCE ID: badge_raid_battle_stat_singular
+TEXT: 在訓練家成就畫面登場1次
+
+RESOURCE ID: badge_raid_battle_stat_title
+TEXT: 團體戰專家
 
 RESOURCE ID: bonus_reward_100_catch_xp
 TEXT: 捕獲寶可夢時的XP +100
@@ -412,12 +427,159 @@ RESOURCE ID: m_avatar_poses_bundle_pose_29
 TEXT: 可爾妮的姿勢
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-06-07T16:14:26.160577
-at SHA 2e2158cd4dbf8bb7624bb7f01638af46e3f8b1fb
+TEXT: Built at 2021-06-09T22:49:59.328876
+at SHA 83830ca239167c19c87cdd665a2a77ce07f8aa71
 Patch from: 0.209.0-SHA-e8df565c
+
+RESOURCE ID: mvt_featured
+TEXT: 精選訓練家：
+
+RESOURCE ID: mvt_go_to_summary
+TEXT: 開啟成績畫面
+
+RESOURCE ID: mvt_stat_customize_avatar_player_details
+TEXT: 魅力十足的打扮
+
+RESOURCE ID: mvt_stat_customize_avatar_player_title
+TEXT: 潮流尖端
+
+RESOURCE ID: mvt_stat_customize_avatar_pokemon_details
+TEXT: 魅力十足的打扮
+
+RESOURCE ID: mvt_stat_customize_avatar_pokemon_title
+TEXT: 潮流尖端
+
+RESOURCE ID: mvt_stat_damage_dealt_player_details
+TEXT: 給予敵方最多傷害量（{0}）
+
+RESOURCE ID: mvt_stat_damage_dealt_player_title
+TEXT: 最強重砲
+
+RESOURCE ID: mvt_stat_damage_dealt_pokemon_details
+TEXT: 給予敵方最多傷害量（{0}）
+
+RESOURCE ID: mvt_stat_damage_dealt_pokemon_title
+TEXT: 最強重砲
+
+RESOURCE ID: mvt_stat_final_strike_player_details
+TEXT: 做出最後一擊
+
+RESOURCE ID: mvt_stat_final_strike_player_title
+TEXT: 最後一擊
+
+RESOURCE ID: mvt_stat_final_strike_pokemon_details
+TEXT: 做出最後一擊
+
+RESOURCE ID: mvt_stat_final_strike_pokemon_title
+TEXT: 最後一擊
+
+RESOURCE ID: mvt_stat_num_charged_attacks_player_details
+TEXT: 做出 {0} 次特殊攻擊
+
+RESOURCE ID: mvt_stat_num_charged_attacks_player_title
+TEXT: 特殊攻擊派
+
+RESOURCE ID: mvt_stat_num_charged_attacks_pokemon_details
+TEXT: 做出 {0} 次特殊攻擊
+
+RESOURCE ID: mvt_stat_num_charged_attacks_pokemon_title
+TEXT: 特殊攻擊派
+
+RESOURCE ID: mvt_stat_num_friends_in_raid_player_details
+TEXT: 和 {0} 個朋友一起參加團體戰
+
+RESOURCE ID: mvt_stat_num_friends_in_raid_player_title
+TEXT: 獨樂樂不如眾樂樂
+
+RESOURCE ID: mvt_stat_num_friends_in_raid_pokemon_details
+TEXT: 和 {0} 個朋友一起參加團體戰
+
+RESOURCE ID: mvt_stat_num_friends_in_raid_pokemon_title
+TEXT: 獨樂樂不如眾樂樂
+
+RESOURCE ID: mvt_stat_pokemon_height_player_details
+TEXT: 派出最巨大的寶可夢
+
+RESOURCE ID: mvt_stat_pokemon_height_player_title
+TEXT: 巨大存在感
+
+RESOURCE ID: mvt_stat_pokemon_height_pokemon_details
+TEXT: 派出最巨大的寶可夢
+
+RESOURCE ID: mvt_stat_pokemon_height_pokemon_title
+TEXT: 巨大存在感
+
+RESOURCE ID: mvt_stat_recent_walking_distance_player_details
+TEXT: 在參加團體戰的前一天步行了 {0} 距離
+
+RESOURCE ID: mvt_stat_recent_walking_distance_player_title
+TEXT: 步行者
+
+RESOURCE ID: mvt_stat_recent_walking_distance_pokemon_details
+TEXT: 在參加團體戰的前一天步行了 {0} 距離
+
+RESOURCE ID: mvt_stat_recent_walking_distance_pokemon_title
+TEXT: 步行者
+
+RESOURCE ID: mvt_stat_remote_distance_player_details
+TEXT: 自 {0} 公里以外的地方參戰
+
+RESOURCE ID: mvt_stat_remote_distance_player_title
+TEXT: 遊客
+
+RESOURCE ID: mvt_stat_remote_distance_pokemon_details
+TEXT: 自 {0} 公里以外的地方參戰
+
+RESOURCE ID: mvt_stat_remote_distance_pokemon_title
+TEXT: 遊客
+
+RESOURCE ID: mvt_stat_survival_duration_player_details
+TEXT: 持續戰鬥 {0} 秒
+
+RESOURCE ID: mvt_stat_survival_duration_player_title
+TEXT: 超強持久力
+
+RESOURCE ID: mvt_stat_survival_duration_pokemon_details
+TEXT: 持續戰鬥 {0} 秒
+
+RESOURCE ID: mvt_stat_survival_duration_pokemon_title
+TEXT: 超強持久力
+
+RESOURCE ID: mvt_stat_use_buddy_player_details
+TEXT: 派夥伴寶可夢上場
+
+RESOURCE ID: mvt_stat_use_buddy_player_title
+TEXT: 團體戰好夥伴
+
+RESOURCE ID: mvt_stat_use_buddy_pokemon_details
+TEXT: 派夥伴寶可夢上場
+
+RESOURCE ID: mvt_stat_use_buddy_pokemon_title
+TEXT: 團體戰好夥伴
+
+RESOURCE ID: mvt_stat_use_mega_evo_player_details
+TEXT: 派超級進化的寶可夢上場
+
+RESOURCE ID: mvt_stat_use_mega_evo_player_title
+TEXT: 超級進化大師
+
+RESOURCE ID: mvt_stat_use_mega_evo_pokemon_details
+TEXT: 派超級進化的寶可夢上場
+
+RESOURCE ID: mvt_stat_use_mega_evo_pokemon_title
+TEXT: 超級進化大師
+
+RESOURCE ID: mvt_title
+TEXT: 訓練家成就
 
 RESOURCE ID: no_friend_score_description_alt
 TEXT: 邀請朋友一起參加全球大挑戰吧！
+
+RESOURCE ID: photo_saved
+TEXT: 照片已儲存
+
+RESOURCE ID: photo_unable_to_save
+TEXT: 無法儲存照片
 
 RESOURCE ID: photobomb_five_gible
 TEXT: 圓陸鯊將在GO Snapshot中驚喜現身5次
@@ -449,8 +611,14 @@ TEXT: 在 {0} 分內獲得團體戰勝利
 RESOURCE ID: quest_beat_raid_singular_seconds
 TEXT: 在 {0} 秒內獲得團體戰勝利
 
+RESOURCE ID: quest_catch_lunatone_plural
+TEXT: 捕捉 {0} 隻月石
+
 RESOURCE ID: quest_catch_pokemon_task
 TEXT: 捕捉 寶可夢
+
+RESOURCE ID: quest_catch_solrock_plural
+TEXT: 捕捉 {0} 隻太陽岩
 
 RESOURCE ID: quest_complete_giblt
 TEXT: 大口咬住
@@ -475,6 +643,9 @@ TEXT: 讓 {0} 隻圓陸鯊進化
 
 RESOURCE ID: quest_giblt_evolve_s1
 TEXT: 讓 {0} 隻尖牙陸鯊進化
+
+RESOURCE ID: quest_referral_initial_milestone
+TEXT: Logged in to Pokémon GO
 
 RESOURCE ID: quest_snapshot_wild_ducklett_chinchou_finneon
 TEXT: 為野生的燈籠魚、螢光魚或鴨寶寶拍攝1張GO Snapshot照片
@@ -838,6 +1009,9 @@ TEXT: 滴著雨露的誘餌模組，效果將持續30分鐘。可以吸引喜愛
 
 RESOURCE ID: troydisk_rainy.1_title
 TEXT: 雨露誘餌模組
+
+RESOURCE ID: ultra_league_remix_title
+TEXT: Ultra League Remix
 
 RESOURCE ID: weather_warning_title
 TEXT: 天氣警告

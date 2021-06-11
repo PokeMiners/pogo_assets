@@ -8,10 +8,10 @@ RESOURCE ID: abi_helpshift_url
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=friends-gifting-trading&f=adding-friends
 
 RESOURCE ID: abi_new_player_onboarding_abi_info
-TEXT: You choose which contacts to be friends with.
+TEXT: You choose which contacts to send Friend Requests to.
 
 RESOURCE ID: abi_new_player_onboarding_abi_info_2
-TEXT: Easily connect with Niantic Friends by letting Niantic periodically upload your Contacts list. Revoke permission through your device's settings at any time.
+TEXT: Easily connect with friends by letting Pokémon GO access your contacts list periodically. You can turn off this feature in your device’s settings at any time.
 
 RESOURCE ID: abi_new_player_onboarding_accept_button_text
 TEXT: ค้นหาเพื่อนจากรายชื่อติดต่อ
@@ -38,16 +38,16 @@ RESOURCE ID: abi_new_player_onboarding_list_header
 TEXT: ส่งคำขอเป็นเพื่อนให้เทรนเนอร์ที่อยู่ในรายชื่อติดต่อ! เมื่อเป็นเพื่อนแล้วจะสามารถทำสิ่งต่อไปนี้ได้
 
 RESOURCE ID: abi_new_player_onboarding_opt_in_check_box
-TEXT: Let others send me Friend Requests if I am in their imported Contacts.
+TEXT: Let others send me Friend Requests if I am in their contacts list.
 
 RESOURCE ID: abi_new_player_onboarding_opt_in_info
-TEXT: This can be disabled anytime in Niantic Account Settings.
+TEXT: This can be disabled anytime in the Niantic Social Account Settings menu.
 
 RESOURCE ID: abi_new_player_onboarding_title
 TEXT: สนุกยิ่งขึ้นเมื่อเล่น Pokémon GO กับเพื่อน!
 
 RESOURCE ID: abi_new_player_onboarding_title_2
-TEXT: Easily Find Friends Using Your Contact List in Your Phone
+TEXT: Find Friends Using Your Contacts List
 
 RESOURCE ID: avatar_f_gloves_korrina_00_bundle_icon
 TEXT: Korrina-Style Gloves
@@ -205,6 +205,13 @@ TEXT: สุดสัปดาห์แสนพิเศษ
 RESOURCE ID: badge_event_yoshinoya
 TEXT: พฤษภาคม 2021 - Yoshinoya
 
+RESOURCE ID: badge_mvt
+TEXT: ได้ขึ้นหน้าจอความสำเร็จในการตีบอส {0} ครั้ง
+
+RESOURCE ID: badge_mvt_title
+TEXT: ผู้ชำนาญ
+การตีบอส
+
 RESOURCE ID: badge_pokestops_scanned
 TEXT: Scan {0} Pokéstop and Gym.
 
@@ -213,6 +220,16 @@ TEXT: Scan 1 Pokéstop or Gym.
 
 RESOURCE ID: badge_pokestops_scanned_title
 TEXT: Scanner
+
+RESOURCE ID: badge_raid_battle_stat
+TEXT: ได้ขึ้นหน้าจอความสำเร็จในการตีบอส {0} ครั้ง
+
+RESOURCE ID: badge_raid_battle_stat_singular
+TEXT: ได้ขึ้นหน้าจอความสำเร็จในการตีบอส 1 ครั้ง
+
+RESOURCE ID: badge_raid_battle_stat_title
+TEXT: ผู้ชำนาญ
+การตีบอส
 
 RESOURCE ID: bonus_reward_100_catch_xp
 TEXT: XP การจับ +100 
@@ -404,9 +421,160 @@ RESOURCE ID: m_avatar_poses_bundle_pose_29
 TEXT: Korrina Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-06-07T16:14:26.160577
-at SHA 2e2158cd4dbf8bb7624bb7f01638af46e3f8b1fb
+TEXT: Built at 2021-06-09T22:49:59.328876
+at SHA 83830ca239167c19c87cdd665a2a77ce07f8aa71
 Patch from: 0.209.0-SHA-e8df565c
+
+RESOURCE ID: mvt_featured
+TEXT: ประเภท:
+
+RESOURCE ID: mvt_go_to_summary
+TEXT: ไปหน้าสรุปผล
+
+RESOURCE ID: mvt_stat_customize_avatar_player_details
+TEXT: แต่งตัวได้น่าประทับใจ
+
+RESOURCE ID: mvt_stat_customize_avatar_player_title
+TEXT: ผู้นำเทรนด์
+
+RESOURCE ID: mvt_stat_customize_avatar_pokemon_details
+TEXT: แต่งตัวได้น่าประทับใจ
+
+RESOURCE ID: mvt_stat_customize_avatar_pokemon_title
+TEXT: ผู้นำเทรนด์
+
+RESOURCE ID: mvt_stat_damage_dealt_player_details
+TEXT: ทำแดเมจได้ {0}
+
+RESOURCE ID: mvt_stat_damage_dealt_player_title
+TEXT: นักสู้สุดแกร่ง
+
+RESOURCE ID: mvt_stat_damage_dealt_pokemon_details
+TEXT: ทำแดเมจได้ {0}
+
+RESOURCE ID: mvt_stat_damage_dealt_pokemon_title
+TEXT: นักสู้สุดแกร่ง
+
+RESOURCE ID: mvt_stat_final_strike_player_details
+TEXT: โจมตีเป็นคนสุดท้าย
+
+RESOURCE ID: mvt_stat_final_strike_player_title
+TEXT: ไฟนอลสไตรก์
+
+RESOURCE ID: mvt_stat_final_strike_pokemon_details
+TEXT: โจมตีเป็นคนสุดท้าย
+
+RESOURCE ID: mvt_stat_final_strike_pokemon_title
+TEXT: ไฟนอลสไตรก์
+
+RESOURCE ID: mvt_stat_num_charged_attacks_player_details
+TEXT: ใช้ท่าชาร์จจำนวน {0} ครั้ง
+
+RESOURCE ID: mvt_stat_num_charged_attacks_player_title
+TEXT: นักรัวท่าชาร์จ
+
+RESOURCE ID: mvt_stat_num_charged_attacks_pokemon_details
+TEXT: ใช้ท่าชาร์จจำนวน {0} ครั้ง
+
+RESOURCE ID: mvt_stat_num_charged_attacks_pokemon_title
+TEXT: นักรัวท่าชาร์จ
+
+RESOURCE ID: mvt_stat_num_friends_in_raid_player_details
+TEXT: ตีบอสกับเพื่อนทั้งหมด {0} คน
+
+RESOURCE ID: mvt_stat_num_friends_in_raid_player_title
+TEXT: มิตรสหาย
+รายล้อม
+
+RESOURCE ID: mvt_stat_num_friends_in_raid_pokemon_details
+TEXT: ตีบอสกับเพื่อนทั้งหมด {0} คน
+
+RESOURCE ID: mvt_stat_num_friends_in_raid_pokemon_title
+TEXT: มิตรสหาย
+รายล้อม
+
+RESOURCE ID: mvt_stat_pokemon_height_player_details
+TEXT: ผู้ที่ใช้โปเกมอนที่มีขนาดใหญ่ที่สุดในการแบตเทิล
+
+RESOURCE ID: mvt_stat_pokemon_height_player_title
+TEXT: ร่างใหญ่ยักษ์
+
+RESOURCE ID: mvt_stat_pokemon_height_pokemon_details
+TEXT: ผู้ที่ใช้โปเกมอนที่มีขนาดใหญ่ที่สุดในการแบตเทิล
+
+RESOURCE ID: mvt_stat_pokemon_height_pokemon_title
+TEXT: ร่างใหญ่ยักษ์
+
+RESOURCE ID: mvt_stat_recent_walking_distance_player_details
+TEXT: เดินเป็นระยะทาง {0} ก.ม. เมื่อวานก่อนการตีบอส
+
+RESOURCE ID: mvt_stat_recent_walking_distance_player_title
+TEXT: แชมป์เดินไกล
+
+RESOURCE ID: mvt_stat_recent_walking_distance_pokemon_details
+TEXT: เดินเป็นระยะทาง {0} ก.ม. เมื่อวานก่อนการตีบอส
+
+RESOURCE ID: mvt_stat_recent_walking_distance_pokemon_title
+TEXT: แชมป์เดินไกล
+
+RESOURCE ID: mvt_stat_remote_distance_player_details
+TEXT: เข้าร่วมจากสถานที่ที่ห่างออกไป {0} ก.ม.
+
+RESOURCE ID: mvt_stat_remote_distance_player_title
+TEXT: นักเดินทาง
+
+RESOURCE ID: mvt_stat_remote_distance_pokemon_details
+TEXT: เข้าร่วมจากสถานที่ที่ห่างออกไป {0} ก.ม.
+
+RESOURCE ID: mvt_stat_remote_distance_pokemon_title
+TEXT: นักเดินทาง
+
+RESOURCE ID: mvt_stat_survival_duration_player_details
+TEXT: ต่อสู้เป็นเวลา {0} วินาที
+
+RESOURCE ID: mvt_stat_survival_duration_player_title
+TEXT: เทรนเนอร์
+สุดทรหด
+
+RESOURCE ID: mvt_stat_survival_duration_pokemon_details
+TEXT: ต่อสู้เป็นเวลา {0} วินาที
+
+RESOURCE ID: mvt_stat_survival_duration_pokemon_title
+TEXT: เทรนเนอร์
+สุดทรหด
+
+RESOURCE ID: mvt_stat_use_buddy_player_details
+TEXT: ใช้โปเกมอนคู่หูในการแบตเทิล
+
+RESOURCE ID: mvt_stat_use_buddy_player_title
+TEXT: คู่หูตีบอส
+
+RESOURCE ID: mvt_stat_use_buddy_pokemon_details
+TEXT: ใช้โปเกมอนคู่หูในการแบตเทิล
+
+RESOURCE ID: mvt_stat_use_buddy_pokemon_title
+TEXT: คู่หูตีบอส
+
+RESOURCE ID: mvt_stat_use_mega_evo_player_details
+TEXT: ใช้โปเกมอนที่วิวัฒนาการเมก้าในการแบตเทิล
+
+RESOURCE ID: mvt_stat_use_mega_evo_player_title
+TEXT: ผู้ชำนาญเมก้า
+
+RESOURCE ID: mvt_stat_use_mega_evo_pokemon_details
+TEXT: ใช้โปเกมอนที่วิวัฒนาการเมก้าในการแบตเทิล
+
+RESOURCE ID: mvt_stat_use_mega_evo_pokemon_title
+TEXT: ผู้ชำนาญเมก้า
+
+RESOURCE ID: mvt_title
+TEXT: ความสำเร็จของเทรนเนอร์
+
+RESOURCE ID: photo_saved
+TEXT: บันทึกรูปภาพแล้ว
+
+RESOURCE ID: photo_unable_to_save
+TEXT: ไม่สามารถบันทึกรูปภาพได้
 
 RESOURCE ID: photobomb_five_gible
 TEXT: เผชิญหน้ากับฟุคามารุแบบไม่คาดคิดในโกสแนปช็อต 5 ครั้ง
@@ -438,8 +606,14 @@ TEXT: ชนะการตีบอสภายในเวลา {0} นาท
 RESOURCE ID: quest_beat_raid_singular_seconds
 TEXT: ชนะการตีบอสภายในเวลา {0} วินาที
 
+RESOURCE ID: quest_catch_lunatone_plural
+TEXT: Catch {0} Lunatone
+
 RESOURCE ID: quest_catch_pokemon_task
 TEXT: จับโปเกมอน ตัว
+
+RESOURCE ID: quest_catch_solrock_plural
+TEXT: Catch {0} Solrock
 
 RESOURCE ID: quest_complete_giblt
 TEXT: โปเกมอนฉลามบกจอมกัด
@@ -464,6 +638,9 @@ TEXT: วิวัฒนาการฟุคามารุ {0} ตัว
 
 RESOURCE ID: quest_giblt_evolve_s1
 TEXT: วิวัฒนาการกาไบต์ {0} ตัว
+
+RESOURCE ID: quest_referral_initial_milestone
+TEXT: Logged in to Pokémon GO
 
 RESOURCE ID: quest_snapshot_wild_eevee
 TEXT: ถ่ายภาพอีวุยที่พบในธรรมชาติ
@@ -750,34 +927,34 @@ RESOURCE ID: regional_catch_challenge_reward_event_name
 TEXT: รางวัลคำท้าการจับแบบเฉพาะถิ่น
 
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_none
-TEXT: Caught 0 Pokémon
+TEXT: จับโปเกมอน 0 ตัว
 
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_plural
-TEXT: Caught {0} Pokémon
+TEXT: จับโปเกมอน {0} ตัว
 
 RESOURCE ID: score_1_1_2_3_4_5_6_7_8_9_10_11_12_13_14_15_16_17_18_singular
-TEXT: Caught 1 Pokémon
+TEXT: จับโปเกมอน 1 ตัว
 
 RESOURCE ID: score_1_none
-TEXT: Caught 0 Pokémon
+TEXT: จับโปเกมอน 0 ตัว
 
 RESOURCE ID: score_1_plural
-TEXT: Caught {0} Pokémon
+TEXT: จับโปเกมอน {0} ตัว
 
 RESOURCE ID: score_1_singular
-TEXT: Caught 1 Pokémon
+TEXT: จับโปเกมอน 1 ตัว
 
 RESOURCE ID: score_catch_pokemon
-TEXT: Caught {0} Pokémon
+TEXT: จับโปเกมอน {0} ตัว
 
 RESOURCE ID: score_spin_pokestop_none
-TEXT: Spun 0 PokéStops
+TEXT: หมุนเสาโปเกสต็อป 0 ครั้ง
 
 RESOURCE ID: score_spin_pokestop_plural
-TEXT: Spun {0} PokéStops
+TEXT: หมุนเสาโปเกสต็อป {0} ครั้ง
 
 RESOURCE ID: score_spin_pokestop_singular
-TEXT: Spun 1 PokéStop
+TEXT: หมุนเสาโปเกสต็อป 1 ครั้ง
 
 RESOURCE ID: settings_help_label
 TEXT: Help
@@ -820,6 +997,9 @@ TEXT: อุปกรณ์ปล่อยลัวร์น้ำฝน สา�
 
 RESOURCE ID: troydisk_rainy.1_title
 TEXT: อุปกรณ์ปล่อยลัวร์น้ำฝน
+
+RESOURCE ID: ultra_league_remix_title
+TEXT: Ultra League Remix
 
 RESOURCE ID: weather_warning_title
 TEXT: สภาพอากาศแปรปรวน
