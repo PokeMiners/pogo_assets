@@ -11,7 +11,7 @@ RESOURCE ID: abi_new_player_onboarding_abi_info
 TEXT: Scegli tu con quali contatti essere amico.
 
 RESOURCE ID: abi_new_player_onboarding_abi_info_2
-TEXT: Easily connect with friends by letting Pokémon GO access your contacts list periodically. You can turn off this feature in your device’s settings at any time.
+TEXT: Connettiti facilmente con gli amici consentendo a Pokémon GO di accedere regolarmente alla tua lista dei contatti. Puoi disabilitare questa funzionalità dalle impostazioni del tuo dispositivo in qualsiasi momento.
 
 RESOURCE ID: abi_new_player_onboarding_accept_button_text
 TEXT: TROVA DEGLI AMICI NELLA LISTA DEI CONTATTI
@@ -209,10 +209,10 @@ RESOURCE ID: badge_event_yoshinoya
 TEXT: Maggio 2021: Yoshinoya
 
 RESOURCE ID: badge_mvt
-TEXT: Apparso nella schermata dei progressi dell’Allenatore nei raid {0} volte.
+TEXT: Presente  {0} volte nella schermata dei progressi dell’Allenatore nei raid.
 
 RESOURCE ID: badge_mvt_title
-TEXT: Esperto di raid
+TEXT: Artista di raid
 
 RESOURCE ID: badge_pokemon_caught_at_your_lures
 TEXT: Usa un modulo esca per aiutare un Allenatore a catturare {0} Pokémon.
@@ -230,13 +230,13 @@ RESOURCE ID: badge_pokestops_scanned_title
 TEXT: Fan dello scan
 
 RESOURCE ID: badge_raid_battle_stat
-TEXT: Apparso nella schermata dei progressi dell’Allenatore nei raid {0} volte.
+TEXT: Presente  {0} volte nella schermata dei progressi dell’Allenatore nei raid.
 
 RESOURCE ID: badge_raid_battle_stat_singular
 TEXT: Apparso nella schermata dei progressi dell’Allenatore nei raid 1 volta.
 
 RESOURCE ID: badge_raid_battle_stat_title
-TEXT: Esperto di raid
+TEXT: Artista di raid
 
 RESOURCE ID: bonus_reward_100_catch_xp
 TEXT: 100 PE da cattura in più
@@ -442,9 +442,30 @@ RESOURCE ID: m_avatar_poses_bundle_pose_29
 TEXT: Ornella
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-06-09T22:49:59.328876
-at SHA 83830ca239167c19c87cdd665a2a77ce07f8aa71
-Patch from: 0.209.0-SHA-e8df565c
+TEXT: Built at 2021-06-15T18:05:20.230343
+at SHA 6db726accfdcad6ba3397a2a742494a2c2bb5c2e
+Patch from: 0.209.0-SHA-e8df565c, 0.211.0-SHA-11d00b5a, 0.211.1-SHA-993188d0
+
+RESOURCE ID: minicollect_help_desc_type_catch_from_raid
+TEXT: Encounter the Pokémon only in Raids.
+
+RESOURCE ID: minicollect_help_desc_type_costume
+TEXT: Encounter Event Pokémon wherever they appear.
+
+RESOURCE ID: minicollect_help_desc_type_evolve
+TEXT: Evolve the Pokémon from its previous evolution.
+
+RESOURCE ID: minicollect_help_desc_type_shadow
+TEXT: Rescue Shadow Pokémon from Team GO Rocket.
+
+RESOURCE ID: minicollect_help_desc_type_shiny
+TEXT: Encounter Shiny Pokémon wherever they appear.
+
+RESOURCE ID: minicollect_help_desc_type_trade
+TEXT: Trade Pokémon with friends.
+
+RESOURCE ID: minicollect_help_title
+TEXT: Collection Challenge
 
 RESOURCE ID: mvt_featured
 TEXT: In primo piano:
@@ -456,13 +477,13 @@ RESOURCE ID: mvt_stat_customize_avatar_player_details
 TEXT: Ha sfoggiato un look mozzafiato
 
 RESOURCE ID: mvt_stat_customize_avatar_player_title
-TEXT: Esperto di stile
+TEXT: Esempio di stile
 
 RESOURCE ID: mvt_stat_customize_avatar_pokemon_details
 TEXT: Ha sfoggiato un look mozzafiato
 
 RESOURCE ID: mvt_stat_customize_avatar_pokemon_title
-TEXT: Esperto di stile
+TEXT: Esempio di stile
 
 RESOURCE ID: mvt_stat_damage_dealt_player_details
 TEXT: Ha inflitto {0} danni
@@ -504,46 +525,46 @@ RESOURCE ID: mvt_stat_num_friends_in_raid_player_details
 TEXT: Ha lottato con {0} amici nel raid
 
 RESOURCE ID: mvt_stat_num_friends_in_raid_player_title
-TEXT: Circondato da amici
+TEXT: Super amichevole
 
 RESOURCE ID: mvt_stat_num_friends_in_raid_pokemon_details
 TEXT: Ha lottato con {0} amici nel raid
 
 RESOURCE ID: mvt_stat_num_friends_in_raid_pokemon_title
-TEXT: Circondato da amici
+TEXT: Super amichevole
 
 RESOURCE ID: mvt_stat_pokemon_height_player_details
 TEXT: Ha lottato con i Pokémon più grossi
 
 RESOURCE ID: mvt_stat_pokemon_height_player_title
-TEXT: Grandissimo
+TEXT: Enorme
 
 RESOURCE ID: mvt_stat_pokemon_height_pokemon_details
 TEXT: Ha lottato con i Pokémon più grossi
 
 RESOURCE ID: mvt_stat_pokemon_height_pokemon_title
-TEXT: Grandissimo
+TEXT: Enorme
 
 RESOURCE ID: mvt_stat_recent_walking_distance_player_details
 TEXT: Ha percorso {0} km a piedi ieri prima del raid
 
 RESOURCE ID: mvt_stat_recent_walking_distance_player_title
-TEXT: Grande camminatore
+TEXT: Star delle passeggiate
 
 RESOURCE ID: mvt_stat_recent_walking_distance_pokemon_details
 TEXT: Ha percorso {0} km a piedi ieri prima del raid
 
 RESOURCE ID: mvt_stat_recent_walking_distance_pokemon_title
-TEXT: Grande camminatore
+TEXT: Star delle passeggiate
 
 RESOURCE ID: mvt_stat_remote_distance_player_details
-TEXT: Si è unito da {0} km di distanza
+TEXT: Partecipa da {0} km di distanza
 
 RESOURCE ID: mvt_stat_remote_distance_player_title
 TEXT: Viaggiatore
 
 RESOURCE ID: mvt_stat_remote_distance_pokemon_details
-TEXT: Si è unito da {0} km di distanza
+TEXT: Partecipa da {0} km di distanza
 
 RESOURCE ID: mvt_stat_remote_distance_pokemon_title
 TEXT: Viaggiatore
@@ -576,13 +597,13 @@ RESOURCE ID: mvt_stat_use_mega_evo_player_details
 TEXT: Ha usato un Pokémon megaevoluto nella lotta
 
 RESOURCE ID: mvt_stat_use_mega_evo_player_title
-TEXT: Maestro di megaevoluzione
+TEXT: Mega Artista
 
 RESOURCE ID: mvt_stat_use_mega_evo_pokemon_details
 TEXT: Ha usato un Pokémon megaevoluto nella lotta
 
 RESOURCE ID: mvt_stat_use_mega_evo_pokemon_title
-TEXT: Maestro di megaevoluzione
+TEXT: Artista di megaevoluzione
 
 RESOURCE ID: mvt_title
 TEXT: Progressi dell’Allenatore
@@ -602,8 +623,536 @@ TEXT: Cinque incontri a sorpresa con Gible in modalità foto GO
 RESOURCE ID: photobomb_five_swablu
 TEXT: Cinque incontri a sorpresa con Swablu in modalità foto GO
 
+RESOURCE ID: pokemon_category_0144_g
+TEXT: Pokémon Sanguefreddo
+
+RESOURCE ID: pokemon_category_0145_g
+TEXT: Pokémon Zampeforti
+
+RESOURCE ID: pokemon_category_0146_g
+TEXT: Pokémon Malvagità
+
 RESOURCE ID: pokemon_category_0199_2584
 TEXT: Pokémon Stregone
+
+RESOURCE ID: pokemon_category_0720_2652
+TEXT: Pokémon Genio
+
+RESOURCE ID: pokemon_category_0722
+TEXT: Pokémon Aliderba
+
+RESOURCE ID: pokemon_category_0723
+TEXT: Pokémon Piumaffilata
+
+RESOURCE ID: pokemon_category_0724
+TEXT: Pokémon Alifreccia
+
+RESOURCE ID: pokemon_category_0725
+TEXT: Pokémon Pirofelino
+
+RESOURCE ID: pokemon_category_0726
+TEXT: Pokémon Pirofelino
+
+RESOURCE ID: pokemon_category_0727
+TEXT: Pokémon Colpibassi
+
+RESOURCE ID: pokemon_category_0728
+TEXT: Pokémon Otaria
+
+RESOURCE ID: pokemon_category_0729
+TEXT: Pokémon Pop Star
+
+RESOURCE ID: pokemon_category_0730
+TEXT: Pokémon Solista
+
+RESOURCE ID: pokemon_category_0731
+TEXT: Pokémon Picchio
+
+RESOURCE ID: pokemon_category_0732
+TEXT: Pokémon Trombecco
+
+RESOURCE ID: pokemon_category_0733
+TEXT: Pokémon Cannone
+
+RESOURCE ID: pokemon_category_0734
+TEXT: Pokémon Pattuglia
+
+RESOURCE ID: pokemon_category_0735
+TEXT: Pokémon Sorveglianza
+
+RESOURCE ID: pokemon_category_0736
+TEXT: Pokémon Coleolarva
+
+RESOURCE ID: pokemon_category_0737
+TEXT: Pokémon Batteria
+
+RESOURCE ID: pokemon_category_0738
+TEXT: Pokémon Cervolante
+
+RESOURCE ID: pokemon_category_0739
+TEXT: Pokémon Pugile
+
+RESOURCE ID: pokemon_category_0740
+TEXT: Pokémon Peligranchio
+
+RESOURCE ID: pokemon_category_0741
+TEXT: Pokémon Danza
+
+RESOURCE ID: pokemon_category_0742
+TEXT: Pokémon Bombilide
+
+RESOURCE ID: pokemon_category_0743
+TEXT: Pokémon Bombilide
+
+RESOURCE ID: pokemon_category_0744
+TEXT: Pokémon Cagnolino
+
+RESOURCE ID: pokemon_category_0745
+TEXT: Pokémon Lupo
+
+RESOURCE ID: pokemon_category_0746
+TEXT: Pokémon Pesciolino
+
+RESOURCE ID: pokemon_category_0747
+TEXT: Pokémon Stellatroce
+
+RESOURCE ID: pokemon_category_0748
+TEXT: Pokémon Stellatroce
+
+RESOURCE ID: pokemon_category_0749
+TEXT: Pokémon Ciuconiglio
+
+RESOURCE ID: pokemon_category_0750
+TEXT: Pokémon Fortequino
+
+RESOURCE ID: pokemon_category_0751
+TEXT: Pokémon Bolladacqua
+
+RESOURCE ID: pokemon_category_0752
+TEXT: Pokémon Bolladacqua
+
+RESOURCE ID: pokemon_category_0753
+TEXT: Pokémon Mantiderba
+
+RESOURCE ID: pokemon_category_0754
+TEXT: Pokémon Mantifiore
+
+RESOURCE ID: pokemon_category_0755
+TEXT: Pokémon Luminescenza
+
+RESOURCE ID: pokemon_category_0756
+TEXT: Pokémon Luminescenza
+
+RESOURCE ID: pokemon_category_0757
+TEXT: Pokémon Lucertossina
+
+RESOURCE ID: pokemon_category_0758
+TEXT: Pokémon Lucertossina
+
+RESOURCE ID: pokemon_category_0759
+TEXT: Pokémon Bizzoso
+
+RESOURCE ID: pokemon_category_0760
+TEXT: Pokémon Fortebraccio
+
+RESOURCE ID: pokemon_category_0761
+TEXT: Pokémon Frutto
+
+RESOURCE ID: pokemon_category_0762
+TEXT: Pokémon Frutto
+
+RESOURCE ID: pokemon_category_0763
+TEXT: Pokémon Frutto
+
+RESOURCE ID: pokemon_category_0764
+TEXT: Pokémon Ghirlanda
+
+RESOURCE ID: pokemon_category_0765
+TEXT: Pokémon Saggio
+
+RESOURCE ID: pokemon_category_0766
+TEXT: Pokémon Giocosquadra
+
+RESOURCE ID: pokemon_category_0767
+TEXT: Pokémon Lestopode
+
+RESOURCE ID: pokemon_category_0768
+TEXT: Pokémon Blindato
+
+RESOURCE ID: pokemon_category_0769
+TEXT: Pokémon Montesabbia
+
+RESOURCE ID: pokemon_category_0770
+TEXT: Pokémon Castelsabbia
+
+RESOURCE ID: pokemon_category_0771
+TEXT: Pokémon Oloturia
+
+RESOURCE ID: pokemon_category_0772
+TEXT: Pokémon Multigene
+
+RESOURCE ID: pokemon_category_0773
+TEXT: Pokémon Multigene
+
+RESOURCE ID: pokemon_category_0774
+TEXT: Pokémon Meteora
+
+RESOURCE ID: pokemon_category_0775
+TEXT: Pokémon Dormiveglia
+
+RESOURCE ID: pokemon_category_0776
+TEXT: Pokémon Tartabomba
+
+RESOURCE ID: pokemon_category_0777
+TEXT: Pokémon Ricciopalla
+
+RESOURCE ID: pokemon_category_0778
+TEXT: Pokémon Fantasmanto
+
+RESOURCE ID: pokemon_category_0779
+TEXT: Pokémon Sfregadenti
+
+RESOURCE ID: pokemon_category_0780
+TEXT: Pokémon Tuttacalma
+
+RESOURCE ID: pokemon_category_0781
+TEXT: Pokémon Brandellalga
+
+RESOURCE ID: pokemon_category_0782
+TEXT: Pokémon Squama
+
+RESOURCE ID: pokemon_category_0783
+TEXT: Pokémon Squama
+
+RESOURCE ID: pokemon_category_0784
+TEXT: Pokémon Squama
+
+RESOURCE ID: pokemon_category_0785
+TEXT: Pokémon Nume Locale
+
+RESOURCE ID: pokemon_category_0786
+TEXT: Pokémon Nume Locale
+
+RESOURCE ID: pokemon_category_0787
+TEXT: Pokémon Nume Locale
+
+RESOURCE ID: pokemon_category_0788
+TEXT: Pokémon Nume Locale
+
+RESOURCE ID: pokemon_category_0789
+TEXT: Pokémon Nebulosa
+
+RESOURCE ID: pokemon_category_0790
+TEXT: Pokémon Protostella
+
+RESOURCE ID: pokemon_category_0791
+TEXT: Pokémon Solare
+
+RESOURCE ID: pokemon_category_0792
+TEXT: Pokémon Lunare
+
+RESOURCE ID: pokemon_category_0793
+TEXT: Pokémon Parassita
+
+RESOURCE ID: pokemon_category_0794
+TEXT: Pokémon Gonfiacorpo
+
+RESOURCE ID: pokemon_category_0795
+TEXT: Pokémon Leggiadria
+
+RESOURCE ID: pokemon_category_0796
+TEXT: Pokémon Luminaria
+
+RESOURCE ID: pokemon_category_0797
+TEXT: Pokémon Decollo
+
+RESOURCE ID: pokemon_category_0798
+TEXT: Pokémon Spadatratta
+
+RESOURCE ID: pokemon_category_0799
+TEXT: Pokémon Divoratutto
+
+RESOURCE ID: pokemon_category_0800
+TEXT: Pokémon Prisma
+
+RESOURCE ID: pokemon_category_0801
+TEXT: Pokémon Artificiale
+
+RESOURCE ID: pokemon_category_0802
+TEXT: Pokémon Vivinombra
+
+RESOURCE ID: pokemon_category_0803
+TEXT: Pokémon Velenago
+
+RESOURCE ID: pokemon_category_0804
+TEXT: Pokémon Velenago
+
+RESOURCE ID: pokemon_category_0805
+TEXT: Pokémon Bastione
+
+RESOURCE ID: pokemon_category_0806
+TEXT: Pokémon Pirotecnico
+
+RESOURCE ID: pokemon_category_0807
+TEXT: Pokémon Fulmirapido
+
+RESOURCE ID: pokemon_category_0810
+TEXT: Pokémon Scimpanzé
+
+RESOURCE ID: pokemon_category_0811
+TEXT: Pokémon Ritmo
+
+RESOURCE ID: pokemon_category_0812
+TEXT: Pokémon Percussione
+
+RESOURCE ID: pokemon_category_0813
+TEXT: Pokémon Coniglio
+
+RESOURCE ID: pokemon_category_0814
+TEXT: Pokémon Coniglio
+
+RESOURCE ID: pokemon_category_0815
+TEXT: Pokémon Cannoniere
+
+RESOURCE ID: pokemon_category_0816
+TEXT: Pokémon Acquacertola
+
+RESOURCE ID: pokemon_category_0817
+TEXT: Pokémon Acquacertola
+
+RESOURCE ID: pokemon_category_0818
+TEXT: Pokémon Agente
+
+RESOURCE ID: pokemon_category_0819
+TEXT: Pokémon Guancepiene
+
+RESOURCE ID: pokemon_category_0820
+TEXT: Pokémon Ingordigia
+
+RESOURCE ID: pokemon_category_0821
+TEXT: Pokémon Uccellino
+
+RESOURCE ID: pokemon_category_0822
+TEXT: Pokémon Corvo
+
+RESOURCE ID: pokemon_category_0823
+TEXT: Pokémon Corvo
+
+RESOURCE ID: pokemon_category_0824
+TEXT: Pokémon Coleolarva
+
+RESOURCE ID: pokemon_category_0825
+TEXT: Pokémon Radome
+
+RESOURCE ID: pokemon_category_0826
+TEXT: Pokémon Settepunti
+
+RESOURCE ID: pokemon_category_0827
+TEXT: Pokémon Volpe
+
+RESOURCE ID: pokemon_category_0828
+TEXT: Pokémon Volpe
+
+RESOURCE ID: pokemon_category_0829
+TEXT: Pokémon Fiorfronzolo
+
+RESOURCE ID: pokemon_category_0830
+TEXT: Pokémon Cotofronzolo
+
+RESOURCE ID: pokemon_category_0831
+TEXT: Pokémon Pecora
+
+RESOURCE ID: pokemon_category_0832
+TEXT: Pokémon Pecora
+
+RESOURCE ID: pokemon_category_0833
+TEXT: Pokémon Mordace
+
+RESOURCE ID: pokemon_category_0834
+TEXT: Pokémon Morso
+
+RESOURCE ID: pokemon_category_0835
+TEXT: Pokémon Cagnolino
+
+RESOURCE ID: pokemon_category_0836
+TEXT: Pokémon Cane
+
+RESOURCE ID: pokemon_category_0837
+TEXT: Pokémon Carbone
+
+RESOURCE ID: pokemon_category_0838
+TEXT: Pokémon Carbone
+
+RESOURCE ID: pokemon_category_0839
+TEXT: Pokémon Carbone
+
+RESOURCE ID: pokemon_category_0840
+TEXT: Pokémon Pomicolo
+
+RESOURCE ID: pokemon_category_0841
+TEXT: Pokémon Pomivolo
+
+RESOURCE ID: pokemon_category_0842
+TEXT: Pokémon Pomisucco
+
+RESOURCE ID: pokemon_category_0843
+TEXT: Pokémon Sabbiaserpe
+
+RESOURCE ID: pokemon_category_0844
+TEXT: Pokémon Sabbiaserpe
+
+RESOURCE ID: pokemon_category_0845
+TEXT: Pokémon Inghiottone
+
+RESOURCE ID: pokemon_category_0846
+TEXT: Pokémon Carica
+
+RESOURCE ID: pokemon_category_0847
+TEXT: Pokémon Spiedo
+
+RESOURCE ID: pokemon_category_0848
+TEXT: Pokémon Bebè
+
+RESOURCE ID: pokemon_category_0849
+TEXT: Pokémon Punk
+
+RESOURCE ID: pokemon_category_0850
+TEXT: Pokémon Termogeno
+
+RESOURCE ID: pokemon_category_0851
+TEXT: Pokémon Termogeno
+
+RESOURCE ID: pokemon_category_0852
+TEXT: Pokémon Bizze
+
+RESOURCE ID: pokemon_category_0853
+TEXT: Pokémon Jujitsu
+
+RESOURCE ID: pokemon_category_0854
+TEXT: Pokémon Tè
+
+RESOURCE ID: pokemon_category_0855
+TEXT: Pokémon Tè
+
+RESOURCE ID: pokemon_category_0856
+TEXT: Pokémon Calma
+
+RESOURCE ID: pokemon_category_0857
+TEXT: Pokémon Quiete
+
+RESOURCE ID: pokemon_category_0858
+TEXT: Pokémon Silenzio
+
+RESOURCE ID: pokemon_category_0859
+TEXT: Pokémon Scaltro
+
+RESOURCE ID: pokemon_category_0860
+TEXT: Pokémon Furbizia
+
+RESOURCE ID: pokemon_category_0861
+TEXT: Pokémon Granfisico
+
+RESOURCE ID: pokemon_category_0864
+TEXT: Pokémon Corallo
+
+RESOURCE ID: pokemon_category_0868
+TEXT: Pokémon Pannafresca
+
+RESOURCE ID: pokemon_category_0869
+TEXT: Pokémon Pannafresca
+
+RESOURCE ID: pokemon_category_0870
+TEXT: Pokémon Schieramento
+
+RESOURCE ID: pokemon_category_0871
+TEXT: Pokémon Echino
+
+RESOURCE ID: pokemon_category_0872
+TEXT: Pokémon Baco
+
+RESOURCE ID: pokemon_category_0873
+TEXT: Pokémon Gelofalena
+
+RESOURCE ID: pokemon_category_0874
+TEXT: Pokémon Megalito
+
+RESOURCE ID: pokemon_category_0875
+TEXT: Pokémon Pinguino
+
+RESOURCE ID: pokemon_category_0876
+TEXT: Pokémon Emozione
+
+RESOURCE ID: pokemon_category_0877
+TEXT: Pokémon Doppiafaccia
+
+RESOURCE ID: pokemon_category_0878
+TEXT: Pokémon Bronzofante
+
+RESOURCE ID: pokemon_category_0879
+TEXT: Pokémon Bronzofante
+
+RESOURCE ID: pokemon_category_0880
+TEXT: Pokémon Fossile
+
+RESOURCE ID: pokemon_category_0881
+TEXT: Pokémon Fossile
+
+RESOURCE ID: pokemon_category_0882
+TEXT: Pokémon Fossile
+
+RESOURCE ID: pokemon_category_0883
+TEXT: Pokémon Fossile
+
+RESOURCE ID: pokemon_category_0884
+TEXT: Pokémon Metallolega
+
+RESOURCE ID: pokemon_category_0885
+TEXT: Pokémon Risentimento
+
+RESOURCE ID: pokemon_category_0886
+TEXT: Pokémon Sostegno
+
+RESOURCE ID: pokemon_category_0887
+TEXT: Pokémon Furtivo
+
+RESOURCE ID: pokemon_category_0888
+TEXT: Pokémon Guerriero
+
+RESOURCE ID: pokemon_category_0889
+TEXT: Pokémon Guerriero
+
+RESOURCE ID: pokemon_category_0890
+TEXT: Pokémon Gigante
+
+RESOURCE ID: pokemon_category_0891
+TEXT: Pokémon Kung Fu
+
+RESOURCE ID: pokemon_category_0892
+TEXT: Pokémon Kung Fu
+
+RESOURCE ID: pokemon_category_0893
+TEXT: Pokémon Scimmialigna
+
+RESOURCE ID: pokemon_category_0894
+TEXT: Pokémon Elettrone
+
+RESOURCE ID: pokemon_category_0895
+TEXT: Pokémon Dracosfera
+
+RESOURCE ID: pokemon_category_0896
+TEXT: Pokémon Furiequino
+
+RESOURCE ID: pokemon_category_0897
+TEXT: Pokémon Sveltequino
+
+RESOURCE ID: pokemon_category_0898
+TEXT: Pokémon Re
+
+RESOURCE ID: pokemon_category_0898_ice
+TEXT: Pokémon Imperatore
+
+RESOURCE ID: pokemon_category_0898_shadow
+TEXT: Pokémon Imperatore
 
 RESOURCE ID: pokemon_desc_0079_2582
 TEXT: Ha sempre un'aria assente, ma a volte il suo viso si contrae improvvisamente in una smorfia. Pare che questo sia dovuto alla sua alimentazione.
@@ -611,8 +1160,1052 @@ TEXT: Ha sempre un'aria assente, ma a volte il suo viso si contrae improvvisamen
 RESOURCE ID: pokemon_desc_0080_2583
 TEXT: Lo stimolo dato dal morso di uno Shellder ha innescato una reazione chimica con le spezie nel suo organismo, rendendolo di tipo Veleno.
 
+RESOURCE ID: pokemon_desc_0144_g
+TEXT: Its feather-like blades are composed of psychic energy and can shear through thick iron sheets as if they were paper.
+
+RESOURCE ID: pokemon_desc_0145_g
+TEXT: When its feathers rub together, they produce a crackling sound like the zapping of electricity. That’s why this Pokémon is called Zapdos.
+
+RESOURCE ID: pokemon_desc_0146_g
+TEXT: This Pokémon’s sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.
+
 RESOURCE ID: pokemon_desc_0199_2584
 TEXT: Lo shock dell'evoluzione e le tossine hanno favorito lo sviluppo dell'intelletto di Shellder, che ora è in grado di manipolare Slowking.
+
+RESOURCE ID: pokemon_desc_0222_2340
+TEXT: Spesso giace a terra in luoghi che in passato erano fondali oceanici. Se qualcuno lo calcia scambiandolo per un ciottolo, viene maledetto.
+
+RESOURCE ID: pokemon_desc_0720_2652
+TEXT: Si dice che possa rubare tutto ciò che vuole grazie ai suoi sei anelli e alle sue sei enormi braccia. La sua potenza è stata sigillata, riducendo di molto le sue dimensioni effettive.
+
+RESOURCE ID: pokemon_desc_0722
+TEXT: Si sente a suo agio in luoghi stretti e bui.A volte usa le tasche o la Borsa del suoAllenatore a mo' di nido.
+
+RESOURCE ID: pokemon_desc_0723
+TEXT: È molto sensibile all'ambiente circostante.Percepisce la presenza del nemico dietro di sée lo abbatte scagliando le sue piume affilate.
+
+RESOURCE ID: pokemon_desc_0724
+TEXT: È in grado di scoccare piume e colpire il nemicoin un decimo di secondo, aggiudicandosi lavittoria in un batter d'occhio.
+
+RESOURCE ID: pokemon_desc_0725
+TEXT: Cambia il pelo due volte all'anno.Al momento della muta, il suo corpo prendefuoco e il pelo vecchio viene bruciato.
+
+RESOURCE ID: pokemon_desc_0726
+TEXT: Quando la sua criniera è ritta, vuol dire cheè in buona salute. Se sta male, invece,la lascia cadere all'indietro.
+
+RESOURCE ID: pokemon_desc_0727
+TEXT: Quando arde dalla voglia di lottare, anchele fiamme intorno alla vita bruciano piùintensamente.
+
+RESOURCE ID: pokemon_desc_0728
+TEXT: Sfrutta l'elasticità dei palloncini d'acqua perrimbalzarci sopra e saltare ancora più in alto.Anche nelle lotte è un vero acrobata!
+
+RESOURCE ID: pokemon_desc_0729
+TEXT: Attacca creando palloncini d'acqua che lanciacon le sue pinne. I palloncini esplodono alcontatto con il nemico.
+
+RESOURCE ID: pokemon_desc_0730
+TEXT: Il suo soprannome è “principessa del canto".Lo spettacolo che offre mentre dirige il coro deisuoi simili al chiar di luna è una visione da sogno.
+
+RESOURCE ID: pokemon_desc_0731
+TEXT: Sembra esile ma nel collo ha muscoli d'acciaio.Riesce a beccare i tronchi degli alberi al ritmodi 16 colpi al secondo.
+
+RESOURCE ID: pokemon_desc_0732
+TEXT: Spara dal becco i semi delle bacche di cuisi nutre, da cui poi spuntano nuove piante.
+
+RESOURCE ID: pokemon_desc_0733
+TEXT: Le coppie di Toucannon sono famose per la loroperfetta armonia. Per questo c'è chi le porta aimatrimoni come augurio di felicità per gli sposi.
+
+RESOURCE ID: pokemon_desc_0734
+TEXT: Gli Yungoos mangiano di tutto ma preferisconocibo fresco o prede vive. Si vedono spessosfilare lungo le strade alla ricerca di cibo.
+
+RESOURCE ID: pokemon_desc_0735
+TEXT: È un Pokémon molto paziente, ma quandotrova un Rattata, di cui va pazzo, perdeil controllo e lo assale.
+
+RESOURCE ID: pokemon_desc_0736
+TEXT: Secerne un filo appiccicoso con cui immobilizzal'avversario per poi stritolarlo tra le suerobuste mandibole.
+
+RESOURCE ID: pokemon_desc_0737
+TEXT: Il suo robusto esoscheletro lo protegge dagliattacchi. Se il nemico non molla, contrattaccacon scariche elettriche.
+
+RESOURCE ID: pokemon_desc_0738
+TEXT: Confonde i nemici con voli acrobatici e, nonappena li vede esitare, li colpisce con unraggio elettrico.
+
+RESOURCE ID: pokemon_desc_0739
+TEXT: A volte si arrampica sugli Exeggutor, prendendoliper vere palme. Per tutta risposta, questi siadirano, lo scaraventano a terra e lo calpestano.
+
+RESOURCE ID: pokemon_desc_0740
+TEXT: Attacca subito, senza pensarci due volte.Secondo alcune testimonianze, ha fermatouna valanga con una raffica di pugni.
+
+RESOURCE ID: pokemon_desc_0741
+TEXT: Un Oricorio che si è nutrito di Nettare rosso.È molto melodrammatico e va su tutte le furie seil suo Allenatore gli dà un'indicazione sbagliata.
+
+RESOURCE ID: pokemon_desc_0742
+TEXT: Percepisce l'aura degli esseri viventi, riuscendocosì ad anticipare i loro movimenti. Per questoha sempre la meglio sui nemici.
+
+RESOURCE ID: pokemon_desc_0743
+TEXT: Prevede che tempo farà dall'umidità e dalladirezione del vento. Lo si vede in giro solodurante i periodi di bel tempo stabile.
+
+RESOURCE ID: pokemon_desc_0744
+TEXT: Sfrega le appuntite pietre del suo colloaddosso agli altri. È un segno di affettoabbastanza doloroso!
+
+RESOURCE ID: pokemon_desc_0745
+TEXT: La sua criniera di roccia è più affilata della lamadi un coltello. Le sue schegge sono consideratedei preziosi portafortuna.
+
+RESOURCE ID: pokemon_desc_0746
+TEXT: Quando si trova in difficoltà chiede aiuto aisuoi compagni emettendo una luce dalle pupillevisibile fino a 40 km di distanza.
+
+RESOURCE ID: pokemon_desc_0747
+TEXT: A condizione che la testa rimanga intatta, anchese gli staccano qualche pezzo si rigenera subito.Dopo una notte di riposo ritorna come nuovo.
+
+RESOURCE ID: pokemon_desc_0748
+TEXT: Con i suoi 12 tentacoli, forma una cupolaprotettiva che resiste anche alle correntimarine e assicura un piacevole riparo.
+
+RESOURCE ID: pokemon_desc_0749
+TEXT: È un Pokémon incredibilmente forte.Può trasportare pesi 50 volte superiori al suocome se niente fosse.
+
+RESOURCE ID: pokemon_desc_0750
+TEXT: È in grado di percorrere strade di montagnaper tre giorni e tre notti senza fermarsitrainando dei carichi di ben 10 tonnellate.
+
+RESOURCE ID: pokemon_desc_0751
+TEXT: Può respirare solo l'ossigeno contenutonell'acqua. Sulla terraferma, tiene sempre latesta dentro la sua bolla.
+
+RESOURCE ID: pokemon_desc_0752
+TEXT: Conserva le cose importanti nella sua bollad'acqua. Potrebbe provare a metterci ancheil suo Allenatore, se questo non sta attento.
+
+RESOURCE ID: pokemon_desc_0753
+TEXT: Adora la luce del sole. Più resta esposto al sole,più i suoi colori si fanno vividi.
+
+RESOURCE ID: pokemon_desc_0754
+TEXT: Trancia il nemico come se stesse danzando.Il suo aspetto elegante gli è valso la fama diessere il più affascinante Pokémon di tipo Erba.
+
+RESOURCE ID: pokemon_desc_0755
+TEXT: Gli piacciono i luoghi ombrosi e umidi.Quando scende la notte, le spore di cui sonocolmi i suoi cappelli si illuminano.
+
+RESOURCE ID: pokemon_desc_0756
+TEXT: Quando Shiinotic e Parasect lottano peril dominio di un territorio, finiscono percoprire ogni cosa con le loro spore.
+
+RESOURCE ID: pokemon_desc_0757
+TEXT: Fa barcollare il nemico con un gas velenoso perpoi attaccarlo. Spinda, che barcolla già di suo,lo mette molto in difficoltà.
+
+RESOURCE ID: pokemon_desc_0758
+TEXT: Punisce i Salandit che tornano senza una predaschiaffeggiandoli vigorosamente con le zampeanteriori che sprigionano fuoco.
+
+RESOURCE ID: pokemon_desc_0759
+TEXT: Detesta profondamente essere toccato oabbracciato e resiste dibattendosi con tuttala sua incredibile forza.
+
+RESOURCE ID: pokemon_desc_0760
+TEXT: Va fiero della propria forza smisurata.Molti ritengono che Bewear sia il Pokémonpiù pericoloso di Alola.
+
+RESOURCE ID: pokemon_desc_0761
+TEXT: Quando un Pokémon alato sta per inghiottirlo,Bounsweet cerca di resistere ruotando le foglieche ha sul capo, con scarsi risultati.
+
+RESOURCE ID: pokemon_desc_0762
+TEXT: Se ne va in giro saltellando e agitando le foglieche ha sulla testa. Andare a sbattere controuno Steenee può essere molto doloroso.
+
+RESOURCE ID: pokemon_desc_0763
+TEXT: È un Pokémon dal temperamento combattivo.La sua specialità sono i calci e ogni volta chene assesta uno scoppia in una sonora risata.
+
+RESOURCE ID: pokemon_desc_0764
+TEXT: Usa i suoi fluidi corporei per attaccarsi addossoi fiori che raccoglie. Il profumo che emana daisuoi petali ha proprietà curative.
+
+RESOURCE ID: pokemon_desc_0765
+TEXT: Gli Oranguru non vanno d'accordo tra di loroe si sfidano sempre in prove d'intelligenzaper stabilire chi sia il più sagace.
+
+RESOURCE ID: pokemon_desc_0766
+TEXT: Utilizza le bacche sia come arma che come cibo.Il Passimian che riesce a scagliarle più lontanodiventa il capo del suo gruppo.
+
+RESOURCE ID: pokemon_desc_0767
+TEXT: È un Pokémon estremamente timoroso.Non appena qualcosa gli si avvicina, Wimpod sela svigna a gran velocità agitando le zampette.
+
+RESOURCE ID: pokemon_desc_0768
+TEXT: La sua arma più potente sono gli artigli, chepuò estendere e ritrarre a volontà. A voltesi fa accompagnare da Wimpod.
+
+RESOURCE ID: pokemon_desc_0769
+TEXT: A fine giornata bisognerebbe disperdere lasabbia ammucchiata, altrimenti uno spiritopotrebbe animarla e generare un Sandygast.
+
+RESOURCE ID: pokemon_desc_0770
+TEXT: Questo temibile Pokémon immobilizza i nemicicon una tempesta di sabbia per poi rubarnel'energia vitale.
+
+RESOURCE ID: pokemon_desc_0771
+TEXT: Il suo intero corpo è ricoperto da un fluidovischioso. Chi lo calpesta scivola a terra esi prende anche un pugno.
+
+RESOURCE ID: pokemon_desc_0772
+TEXT: La maschera che porta ha la funzione ditenere a freno la sua vera potenza e impedirglidi perdere il controllo.
+
+RESOURCE ID: pokemon_desc_0773
+TEXT: Il legame di fiducia con il proprio Allenatoregli ha permesso di acquistare una grandeforza d'animo e distruggere la maschera.
+
+RESOURCE ID: pokemon_desc_0774
+TEXT: Il suo guscio esterno è estremamente resistente,ma quando precipita dallo strato d'ozonol'impatto con il suolo lo fa andare in mille pezzi.
+
+RESOURCE ID: pokemon_desc_0775
+TEXT: Poiché le foglie di cui si nutre contengono unasostanza soporifera, Komala trascorre la suaintera vita dormendo.
+
+RESOURCE ID: pokemon_desc_0776
+TEXT: Il suo pericoloso carapace esplosivo è messofuori uso dall'umidità. Nei giorni di pioggiasi rifugia all'interno delle grotte.
+
+RESOURCE ID: pokemon_desc_0777
+TEXT: Poiché la sua capacità di generare elettricitànon è molto sviluppata, si espone ai fulminiper ricaricarsi.
+
+RESOURCE ID: pokemon_desc_0778
+TEXT: Un Allenatore che ha visto cosa si cela sottoil suo panno per una folata di vento è andatoincontro a una morte dolorosa la sera stessa.
+
+RESOURCE ID: pokemon_desc_0779
+TEXT: La sua pelle spessa non viene scalfita neanchedagli aculei dei Mareanie, che sgranocchia conle robuste zanne.
+
+RESOURCE ID: pokemon_desc_0780
+TEXT: Visita le città per giocare con i bambini ed èsempre pronto a proteggerli. Per questo,quando c'è lui i genitori sono tranquilli.
+
+RESOURCE ID: pokemon_desc_0781
+TEXT: Le sue alghe formano una specie di catena chepuò allungarsi per diverse centinaia di metri. Perqualche strano motivo, va d'accordo con Skrelp.
+
+RESOURCE ID: pokemon_desc_0782
+TEXT: Lotta senza dare mai le spalle al nemico.I guerrieri del passato lo sceglievano comealleato per la sua indole coraggiosa.
+
+RESOURCE ID: pokemon_desc_0783
+TEXT: Le pentole e padelle fabbricate con le squameche perde sono apprezzate per la loro praticitàe perché assicurano una cottura uniforme.
+
+RESOURCE ID: pokemon_desc_0784
+TEXT: Lotta con audacia agitando i pugni ricoperti dasquame d'acciaio. I montanti sono il suo forte.
+
+RESOURCE ID: pokemon_desc_0785
+TEXT: Protettore di Mele Mele, è in grado di controllarei fulmini. La sua grande curiosità a volte lospinge a mostrarsi agli esseri umani.
+
+RESOURCE ID: pokemon_desc_0786
+TEXT: È considerato il protettore di Akala erappresenta l'incarnazione della natura. Haun'indole innocente e spietata al tempo stesso.
+
+RESOURCE ID: pokemon_desc_0787
+TEXT: Protettore di Ula Ula, ha il potere di controllarela vegetazione. Fa risuonare la coda persegnalare la sua presenza ed evitare lotte inutili.
+
+RESOURCE ID: pokemon_desc_0788
+TEXT: È considerato un Pokémon protettore, ma a voltearreca sciagure tremende a chi gli si avvicina inmodo avventato.
+
+RESOURCE ID: pokemon_desc_0789
+TEXT: Non si sa se provenga da questo mondo.Quando è in pericolo, si teletrasporta inun luogo sicuro dove rimane nascosto.
+
+RESOURCE ID: pokemon_desc_0790
+TEXT: Continua a crescere assorbendo la luce.Il suo esoscheletro dorato è incredibilmenteduro.
+
+RESOURCE ID: pokemon_desc_0791
+TEXT: In antichissimi documenti si parla di lui comedella “creatura che si nutre di sole".
+
+RESOURCE ID: pokemon_desc_0792
+TEXT: A volte gli Ultravarchi che apre servono dapassaggio verso il nostro mondo per forzee forme di vita sconosciute.
+
+RESOURCE ID: pokemon_desc_0793
+TEXT: È arrivato in questo mondo attraverso unUltravarco. È un parassita di Pokémoned esseri umani.
+
+RESOURCE ID: pokemon_desc_0794
+TEXT: Una delle Ultracreature. Non fa che mettere inmostra i propri muscoli esageratamente gonfi.
+
+RESOURCE ID: pokemon_desc_0795
+TEXT: Una forma di vita proveniente da un altro mondo.Il suo corpo esile e flessibile nasconde una forzainaspettata.
+
+RESOURCE ID: pokemon_desc_0796
+TEXT: Una delle cosiddette Ultracreature. Alcuniesemplari se ne stanno immobili con bracciae gambe piantate nel terreno come alberi.
+
+RESOURCE ID: pokemon_desc_0797
+TEXT: Una delle temibili Ultracreature. Rilevamentieffettuati sulle sue gigantesche braccia hannomostrato reazioni energetiche ad alta intensità.
+
+RESOURCE ID: pokemon_desc_0798
+TEXT: Ultracreatura dal corpo sottile come un fogliodi carta e affilato come la lama di una spada.
+
+RESOURCE ID: pokemon_desc_0799
+TEXT: Una misteriosa forma di vita nota comeUltracreatura. Mangia in continuazione, comese fosse costantemente affamata.
+
+RESOURCE ID: pokemon_desc_0800
+TEXT: La luce è la sua fonte di energia. Quando nonriesce a consumarne, accumula impurità che loscuriscono e gli impediscono di muoversi.
+
+RESOURCE ID: pokemon_desc_0801
+TEXT: Fu costruito circa 500 anni fa da uno scienziato.La sua vera essenza si trova in un componentechiamato “Cuoreanima".
+
+RESOURCE ID: pokemon_desc_0802
+TEXT: Infiltrandosi nell'ombra di Pokémon ed esseriumani riesce a comprendere il loro stato d'animoe a copiarne le capacità.
+
+RESOURCE ID: pokemon_desc_0803
+TEXT: Un'Ultracreatura che vive in un altro mondo.Sghignazza felice quando avvelena gli avversaricon il pungiglione che ha sul capo.
+
+RESOURCE ID: pokemon_desc_0804
+TEXT: Una delle Ultracreature. Il luminoso liquidotossico che emette dagli aculei è caratterizzatoda un'elevata viscosità.
+
+RESOURCE ID: pokemon_desc_0805
+TEXT: Questa misteriosa forma di vita sembra essereun'Ultracreatura. Se all'improvviso un muro simuove e attacca, in realtà si tratta di lui.
+
+RESOURCE ID: pokemon_desc_0806
+TEXT: Ultracreatura arrivata attraverso un Ultravarco.Sorprende le prede con un'esplosione e neapprofitta per sottrarre la loro energia vitale.
+
+RESOURCE ID: pokemon_desc_0807
+TEXT: Si avvicina all'avversario con la velocità di unfulmine e lo fa a pezzi con le unghie affilate.
+
+RESOURCE ID: pokemon_desc_0810
+TEXT: Segnando il ritmo con la sua bacchetta speciale diffonde onde sonore che hanno il potere di rinvigorire fiori e piante.
+
+RESOURCE ID: pokemon_desc_0811
+TEXT: I Thwackey più rispettati dai propri simili sono quelli in grado di produrre un ritmo forsennato con le due bacchette.
+
+RESOURCE ID: pokemon_desc_0812
+TEXT: Controlla il potere del suo ceppo speciale usandolo come un tamburo e lotta servendosi delle radici.
+
+RESOURCE ID: pokemon_desc_0813
+TEXT: Quando corre, la sua temperatura corporea sale pervadendolo di un'energia infuocata che gli permette di scatenare la sua vera potenza.
+
+RESOURCE ID: pokemon_desc_0814
+TEXT: Grazie alla folta pelliccia resiste al freddo ed è in grado di sferrare mosse infuocate a temperature ancora più alte.
+
+RESOURCE ID: pokemon_desc_0815
+TEXT: Crea un pallone da calcio infuocato palleggiando con un sasso e poi tira una cannonata contro il nemico per abbrustolirlo.
+
+RESOURCE ID: pokemon_desc_0816
+TEXT: Se si spaventa, produce lacrime con un fattore lacrimogeno cento volte più potente di quello di una cipolla per far piangere anche i nemici.
+
+RESOURCE ID: pokemon_desc_0817
+TEXT: Lotta in modo strategico servendosi di sfere che crea con l'acqua che fuoriesce dalle sue zampe.
+
+RESOURCE ID: pokemon_desc_0818
+TEXT: Ha vari assi nella manica. Emette getti d'acqua dalle dita e si fa trasportare dal vento grazie alla membrana che ha sulla schiena.
+
+RESOURCE ID: pokemon_desc_0819
+TEXT: Si trova ovunque a Galar. Se non ha una scorta di bacche dentro le guance, si fa prendere dall'ansia.
+
+RESOURCE ID: pokemon_desc_0820
+TEXT: Conserva talmente tante bacche nella coda che le perde una dopo l'altra, ma non essendo molto perspicace non se ne rende conto.
+
+RESOURCE ID: pokemon_desc_0821
+TEXT: Ha un'indole temeraria che lo porta ad attaccare briga anche con nemici molto forti. Diventa più forte a forza di subire contrattacchi.
+
+RESOURCE ID: pokemon_desc_0822
+TEXT: È in grado di adoperare oggetti. Ad esempio, sa afferrare e scagliare pietre con le zampe o avvolgere il nemico con una corda.
+
+RESOURCE ID: pokemon_desc_0823
+TEXT: Nei cieli di Galar non ha rivali. La vista del suo corpo di acciaio nero e lucente intimorisce i suoi avversari.
+
+RESOURCE ID: pokemon_desc_0824
+TEXT: Sempre impegnato a raccogliere informazioni, ha sviluppato molto la sua intelligenza, ma non ha una grande forza.
+
+RESOURCE ID: pokemon_desc_0825
+TEXT: Si muove appena, ma è vivo. Sembra che sviluppi poteri paranormali mentre se ne sta rintanato nel suo guscio senza bere né mangiare.
+
+RESOURCE ID: pokemon_desc_0826
+TEXT: Questo Pokémon è famoso per la sua intelligenza. Il cervello molto sviluppato è una spia dei suoi fenomenali poteri psichici.
+
+RESOURCE ID: pokemon_desc_0827
+TEXT: Vive rubando il cibo trovato dagli altri Pokémon. I morbidi cuscinetti plantari rendono i suoi passi silenziosi.
+
+RESOURCE ID: pokemon_desc_0828
+TEXT: Marca di nascosto le prede interessanti, ne segue l'odore per rintracciarle e approfitta di una loro distrazione per rubare nelle loro tane.
+
+RESOURCE ID: pokemon_desc_0829
+TEXT: Quando conficca il suo piede nel terreno e assorbe luce solare in abbondanza, il colore dei suoi petali diventa più intenso.
+
+RESOURCE ID: pokemon_desc_0830
+TEXT: I suoi semi lanuginosi, ricchi di sostanze nutritive, vengono trasportati dal vento e donano nuova energia a piante e Pokémon.
+
+RESOURCE ID: pokemon_desc_0831
+TEXT: Il suo vello riccioluto gli fornisce una perfetta imbottitura. Non si farebbe nulla nemmeno cadendo da un precipizio.
+
+RESOURCE ID: pokemon_desc_0832
+TEXT: I tappeti realizzati con i suoi peli sono talmente elastici che saltandoci sopra si rimbalza come su un trampolino.
+
+RESOURCE ID: pokemon_desc_0833
+TEXT: Addenta tutto ciò che gli capita davanti. Sembra che lo faccia d'istinto, a causa del prurito provocato dagli incisivi che stanno crescendo.
+
+RESOURCE ID: pokemon_desc_0834
+TEXT: Ha una natura estremamente feroce e addenta le prede con la sua mascella, così potente da poter sbriciolare sbarre di ferro.
+
+RESOURCE ID: pokemon_desc_0835
+TEXT: Quando corre produce elettricità dalla base della coda. A Galar è apprezzato soprattutto per l'aiuto che fornisce ai pastori nei pascoli.
+
+RESOURCE ID: pokemon_desc_0836
+TEXT: Trasferisce alle zampe l'elettricità che produce per aumentarne la resistenza. Può correre per tre giorni interi senza mai fermarsi.
+
+RESOURCE ID: pokemon_desc_0837
+TEXT: È stato scoperto più di 400 anni fa in una miniera. Il suo corpo è prevalentemente composto di una sostanza uguale al carbone.
+
+RESOURCE ID: pokemon_desc_0838
+TEXT: Gli antichi abitanti di Galar usavano il carbone prodotto da questo Pokémon all'interno del suo corpo per le loro necessità quotidiane.
+
+RESOURCE ID: pokemon_desc_0839
+TEXT: Di solito è tranquillo, ma se gli esseri umani danneggiano la sua miniera va su tutte le furie e brucia tutto emettendo fiamme a 1.500 ºC.
+
+RESOURCE ID: pokemon_desc_0840
+TEXT: Passa la vita all'interno di un pomo. Quando si imbatte in Pokémon alati, suoi nemici naturali, si protegge fingendosi un semplice frutto.
+
+RESOURCE ID: pokemon_desc_0841
+TEXT: Si è evoluto dopo aver mangiato una mela aspra. Le sacche sulle guance contengono un liquido estremamente acido che può provocare ustioni.
+
+RESOURCE ID: pokemon_desc_0842
+TEXT: Si è evoluto dopo aver mangiato una mela dolce. Si nutre di Pokémon Coleottero, che attira emanando un dolce profumo dal corpo.
+
+RESOURCE ID: pokemon_desc_0843
+TEXT: Conserva nella sacca del collo la sabbia che ingoia scavando buche. Può accumularne ben 8 kg.
+
+RESOURCE ID: pokemon_desc_0844
+TEXT: Può rimpicciolire il suo corpo espellendo dalle narici 100 kg di sabbia. Quando esaurisce la sabbia, viene preso dallo sconforto.
+
+RESOURCE ID: pokemon_desc_0845
+TEXT: È così potente che può sconfiggere l'avversario in un colpo solo, ma è talmente smemorato che si dimentica perfino con chi stava lottando.
+
+RESOURCE ID: pokemon_desc_0846
+TEXT: Va orgoglioso della sua mandibola appuntita. Appena nota il minimo movimento, parte subito all'attacco.
+
+RESOURCE ID: pokemon_desc_0847
+TEXT: La sua mandibola è appuntita come una lancia e dura come l'acciaio. Sembra che le sue carni siano incredibilmente deliziose.
+
+RESOURCE ID: pokemon_desc_0848
+TEXT: Secerne dalla pelle le tossine contenute nella sua sacca di veleno interna. Provoca a chi lo tocca una sensazione di bruciore.
+
+RESOURCE ID: pokemon_desc_0849
+TEXT: Quando produce energia elettrica strofinando le protuberanze che ha sul petto, tutt'intorno riverbera un suono simile a quello di una chitarra.
+
+RESOURCE ID: pokemon_desc_0850
+TEXT: Genera calore grazie ai gas combustibili accumulati nel suo corpo. Le parti gialle del suo addome sono particolarmente calde.
+
+RESOURCE ID: pokemon_desc_0851
+TEXT: Quando genera calore, la temperatura del suo corpo raggiunge gli 800 ºC. Si lancia all'attacco usando il corpo come una frusta.
+
+RESOURCE ID: pokemon_desc_0852
+TEXT: Si spinge sulla terraferma in cerca di cibo. È molto curioso e colpisce con i tentacoli tutto quello che entra nel suo campo visivo.
+
+RESOURCE ID: pokemon_desc_0853
+TEXT: Il suo corpo è un ammasso di muscoli. È in grado di stritolare con una potenza formidabile grazie ai suoi tentacoli.
+
+RESOURCE ID: pokemon_desc_0854
+TEXT: Si dice che questo Pokémon sia nato quando un'anima solitaria si è impossessata di una tazza dimenticata piena di tè ormai freddo.
+
+RESOURCE ID: pokemon_desc_0855
+TEXT: Prende dimora in una teiera antica. Quelle in circolazione sono quasi tutte contraffatte, ma a volte ne trova una autentica.
+
+RESOURCE ID: pokemon_desc_0856
+TEXT: Percepisce lo stato d'animo degli esseri viventi tramite la protuberanza sulla testa. Apre il suo cuore solo alle persone di indole pacifica.
+
+RESOURCE ID: pokemon_desc_0857
+TEXT: Se qualcuno esterna emozioni troppo forti, lo affronta immediatamente e lo mette a tacere senza tanti convenevoli.
+
+RESOURCE ID: pokemon_desc_0858
+TEXT: Tiene alla larga gli esseri viventi che si trovano nei paraggi emettendo onde psichiche così forti da far venire il mal di testa.
+
+RESOURCE ID: pokemon_desc_0859
+TEXT: Recupera le forze inalando dal naso l'energia negativa emessa da persone e Pokémon quando sono irritati.
+
+RESOURCE ID: pokemon_desc_0860
+TEXT: Nella lotta si prostra fingendo di chiedere pietà e infilza il nemico con il ciuffo di capelli appuntito come una lancia che gli parte dalla nuca.
+
+RESOURCE ID: pokemon_desc_0861
+TEXT: Se avvolge il corpo con i capelli, la sua potenza muscolare aumenta. La sua forza gli permette di immobilizzare a terra anche Machamp.
+
+RESOURCE ID: pokemon_desc_0864
+TEXT: Un accumulo di energia misteriosa lo ha separato dal suo guscio. Protegge l'anima contenuta nel suo nucleo in una sorta di ectoplasma.
+
+RESOURCE ID: pokemon_desc_0868
+TEXT: Il suo corpo è fatto di panna. È nato dall’unione di particelle di profumo dolce disperse nell’aria.
+
+RESOURCE ID: pokemon_desc_0869
+TEXT: Agli Allenatori di cui si fida regala bacche decorate con la panna.
+
+RESOURCE ID: pokemon_desc_0870
+TEXT: Questo Pokémon è formato da un capo e da cinque sottoposti che obbediscono ciecamente ai suoi ordini.
+
+RESOURCE ID: pokemon_desc_0871
+TEXT: Sprigiona elettricità dalla punta dei suoi aculei. Usa i denti affilati per raschiare dalle rocce le alghe di cui si nutre.
+
+RESOURCE ID: pokemon_desc_0872
+TEXT: Si assicura a un ramo con il filo gelido che produce dalla bocca e dorme fingendosi un ghiacciolo.
+
+RESOURCE ID: pokemon_desc_0873
+TEXT: La temperatura delle sue ali è di -180 ºC. Sorvola pianure e montagne lasciando cadere le sue scaglie gelide come fossero fiocchi di neve.
+
+RESOURCE ID: pokemon_desc_0874
+TEXT: Trascorre le giornate nelle grandi praterie osservando immobile il passaggio del sole. Le mosse basate sui calci sono la sua specialità.
+
+RESOURCE ID: pokemon_desc_0875
+TEXT: È arrivato da un luogo freddissimo trasportato dalla corrente. Mantiene sempre fredda la testa servendosi del ghiaccio.
+
+RESOURCE ID: pokemon_desc_0876
+TEXT: Le corna sulla testa gli permettono di percepire lo stato d'animo degli altri. Il maschio segue il suo Allenatore ovunque e si prende cura di lui.
+
+RESOURCE ID: pokemon_desc_0877
+TEXT: Ha costantemente fame. Si nutre dei semi che tiene nelle sue tasche per produrre elettricità.
+
+RESOURCE ID: pokemon_desc_0878
+TEXT: È un Pokémon molto forte, capace di trasportare facilmente carichi di cinque tonnellate. Usa la proboscide per scavare la terra.
+
+RESOURCE ID: pokemon_desc_0879
+TEXT: La sua pelle verde è resistente all'acqua. Originario di un'altra regione, è giunto a Galar in passato per lavorare insieme agli esseri umani.
+
+RESOURCE ID: pokemon_desc_0880
+TEXT: Nell'antichità era invincibile grazie alla possente parte inferiore del corpo, ma si è estinto perché ha mangiato tutte le piante di cui si nutriva.
+
+RESOURCE ID: pokemon_desc_0881
+TEXT: La parte superiore del suo corpo è ghiacciata e quando trema produce elettricità. Cammina con estrema difficoltà.
+
+RESOURCE ID: pokemon_desc_0882
+TEXT: Anticamente era invincibile grazie all'incredibile potenza delle sue gambe e delle sue mascelle, ma si è estinto dopo aver esaurito tutte le prede.
+
+RESOURCE ID: pokemon_desc_0883
+TEXT: Cattura le prede congelando l'ambiente circostante, ma avendo la bocca sopra la testa fatica a inghiottirle.
+
+RESOURCE ID: pokemon_desc_0884
+TEXT: Il suo corpo simile a metallo lucidato è leggero e resistente, ma ha il difetto di arrugginire facilmente.
+
+RESOURCE ID: pokemon_desc_0885
+TEXT: Abitava i mari in tempi antichi. È rinato sotto forma di Pokémon di tipo Spettro e vaga per quella che un tempo era la sua dimora.
+
+RESOURCE ID: pokemon_desc_0886
+TEXT: Vola a una velocità di 200 km/h. Lotta assieme a Dreepy e se ne prende cura fino a quando non si evolve.
+
+RESOURCE ID: pokemon_desc_0887
+TEXT: Vive assieme ai Dreepy, che ospita all'interno dei buchi sulle sue corna. Quando lotta li espelle alla velocità del suono.
+
+RESOURCE ID: pokemon_desc_0888
+TEXT: È conosciuto come [Character2:L_DoubleQuot. ]l’eroe della leggenda”. Assorbe il metallo e lo trasforma per armarsi durante la lotta.
+
+RESOURCE ID: pokemon_desc_0889
+TEXT: Ha salvato Galar unendo le forze con il re degli uomini. Assorbe il metallo e se ne serve per lottare.
+
+RESOURCE ID: pokemon_desc_0890
+TEXT: Si alimenta attraverso il nucleo sul suo petto, con cui assorbe l'energia emanata dalla terra della regione di Galar.
+
+RESOURCE ID: pokemon_desc_0891
+TEXT: Kubfu trains hard to perfect its moves. The moves it masters will determine which form it takes when it evolves.
+
+RESOURCE ID: pokemon_desc_0892_rs
+TEXT: It's believed that this Pokémon modeled its fighting style on the flow of a river—sometimes rapid, sometimes calm.
+
+RESOURCE ID: pokemon_desc_0892_ss
+TEXT: This form of Urshifu is a strong believer in the one-hit KO. Its strategy is to leap in close to foes and land a devastating blow with a hardened fist.
+
+RESOURCE ID: pokemon_desc_0893
+TEXT: Within dense forests, this Pokémon lives in a pack with others of its kind. It's incredibly aggressive, and the other Pokémon of the forest fear it.
+
+RESOURCE ID: pokemon_desc_0894
+TEXT: This Pokémon is a cluster of electrical energy. It’s said that removing the rings on Regieleki’s body will unleash the Pokémon’s latent power.
+
+RESOURCE ID: pokemon_desc_0895
+TEXT: An academic theory proposes that Regidrago’s arms were once the head of an ancient dragon Pokémon. The theory remains unproven.
+
+RESOURCE ID: pokemon_desc_0896
+TEXT: Glastrier emits intense cold from its hooves. It’s also a belligerent Pokémon—anything it wants, it takes by force.
+
+RESOURCE ID: pokemon_desc_0897
+TEXT: It probes its surroundings with all its senses save one—it doesn’t use its sense of sight. Spectrier’s kicks are said to separate soul from body.
+
+RESOURCE ID: pokemon_desc_0898
+TEXT: Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.
+
+RESOURCE ID: pokemon_desc_0898_ice
+TEXT: According to lore, this Pokémon showed no mercy to those who got in its way, yet it would heal its opponents’ wounds after battle.
+
+RESOURCE ID: pokemon_desc_0898_shadow
+TEXT: It’s said that Calyrex and a Pokémon that had bonded with it ran all across the Galar region to bring green to the wastelands.
+
+RESOURCE ID: pokemon_name_0722
+TEXT: Rowlet
+
+RESOURCE ID: pokemon_name_0723
+TEXT: Dartrix
+
+RESOURCE ID: pokemon_name_0724
+TEXT: Decidueye
+
+RESOURCE ID: pokemon_name_0725
+TEXT: Litten
+
+RESOURCE ID: pokemon_name_0726
+TEXT: Torracat
+
+RESOURCE ID: pokemon_name_0727
+TEXT: Incineroar
+
+RESOURCE ID: pokemon_name_0728
+TEXT: Popplio
+
+RESOURCE ID: pokemon_name_0729
+TEXT: Brionne
+
+RESOURCE ID: pokemon_name_0730
+TEXT: Primarina
+
+RESOURCE ID: pokemon_name_0731
+TEXT: Pikipek
+
+RESOURCE ID: pokemon_name_0732
+TEXT: Trumbeak
+
+RESOURCE ID: pokemon_name_0733
+TEXT: Toucannon
+
+RESOURCE ID: pokemon_name_0734
+TEXT: Yungoos
+
+RESOURCE ID: pokemon_name_0735
+TEXT: Gumshoos
+
+RESOURCE ID: pokemon_name_0736
+TEXT: Grubbin
+
+RESOURCE ID: pokemon_name_0737
+TEXT: Charjabug
+
+RESOURCE ID: pokemon_name_0738
+TEXT: Vikavolt
+
+RESOURCE ID: pokemon_name_0739
+TEXT: Crabrawler
+
+RESOURCE ID: pokemon_name_0740
+TEXT: Crabominabile
+
+RESOURCE ID: pokemon_name_0741
+TEXT: Oricorio
+
+RESOURCE ID: pokemon_name_0742
+TEXT: Cutiefly
+
+RESOURCE ID: pokemon_name_0743
+TEXT: Ribombee
+
+RESOURCE ID: pokemon_name_0744
+TEXT: Rockruff
+
+RESOURCE ID: pokemon_name_0745
+TEXT: Lycanroc
+
+RESOURCE ID: pokemon_name_0746
+TEXT: Wishiwashi
+
+RESOURCE ID: pokemon_name_0747
+TEXT: Mareanie
+
+RESOURCE ID: pokemon_name_0748
+TEXT: Toxapex
+
+RESOURCE ID: pokemon_name_0749
+TEXT: Mudbray
+
+RESOURCE ID: pokemon_name_0750
+TEXT: Mudsdale
+
+RESOURCE ID: pokemon_name_0751
+TEXT: Dewpider
+
+RESOURCE ID: pokemon_name_0752
+TEXT: Araquanid
+
+RESOURCE ID: pokemon_name_0753
+TEXT: Fomantis
+
+RESOURCE ID: pokemon_name_0754
+TEXT: Lurantis
+
+RESOURCE ID: pokemon_name_0755
+TEXT: Morelull
+
+RESOURCE ID: pokemon_name_0756
+TEXT: Shiinotic
+
+RESOURCE ID: pokemon_name_0757
+TEXT: Salandit
+
+RESOURCE ID: pokemon_name_0758
+TEXT: Salazzle
+
+RESOURCE ID: pokemon_name_0759
+TEXT: Stufful
+
+RESOURCE ID: pokemon_name_0760
+TEXT: Bewear
+
+RESOURCE ID: pokemon_name_0761
+TEXT: Bounsweet
+
+RESOURCE ID: pokemon_name_0762
+TEXT: Steenee
+
+RESOURCE ID: pokemon_name_0763
+TEXT: Tsareena
+
+RESOURCE ID: pokemon_name_0764
+TEXT: Comfey
+
+RESOURCE ID: pokemon_name_0765
+TEXT: Oranguru
+
+RESOURCE ID: pokemon_name_0766
+TEXT: Passimian
+
+RESOURCE ID: pokemon_name_0767
+TEXT: Wimpod
+
+RESOURCE ID: pokemon_name_0768
+TEXT: Golisopod
+
+RESOURCE ID: pokemon_name_0769
+TEXT: Sandygast
+
+RESOURCE ID: pokemon_name_0770
+TEXT: Palossand
+
+RESOURCE ID: pokemon_name_0771
+TEXT: Pyukumuku
+
+RESOURCE ID: pokemon_name_0772
+TEXT: Tipo Zero
+
+RESOURCE ID: pokemon_name_0773
+TEXT: Silvally
+
+RESOURCE ID: pokemon_name_0774
+TEXT: Minior
+
+RESOURCE ID: pokemon_name_0775
+TEXT: Komala
+
+RESOURCE ID: pokemon_name_0776
+TEXT: Turtonator
+
+RESOURCE ID: pokemon_name_0777
+TEXT: Togedemaru
+
+RESOURCE ID: pokemon_name_0778
+TEXT: Mimikyu
+
+RESOURCE ID: pokemon_name_0779
+TEXT: Bruxish
+
+RESOURCE ID: pokemon_name_0780
+TEXT: Drampa
+
+RESOURCE ID: pokemon_name_0781
+TEXT: Dhelmise
+
+RESOURCE ID: pokemon_name_0782
+TEXT: Jangmo-o
+
+RESOURCE ID: pokemon_name_0783
+TEXT: Hakamo-o
+
+RESOURCE ID: pokemon_name_0784
+TEXT: Kommo-o
+
+RESOURCE ID: pokemon_name_0785
+TEXT: Tapu Koko
+
+RESOURCE ID: pokemon_name_0786
+TEXT: Tapu Lele
+
+RESOURCE ID: pokemon_name_0787
+TEXT: Tapu Bulu
+
+RESOURCE ID: pokemon_name_0788
+TEXT: Tapu Fini
+
+RESOURCE ID: pokemon_name_0789
+TEXT: Cosmog
+
+RESOURCE ID: pokemon_name_0790
+TEXT: Cosmoem
+
+RESOURCE ID: pokemon_name_0791
+TEXT: Solgaleo
+
+RESOURCE ID: pokemon_name_0792
+TEXT: Lunala
+
+RESOURCE ID: pokemon_name_0793
+TEXT: Nihilego
+
+RESOURCE ID: pokemon_name_0794
+TEXT: Buzzwole
+
+RESOURCE ID: pokemon_name_0795
+TEXT: Pheromosa
+
+RESOURCE ID: pokemon_name_0796
+TEXT: Xurkitree
+
+RESOURCE ID: pokemon_name_0797
+TEXT: Celesteela
+
+RESOURCE ID: pokemon_name_0798
+TEXT: Kartana
+
+RESOURCE ID: pokemon_name_0799
+TEXT: Guzzlord
+
+RESOURCE ID: pokemon_name_0800
+TEXT: Necrozma
+
+RESOURCE ID: pokemon_name_0801
+TEXT: Magearna
+
+RESOURCE ID: pokemon_name_0802
+TEXT: Marshadow
+
+RESOURCE ID: pokemon_name_0803
+TEXT: Poipole
+
+RESOURCE ID: pokemon_name_0804
+TEXT: Naganadel
+
+RESOURCE ID: pokemon_name_0805
+TEXT: Stakataka
+
+RESOURCE ID: pokemon_name_0806
+TEXT: Blacephalon
+
+RESOURCE ID: pokemon_name_0807
+TEXT: Zeraora
+
+RESOURCE ID: pokemon_name_0810
+TEXT: Grookey
+
+RESOURCE ID: pokemon_name_0811
+TEXT: Thwackey
+
+RESOURCE ID: pokemon_name_0812
+TEXT: Rillaboom
+
+RESOURCE ID: pokemon_name_0813
+TEXT: Scorbunny
+
+RESOURCE ID: pokemon_name_0814
+TEXT: Raboot
+
+RESOURCE ID: pokemon_name_0815
+TEXT: Cinderace
+
+RESOURCE ID: pokemon_name_0816
+TEXT: Sobble
+
+RESOURCE ID: pokemon_name_0817
+TEXT: Drizzile
+
+RESOURCE ID: pokemon_name_0818
+TEXT: Inteleon
+
+RESOURCE ID: pokemon_name_0819
+TEXT: Skwovet
+
+RESOURCE ID: pokemon_name_0820
+TEXT: Greedent
+
+RESOURCE ID: pokemon_name_0821
+TEXT: Rookidee
+
+RESOURCE ID: pokemon_name_0822
+TEXT: Corvisquire
+
+RESOURCE ID: pokemon_name_0823
+TEXT: Corviknight
+
+RESOURCE ID: pokemon_name_0824
+TEXT: Blipbug
+
+RESOURCE ID: pokemon_name_0825
+TEXT: Dottler
+
+RESOURCE ID: pokemon_name_0826
+TEXT: Orbeetle
+
+RESOURCE ID: pokemon_name_0827
+TEXT: Nickit
+
+RESOURCE ID: pokemon_name_0828
+TEXT: Thievul
+
+RESOURCE ID: pokemon_name_0829
+TEXT: Gossifleur
+
+RESOURCE ID: pokemon_name_0830
+TEXT: Eldegoss
+
+RESOURCE ID: pokemon_name_0831
+TEXT: Wooloo
+
+RESOURCE ID: pokemon_name_0832
+TEXT: Dubwool
+
+RESOURCE ID: pokemon_name_0833
+TEXT: Chewtle
+
+RESOURCE ID: pokemon_name_0834
+TEXT: Drednaw
+
+RESOURCE ID: pokemon_name_0835
+TEXT: Yamper
+
+RESOURCE ID: pokemon_name_0836
+TEXT: Boltund
+
+RESOURCE ID: pokemon_name_0837
+TEXT: Rolycoly
+
+RESOURCE ID: pokemon_name_0838
+TEXT: Carkol
+
+RESOURCE ID: pokemon_name_0839
+TEXT: Coalossal
+
+RESOURCE ID: pokemon_name_0840
+TEXT: Applin
+
+RESOURCE ID: pokemon_name_0841
+TEXT: Flapple
+
+RESOURCE ID: pokemon_name_0842
+TEXT: Appletun
+
+RESOURCE ID: pokemon_name_0843
+TEXT: Silicobra
+
+RESOURCE ID: pokemon_name_0844
+TEXT: Sandaconda
+
+RESOURCE ID: pokemon_name_0845
+TEXT: Cramorant
+
+RESOURCE ID: pokemon_name_0846
+TEXT: Arrokuda
+
+RESOURCE ID: pokemon_name_0847
+TEXT: Barraskewda
+
+RESOURCE ID: pokemon_name_0848
+TEXT: Toxel
+
+RESOURCE ID: pokemon_name_0849
+TEXT: Toxtricity
+
+RESOURCE ID: pokemon_name_0850
+TEXT: Sizzlipede
+
+RESOURCE ID: pokemon_name_0851
+TEXT: Centiskorch
+
+RESOURCE ID: pokemon_name_0852
+TEXT: Clobbopus
+
+RESOURCE ID: pokemon_name_0853
+TEXT: Grapploct
+
+RESOURCE ID: pokemon_name_0854
+TEXT: Sinistea
+
+RESOURCE ID: pokemon_name_0855
+TEXT: Polteageist
+
+RESOURCE ID: pokemon_name_0856
+TEXT: Hatenna
+
+RESOURCE ID: pokemon_name_0857
+TEXT: Hattrem
+
+RESOURCE ID: pokemon_name_0858
+TEXT: Hatterene
+
+RESOURCE ID: pokemon_name_0859
+TEXT: Impidimp
+
+RESOURCE ID: pokemon_name_0860
+TEXT: Morgrem
+
+RESOURCE ID: pokemon_name_0861
+TEXT: Grimmsnarl
+
+RESOURCE ID: pokemon_name_0864
+TEXT: Cursola
+
+RESOURCE ID: pokemon_name_0868
+TEXT: Milcery
+
+RESOURCE ID: pokemon_name_0869
+TEXT: Alcremie
+
+RESOURCE ID: pokemon_name_0870
+TEXT: Falinks
+
+RESOURCE ID: pokemon_name_0871
+TEXT: Pincurchin
+
+RESOURCE ID: pokemon_name_0872
+TEXT: Snom
+
+RESOURCE ID: pokemon_name_0873
+TEXT: Frosmoth
+
+RESOURCE ID: pokemon_name_0874
+TEXT: Stonjourner
+
+RESOURCE ID: pokemon_name_0875
+TEXT: Eiscue
+
+RESOURCE ID: pokemon_name_0876
+TEXT: Indeedee
+
+RESOURCE ID: pokemon_name_0877
+TEXT: Morpeko
+
+RESOURCE ID: pokemon_name_0878
+TEXT: Cufant
+
+RESOURCE ID: pokemon_name_0879
+TEXT: Copperajah
+
+RESOURCE ID: pokemon_name_0880
+TEXT: Dracozolt
+
+RESOURCE ID: pokemon_name_0881
+TEXT: Arctozolt
+
+RESOURCE ID: pokemon_name_0882
+TEXT: Dracovish
+
+RESOURCE ID: pokemon_name_0883
+TEXT: Arctovish
+
+RESOURCE ID: pokemon_name_0884
+TEXT: Duraludon
+
+RESOURCE ID: pokemon_name_0885
+TEXT: Dreepy
+
+RESOURCE ID: pokemon_name_0886
+TEXT: Drakloak
+
+RESOURCE ID: pokemon_name_0887
+TEXT: Dragapult
+
+RESOURCE ID: pokemon_name_0888
+TEXT: Zacian
+
+RESOURCE ID: pokemon_name_0889
+TEXT: Zamazenta
+
+RESOURCE ID: pokemon_name_0890
+TEXT: Eternatus
+
+RESOURCE ID: pokemon_name_0891
+TEXT: Kubfu
+
+RESOURCE ID: pokemon_name_0892
+TEXT: Urshifu
+
+RESOURCE ID: pokemon_name_0893
+TEXT: Zarude
+
+RESOURCE ID: pokemon_name_0894
+TEXT: Regieleki
+
+RESOURCE ID: pokemon_name_0895
+TEXT: Regidrago
+
+RESOURCE ID: pokemon_name_0896
+TEXT: Glastrier
+
+RESOURCE ID: pokemon_name_0897
+TEXT: Spectrier
+
+RESOURCE ID: pokemon_name_0898
+TEXT: Calyrex
 
 RESOURCE ID: quest_beat_raid_10_minutes
 TEXT: Vinci un raid in meno di 10 minuti
@@ -637,6 +2230,9 @@ TEXT: Cattura {0} Solrock
 
 RESOURCE ID: quest_complete_giblt
 TEXT: Qualcosa da sgranocchiare
+
+RESOURCE ID: quest_complete_rockethq9
+TEXT: Un’ombra dai sette colori
 
 RESOURCE ID: quest_complete_swabt
 TEXT: Un volatile dalle ali di cotone
@@ -739,6 +2335,57 @@ TEXT: Ti ringrazio per il tuo aiuto e spero tu abbia passato una piacevole giorn
 
 RESOURCE ID: quest_special_dialogue_giblt_3_6
 TEXT: Pronti, partenza... GO!
+
+RESOURCE ID: quest_special_dialogue_rockethq9_0_0
+TEXT: Ehilà, %PLAYERNAME%. Hai guardato su in cielo ultimamente? Pensavo di aver fissato troppo a lungo queste segnalazioni e invece, ci sono davvero arcobaleni ovunque!
+
+RESOURCE ID: quest_special_dialogue_rockethq9_0_1
+TEXT: E non è finita qui, ho anche sentito che dove appaiono questi arcobaleni è stato avvistato un Pokémon enigmatico. Dicono che gli arcobaleni portino fortuna, quindi perché non seguirne uno fino alla fine. Ah ah!
+
+RESOURCE ID: quest_special_dialogue_rockethq9_0_2
+TEXT: Scherzi a parte, perché non vai a farti una passeggiata e dai un’occhiata anche tu? Non si sa mai cosa potremmo scoprire.
+
+RESOURCE ID: quest_special_dialogue_rockethq9_0_3
+TEXT: Tieni d’occhio il cielo e buona fortuna.
+
+RESOURCE ID: quest_special_dialogue_rockethq9_1_0
+TEXT: Rieccoti, %PLAYERNAME%. Temo di avere delle brutte notizie. Sembra che il Team GO Rocket abbia sentito di questi avvistamenti e si sia messo in moto per catturare il Pokémon enigmatico.
+
+RESOURCE ID: quest_special_dialogue_rockethq9_1_1
+TEXT: Forse sono anche loro alla ricerca di un po’ di fortuna. Ha ha. Beh, qualunque sia il loro scopo, non possiamo permettergli di creare altri potenti Pokémon Ombra. È ora di indagare un po’.
+
+RESOURCE ID: quest_special_dialogue_rockethq9_1_2
+TEXT: Sapendo quanto è grande l’orda del Team GO Rocket, ho paura che l’abbiano già trovato, creando sicuramente altri Pokémon Ombra. Catturiamo dei Pokémon Ombra e vediamo dove ci portano.
+
+RESOURCE ID: quest_special_dialogue_rockethq9_2_0
+TEXT: Ottimo lavoro, hai salvato tutti quei Pokémon Ombra, %PLAYERNAME%! Magari avessimo tempo per festeggiare, ma abbiamo appena scoperto che il Team GO Rocket ha raggiunto il nostro Pokémon enigmatico...
+
+RESOURCE ID: quest_special_dialogue_rockethq9_2_1
+TEXT: E si tratta di Ho-Oh, il Pokémon Arcobaleno! Ma non scoraggiarti. Penso che con abbastanza determinazione, possiamo salvarlo, come già abbiamo fatto in passato.
+
+RESOURCE ID: quest_special_dialogue_rockethq9_2_2
+TEXT: Prepariamoci per le varie lotte che ci attendono e raccogliamo altre informazioni sulla posizione di Ho-Oh inseguendo altri Pokémon Ombra.
+
+RESOURCE ID: quest_special_dialogue_rockethq9_3_0
+TEXT: Eccellente, hai salvato altri Pokémon Ombra, %PLAYERNAME%! Grazie al tuo impegno, abbiamo imparato che Ho-Oh è stato consegnato a Giovanni ed è stato trasformato in un Pokémon Ombra.
+
+RESOURCE ID: quest_special_dialogue_rockethq9_3_1
+TEXT: Per adesso, voglio che trovi e sconfiggi Arlo, Cliff e Sierra. In questo modo, potremo costruire un super radar Rocket che ci porterà da Giovanni e Ho-Oh. Buona fortuna!
+
+RESOURCE ID: quest_special_dialogue_rockethq9_4_0
+TEXT: Ottimo lavoro, %PLAYERNAME%! Con un super radar Rocket a disposizione, non avremo difficoltà a trovare Giovanni. Ma sconfiggerlo non sarà facile...
+
+RESOURCE ID: quest_special_dialogue_rockethq9_4_1
+TEXT: Non importa. Sei riuscito a sconfiggere i suoi tirapiedi e quindi sono sicuro che ne uscirai vincitore e salverai Ho-Oh!
+
+RESOURCE ID: quest_special_dialogue_rockethq9_5_0
+TEXT: Che lotta entusiasmante, %PLAYERNAME%! Complimenti, hai sconfitto Giovanni e salvato Ho-Oh dalle sue grinfie.
+
+RESOURCE ID: quest_special_dialogue_rockethq9_5_1
+TEXT: Il Team GO Rocket non si riposa mai, quindi dovremo rimanere vigili. Nel frattempo, perché non conosci meglio l’Ho-Oh che hai appena salvato?
+
+RESOURCE ID: quest_special_dialogue_rockethq9_5_2
+TEXT: Con le giuste attenzioni e un po’ di fortuna, tutti i Pokémon Ombra possono essere purificati. Ti auguro il meglio, %PLAYERNAME%. Alla prossima!
 
 RESOURCE ID: quest_special_dialogue_swabt_0_0
 TEXT: Ehilà, %PLAYERNAME%. Mi sono soffermato un secondo ad ammirare il tempo: oggi cielo azzurro e nuvole super soffici.
@@ -890,6 +2537,27 @@ TEXT: Leggende luminose Y (6/7)
 RESOURCE ID: quest_title_luminous_y_6
 TEXT: Leggende luminose Y (7/7)
 
+RESOURCE ID: quest_title_rockethq9
+TEXT: Un’ombra dai sette colori
+
+RESOURCE ID: quest_title_rockethq9_0
+TEXT: Un’ombra dai sette colori (1/6)
+
+RESOURCE ID: quest_title_rockethq9_1
+TEXT: Un’ombra dai sette colori (2/6)
+
+RESOURCE ID: quest_title_rockethq9_2
+TEXT: Un’ombra dai sette colori (3/6)
+
+RESOURCE ID: quest_title_rockethq9_3
+TEXT: Un’ombra dai sette colori (4/6)
+
+RESOURCE ID: quest_title_rockethq9_4
+TEXT: Un’ombra dai sette colori (5/6)
+
+RESOURCE ID: quest_title_rockethq9_5
+TEXT: Un’ombra dai sette colori (6/6)
+
 RESOURCE ID: quest_title_spwk_yoshinoya
 TEXT: Weekend speciale (Yoshinoya)
 
@@ -952,6 +2620,12 @@ TEXT: Hai fatto girare 1 Pokéstop
 
 RESOURCE ID: settings_help_label
 TEXT: Help
+
+RESOURCE ID: settings_niantic_ar
+TEXT: Niantic AR (AR+)
+
+RESOURCE ID: settings_niantic_ar_update
+TEXT: Aggiorna Niantic AR (AR+)
 
 RESOURCE ID: settings_sound_effects_alt
 TEXT: Effetti audio
