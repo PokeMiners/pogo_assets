@@ -28,5 +28,8 @@ Any images that are displayed in the shop that we datamine.
 ### Photobombs
 Images that appear as a photobombed overlay during Snapshots will be in this folder. There is no back catalog as images can only be pulled during their event window.
 
+### Quest Branching
+Any images that appear during quest branches (the banners or the choose images themselves). Broken up into their quest/event folders.
+
 ## Disclaimer
 This repo is for educational use only. All content found within this repo is the property of The Pokemon Company and Niantic. PokeMiners did not create or modify any images or sounds found within this repo and all copyright belongs to the respective companies. Please respect the original source material.
