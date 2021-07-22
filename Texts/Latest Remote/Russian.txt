@@ -1,6 +1,9 @@
 RESOURCE ID: abi_address_book_button
 TEXT: ДОБАВИТЬ ДРУЗЕЙ ИЗ СПИСКА КОНТАКТОВ
 
+RESOURCE ID: abi_contact_signed_up_notification
+TEXT: Тренеры из твоего списка контактов начали свои приключения в Pokémon GO! Перейди в меню «Друзья», чтобы отправить им запрос в друзья.
+
 RESOURCE ID: abi_helpshift_url
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=web&l=ru&s=friends-gifting-trading&f=adding-friends
 
@@ -116,7 +119,7 @@ RESOURCE ID: avatar_seasonal
 TEXT: Фестиваль GO 2021
 
 RESOURCE ID: badge_gofest_2021_global
-TEXT: Глобально, 17-18 июля 2021
+TEXT: По всему миру, 17-18 июля 2021
 
 RESOURCE ID: badge_gofest_2021_global_title
 TEXT: Фестиваль Pokémon GO
@@ -166,6 +169,9 @@ TEXT: День Бидуфа
 RESOURCE ID: bonus_reward_200_catch_startdust
 TEXT: +200 звёздной пыли за поимку
 
+RESOURCE ID: bonus_reward_200_catch_xp
+TEXT: +200 XP за поимку
+
 RESOURCE ID: bonus_reward_200_spin_xp
 TEXT: +200 XP за прокрутку Покестопов
 
@@ -177,6 +183,9 @@ TEXT: +300 XP за поимку
 
 RESOURCE ID: bonus_reward_300_spin_xp
 TEXT: +300 XP за прокрутку Покестопов
+
+RESOURCE ID: bonus_reward_3_catch_candy
+TEXT: +3 конфеты за поимку
 
 RESOURCE ID: bonus_reward_3x_catch_quality_xp
 TEXT: 3× XP за хорошие, отличные, прекрасные и кручёные броски
@@ -346,6 +355,9 @@ TEXT: Посети интересные места, которые показа�
 RESOURCE ID: challenge_snapshot_bidoof
 TEXT: Сделай фото Бидуфа
 
+RESOURCE ID: community_day_eevee_event_name
+TEXT: Community Day: Eevee
+
 RESOURCE ID: community_day_gible_event_name
 TEXT: День сообщества: Гибл
 
@@ -374,13 +386,13 @@ RESOURCE ID: event_move_bidoof_thunderbolt
 TEXT: Повстречай Бидуфа, который знает Удар Молнии
 
 RESOURCE ID: evolve_best_buddy_confirmation
-TEXT: Do you want to evolve your Best Buddy {0}?
+TEXT: Ты хочешь эволюционировать своего Покемона-приятеля {0}?
 
 RESOURCE ID: evolved_too_strong_may
-TEXT: This Pokémon might exceed the CP limit for some Battle Leagues.
+TEXT: Этот Покемон превысит максимальную БС для некоторых Боевых Лиг.
 
 RESOURCE ID: evolved_too_strong_some
-TEXT: This Pokémon will exceed the CP limit for some Battle Leagues
+TEXT: Этот Покемон превысит максимальную БС для некоторых Боевых Лиг.
 
 RESOURCE ID: f_avatar_poses_bundle_pose_23
 TEXT: Пугающая поза
@@ -391,62 +403,149 @@ TEXT: Поза в поп-стиле
 RESOURCE ID: f_avatar_poses_bundle_pose_31
 TEXT: Поза в рок-стиле
 
+RESOURCE ID: form_aegislash_blade
+TEXT: Форма Лезвие
+
+RESOURCE ID: form_aegislash_shield
+TEXT: Форма защиты
+
 RESOURCE ID: form_amped
-TEXT: Amped Form
+TEXT: Восторженная форма
 
 RESOURCE ID: form_antique
-TEXT: Antique Form
+TEXT: Антикварная форма
+
+RESOURCE ID: form_arceus_bug
+TEXT: Bug-Type
+
+RESOURCE ID: form_arceus_dark
+TEXT: Dark-Type
+
+RESOURCE ID: form_arceus_dragon
+TEXT: Dragon-Type
+
+RESOURCE ID: form_arceus_electric
+TEXT: Electric-Type
+
+RESOURCE ID: form_arceus_fairy
+TEXT: Fairy-Type
+
+RESOURCE ID: form_arceus_fighting
+TEXT: Fighting-Type
+
+RESOURCE ID: form_arceus_fire
+TEXT: Fire-Type
+
+RESOURCE ID: form_arceus_flying
+TEXT: Flying-Type
+
+RESOURCE ID: form_arceus_ghost
+TEXT: Ghost-Type
+
+RESOURCE ID: form_arceus_grass
+TEXT: Grass-Type
+
+RESOURCE ID: form_arceus_ground
+TEXT: Ground-Type
+
+RESOURCE ID: form_arceus_ice
+TEXT: Ice-Type
+
+RESOURCE ID: form_arceus_normal
+TEXT: Normal-Type
+
+RESOURCE ID: form_arceus_poison
+TEXT: Poison-Type
+
+RESOURCE ID: form_arceus_psychic
+TEXT: Psychic-Type
+
+RESOURCE ID: form_arceus_rock
+TEXT: Rock-Type
+
+RESOURCE ID: form_arceus_steel
+TEXT: Steel-Type
+
+RESOURCE ID: form_arceus_water
+TEXT: Water-Type
 
 RESOURCE ID: form_baile
-TEXT: Baile Style
+TEXT: Бальный стиль
+
+RESOURCE ID: form_burmy_plant
+TEXT: Растительный покров
+
+RESOURCE ID: form_burmy_sandy
+TEXT: Песочный покров
+
+RESOURCE ID: form_burmy_trash
+TEXT: Мусорный покров
 
 RESOURCE ID: form_busted
-TEXT: Busted Form
+TEXT: Сломанная форма
+
+RESOURCE ID: form_castform_normal
+TEXT: Нормальная форма
+
+RESOURCE ID: form_castform_rainy
+TEXT: Дождевая форма
+
+RESOURCE ID: form_castform_snowy
+TEXT: Снежная форма
+
+RESOURCE ID: form_castform_sunny
+TEXT: Солнечная форма
+
+RESOURCE ID: form_cherrim_overcast
+TEXT: Пасмурная форма
+
+RESOURCE ID: form_cherrim_sunny
+TEXT: Солнечная форма
 
 RESOURCE ID: form_core_blue
-TEXT: Blue Core
+TEXT: Синее ядро
 
 RESOURCE ID: form_core_green
-TEXT: Green Core
+TEXT: Зелёное ядро
 
 RESOURCE ID: form_core_indigo
-TEXT: Indigo Core
+TEXT: Сине-фиолетовое ядро
 
 RESOURCE ID: form_core_orange
-TEXT: Orange Core
+TEXT: Оранжевое ядро
 
 RESOURCE ID: form_core_red
-TEXT: Red Core
+TEXT: Красное ядро
 
 RESOURCE ID: form_core_violet
-TEXT: Violet Core
+TEXT: Фиолетовое ядро
 
 RESOURCE ID: form_core_yellow
-TEXT: Yellow Core
+TEXT: Жёлтое ядро
 
 RESOURCE ID: form_cream_caramel
-TEXT: Caramel Swirl
+TEXT: Карамельный виток
 
 RESOURCE ID: form_cream_lemon
-TEXT: Lemon Cream
+TEXT: Лимонные сливки
 
 RESOURCE ID: form_cream_matcha
-TEXT: Matcha Cream
+TEXT: Сливки с чаем матча
 
 RESOURCE ID: form_cream_mint
-TEXT: Mint Cream
+TEXT: Мятные сливки
 
 RESOURCE ID: form_cream_rainbow
-TEXT: Rainbow Swirl
+TEXT: Радужный виток
 
 RESOURCE ID: form_cream_ruby
-TEXT: Ruby Swirl
+TEXT: Ярко-красный виток
 
 RESOURCE ID: form_cream_salted
-TEXT: Salted Cream
+TEXT: Солёные сливки
 
 RESOURCE ID: form_cream_vanilla
-TEXT: Vanilla Cream
+TEXT: Ванильные сливки
 
 RESOURCE ID: form_crowned_shield
 TEXT: Коронованный Щит
@@ -454,130 +553,375 @@ TEXT: Коронованный Щит
 RESOURCE ID: form_crowned_sword
 TEXT: Коронованный Меч
 
+RESOURCE ID: form_darmanitan_standard
+TEXT: Стандартный режим
+
+RESOURCE ID: form_darmanitan_zen
+TEXT: Режим Дзена
+
+RESOURCE ID: form_deoxys_attack
+TEXT: Атакующая форма
+
+RESOURCE ID: form_deoxys_defense
+TEXT: Защитная форма
+
+RESOURCE ID: form_deoxys_speed
+TEXT: Скоростная форма
+
 RESOURCE ID: form_disguised
-TEXT: Disguised Form
+TEXT: Замаскированная форма
 
 RESOURCE ID: form_dusk
-TEXT: Dusk Form
+TEXT: Сумеречная форма
 
 RESOURCE ID: form_female
-TEXT: Female
+TEXT: Женский
 
 RESOURCE ID: form_full_belly
-TEXT: Fully Belly Mode
+TEXT: Режим Полный Живот
+
+RESOURCE ID: form_furfrou_dandy
+TEXT: Причёска-джентльмен
+
+RESOURCE ID: form_furfrou_debutant
+TEXT: Причёска-дебютант
+
+RESOURCE ID: form_furfrou_diamond
+TEXT: Причёска-алмаз
+
+RESOURCE ID: form_furfrou_heart
+TEXT: Причёска-сердце
+
+RESOURCE ID: form_furfrou_kabuki
+TEXT: Причёска-кабуки
+
+RESOURCE ID: form_furfrou_la_reine
+TEXT: Причёска-королева
+
+RESOURCE ID: form_furfrou_matron
+TEXT: Причёска-леди
+
+RESOURCE ID: form_furfrou_natural
+TEXT: Естественная форма
+
+RESOURCE ID: form_furfrou_pharaoh
+TEXT: Причёска Фараон
+
+RESOURCE ID: form_furfrou_star
+TEXT: Причёска-звезда
+
+RESOURCE ID: form_genesect_burn
+TEXT: Обжигающий привод
+
+RESOURCE ID: form_genesect_chill
+TEXT: Охлаждающий привод
+
+RESOURCE ID: form_genesect_douse
+TEXT: Погашающий привод
+
+RESOURCE ID: form_genesect_normal
+TEXT: Обычный
+
+RESOURCE ID: form_genesect_shock
+TEXT: Шоковый привод
 
 RESOURCE ID: form_gorging
-TEXT: Gorging Form
+TEXT: Пожирающая форма
+
+RESOURCE ID: form_greninja_ash
+TEXT: Эш-Грениндзя
 
 RESOURCE ID: form_gulping
-TEXT: Gulping Form
+TEXT: Прожорливая форма
 
 RESOURCE ID: form_hangry
-TEXT: Hangry Mode
+TEXT: Злоголодный режим
 
 RESOURCE ID: form_hero
-TEXT: Hero of Many Battles
+TEXT: Герой многих битв
+
+RESOURCE ID: form_hoopa_confined
+TEXT: Заключённый Хуппа
+
+RESOURCE ID: form_hoopa_unbound
+TEXT: Свободный Хуппа
 
 RESOURCE ID: form_ice
-TEXT: Ice Face
+TEXT: Ледяное Лицо
+
+RESOURCE ID: form_keldeo_ordinary
+TEXT: Обычная форма
+
+RESOURCE ID: form_keldeo_resolute
+TEXT: Упорная форма
+
+RESOURCE ID: form_kyurem_black
+TEXT: Чёрный Курем
+
+RESOURCE ID: form_kyurem_normal
+TEXT: Курем
+
+RESOURCE ID: form_kyurem_white
+TEXT: Белый Курем
+
+RESOURCE ID: form_landorus_incarnate
+TEXT: Воплощённая форма
+
+RESOURCE ID: form_landorus_therian
+TEXT: Форма Териан
 
 RESOURCE ID: form_low_key
-TEXT: Low Key Form
+TEXT: Сдержанная форма
 
 RESOURCE ID: form_male
-TEXT: Male
+TEXT: Мужской
+
+RESOURCE ID: form_meloetta_aria
+TEXT: Форма Арии
+
+RESOURCE ID: form_meloetta_pirouette
+TEXT: Форма пируэта
 
 RESOURCE ID: form_meteor
-TEXT: Meteor Form
+TEXT: Метеорная форма
 
 RESOURCE ID: form_midday
-TEXT: Midday Form
+TEXT: Полуденная форма
 
 RESOURCE ID: form_midnight
-TEXT: Midnight Form
+TEXT: Полночная форма
+
+RESOURCE ID: form_mimikyu_busted
+TEXT: Сломанная форма
+
+RESOURCE ID: form_mimikyu_disguised
+TEXT: Замаскированная форма
+
+RESOURCE ID: form_necrozma_dawn_wings
+TEXT: Рассветные Крылья
+
+RESOURCE ID: form_necrozma_dusk_mane
+TEXT: Сумеречная Грива
+
+RESOURCE ID: form_necrozma_normal
+TEXT: Некрозма
+
+RESOURCE ID: form_necrozma_ultra
+TEXT: Ультранекрозма
 
 RESOURCE ID: form_noice
-TEXT: Noice Face
+TEXT: Неледяное Лицо
 
 RESOURCE ID: form_pau
-TEXT: Pa'u Style
+TEXT: Стиль Пау
 
 RESOURCE ID: form_phony
-TEXT: Phony Form
+TEXT: Фальшивая форма
+
+RESOURCE ID: form_pirouette
+TEXT: Форма пируэта
 
 RESOURCE ID: form_pompom
-TEXT: Pom-Pom Style
+TEXT: Стиль Пом-Пом
+
+RESOURCE ID: form_primal
+TEXT: Прото-Превращение
 
 RESOURCE ID: form_regular
-TEXT: Regular Form
+TEXT: Обычная форма
+
+RESOURCE ID: form_rotom_fan
+TEXT: Ротом-Вентилятор
+
+RESOURCE ID: form_rotom_frost
+TEXT: Ротом-Мороз
+
+RESOURCE ID: form_rotom_heat
+TEXT: Ротом-Жар
+
+RESOURCE ID: form_rotom_mow
+TEXT: Ротом-Стрижка
+
+RESOURCE ID: form_rotom_normal
+TEXT: Ротом
+
+RESOURCE ID: form_rotom_wash
+TEXT: Ротом-Стирка
 
 RESOURCE ID: form_school
-TEXT: School Form
+TEXT: Форма стая
 
 RESOURCE ID: form_sensu
-TEXT: Sensu Style
+TEXT: Чувственный стиль
+
+RESOURCE ID: form_shaymin_land
+TEXT: Земная форма
+
+RESOURCE ID: form_shaymin_sky
+TEXT: Небесная форма
+
+RESOURCE ID: form_silvally_bug
+TEXT: Тип: Насекомое
+
+RESOURCE ID: form_silvally_dark
+TEXT: Тип: Темнота
+
+RESOURCE ID: form_silvally_dragon
+TEXT: Тип: Дракон
+
+RESOURCE ID: form_silvally_electric
+TEXT: Тип: Электро
+
+RESOURCE ID: form_silvally_fairy
+TEXT: Тип: Фея
+
+RESOURCE ID: form_silvally_fighting
+TEXT: Тип: Сражение
+
+RESOURCE ID: form_silvally_fire
+TEXT: Тип: Огонь
+
+RESOURCE ID: form_silvally_flying
+TEXT: Тип: Летающий
+
+RESOURCE ID: form_silvally_ghost
+TEXT: Тип: Привидение
+
+RESOURCE ID: form_silvally_grass
+TEXT: Тип: Трава
+
+RESOURCE ID: form_silvally_ground
+TEXT: Тип: Земля
+
+RESOURCE ID: form_silvally_ice
+TEXT: Тип: Лёд
+
+RESOURCE ID: form_silvally_normal
+TEXT: Тип: Обычный
+
+RESOURCE ID: form_silvally_poison
+TEXT: Тип: Яд
+
+RESOURCE ID: form_silvally_psychic
+TEXT: Тип: Психо
+
+RESOURCE ID: form_silvally_rock
+TEXT: Тип: Камень
+
+RESOURCE ID: form_silvally_steel
+TEXT: Тип: Сталь
+
+RESOURCE ID: form_silvally_water
+TEXT: Тип: Вода
 
 RESOURCE ID: form_solo
-TEXT: Solo Form
+TEXT: Форма соло
 
-RESOURCE ID: form_type_bug
-TEXT: Type: Bug
+RESOURCE ID: form_thundurus_incarnate
+TEXT: Воплощённая форма
 
-RESOURCE ID: form_type_dark
-TEXT: Type: Dark
+RESOURCE ID: form_thundurus_therian
+TEXT: Форма Териан
 
-RESOURCE ID: form_type_dragon
-TEXT: Type: Dragon
+RESOURCE ID: form_tornadus_incarnate
+TEXT: Воплощённая форма
 
-RESOURCE ID: form_type_electric
-TEXT: Type: Electric
+RESOURCE ID: form_tornadus_therian
+TEXT: Форма Териан
 
-RESOURCE ID: form_type_fairy
-TEXT: Type: Fairy
+RESOURCE ID: form_vivillon_archipelago
+TEXT: Узор архипелага
 
-RESOURCE ID: form_type_fighting
-TEXT: Type: Fighting
+RESOURCE ID: form_vivillon_continental
+TEXT: Континентальный узор
 
-RESOURCE ID: form_type_fire
-TEXT: Type: Fire
+RESOURCE ID: form_vivillon_elegant
+TEXT: Элегантный узор
 
-RESOURCE ID: form_type_flying
-TEXT: Type: Flying
+RESOURCE ID: form_vivillon_fancy
+TEXT: Модный узор
 
-RESOURCE ID: form_type_ghost
-TEXT: Type: Ghost
+RESOURCE ID: form_vivillon_garden
+TEXT: Садовый узор
 
-RESOURCE ID: form_type_grass
-TEXT: Type: Grass
+RESOURCE ID: form_vivillon_high_plains
+TEXT: Узор высоких равнин
 
-RESOURCE ID: form_type_ground
-TEXT: Type: Ground
+RESOURCE ID: form_vivillon_icy_snow
+TEXT: Расцветка Ледяной Снег
 
-RESOURCE ID: form_type_ice
-TEXT: Type: Ice
+RESOURCE ID: form_vivillon_jungle
+TEXT: Узор джунглей
 
-RESOURCE ID: form_type_normal
-TEXT: Type: Normal
+RESOURCE ID: form_vivillon_marine
+TEXT: Морской узор
 
-RESOURCE ID: form_type_poison
-TEXT: Type: Poison
+RESOURCE ID: form_vivillon_meadow
+TEXT: Луговой узор
 
-RESOURCE ID: form_type_psychic
-TEXT: Type: Psychic
+RESOURCE ID: form_vivillon_modern
+TEXT: Современный узор
 
-RESOURCE ID: form_type_rock
-TEXT: Type: Rock
+RESOURCE ID: form_vivillon_monsoon
+TEXT: Мусонный узор
 
-RESOURCE ID: form_type_steel
-TEXT: Type: Steel
+RESOURCE ID: form_vivillon_ocean
+TEXT: Океанский узор
 
-RESOURCE ID: form_type_water
-TEXT: Type: Water
+RESOURCE ID: form_vivillon_pokeball
+TEXT: Узор с Поке-Боллом
+
+RESOURCE ID: form_vivillon_polar
+TEXT: Полярный узор
+
+RESOURCE ID: form_vivillon_river
+TEXT: Речной узор
+
+RESOURCE ID: form_vivillon_sandstorm
+TEXT: Узор песчаной бури
+
+RESOURCE ID: form_vivillon_savanna
+TEXT: Саванный узор
+
+RESOURCE ID: form_vivillon_sun
+TEXT: Солнечный узор
+
+RESOURCE ID: form_vivillon_tundra
+TEXT: Узор тундры
+
+RESOURCE ID: form_wishiwashi_school
+TEXT: Форма Стая
+
+RESOURCE ID: form_wishiwashi_solo
+TEXT: Форма Соло
+
+RESOURCE ID: form_zygarde_complete
+TEXT: Полная форма
+
+RESOURCE ID: form_zygarde_fifty_percent
+TEXT: 50-процентная форма
+
+RESOURCE ID: form_zygarde_ten_percent
+TEXT: 10-процентная форма
+
+RESOURCE ID: gbl_double_dust_end_of_set
+TEXT: 2× звёздная пыль за совершение сражений в Боевой Лиге GO
+
+RESOURCE ID: gbl_double_dust_win
+TEXT: 2× звёздная пыль в награду в Боевой Лиге GO
 
 RESOURCE ID: general1.ticket.2_description
 TEXT: Билет на специальный квест «Поджаренные ягоды» 3 июля с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
 
 ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ СОБЫТИЯ, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
+
+RESOURCE ID: general1.ticket.2_eevet_description
+TEXT: A ticket to access the Who You Choose to Be Special Research from August 14, 2021, at 11:00 a.m. to August 15, 2021, at 5:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
+
+ YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_eevet_title
+TEXT: Who You Choose to Be Ticket
 
 RESOURCE ID: general1.ticket.2_tepit_description
 TEXT: Билет на специальный квест «Поджаренные ягоды» 3 июля с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
@@ -691,6 +1035,12 @@ TEXT: Билет на специальный квест 3 июля 2021 г. с 1
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 3 июля 2021 г., вне зависимости от твоего местонахождения.
 
+RESOURCE ID: item_event_ticket_pink_eevet_desc
+TEXT: A ticket to access a special research on August 14-15 from 11 a.m. to 5 p.m. local time each day, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_eevet_details
+TEXT: This ticket will automatically activate to give you access to a special research on August 14-15, wherever you are in the world.
+
 RESOURCE ID: item_event_ticket_pink_tepit_desc
 TEXT: Билет на специальный квест 3 июля 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
@@ -710,9 +1060,9 @@ RESOURCE ID: m_avatar_poses_bundle_pose_31
 TEXT: Поза в рок-стиле
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-07-14T22:57:43.101760
-at SHA 57acb648304f179c67e458e4a0b975323cfa796d
-Patch from: 0.213.0-SHA-5f93ad94, 0.213.1-SHA-e2a48419, 0.213.2-SHA-4db157d3
+TEXT: Built at 2021-07-22T21:40:33.830343
+at SHA 7ff677bed67c82339768165369da21337e2bcbc7
+Patch from: 0.213.0-SHA-5f93ad94, 0.213.1-SHA-e2a48419, 0.213.2-SHA-4db157d3, 0.215.0-SHA-0abb5206
 
 RESOURCE ID: minicollect_help_desc_type_catch_from_raid
 TEXT: Лови Покемонов в рейдах.
@@ -884,6 +1234,9 @@ TEXT: Фото сохранено
 RESOURCE ID: photo_unable_to_save
 TEXT: Не удалось сохранить фото.
 
+RESOURCE ID: photobomb_five_eevee
+TEXT: 5 Photobombs from Eevee in GO Snapshot
+
 RESOURCE ID: photobomb_five_gible
 TEXT: 5 неожиданных встреч с Гиблом в Стоп-кадре GO
 
@@ -897,10 +1250,10 @@ RESOURCE ID: poi_category_add_button
 TEXT: ADD LOCATION CATEGORY
 
 RESOURCE ID: poi_category_add_title_edit
-TEXT: Please categorize this location
+TEXT: Please categorize this location.
 
 RESOURCE ID: poi_category_add_title_nom
-TEXT: Categorize this location
+TEXT: Categorize this location.
 
 RESOURCE ID: poi_category_already_selected
 TEXT: Category is already selected
@@ -909,22 +1262,22 @@ RESOURCE ID: poi_category_back
 TEXT: BACK
 
 RESOURCE ID: poi_category_nom_title
-TEXT: PokéStop Category
+TEXT: Location Category
 
 RESOURCE ID: poi_category_ok
 TEXT: OK
 
 RESOURCE ID: poi_category_optional_prompt
-TEXT: Enter comma separated suggestions here
+TEXT: Enter comma-separated suggestions here.
 
 RESOURCE ID: poi_category_optional_title
 TEXT: Category suggestion (optional)
 
 RESOURCE ID: poi_category_select_error
-TEXT: {0} doesn't exist in our category list
+TEXT: {0} isn’t on the category list.
 
 RESOURCE ID: poi_category_select_prompt
-TEXT: Select or type here
+TEXT: Select or type here.
 
 RESOURCE ID: poi_category_selected
 TEXT: Selected
@@ -942,19 +1295,19 @@ RESOURCE ID: poi_retake_picture_msg
 TEXT:  
 
 RESOURCE ID: pokemon_category_0144_g
-TEXT: Cruel Pokémon
+TEXT: Жестокий Покемон
 
 RESOURCE ID: pokemon_category_0145_g
-TEXT: Strong Legs Pokémon
+TEXT: Покемон-Сильные Ноги
 
 RESOURCE ID: pokemon_category_0146_g
-TEXT: Malevolent Pokémon
+TEXT: Злонравный Покемон
 
 RESOURCE ID: pokemon_category_0199_2584
-TEXT: Hexpert Pokémon
+TEXT: Телепатический Эксперт
 
 RESOURCE ID: pokemon_category_0720_2652
-TEXT: Djinn Pokémon
+TEXT: Покемон-Джинн
 
 RESOURCE ID: pokemon_category_0722
 TEXT: Покемон-Травяное Перо
@@ -1131,115 +1484,115 @@ RESOURCE ID: pokemon_category_0779
 TEXT: Покемон-Скрежетание Зубами
 
 RESOURCE ID: pokemon_category_0780
-TEXT: Placid Pokémon
+TEXT: Мирный Покемон
 
 RESOURCE ID: pokemon_category_0781
-TEXT: Sea Creeper Pokémon
+TEXT: Покемон-Морской Ползун
 
 RESOURCE ID: pokemon_category_0782
-TEXT: Scaly Pokémon
+TEXT: Чешуйчатый Покемон
 
 RESOURCE ID: pokemon_category_0783
-TEXT: Scaly Pokémon
+TEXT: Чешуйчатый Покемон
 
 RESOURCE ID: pokemon_category_0784
-TEXT: Scaly Pokémon
+TEXT: Чешуйчатый Покемон
 
 RESOURCE ID: pokemon_category_0785
-TEXT: Land Spirit Pokémon
+TEXT: Покемон Дух-Хранитель
 
 RESOURCE ID: pokemon_category_0786
-TEXT: Land Spirit Pokémon
+TEXT: Покемон Дух-Хранитель
 
 RESOURCE ID: pokemon_category_0787
-TEXT: Land Spirit Pokémon
+TEXT: Покемон Дух-Хранитель
 
 RESOURCE ID: pokemon_category_0788
-TEXT: Land Spirit Pokémon
+TEXT: Покемон Дух-Хранитель
 
 RESOURCE ID: pokemon_category_0789
-TEXT: Nebula Pokémon
+TEXT: Покемон-Туманность
 
 RESOURCE ID: pokemon_category_0790
-TEXT: Protostar Pokémon
+TEXT: Покемон-Протозвезда
 
 RESOURCE ID: pokemon_category_0791
-TEXT: Sunne Pokémon
+TEXT: Солнечный Покемон
 
 RESOURCE ID: pokemon_category_0792
-TEXT: Moone Pokémon
+TEXT: Лунный Покемон
 
 RESOURCE ID: pokemon_category_0793
-TEXT: Parasite Pokémon
+TEXT: Покемон-Паразит
 
 RESOURCE ID: pokemon_category_0794
-TEXT: Swollen Pokémon
+TEXT: Покемон-Экспансия
 
 RESOURCE ID: pokemon_category_0795
-TEXT: Lissome Pokémon
+TEXT: Изящный Покемон
 
 RESOURCE ID: pokemon_category_0796
-TEXT: Glowing Pokémon
+TEXT: Светящийся Покемон
 
 RESOURCE ID: pokemon_category_0797
-TEXT: Launch Pokémon
+TEXT: Покемон-Запуск
 
 RESOURCE ID: pokemon_category_0798
-TEXT: Drawn Sword Pokémon
+TEXT: Покемон-Мастер Меча
 
 RESOURCE ID: pokemon_category_0799
-TEXT: Junkivore Pokémon
+TEXT: Покемон-Обжора
 
 RESOURCE ID: pokemon_category_0800
-TEXT: Prism Pokémon
+TEXT: Покемон-Призма
 
 RESOURCE ID: pokemon_category_0801
-TEXT: Artificial Pokémon
+TEXT: Искусственный Покемон
 
 RESOURCE ID: pokemon_category_0802
-TEXT: Gloomdweller Pokémon
+TEXT: Покемон-Обитатель Тьмы
 
 RESOURCE ID: pokemon_category_0803
-TEXT: Poison Pin Pokémon
+TEXT: Покемон-Ядовитый Шип
 
 RESOURCE ID: pokemon_category_0804
-TEXT: Poison Pin Pokémon
+TEXT: Покемон-Ядовитый Шип
 
 RESOURCE ID: pokemon_category_0805
-TEXT: Rampart Pokémon
+TEXT: Покемон-Бастион
 
 RESOURCE ID: pokemon_category_0806
-TEXT: Fireworks Pokémon
+TEXT: Покемон-Фейерверк
 
 RESOURCE ID: pokemon_category_0807
-TEXT: Thunderclap Pokémon
+TEXT: Покемон-Рокот Грома
 
 RESOURCE ID: pokemon_category_0810
-TEXT: Chimp Pokémon
+TEXT: Покемон-Шимпанзе
 
 RESOURCE ID: pokemon_category_0811
-TEXT: Beat Pokémon
+TEXT: Покемон-Ритм
 
 RESOURCE ID: pokemon_category_0812
-TEXT: Drummer Pokémon
+TEXT: Покемон-Барабанщик
 
 RESOURCE ID: pokemon_category_0813
-TEXT: Rabbit Pokémon
+TEXT: Покемон-Кролик
 
 RESOURCE ID: pokemon_category_0814
-TEXT: Rabbit Pokémon
+TEXT: Покемон-Кролик
 
 RESOURCE ID: pokemon_category_0815
-TEXT: Striker Pokémon
+TEXT: Нападающий Покемон
 
 RESOURCE ID: pokemon_category_0816
-TEXT: Water Lizard Pokémon
+TEXT: Водная Ящерица
 
 RESOURCE ID: pokemon_category_0817
-TEXT: Water Lizard Pokémon
+TEXT: Водная Ящерица
 
 RESOURCE ID: pokemon_category_0818
-TEXT: Secret Agent Pokémon
+TEXT: Секретный Агент
 
 RESOURCE ID: pokemon_category_0819
 TEXT: Дерзкий Покемон
@@ -1248,34 +1601,34 @@ RESOURCE ID: pokemon_category_0820
 TEXT: Жадный Покемон
 
 RESOURCE ID: pokemon_category_0821
-TEXT: Tiny Bird Pokémon
+TEXT: Покемон-Птичка
 
 RESOURCE ID: pokemon_category_0822
-TEXT: Raven Pokémon
+TEXT: Покемон-Ворон
 
 RESOURCE ID: pokemon_category_0823
-TEXT: Raven Pokémon
+TEXT: Покемон-Ворон
 
 RESOURCE ID: pokemon_category_0824
-TEXT: Larva Pokémon
+TEXT: Покемон-Личинка
 
 RESOURCE ID: pokemon_category_0825
-TEXT: Radome Pokémon
+TEXT: Покемон-Обтекатель
 
 RESOURCE ID: pokemon_category_0826
-TEXT: Seven Spot Pokémon
+TEXT: Покемон-Семь Точек
 
 RESOURCE ID: pokemon_category_0827
-TEXT: Fox Pokémon
+TEXT: Покемон-Лиса
 
 RESOURCE ID: pokemon_category_0828
-TEXT: Fox Pokémon
+TEXT: Покемон-Лиса
 
 RESOURCE ID: pokemon_category_0829
-TEXT: Flowering Pokémon
+TEXT: Цветущий Покемон
 
 RESOURCE ID: pokemon_category_0830
-TEXT: Cotton Bloom Pokémon
+TEXT: Покемон-Цветок Хлопка
 
 RESOURCE ID: pokemon_category_0831
 TEXT: Покемон-Овца
@@ -1284,154 +1637,154 @@ RESOURCE ID: pokemon_category_0832
 TEXT: Покемон-Овца
 
 RESOURCE ID: pokemon_category_0833
-TEXT: Snapping Pokémon
+TEXT: Покемон-Зажим
 
 RESOURCE ID: pokemon_category_0834
-TEXT: Bite Pokémon
+TEXT: Покемон-Укус
 
 RESOURCE ID: pokemon_category_0835
-TEXT: Puppy Pokémon
+TEXT: Покемон-Щенок
 
 RESOURCE ID: pokemon_category_0836
-TEXT: Dog Pokémon
+TEXT: Покемон-Собака
 
 RESOURCE ID: pokemon_category_0837
-TEXT: Coal Pokémon
+TEXT: Покемон-Уголь
 
 RESOURCE ID: pokemon_category_0838
-TEXT: Coal Pokémon
+TEXT: Покемон-Уголь
 
 RESOURCE ID: pokemon_category_0839
-TEXT: Coal Pokémon
+TEXT: Покемон-Уголь
 
 RESOURCE ID: pokemon_category_0840
-TEXT: Apple Core Pokémon
+TEXT: Покемон-Огрызок Яблока
 
 RESOURCE ID: pokemon_category_0841
-TEXT: Apple Wing Pokémon
+TEXT: Покемон-Яблочное Крыло
 
 RESOURCE ID: pokemon_category_0842
-TEXT: Apple Nectar Pokémon
+TEXT: Покемон-Яблочный Нектар
 
 RESOURCE ID: pokemon_category_0843
-TEXT: Sand Snake Pokémon
+TEXT: Песчаная Змея
 
 RESOURCE ID: pokemon_category_0844
-TEXT: Sand Snake Pokémon
+TEXT: Песчаная Змея
 
 RESOURCE ID: pokemon_category_0845
-TEXT: Gulp Pokémon
+TEXT: Покемон-Проглот
 
 RESOURCE ID: pokemon_category_0846
-TEXT: Rush Pokémon
+TEXT: Покемон-Спешка
 
 RESOURCE ID: pokemon_category_0847
-TEXT: Skewer Pokémon
+TEXT: Покемон-Протыкатель
 
 RESOURCE ID: pokemon_category_0848
-TEXT: Baby Pokémon
+TEXT: Покемон-Малыш
 
 RESOURCE ID: pokemon_category_0849
-TEXT: Punk Pokémon
+TEXT: Покемон-Панк
 
 RESOURCE ID: pokemon_category_0850
-TEXT: Radiator Pokémon
+TEXT: Покемон-Рефлектор
 
 RESOURCE ID: pokemon_category_0851
-TEXT: Radiator Pokémon
+TEXT: Покемон-Рефлектор
 
 RESOURCE ID: pokemon_category_0852
-TEXT: Tantrum Pokémon
+TEXT: Покемон-Вспышка Гнева
 
 RESOURCE ID: pokemon_category_0853
-TEXT: Jujitsu Pokémon
+TEXT: Покемон Джиу-Джитсу
 
 RESOURCE ID: pokemon_category_0854
-TEXT: Black Tea Pokémon
+TEXT: Покемон-Чёрный Чай
 
 RESOURCE ID: pokemon_category_0855
-TEXT: Black Tea Pokémon
+TEXT: Покемон-Чёрный Чай
 
 RESOURCE ID: pokemon_category_0856
-TEXT: Calm Pokémon
+TEXT: Покемон-Спокойствие
 
 RESOURCE ID: pokemon_category_0857
-TEXT: Serene Pokémon
+TEXT: Покемон-Покой
 
 RESOURCE ID: pokemon_category_0858
-TEXT: Silent Pokémon
+TEXT: Тихий Покемон
 
 RESOURCE ID: pokemon_category_0859
-TEXT: Wily Pokémon
+TEXT: Коварный Покемон
 
 RESOURCE ID: pokemon_category_0860
-TEXT: Devious Pokémon
+TEXT: Блуждающий Покемон
 
 RESOURCE ID: pokemon_category_0861
-TEXT: Bulk Up Pokémon
+TEXT: Покемон-Гора Мышц
 
 RESOURCE ID: pokemon_category_0864
-TEXT: Coral Pokémon
+TEXT: Покемон-Коралл
 
 RESOURCE ID: pokemon_category_0868
-TEXT: Cream Pokémon
+TEXT: Покемон-Крем
 
 RESOURCE ID: pokemon_category_0869
-TEXT: Cream Pokémon
+TEXT: Покемон-Крем
 
 RESOURCE ID: pokemon_category_0870
 TEXT: Покемон-Формация
 
 RESOURCE ID: pokemon_category_0871
-TEXT: Sea Urchin Pokémon
+TEXT: Покемон-Морской Ёж
 
 RESOURCE ID: pokemon_category_0872
-TEXT: Worm Pokémon
+TEXT: Покемон-Червь
 
 RESOURCE ID: pokemon_category_0873
-TEXT: Frost Moth Pokémon
+TEXT: Покемон-Морозный Мотылёк
 
 RESOURCE ID: pokemon_category_0874
-TEXT: Big Rock Pokémon
+TEXT: Покемон-Большой Камень
 
 RESOURCE ID: pokemon_category_0875
-TEXT: Penguin Pokémon
+TEXT: Покемон-Пингвин
 
 RESOURCE ID: pokemon_category_0876
-TEXT: Emotion Pokémon
+TEXT: Покемон-Эмоция
 
 RESOURCE ID: pokemon_category_0877
-TEXT: Two-Sided Pokémon
+TEXT: Двусторонний Покемон
 
 RESOURCE ID: pokemon_category_0878
-TEXT: Copperderm Pokémon
+TEXT: Медный Покемон
 
 RESOURCE ID: pokemon_category_0879
-TEXT: Copperderm Pokémon
+TEXT: Медный Покемон
 
 RESOURCE ID: pokemon_category_0880
-TEXT: Fossil Pokémon
+TEXT: Покемон-Ископаемое
 
 RESOURCE ID: pokemon_category_0881
-TEXT: Fossil Pokémon
+TEXT: Покемон-Ископаемое
 
 RESOURCE ID: pokemon_category_0882
-TEXT: Fossil Pokémon
+TEXT: Покемон-Ископаемое
 
 RESOURCE ID: pokemon_category_0883
-TEXT: Fossil Pokémon
+TEXT: Покемон-Ископаемое
 
 RESOURCE ID: pokemon_category_0884
-TEXT: Alloy Pokémon
+TEXT: Покемон-Сплав
 
 RESOURCE ID: pokemon_category_0885
-TEXT: Lingering Pokémon
+TEXT: Медлительный Покемон
 
 RESOURCE ID: pokemon_category_0886
-TEXT: Caretaker Pokémon
+TEXT: Покемон-Опекун
 
 RESOURCE ID: pokemon_category_0887
-TEXT: Stealth Pokémon
+TEXT: Покемон-Уловка
 
 RESOURCE ID: pokemon_category_0888
 TEXT: Покемон-Воин
@@ -1440,7 +1793,7 @@ RESOURCE ID: pokemon_category_0889
 TEXT: Покемон-Воин
 
 RESOURCE ID: pokemon_category_0890
-TEXT: Gigantic Pokémon
+TEXT: Гигантский Покемон
 
 RESOURCE ID: pokemon_category_0891
 TEXT: Ушу-Покемон
@@ -1479,19 +1832,19 @@ RESOURCE ID: pokemon_desc_0080_2583
 TEXT: Укус Шеллдера привёл к химической реакции специй в теле Слоубро. Так он стал ядовитым типом.
 
 RESOURCE ID: pokemon_desc_0144_g
-TEXT: Its feather-like blades are composed of psychic energy and can shear through thick iron sheets as if they were paper.
+TEXT: С помощью психической энергии Артикуно создаёт лезвия в форме перьев. Они могут разрезать толстые листы железа, как бумагу.
 
 RESOURCE ID: pokemon_desc_0145_g
-TEXT: When its feathers rub together, they produce a crackling sound like the zapping of electricity. That’s why this Pokémon is called Zapdos.
+TEXT: Когда перья этого Покемона трутся друг о друга, слышен треск, похожий на электрические разряды. Имя Запдос произошло от имитации этого звука.
 
 RESOURCE ID: pokemon_desc_0146_g
-TEXT: This Pokémon’s sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.
+TEXT: Зловещая, похожая на пламя аура Молтреса поглощает дух любого существа, которое поразит. Жертвы становятся выжженными тенями самих себя.
 
 RESOURCE ID: pokemon_desc_0199_2584
-TEXT: A combination of toxins and the shock of evolving has increased Shellder’s intelligence to the point that Shellder now controls Slowking.
+TEXT: Шок от эволюции и токсины повысили умственные способности Шеллдера до такой степени, что теперь он контролирует Слоукинга.
 
 RESOURCE ID: pokemon_desc_0222_2340
-TEXT: Watch your step when wandering areas oceans once covered. What looks like a stone could be this Pokémon, and it will curse you if you kick it.
+TEXT: Смотри под ноги, когда гуляешь в местах, где раньше был океан. Если ты примешь этого Покемона за камень и наступишь на него, он проклянёт тебя.
 
 RESOURCE ID: pokemon_desc_0250
 TEXT: Если на перья Хо-Оха попадает солнечный свет, они переливаются радужными цветами. Ходят легенды, что этот Покемон живёт у подножия радуги, и его перья приносят счастье любому, кому повезло их заполучить.
@@ -1503,7 +1856,7 @@ RESOURCE ID: pokemon_desc_0498
 TEXT: Этот Покемон любит есть запечённые ягоды, но иногда он слишком увлекается и зажаривает их до угольков.
 
 RESOURCE ID: pokemon_desc_0720_2652
-TEXT: It is said to be able to seize anything it desires with its six rings and six huge arms. With its power sealed, it is transformed into a much smaller form.
+TEXT: Говорят, что своими шестью кольцами и шестью огромными руками Хуппа может схватить всё, что пожелает. Но когда его сила запечатана, он принимает намного меньшую форму.
 
 RESOURCE ID: pokemon_desc_0722
 TEXT: Раулет чувствует себя уютно в тесных и тёмных местах. Он нередко использует карман или сумку Тренера как своё гнездо.
@@ -1599,85 +1952,85 @@ RESOURCE ID: pokemon_desc_0745_midnight
 TEXT: Лайканрок спокойно игнорирует команды, которые ему не нравятся. Он не боится быть ранен в битве – при условии, что победа останется за ним.
 
 RESOURCE ID: pokemon_desc_0746
-TEXT: Когда этот Покемон находится в опасности, его сияющие глаза привлекают других себе подобных. Свет из его глаз виден на расстоянии 40 км.
+TEXT: Когда этот Покемон находится в опасности, сияние его глаз привлекает других Вишиваши. Этот свет виден на расстоянии 40 км.
 
 RESOURCE ID: pokemon_desc_0746_school
-TEXT: Called “demon of the sea” by some, when Wishiwashi are injured in battle and their numbers dwindle, they become a regular school.
+TEXT: Вишиваши иногда называют «морскими демонами». Когда эти Покемоны получают ранения в битве и их число сокращается, они становятся обычной стаей.
 
 RESOURCE ID: pokemon_desc_0746_solo
-TEXT: Когда этот Покемон находится в опасности, его сияющие глаза привлекают других себе подобных. Свет из его глаз виден на расстоянии 40 км.
+TEXT: Когда этот Покемон находится в опасности, сияние его глаз привлекает других Вишиваши. Этот свет виден на расстоянии 40 км.
 
 RESOURCE ID: pokemon_desc_0747
-TEXT: Если не считать головы Марини, части его тела быстро восстанавливаются, если их отрезать. После хорошего ночного сна Марини возвращается в нормальное состояние.
+TEXT: Все части тела Марини кроме головы быстро восстанавливаются, если их отрезать. Для полной регенерации этому Покемону нужен хороший ночной сон.
 
 RESOURCE ID: pokemon_desc_0748
-TEXT: Своими 12 ножками Токсапекс создаёт купол, внутри которого можно укрыться. Там на него не влияет течение приливов и ему очень удобно.
+TEXT: 12 ножек Токсапекса создают купол, внутри которого можно укрыться от течений. Там Покемону очень удобно.
 
 RESOURCE ID: pokemon_desc_0749
-TEXT: Possessing mighty power, Mudbray can be loaded with 50 times its own body weight and will be totally fine.
+TEXT: Обладая огромной силой, Мадбрей может без особых усилий нести груз, в 50 раз превышающий его собственный вес.
 
 RESOURCE ID: pokemon_desc_0750
-TEXT: It can trudge mountain roads without rest for three days and three nights, all the while dragging a 10-ton load.
+TEXT: Мадсдэйл может без отдыха плестись по горным дорогам три дня и три ночи, таща за собой 10-тонный груз.
 
 RESOURCE ID: pokemon_desc_0751
-TEXT: It can only breathe oxygen that has dissolved in water, so it wears a water bubble on its head when it walks around on land.
+TEXT: Дупайдер может дышать только кислородом, растворённым в воде. Поэтому он носит водный пузырь на голове, когда ходит по суше.
 
 RESOURCE ID: pokemon_desc_0752
-TEXT: У Аракванида есть привычка хранить вещи, которые он ценит, в водяном пузыре. Если его Тренер не осторожен, Аракванид попытается поместить его в этот пузырь!
+TEXT: Аракванид хранит всё самое ценное в своём водяном пузыре. Он попытается поместить в этот пузырь и своего Тренера, если тот не будет осторожен!
 
 RESOURCE ID: pokemon_desc_0753
-TEXT: It loves the sunshine. When it basks in the sunlight regularly, it grows up with vivid coloration.
+TEXT: Фомантис любит солнечный свет. Если он регулярно находится на солнце, то приобретает яркую окраску.
 
 RESOURCE ID: pokemon_desc_0754
-TEXT: Когда Лурантис атакует противника, кажется, что он танцует. Элегантный внешний вид этого Покемона побудил некоторых назвать его самым гламурным травяным Покемоном.
+TEXT: Когда Лурантис атакует противника, кажется, что он танцует. Благодаря элегантному внешнему виду некоторые называют его самым гламурным травяным Покемоном.
 
 RESOURCE ID: pokemon_desc_0755
-TEXT: It likes damp dark places. When night falls, the spores filling the caps of its mushrooms glow.
+TEXT: Морилалл любит тёмные сырые места. Когда наступает ночь, споры в шляпках его грибов начинают светиться.
 
 RESOURCE ID: pokemon_desc_0756
-TEXT: When it starts fighting for territory with Parasect, the entire area gets completely coated in spores!
+TEXT: Когда Шинатик борется за территорию с Парасектом, вся местность покрывается спорами!
 
 RESOURCE ID: pokemon_desc_0757
-TEXT: Саландит ослабляет противника своим ядовитым газом. Он плохо справляется со Спиндой, потому что тот всегда находится в движении.
+TEXT: Саландит ослабляет противника своим ядовитым газом и заставляет его потерять равновесие. Этот Покемон плохо справляется со Спиндой, потому что тот всегда покачивается.
 
 RESOURCE ID: pokemon_desc_0758
-TEXT: Салаззл наказывает Саландита, который не смог принести ему еды, яростным хлопком своей огнедышащей ладони.
+TEXT: Если Саландиты не приносят ему еды, Салаззл наказывает их яростными ударами своей пылающей ладони.
 
 RESOURCE ID: pokemon_desc_0759
-TEXT: Stufful hates to be hugged or touched in any way. It will squirm, thrash, and resist with amazing power.
+TEXT: Стаффул ненавидит, когда его обнимают или трогают. Он будет извиваться, биться и сопротивляться с удивительной силой.
 
 RESOURCE ID: pokemon_desc_0760
-TEXT: It boasts tremendous physical strength. Many people call it the most dangerous Pokémon in the Alola region.
+TEXT: Бевеар может похвастаться огромной физической силой. Многие называют его самым опасным Покемоном в регионе Алола.
 
 RESOURCE ID: pokemon_desc_0761
-TEXT: It tries to resist being swallowed by a bird Pokémon by spinning the sepals on its head. It's usually a fruitless attempt.
+TEXT: Чтобы защититься от Покемонов-птиц, Баунсвит вращает чашелистиками на голове. Это срабатывает очень редко.
 
 RESOURCE ID: pokemon_desc_0762
-TEXT: Стини подпрыгивает, с лёгкостью покачивая чашелистиками на голове. Они могут нанести довольно болезненный удар!
+TEXT: Стини подпрыгивает, резко взмахивая чашелистиками на голове. Удары этих листиков довольно болезненные!
 
 RESOURCE ID: pokemon_desc_0763
-TEXT: A Pokémon with an aggressive personality and a mastery of kicking, it cackles every time it kicks an opponent.
+TEXT: У Царины агрессивный характер. Она мастерски бьёт ногами, хохоча каждый раз, когда наносит противнику удар.
 
 RESOURCE ID: pokemon_desc_0764
-TEXT: It picks flowers and sticks them to its body with fluids it produces. The aroma that wafts from its petals has a healing effect.
+TEXT: Комфей использует жидкость, выделяемую его телом, чтобы прикреплять сорванные цветы. Аромат лепестков этого Покемона имеет лечебный эффект.
 
 RESOURCE ID: pokemon_desc_0765
-TEXT: Орангуру не ладят друг с другом, поэтому всегда устраивают битвы умов, чтобы решить, кто из них лучше.
+TEXT: Орангуру не ладят друг с другом. Они постоянно пытаются определить, кто из них умнее.
 
 RESOURCE ID: pokemon_desc_0766
-TEXT: Berries are its weapons as well as the staple of its diet. The one that can throw a berry the farthest is the boss of the troop.
+TEXT: Для этого Покемона ягоды – это и оружие, и основной продукт питания. Пассимиан, бросивший ягоду дальше других, становится лидером отряда.
 
 RESOURCE ID: pokemon_desc_0767
-TEXT: An astonishingly cowardly Pokémon, Wimpod will whir its legs at high speeds to run away if anything comes near it.
+TEXT: Вимпод – удивительно трусливый Покемон. Если к нему кто-нибудь приближается, он тут же удирает, быстро перебирая ножками.
 
 RESOURCE ID: pokemon_desc_0768
-TEXT: Its claws, which it can extend and retract at will, are its greatest weapons. Golisopod is sometimes accompanied by Wimpod.
+TEXT: Величайшим оружием Голисопода являются когти, которые он выпускает и втягивает по желанию. Этого Покемона иногда сопровождают Вимподы.
 
 RESOURCE ID: pokemon_desc_0769
-TEXT: Если ты делаешь холмики из песка во время игры, уничтожь их, прежде чем пойти домой, иначе они могут стать одержимыми и превратиться в Сэндигаста.
+TEXT: Если не сломать холмик из песка после игры, в него может вселиться дух. Тогда холмик превратится в Сэндигаста.
 
 RESOURCE ID: pokemon_desc_0770
-TEXT: Once it has whipped up a sandstorm to halt its opponents in their tracks, this terrifying Pokémon snatches away their vitality.
+TEXT: Палоссэнд поднимает песчаную бурю, чтобы остановить противника, а затем лишить его жизненной силы.
 
 RESOURCE ID: pokemon_desc_0771
 TEXT: Все тело Пьюкумуку покрыто слизью. Если ты случайно на него наступишь, то поскользнёшься, а он разозлится и ударит тебя!
@@ -1722,7 +2075,7 @@ RESOURCE ID: pokemon_desc_0779_busted
 TEXT: Sad that its true identity may be exposed, Mimikyu will mercilessly seek revenge on any opponent that breaks its neck.
 
 RESOURCE ID: pokemon_desc_0779_disguised
-TEXT: Its skin is thick enough to fend off Mareanie's spikes. With its robust teeth, Bruxish crunches up the spikes and eats them.
+TEXT: Кожа Браксиша достаточно толстая, чтобы отразить шипы Марини. Он сминает шипы своими крепкими зубами и съедает их.
 
 RESOURCE ID: pokemon_desc_0780
 TEXT: Дрампа появляется в городах и играет с детьми. Он защищает детей, если им что-то угрожает, поэтому мамам не о чем беспокоиться.
@@ -1923,7 +2276,7 @@ RESOURCE ID: pokemon_desc_0845_gulping
 TEXT: Cramorant's gluttony led it to try to swallow an Arrokuda whole, which in turn led to Cramorant getting an Arrokuda stuck in its throat.
 
 RESOURCE ID: pokemon_desc_0845_regular
-TEXT: It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight.
+TEXT: Краморант настолько силён, что может одним ударом выбить противника, но он также может забыть, что находится посередине битвы.
 
 RESOURCE ID: pokemon_desc_0846
 TEXT: Если Аррокуда видит происходящее возле него движение, он немедленно атакует своей заострённой челюстью. Он очень ей гордится.
@@ -1938,7 +2291,7 @@ RESOURCE ID: pokemon_desc_0849
 TEXT: Когда Токстрисити звучит, как будто бренчит на гитаре, на самом деле он раздирает когтями свою выступающую грудную клетку, чтобы произвести электричество.
 
 RESOURCE ID: pokemon_desc_0849_amped
-TEXT: When this Pokémon sounds as if it's strumming a guitar, it's actually clawing at the protrusions on its chest to generate electricity.
+TEXT: Когда Токстрисити звучит, как будто бренчит на гитаре, на самом деле он раздирает когтями свою выступающую грудную клетку, чтобы произвести электричество.
 
 RESOURCE ID: pokemon_desc_0849_lowkey
 TEXT: Capable of generating 15,000 volts of electricity, this Pokémon looks down on all that would challenge it.
@@ -2025,7 +2378,7 @@ RESOURCE ID: pokemon_desc_0869_salted_cream
 TEXT: The moment it evolved, it took on a salty flavor. This is because of the way its cells spontaneously shifted during evolution.
 
 RESOURCE ID: pokemon_desc_0869_vanilla_cream
-TEXT: When it trusts a Trainer, it will treat them to berries it’s decorated with cream.
+TEXT: Если Алкреми доверяет Тренеру, она угостит его ягодами, украшенными кремом.
 
 RESOURCE ID: pokemon_desc_0870
 TEXT: Фалинкс состоит из пятерых рядовых и одного офицера. Приказы офицера носят абсолютный характер.
@@ -2064,7 +2417,7 @@ RESOURCE ID: pokemon_desc_0877
 TEXT: Морпеко питается зёрнышками, накопленными в его похожих на кармашки мешочках, тем самым удовлетворяя свой постоянный голод, но не только. Он также производит электричество.
 
 RESOURCE ID: pokemon_desc_0877_full
-TEXT: As it eats the seeds stored up in its pocket-like pouches, this Pokémon is not just satisfying its constant hunger. It's also generating electricity.
+TEXT: Морпеко питается зёрнышками, накопленными в его похожих на кармашки мешочках, тем самым удовлетворяя свой постоянный голод, но не только. Он также производит электричество.
 
 RESOURCE ID: pokemon_desc_0877_hangry
 TEXT: Intense hunger drives it to extremes of violence, and the electricity in its cheek sacs has converted into a Dark-type energy.
@@ -2124,7 +2477,7 @@ RESOURCE ID: pokemon_desc_0891
 TEXT: Кабфу усердно тренируется, отрабатывая удары. Выученные им атаки предопределяют, в какую форму эволюционирует этот Покемон.
 
 RESOURCE ID: pokemon_desc_0892
-TEXT: This form of Urshifu is a strong believer in the one-hit KO. Its strategy is to leap in close to foes and land a devastating blow with a hardened fist.
+TEXT: Эта форма Уршифу – мастер по выбиванию противника из игры одним ударом. Для этого Покемон подпрыгивает к врагу и наносит сокрушительный удар сжатым кулаком.
 
 RESOURCE ID: pokemon_desc_0892_rs
 TEXT: Полагают, что боевой стиль этого Уршифу имитирует течение реки: быстрые движения сменяются размеренными.
@@ -2157,7 +2510,7 @@ RESOURCE ID: pokemon_desc_0898_shadow
 TEXT: Калирекса и его скакуна связывают крепкие узы. Согласно легендам, они объехали весь Галар, озеленяя пустыни.
 
 RESOURCE ID: pokemon_info_mega_evolution_really_confirm
-TEXT: Do you really want to Mega Evolve {0}?
+TEXT: Ты действительно хочешь, чтобы Покемон {0} мегаэволюционировал?
 
 RESOURCE ID: pokemon_info_mega_evolution_replace
 TEXT: {0} вернётся в обычную форму!
@@ -2337,115 +2690,115 @@ RESOURCE ID: pokemon_name_0779
 TEXT: Браксиш
 
 RESOURCE ID: pokemon_name_0780
-TEXT: Drampa
+TEXT: Дрампа
 
 RESOURCE ID: pokemon_name_0781
-TEXT: Dhelmise
+TEXT: Делмайз
 
 RESOURCE ID: pokemon_name_0782
-TEXT: Jangmo-o
+TEXT: Джангмо-о
 
 RESOURCE ID: pokemon_name_0783
-TEXT: Hakamo-o
+TEXT: Хакамо-o
 
 RESOURCE ID: pokemon_name_0784
-TEXT: Kommo-o
+TEXT: Коммо-o
 
 RESOURCE ID: pokemon_name_0785
-TEXT: Tapu Koko
+TEXT: Тапу Коко
 
 RESOURCE ID: pokemon_name_0786
-TEXT: Tapu Lele
+TEXT: Тапу Леле
 
 RESOURCE ID: pokemon_name_0787
-TEXT: Tapu Bulu
+TEXT: Тапу Булу
 
 RESOURCE ID: pokemon_name_0788
-TEXT: Tapu Fini
+TEXT: Тапу Фини
 
 RESOURCE ID: pokemon_name_0789
-TEXT: Cosmog
+TEXT: Космог
 
 RESOURCE ID: pokemon_name_0790
-TEXT: Cosmoem
+TEXT: Космоем
 
 RESOURCE ID: pokemon_name_0791
-TEXT: Solgaleo
+TEXT: Солгалео
 
 RESOURCE ID: pokemon_name_0792
-TEXT: Lunala
+TEXT: Лунала
 
 RESOURCE ID: pokemon_name_0793
-TEXT: Nihilego
+TEXT: Нигилего
 
 RESOURCE ID: pokemon_name_0794
-TEXT: Buzzwole
+TEXT: Баззвол
 
 RESOURCE ID: pokemon_name_0795
-TEXT: Pheromosa
+TEXT: Феромоса
 
 RESOURCE ID: pokemon_name_0796
-TEXT: Xurkitree
+TEXT: Заркитри
 
 RESOURCE ID: pokemon_name_0797
-TEXT: Celesteela
+TEXT: Селестила
 
 RESOURCE ID: pokemon_name_0798
-TEXT: Kartana
+TEXT: Картана
 
 RESOURCE ID: pokemon_name_0799
-TEXT: Guzzlord
+TEXT: Газзлорд
 
 RESOURCE ID: pokemon_name_0800
-TEXT: Necrozma
+TEXT: Некрозма
 
 RESOURCE ID: pokemon_name_0801
-TEXT: Magearna
+TEXT: Магирна
 
 RESOURCE ID: pokemon_name_0802
-TEXT: Marshadow
+TEXT: Маршадоу
 
 RESOURCE ID: pokemon_name_0803
-TEXT: Poipole
+TEXT: Пойпол
 
 RESOURCE ID: pokemon_name_0804
-TEXT: Naganadel
+TEXT: Наганадел
 
 RESOURCE ID: pokemon_name_0805
-TEXT: Stakataka
+TEXT: Стакатака
 
 RESOURCE ID: pokemon_name_0806
-TEXT: Blacephalon
+TEXT: Бласефалон
 
 RESOURCE ID: pokemon_name_0807
-TEXT: Zeraora
+TEXT: Зераора
 
 RESOURCE ID: pokemon_name_0810
-TEXT: Grookey
+TEXT: Груки
 
 RESOURCE ID: pokemon_name_0811
-TEXT: Thwackey
+TEXT: Тваки
 
 RESOURCE ID: pokemon_name_0812
-TEXT: Rillaboom
+TEXT: Риллабум
 
 RESOURCE ID: pokemon_name_0813
-TEXT: Scorbunny
+TEXT: Скорбанни
 
 RESOURCE ID: pokemon_name_0814
-TEXT: Raboot
+TEXT: Рабут
 
 RESOURCE ID: pokemon_name_0815
-TEXT: Cinderace
+TEXT: Синдерэйс
 
 RESOURCE ID: pokemon_name_0816
-TEXT: Sobble
+TEXT: Соббл
 
 RESOURCE ID: pokemon_name_0817
-TEXT: Drizzile
+TEXT: Дриззайл
 
 RESOURCE ID: pokemon_name_0818
-TEXT: Inteleon
+TEXT: Интелеон
 
 RESOURCE ID: pokemon_name_0819
 TEXT: Сквовет
@@ -2454,34 +2807,34 @@ RESOURCE ID: pokemon_name_0820
 TEXT: Гридент
 
 RESOURCE ID: pokemon_name_0821
-TEXT: Rookidee
+TEXT: Рукиди
 
 RESOURCE ID: pokemon_name_0822
-TEXT: Corvisquire
+TEXT: Корвисквайр
 
 RESOURCE ID: pokemon_name_0823
-TEXT: Corviknight
+TEXT: Корвинайт
 
 RESOURCE ID: pokemon_name_0824
-TEXT: Blipbug
+TEXT: Блипбаг
 
 RESOURCE ID: pokemon_name_0825
-TEXT: Dottler
+TEXT: Доттлер
 
 RESOURCE ID: pokemon_name_0826
-TEXT: Orbeetle
+TEXT: Орбитл
 
 RESOURCE ID: pokemon_name_0827
-TEXT: Nickit
+TEXT: Никит
 
 RESOURCE ID: pokemon_name_0828
-TEXT: Thievul
+TEXT: Тивул
 
 RESOURCE ID: pokemon_name_0829
-TEXT: Gossifleur
+TEXT: Госсифлёр
 
 RESOURCE ID: pokemon_name_0830
-TEXT: Eldegoss
+TEXT: Эльдегосс
 
 RESOURCE ID: pokemon_name_0831
 TEXT: Вулу
@@ -2490,154 +2843,154 @@ RESOURCE ID: pokemon_name_0832
 TEXT: Дабвул
 
 RESOURCE ID: pokemon_name_0833
-TEXT: Chewtle
+TEXT: Чутл
 
 RESOURCE ID: pokemon_name_0834
-TEXT: Drednaw
+TEXT: Дрэдно
 
 RESOURCE ID: pokemon_name_0835
-TEXT: Yamper
+TEXT: Ямпер
 
 RESOURCE ID: pokemon_name_0836
-TEXT: Boltund
+TEXT: Болтанд
 
 RESOURCE ID: pokemon_name_0837
-TEXT: Rolycoly
+TEXT: Роликоли
 
 RESOURCE ID: pokemon_name_0838
-TEXT: Carkol
+TEXT: Каркол
 
 RESOURCE ID: pokemon_name_0839
-TEXT: Coalossal
+TEXT: Коалоссал
 
 RESOURCE ID: pokemon_name_0840
-TEXT: Applin
+TEXT: Апплин
 
 RESOURCE ID: pokemon_name_0841
-TEXT: Flapple
+TEXT: Флаппл
 
 RESOURCE ID: pokemon_name_0842
-TEXT: Appletun
+TEXT: Апплтун
 
 RESOURCE ID: pokemon_name_0843
-TEXT: Silicobra
+TEXT: Силикобра
 
 RESOURCE ID: pokemon_name_0844
-TEXT: Sandaconda
+TEXT: Сандаконда
 
 RESOURCE ID: pokemon_name_0845
-TEXT: Cramorant
+TEXT: Краморант
 
 RESOURCE ID: pokemon_name_0846
-TEXT: Arrokuda
+TEXT: Аррокуда
 
 RESOURCE ID: pokemon_name_0847
-TEXT: Barraskewda
+TEXT: Барраскюда
 
 RESOURCE ID: pokemon_name_0848
-TEXT: Toxel
+TEXT: Токсел
 
 RESOURCE ID: pokemon_name_0849
-TEXT: Toxtricity
+TEXT: Токстрисити
 
 RESOURCE ID: pokemon_name_0850
-TEXT: Sizzlipede
+TEXT: Сиззлипед
 
 RESOURCE ID: pokemon_name_0851
-TEXT: Centiskorch
+TEXT: Сентискорч
 
 RESOURCE ID: pokemon_name_0852
-TEXT: Clobbopus
+TEXT: Клоббопус
 
 RESOURCE ID: pokemon_name_0853
-TEXT: Grapploct
+TEXT: Грапплокт
 
 RESOURCE ID: pokemon_name_0854
-TEXT: Sinistea
+TEXT: Синисти
 
 RESOURCE ID: pokemon_name_0855
-TEXT: Polteageist
+TEXT: Полтигейст
 
 RESOURCE ID: pokemon_name_0856
-TEXT: Hatenna
+TEXT: Хатенна
 
 RESOURCE ID: pokemon_name_0857
-TEXT: Hattrem
+TEXT: Хаттрем
 
 RESOURCE ID: pokemon_name_0858
-TEXT: Hatterene
+TEXT: Хаттерин
 
 RESOURCE ID: pokemon_name_0859
-TEXT: Impidimp
+TEXT: Импидимп
 
 RESOURCE ID: pokemon_name_0860
-TEXT: Morgrem
+TEXT: Моргрем
 
 RESOURCE ID: pokemon_name_0861
-TEXT: Grimmsnarl
+TEXT: Гриммснарл
 
 RESOURCE ID: pokemon_name_0864
-TEXT: Cursola
+TEXT: Курсола
 
 RESOURCE ID: pokemon_name_0868
-TEXT: Milcery
+TEXT: Милсери
 
 RESOURCE ID: pokemon_name_0869
-TEXT: Alcremie
+TEXT: Алкреми
 
 RESOURCE ID: pokemon_name_0870
 TEXT: Фалинкс
 
 RESOURCE ID: pokemon_name_0871
-TEXT: Pincurchin
+TEXT: Пинкурчин
 
 RESOURCE ID: pokemon_name_0872
-TEXT: Snom
+TEXT: Сном
 
 RESOURCE ID: pokemon_name_0873
-TEXT: Frosmoth
+TEXT: Фросмот
 
 RESOURCE ID: pokemon_name_0874
-TEXT: Stonjourner
+TEXT: Стонджорнер
 
 RESOURCE ID: pokemon_name_0875
-TEXT: Eiscue
+TEXT: Айскью
 
 RESOURCE ID: pokemon_name_0876
-TEXT: Indeedee
+TEXT: Индиди
 
 RESOURCE ID: pokemon_name_0877
-TEXT: Morpeko
+TEXT: Морпеко
 
 RESOURCE ID: pokemon_name_0878
-TEXT: Cufant
+TEXT: Куфант
 
 RESOURCE ID: pokemon_name_0879
-TEXT: Copperajah
+TEXT: Коппераджа
 
 RESOURCE ID: pokemon_name_0880
-TEXT: Dracozolt
+TEXT: Дракозолт
 
 RESOURCE ID: pokemon_name_0881
-TEXT: Arctozolt
+TEXT: Арктозолт
 
 RESOURCE ID: pokemon_name_0882
-TEXT: Dracovish
+TEXT: Драковиш
 
 RESOURCE ID: pokemon_name_0883
-TEXT: Arctovish
+TEXT: Арктовиш
 
 RESOURCE ID: pokemon_name_0884
-TEXT: Duraludon
+TEXT: Дюралюдон
 
 RESOURCE ID: pokemon_name_0885
-TEXT: Dreepy
+TEXT: Дрипи
 
 RESOURCE ID: pokemon_name_0886
-TEXT: Drakloak
+TEXT: Драклоак
 
 RESOURCE ID: pokemon_name_0887
-TEXT: Dragapult
+TEXT: Драгапульт
 
 RESOURCE ID: pokemon_name_0888
 TEXT: Зэйшиан
@@ -2690,11 +3043,23 @@ TEXT: Поймай {0} Бидуфов
 RESOURCE ID: quest_complete_bidoof_branch_quest
 TEXT: БИДУФ
 
+RESOURCE ID: quest_complete_eevet
+TEXT: Who You Choose to Be
+
 RESOURCE ID: quest_complete_rockethq9
 TEXT: Радужная тень
 
 RESOURCE ID: quest_complete_tepit
 TEXT: Поджаренные ягоды
+
+RESOURCE ID: quest_dialogue_genesect_0_4
+TEXT: Поначалу казалось, что ущерб был нанесён Тренерами, практикующими в Боевой Лиге GO, но мое чутьё подсказало мне провести дальнейшее расследование утром.
+
+RESOURCE ID: quest_eevet_catch_b
+TEXT: Поймай {0} Иви
+
+RESOURCE ID: quest_eevet_evolve_b
+TEXT: Evolve {0} Eevee
 
 RESOURCE ID: quest_evolve_tepig_singular
 TEXT: Эволюционируй 1 Тепига
@@ -3134,11 +3499,134 @@ TEXT: В знак благодарности за твою усердную ра
 RESOURCE ID: quest_special_dialogue_bidoof_branch_quest_3_2
 TEXT: Почему бы тебе не надеть его и не сходить прогуляться со своим Бидуфом? Никогда не знаешь, что найдёшь! А теперь ИДИ И ЛОВИ!
 
+RESOURCE ID: quest_special_dialogue_eevet_0_0
+TEXT: Hey there, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_eevet_0_1
+TEXT: Not sure if you’ve noticed, but the surrounding areas seem to be experiencing a huge influx of Eevee, the Evolution Pokémon!
+
+RESOURCE ID: quest_special_dialogue_eevet_0_2
+TEXT: It’s been said that within its genetics lies the key to the mysteries of Pokémon Evolution.
+
+RESOURCE ID: quest_special_dialogue_eevet_0_3
+TEXT: I can understand that hypothesis—after all, Eevee can evolve into EIGHT Pokémon!
+
+RESOURCE ID: quest_special_dialogue_eevet_0_4
+TEXT: Talk about being adaptable to different situations. I don’t even have eight different outfits.
+
+RESOURCE ID: quest_special_dialogue_eevet_0_5
+TEXT: I basically wear this lab coat to every occasion—even formal events!
+
+RESOURCE ID: quest_special_dialogue_eevet_0_6
+TEXT: Anyway, perhaps by researching Eevee, we’ll be the lucky ones who’ll uncover the mysteries of Pokémon Evolution!
+
+RESOURCE ID: quest_special_dialogue_eevet_0_7
+TEXT: I’m excited already. Let’s GO learn about Eevee!
+
+RESOURCE ID: quest_special_dialogue_eevet_1_0
+TEXT: Great work, %PLAYERNAME% with your research thus far on Eevee!
+
+RESOURCE ID: quest_special_dialogue_eevet_1_1
+TEXT: Apparently its DNA is irregular which is what gives it the ability to evolve into so many different Pokémon.
+
+RESOURCE ID: quest_special_dialogue_eevet_1_2
+TEXT: For example, it has three Evolutions originally discovered in the Kanto region: a Water type, an Electric type, and a Fire type.
+
+RESOURCE ID: quest_special_dialogue_eevet_1_3
+TEXT: The type of Evolution that occurs apparently depends on the radiation it receives. Isn’t that fascinating!
+
+RESOURCE ID: quest_special_dialogue_eevet_1_4
+TEXT: Continue on your Eevee research and perhaps you might find yourself encountering its Kanto Evolutions.
+
+RESOURCE ID: quest_special_dialogue_eevet_2_0
+TEXT: Wow %PLAYERNAME%, you encountered not one, two, but all three of its Kanto Evolutions: Vaporeon, Jolteon, and Flareon!
+
+RESOURCE ID: quest_special_dialogue_eevet_2_1
+TEXT: These incredible creatures are capable of some impressive feats.
+
+RESOURCE ID: quest_special_dialogue_eevet_2_2
+TEXT: Did you know Vaporeon can melt away into water?
+
+RESOURCE ID: quest_special_dialogue_eevet_2_3
+TEXT: Or that Jolteon can blast out 10000-volt lightning bolts?
+
+RESOURCE ID: quest_special_dialogue_eevet_2_4
+TEXT: And Flareon blows out fire that is over 3,000F degrees?
+
+RESOURCE ID: quest_special_dialogue_eevet_2_5
+TEXT: And they all evolved from the same Pokémon too!
+
+RESOURCE ID: quest_special_dialogue_eevet_2_6
+TEXT: Outside of genetics, is there something more to this creature that makes it capable of so much potential?
+
+RESOURCE ID: quest_special_dialogue_eevet_2_7
+TEXT: Eevee is known to evolve if its environment changes, as well and that’s key to its Evolutions originally discovered in the Johto region: a Psychic type and a Dark type.
+
+RESOURCE ID: quest_special_dialogue_eevet_2_8
+TEXT: Continue on your Eevee research and perhaps you might find yourself encountering them as well!
+
+RESOURCE ID: quest_special_dialogue_eevet_3_0
+TEXT: Great work, %PLAYERNAME%! Looks like you’ve caught yourself an Espeon and an Umbreon too!
+
+RESOURCE ID: quest_special_dialogue_eevet_3_1
+TEXT: The Psychic-type Espeon can use the fine hair on its body to sense air currents and predict its enemies’ next move. It usually evolves from Eevee during daytime.
+
+RESOURCE ID: quest_special_dialogue_eevet_3_2
+TEXT: As for the Dark-type Umbreon, it evolves from Eevee during nighttime and it's said that its rings glow yellow under the full moon.
+
+RESOURCE ID: quest_special_dialogue_eevet_3_3
+TEXT: Perhaps this is what researchers were referring to when they said Eevee can evolve if its environment changes!
+
+RESOURCE ID: quest_special_dialogue_eevet_3_4
+TEXT: Can this clue us into the mysteries of Evolution?
+
+RESOURCE ID: quest_special_dialogue_eevet_3_5
+TEXT: Maybe its Evolutions originally discovered in the Sinnoh region will shed more light.
+
+RESOURCE ID: quest_special_dialogue_eevet_3_6
+TEXT: Those ones are Grass type and Ice type and are known to have evolved in that way in order to adapt to harsh conditions.
+
+RESOURCE ID: quest_special_dialogue_eevet_3_7
+TEXT: Continue on your Eevee research and perhaps you might find yourself encountering them as well!
+
+RESOURCE ID: quest_special_dialogue_eevet_4_0
+TEXT: %PLAYERNAME%—I’m amazed.
+
+RESOURCE ID: quest_special_dialogue_eevet_4_1
+TEXT: You’ve managed to catch Leafeon and Glaceon, Eevee’s Evolutions originally discovered in the Sinnoh region!
+
+RESOURCE ID: quest_special_dialogue_eevet_4_2
+TEXT: The vastly different environments in that region appear to have encouraged the adaptable Eevee to evolve into a Grass-type and an Ice-type Pokémon. It’s inspiring to see how resilient this little Pokémon can be!
+
+RESOURCE ID: quest_special_dialogue_eevet_4_3
+TEXT: We might not discover the secrets of Pokémon Evolution today, but I think we can learn a lot about ourselves through Pokémon.
+
+RESOURCE ID: quest_special_dialogue_eevet_4_4
+TEXT: Researching Eevee today has taught me that being able to become who we choose to be is a powerful skill and a gift.
+
+RESOURCE ID: quest_special_dialogue_eevet_4_5
+TEXT: I hope that Eevee can inspire you, %PLAYERNAME%, to reach your fullest potential and choose your path in life that suits you best.
+
+RESOURCE ID: quest_special_dialogue_eevet_4_6
+TEXT: Ahem, enough of this Professor’s ramblings: Eevee is known to have just one more Evolution—a Fairy type originally discovered in the Kalos region.
+
+RESOURCE ID: quest_special_dialogue_eevet_4_7
+TEXT: It has ribbon-like feelers that it uses to calm others and evolves from Eevee when it reaches a certain level of friendship and trust with its beloved Trainer. Knowing that almost brings a tear to my eye!
+
+RESOURCE ID: quest_special_dialogue_eevet_4_8
+TEXT: I hope you have the fortune of crossing paths with a wonderful Pokémon like this one soon.
+
+RESOURCE ID: quest_special_dialogue_eevet_4_9
+TEXT: Until then, let's GO!
+
 RESOURCE ID: quest_special_dialogue_megabee_2_2
 TEXT: Хотя пока что подтвердились данные лишь о некоторых из них, я уверен, что со временем мы обнаружим больше. На этом этапе у тебя должно получиться мегаэволюционировать Бидрилла, если всё готово.
 
 RESOURCE ID: quest_special_dialogue_rockethq2_3_0
 TEXT: Ты можешь гордиться своим прогрессом, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_rockethq6_5_3
+TEXT: Но мы не можем ослабить бдительность, пока рядом находится Команда Ракета GO. Поэтому необходимо продолжать оттачивать боевые приёмы. Я советую тебе бросать вызов товарищам-Тренерам в битвах, а также испытать себя в Боевой Лиге GO.
 
 RESOURCE ID: quest_special_dialogue_rockethq9_0_0
 TEXT: Привет, %PLAYERNAME%! Ты в последнее время ничего не замечаешь на небе? Я сначала подумал, что это у меня от отчётов цветные пятна перед глазами, но нет – всё небо в радугах!
@@ -3425,6 +3913,24 @@ TEXT: БИДУФ (3/4)
 RESOURCE ID: quest_title_bidoof_branch_quest_3
 TEXT: БИДУФ (4/4)
 
+RESOURCE ID: quest_title_eevet
+TEXT: Who You Choose to Be
+
+RESOURCE ID: quest_title_eevet_0
+TEXT: Who You Choose to Be (1/5)
+
+RESOURCE ID: quest_title_eevet_1
+TEXT: Who You Choose to Be (2/5)
+
+RESOURCE ID: quest_title_eevet_2
+TEXT: Who You Choose to Be (3/5)
+
+RESOURCE ID: quest_title_eevet_3
+TEXT: Who You Choose to Be (4/5)
+
+RESOURCE ID: quest_title_eevet_4
+TEXT: Who You Choose to Be (5/5)
+
 RESOURCE ID: quest_title_rockethq9
 TEXT: Радужная тень
 
@@ -3482,6 +3988,36 @@ TEXT: Поджаренные ягоды (3/4)
 RESOURCE ID: quest_title_tepit_3
 TEXT: Поджаренные ягоды (4/4)
 
+RESOURCE ID: quest_title_uu1_jul21_0
+TEXT: Ультрабонус 2021: Время (1/5)
+
+RESOURCE ID: quest_title_uu1_jul21_1
+TEXT: Ультрабонус 2021: Время (2/5)
+
+RESOURCE ID: quest_title_uu1_jul21_2
+TEXT: Ультрабонус 2021: Время (3/5)
+
+RESOURCE ID: quest_title_uu1_jul21_3
+TEXT: Ультрабонус 2021: Время (4/5)
+
+RESOURCE ID: quest_title_uu1_jul21_4
+TEXT: Ультрабонус 2021: Время (5/5)
+
+RESOURCE ID: quest_title_uu2_aug21_0
+TEXT: Ультрабонус 2021: Пространство (1/5)
+
+RESOURCE ID: quest_title_uu2_aug21_1
+TEXT: Ультрабонус 2021: Пространство (2/5)
+
+RESOURCE ID: quest_title_uu2_aug21_2
+TEXT: Ультрабонус 2021: Пространство (3/5)
+
+RESOURCE ID: quest_title_uu2_aug21_3
+TEXT: Ультрабонус 2021: Пространство (4/5)
+
+RESOURCE ID: quest_title_uu2_aug21_4
+TEXT: Ультрабонус 2021: Пространство (5/5)
+
 RESOURCE ID: quest_win_raid_buddy_singular
 TEXT: Победи в рейде с приятелем
 
@@ -3533,11 +4069,17 @@ TEXT: Обновить Niantic AR (AR+)
 RESOURCE ID: shop_quick_coins_get_them_here
 TEXT: Получи их здесь или посети магазин.
 
+RESOURCE ID: spawn_eevee
+TEXT: More Eevee are appearing in the wild
+
 RESOURCE ID: spawn_gible
 TEXT: Появляется больше диких Гиблов
 
 RESOURCE ID: spawn_tepig
 TEXT: Появляется больше диких Тепигов
+
+RESOURCE ID: ticket_eevee
+TEXT: Ticket for Special Research story available in the Shop: Who You Choose to Be
 
 RESOURCE ID: ticket_gible
 TEXT: Билеты на специальный квест «На один зуб» доступны в магазине
@@ -3546,31 +4088,31 @@ RESOURCE ID: ticket_tepig
 TEXT: Билеты на специальный квест «Поджаренные ягоды» доступны в магазине
 
 RESOURCE ID: tips_loading_screen_battle_switch_charged_move
-TEXT: Switch out Pokémon during battle for more charge moves.
+TEXT: Switch out Pokémon during battle to utilize your Battle Party’s different Charged Attacks.
 
 RESOURCE ID: tips_loading_screen_curveball_chance
-TEXT: Throwing a Curveball increases the chance of catching the Pokémon. 
+TEXT: A Curveball Throw will increase your chances of catching a Pokémon.
 
 RESOURCE ID: tips_loading_screen_daily_raid_pass
 TEXT: Collect your daily free Raid Pass by spinning the Photo Disc at any Gym.
 
 RESOURCE ID: tips_loading_screen_discard_all_items
-TEXT: Quickly discard all items from your inventory by tapping on the (-) button once. 
+TEXT: Quickly discard your entire stock of any one item in your Item Bag by tapping the − button on the discard screen.
 
 RESOURCE ID: tips_loading_screen_evolve_knocked_out
-TEXT: Evolving knocked out Pokémon returns them to full health.
+TEXT: When you evolve a Pokémon that’s been knocked out in battle, that Pokémon will automatically return to full health.
 
 RESOURCE ID: tips_loading_screen_friendship_lucky_egg
-TEXT: Maximize the XP you earn when leveling up your Friendship Level with a Lucky Egg.
+TEXT: Use a Lucky Egg to double the XP you earn by increasing your Friendship level with other Trainers.
 
 RESOURCE ID: tips_loading_screen_golden_razz_gym
-TEXT: Feeding a Golden Razz to your Pokémon in a gym will fully heal your Pokémon.
+TEXT: Feeding a Golden Razz Berry to a Pokémon defending a Gym will fully heal that Pokémon.
 
 RESOURCE ID: tips_loading_screen_raid_egg_hatch
-TEXT: For difficult Raids, it is more likely for players to gather at the moment the Raid Egg hatches.
+TEXT: It’s common for Trainers to challenge difficult raids the moment the Raid Egg hatches.
 
 RESOURCE ID: tips_loading_screen_raid_party_prep
-TEXT: Prepare a Battle Party in advance to best battle with different Raid Bosses.
+TEXT: Prepare a Battle Party in advance to lock in your strategy before challenging a Raid Boss.
 
 RESOURCE ID: tips_no_tag_message_title
 TEXT: Create Tags
@@ -3579,7 +4121,7 @@ RESOURCE ID: tips_tagging_idea_evolve
 TEXT: Evolve
 
 RESOURCE ID: tips_tagging_idea_gym_attacker
-TEXT: Gym Attacker
+TEXT: Gym Challenger
 
 RESOURCE ID: tips_tagging_idea_gym_defender
 TEXT: Gym Defender
@@ -3588,10 +4130,10 @@ RESOURCE ID: tips_tagging_idea_trade
 TEXT: Trades
 
 RESOURCE ID: tips_tagging_tutorial_body_0
-TEXT: As your Pokémon collection grows, you can now use tags to categorize and easily access your Pokémon based on characteristics you are most interested in.
+TEXT: As your Pokémon collection grows, try using tags to easily categorize and sort your Pokémon based on specific characteristics.
 
 RESOURCE ID: tips_tagging_tutorial_body_1
-TEXT: You can use tags in many ways. Here are some examples.
+TEXT: Here are some examples of ways you can utilize tags.
 
 RESOURCE ID: tips_tagging_tutorial_title_0
 TEXT: Tagging
@@ -3605,21 +4147,42 @@ TEXT: Stay Aware of Your Surroundings
 RESOURCE ID: ultra_league_remix_title
 TEXT: Ультралига: Ремикс
 
+RESOURCE ID: ultra_unlock_event_name_space
+TEXT: Ультрабонус. Часть 2: Пространство
+
+RESOURCE ID: ultra_unlock_event_name_time
+TEXT: Ультрабонус. Часть 1: Время
+
 RESOURCE ID: unlimited_label
-TEXT: Unlimited
+TEXT: Без ограничений
+
+RESOURCE ID: vss_entry_status
+TEXT: Выбери уровень наград, чтобы войти в Боевую Лигу GO.
+
+RESOURCE ID: vss_entry_title
+TEXT: Добро пожаловать в Боевую Лигу GO!
+
+RESOURCE ID: vss_season_end_notification
+TEXT: Сезон Боевой Лиги GO завершился. Получи свои награды!
+
+RESOURCE ID: vss_season_end_rating_journal
+TEXT: В этом сезоне заработаны {0}-й ранг и {1}-й рейтинг в Боевой Лиге GO!
+
+RESOURCE ID: vss_season_end_ratingless_journal
+TEXT: В этом сезоне заработан ранг {0} в Боевой Лиге GO!
 
 RESOURCE ID: wayfarer_eligible_body
-TEXT: Congratulations on reaching eligibility! Complete your Wayfarer onboarding to unlock PokéStop nomination and editing features.
+TEXT: Congratulations! You’ve become eligible for Niantic Wayfarer, a feature that allows you to nominate interesting and unique places in the world around you as points of interest in Niantic games. Complete your Wayfarer training to unlock PokéStop nomination and editing features.
 
 RESOURCE ID: wayfarer_eligible_goto
-TEXT: GO TO WAYFARER
+TEXT: CHECK IT OUT
 
 RESOURCE ID: wayfarer_eligible_later
 TEXT: MAYBE LATER
 
 RESOURCE ID: wayfarer_eligible_title
-TEXT: You're Eligible for Wayfarer!
+TEXT: You’re eligible for Niantic Wayfarer!
 
 RESOURCE ID: wayfarer_eligible_unlock_msg
-TEXT: Unlock by onboarding to Wayfarer!
+TEXT: Complete Wayfarer training to unlock!
 

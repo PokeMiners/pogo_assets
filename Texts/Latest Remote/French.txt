@@ -1,6 +1,9 @@
 RESOURCE ID: abi_address_book_button
 TEXT: AJOUTER DES AMIS DEPUIS LES CONTACTS
 
+RESOURCE ID: abi_contact_signed_up_notification
+TEXT: Des Dresseurs parmi tes contacts ont commencé leur aventure dans Pokémon GO... Consulte l’écran Amis pour leur envoyer une Invitation d’ami.
+
 RESOURCE ID: abi_new_player_onboarding_abi_info
 TEXT: Choisis les contacts auxquels envoyer une Invitation d’ami.
 
@@ -150,6 +153,9 @@ TEXT: Journée Keunotor
 
 RESOURCE ID: bonus_reward_200_catch_startdust
 TEXT: +200 Poussières Étoiles de capture
+
+RESOURCE ID: bonus_reward_200_catch_xp
+TEXT: +200 PX de capture
 
 RESOURCE ID: bonus_reward_200_spin_xp
 TEXT: +200 PX après avoir fait tourner un PokéStop
@@ -313,8 +319,14 @@ TEXT: 3 fois plus de chance d’obtenir des Bonbons L pour chaque Pokémon att
 RESOURCE ID: challenge_snapshot_bidoof
 TEXT: Prends une photo de Keunotor
 
+RESOURCE ID: community_day_eevee_event_name
+TEXT: Community Day: Eevee
+
 RESOURCE ID: community_day_tepig_event_name
 TEXT: Journée Communauté : Gruikui
+
+RESOURCE ID: delete
+TEXT: Supprimer
 
 RESOURCE ID: element_cup_title
 TEXT: Coupe Élément
@@ -341,7 +353,7 @@ RESOURCE ID: evolved_too_strong_may
 TEXT: This Pokémon might exceed the CP limit for some Battle Leagues.
 
 RESOURCE ID: evolved_too_strong_some
-TEXT: This Pokémon will exceed the CP limit for some Battle Leagues
+TEXT: This Pokémon will exceed the CP limit for some Battle Leagues.
 
 RESOURCE ID: f_avatar_poses_bundle_pose_30
 TEXT: Pose pop
@@ -349,17 +361,104 @@ TEXT: Pose pop
 RESOURCE ID: f_avatar_poses_bundle_pose_31
 TEXT: Pose rock’n’roll
 
+RESOURCE ID: form_aegislash_blade
+TEXT: Blade Forme
+
+RESOURCE ID: form_aegislash_shield
+TEXT: Shield Forme
+
 RESOURCE ID: form_amped
 TEXT: Amped Form
 
 RESOURCE ID: form_antique
 TEXT: Antique Form
 
+RESOURCE ID: form_arceus_bug
+TEXT: Bug-Type
+
+RESOURCE ID: form_arceus_dark
+TEXT: Dark-Type
+
+RESOURCE ID: form_arceus_dragon
+TEXT: Dragon-Type
+
+RESOURCE ID: form_arceus_electric
+TEXT: Electric-Type
+
+RESOURCE ID: form_arceus_fairy
+TEXT: Fairy-Type
+
+RESOURCE ID: form_arceus_fighting
+TEXT: Fighting-Type
+
+RESOURCE ID: form_arceus_fire
+TEXT: Fire-Type
+
+RESOURCE ID: form_arceus_flying
+TEXT: Flying-Type
+
+RESOURCE ID: form_arceus_ghost
+TEXT: Ghost-Type
+
+RESOURCE ID: form_arceus_grass
+TEXT: Grass-Type
+
+RESOURCE ID: form_arceus_ground
+TEXT: Ground-Type
+
+RESOURCE ID: form_arceus_ice
+TEXT: Ice-Type
+
+RESOURCE ID: form_arceus_normal
+TEXT: Normal-Type
+
+RESOURCE ID: form_arceus_poison
+TEXT: Poison-Type
+
+RESOURCE ID: form_arceus_psychic
+TEXT: Psychic-Type
+
+RESOURCE ID: form_arceus_rock
+TEXT: Rock-Type
+
+RESOURCE ID: form_arceus_steel
+TEXT: Steel-Type
+
+RESOURCE ID: form_arceus_water
+TEXT: Water-Type
+
 RESOURCE ID: form_baile
 TEXT: Baile Style
 
+RESOURCE ID: form_burmy_plant
+TEXT: Cape Plante
+
+RESOURCE ID: form_burmy_sandy
+TEXT: Cape Sable
+
+RESOURCE ID: form_burmy_trash
+TEXT: Cape Déchet
+
 RESOURCE ID: form_busted
 TEXT: Busted Form
+
+RESOURCE ID: form_castform_normal
+TEXT: Forme Normale
+
+RESOURCE ID: form_castform_rainy
+TEXT: Rainy Form
+
+RESOURCE ID: form_castform_snowy
+TEXT: Snowy Form
+
+RESOURCE ID: form_castform_sunny
+TEXT: Sunny Form
+
+RESOURCE ID: form_cherrim_overcast
+TEXT: Temps Couvert
+
+RESOURCE ID: form_cherrim_sunny
+TEXT: Temps Ensoleillé
 
 RESOURCE ID: form_core_blue
 TEXT: Blue Core
@@ -412,6 +511,21 @@ TEXT: Crowned Shield
 RESOURCE ID: form_crowned_sword
 TEXT: Crowned Sword
 
+RESOURCE ID: form_darmanitan_standard
+TEXT: Mode Normal
+
+RESOURCE ID: form_darmanitan_zen
+TEXT: Zen Mode
+
+RESOURCE ID: form_deoxys_attack
+TEXT: Attack Forme
+
+RESOURCE ID: form_deoxys_defense
+TEXT: Defense Forme
+
+RESOURCE ID: form_deoxys_speed
+TEXT: Speed Forme
+
 RESOURCE ID: form_disguised
 TEXT: Disguised Form
 
@@ -419,13 +533,61 @@ RESOURCE ID: form_dusk
 TEXT: Dusk Form
 
 RESOURCE ID: form_female
-TEXT: Female
+TEXT: Femelle
 
 RESOURCE ID: form_full_belly
-TEXT: Fully Belly Mode
+TEXT: Full Belly Mode
+
+RESOURCE ID: form_furfrou_dandy
+TEXT: Dandy Trim
+
+RESOURCE ID: form_furfrou_debutant
+TEXT: Debutante Trim
+
+RESOURCE ID: form_furfrou_diamond
+TEXT: Diamond Trim
+
+RESOURCE ID: form_furfrou_heart
+TEXT: Heart Trim
+
+RESOURCE ID: form_furfrou_kabuki
+TEXT: Kabuki Trim
+
+RESOURCE ID: form_furfrou_la_reine
+TEXT: La Reine Trim
+
+RESOURCE ID: form_furfrou_matron
+TEXT: Matron Trim
+
+RESOURCE ID: form_furfrou_natural
+TEXT: Natural Form
+
+RESOURCE ID: form_furfrou_pharaoh
+TEXT: Pharaoh Trim
+
+RESOURCE ID: form_furfrou_star
+TEXT: Star Trim
+
+RESOURCE ID: form_genesect_burn
+TEXT: Module Pyro
+
+RESOURCE ID: form_genesect_chill
+TEXT: Module Cryo
+
+RESOURCE ID: form_genesect_douse
+TEXT: Module Aqua
+
+RESOURCE ID: form_genesect_normal
+TEXT: Normale
+
+RESOURCE ID: form_genesect_shock
+TEXT: Module Choc
 
 RESOURCE ID: form_gorging
 TEXT: Gorging Form
+
+RESOURCE ID: form_greninja_ash
+TEXT: Ash-Greninja
 
 RESOURCE ID: form_gulping
 TEXT: Gulping Form
@@ -436,14 +598,47 @@ TEXT: Hangry Mode
 RESOURCE ID: form_hero
 TEXT: Hero of Many Battles
 
+RESOURCE ID: form_hoopa_confined
+TEXT: Hoopa Confined
+
+RESOURCE ID: form_hoopa_unbound
+TEXT: Hoopa Unbound
+
 RESOURCE ID: form_ice
 TEXT: Ice Face
+
+RESOURCE ID: form_keldeo_ordinary
+TEXT: Aspect Normal
+
+RESOURCE ID: form_keldeo_resolute
+TEXT: Resolute Form
+
+RESOURCE ID: form_kyurem_black
+TEXT: Kyurem Noir
+
+RESOURCE ID: form_kyurem_normal
+TEXT: Kyurem
+
+RESOURCE ID: form_kyurem_white
+TEXT: Kyurem Blanc
+
+RESOURCE ID: form_landorus_incarnate
+TEXT: Forme Avatar
+
+RESOURCE ID: form_landorus_therian
+TEXT: Forme Totémique
 
 RESOURCE ID: form_low_key
 TEXT: Low Key Form
 
 RESOURCE ID: form_male
-TEXT: Male
+TEXT: Mâle
+
+RESOURCE ID: form_meloetta_aria
+TEXT: Forme Chant
+
+RESOURCE ID: form_meloetta_pirouette
+TEXT: Pirouette Forme
 
 RESOURCE ID: form_meteor
 TEXT: Meteor Form
@@ -454,6 +649,24 @@ TEXT: Midday Form
 RESOURCE ID: form_midnight
 TEXT: Midnight Form
 
+RESOURCE ID: form_mimikyu_busted
+TEXT: Busted Form
+
+RESOURCE ID: form_mimikyu_disguised
+TEXT: Disguised Form
+
+RESOURCE ID: form_necrozma_dawn_wings
+TEXT: Ailes de l’Aurore
+
+RESOURCE ID: form_necrozma_dusk_mane
+TEXT: Dusk Mane
+
+RESOURCE ID: form_necrozma_normal
+TEXT: Necrozma
+
+RESOURCE ID: form_necrozma_ultra
+TEXT: Ultra Necrozma
+
 RESOURCE ID: form_noice
 TEXT: Noice Face
 
@@ -463,11 +676,35 @@ TEXT: Pa'u Style
 RESOURCE ID: form_phony
 TEXT: Phony Form
 
+RESOURCE ID: form_pirouette
+TEXT: Pirouette Forme
+
 RESOURCE ID: form_pompom
 TEXT: Pom-Pom Style
 
+RESOURCE ID: form_primal
+TEXT: Primal Reversion
+
 RESOURCE ID: form_regular
 TEXT: Regular Form
+
+RESOURCE ID: form_rotom_fan
+TEXT: Motisma Hélice
+
+RESOURCE ID: form_rotom_frost
+TEXT: Motisma Froid
+
+RESOURCE ID: form_rotom_heat
+TEXT: Motisma Chaleur
+
+RESOURCE ID: form_rotom_mow
+TEXT: Motisma Tonte
+
+RESOURCE ID: form_rotom_normal
+TEXT: Motisma
+
+RESOURCE ID: form_rotom_wash
+TEXT: Motisma Lavage
 
 RESOURCE ID: form_school
 TEXT: School Form
@@ -475,67 +712,168 @@ TEXT: School Form
 RESOURCE ID: form_sensu
 TEXT: Sensu Style
 
+RESOURCE ID: form_shaymin_land
+TEXT: Forme Terrestre
+
+RESOURCE ID: form_shaymin_sky
+TEXT: Forme Céleste
+
+RESOURCE ID: form_silvally_bug
+TEXT: Type: Bug
+
+RESOURCE ID: form_silvally_dark
+TEXT: Type: Dark
+
+RESOURCE ID: form_silvally_dragon
+TEXT: Type: Dragon
+
+RESOURCE ID: form_silvally_electric
+TEXT: Type: Electric
+
+RESOURCE ID: form_silvally_fairy
+TEXT: Type: Fairy
+
+RESOURCE ID: form_silvally_fighting
+TEXT: Type: Fighting
+
+RESOURCE ID: form_silvally_fire
+TEXT: Type: Fire
+
+RESOURCE ID: form_silvally_flying
+TEXT: Type: Flying
+
+RESOURCE ID: form_silvally_ghost
+TEXT: Type: Ghost
+
+RESOURCE ID: form_silvally_grass
+TEXT: Type: Grass
+
+RESOURCE ID: form_silvally_ground
+TEXT: Type: Ground
+
+RESOURCE ID: form_silvally_ice
+TEXT: Type: Ice
+
+RESOURCE ID: form_silvally_normal
+TEXT: Type: Normal
+
+RESOURCE ID: form_silvally_poison
+TEXT: Type: Poison
+
+RESOURCE ID: form_silvally_psychic
+TEXT: Type: Psychic
+
+RESOURCE ID: form_silvally_rock
+TEXT: Type: Rock
+
+RESOURCE ID: form_silvally_steel
+TEXT: Type: Steel
+
+RESOURCE ID: form_silvally_water
+TEXT: Type: Water
+
 RESOURCE ID: form_solo
 TEXT: Solo Form
 
-RESOURCE ID: form_type_bug
-TEXT: Type: Bug
+RESOURCE ID: form_thundurus_incarnate
+TEXT: Forme Avatar
 
-RESOURCE ID: form_type_dark
-TEXT: Type: Dark
+RESOURCE ID: form_thundurus_therian
+TEXT: Forme Totémique
 
-RESOURCE ID: form_type_dragon
-TEXT: Type: Dragon
+RESOURCE ID: form_tornadus_incarnate
+TEXT: Forme Avatar
 
-RESOURCE ID: form_type_electric
-TEXT: Type: Electric
+RESOURCE ID: form_tornadus_therian
+TEXT: Forme Totémique
 
-RESOURCE ID: form_type_fairy
-TEXT: Type: Fairy
+RESOURCE ID: form_vivillon_archipelago
+TEXT: Archipelago Pattern
 
-RESOURCE ID: form_type_fighting
-TEXT: Type: Fighting
+RESOURCE ID: form_vivillon_continental
+TEXT: Continental Pattern
 
-RESOURCE ID: form_type_fire
-TEXT: Type: Fire
+RESOURCE ID: form_vivillon_elegant
+TEXT: Elegant Pattern
 
-RESOURCE ID: form_type_flying
-TEXT: Type: Flying
+RESOURCE ID: form_vivillon_fancy
+TEXT: Fancy Pattern
 
-RESOURCE ID: form_type_ghost
-TEXT: Type: Ghost
+RESOURCE ID: form_vivillon_garden
+TEXT: Garden Pattern
 
-RESOURCE ID: form_type_grass
-TEXT: Type: Grass
+RESOURCE ID: form_vivillon_high_plains
+TEXT: High Plains Pattern
 
-RESOURCE ID: form_type_ground
-TEXT: Type: Ground
+RESOURCE ID: form_vivillon_icy_snow
+TEXT: Icy Snow Pattern
 
-RESOURCE ID: form_type_ice
-TEXT: Type: Ice
+RESOURCE ID: form_vivillon_jungle
+TEXT: Jungle Pattern
 
-RESOURCE ID: form_type_normal
-TEXT: Type: Normal
+RESOURCE ID: form_vivillon_marine
+TEXT: Marine Pattern
 
-RESOURCE ID: form_type_poison
-TEXT: Type: Poison
+RESOURCE ID: form_vivillon_meadow
+TEXT: Meadow Pattern
 
-RESOURCE ID: form_type_psychic
-TEXT: Type: Psychic
+RESOURCE ID: form_vivillon_modern
+TEXT: Modern Pattern
 
-RESOURCE ID: form_type_rock
-TEXT: Type: Rock
+RESOURCE ID: form_vivillon_monsoon
+TEXT: Monsoon Pattern
 
-RESOURCE ID: form_type_steel
-TEXT: Type: Steel
+RESOURCE ID: form_vivillon_ocean
+TEXT: Ocean Pattern
 
-RESOURCE ID: form_type_water
-TEXT: Type: Water
+RESOURCE ID: form_vivillon_pokeball
+TEXT: Poké Ball Pattern
+
+RESOURCE ID: form_vivillon_polar
+TEXT: Polar Pattern
+
+RESOURCE ID: form_vivillon_river
+TEXT: River Pattern
+
+RESOURCE ID: form_vivillon_sandstorm
+TEXT: Sandstorm Pattern
+
+RESOURCE ID: form_vivillon_savanna
+TEXT: Savanna Pattern
+
+RESOURCE ID: form_vivillon_sun
+TEXT: Sun Pattern
+
+RESOURCE ID: form_vivillon_tundra
+TEXT: Tundra Pattern
+
+RESOURCE ID: form_wishiwashi_school
+TEXT: School Form
+
+RESOURCE ID: form_wishiwashi_solo
+TEXT: Solo Form
+
+RESOURCE ID: form_zygarde_complete
+TEXT: Complete Forme
+
+RESOURCE ID: form_zygarde_fifty_percent
+TEXT: 50% Forme
+
+RESOURCE ID: form_zygarde_ten_percent
+TEXT: 10% Forme
 
 RESOURCE ID: general1.ticket.2_description
 TEXT: Un ticket pour accéder à l’Étude spéciale “Baies grillées”, le 3 juillet 2021 de 11h à 17h (heures locales) où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
 
 Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet évènement spécial.
+
+RESOURCE ID: general1.ticket.2_eevet_description
+TEXT: A ticket to access the Who You Choose to Be Special Research from August 14, 2021, at 11:00 a.m. to August 15, 2021, at 5:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
+
+ YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_eevet_title
+TEXT: Who You Choose to Be Ticket
 
 RESOURCE ID: general1.ticket.2_tepit_description
 TEXT: Un ticket pour accéder à l’Étude spéciale “Baies grillées” le 3 juillet 2021 de 11h à 17h (heures locales), où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
@@ -641,6 +979,12 @@ TEXT: Un ticket pour accéder à une Étude spéciale le 3 juillet de 11h à 17
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à une Étude spéciale le 3 juillet 2021, où que tu sois.
 
+RESOURCE ID: item_event_ticket_pink_eevet_desc
+TEXT: A ticket to access a special research on August 14-15 from 11 a.m. to 5 p.m. local time each day, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_eevet_details
+TEXT: This ticket will automatically activate to give you access to a special research on August 14-15, wherever you are in the world.
+
 RESOURCE ID: item_event_ticket_pink_tepit_desc
 TEXT: Un ticket pour accéder à une Étude spéciale le 3 juillet de 11h à 17h (heures locales) où que tu sois.
 
@@ -650,6 +994,12 @@ TEXT: Ce ticket s’activera automatiquement pour te donner accès à une Étude
 RESOURCE ID: item_kings_rock
 TEXT: Roche Royale
 
+RESOURCE ID: item_leader_map_fragment_desc
+TEXT: Each time you Battle and defeat a Team GO Rocket Grunt, they’ll drop a Mysterious Component. Collect all 6 to see what they combine into!
+
+RESOURCE ID: leader_map_assembled_description
+TEXT: Your Mysterious Components have combined into a Rocket Radar. Use the Rocket Radar to locate Team GO Rocket Hideouts!
+
 RESOURCE ID: m_avatar_poses_bundle_pose_30
 TEXT: Pose pop
 
@@ -657,9 +1007,9 @@ RESOURCE ID: m_avatar_poses_bundle_pose_31
 TEXT: Pose rock’n’roll
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-07-14T22:57:43.101760
-at SHA 57acb648304f179c67e458e4a0b975323cfa796d
-Patch from: 0.213.0-SHA-5f93ad94, 0.213.1-SHA-e2a48419, 0.213.2-SHA-4db157d3
+TEXT: Built at 2021-07-22T21:40:33.830343
+at SHA 7ff677bed67c82339768165369da21337e2bcbc7
+Patch from: 0.213.0-SHA-5f93ad94, 0.213.1-SHA-e2a48419, 0.213.2-SHA-4db157d3, 0.215.0-SHA-0abb5206
 
 RESOURCE ID: minicollect_help_desc_type_catch_from_raid
 TEXT: Attrape des Pokémon dans les Raids.
@@ -829,6 +1179,9 @@ TEXT: Photo enregistrée
 RESOURCE ID: photo_unable_to_save
 TEXT: La photo n’a pas pu être enregistrée.
 
+RESOURCE ID: photobomb_five_eevee
+TEXT: 5 Photobombs from Eevee in GO Snapshot
+
 RESOURCE ID: photobomb_five_tepig
 TEXT: Gruikui s’introduit 5 fois dans tes Clichés GO
 
@@ -839,10 +1192,10 @@ RESOURCE ID: poi_category_add_button
 TEXT: ADD LOCATION CATEGORY
 
 RESOURCE ID: poi_category_add_title_edit
-TEXT: Please categorize this location
+TEXT: Please categorize this location.
 
 RESOURCE ID: poi_category_add_title_nom
-TEXT: Categorize this location
+TEXT: Categorize this location.
 
 RESOURCE ID: poi_category_already_selected
 TEXT: Category is already selected
@@ -851,22 +1204,22 @@ RESOURCE ID: poi_category_back
 TEXT: BACK
 
 RESOURCE ID: poi_category_nom_title
-TEXT: PokéStop Category
+TEXT: Location Category
 
 RESOURCE ID: poi_category_ok
 TEXT: OK
 
 RESOURCE ID: poi_category_optional_prompt
-TEXT: Enter comma separated suggestions here
+TEXT: Enter comma-separated suggestions here.
 
 RESOURCE ID: poi_category_optional_title
 TEXT: Category suggestion (optional)
 
 RESOURCE ID: poi_category_select_error
-TEXT: {0} doesn't exist in our category list
+TEXT: {0} isn’t on the category list.
 
 RESOURCE ID: poi_category_select_prompt
-TEXT: Select or type here
+TEXT: Select or type here.
 
 RESOURCE ID: poi_category_selected
 TEXT: Selected
@@ -1421,13 +1774,13 @@ RESOURCE ID: pokemon_desc_0080_2583
 TEXT: Le stimulus de la morsure du Kokiyas a déclenché une réaction chimique des épices retenues dans le corps de Flagadoss, lui donnant le type Poison.
 
 RESOURCE ID: pokemon_desc_0144_g
-TEXT: Its feather-like blades are composed of psychic energy and can shear through thick iron sheets as if they were paper.
+TEXT: Les lames en forme de plumes qu’il crée grâce à ses pouvoirs psychiques peuvent trancher une épaisse plaque de fer comme si c’était du papier.
 
 RESOURCE ID: pokemon_desc_0145_g
-TEXT: When its feathers rub together, they produce a crackling sound like the zapping of electricity. That’s why this Pokémon is called Zapdos.
+TEXT: Électhor est le nom qui a été choisi pour ce Pokémon dont les plumes produisent des crépitements électriques si on les frotte.
 
 RESOURCE ID: pokemon_desc_0146_g
-TEXT: This Pokémon’s sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.
+TEXT: Son aura maléfique semblable à un brasier peut consumer intégralement l’âme de quiconque en est la cible.
 
 RESOURCE ID: pokemon_desc_0199_2584
 TEXT: Le choc de l'évolution et les toxines ont décuplé l'intelligence du Kokiyas, si bien qu'il contrôle désormais le Roigada qu'il parasite.
@@ -1622,7 +1975,7 @@ RESOURCE ID: pokemon_desc_0773
 TEXT: Il a réussi à briser son masque grâce à la force mentale qu'il a acquise en établissant un lien puissant avec son Dresseur.
 
 RESOURCE ID: pokemon_desc_0773_disc
-TEXT: Its capacity to change types unleashed, it shines silver due to the energy springing forth from within.
+TEXT: Il a enfin libéré tout son pouvoir et peut changer de type à volonté. L’énergie qui afflue en lui le fait briller d’une lueur argentée.
 
 RESOURCE ID: pokemon_desc_0773_normal
 TEXT: Il a réussi à briser son masque grâce à la force mentale qu'il a acquise en établissant un lien puissant avec son Dresseur.
@@ -1631,7 +1984,7 @@ RESOURCE ID: pokemon_desc_0774
 TEXT: Sa carapace, pourtant très solide, éclate en mille morceaux quand il s'écrase sur la terre en tombant du ciel.
 
 RESOURCE ID: pokemon_desc_0774_exposed
-TEXT: This is its form when its shell has fallen off. The color of its core depends on the materials that made up the food it ate.
+TEXT: Météno se présente sous cette forme quand il perd sa carapace. La couleur de son noyau varie en fonction des composants de sa nourriture.
 
 RESOURCE ID: pokemon_desc_0774_meteor
 TEXT: Sa carapace, pourtant très solide, éclate en mille morceaux quand il s'écrase sur la terre en tombant du ciel.
@@ -1652,7 +2005,7 @@ RESOURCE ID: pokemon_desc_0779
 TEXT: Sa peau est si épaisse que même les épines de Vorastérie ne peuvent la percer. Il les croque bruyamment grâce à ses dents solides.
 
 RESOURCE ID: pokemon_desc_0779_busted
-TEXT: Sad that its true identity may be exposed, Mimikyu will mercilessly seek revenge on any opponent that breaks its neck.
+TEXT: Au bord des larmes lorsque son déguisement commence à tomber, il se venge en maudissant la personne qui lui a tordu le cou.
 
 RESOURCE ID: pokemon_desc_0779_disguised
 TEXT: Sa peau est si épaisse que même les épines de Vorastérie ne peuvent la percer. Il les croque bruyamment grâce à ses dents solides.
@@ -2638,11 +2991,20 @@ TEXT: Attrape {0} Keunotor
 RESOURCE ID: quest_complete_bidoof_branch_quest
 TEXT: KEUNOTOR
 
+RESOURCE ID: quest_complete_eevet
+TEXT: Who You Choose to Be
+
 RESOURCE ID: quest_complete_rockethq9
 TEXT: Une obscurité irisée
 
 RESOURCE ID: quest_complete_tepit
 TEXT: Baies grillées
+
+RESOURCE ID: quest_eevet_catch_b
+TEXT: Attrape {0} Évoli
+
+RESOURCE ID: quest_eevet_evolve_b
+TEXT: Evolve {0} Eevee
 
 RESOURCE ID: quest_evolve_slowpoke_plural
 TEXT: Fais évoluer {0} Ramoloss
@@ -3076,6 +3438,126 @@ TEXT: Pour te remercier de ton travail, les chefs d'équipes et moi t’avons pr
 RESOURCE ID: quest_special_dialogue_bidoof_branch_quest_3_2
 TEXT: Pourquoi ne pas le mettre et partir en balade avec ton Keunotor ? Tu ne sais pas ce que tu découvriras ! Alors, c’est parti !
 
+RESOURCE ID: quest_special_dialogue_eevet_0_0
+TEXT: Salut, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_eevet_0_1
+TEXT: Not sure if you’ve noticed, but the surrounding areas seem to be experiencing a huge influx of Eevee, the Evolution Pokémon!
+
+RESOURCE ID: quest_special_dialogue_eevet_0_2
+TEXT: It’s been said that within its genetics lies the key to the mysteries of Pokémon Evolution.
+
+RESOURCE ID: quest_special_dialogue_eevet_0_3
+TEXT: I can understand that hypothesis—after all, Eevee can evolve into EIGHT Pokémon!
+
+RESOURCE ID: quest_special_dialogue_eevet_0_4
+TEXT: Talk about being adaptable to different situations. I don’t even have eight different outfits.
+
+RESOURCE ID: quest_special_dialogue_eevet_0_5
+TEXT: I basically wear this lab coat to every occasion—even formal events!
+
+RESOURCE ID: quest_special_dialogue_eevet_0_6
+TEXT: Anyway, perhaps by researching Eevee, we’ll be the lucky ones who’ll uncover the mysteries of Pokémon Evolution!
+
+RESOURCE ID: quest_special_dialogue_eevet_0_7
+TEXT: I’m excited already. Let’s GO learn about Eevee!
+
+RESOURCE ID: quest_special_dialogue_eevet_1_0
+TEXT: Great work, %PLAYERNAME% with your research thus far on Eevee!
+
+RESOURCE ID: quest_special_dialogue_eevet_1_1
+TEXT: Apparently its DNA is irregular which is what gives it the ability to evolve into so many different Pokémon.
+
+RESOURCE ID: quest_special_dialogue_eevet_1_2
+TEXT: For example, it has three Evolutions originally discovered in the Kanto region: a Water type, an Electric type, and a Fire type.
+
+RESOURCE ID: quest_special_dialogue_eevet_1_3
+TEXT: The type of Evolution that occurs apparently depends on the radiation it receives. Isn’t that fascinating!
+
+RESOURCE ID: quest_special_dialogue_eevet_1_4
+TEXT: Continue on your Eevee research and perhaps you might find yourself encountering its Kanto Evolutions.
+
+RESOURCE ID: quest_special_dialogue_eevet_2_0
+TEXT: Wow %PLAYERNAME%, you encountered not one, two, but all three of its Kanto Evolutions: Vaporeon, Jolteon, and Flareon!
+
+RESOURCE ID: quest_special_dialogue_eevet_2_1
+TEXT: These incredible creatures are capable of some impressive feats.
+
+RESOURCE ID: quest_special_dialogue_eevet_2_2
+TEXT: Did you know Vaporeon can melt away into water?
+
+RESOURCE ID: quest_special_dialogue_eevet_2_3
+TEXT: Or that Jolteon can blast out 10000-volt lightning bolts?
+
+RESOURCE ID: quest_special_dialogue_eevet_2_4
+TEXT: And Flareon blows out fire that is over 3,000F degrees?
+
+RESOURCE ID: quest_special_dialogue_eevet_2_5
+TEXT: And they all evolved from the same Pokémon too!
+
+RESOURCE ID: quest_special_dialogue_eevet_2_6
+TEXT: Outside of genetics, is there something more to this creature that makes it capable of so much potential?
+
+RESOURCE ID: quest_special_dialogue_eevet_2_7
+TEXT: Eevee is known to evolve if its environment changes, as well and that’s key to its Evolutions originally discovered in the Johto region: a Psychic type and a Dark type.
+
+RESOURCE ID: quest_special_dialogue_eevet_2_8
+TEXT: Continue on your Eevee research and perhaps you might find yourself encountering them as well!
+
+RESOURCE ID: quest_special_dialogue_eevet_3_0
+TEXT: Great work, %PLAYERNAME%! Looks like you’ve caught yourself an Espeon and an Umbreon too!
+
+RESOURCE ID: quest_special_dialogue_eevet_3_1
+TEXT: The Psychic-type Espeon can use the fine hair on its body to sense air currents and predict its enemies’ next move. It usually evolves from Eevee during daytime.
+
+RESOURCE ID: quest_special_dialogue_eevet_3_2
+TEXT: As for the Dark-type Umbreon, it evolves from Eevee during nighttime and it's said that its rings glow yellow under the full moon.
+
+RESOURCE ID: quest_special_dialogue_eevet_3_3
+TEXT: Perhaps this is what researchers were referring to when they said Eevee can evolve if its environment changes!
+
+RESOURCE ID: quest_special_dialogue_eevet_3_4
+TEXT: Can this clue us into the mysteries of Evolution?
+
+RESOURCE ID: quest_special_dialogue_eevet_3_5
+TEXT: Maybe its Evolutions originally discovered in the Sinnoh region will shed more light.
+
+RESOURCE ID: quest_special_dialogue_eevet_3_6
+TEXT: Those ones are Grass type and Ice type and are known to have evolved in that way in order to adapt to harsh conditions.
+
+RESOURCE ID: quest_special_dialogue_eevet_3_7
+TEXT: Continue on your Eevee research and perhaps you might find yourself encountering them as well!
+
+RESOURCE ID: quest_special_dialogue_eevet_4_0
+TEXT: %PLAYERNAME%—I’m amazed.
+
+RESOURCE ID: quest_special_dialogue_eevet_4_1
+TEXT: You’ve managed to catch Leafeon and Glaceon, Eevee’s Evolutions originally discovered in the Sinnoh region!
+
+RESOURCE ID: quest_special_dialogue_eevet_4_2
+TEXT: The vastly different environments in that region appear to have encouraged the adaptable Eevee to evolve into a Grass-type and an Ice-type Pokémon. It’s inspiring to see how resilient this little Pokémon can be!
+
+RESOURCE ID: quest_special_dialogue_eevet_4_3
+TEXT: We might not discover the secrets of Pokémon Evolution today, but I think we can learn a lot about ourselves through Pokémon.
+
+RESOURCE ID: quest_special_dialogue_eevet_4_4
+TEXT: Researching Eevee today has taught me that being able to become who we choose to be is a powerful skill and a gift.
+
+RESOURCE ID: quest_special_dialogue_eevet_4_5
+TEXT: I hope that Eevee can inspire you, %PLAYERNAME%, to reach your fullest potential and choose your path in life that suits you best.
+
+RESOURCE ID: quest_special_dialogue_eevet_4_6
+TEXT: Ahem, enough of this Professor’s ramblings: Eevee is known to have just one more Evolution—a Fairy type originally discovered in the Kalos region.
+
+RESOURCE ID: quest_special_dialogue_eevet_4_7
+TEXT: It has ribbon-like feelers that it uses to calm others and evolves from Eevee when it reaches a certain level of friendship and trust with its beloved Trainer. Knowing that almost brings a tear to my eye!
+
+RESOURCE ID: quest_special_dialogue_eevet_4_8
+TEXT: I hope you have the fortune of crossing paths with a wonderful Pokémon like this one soon.
+
+RESOURCE ID: quest_special_dialogue_eevet_4_9
+TEXT: Until then, let's GO!
+
 RESOURCE ID: quest_special_dialogue_rockethq9_0_0
 TEXT: Salut, %PLAYERNAME%. As-tu regardé le ciel, ces derniers temps ? Je croyais avoir passé trop de temps à lire des rapports, mais non, il y a des arcs-en-ciel partout !
 
@@ -3358,6 +3840,24 @@ TEXT: KEUNOTOR (3/4)
 RESOURCE ID: quest_title_bidoof_branch_quest_3
 TEXT: KEUNOTOR (4/4)
 
+RESOURCE ID: quest_title_eevet
+TEXT: Who You Choose to Be
+
+RESOURCE ID: quest_title_eevet_0
+TEXT: Who You Choose to Be (1/5)
+
+RESOURCE ID: quest_title_eevet_1
+TEXT: Who You Choose to Be (2/5)
+
+RESOURCE ID: quest_title_eevet_2
+TEXT: Who You Choose to Be (3/5)
+
+RESOURCE ID: quest_title_eevet_3
+TEXT: Who You Choose to Be (4/5)
+
+RESOURCE ID: quest_title_eevet_4
+TEXT: Who You Choose to Be (5/5)
+
 RESOURCE ID: quest_title_rockethq9
 TEXT: Une obscurité irisée
 
@@ -3415,6 +3915,36 @@ TEXT: Baies grillées (3/4)
 RESOURCE ID: quest_title_tepit_3
 TEXT: Baies grillées (4/4)
 
+RESOURCE ID: quest_title_uu1_jul21_0
+TEXT: Ultra Bonus 2021 : Temps (1/5)
+
+RESOURCE ID: quest_title_uu1_jul21_1
+TEXT: Ultra Bonus 2021 : Temps (2/5)
+
+RESOURCE ID: quest_title_uu1_jul21_2
+TEXT: Ultra Bonus 2021 : Temps (3/5)
+
+RESOURCE ID: quest_title_uu1_jul21_3
+TEXT: Ultra Bonus 2021 : Temps (4/5)
+
+RESOURCE ID: quest_title_uu1_jul21_4
+TEXT: Ultra Bonus 2021 : Temps (5/5)
+
+RESOURCE ID: quest_title_uu2_aug21_0
+TEXT: Ultra Bonus 2021 : Espace (1/5)
+
+RESOURCE ID: quest_title_uu2_aug21_1
+TEXT: Ultra Bonus 2021 : Espace (2/5)
+
+RESOURCE ID: quest_title_uu2_aug21_2
+TEXT: Ultra Bonus 2021 : Espace (3/5)
+
+RESOURCE ID: quest_title_uu2_aug21_3
+TEXT: Ultra Bonus 2021 : Espace (4/5)
+
+RESOURCE ID: quest_title_uu2_aug21_4
+TEXT: Ultra Bonus 2021 : Espace (5/5)
+
 RESOURCE ID: quest_win_raid_buddy_singular
 TEXT: Gagne un Raid avec ton copain
 
@@ -3463,41 +3993,47 @@ TEXT: Défi “Une découverte très lente”
 RESOURCE ID: slowpoke_event_june_2021
 TEXT: Une découverte très lente
 
+RESOURCE ID: spawn_eevee
+TEXT: More Eevee are appearing in the wild
+
 RESOURCE ID: spawn_tepig
 TEXT: Plus de Gruikui apparaissent dans la nature
 
 RESOURCE ID: ticket_abra
 TEXT: Ticket pour l’Étude spéciale “L’impression d’une investigation” dans la Boutique
 
+RESOURCE ID: ticket_eevee
+TEXT: Ticket for Special Research story available in the Shop: Who You Choose to Be
+
 RESOURCE ID: ticket_tepig
 TEXT: Ticket pour l’Étude spéciale “Baies grillées” disponible dans la Boutique
 
 RESOURCE ID: tips_loading_screen_battle_switch_charged_move
-TEXT: Switch out Pokémon during battle for more charge moves.
+TEXT: Switch out Pokémon during battle to utilize your Battle Party’s different Charged Attacks.
 
 RESOURCE ID: tips_loading_screen_curveball_chance
-TEXT: Throwing a Curveball increases the chance of catching the Pokémon. 
+TEXT: A Curveball Throw will increase your chances of catching a Pokémon.
 
 RESOURCE ID: tips_loading_screen_daily_raid_pass
 TEXT: Collect your daily free Raid Pass by spinning the Photo Disc at any Gym.
 
 RESOURCE ID: tips_loading_screen_discard_all_items
-TEXT: Quickly discard all items from your inventory by tapping on the (-) button once. 
+TEXT: Quickly discard your entire stock of any one item in your Item Bag by tapping the − button on the discard screen.
 
 RESOURCE ID: tips_loading_screen_evolve_knocked_out
-TEXT: Evolving knocked out Pokémon returns them to full health.
+TEXT: When you evolve a Pokémon that’s been knocked out in battle, that Pokémon will automatically return to full health.
 
 RESOURCE ID: tips_loading_screen_friendship_lucky_egg
-TEXT: Maximize the XP you earn when leveling up your Friendship Level with a Lucky Egg.
+TEXT: Use a Lucky Egg to double the XP you earn by increasing your Friendship level with other Trainers.
 
 RESOURCE ID: tips_loading_screen_golden_razz_gym
-TEXT: Feeding a Golden Razz to your Pokémon in a gym will fully heal your Pokémon.
+TEXT: Feeding a Golden Razz Berry to a Pokémon defending a Gym will fully heal that Pokémon.
 
 RESOURCE ID: tips_loading_screen_raid_egg_hatch
-TEXT: For difficult Raids, it is more likely for players to gather at the moment the Raid Egg hatches.
+TEXT: It’s common for Trainers to challenge difficult raids the moment the Raid Egg hatches.
 
 RESOURCE ID: tips_loading_screen_raid_party_prep
-TEXT: Prepare a Battle Party in advance to best battle with different Raid Bosses.
+TEXT: Prepare a Battle Party in advance to lock in your strategy before challenging a Raid Boss.
 
 RESOURCE ID: tips_no_tag_message_title
 TEXT: Create Tags
@@ -3506,7 +4042,7 @@ RESOURCE ID: tips_tagging_idea_evolve
 TEXT: Evolve
 
 RESOURCE ID: tips_tagging_idea_gym_attacker
-TEXT: Gym Attacker
+TEXT: Gym Challenger
 
 RESOURCE ID: tips_tagging_idea_gym_defender
 TEXT: Gym Defender
@@ -3515,10 +4051,10 @@ RESOURCE ID: tips_tagging_idea_trade
 TEXT: Trades
 
 RESOURCE ID: tips_tagging_tutorial_body_0
-TEXT: As your Pokémon collection grows, you can now use tags to categorize and easily access your Pokémon based on characteristics you are most interested in.
+TEXT: As your Pokémon collection grows, try using tags to easily categorize and sort your Pokémon based on specific characteristics.
 
 RESOURCE ID: tips_tagging_tutorial_body_1
-TEXT: You can use tags in many ways. Here are some examples.
+TEXT: Here are some examples of ways you can utilize tags.
 
 RESOURCE ID: tips_tagging_tutorial_title_0
 TEXT: Tagging
@@ -3532,21 +4068,27 @@ TEXT: Stay Aware of Your Surroundings
 RESOURCE ID: ultra_league_remix_title
 TEXT: Ligue Hyper – Remix
 
+RESOURCE ID: ultra_unlock_event_name_space
+TEXT: Ultra Bonus – 2e partie : Espace
+
+RESOURCE ID: ultra_unlock_event_name_time
+TEXT: Ultra Bonus – 1re partie : Temps
+
 RESOURCE ID: unlimited_label
 TEXT: Unlimited
 
 RESOURCE ID: wayfarer_eligible_body
-TEXT: Congratulations on reaching eligibility! Complete your Wayfarer onboarding to unlock PokéStop nomination and editing features.
+TEXT: Congratulations! You’ve become eligible for Niantic Wayfarer, a feature that allows you to nominate interesting and unique places in the world around you as points of interest in Niantic games. Complete your Wayfarer training to unlock PokéStop nomination and editing features.
 
 RESOURCE ID: wayfarer_eligible_goto
-TEXT: GO TO WAYFARER
+TEXT: CHECK IT OUT
 
 RESOURCE ID: wayfarer_eligible_later
 TEXT: MAYBE LATER
 
 RESOURCE ID: wayfarer_eligible_title
-TEXT: You're Eligible for Wayfarer!
+TEXT: You’re eligible for Niantic Wayfarer!
 
 RESOURCE ID: wayfarer_eligible_unlock_msg
-TEXT: Unlock by onboarding to Wayfarer!
+TEXT: Complete Wayfarer training to unlock!
 
