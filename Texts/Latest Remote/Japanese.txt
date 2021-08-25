@@ -285,6 +285,9 @@ TEXT: ニックネームに問題があるようだ。新しいニックネー�
 RESOURCE ID: community_day_eevee_event_name
 TEXT: コミュニティ・デイ：イーブイ
 
+RESOURCE ID: community_day_oshawott_event_name
+TEXT: Community Day: Oshawott
+
 RESOURCE ID: error_could_not_retrieve_more_username_suggestions
 TEXT: 提案を読み込めませんでした。もう一度お試しください。
 
@@ -706,6 +709,14 @@ TEXT: 世界中のどこにいても、現地時間2021年8月14・15日11:00AM�
 RESOURCE ID: general1.ticket.2_eevet_title
 TEXT: 「しんかポケモンを解明せよ！」チケット
 
+RESOURCE ID: general1.ticket.2_oshat_description
+TEXT: A ticket to access the "From Scalchops to Seamitars" Special Research from September 19, 2021, at 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+ YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_oshat_title
+TEXT: From Scalchops to Seamitars Ticket
+
 RESOURCE ID: general1.ticket.2_title
 TEXT: 「しんかポケモンを解明せよ！」チケット
 
@@ -826,6 +837,12 @@ TEXT: 現地時間2021年8月14・15日11:00AM～5:00PMにスペシャルリサ�
 RESOURCE ID: item_event_ticket_pink_eevet_details
 TEXT: このチケットは自動的に発動し、現地時間2021年8月14・15日にスペシャルリサーチが行えるようになります。
 
+RESOURCE ID: item_event_ticket_pink_oshat_desc
+TEXT: A ticket to access a special research on September 19, 2021 from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_oshat_details
+TEXT: This ticket will automatically activate to give you access to a special research on September 19, 2021, wherever you are in the world.
+
 RESOURCE ID: item_leader_map_fragment_desc
 TEXT: GOロケット団がポケストップに使う道具の一部で、6個集めるとひとつの装置として使うことができる。
 
@@ -834,6 +851,9 @@ TEXT: ふしぎなパーツが集まりロケットレーダーになった！GO
 
 RESOURCE ID: little_jungle_cup_title
 TEXT: リトルジャングルカップ
+
+RESOURCE ID: lure_rainy_event_bonus
+TEXT: Event Pokémon attracted to Rainy Lure Modules
 
 RESOURCE ID: m_avatar_poses_bundle_pose_30
 TEXT: ポップ ポーズ
@@ -845,12 +865,15 @@ RESOURCE ID: master_premier_classic_title
 TEXT: MLプレミアクラシック
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-08-18T17:37:15.035932
-at SHA 89207168141e89cc4551644d302faf59460ddc48
+TEXT: Built at 2021-08-24T17:24:21.457270
+at SHA b7b700b98aa508c39d37999f2049f28ca842fe0d
 Patch from: 0.215.1-SHA-5faae38f, 0.215.1-SHA-07ef195b, 0.217.0-SHA-c6d9d393
 
 RESOURCE ID: photobomb_five_eevee
 TEXT: GOスナップショットでイーブイのサプライズ5回
+
+RESOURCE ID: photobomb_five_oshawott
+TEXT: 5 Photobombs from Oshawott in GO Snapshot
 
 RESOURCE ID: poi_category_add_another
 TEXT: 追加する
@@ -1094,6 +1117,12 @@ TEXT: レイドに{0}秒未満で勝つ
 
 RESOURCE ID: quest_complete_eevet
 TEXT: しんかポケモンを解明せよ！
+
+RESOURCE ID: quest_complete_oshat
+TEXT: From Scalchops to Seamitars
+
+RESOURCE ID: quest_defeat_rocket
+TEXT: GOロケット団員に{0}回勝つ
 
 RESOURCE ID: quest_eevet_catch_b
 TEXT: イーブイを{0}匹捕まえる
@@ -1453,6 +1482,15 @@ TEXT: GO Fest 2021：レイドデイ (7/8)
 RESOURCE ID: quest_gofest_2021_tr_8
 TEXT: GO Fest 2021：レイドデイ (8/8)
 
+RESOURCE ID: quest_oshat_catch_b
+TEXT: Catch {0} Oshawott
+
+RESOURCE ID: quest_oshat_evolve_b
+TEXT: Evolve {0} Oshawott
+
+RESOURCE ID: quest_oshat_evolve_s1
+TEXT: Evolve {0} Dewott
+
 RESOURCE ID: quest_special_dialogue_eevet_0_0
 TEXT: やぁ、%PLAYERNAME%！
 
@@ -1573,6 +1611,45 @@ TEXT: ニンフィアのようなポケモンに出会えたら幸せだろう�
 RESOURCE ID: quest_special_dialogue_eevet_4_9
 TEXT: さぁ、元気にGOだ！
 
+RESOURCE ID: quest_special_dialogue_oshat_0_0
+TEXT: Hey there, %PLAYERNAME%! I came across a truly surprising sight recently while going for a walk—trees in the nearby forest were covered with slash marks!
+
+RESOURCE ID: quest_special_dialogue_oshat_0_1
+TEXT: I’ve heard of a Pokémon called Oshawott, the Sea Otter Pokémon, that can detach the scalchop on its stomach for use as a blade. Maybe the slash marks were caused by all of the Oshawott nearby?
+
+RESOURCE ID: quest_special_dialogue_oshat_0_2
+TEXT: Let's use this as an opportunity to go and catch some of those Oshwott so we can find out more!
+
+RESOURCE ID: quest_special_dialogue_oshat_1_0
+TEXT: Hey %PLAYERNAME%! Did you know that Oshawott doesn't just use the scalchop on its stomach to fight, but that it can be used to break open hard berries as well?
+
+RESOURCE ID: quest_special_dialogue_oshat_1_1
+TEXT: Maybe we can learn even more about Oshawott once it evolves into its next Evolution: Dewott! Don’t let its cute exterior fool you—Dewott takes itself very seriously.
+
+RESOURCE ID: quest_special_dialogue_oshat_1_2
+TEXT: Also known as the Discipline Pokémon, this little fella uses strict training to learn its flowing double-scalchop technique. I’d love to see Dewott’s fighting in action!
+
+RESOURCE ID: quest_special_dialogue_oshat_2_0
+TEXT: Wow, Dewott's double-scalchop technique is amazing! Aren’t Pokémon so curious, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_oshat_2_1
+TEXT: I barely have the coordination to rub my tummy and pat my head at the same time and we have creatures that have their own special battle techniques. Truly inspiring stuff!
+
+RESOURCE ID: quest_special_dialogue_oshat_2_2
+TEXT: I’m starting to understand a bit more about this Pokémon now. And I have an inkling that we’ll get to learn even more soon!
+
+RESOURCE ID: quest_special_dialogue_oshat_2_3
+TEXT: It’s Evolution, Samurott, apparently uses swords incorporated in its armor called seamitars. Apparently in the time it takes a foe to blink, it can draw and sheathe the seamitars attached to its front legs.
+
+RESOURCE ID: quest_special_dialogue_oshat_2_4
+TEXT: Sounds like it’s a true master of its craft! No wonder it’s known as the Formidable Pokémon! Let’s evolve Dewott and see this mastery for ourselves, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_oshat_3_0
+TEXT: Well would you look at that, %PLAYERNAME%, a Samurott in the flesh! It’s seamitars truly are a sight to behold. Knowing it can draw and sheathe its blades in a blink of an eye, I wonder how fast it can dice up berries...
+
+RESOURCE ID: quest_special_dialogue_oshat_3_1
+TEXT: Thanks for all your help today, %PLAYERNAME%. We’ve learned so much about Oshawott, Dewott, and Samurott—and from them too! I’ll SEA you next time! Ha-ha!
+
 RESOURCE ID: quest_title_eevet
 TEXT: しんかポケモンを解明せよ！
 
@@ -1590,6 +1667,21 @@ TEXT: しんかポケモンを解明せよ！(4/5)
 
 RESOURCE ID: quest_title_eevet_4
 TEXT: しんかポケモンを解明せよ！(5/5)
+
+RESOURCE ID: quest_title_oshat
+TEXT: From Scalchops to Seamitars
+
+RESOURCE ID: quest_title_oshat_0
+TEXT: From Scalchops to Seamitars (1/4)
+
+RESOURCE ID: quest_title_oshat_1
+TEXT: From Scalchops to Seamitars (2/4)
+
+RESOURCE ID: quest_title_oshat_2
+TEXT: From Scalchops to Seamitars (3/4)
+
+RESOURCE ID: quest_title_oshat_3
+TEXT: From Scalchops to Seamitars (4/4)
 
 RESOURCE ID: quest_title_uu1_jul21_0
 TEXT: ウルトラアンロック：時間 (1/5)
@@ -1651,23 +1743,34 @@ TEXT: いいキズぐすりを使う
 RESOURCE ID: quest_win_raid_buddy_singular
 TEXT: 相棒ポケモンでレイドバトルに勝つ
 
+RESOURCE ID: safari_2020_dialogue_1_2a
+TEXT: 相棒のポケモンとの絆を深めることも大切だ。
+
 RESOURCE ID: spawn_eevee
 TEXT: イーブイがより多く野生で出現
+
+RESOURCE ID: spawn_oshawott
+TEXT: More Oshawott are appearing in the wild
 
 RESOURCE ID: ticket_eevee
 TEXT: 「しんかポケモンを解明せよ！」チケットがショップに登場
 
+RESOURCE ID: ticket_oshawott
+TEXT: Ticket for Special Research story available in the Shop: From Scalchops to Seamitars
+
 RESOURCE ID: tips_battle_at_gyms_tutorial_body
-TEXT: A Gym controlled by a rival team can be claimed by defeating the Pokémon in the Gym. Reduce the motivation of all Pokémon in the Gym to zero and the Gym will become open for you to claim for your team.
+TEXT: You can claim a Gym controlled by a rival team by defeating the Pokémon in the Gym. If you reduce the motivation of all Pokémon in the Gym to zero, you’ll be able to claim the Gym for your team.
 
 RESOURCE ID: tips_battle_at_gyms_tutorial_title
 TEXT: Battle at Gyms
 
 RESOURCE ID: tips_gym_pokecoins_tutorial_body
-TEXT: Earn up to 50 PokéCoins per day when your Pokémon defends a Gym.   Your earned PokéCoins will be delivered to you automatically when your Pokémon has been defeated from the Gym.
+TEXT: Earn up to 50 PokéCoins per day when your Pokémon defends a Gym.
+
+You’ll earn these PokéCoins when your Pokémon returns from defending the Gym.
 
 RESOURCE ID: tips_gym_pokecoins_tutorial_title
-TEXT: Earn Coins
+TEXT: Earn PokéCoins
 
 RESOURCE ID: tips_loading_screen_battle_switch_charged_move
 TEXT: バトル中に別のポケモンを繰り出し別のスペシャルアタックを使うことが有効な場合があります
@@ -1700,40 +1803,42 @@ RESOURCE ID: tips_no_tag_message_title
 TEXT: タグ作成
 
 RESOURCE ID: tips_potion_revive_tutorial_intro_0
-TEXT: Looks like your Pokémon fainted! Here are some Potions and Revives that you can use to heal and revive them.
+TEXT: ひんしのポケモンがいるのか？キズぐすりや、げんきのかけらを使ってHPを回復だ！
 
 RESOURCE ID: tips_potion_revive_tutorial_intro_1
-TEXT: Open up your item bag to use them. Hope you find them helpful, [name]! Let's take care of our Pokémon, just as they take care of us.
+TEXT: 道具は、道具バッグに入っているからね。大切なポケモンのために上手に使ってくれ、{0}！
 
 RESOURCE ID: tips_potion_revive_tutorial_outro_0
-TEXT: Continue collecting more Potions and Revives from PokéStops, Gyms, and by winning battles!
+TEXT: キズぐすり、げんきのかけら、どちらもレイドバトルに参加したりポケストップ・ジムのフォトディスクを回すと手に入れることができる！
 
 RESOURCE ID: tips_potion_tutorial_0
-TEXT: Your work doesn't stop there. You should get them to full health!
+TEXT: そこからHPをすべて回復させるんだ！
 
 RESOURCE ID: tips_potion_tutorial_1
-TEXT: To get your Pokémon back to full health, you can use Potions to finish healing your Pokémon.
+TEXT: キズぐすりを使ってもいい。
 
 RESOURCE ID: tips_potion_tutorial_2
-TEXT: When using Potions, tap on the Pokémon until their health meter is filled.
+TEXT: キズぐすりの場合は、ポケモンをタップ。
 
 RESOURCE ID: tips_potion_tutorial_3
-TEXT: Just like new! Seeing a Pokémon feel better is one of my favorite things.
+TEXT: 元気になったぞ！ポケモンが元気だとこっちまで元気になる。
 
 RESOURCE ID: tips_potion_tutorial_select_item_toast
-TEXT: Use your Potions to finish healing your Pokémon.
+TEXT: Use your Potions to restore the HP of your Pokémon.
 
 RESOURCE ID: tips_potion_tutorial_use_item_toast
-TEXT: Tap on your Pokémon to fully heal them.
+TEXT: Tap on a Pokémon to restore its HP.
 
 RESOURCE ID: tips_raid_tutorial_charged_attack_body
-TEXT: Once your Charged Attack meter is full, tap the button to perform a Charged Attack. Charged Attacks cause large amounts of damage.
+TEXT: Once your attack meter is full, tap the button to perform a Charged Attack, which can deal a lot of damage.
 
 RESOURCE ID: tips_raid_tutorial_charged_attack_title
 TEXT: Charged Attacks
 
 RESOURCE ID: tips_raid_tutorial_difficulty_body
-TEXT: The icon indicates Raid Boss difficulty. Join with other Trainers to defeat more challenging Raid Bosses!   Defeating a Mega Raid Boss earns you Mega Energy to Mega-Evolve that Pokémon.
+TEXT: The icon indicates a raid’s difficulty. Work with other Trainers to defeat more challenging Raid Bosses!
+
+If you defeat a Mega Raid Boss, you’ll get Mega Energy that you can use to Mega Evolve that Pokémon.
 
 RESOURCE ID: tips_raid_tutorial_difficulty_title
 TEXT: Raid Difficulty
@@ -1745,13 +1850,16 @@ RESOURCE ID: tips_raid_tutorial_dodge_title
 TEXT: Dodge
 
 RESOURCE ID: tips_revive_tutorial_0
-TEXT: Use Revives on fainted Pokémon with 0 HP to restore half of their health.
+TEXT: げんきのかけらを使えば、ひんしになってしまったポケモンのHPを半分回復することができる。
 
 RESOURCE ID: tips_revive_tutorial_select_item_toast
-TEXT: Use your Revives to revive your fainted Pokémon.
+TEXT: Use Revives to revive fainted Pokémon.
 
 RESOURCE ID: tips_revive_tutorial_use_item_toast
 TEXT: Tap on your fainted Pokémon to help revive them.
+
+RESOURCE ID: tips_tag_list_tip_section_title
+TEXT: ヒント
 
 RESOURCE ID: tips_tagging_idea_evolve
 TEXT: 進化
@@ -1764,6 +1872,9 @@ TEXT: ジム配置
 
 RESOURCE ID: tips_tagging_idea_trade
 TEXT: 交換
+
+RESOURCE ID: tips_tagging_learn_more_button
+TEXT: もっと見る
 
 RESOURCE ID: tips_tagging_tutorial_body_0
 TEXT: 捕まえたポケモンにタグを付けて見つけやすくすることで、ポケモンボックスを効率よく整理できます。
@@ -1794,6 +1905,9 @@ TEXT: ウルトラアンロックパート3：剣と盾
 
 RESOURCE ID: ultra_unlock_event_name_time
 TEXT: ウルトラアンロックパート1：時間
+
+RESOURCE ID: unknown
+TEXT: A
 
 RESOURCE ID: unlimited_label
 TEXT: 無制限

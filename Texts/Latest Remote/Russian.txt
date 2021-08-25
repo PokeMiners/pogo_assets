@@ -296,19 +296,25 @@ RESOURCE ID: challenge_buddy_poi_plural
 TEXT: Посети интересные места, которые показал тебе приятель x{0}
 
 RESOURCE ID: change_banned_name_dialog
-TEXT: Hi, Trainer! There seems to be an issue with your nickname. Please choose a new one.
+TEXT: Привет, Тренер! Похоже, с твоим ником возникла проблема. Выбери другой ник.
+
+RESOURCE ID: combat_no_fainted_pokemon_allowed
+TEXT: Потерявшие боевую способность Покемоны не могут сражаться!
 
 RESOURCE ID: community_day_eevee_event_name
 TEXT: День сообщества: Иви
 
+RESOURCE ID: community_day_oshawott_event_name
+TEXT: Community Day: Oshawott
+
 RESOURCE ID: error_could_not_retrieve_more_username_suggestions
-TEXT: Unable to retrieve more suggestions. Please try again.
+TEXT: Не удалось загрузить больше ников. Попробуй ещё раз.
 
 RESOURCE ID: error_username_suggestion_just_taken_message
-TEXT: This name is no longer available.
+TEXT: Этот ник больше не доступен.
 
 RESOURCE ID: error_username_suggestion_just_taken_title
-TEXT: Not Available
+TEXT: Недоступно
 
 RESOURCE ID: evolve_best_buddy_confirmation
 TEXT: Ты хочешь эволюционировать своего лучшего приятеля: {0}?
@@ -854,6 +860,14 @@ TEXT: Билет на специальный квест «Кем ты выбир
 RESOURCE ID: general1.ticket.2_eevet_title
 TEXT: Билет: Кем ты выбираешь быть
 
+RESOURCE ID: general1.ticket.2_oshat_description
+TEXT: A ticket to access the "From Scalchops to Seamitars" Special Research from September 19, 2021, at 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+ YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_oshat_title
+TEXT: From Scalchops to Seamitars Ticket
+
 RESOURCE ID: general1.ticket.2_title
 TEXT: Билет: Кем ты выбираешь быть
 
@@ -953,6 +967,9 @@ TEXT: Фестиваль GO 2021: Океанский пляж
 RESOURCE ID: gofest_2021_collection_ocean_description
 TEXT: Лови Покемонов во время часа океанского пляжа!
 
+RESOURCE ID: gym_battle_defeat_body
+TEXT: Все твои Покемоны потеряли боевую способность!
+
 RESOURCE ID: gym_level_bonus
 TEXT: Усиление Гима
 
@@ -964,6 +981,12 @@ TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=all&s=top-articles&f=sharing
 
 RESOURCE ID: incense_effectiveness_walking
 TEXT: Повышенная эффективность ладана во время ходьбы
+
+RESOURCE ID: item_bag_potion_fainted
+TEXT: Эликсир нельзя использовать на Покемонах, потерявших боевую способность.
+
+RESOURCE ID: item_bag_revive_not_fainted
+TEXT: Оживление можно использовать только на Покемонах, потерявших боевую способность.
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Билет на специальный квест 14 и 15 августа 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
@@ -980,6 +1003,12 @@ TEXT: Этот билет активируется автоматически, �
 RESOURCE ID: item_event_ticket_pink_giblt_details
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 6 июня 2021 г., вне зависимости от твоего местонахождения.
 
+RESOURCE ID: item_event_ticket_pink_oshat_desc
+TEXT: A ticket to access a special research on September 19, 2021 from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_oshat_details
+TEXT: This ticket will automatically activate to give you access to a special research on September 19, 2021, wherever you are in the world.
+
 RESOURCE ID: item_event_ticket_pink_snivt_details
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 11 апреля 2021 г., вне зависимости от твоего местонахождения.
 
@@ -991,6 +1020,9 @@ TEXT: Твои загадочные компоненты объединилис�
 
 RESOURCE ID: little_jungle_cup_title
 TEXT: Малый кубок джунглей
+
+RESOURCE ID: lure_rainy_event_bonus
+TEXT: Event Pokémon attracted to Rainy Lure Modules
 
 RESOURCE ID: m_avatar_poses_bundle_pose_23
 TEXT: Пугающая поза
@@ -1005,12 +1037,15 @@ RESOURCE ID: master_premier_classic_title
 TEXT: Классическая Премьер-МЛ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-08-18T17:37:15.035932
-at SHA 89207168141e89cc4551644d302faf59460ddc48
+TEXT: Built at 2021-08-24T17:24:21.457270
+at SHA b7b700b98aa508c39d37999f2049f28ca842fe0d
 Patch from: 0.215.1-SHA-5faae38f, 0.215.1-SHA-07ef195b, 0.217.0-SHA-c6d9d393
 
 RESOURCE ID: photobomb_five_eevee
 TEXT: 5 неожиданных встреч с Иви в Стоп-кадре GO
+
+RESOURCE ID: photobomb_five_oshawott
+TEXT: 5 Photobombs from Oshawott in GO Snapshot
 
 RESOURCE ID: poi_category_add_another
 TEXT: Добавить ещё одну
@@ -1768,11 +1803,143 @@ TEXT: Если не сломать холмик из песка после иг�
 RESOURCE ID: pokemon_desc_0770
 TEXT: Палоссэнд поднимает песчаную бурю, чтобы остановить противника, а затем лишить его жизненной силы.
 
+RESOURCE ID: pokemon_desc_0771
+TEXT: Всё тело Пьюкумуку покрыто слизью. Если ты случайно на него наступишь, то поскользнёшься, а он разозлится и ударит тебя!
+
+RESOURCE ID: pokemon_desc_0772
+TEXT: Существует опасность, что Тип: Ноль может впасть в ярость, поэтому маска сдерживает его истинную силу.
+
+RESOURCE ID: pokemon_desc_0773
+TEXT: Благодаря крепкой дружбе с Тренером воля Силвалли усилилась, и он смог уничтожить свою маску.
+
+RESOURCE ID: pokemon_desc_0773_disc
+TEXT: Способность Силвалли менять тип теперь активна. Этот Покемон сияет серебристым светом от энергии, переполняющей его изнутри.
+
+RESOURCE ID: pokemon_desc_0773_normal
+TEXT: Благодаря крепкой дружбе с Тренером воля Силвалли усилилась, и он смог уничтожить свою маску.
+
+RESOURCE ID: pokemon_desc_0774
+TEXT: Хотя панцирь Миниора необычайно прочен, при ударе об землю он разбивается на мелкие кусочки.
+
+RESOURCE ID: pokemon_desc_0774_exposed
+TEXT: Миниор принимает эту форму после того, как теряет панцирь. Цвет его ядра зависит от веществ, входивших в его рацион.
+
+RESOURCE ID: pokemon_desc_0774_meteor
+TEXT: Хотя панцирь Миниора необычайно прочен, при ударе об землю он разбивается на мелкие кусочки.
+
+RESOURCE ID: pokemon_desc_0775
+TEXT: Комала пребывает в состоянии сна с рождения до смерти из-за успокаивающих свойств листьев, которые он ест.
+
+RESOURCE ID: pokemon_desc_0776
+TEXT: Взрывоопасный панцирь Тартонэйтора представляет реальную угрозу, однако чувствителен к влаге. Поэтому в дождливые дни этот Покемон предпочитает прятаться в пещерах.
+
+RESOURCE ID: pokemon_desc_0777
+TEXT: Способность Тогедемару производить электричество немного ограничена, поэтому он заряжается от ударов молнии.
+
 RESOURCE ID: pokemon_desc_0778
-TEXT: A gust of wind revealed what hides under this Pokémon's rag to a passing Trainer, who went home and died painfully that very night.
+TEXT: Тренер, который при порыве ветра увидел из-под обрезка ткани истинную форму Мимикью, умер мучительной смертью в тот же вечер.
+
+RESOURCE ID: pokemon_desc_0779
+TEXT: Кожа этого Покемона настолько толстая, что ей не страшны шипы Марини. Своими крепкими зубами Браксиш сминает шипы и съедает их.
+
+RESOURCE ID: pokemon_desc_0779_busted
+TEXT: Мимикью грустно от того, что его истинная сущность может быть раскрыта. Он будет безжалостно мстить любому противнику, который попробует это сделать.
 
 RESOURCE ID: pokemon_desc_0779_disguised
-TEXT: Кожа Браксиша достаточно толстая, чтобы отразить шипы Марини. Он сминает шипы своими крепкими зубами и съедает их.
+TEXT: Кожа Браксиша настолько толстая, что ей не страшны шипы Марини. Он сминает шипы своими крепкими зубами и съедает их.
+
+RESOURCE ID: pokemon_desc_0781
+TEXT: Зелёные водоросли Делмайза тянутся цепочкой на несколько сотен метров. По какой-то причине он хорошо ладит со Скрелпом.
+
+RESOURCE ID: pokemon_desc_0782
+TEXT: Джангмо-о никогда не поворачивается к врагу спиной во время сражения. Воины прошлого восхищались его отвагой и принимали его в друзья.
+
+RESOURCE ID: pokemon_desc_0784
+TEXT: Коммо-o отважно сражается кулаками, покрытыми стальными чешуйками. Он мастер апперкотов.
+
+RESOURCE ID: pokemon_desc_0785
+TEXT: Этот божественный хранитель острова Мелемеле ловко обращается с молниями. Тапу Коко очень любопытен и любит иногда появляться перед людьми.
+
+RESOURCE ID: pokemon_desc_0786
+TEXT: Тапу Леле – это божественный хранитель. Ему не ведомо чувство вины за свою безжалостность, поэтому можно сказать, что он является воплощением самой природы.
+
+RESOURCE ID: pokemon_desc_0787
+TEXT: Хвост Тапу Булу издаёт звон, который оповещает других о присутствии этого Покемона и помогает избежать ненужных конфликтов. Этот божественный хранитель острова Улаула управляет растениями.
+
+RESOURCE ID: pokemon_desc_0788
+TEXT: Тапу Фини называют божественным хранителем. Однако с теми, кто безрассудно приближается к этому Покемону, подчас случаются ужасные бедствия.
+
+RESOURCE ID: pokemon_desc_0790
+TEXT: Космоем продолжает расти, поглощая свет. Его золотая оболочка удивительно прочна.
+
+RESOURCE ID: pokemon_desc_0792
+TEXT: Иногда Лунала вызывает в этот мир неизвестные силы и формы жизни из порталов, ведущих в другие миры.
+
+RESOURCE ID: pokemon_desc_0793
+TEXT: Нигилего появился в этом мире из Ультрачервоточины. Он считается паразитом, который питается людьми и Покемонами.
+
+RESOURCE ID: pokemon_desc_0794
+TEXT: Баззвол повсюду демонстрирует свои чрезвычайно накачанные мышцы. Этот Покемон относится к Ультрачудовищам.
+
+RESOURCE ID: pokemon_desc_0795
+TEXT: Феромоса – это форма жизни родом из другого мира. Тело этого Покемона тонкое и гибкое, но наполнено великой силой.
+
+RESOURCE ID: pokemon_desc_0796
+TEXT: Их называют Ультрачудовищами. Некоторые из них стоят неподвижно, как деревья, воткнув руки и ноги в землю.
+
+RESOURCE ID: pokemon_desc_0797
+TEXT: Селестила – это одно из опасных Ультрачудовищ. Из огромных рук этого Покемона исходит энергия высокой мощности.
+
+RESOURCE ID: pokemon_desc_0799
+TEXT: Неизвестная форма жизни, известная как Ультрачудовище. Газзлорд кажется постоянно голодным, потому что он не переставая что-то пожирает.
+
+RESOURCE ID: pokemon_desc_0801
+TEXT: У Магирны – Покемона, созданного учёным 500 лет назад, есть Душевное Сердце, которое является настоящим живым организмом.
+
+RESOURCE ID: pokemon_desc_0802
+TEXT: Маршадоу ныряет в тени людей и Покемонов, чтобы понять их чувства и скопировать способности.
+
+RESOURCE ID: pokemon_desc_0803
+TEXT: Пойпол – это Ультрачудовище, которое живёт в другом мире. Он использует шипы на голове, чтобы обрызгивать противников ядом, и при этом дико хохочет.
+
+RESOURCE ID: pokemon_desc_0804
+TEXT: Наганадел – одно из Ультрачудовищ. Его иглы выстреливают токсичной жидкостью. Это светящееся вещество чрезвычайно липкое на ощупь.
+
+RESOURCE ID: pokemon_desc_0805
+TEXT: Стакатака – это таинственная форма жизни, похожая на Ультрачудовище. Она появилась, когда каменные стены ожили и стали атаковать.
+
+RESOURCE ID: pokemon_desc_0806
+TEXT: Бласефалон – это Ультрачудовище, появившееся из Ультрачервоточины. Он застаёт врага врасплох взрывами, а затем лишает его жизнеспособности.
+
+RESOURCE ID: pokemon_desc_0807
+TEXT: Зераора приближается к врагу с молниеносной скоростью, а затем своими острыми когтями разрывает его на части.
+
+RESOURCE ID: pokemon_desc_0810
+TEXT: Когда Груки отбивает ритм своей специальной палкой, образуются звуковые волны, которые несут оживляющую энергию растениям и цветам вокруг.
+
+RESOURCE ID: pokemon_desc_0811
+TEXT: Чем быстрее Тваки отбивает ритм двумя палками, тем больше уважения он получает от своих товарищей.
+
+RESOURCE ID: pokemon_desc_0812
+TEXT: Играя на барабане, Риллабум использует силу особого пня. Корни этого пня повинуются приказам Покемона во время сражения.
+
+RESOURCE ID: pokemon_desc_0813
+TEXT: Скорбанни бегает, чтобы размяться и заставить огненную энергию быстрее распространиться по телу. После этого он готов биться в полную силу.
+
+RESOURCE ID: pokemon_desc_0814
+TEXT: Толстый и пушистый мех Рабута защищает его от холода и позволяет ему использовать более эффективные огненные приёмы.
+
+RESOURCE ID: pokemon_desc_0815
+TEXT: Синдерэйс жонглирует камешком, превращая его в горящий футбольный мяч. Его удары наносят сильный урон противнику, обжигая его.
+
+RESOURCE ID: pokemon_desc_0816
+TEXT: Соббл плачет, когда напуган. По химическому составу его слёзы приравниваются к 100 луковицам, и атакующие Покемоны не могут сдерживать рыдания.
+
+RESOURCE ID: pokemon_desc_0817
+TEXT: Дриззайл – мудрый воин, который сражается, используя водные шарики, выделяемые из его ладоней.
+
+RESOURCE ID: pokemon_desc_0818
+TEXT: У Интелеона много скрытых талантов. Например, он может выстреливать водой из кончиков пальцев, а мембрана на его спине помогает ему скользить по воздуху.
 
 RESOURCE ID: pokemon_desc_0819
 TEXT: Сквовет встречается по всему региону Галар. Он тревожится, если у него за щеками не остаётся ни одной ягоды.
@@ -2266,6 +2433,12 @@ TEXT: Что такое сканирование Покестопов?
 RESOURCE ID: quest_complete_eevet
 TEXT: Кем ты выбираешь быть
 
+RESOURCE ID: quest_complete_oshat
+TEXT: From Scalchops to Seamitars
+
+RESOURCE ID: quest_defeat_rocket
+TEXT: Defeat {0} Team GO Rocket members
+
 RESOURCE ID: quest_dialogue_genesect_0_4
 TEXT: Поначалу казалось, что ущерб был нанесён Тренерами, практикующими в Боевой Лиге GO, но мое чутьё подсказало мне провести дальнейшее расследование утром.
 
@@ -2629,6 +2802,15 @@ TEXT: Фестиваль GO 2021: Рейдовый день (7/8)
 RESOURCE ID: quest_gofest_2021_tr_8
 TEXT: Фестиваль GO 2021: Рейдовый день (8/8)
 
+RESOURCE ID: quest_oshat_catch_b
+TEXT: Catch {0} Oshawott
+
+RESOURCE ID: quest_oshat_evolve_b
+TEXT: Evolve {0} Oshawott
+
+RESOURCE ID: quest_oshat_evolve_s1
+TEXT: Evolve {0} Dewott
+
 RESOURCE ID: quest_rockethq1_grunt_win1
 TEXT: Победи агентов Команды Ракета GO: {0} 
 
@@ -2755,6 +2937,45 @@ TEXT: Я надеюсь, что тебе посчастливится когда
 RESOURCE ID: quest_special_dialogue_eevet_4_9
 TEXT: А пока ИДИ И ЛОВИ!
 
+RESOURCE ID: quest_special_dialogue_oshat_0_0
+TEXT: Hey there, %PLAYERNAME%! I came across a truly surprising sight recently while going for a walk—trees in the nearby forest were covered with slash marks!
+
+RESOURCE ID: quest_special_dialogue_oshat_0_1
+TEXT: I’ve heard of a Pokémon called Oshawott, the Sea Otter Pokémon, that can detach the scalchop on its stomach for use as a blade. Maybe the slash marks were caused by all of the Oshawott nearby?
+
+RESOURCE ID: quest_special_dialogue_oshat_0_2
+TEXT: Let's use this as an opportunity to go and catch some of those Oshwott so we can find out more!
+
+RESOURCE ID: quest_special_dialogue_oshat_1_0
+TEXT: Hey %PLAYERNAME%! Did you know that Oshawott doesn't just use the scalchop on its stomach to fight, but that it can be used to break open hard berries as well?
+
+RESOURCE ID: quest_special_dialogue_oshat_1_1
+TEXT: Maybe we can learn even more about Oshawott once it evolves into its next Evolution: Dewott! Don’t let its cute exterior fool you—Dewott takes itself very seriously.
+
+RESOURCE ID: quest_special_dialogue_oshat_1_2
+TEXT: Also known as the Discipline Pokémon, this little fella uses strict training to learn its flowing double-scalchop technique. I’d love to see Dewott’s fighting in action!
+
+RESOURCE ID: quest_special_dialogue_oshat_2_0
+TEXT: Wow, Dewott's double-scalchop technique is amazing! Aren’t Pokémon so curious, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_oshat_2_1
+TEXT: I barely have the coordination to rub my tummy and pat my head at the same time and we have creatures that have their own special battle techniques. Truly inspiring stuff!
+
+RESOURCE ID: quest_special_dialogue_oshat_2_2
+TEXT: I’m starting to understand a bit more about this Pokémon now. And I have an inkling that we’ll get to learn even more soon!
+
+RESOURCE ID: quest_special_dialogue_oshat_2_3
+TEXT: It’s Evolution, Samurott, apparently uses swords incorporated in its armor called seamitars. Apparently in the time it takes a foe to blink, it can draw and sheathe the seamitars attached to its front legs.
+
+RESOURCE ID: quest_special_dialogue_oshat_2_4
+TEXT: Sounds like it’s a true master of its craft! No wonder it’s known as the Formidable Pokémon! Let’s evolve Dewott and see this mastery for ourselves, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_oshat_3_0
+TEXT: Well would you look at that, %PLAYERNAME%, a Samurott in the flesh! It’s seamitars truly are a sight to behold. Knowing it can draw and sheathe its blades in a blink of an eye, I wonder how fast it can dice up berries...
+
+RESOURCE ID: quest_special_dialogue_oshat_3_1
+TEXT: Thanks for all your help today, %PLAYERNAME%. We’ve learned so much about Oshawott, Dewott, and Samurott—and from them too! I’ll SEA you next time! Ha-ha!
+
 RESOURCE ID: quest_special_dialogue_rockethq6_5_3
 TEXT: Но мы не можем ослабить бдительность, пока рядом находится Команда Ракета GO. Поэтому необходимо продолжать оттачивать боевые приёмы. Я советую тебе бросать вызов товарищам-Тренерам в битвах, а также испытать себя в Боевой Лиге GO.
 
@@ -2860,6 +3081,21 @@ TEXT: Кем ты выбираешь быть (4/5)
 RESOURCE ID: quest_title_eevet_4
 TEXT: Кем ты выбираешь быть (5/5)
 
+RESOURCE ID: quest_title_oshat
+TEXT: From Scalchops to Seamitars
+
+RESOURCE ID: quest_title_oshat_0
+TEXT: From Scalchops to Seamitars (1/4)
+
+RESOURCE ID: quest_title_oshat_1
+TEXT: From Scalchops to Seamitars (2/4)
+
+RESOURCE ID: quest_title_oshat_2
+TEXT: From Scalchops to Seamitars (3/4)
+
+RESOURCE ID: quest_title_oshat_3
+TEXT: From Scalchops to Seamitars (4/4)
+
 RESOURCE ID: quest_title_uu1_jul21_0
 TEXT: Ультрабонус 2021: Время (1/5)
 
@@ -2920,8 +3156,14 @@ TEXT: Use a Super Potion on a Pokémon
 RESOURCE ID: quest_win_raid_buddy_singular
 TEXT: Победи в рейде с приятелем
 
+RESOURCE ID: raid_defeat_try_again
+TEXT: Выбери новых Покемонов или излечи потерявших боевую способность Покемонов и вернись в бой!
+
 RESOURCE ID: remote_raid_need_ticket
 TEXT: Так как ты находишься на большом расстоянии от Гима, тебе понадобится пропуск на удалённый рейд, чтобы присоединиться к этому рейду. Ты можешь приобрести пропуска для удалённых рейдов в магазине.
+
+RESOURCE ID: safari_2020_dialogue_1_2a
+TEXT: Why not take the time to bond with your buddy?
 
 RESOURCE ID: shop_quick_coins_get_them_here
 TEXT: Получи их здесь или посети магазин.
@@ -2929,20 +3171,28 @@ TEXT: Получи их здесь или посети магазин.
 RESOURCE ID: spawn_eevee
 TEXT: Появляется больше диких Иви
 
+RESOURCE ID: spawn_oshawott
+TEXT: More Oshawott are appearing in the wild
+
 RESOURCE ID: ticket_eevee
 TEXT: Билеты на специальный квест доступны в магазине
 
+RESOURCE ID: ticket_oshawott
+TEXT: Ticket for Special Research story available in the Shop: From Scalchops to Seamitars
+
 RESOURCE ID: tips_battle_at_gyms_tutorial_body
-TEXT: A Gym controlled by a rival team can be claimed by defeating the Pokémon in the Gym. Reduce the motivation of all Pokémon in the Gym to zero and the Gym will become open for you to claim for your team.
+TEXT: You can claim a Gym controlled by a rival team by defeating the Pokémon in the Gym. If you reduce the motivation of all Pokémon in the Gym to zero, you’ll be able to claim the Gym for your team.
 
 RESOURCE ID: tips_battle_at_gyms_tutorial_title
 TEXT: Battle at Gyms
 
 RESOURCE ID: tips_gym_pokecoins_tutorial_body
-TEXT: Earn up to 50 PokéCoins per day when your Pokémon defends a Gym.   Your earned PokéCoins will be delivered to you automatically when your Pokémon has been defeated from the Gym.
+TEXT: Earn up to 50 PokéCoins per day when your Pokémon defends a Gym.
+
+You’ll earn these PokéCoins when your Pokémon returns from defending the Gym.
 
 RESOURCE ID: tips_gym_pokecoins_tutorial_title
-TEXT: Earn Coins
+TEXT: Earn PokéCoins
 
 RESOURCE ID: tips_loading_screen_battle_switch_charged_move
 TEXT: Меняй Покемонов во время битвы, чтобы использовать разные заряженные атаки твоей боевой команды.
@@ -2975,40 +3225,42 @@ RESOURCE ID: tips_no_tag_message_title
 TEXT: Создать теги
 
 RESOURCE ID: tips_potion_revive_tutorial_intro_0
-TEXT: Looks like your Pokémon fainted! Here are some Potions and Revives that you can use to heal and revive them.
+TEXT: Looks like your Pokémon fainted. Here are some Potions and Revives that you can use to restore your Pokémon’s HP.
 
 RESOURCE ID: tips_potion_revive_tutorial_intro_1
-TEXT: Open up your item bag to use them. Hope you find them helpful, [name]! Let's take care of our Pokémon, just as they take care of us.
+TEXT: To use these items, open your Item Bag. Hope you find them helpful, {0}! Let’s take care of our Pokémon, just like they take care of us.
 
 RESOURCE ID: tips_potion_revive_tutorial_outro_0
-TEXT: Continue collecting more Potions and Revives from PokéStops, Gyms, and by winning battles!
+TEXT: Collect more Potions and Revives by winning Raid Battles and spinning Photo Discs at PokéStops and Gyms!
 
 RESOURCE ID: tips_potion_tutorial_0
-TEXT: Your work doesn't stop there. You should get them to full health!
+TEXT: Your work doesn’t stop there. You should get your Pokémon to full HP!
 
 RESOURCE ID: tips_potion_tutorial_1
-TEXT: To get your Pokémon back to full health, you can use Potions to finish healing your Pokémon.
+TEXT: You can use Potions to restore the HP of your Pokémon.
 
 RESOURCE ID: tips_potion_tutorial_2
-TEXT: When using Potions, tap on the Pokémon until their health meter is filled.
+TEXT: When using Potions, tap on a Pokémon to restore its HP.
 
 RESOURCE ID: tips_potion_tutorial_3
 TEXT: Just like new! Seeing a Pokémon feel better is one of my favorite things.
 
 RESOURCE ID: tips_potion_tutorial_select_item_toast
-TEXT: Use your Potions to finish healing your Pokémon.
+TEXT: Use your Potions to restore the HP of your Pokémon.
 
 RESOURCE ID: tips_potion_tutorial_use_item_toast
-TEXT: Tap on your Pokémon to fully heal them.
+TEXT: Tap on a Pokémon to restore its HP.
 
 RESOURCE ID: tips_raid_tutorial_charged_attack_body
-TEXT: Once your Charged Attack meter is full, tap the button to perform a Charged Attack. Charged Attacks cause large amounts of damage.
+TEXT: Once your attack meter is full, tap the button to perform a Charged Attack, which can deal a lot of damage.
 
 RESOURCE ID: tips_raid_tutorial_charged_attack_title
 TEXT: Charged Attacks
 
 RESOURCE ID: tips_raid_tutorial_difficulty_body
-TEXT: The icon indicates Raid Boss difficulty. Join with other Trainers to defeat more challenging Raid Bosses!   Defeating a Mega Raid Boss earns you Mega Energy to Mega-Evolve that Pokémon.
+TEXT: The icon indicates a raid’s difficulty. Work with other Trainers to defeat more challenging Raid Bosses!
+
+If you defeat a Mega Raid Boss, you’ll get Mega Energy that you can use to Mega Evolve that Pokémon.
 
 RESOURCE ID: tips_raid_tutorial_difficulty_title
 TEXT: Raid Difficulty
@@ -3020,13 +3272,16 @@ RESOURCE ID: tips_raid_tutorial_dodge_title
 TEXT: Dodge
 
 RESOURCE ID: tips_revive_tutorial_0
-TEXT: Use Revives on fainted Pokémon with 0 HP to restore half of their health.
+TEXT: Use a Revive on a fainted Pokémon to restore half its maximum HP.
 
 RESOURCE ID: tips_revive_tutorial_select_item_toast
-TEXT: Use your Revives to revive your fainted Pokémon.
+TEXT: Use Revives to revive fainted Pokémon.
 
 RESOURCE ID: tips_revive_tutorial_use_item_toast
 TEXT: Tap on your fainted Pokémon to help revive them.
+
+RESOURCE ID: tips_tag_list_tip_section_title
+TEXT: TIPS
 
 RESOURCE ID: tips_tagging_idea_evolve
 TEXT: Эволюция
@@ -3039,6 +3294,9 @@ TEXT: Защитник Гима
 
 RESOURCE ID: tips_tagging_idea_trade
 TEXT: Обмен
+
+RESOURCE ID: tips_tagging_learn_more_button
+TEXT: LEARN MORE
 
 RESOURCE ID: tips_tagging_tutorial_body_0
 TEXT: Используй теги для организации своей растущей коллекции Покемонов. Они помогут тебе легко распределять твоих Покемонов по категориям и сортировать их на основании разных параметров.
@@ -3073,6 +3331,9 @@ TEXT: Ультрабонус. Часть 3: Sword and Shield
 RESOURCE ID: ultra_unlock_event_name_time
 TEXT: Ультрабонус. Часть 1: Время
 
+RESOURCE ID: unknown
+TEXT: A
+
 RESOURCE ID: unlimited_label
 TEXT: Без ограничений
 
@@ -3080,24 +3341,24 @@ RESOURCE ID: upmgmt_summary_about
 TEXT: Об очках локации
 
 RESOURCE ID: username_suggestion_disclaimer_change_name
-TEXT: You can change your name only once.
+TEXT: Ты можешь изменить ник только один раз.
 
 RESOURCE ID: username_suggestion_disclaimer_new_user
-TEXT: You can change your name later.
+TEXT: Ты можешь изменить ник позже.
 
 RESOURCE ID: username_suggestion_name_looks_good_banned_name
-TEXT: Looks good!
+TEXT: Выглядит отлично!
 
 RESOURCE ID: username_suggestion_name_looks_good_change_name
-TEXT: Looks good!
-You can change your name once.
+TEXT: Выглядит отлично!
+Ты можешь изменить ник один раз.
 
 RESOURCE ID: username_suggestion_name_looks_good_new_user
-TEXT: Looks good!
-You can change your name later.
+TEXT: Выглядит отлично!
+Ты можешь изменить ник позже.
 
 RESOURCE ID: username_suggestions_header
-TEXT: Available Nicknames
+TEXT: Доступные ники
 
 RESOURCE ID: vss_entry_status
 TEXT: Выбери уровень наград, чтобы войти в Боевую Лигу GO.
