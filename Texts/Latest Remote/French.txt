@@ -85,6 +85,9 @@ TEXT: Bas de sport Challenger
 RESOURCE ID: avatar_m_socks_swshuniformdragon_00_bundle_icon
 TEXT: Bas de sport type Dragon
 
+RESOURCE ID: boosted_mega_pokemon_slowbro
+TEXT: Méga-Flagadoss est temporairement plus puissant.
+
 RESOURCE ID: change_banned_name_dialog
 TEXT: Salut, Dresseur ! Il y a un problème avec ton surnom. Choisis-en un nouveau.
 
@@ -105,6 +108,33 @@ TEXT: Ce surnom n’est plus disponible.
 
 RESOURCE ID: error_username_suggestion_just_taken_title
 TEXT: Non disponible
+
+RESOURCE ID: event_mischief_hour_active
+TEXT: Heure du chenapan
+
+RESOURCE ID: event_mischief_hour_countdown
+TEXT: Un chenapan arrive bientôt...
+
+RESOURCE ID: event_season4_name
+TEXT: Saison Chenapan
+
+RESOURCE ID: event_season4_research_available
+TEXT: L’Étude spéciale “Chenapan incompris” est disponible
+
+RESOURCE ID: event_season4_research_complete_bonus
+TEXT: Termine l’Étude spéciale “Chenapan incompris” pour accéder à un évènement saisonnier spécial
+
+RESOURCE ID: event_seasonal_eggs
+TEXT: Des Pokémon saisonniers sortent des Œufs
+
+RESOURCE ID: event_seasonal_wild
+TEXT: Des Pokémon saisonniers apparaissent dans la nature
+
+RESOURCE ID: event_surprise_bonuses_active
+TEXT: Des bonus surprises sont actifs !
+
+RESOURCE ID: event_surprise_bonuses_countdown
+TEXT: Des bonus surprises seront bientôt actifs !
 
 RESOURCE ID: evolve_best_buddy_confirmation
 TEXT: Veux-tu faire évoluer ton Meilleur Copain {0} ?
@@ -496,8 +526,16 @@ TEXT: 50% Forme
 RESOURCE ID: form_zygarde_ten_percent
 TEXT: 10% Forme
 
+RESOURCE ID: friend_sort_online_not_available_body
+TEXT: Ce filtre ne peut être utilisé que quand tu partages ton statut de connexion. 
+
+Remarque : le partage de ton statut de connexion sera activé pour tous les jeux Niantic auxquels tu joues.
+
 RESOURCE ID: friend_sort_online_not_available_cancel_button
 TEXT: Non
+
+RESOURCE ID: friend_sort_online_not_available_header
+TEXT: Veux-tu partager ton statut de connexion ?
 
 RESOURCE ID: friend_sort_online_not_available_ok_button
 TEXT: Oui
@@ -584,9 +622,12 @@ RESOURCE ID: master_premier_classic_title
 TEXT: LM Majeure Classique
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-08-26T16:24:34.268430
-at SHA 52ac90efa0a244ac838c7b076cea7e46550492da
+TEXT: Built at 2021-08-30T21:01:46.274217
+at SHA 1d4fc1e988fcd485b0279ce9145a43b9c7696790
 Patch from: 0.217.0-SHA-c6d9d393, 0.217.1-SHA-e2c5ee9b
+
+RESOURCE ID: move_name_0352
+TEXT: Ball’Météo
 
 RESOURCE ID: photobomb_five_eevee
 TEXT: Évoli s’introduit 5 fois dans tes Clichés GO
@@ -760,7 +801,7 @@ RESOURCE ID: poi_power_viewinmap
 TEXT: VOIR SUR LA CARTE ({0})
 
 RESOURCE ID: poi_powered_up_duration
-TEXT: Boost actif jusqu’à {0:ddd hh:mm tt}
+TEXT: Boost restant : {0:ddd hh:mm tt}
 
 RESOURCE ID: pokemon_desc_0144_g
 TEXT: Les lames en forme de plumes qu’il crée grâce à ses pouvoirs psychiques peuvent trancher une épaisse plaque de fer comme si c’était du papier.
@@ -785,6 +826,9 @@ TEXT: Veux-tu vraiment faire méga-évoluer {0} ?
 
 RESOURCE ID: pokestop_spin_new_xp_ten
 TEXT: 10 fois plus de PX en visitant de nouveaux PokéStops
+
+RESOURCE ID: pokestop_spin_new_xp_three
+TEXT: 3 fois plus de PX en visitant de nouveaux PokéStops
 
 RESOURCE ID: pups_tutorial_p0_body
 TEXT: Quand tu scannes un emplacement, ses points de zone augmentent. Une fois boosté, l’emplacement donne des bonus aux Dresseurs des environs en fonction de son niveau.
@@ -817,7 +861,7 @@ RESOURCE ID: quest_complete_oshat
 TEXT: From Scalchops to Seamitars
 
 RESOURCE ID: quest_defeat_rocket
-TEXT: Defeat {0} Team GO Rocket members
+TEXT: {0} membres de la Team GO Rocket vaincus
 
 RESOURCE ID: quest_eevet_catch_b
 TEXT: Attrape {0} Évoli
@@ -993,6 +1037,36 @@ TEXT: Well would you look at that, %PLAYERNAME%, a Samurott in the flesh! It’s
 RESOURCE ID: quest_special_dialogue_oshat_3_1
 TEXT: Thanks for all your help today, %PLAYERNAME%. We’ve learned so much about Oshawott, Dewott, and Samurott—and from them too! I’ll SEA you next time! Ha-ha!
 
+RESOURCE ID: quest_special_dialogue_season4_0_0
+TEXT: Salut, %PLAYERNAME% ! Je suis content de te voir. Une nouvelle aventure est sur le point de commencer !
+
+RESOURCE ID: quest_special_dialogue_season4_0_1
+TEXT: Il n’y a pas longtemps, divers Pokémon légendaires ont commencé à sortir de mystérieux anneaux apparus dans le ciel. Après quelques recherches, nous avons découvert que le responsable était Hoopa, le Pokémon Chenapan.
+
+RESOURCE ID: quest_special_dialogue_season4_0_2
+TEXT: Les anneaux de Hoopa lui permettent de téléporter où bon lui semble des objets, mais aussi lui-même. Ce pouvoir le rend difficile à suivre, mais Hoopa semble revenir encore et encore à cet endroit.
+
+RESOURCE ID: quest_special_dialogue_season4_0_3
+TEXT: Comment je le sais ? Je travaillais au labo récemment quand mes lunettes se sont envolées. Spark était là pour m’assister, et il a vu une petite main couleur lavande émerger d’un anneau pour attraper mes lunettes. Quel culot !
+
+RESOURCE ID: quest_special_dialogue_season4_0_4
+TEXT: Par chance, avec Candela ils ont réussi à récupérer mes lunettes en poursuivant ces anneaux qui apparaissaient un peu au hasard dans mon labo. Au moins je peux toujours voir, haha !
+
+RESOURCE ID: quest_special_dialogue_season4_0_5
+TEXT: Tout ça pour dire que je ne sais pas pourquoi Hoopa est ici. Le retrouver n’a pas été facile, mais avec ton aide, je suis sûr qu’on y arrivera !
+
+RESOURCE ID: quest_special_dialogue_season4_0_6
+TEXT: Pour l’instant, pourrais-tu utiliser de l’Encens et voir quels Pokémon se trouvent dans les environs ?
+
+RESOURCE ID: quest_special_dialogue_season4_1_0
+TEXT: Les grands mystères ne sont pas résolus en un instant, il faut de la patience et de la confiance. Je vais devoir travailler seul par moment, mais je promets de partager mes découvertes pour aller de l’avant.
+
+RESOURCE ID: quest_special_dialogue_season4_1_1
+TEXT: Continue d’explorer le monde qui t’entoure. Qui sait, tu pourrais découvrir de nouvelles choses !
+
+RESOURCE ID: quest_special_dialogue_season4_1_2
+TEXT: Je te contacte dès que j’ai plus d’informations sur Hoopa. Merci d’avance pour ton aide, %PLAYERNAME% !
+
 RESOURCE ID: quest_title_eevet
 TEXT: Ce que tu choisis d’être
 
@@ -1025,6 +1099,57 @@ TEXT: From Scalchops to Seamitars (3/4)
 
 RESOURCE ID: quest_title_oshat_3
 TEXT: From Scalchops to Seamitars (4/4)
+
+RESOURCE ID: quest_title_season4
+TEXT: Chenapan incompris
+
+RESOURCE ID: quest_title_season4_0
+TEXT: Chenapan incompris (1/16)
+
+RESOURCE ID: quest_title_season4_1
+TEXT: Chenapan incompris (2/16)
+
+RESOURCE ID: quest_title_season4_10
+TEXT: Chenapan incompris (11/16)
+
+RESOURCE ID: quest_title_season4_11
+TEXT: Chenapan incompris (12/16)
+
+RESOURCE ID: quest_title_season4_12
+TEXT: Chenapan incompris (13/16)
+
+RESOURCE ID: quest_title_season4_13
+TEXT: Chenapan incompris (14/16)
+
+RESOURCE ID: quest_title_season4_14
+TEXT: Chenapan incompris (15/16)
+
+RESOURCE ID: quest_title_season4_15
+TEXT: Chenapan incompris (16/16)
+
+RESOURCE ID: quest_title_season4_2
+TEXT: Chenapan incompris (3/16)
+
+RESOURCE ID: quest_title_season4_3
+TEXT: Chenapan incompris (4/16)
+
+RESOURCE ID: quest_title_season4_4
+TEXT: Chenapan incompris (5/16)
+
+RESOURCE ID: quest_title_season4_5
+TEXT: Chenapan incompris (6/16)
+
+RESOURCE ID: quest_title_season4_6
+TEXT: Chenapan incompris (7/16)
+
+RESOURCE ID: quest_title_season4_7
+TEXT: Chenapan incompris (8/16)
+
+RESOURCE ID: quest_title_season4_8
+TEXT: Chenapan incompris (9/16)
+
+RESOURCE ID: quest_title_season4_9
+TEXT: Chenapan incompris (10/16)
 
 RESOURCE ID: quest_title_uu1_jul21_0
 TEXT: Ultra Bonus 2021 : Temps (1/5)
@@ -1071,17 +1196,20 @@ TEXT: Ultra Bonus 2021 : Épée et Bouclier (4/5)
 RESOURCE ID: quest_title_uu3_aug21_4
 TEXT: Ultra Bonus 2021 : Épée et Bouclier (5/5)
 
+RESOURCE ID: quest_under_investigation
+TEXT: Le Professeur Willow est en cours d’investigation sur cette étude. Reviens vite pour d’autres nouvelles !
+
 RESOURCE ID: quest_use_any_potion
-TEXT: Use any Potion on a Pokémon
+TEXT: Utilise une Potion sur un Pokémon
 
 RESOURCE ID: quest_use_hyper_potion
-TEXT: Use a Hyper Potion on a Pokémon
+TEXT: Utilise une Hyper Potion sur un Pokémon
 
 RESOURCE ID: quest_use_max_potion
-TEXT: Use a Max Potion on a Pokémon
+TEXT: Utilise une Potion Max sur un Pokémon
 
 RESOURCE ID: quest_use_super_potion
-TEXT: Use a Super Potion on a Pokémon
+TEXT: Utilise une Super Potion sur un Pokémon
 
 RESOURCE ID: safari_2020_dialogue_1_2a
 TEXT: Why not take the time to bond with your buddy?
@@ -1099,18 +1227,18 @@ RESOURCE ID: ticket_oshawott
 TEXT: Ticket for Special Research story available in the Shop: From Scalchops to Seamitars
 
 RESOURCE ID: tips_battle_at_gyms_tutorial_body
-TEXT: You can claim a Gym controlled by a rival team by defeating the Pokémon in the Gym. If you reduce the motivation of all Pokémon in the Gym to zero, you’ll be able to claim the Gym for your team.
+TEXT: Tu peux prendre le contrôle d’une Arène d’une équipe rivale en battant les Pokémon qui s’y trouvent. Si tu réduis à zéro la motivation de tous les Pokémon de l’Arène, tu pourras en prendre le contrôle pour ton équipe.
 
 RESOURCE ID: tips_battle_at_gyms_tutorial_title
-TEXT: Battle at Gyms
+TEXT: Combats dans les Arènes
 
 RESOURCE ID: tips_gym_pokecoins_tutorial_body
-TEXT: Earn up to 50 PokéCoins per day when your Pokémon defends a Gym.
+TEXT: Quand ton Pokémon défend une Arène, tu peux gagner jusqu’à 50 PokéPièces par jour.
 
-You’ll earn these PokéCoins when your Pokémon returns from defending the Gym.
+Tu obtiendras ces PokéPièces quand ton Pokémon arrêtera de défendre l’Arène.
 
 RESOURCE ID: tips_gym_pokecoins_tutorial_title
-TEXT: Earn PokéCoins
+TEXT: Gagne des PokéPièces
 
 RESOURCE ID: tips_loading_screen_battle_switch_charged_move
 TEXT: Échange ton Pokémon au cours d’un combat pour utiliser les différentes Attaques Chargées de ton équipe de combat.
@@ -1143,60 +1271,60 @@ RESOURCE ID: tips_no_tag_message_title
 TEXT: Créer un mot-clé
 
 RESOURCE ID: tips_potion_revive_tutorial_intro_0
-TEXT: Looks like your Pokémon fainted. Here are some Potions and Revives that you can use to restore your Pokémon’s HP.
+TEXT: Certains de tes Pokémon semblent être K.O. Voici quelques Potions et Rappels à utiliser pour redonner des PV à tes Pokémon.
 
 RESOURCE ID: tips_potion_revive_tutorial_intro_1
-TEXT: To use these items, open your Item Bag. Hope you find them helpful, {0}! Let’s take care of our Pokémon, just like they take care of us.
+TEXT: Pour utiliser ces articles, ouvre ton Sac. J’espère qu’ils te seront utiles, {0}. Occupons-nous aussi bien de nos Pokémon qu’ils s’occupent de nous.
 
 RESOURCE ID: tips_potion_revive_tutorial_outro_0
-TEXT: Collect more Potions and Revives by winning Raid Battles and spinning Photo Discs at PokéStops and Gyms!
+TEXT: Rassemble davantage de Potions et de Rappels en gagnant des Combats de Raids et en faisant tourner le PhotoDisque des PokéStops et des Arènes.
 
 RESOURCE ID: tips_potion_tutorial_0
-TEXT: Your work doesn’t stop there. You should get your Pokémon to full HP!
+TEXT: Mais ce n’est pas tout. Tu devrais restaurer l’ensemble des PV de ton Pokémon !
 
 RESOURCE ID: tips_potion_tutorial_1
-TEXT: You can use Potions to restore the HP of your Pokémon.
+TEXT: Utilise une Potion pour restaurer les PV d’un Pokémon.
 
 RESOURCE ID: tips_potion_tutorial_2
-TEXT: When using Potions, tap on a Pokémon to restore its HP.
+TEXT: Quand tu utilises une Potion, touche un Pokémon pour restaurer ses PV.
 
 RESOURCE ID: tips_potion_tutorial_3
-TEXT: Just like new! Seeing a Pokémon feel better is one of my favorite things.
+TEXT: Et voilà ! Voir un Pokémon en pleine forme me fait toujours plaisir.
 
 RESOURCE ID: tips_potion_tutorial_select_item_toast
-TEXT: Use your Potions to restore the HP of your Pokémon.
+TEXT: Utilise tes Potions pour restaurer les PV de tes Pokémon.
 
 RESOURCE ID: tips_potion_tutorial_use_item_toast
-TEXT: Tap on a Pokémon to restore its HP.
+TEXT: Touche un Pokémon pour restaurer ses PV.
 
 RESOURCE ID: tips_raid_tutorial_charged_attack_body
-TEXT: Once your attack meter is full, tap the button to perform a Charged Attack, which can deal a lot of damage.
+TEXT: Quand ta jauge d’attaque est pleine, touche le bouton pour lancer une Attaque Chargée, qui peut infliger beaucoup de dégâts.
 
 RESOURCE ID: tips_raid_tutorial_charged_attack_title
-TEXT: Charged Attacks
+TEXT: Attaques Chargées
 
 RESOURCE ID: tips_raid_tutorial_difficulty_body
-TEXT: The icon indicates a raid’s difficulty. Work with other Trainers to defeat more challenging Raid Bosses!
+TEXT: Cette icône indique la difficulté d’un Raid. Rejoins d’autres Dresseurs pour vaincre les Boss de Raids plus coriaces !
 
-If you defeat a Mega Raid Boss, you’ll get Mega Energy that you can use to Mega Evolve that Pokémon.
+Si tu bats un Boss de Méga-Raid, tu recevras de la Méga-Énergie que tu peux utiliser pour faire méga-évoluer ce Pokémon.
 
 RESOURCE ID: tips_raid_tutorial_difficulty_title
-TEXT: Raid Difficulty
+TEXT: Difficulté d’un Raid
 
 RESOURCE ID: tips_raid_tutorial_dodge_body
-TEXT: Swipe to the left or right to dodge incoming attacks from the opponent.
+TEXT: Fais glisser ton doigt à gauche ou à droite pour éviter les attaques de l’adversaire.
 
 RESOURCE ID: tips_raid_tutorial_dodge_title
-TEXT: Dodge
+TEXT: Esquive
 
 RESOURCE ID: tips_revive_tutorial_0
-TEXT: Use a Revive on a fainted Pokémon to restore half its maximum HP.
+TEXT: Utilise un Rappel sur un Pokémon K.O. pour restaurer la moitié de ses PV.
 
 RESOURCE ID: tips_revive_tutorial_select_item_toast
-TEXT: Use Revives to revive fainted Pokémon.
+TEXT: Utilise un Rappel pour ranimer un Pokémon K.O.
 
 RESOURCE ID: tips_revive_tutorial_use_item_toast
-TEXT: Tap on your fainted Pokémon to help revive them.
+TEXT: Touche un Pokémon K.O. pour le ranimer.
 
 RESOURCE ID: tips_tag_list_tip_section_title
 TEXT: ASTUCES

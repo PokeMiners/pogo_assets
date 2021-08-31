@@ -88,6 +88,9 @@ TEXT: Legging esportiva (Dragão)
 RESOURCE ID: avatar_seasonal
 TEXT: Pokémon GO Tour: Kanto
 
+RESOURCE ID: boosted_mega_pokemon_slowbro
+TEXT: Mega Slowbro está temporariamente mais poderoso!
+
 RESOURCE ID: change_banned_name_dialog
 TEXT: Olá! Parece haver um problema com o apelido que você escolheu. Escolha um apelido novo.
 
@@ -105,6 +108,33 @@ TEXT: Este apelido não está mais disponível.
 
 RESOURCE ID: error_username_suggestion_just_taken_title
 TEXT: Indisponível
+
+RESOURCE ID: event_mischief_hour_active
+TEXT: Hora da travessura
+
+RESOURCE ID: event_mischief_hour_countdown
+TEXT: Algumas travessuras estão a caminho...
+
+RESOURCE ID: event_season4_name
+TEXT: Temporada de travessura
+
+RESOURCE ID: event_season4_research_available
+TEXT: Pesquisa especial "Travessura incompreendida" disponível
+
+RESOURCE ID: event_season4_research_complete_bonus
+TEXT: Complete a narrativa da pesquisa especial "Travessura incompreendida" para acessar um evento especial de fim de temporada
+
+RESOURCE ID: event_seasonal_eggs
+TEXT: Pokémon de temporada estão chocando de Ovos
+
+RESOURCE ID: event_seasonal_wild
+TEXT: Pokémon selvagens de temporada
+
+RESOURCE ID: event_surprise_bonuses_active
+TEXT: Bônus surpresa já estão disponíveis!
+
+RESOURCE ID: event_surprise_bonuses_countdown
+TEXT: Bônus surpresa estarão disponíveis em breve!
 
 RESOURCE ID: evolve_best_buddy_confirmation
 TEXT: Você quer evoluir seu Melhor companheiro {0}?
@@ -581,9 +611,15 @@ RESOURCE ID: master_premier_classic_title
 TEXT: Premier LM Clássica
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-08-26T16:24:34.268430
-at SHA 52ac90efa0a244ac838c7b076cea7e46550492da
+TEXT: Built at 2021-08-30T21:01:46.274217
+at SHA 1d4fc1e988fcd485b0279ce9145a43b9c7696790
 Patch from: 0.217.0-SHA-c6d9d393, 0.217.1-SHA-e2c5ee9b
+
+RESOURCE ID: move_name_0352
+TEXT: Esfera Climática
+
+RESOURCE ID: mvt_stat_remote_distance_player_details
+TEXT: Participou a {0} km de distância
 
 RESOURCE ID: onboard_name_registered|1
 TEXT: Que apelido legal!
@@ -644,19 +680,19 @@ RESOURCE ID: poi_close_toast
 TEXT: Esta Poképarada fechará às {0: hh:mm tt}
 
 RESOURCE ID: poi_contrib_edit_category_added
-TEXT: Submissões de categoria que serão adicionadas amanhã: {0}.
+TEXT: Envios de categoria que serão adicionados amanhã: {0}.
 
 RESOURCE ID: poi_contrib_edit_category_avail
-TEXT: Submissões de categoria disponíveis hoje: {0}.
+TEXT: Envios de categoria disponíveis hoje: {0}.
 
 RESOURCE ID: poi_contrib_edit_category_maxed
-TEXT: Você atingiu seu máximo diário de submissões de categoria de {0}.
+TEXT: Você atingiu seu máximo diário de envios de categoria de {0}.
 
 RESOURCE ID: poi_contrib_remaining_category_multiple
-TEXT: Submissões de categoria restantes: {0}.
+TEXT: {0} envios de categoria restantes
 
 RESOURCE ID: poi_contrib_remaining_category_one
-TEXT: Uma submissão de categoria restante
+TEXT: 1 envio de categoria restante
 
 RESOURCE ID: poi_contrib_upload_later_msg
 TEXT: Quando você estiver pronto para fazer o upload, acesse o menu principal.
@@ -1270,6 +1306,9 @@ TEXT: Zeraora se aproxima dos seus oponentes na velocidade da luz, depois os dil
 RESOURCE ID: pokestop_spin_new_xp_ten
 TEXT: 10× PE por visitar Poképaradas pela primeira vez
 
+RESOURCE ID: pokestop_spin_new_xp_three
+TEXT: 3× PE por visitar Poképaradas pela primeira vez
+
 RESOURCE ID: pups_tutorial_p0_body
 TEXT: Se você escanear uma localização, seus pontos de localização aumentarão. Quando a localização for Fortificada, ele fornecerá bônus aos Treinadores próximos, dependendo do seu nível.
 
@@ -1301,7 +1340,7 @@ RESOURCE ID: quest_complete_oshat
 TEXT: From Scalchops to Seamitars
 
 RESOURCE ID: quest_defeat_rocket
-TEXT: Defeat {0} Team GO Rocket members
+TEXT: Derrotar {0} membros da Equipe GO Rocket
 
 RESOURCE ID: quest_eevet_catch_b
 TEXT: Pegar {0} Eevee.
@@ -1483,6 +1522,36 @@ TEXT: Well would you look at that, %PLAYERNAME%, a Samurott in the flesh! It’s
 RESOURCE ID: quest_special_dialogue_oshat_3_1
 TEXT: Thanks for all your help today, %PLAYERNAME%. We’ve learned so much about Oshawott, Dewott, and Samurott—and from them too! I’ll SEA you next time! Ha-ha!
 
+RESOURCE ID: quest_special_dialogue_season4_0_0
+TEXT: Olá, %PLAYERNAME%! Quem bom que você está aqui. Uma nova aventura está prestes a começar!
+
+RESOURCE ID: quest_special_dialogue_season4_0_1
+TEXT: Não faz muito tempo que vários Pokémon Lendários começaram a emergir de anéis misteriosos que apareceram repentinamente no céu. Após algumas pesquisas, descobrimos que quem estava por trás disso era Hoopa, o Pokémon Travessura.
+
+RESOURCE ID: quest_special_dialogue_season4_0_2
+TEXT: Os anéis de Hoopa permitem que ele teletransporte coisas, incluindo a si mesmo, para onde desejar. Este poder torna difícil rastreá-lo, mas por algum motivo, Hoopa parece continuar voltando por aqui.
+
+RESOURCE ID: quest_special_dialogue_season4_0_3
+TEXT: Como eu sei? Bom, estava trabalhando no meu laboratório quando meus óculos foram retirados do meu rosto. Spark estava lá me ajudando, e disse que viu uma mão pequenina, meio lilás, saindo de um anel e roubando meus óculos. Muita ousadia, não?
+
+RESOURCE ID: quest_special_dialogue_season4_0_4
+TEXT: Por sorte, ele e Candela conseguiram recuperar meus óculos perseguindo os anéis que apareciam do nada em tudo quanto é canto no meu laboratório móvel. Pelo menos, eu ainda consigo enxergar. Haha!
+
+RESOURCE ID: quest_special_dialogue_season4_0_5
+TEXT: Não que eu precise dizer, mas eu ainda não sei por que Hoopa está aqui. Rastreá-lo tem sido difícil, mas com a sua ajuda, tenho certeza que resolveremos isso em um piscar de olhos.
+
+RESOURCE ID: quest_special_dialogue_season4_0_6
+TEXT: Enquanto isso, por que você não usa um Incenso para ver quais Pokémon consegue encontrar nesta área?
+
+RESOURCE ID: quest_special_dialogue_season4_1_0
+TEXT: Como em grandes suspenses, resolver este caso levará tempo, paciência e confiança. Em algumas das vezes, você precisará trabalhar sem minha ajuda, mas prometo que compartilharei tudo o que encontrar para ajudar em nossa busca.
+
+RESOURCE ID: quest_special_dialogue_season4_1_1
+TEXT: Continue explorando o mundo como sempre. Você nunca sabe o que vai encontrar!
+
+RESOURCE ID: quest_special_dialogue_season4_1_2
+TEXT: Voltarei quando tiver mais informações sobre Hoopa. Desde já, agradeço pela sua ajuda, %PLAYERNAME%!
+
 RESOURCE ID: quest_title_eevet
 TEXT: Escolha quem você será
 
@@ -1515,6 +1584,57 @@ TEXT: From Scalchops to Seamitars (3/4)
 
 RESOURCE ID: quest_title_oshat_3
 TEXT: From Scalchops to Seamitars (4/4)
+
+RESOURCE ID: quest_title_season4
+TEXT: Travessura incompreendida
+
+RESOURCE ID: quest_title_season4_0
+TEXT: Travessura incompreendida (1/16)
+
+RESOURCE ID: quest_title_season4_1
+TEXT: Travessura incompreendida (2/16)
+
+RESOURCE ID: quest_title_season4_10
+TEXT: Travessura incompreendida (11/16)
+
+RESOURCE ID: quest_title_season4_11
+TEXT: Travessura incompreendida (12/16)
+
+RESOURCE ID: quest_title_season4_12
+TEXT: Travessura incompreendida (13/16)
+
+RESOURCE ID: quest_title_season4_13
+TEXT: Travessura incompreendida (14/16)
+
+RESOURCE ID: quest_title_season4_14
+TEXT: Travessura incompreendida (15/16)
+
+RESOURCE ID: quest_title_season4_15
+TEXT: Travessura incompreendida (16/16)
+
+RESOURCE ID: quest_title_season4_2
+TEXT: Travessura incompreendida (3/16)
+
+RESOURCE ID: quest_title_season4_3
+TEXT: Travessura incompreendida (4/16)
+
+RESOURCE ID: quest_title_season4_4
+TEXT: Travessura incompreendida (5/16)
+
+RESOURCE ID: quest_title_season4_5
+TEXT: Travessura incompreendida (6/16)
+
+RESOURCE ID: quest_title_season4_6
+TEXT: Travessura incompreendida (7/16)
+
+RESOURCE ID: quest_title_season4_7
+TEXT: Travessura incompreendida (8/16)
+
+RESOURCE ID: quest_title_season4_8
+TEXT: Travessura incompreendida (9/16)
+
+RESOURCE ID: quest_title_season4_9
+TEXT: Travessura incompreendida (10/16)
 
 RESOURCE ID: quest_title_uu1_jul21_0
 TEXT: Ultrabônus 2021: tempo (1/5)
@@ -1561,17 +1681,20 @@ TEXT: Ultrabônus 2021: Espada e Escudo (4/5)
 RESOURCE ID: quest_title_uu3_aug21_4
 TEXT: Ultrabônus 2021: Espada e Escudo (5/5)
 
+RESOURCE ID: quest_under_investigation
+TEXT: O Professor Willow está atualmente realizando uma investigação sobre esta pesquisa. Confira mais detalhes em breve!
+
 RESOURCE ID: quest_use_any_potion
 TEXT: Usar qualquer Poção em um Pokémon.
 
 RESOURCE ID: quest_use_hyper_potion
-TEXT: Usar uma Hiperpoção em um Pokémon.
+TEXT: Usar 1 Hiperpoção em um Pokémon.
 
 RESOURCE ID: quest_use_max_potion
-TEXT: Usar uma Poção Máxima em um Pokémon.
+TEXT: Usar 1 Poção Máxima em um Pokémon.
 
 RESOURCE ID: quest_use_super_potion
-TEXT: Usar uma Superpoção em um Pokémon.
+TEXT: Usar 1 Superpoção em um Pokémon.
 
 RESOURCE ID: safari_2020_dialogue_1_2a
 TEXT: Why not take the time to bond with your buddy?

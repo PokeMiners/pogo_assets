@@ -91,6 +91,9 @@ TEXT: Tour di Pokémon GO di Kanto
 RESOURCE ID: avatar_sponsor
 TEXT: SPONSOR
 
+RESOURCE ID: boosted_mega_pokemon_slowbro
+TEXT: MegaSlowbro è temporaneamente più potente!
+
 RESOURCE ID: bulk_upgrade_final_confirmation
 TEXT: Vuoi davvero potenziare {0}?
 
@@ -111,6 +114,33 @@ TEXT: Questo soprannome non è più disponibile.
 
 RESOURCE ID: error_username_suggestion_just_taken_title
 TEXT: Non disponibile
+
+RESOURCE ID: event_mischief_hour_active
+TEXT: Ora del Pokémon Birba
+
+RESOURCE ID: event_mischief_hour_countdown
+TEXT: Presto inizierà qualche birbanteria...
+
+RESOURCE ID: event_season4_name
+TEXT: Stagione del Pokémon Birba
+
+RESOURCE ID: event_season4_research_available
+TEXT: La ricerca speciale “Birbanterie incomprese” è disponibile
+
+RESOURCE ID: event_season4_research_complete_bonus
+TEXT: Completa la ricerca speciale “Birbanterie incomprese” per accedere a un evento speciale di fine stagione
+
+RESOURCE ID: event_seasonal_eggs
+TEXT: Pokémon della stagione che nascono dalle Uova
+
+RESOURCE ID: event_seasonal_wild
+TEXT: Pokémon selvatici della stagione
+
+RESOURCE ID: event_surprise_bonuses_active
+TEXT: I bonus a sorpresa sono attivi!
+
+RESOURCE ID: event_surprise_bonuses_countdown
+TEXT: Presto saranno attivi dei bonus a sorpresa!
 
 RESOURCE ID: evolved_too_strong_may
 TEXT: Questo Pokémon potrebbe superare il limite massimo di PL per alcune Leghe Lotte.
@@ -590,9 +620,12 @@ RESOURCE ID: master_premier_classic_title
 TEXT: LM Premier Classica
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-08-26T16:24:34.268430
-at SHA 52ac90efa0a244ac838c7b076cea7e46550492da
+TEXT: Built at 2021-08-30T21:01:46.274217
+at SHA 1d4fc1e988fcd485b0279ce9145a43b9c7696790
 Patch from: 0.217.0-SHA-c6d9d393, 0.217.1-SHA-e2c5ee9b
+
+RESOURCE ID: move_name_0352
+TEXT: Palla Clima
 
 RESOURCE ID: photobomb_five_eevee
 TEXT: Cinque incontri a sorpresa con Eevee in modalità foto GO
@@ -798,6 +831,9 @@ TEXT: Vuoi davvero far megaevolvere {0}?
 RESOURCE ID: pokestop_spin_new_xp_ten
 TEXT: 10 volte i normali PE se fai girare dei nuovi dischi Pokéstop
 
+RESOURCE ID: pokestop_spin_new_xp_three
+TEXT: 3 volte i normali PE se fai girare dei nuovi dischi Pokéstop
+
 RESOURCE ID: pups_tutorial_p0_body
 TEXT: Se scansioni un luogo, il suo punteggio aumenterà. Quando viene potenziato, fornirà dei bonus differenti a seconda del suo livello agli Allenatori nelle vicinanze.
 
@@ -829,7 +865,7 @@ RESOURCE ID: quest_complete_oshat
 TEXT: From Scalchops to Seamitars
 
 RESOURCE ID: quest_defeat_rocket
-TEXT: Defeat {0} Team GO Rocket members
+TEXT: Sconfiggi {0} membri del Team GO Rocket
 
 RESOURCE ID: quest_eevet_catch_b
 TEXT: Cattura {0} Eevee
@@ -1005,6 +1041,36 @@ TEXT: Well would you look at that, %PLAYERNAME%, a Samurott in the flesh! It’s
 RESOURCE ID: quest_special_dialogue_oshat_3_1
 TEXT: Thanks for all your help today, %PLAYERNAME%. We’ve learned so much about Oshawott, Dewott, and Samurott—and from them too! I’ll SEA you next time! Ha-ha!
 
+RESOURCE ID: quest_special_dialogue_season4_0_0
+TEXT: Ehi, %PLAYERNAME%! Sono contento di vederti. Sta per iniziare una nuova avventura!
+
+RESOURCE ID: quest_special_dialogue_season4_0_1
+TEXT: Non molto tempo fa, diversi Pokémon leggendari sono emersi da alcuni anelli misteriosi apparsi improvvisamente nel cielo. Dopo qualche ricerca, abbiamo scoperto che il responsabile era Hoopa, il Pokémon Birba.
+
+RESOURCE ID: quest_special_dialogue_season4_0_2
+TEXT: Grazie ai suoi anelli, Hoopa è in grado di teletrasportare oggetti, e perfino se stesso, ovunque vuole. Questo potere lo rende particolarmente difficile da localizzare ma, per qualche motivo, continua a tornare da queste parti.
+
+RESOURCE ID: quest_special_dialogue_season4_0_3
+TEXT: Come faccio a saperlo? Beh, poco tempo fa stavo lavorando nel mio laboratorio quando i miei occhiali improvvisamente si sono sollevati in aria. Spark era lì vicino, e mi ha detto di aver visto una piccola mano viola emergere da un anello e afferrare gli occhiali. Audace, non credi?
+
+RESOURCE ID: quest_special_dialogue_season4_0_4
+TEXT: Fortunatamente, lui e Candela sono riusciti a recuperare gli occhiali seguendo gli anelli che apparivano negli angoli più disparati del laboratorio. Così, almeno, ci vedo ancora. Ah, ah!
+
+RESOURCE ID: quest_special_dialogue_season4_0_5
+TEXT: Però non sono ancora riuscito a capire come mai Hoopa è qui. È difficile riuscire a scovarlo, ma con il tuo aiuto sono sicuro che presto riusciremo a risolvere il mistero!
+
+RESOURCE ID: quest_special_dialogue_season4_0_6
+TEXT: Nel frattempo, prova a usare un aroma e vediamo quali Pokémon riesci a trovare nelle vicinanze. 
+
+RESOURCE ID: quest_special_dialogue_season4_1_0
+TEXT: Come tutti i misteri che si rispettino, anche questo richiederà tempo, pazienza e fiducia. Dovrò condurre parte delle ricerche da solo ma ti prometto che tornerò per condividere con te le mie scoperte, così potremo procedere nelle indagini.
+
+RESOURCE ID: quest_special_dialogue_season4_1_1
+TEXT: Tu intanto continua pure a esplorare il mondo... non si sa mai!
+
+RESOURCE ID: quest_special_dialogue_season4_1_2
+TEXT: Tornerò appena avrò raccolto più informazioni su Hoopa. Grazie in anticipo per l’aiuto, %PLAYERNAME%!
+
 RESOURCE ID: quest_title_eevet
 TEXT: A te la scelta
 
@@ -1037,6 +1103,57 @@ TEXT: From Scalchops to Seamitars (3/4)
 
 RESOURCE ID: quest_title_oshat_3
 TEXT: From Scalchops to Seamitars (4/4)
+
+RESOURCE ID: quest_title_season4
+TEXT: Birbanterie incomprese
+
+RESOURCE ID: quest_title_season4_0
+TEXT: Birbanterie incomprese (1/16)
+
+RESOURCE ID: quest_title_season4_1
+TEXT: Birbanterie incomprese (2/16)
+
+RESOURCE ID: quest_title_season4_10
+TEXT: Birbanterie incomprese (11/16)
+
+RESOURCE ID: quest_title_season4_11
+TEXT: Birbanterie incomprese (12/16)
+
+RESOURCE ID: quest_title_season4_12
+TEXT: Birbanterie incomprese (13/16)
+
+RESOURCE ID: quest_title_season4_13
+TEXT: Birbanterie incomprese (14/16)
+
+RESOURCE ID: quest_title_season4_14
+TEXT: Birbanterie incomprese (15/16)
+
+RESOURCE ID: quest_title_season4_15
+TEXT: Birbanterie incomprese (16/16)
+
+RESOURCE ID: quest_title_season4_2
+TEXT: Birbanterie incomprese (3/16)
+
+RESOURCE ID: quest_title_season4_3
+TEXT: Birbanterie incomprese (4/16)
+
+RESOURCE ID: quest_title_season4_4
+TEXT: Birbanterie incomprese (5/16)
+
+RESOURCE ID: quest_title_season4_5
+TEXT: Birbanterie incomprese (6/16)
+
+RESOURCE ID: quest_title_season4_6
+TEXT: Birbanterie incomprese (7/16)
+
+RESOURCE ID: quest_title_season4_7
+TEXT: Birbanterie incomprese (8/16)
+
+RESOURCE ID: quest_title_season4_8
+TEXT: Birbanterie incomprese (9/16)
+
+RESOURCE ID: quest_title_season4_9
+TEXT: Birbanterie incomprese (10/16)
 
 RESOURCE ID: quest_title_uu1_jul21_0
 TEXT: Sblocco dell’ultrabonus 2021: tempo (1/5)
@@ -1083,6 +1200,9 @@ TEXT: Sblocco dell’ultrabonus 2021: Spada e Scudo (4/5)
 RESOURCE ID: quest_title_uu3_aug21_4
 TEXT: Sblocco dell’ultrabonus 2021: Spada e Scudo (5/5)
 
+RESOURCE ID: quest_under_investigation
+TEXT: Il Professor Willow sta facendo un’indagine per questa ricerca. Torna presto a trovarci per ulteriori informazioni!
+
 RESOURCE ID: quest_use_any_potion
 TEXT: Use any Potion on a Pokémon
 
@@ -1120,18 +1240,18 @@ RESOURCE ID: ticket_oshawott
 TEXT: Ticket for Special Research story available in the Shop: From Scalchops to Seamitars
 
 RESOURCE ID: tips_battle_at_gyms_tutorial_body
-TEXT: You can claim a Gym controlled by a rival team by defeating the Pokémon in the Gym. If you reduce the motivation of all Pokémon in the Gym to zero, you’ll be able to claim the Gym for your team.
+TEXT: Puoi rivendicare una Palestra controllata da una squadra rivale sconfiggendo i Pokémon nella Palestra. Se riduci a zero la motivazione di tutti i Pokémon nella Palestra, potrai rivendicarla per la tua squadra.
 
 RESOURCE ID: tips_battle_at_gyms_tutorial_title
-TEXT: Battle at Gyms
+TEXT: Lotta nelle Palestre
 
 RESOURCE ID: tips_gym_pokecoins_tutorial_body
-TEXT: Earn up to 50 PokéCoins per day when your Pokémon defends a Gym.
+TEXT: Ottieni fino a 50 Pokémonete al giorno quando un tuo Pokémon difende una Palestra.
 
-You’ll earn these PokéCoins when your Pokémon returns from defending the Gym.
+Riceverai queste Pokémonete quando il Pokémon torna dalla Palestra che ha difeso.
 
 RESOURCE ID: tips_gym_pokecoins_tutorial_title
-TEXT: Earn PokéCoins
+TEXT: Ottieni Pokémonete
 
 RESOURCE ID: tips_loading_screen_battle_switch_charged_move
 TEXT: Cambia Pokémon durante la lotta e potrai sfruttare al massimo i diversi attacchi caricati della tua squadra.
@@ -1164,60 +1284,60 @@ RESOURCE ID: tips_no_tag_message_title
 TEXT: Crea etichette
 
 RESOURCE ID: tips_potion_revive_tutorial_intro_0
-TEXT: Looks like your Pokémon fainted. Here are some Potions and Revives that you can use to restore your Pokémon’s HP.
+TEXT: Sembra che il tuo Pokémon sia esausto. Ecco alcune Pozioni e Revitalizzanti che puoi utilizzare per restituire al Pokémon i suoi PS.
 
 RESOURCE ID: tips_potion_revive_tutorial_intro_1
-TEXT: To use these items, open your Item Bag. Hope you find them helpful, {0}! Let’s take care of our Pokémon, just like they take care of us.
+TEXT: Per utilizzare questi strumenti, apri la tua Borsa. Spero ti siano utili, {0}! Prendiamoci cura dei nostri Pokémon proprio come loro fanno con noi.
 
 RESOURCE ID: tips_potion_revive_tutorial_outro_0
-TEXT: Collect more Potions and Revives by winning Raid Battles and spinning Photo Discs at PokéStops and Gyms!
+TEXT: Ottieni più Pozioni e Revitalizzanti vincendo i raid e facendo girare i dischi foto dei Pokéstop e delle Palestre!
 
 RESOURCE ID: tips_potion_tutorial_0
-TEXT: Your work doesn’t stop there. You should get your Pokémon to full HP!
+TEXT: Il tuo compito però non è ancora finito. Perché non restituirgli tutti i PS?
 
 RESOURCE ID: tips_potion_tutorial_1
-TEXT: You can use Potions to restore the HP of your Pokémon.
+TEXT: Per restituire al tuo Pokémon i suoi PS, puoi utilizzare le Pozioni.
 
 RESOURCE ID: tips_potion_tutorial_2
-TEXT: When using Potions, tap on a Pokémon to restore its HP.
+TEXT: Quando utilizzi le Pozioni, tocca il Pokémon a cui vuoi restituire i PS.
 
 RESOURCE ID: tips_potion_tutorial_3
-TEXT: Just like new! Seeing a Pokémon feel better is one of my favorite things.
+TEXT: Ecco fatto! Vedere un Pokémon rimettersi in forze è una delle cose che preferisco.
 
 RESOURCE ID: tips_potion_tutorial_select_item_toast
-TEXT: Use your Potions to restore the HP of your Pokémon.
+TEXT: Utilizza le Pozioni per restituire ai tuoi Pokémon i loro PS.
 
 RESOURCE ID: tips_potion_tutorial_use_item_toast
-TEXT: Tap on a Pokémon to restore its HP.
+TEXT: Tocca il Pokémon a cui vuoi restituire i PS.
 
 RESOURCE ID: tips_raid_tutorial_charged_attack_body
-TEXT: Once your attack meter is full, tap the button to perform a Charged Attack, which can deal a lot of damage.
+TEXT: Quando l’indicatore è pieno, tocca il pulsante per sferrare un attacco caricato, in grado di infliggere molti danni.
 
 RESOURCE ID: tips_raid_tutorial_charged_attack_title
-TEXT: Charged Attacks
+TEXT: Attacchi caricati
 
 RESOURCE ID: tips_raid_tutorial_difficulty_body
-TEXT: The icon indicates a raid’s difficulty. Work with other Trainers to defeat more challenging Raid Bosses!
+TEXT: La difficoltà di un raid è indicata nell’icona. Collabora con altri Allenatori per sconfiggere boss più ostici!
 
-If you defeat a Mega Raid Boss, you’ll get Mega Energy that you can use to Mega Evolve that Pokémon.
+Se sconfiggi il boss di un megaraid, riceverai della Megaenergia da utilizzare per far megaevolvere quel particolare Pokémon.
 
 RESOURCE ID: tips_raid_tutorial_difficulty_title
-TEXT: Raid Difficulty
+TEXT: Difficoltà dei raid
 
 RESOURCE ID: tips_raid_tutorial_dodge_body
-TEXT: Swipe to the left or right to dodge incoming attacks from the opponent.
+TEXT: Fai scivolare il dito a destra o a sinistra per schivare gli attacchi dell’avversario in arrivo.
 
 RESOURCE ID: tips_raid_tutorial_dodge_title
-TEXT: Dodge
+TEXT: Schiva
 
 RESOURCE ID: tips_revive_tutorial_0
-TEXT: Use a Revive on a fainted Pokémon to restore half its maximum HP.
+TEXT: Usa un Revitalizzante su un Pokémon KO per restituirgli la metà dei PS.
 
 RESOURCE ID: tips_revive_tutorial_select_item_toast
-TEXT: Use Revives to revive fainted Pokémon.
+TEXT: Usa i Revitalizzanti per rianimare i Pokémon KO.
 
 RESOURCE ID: tips_revive_tutorial_use_item_toast
-TEXT: Tap on your fainted Pokémon to help revive them.
+TEXT: Tocca i tuoi Pokémon KO per rianimarli.
 
 RESOURCE ID: tips_tag_list_tip_section_title
 TEXT: SUGGERIMENTI
