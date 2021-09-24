@@ -151,6 +151,9 @@ TEXT: Méga-Flagadoss est temporairement plus puissant.
 RESOURCE ID: change_banned_name_dialog
 TEXT: Salut, Dresseur ! Il y a un problème avec ton surnom. Choisis-en un nouveau.
 
+RESOURCE ID: community_day_duskull_event_name
+TEXT: Community Day: Duskull
+
 RESOURCE ID: community_day_eevee_event_name
 TEXT: Journée Communauté : Évoli
 
@@ -857,6 +860,14 @@ RESOURCE ID: general1.ticket.2_description
 TEXT: Un ticket pour accéder à l’Étude spéciale, “D’un coupillage à un coup de lame”, le dimanche 19 septembre 2021, de 11h à 17h (heures locales) où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
 \ Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet évènement spécial.
 
+RESOURCE ID: general1.ticket.2_duskt_description
+TEXT: A ticket to access the Nothin' Dull About Duskull Special Research on October 9, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_duskt_title
+TEXT: Nothin' Dull About Duskull
+
 RESOURCE ID: general1.ticket.2_oshat_description
 TEXT: Un ticket pour accéder à l’Étude spéciale, “D’un coupillage à un coup de lame”, le dimanche 19 septembre 2021, de 11h à 17h (heures locales) où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
 \ Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet évènement spécial.
@@ -878,6 +889,12 @@ TEXT: Un ticket pour accéder à une Étude spéciale le dimanche 19 septembre�
 
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à une Étude spéciale le dimanche 19 septembre 2021, où que tu sois.
+
+RESOURCE ID: item_event_ticket_pink_duskt_desc
+TEXT: A ticket to access Special Research on October 9, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_duskt_details
+TEXT: This ticket will automatically activate to give you access to Special Research on October 9, 2021, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_oshat_desc
 TEXT: Un ticket pour accéder à une Étude spéciale le dimanche 19 septembre 2021 de 11h à 17h (heures locales), où que tu sois.
@@ -901,12 +918,15 @@ RESOURCE ID: master_premier_classic_title
 TEXT: LM Majeure Classique
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-09-17T18:51:34.033905
-at SHA fb7727f99f773bcb85e155e9125fd1f949ffd710
+TEXT: Built at 2021-09-22T23:08:40.146912
+at SHA 9e2912e8bd1688d609ec5f9a7474aafc4aeaa4a6
 Patch from: 0.219.0-SHA-b7319e35, 0.219.1-SHA-5d4715b6
 
 RESOURCE ID: move_name_0352
 TEXT: Ball’Météo
+
+RESOURCE ID: photobomb_five_duskull
+TEXT: 5 surprise encounters with Duskull in GO Snapshot
 
 RESOURCE ID: photobomb_five_eevee
 TEXT: Évoli s’introduit 5 fois dans tes Clichés GO
@@ -953,6 +973,9 @@ TEXT: Change la forme de {0} Pokémon
 RESOURCE ID: quest_change_form_singular
 TEXT: Change la forme d’un Pokémon
 
+RESOURCE ID: quest_complete_duskt
+TEXT: Nothin' Dull About Duskull
+
 RESOURCE ID: quest_complete_eevet
 TEXT: Ce que tu choisis d’être
 
@@ -964,6 +987,15 @@ TEXT: Bats {0} membres de la Team GO Rocket
 
 RESOURCE ID: quest_defeat_rocket_singular
 TEXT: Bats un membre de la Team GO Rocket
+
+RESOURCE ID: quest_duskt_catch_b
+TEXT: Catch {0} Duskull
+
+RESOURCE ID: quest_duskt_evolve_b
+TEXT: Evolve {0} Duskull
+
+RESOURCE ID: quest_duskt_evolve_s1
+TEXT: Evolve {0} Dusclops
 
 RESOURCE ID: quest_eevet_evolve_b
 TEXT: Fais évoluer {0} Évoli
@@ -988,6 +1020,54 @@ TEXT: Prends une photo d’un Kirlia ou Skitty dans la nature
 
 RESOURCE ID: quest_snapshot_wild_sneasel_croagunk_frillish
 TEXT: Prends une photo d’un Farfuret, Cradopaud ou Viskuse dans la nature
+
+RESOURCE ID: quest_special_dialogue_duskt_0_0
+TEXT: Hey there, %PLAYERNAME%! How’ve you been? Things are going well on the research front since a lot of Ghost-type Pokémon have been appearing, but some strange things have been happening lately.
+
+RESOURCE ID: quest_special_dialogue_duskt_0_1
+TEXT: You see, while I’ve been compiling my findings on Ghost types in my lab, every once in a while I feel a chill like someone is watching me.
+
+RESOURCE ID: quest_special_dialogue_duskt_0_2
+TEXT: I managed to glance a peek and you won’t believe what I saw: a floating Pokémon in my wall! The moment I saw it, it vanished back into the wall. I ran outside but lo and behold—it was nowhere to be found.
+
+RESOURCE ID: quest_special_dialogue_duskt_0_3
+TEXT: I believe this to be a Duskull, the Requiem Pokémon! Making itself invisible, it’s known to silently sneak up to prey. It also has the ability to slip through thick walls. Spooky!
+
+RESOURCE ID: quest_special_dialogue_duskt_0_4
+TEXT: My findings on Ghost-type Pokémon could really use some research in the field to supplement it! Can you help me learn more about Duskull? Hopefully we can learn more about why it’s sneaking around my lab!
+
+RESOURCE ID: quest_special_dialogue_duskt_1_0
+TEXT: Hey there, %PLAYERNAME%! Great work researching all of those Duskull. I have an update myself with the Duskull that was visiting me!
+
+RESOURCE ID: quest_special_dialogue_duskt_1_1
+TEXT: When I saw it trying to sneak up on me again through a wall, I just shouted, “BOO!” and—what do you know—it disappeared and reappeared again, apparently wanting me to do it again!
+
+RESOURCE ID: quest_special_dialogue_duskt_1_2
+TEXT: I started playing peek-a-boo with it and it seemed to enjoy the game. Imagine enjoying playing with others, but you never get to because Trainers are taken back by your appearance. Hmph...
+
+RESOURCE ID: quest_special_dialogue_duskt_1_3
+TEXT: I wonder what else we can learn about Duskull? Let’s try evolving it into Dusclops! Also known as the Beckon Pokémon, I hear that it sucks everything in as if it were a black hole, so be careful of its mouth!
+
+RESOURCE ID: quest_special_dialogue_duskt_2_0
+TEXT: Oh wow! Wait, %PLAYERNAME%, you did WHAT? Oh no, I didn't mean to tell you to feed a berry to Dusclops—I meant to tell you to NOT to do that. There must have been a miscommunication.
+
+RESOURCE ID: quest_special_dialogue_duskt_2_1
+TEXT: I'm glad to see that you're here and not sucked into a black hole! And what was that? It just ate the berry normally? Isn't that fascinating!
+
+RESOURCE ID: quest_special_dialogue_duskt_2_2
+TEXT: Let’s learn more about its Evolution: Dusknoir, the Gripper Pokémon! Apparently at the bidding of transmissions from the spirit world, it steals people and Pokémon away!
+
+RESOURCE ID: quest_special_dialogue_duskt_2_3
+TEXT: And no one knows whether it has a will of its own. Isn't that so curious! Let's go learn more about this for ourselves, shall we? Go ahead and evolve your Dusclops and let me know what you discover.
+
+RESOURCE ID: quest_special_dialogue_duskt_3_0
+TEXT: Oh hello there—AH! SPOOKY! Did you see the Dusknoir behind you? Whether it has a will of its own or not—one thing that's clear to me is that the Dusclops you evolved sure seems quite different now as a Dusknoir!
+
+RESOURCE ID: quest_special_dialogue_duskt_3_1
+TEXT: Ghost-type Pokémon are just like any other Pokémon, even the ones that seem the spookiest. I guess if we’ve learned anything today it’s that there’s nothing dull about Duskull or its Evolutions.
+
+RESOURCE ID: quest_special_dialogue_duskt_3_2
+TEXT: It’s always such a joy to learn about Pokémon, isn’t it? Thanks for your help today %PLAYERNAME%. I hope to see you and your Dusknoir again soon!
 
 RESOURCE ID: quest_special_dialogue_eevet_0_0
 TEXT: Salut, %PLAYERNAME% !
@@ -1108,6 +1188,102 @@ TEXT: J’espère que tu auras bientôt la chance de croiser un Pokémon aussi m
 
 RESOURCE ID: quest_special_dialogue_eevet_4_9
 TEXT: À la prochaine et en avant !
+
+RESOURCE ID: quest_special_dialogue_m23_2021_0_0
+TEXT: Ah, %PLAYERNAME%—perfect timing!
+
+RESOURCE ID: quest_special_dialogue_m23_2021_0_1
+TEXT: Come look at this. See that there, in the dirt?
+
+RESOURCE ID: quest_special_dialogue_m23_2021_0_2
+TEXT: That’s right—footprints! Though not human ones, I’d wager.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_0_3
+TEXT: You’d be hard pressed to find shoes that would fit whatever feet made these, I think! There must be a Pokémon responsible, though I’m not sure which one...
+
+RESOURCE ID: quest_special_dialogue_m23_2021_0_4
+TEXT: I’m going to stick around and see if I can’t learn a bit more from these footprints, so why don’t you follow them and see where they take you?
+
+RESOURCE ID: quest_special_dialogue_m23_2021_0_5
+TEXT: Make sure to snap some photos of your findings!
+
+RESOURCE ID: quest_special_dialogue_m23_2021_1_0
+TEXT: Hey there, %PLAYERNAME%! That Ground-type Pokémon you caught looks spectacular.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_1_1
+TEXT: Did you know that Drilbur, the Mole Pokémon, can dig through the ground at incredible speeds?
+
+RESOURCE ID: quest_special_dialogue_m23_2021_1_2
+TEXT: In the Galar region, Drilbur often leave farmers in a tizzy because they damage their crops. Sounds like mole than they can handle, eh? Haha!
+
+RESOURCE ID: quest_special_dialogue_m23_2021_1_3
+TEXT: Anyway, while you were out, I received reports that the Pokémon we’re looking for has vines on its body.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_1_4
+TEXT: How about you search the bushes nearby to see if you can find any vines? Don’t forget to snap some photos, too!
+
+RESOURCE ID: quest_special_dialogue_m23_2021_2_0
+TEXT: Welcome back, %PLAYERNAME%. You got a great shot of that Bug-type Pokémon!
+
+RESOURCE ID: quest_special_dialogue_m23_2021_2_1
+TEXT: I encountered a curious Bug-type Pokémon myself, actually: Combee.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_2_2
+TEXT: Known as the Tiny Bee Pokémon, Combee is actually a trio! The three work together to collect honey and deliver it to their colony.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_2_3
+TEXT: Such abundant teamwork sure is admirable!
+
+RESOURCE ID: quest_special_dialogue_m23_2021_2_4
+TEXT: I’m sure our team leaders strive to achieve that same level of synergy.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_2_5
+TEXT: Anyway, the Combee I saw got me thinking: Maybe we’ve been searching too close to the ground. If my hypothesis is correct, we’re on the trail of a Pokémon that can sometimes be seen hopping from tree to tree.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_2_6
+TEXT: This time, try searching among the trees to see if you can find any leads. And don’t forget to photograph your findings!
+
+RESOURCE ID: quest_special_dialogue_m23_2021_3_0
+TEXT: Welcome back, %PLAYERNAME%! Sweet Nuzleaf.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_3_1
+TEXT: I believe the Pokémon we’re after tends to live deep in forests—much like Nuzleaf does—so we should be on the right track.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_3_2
+TEXT: Ah, look—your Nuzleaf just started playing its grass flute!
+
+RESOURCE ID: quest_special_dialogue_m23_2021_3_3
+TEXT: The sound of it is said to make its listeners uneasy. I wonder if it’s trying to lead the Pokémon out into the open...
+
+RESOURCE ID: quest_special_dialogue_m23_2021_3_4
+TEXT: Wait, what was that?
+
+RESOURCE ID: quest_special_dialogue_m23_2021_3_5
+TEXT: Look there! A dark shadow just dashed across the sky! Keep your eyes up, %PLAYERNAME%, and chase after it! Let’s GO!
+
+RESOURCE ID: quest_special_dialogue_m23_2021_4_0
+TEXT: Great job out there, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_m23_2021_4_1
+TEXT: The photo you sent me speaks to your efforts. And I see you made a new friend in that Rufflet!
+
+RESOURCE ID: quest_special_dialogue_m23_2021_4_2
+TEXT: Did you know that Rufflet will challenge Pokémon stronger than itself, even if it might lose? That’s how it pushes itself to grow!
+
+RESOURCE ID: quest_special_dialogue_m23_2021_4_3
+TEXT: Pretty brave, huh? I think bravery is exactly what we’ll need as we prepare to encounter the mysterious Pokémon we’ve been tracking.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_4_4
+TEXT: Thanks to all the information we’ve gathered, I’m certain that we’re dealing with Zarude, the Rogue Monkey Pokémon.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_4_5
+TEXT: The Mythical Pokémon Zarude tend to live in packs in the forest, but it looks like the one we’ve been following is all on its own.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_4_6
+TEXT: Sounds like the perfect chance to catch it, don’t you think?
+
+RESOURCE ID: quest_special_dialogue_m23_2021_4_7
+TEXT: With everything we’ve learned—and all the Pokémon friends you’ve made along the way—I’m sure you’ll succeed!
 
 RESOURCE ID: quest_special_dialogue_meloetta_0_0
 TEXT: Bonjour, %PLAYERNAME% ! As-tu rencontré des Pokémon portant des costumes amusants récemment ? J’en ai vu quelques-uns près de mon labo ambulant.
@@ -1247,6 +1423,39 @@ TEXT: Tout ça pour dire que je ne sais pas pourquoi Hoopa est ici. Le retrouver
 RESOURCE ID: quest_special_dialogue_season4_0_6
 TEXT: Pour l’instant, pourrais-tu utiliser de l’Encens et voir quels Pokémon se trouvent dans les environs ?
 
+RESOURCE ID: quest_special_dialogue_season4_10_0
+TEXT: … BOO!
+
+RESOURCE ID: quest_special_dialogue_season4_10_1
+TEXT: Ha ha, did I scare you? Spooky tidings unto you and your Pokémon!
+
+RESOURCE ID: quest_special_dialogue_season4_10_2
+TEXT: Let's continue our investigations into the spooky occurrences that have been happening! No dark forests that you’ll be required to traipse through, I believe.
+
+RESOURCE ID: quest_special_dialogue_season4_10_3
+TEXT: Oh, but that reminds me—I was doing some research near a forest lately and stumbled on a strange looking tree. I’ve learned my lesson around strange trees, that sometimes they’re not even trees at all—like Sudowoodo!
+
+RESOURCE ID: quest_special_dialogue_season4_10_4
+TEXT: I stepped closer to observe this tree but then it turned around and its singular red orb of an eye stared straight into mine!
+
+RESOURCE ID: quest_special_dialogue_season4_10_5
+TEXT: I quickly realized that this was a Trevenant, the Elder Tree Pokémon, and it was assessing whether I was friend or foe! After all, it will trap people who harm the forest, so they can never leave.
+
+RESOURCE ID: quest_special_dialogue_season4_10_6
+TEXT: It must have sensed that I was just there for research because it turned back around and ignored me. Its attention then returning to the many smaller Phantump that were surrounding its feet.
+
+RESOURCE ID: quest_special_dialogue_season4_10_7
+TEXT: I realized then that it was harvesting berries from trees and feeding them! To the creatures dwelling in the forest, it’s known to offer great kindness. It was really a sight to see.
+
+RESOURCE ID: quest_special_dialogue_season4_10_8
+TEXT: Ghost-type Pokémon often seem frightening upon first glance, but can be full of surprises. I wonder what surprises Hoopa might have in store for us as a fellow Ghost-type Pokémon?
+
+RESOURCE ID: quest_special_dialogue_season4_10_9
+TEXT: Perhaps there’s more to it than just its mischief. Maybe we’ll find some answers after we conduct some research on Ghost-type Pokémon!
+
+RESOURCE ID: quest_special_dialogue_season4_11_0
+TEXT: Great work, %PLAYERNAME%! Be sure to check back later for more research. As we close out our spooky investigations, I have a feeling that there are some bright things on the horizon for us to explore soon—together!
+
 RESOURCE ID: quest_special_dialogue_season4_1_0
 TEXT: Les grands mystères ne sont pas résolus en un instant, il faut de la patience et de la confiance. Je vais devoir travailler seul par moment, mais je promets de partager mes découvertes pour aller de l’avant.
 
@@ -1349,6 +1558,39 @@ TEXT: Hoopa est espiègle, et on ne sais jamais ce qu’il va faire avec ses ann
 RESOURCE ID: quest_special_dialogue_season4_7_5
 TEXT: Je te tiens au courant dès que j’ai plus d’infos, %PLAYERNAME%. C’est parti !
 
+RESOURCE ID: quest_special_dialogue_season4_8_0
+TEXT: Hey there, %PLAYERNAME%! It’s so good to see you again, even if under these odd circumstances. It appears that some spooky Pokémon have begun appearing nearby! Where do they come from? Why are they here?
+
+RESOURCE ID: quest_special_dialogue_season4_8_1
+TEXT: Perhaps this is Hoopa’s doing? It’s loops are known for having the ability to transport Pokémon and people to different places.
+
+RESOURCE ID: quest_special_dialogue_season4_8_2
+TEXT: After all, we strongly suspect that it’s the cause of all of those Legendary Pokémon appearing during Pokémon GO Fest 2021, as well as the cause of Pokémon from the Galar region appearing too.
+
+RESOURCE ID: quest_special_dialogue_season4_8_3
+TEXT: Maybe by learning more about what’s going on with these Pokémon, we can learn more about Hoopa!
+
+RESOURCE ID: quest_special_dialogue_season4_9_0
+TEXT: Thank you for doing that investigative research, Trainer. Suffice to say, I think that some of these spooky occurrences are still happening.
+
+RESOURCE ID: quest_special_dialogue_season4_9_1
+TEXT: Maybe this is the perfect time for us to learn more about Ghost-type Pokémon? Hopefully you’re not too scared, %PLAYERNAME% — it will be a scary good time!
+
+RESOURCE ID: quest_title_duskt
+TEXT: Nothin' Dull About Duskull
+
+RESOURCE ID: quest_title_duskt_0
+TEXT: Nothin' Dull About Duskull (1/4)
+
+RESOURCE ID: quest_title_duskt_1
+TEXT: Nothin' Dull About Duskull (2/4)
+
+RESOURCE ID: quest_title_duskt_2
+TEXT: Nothin' Dull About Duskull (3/4)
+
+RESOURCE ID: quest_title_duskt_3
+TEXT: Nothin' Dull About Duskull (4/4)
+
 RESOURCE ID: quest_title_eevet
 TEXT: Ce que tu choisis d’être
 
@@ -1366,6 +1608,24 @@ TEXT: Ce que tu choisis d’être (4/5)
 
 RESOURCE ID: quest_title_eevet_4
 TEXT: Ce que tu choisis d’être (5/5)
+
+RESOURCE ID: quest_title_m23_2021
+TEXT: Search for Zarude!
+
+RESOURCE ID: quest_title_m23_2021_0
+TEXT: Search for Zarude! (1/5)
+
+RESOURCE ID: quest_title_m23_2021_1
+TEXT: Search for Zarude! (2/5)
+
+RESOURCE ID: quest_title_m23_2021_2
+TEXT: Search for Zarude! (3/5)
+
+RESOURCE ID: quest_title_m23_2021_3
+TEXT: Search for Zarude! (4/5)
+
+RESOURCE ID: quest_title_m23_2021_4
+TEXT: Search for Zarude! (5/5)
 
 RESOURCE ID: quest_title_meloetta
 TEXT: Trouver sa voix
@@ -1485,25 +1745,31 @@ RESOURCE ID: quest_use_super_potion
 TEXT: Utilise une Super Potion sur un Pokémon
 
 RESOURCE ID: referral_enter_friend_code_button
-TEXT: Enter a Referral Code
+TEXT: SAISIR UN CODE DE PARRAINAGE
 
 RESOURCE ID: referral_get_code_button
-TEXT: Get My Referral Code
+TEXT: OBTENIR MON CODE DE PARRAINAGE
 
 RESOURCE ID: referral_get_code_now_modal_title
-TEXT: Do you want to Invite Friends to Pokémon GO?
+TEXT: Veux-tu inviter des amis à jouer à Pokémon GO ?
 
 RESOURCE ID: referral_get_code_now_modal_warning
-TEXT: You will lose the opportunity to enter a friend’s code.
+TEXT: Tu ne pourras plus saisir le code de parrainage d’un ami.
 
 RESOURCE ID: safari_2020_dialogue_1_2a
 TEXT: Tu devrais passer un peu de temps avec ton copain.
+
+RESOURCE ID: spawn_duskull
+TEXT: More Duskull are appearing in the wild
 
 RESOURCE ID: spawn_eevee
 TEXT: Plus d’Évoli apparaissent dans la nature
 
 RESOURCE ID: spawn_oshawott
 TEXT: Plus de Moustillon apparaissent dans la nature
+
+RESOURCE ID: ticket_duskull
+TEXT: Ticket for the Nothin' Dull About Duskull Special Research story available in the shop
 
 RESOURCE ID: ticket_eevee
 TEXT: Tickets pour une Étude spéciale exclusive disponibles dans la Boutique
@@ -1518,27 +1784,27 @@ RESOURCE ID: tips_battle_at_gyms_tutorial_title
 TEXT: Combats dans les Arènes
 
 RESOURCE ID: tips_friends_list_no_friends_body
-TEXT: Pokémon GO is more fun with friends. Add a new friend or invite friends to join!
+TEXT: Pokémon GO is more fun with friends! Add a friend or invite new Trainers to join.
 
 RESOURCE ID: tips_friends_list_no_friends_title
 TEXT: Add Friends
 
 RESOURCE ID: tips_friends_tutorial_add_body
-TEXT: Add friends through exchanging Trainer codes, QR codes, or connecting your account to Facebook in the Add Friend page.
+TEXT: Add friends by getting their Trainer code or scanning their QR Code. You can also add friends by connecting your account to Facebook on the Add Friend screen.
 
 RESOURCE ID: tips_friends_tutorial_add_title
 TEXT: Add Friends
 
 RESOURCE ID: tips_friends_tutorial_battle_body
-TEXT: At Level 10, you can battle alongside friends in Gyms and raids—or challenge them directly in battle! Become Ultra or Best Friends to battle one another from wherever you are.
+TEXT: At level 10, you can battle alongside friends in Gyms and raids. You can also challenge them to Trainer Battles! Become Ultra or Best Friends to battle each other from anywhere in the world.
 
 RESOURCE ID: tips_friends_tutorial_battle_title
 TEXT: Battle with Friends
 
 RESOURCE ID: tips_friends_tutorial_build_friendship_body
-TEXT: Your Friendship Level will increase with each interaction and unlock extra bonuses.
+TEXT: Your Friendship level will increase with each interaction, helping you unlock extra bonuses.
 
-Friendship Levels can only be raised once per day, noted by a blue glow around the Trainer.
+You can raise your Friendship level with a Trainer once per day, and when you do so, that Trainer’s portrait will have a blue glow.
 
 RESOURCE ID: tips_friends_tutorial_build_friendship_title
 TEXT: Build Friendships
@@ -1568,19 +1834,19 @@ RESOURCE ID: tips_friends_tutorial_trade_title
 TEXT: Trade with Friends
 
 RESOURCE ID: tips_gift_tutorial_completion_0
-TEXT: Great work, {0}! Adventures will take you far and wide in this world and the more friends you make, the merrier. 
+TEXT: Great work, {0}! Adventures will take you far and wide in this world, and the more friends you make, the better.
 
 RESOURCE ID: tips_gift_tutorial_completion_1
-TEXT: Be sure to interact with them daily and you might be rewarded for it!
+TEXT: Be sure to interact with them daily, and you might be rewarded for it!
 
 RESOURCE ID: tips_gift_tutorial_introduction_0
-TEXT: Congratulations, {0}! You've made your first friend in Pokémon GO!
+TEXT: Congratulations, {0}! You’ve made your first friend in Pokémon GO!
 
 RESOURCE ID: tips_gift_tutorial_introduction_1
-TEXT: As you play together, you’ll increase your Friendship Level and unlock extra bonuses. 
+TEXT: As you play together, you’ll increase your Friendship level and unlock extra bonuses.
 
 RESOURCE ID: tips_gift_tutorial_introduction_2
-TEXT: Send a Gift to a friend as a way to start increasing your friendship!
+TEXT: Open a Gift from a friend to increase your friendship level!
 
 RESOURCE ID: tips_gift_tutorial_introduction_modal_body
 TEXT: Now that you have a friend, you can send them gifts that you collect from Pokéstops. Do you want to learn how gifts work?
@@ -1606,7 +1872,7 @@ RESOURCE ID: tips_gym_tutorial_motivation_title
 TEXT: Motivation
 
 RESOURCE ID: tips_gym_tutorial_pokemon_title
-TEXT: Assign Pokémon
+TEXT: Defending Gyms
 
 RESOURCE ID: tips_potion_revive_tutorial_intro_0
 TEXT: Certains de tes Pokémon semblent être K.O. Voici quelques Potions et Rappels à utiliser pour redonner des PV à tes Pokémon.
@@ -1656,13 +1922,13 @@ RESOURCE ID: tips_raid_tutorial_dodge_title
 TEXT: Esquive
 
 RESOURCE ID: tips_raid_tutorial_fast_attack_body
-TEXT: Tap anywhere on the screen to perform a Fast Attack. Fast Attacks recharge your Charged Attack meter.
+TEXT: Tap anywhere on the screen to perform a Fast Attack. Fast Attacks generate energy for your Charged Attacks.
 
 RESOURCE ID: tips_raid_tutorial_fast_attack_title
 TEXT: Fast Attacks
 
 RESOURCE ID: tips_raid_tutorial_groups_title
-TEXT: Group Forming
+TEXT: Raid Lobbies
 
 RESOURCE ID: tips_raid_tutorial_raid_pase_title
 TEXT: Raid Pass
@@ -1698,39 +1964,39 @@ RESOURCE ID: tips_tasks_friends_list_button
 TEXT: GO TO FRIENDS LIST
 
 RESOURCE ID: tips_tasks_gifts_body
-TEXT: Receive Gifts from PokéStops and Gifts friends send you. To send a gift, go to a Trainer’s Profile. 
- 
- Add a Gift Sticker to make it extra special!
+TEXT: Get Gifts by spinning PokéStops. To send a Gift, go to a friend’s Trainer profile.
+
+Add a Gift sticker to make it extra special!
 
 RESOURCE ID: tips_tasks_gifts_title
 TEXT: Sending Gifts
 
 RESOURCE ID: tips_tasks_snapshot_buddy_body
-TEXT: To take a GO Snapshot of your buddy, go to your buddy screen. Then, press ‘play’ to go into AR mode and tap the camera button to take a photo.
+TEXT: To take a snapshot of your buddy, go to the buddy screen, tap PLAY! to go into AR mode, and then tap the camera button.
 
 RESOURCE ID: tips_tasks_snapshot_buddy_title
 TEXT: Take a Snapshot of Your Buddy
 
 RESOURCE ID: tips_tasks_snapshot_inventory_body
-TEXT: To take a photo of your Pokémon, go to its detail page and tap the camera button. You can also go to your Bag, select the Camera item, then choose a Pokémon. 
+TEXT: To take a snapshot of your Pokémon, go to its details page, and tap the camera button. You can also go to your Item Bag, select the Camera item, and then choose a Pokémon.
 
 RESOURCE ID: tips_tasks_snapshot_inventory_title
 TEXT: Take a Snapshot of Your Pokémon
 
 RESOURCE ID: tips_tasks_snapshot_wild_body
-TEXT: When encountering a Pokémon in the wild, tap the camera button to take a GO Snapshot. 
+TEXT: When encountering a Pokémon in the wild, tap the camera button to take a snapshot.
 
 RESOURCE ID: tips_tasks_snapshot_wild_title
-TEXT: Take a Snapshot of Wild Pokémon
+TEXT: Take a Snapshot of a Wild Pokémon
 
 RESOURCE ID: tips_tasks_throw_type_body
-TEXT: When holding a Poké Ball, a target ring will appear around the Pokémon. Aim the Poké Ball inside the ring to earn a Nice, Great, or Excellent throw.
+TEXT: When you’re holding a Poké Ball, a target ring will appear around the Pokémon. If you throw the Poké Ball and it lands inside the target ring, you’ll earn a Nice, Great, or Excellent Throw.
 
 RESOURCE ID: tips_tasks_throw_type_title
 TEXT: Nice, Great, and Excellent Throws
 
 RESOURCE ID: tips_tasks_trade_body
-TEXT: To trade with your friend, they must be within close range. Then, go to their Trainer Profile on your Friends List and tap the option to trade.
+TEXT: You must be near a friend to trade with them. Then, go to their Trainer profile on your Friends list, and tap TRADE.
 
 RESOURCE ID: tips_tasks_trade_title
 TEXT: Trading Pokémon
@@ -1745,7 +2011,7 @@ RESOURCE ID: ultra_unlock_event_name_sword_shield
 TEXT: Ultra Bonus – 3e partie : Épée et Bouclier
 
 RESOURCE ID: unknown
-TEXT: S
+TEXT: P
 
 RESOURCE ID: unlimited_label
 TEXT: Illimité
