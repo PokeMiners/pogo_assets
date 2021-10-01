@@ -139,6 +139,9 @@ TEXT: 拳關市競技服 長襪
 RESOURCE ID: avatar_seasonal
 TEXT: 時裝週
 
+RESOURCE ID: badge_trainers_referred_singular
+TEXT: 推薦1位訓練家
+
 RESOURCE ID: battle_fashion_npcs_plural
 TEXT: 和 {0} 名時尚挑戰者對戰
 
@@ -147,6 +150,9 @@ TEXT: 和1名時尚挑戰者對戰
 
 RESOURCE ID: boosted_mega_pokemon_slowbro
 TEXT: 超級呆殼獸變得更加強大！
+
+RESOURCE ID: buddy_walk_xl_candy_increase
+TEXT: Increased Candy XL when walking with your Buddy
 
 RESOURCE ID: change_banned_name_dialog
 TEXT: 嘿，你的暱稱看起來不太OK。可以請你再選一個嗎？
@@ -830,12 +836,12 @@ TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當�
 請務必在上述活動時間內完成活動指定的課題，以取得活動獎勵。
 
 RESOURCE ID: general1.ticket.2_duskt_description
-TEXT: A ticket to access the Nothin' Dull About Duskull Special Research on October 9, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: A ticket to access the Nothin’ Dull About Duskull Special Research on October 9, 2021, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
 
 YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
 RESOURCE ID: general1.ticket.2_duskt_title
-TEXT: Nothin' Dull About Duskull
+TEXT: Nothin’ Dull About Duskull Ticket
 
 RESOURCE ID: general1.ticket.2_oshat_description
 TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2021年9月19日11:00～17:00領取社群日的特殊調查「從扇貝貝到足刃」。詳情請至遊戲內快訊確認。
@@ -850,6 +856,15 @@ TEXT: 「從扇貝貝到足刃」入場券
 
 RESOURCE ID: general_skip
 TEXT: Skip
+
+RESOURCE ID: hal_pumpkaboo_2021_collection_challenge
+TEXT: Pumpkaboo Collection Challenge
+
+RESOURCE ID: halloween_event_name_1
+TEXT: Halloween: Part 1
+
+RESOURCE ID: halloween_event_name_2
+TEXT: Halloween: Part 2
 
 RESOURCE ID: hoopas_arrival_2021_collection_challenge
 TEXT: 「胡帕的到來」收藏家挑戰
@@ -885,8 +900,8 @@ RESOURCE ID: master_premier_classic_title
 TEXT: ML紀念經典賽
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-09-22T23:08:40.146912
-at SHA 9e2912e8bd1688d609ec5f9a7474aafc4aeaa4a6
+TEXT: Built at 2021-09-30T04:20:54.834310
+at SHA efc4899f3a2b7a7f8ab9778864aa2ac3ae7c5c06
 Patch from: 0.219.0-SHA-b7319e35, 0.219.1-SHA-5d4715b6
 
 RESOURCE ID: move_name_0352
@@ -916,14 +931,26 @@ TEXT: 還有 {0} 個類別待投稿
 RESOURCE ID: poi_contrib_remaining_category_one
 TEXT: 還有1個類別待投稿
 
+RESOURCE ID: pokemon_desc_0893
+TEXT: 集結成群生活在密林裡。攻擊性很強，令棲息在森林的寶可夢們畏懼不已。
+
 RESOURCE ID: pokemon_info_evolution_failed
 TEXT: 發生不明錯誤，無法讓 {0} 進化
 
 RESOURCE ID: pokestop_spin_new_xp_three
 TEXT: 第一次訪問的寶可補給站可獲得的XP增為3倍
 
+RESOURCE ID: quest_battle_gbl_halloween_plural
+TEXT: Battle in the Halloween Cup {0} times
+
+RESOURCE ID: quest_battle_gbl_halloween_win_plural
+TEXT: Win {0} Trainer Battles in the Halloween Cup
+
 RESOURCE ID: quest_catch_special_furfrou
 TEXT: 捕捉1隻多麗米亞
+
+RESOURCE ID: quest_catch_special_pumpkaboo
+TEXT: Catch {0} Pumpkaboo
 
 RESOURCE ID: quest_catch_type_grass_bug_plural
 TEXT: 捕捉 {0} 隻草屬性或蟲屬性的寶可夢
@@ -977,52 +1004,52 @@ RESOURCE ID: quest_snapshot_wild_sneasel_croagunk_frillish
 TEXT: 為野生的狃拉、不良蛙或輕飄飄拍攝1張GO Snapshot照片
 
 RESOURCE ID: quest_special_dialogue_duskt_0_0
-TEXT: Hey there, %PLAYERNAME%! How’ve you been? Things are going well on the research front since a lot of Ghost-type Pokémon have been appearing, but some strange things have been happening lately.
+TEXT: Hey there, %PLAYERNAME%! Have you noticed an increase in Ghost-type Pokémon appearing lately? Because I sure have.
 
 RESOURCE ID: quest_special_dialogue_duskt_0_1
-TEXT: You see, while I’ve been compiling my findings on Ghost types in my lab, every once in a while I feel a chill like someone is watching me.
+TEXT: I was conducting some research in my lab recently when I felt a chill run up my spine—almost like something was watching me from the shadows.
 
 RESOURCE ID: quest_special_dialogue_duskt_0_2
-TEXT: I managed to glance a peek and you won’t believe what I saw: a floating Pokémon in my wall! The moment I saw it, it vanished back into the wall. I ran outside but lo and behold—it was nowhere to be found.
+TEXT: I whirled around to face my uninvited guest and saw a Pokémon floating eerily in the corner! Apparently startled by my gaze, it flew through the wall and escaped into the great outdoors. I haven’t seen it since.
 
 RESOURCE ID: quest_special_dialogue_duskt_0_3
-TEXT: I believe this to be a Duskull, the Requiem Pokémon! Making itself invisible, it’s known to silently sneak up to prey. It also has the ability to slip through thick walls. Spooky!
+TEXT: Based on my brief glimpse of it and its quick escape, I believe my visitor was Duskull, the Requiem Pokémon. It’s known to silently sneak up on its prey by making itself invisible. It also has the ability to slip straight through thick walls.
 
 RESOURCE ID: quest_special_dialogue_duskt_0_4
-TEXT: My findings on Ghost-type Pokémon could really use some research in the field to supplement it! Can you help me learn more about Duskull? Hopefully we can learn more about why it’s sneaking around my lab!
+TEXT: Naturally, my goal now is to learn more about Duskull. Can you lend me a hand? Hopefully we can come to understand why it was sneaking around my lab!
 
 RESOURCE ID: quest_special_dialogue_duskt_1_0
-TEXT: Hey there, %PLAYERNAME%! Great work researching all of those Duskull. I have an update myself with the Duskull that was visiting me!
+TEXT: Hey there, %PLAYERNAME%! Great work researching Duskull. While you were out, I actually had another eerie encounter in my lab.
 
 RESOURCE ID: quest_special_dialogue_duskt_1_1
-TEXT: When I saw it trying to sneak up on me again through a wall, I just shouted, “BOO!” and—what do you know—it disappeared and reappeared again, apparently wanting me to do it again!
+TEXT: I saw Duskull slipping through a wall to scare me again, so I shouted, “BOO!” before it could and turned the tables. It fled back through the wall—but then it reappeared and looked at me expectantly.
 
 RESOURCE ID: quest_special_dialogue_duskt_1_2
-TEXT: I started playing peek-a-boo with it and it seemed to enjoy the game. Imagine enjoying playing with others, but you never get to because Trainers are taken back by your appearance. Hmph...
+TEXT: Thus began an impromptu game of peek-a-boo! It made me realize that Duskull may not get many chances to play with others because people are so quick to startle at its appearance. Makes you a bit sad, doesn’t it?
 
 RESOURCE ID: quest_special_dialogue_duskt_1_3
-TEXT: I wonder what else we can learn about Duskull? Let’s try evolving it into Dusclops! Also known as the Beckon Pokémon, I hear that it sucks everything in as if it were a black hole, so be careful of its mouth!
+TEXT: I wonder what else we can learn about Duskull. I know: Why don’t you try evolving your Duskull into Dusclops? Also known as the Beckon Pokémon, Dusclops apparently sucks everything in as if it were a black hole—so be careful of its mouth!
 
 RESOURCE ID: quest_special_dialogue_duskt_2_0
-TEXT: Oh wow! Wait, %PLAYERNAME%, you did WHAT? Oh no, I didn't mean to tell you to feed a berry to Dusclops—I meant to tell you to NOT to do that. There must have been a miscommunication.
+TEXT: Wait, %PLAYERNAME%, you did WHAT? I was so sure I told you NOT to feed a Berry to Dusclops... But maybe I said the opposite by mistake? Yeah, my bad on that one.
 
 RESOURCE ID: quest_special_dialogue_duskt_2_1
-TEXT: I'm glad to see that you're here and not sucked into a black hole! And what was that? It just ate the berry normally? Isn't that fascinating!
+TEXT: But it just ate the Berry normally, huh? No danger of you getting sucked in as well? Fascinating... O-oh, and, er, quite relieving! Yes, glad to see you back in one piece.
 
 RESOURCE ID: quest_special_dialogue_duskt_2_2
-TEXT: Let’s learn more about its Evolution: Dusknoir, the Gripper Pokémon! Apparently at the bidding of transmissions from the spirit world, it steals people and Pokémon away!
+TEXT: Now, let’s learn more about Dusclops’s Evolution, Dusknoir. Known as the Gripper Pokémon, it’s said to steal people and Pokémon away at the behest of transmissions from the spirit world.
 
 RESOURCE ID: quest_special_dialogue_duskt_2_3
-TEXT: And no one knows whether it has a will of its own. Isn't that so curious! Let's go learn more about this for ourselves, shall we? Go ahead and evolve your Dusclops and let me know what you discover.
+TEXT: No one knows whether Dusknoir has a will of its own. Sounds like a Pokémon ripe for researching! Could you evolve your Dusclops for me so we can learn more?
 
 RESOURCE ID: quest_special_dialogue_duskt_3_0
-TEXT: Oh hello there—AH! SPOOKY! Did you see the Dusknoir behind you? Whether it has a will of its own or not—one thing that's clear to me is that the Dusclops you evolved sure seems quite different now as a Dusknoir!
+TEXT: Hey there, Trai— AAAH! G-G-G-GHOST! Behind you! It’s— Wait. Is that Dusknoir? Hah, sorry about that. It’s my first time seeing one!
 
 RESOURCE ID: quest_special_dialogue_duskt_3_1
-TEXT: Ghost-type Pokémon are just like any other Pokémon, even the ones that seem the spookiest. I guess if we’ve learned anything today it’s that there’s nothing dull about Duskull or its Evolutions.
+TEXT: No matter how spooky they may seem, we have to remember that Ghost-type Pokémon are Pokémon all the same. They’re looking for friends just like the rest of us!
 
 RESOURCE ID: quest_special_dialogue_duskt_3_2
-TEXT: It’s always such a joy to learn about Pokémon, isn’t it? Thanks for your help today %PLAYERNAME%. I hope to see you and your Dusknoir again soon!
+TEXT: Thanks for your help today, %PLAYERNAME%. I hope to see you and your Dusknoir again soon!
 
 RESOURCE ID: quest_special_dialogue_eevet_0_1
 TEXT: 你有看到進化寶可夢伊布大量出現嗎！？
@@ -1141,6 +1168,102 @@ TEXT: 我希望你很快就能見到仙子伊布！
 RESOURCE ID: quest_special_dialogue_eevet_4_9
 TEXT: 期待下次再見囉！
 
+RESOURCE ID: quest_special_dialogue_hallow_2021_0_0
+TEXT: OoOoOo...there’s a chill in the air...can’t you feel it, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_0_1
+TEXT: I’m feeling goosebumps! It might be from all the Ghost-type Pokémon that have been appearing more lately!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_0_2
+TEXT: I'm not scared though–I'm excited actually! There’s adventure waiting for us out there so let's face it!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_0_3
+TEXT: Speaking of faces—it appears there’s been a surge of Yamask appearances lately.
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_0_4
+TEXT: I’ve been thinking about where Pokémon masks come from and if there’s anything we can learn from them...
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_0_5
+TEXT: This might be the perfect time for us to learn all about Pokémon related to masks!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_1_0
+TEXT: A Duskull and a Yamask!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_1_1
+TEXT: I met a Duskull recently that frightened me at first, but upon closer inspection, it was simply trying to give me a pleasant surprise.
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_1_2
+TEXT: It was a lovely lesson in how not to judge a Pokémon by it’s…mask!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_1_3
+TEXT: You didn’t think I’d say “cover” did you? Well we are researching masks after all!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_1_4
+TEXT: Speak of: looks like you’ve caught yourself a Yamask, the Spirit Pokémon.
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_1_5
+TEXT: It wanders through ruins by night, carrying a mask that’s said to have been the face it had when it was still human. Isn’t that so melancholic?
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_1_6
+TEXT: What must it feel like to carry around a mask of your former self? I wish the best for Yamask all over.
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_1_7
+TEXT: Did you know there is also a form of Yamask that was originally discovered in the Galar region?
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_1_8
+TEXT: Maybe you might encounter it while you’re out researching more Ghost-type Pokémon.
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_1_9
+TEXT: I wonder what all of differences are between the two kinds of Yamask? Let’s go find out!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_2_0
+TEXT: Wow, a Galarian Yamask!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_2_1
+TEXT: As opposed to Unovan Yamask, it actually doesn’t carry a mask.
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_2_2
+TEXT: Instead, a clay slab with cursed engravings took possession of a Yamask and it is said the slab absorbs the Yamask’s dark power. Spooky!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_2_3
+TEXT: And you’ve encountered a Banette too! Did you know that it’s said to be a doll that became a Pokémon over its grudge formed with the child that disowned it?
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_2_4
+TEXT: I wouldn’t want to be that kid, that’s for sure!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_2_5
+TEXT: Between Galarian Yamask’s slab, Banette’s puppet body, and all of the Pokémon in costumes walking around...
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_2_6
+TEXT: It really makes me think about other things that don’t look like masks but operate like masks.
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_2_7
+TEXT: What else can we learn from Ghost-type Pokémon? Let’s go do some more research!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_3_0
+TEXT: Looks like we're coming up on the last stretch of our research here. And hey, it looks like you found yourself an Alolan Marowak!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_3_1
+TEXT: Did you know that the bones used by some Marowak are those belonging to their mothers?
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_3_2
+TEXT: In fact, as Cubone, it’s said to wear the skull of its mother as well—like a mask.
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_3_3
+TEXT: However, tragedy turns into strength: as an Alolan Marowak, its mother's regrets have become like a vengeful spirit protecting this Pokémon.
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_3_4
+TEXT: That reminds me of the vengeful spirits in Galarian Yamask and Banette!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_3_5
+TEXT: Sometimes I feel like Ghost-type Pokémon are just spooky and there’s no explaining it. But it’s always fun to try anyway!
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_3_6
+TEXT: When it comes to learning about Pokémon, I always feel like I Iearn a bit more about myself too, don’t you?
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_3_7
+TEXT: Anyway, after a long night of deep thoughts, I think we deserve some rest and treats! See you next time, %PLAYERNAME%!
+
 RESOURCE ID: quest_special_dialogue_m23_2021_0_0
 TEXT: %PLAYERNAME%！你來得正好！
 
@@ -1232,10 +1355,10 @@ RESOURCE ID: quest_special_dialogue_m23_2021_4_5
 TEXT: 幻之寶可夢薩戮德會集結成群生活在叢林裡。不過我們在追蹤的似乎只有一隻。
 
 RESOURCE ID: quest_special_dialogue_m23_2021_4_6
-TEXT: Sounds like the perfect chance to catch it, don’t you think?
+TEXT: 看來現在是捕捉牠的絕佳機會！
 
 RESOURCE ID: quest_special_dialogue_m23_2021_4_7
-TEXT: With everything we’ve learned—and all the Pokémon friends you’ve made along the way—I’m sure you’ll succeed!
+TEXT: 我們在之前的研究裡學到了那麼多，你一定能成功捕捉到薩戮德！
 
 RESOURCE ID: quest_special_dialogue_meloetta_0_0
 TEXT: 嘿，%PLAYERNAME%！你最近有遇見打扮得很時髦的寶可夢嗎？
@@ -1376,37 +1499,37 @@ RESOURCE ID: quest_special_dialogue_season4_0_6
 TEXT: 我想請你用薰香吸引一下附近的寶可夢，看看能捉到什麼。
 
 RESOURCE ID: quest_special_dialogue_season4_10_0
-TEXT: … BOO!
+TEXT: ... ... ...
 
 RESOURCE ID: quest_special_dialogue_season4_10_1
-TEXT: Ha ha, did I scare you? Spooky tidings unto you and your Pokémon!
+TEXT: BOO! Haha, did I scare you? Not too badly, I hope.
 
 RESOURCE ID: quest_special_dialogue_season4_10_2
-TEXT: Let's continue our investigations into the spooky occurrences that have been happening! No dark forests that you’ll be required to traipse through, I believe.
+TEXT: Let’s continue our investigation into these eerie events. Don’t worry—I won’t send you into any rickety mansions or foggy forests.
 
 RESOURCE ID: quest_special_dialogue_season4_10_3
-TEXT: Oh, but that reminds me—I was doing some research near a forest lately and stumbled on a strange looking tree. I’ve learned my lesson around strange trees, that sometimes they’re not even trees at all—like Sudowoodo!
+TEXT: I was actually doing some research near a forest myself recently, and I found a rather odd-looking tree. I’ve learned over the years to trust my gut when something seems strange in the field—chances are it’s a Pokémon!
 
 RESOURCE ID: quest_special_dialogue_season4_10_4
-TEXT: I stepped closer to observe this tree but then it turned around and its singular red orb of an eye stared straight into mine!
+TEXT: I couldn’t help but indulge my curiosity, and I stepped toward the tree to observe it more closely. As soon as I did, the tree pivoted on its roots and stared me down with a single red eye!
 
 RESOURCE ID: quest_special_dialogue_season4_10_5
-TEXT: I quickly realized that this was a Trevenant, the Elder Tree Pokémon, and it was assessing whether I was friend or foe! After all, it will trap people who harm the forest, so they can never leave.
+TEXT: It didn’t take long for me to realize I was standing before a Trevenant, the Elder Tree Pokémon. Trevenant will trap people who harm their forest, never allowing them to leave. 
 
 RESOURCE ID: quest_special_dialogue_season4_10_6
-TEXT: It must have sensed that I was just there for research because it turned back around and ignored me. Its attention then returning to the many smaller Phantump that were surrounding its feet.
+TEXT: It must have sensed that I was just there for research because it turned back around and ignored me. Its attention then turned to the many Phantump gathered around it.
 
 RESOURCE ID: quest_special_dialogue_season4_10_7
-TEXT: I realized then that it was harvesting berries from trees and feeding them! To the creatures dwelling in the forest, it’s known to offer great kindness. It was really a sight to see.
+TEXT: That’s when I realized that Trevenant was harvesting berries from the nearby trees to feed the Phantump! Trevenant is known to offer great kindness to forest-dwelling Pokémon, and it was lovely to witness it myself.
 
 RESOURCE ID: quest_special_dialogue_season4_10_8
-TEXT: Ghost-type Pokémon often seem frightening upon first glance, but can be full of surprises. I wonder what surprises Hoopa might have in store for us as a fellow Ghost-type Pokémon?
+TEXT: Ghost-type Pokémon can seem frightening at first glance, but look a little closer and you’ll find they’re full of surprises. I’m sure the same goes for Hoopa! 
 
 RESOURCE ID: quest_special_dialogue_season4_10_9
-TEXT: Perhaps there’s more to it than just its mischief. Maybe we’ll find some answers after we conduct some research on Ghost-type Pokémon!
+TEXT: I have a feeling there’s more to Hoopa than its penchant for mischief. Maybe we’ll find some answers after we conduct some more research on Ghost-type Pokémon.
 
 RESOURCE ID: quest_special_dialogue_season4_11_0
-TEXT: Great work, %PLAYERNAME%! Be sure to check back later for more research. As we close out our spooky investigations, I have a feeling that there are some bright things on the horizon for us to explore soon—together!
+TEXT: Great work, %PLAYERNAME%! As we close out our spooky investigations, I have a feeling there are some bright things on the horizon for us to explore together soon. I’ll be sure to let you know when I have something to share!
 
 RESOURCE ID: quest_special_dialogue_season4_1_0
 TEXT: 對了，有件事要先提醒你。接下來的研究過程中，我可能會需要單獨去做一些事前調查。
@@ -1511,37 +1634,55 @@ RESOURCE ID: quest_special_dialogue_season4_7_5
 TEXT: 等我收集到更多情報後，我會立刻跟你分享的！
 
 RESOURCE ID: quest_special_dialogue_season4_8_0
-TEXT: Hey there, %PLAYERNAME%! It’s so good to see you again, even if under these odd circumstances. It appears that some spooky Pokémon have begun appearing nearby! Where do they come from? Why are they here?
+TEXT: Hey there, %PLAYERNAME%! It’s nice to see a friendly face—because I’ve been seeing a lot of spooky Pokémon staring at me lately!
 
 RESOURCE ID: quest_special_dialogue_season4_8_1
-TEXT: Perhaps this is Hoopa’s doing? It’s loops are known for having the ability to transport Pokémon and people to different places.
+TEXT: Do you think this might be Hoopa’s doing? Hoopa’s known to transport Pokémon and people to different places with its rings, so maybe that’s what’s happening here.
 
 RESOURCE ID: quest_special_dialogue_season4_8_2
-TEXT: After all, we strongly suspect that it’s the cause of all of those Legendary Pokémon appearing during Pokémon GO Fest 2021, as well as the cause of Pokémon from the Galar region appearing too.
+TEXT: After all those Legendary Pokémon appeared during this year’s GO Fest—as well those Pokémon first found in Galar that appeared more recently—I’d say Hoopa’s involvement here is more than likely.
 
 RESOURCE ID: quest_special_dialogue_season4_8_3
-TEXT: Maybe by learning more about what’s going on with these Pokémon, we can learn more about Hoopa!
+TEXT: Perhaps we can learn more about Hoopa by studying the Ghost-type Pokémon that have begun to show up nearby. Mind giving me a hand, Trainer?
 
 RESOURCE ID: quest_special_dialogue_season4_9_0
-TEXT: Thank you for doing that investigative research, Trainer. Suffice to say, I think that some of these spooky occurrences are still happening.
+TEXT: Thanks for conducting that research, Trainer. We certainly know more than we did, but not enough to explain why these spooky occurrences are still...well, occurring.
 
 RESOURCE ID: quest_special_dialogue_season4_9_1
-TEXT: Maybe this is the perfect time for us to learn more about Ghost-type Pokémon? Hopefully you’re not too scared, %PLAYERNAME% — it will be a scary good time!
+TEXT: Let’s do a bit more research on Ghost-type Pokémon then, shall we?
 
 RESOURCE ID: quest_title_duskt
-TEXT: Nothin' Dull About Duskull
+TEXT: Nothin’ Dull About Duskull
 
 RESOURCE ID: quest_title_duskt_0
-TEXT: Nothin' Dull About Duskull (1/4)
+TEXT: Nothin’ Dull About Duskull (1/4)
 
 RESOURCE ID: quest_title_duskt_1
-TEXT: Nothin' Dull About Duskull (2/4)
+TEXT: Nothin’ Dull About Duskull (2/4)
 
 RESOURCE ID: quest_title_duskt_2
-TEXT: Nothin' Dull About Duskull (3/4)
+TEXT: Nothin’ Dull About Duskull (3/4)
 
 RESOURCE ID: quest_title_duskt_3
-TEXT: Nothin' Dull About Duskull (4/4)
+TEXT: Nothin’ Dull About Duskull (4/4)
+
+RESOURCE ID: quest_title_hal_gbl_2021
+TEXT: Halloween Cup Research
+
+RESOURCE ID: quest_title_hallow_2021
+TEXT: What Lies Beneath the Mask?
+
+RESOURCE ID: quest_title_hallow_2021_0
+TEXT: What Lies Beneath the Mask? (1/4)
+
+RESOURCE ID: quest_title_hallow_2021_1
+TEXT: What Lies Beneath the Mask? (2/4)
+
+RESOURCE ID: quest_title_hallow_2021_2
+TEXT: What Lies Beneath the Mask? (3/4)
+
+RESOURCE ID: quest_title_hallow_2021_3
+TEXT: What Lies Beneath the Mask? (4/4)
 
 RESOURCE ID: quest_title_m23_2021
 TEXT: 尋找薩戮德！
@@ -1679,16 +1820,16 @@ RESOURCE ID: quest_use_super_potion
 TEXT: Use a Super Potion on a Pokémon
 
 RESOURCE ID: referral_enter_friend_code_button
-TEXT: ENTER A REFERRAL CODE
+TEXT: 輸入推薦代碼
 
 RESOURCE ID: referral_get_code_button
-TEXT: GET MY REFERRAL CODE
+TEXT: 取得推薦代碼
 
 RESOURCE ID: referral_get_code_now_modal_title
-TEXT: Do you want to invite friends to play Pokémon GO?
+TEXT: 要推薦朋友來玩Pokémon GO嗎？
 
 RESOURCE ID: referral_get_code_now_modal_warning
-TEXT: You will no longer be able to enter a friend’s referral code.
+TEXT: 之後將無法輸入朋友的推薦代碼
 
 RESOURCE ID: remote_raid_name
 TEXT: 遠距團體戰
@@ -1703,7 +1844,7 @@ RESOURCE ID: spawn_oshawott
 TEXT: 更多水水獺出現在地圖上
 
 RESOURCE ID: ticket_duskull
-TEXT: Ticket for the Nothin' Dull About Duskull Special Research story available in the shop
+TEXT: Ticket for the Nothin’ Dull About Duskull Special Research story available in the shop
 
 RESOURCE ID: ticket_oshawott
 TEXT: 「從扇貝貝到足刃」的入場券已在商店中上架
@@ -1715,75 +1856,73 @@ RESOURCE ID: tips_battle_at_gyms_tutorial_title
 TEXT: 道館對戰
 
 RESOURCE ID: tips_friends_list_no_friends_body
-TEXT: Pokémon GO is more fun with friends! Add a friend or invite new Trainers to join.
+TEXT: 和朋友一起玩更好玩！邀請朋友一起來玩Pokémon GO吧！
 
 RESOURCE ID: tips_friends_list_no_friends_title
-TEXT: Add Friends
+TEXT: 新增朋友
 
 RESOURCE ID: tips_friends_tutorial_add_body
-TEXT: Add friends by getting their Trainer code or scanning their QR Code. You can also add friends by connecting your account to Facebook on the Add Friend screen.
+TEXT: 你可以輸入朋友的訓練家代碼，也可以掃描他們的二維條碼。或者是你也可以連動你的Facebook帳號，藉以新增朋友。
 
 RESOURCE ID: tips_friends_tutorial_add_title
-TEXT: Add Friends
+TEXT: 新增朋友
 
 RESOURCE ID: tips_friends_tutorial_battle_body
-TEXT: At level 10, you can battle alongside friends in Gyms and raids. You can also challenge them to Trainer Battles! Become Ultra or Best Friends to battle each other from anywhere in the world.
+TEXT: 訓練家等級升上10級後，你除了可以和朋友一起參加團體戰，也可以彼此對戰。友誼等級升上麻吉好朋友以上後，便可進行遠距對戰。
 
 RESOURCE ID: tips_friends_tutorial_battle_title
-TEXT: Battle with Friends
+TEXT: 和朋友對戰
 
 RESOURCE ID: tips_friends_tutorial_build_friendship_body
-TEXT: Your Friendship level will increase with each interaction, helping you unlock extra bonuses.
-
-You can raise your Friendship level with a Trainer once per day, and when you do so, that Trainer’s portrait will have a blue glow.
+TEXT: 友誼等級將會在每次互動中逐漸上升，升上特定等級後，即可解鎖特別的獎勵。
 
 RESOURCE ID: tips_friends_tutorial_build_friendship_title
-TEXT: Build Friendships
+TEXT: 建立友誼
 
 RESOURCE ID: tips_friends_tutorial_gifts_body
-TEXT: Your friends can send and receive Gifts to one another once a day, everyday.
+TEXT: 你和朋友每天可以互傳一次友情禮物。
 
-Add a Gift Sticker to make it extra special!
+友情禮物上還可以貼上貼圖，讓它更特別！
 
 RESOURCE ID: tips_friends_tutorial_gifts_title
-TEXT: Exchange Gifts
+TEXT: 交換禮物
 
 RESOURCE ID: tips_friends_tutorial_lucky_body
-TEXT: For a chance to become Lucky Friends, become Best Friends with another Trainer and continue interacting with them.
+TEXT: 你有機會和你的正港好朋友成為亮晶晶好朋友。
 
-Trade with a Lucky Friend for the chance to receive a Lucky Pokémon! Your Lucky Friend status will then be cleared.
+和亮晶晶好朋友交換寶可夢時，有一定的機率能收到亮晶晶寶可夢！其後亮晶晶好朋友將回到正港好朋友，但你們還是有機會再次成為亮晶晶好朋友。
 
 RESOURCE ID: tips_friends_tutorial_lucky_title
-TEXT: Lucky Friends
+TEXT: 亮晶晶好朋友
 
 RESOURCE ID: tips_friends_tutorial_trade_body
-TEXT: Unlocked at Level 10, trade Pokémon with your friends and make progress on completing the Pokédex.
+TEXT: 訓練家等級升上10級之後，你將可以和附近的朋友交換寶可夢。
 
-You’ll need to be in close range of your friend to start trading.
+交換寶可夢將能協助你填滿你的寶可夢圖鑑。
 
 RESOURCE ID: tips_friends_tutorial_trade_title
-TEXT: Trade with Friends
+TEXT: 交換寶可夢
 
 RESOURCE ID: tips_gift_tutorial_completion_0
-TEXT: Great work, {0}! Adventures will take you far and wide in this world, and the more friends you make, the better.
+TEXT: {0}，做得好！出門在外就是要靠朋友，朋友越多，你的冒險也會越有趣喔！
 
 RESOURCE ID: tips_gift_tutorial_completion_1
-TEXT: Be sure to interact with them daily, and you might be rewarded for it!
+TEXT: 別忘了天天和你的朋友互傳禮物喔。
 
 RESOURCE ID: tips_gift_tutorial_introduction_0
-TEXT: Congratulations, {0}! You’ve made your first friend in Pokémon GO!
+TEXT: {0}，恭喜你在Pokémon GO交到第一個朋友了！
 
 RESOURCE ID: tips_gift_tutorial_introduction_1
-TEXT: As you play together, you’ll increase your Friendship level and unlock extra bonuses.
+TEXT: 和朋友一起冒險，就能提升友誼等級並解鎖特別的獎勵。
 
 RESOURCE ID: tips_gift_tutorial_introduction_2
-TEXT: Open a Gift from a friend to increase your friendship level!
+TEXT: 別忘了打開朋友傳送給你的友情禮物喔！
 
 RESOURCE ID: tips_gift_tutorial_introduction_modal_body
-TEXT: Now that you have a friend, you can send them gifts that you collect from Pokéstops. Do you want to learn how gifts work?
+TEXT: 你可以在寶可補給站領到友情禮物。你知道要怎麼把友情禮物傳送給朋友嗎？
 
 RESOURCE ID: tips_gift_tutorial_introduction_modal_title
-TEXT: Send a Gift to Friends
+TEXT: 傳送友情禮物
 
 RESOURCE ID: tips_gym_pokecoins_tutorial_body
 TEXT: 被指派至寶可補給站的寶可夢每防禦道館一天，就能獲得50寶可幣。
@@ -1794,16 +1933,16 @@ RESOURCE ID: tips_gym_pokecoins_tutorial_title
 TEXT: 賺取寶可幣
 
 RESOURCE ID: tips_gym_tutorial_berry_title
-TEXT: Give Berries!
+TEXT: 餵食樹果
 
 RESOURCE ID: tips_gym_tutorial_items_title
-TEXT: Get Items
+TEXT: 獲得道具
 
 RESOURCE ID: tips_gym_tutorial_motivation_title
-TEXT: Motivation
+TEXT: 幹勁
 
 RESOURCE ID: tips_gym_tutorial_pokemon_title
-TEXT: Defending Gyms
+TEXT: 道館防禦
 
 RESOURCE ID: tips_potion_revive_tutorial_intro_0
 TEXT: 看來你手上有瀕死的寶可夢？用傷藥或活力碎片來恢復牠們的HP吧。
@@ -1853,19 +1992,19 @@ RESOURCE ID: tips_raid_tutorial_dodge_title
 TEXT: 閃躲
 
 RESOURCE ID: tips_raid_tutorial_fast_attack_body
-TEXT: Tap anywhere on the screen to perform a Fast Attack. Fast Attacks generate energy for your Charged Attacks.
+TEXT: 點擊螢幕上的任一處來使出一般招式。一般招式將能累積特殊招式的能量條。
 
 RESOURCE ID: tips_raid_tutorial_fast_attack_title
-TEXT: Fast Attacks
+TEXT: 一般招式
 
 RESOURCE ID: tips_raid_tutorial_groups_title
-TEXT: Raid Lobbies
+TEXT: 團體戰大廳
 
 RESOURCE ID: tips_raid_tutorial_raid_pase_title
-TEXT: Raid Pass
+TEXT: 團體戰入場券
 
 RESOURCE ID: tips_raid_tutorial_raid_title
-TEXT: What is a Raid?
+TEXT: 什麼是團體戰？
 
 RESOURCE ID: tips_revive_tutorial_0
 TEXT: 活力碎片可以讓一隻瀕死的寶可夢恢復一半的HP。
@@ -1883,7 +2022,7 @@ RESOURCE ID: tips_tagging_learn_more_button
 TEXT: 瞭解詳情
 
 RESOURCE ID: tips_tasks_buddy_play_button
-TEXT: PLAY WITH BUDDY
+TEXT: 和夥伴一起玩
 
 RESOURCE ID: tips_tasks_curve_ball_body
 TEXT: 先旋轉精靈球再投出去。投出曲球時將會比較容易捉到寶可夢。
@@ -1892,45 +2031,45 @@ RESOURCE ID: tips_tasks_curve_ball_title
 TEXT: 投出曲球
 
 RESOURCE ID: tips_tasks_friends_list_button
-TEXT: GO TO FRIENDS LIST
+TEXT: 開啟朋友名單
 
 RESOURCE ID: tips_tasks_gifts_body
-TEXT: Get Gifts by spinning PokéStops. To send a Gift, go to a friend’s Trainer profile.
+TEXT: 旋轉寶可補給站的轉盤來獲得友情禮物。
 
-Add a Gift sticker to make it extra special!
+你可以在傳送禮物時貼上貼紙，讓它更特別！
 
 RESOURCE ID: tips_tasks_gifts_title
-TEXT: Sending Gifts
+TEXT: 傳送友情禮物
 
 RESOURCE ID: tips_tasks_snapshot_buddy_body
-TEXT: To take a snapshot of your buddy, go to the buddy screen, tap PLAY! to go into AR mode, and then tap the camera button.
+TEXT: 幫夥伴拍攝Snapshot照片時，請在夥伴畫面上點擊「和夥伴一起玩」，進入AR模式後點擊照相機圖示。
 
 RESOURCE ID: tips_tasks_snapshot_buddy_title
-TEXT: Take a Snapshot of Your Buddy
+TEXT: 為夥伴拍攝GO Snapshot照片
 
 RESOURCE ID: tips_tasks_snapshot_inventory_body
-TEXT: To take a snapshot of your Pokémon, go to its details page, and tap the camera button. You can also go to your Item Bag, select the Camera item, and then choose a Pokémon.
+TEXT: 如果要為自己的寶可夢拍攝Snapshot照片，請在寶可夢詳細資訊畫面上點擊照相機圖示。你也可以在包包裡選擇照相機之後，再選擇自己想拍的寶可夢。
 
 RESOURCE ID: tips_tasks_snapshot_inventory_title
-TEXT: Take a Snapshot of Your Pokémon
+TEXT: 為你的寶可夢拍攝GO Snapshot照片
 
 RESOURCE ID: tips_tasks_snapshot_wild_body
-TEXT: When encountering a Pokémon in the wild, tap the camera button to take a snapshot.
+TEXT: 遇到野生寶可夢時，在捕捉牠之前點擊照相機圖示，拍攝GO Snapshot照片。
 
 RESOURCE ID: tips_tasks_snapshot_wild_title
-TEXT: Take a Snapshot of a Wild Pokémon
+TEXT: 為野生寶可夢拍攝GO Snapshot照片
 
 RESOURCE ID: tips_tasks_throw_type_body
-TEXT: When you’re holding a Poké Ball, a target ring will appear around the Pokémon. If you throw the Poké Ball and it lands inside the target ring, you’ll earn a Nice, Great, or Excellent Throw.
+TEXT: 當你手上拿著精靈球的時候，寶可夢身上將會顯示瞄準環。依精靈球擊中部位的不同，將會分別顯示Nice/Great/Excellent。
 
 RESOURCE ID: tips_tasks_throw_type_title
 TEXT: 投球時共有Nice、Great、Excellent三種評價。
 
 RESOURCE ID: tips_tasks_trade_body
-TEXT: You must be near a friend to trade with them. Then, go to their Trainer profile on your Friends list, and tap TRADE.
+TEXT: 你可以和附近的朋友們交換寶可夢。請自訓練家頭像開啟朋友選單，選取朋友後點擊「交換」。
 
 RESOURCE ID: tips_tasks_trade_title
-TEXT: Trading Pokémon
+TEXT: 交換寶可夢
 
 RESOURCE ID: ultra_premier_classic_title
 TEXT: UL紀念經典賽
