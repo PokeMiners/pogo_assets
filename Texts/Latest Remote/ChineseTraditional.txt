@@ -43,6 +43,9 @@ TEXT: 光之祭典T恤
 RESOURCE ID: avatar_f_shirt_dp_00_bundle_icon
 TEXT: 神奧地區款 上衣組合
 
+RESOURCE ID: avatar_f_shirt_hoopaunboundtshirt_00_bundle_icon
+TEXT: 胡帕T恤
+
 RESOURCE ID: avatar_f_shirt_nike2021_00_bundle_icon
 TEXT: NIKE AIR T恤
 
@@ -121,6 +124,9 @@ TEXT: 光之祭典T恤
 RESOURCE ID: avatar_m_shirt_dp_00_bundle_icon
 TEXT: 神奧地區款 上衣組合
 
+RESOURCE ID: avatar_m_shirt_hoopaunboundtshirt_00_bundle_icon
+TEXT: 胡帕T恤
+
 RESOURCE ID: avatar_m_shirt_nike2021_00_bundle_icon
 TEXT: NIKE AIR T恤
 
@@ -173,7 +179,7 @@ RESOURCE ID: badge_event_0024_title
 TEXT: Special Weekend 
 
 RESOURCE ID: badge_event_0025
-TEXT: December 2021: 7/11 MX
+TEXT: December 2021: 7-Eleven México
 
 RESOURCE ID: badge_event_0025_title
 TEXT: Special Weekend 
@@ -462,6 +468,14 @@ TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當�
 RESOURCE ID: general1.ticket.2_duskt_title
 TEXT: 「夜夜夜巡靈」入場券
 
+RESOURCE ID: general1.ticket.2_hoopau_description
+TEXT: 不論你身處世界的何處，你都可以使用這張入場券領取特殊調查「解放惡作劇」。只要在台灣時間2021年12月1日9:59前完成特殊調查「不被理解的光怪陸離」，就能免費領取此特殊調查。免費領取到此特殊調查的訓練家也可以到商店購買此入場券，取得相同的課題並獲得相同獎勵。詳情請至遊戲內快訊或官方部落格確認。
+
+若要參加「解放惡作劇」特殊調查，你必須先在特殊調查「不被理解的光怪陸離」中捉到胡帕。
+
+RESOURCE ID: general1.ticket.2_hoopau_title
+TEXT: 「解放惡作劇」入場券
+
 RESOURCE ID: general1.ticket.2_shint_description
 TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2021年11月21日11:00～17:00領取小貓怪社群日的特殊調查「電光閃光閃亮亮」。詳情請至遊戲內快訊確認。
 
@@ -512,11 +526,20 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 RESOURCE ID: item_event_ticket_pink_duskt_details
 TEXT: 入場券將會自動啟動。不論你身在何處，都可以在當地時間2021年10月9日的活動時間內領取特殊調查課題。
 
+RESOURCE ID: item_event_ticket_pink_hoopau_desc
+TEXT: 無論你身在何處，都可以用這張入場券來領取特殊調查「解放惡作劇」。
+
+RESOURCE ID: item_event_ticket_pink_hoopau_details
+TEXT: 這張入場券將會自動啟用，無論你身在世界上的任何地方，都能參加「解放惡作劇」特別調查。詳情請至遊戲內快訊及官方部落格確認。
+
 RESOURCE ID: item_event_ticket_pink_shint_desc
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2021年11月21日11:00～17:00獲得特殊調查的課題。
 
 RESOURCE ID: item_event_ticket_pink_shint_details
 TEXT: 入場券將會自動啟動。不論你身在何處，都可以在當地時間2021年11月21日的活動時間內領取特殊調查課題。
+
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: 無論你身在何處，都可以用這張入場券來領取特殊調查「解放惡作劇」。
 
 RESOURCE ID: lure_duration_generic
 TEXT: 誘餌模組效果延長
@@ -531,8 +554,8 @@ RESOURCE ID: m_avatar_poses_bundle_pose_32
 TEXT: 丹帝的姿勢
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-11-23T23:11:19.194674
-at SHA 43c539ff23e207a15ec991f5271d1b6fde2eccf9
+TEXT: Built at 2021-11-25T10:40:53.853015
+at SHA 66332520ef049253729f26acc1eb1a3cb99d3c78
 Patch from: 0.223.0-SHA-4d8d4e88
 
 RESOURCE ID: minicollect_help_subtitle
@@ -671,7 +694,7 @@ RESOURCE ID: quest_land_curveball_singular
 TEXT: Make a Curveball Throw
 
 RESOURCE ID: quest_play_buddy_singular
-TEXT: Play with your buddy
+TEXT: 和夥伴一起玩
 
 RESOURCE ID: quest_shint_catch_b
 TEXT: 捕捉 {0} 隻小貓怪
@@ -681,6 +704,9 @@ TEXT: 讓 {0} 隻小貓怪進化
 
 RESOURCE ID: quest_shint_evolve_s1
 TEXT: 讓 {0} 隻勒克貓進化
+
+RESOURCE ID: quest_snapshot_hoopa_singular
+TEXT: 為胡帕拍攝1張照片
 
 RESOURCE ID: quest_special_dialogue_duskt_0_0
 TEXT: 嘿，%PLAYERNAME%！最近不知道是因為季節到了還是怎樣，我總覺得我常見到幽靈屬性的寶可夢，你呢？
@@ -825,6 +851,112 @@ TEXT: 我以為我是在研究寶可夢的世界，但事實上是牠們讓我�
 
 RESOURCE ID: quest_special_dialogue_hallow_2021_3_7
 TEXT: 不過今天就到此為止吧，下次再請你幫忙囉。%PLAYERNAME%，真的很感謝你！
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_0
+TEXT: 嘿，%PLAYERNAME%！這幾個月發生了好多事啊！
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_1
+TEXT: 你最近有跟胡帕好好培養感情嗎？
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_10
+TEXT: 看來這跟胡帕的另一個形態有關……
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_11
+TEXT: 而且重點是我從那壺上感覺到一股不可思議的神秘力量……也許是我多心了，但你不覺得這看起來很像胡帕嗎？
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_12
+TEXT: 這一切都讓我非常興奮！看來這是胡帕這片謎團重重的的拼圖上的最後一塊了！
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_13
+TEXT: 所以我又一如往常地需要你來幫忙了，%PLAYERNAME%。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_14
+TEXT: 我會繼續分析這個壺。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_2
+TEXT: 謝謝你這次也幫我們擊退GO火箭隊。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_3
+TEXT: 當你在外面奮戰的時候，我一直在研究胡帕，而且還碰到了一些非常不可思議的事情。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_4
+TEXT: 有一天晚上，我聽到有人在敲門。當我準備要開門的時候……
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_5
+TEXT: 我聽到有人跑走的腳步聲。而當我打開門之後，只看到門邊有個奇妙的壺。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_6
+TEXT: 上面附了一張寫了很多字的便條紙，我這兩天好不容易解讀出裡面一段像是詩的文字。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_7
+TEXT: 「予之糖蜜及沙塵，即可解放汝胡帕」
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_8
+TEXT: 「身影姿態未曾改，直至再次獻祭時」
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_0_9
+TEXT: 我不是很懂詩，所以我想徵求一下你的意見。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_0
+TEXT: %PLAYERNAME%，謝謝你的幫忙！
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_1
+TEXT: 我一直忙著在分析那首詩跟那個壺，看來它們的確跟胡帕的另一個形態有關。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_2
+TEXT: 詩似乎是胡帕改變樣子的步驟，而壺則是在這過程中需要使用的道具。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_3
+TEXT: 只是我的實驗實在不怎麼順利。也許只要我們能引出壼的真正力量，或許就能讓胡帕改變樣子？
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_4
+TEXT: 我們都已經走了這麼長一段路，想必答案一定是近在眼前了！
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_1_5
+TEXT: 你可以再去幫我做些調查嗎？麻煩你了。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_0
+TEXT: 媽媽咪呀！%PLAYERNAME%，我發現了一件不得了的事！
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_1
+TEXT: 你還記得詩裡的這兩句嗎？
+「予之糖蜜及沙塵，即可解放汝胡帕」
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_10
+TEXT: 解放胡帕的力量非常強大，請你務必事事小心。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_11
+TEXT: 和胡帕一起走過的這段漫長冒險似乎也要畫下句點了。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_12
+TEXT: 等冒險真的要結束了，我反而又覺得有點寂寞。不過沒關係，寶可夢的世界裡總有許多冒險在等著我們。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_13
+TEXT: 不知道我們下次會有什麼樣的新發現呢？就讓你我還有胡帕一起繼續我們的冒險吧！
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_2
+TEXT: 我認為這代表我們能用胡帕的糖果和星星沙子來讓胡帕改變牠的樣子！
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_3
+TEXT: 你只要去捉寶可夢或是參加團體戰就能獲得星星沙子，但胡帕的糖果就只能透過將牠設為夥伴並帶牠出門散步來慢慢累積。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_4
+TEXT: 很幸運地是，我成功地把壺裡一部分的力量轉換成了胡帕的糖果。等我們準備好了所有的材料，想必就能成功解放胡帕！
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_5
+TEXT: 噢對了，詩裡面還提到說：
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_6
+TEXT: 「身影姿態未曾改，直至再次獻祭時」
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_7
+TEXT: 看來如果我們不再次獻上糖果和星星沙子，牠就會一直維持解放胡帕的形態。可是我總覺得也許條件不會完全一樣。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_8
+TEXT: 不過這一切都是我的推測。
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_9
+TEXT: 我們得實際來實驗看看才行！
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_0
 TEXT: Hi there! It’s so nice to meet you, %PLAYERNAME%. My name is Professor Willow. I’m a Pokémon researcher, and I’ll be guiding you on your journey—and what a journey it shall be!
@@ -1255,6 +1387,18 @@ TEXT: 面具後面的謎團 (3/4)
 RESOURCE ID: quest_title_hallow_2021_3
 TEXT: 面具後面的謎團 (4/4)
 
+RESOURCE ID: quest_title_hoopaunbound
+TEXT: 解放惡作劇
+
+RESOURCE ID: quest_title_hoopaunbound_0
+TEXT: 解放惡作劇 (1/3)
+
+RESOURCE ID: quest_title_hoopaunbound_1
+TEXT: 解放惡作劇 (2/3)
+
+RESOURCE ID: quest_title_hoopaunbound_2
+TEXT: 解放惡作劇 (3/3)
+
 RESOURCE ID: quest_title_onboard_sr
 TEXT: Welcome to Pokémon GO!
 
@@ -1382,6 +1526,9 @@ TEXT: 地區挑戰
 
 RESOURCE ID: ticket_duskull
 TEXT: 特殊調查「夜夜夜巡靈」的入場券在商店中上架
+
+RESOURCE ID: ticket_hoopau
+TEXT: 特殊調查入場券將在商店中上架
 
 RESOURCE ID: ticket_shinx
 TEXT: 特殊調查「電光閃光閃亮亮」的入場券在商店中上架
