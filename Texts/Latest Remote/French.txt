@@ -331,6 +331,12 @@ TEXT: Descente de Dragospire
 RESOURCE ID: ddlm_2021_collection_challenge
 TEXT: Défi de collection Día de Muertos 2021
 
+RESOURCE ID: disable_sponsored_gift_description
+TEXT: Lorsque tu visites des PokéStops ou des Arènes, tu peux recevoir des Cadeaux sponsorisés accompagnés d’un message sponsorisé en rapport avec le lieu où tu te trouves. Touche <b>OK<b> pour désactiver cette option et ne plus recevoir de Cadeaux sponsorisés. <b>Redémarre l’appli pour enregistrer ton choix. Touche <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&l=fr&s=in-game-locations&f=sponsored-gifts">ici</a> pour en apprendre plus sur les Cadeaux sponsorisés.</b>
+
+RESOURCE ID: enable_sponsored_gift_description
+TEXT: Lorsque tu visites des PokéStops ou des Arènes, tu peux recevoir des Cadeaux sponsorisés accompagnés d’un message sponsorisé en rapport avec le lieu où tu te trouves. Touche <b>OK<b> pour activer cette option et recevoir des Cadeaux sponsorisés. <b>Redémarre l’appli pour enregistrer ton choix. Touche <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&l=fr&s=in-game-locations&f=sponsored-gifts">ici</a> pour en apprendre plus sur les Cadeaux sponsorisés.</b>
+
 RESOURCE ID: encounter_pokemon_leave_warning_shadow_title
 TEXT: Veux-tu vraiment ne pas sauver le Pokémon Obscur ?
 
@@ -427,6 +433,17 @@ Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet 
 RESOURCE ID: general1.ticket.2_shint_title
 TEXT: Éclair, étincelle et éclat
 
+RESOURCE ID: general1.ticket.4_description
+TEXT: Un ticket pour accéder au Circuit Pokémon GO : Johto, le 26 février 2022 de 9h à 21h (heures locales), où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
+
+Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet évènement spécial.
+
+RESOURCE ID: general1.ticket.4_name
+TEXT: Circuit Pokémon GO : Johto
+
+RESOURCE ID: general1.ticket.4_title
+TEXT: Ticket pour le Circuit Pokémon GO : Johto
+
 RESOURCE ID: general_month
 TEXT: Mois
 
@@ -495,7 +512,17 @@ RESOURCE ID: item_event_ticket_pink_shint_details
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à une Étude spéciale le dimanche 21 novembre 2021, où que tu sois.
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: Un ticket pour accéder à l’Étude spéciale “Chenapan déchaîné”, où que tu sois.
+TEXT: Un ticket pour accéder au Circuit Pokémon GO : Johto, le 26 février 2022 de 9h à 21h (heures locales), où que tu sois.
+
+RESOURCE ID: item_global_event_ticket_details_no_version_selected
+TEXT: Ce ticket sera automatiquement activé et te donnera accès à un évènement spécial le 26 février 2022, où que tu sois dans le monde.
+
+Tu dois choisir une version de cet évènement pour y participer. Si possible, choisis une version différente de celle de tes amis afin de pouvoir faire des échanges et compléter tes Défis de collection.
+
+RESOURCE ID: item_global_event_ticket_details_version_selected
+TEXT: Ce ticket sera automatiquement activé et te donnera accès à un évènement spécial le 26 février 2022, où que tu sois dans le monde.
+
+La version que tu as choisie sera indiquée dans la section Médailles de ton profil de Dresseur.
 
 RESOURCE ID: lure_duration_generic
 TEXT: Durée des Modules Leurre augmentée
@@ -517,8 +544,8 @@ TEXT: Pose
 Lysandre
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-06T18:50:10.471046
-at SHA 16a2058e007eef67ce15fce91f1a1b33b8461784
+TEXT: Built at 2021-12-07T07:06:47.162373
+at SHA 2510dfde816777a08e4014de509e01ca89e61aa2
 Patch from: 0.223.0-SHA-4d8d4e88, 0.225.0-SHA-517b6d3b
 
 RESOURCE ID: minicollect_help_subtitle
@@ -738,7 +765,7 @@ RESOURCE ID: quest_complete_duskt
 TEXT: Skelénox, aussi fun qu’un jukebox !
 
 RESOURCE ID: quest_complete_onboard_sr
-TEXT: Welcome to Pokémon GO!
+TEXT: Bienvenue dans Pokémon GO.
 
 RESOURCE ID: quest_complete_shint
 TEXT: Éclair, étincelle et éclat
@@ -762,7 +789,7 @@ RESOURCE ID: quest_gift_open_singular
 TEXT: Open a Gift
 
 RESOURCE ID: quest_land_curveball_singular
-TEXT: Make a Curveball Throw
+TEXT: Fais un lancer à effet
 
 RESOURCE ID: quest_play_buddy_singular
 TEXT: Joue avec ton copain
@@ -1046,238 +1073,238 @@ RESOURCE ID: quest_special_dialogue_hoopaunbound_2_9
 TEXT: Nous devrons la tester avant de finaliser nos conclusions.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_0
-TEXT: Hi there! It’s so nice to meet you, %PLAYERNAME%. My name is Professor Willow. I’m a Pokémon researcher, and I’ll be guiding you on your journey—and what a journey it shall be!
+TEXT: Bonjour ! Je suis ravi de faire ta connaissance, %PLAYERNAME%. Je m’appelle Professeur Willow. Je suis Chercheur Pokémon, je vais te guider lors de ton aventure, et ça va être une aventure incroyable !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_1
-TEXT: You’ll also be helping me with my research along the way. So really, we’re more like colleagues!
+TEXT: Tu auras aussi l’occasion de m’aider dans mes recherches. Nous sommes en quelque sorte des collègues !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_2
-TEXT: First things first—let’s go over how to catch Pokémon, make a Curveball Throw, and transfer Pokémon.
+TEXT: Tout d’abord, voyons comment attraper un Pokémon, faire un lancer à effet et transférer un Pokémon.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_3
-TEXT: You can catch Pokémon with Poké Balls.
+TEXT: Tu peux attraper des Pokémon à l’aide de Poké Balls.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_4
-TEXT: If you throw a Poké Ball at the center of the Pokémon and time your throw just right, you can even achieve a Nice, Great, or Excellent Throw!
+TEXT: Si tu lances une Poké Ball au centre du cercle au bon moment, tu effectueras un Joli, Superbe ou Excellent lancer.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_5
-TEXT: Curveball Throws are advanced throws that can help you grow even more as a Trainer. To make a Curveball Throw, spin the Poké Ball as you throw it.
+TEXT: Les lancers à effet sont une technique avancée qui te permettra de t’améliorer en tant que Dresseur. Pour effectuer un lancer à effet, fais tourner la Poké Ball lorsque tu la lances.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_6
-TEXT: It’s OK if you don’t get it at first. That’s what practice is for!
+TEXT: Pas d’inquiétude si tu n’y arrives pas du premier coup. C’est à ça que sert l’entraînement !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_7
-TEXT: Once you’ve caught some Pokémon, you can keep them in your Pokémon storage or transfer them to my mobile lab in exchange for Candy.
+TEXT: Une fois que tu as attrapé des Pokémon, tu peux les ajouter à ton stockage de Pokémon ou les transférer vers mon labo ambulant en échange de Bonbons.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_8
-TEXT: I’ll explain more about Candy later. For now, how about you go catch some Pokémon?
+TEXT: Je t’en dirai plus au sujet des Bonbons plus tard. Si tu allais attraper des Pokémon en attendant ?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_0
-TEXT: Hello again, %PLAYERNAME%! How was catching Pokémon? Not too bad after the first few tries, right?
+TEXT: Re-bonjour, %PLAYERNAME%. Tu as aimé attraper des Pokémon ? On prend vite le coup de main après quelques essais, pas vrai ?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_1
-TEXT: Soon, you’ll be making Excellent Curveball Throws as easily as a Goldeen swims in water!
+TEXT: Bientôt, il sera aussi facile pour toi de faire d’Excellents lancers qu’il est facile de nager pour Poissirène.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_2
-TEXT: Next, I’d like to talk to you about an item that I’ve created called Incense.
+TEXT: Maintenant, j’aimerais te parler d’un objet que j’ai créé, appelé Encens.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_3
-TEXT: It emits a fragrance that is irresistible to Pokémon, making them come to you, instead of having you go to them! Handy, eh?
+TEXT: Il émet un parfum auquel les Pokémon ne peuvent pas résister, et cela les attire vers toi sans que tu aies besoin d’aller vers eux. Pratique, non ?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_4
-TEXT: If you know you’re going to be out adventuring for a while, using Incense can really boost the amount of Pokémon you encounter. It’s one of my favorite items.
+TEXT: Si tu t’apprêtes à partir à l’aventure, un Encens peut grandement augmenter tes chances de rencontrer des Pokémon. C’est un de mes objets préférés.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_5
-TEXT: Speaking of items, have you heard of Berries? There are several different types that Pokémon enjoy eating, and they each have different effects.
+TEXT: En parlant d’objets, as-tu entendu parler des Baies ? Il en existe plusieurs sortes, les Pokémon adorent ça. Elles ont toutes un effet différent.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_6
-TEXT: For example, Nanab Berries calm Pokémon down, making it easier for you to aim a Poké Ball at them.
+TEXT: Par exemple, les Baies Nanab calment les Pokémon, pour qu’il soit plus facile de les viser avec une Poké Ball.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_7
-TEXT: How about you give these items a try? Go ahead and use an Incense to attract Pokémon. Then, use Nanab Berries to help you catch them!
+TEXT: Tu devrais essayer ces objets. Utilise un Encens pour attirer des Pokémon, puis utilise des Baies Nanab pour les attraper !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_2_0
-TEXT: Hello again, %PLAYERNAME%! Great work using Incense and Berries to help you catch Pokémon.
+TEXT: Tu es de retour, %PLAYERNAME% ! Excellent travail, je vois que tu t’es aidé de l’Encens et des Baies pour attraper des Pokémon.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_2_1
-TEXT: If you’re ever running low on Berries or Poké Balls, you can visit PokéStops to get more.
+TEXT: Si tu as besoin d’autres Baies ou Poké Balls, tu peux en obtenir dans les PokéStops.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_2_2
-TEXT: Spinning the Photo Disc at a PokéStop can grant you those items as well as other goodies. You can also get Field Research tasks by doing so, which you can complete to encounter Pokémon or receive items.
+TEXT: En faisant tourner le PhotoDisque d’un PokéStop, tu peux obtenir ces objets ainsi que d’autres trésors. Tu y trouveras également des tâches d’Études de terrain. En terminant ces tâches, tu rencontreras des Pokémon ou recevras des objets.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_2_3
-TEXT: PokéStops are usually located at interesting places, like a monument, a public park, or a local café.
+TEXT: Les PokéStops sont souvent dans des endroits intéressants, comme un monument, un parc ou un café.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_2_4
-TEXT: They encourage Trainers to explore the world around them. Isn’t that exciting?
+TEXT: Ils permettent aux Dresseurs d’explorer le monde qui les entoure. C’est super, non ?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_2_5
-TEXT: Why don’t you go do some exploring? Who knows—you might discover some interesting places!
+TEXT: Tu devrais partir explorer. Qui sait, tu trouveras peut-être des endroits intéressants !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_0
-TEXT: Welcome back, Trainer! I just returned from a stroll myself. One thing I love about Field Research is how it always manages to take me to new and exciting locations.
+TEXT: Ravi de te revoir, Dresseur. Je reviens également de me balader. Ce que j’aime dans les Études de terrain, c’est découvrir de nouveaux endroits.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_1
-TEXT: I hope you get to learn a bit more about the world around you as you seek out different PokéStops!
+TEXT: J’espère que tu auras l’occasion d’en apprendre un peu plus sur le monde qui t’entoure en cherchant des PokéStops.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_2
-TEXT: And as fun as that will be, it’ll be even more fun if you bring along a Buddy Pokémon.
+TEXT: Tu verras, c’est génial, mais c’est encore mieux avec un Copain Pokémon.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_3
-TEXT: Building strong relationships with your Pokémon is pivotal to being a good Trainer—and choosing a Pokémon to be your buddy is a great way to do just that!
+TEXT: Créer des liens très forts avec ses Pokémon, c’est essentiel pour devenir un bon Dresseur. Faire d’un de tes Pokémon ton copain est le meilleur moyen d’y arriver.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_4
-TEXT: You can choose any Pokémon to be your Buddy Pokémon. It can even walk alongside you while you’re out exploring!
+TEXT: Tu peux choisir n’importe quel Pokémon comme Copain Pokémon. Il te suivra partout dans ton aventure.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_5
-TEXT: To get your buddy to join you on your adventures, give it some treats, such as Berries.
+TEXT: Pour que ton copain t’accompagne dans ton aventure, donne-lui des friandises telles que des Baies.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_6
-TEXT: You can boost your friendship with your Buddy Pokémon even further by playing with it, taking photos of it, and battling with it.
+TEXT: Tu peux renforcer ton amitié avec ton Copain Pokémon en jouant avec lui, en le prenant en photo ou en combattant.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_7
-TEXT: Eventually, your Buddy Pokémon can even become your Best Buddy and gain a Best Buddy ribbon! You’ll also earn additional Candy when you walk around with it.
+TEXT: Ton Copain Pokémon finira par devenir ton Meilleur Copain et recevra le ruban de Meilleur Copain. Tu obtiendras également des Bonbons supplémentaires en marchant avec lui.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_8
-TEXT: We’ll cover the importance of Candy later, but for now, how about you pick out a Buddy Pokémon and spend some time with it?
+TEXT: Nous parlerons de l’importance des Bonbons plus tard. En attendant, choisis un Copain Pokémon et passe un peu de temps avec lui.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_0
-TEXT: Hey there, %PLAYERNAME%! Wow, your Buddy Pokémon’s looking pretty pleased! Seeing your bond grow stronger warms my heart.
+TEXT: Bonjour, %PLAYERNAME% ! Ouah, ton Copain Pokémon a l’air super heureux. Ça me réchauffe le cœur de voir vos liens d’amitié se resserrer.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_1
-TEXT: Keep taking care of your Pokémon to make your relationship flourish!
+TEXT: Prends soin de ton Pokémon pour entretenir votre relation.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_2
-TEXT: I see you’ve earned some Candy while exploring with your buddy, too. It’s now time to learn how you can get more Candy, as well as what you can use it for.
+TEXT: Je vois aussi que tu as gagné des Bonbons en partant à l’aventure avec ton copain. Je vais maintenant te dire comment en gagner d’autres, mais aussi t’expliquer à quoi ils servent.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_3
-TEXT: You can earn Candy by catching, transferring, and adventuring with Pokémon. You can then use that Candy to power up and evolve your Pokémon!
+TEXT: Tu peux gagner des Bonbons en attrapant et transférant des Pokémon, et en partant à l’aventure avec eux. Tu peux utiliser ces Bonbons pour charger et faire évoluer tes Pokémon.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_4
-TEXT: You’ll also need Stardust, which you can earn by catching Pokémon, hatching Eggs, completing research, and opening Gifts.
+TEXT: Tu auras aussi besoin de Poussières Étoiles que tu peux obtenir en attrapant des Pokémon, en faisant éclore des Œufs, en terminant des recherches et en ouvrant des Cadeaux.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_5
-TEXT: Evolving Pokémon helps you fill out your Pokédex and learn all about your Pokémon’s potential. There are even some Pokémon that evolve in unique ways.
+TEXT: Faire évoluer des Pokémon te permet de remplir ton Pokédex et d’en apprendre plus sur le potentiel de tes Pokémon. Certains Pokémon évoluent même de façon particulière.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_6
-TEXT: Be sure to check the Pokémon in your Pokémon storage to learn more about how to evolve them. You’ll also be able to power up your Pokémon there.
+TEXT: Assure-toi de consulter les Pokémon qui se trouvent dans ton stockage de Pokémon pour découvrir la façon dont ils évoluent. Tu pourras également y charger tes Pokémon.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_7
-TEXT: If you need help figuring out which Pokémon to power up and evolve, you can ask your team leader to appraise your Pokémon.
+TEXT: Si tu as besoin d’aide pour déterminer quel Pokémon charger ou faire évoluer, tu peux demander à ton capitaine d’équipe de l’évaluer.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_8
-TEXT: You should have some Candy and Stardust from completing previous research tasks. How about you use them to evolve and power up some Pokémon?
+TEXT: Tu as dû recevoir des Bonbons et des Poussières Étoiles en terminant tes dernières tâches d’Études. Tu devrais les utiliser pour faire évoluer et charger tes Pokémon.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_0
-TEXT: Incredible work, %PLAYERNAME%! Your Pokémon look stronger than ever. Did you learn anything new while evolving and powering up your Pokémon?
+TEXT: Excellent travail, %PLAYERNAME% ! Tes Pokémon sont plus forts que jamais. As-tu appris quelque chose en faisant évoluer et en chargeant tes Pokémon ?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_1
-TEXT: When I see a Pokémon discover new possibilities within itself, it makes me feel like I’m capable of anything, too!
+TEXT: Quand je vois un Pokémon se découvrir de nouveaux talents, j’ai l’impression que moi aussi je peux tout accomplir !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_2
-TEXT: But as exciting as that all is, there’s just as much to learn about Pokémon in some of their earliest forms, too.
+TEXT: Bien que cela soit passionnant, il y a tout autant à apprendre des formes moins évoluées des Pokémon.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_3
-TEXT: Next, we’re going to discuss Eggs and Pokémon that can hatch from them.
+TEXT: Nous allons parler des Œufs et des Pokémon qui peuvent en éclore.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_4
-TEXT: You can get 2 km, 5 km, and 10 km Eggs by spinning PokéStops, and you can get 7 km Eggs by opening Gifts from your friends.
+TEXT: Tu peux obtenir des Œufs de 2, 5 ou 10 km en faisant tourner des PokéStops, et des Œufs de 7 km en ouvrant des Cadeaux envoyés par tes amis.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_5
-TEXT: To hatch these Eggs, you’ll need to place them in an Incubator and travel the indicated distance.
+TEXT: Pour faire éclore ces Œufs, tu dois les placer dans un Incubateur et marcher la distance indiquée.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_6
-TEXT: If you want to hatch Eggs even faster, Super Incubators decrease the distance required to hatch Eggs. Be sure to use these Incubators wisely.
+TEXT: Si tu veux faire éclore un Œuf plus rapidement, les Super-Incubateurs diminuent la distance de marche nécessaire pour faire éclore un Œuf. Utilise bien ces Incubateurs !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_7
-TEXT: You’ll be able to get Eggs in other ways, too.
+TEXT: Tu peux également obtenir des Œufs de plusieurs autres façons.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_8
-TEXT: For example, you can get Strange Eggs by defeating Team GO Rocket Leaders. As you go on your Trainer journey, you’ll have opportunities to take on Team GO Rocket and obtain these Eggs.
+TEXT: Par exemple, tu peux récupérer des Œufs Étranges en remportant des combats face aux chefs de la Team GO Rocket. Tu auras plusieurs occasions de combattre la Team GO Rocket lors de ton voyage pour obtenir ces Œufs.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_9
-TEXT: You should have a handful of Eggs already. How about you get to hatching some?
+TEXT: Tu dois déjà avoir plusieurs Œufs. Tu devrais essayer d’en faire éclore quelques-uns.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_6_0
-TEXT: Look at all the Eggs you’ve hatched, %PLAYERNAME%! What an accomplishment.
+TEXT: Regarde tous les Œufs que tu as fait éclore, %PLAYERNAME% ! Quel travail fantastique !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_6_1
-TEXT: Being a dedicated Trainer takes quite a bit of work, wouldn’t you say? Even so, you can’t forget to have fun along the way.
+TEXT: Être un Dresseur passionné demande du travail, tu ne trouves pas ? Mais il ne faut pas oublier de s’amuser !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_6_2
-TEXT: You’ll see in your Item Bag that you have a camera. You can use this camera to take snapshots of your Pokémon and commemorate all sorts of moments and memories.
+TEXT: Tu trouveras un appareil photo dans ton Sac d’objets. Utilise-le pour prendre des photos de tes Pokémon et pour immortaliser tes bons moments.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_6_3
-TEXT: You can take a snapshot when encountering wild Pokémon, when viewing your Pokémon in your Pokémon storage, and when interacting with your buddy.
+TEXT: Tu peux prendre une photo lorsque tu rencontres un Pokémon sauvage, quand tu regardes un Pokémon dans ton stockage de Pokémon ou quand tu interagis avec ton copain.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_6_4
-TEXT: How about you give it a shot? A...snapshot, that is. Haha!
+TEXT: Tu devrais essayer !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_0
-TEXT: %PLAYERNAME%, I’ve been looking through the photos you took, and I have to say, I’m quite impressed!
+TEXT: %PLAYERNAME%, j’ai regardé tes clichés, et il n’y a pas photo, tu as beaucoup de talent.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_1
-TEXT: Have you considered moonlighting as a Pokémon photographer? You certainly have the chops for it!
+TEXT: As-tu déjà pensé à te lancer dans une carrière de photographe ? Tu aurais beaucoup de succès !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_10
-TEXT: An important part of battling effectively is using attacks that are super effective against the Pokémon defending the Gym.
+TEXT: Un élément important des combats est d’utiliser des attaques super efficaces face aux Pokémon qui défendent l’Arène.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_11
-TEXT: Different Pokémon and their attacks have different types, and those types have weaknesses to other types. For example, Fire-type Pokémon are weak against Water-type attacks.
+TEXT: Les Pokémon et leurs attaques peuvent être de types différents. Ces types sont faibles face à d’autres types. Par exemple, les Pokémon de type Feu sont faibles face aux attaques de type Eau.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_12
-TEXT: I’d like for you to try using supereffective attacks when battling at a Gym. Try using Charged Attacks of different types to see which ones work best.
+TEXT: Je voudrais que tu essaies d’utiliser une attaque super efficace lors d’un combat dans une Arène. Utilise des Attaques Chargées de différents types pour déterminer celles qui fonctionnent le mieux.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_13
-TEXT: Let’s see what you’re made of, %PLAYERNAME%! Get out there and battle in some Gyms.
+TEXT: Voyons ce dont tu es capable, %PLAYERNAME%. Va combattre dans les Arènes !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_2
-TEXT: Do you recognize these structures? I’m sure you’ve come across them in your photographic forays.
+TEXT: Reconnais-tu ces bâtiments ? Tu as sûrement dû en voir lorsque tu prenais des photos.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_3
-TEXT: They’re called Gyms, and they’ll prove to be quite important in your Trainer journey.
+TEXT: Ce sont des Arènes, elles seront très importantes lors de ton parcours de Dresseur.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_4
-TEXT: Gyms are always one of four colors, depending on which team controls them.
+TEXT: Les Arènes existent en quatre couleurs. La couleur d’une Arène correspond à l’équipe qui la contrôle.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_5
-TEXT: Red Gyms are controlled by Team Valor, led by the headstrong Candela. Blue Gyms are controlled by Team Mystic, headed up by the analytical Blanche.
+TEXT: Les Arènes rouges sont contrôlées par l’équipe Bravoure menée par Candela, une capitaine d’équipe tenace ! Les Arènes bleues sont sous le contrôle de l’équipe Sagesse menée par Blanche, une capitaine d’équipe aux analyses pointues.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_6
-TEXT: Yellow Gyms are controlled by Team Instinct, whose proud leader is the incomparable Spark. He’s known for following his gut.
+TEXT: Les Arènes jaunes sont contrôlées par l’équipe Intuition, dont le fier capitaine est l’incomparable Spark. Il est connu pour toujours suivre son instinct.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_7
-TEXT: Gray Gyms are neutral, meaning that no team controls them.
+TEXT: Les Arènes grises sont neutres, et ne sont sous le contrôle d’aucune équipe.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_8
-TEXT: If a Gym is controlled by your team, you can assign a Pokémon to defend it. Gyms can have up to six Pokémon defending them at a time.
+TEXT: Si une Arène est contrôlée par ton équipe, tu peux y assigner un Pokémon pour la défendre. Les Arènes peuvent avoir jusqu’à 6 Pokémon pour la défendre.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_9
-TEXT: If a Gym is controlled by another team, you can battle to try to claim it. Find a Gym that’s controlled by a different team, and give battling a shot!
+TEXT: Si une Arène est contrôlée par une autre équipe, tu peux y combattre pour en prendre le contrôle. Trouve une Arène sous le contrôle d’une autre équipe, et tente de combattre !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_0
-TEXT: How was your Gym experience, %PLAYERNAME%? A unique kind of workout, isn’t it? Haha!
+TEXT: Comment se sont passés tes combats, %PLAYERNAME% ? C’est du sport, hein ? Ahah !
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_1
-TEXT: Anyhoo, did you notice that at some Gyms, you were faced with a single Pokémon instead of Gym defenders?
+TEXT: As-tu remarqué que dans certaines Arènes, tu as fait face à un seul Pokémon et non aux Pokémon les défendant habituellement ?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_2
-TEXT: Those Pokémon are called Raid Bosses, and you can challenge them in Raid Battles!
+TEXT: Ces Pokémon sont des Boss de Raids, tu peux les défier lors de Combats de Raids.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_3
-TEXT: In Raid Battles, you can battle alongside friends and other Trainers to challenge a Raid Boss.
+TEXT: Dans un Combat de Raid, tu peux te battre aux côtés de tes amis et d’autres Dresseurs pour défier un Boss de Raid.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_4
-TEXT: These Pokémon are formidable foes, indeed. Sometimes, you can find certain Pokémon only as Raid Bosses.
+TEXT: Ces Pokémon sont redoutables, et tu trouveras parfois certains Pokémon uniquement en tant que Boss de Raids.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_5
-TEXT: Before entering a Raid Battle, make sure to power up your Pokémon! Stocking up on lots of Candy and Stardust will allow you to bring powerful teams to Raid Battles.
+TEXT: Avant de commencer un Combat de Raid, assure-toi d’avoir chargé tes Pokémon. Fais le plein de Bonbons et de Poussières Étoiles pour que ton équipe soit aussi puissante que possible.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_6
-TEXT: Power up some Pokémon, then try taking on a raid. If you don’t succeed, you can team up with other Trainers.
+TEXT: Charge quelques Pokémon et tente un Combat de Raid. Si tu échoues, essaie à nouveau en faisant équipe avec d’autres Dresseurs.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_7
-TEXT: You’ll never know what you’re capable of until you try, right? 
+TEXT: Tu ne connaîtras ta force qu’en essayant, pas vrai ?
 
 RESOURCE ID: quest_special_dialogue_season4_10_1
 TEXT: BOUH ! Ahah, je t’ai fait peur ? Pas trop, j’espère.
@@ -1484,34 +1511,34 @@ RESOURCE ID: quest_title_hoopaunbound_2
 TEXT: Chenapan déchaîné (3/3)
 
 RESOURCE ID: quest_title_onboard_sr
-TEXT: Welcome to Pokémon GO!
+TEXT: Bienvenue dans Pokémon GO.
 
 RESOURCE ID: quest_title_onboard_sr_0
-TEXT: Welcome to Pokémon GO! (1/9)
+TEXT: Bienvenue dans Pokémon GO. (1/9)
 
 RESOURCE ID: quest_title_onboard_sr_1
-TEXT: Welcome to Pokémon GO! (2/9)
+TEXT: Bienvenue dans Pokémon GO. (2/9)
 
 RESOURCE ID: quest_title_onboard_sr_2
-TEXT: Welcome to Pokémon GO! (3/9)
+TEXT: Bienvenue dans Pokémon GO. (3/9)
 
 RESOURCE ID: quest_title_onboard_sr_3
-TEXT: Welcome to Pokémon GO! (4/9)
+TEXT: Bienvenue dans Pokémon GO. (4/9)
 
 RESOURCE ID: quest_title_onboard_sr_4
-TEXT: Welcome to Pokémon GO! (5/9)
+TEXT: Bienvenue dans Pokémon GO. (5/9)
 
 RESOURCE ID: quest_title_onboard_sr_5
-TEXT: Welcome to Pokémon GO! (6/9)
+TEXT: Bienvenue dans Pokémon GO. (6/9)
 
 RESOURCE ID: quest_title_onboard_sr_6
-TEXT: Welcome to Pokémon GO! (7/9)
+TEXT: Bienvenue dans Pokémon GO. (7/9)
 
 RESOURCE ID: quest_title_onboard_sr_7
-TEXT: Welcome to Pokémon GO! (8/9)
+TEXT: Bienvenue dans Pokémon GO. (8/9)
 
 RESOURCE ID: quest_title_onboard_sr_8
-TEXT: Welcome to Pokémon GO! (9/9)
+TEXT: Bienvenue dans Pokémon GO. (9/9)
 
 RESOURCE ID: quest_title_season5_dec
 TEXT: Saison de l’héritage : Défi de Poussières Étoiles
@@ -1592,7 +1619,7 @@ RESOURCE ID: quest_title_spwk_tullys
 TEXT: Week-end spécial (Tully’s)
 
 RESOURCE ID: quest_win_raid_lvl1_singular
-TEXT: Win a one-star raid
+TEXT: Gagne un Raid de niveau 1.
 
 RESOURCE ID: recycle_dialog_prefix
 TEXT: Supprimer

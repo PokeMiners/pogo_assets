@@ -422,6 +422,17 @@ DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZ
 RESOURCE ID: general1.ticket.2_shint_title
 TEXT:  Ticket: Flackern, Funken und Glühen
 
+RESOURCE ID: general1.ticket.4_description
+TEXT: Ein Ticket zur Teilnahme an der Pokémon GO-Tour: Johto am 26. Februar 2022 von 9:00 bis 21:00 Uhr Ortszeit (wo immer du dich befindest). Details findest du unter „Neuigkeiten“ im Spiel.
+
+DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZIAL-EVENTS ZU ERHALTEN.
+
+RESOURCE ID: general1.ticket.4_name
+TEXT: Pokémon GO-Tour: Johto
+
+RESOURCE ID: general1.ticket.4_title
+TEXT: Ticket für die Pokémon GO-Tour: Johto
+
 RESOURCE ID: general_go
 TEXT: GO
 
@@ -477,7 +488,17 @@ RESOURCE ID: item_event_ticket_pink_shint_details
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung am 21. November 2021 (wo immer du dich befindest).
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: Ein Ticket für den Zugang zur Spezialforschung „Entfesselter Schabernack“ (wo immer du dich befindest).
+TEXT: Ein Ticket zur Teilnahme an der Pokémon GO-Tour: Johto am 26. Februar 2022 von 9:00 bis 21:00 Uhr Ortszeit (wo immer du dich befindest).
+
+RESOURCE ID: item_global_event_ticket_details_no_version_selected
+TEXT: Dieses Ticket wird automatisch aktiviert und du erhältst damit am 26. Februar 2022 Zugang zu einem besonderen Event (wo immer du dich befindest).
+
+Du musst eine Event-Version auswählen, um teilzunehmen. Versuche eine andere Version als die deiner Freunde zu wählen, damit du Pokémon tauschen kannst, um die Sammler-Herausforderungen abzuschließen!
+
+RESOURCE ID: item_global_event_ticket_details_version_selected
+TEXT: Dieses Ticket wird automatisch aktiviert und du erhältst damit am 26. Februar 2022 Zugang zu einem besonderen Event (wo immer du dich befindest).
+
+Du kannst die von dir gewählte Event-Version bei den Medaillen in deinem Trainer-Profil einsehen.
 
 RESOURCE ID: lure_duration_generic
 TEXT: Erhöhte Lockmodul-Wirkungszeit
@@ -498,9 +519,12 @@ RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: Flordelis-
 Pose
 
+RESOURCE ID: mega_duration_triple
+TEXT: 3× Mega-Entwicklungs-Wirkungszeit 
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-06T18:50:10.471046
-at SHA 16a2058e007eef67ce15fce91f1a1b33b8461784
+TEXT: Built at 2021-12-07T07:06:47.162373
+at SHA 2510dfde816777a08e4014de509e01ca89e61aa2
 Patch from: 0.223.0-SHA-4d8d4e88, 0.225.0-SHA-517b6d3b
 
 RESOURCE ID: minicollect_help_subtitle
@@ -693,7 +717,7 @@ RESOURCE ID: quest_catch_type_electric_plural_unique
 TEXT: Fange {0} verschiedene Arten von Elektro-Pokémon.
 
 RESOURCE ID: quest_complete_onboard_sr
-TEXT: Willkommen in Pokémon GO!
+TEXT: Willkommen bei Pokémon GO!
 
 RESOURCE ID: quest_complete_shint
 TEXT: Flackern, Funken und Glühen
@@ -702,10 +726,10 @@ RESOURCE ID: quest_evolve_special_galarian_slowpoke
 TEXT: Entwickle ein Galar-Flegmon.
 
 RESOURCE ID: quest_gift_open_plural
-TEXT: Open {0} Gifts
+TEXT: Öffne {0} Geschenke.
 
 RESOURCE ID: quest_gift_open_singular
-TEXT: Open a Gift
+TEXT: Öffne ein Geschenk.
 
 RESOURCE ID: quest_land_curveball_singular
 TEXT: Lande einen Curveball-Wurf.
@@ -720,7 +744,7 @@ RESOURCE ID: quest_power_up_legendary_singular
 TEXT: Verwende ein Power-up bei 1 Legendären oder Mysteriösen Pokémon.
 
 RESOURCE ID: quest_send_gifts_daily_row
-TEXT: Send Gifts {0} Days in a Row
+TEXT: Verschicke {0} Tage in Folge Geschenke.
 
 RESOURCE ID: quest_shint_catch_b
 TEXT: Fange {0} Sheinux.
@@ -735,7 +759,7 @@ RESOURCE ID: quest_snapshot_hoopa_singular
 TEXT: Mache einen Schnappschuss von Hoopa.
 
 RESOURCE ID: quest_snapshot_wild_ice_singular
-TEXT: Take a snapshot of a wild Ice-type Pokémon
+TEXT: Mache einen Schnappschuss von einem Pokémon im Freien.
 
 RESOURCE ID: quest_special_dialogue_duskt_0_0
 TEXT: Hey, %PLAYERNAME%! Hast du auch einen Anstieg in der Anzahl von Geister-Pokémon bemerkt? 
@@ -980,10 +1004,10 @@ RESOURCE ID: quest_special_dialogue_hoopaunbound_2_9
 TEXT: Wir müssen sie erst testen, bevor wir voreilige Schlüsse ziehen!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_0
-TEXT: Hallo! Es ist so schön dich kennenzulernen, %PLAYERNAME%! Mein Name ist Professor Willow. Ich bin ein Pokémon-Forscher und werde dich auf deiner Reise begleiten ... und was für eine Reise das sein wird!
+TEXT: Hallo! Es ist so schön, dich kennenzulernen, %PLAYERNAME%! Mein Name ist Professor Willow. Ich bin ein Pokémon-Forscher und werde dich auf deiner Reise begleiten ... und was für eine Reise das sein wird!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_1
-TEXT: Du wirst mir auf dieser ebenfalls mit meinen Forschungen helfen. Also sind wir eher Kollegen.
+TEXT: Du wirst mir auf dieser Reise mit meinen Forschungen helfen. Also sind wir eher Kollegen.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_2
 TEXT: Aber zuerst sollten wir besprechen, wie man Pokémon fängt, Curveball-Würfe landet und Pokémon verschickt.
@@ -992,43 +1016,43 @@ RESOURCE ID: quest_special_dialogue_onboard_sr_0_3
 TEXT: Du kannst Pokémon mit Pokébällen fangen.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_4
-TEXT: Wenn du einen Pokéball auf die Mitte eines Pokémon wirfst und deinen Wurf genau richtig timst, kannst du sogar einen guten, großartigen oder fabelhaften Wurf landen!
+TEXT: Wenn du einen Pokéball auf die Mitte des Pokémon wirfst und deinen Wurf genau richtig timst, kannst du sogar einen guten, großartigen oder fabelhaften Wurf landen!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_5
-TEXT: Curveball-Würfe sind fortgeschrittene Würfe, die dir helfen werden, als Trainer noch weiter zu wachsen. Um einen Curveball-Wurf zu landen, drehe den Pokéball, bevor du ihn wirfst.
+TEXT: Curveball-Würfe sind fortgeschrittene Würfe, die dir dabei helfen können, als Trainer noch weiter zu wachsen. Drehe den Pokéball, bevor du ihn wirfst, um einen Curveball-Wurf zu landen.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_6
-TEXT: Es ist in Ordnung, wenn du es zuerst nicht richtig verstehst. Übung macht den Meister!
+TEXT: Es ist kein Problem, wenn es am Anfang nicht so klappt. Übung macht den Meister!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_7
-TEXT: Wenn du erstmal ein paar Pokémon gefangen hast, kannst du sie in deiner Pokémon-Aufbewahrung sammeln oder sie im Austausch für Bonbons zu meinem mobilen Labor verschicken.
+TEXT: Wenn du ein paar Pokémon gefangen hast, kannst du sie in deiner Pokémon-Aufbewahrung sammeln oder sie im Austausch für Bonbons an mein mobiles Labor schicken.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_8
 TEXT: Ich werde dir Bonbons später näher erklären. Wie wäre es fürs Erste, wenn du ein paar Pokémon fangen gehst?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_0
-TEXT: Hallo nochmal, %PLAYERNAME%! Wie ist das Fangen von Pokémon gelaufen? Nicht schlecht nach den ersten Versuchen, oder?
+TEXT: Hallo nochmal, %PLAYERNAME%! Wie ist das Fangen von Pokémon gelaufen? Nicht so schlecht nach den ersten Versuchen, oder?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_1
-TEXT: Bald wirst du so einfach fabelhafte Curveball-Würfe landen können, wie ein Goldini durchs Wasser gleitet!
+TEXT: Bald wirst du so einfach fabelhafte Curveball-Würfe landen, wie ein Goldini durchs Wasser gleitet!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_2
 TEXT: Als Nächstes würde ich dir gerne mehr über ein Item erzählen, das ich erfunden habe: Rauch.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_3
-TEXT: Er stößt einen Duft aus, das für Pokémon unwiderstehlich ist. Er lockt sie zu dir und du wirst sie nicht aufspüren müssen! Praktisch, oder?
+TEXT: Er stößt einen Duft aus, der für Pokémon unwiderstehlich ist. Durch Rauch kommen sie zu dir und nicht andersrum! Praktisch, oder?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_4
-TEXT: Wenn du weißt, dass du für eine Weile unterwegs sein wirst, kannst du Rauch verwenden, um die Anzahl an Pokémon zu steigern, denen du auf deinem Abenteuer begegnest. Dieses Item ist eines meiner Lieblingsitems.
+TEXT: Wenn du eine Weile unterwegs bist, kannst du Rauch verwenden, um die Anzahl an Pokémon zu steigern, denen du auf deinem Abenteuer begegnest. Das ist eines meiner Lieblingsitems.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_5
 TEXT: Apropos Items ... Hast du schon von Beeren gehört? Es gibt einige verschiedene Arten, die Pokémon gerne essen, und alle haben andere Effekte.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_6
-TEXT: Nanabbeeren, zum Beispiel, beruhigen Pokémon, damit du sie einfacher mit einem Pokéball treffen kannst.
+TEXT: Beispielsweise beruhigen Nanabbeeren die Pokémon, damit du einfacher mit einem Pokéball auf sie zielen kannst.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_1_7
-TEXT: Wie wäre es, wenn du diese Items mal ausprobierst? Verwende einen Rauch, um Pokémon anzulocken und benutze danach eine Nanabbeere, um dir beim Fangen des Pokémon zu helfen!
+TEXT: Wie wäre es, wenn du diese Items mal ausprobierst? Verwende einen Rauch, um Pokémon anzulocken und benutze danach Nanabbeeren, um dir beim Fangen der Pokémon zu helfen!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_2_0
 TEXT: %PLAYERNAME%! Du bist wieder da! Großartige Arbeit beim Fangen von Pokémon mit Rauch und Beeren.
@@ -1037,10 +1061,10 @@ RESOURCE ID: quest_special_dialogue_onboard_sr_2_1
 TEXT: Falls dir jemals die Beeren oder Pokébälle ausgehen sollten, kannst du PokéStops besuchen, um mehr zu erhalten.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_2_2
-TEXT: Wenn du die Fotoscheibe an einem PokéStop drehst, kannst du sowohl diese Items als auch andere tolle Dinge erhalten. 
+TEXT: Wenn du die Fotoscheibe an einem PokéStop drehst, kannst du sowohl diese Items als auch andere tolle Dinge erhalten. Außerdem erhältst du dadurch Feldforschungsaufgaben, die du abschließen kannst, um Pokémon zu begegnen oder Items zu erhalten.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_2_3
-TEXT: PokéStops sind normalerweise an interessanten Orten zu finden wie Denkmäler, öffentliche Parks oder lokale Cafés.
+TEXT: PokéStops sind normalerweise an interessanten Orten zu finden – wie Denkmäler, öffentliche Parks oder lokale Cafés.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_2_4
 TEXT: So werden Trainer ermutigt, die Welt um sich herum zu erkunden. Ist das nicht aufregend?
@@ -1049,85 +1073,85 @@ RESOURCE ID: quest_special_dialogue_onboard_sr_2_5
 TEXT: Warum begibst du dich nicht auf ein kleines Abenteuer? Wer weiß ... vielleicht entdeckst du sogar ein paar interessante Orte!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_0
-TEXT: Willkommen zurück, Trainer! Ich bin gerade von einem Spaziergang zurückgekommen. Wenn ich etwas an Feldforschungen liebe, dann ist es, dass sie mich immer wieder an neue und spannende Orte führen.
+TEXT: Willkommen zurück, Trainer! Ich bin gerade auch von einem Spaziergang zurückgekommen. Wenn ich etwas an Feldforschungen liebe, dann ist es, dass sie mich immer wieder an neue und spannende Orte führen.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_1
-TEXT: Ich hoffe, du lernst noch ein wenig mehr über die Welt um dich herum, während du verschiedene PokéStops aufsuchst!
+TEXT: Ich hoffe, du lernst etwas mehr über die Welt um dich herum, während du verschiedene PokéStops aufsuchst!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_2
-TEXT: Und so viel Spaß das auch macht ... mit einem Kumpel-Pokémon wird es sicherlich umso mehr Spaß machen.
+TEXT: Das allein macht zwar schon Spaß ... aber mit einem Kumpel-Pokémon wird es noch viel unterhaltsamer.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_3
-TEXT: Um ein guter Trainer zu werden, ist es wichtig, innige Beziehungen zu seinen Pokémon aufzubauen. Ein Pokémon als deinen Kumpel auszuwählen, ist dafür ein guter Start.
+TEXT: Um ein guter Trainer zu werden, ist es wichtig, eine innige Beziehung zu den Pokémon aufzubauen. Und ein Pokémon als Kumpel auszuwählen, ist schon einmal ein guter Start.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_4
-TEXT: Du kannst dir ein beliebiges Pokémon aussuchen, um dein Kumpel-Pokémon zu sein. Wenn du es mit auf ein Abenteuer nimmst, läuft es sogar neben dir her!
+TEXT: Du kannst dir ein beliebiges Pokémon als Kumpel-Pokémon aussuchen. Wenn du es mit auf ein Abenteuer nimmst, läuft es sogar neben dir her!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_5
-TEXT: Um deinen Kumpel mit auf ein Abenteuer zu nehmen, musst du ihm lediglich ein paar Leckerbissen geben ... Beeren zum Beispiel.
+TEXT: Du musst deinem Kumpel lediglich ein paar Snacks – wie Beeren – geben, damit er dich auf deinen Abenteuern begleitet.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_6
-TEXT: Du kannst dein Freundschaftslevel mit deinem Kumpel-Pokémon weiter boosten, indem du mit ihm spielst, Fotos von ihm machst und mit ihm an Kämpfen teilnimmst.
+TEXT: Du kannst deinen Freundschaftslevel mit deinem Kumpel-Pokémon weiter boosten, indem du mit ihm spielst, Fotos von ihm machst und mit ihm an Kämpfen teilnimmst.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_7
-TEXT: Mit genügend Zeit und Liebe kann dein Kumpel-Pokémon sogar dein Bester Kumpel werden und das Bester-Kumpel-Band erhalten! Außerdem kannst du zusätzliche Bonbons verdienen, wenn du mit ihm spazieren gehst.
+TEXT: Mit etwas Zeit und Liebe kann dein Kumpel-Pokémon sogar zu deinem Besten Kumpel werden und das Bester-Kumpel-Band erhalten! Außerdem verdienst du zusätzliche Bonbons, wenn du mit ihm spazieren gehst.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_3_8
-TEXT: Wir werden später noch näher auf die Bedeutung von Bonbons eingehen, aber fürs Erste wäre es gut, wenn du erstmal ein Kumpel-Pokémon aussuchst und etwas Zeit mit ihm verbringst, was meinst du?
+TEXT: Wir werden später noch näher auf die Bedeutung von Bonbons eingehen. Wie wäre es, wenn du in der Zwischenzeit erstmal ein Kumpel-Pokémon aussuchst und etwas Zeit mit ihm verbringst?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_0
-TEXT: Hallo, %PLAYERNAME%! Wow, dein Kumpel-Pokémon sieht wirklich zufrieden aus! Euch dabei zuzusehen, wie ihr wahre Kumpel werdet, rührt mich wirklich sehr.
+TEXT: Hallo, %PLAYERNAME%! Wow, dein Kumpel-Pokémon sieht wirklich zufrieden aus! Es rührt mich sehr, wie eure Bindung immer stärker wird.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_1
-TEXT: Kümmere dich weiter um dein Pokémon, damit eure Freundschaft weiter wächst!
+TEXT: Kümmere dich weiter um dein Pokémon, damit eure Freundschaft wächst!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_2
-TEXT: Ich sehe, dass du durch das Erkunden mit deinem Kumpel einige Bonbons verdient hast. Jetzt ist es an der Zeit herauszufinden, wie du mehr Bonbons verdienst und wofür du sie später benutzen kannst.
+TEXT: Ich sehe, dass du durch das Erkunden mit deinem Kumpel auch einige Bonbons verdient hast. Lass uns jetzt herausfinden, wie du mehr Bonbons verdienst und wofür du sie benutzen kannst.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_3
-TEXT: Du kannst Bonbons verdienen, indem du Pokémon fängst, verschickst oder mit ihnen auf ein Abenteuer gehst. Dann kannst du die Bonbons zum Entwickeln von Pokémon oder für Power-Ups verwenden.
+TEXT: Du verdienst Bonbons, indem du Pokémon fängst, verschickst oder mit ihnen auf ein Abenteuer gehst. Dann kannst du die Bonbons zum Entwickeln von Pokémon oder für Power-ups verwenden.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_4
-TEXT: Dafür wirst du jedoch auch Sternenstaub benötigen, den du durch das Fangen von Pokémon, Ausbrüten von Eiern, Abschließen von Forschungen und Öffnen von Geschenken erhalten kannst.
+TEXT: Dafür wirst du auch Sternenstaub benötigen, den du durch das Fangen von Pokémon, das Ausbrüten von Eiern, den Abschluss von Forschungen und das Öffnen von Geschenken erhältst.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_5
-TEXT: Pokémon zu entwickeln, hilft dir, deinen Pokédex auszufüllen und mehr über das Potenzial deiner Pokémon zu lernen. Es gibt sogar Pokémon, die sich auf einzigartige Weise entwickeln.
+TEXT: Die Entwicklung von Pokémon hilft dir dabei, deinen Pokédex zu vervollständigen und alles über das Potenzial deiner Pokémon zu lernen. Es gibt sogar Pokémon, die sich auf einzigartige Weise entwickeln.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_6
-TEXT: Denk daran, die Pokémon in deiner Pokémon-Aufbewahrung zu überprüfen, um zu erfahren, wie man sie entwickelt. Dort kannst du außerdem Power-Ups durchführen. 
+TEXT: Überprüfe die Pokémon in deiner Pokémon-Aufbewahrung, um mehr darüber zu erfahren, wie man sie entwickelt. Dort kannst du auch Power-ups durchführen.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_7
-TEXT: Wenn du Hilfe brauchst, zu entscheiden, welches Pokémon ein Power-Up braucht oder entwickelt werden soll, kannst du deinen Teamleiter fragen, dein Pokémon zu bewerten. 
+TEXT: Falls du etwas Hilfe bei der Entscheidung brauchst, bei welchem Pokémon du ein Power-up verwenden oder welches du entwickeln sollst, kannst du deinen Teamleiter darum bitten, dein Pokémon zu bewerten.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_4_8
-TEXT: Du solltest ein paar Bonbons und Sternenstaub von abgeschlossenen Forschungsaufgaben übrighaben. Wie wäre es, wenn du diese benutzt, um ein paar Pokémon zu entwickeln oder Power-Ups durchzuführen?
+TEXT: Du solltest ein paar Bonbons und etwas Sternenstaub von abgeschlossenen Forschungsaufgaben haben. Wie wäre es, wenn du diese dazu verwendest, ein paar Pokémon zu entwickeln oder Power-ups durchzuführen?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_0
-TEXT: Unglaubliche Arbeit, %PLAYERNAME%! Dein Pokémon sieht stärker als je zuvor aus. Hast du bei den Entwicklungen und Power-Ups deiner Pokémon etwas Neues erfahren?
+TEXT: Unglaubliche Arbeit, %PLAYERNAME%! Deine Pokémon sehen stärker aus als je zuvor. Hast du bei den Entwicklungen und Power-ups deiner Pokémon etwas Neues gelernt?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_1
-TEXT: Wenn ich sehe, wie Pokémon neue Möglichkeiten in sich selbst entdecken, kommt es mir fast so vor, als wäre auch ich fähig zu allem!
+TEXT: Wenn ich sehe, wie ein Pokémon neue Möglichkeiten in sich selbst entdeckt, überkommt mich das Gefühl, dass ich auch zu allem fähig bin!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_2
-TEXT: So aufregend es auch ist, sie zu entwickeln ... in den ursprünglichen Formen von Pokémon gibt es genauso viel zu lernen.
+TEXT: So aufregend das auch alles ist ... aber bei den ursprünglichen Formen der Pokémon gibt es genauso viel zu lernen.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_3
 TEXT: Als Nächstes werden wir Eier besprechen und die Pokémon, die aus ihnen schlüpfen können.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_4
-TEXT: Du kannst 2-km-, 5-km- und 10-km-Eier erhalten, indem du PokéStops drehst. Du kannst 7-km-Eier erhalten, indem du Geschenke von Freunden öffnest.
+TEXT: Du kannst 2-km-, 5-km- und 10-km-Eier erhalten, indem du PokéStops drehst. Und 7-km-Eier bekommst du durch das Öffnen von Geschenken deiner Freunde.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_5
-TEXT: Um diese Eier auszubrüten, wirst du sie in eine Brutmaschine legen und die angegebene Entfernung mit ihnen zurücklegen müssen.
+TEXT: Um diese Eier auszubrüten, musst du sie in eine Brutmaschine legen und die angegebene Entfernung mit ihnen zurücklegen.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_6
 TEXT: Wenn du Eier schneller ausbrüten willst, gibt es Super-Brutmaschinen, welche die benötigte Entfernung zum Schlüpfen der Eier verringern. Verwende diese Brutmaschinen mit Bedacht.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_7
-TEXT: Du wirst Eier auch auf andere Wege erhalten können.
+TEXT: Du kannst Eier auch auf andere Weise erhalten.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_8
-TEXT: Du kannst zum Beispiel Eigenartige Eier erhalten, indem du Team GO Rocket-Bosse besiegst. Auf deiner Trainerreise wirst du die Möglichkeit haben, Team GO Rocket zu bekämpfen und diese Eier zu erhalten.
+TEXT: Du kannst zum Beispiel Eigenartige Eier bekommen, indem du Team GO Rocket-Bosse besiegst. Auf deiner Trainerreise wirst du viele Möglichkeiten haben, Team GO Rocket zu bekämpfen und diese Eier zu erhalten.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_9
 TEXT: Du solltest bereits eine Handvoll Eier haben. Brüte doch mal ein paar aus.
@@ -1139,7 +1163,7 @@ RESOURCE ID: quest_special_dialogue_onboard_sr_6_1
 TEXT: Ein engagierter Trainer zu sein, verlangt einiges an Hingabe, meinst du nicht auch? Und trotzdem solltest du nie vergessen, auch Spaß zu haben.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_6_2
-TEXT: Du wirst in deinem Item-Beutel eine Kamera finden. Benutze diese Kamera, um Schnappschüsse von Pokémon zu machen und alle möglichen Momente und Erinnerungen festzuhalten.
+TEXT: Schaue in deinem Item-Beutel nach einer Kamera und benutze diese, um Schnappschüsse von Pokémon zu machen und alle möglichen Momente und Erinnerungen festzuhalten.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_6_3
 TEXT: Du kannst Schnappschüsse machen, wenn du Pokémon im Freien begegnest, wenn du dir deine Pokémon in deiner Pokémon-Aufbewahrung anschaust und wenn du mit deinem Kumpel interagierst.
@@ -1148,10 +1172,10 @@ RESOURCE ID: quest_special_dialogue_onboard_sr_6_4
 TEXT: Du wirst sicherlich auch zum Schuss kommen ... zum Schnappschuss natürlich. Haha!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_0
-TEXT: %PLAYERNAME%, ich habe mir die Fotos angesehen, die du gemacht hast, und ich muss wirklich sagen, dass ich ganz schön beeindruckt bin!
+TEXT: %PLAYERNAME%, ich habe mir die Fotos angesehen, die du geschossen hast, und ich muss sagen, dass ich ganz schön beeindruckt bin!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_1
-TEXT: Hast du schon einmal in Betracht gezogen, als Pokémon-Fotograf dein Geld zu verdienen? Das Talent dazu hast du zweifellos!
+TEXT: Hast du schon einmal in Betracht gezogen, nebenher als Pokémon-Fotograf dein Geld zu verdienen? Das Talent dazu hast du zweifellos!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_10
 TEXT: Ein wichtiger Aspekt des Kämpfens besteht darin, Attacken einzusetzen, die sehr effektiv gegen die verteidigenden Pokémon in der Arena sind.
@@ -1160,19 +1184,19 @@ RESOURCE ID: quest_special_dialogue_onboard_sr_7_11
 TEXT: Verschiedene Pokémon und ihre Attacken haben verschiedene Typen und diese Typen haben Schwächen gegenüber anderen Typen. Zum Beispiel haben Pokémon vom Typ Feuer eine Schwäche gegenüber Attacken vom Typ Wasser.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_12
-TEXT: Ich hätte gerne, dass du versuchst, sehr effektive Attacken einzusetzen, wenn du an Arenakämpfen teilnimmst. Versuche, Lade-Attacken von verschiedenen Typen einzusetzen, um zu sehen, welche am effektivsten sind.
+TEXT: Versuche bitte mal, sehr effektive Attacken einzusetzen, wenn du an Arenakämpfen teilnimmst. Setze Lade-Attacken von verschiedenen Typen ein, um zu sehen, welche am effektivsten sind.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_13
 TEXT: Mal sehen, aus welchem Holz du geschnitzt bist, %PLAYERNAME%! Zieh los und kämpfe in ein paar Arenen.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_2
-TEXT: Erkennst du diese Gebäude? Ich bin mir sicher, dass du sie bei Abenteuern schon einmal gesehen hast.
+TEXT: Erkennst du diese Gebäude? Ich bin mir sicher, dass du sie bei deinen Abenteuern schon einmal gesehen hast.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_3
-TEXT: Sie werden Arenen genannt und sehr wichtig auf deiner Reise als Trainer sein.
+TEXT: Sie werden Arenen genannt und diese erweisen sich auf deiner Trainerreise als äußerst wichtig.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_4
-TEXT: Arenen sind immer eine der folgenden Farben, je nachdem welches Team sie gerade kontrolliert.
+TEXT: Arenen sind immer eine der vier folgenden Farben, je nachdem welches Team sie gerade kontrolliert.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_5
 TEXT: Rote Arenen werden von Team Wagemut kontrolliert, angeführt von Candela. Blaue Arenen werden von Team Weisheit kontrolliert, angeführt von Blanche.
@@ -1187,10 +1211,10 @@ RESOURCE ID: quest_special_dialogue_onboard_sr_7_8
 TEXT: Wenn eine Arena von einem Team kontrolliert wird, kannst du ein Pokémon auswählen, um sie zu verteidigen. Bis zu sechs Pokémon können eine Arena verteidigen.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_9
-TEXT: Wenn eine Arena von einem anderen Team kontrolliert wird, kannst du gegen sie kämpfen, um zu versuchen, sie zu übernehmen. Finde eine Arena, die von einem anderen Team kontrolliert wird und versuch es mal mit einem Kampf!
+TEXT: Wenn eine Arena von einem anderen Team kontrolliert wird, kannst du gegen das Team kämpfen und versuchen, die Arena zu übernehmen. Finde eine Arena, die von einem anderen Team kontrolliert wird, und versuch es mal mit einem Kampf!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_0
-TEXT: Wie ist es in den Arenen gelaufen, %PLAYERNAME%? Es ist ein einzigartiges Workout, oder? Haha!
+TEXT: Wie ist es in den Arenen gelaufen, %PLAYERNAME%? Es ist ein einzigartiges Work-out, oder? Haha!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_1
 TEXT: Wie auch immer ... Hast du bemerkt, dass du an einigen Arenen nur einem Pokémon begegnet bist, anstatt einer Reihe von Arena-Verteidigern?
@@ -1199,19 +1223,19 @@ RESOURCE ID: quest_special_dialogue_onboard_sr_8_2
 TEXT: Diese Pokémon nennt man Raid-Bosse und du kannst sie in Raid-Kämpfen herausfordern!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_3
-TEXT: In Raid-Kämpfen kannst du mit Freunden und anderen Trainern zusammen Raid-Bosse herausfordern.
+TEXT: In Raid-Kämpfen kannst du zusammen mit Freunden und anderen Trainern Raid-Bosse herausfordern.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_4
-TEXT: Diese Pokémon sind in der Tat beeindruckende Gegner. Manchmal wirst du bestimmte Pokémon nur als Raid-Bosse antreffen können.
+TEXT: Diese Pokémon sind in der Tat beeindruckende Gegner. Es kann vorkommen, dass du bestimmte Pokémon nur als Raid-Bosse antriffst.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_5
-TEXT: Vergiss nicht, Power-Ups bei deinen Pokémon zu verwenden, bevor du an einem Raid-Kampf teilnimmst! Du wirst viele Bonbons und Sternenstaub benötigen, um mächtige Teams für Raid-Kämpfe zusammenzustellen.
+TEXT: Vergiss nicht, Power-ups bei deinen Pokémon anzuwenden, bevor du an einem Raid-Kampf teilnimmst! Mithilfe vieler Bonbons und einer Menge Sternenstaub kannst du mächtige Teams für Raid-Kämpfe zusammenstellen.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_6
 TEXT: Verwende Power-Ups bei einigen Pokémon und nimm dann an einem Raid teil. Wenn du keinen Erfolg hast, kannst du dich mit anderen Trainern zusammentun.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_7
-TEXT: Man weiß niemals, wozu man fähig ist, bis man es versucht, nicht wahr?
+TEXT: Man weiß nie, wozu man fähig ist, bis man es versucht, nicht wahr?
 
 RESOURCE ID: quest_special_dialogue_season4_10_1
 TEXT: BUH! Haha, habe ich dich erschreckt? Hoffentlich nicht zu sehr.
@@ -1403,34 +1427,34 @@ RESOURCE ID: quest_title_hoopaunbound_2
 TEXT: Entfesselter Schabernack (3/3)
 
 RESOURCE ID: quest_title_onboard_sr
-TEXT: Willkommen in Pokémon GO!
+TEXT: Willkommen bei Pokémon GO!
 
 RESOURCE ID: quest_title_onboard_sr_0
-TEXT: Willkommen in Pokémon GO! (1/9)
+TEXT: Willkommen bei Pokémon GO! (1/9)
 
 RESOURCE ID: quest_title_onboard_sr_1
-TEXT: Willkommen in Pokémon GO! (2/9)
+TEXT: Willkommen bei Pokémon GO! (2/9)
 
 RESOURCE ID: quest_title_onboard_sr_2
-TEXT: Willkommen in Pokémon GO! (3/9)
+TEXT: Willkommen bei Pokémon GO! (3/9)
 
 RESOURCE ID: quest_title_onboard_sr_3
-TEXT: Willkommen in Pokémon GO! (4/9)
+TEXT: Willkommen bei Pokémon GO! (4/9)
 
 RESOURCE ID: quest_title_onboard_sr_4
-TEXT: Willkommen in Pokémon GO! (5/9)
+TEXT: Willkommen bei Pokémon GO! (5/9)
 
 RESOURCE ID: quest_title_onboard_sr_5
-TEXT: Willkommen in Pokémon GO! (6/9)
+TEXT: Willkommen bei Pokémon GO! (6/9)
 
 RESOURCE ID: quest_title_onboard_sr_6
-TEXT: Willkommen in Pokémon GO! (7/9)
+TEXT: Willkommen bei Pokémon GO! (7/9)
 
 RESOURCE ID: quest_title_onboard_sr_7
-TEXT: Willkommen in Pokémon GO! (8/9)
+TEXT: Willkommen bei Pokémon GO! (8/9)
 
 RESOURCE ID: quest_title_onboard_sr_8
-TEXT: Willkommen in Pokémon GO! (9/9)
+TEXT: Willkommen bei Pokémon GO! (9/9)
 
 RESOURCE ID: quest_title_season5_dec
 TEXT: Jahreszeit der Herkunft: Sternenstaub-Herausforderung
@@ -1512,6 +1536,9 @@ TEXT: Spezial-Wochenende (Tully's)
 
 RESOURCE ID: quest_win_raid_lvl1_singular
 TEXT: Gewinne einen Stufe-1-Raid.
+
+RESOURCE ID: remote_raid_boosted_damage_bonus
+TEXT: Trainer in Fern-Raids fügen erhöhten Schaden zu
 
 RESOURCE ID: settings_unlock_base_framerate
 TEXT: Native Aktualisierungsrate

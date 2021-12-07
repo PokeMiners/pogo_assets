@@ -427,6 +427,10 @@ TEXT: 龍螺旋之塔尋謎
 RESOURCE ID: ddlm_2021_collection_challenge
 TEXT: Día de Muertos 2021：收藏家挑戰
 
+RESOURCE ID: egg_hatch_subtitle
+TEXT: 有 {0} 顆蛋…
+好像快孵化了！ 
+
 RESOURCE ID: encounter_pokemon_leave_warning_shadow_title
 TEXT: 你確定你不要拯救這隻暗影寶可夢嗎？
 
@@ -529,6 +533,17 @@ TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當�
 RESOURCE ID: general1.ticket.2_shint_title
 TEXT: 「電光閃光閃亮亮」入場券
 
+RESOURCE ID: general1.ticket.4_description
+TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2022年2月26日的9:00～21:00參加遊戲裡的「Pokémon GO Tour：城都」活動。詳情請至遊戲內快訊確認。
+
+請務必在上述活動時間內完成活動指定的課題，以取得活動獎勵。
+
+RESOURCE ID: general1.ticket.4_name
+TEXT: Pokémon GO Tour：城都
+
+RESOURCE ID: general1.ticket.4_title
+TEXT: 入場券：Pokémon GO Tour城都
+
 RESOURCE ID: general_month
 TEXT: Month
 
@@ -587,7 +602,17 @@ RESOURCE ID: item_event_ticket_pink_shint_details
 TEXT: 入場券將會自動啟動。不論你身在何處，都可以在當地時間2021年11月21日的活動時間內領取特殊調查課題。
 
 RESOURCE ID: item_global_event_ticket_desc
-TEXT: 無論你身在何處，都可以用這張入場券來領取特殊調查「解放惡作劇」。
+TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2022年2月26日的9:00～21:00參加遊戲裡的「Pokémon GO Tour：城都」活動。
+
+RESOURCE ID: item_global_event_ticket_details_no_version_selected
+TEXT: 這張入場券將會自動啟用。你可以使用這張入場券來參加當地時間2022年2月26日的活動。
+
+參加活動前，請選擇遊戲版本。你可以考慮和朋友分別選擇不同的版本，讓「收藏家挑戰」更容易完成。
+
+RESOURCE ID: item_global_event_ticket_details_version_selected
+TEXT: 這張入場券將會自動啟用。你可以使用這張入場券來參加當地時間2022年2月26日的活動。
+
+你可以在個人檔案畫面的獎牌一覽中確認自己選擇的版本。
 
 RESOURCE ID: lure_duration_generic
 TEXT: 誘餌模組效果延長
@@ -605,8 +630,8 @@ RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: 弗拉達利　姿勢
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-06T18:50:10.471046
-at SHA 16a2058e007eef67ce15fce91f1a1b33b8461784
+TEXT: Built at 2021-12-07T07:06:47.162373
+at SHA 2510dfde816777a08e4014de509e01ca89e61aa2
 Patch from: 0.223.0-SHA-4d8d4e88, 0.225.0-SHA-517b6d3b
 
 RESOURCE ID: minicollect_help_subtitle
