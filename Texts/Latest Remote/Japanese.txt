@@ -173,7 +173,7 @@ RESOURCE ID: dd_event_name
 TEXT: リュウラセンの塔の謎
 
 RESOURCE ID: disable_sponsored_gift_description
-TEXT: ポケストップもしくはジムのフォトディスクを回すと、そのエリアに関連する広告付きスポンサーギフトが提供されることがあります。スポンサーギフト表示をオフにすると、スポンサーギフトが提供されている場所でも、広告付きギフトは表示されません。<b>オン・オフはアプリを再起動すると確定できます。スポンサーギフトに関する詳細は、Tap <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">ここ</a>をタップして確認できます。</b>
+TEXT: ポケストップもしくはジムを訪れると、そのエリアに関連する広告付きスポンサーギフトが提供されることがあります。スポンサーギフト表示をオフにすると、スポンサーギフトが提供されている場所でも、広告付きギフトは表示されません。オン・オフはアプリを再起動すると確定できます。スポンサーギフトに関する詳細は、<a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">ここ</a>をタップしてご確認ください。
 
 RESOURCE ID: eggs_widget_description
 TEXT: いつでも冒険モードでアプリを閉じていてもタマゴのふか状況をトラッキング
@@ -182,7 +182,7 @@ RESOURCE ID: eggs_widget_title
 TEXT: いつでも冒険モードウィジェット：タマゴ
 
 RESOURCE ID: enable_sponsored_gift_description
-TEXT: ポケストップもしくはジムのフォトディスクを回すと、そのエリアに関連する広告付きス</b>ポンサーギフトが提供されることがあります。スポンサーギフト表示をオンにすると、スポンサーギフトが提供されている場所では、広告付きギフトが表示されます。<b>スポンサーギフトに関する詳細は、Tap <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">ここ</a>をタップして確認できます。</b>
+TEXT: ポケストップもしくはジムを訪れると、そのエリアに関連する広告付きスポンサーギフトが提供されることがあります。スポンサーギフト表示をオンにすると、スポンサーギフトが提供されている場所では、広告付きギフトが表示されます。オン・オフはアプリを再起動すると確定できます。スポンサーギフトに関する詳細は、<a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">ここ</a>をタップしてご確認ください。
 
 RESOURCE ID: encounter_pokemon_leave_warning_shadow_title
 TEXT: シャドウポケモンを救うのをやめてもいいですか？
@@ -198,6 +198,36 @@ TEXT: 逃げると、あとから捕まえようとすることはできませ�
 
 RESOURCE ID: encounter_pokemon_undo_warning_text
 TEXT: 決定後やり直すことはできません。
+
+RESOURCE ID: error_exceeded_note_length
+TEXT: メモが長すぎます
+
+RESOURCE ID: error_gift_does_not_exist
+TEXT: ギフトエラー
+
+RESOURCE ID: error_invalid_request
+TEXT: 無効リクエスト
+
+RESOURCE ID: error_memento_type_not_enabled
+TEXT: ポストカードブックエラー
+
+RESOURCE ID: error_not_enabled
+TEXT: ポストカードブックエラー
+
+RESOURCE ID: error_postcard_already_created
+TEXT: すでにピン留めされています
+
+RESOURCE ID: error_postcard_does_not_exist
+TEXT: ポストカードはありません
+
+RESOURCE ID: error_postcard_favorited
+TEXT: お気に入りのポストカードは削除できません
+
+RESOURCE ID: error_postcard_inventory_full
+TEXT: ポストカードブックがいっぱいです
+
+RESOURCE ID: error_sender_does_not_exist
+TEXT: 送り主エラー
 
 RESOURCE ID: event_bonus_season5_dec
 TEXT: ヘリテージシーズン：12月ボーナス
@@ -305,12 +335,18 @@ TEXT: このチケットは自動的に発動し、現地時間2022年2月26日�
 
  選んだバージョンは、プロフィール画面のメダルセクションで確認できます。
 
+RESOURCE ID: item_postcard_inventory_desc
+TEXT: ポストカードを貼って自分やフレンドの足跡を残しておける手帳。
+
+RESOURCE ID: item_postcard_inventory_name
+TEXT: ポストカードブック
+
 RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: フラダリ　ポーズ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-10T06:36:11.412118
-at SHA 8b51c44882190d96d5415fd55a28e16c5c026ff4
+TEXT: Built at 2021-12-13T20:38:28.198934
+at SHA ebde8a8ae4f493dc5ef16a4fde69aa4f599fac8d
 Patch from: 0.225.0-SHA-517b6d3b, 0.225.1-SHA-d9facbeb, 0.225.2-SHA-04f1aa2b
 
 RESOURCE ID: minicollect_help_subtitle
@@ -351,6 +387,9 @@ TEXT: トータルダメージ：{0}
 
 RESOURCE ID: mvt_stat_damage_dealt_player_details_4
 TEXT: Dealt a whopping {0} damage
+
+RESOURCE ID: mvt_stat_damage_dealt_player_title
+TEXT: 強烈アタッカー
 
 RESOURCE ID: mvt_stat_final_strike_player_details_1
 TEXT: ファイナルアタックを決めた！
@@ -442,11 +481,17 @@ TEXT: メガシンカしたポケモンと戦った！
 RESOURCE ID: mvt_stat_use_mega_evo_player_details_3
 TEXT: Brought a Mega-Evolved Pokémon to the raid
 
+RESOURCE ID: mvt_stat_use_mega_evo_player_title
+TEXT: メガシンカ使い
+
 RESOURCE ID: news_performance
 TEXT: ゲーム内ニュースからアクセスできる特別ライブ映像
 
 RESOURCE ID: no_eggs
 TEXT: タマゴなし
+
+RESOURCE ID: not_modified
+TEXT: ポストカードを変更できませんでした
 
 RESOURCE ID: poi_contrib_ghostinfo_label
 TEXT:  他の Niantic games 内の Wayspot
@@ -471,6 +516,122 @@ TEXT: https://niantic.helpshift.com/a/wayfarer/?p=web&s=wayspot-eligibility&f=el
 
 RESOURCE ID: poi_sub_suggestion_web_link
 TEXT: https://niantic.helpshift.com/a/wayfarer/?p=web&s=wayspot-eligibility
+
+RESOURCE ID: postcard__background
+TEXT: 背景
+
+RESOURCE ID: postcard__background_preview
+TEXT: PREVIEW
+
+RESOURCE ID: postcard_added
+TEXT: ポストカードブックにピン留めしました
+
+RESOURCE ID: postcard_anonymous_sender
+TEXT: 送り主不明
+
+RESOURCE ID: postcard_book_header
+TEXT: POSTCARDS
+
+RESOURCE ID: postcard_book_sort_recent
+TEXT: 最近
+
+RESOURCE ID: postcard_book_sort_sender
+TEXT: 送り主
+
+RESOURCE ID: postcard_cant_delete_favorite
+TEXT: お気に入りのポストカードは削除できません
+
+RESOURCE ID: postcard_check_gifts
+TEXT: ギフトを管理
+
+RESOURCE ID: postcard_creator_unknown
+TEXT: トレーナー名不明
+
+RESOURCE ID: postcard_creator_you
+TEXT: 自分のポストカード
+
+RESOURCE ID: postcard_delete
+TEXT: 削除
+
+RESOURCE ID: postcard_delete_confirmation_1
+TEXT: このポストカードを取り除きますか？
+
+RESOURCE ID: postcard_delete_confirmation_2
+TEXT: 決定後やり直すことはできません
+
+RESOURCE ID: postcard_favorite
+TEXT: お気に入り
+
+RESOURCE ID: postcard_from
+TEXT: FROM：{0}さん
+
+RESOURCE ID: postcard_full_warning_body
+TEXT: ポストカードブックに空きを作ってください。
+
+RESOURCE ID: postcard_full_warning_header
+TEXT: ポストカードブックがいっぱいです！
+
+RESOURCE ID: postcard_keep
+TEXT: ピン留め
+
+RESOURCE ID: postcard_manage_collection_button
+TEXT: 管理
+
+RESOURCE ID: postcard_name
+TEXT: ポストカード
+ブック
+
+RESOURCE ID: postcard_nocard
+TEXT: ピン留めしたポストカードはありません
+
+RESOURCE ID: postcard_nocard_dialog
+TEXT: フレンドからのギフト、もしくは自分のギフトのポストカードをピン留めできます
+
+RESOURCE ID: postcard_note
+TEXT: メモ
+
+RESOURCE ID: postcard_opened_on
+TEXT: {0}に開封
+
+RESOURCE ID: postcard_removed
+TEXT: ポストカードブックから除かれました
+
+RESOURCE ID: postcard_save
+TEXT: 登録する
+
+RESOURCE ID: postcard_self_sender
+TEXT: 自分のポストカード
+
+RESOURCE ID: postcard_sharing_optin_prompt_dismiss
+TEXT: 共有しない
+
+RESOURCE ID: postcard_sharing_optin_prompt_message
+TEXT: フレンドとニックネームを共有すると、フレンドがニックネームをポストカードブックに保存できるようになります。設定からいつでも変更できます。ニックネームを共有しますか？
+
+RESOURCE ID: postcard_sharing_optin_prompt_ok
+TEXT: 共有
+
+RESOURCE ID: postcard_sharing_optin_prompt_title
+TEXT: ポストカードブックでのニックネーム共有
+
+RESOURCE ID: postcard_to_tutorial
+TEXT: 詳細を見る
+
+RESOURCE ID: postcard_trainer_name_setting_message
+TEXT: あなたのニックネームは、フレンドのポストカードに共有されません。設定からいつでも変更できます。
+
+RESOURCE ID: postcard_trainer_name_setting_title
+TEXT: ニックネーム共有設定
+
+RESOURCE ID: postcard_tutorial_1
+TEXT: フレンドからのギフトに付いているポストカードをピン留めしてポストカードブックに貼ることができます。自分で持っているギフトのポストカードもピン留めできます。
+ポストカードブックは、トレーナープロフィール画面もしくは道具バッグから開くことができます。
+
+RESOURCE ID: postcard_unfriend_tutorial
+TEXT: これらのポストカードの送り主は不明です。ニックネームを共有しない設定にしているか、フレンド解除したトレーナーからのものである可能性があります。ポストカードブックに入れておくことはできます。
+
+RESOURCE ID: postcard_unknown_name
+TEXT: トレーナー名不明
 
 RESOURCE ID: projectguitar_event_name
 TEXT: Ed Sheeranコラボイベント
@@ -1208,6 +1369,12 @@ TEXT: 1つ星レイドに勝つ
 
 RESOURCE ID: quest_xp_plural
 TEXT: XPを{0}獲得する
+
+RESOURCE ID: select_gift_to_delete_or_save_prompt
+TEXT: 付いているポストカードをピン留め（または削除）するギフトを選んでください
+
+RESOURCE ID: settings_postcard_optin_name
+TEXT: ポストカードブックにニックネームを共有
 
 RESOURCE ID: settings_unlock_base_framerate
 TEXT: ネイティブリフレッシュレート

@@ -176,10 +176,10 @@ RESOURCE ID: catch_candy_xl_chance_quadruple
 TEXT: 捕捉寶可夢時獲得糖果XL將提升4倍
 
 RESOURCE ID: community_day_dec2021_event_name
-TEXT: December Community Day 2021
+TEXT: 2021年12月社群日
 
 RESOURCE ID: community_day_dec2021_weekend_event_name
-TEXT: December Community Day 2021 Weekend
+TEXT: 2021年12月社群日週末
 
 RESOURCE ID: community_day_shinx_event_name
 TEXT: 社群日：小貓怪
@@ -198,10 +198,10 @@ TEXT: 有 {0} 顆蛋…
 好像快孵化了！ 
 
 RESOURCE ID: eggs_widget_description
-TEXT: Track egg hatching progress while playing Pokémon GO in the background with Adventure Sync!
+TEXT: 在背景模式中執行Pokémon GO時，可透過「時時刻刻冒險」模式來確認蛋的孵化進度
 
 RESOURCE ID: eggs_widget_title
-TEXT: Adventure Sync Widget - Eggs
+TEXT: 時時刻刻冒險：蛋
 
 RESOURCE ID: enable_sponsored_gift_description
 TEXT: 拜訪道館和寶可補給站時，有機會收到附近贊助商提供的禮物和相關廣告訊息。開啟贊助商禮物功能後，就可以在有提供贊助商禮物的地方找到附廣告訊息的禮物。 <b>請點擊<a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">此處</a>確認贊助商禮物的詳細資訊。</b>
@@ -220,6 +220,36 @@ TEXT: 如果你選擇逃走，之後將無法捕捉這隻寶可夢。
 
 RESOURCE ID: encounter_pokemon_undo_warning_text
 TEXT: 決定後將無法重來
+
+RESOURCE ID: error_exceeded_note_length
+TEXT: 備忘事項太長
+
+RESOURCE ID: error_gift_does_not_exist
+TEXT: 友情禮物錯誤
+
+RESOURCE ID: error_invalid_request
+TEXT: 無效的要求
+
+RESOURCE ID: error_memento_type_not_enabled
+TEXT: 明信片收納冊錯誤
+
+RESOURCE ID: error_not_enabled
+TEXT: 明信片收納冊錯誤
+
+RESOURCE ID: error_postcard_already_created
+TEXT: 已釘選該明信片
+
+RESOURCE ID: error_postcard_does_not_exist
+TEXT: 沒有明信片
+
+RESOURCE ID: error_postcard_favorited
+TEXT: 無法刪除設為「我的最愛」的明信片
+
+RESOURCE ID: error_postcard_inventory_full
+TEXT: 明信片收納冊已滿
+
+RESOURCE ID: error_sender_does_not_exist
+TEXT: 送件人方錯誤
 
 RESOURCE ID: event_bonus_season5_dec
 TEXT: 名勝古蹟的季節：12月額外獎勵
@@ -252,12 +282,12 @@ RESOURCE ID: full_inventory_text
 TEXT: 盒子已滿
 
 RESOURCE ID: general1.ticket.2_dec2021_description
-TEXT: A ticket to access the December  Community Day 2021 Special Research on December 18 and 19, 2021, from 11:00 a.m. to 5:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
+TEXT: 一張可以獲得十二月社群日特殊調查的入場券。不論你身處世界何處，你都可以使用這張入場券在當地時間2021年12月18、19日11:00～17:00時領取十二月社群日特殊調查。詳情請至遊戲內快訊確認。
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+ 請務必在上述活動時間內參與，以取得活動獎勵。
 
 RESOURCE ID: general1.ticket.2_dec2021_title
-TEXT: December Community Day 2021 Ticket
+TEXT: 2021年12月社群日入場券
 
 RESOURCE ID: general1.ticket.2_hoopau_description
 TEXT: 不論你身處世界的何處，你都可以使用這張入場券領取特殊調查「解放惡作劇」。只要在台灣時間2021年12月1日9:59前完成特殊調查「不被理解的光怪陸離」，就能免費領取此特殊調查。免費領取到此特殊調查的訓練家也可以到商店購買此入場券，取得相同的課題並獲得相同獎勵。詳情請至遊戲內快訊或官方部落格確認。
@@ -299,10 +329,10 @@ RESOURCE ID: incense_day_pokemon_swinub
 TEXT: 薰香可吸引小山豬
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access Special Research on December 18 and 19, 2021, from 11:00 a.m. to 5:00 p.m. local time each day, wherever you are.
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2021年12月18、19日11:00～17:00獲得特殊調查的課題。
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: This ticket will automatically activate to give you access to Special Research on December 18 and 19, 2021, from 11:00 a.m. to 5:00 p.m. local time each day, wherever you are.
+TEXT: 入場券將會自動啟用，不論你在何處，都能在當地時間2021年12月18、19日11:00～17:00領取特殊調查的課題。
 
 RESOURCE ID: item_event_ticket_pink_hoopau_desc
 TEXT: 無論你身在何處，都可以用這張入場券來領取特殊調查「解放惡作劇」。
@@ -329,12 +359,18 @@ TEXT: 這張入場券將會自動啟用。你可以使用這張入場券來參�
 
 你可以在個人檔案畫面的獎牌一覽中確認自己選擇的版本。
 
+RESOURCE ID: item_postcard_inventory_desc
+TEXT: 釘選明信片，為自己和朋友的回憶留下紀錄。
+
+RESOURCE ID: item_postcard_inventory_name
+TEXT: 明信片收納冊
+
 RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: 弗拉達利　姿勢
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-10T06:36:11.412118
-at SHA 8b51c44882190d96d5415fd55a28e16c5c026ff4
+TEXT: Built at 2021-12-13T20:38:28.198934
+at SHA ebde8a8ae4f493dc5ef16a4fde69aa4f599fac8d
 Patch from: 0.225.0-SHA-517b6d3b, 0.225.1-SHA-d9facbeb, 0.225.2-SHA-04f1aa2b
 
 RESOURCE ID: minicollect_help_subtitle
@@ -464,7 +500,10 @@ RESOURCE ID: news_performance
 TEXT: 可透過遊戲內快訊開啟特別的演唱會影片
 
 RESOURCE ID: no_eggs
-TEXT: No eggs
+TEXT: 沒有蛋
+
+RESOURCE ID: not_modified
+TEXT: 無法變更該明信片
 
 RESOURCE ID: photobomb_five_shinx
 TEXT: 小貓怪將在GO Snapshot中驚喜現身5次
@@ -489,6 +528,122 @@ TEXT: https://niantic.helpshift.com/a/wayfarer/?p=web&s=wayspot-eligibility&f=el
 
 RESOURCE ID: poi_sub_suggestion_web_link
 TEXT: https://niantic.helpshift.com/a/wayfarer/?p=web&s=wayspot-eligibility
+
+RESOURCE ID: postcard__background
+TEXT: 背景
+
+RESOURCE ID: postcard__background_preview
+TEXT: 預覽
+
+RESOURCE ID: postcard_added
+TEXT: 已釘選至明信片收納冊！
+
+RESOURCE ID: postcard_anonymous_sender
+TEXT: 來自不明的訓練家
+
+RESOURCE ID: postcard_book_header
+TEXT: POSTCARDS
+
+RESOURCE ID: postcard_book_sort_recent
+TEXT: 最近
+
+RESOURCE ID: postcard_book_sort_sender
+TEXT: 送件人
+
+RESOURCE ID: postcard_cant_delete_favorite
+TEXT: 無法刪除設為「我的最愛」的明信片
+
+RESOURCE ID: postcard_check_gifts
+TEXT: 確認友情禮物
+
+RESOURCE ID: postcard_creator_unknown
+TEXT: 不明的訓練家
+
+RESOURCE ID: postcard_creator_you
+TEXT: 自己的明信片
+
+RESOURCE ID: postcard_delete
+TEXT: 刪除
+
+RESOURCE ID: postcard_delete_confirmation_1
+TEXT: 確定要移除這張明信片嗎？
+
+RESOURCE ID: postcard_delete_confirmation_2
+TEXT: 移除後將無法復元。
+
+RESOURCE ID: postcard_favorite
+TEXT: 我的最愛
+
+RESOURCE ID: postcard_from
+TEXT: 來自{0}
+
+RESOURCE ID: postcard_full_warning_body
+TEXT: 如果你想要留下這張明信片，請空出明信片收納冊的空間。
+
+RESOURCE ID: postcard_full_warning_header
+TEXT: 明信片收納冊已滿
+
+RESOURCE ID: postcard_keep
+TEXT: 釘選明信片
+
+RESOURCE ID: postcard_manage_collection_button
+TEXT: 編輯
+
+RESOURCE ID: postcard_name
+TEXT: 明信片
+收納冊
+
+RESOURCE ID: postcard_nocard
+TEXT: 尚未釘選任何明信片
+
+RESOURCE ID: postcard_nocard_dialog
+TEXT: 你可以將朋友傳來的友情禮物中的明信片或是自己包包裡友情禮物中的明信片釘選至收納冊。
+
+RESOURCE ID: postcard_note
+TEXT: 備註
+
+RESOURCE ID: postcard_opened_on
+TEXT: 在 {0} 開封
+
+RESOURCE ID: postcard_removed
+TEXT: 已從明信片收納冊中移除
+
+RESOURCE ID: postcard_save
+TEXT: 登錄
+
+RESOURCE ID: postcard_self_sender
+TEXT: 自己的明信片
+
+RESOURCE ID: postcard_sharing_optin_prompt_dismiss
+TEXT: 不要分享
+
+RESOURCE ID: postcard_sharing_optin_prompt_message
+TEXT: 如果你選擇向朋友公開暱稱，朋友將可在明信片收納冊中紀錄你的暱稱。你隨時都可以在設定畫面中更改此設定。確定要公開暱稱嗎？
+
+RESOURCE ID: postcard_sharing_optin_prompt_ok
+TEXT: 分享
+
+RESOURCE ID: postcard_sharing_optin_prompt_title
+TEXT: 明信片收納冊中的暱稱公開
+
+RESOURCE ID: postcard_to_tutorial
+TEXT: 查看詳情
+
+RESOURCE ID: postcard_trainer_name_setting_message
+TEXT: 你的暱稱將不會在朋友的明信片收納冊中公開。你隨時都可以在「設定」中更改此設定。
+
+RESOURCE ID: postcard_trainer_name_setting_title
+TEXT: 暱稱公開設定
+
+RESOURCE ID: postcard_tutorial_1
+TEXT: 你可以將朋友的傳來的友情禮物中的明信片釘選至明信片收納冊，也可以將自己收集到的友情禮物中的明信片釘選至明信片收納冊。
+你可以從個人檔案畫面或包包畫面中打開明信片收納冊。
+
+RESOURCE ID: postcard_unfriend_tutorial
+TEXT: 這些是不明送件人傳來的明信片。這些明信片可能是選擇不公開暱稱的朋友傳來的，或是現在已不再是朋友的送件人傳來的。你仍然可以將這些明信片釘選至明信片收納冊。
+
+RESOURCE ID: postcard_unknown_name
+TEXT: 不明的訓練家
 
 RESOURCE ID: projectguitar_event_name
 TEXT: Ed Sheeran 合作活動
@@ -1164,52 +1319,52 @@ RESOURCE ID: quest_title_season5_dec_page_9
 TEXT: 名勝古蹟的季節：星星沙子大挑戰 (10/15)
 
 RESOURCE ID: quest_title_season5_jan
-TEXT: Season of Heritage: XP Challenge
+TEXT: 名勝古蹟的季節：XP大挑戰
 
 RESOURCE ID: quest_title_season5_jan_page_0
-TEXT: Season of Heritage: XP Challenge (1/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (1/15)
 
 RESOURCE ID: quest_title_season5_jan_page_1
-TEXT: Season of Heritage: XP Challenge (2/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (2/15)
 
 RESOURCE ID: quest_title_season5_jan_page_10
-TEXT: Season of Heritage: XP Challenge (11/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (11/15)
 
 RESOURCE ID: quest_title_season5_jan_page_11
-TEXT: Season of Heritage: XP Challenge (12/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (12/15)
 
 RESOURCE ID: quest_title_season5_jan_page_12
-TEXT: Season of Heritage: XP Challenge (13/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (13/15)
 
 RESOURCE ID: quest_title_season5_jan_page_13
-TEXT: Season of Heritage: XP Challenge (14/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (14/15)
 
 RESOURCE ID: quest_title_season5_jan_page_14
-TEXT: Season of Heritage: XP Challenge (15/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (15/15)
 
 RESOURCE ID: quest_title_season5_jan_page_2
-TEXT: Season of Heritage: XP Challenge (3/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (3/15)
 
 RESOURCE ID: quest_title_season5_jan_page_3
-TEXT: Season of Heritage: XP Challenge (4/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (4/15)
 
 RESOURCE ID: quest_title_season5_jan_page_4
-TEXT: Season of Heritage: XP Challenge (5/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (5/15)
 
 RESOURCE ID: quest_title_season5_jan_page_5
-TEXT: Season of Heritage: XP Challenge (6/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (6/15)
 
 RESOURCE ID: quest_title_season5_jan_page_6
-TEXT: Season of Heritage: XP Challenge (7/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (7/15)
 
 RESOURCE ID: quest_title_season5_jan_page_7
-TEXT: Season of Heritage: XP Challenge (8/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (8/15)
 
 RESOURCE ID: quest_title_season5_jan_page_8
-TEXT: Season of Heritage: XP Challenge (9/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (9/15)
 
 RESOURCE ID: quest_title_season5_jan_page_9
-TEXT: Season of Heritage: XP Challenge (10/15)
+TEXT: 名勝古蹟的季節：XP大挑戰 (10/15)
 
 RESOURCE ID: quest_title_shint
 TEXT: 電光閃光閃亮亮
@@ -1262,7 +1417,13 @@ RESOURCE ID: quest_win_raid_lvl1_singular
 TEXT: 在1星團體戰中獲勝
 
 RESOURCE ID: quest_xp_plural
-TEXT: Earn {0} XP
+TEXT: 獲得 {0} XP
+
+RESOURCE ID: select_gift_to_delete_or_save_prompt
+TEXT: 選擇友情禮物，即可釘選其明信片或是移除該明信片
+
+RESOURCE ID: settings_postcard_optin_name
+TEXT: 在朋友的明信片收納冊中公開自己的暱稱
 
 RESOURCE ID: settings_unlock_base_framerate
 TEXT: 最高更新頻率
@@ -1289,7 +1450,7 @@ RESOURCE ID: tabrs_title_regional
 TEXT: 地區挑戰
 
 RESOURCE ID: ticket_dec2021
-TEXT: Ticket for a Special Research story available in the shop
+TEXT: 特殊調查入場券將在商店中上架
 
 RESOURCE ID: ticket_hoopau
 TEXT: 特殊調查入場券將在商店中上架
@@ -1349,7 +1510,7 @@ RESOURCE ID: trade_guaranteed_candyxl
 TEXT: 交換寶可夢時一定可獲得糖果XL
 
 RESOURCE ID: trade_stardust_three_fourth
-TEXT: 3/4 Stardust cost for trades
+TEXT: 交換寶可夢所需的星星沙子減為3/4
 
 RESOURCE ID: transfer_candy_xl_chance_quadruple
 TEXT: 傳送寶可夢時可獲得的糖果XL將提升4倍
@@ -1379,5 +1540,5 @@ RESOURCE ID: weather_boost_active_3
 TEXT: {0} 的 {1}、 {2} 和 {3} 獲得天氣優勢！
 
 RESOURCE ID: widget_place_holder
-TEXT: Please give Adventure Sync some time to get the data
+TEXT: 時時刻刻冒險正在讀取資料
 

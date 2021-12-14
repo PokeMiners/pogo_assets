@@ -271,10 +271,10 @@ RESOURCE ID: disable_sponsored_gift_description
 TEXT: Когда ты посещаешь Покестопы или Гимы, ты можешь получать относящиеся к твоему местоположению спонсорские подарки вместе со спонсорским сообщением. Нажми <b>ОК<b>, чтобы выключить эту опцию и больше не получать спонсорские подарки. <b>Перезагрузи приложение, чтобы твой выбор сохранился. Нажми <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&l=ru&s=in-game-locations&f=sponsored-gifts">сюда</a>, чтобы больше узнать о спонсорских подарках.</b>
 
 RESOURCE ID: eggs_widget_description
-TEXT: Track egg hatching progress while playing Pokémon GO in the background with Adventure Sync!
+TEXT: Use Adventure Sync to track Egg-hatching progress when Pokémon GO is in the background.
 
 RESOURCE ID: eggs_widget_title
-TEXT: Adventure Sync Widget - Eggs
+TEXT: Adventure Sync: Eggs
 
 RESOURCE ID: enable_sponsored_gift_description
 TEXT: Когда ты посещаешь Покестопы или Гимы, ты можешь получать относящиеся к твоему местоположению спонсорские подарки вместе со спонсорским сообщением. Нажми <b>ОК<b>, чтобы включить эту опцию и получать спонсорские подарки. <b>Перезагрузи приложение, чтобы твой выбор сохранился. Нажми <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&l=ru&s=in-game-locations&f=sponsored-gifts">сюда</a>, чтобы больше узнать о спонсорских подарках.</b>
@@ -293,6 +293,36 @@ TEXT: Если ты покинешь встречу, то больше не см
 
 RESOURCE ID: encounter_pokemon_undo_warning_text
 TEXT: Ты не сможешь отменить это действие после того, как покинешь встречу.
+
+RESOURCE ID: error_exceeded_note_length
+TEXT: Надпись слишком длинная
+
+RESOURCE ID: error_gift_does_not_exist
+TEXT: Ошибка подарка
+
+RESOURCE ID: error_invalid_request
+TEXT: Недопустимый запрос
+
+RESOURCE ID: error_memento_type_not_enabled
+TEXT: Ошибка альбома для открыток
+
+RESOURCE ID: error_not_enabled
+TEXT: Ошибка альбома для открыток 
+
+RESOURCE ID: error_postcard_already_created
+TEXT: Открытка уже добавлена
+
+RESOURCE ID: error_postcard_does_not_exist
+TEXT: Открытка не найдена
+
+RESOURCE ID: error_postcard_favorited
+TEXT: Невозможно удалить избранную открытку
+
+RESOURCE ID: error_postcard_inventory_full
+TEXT: Альбом для открыток заполнен
+
+RESOURCE ID: error_sender_does_not_exist
+TEXT: Ошибка отправителя
 
 RESOURCE ID: event_bonus_season5_dec
 TEXT: Сезон наследия: Декабрьский бонус
@@ -326,7 +356,7 @@ RESOURCE ID: full_inventory_text
 TEXT: ЗАПОЛНЕНО
 
 RESOURCE ID: general1.ticket.2_dec2021_description
-TEXT: A ticket to access the December  Community Day 2021 Special Research on December 18 and 19, 2021, from 11:00 a.m. to 5:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
+TEXT: A ticket to access the December Community Day 2021 Special Research on December 18 and 19, 2021, from 11:00 a.m. to 5:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
 
 YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
@@ -431,6 +461,12 @@ TEXT: Этот билет активируется автоматически, �
 
  Ты можешь посмотреть выбранную тобой версию события в разделе медалей твоего профиля.
 
+RESOURCE ID: item_postcard_inventory_desc
+TEXT: Альбом, в который можно добавлять открытки на память о местах своих приключений и приключений друзей.
+
+RESOURCE ID: item_postcard_inventory_name
+TEXT: Альбом для открыток
+
 RESOURCE ID: last_played_date_setting_description
 TEXT: Разрешить моим друзьям видеть информацию о том, когда я последний раз играл(а) в игру Niantic.
 
@@ -451,8 +487,8 @@ RESOURCE ID: maxrevive.6_title
 TEXT: Оживление Макс ×6
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-10T06:36:11.412118
-at SHA 8b51c44882190d96d5415fd55a28e16c5c026ff4
+TEXT: Built at 2021-12-13T20:38:28.198934
+at SHA ebde8a8ae4f493dc5ef16a4fde69aa4f599fac8d
 Patch from: 0.225.0-SHA-517b6d3b, 0.225.1-SHA-d9facbeb, 0.225.2-SHA-04f1aa2b
 
 RESOURCE ID: minicollect_help_subtitle
@@ -582,7 +618,10 @@ RESOURCE ID: news_performance
 TEXT: Эксклюзивное музыкальное выступление во внутриигровых новостях
 
 RESOURCE ID: no_eggs
-TEXT: No eggs
+TEXT: No Eggs
+
+RESOURCE ID: not_modified
+TEXT: Не удалось изменить открытку
 
 RESOURCE ID: photobomb_five_shinx
 TEXT: 5 неожиданных встреч с Шинксом в Стоп-кадре GO
@@ -721,6 +760,122 @@ TEXT: Нужно больше {0}-конфет.
 
 RESOURCE ID: pokemon_info_powerup_need_xl_candies
 TEXT: Нужно больше {0}-конфет XL.
+
+RESOURCE ID: postcard__background
+TEXT: ФОН
+
+RESOURCE ID: postcard__background_preview
+TEXT: ПРЕДПРОСМОТР
+
+RESOURCE ID: postcard_added
+TEXT: Открытка добавлена в твой альбом!
+
+RESOURCE ID: postcard_anonymous_sender
+TEXT: From an unknown Trainer
+
+RESOURCE ID: postcard_book_header
+TEXT: POSTCARDS
+
+RESOURCE ID: postcard_book_sort_recent
+TEXT: ПОСЛЕДНИЕ
+
+RESOURCE ID: postcard_book_sort_sender
+TEXT: ОТПРАВИТЕЛЬ
+
+RESOURCE ID: postcard_cant_delete_favorite
+TEXT: Ты не можешь удалить избранную открытку.
+
+RESOURCE ID: postcard_check_gifts
+TEXT: ПРОСМОТРЕТЬ ПОДАРКИ
+
+RESOURCE ID: postcard_creator_unknown
+TEXT: НЕИЗВЕСТНЫЕ ТРЕНЕРЫ
+
+RESOURCE ID: postcard_creator_you
+TEXT: ТВОИ ОТКРЫТКИ
+
+RESOURCE ID: postcard_delete
+TEXT: УДАЛИТЬ
+
+RESOURCE ID: postcard_delete_confirmation_1
+TEXT: Удалить эту открытку?
+
+RESOURCE ID: postcard_delete_confirmation_2
+TEXT: Ты не сможешь отменить это действие после того, как удалишь открытку.
+
+RESOURCE ID: postcard_favorite
+TEXT: ИЗБРАННОЕ
+
+RESOURCE ID: postcard_from
+TEXT: От: {0}
+
+RESOURCE ID: postcard_full_warning_body
+TEXT: Если ты хочешь сохранить эту открытку, освободи место в альбоме для открыток. 
+
+RESOURCE ID: postcard_full_warning_header
+TEXT: Твой альбом для открыток заполнен
+
+RESOURCE ID: postcard_keep
+TEXT: Как добавить открытки
+
+RESOURCE ID: postcard_manage_collection_button
+TEXT: УПРАВЛЕНИЕ
+
+RESOURCE ID: postcard_name
+TEXT: Альбом
+для открыток
+
+RESOURCE ID: postcard_nocard
+TEXT: В твоём альбоме пока нет открыток.
+
+RESOURCE ID: postcard_nocard_dialog
+TEXT: Ты можешь добавлять открытки из подарков друзей или из своих подарков перед тем, как их отправить.
+
+RESOURCE ID: postcard_note
+TEXT: НАДПИСЬ
+
+RESOURCE ID: postcard_opened_on
+TEXT: Открыта {0}
+
+RESOURCE ID: postcard_removed
+TEXT: Открытка удалена из твоего альбома.
+
+RESOURCE ID: postcard_save
+TEXT: Сохранить
+
+RESOURCE ID: postcard_self_sender
+TEXT: Твоя открытка
+
+RESOURCE ID: postcard_sharing_optin_prompt_dismiss
+TEXT: НЕ ДЕЛИТЬСЯ
+
+RESOURCE ID: postcard_sharing_optin_prompt_message
+TEXT: Если ты делишься ником с друзьями, они могут сохранять его в своём альбоме для открыток. Ты можешь поменять это в любое время в меню настроек. Ты хочешь делиться своим ником?
+
+RESOURCE ID: postcard_sharing_optin_prompt_ok
+TEXT: ДЕЛИТЬСЯ
+
+RESOURCE ID: postcard_sharing_optin_prompt_title
+TEXT: Настройки приватности ника в альбомах для открыток
+
+RESOURCE ID: postcard_to_tutorial
+TEXT: ПОДРОБНЕЕ
+
+RESOURCE ID: postcard_trainer_name_setting_message
+TEXT: Ты не будешь делиться ником в альбомах для открыток твоих друзей. Ты можешь поменять эти настройки в любое время в меню настроек.
+
+RESOURCE ID: postcard_trainer_name_setting_title
+TEXT: Настройки приватности ника
+
+RESOURCE ID: postcard_tutorial_1
+TEXT: Когда ты добавляешь открытку из подарка друга, она появляется в твоём альбоме! Ты также можешь добавлять открытки из подарков, полученных во время твоих приключений.
+Чтобы просмотреть твои открытки, открой альбом для открыток в профиле Тренера или в рюкзаке для предметов.
+
+RESOURCE ID: postcard_unfriend_tutorial
+TEXT: Эти открытки были получены от неизвестных Тренеров. Возможно, эти Тренеры выбрали не раскрывать свой ник или вы больше не являетесь друзьями. Ты можешь в любом случае сохранить полученные от них открытки в своём альбоме.
+
+RESOURCE ID: postcard_unknown_name
+TEXT: Неизвестные Тренеры
 
 RESOURCE ID: projectguitar_event_name
 TEXT: Совместное мероприятие: Ed Sheeran
@@ -1560,6 +1715,12 @@ TEXT: Earn {0} XP
 RESOURCE ID: raid_xp_25_fivestar
 TEXT: 1,25× XP за пятизвёздочные рейды
 
+RESOURCE ID: select_gift_to_delete_or_save_prompt
+TEXT: Выбери подарок, чтобы добавить открытку из него в твой альбом или чтобы удалить открытку.
+
+RESOURCE ID: settings_postcard_optin_name
+TEXT: Делиться ником в альбомах друзей
+
 RESOURCE ID: settings_unlock_base_framerate
 TEXT: Частота обновления экрана
 
@@ -1669,5 +1830,5 @@ RESOURCE ID: weather_boost_active_3
 TEXT: Благодаря погоде {0} применяет усиленные атаки {1}, {2} и {3}!
 
 RESOURCE ID: widget_place_holder
-TEXT: Please give Adventure Sync some time to get the data
+TEXT: Retrieving data with Adventure Sync
 

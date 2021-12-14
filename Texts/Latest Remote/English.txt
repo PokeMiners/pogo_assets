@@ -173,16 +173,16 @@ RESOURCE ID: dd_event_name
 TEXT: Dragonspiral Descent
 
 RESOURCE ID: disable_sponsored_gift_description
-TEXT: When you visit PokéStops or Gyms, you may receive Sponsored Gifts along with a sponsored message relevant to your location. Tap <b>OK<b> to opt out of this feature, and you will no longer receive Sponsored Gifts. <b>Please restart the app to save your choice. Tap <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">here</a> to learn more about Sponsored Gifts.</b>
+TEXT: When you visit PokéStops or Gyms, you may receive Sponsored Gifts along with a sponsored message relevant to your location. Tap <b>OK<b> to opt out of this feature, and you will no longer receive Sponsored Gifts. Please restart the app to save your choice. Tap <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">here</a> to learn more about Sponsored Gifts.
 
 RESOURCE ID: eggs_widget_description
-TEXT: Track egg hatching progress while playing Pokémon GO in the background with Adventure Sync!
+TEXT: Use Adventure Sync to track Egg-hatching progress when Pokémon GO is in the background.
 
 RESOURCE ID: eggs_widget_title
-TEXT: Adventure Sync Widget - Eggs
+TEXT: Adventure Sync: Eggs
 
 RESOURCE ID: enable_sponsored_gift_description
-TEXT: When you visit PokéStops or Gyms, you may receive Sponsored Gifts along with a sponsored message relevant to your location. Tap <b>OK<b> to opt in to this feature, and you will receive Sponsored Gifts. <b>Please restart the app to save your choice. Tap <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">here</a> to learn more about Sponsored Gifts.</b>
+TEXT: When you visit PokéStops or Gyms, you may receive Sponsored Gifts along with a sponsored message relevant to your location. Tap <b>OK<b> to opt in to this feature, and you will receive Sponsored Gifts. Please restart the app to save your choice. Tap <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">here</a> to learn more about Sponsored Gifts.
 
 RESOURCE ID: encounter_pokemon_leave_warning_shadow_title
 TEXT: Are you sure you don’t want to rescue the Shadow Pokémon?
@@ -198,6 +198,36 @@ TEXT: If you leave this encounter, you won’t be able to catch this Pokémon la
 
 RESOURCE ID: encounter_pokemon_undo_warning_text
 TEXT: You can’t undo this action once you leave the encounter.
+
+RESOURCE ID: error_exceeded_note_length
+TEXT: Note too long
+
+RESOURCE ID: error_gift_does_not_exist
+TEXT: Gift error
+
+RESOURCE ID: error_invalid_request
+TEXT: Invalid request
+
+RESOURCE ID: error_memento_type_not_enabled
+TEXT: Postcard Book error
+
+RESOURCE ID: error_not_enabled
+TEXT: Postcard Book error
+
+RESOURCE ID: error_postcard_already_created
+TEXT: Postcard already pinned
+
+RESOURCE ID: error_postcard_does_not_exist
+TEXT: Postcard not found
+
+RESOURCE ID: error_postcard_favorited
+TEXT: Cannot delete favorite postcard
+
+RESOURCE ID: error_postcard_inventory_full
+TEXT: Postcard Book full
+
+RESOURCE ID: error_sender_does_not_exist
+TEXT: Sender error
 
 RESOURCE ID: event_bonus_season5_dec
 TEXT: Season of Heritage: December Bonus
@@ -227,7 +257,7 @@ RESOURCE ID: full_inventory_text
 TEXT: FULL
 
 RESOURCE ID: general1.ticket.2_dec2021_description
-TEXT: A ticket to access the December  Community Day 2021 Special Research on December 18 and 19, 2021, from 11:00 a.m. to 5:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
+TEXT: A ticket to access the December Community Day 2021 Special Research on December 18 and 19, 2021, from 11:00 a.m. to 5:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
 
 YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
@@ -300,12 +330,18 @@ TEXT: This ticket will automatically activate to give you access to a special ev
 
 You can see the event version you chose in your Trainer profile’s Medals section.
 
+RESOURCE ID: item_postcard_inventory_desc
+TEXT: A book to collect Postcards and remember locations from yours and your friends’ journeys.
+
+RESOURCE ID: item_postcard_inventory_name
+TEXT: Postcard Book
+
 RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: Lysandre Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-10T06:36:11.412118
-at SHA 8b51c44882190d96d5415fd55a28e16c5c026ff4
+TEXT: Built at 2021-12-13T20:38:28.198934
+at SHA ebde8a8ae4f493dc5ef16a4fde69aa4f599fac8d
 Patch from: 0.225.0-SHA-517b6d3b, 0.225.1-SHA-d9facbeb, 0.225.2-SHA-04f1aa2b
 
 RESOURCE ID: minicollect_help_subtitle
@@ -435,7 +471,10 @@ RESOURCE ID: news_performance
 TEXT: In-game News featuring an exclusive musical performance
 
 RESOURCE ID: no_eggs
-TEXT: No eggs
+TEXT: No Eggs
+
+RESOURCE ID: not_modified
+TEXT: Could not apply changes to Postcard
 
 RESOURCE ID: photobomb_five_shinx
 TEXT: 5 surprise encounters with Shinx in GO Snapshot
@@ -460,6 +499,122 @@ TEXT: https://niantic.helpshift.com/a/wayfarer/?p=web&s=wayspot-eligibility&f=el
 
 RESOURCE ID: poi_sub_suggestion_web_link
 TEXT: https://niantic.helpshift.com/a/wayfarer/?p=web&s=wayspot-eligibility
+
+RESOURCE ID: postcard__background
+TEXT: BACKGROUND
+
+RESOURCE ID: postcard__background_preview
+TEXT: PREVIEW
+
+RESOURCE ID: postcard_added
+TEXT: Pinned to your Postcard Book!
+
+RESOURCE ID: postcard_anonymous_sender
+TEXT: From an unknown Trainer
+
+RESOURCE ID: postcard_book_header
+TEXT: POSTCARDS
+
+RESOURCE ID: postcard_book_sort_recent
+TEXT: RECENT
+
+RESOURCE ID: postcard_book_sort_sender
+TEXT: SENDER
+
+RESOURCE ID: postcard_cant_delete_favorite
+TEXT: You can't delete a favorite Postcard.
+
+RESOURCE ID: postcard_check_gifts
+TEXT: CHECK GIFTS
+
+RESOURCE ID: postcard_creator_unknown
+TEXT: UNKNOWN TRAINERS
+
+RESOURCE ID: postcard_creator_you
+TEXT: YOUR POSTCARDS
+
+RESOURCE ID: postcard_delete
+TEXT: DELETE
+
+RESOURCE ID: postcard_delete_confirmation_1
+TEXT: Do you want to remove this Postcard?
+
+RESOURCE ID: postcard_delete_confirmation_2
+TEXT: You can’t undo this action once you remove this Postcard.
+
+RESOURCE ID: postcard_favorite
+TEXT: FAVORITE
+
+RESOURCE ID: postcard_from
+TEXT: From {0}
+
+RESOURCE ID: postcard_full_warning_body
+TEXT: If you want to save this Postcard, make space in your Postcard Book.
+
+RESOURCE ID: postcard_full_warning_header
+TEXT: Your Postcard Book is full
+
+RESOURCE ID: postcard_keep
+TEXT: Pin Postcards
+
+RESOURCE ID: postcard_manage_collection_button
+TEXT: MANAGE
+
+RESOURCE ID: postcard_name
+TEXT: Postcard
+Book
+
+RESOURCE ID: postcard_nocard
+TEXT: You haven’t pinned any Postcards yet.
+
+RESOURCE ID: postcard_nocard_dialog
+TEXT: You can pin Postcards from your friends’ Gifts or Postcards from your Gifts before you send them.
+
+RESOURCE ID: postcard_note
+TEXT: NOTE
+
+RESOURCE ID: postcard_opened_on
+TEXT: Opened on {0}
+
+RESOURCE ID: postcard_removed
+TEXT: Removed from your Postcard Book.
+
+RESOURCE ID: postcard_save
+TEXT: Save
+
+RESOURCE ID: postcard_self_sender
+TEXT: Your Postcard
+
+RESOURCE ID: postcard_sharing_optin_prompt_dismiss
+TEXT: DON’T SHARE
+
+RESOURCE ID: postcard_sharing_optin_prompt_message
+TEXT: If you share your nickname with friends, they can save it in their Postcard Book. You can change this at any time in the Settings menu. Would you like to share your nickname?
+
+RESOURCE ID: postcard_sharing_optin_prompt_ok
+TEXT: SHARE
+
+RESOURCE ID: postcard_sharing_optin_prompt_title
+TEXT: Postcard Book Nickname Sharing
+
+RESOURCE ID: postcard_to_tutorial
+TEXT: SEE MORE DETAILS
+
+RESOURCE ID: postcard_trainer_name_setting_message
+TEXT: Your nickname will not be shared in your friends’ Postcard Books. You can change this setting at any time in the Settings menu.
+
+RESOURCE ID: postcard_trainer_name_setting_title
+TEXT: Nickname Sharing Settings
+
+RESOURCE ID: postcard_tutorial_1
+TEXT: When you pin a Postcard from a friend’s Gift, it goes into your Postcard Book! You can also pin Postcards from Gifts you’ve collected on your journey.
+To view your Postcards, open your Postcard Book from your Trainer profile or Item Bag.
+
+RESOURCE ID: postcard_unfriend_tutorial
+TEXT: You received these Postcards from unknown Trainers. These Trainers may have chosen not to share their nicknames, or you might no longer be friends. You can still keep the Postcards they sent in your Postcard Book.
+
+RESOURCE ID: postcard_unknown_name
+TEXT: Unknown Trainers
 
 RESOURCE ID: projectguitar_event_name
 TEXT: Ed Sheeran Collaboration Event
@@ -1192,6 +1347,12 @@ TEXT: Win a one-star raid
 RESOURCE ID: quest_xp_plural
 TEXT: Earn {0} XP
 
+RESOURCE ID: select_gift_to_delete_or_save_prompt
+TEXT: Select a Gift to pin its Postcard to your Postcard Book or to remove its Postcard.
+
+RESOURCE ID: settings_postcard_optin_name
+TEXT: Share your nickname in Friends’ Postcard Books
+
 RESOURCE ID: settings_unlock_base_framerate
 TEXT: Native Refresh Rate
 
@@ -1280,5 +1441,5 @@ RESOURCE ID: weather_boost_active_3
 TEXT: {0}’s {1}, {2}, and {3} are boosted by the weather!
 
 RESOURCE ID: widget_place_holder
-TEXT: Please give Adventure Sync some time to get the data
+TEXT: Retrieving data with Adventure Sync
 

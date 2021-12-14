@@ -241,16 +241,16 @@ RESOURCE ID: dd_event_name
 TEXT: Descente de Dragospire
 
 RESOURCE ID: disable_sponsored_gift_description
-TEXT: Lorsque tu visites des PokéStops ou des Arènes, tu peux recevoir des Cadeaux sponsorisés accompagnés d’un message sponsorisé en rapport avec le lieu où tu te trouves. Touche <b>OK<b> pour désactiver cette option et ne plus recevoir de Cadeaux sponsorisés. <b>Redémarre l’appli pour enregistrer ton choix. Touche <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&l=fr&s=in-game-locations&f=sponsored-gifts">ici</a> pour en apprendre plus sur les Cadeaux sponsorisés.</b>
+TEXT: Lorsque tu visites des PokéStops ou des Arènes, tu peux recevoir des Cadeaux sponsorisés accompagnés d’un message sponsorisé en rapport avec le lieu où tu te trouves. Touche OK pour désactiver cette option et ne plus recevoir de Cadeaux sponsorisés. Redémarre l’appli pour enregistrer ton choix. Touche <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&l=fr&s=in-game-locations&f=sponsored-gifts">ici</a> pour en apprendre plus sur les Cadeaux sponsorisés.
 
 RESOURCE ID: eggs_widget_description
-TEXT: Track egg hatching progress while playing Pokémon GO in the background with Adventure Sync!
+TEXT: Use Adventure Sync to track Egg-hatching progress when Pokémon GO is in the background.
 
 RESOURCE ID: eggs_widget_title
-TEXT: Adventure Sync Widget - Eggs
+TEXT: Adventure Sync: Eggs
 
 RESOURCE ID: enable_sponsored_gift_description
-TEXT: Lorsque tu visites des PokéStops ou des Arènes, tu peux recevoir des Cadeaux sponsorisés accompagnés d’un message sponsorisé en rapport avec le lieu où tu te trouves. Touche <b>OK<b> pour activer cette option et recevoir des Cadeaux sponsorisés. <b>Redémarre l’appli pour enregistrer ton choix. Touche <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&l=fr&s=in-game-locations&f=sponsored-gifts">ici</a> pour en apprendre plus sur les Cadeaux sponsorisés.</b>
+TEXT: Lorsque tu visites des PokéStops ou des Arènes, tu peux recevoir des Cadeaux sponsorisés accompagnés d’un message sponsorisé en rapport avec le lieu où tu te trouves. Touche OK pour activer cette option et recevoir des Cadeaux sponsorisés. Redémarre l’appli pour enregistrer ton choix. Touche <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&l=fr&s=in-game-locations&f=sponsored-gifts">ici</a> pour en apprendre plus sur les Cadeaux sponsorisés.
 
 RESOURCE ID: encounter_pokemon_leave_warning_shadow_title
 TEXT: Veux-tu vraiment ne pas sauver le Pokémon Obscur ?
@@ -269,6 +269,36 @@ TEXT: Le fait de quitter la rencontre est définitif.
 
 RESOURCE ID: end_of_season_reminder
 TEXT: Dresseur ! Plus qu’une semaine cette saison pour améliorer ton classement dans la Ligue Combat GO.
+
+RESOURCE ID: error_exceeded_note_length
+TEXT: Note trop longue
+
+RESOURCE ID: error_gift_does_not_exist
+TEXT: Cadeau inconnu
+
+RESOURCE ID: error_invalid_request
+TEXT: Requête non valide
+
+RESOURCE ID: error_memento_type_not_enabled
+TEXT: Erreur d’Album de Cartes postales
+
+RESOURCE ID: error_not_enabled
+TEXT: Erreur d’Album de Cartes postales
+
+RESOURCE ID: error_postcard_already_created
+TEXT: Carte postale déjà épinglée
+
+RESOURCE ID: error_postcard_does_not_exist
+TEXT: Carte Postale introuvable
+
+RESOURCE ID: error_postcard_favorited
+TEXT: Impossible de supprimer une Carte postale favorite
+
+RESOURCE ID: error_postcard_inventory_full
+TEXT: Album de Cartes postales plein
+
+RESOURCE ID: error_sender_does_not_exist
+TEXT: Expéditeur inconnu
 
 RESOURCE ID: event_bonus_season5_dec
 TEXT: Saison de l’héritage : bonus de décembre
@@ -299,7 +329,7 @@ RESOURCE ID: full_inventory_text
 TEXT: PLEIN
 
 RESOURCE ID: general1.ticket.2_dec2021_description
-TEXT: A ticket to access the December  Community Day 2021 Special Research on December 18 and 19, 2021, from 11:00 a.m. to 5:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
+TEXT: A ticket to access the December Community Day 2021 Special Research on December 18 and 19, 2021, from 11:00 a.m. to 5:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
 
 YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
@@ -382,13 +412,19 @@ TEXT: Ce ticket sera automatiquement activé et te donnera accès à un évènem
 
 La version que tu as choisie sera indiquée dans la section Médailles de ton profil de Dresseur.
 
+RESOURCE ID: item_postcard_inventory_desc
+TEXT: Un album pour ranger les Cartes postales des lieux visités lors de tes aventures et celles de tes amis.
+
+RESOURCE ID: item_postcard_inventory_name
+TEXT: Album de Cartes postales
+
 RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: Pose
 Lysandre
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-10T06:36:11.412118
-at SHA 8b51c44882190d96d5415fd55a28e16c5c026ff4
+TEXT: Built at 2021-12-13T20:38:28.198934
+at SHA ebde8a8ae4f493dc5ef16a4fde69aa4f599fac8d
 Patch from: 0.225.0-SHA-517b6d3b, 0.225.1-SHA-d9facbeb, 0.225.2-SHA-04f1aa2b
 
 RESOURCE ID: minicollect_help_subtitle
@@ -518,7 +554,10 @@ RESOURCE ID: news_performance
 TEXT: Une performance musicale exclusive dans les Actualités en jeu
 
 RESOURCE ID: no_eggs
-TEXT: No eggs
+TEXT: No Eggs
+
+RESOURCE ID: not_modified
+TEXT: Impossible d’appliquer les modifications à la Carte postale
 
 RESOURCE ID: photobomb_five_shinx
 TEXT: Lixy s’introduit 5 fois dans tes Clichés GO
@@ -543,6 +582,122 @@ TEXT: https://niantic.helpshift.com/a/wayfarer/?p=web&s=wayspot-eligibility&f=el
 
 RESOURCE ID: poi_sub_suggestion_web_link
 TEXT: https://niantic.helpshift.com/a/wayfarer/?p=web&s=wayspot-eligibility
+
+RESOURCE ID: postcard__background
+TEXT: FOND
+
+RESOURCE ID: postcard__background_preview
+TEXT: APERÇU
+
+RESOURCE ID: postcard_added
+TEXT: Épinglée à ton Album de Cartes postales.
+
+RESOURCE ID: postcard_anonymous_sender
+TEXT: De la part d’un Dresseur inconnu
+
+RESOURCE ID: postcard_book_header
+TEXT: POSTCARDS
+
+RESOURCE ID: postcard_book_sort_recent
+TEXT: RÉCENTES
+
+RESOURCE ID: postcard_book_sort_sender
+TEXT: EXPÉDITEUR
+
+RESOURCE ID: postcard_cant_delete_favorite
+TEXT: Tu ne peux pas supprimer une Carte postale favorite.
+
+RESOURCE ID: postcard_check_gifts
+TEXT: VOIR LES CADEAUX
+
+RESOURCE ID: postcard_creator_unknown
+TEXT: DRESSEURS INCONNUS
+
+RESOURCE ID: postcard_creator_you
+TEXT: TES CARTES POSTALES
+
+RESOURCE ID: postcard_delete
+TEXT: SUPPRIMER
+
+RESOURCE ID: postcard_delete_confirmation_1
+TEXT: Veux-tu supprimer cette Carte postale ?
+
+RESOURCE ID: postcard_delete_confirmation_2
+TEXT: Le fait de supprimer une Carte postale est définitif.
+
+RESOURCE ID: postcard_favorite
+TEXT: FAVORIS
+
+RESOURCE ID: postcard_from
+TEXT: De {0}
+
+RESOURCE ID: postcard_full_warning_body
+TEXT: Pour conserver cette Carte postale, fais de la place dans ton Album.
+
+RESOURCE ID: postcard_full_warning_header
+TEXT: Ton Album de Cartes postales est plein
+
+RESOURCE ID: postcard_keep
+TEXT: Épingler des Cartes postales
+
+RESOURCE ID: postcard_manage_collection_button
+TEXT: GÉRER
+
+RESOURCE ID: postcard_name
+TEXT: Album de
+Cartes postales
+
+RESOURCE ID: postcard_nocard
+TEXT: Tu n’as pas encore épinglé de Cartes postales.
+
+RESOURCE ID: postcard_nocard_dialog
+TEXT: Tu peux épingler les Cartes postales des Cadeaux de tes amis ou les Cartes postales de tes Cadeaux avant de les envoyer.
+
+RESOURCE ID: postcard_note
+TEXT: NOTE
+
+RESOURCE ID: postcard_opened_on
+TEXT: Ouverte le {0}
+
+RESOURCE ID: postcard_removed
+TEXT: Retirée de ton Album de Cartes postales.
+
+RESOURCE ID: postcard_save
+TEXT: Enregistrer
+
+RESOURCE ID: postcard_self_sender
+TEXT: Ta Carte postale
+
+RESOURCE ID: postcard_sharing_optin_prompt_dismiss
+TEXT: NE PAS PARTAGER
+
+RESOURCE ID: postcard_sharing_optin_prompt_message
+TEXT: Si tu partages ton surnom avec des amis, ils peuvent l’enregistrer dans leur Album de Cartes postales. Tu peux changer ceci à tout moment dans les Options. Veux-tu partager ton surnom ?
+
+RESOURCE ID: postcard_sharing_optin_prompt_ok
+TEXT: PARTAGER
+
+RESOURCE ID: postcard_sharing_optin_prompt_title
+TEXT: Album de Cartes postales – Partage du surnom
+
+RESOURCE ID: postcard_to_tutorial
+TEXT: PLUS DE DÉTAILS
+
+RESOURCE ID: postcard_trainer_name_setting_message
+TEXT: Ton surnom ne sera pas partagé dans les Carnets de Cartes postales de tes amis. Tu peux changer ceci à tout moment dans les Options.
+
+RESOURCE ID: postcard_trainer_name_setting_title
+TEXT: Paramètres de partage du surnom
+
+RESOURCE ID: postcard_tutorial_1
+TEXT: Lorsque tu épingles une Carte postale du Cadeau d’un ami, elle est placée dans ton Album de Cartes postales. Tu peux aussi épingler les Cartes postales des Cadeaux que tu as reçus.
+Pour voir tes Cartes postales, ouvre ton Album depuis ton profil de Dresseur ou ton Sac d’objets.
+
+RESOURCE ID: postcard_unfriend_tutorial
+TEXT: Tu as reçu ces Cartes postales de la part de Dresseurs inconnus. Ils ont peut-être choisi de ne pas partager leur surnom, ou vous n’êtes plus amis. Tu peux cependant conserver les Cartes postales qu’ils t’ont envoyées dans ton Album de Cartes postales.
+
+RESOURCE ID: postcard_unknown_name
+TEXT: Dresseurs inconnus
 
 RESOURCE ID: projectguitar_event_name
 TEXT: Évènement en collaboration avec Ed Sheeran
@@ -1308,6 +1463,12 @@ TEXT: Earn {0} XP
 RESOURCE ID: recycle_dialog_prefix
 TEXT: Supprimer
 
+RESOURCE ID: select_gift_to_delete_or_save_prompt
+TEXT: Select a Gift to pin its Postcard to your Postcard Book or to remove its Postcard.
+
+RESOURCE ID: settings_postcard_optin_name
+TEXT: Partager ton surnom dans les Albums de Cartes postales de tes amis
+
 RESOURCE ID: settings_unlock_base_framerate
 TEXT: Fréquence de rafraîchissement native
 
@@ -1405,5 +1566,5 @@ RESOURCE ID: weather_boost_active_3
 TEXT: La météo renforce {1}, {2} et {3} de ton {0} !
 
 RESOURCE ID: widget_place_holder
-TEXT: Please give Adventure Sync some time to get the data
+TEXT: Retrieving data with Adventure Sync
 

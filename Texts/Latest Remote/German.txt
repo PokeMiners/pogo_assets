@@ -217,16 +217,16 @@ RESOURCE ID: dd_event_name
 TEXT: Drachenstiegenabstieg
 
 RESOURCE ID: disable_sponsored_gift_description
-TEXT: Wenn du PokéStops oder Arenen besuchst, erhältst du möglicherweise gesponserte Geschenke sowie eine für deinen Standort relevante gesponserte Nachricht. Tippe auf <b>OK<b>, um diese Option zu deaktivieren und keine gesponserten Geschenke mehr zu erhalten. <b>Starte die App neu, um deine Wahl zu speichern. Tippe <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">hier</a>, um mehr über gesponserte Geschenke zu erfahren.</b>
+TEXT: Wenn du PokéStops oder Arenen besuchst, erhältst du möglicherweise gesponserte Geschenke sowie eine für deinen Standort relevante gesponserte Nachricht. Tippe auf <b>OK<b>, um diese Option zu deaktivieren und keine gesponserten Geschenke mehr zu erhalten. Starte die App neu, um deine Wahl zu speichern. Tippe <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">hier</a>, um mehr über gesponserte Geschenke zu erfahren.
 
 RESOURCE ID: eggs_widget_description
-TEXT: Track egg hatching progress while playing Pokémon GO in the background with Adventure Sync!
+TEXT: Use Adventure Sync to track Egg-hatching progress when Pokémon GO is in the background.
 
 RESOURCE ID: eggs_widget_title
-TEXT: Adventure Sync Widget - Eggs
+TEXT: Adventure Sync: Eggs
 
 RESOURCE ID: enable_sponsored_gift_description
-TEXT: Wenn du PokéStops oder Arenen besuchst, erhältst du möglicherweise gesponserte Geschenke sowie eine für deinen Standort relevante gesponserte Nachricht. Tippe auf <b>OK<b>, um diese Option zu aktivieren und gesponserte Geschenke zu erhalten, sofern verfügbar. <b>Tippe <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">hier</a>, um mehr über gesponserte Geschenke zu erfahren.</b>
+TEXT: Wenn du PokéStops oder Arenen besuchst, erhältst du möglicherweise gesponserte Geschenke sowie eine für deinen Standort relevante gesponserte Nachricht. Tippe auf <b>OK<b>, um diese Option zu aktivieren und gesponserte Geschenke zu erhalten, sofern verfügbar. Starte die App neu, um deine Wahl zu speichern. Tippe <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">hier</a>, um mehr über gesponserte Geschenke zu erfahren.
 
 RESOURCE ID: encounter_pokemon_leave_warning_shadow_title
 TEXT: Möchtest du das Crypto-Pokémon wirklich nicht retten?
@@ -245,6 +245,36 @@ TEXT: Dies kann nicht rückgängig gemacht werden, nachdem du die Begegnung verl
 
 RESOURCE ID: end_of_season_notify
 TEXT: Gute Leistung in dieser Saison! Hol dir deine Belohnungen von der GO-Kampfliga ab.
+
+RESOURCE ID: error_exceeded_note_length
+TEXT: Notiz zu lang
+
+RESOURCE ID: error_gift_does_not_exist
+TEXT: Geschenk-Fehler
+
+RESOURCE ID: error_invalid_request
+TEXT: Ungültige Anfrage
+
+RESOURCE ID: error_memento_type_not_enabled
+TEXT: Postkartenbuch-Fehler
+
+RESOURCE ID: error_not_enabled
+TEXT: Postkartenbuch-Fehler
+
+RESOURCE ID: error_postcard_already_created
+TEXT: Postkarte bereits angepinnt
+
+RESOURCE ID: error_postcard_does_not_exist
+TEXT: Postkarte nicht gefunden
+
+RESOURCE ID: error_postcard_favorited
+TEXT: Favorisierte Postkarte nicht löschbar
+
+RESOURCE ID: error_postcard_inventory_full
+TEXT: Postkartenbuch voll
+
+RESOURCE ID: error_sender_does_not_exist
+TEXT: Absender-Fehler
 
 RESOURCE ID: event_bonus_season5_dec
 TEXT: Jahreszeit der Herkunft: Dezember-Bonus
@@ -275,7 +305,7 @@ RESOURCE ID: full_inventory_text
 TEXT: VOLL
 
 RESOURCE ID: general1.ticket.2_dec2021_description
-TEXT: A ticket to access the December  Community Day 2021 Special Research on December 18 and 19, 2021, from 11:00 a.m. to 5:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
+TEXT: A ticket to access the December Community Day 2021 Special Research on December 18 and 19, 2021, from 11:00 a.m. to 5:00 p.m. local time each day, wherever you are. Details can be found in the in-game News.
 
 YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
@@ -356,6 +386,12 @@ TEXT: Dieses Ticket wird automatisch aktiviert und du erhältst damit am 26. Feb
 
 Du kannst die von dir gewählte Event-Version bei den Medaillen in deinem Trainer-Profil einsehen.
 
+RESOURCE ID: item_postcard_inventory_desc
+TEXT: Ein Sammelbuch für Postkarten und Orte, die du und deine Freunde besucht haben.
+
+RESOURCE ID: item_postcard_inventory_name
+TEXT: Postkartenbuch
+
 RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: Flordelis-
 Pose
@@ -364,8 +400,8 @@ RESOURCE ID: mega_duration_triple
 TEXT: 3× Mega-Entwicklungs-Wirkungszeit 
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-10T06:36:11.412118
-at SHA 8b51c44882190d96d5415fd55a28e16c5c026ff4
+TEXT: Built at 2021-12-13T20:38:28.198934
+at SHA ebde8a8ae4f493dc5ef16a4fde69aa4f599fac8d
 Patch from: 0.225.0-SHA-517b6d3b, 0.225.1-SHA-d9facbeb, 0.225.2-SHA-04f1aa2b
 
 RESOURCE ID: minicollect_help_subtitle
@@ -495,7 +531,10 @@ RESOURCE ID: news_performance
 TEXT: Exklusive musikalische Performance unter „Neuigkeiten“
 
 RESOURCE ID: no_eggs
-TEXT: No eggs
+TEXT: No Eggs
+
+RESOURCE ID: not_modified
+TEXT: Änderungen an der Postkarte können nicht angewendet werden
 
 RESOURCE ID: photobomb_five_shinx
 TEXT: 5 überraschende Begegnungen mit Sheinux in GO-Schnappschuss
@@ -526,6 +565,122 @@ TEXT: https://niantic.helpshift.com/a/wayfarer/?p=web&s=wayspot-eligibility&f=el
 
 RESOURCE ID: poi_sub_suggestion_web_link
 TEXT: https://niantic.helpshift.com/a/wayfarer/?p=web&s=wayspot-eligibility
+
+RESOURCE ID: postcard__background
+TEXT: HINTERGRUND
+
+RESOURCE ID: postcard__background_preview
+TEXT: VORSCHAU
+
+RESOURCE ID: postcard_added
+TEXT: An Postkartenbuch gepinnt!
+
+RESOURCE ID: postcard_anonymous_sender
+TEXT: Von einem unbekannten Trainer
+
+RESOURCE ID: postcard_book_header
+TEXT: POSTCARDS
+
+RESOURCE ID: postcard_book_sort_recent
+TEXT: FUNDDATUM
+
+RESOURCE ID: postcard_book_sort_sender
+TEXT: ABSENDER
+
+RESOURCE ID: postcard_cant_delete_favorite
+TEXT: Favorisierte Postkarten sind nicht löschbar.
+
+RESOURCE ID: postcard_check_gifts
+TEXT: GESCHENKE
+
+RESOURCE ID: postcard_creator_unknown
+TEXT: UNBEKANNTE TRAINER
+
+RESOURCE ID: postcard_creator_you
+TEXT: DEINE POSTKARTEN
+
+RESOURCE ID: postcard_delete
+TEXT: LÖSCHEN
+
+RESOURCE ID: postcard_delete_confirmation_1
+TEXT: Möchtest du diese Postkarte entfernen?
+
+RESOURCE ID: postcard_delete_confirmation_2
+TEXT: Du kannst nach der Löschung der Postkarte diese Aktion nicht mehr rückgängig machen.
+
+RESOURCE ID: postcard_favorite
+TEXT: FAVORIT
+
+RESOURCE ID: postcard_from
+TEXT: Von {0}
+
+RESOURCE ID: postcard_full_warning_body
+TEXT:  Bitte mache Platz in deinem Postkartenbuch, wenn du diese Postkarte speichern möchtest.
+
+RESOURCE ID: postcard_full_warning_header
+TEXT: Dein Postkartenbuch ist voll
+
+RESOURCE ID: postcard_keep
+TEXT: Postkarten anpinnen
+
+RESOURCE ID: postcard_manage_collection_button
+TEXT: VERWALTEN
+
+RESOURCE ID: postcard_name
+TEXT: Postkarten-
+Buch
+
+RESOURCE ID: postcard_nocard
+TEXT: Du hast noch keine Postkarten angepinnt.
+
+RESOURCE ID: postcard_nocard_dialog
+TEXT: Du kannst Postkarten aus Geschenken von Freunden oder aus deinen eigenen Geschenken vor dem Verschicken anpinnen.
+
+RESOURCE ID: postcard_note
+TEXT: NOTIZ
+
+RESOURCE ID: postcard_opened_on
+TEXT: Geöffnet am {0}
+
+RESOURCE ID: postcard_removed
+TEXT: Aus Postkartenbuch entfernt.
+
+RESOURCE ID: postcard_save
+TEXT: Speichern
+
+RESOURCE ID: postcard_self_sender
+TEXT: Deine Postkarte
+
+RESOURCE ID: postcard_sharing_optin_prompt_dismiss
+TEXT: NICHT TEILEN
+
+RESOURCE ID: postcard_sharing_optin_prompt_message
+TEXT: Wenn du deinen Spitznamen mit Freunden teilst, können diese ihn in ihrem Postkartenbuch speichern. Du kannst dies jederzeit in den Einstellungen ändern. Möchtest du deinen Spitznamen mit anderen teilen?
+
+RESOURCE ID: postcard_sharing_optin_prompt_ok
+TEXT: TEILEN
+
+RESOURCE ID: postcard_sharing_optin_prompt_title
+TEXT: Spitznamen im Postkartenbuch teilen
+
+RESOURCE ID: postcard_to_tutorial
+TEXT: MEHR DETAILS
+
+RESOURCE ID: postcard_trainer_name_setting_message
+TEXT: Dein Spitzname wird nicht in den Postkartenbüchern deiner Freunde angezeigt. Du kannst diese Option jederzeit in den Einstellungen ändern.
+
+RESOURCE ID: postcard_trainer_name_setting_title
+TEXT: Einstellungen zum Teilen von Spitznamen
+
+RESOURCE ID: postcard_tutorial_1
+TEXT: Pinnst du eine Postkarte von einem erhaltenen Geschenk an, kommt sie in dein Postkartenbuch! Du kannst auch Postkarten von deinen eigenen gesammelten Geschenken anpinnen.
+Du findest dein Postkartenbuch in deinem Trainerprofil oder im Item-Beutel.
+
+RESOURCE ID: postcard_unfriend_tutorial
+TEXT: Du hast diese Postkarten von unbekannten Trainern erhalten. Diese Trainer wollen vielleicht ihren Spitznamen nicht weitergeben oder ihr seid nicht mehr befreundet. Du kannst die Postkarten trotzdem in deinem Postkartenbuch behalten.
+
+RESOURCE ID: postcard_unknown_name
+TEXT: Unbekannte Trainer
 
 RESOURCE ID: projectguitar_event_name
 TEXT: Kollaborations-Event mit Ed Sheeran
@@ -1291,6 +1446,12 @@ TEXT: Earn {0} XP
 RESOURCE ID: remote_raid_boosted_damage_bonus
 TEXT: Trainer in Fern-Raids fügen erhöhten Schaden zu
 
+RESOURCE ID: select_gift_to_delete_or_save_prompt
+TEXT: Wähle ein Geschenk aus, um dessen Postkarte an dein Postkartenbuch anzupinnen oder sie zu entfernen.
+
+RESOURCE ID: settings_postcard_optin_name
+TEXT: Spitznamen in Postkartenbüchern teilen
+
 RESOURCE ID: settings_unlock_base_framerate
 TEXT: Native Aktualisierungsrate
 
@@ -1391,5 +1552,5 @@ RESOURCE ID: weather_boost_active_3
 TEXT: {0}s {1}, {2} und {3} werden durch das Wetter verstärkt!
 
 RESOURCE ID: widget_place_holder
-TEXT: Please give Adventure Sync some time to get the data
+TEXT: Retrieving data with Adventure Sync
 
