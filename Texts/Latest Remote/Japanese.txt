@@ -215,7 +215,7 @@ RESOURCE ID: error_not_enabled
 TEXT: ポストカードブックエラー
 
 RESOURCE ID: error_postcard_already_created
-TEXT: すでにピン留めされています
+TEXT: すでにピンされています
 
 RESOURCE ID: error_postcard_does_not_exist
 TEXT: ポストカードはありません
@@ -227,10 +227,13 @@ RESOURCE ID: error_postcard_inventory_full
 TEXT: ポストカードブックがいっぱいです
 
 RESOURCE ID: error_sender_does_not_exist
-TEXT: 送り主エラー
+TEXT: 送り手側のエラー
 
 RESOURCE ID: event_bonus_season5_dec
 TEXT: ヘリテージシーズン：12月ボーナス
+
+RESOURCE ID: event_mega_cp_bonus
+TEXT: 特定のメガシンカしたポケモンのCP増
 
 RESOURCE ID: event_move_mamoswine_ancient_power
 TEXT: イノムーをマンムーに進化させるとげんしのちからを覚えている
@@ -345,8 +348,8 @@ RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: フラダリ　ポーズ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-13T20:38:28.198934
-at SHA ebde8a8ae4f493dc5ef16a4fde69aa4f599fac8d
+TEXT: Built at 2021-12-15T19:51:40.800382
+at SHA 84e4c8c59cd4d0c55d6bd2d907dde9532201bc08
 Patch from: 0.225.0-SHA-517b6d3b, 0.225.1-SHA-d9facbeb, 0.225.2-SHA-04f1aa2b
 
 RESOURCE ID: minicollect_help_subtitle
@@ -368,10 +371,10 @@ RESOURCE ID: mvt_stat_customize_avatar_player_details_1
 TEXT: 着こなしがバツグン！
 
 RESOURCE ID: mvt_stat_customize_avatar_player_details_2
-TEXT: Dressed to the nines
+TEXT: 素敵な着こなし！
 
 RESOURCE ID: mvt_stat_customize_avatar_player_details_3
-TEXT: Check out that DRIP!
+TEXT: センスが抜群！
 
 RESOURCE ID: mvt_stat_customize_avatar_player_details_4
 TEXT: さすが、ファッショニスタ！
@@ -386,7 +389,7 @@ RESOURCE ID: mvt_stat_damage_dealt_player_details_3
 TEXT: トータルダメージ：{0}
 
 RESOURCE ID: mvt_stat_damage_dealt_player_details_4
-TEXT: Dealt a whopping {0} damage
+TEXT: {0}ダメージも与えた！
 
 RESOURCE ID: mvt_stat_damage_dealt_player_title
 TEXT: 強烈アタッカー
@@ -395,10 +398,10 @@ RESOURCE ID: mvt_stat_final_strike_player_details_1
 TEXT: ファイナルアタックを決めた！
 
 RESOURCE ID: mvt_stat_final_strike_player_details_2
-TEXT: Landed the last attack
+TEXT: 決め手となる一撃を放った！
 
 RESOURCE ID: mvt_stat_final_strike_player_details_3
-TEXT: Dealt the decisive blow
+TEXT: 決定打を放った！
 
 RESOURCE ID: mvt_stat_final_strike_player_details_4
 TEXT: 華麗に決めた！
@@ -407,19 +410,19 @@ RESOURCE ID: mvt_stat_num_charged_attacks_player_details_1
 TEXT: {0}回スペシャルアタックを放った！
 
 RESOURCE ID: mvt_stat_num_charged_attacks_player_details_2
-TEXT: Used {0} Charged Attacks
+TEXT: {0}回スペシャルアタックを使った！
 
 RESOURCE ID: mvt_stat_num_charged_attacks_player_details_3
-TEXT: Launched {0} Charged Attacks
+TEXT: {0}回スペシャルアタックを打った！
 
 RESOURCE ID: mvt_stat_num_friends_in_raid_player_details_1
 TEXT: フレンド{0}人とレイドした！
 
 RESOURCE ID: mvt_stat_num_friends_in_raid_player_details_2
-TEXT: Invited {0} friends to the raid
+TEXT: フレンド{0}人とレイド！
 
 RESOURCE ID: mvt_stat_num_friends_in_raid_player_details_3
-TEXT: A friend indeed
+TEXT: とってもフレンドリー！
 
 RESOURCE ID: mvt_stat_pokemon_height_pokemon_details_1
 TEXT: 一番大きなポケモンを使った！
@@ -437,7 +440,7 @@ RESOURCE ID: mvt_stat_recent_walking_distance_player_details_2
 TEXT: 前の日に{0} km 探索した！
 
 RESOURCE ID: mvt_stat_recent_walking_distance_player_details_3
-TEXT: Covered {0} km yesterday
+TEXT: 昨日 {0} km 歩いた！
 
 RESOURCE ID: mvt_stat_recent_walking_distance_player_title
 TEXT: おさんぽ隊長
@@ -458,7 +461,7 @@ RESOURCE ID: mvt_stat_survival_duration_pokemon_details_1
 TEXT: {0}秒間バトルに持ちこたえた！
 
 RESOURCE ID: mvt_stat_survival_duration_pokemon_details_2
-TEXT: Participated for {0} seconds
+TEXT: {0}秒間持ちこたえた！
 
 RESOURCE ID: mvt_stat_survival_duration_pokemon_details_3
 TEXT: {0}秒間もバトルした！
@@ -470,7 +473,7 @@ RESOURCE ID: mvt_stat_use_buddy_player_details_2
 TEXT: 相棒と協力した！
 
 RESOURCE ID: mvt_stat_use_buddy_player_details_3
-TEXT: Brought their buddy into battle
+TEXT: 相棒と息の合ったバトル！
 
 RESOURCE ID: mvt_stat_use_mega_evo_player_details_1
 TEXT: メガシンカしたポケモンを使った！
@@ -479,7 +482,7 @@ RESOURCE ID: mvt_stat_use_mega_evo_player_details_2
 TEXT: メガシンカしたポケモンと戦った！
 
 RESOURCE ID: mvt_stat_use_mega_evo_player_details_3
-TEXT: Brought a Mega-Evolved Pokémon to the raid
+TEXT: メガシンカしたポケモンを使った！
 
 RESOURCE ID: mvt_stat_use_mega_evo_player_title
 TEXT: メガシンカ使い
@@ -521,22 +524,22 @@ RESOURCE ID: postcard__background
 TEXT: 背景
 
 RESOURCE ID: postcard__background_preview
-TEXT: PREVIEW
+TEXT: プレビュー
 
 RESOURCE ID: postcard_added
-TEXT: ポストカードブックにピン留めしました
+TEXT: ポストカードブックにピンしました
 
 RESOURCE ID: postcard_anonymous_sender
 TEXT: 送り主不明
 
 RESOURCE ID: postcard_book_header
-TEXT: POSTCARDS
+TEXT: ポストカード
 
 RESOURCE ID: postcard_book_sort_recent
-TEXT: 最近
+TEXT: 日付
 
 RESOURCE ID: postcard_book_sort_sender
-TEXT: 送り主
+TEXT: 送り手
 
 RESOURCE ID: postcard_cant_delete_favorite
 TEXT: お気に入りのポストカードは削除できません
@@ -554,7 +557,7 @@ RESOURCE ID: postcard_delete
 TEXT: 削除
 
 RESOURCE ID: postcard_delete_confirmation_1
-TEXT: このポストカードを取り除きますか？
+TEXT: このポストカードを削除しますか？
 
 RESOURCE ID: postcard_delete_confirmation_2
 TEXT: 決定後やり直すことはできません
@@ -572,7 +575,7 @@ RESOURCE ID: postcard_full_warning_header
 TEXT: ポストカードブックがいっぱいです！
 
 RESOURCE ID: postcard_keep
-TEXT: ピン留め
+TEXT: ピン
 
 RESOURCE ID: postcard_manage_collection_button
 TEXT: 管理
@@ -582,10 +585,10 @@ TEXT: ポストカード
 ブック
 
 RESOURCE ID: postcard_nocard
-TEXT: ピン留めしたポストカードはありません
+TEXT: ピンしたポストカードはありません
 
 RESOURCE ID: postcard_nocard_dialog
-TEXT: フレンドからのギフト、もしくは自分のギフトのポストカードをピン留めできます
+TEXT: フレンドからのギフト、もしくは自分のギフトのポストカードをピンできます
 
 RESOURCE ID: postcard_note
 TEXT: メモ
@@ -594,7 +597,7 @@ RESOURCE ID: postcard_opened_on
 TEXT: {0}に開封
 
 RESOURCE ID: postcard_removed
-TEXT: ポストカードブックから除かれました
+TEXT: ポストカードブックから外されました
 
 RESOURCE ID: postcard_save
 TEXT: 登録する
@@ -621,14 +624,14 @@ RESOURCE ID: postcard_trainer_name_setting_message
 TEXT: あなたのニックネームは、フレンドのポストカードに共有されません。設定からいつでも変更できます。
 
 RESOURCE ID: postcard_trainer_name_setting_title
-TEXT: ニックネーム共有設定
+TEXT: ニックネームの共有設定
 
 RESOURCE ID: postcard_tutorial_1
-TEXT: フレンドからのギフトに付いているポストカードをピン留めしてポストカードブックに貼ることができます。自分で持っているギフトのポストカードもピン留めできます。
+TEXT: フレンドからのギフトに付いているポストカードをピンしてポストカードブックに貼ることができます。自分で持っているギフトのポストカードもピンできます。
 ポストカードブックは、トレーナープロフィール画面もしくは道具バッグから開くことができます。
 
 RESOURCE ID: postcard_unfriend_tutorial
-TEXT: これらのポストカードの送り主は不明です。ニックネームを共有しない設定にしているか、フレンド解除したトレーナーからのものである可能性があります。ポストカードブックに入れておくことはできます。
+TEXT: これらのポストカードの送り手は不明です。ニックネームを共有しない設定にしているか、フレンド解除したトレーナーからのものである可能性があります。ポストカードブックに入れておくことはできます。
 
 RESOURCE ID: postcard_unknown_name
 TEXT: トレーナー名不明
@@ -1370,8 +1373,11 @@ TEXT: 1つ星レイドに勝つ
 RESOURCE ID: quest_xp_plural
 TEXT: XPを{0}獲得する
 
+RESOURCE ID: rocket_grunt_ice_water
+TEXT: GOロケット団したっぱが使うこおりとみずタイプのポケモン増
+
 RESOURCE ID: select_gift_to_delete_or_save_prompt
-TEXT: 付いているポストカードをピン留め（または削除）するギフトを選んでください
+TEXT: 付いているポストカードをピン（または削除）するギフトを選んでください
 
 RESOURCE ID: settings_postcard_optin_name
 TEXT: ポストカードブックにニックネームを共有
@@ -1490,9 +1496,80 @@ TEXT: アップロードされていない投稿が{0}件あります。
 RESOURCE ID: upmgmt_summary_success_header
 TEXT: {0} 件アップロードされました！
 
+RESOURCE ID: verbose_logs_disable_body
+TEXT: {0}ログの保存を停止すると、アップロード前の{1}ログは消えます
+
+RESOURCE ID: verbose_logs_disable_title
+TEXT: {0}ログの保存を停止しますか？
+
+RESOURCE ID: verbose_logs_info_body
+TEXT: ゲームログには、NianticがPokémonGOの特定のアクティビティを改善するのに役立つ貴重な情報が含まれています。ゲームログの保存を許可すると、ゲーム内の各アクティビティの後にログをアップロードして、Nianticと共有できます。
+
+各アクティビティのログは、24時間、またはそのタイプのアクティビティに再度参加するまで保存されます。保存されたログは設定メニューからアップロードできます。
+
+RESOURCE ID: verbose_logs_info_learn_more
+TEXT: 詳細を見る
+
+RESOURCE ID: verbose_logs_info_title
+TEXT: ご協力をお願いします！
+
+RESOURCE ID: verbose_logs_pending_count
+TEXT: {0}ログのアップロードが終了していません
+
+RESOURCE ID: verbose_logs_pending_logs_title
+TEXT: ログのアップロード待ち
+
+RESOURCE ID: verbose_logs_settings_title
+TEXT: ゲームログ
+
+RESOURCE ID: verbose_logs_toggle
+TEXT: {0}ログ保存
+
+RESOURCE ID: verbose_logs_type_battle
+TEXT: 対戦
+
+RESOURCE ID: verbose_logs_type_raid
+TEXT: レイド
+
+RESOURCE ID: verbose_logs_upload_button_logs
+TEXT: アップロード ({0}MB)
+
+RESOURCE ID: verbose_logs_upload_button_no_logs
+TEXT: アップロード
+
+RESOURCE ID: verbose_logs_upload_complete
+TEXT: アップロード完了
+
+RESOURCE ID: verbose_logs_upload_list_entry
+TEXT: {0}ログ ({1} MB）
+
+RESOURCE ID: verbose_logs_upload_title
+TEXT: いますぐアップロードしますか？
+
+RESOURCE ID: verbose_logs_uploading_count
+TEXT: {0}ログアップロード中...
+
 RESOURCE ID: weather_boost_active_3
 TEXT: {0}の{1}、{2}、{3}がブーストされます
 
 RESOURCE ID: widget_place_holder
 TEXT: いつでも冒険モードがデータを取得中
+
+RESOURCE ID: winter_holiday_catch_timed_research
+TEXT: ウィンター：キャッチチャレンジ
+
+RESOURCE ID: winter_holiday_event_name_part1
+TEXT: ウィンターイベント：パート1
+
+RESOURCE ID: winter_holiday_event_name_part2
+TEXT: ウィンターイベント：パート2
+
+RESOURCE ID: winter_holiday_friendship_timed_research
+TEXT: ウィンター：フレンドチャレンジ
+
+RESOURCE ID: winter_wonderland_event_name
+TEXT: ウィンターワンダーランド
+
+RESOURCE ID: ww_2021_collection_challenge
+TEXT: ウィンターワンダーランドチャレンジ
 

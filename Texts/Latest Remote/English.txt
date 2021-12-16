@@ -173,7 +173,7 @@ RESOURCE ID: dd_event_name
 TEXT: Dragonspiral Descent
 
 RESOURCE ID: disable_sponsored_gift_description
-TEXT: When you visit PokéStops or Gyms, you may receive Sponsored Gifts along with a sponsored message relevant to your location. Tap <b>OK<b> to opt out of this feature, and you will no longer receive Sponsored Gifts. Please restart the app to save your choice. Tap <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">here</a> to learn more about Sponsored Gifts.
+TEXT: When you visit PokéStops or Gyms, you may receive Sponsored Gifts along with a sponsored message relevant to your location. By disabling this option, you are opting out of receiving Sponsored Gifts. Please restart the app to save your selection.
 
 RESOURCE ID: eggs_widget_description
 TEXT: Use Adventure Sync to track Egg-hatching progress when Pokémon GO is in the background.
@@ -182,7 +182,7 @@ RESOURCE ID: eggs_widget_title
 TEXT: Adventure Sync: Eggs
 
 RESOURCE ID: enable_sponsored_gift_description
-TEXT: When you visit PokéStops or Gyms, you may receive Sponsored Gifts along with a sponsored message relevant to your location. Tap <b>OK<b> to opt in to this feature, and you will receive Sponsored Gifts. Please restart the app to save your choice. Tap <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">here</a> to learn more about Sponsored Gifts.
+TEXT: When you visit PokéStops or Gyms, you may receive Sponsored Gifts along with a sponsored message relevant to your location. By enabling this option, you are opting in to receive Sponsored Gifts when available. Please restart the app to save your selection.
 
 RESOURCE ID: encounter_pokemon_leave_warning_shadow_title
 TEXT: Are you sure you don’t want to rescue the Shadow Pokémon?
@@ -231,6 +231,9 @@ TEXT: Sender error
 
 RESOURCE ID: event_bonus_season5_dec
 TEXT: Season of Heritage: December Bonus
+
+RESOURCE ID: event_mega_cp_bonus
+TEXT: Boosted CP for certain Mega-Evolved Pokémon
 
 RESOURCE ID: event_move_mamoswine_ancient_power
 TEXT: Evolve Piloswine to get a Mamoswine that knows Ancient Power
@@ -293,6 +296,9 @@ TEXT: Month
 RESOURCE ID: general_week
 TEXT: Week
 
+RESOURCE ID: help_center_friends_link
+TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=all&s=friends-gifting-trading&f=friend-list-friendship-levels-1614899618
+
 RESOURCE ID: hours_abbreviation_format
 TEXT: {0} hr.
 
@@ -340,8 +346,8 @@ RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: Lysandre Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-13T20:38:28.198934
-at SHA ebde8a8ae4f493dc5ef16a4fde69aa4f599fac8d
+TEXT: Built at 2021-12-15T19:51:40.800382
+at SHA 84e4c8c59cd4d0c55d6bd2d907dde9532201bc08
 Patch from: 0.225.0-SHA-517b6d3b, 0.225.1-SHA-d9facbeb, 0.225.2-SHA-04f1aa2b
 
 RESOURCE ID: minicollect_help_subtitle
@@ -1347,6 +1353,9 @@ TEXT: Win a one-star raid
 RESOURCE ID: quest_xp_plural
 TEXT: Earn {0} XP
 
+RESOURCE ID: rocket_grunt_ice_water
+TEXT: Team GO Rocket Grunts will have more Water- and Ice-type Pokémon
+
 RESOURCE ID: select_gift_to_delete_or_save_prompt
 TEXT: Select a Gift to pin its Postcard to your Postcard Book or to remove its Postcard.
 
@@ -1437,9 +1446,80 @@ TEXT: 3/4 Stardust cost for trades
 RESOURCE ID: transfer_candy_xl_chance_quadruple
 TEXT: 4× chance to get Candy XL from transferring Pokémon
 
+RESOURCE ID: verbose_logs_disable_body
+TEXT: If you stop saving {0} Logs, any {1} Logs that you haven’t uploaded will be deleted.
+
+RESOURCE ID: verbose_logs_disable_title
+TEXT: Do you want to stop saving {0} Logs?
+
+RESOURCE ID: verbose_logs_info_body
+TEXT: Game Logs contain valuable information that can help Niantic improve certain activities in Pokémon GO. If you allow your Game Logs to be saved, you can then upload your logs after each in-game activity to share them with Niantic.
+
+Logs for each activity are stored for 24 hours or until you participate in that type of activity again. You can upload logs at any time before then in the Settings menu.
+
+RESOURCE ID: verbose_logs_info_learn_more
+TEXT: Learn More
+
+RESOURCE ID: verbose_logs_info_title
+TEXT: Help Improve Pokémon GO!
+
+RESOURCE ID: verbose_logs_pending_count
+TEXT: You have {0} logs pending upload.
+
+RESOURCE ID: verbose_logs_pending_logs_title
+TEXT: Logs Pending Upload
+
+RESOURCE ID: verbose_logs_settings_title
+TEXT: Game Logs
+
+RESOURCE ID: verbose_logs_toggle
+TEXT: Save {0} Logs
+
+RESOURCE ID: verbose_logs_type_battle
+TEXT: Battle
+
+RESOURCE ID: verbose_logs_type_raid
+TEXT: Raid
+
+RESOURCE ID: verbose_logs_upload_button_logs
+TEXT: UPLOAD ({0} MB)
+
+RESOURCE ID: verbose_logs_upload_button_no_logs
+TEXT: UPLOAD
+
+RESOURCE ID: verbose_logs_upload_complete
+TEXT: Upload Complete!
+
+RESOURCE ID: verbose_logs_upload_list_entry
+TEXT: {0} Log ({1} MB)
+
+RESOURCE ID: verbose_logs_upload_title
+TEXT: Do you want to upload these logs now?
+
+RESOURCE ID: verbose_logs_uploading_count
+TEXT: Uploading {0} logs...
+
 RESOURCE ID: weather_boost_active_3
 TEXT: {0}’s {1}, {2}, and {3} are boosted by the weather!
 
 RESOURCE ID: widget_place_holder
 TEXT: Retrieving data with Adventure Sync
+
+RESOURCE ID: winter_holiday_catch_timed_research
+TEXT: Pokémon GO Holidays: Catch Challenge
+
+RESOURCE ID: winter_holiday_event_name_part1
+TEXT: Pokémon GO Holidays: Part 1
+
+RESOURCE ID: winter_holiday_event_name_part2
+TEXT: Pokémon GO Holidays: Part 2
+
+RESOURCE ID: winter_holiday_friendship_timed_research
+TEXT: Pokémon GO Holidays: Friendship Challenge
+
+RESOURCE ID: winter_wonderland_event_name
+TEXT: Winter Wonderland
+
+RESOURCE ID: ww_2021_collection_challenge
+TEXT: Winter Wonderland Challenge
 

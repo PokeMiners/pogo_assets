@@ -222,6 +222,9 @@ TEXT: +100 Poussières Étoiles de capture
 RESOURCE ID: bonus_reward_3_catch_candy
 TEXT: +3 Bonbons de capture
 
+RESOURCE ID: catch_xp_increase_cuve_throw
+TEXT: Nombre de PX augmentés pour les Pokémon attrapés avec des lancers à effet
+
 RESOURCE ID: combat_giovanni_quote#3
 TEXT: Ton Professeur ne t’a pas préparé pour ce qui va t’arriver.
 
@@ -302,6 +305,9 @@ TEXT: Expéditeur inconnu
 
 RESOURCE ID: event_bonus_season5_dec
 TEXT: Saison de l’héritage : bonus de décembre
+
+RESOURCE ID: event_mega_cp_bonus
+TEXT: Boost de PC pour certains Pokémon méga-évolués
 
 RESOURCE ID: event_move_mamoswine_ancient_power
 TEXT: Fais évoluer un Cochignon pour obtenir un Mammochon connaissant l’attaque Pouvoir Antique
@@ -422,9 +428,12 @@ RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: Pose
 Lysandre
 
+RESOURCE ID: marrd_2019_easy_land_curve
+TEXT: Étude Nénupiot : fais {0} lancers à effet
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-13T20:38:28.198934
-at SHA ebde8a8ae4f493dc5ef16a4fde69aa4f599fac8d
+TEXT: Built at 2021-12-15T19:51:40.800382
+at SHA 84e4c8c59cd4d0c55d6bd2d907dde9532201bc08
 Patch from: 0.225.0-SHA-517b6d3b, 0.225.1-SHA-d9facbeb, 0.225.2-SHA-04f1aa2b
 
 RESOURCE ID: minicollect_help_subtitle
@@ -438,6 +447,9 @@ TEXT: Furie Dimension
 
 RESOURCE ID: move_name_0355
 TEXT: TrouDimensionnel
+
+RESOURCE ID: mrd_land_curve_easy
+TEXT: Étude Chinchidou : fais {0} lancers à effet
 
 RESOURCE ID: music_nighttime
 TEXT: Musique de nuit spéciale en jeu
@@ -596,7 +608,7 @@ RESOURCE ID: postcard_anonymous_sender
 TEXT: De la part d’un Dresseur inconnu
 
 RESOURCE ID: postcard_book_header
-TEXT: POSTCARDS
+TEXT: CARTES POSTALES
 
 RESOURCE ID: postcard_book_sort_recent
 TEXT: RÉCENTES
@@ -732,11 +744,17 @@ TEXT: Éclair, étincelle et éclat
 RESOURCE ID: quest_dec2021_catch_b
 TEXT: Catch {0} Pokémon featured during 2021’s Community Days
 
+RESOURCE ID: quest_febresearchday_land_curveball_plural
+TEXT: Étude Coquiperl : fais {0} lancers à effet
+
 RESOURCE ID: quest_gift_open_plural
 TEXT: Ouvre {0} Cadeaux
 
 RESOURCE ID: quest_gift_open_singular
 TEXT: Ouvre un Cadeau
+
+RESOURCE ID: quest_land_curve_type_ghost
+TEXT: Fais {0} lancers à effet sur des Pokémon de type Spectre
 
 RESOURCE ID: quest_land_curveball_singular
 TEXT: Fais un lancer à effet
@@ -925,6 +943,9 @@ TEXT: Bien sûr, ce n’est qu’une théorie.
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_2_9
 TEXT: Nous devrons la tester avant de finaliser nos conclusions.
+
+RESOURCE ID: quest_special_dialogue_lvl_43_2_5
+TEXT: La prochaine série de tests mettra de nouveau à l’épreuve tes talents de capture de Pokémon, mais avec une petite touche de fantaisie... En effet, tu devras tester tes compétences avec des lancers à effet.
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_0
 TEXT: Bonjour ! Je suis ravi de faire ta connaissance, %PLAYERNAME%. Je m’appelle Professeur Willow. Je suis Chercheur Pokémon, je vais te guider lors de ton aventure, et ça va être une aventure incroyable !
@@ -1458,10 +1479,22 @@ RESOURCE ID: quest_win_raid_lvl1_singular
 TEXT: Gagne un Raid de niveau 1.
 
 RESOURCE ID: quest_xp_plural
-TEXT: Earn {0} XP
+TEXT: Gagne {0} PX
 
 RESOURCE ID: recycle_dialog_prefix
 TEXT: Supprimer
+
+RESOURCE ID: rocket_grunt_ice_water
+TEXT: Les Sbires de la Team GO Rocket auront davantage de Pokémon de type Eau et Glace
+
+RESOURCE ID: score_8_13_none
+TEXT: N’a fait aucun lancer à effet
+
+RESOURCE ID: score_8_13_plural
+TEXT: A fait {0} lancers à effet
+
+RESOURCE ID: score_8_13_singular
+TEXT: A fait 1 lancer à effet
 
 RESOURCE ID: select_gift_to_delete_or_save_prompt
 TEXT: Select a Gift to pin its Postcard to your Postcard Book or to remove its Postcard.
@@ -1494,7 +1527,7 @@ RESOURCE ID: tabrs_title_regional
 TEXT: Défi régional
 
 RESOURCE ID: ticket_dec2021
-TEXT: Ticket for a Special Research story available in the shop
+TEXT: Ticket pour une Étude spéciale disponible dans la Boutique
 
 RESOURCE ID: ticket_hoopau
 TEXT: Ticket pour une Étude spéciale disponible dans la Boutique
@@ -1562,9 +1595,80 @@ TEXT: 3/4 Stardust cost for trades
 RESOURCE ID: transfer_candy_xl_chance_quadruple
 TEXT: 4 fois plus de chance d’obtenir des Bonbons L pour chaque Pokémon transféré
 
+RESOURCE ID: verbose_logs_disable_body
+TEXT: If you stop saving {0} Logs, any {1} Logs that you haven’t uploaded will be deleted.
+
+RESOURCE ID: verbose_logs_disable_title
+TEXT: Do you want to stop saving {0} Logs?
+
+RESOURCE ID: verbose_logs_info_body
+TEXT: Game Logs contain valuable information that can help Niantic improve certain activities in Pokémon GO. If you allow your Game Logs to be saved, you can then upload your logs after each in-game activity to share them with Niantic.
+
+Logs for each activity are stored for 24 hours or until you participate in that type of activity again. You can upload logs at any time before then in the Settings menu.
+
+RESOURCE ID: verbose_logs_info_learn_more
+TEXT: En savoir plus
+
+RESOURCE ID: verbose_logs_info_title
+TEXT: Help Improve Pokémon GO!
+
+RESOURCE ID: verbose_logs_pending_count
+TEXT: You have {0} logs pending upload.
+
+RESOURCE ID: verbose_logs_pending_logs_title
+TEXT: Logs Pending Upload
+
+RESOURCE ID: verbose_logs_settings_title
+TEXT: Game Logs
+
+RESOURCE ID: verbose_logs_toggle
+TEXT: Save {0} Logs
+
+RESOURCE ID: verbose_logs_type_battle
+TEXT: Combat
+
+RESOURCE ID: verbose_logs_type_raid
+TEXT: Raid
+
+RESOURCE ID: verbose_logs_upload_button_logs
+TEXT: UPLOAD ({0} MB)
+
+RESOURCE ID: verbose_logs_upload_button_no_logs
+TEXT: ENVOYER
+
+RESOURCE ID: verbose_logs_upload_complete
+TEXT: Envoi terminé
+
+RESOURCE ID: verbose_logs_upload_list_entry
+TEXT: {0} Log ({1} MB)
+
+RESOURCE ID: verbose_logs_upload_title
+TEXT: Do you want to upload these logs now?
+
+RESOURCE ID: verbose_logs_uploading_count
+TEXT: Uploading {0} logs...
+
 RESOURCE ID: weather_boost_active_3
 TEXT: La météo renforce {1}, {2} et {3} de ton {0} !
 
 RESOURCE ID: widget_place_holder
 TEXT: Retrieving data with Adventure Sync
+
+RESOURCE ID: winter_holiday_catch_timed_research
+TEXT: Fêtes d’hiver de Pokémon GO : Défi de capture
+
+RESOURCE ID: winter_holiday_event_name_part1
+TEXT: Fêtes d’hiver de Pokémon GO : 1re partie
+
+RESOURCE ID: winter_holiday_event_name_part2
+TEXT: Fêtes d’hiver de Pokémon GO : 2e partie
+
+RESOURCE ID: winter_holiday_friendship_timed_research
+TEXT: Fêtes d’hiver de Pokémon GO : Défi amitié
+
+RESOURCE ID: winter_wonderland_event_name
+TEXT: Hiver merveilleux
+
+RESOURCE ID: ww_2021_collection_challenge
+TEXT: Défi hiver merveilleux
 
