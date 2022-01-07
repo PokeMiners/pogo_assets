@@ -217,6 +217,18 @@ TEXT: +100 ポケモンを捕まえたときのほしのすな
 RESOURCE ID: buddy_affection_distance_half
 TEXT: 1/2 相棒からハートをもらえる距離
 
+RESOURCE ID: bundle.general1.large.1_title
+TEXT: ハイパーボックス
+
+RESOURCE ID: bundle.general1.small.1_title
+TEXT: スペシャルボックス
+
+RESOURCE ID: bundle.general3.medium.1_title
+TEXT: アドベンチャーボックス
+
+RESOURCE ID: bundle.xmas.large.1_title
+TEXT: アドベンチャーボックス
+
 RESOURCE ID: community_day_dec2021_event_name
 TEXT: 12月コミュニティ・デイ2021
 
@@ -379,13 +391,13 @@ RESOURCE ID: incense_day_pokemon_swinub
 TEXT: ウリムーがおこうに反応
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access a special research on January 16, 2022 from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: A ticket to access Special Research on January 16, 2022, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc_2
 TEXT: 現地時間2021年11月21日（11:00AM～5:00PM）にスペシャルリサーチを遂行するためのチケット。
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: This ticket will automatically activate to give you access to a special research on January 16, 2022, wherever you are in the world.
+TEXT: This ticket will automatically activate to give you access to Special Research on January 16, 2022, wherever you are in the world.
 
 RESOURCE ID: item_event_ticket_pink_hoopau_desc
 TEXT: 「フーパを解き放て！」スペシャルリサーチを遂行するためのチケット。
@@ -412,16 +424,28 @@ TEXT: ポストカードを貼って自分やフレンドの足跡を残して�
 RESOURCE ID: item_postcard_inventory_name
 TEXT: ポストカードブック
 
+RESOURCE ID: johto_cup_title
+TEXT: ジョウトカップ
+
 RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: フラダリ　ポーズ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-30T22:20:02.303747
-at SHA 192b7451d710230ba7143e68a060636d44363c35
-Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad
+TEXT: Built at 2022-01-07T01:06:53.798190
+at SHA 31ccd9f20df2ba4d01bd496cd8e7691e09e5b4c3
+Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218
 
 RESOURCE ID: minicollect_help_subtitle
 TEXT: 野生で見つからないポケモンも含まれていることがあります。レイドに参加するなどしてコレクションを進めましょう。
+
+RESOURCE ID: mobile_games_catch_sr
+TEXT: Mobile Games Show: Catch Challenge
+
+RESOURCE ID: mobile_games_throw_sr
+TEXT: Mobile Games Show: Throw Challenge
+
+RESOURCE ID: mop_event_name
+TEXT: 高まるエネルギー
 
 RESOURCE ID: move_name_0353
 TEXT: サイコファング
@@ -431,6 +455,24 @@ TEXT: いじげんラッシュ
 
 RESOURCE ID: move_name_0355
 TEXT: いじげんホール
+
+RESOURCE ID: move_name_0357
+TEXT: Magical Leaf
+
+RESOURCE ID: move_name_0358
+TEXT: Sacred Fire
+
+RESOURCE ID: move_name_0360
+TEXT: Aeroblast+
+
+RESOURCE ID: move_name_0361
+TEXT: Aeroblast++
+
+RESOURCE ID: move_name_0362
+TEXT: Sacred Fire+
+
+RESOURCE ID: move_name_0363
+TEXT: Sacred Fire++
 
 RESOURCE ID: music_nighttime
 TEXT: 夜のBGMがスペシャルな曲に
@@ -863,9 +905,6 @@ TEXT: 壺が置いてあった。紙切れがついていて、色々と書い�
 RESOURCE ID: quest_special_dialogue_hoopaunbound_0_7
 TEXT: ”甘いものと砂を与えよ、さすれば解き放たれん”
 
-RESOURCE ID: quest_special_dialogue_hoopaunbound_0_8
-TEXT: ”その姿変わらず、捧げものを与えるまでは”
-
 RESOURCE ID: quest_special_dialogue_hoopaunbound_0_9
 TEXT: わたしは詩には疎いのだが、どう思う？
 
@@ -1163,6 +1202,9 @@ TEXT: 準備ができたら、レイドに参加してみてくれ！負けて�
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_7
 TEXT: バトルの腕なんて、やってみないとわからないものさ。
 
+RESOURCE ID: quest_special_dialogue_season4_10_2
+TEXT: ちょっとおどかしてみた。スリルを味わってもらおうかな、と．．．今回は、霧深い森に行かなくていいんだから．．． 
+
 RESOURCE ID: quest_special_dialogue_season4_12_0
 TEXT: やぁ、%PLAYERNAME%！元気かい？北半球では、夜が長くなってきている。ということは、太陽はより明るく輝くということ！
 
@@ -1272,61 +1314,61 @@ RESOURCE ID: quest_special_dialogue_shint_3_3
 TEXT: ではまた会おう！それまで、元気にGOだ！
 
 RESOURCE ID: quest_special_dialogue_sphet_0_0
-TEXT: Hey there, %PLAYERNAME%! It's great to see you again! I’m glad you’re here,
+TEXT: やぁ、%PLAYERNAME%！会えてうれしいな！
 
 RESOURCE ID: quest_special_dialogue_sphet_0_1
-TEXT: I wanted to tell you about the most amazing thing I saw on my morning walk today— an assortment of spherical Spheals spinning across an icy lake! Ha ha, ha..
+TEXT: タマザラシの調査をお願いしようと思っていた。凍った湖の上を転がっているのを見たんだ。
 
 RESOURCE ID: quest_special_dialogue_sphet_0_2
-TEXT: Ahem. Did you know that Spheal always travels by rolling around on its ball-like body?
+TEXT: タマザラシは、転がって移動するポケモンで、
 
 RESOURCE ID: quest_special_dialogue_sphet_0_3
-TEXT: When the season for ice floes arrives, this Pokémon can be seen rolling about on ice and crossing the sea.
+TEXT: 流氷の季節には、氷の上を転がり海を渡る姿を見かけることもあるんだ。
 
 RESOURCE ID: quest_special_dialogue_sphet_0_4
-TEXT: They’re also covered in fluffy fur, to keep them from feeling cold on the ice. It’s the cutest, most heart-warming sight I’ve seen today!
+TEXT: フサフサの体毛で体が覆われて いて、冷たさを感じないだけあって、楽しそうに転がっていた！
 
 RESOURCE ID: quest_special_dialogue_sphet_0_5
-TEXT: Why don’t you go check out some Spheal for yourself too?
+TEXT: きみも見に行ってみてくれ！
 
 RESOURCE ID: quest_special_dialogue_sphet_1_0
-TEXT: Good to see you back %PLAYERNAME%! I see that you’ve caught a stockpile of Spheals yourself! Aren’t they just the roundest?
+TEXT: おかえり、%PLAYERNAME%！タマザラシを捕まえられたようだね！よく観察すると、本当にまんまるだ！
 
 RESOURCE ID: quest_special_dialogue_sphet_1_1
-TEXT: According to my research, the evolution of Spheal, Sealeo, thinks so too! It seems that Sealeo occasionally entertains itself by balancing and rolling a Spheal on its nose.
+TEXT: タマザラシから進化するのは、トドグラーとトドゼルガ。トドグラーは、初めて目にしたものは必ず鼻でクルクル回してみる習性を持つ。
 
 RESOURCE ID: quest_special_dialogue_sphet_1_2
-TEXT: Sealeo has the habit of always juggling on the tip of its nose anything it sees for the first time. I wish I could see it for myself!
+TEXT: タマザラシを回して遊ぶこともあるんだ。見てみたい！
 
 RESOURCE ID: quest_special_dialogue_sphet_2_0
-TEXT: Welcome back, Trainer!  I see you've evolved some Sealeo. I hope we'll get a chance to see it play with Spheal!
+TEXT: トドグラーだな！タマザラシを回してくれるだろうか？
 
 RESOURCE ID: quest_special_dialogue_sphet_2_1
-TEXT: But I have some breaking news for you-- You remember that icy lake I told you about?
+TEXT: そういえば、凍った湖で見たタマザラシなんだが．．．氷が割れてしまって、
 
 RESOURCE ID: quest_special_dialogue_sphet_2_2
-TEXT: Well, it looks like something’s broken up it up, and now all the Spheal are swirling around in the water! They seem to be having fun, but I wonder what Pokémon did this?
+TEXT: 水中でクルクル回っているようなんだ。氷を割ったのは、トドゼルガだろう。
 
 RESOURCE ID: quest_special_dialogue_sphet_2_3
-TEXT: My best guess is Walrein. Walrein swims all over in frigid seawater while crushing icebergs with its grand, imposing tusks. Doesn’t that sound magnificent?
+TEXT: トドゼルガは、たくましいキバで流氷を粉砕するポケモンだからな。
 
 RESOURCE ID: quest_special_dialogue_sphet_2_4
-TEXT: Can you evolve some Sealeo so we can research them up close for ourselves? 
+TEXT: トドグラーを進化させて、詳しく調査してみよう。
 
 RESOURCE ID: quest_special_dialogue_sphet_3_0
-TEXT: You did it, Trainer! Walrein sure has wonderful tusks in the flesh, or in the blubber, as it were. Haha…
+TEXT: やったな！トドゼルガのキバも近くで見ると、その威力を肌で感じる。
 
 RESOURCE ID: quest_special_dialogue_sphet_3_1
-TEXT: Another fun fact about Walrein: They form herds of 20 to 30 individuals. When a threat appears, the herd's leader will protect the group with its life.
+TEXT: トドゼルガは、20～30匹で群れをつくることが多い。 敵に襲われると、リーダーが体を張って群れを守ると言われている。
 
 RESOURCE ID: quest_special_dialogue_sphet_3_2
-TEXT: So all those Spheal and Sealeo are being well-looked after. How wholesome of Walrein!
+TEXT: トドゼルガがいれば、タマザラシも、トドグラーも安心だな。
 
 RESOURCE ID: quest_special_dialogue_sphet_3_3
-TEXT: And I’m sure your Walrein will protect you in battle as well. You already look like quite a winning team!
+TEXT: きみにとっても、トドゼルガは頼もしいパートナーになってくれるだろう。
 
 RESOURCE ID: quest_special_dialogue_sphet_3_4
-TEXT: Thanks for going on this super Spheal adventure with me today, %PLAYERNAME%! I’ve learned a lot from the research you’ve helped me with. Until next time, let’s GO!
+TEXT: 協力に感謝する、%PLAYERNAME%！次の調査もよろしく頼むよ。その日まで．．．元気にGOだ！! 
 
 RESOURCE ID: quest_sphet_catch_b
 TEXT: タマザラシを{0}匹捕まえる
@@ -1528,6 +1570,12 @@ RESOURCE ID: quest_title_spwk_tullys
 TEXT: スペシャルウィークエンド
 (Tully's)
 
+RESOURCE ID: quest_walk_km
+TEXT: {0} km歩く
+
+RESOURCE ID: quest_walk_steps
+TEXT: {0}歩あるく
+
 RESOURCE ID: quest_win_raid_lvl1_singular
 TEXT: 1つ星レイドに勝つ
 
@@ -1551,6 +1599,9 @@ TEXT: より高いフレームレートで表示させるため、デバイス�
 
 RESOURCE ID: settings_unlock_base_framerate_description_on
 TEXT: ネイティブリフレッシュレート：オン
+
+RESOURCE ID: sinnoh_cup_title
+TEXT: シンオウカップ
 
 RESOURCE ID: spawn_spheal
 TEXT: タマザラシがより多く野生で出現
@@ -1757,6 +1808,12 @@ TEXT: いますぐアップロードしますか？
 
 RESOURCE ID: verbose_logs_uploading_count
 TEXT: {0}ログアップロード中...
+
+RESOURCE ID: walk_distance
+TEXT: km
+
+RESOURCE ID: walk_steps
+TEXT: 歩
 
 RESOURCE ID: weather_boost_active_3
 TEXT: {0}の{1}、{2}、{3}がブーストされます

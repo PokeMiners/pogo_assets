@@ -222,6 +222,18 @@ TEXT: Pokémon BD & SP Event
 RESOURCE ID: bonus_reward_100_catch_startdust
 TEXT: +100 Catch Stardust
 
+RESOURCE ID: bundle.general1.large.1_title
+TEXT: Ultra Box
+
+RESOURCE ID: bundle.general1.small.1_title
+TEXT: Special Box
+
+RESOURCE ID: bundle.general3.medium.1_title
+TEXT: Adventure Box
+
+RESOURCE ID: bundle.xmas.large.1_title
+TEXT: Adventure Box
+
 RESOURCE ID: community_day_dec2021_event_name
 TEXT: December Community Day 2021
 
@@ -345,9 +357,9 @@ TEXT: A ticket to access the Flash, Spark, and Gleam Special Research on Novembe
 YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
 RESOURCE ID: general1.ticket.2_sphet_description
-TEXT: A ticket to access the "The Spheal Deal" Special Research from January 16, 2022, at 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: A ticket to access the The Spheal Deal Special Research on January 16, 2022, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
 
- YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
 RESOURCE ID: general1.ticket.2_sphet_title
 TEXT: The Spheal Deal Ticket
@@ -379,10 +391,10 @@ RESOURCE ID: incense_day_pokemon_swinub
 TEXT: Swinub attracted to Incense
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access a special research on January 16, 2022 from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: A ticket to access Special Research on January 16, 2022, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: This ticket will automatically activate to give you access to a special research on January 16, 2022, wherever you are in the world.
+TEXT: This ticket will automatically activate to give you access to Special Research on January 16, 2022, wherever you are in the world.
 
 RESOURCE ID: item_event_ticket_pink_hoopau_desc
 TEXT: A ticket to access the Mischief Unbound Special Research, wherever you are.
@@ -415,16 +427,28 @@ TEXT: A book to collect Postcards and remember locations from yours and your fri
 RESOURCE ID: item_postcard_inventory_name
 TEXT: Postcard Book
 
+RESOURCE ID: johto_cup_title
+TEXT: Johto Cup
+
 RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: Lysandre Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-30T22:20:02.303747
-at SHA 192b7451d710230ba7143e68a060636d44363c35
-Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad
+TEXT: Built at 2022-01-07T01:06:53.798190
+at SHA 31ccd9f20df2ba4d01bd496cd8e7691e09e5b4c3
+Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218
 
 RESOURCE ID: minicollect_help_subtitle
 TEXT: Some Pokémon can only be encountered in certain ways. Please refer to the symbols below to understand how to encounter the Pokémon you want.
+
+RESOURCE ID: mobile_games_catch_sr
+TEXT: Mobile Games Show: Catch Challenge
+
+RESOURCE ID: mobile_games_throw_sr
+TEXT: Mobile Games Show: Throw Challenge
+
+RESOURCE ID: mop_event_name
+TEXT: Mountains of Power
 
 RESOURCE ID: move_name_0353
 TEXT: Psychic Fangs
@@ -434,6 +458,24 @@ TEXT: Hyperspace Fury
 
 RESOURCE ID: move_name_0355
 TEXT: Hyperspace Hole
+
+RESOURCE ID: move_name_0357
+TEXT: Magical Leaf
+
+RESOURCE ID: move_name_0358
+TEXT: Sacred Fire
+
+RESOURCE ID: move_name_0360
+TEXT: Aeroblast+
+
+RESOURCE ID: move_name_0361
+TEXT: Aeroblast++
+
+RESOURCE ID: move_name_0362
+TEXT: Sacred Fire+
+
+RESOURCE ID: move_name_0363
+TEXT: Sacred Fire++
 
 RESOURCE ID: music_nighttime
 TEXT: Special in-game music at night
@@ -565,7 +607,7 @@ RESOURCE ID: photobomb_five_shinx
 TEXT: 5 surprise encounters with Shinx in GO Snapshot
 
 RESOURCE ID: photobomb_five_spheal
-TEXT: 5 Photobombs from Spheal in GO Snapshot
+TEXT: 5 surprise encounters with Spheal in GO Snapshot
 
 RESOURCE ID: poi_contrib_ghostinfo_label
 TEXT: Wayspot used in other Niantic games
@@ -852,10 +894,6 @@ RESOURCE ID: quest_special_dialogue_hoopaunbound_0_7
 TEXT: “Offer sweets and dust you’ve found 
 So Hoopa’s form will be unbound
 
-RESOURCE ID: quest_special_dialogue_hoopaunbound_0_8
-TEXT: And in this form it shall remain 
-Until an offering is made again.”
-
 RESOURCE ID: quest_special_dialogue_hoopaunbound_0_9
 TEXT: Poetry isn’t exactly my forte, but it’s got a pleasant rhyme structure, I’d say!
 
@@ -910,7 +948,7 @@ RESOURCE ID: quest_special_dialogue_hoopaunbound_2_5
 TEXT: There’s another bit of the poem that I think is relevant here, too.
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_2_6
-TEXT: "And in this form it shall remain 
+TEXT: “And in this form it shall remain 
 Until an offering is made again.”
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_2_7
@@ -1262,61 +1300,61 @@ RESOURCE ID: quest_special_dialogue_shint_3_3
 TEXT: Despite all that hard work, it seems you’ve still got a little spark left in you—so why don’t you head back out and see what other adventures await? Let’s GO!
 
 RESOURCE ID: quest_special_dialogue_sphet_0_0
-TEXT: Hey there, %PLAYERNAME%! It's great to see you again! I’m glad you’re here,
+TEXT: Hey there, %PLAYERNAME%! It’s great to see you again.
 
 RESOURCE ID: quest_special_dialogue_sphet_0_1
-TEXT: I wanted to tell you about the most amazing thing I saw on my morning walk today— an assortment of spherical Spheals spinning across an icy lake! Ha ha, ha..
+TEXT: I wanted to tell you about what I saw on my morning walk today—a herd of Spheal rolling across an icy lake!
 
 RESOURCE ID: quest_special_dialogue_sphet_0_2
-TEXT: Ahem. Did you know that Spheal always travels by rolling around on its ball-like body?
+TEXT: Did you know that a Spheal always travels by rolling around on its ball-like body?
 
 RESOURCE ID: quest_special_dialogue_sphet_0_3
-TEXT: When the season for ice floes arrives, this Pokémon can be seen rolling about on ice and crossing the sea.
+TEXT: When the season for ice floes arrives, Spheal can be seen rolling about on ice and crossing the sea.
 
 RESOURCE ID: quest_special_dialogue_sphet_0_4
-TEXT: They’re also covered in fluffy fur, to keep them from feeling cold on the ice. It’s the cutest, most heart-warming sight I’ve seen today!
+TEXT: They’re also covered in fluffy fur to keep them from feeling cold in icy climes. And I’ll tell you, seeing them tumble to-and-fro warmed me right up, too!
 
 RESOURCE ID: quest_special_dialogue_sphet_0_5
-TEXT: Why don’t you go check out some Spheal for yourself too?
+TEXT: Why don’t you go check out some Spheal for yourself?
 
 RESOURCE ID: quest_special_dialogue_sphet_1_0
-TEXT: Good to see you back %PLAYERNAME%! I see that you’ve caught a stockpile of Spheals yourself! Aren’t they just the roundest?
+TEXT: Welcome back, %PLAYERNAME%! I see you’ve brought some Spheal with you. Aren’t they just the roundest?
 
 RESOURCE ID: quest_special_dialogue_sphet_1_1
-TEXT: According to my research, the evolution of Spheal, Sealeo, thinks so too! It seems that Sealeo occasionally entertains itself by balancing and rolling a Spheal on its nose.
+TEXT: According to my research, the Evolution of Spheal, Sealeo, seems to agree! Sealeo can occasionally be seen entertaining itself by balancing a Spheal on its nose as if juggling a ball.
 
 RESOURCE ID: quest_special_dialogue_sphet_1_2
-TEXT: Sealeo has the habit of always juggling on the tip of its nose anything it sees for the first time. I wish I could see it for myself!
+TEXT: In fact, when Sealeo sees just about anything for the first time, it tends to try juggling it on its nose! Why don’t you evolve your Spheal and see for yourself?
 
 RESOURCE ID: quest_special_dialogue_sphet_2_0
-TEXT: Welcome back, Trainer!  I see you've evolved some Sealeo. I hope we'll get a chance to see it play with Spheal!
+TEXT: Welcome back, Trainer—and hello there, Sealeo!
 
 RESOURCE ID: quest_special_dialogue_sphet_2_1
-TEXT: But I have some breaking news for you-- You remember that icy lake I told you about?
+TEXT: I have some breaking news for you. Remember that icy lake I told you about earlier?
 
 RESOURCE ID: quest_special_dialogue_sphet_2_2
-TEXT: Well, it looks like something’s broken up it up, and now all the Spheal are swirling around in the water! They seem to be having fun, but I wonder what Pokémon did this?
+TEXT: Well, it looks like something’s broken up it up, and now all the Spheal are splashing around in the water! They seem to be having fun, but I wonder what Pokémon could have caused this.
 
 RESOURCE ID: quest_special_dialogue_sphet_2_3
-TEXT: My best guess is Walrein. Walrein swims all over in frigid seawater while crushing icebergs with its grand, imposing tusks. Doesn’t that sound magnificent?
+TEXT: My best guess is Walrein. Walrein is known to swim through frigid seawater while crushing icebergs with its grand, imposing tusks. Sounds pretty magnificent, if a bit imposing.
 
 RESOURCE ID: quest_special_dialogue_sphet_2_4
-TEXT: Can you evolve some Sealeo so we can research them up close for ourselves? 
+TEXT: Can you evolve your Sealeo so we can research Walrein ourselves?
 
 RESOURCE ID: quest_special_dialogue_sphet_3_0
-TEXT: You did it, Trainer! Walrein sure has wonderful tusks in the flesh, or in the blubber, as it were. Haha…
+TEXT: You did it, Trainer! Walrein’s tusks really are magnificent up close, aren’t they?
 
 RESOURCE ID: quest_special_dialogue_sphet_3_1
-TEXT: Another fun fact about Walrein: They form herds of 20 to 30 individuals. When a threat appears, the herd's leader will protect the group with its life.
+TEXT: Did you know that Walrein typically gather in herds of about 20 or 30? When a threat appears, the herd’s leader will do whatever it takes to protect the group.
 
 RESOURCE ID: quest_special_dialogue_sphet_3_2
-TEXT: So all those Spheal and Sealeo are being well-looked after. How wholesome of Walrein!
+TEXT: Nice to know they can look after themselves—though considering those tusks, I don’t think that was ever in doubt. Haha!
 
 RESOURCE ID: quest_special_dialogue_sphet_3_3
-TEXT: And I’m sure your Walrein will protect you in battle as well. You already look like quite a winning team!
+TEXT: I’m sure your Walrein will protect you in battle as well. You already look like quite a powerful pair!
 
 RESOURCE ID: quest_special_dialogue_sphet_3_4
-TEXT: Thanks for going on this super Spheal adventure with me today, %PLAYERNAME%! I’ve learned a lot from the research you’ve helped me with. Until next time, let’s GO!
+TEXT: Thanks for going on this adventure with me today, %PLAYERNAME%! I’ve learned a lot from the research you conducted. Until next time, let’s GO!
 
 RESOURCE ID: quest_sphet_catch_b
 TEXT: Catch {0} Spheal
@@ -1513,6 +1551,12 @@ TEXT: Special Weekend (SoftBank)
 RESOURCE ID: quest_title_spwk_tullys
 TEXT: Special Weekend (Tully’s)
 
+RESOURCE ID: quest_walk_km
+TEXT: Walk {0} km
+
+RESOURCE ID: quest_walk_steps
+TEXT: Walk {0} steps
+
 RESOURCE ID: quest_win_raid_lvl1_singular
 TEXT: Win a one-star raid
 
@@ -1536,6 +1580,9 @@ TEXT: Unlock your device’s native refresh rate for higher FPS.
 
 RESOURCE ID: settings_unlock_base_framerate_description_on
 TEXT: Native refresh rate unlocked.
+
+RESOURCE ID: sinnoh_cup_title
+TEXT: Sinnoh Cup
 
 RESOURCE ID: spawn_spheal
 TEXT: More Spheal are appearing in the wild
@@ -1562,7 +1609,7 @@ RESOURCE ID: ticket_shinx
 TEXT: Ticket for the Flash, Spark, and Gleam Special Research story available in the shop
 
 RESOURCE ID: ticket_spheal
-TEXT: Ticket for Special Research story available in the Shop: The Spheal Deal
+TEXT: Ticket for a Special Research story available in the shop
 
 RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: Trainers must work together as a regional community to complete this challenge.
@@ -1704,6 +1751,12 @@ TEXT: Do you want to upload these logs now?
 
 RESOURCE ID: verbose_logs_uploading_count
 TEXT: Uploading {0} logs...
+
+RESOURCE ID: walk_distance
+TEXT: km
+
+RESOURCE ID: walk_steps
+TEXT: steps
 
 RESOURCE ID: weather_boost_active_3
 TEXT: {0}’s {1}, {2}, and {3} are boosted by the weather!

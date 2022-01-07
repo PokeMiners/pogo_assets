@@ -235,6 +235,18 @@ TEXT: อีเวนต์ฉลองการเปิดตัว Pokémon B
 RESOURCE ID: bonus_reward_100_catch_startdust
 TEXT: +สตาร์ดัสต์จากการจับ 100
 
+RESOURCE ID: bundle.general1.large.1_title
+TEXT: กล่องใหญ่พิเศษ
+
+RESOURCE ID: bundle.general1.small.1_title
+TEXT: กล่องพิเศษ
+
+RESOURCE ID: bundle.general3.medium.1_title
+TEXT: กล่องการผจญภัย
+
+RESOURCE ID: bundle.xmas.large.1_title
+TEXT: กล่องการผจญภัย
+
 RESOURCE ID: catch_candy_xl_chance_quadruple
 TEXT: โอกาสได้รับลูกอม XL จากการจับโปเกมอน x4
 
@@ -328,6 +340,9 @@ TEXT: วิวัฒนาการอิโนมูเพื่อรับ�
 RESOURCE ID: event_season5_name
 TEXT: ฤดูกาลแห่งมรดก
 
+RESOURCE ID: event_unique_hourly_pokemon
+TEXT: โปเกมอนที่แตกต่างกันไปจะปรากฏตัวออกมามากขึ้นทุกชั่วโมง 
+
 RESOURCE ID: f_avatar_poses_bundle_pose_24
 TEXT: ท่าโพส N
 
@@ -399,9 +414,9 @@ RESOURCE ID: general1.ticket.2_shint_title
 TEXT: ตั๋ว "แสงวาบเปล่งประกาย"
 
 RESOURCE ID: general1.ticket.2_sphet_description
-TEXT: A ticket to access the "The Spheal Deal" Special Research from January 16, 2022, at 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: A ticket to access the The Spheal Deal Special Research on January 16, 2022, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
 
- YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
 RESOURCE ID: general1.ticket.2_sphet_title
 TEXT: The Spheal Deal Ticket
@@ -433,10 +448,10 @@ RESOURCE ID: incense_day_pokemon_swinub
 TEXT: อุริมูถูกดึงดูดด้วยเครื่องหอม
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access a special research on January 16, 2022 from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: A ticket to access Special Research on January 16, 2022, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: This ticket will automatically activate to give you access to a special research on January 16, 2022, wherever you are in the world.
+TEXT: This ticket will automatically activate to give you access to Special Research on January 16, 2022, wherever you are in the world.
 
 RESOURCE ID: item_event_ticket_pink_hoopau_desc
 TEXT: ตั๋วสำหรับเข้าร่วมงานวิจัยพิเศษ "ปลดปล่อยความป่วน" ได้จากทุกที่
@@ -487,6 +502,9 @@ TEXT: อุปกรณ์ปล่อยลัวร์น้ำฝน
 ฝน และทำให้โปเกมอนบางตัว
 วิวัฒนาการได้ด้วย
 
+RESOURCE ID: johto_cup_title
+TEXT: Johto Cup
+
 RESOURCE ID: limited_research_goomy
 TEXT: งานวิจัยแบบจำกัดเวลาของนูเมรา
 
@@ -519,12 +537,21 @@ RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: ท่าโพสเฟลอร์เดอลี
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-30T22:20:02.303747
-at SHA 192b7451d710230ba7143e68a060636d44363c35
-Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad
+TEXT: Built at 2022-01-07T01:06:53.798190
+at SHA 31ccd9f20df2ba4d01bd496cd8e7691e09e5b4c3
+Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218
 
 RESOURCE ID: minicollect_help_subtitle
 TEXT: โปเกมอนบางตัวสามารถพบได้ในวิธีพิเศษเท่านั้น โปรดตรวจสอบสัญลักษณ์ด้านล่าง
+
+RESOURCE ID: mobile_games_catch_sr
+TEXT: Mobile Games Show: Catch Challenge
+
+RESOURCE ID: mobile_games_throw_sr
+TEXT: Mobile Games Show: Throw Challenge
+
+RESOURCE ID: mop_event_name
+TEXT: ภูเขาแห่งขุมพลัง
 
 RESOURCE ID: move_name_0353
 TEXT: ไซโคแฟงก์
@@ -534,6 +561,24 @@ TEXT: โกรธาทะลุมิติ
 
 RESOURCE ID: move_name_0355
 TEXT: หลุมต่างมิติ
+
+RESOURCE ID: move_name_0357
+TEXT: Magical Leaf
+
+RESOURCE ID: move_name_0358
+TEXT: Sacred Fire
+
+RESOURCE ID: move_name_0360
+TEXT: Aeroblast+
+
+RESOURCE ID: move_name_0361
+TEXT: Aeroblast++
+
+RESOURCE ID: move_name_0362
+TEXT: Sacred Fire+
+
+RESOURCE ID: move_name_0363
+TEXT: Sacred Fire++
 
 RESOURCE ID: music_nighttime
 TEXT: เพลงสุดพิเศษในเกมช่วงกลางคืน
@@ -665,7 +710,7 @@ RESOURCE ID: photobomb_five_shinx
 TEXT: เผชิญหน้ากับโคลิงก์แบบไม่คาดคิดในโกสแนปช็อต 5 ครั้ง
 
 RESOURCE ID: photobomb_five_spheal
-TEXT: 5 Photobombs from Spheal in GO Snapshot
+TEXT: 5 surprise encounters with Spheal in GO Snapshot
 
 RESOURCE ID: poi_contrib_ghostinfo_label
 TEXT: Wayspot ที่ใช้ในเกมอื่น ๆ ของ Niantic
@@ -985,9 +1030,75 @@ RESOURCE ID: quest_special_dialogue_dec2021_3_1
 TEXT: ปีหน้าก็มาผจญภัยไปด้วยกันอีกล่ะ!
 พร้อมแล้วก็ไปกันเลย!
 
+RESOURCE ID: quest_special_dialogue_duskt_0_0
+TEXT: ไง %PLAYERNAME%!
+ช่วงนี้รู้สึกเหมือนเห็นโปเกมอนประเภทผี
+มากขึ้นบ้างรึเปล่า? 
+
+RESOURCE ID: quest_special_dialogue_duskt_3_2
+TEXT: ขอบคุณที่ช่วยนะ %PLAYERNAME%
+หวังว่าจะได้พบเธอกับโยนัวอีกเร็ว ๆ นี้! 
+
+RESOURCE ID: quest_special_dialogue_eevet_0_1
+TEXT: เห็นหรือเปล่า? โปเกมอนวิวัฒนาการหรืออีวุย
+โผล่มาเต็มไปหมดเลยล่ะ! 
+
+RESOURCE ID: quest_special_dialogue_eevet_0_3
+TEXT: เป็นทฤษฎีที่เข้าใจได้นะ เพราะอีวุยสามารถวิวัฒนาการ
+ได้ถึงแปดร่างด้วยกัน! 
+
+RESOURCE ID: quest_special_dialogue_eevet_1_1
+TEXT: จากการวิจัยของฉัน อีวุยสามารถวิวัฒนาการเป็น
+โปเกมอนได้หลากหลายตัวเนื่องจากมีกลไกทาง
+พันธุกรรมที่ไม่เสถียร 
+
+RESOURCE ID: quest_special_dialogue_eevet_2_3
+TEXT: แล้วเรื่องที่ธันเดอร์สสามารถปล่อยไฟฟ้าประมาณ
+10000 โวลต์ออกมาได้ล่ะ?  
+
+RESOURCE ID: quest_special_dialogue_eevet_2_4
+TEXT: แล้วรู้ไหมว่าบูสเตอร์สามารถพ่นไฟที่มีอุณหภูมิ 1700
+องศาได้?   
+
+RESOURCE ID: quest_special_dialogue_eevet_2_6
+TEXT: บางทีอีวุยอาจมีบางอย่างที่พิเศษนอกเหนือจาก
+พันธุกรรมก็เป็นได้ 
+
+RESOURCE ID: quest_special_dialogue_eevet_2_7
+TEXT: ไปศึกษาเกี่ยวกับอีวุยเพิ่มเติมกันเถอะ ในบางช่วงเวลา
+ของวันอีวุยสามารถวิวัฒนาการเป็นประเภทพลังจิตเอฟี
+และประเภทความมืดแบล็กกีซึ่งเป็นโปเกมอนที่
+ถูกค้นพบครั้งแรกในภูมิภาคโจโตะได้ 
+
+RESOURCE ID: quest_special_dialogue_eevet_3_2
+TEXT: ส่วนแบล็กกีนั้นจะวิวัฒนาการจากอีวุยในช่วงเวลา
+กลางคืน ในคืนวันที่พระจันทร์เต็มดวงลายวงตามตัว
+จะเปล่งแสงสีเหลือง 
+
+RESOURCE ID: quest_special_dialogue_eevet_3_4
+TEXT: ราวกับว่าอีวุยเป็นตัวแทนของความลีกลับของเหล่า
+โปเกมอนเลยล่ะ  
+
+RESOURCE ID: quest_special_dialogue_eevet_4_0
+TEXT: ยินดีต้อนรับกลับมานะ %PLAYERNAME%! 
+
+RESOURCE ID: quest_special_dialogue_eevet_4_5
+TEXT: หวังว่าเธอจะได้รับแรงบันดาลใจจากอีวุยจนสามารถ
+หาเส้นทางที่เหมาะสมกับตัวเองได้พบนะ 
+
+RESOURCE ID: quest_special_dialogue_eevet_4_6
+TEXT: สำหรับปรัชญาชีวิตก็เอาไว้เท่านี้ก่อนแล้วกัน
+เป็นที่รู้กันดีว่าอีวุยสามารถวิวัฒนาการได้อีกร่างหนึ่ง
+ นั่นก็คือประเภทแฟรี่นิมเฟียซึ่งถูกค้นพบครั้งแรก
+ในภูมิภาคคาลอส  
+
+RESOURCE ID: quest_special_dialogue_hallow_2021_3_1
+TEXT: รู้ไหมว่ากระดูกที่การะการะมีอาจเป็นกระดูก
+ของแม่ของพวกมัน? 
+
 RESOURCE ID: quest_special_dialogue_hoopaunbound_0_0
 TEXT: ไง %PLAYERNAME%!
-ช่วงไม่กี่เดือนนี้เกิดเรื่องราวขึ้นมากมายเลยว่าไหม
+ช่วงไม่กี่เดือนนี้เกิดเรื่องราวขึ้นมากมายเลยว่าไหม 
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_0_1
 TEXT: ว่าแต่สนิทสนมกับฮูปาดีไหม
@@ -1037,12 +1148,8 @@ TEXT: แถมยังมีข้อความแนบมากับไ�
 ได้เพียงบางส่วนเท่านั้น
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_0_7
-TEXT: "เมื่อใดที่เจ้าถวายของหวานและผงที่เจ้าพบให้แก่ฮูปา
-เมื่อนั้นร่างของฮูปาจะถูกปลดปล่อย"
-
-RESOURCE ID: quest_special_dialogue_hoopaunbound_0_8
-TEXT: "และฮูปาจะยังคงอยู่ในร่างนี้ จนกว่าจะมีการถวาย
-ครั้งต่อไป"
+TEXT: Und diese Form besteht, 
+bis ihr weitere Gaben gebt."
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_0_9
 TEXT: ฉันไม่ค่อยถนัดพวกบทกวีเท่าไหร่
@@ -1113,8 +1220,10 @@ TEXT: มีบทกวีอีกส่วนที่ฉันคิดว�
 กับการเปลี่ยนร่างเช่นกัน
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_2_6
-TEXT: "และฮูปาจะยังคงอยู่ในร่างนี้ จนกว่าจะมีการถวาย
-ครั้งต่อไป"
+TEXT: «Когда время настанет 
+Вернуться к форме исходной, 
+Примени то же самое – 
+Станет Хуппа вновь Заключённым.»
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_2_7
 TEXT: ดูเหมือนว่าเธอจะต้องใช้ลูกอมฮูปาและสตาร์ดัสต์
@@ -1316,7 +1425,7 @@ TEXT: เธอน่าจะได้ลูกอมและสตาร์�
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_0
 TEXT: เยี่ยมไปเลย %PLAYERNAME%! โปเกมอนของเธอ
 ดูแข็งแกร่งขึ้นเยอะเลย รู้อะไรเพิ่มเติมจากการ
-วิวัฒนาการและพาวเวอร์อัปโปเกมอนบ้างหรือเปล่า?
+ วิวัฒนาการและพาวเวอร์อัปโปเกมอนบ้างหรือเปล่า?
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_5_1
 TEXT: ทุกครั้งที่ฉันเห็นโปเกมอนค้นพบศักยภาพใหม่ ๆ
@@ -1419,7 +1528,7 @@ TEXT: ยิมจะเป็นสีไหนนั้นขึ้นอย�
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_5
 TEXT: ยิมสีแดงนั้นอยู่ใต้การปกครองของทีมแวเลอร์
 นำโดยแคนเดลาผู้เร่าร้อน ยิมสีฟ้าเป็นของทีมมิสติก
-ซึ่งนำโดยบลองช์ผู้ถนัดด้านการคิดวิเคราะห์
+ ซึ่งนำโดยบลองช์ผู้ถนัดด้านการคิดวิเคราะห์
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_7_6
 TEXT: ส่วนยิมสีเหลืองนั้นเป็นของทีมอินสติงต์ โดยมีผู้นำ
@@ -1462,7 +1571,7 @@ TEXT: โปเกมอนเหล่านี้เป็นศัตรู�
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_5
 TEXT: ก่อนที่จะเข้าร่วมการตีบอส อย่าลืมพาวเวอร์อัป
 โปเกมอนล่ะ! ยิ่งสะสมลูกอมและสตาร์ดัสต์ได้เยอะ
-เธอก็จะยิ่งสร้างทีมที่แข็งแกร่งเพื่อไปเผชิญหน้า
+ เธอก็จะยิ่งสร้างทีมที่แข็งแกร่งเพื่อไปเผชิญหน้า
 กับบอสได้
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_6
@@ -1472,6 +1581,26 @@ TEXT: ลองพาวเวอร์อัปโปเกมอนบาง�
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_8_7
 TEXT: ของแบบนี้ ถ้าไม่ลองก็ไม่รู้ใช่ไหมล่ะ?
+
+RESOURCE ID: quest_special_dialogue_oshat_1_0
+TEXT: กลับมาแล้วเหรอ %PLAYERNAME%!
+รู้ไหมว่านอกจากมิจูมารุจะใช้เปลือกหอยโฮตาจิ
+ที่หน้าท้องในการต่อสู้แล้ว ยังใช้ในการหักลูกไม้
+ที่แข็งด้วย 
+
+RESOURCE ID: quest_special_dialogue_oshat_1_2
+TEXT: ฟุตาจิมารุฝึกฝนการใช้เปลือกหอยทั้งสองอัน
+ในการฟาดฟัน! ว่าแล้วก็ไปวิวัฒนาการ
+มิจูมารุเป็นฟุตาจิมารุดูสิ! 
+
+RESOURCE ID: quest_special_dialogue_oshat_2_3
+TEXT: ไดเคนคินั้นใช้ดาบที่เรียกว่าอาชิกาตานะที่ติดอยู่ตรงขาหน้าฟันศัตรูในแค่ชั่วพริบตาแล้วเก็บกลับที่เดิม  
+
+RESOURCE ID: quest_special_dialogue_season4_10_7
+TEXT: ดูเหมือนว่าโอร็อตจะเก็บผลไม้จากต้นไม้ใกล้ ๆ
+มาให้โบคุเรล่ะ ว่ากันว่าโอร็อตมักจะใจดีกับเหล่า
+โปเกมอนที่อาศัยอยู่ในป่า ไม่น่าเชื่อว่าจะได้มา
+เห็นภาพนั้นด้วยตัวเอง วิเศษไปเลย! 
 
 RESOURCE ID: quest_special_dialogue_season4_12_0
 TEXT: ไง %PLAYERNAME%! ยินดีต้อนรับกลับมานะ
@@ -1483,7 +1612,7 @@ RESOURCE ID: quest_special_dialogue_season4_12_1
 TEXT: เป็นโอกาสที่ดีในการค้นคว้าข้อมูลเกี่ยวกับ
 แสงสว่างและความมืด ไม่แน่ว่าฮูปาเองก็อาจจะ
 กำลังเฝ้ารอแสงสว่างและก้าวผ่านความมืดอยู่
-ก็เป็นได้
+ก็เป็นได้ 
 
 RESOURCE ID: quest_special_dialogue_season4_12_2
 TEXT: ยิ่งไปกว่านั้น ฉันอดไม่ได้ที่จะสงสัยว่าทำไม
@@ -1565,6 +1694,39 @@ TEXT: เราก็วิจัยกันมาถึงขนาดนี�
 ออกมาก็ได้ เตรียมใจพร้อมแล้วหรือยัง?
 ถ้าพร้อมแล้วก็ออกผจญภัยกันเลย!
 
+RESOURCE ID: quest_special_dialogue_season4_2_0
+TEXT: ไง %PLAYERNAME%! เป็นยังไงบ้าง
+เจอฮูปาหรือยัง? 
+
+RESOURCE ID: quest_special_dialogue_season4_2_5
+TEXT: เอาเป็นว่าช่วงนี้ฮูปาก็ดูเป็นมิตรมากกว่าเดิมเยอะเลย
+คงสนุกที่ได้เล่นกับพวกเราแน่ ๆ 
+
+RESOURCE ID: quest_special_dialogue_season4_4_0
+TEXT: ว่าไง %PLAYERNAME%!
+ดูเหมือนว่าบริเวณรอบ ๆ ห้องแล็บของฉันจะมี
+โปเกมอนประเภทพลังจิตโผล่มาเยอะขึ้นในช่วงนี้ล่ะ 
+
+RESOURCE ID: quest_special_dialogue_season4_4_3
+TEXT: ยิ่งไปกว่านั้น ฉันเชื่อว่าเราอาจเรียนรู้เกี่ยวกับฮูปาได้
+โดยการค้นคว้าโปเกมอนประเภทพลังจิตตัวอื่น ๆ
+อาทิเช่น...มาอีกะ 
+
+RESOURCE ID: quest_special_dialogue_season4_4_4
+TEXT: เพื่อนนักวิจัยของฉันในภูมิภาคคาลอสบอกว่า
+มาอีกะนั้นรู้จักกันในนามโปเกมอนหมุนวน
+ซึ่งมันเป็นโปเกมอนที่หมุนได้อย่างมีเอกลักษณ์ 
+
+RESOURCE ID: quest_special_dialogue_season4_5_1
+TEXT: จะว่าไป ฉันได้รับรายงานมาว่ามีโปเกมอนที่มีลักษณะ
+ภายนอกหลากหลายแบบล่ะ ยังไงก็ฝากสังเกตเกี่ยวกับ
+โปเกมอนตัวที่ว่าด้วยนะ 
+
+RESOURCE ID: quest_special_dialogue_season4_6_2
+TEXT: เราอาจได้เรียนรู้อะไรเพิ่มเติมจากการเปลี่ยน
+รูปลักษณ์ของทริมเมียนก็ได้ ลองไปหาทริมเมียน
+ดูกันเถอะ!  
+
 RESOURCE ID: quest_special_dialogue_shint_0_0
 TEXT: ไง %PLAYERNAME%! สบายดีรึเปล่า?
 
@@ -1645,65 +1807,83 @@ RESOURCE ID: quest_special_dialogue_shint_3_3
 TEXT: ดูเหมือนว่าเธอยังมีไฟในการค้นคว้าสินะ
 ถ้างั้นก็ออกไปผจญภัยต่อเลย!
 
+RESOURCE ID: quest_special_dialogue_snivt_3_1
+TEXT: จาโลดาสามารถสร้างความหวาดกลัวให้กับอีกฝ่ายได้เพียงแค่จ้องมอง และถึงแม้อีกฝ่ายจะไม่เกรงกลัว จาโลดาก็พร้อมที่จะสู้กับอีกฝ่ายอย่างเต็มกำลัง  
+
 RESOURCE ID: quest_special_dialogue_sphet_0_0
-TEXT: Hey there, %PLAYERNAME%! It's great to see you again! I’m glad you’re here,
+TEXT: Hey there, %PLAYERNAME%! It’s great to see you again.
 
 RESOURCE ID: quest_special_dialogue_sphet_0_1
-TEXT: I wanted to tell you about the most amazing thing I saw on my morning walk today— an assortment of spherical Spheals spinning across an icy lake! Ha ha, ha..
+TEXT: I wanted to tell you about what I saw on my morning walk today—a herd of Spheal rolling across an icy lake!
 
 RESOURCE ID: quest_special_dialogue_sphet_0_2
-TEXT: Ahem. Did you know that Spheal always travels by rolling around on its ball-like body?
+TEXT: Did you know that a Spheal always travels by rolling around on its ball-like body?
 
 RESOURCE ID: quest_special_dialogue_sphet_0_3
-TEXT: When the season for ice floes arrives, this Pokémon can be seen rolling about on ice and crossing the sea.
+TEXT: When the season for ice floes arrives, Spheal can be seen rolling about on ice and crossing the sea.
 
 RESOURCE ID: quest_special_dialogue_sphet_0_4
-TEXT: They’re also covered in fluffy fur, to keep them from feeling cold on the ice. It’s the cutest, most heart-warming sight I’ve seen today!
+TEXT: They’re also covered in fluffy fur to keep them from feeling cold in icy climes. And I’ll tell you, seeing them tumble to-and-fro warmed me right up, too!
 
 RESOURCE ID: quest_special_dialogue_sphet_0_5
-TEXT: Why don’t you go check out some Spheal for yourself too?
+TEXT: Why don’t you go check out some Spheal for yourself?
 
 RESOURCE ID: quest_special_dialogue_sphet_1_0
-TEXT: Good to see you back %PLAYERNAME%! I see that you’ve caught a stockpile of Spheals yourself! Aren’t they just the roundest?
+TEXT: Welcome back, %PLAYERNAME%! I see you’ve brought some Spheal with you. Aren’t they just the roundest?
 
 RESOURCE ID: quest_special_dialogue_sphet_1_1
-TEXT: According to my research, the evolution of Spheal, Sealeo, thinks so too! It seems that Sealeo occasionally entertains itself by balancing and rolling a Spheal on its nose.
+TEXT: According to my research, the Evolution of Spheal, Sealeo, seems to agree! Sealeo can occasionally be seen entertaining itself by balancing a Spheal on its nose as if juggling a ball.
 
 RESOURCE ID: quest_special_dialogue_sphet_1_2
-TEXT: Sealeo has the habit of always juggling on the tip of its nose anything it sees for the first time. I wish I could see it for myself!
+TEXT: In fact, when Sealeo sees just about anything for the first time, it tends to try juggling it on its nose! Why don’t you evolve your Spheal and see for yourself?
 
 RESOURCE ID: quest_special_dialogue_sphet_2_0
-TEXT: Welcome back, Trainer!  I see you've evolved some Sealeo. I hope we'll get a chance to see it play with Spheal!
+TEXT: Welcome back, Trainer—and hello there, Sealeo!
 
 RESOURCE ID: quest_special_dialogue_sphet_2_1
-TEXT: But I have some breaking news for you-- You remember that icy lake I told you about?
+TEXT: I have some breaking news for you. Remember that icy lake I told you about earlier?
 
 RESOURCE ID: quest_special_dialogue_sphet_2_2
-TEXT: Well, it looks like something’s broken up it up, and now all the Spheal are swirling around in the water! They seem to be having fun, but I wonder what Pokémon did this?
+TEXT: Well, it looks like something’s broken up it up, and now all the Spheal are splashing around in the water! They seem to be having fun, but I wonder what Pokémon could have caused this.
 
 RESOURCE ID: quest_special_dialogue_sphet_2_3
-TEXT: My best guess is Walrein. Walrein swims all over in frigid seawater while crushing icebergs with its grand, imposing tusks. Doesn’t that sound magnificent?
+TEXT: My best guess is Walrein. Walrein is known to swim through frigid seawater while crushing icebergs with its grand, imposing tusks. Sounds pretty magnificent, if a bit imposing.
 
 RESOURCE ID: quest_special_dialogue_sphet_2_4
-TEXT: Can you evolve some Sealeo so we can research them up close for ourselves? 
+TEXT: Can you evolve your Sealeo so we can research Walrein ourselves?
 
 RESOURCE ID: quest_special_dialogue_sphet_3_0
-TEXT: You did it, Trainer! Walrein sure has wonderful tusks in the flesh, or in the blubber, as it were. Haha…
+TEXT: You did it, Trainer! Walrein’s tusks really are magnificent up close, aren’t they?
 
 RESOURCE ID: quest_special_dialogue_sphet_3_1
-TEXT: Another fun fact about Walrein: They form herds of 20 to 30 individuals. When a threat appears, the herd's leader will protect the group with its life.
+TEXT: Did you know that Walrein typically gather in herds of about 20 or 30? When a threat appears, the herd’s leader will do whatever it takes to protect the group.
 
 RESOURCE ID: quest_special_dialogue_sphet_3_2
-TEXT: So all those Spheal and Sealeo are being well-looked after. How wholesome of Walrein!
+TEXT: Nice to know they can look after themselves—though considering those tusks, I don’t think that was ever in doubt. Haha!
 
 RESOURCE ID: quest_special_dialogue_sphet_3_3
-TEXT: And I’m sure your Walrein will protect you in battle as well. You already look like quite a winning team!
+TEXT: I’m sure your Walrein will protect you in battle as well. You already look like quite a powerful pair!
 
 RESOURCE ID: quest_special_dialogue_sphet_3_4
-TEXT: Thanks for going on this super Spheal adventure with me today, %PLAYERNAME%! I’ve learned a lot from the research you’ve helped me with. Until next time, let’s GO!
+TEXT: Thanks for going on this adventure with me today, %PLAYERNAME%! I’ve learned a lot from the research you conducted. Until next time, let’s GO!
+
+RESOURCE ID: quest_special_dialogue_tepit_0_5
+TEXT: โปเกมอนหมูไฟตัวนี้สามารถยิงลูกไฟ
+ออกมาจากจมูกเพื่อเผาผลไม้กินได้  
+
+RESOURCE ID: quest_special_dialogue_tepit_1_3
+TEXT: พอเปลวไฟในตัวของจาโอบูลุกไหม้
+มันจะขยับตัวได้ฉับไวและเร็วขึ้น
+สิ่งที่จาโอบูกินจะกลายเป็นเชื้อไฟทำให้เปลวไฟ
+ในกระเพาะรุนแรงขึ้น ฟังดูเป็นระบบเผาผลาญ
+ที่น่าอัศจรรย์มากเลย! 
+
+RESOURCE ID: quest_special_dialogue_tepit_2_3
+TEXT: เอ็นบูโอจะใช้ไฟที่คางเผากำปั้นให้เป็นหมัดไฟ
+และยังเป็นโปเกมอนที่ห่วงใยพวกพ้องด้วย  
 
 RESOURCE ID: quest_sphet_catch_b
-TEXT: Catch {0} Spheal
+TEXT: จับทามาซาราชิ {0} ตัว
 
 RESOURCE ID: quest_sphet_evolve_b
 TEXT: Evolve {0} Spheal
@@ -1912,6 +2092,12 @@ TEXT: สุดสัปดาห์แสนพิเศษ (SoftBank)
 RESOURCE ID: quest_title_spwk_tullys
 TEXT: สุดสัปดาห์แสนพิเศษ (Tully’s)
 
+RESOURCE ID: quest_walk_km
+TEXT: เดิน {0} กม
+
+RESOURCE ID: quest_walk_steps
+TEXT: เดิน {0} ก้าว
+
 RESOURCE ID: quest_win_raid_lvl1_singular
 TEXT: ชนะการตีบอสหนึ่งดาว
 
@@ -1942,6 +2128,9 @@ TEXT: เปิดใช้งานอัตราการรีเฟรช�
 RESOURCE ID: settings_unlock_base_framerate_description_on
 TEXT: เปิดใช้งานอัตราการรีเฟรชดั้งเดิมแล้ว
 
+RESOURCE ID: sinnoh_cup_title
+TEXT: Sinnoh Cup
+
 RESOURCE ID: spawn_shinx
 TEXT: โคลิงก์ปรากฏตัวออกมามากขึ้น
 
@@ -1966,11 +2155,14 @@ TEXT: สามารถซื้อตั๋วสำหรับงานว�
 RESOURCE ID: ticket_hoopau
 TEXT: สามารถซื้อตั๋วสำหรับงานวิจัยพิเศษได้ที่ร้านค้า
 
+RESOURCE ID: ticket_oshawott
+TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "จากโฮตาจิสู่อาชิกาตานะ" ได้ที่ร้านค้า 
+
 RESOURCE ID: ticket_shinx
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "แสงวาบเปล่งประกาย" ได้ที่ร้านค้า
 
 RESOURCE ID: ticket_spheal
-TEXT: Ticket for Special Research story available in the Shop: The Spheal Deal
+TEXT: Ticket for a Special Research story available in the shop
 
 RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: เทรนเนอร์ในคอมมิวนิตี้ท้องถิ่นจะต้องทำงานร่วมกันเพื่อทำคำท้านี้ให้เสร็จสมบูรณ์
@@ -2146,6 +2338,12 @@ TEXT: Do you want to upload these logs now?
 
 RESOURCE ID: verbose_logs_uploading_count
 TEXT: Uploading {0} logs...
+
+RESOURCE ID: walk_distance
+TEXT: กม.
+
+RESOURCE ID: walk_steps
+TEXT: ก้าว
 
 RESOURCE ID: weather_boost_active_3
 TEXT: ท่า{1}, {2} และ{3}ของ{0}ได้รับบูสต์จากสภาพอากาศ!

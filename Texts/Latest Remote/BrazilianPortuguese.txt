@@ -268,6 +268,18 @@ TEXT: Evento Pokémon BD e SP
 RESOURCE ID: bonus_reward_100_catch_startdust
 TEXT: +100 Poeira Estelar por captura
 
+RESOURCE ID: bundle.general1.large.1_title
+TEXT: Combo Ultraespecial
+
+RESOURCE ID: bundle.general1.small.1_title
+TEXT: Combo Especial
+
+RESOURCE ID: bundle.general3.medium.1_title
+TEXT: Combo de Aventuras
+
+RESOURCE ID: bundle.xmas.large.1_title
+TEXT: Combo de Aventuras
+
 RESOURCE ID: community_day_dec2021_event_name
 TEXT: Dia Comunitário de dezembro de 2021
 
@@ -400,9 +412,9 @@ RESOURCE ID: general1.ticket.2_shint_title
 TEXT: Ingresso: Lampejante, Fagulhante e Fulgurante
 
 RESOURCE ID: general1.ticket.2_sphet_description
-TEXT: A ticket to access the "The Spheal Deal" Special Research from January 16, 2022, at 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: A ticket to access the The Spheal Deal Special Research on January 16, 2022, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
 
- YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
 RESOURCE ID: general1.ticket.2_sphet_title
 TEXT: The Spheal Deal Ticket
@@ -434,10 +446,10 @@ RESOURCE ID: incense_day_pokemon_swinub
 TEXT: Swinub atraídos por Incenso
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access a special research on January 16, 2022 from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: Um ingresso para acessar uma pesquisa especial no dia 16 de janeiro de 2022, das 11h às 17h, no seu horário local, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: This ticket will automatically activate to give you access to a special research on January 16, 2022, wherever you are in the world.
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a uma pesquisa especial no dia 16 de janiero de 2022, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_hoopau_desc
 TEXT: Um ingresso para acessar a pesquisa especial "Travessura libertada", de onde você estiver.
@@ -470,17 +482,29 @@ TEXT: Um livro para colecionar Cartões-Postais e lembrar locais de suas jornada
 RESOURCE ID: item_postcard_inventory_name
 TEXT: Livro de Cartões-Postais
 
+RESOURCE ID: johto_cup_title
+TEXT: Copa de Johto
+
 RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: Pose
 do Lysandre
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2021-12-30T22:20:02.303747
-at SHA 192b7451d710230ba7143e68a060636d44363c35
-Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad
+TEXT: Built at 2022-01-07T01:06:53.798190
+at SHA 31ccd9f20df2ba4d01bd496cd8e7691e09e5b4c3
+Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218
 
 RESOURCE ID: minicollect_help_subtitle
 TEXT: Alguns Pokémon só podem ser encontrados de maneiras específicas. Veja os símbolos abaixo para saber como encontrar o Pokémon que deseja.
+
+RESOURCE ID: mobile_games_catch_sr
+TEXT: Mobile Games Show: Catch Challenge
+
+RESOURCE ID: mobile_games_throw_sr
+TEXT: Mobile Games Show: Throw Challenge
+
+RESOURCE ID: mop_event_name
+TEXT: Montanhas do poder
 
 RESOURCE ID: move_name_0353
 TEXT: Caninos Psíquicos
@@ -490,6 +514,24 @@ TEXT: Fúria de Hiperespaço
 
 RESOURCE ID: move_name_0355
 TEXT: Fenda de Hiperespaço
+
+RESOURCE ID: move_name_0357
+TEXT: Magical Leaf
+
+RESOURCE ID: move_name_0358
+TEXT: Sacred Fire
+
+RESOURCE ID: move_name_0360
+TEXT: Aeroblast+
+
+RESOURCE ID: move_name_0361
+TEXT: Aeroblast++
+
+RESOURCE ID: move_name_0362
+TEXT: Sacred Fire+
+
+RESOURCE ID: move_name_0363
+TEXT: Sacred Fire++
 
 RESOURCE ID: music_nighttime
 TEXT: Música especial no aplicativo durante a noite
@@ -619,7 +661,7 @@ RESOURCE ID: photobomb_five_shinx
 TEXT: 5 encontros surpresa com Shinx ao usar o Retrato GO
 
 RESOURCE ID: photobomb_five_spheal
-TEXT: 5 Photobombs from Spheal in GO Snapshot
+TEXT: 5 surprise encounters with Spheal in GO Snapshot
 
 RESOURCE ID: poi_contrib_ghostinfo_label
 TEXT: Wayspot usado em outros jogos da Niantic
@@ -918,12 +960,10 @@ RESOURCE ID: quest_special_dialogue_hoopaunbound_0_6
 TEXT: Havia uma nota anexada à garrafa. Consegui decifrar apenas uma parte, mas aqui está o que consegui até agora.
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_0_7
-TEXT: “Ofereça doces e poeiras encontradas,
-Então, a forma de Hoopa será libertada
-
-RESOURCE ID: quest_special_dialogue_hoopaunbound_0_8
-TEXT: E nesta forma permanecerá 
-Até que uma oferta novamente se fará. ”
+TEXT: «Если ты захочешь,  
+чтоб Хуппа сменил свою форму, 
+Конфеты и пыль  
+помогут ему стать Свободным.
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_0_9
 TEXT: Poesia não é exatamente meu forte, mas tem uma estrutura de rima interessante, eu diria!
@@ -950,8 +990,8 @@ RESOURCE ID: quest_special_dialogue_hoopaunbound_2_0
 TEXT: Eureka! %PLAYERNAME%, acabei de fazer uma enorme descoberta.
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_2_1
-TEXT: Lembra desta parte do poema?
-“Ofereça doces e poeiras encontradas
+TEXT: Lembra desta parte do poema? 
+“Ofereça doces e poeiras encontradas 
 Então, a forma de Hoopa será libertada”
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_2_10
@@ -1340,64 +1380,64 @@ RESOURCE ID: quest_special_dialogue_shint_3_3
 TEXT: Apesar de todo o trabalho árduo, parece que ainda há uma pequena faísca em você. Por que você não realiza algumas outras pesquisas e vê que outras aventuras o aguardam? Vamos nessa!
 
 RESOURCE ID: quest_special_dialogue_sphet_0_0
-TEXT: Hey there, %PLAYERNAME%! It's great to see you again! I’m glad you’re here,
+TEXT: Hey there, %PLAYERNAME%! It’s great to see you again.
 
 RESOURCE ID: quest_special_dialogue_sphet_0_1
-TEXT: I wanted to tell you about the most amazing thing I saw on my morning walk today— an assortment of spherical Spheals spinning across an icy lake! Ha ha, ha..
+TEXT: I wanted to tell you about what I saw on my morning walk today—a herd of Spheal rolling across an icy lake!
 
 RESOURCE ID: quest_special_dialogue_sphet_0_2
-TEXT: Ahem. Did you know that Spheal always travels by rolling around on its ball-like body?
+TEXT: Did you know that a Spheal always travels by rolling around on its ball-like body?
 
 RESOURCE ID: quest_special_dialogue_sphet_0_3
-TEXT: When the season for ice floes arrives, this Pokémon can be seen rolling about on ice and crossing the sea.
+TEXT: When the season for ice floes arrives, Spheal can be seen rolling about on ice and crossing the sea.
 
 RESOURCE ID: quest_special_dialogue_sphet_0_4
-TEXT: They’re also covered in fluffy fur, to keep them from feeling cold on the ice. It’s the cutest, most heart-warming sight I’ve seen today!
+TEXT: They’re also covered in fluffy fur to keep them from feeling cold in icy climes. And I’ll tell you, seeing them tumble to-and-fro warmed me right up, too!
 
 RESOURCE ID: quest_special_dialogue_sphet_0_5
-TEXT: Why don’t you go check out some Spheal for yourself too?
+TEXT: Why don’t you go check out some Spheal for yourself?
 
 RESOURCE ID: quest_special_dialogue_sphet_1_0
-TEXT: Good to see you back %PLAYERNAME%! I see that you’ve caught a stockpile of Spheals yourself! Aren’t they just the roundest?
+TEXT: Welcome back, %PLAYERNAME%! I see you’ve brought some Spheal with you. Aren’t they just the roundest?
 
 RESOURCE ID: quest_special_dialogue_sphet_1_1
-TEXT: According to my research, the evolution of Spheal, Sealeo, thinks so too! It seems that Sealeo occasionally entertains itself by balancing and rolling a Spheal on its nose.
+TEXT: According to my research, the Evolution of Spheal, Sealeo, seems to agree! Sealeo can occasionally be seen entertaining itself by balancing a Spheal on its nose as if juggling a ball.
 
 RESOURCE ID: quest_special_dialogue_sphet_1_2
-TEXT: Sealeo has the habit of always juggling on the tip of its nose anything it sees for the first time. I wish I could see it for myself!
+TEXT: In fact, when Sealeo sees just about anything for the first time, it tends to try juggling it on its nose! Why don’t you evolve your Spheal and see for yourself?
 
 RESOURCE ID: quest_special_dialogue_sphet_2_0
-TEXT: Welcome back, Trainer!  I see you've evolved some Sealeo. I hope we'll get a chance to see it play with Spheal!
+TEXT: Welcome back, Trainer—and hello there, Sealeo!
 
 RESOURCE ID: quest_special_dialogue_sphet_2_1
-TEXT: But I have some breaking news for you-- You remember that icy lake I told you about?
+TEXT: I have some breaking news for you. Remember that icy lake I told you about earlier?
 
 RESOURCE ID: quest_special_dialogue_sphet_2_2
-TEXT: Well, it looks like something’s broken up it up, and now all the Spheal are swirling around in the water! They seem to be having fun, but I wonder what Pokémon did this?
+TEXT: Well, it looks like something’s broken up it up, and now all the Spheal are splashing around in the water! They seem to be having fun, but I wonder what Pokémon could have caused this.
 
 RESOURCE ID: quest_special_dialogue_sphet_2_3
-TEXT: My best guess is Walrein. Walrein swims all over in frigid seawater while crushing icebergs with its grand, imposing tusks. Doesn’t that sound magnificent?
+TEXT: My best guess is Walrein. Walrein is known to swim through frigid seawater while crushing icebergs with its grand, imposing tusks. Sounds pretty magnificent, if a bit imposing.
 
 RESOURCE ID: quest_special_dialogue_sphet_2_4
-TEXT: Can you evolve some Sealeo so we can research them up close for ourselves? 
+TEXT: Can you evolve your Sealeo so we can research Walrein ourselves?
 
 RESOURCE ID: quest_special_dialogue_sphet_3_0
-TEXT: You did it, Trainer! Walrein sure has wonderful tusks in the flesh, or in the blubber, as it were. Haha…
+TEXT: You did it, Trainer! Walrein’s tusks really are magnificent up close, aren’t they?
 
 RESOURCE ID: quest_special_dialogue_sphet_3_1
-TEXT: Another fun fact about Walrein: They form herds of 20 to 30 individuals. When a threat appears, the herd's leader will protect the group with its life.
+TEXT: Did you know that Walrein typically gather in herds of about 20 or 30? When a threat appears, the herd’s leader will do whatever it takes to protect the group.
 
 RESOURCE ID: quest_special_dialogue_sphet_3_2
-TEXT: So all those Spheal and Sealeo are being well-looked after. How wholesome of Walrein!
+TEXT: Nice to know they can look after themselves—though considering those tusks, I don’t think that was ever in doubt. Haha!
 
 RESOURCE ID: quest_special_dialogue_sphet_3_3
-TEXT: And I’m sure your Walrein will protect you in battle as well. You already look like quite a winning team!
+TEXT: I’m sure your Walrein will protect you in battle as well. You already look like quite a powerful pair!
 
 RESOURCE ID: quest_special_dialogue_sphet_3_4
-TEXT: Thanks for going on this super Spheal adventure with me today, %PLAYERNAME%! I’ve learned a lot from the research you’ve helped me with. Until next time, let’s GO!
+TEXT: Thanks for going on this adventure with me today, %PLAYERNAME%! I’ve learned a lot from the research you conducted. Until next time, let’s GO!
 
 RESOURCE ID: quest_sphet_catch_b
-TEXT: Catch {0} Spheal
+TEXT: Pegar {0} Spheal.
 
 RESOURCE ID: quest_sphet_evolve_b
 TEXT: Evolve {0} Spheal
@@ -1606,6 +1646,12 @@ TEXT: Fim de semana especial (SoftBank)
 RESOURCE ID: quest_title_spwk_tullys
 TEXT: Fim de semana especial (Tully's)
 
+RESOURCE ID: quest_walk_km
+TEXT: Caminhar {0} km.
+
+RESOURCE ID: quest_walk_steps
+TEXT: Caminhar {0} passos.
+
 RESOURCE ID: quest_win_raid_lvl1_singular
 TEXT: Vencer 1 Reide de uma estrela.
 
@@ -1629,6 +1675,9 @@ TEXT: Desbloqueie a taxa de atualização nativa do seu dispositivo para usar um
 
 RESOURCE ID: settings_unlock_base_framerate_description_on
 TEXT: Taxa de atualização nativa desbloqueada.
+
+RESOURCE ID: sinnoh_cup_title
+TEXT: Copa de Sinnoh
 
 RESOURCE ID: spawn_shinx
 TEXT: Shinx selvagens estão aparecendo com mais frequência
@@ -1658,7 +1707,7 @@ RESOURCE ID: ticket_shinx
 TEXT: O ingresso para a pesquisa especial "Lampejante, Fagulhante e Fulgurante" está disponível na loja
 
 RESOURCE ID: ticket_spheal
-TEXT: Ticket for Special Research story available in the Shop: The Spheal Deal
+TEXT: Ticket for a Special Research story available in the shop
 
 RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: Todos os Treinadores devem trabalhar juntos como uma comunidade regional para completar este desafio.
@@ -1673,17 +1722,17 @@ RESOURCE ID: timed_challenge_work_together
 TEXT: Todos os Treinadores devem trabalhar juntos como uma comunidade regional para completar este desafio.
 
 RESOURCE ID: tips_friends_tutorial_lucky_unlocked_body
-TEXT: You and your Best Friends can now become Lucky Friends! Continue interacting with them for the chance to do so.
+TEXT: Você e seus melhores amigos agora podem se tornar amigos sortudos! Continue interagindo com eles para ter a chance disso acontecer.
 
-When you’re Lucky Friends, the next time you trade with each other, both of the Pokémon you trade will become Lucky Pokémon.
+Quando vocês têm uma Amizade Sortuda , da próxima vez que vocês fizerem trocas, os dois Pokémon trocados se tornarão Pokémon Sortudos.
 
 RESOURCE ID: tips_friends_tutorial_lucky_unlocked_title
-TEXT: Lucky Friends Unlocked
+TEXT: Amizade sortuda desbloqueada
 
 RESOURCE ID: tips_lucky_trading_modal_body
-TEXT: A Lucky Trade turns traded Pokémon into Lucky Pokémon!
+TEXT: Uma troca sortuda transforma o Pokémon trocado em um Pokémon Sortudo!
 
-Lucky Pokémon can be stronger in battle, require less Stardust to power up, and appear with a shimmery effect in the Pokédex and on the Pokémon’s summary page.
+Os Pokémon Sortudos podem ser mais fortes em batalha, requerem menos Poeira Estelar para se fortalecerem e aparecem com um efeito cintilante no Pokédex e na página de informações do Pokémon.
 
 RESOURCE ID: tips_lure_tutorial_intro_conversation_0
 TEXT: Olá, {0}! Tenho desenvolvido um Módulo Atrair para atrair Pokémon selvagens. 
@@ -1713,19 +1762,19 @@ RESOURCE ID: tips_razzberry_tutorial_message
 TEXT: Dê uma Fruta Frambo ou uma Fruta Frambo dourada a um Pokémon para que seja mais fácil capturá-lo.
 
 RESOURCE ID: tips_trading_intro_conversation_1
-TEXT: Hey there, %PLAYERNAME%! Did you know you can trade Pokémon with other Trainers?
+TEXT: Olá, %PLAYERNAME%! Você sabia que pode trocar Pokémon com outros Treinadores?
 
 RESOURCE ID: tips_trading_intro_conversation_2
-TEXT: Trading is an essential part of being a Pokémon Trainer.
+TEXT: Fazer trocas é uma parte essencial de ser um Treinador de Pokémon.
 
 RESOURCE ID: tips_trading_intro_conversation_3
-TEXT: You should give it a try! But remember: before you can trade with a friend, you both must be physically near each other.
+TEXT: Você deveria tentar! Mas lembre-se: antes de fazer trocas com um amigo, vocês devem estar fisicamente próximos um do outro.
 
 RESOURCE ID: tips_trading_intro_modal_body
-TEXT: Trade Pokémon with other Trainers to increase your Friendship Level! To trade a Pokémon, open your Friend List, and then tap the Trainer you wish to trade Pokémon with. Then, tap the <b>Trade</b> button to enter the trading screen.
+TEXT: Troque Pokémons com outros Treinadores para aumentar seu nível de amizade! Para trocar um Pokémon, abra sua lista de amigos e toque no Treinador com o qual deseja trocar Pokémon. Em seguida, toque no botão <b>Trocar</b> para entrar na tela de troca.
 
 RESOURCE ID: tips_trading_intro_modal_title
-TEXT: Trading Unlocked
+TEXT: Troca desbloqueada
 
 RESOURCE ID: titan_ar_data_policy_url
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=all&s=top-articles&f=scanning-a-pokestop
@@ -1740,10 +1789,10 @@ RESOURCE ID: trade_stardust_three_fourth
 TEXT: 3/4 do custo de Poeira Estelar por trocas
 
 RESOURCE ID: trade_tutorial_complete_1
-TEXT: Great work! It’s always a little sad to say good-bye, but look on the bright side: your friend has a new Pokémon friend, and so do you!
+TEXT: Ótimo trabalho! É sempre um pouco triste dizer adeus, mas olhe pelo lado bom: seu amigo tem um novo amigo Pokémon, e você também!
 
 RESOURCE ID: trade_tutorial_complete_2
-TEXT: Continue trading with your friends to increase your Friendship Level. Trade enough times, and you may even become Lucky Friends!
+TEXT: Continue fazendo trocas com seus amigos para aumentar seu nível de amizade. Faça várias trocas e vocês podem até conseguir uma amizade sortuda!
 
 RESOURCE ID: transfer_candy_xl_chance_quadruple
 TEXT: 4× mais chances de receber doces GG por transferir Pokémon
@@ -1800,6 +1849,12 @@ TEXT: Do you want to upload these logs now?
 
 RESOURCE ID: verbose_logs_uploading_count
 TEXT: Uploading {0} logs...
+
+RESOURCE ID: walk_distance
+TEXT: km
+
+RESOURCE ID: walk_steps
+TEXT: pASSOS
 
 RESOURCE ID: weather_boost_active_3
 TEXT: Os movimentos {1}, {2} e {3} de {0} são fortalecidos pelo clima!
