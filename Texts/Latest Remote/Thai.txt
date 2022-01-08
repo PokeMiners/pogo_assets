@@ -271,6 +271,33 @@ TEXT: คำท้านักสะสมปริศนาหอคอยเ�
 RESOURCE ID: dd_event_name
 TEXT: ปริศนาหอคอยเกลียวมังกร
 
+RESOURCE ID: delete_account_complete_message
+TEXT: You have initiated deletion of your account. Once you’ve verified deletion by email, then your account deletion request will be finalized. This action cannot be undone.
+
+RESOURCE ID: delete_account_complete_message_kids
+TEXT: You have initiated deletion of your account. Once your parent has verified deletion by email, then your account deletion request will be finalized. This action cannot be undone.
+
+RESOURCE ID: delete_account_complete_title
+TEXT: An email will be sent to {0} to finalize the deletion of your account.
+
+RESOURCE ID: delete_account_complete_title_kids
+TEXT: An email will be sent to your Parent’s email {0} to finalize the deletion of your account.
+
+RESOURCE ID: delete_account_initiate_message
+TEXT: By tapping Yes, an email will be sent to complete the account deletion process.
+
+RESOURCE ID: delete_account_initiate_message_kids
+TEXT: By tapping Yes, an email will be sent to your parent’s email to complete the account deletion process.
+
+RESOURCE ID: delete_account_initiate_title
+TEXT: Are you sure you want start the account deletion process?
+
+RESOURCE ID: delete_account_input_email_message
+TEXT: An email will be sent to complete the account deletion process.
+
+RESOURCE ID: delete_account_input_email_title
+TEXT: Please verify your email to confirm.
+
 RESOURCE ID: disable_sponsored_gift_description
 TEXT: ระหว่างการแวะไปที่ยิมหรือเสาโปเกสต็อป คุณอาจได้รับของขวัญที่ได้รับการสนับสนุนพร้อมข้อความสนับสนุนที่สัมพันธ์กับพิกัดของคุณ กด<b>ตกลง<b>เพื่อปิดการใช้งานตัวเลือกนี้ หากคุณไม่ต้องการรับของขวัญที่ได้รับการสนับสนุน <b>โปรดเริ่มใช้งานแอปใหม่อีกครั้งเพื่อให้การตั้งค่าในครั้งนี้แสดงผล แตะ<a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">ที่นี่</a>เพื่อเรียนรู้เพิ่มเติมเกี่ยวกับของขวัญที่ได้รับการสนับสนุน</b>
 
@@ -503,7 +530,7 @@ TEXT: อุปกรณ์ปล่อยลัวร์น้ำฝน
 วิวัฒนาการได้ด้วย
 
 RESOURCE ID: johto_cup_title
-TEXT: Johto Cup
+TEXT: การแข่งขันโจโตะ
 
 RESOURCE ID: limited_research_goomy
 TEXT: งานวิจัยแบบจำกัดเวลาของนูเมรา
@@ -537,8 +564,8 @@ RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: ท่าโพสเฟลอร์เดอลี
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-01-07T01:06:53.798190
-at SHA 31ccd9f20df2ba4d01bd496cd8e7691e09e5b4c3
+TEXT: Built at 2022-01-08T02:01:20.819385
+at SHA 1f4d357a12cb60cd42933a567f2f5a94826dc832
 Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218
 
 RESOURCE ID: minicollect_help_subtitle
@@ -1999,6 +2026,15 @@ TEXT: ฤดูกาลแห่งมรดก: คำท้าสตาร์
 RESOURCE ID: quest_title_season5_dec_page_9
 TEXT: ฤดูกาลแห่งมรดก: คำท้าสตาร์ดัสต์ (10/15)
 
+RESOURCE ID: quest_title_season5_feb_page_0
+TEXT: Season of Heritage - Catch Challenge (1/15)
+
+RESOURCE ID: quest_title_season5_feb_page_1
+TEXT: Season of Heritage - Catch Challenge (2/15)
+
+RESOURCE ID: quest_title_season5_feb_page_2
+TEXT: Season of Heritage - Catch Challenge (3/15)
+
 RESOURCE ID: quest_title_season5_jan
 TEXT: ฤดูกาลแห่งมรดก: คำท้า XP
 
@@ -2129,7 +2165,7 @@ RESOURCE ID: settings_unlock_base_framerate_description_on
 TEXT: เปิดใช้งานอัตราการรีเฟรชดั้งเดิมแล้ว
 
 RESOURCE ID: sinnoh_cup_title
-TEXT: Sinnoh Cup
+TEXT: การแข่งขันชินโอ
 
 RESOURCE ID: spawn_shinx
 TEXT: โคลิงก์ปรากฏตัวออกมามากขึ้น
@@ -2177,17 +2213,25 @@ RESOURCE ID: timed_challenge_work_together
 TEXT: เทรนเนอร์ในคอมมิวนิตี้ท้องถิ่นจะต้องทำงานร่วมกันเพื่อทำคำท้านี้ให้เสร็จสมบูรณ์
 
 RESOURCE ID: tips_friends_tutorial_lucky_unlocked_body
-TEXT: You and your Best Friends can now become Lucky Friends! Continue interacting with them for the chance to do so.
+TEXT: คุณและเพื่อนซี้ของคุณสามารถเป็น
+เพื่อนนำโชคได้แล้ว!
 
-When you’re Lucky Friends, the next time you trade with each other, both of the Pokémon you trade will become Lucky Pokémon.
+หากเป็นเพื่อนนำโชค เมื่อแลกเปลี่ยน
+โปเกมอนครั้งต่อไป โปเกมอนที่แลก
+จะกลายเป็นโปเกมอนนำโชค
 
 RESOURCE ID: tips_friends_tutorial_lucky_unlocked_title
-TEXT: Lucky Friends Unlocked
+TEXT: เพื่อนนำโชค
 
 RESOURCE ID: tips_lucky_trading_modal_body
-TEXT: A Lucky Trade turns traded Pokémon into Lucky Pokémon!
+TEXT: การแลกเปลี่ยนนำโชคจะเปลี่ยนโปเกมอน
+ที่แลกเปลี่ยนเป็นโปเกมอนนำโชค!
 
-Lucky Pokémon can be stronger in battle, require less Stardust to power up, and appear with a shimmery effect in the Pokédex and on the Pokémon’s summary page.
+เมื่อเป็นโปเกมอนนำโชค พวกมัน
+จะแข็งแกร่งในการต่อสู้ยิ่งกว่าเดิม
+ใช้สตาร์ดัสต์ในการพาวเวอร์อัปน้อยลง
+และปรากฏตัวพร้อมเอฟเฟกต์แวววาวใน
+โปเกเด็กซ์และในหน้าจอรายละเอียดโปเกมอน
 
 RESOURCE ID: tips_lure_tutorial_intro_conversation_0
 TEXT: ไง {0}!ฉันสร้างสิ่งที่สามารถดูดโปเกมอนป่า
@@ -2238,19 +2282,27 @@ TEXT: สามารถใช้แท็กเพื่อจัดหมว�
 โปเกมอนได้อย่างมีประสิทธิภาพมากขึ้น  
 
 RESOURCE ID: tips_trading_intro_conversation_1
-TEXT: Hey there, %PLAYERNAME%! Did you know you can trade Pokémon with other Trainers?
+TEXT: ไง %PLAYERNAME%! รู้ไหมว่าเธอสามารถแลกเปลี่ยน
+โปเกมอนกับเทรนเนอร์คนอื่นได้?
 
 RESOURCE ID: tips_trading_intro_conversation_2
-TEXT: Trading is an essential part of being a Pokémon Trainer.
+TEXT: การแลกเปลี่ยนเป็นหนึ่งในสิ่งสำคัญ
+ของการเป็นโปเกมอนเทรนเนอร์ล่ะ
 
 RESOURCE ID: tips_trading_intro_conversation_3
-TEXT: You should give it a try! But remember: before you can trade with a friend, you both must be physically near each other.
+TEXT: ลองทำดูสิ! แต่จำไว้ว่าเธอจะแลกเปลี่ยนกับเพื่อนได้
+ก็ต่อเมื่อ พวกเธอทั้งคู่อยู่ใกล้ ๆ กันเท่านั้น
 
 RESOURCE ID: tips_trading_intro_modal_body
-TEXT: Trade Pokémon with other Trainers to increase your Friendship Level! To trade a Pokémon, open your Friend List, and then tap the Trainer you wish to trade Pokémon with. Then, tap the <b>Trade</b> button to enter the trading screen.
+TEXT: แลกเปลี่ยนโปเกมอนกับเทรนเนอร์คนอื่น
+เพื่อเพิ่มระดับมิตรภาพ!
+เปิดรายชื่อเพื่อนแล้วแตะที่เทรนเนอร์ที่
+ต้องการแลกเปลี่ยนโปเกมอนด้วย
+จากนั้นจึงแตะที่ปุ่ม<b>แลกเปลี่ยน</b>
+เพื่อไปยังหน้าจอแลกเปลี่ยนโปเกมอน
 
 RESOURCE ID: tips_trading_intro_modal_title
-TEXT: Trading Unlocked
+TEXT: แลกเปลี่ยนโปเกมอน
 
 RESOURCE ID: titan_ar_data_policy_url
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=all&s=top-articles&f=scanning-a-pokestop
@@ -2265,10 +2317,12 @@ RESOURCE ID: trade_stardust_three_fourth
 TEXT: สตาร์ดัสต์ที่ใช้แลกเปลี่ยนลดเหลือ 3/4
 
 RESOURCE ID: trade_tutorial_complete_1
-TEXT: Great work! It’s always a little sad to say good-bye, but look on the bright side: your friend has a new Pokémon friend, and so do you!
+TEXT: เยี่ยมเลย! เท่านี้ทั้งเธอและเพื่อน
+ก็จะมีเพื่อนโปเกมอนตัวใหม่กันแล้ว!
 
 RESOURCE ID: trade_tutorial_complete_2
-TEXT: Continue trading with your friends to increase your Friendship Level. Trade enough times, and you may even become Lucky Friends!
+TEXT: แลกเปลี่ยนกับเพื่อนต่อไปเพื่อเพิ่มระดับมิตรภาพ
+ไม่แน่ว่าสักวันอาจจะกลายเป็น "เพื่อนนำโชค" ก็ได้นะ!
 
 RESOURCE ID: transfer_candy_xl_chance_quadruple
 TEXT: โอกาสได้รับลูกอม XL จากการถ่ายโอนโปเกมอน x4

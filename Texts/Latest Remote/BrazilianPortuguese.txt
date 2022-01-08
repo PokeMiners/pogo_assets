@@ -290,13 +290,40 @@ RESOURCE ID: community_day_shinx_event_name
 TEXT: Dia Comunitário: Shinx
 
 RESOURCE ID: community_day_spheal_event_name
-TEXT: Community Day: Spheal
+TEXT: Dia Comunitário: Spheal
 
 RESOURCE ID: dd_2021_collection_challenge
 TEXT: Desafio de coleção Descensão Dragãoespiral
 
 RESOURCE ID: dd_event_name
 TEXT: Descensão Dragãoespiral
+
+RESOURCE ID: delete_account_complete_message
+TEXT: You have initiated deletion of your account. Once you’ve verified deletion by email, then your account deletion request will be finalized. This action cannot be undone.
+
+RESOURCE ID: delete_account_complete_message_kids
+TEXT: You have initiated deletion of your account. Once your parent has verified deletion by email, then your account deletion request will be finalized. This action cannot be undone.
+
+RESOURCE ID: delete_account_complete_title
+TEXT: An email will be sent to {0} to finalize the deletion of your account.
+
+RESOURCE ID: delete_account_complete_title_kids
+TEXT: An email will be sent to your Parent’s email {0} to finalize the deletion of your account.
+
+RESOURCE ID: delete_account_initiate_message
+TEXT: By tapping Yes, an email will be sent to complete the account deletion process.
+
+RESOURCE ID: delete_account_initiate_message_kids
+TEXT: By tapping Yes, an email will be sent to your parent’s email to complete the account deletion process.
+
+RESOURCE ID: delete_account_initiate_title
+TEXT: Are you sure you want start the account deletion process?
+
+RESOURCE ID: delete_account_input_email_message
+TEXT: An email will be sent to complete the account deletion process.
+
+RESOURCE ID: delete_account_input_email_title
+TEXT: Please verify your email to confirm.
 
 RESOURCE ID: disable_sponsored_gift_description
 TEXT: Ao visitar Poképaradas e Ginásios, você pode receber presentes de patrocinadores junto com uma mensagem patrocinada relevante ao seu local. Ao desativar este recurso, você optará por não receber mais presentes de patrocinadores. Reinicie o aplicativo para salvar a sua escolha.
@@ -412,12 +439,12 @@ RESOURCE ID: general1.ticket.2_shint_title
 TEXT: Ingresso: Lampejante, Fagulhante e Fulgurante
 
 RESOURCE ID: general1.ticket.2_sphet_description
-TEXT: A ticket to access the The Spheal Deal Special Research on January 16, 2022, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: Um ingresso para acessar a pesquisa especial "O que está rolando com Spheal?", em 16 de janeiro de 2022, das 11h às 17h, horário local, de onde você estiver. Mais detalhes podem ser encontrados na seção de novidades do jogo.
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+VOCÊ DEVE JOGAR DURANTE O HORÁRIO ESPECIFICADO PARA RECEBER TODOS OS BÔNUS ESPECIAIS DO EVENTO.
 
 RESOURCE ID: general1.ticket.2_sphet_title
-TEXT: The Spheal Deal Ticket
+TEXT: Ingresso: "O que está rolando com Spheal?"
 
 RESOURCE ID: general1.ticket.4_description
 TEXT: Um ingresso para participar do  Pokémon GO Tour: Johto, no dia 26 de fevereiro de 2022, das 9h às 21h, horário local, de onde você estiver. Mais detalhes podem ser encontrados na seção de novidades do jogo.
@@ -490,8 +517,8 @@ TEXT: Pose
 do Lysandre
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-01-07T01:06:53.798190
-at SHA 31ccd9f20df2ba4d01bd496cd8e7691e09e5b4c3
+TEXT: Built at 2022-01-08T02:01:20.819385
+at SHA 1f4d357a12cb60cd42933a567f2f5a94826dc832
 Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218
 
 RESOURCE ID: minicollect_help_subtitle
@@ -661,7 +688,7 @@ RESOURCE ID: photobomb_five_shinx
 TEXT: 5 encontros surpresa com Shinx ao usar o Retrato GO
 
 RESOURCE ID: photobomb_five_spheal
-TEXT: 5 surprise encounters with Spheal in GO Snapshot
+TEXT: 5 encontros surpresa com Spheal ao usar o Retrato GO
 
 RESOURCE ID: poi_contrib_ghostinfo_label
 TEXT: Wayspot usado em outros jogos da Niantic
@@ -834,10 +861,28 @@ RESOURCE ID: quest_complete_shint
 TEXT: Lampejante, Fagulhante e Fulgurante
 
 RESOURCE ID: quest_complete_sphet
-TEXT: The Spheal Deal
+TEXT: O que está rolando com Spheal?
 
 RESOURCE ID: quest_dec2021_catch_b
 TEXT: Pegar {0} Pokémon que foram destaque nos Dias Comunitários de 2021.
+
+RESOURCE ID: quest_evolve_bayleef_singular
+TEXT: Evoluir 1 Bayleef.
+
+RESOURCE ID: quest_evolve_chikorita_singular
+TEXT: Evoluir 1 Chikorita.
+
+RESOURCE ID: quest_evolve_croconaw_singular
+TEXT: Evoluir 1 Croconaw.
+
+RESOURCE ID: quest_evolve_cyndaquil_singular
+TEXT: Evoluir 1 Cyndaquil.
+
+RESOURCE ID: quest_evolve_quilava_singular
+TEXT: Evoluir 1 Quilava.
+
+RESOURCE ID: quest_evolve_totodile_singular
+TEXT: Evoluir 1 Totodile.
 
 RESOURCE ID: quest_gift_open_plural
 TEXT: Abrir {0} presentes.
@@ -1380,70 +1425,70 @@ RESOURCE ID: quest_special_dialogue_shint_3_3
 TEXT: Apesar de todo o trabalho árduo, parece que ainda há uma pequena faísca em você. Por que você não realiza algumas outras pesquisas e vê que outras aventuras o aguardam? Vamos nessa!
 
 RESOURCE ID: quest_special_dialogue_sphet_0_0
-TEXT: Hey there, %PLAYERNAME%! It’s great to see you again.
+TEXT: Olá, %PLAYERNAME%! É muito bom ver você por aqui novamente.
 
 RESOURCE ID: quest_special_dialogue_sphet_0_1
-TEXT: I wanted to tell you about what I saw on my morning walk today—a herd of Spheal rolling across an icy lake!
+TEXT: Eu queria contar a você sobre o que eu vi hoje na minha caminhada matinal: um bando de Spheal rolando em um lago congelado!
 
 RESOURCE ID: quest_special_dialogue_sphet_0_2
-TEXT: Did you know that a Spheal always travels by rolling around on its ball-like body?
+TEXT: Você sabia que um Spheal sempre viaja rolando com seu corpo em forma de bola?
 
 RESOURCE ID: quest_special_dialogue_sphet_0_3
-TEXT: When the season for ice floes arrives, Spheal can be seen rolling about on ice and crossing the sea.
+TEXT: Quando a temporada de blocos de gelo chega, Spheal pode ser visto rolando no gelo e cruzando o mar.
 
 RESOURCE ID: quest_special_dialogue_sphet_0_4
-TEXT: They’re also covered in fluffy fur to keep them from feeling cold in icy climes. And I’ll tell you, seeing them tumble to-and-fro warmed me right up, too!
+TEXT: Eles também são cobertos de pelos macios para evitar que sintam frio em climas gélidos. E eu vou te dizer que vê-los tombar de um lado para o outro me aqueceu imediatamente também!
 
 RESOURCE ID: quest_special_dialogue_sphet_0_5
-TEXT: Why don’t you go check out some Spheal for yourself?
+TEXT: Por que você não checa alguns Spheal por si mesmo?
 
 RESOURCE ID: quest_special_dialogue_sphet_1_0
-TEXT: Welcome back, %PLAYERNAME%! I see you’ve brought some Spheal with you. Aren’t they just the roundest?
+TEXT: Boas-vindas de volta, %PLAYERNAME%! Vejo que trouxe alguns Spheal com você. Eles não são os mais redondinhos?
 
 RESOURCE ID: quest_special_dialogue_sphet_1_1
-TEXT: According to my research, the Evolution of Spheal, Sealeo, seems to agree! Sealeo can occasionally be seen entertaining itself by balancing a Spheal on its nose as if juggling a ball.
+TEXT: De acordo com minha pesquisa, a Evolução de Spheal, Sealeo, parece concordar! Sealeo pode ocasionalmente ser visto se divertindo equilibrando um Spheal em seu nariz como se estivesse fazendo malabarismo com uma bola.
 
 RESOURCE ID: quest_special_dialogue_sphet_1_2
-TEXT: In fact, when Sealeo sees just about anything for the first time, it tends to try juggling it on its nose! Why don’t you evolve your Spheal and see for yourself?
+TEXT: Na verdade, quando Sealeo vê praticamente qualquer coisa pela primeira vez, ele tende a tentar fazer malabarismos com o nariz! Por que você não evolui seu Spheal e vê por si mesmo?
 
 RESOURCE ID: quest_special_dialogue_sphet_2_0
-TEXT: Welcome back, Trainer—and hello there, Sealeo!
+TEXT: Boas-vindas de volta, Treinador. E olá, Sealeo!
 
 RESOURCE ID: quest_special_dialogue_sphet_2_1
-TEXT: I have some breaking news for you. Remember that icy lake I told you about earlier?
+TEXT: Eu tenho algumas notícias de última hora para você. Lembra daquele lago congelado que eu falei antes?
 
 RESOURCE ID: quest_special_dialogue_sphet_2_2
-TEXT: Well, it looks like something’s broken up it up, and now all the Spheal are splashing around in the water! They seem to be having fun, but I wonder what Pokémon could have caused this.
+TEXT: Bem, parece que algo se quebrou, e agora todos os Spheal estão caindo na água! Eles parecem estar se divertindo, mas eu me pergunto que Pokémon poderia ter causado isso.
 
 RESOURCE ID: quest_special_dialogue_sphet_2_3
-TEXT: My best guess is Walrein. Walrein is known to swim through frigid seawater while crushing icebergs with its grand, imposing tusks. Sounds pretty magnificent, if a bit imposing.
+TEXT: Meu melhor palpite é Walrein. Walrein é conhecido por nadar nas águas gélidas do mar enquanto esmaga icebergs com suas grandes e imponentes presas. Parece magnífico, embora um pouco imponente.
 
 RESOURCE ID: quest_special_dialogue_sphet_2_4
-TEXT: Can you evolve your Sealeo so we can research Walrein ourselves?
+TEXT: Você pode evoluir seu Sealeo para que possamos pesquisar Walrein nós mesmos?
 
 RESOURCE ID: quest_special_dialogue_sphet_3_0
-TEXT: You did it, Trainer! Walrein’s tusks really are magnificent up close, aren’t they?
+TEXT: Você conseguiu, Treinador! As presas de Walrein são realmente magníficas de perto, não são?
 
 RESOURCE ID: quest_special_dialogue_sphet_3_1
-TEXT: Did you know that Walrein typically gather in herds of about 20 or 30? When a threat appears, the herd’s leader will do whatever it takes to protect the group.
+TEXT: Você sabia que Walrein normalmente se reúnem em bandos de cerca de 20 ou 30? Quando uma ameaça aparece, o líder do bando fará o que for preciso para proteger o grupo.
 
 RESOURCE ID: quest_special_dialogue_sphet_3_2
-TEXT: Nice to know they can look after themselves—though considering those tusks, I don’t think that was ever in doubt. Haha!
+TEXT: É bom saber que eles podem cuidar de si mesmos, embora considerando essas presas, acho que nunca houve dúvida sobre isso. Haha!
 
 RESOURCE ID: quest_special_dialogue_sphet_3_3
-TEXT: I’m sure your Walrein will protect you in battle as well. You already look like quite a powerful pair!
+TEXT: Tenho certeza de que seu Walrein também o protegerá na batalha. Vocês já parecem uma dupla bastante poderosa!
 
 RESOURCE ID: quest_special_dialogue_sphet_3_4
-TEXT: Thanks for going on this adventure with me today, %PLAYERNAME%! I’ve learned a lot from the research you conducted. Until next time, let’s GO!
+TEXT: Obrigado por ir nesta aventura comigo hoje, %PLAYERNAME%! Aprendi muito com a pesquisa que você conduziu. Então, até a próxima. Vamos nessa!
 
 RESOURCE ID: quest_sphet_catch_b
 TEXT: Pegar {0} Spheal.
 
 RESOURCE ID: quest_sphet_evolve_b
-TEXT: Evolve {0} Spheal
+TEXT: Evoluir {0} Spheal.
 
 RESOURCE ID: quest_sphet_evolve_s1
-TEXT: Evolve {0} Sealeo
+TEXT: Evoluir {0} Sealeo.
 
 RESOURCE ID: quest_start_battle
 TEXT: COMEÇAR A BATALHA!
@@ -1553,6 +1598,15 @@ TEXT: Temporada de legado: desafio de Poeira Estelar (9/15)
 RESOURCE ID: quest_title_season5_dec_page_9
 TEXT: Temporada de legado: desafio de Poeira Estelar (10/15)
 
+RESOURCE ID: quest_title_season5_feb_page_0
+TEXT: Season of Heritage - Catch Challenge (1/15)
+
+RESOURCE ID: quest_title_season5_feb_page_1
+TEXT: Season of Heritage - Catch Challenge (2/15)
+
+RESOURCE ID: quest_title_season5_feb_page_2
+TEXT: Season of Heritage - Catch Challenge (3/15)
+
 RESOURCE ID: quest_title_season5_jan
 TEXT: Temporada de legado: desafio de PE
 
@@ -1617,19 +1671,19 @@ RESOURCE ID: quest_title_shint_3
 TEXT: Lampejante, Fagulhante e Fulgurante (4/4)
 
 RESOURCE ID: quest_title_sphet
-TEXT: The Spheal Deal
+TEXT: O que está rolando com Spheal?
 
 RESOURCE ID: quest_title_sphet_0
-TEXT: The Spheal Deal (1/4)
+TEXT: O que está rolando com Spheal? (1/4)
 
 RESOURCE ID: quest_title_sphet_1
-TEXT: The Spheal Deal (2/4)
+TEXT: O que está rolando com Spheal? (2/4)
 
 RESOURCE ID: quest_title_sphet_2
-TEXT: The Spheal Deal (3/4)
+TEXT: O que está rolando com Spheal? (3/4)
 
 RESOURCE ID: quest_title_sphet_3
-TEXT: The Spheal Deal (4/4)
+TEXT: O que está rolando com Spheal? (4/4)
 
 RESOURCE ID: quest_title_spwk_family_mart
 TEXT: Fim de semana especial (Family Mart)
@@ -1656,7 +1710,7 @@ RESOURCE ID: quest_win_raid_lvl1_singular
 TEXT: Vencer 1 Reide de uma estrela.
 
 RESOURCE ID: quest_xp_plural
-TEXT: Ganhe {0} PE
+TEXT: Ganhar {0} PE.
 
 RESOURCE ID: rocket_grunt_ice_water
 TEXT: Recrutas da Equipe GO Rocket terão mais Pokémon de tipo Água e de tipo Gelo
@@ -1683,7 +1737,7 @@ RESOURCE ID: spawn_shinx
 TEXT: Shinx selvagens estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_spheal
-TEXT: More Spheal are appearing in the wild
+TEXT: Spheal selvagens estão aparecendo com mais frequência
 
 RESOURCE ID: tabrs_instruction_global
 TEXT: Todos os Treinadores devem trabalhar juntos como uma comunidade global para completar este desafio.
@@ -1707,7 +1761,7 @@ RESOURCE ID: ticket_shinx
 TEXT: O ingresso para a pesquisa especial "Lampejante, Fagulhante e Fulgurante" está disponível na loja
 
 RESOURCE ID: ticket_spheal
-TEXT: Ticket for a Special Research story available in the shop
+TEXT: O ingresso para a narrativa de pesquisa especial está disponível na loja
 
 RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: Todos os Treinadores devem trabalhar juntos como uma comunidade regional para completar este desafio.
