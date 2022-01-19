@@ -284,31 +284,31 @@ RESOURCE ID: december_cd_event_ticket
 TEXT: 12월 커뮤니티 데이 티켓
 
 RESOURCE ID: delete_account_complete_message
-TEXT: You have initiated the account deletion process. Once you’ve verified the deletion via email, your account deletion request will be finalized. This action cannot be undone.
+TEXT: 계정 삭제 절차를 시작합니다. 계정 삭제를 메일에서 확인하면 당신의 계정 삭제 의뢰가 확정됩니다. 이 처리는 되돌릴 수 없습니다.
 
 RESOURCE ID: delete_account_complete_message_kids
-TEXT: You have initiated the account deletion process. Once your parent has verified the deletion via email, your account deletion request will be finalized. This action cannot be undone.
+TEXT: 계정 삭제 절차를 시작합니다. 보호자가 계정 삭제를 메일에서 확인하면 당신의 계정 삭제 의뢰가 확정됩니다. 이 처리는 되돌릴 수 없습니다.
 
 RESOURCE ID: delete_account_complete_title
-TEXT: An email will be sent to {0} to finalize the deletion of your account.
+TEXT: 메일 주소 {0}으로 계정 삭제 절차 완료를 위한 메일이 보내집니다.
 
 RESOURCE ID: delete_account_complete_title_kids
-TEXT: An email will be sent to your parent’s email address, {0}, to finalize the deletion of your account.
+TEXT: 보호자의 메일 주소 {0}으로 계정 삭제 절차 완료를 위한 메일이 보내집니다.
 
 RESOURCE ID: delete_account_initiate_message
-TEXT: By tapping Yes, an email will be sent to you to complete the account deletion process.
+TEXT: "YES"를 선택하시면 계정 삭제 절차 완료를 위한 메일이 보내집니다.
 
 RESOURCE ID: delete_account_initiate_message_kids
-TEXT: By tapping Yes, an email will be sent to your parent’s email address to complete the account deletion process.
+TEXT: "YES"를 선택하시면 보호자 메일로 계정 삭제 절차 완료를 위한 메일이 보내집니다.
 
 RESOURCE ID: delete_account_initiate_title
-TEXT: Are you sure you want begin the account deletion process?
+TEXT: 계정 삭제를 진행하겠습니까?
 
 RESOURCE ID: delete_account_input_email_message
-TEXT: An email will be sent to you to complete the account deletion process.
+TEXT: 계정 삭제 절차 완료를 위한 메일이 보내집니다.
 
 RESOURCE ID: delete_account_input_email_title
-TEXT: Please verify your email address to confirm.
+TEXT: 메일 주소 확인
 
 RESOURCE ID: disable_sponsored_gift_description
 TEXT: 포켓스톱 또는 체육관의 포토 디스크를 돌리면 그 영역에 관련된 광고가 있는 스폰서 선물이 제공되는 경우가 있습니다. 스폰서 선물 표시를 꺼두면 스폰서 선물이 제공되는 곳에서도 홍보 선물이 표시되지 않습니다.<b>ON, OFF는 앱을 다시 시작하면 확정할 수 있습니다. 스폰서 선물에 대한 자세한 내용은 <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">여기</a>를 탭하면 확인할 수 있습니다.
@@ -585,8 +585,8 @@ RESOURCE ID: master_classic_title
 TEXT: ML 클래식
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-01-14T04:09:36.255903
-at SHA 1f6cb4bc815c853184254f3f890d588a18e84f2c
+TEXT: Built at 2022-01-18T20:09:55.966554
+at SHA e0c08c5b7f4e04a316d43c671b72cd5c3eeb9551
 Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218
 
 RESOURCE ID: minicollect_help_subtitle
@@ -912,6 +912,9 @@ TEXT: 이 엽서를 보낸 사람을 알 수 없습니다. 닉네임을 공유�
 RESOURCE ID: postcard_unknown_name
 TEXT: 알 수 없는 트레이너
 
+RESOURCE ID: ppl_event_name
+TEXT: 발전소
+
 RESOURCE ID: projectguitar_event_name
 TEXT: Ed Sheeran 콜라보 이벤트
 
@@ -980,6 +983,12 @@ TEXT: 전설 또는 환상의 포켓몬을 1번 강화한다
 
 RESOURCE ID: quest_send_gifts_daily_row
 TEXT: 선물을 {0}일 연속 보내기
+
+RESOURCE ID: quest_send_gifts_sticker_plural
+TEXT: Send {0} Gifts with a Sticker
+
+RESOURCE ID: quest_send_gifts_sticker_singular
+TEXT: Send a Gift with a Sticker
 
 RESOURCE ID: quest_shint_catch_b
 TEXT: 꼬링크를 {0}마리 잡는다
@@ -1919,6 +1928,15 @@ TEXT: 근처의 레이드배틀은 없습니다
 
 RESOURCE ID: rocket_grunt_ice_water
 TEXT: GO로켓단의 조무래기가 사용하는 얼음타입과 물타입 포켓몬 증가
+
+RESOURCE ID: sa_auth_failed
+TEXT: 인증하지 못했습니다. 다시 한번 시도해 주십시오.
+
+RESOURCE ID: sa_login_button
+TEXT: Niantic for Kids
+
+RESOURCE ID: sa_login_title
+TEXT: Niantic for Kids
 
 RESOURCE ID: select_gift_to_delete_or_save_prompt
 TEXT: 따라온 엽서를 핀으로 고정(또는 삭제)할 선물을 선택하세요.
