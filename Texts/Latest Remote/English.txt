@@ -1,3 +1,9 @@
+RESOURCE ID: advanced_settings_delete_account_button
+TEXT: Delete Account
+
+RESOURCE ID: advanced_settings_delete_account_button_description
+TEXT: Once your Pokémon GO account is deleted, it will no longer be accessible by you or anyone else. This action cannot be undone.
+
 RESOURCE ID: ardk_download_prompt_title_monodepth
 TEXT: To enjoy a more immersive AR experience, the Niantic AR package will need to be downloaded.
 
@@ -298,13 +304,19 @@ RESOURCE ID: delete_account_initiate_message_kids
 TEXT: By tapping Yes, an email will be sent to your parent’s email address to complete the account deletion process.
 
 RESOURCE ID: delete_account_initiate_title
-TEXT: Are you sure you want begin the account deletion process?
+TEXT: Are you sure you want to begin the account deletion process?
 
 RESOURCE ID: delete_account_input_email_message
 TEXT: An email will be sent to you to complete the account deletion process.
 
+RESOURCE ID: delete_account_input_email_message_kids
+TEXT: An email will be sent to your parent's email to complete the account deletion process.
+
 RESOURCE ID: delete_account_input_email_title
 TEXT: Please verify your email address to confirm.
+
+RESOURCE ID: delete_account_input_email_title_kids
+TEXT: Please verify your parent's email to confirm.
 
 RESOURCE ID: disable_sponsored_gift_description
 TEXT: When you visit PokéStops or Gyms, you may receive Sponsored Gifts along with a sponsored message relevant to your location. By disabling this option, you are opting out of receiving Sponsored Gifts. Please restart the app to save your selection.
@@ -456,7 +468,7 @@ RESOURCE ID: general_week
 TEXT: Week
 
 RESOURCE ID: gift_open_double_stardust
-TEXT: Double Stardust from opening Gifts
+TEXT: 2× Stardust from opening Gifts
 
 RESOURCE ID: help_center_friends_link
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=all&s=friends-gifting-trading&f=friend-list-friendship-levels-1614899618
@@ -474,10 +486,10 @@ RESOURCE ID: item_event_ticket_pink_bulbt_details
 TEXT: This ticket will automatically activate to give you access to Special Research on January 22, 2022, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access Special Research on January 16, 2022, from 11:00 a.m. to 5:00 p.m. local time, wherever you are.
+TEXT: A ticket to access Special Research on January 22, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: This ticket will automatically activate to give you access to Special Research on January 16, 2022, wherever you are in the world.
+TEXT: This ticket will automatically activate to give you access to Special Research on January 22, 2022, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_hoopau_desc
 TEXT: A ticket to access the Mischief Unbound Special Research, wherever you are.
@@ -535,9 +547,9 @@ RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: Lysandre Pose
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-01-18T20:09:55.966554
-at SHA e0c08c5b7f4e04a316d43c671b72cd5c3eeb9551
-Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218
+TEXT: Built at 2022-01-21T02:25:12.251578
+at SHA 608509258f779f0bdcf38f9dd98f535cdc933ffa
+Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218, 0.227.1-SHA-d7318086
 
 RESOURCE ID: minicollect_help_subtitle
 TEXT: Some Pokémon can only be encountered in certain ways. Please refer to the symbols below to understand how to encounter the Pokémon you want.
@@ -923,10 +935,10 @@ RESOURCE ID: quest_send_gifts_daily_row
 TEXT: Send Gifts {0} Days in a Row
 
 RESOURCE ID: quest_send_gifts_sticker_plural
-TEXT: Send {0} Gifts with a Sticker
+TEXT: Send {0} Gifts and add a sticker to each
 
 RESOURCE ID: quest_send_gifts_sticker_singular
-TEXT: Send a Gift with a Sticker
+TEXT: Send a Gift with a sticker
 
 RESOURCE ID: quest_snapshot_hoopa_singular
 TEXT: Take a snapshot of Hoopa

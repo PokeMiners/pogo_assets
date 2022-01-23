@@ -1,3 +1,9 @@
+RESOURCE ID: advanced_settings_delete_account_button
+TEXT: 刪除帳號
+
+RESOURCE ID: advanced_settings_delete_account_button_description
+TEXT: 刪除Pokémon GO帳號後，你或任何人都無法開啟這個帳號。帳號刪除後無法被救回。
+
 RESOURCE ID: ardk_download_prompt_title_monodepth
 TEXT: 下載Niantic AR套組，體驗更全面的AR樂趣。
 
@@ -290,31 +296,37 @@ RESOURCE ID: dd_event_name
 TEXT: 龍螺旋之塔尋謎
 
 RESOURCE ID: delete_account_complete_message
-TEXT: You have initiated the account deletion process. Once you’ve verified the deletion via email, your account deletion request will be finalized. This action cannot be undone.
+TEXT: 刪除帳號的手續正在進行中。只要你完成了電子郵件的驗證確認刪除，你的帳號將被刪除。此刪除手續將無法取消。
 
 RESOURCE ID: delete_account_complete_message_kids
-TEXT: You have initiated the account deletion process. Once your parent has verified the deletion via email, your account deletion request will be finalized. This action cannot be undone.
+TEXT: 刪除帳號的手續正在進行中。只要你的父母或監護人完成了電子郵件中的驗證確認刪除，你的帳號將被刪除。此刪除手續將無法取消。
 
 RESOURCE ID: delete_account_complete_title
 TEXT: 你將會收到一封標題為「{0}」的電子郵件，協助你完成帳號刪除。
 
 RESOURCE ID: delete_account_complete_title_kids
-TEXT: An email will be sent to your parent’s email address, {0}, to finalize the deletion of your account.
+TEXT: 你的父母或監護人的電子郵件：{0}將會收到一封信，協助你完成帳號刪除的手續。
 
 RESOURCE ID: delete_account_initiate_message
-TEXT: By tapping Yes, an email will be sent to you to complete the account deletion process.
+TEXT: 如果你點擊了「是」，你將會收到一封電子郵件以完成帳號刪除。
 
 RESOURCE ID: delete_account_initiate_message_kids
-TEXT: By tapping Yes, an email will be sent to your parent’s email address to complete the account deletion process.
+TEXT: 如果你點擊了「是」，你的父母或監護人將會收到一封協助你完成帳號刪除的電子郵件。
 
 RESOURCE ID: delete_account_initiate_title
-TEXT: Are you sure you want begin the account deletion process?
+TEXT: 你確定要刪除帳號嗎？
 
 RESOURCE ID: delete_account_input_email_message
-TEXT: An email will be sent to you to complete the account deletion process.
+TEXT: 你將會收到一封電子郵件以完成帳號刪除。
+
+RESOURCE ID: delete_account_input_email_message_kids
+TEXT: 你的父母或監護人將會收到一封電子郵件以完成帳號刪除。
 
 RESOURCE ID: delete_account_input_email_title
-TEXT: Please verify your email address to confirm.
+TEXT: 確認電子郵件
+
+RESOURCE ID: delete_account_input_email_title_kids
+TEXT: 確認電子郵件
 
 RESOURCE ID: disable_sponsored_gift_description
 TEXT: 拜訪道館和寶可補給站時，有機會收到附近贊助商提供的禮物和相關廣告訊息。關閉贊助商禮物功能後，附廣告訊息的禮物就不會出現在有提供贊助商禮物的地方。 <b>此功能的開啟與關閉需要重新啟動遊戲後才會生效。關於贊助商禮物的詳細資訊，請至<a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&s=in-game-locations&f=sponsored-gifts">此處</a>確認。</b>
@@ -489,10 +501,10 @@ RESOURCE ID: item_event_ticket_pink_bulbt_details
 TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2022年1月22日活動時間內領取特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2022年1月16日11:00～17:00獲得特殊調查的課題。
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2022年1月22日14:00～17:00獲得特殊調查的課題。
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2022年1月16日活動時間內領取特殊調查。
+TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2022年1月22日活動時間內領取特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_hoopau_desc
 TEXT: 無論你身在何處，都可以用這張入場券來領取特殊調查「解放惡作劇」。
@@ -550,9 +562,9 @@ RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: 弗拉達利　姿勢
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-01-18T20:09:55.966554
-at SHA e0c08c5b7f4e04a316d43c671b72cd5c3eeb9551
-Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218
+TEXT: Built at 2022-01-21T02:25:12.251578
+at SHA 608509258f779f0bdcf38f9dd98f535cdc933ffa
+Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218, 0.227.1-SHA-d7318086
 
 RESOURCE ID: minicollect_help_subtitle
 TEXT: 有些寶可夢並不會出現在地圖上，請透過下列圖示確認該如何找到寶可夢。
@@ -893,7 +905,7 @@ RESOURCE ID: quest_bulbt_evolve_b
 TEXT: 讓 {0} 隻妙蛙種子進化
 
 RESOURCE ID: quest_bulbt_evolve_s1
-TEXT: Evolve {0} Ivysaur
+TEXT: 讓 {0} 隻妙蛙草進化
 
 RESOURCE ID: quest_catch_legendary_plural
 TEXT: 捕捉 {0} 隻傳說的寶可夢或幻之寶可夢
@@ -965,70 +977,70 @@ RESOURCE ID: quest_special_dialogue_bulbt_0_0
 TEXT: %PLAYERNAME%，你好！你有看到這附近聚集了很多妙蛙種子嗎？
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_1
-TEXT: Personally, I’ve only witnessed a gathering like this once before. It was some time ago, and there were so many Trainers out and about catching all the little Seed Pokémon they could find.
+TEXT: 其實我以前也看過訓練家和妙蛙種子一樣，像這樣聚在一起。
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_2
-TEXT: In fact, seeing all these Bulbasaur has me feeling quite nostalgic!
+TEXT: 妙蛙種子總讓人有種懷念感呢！
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_3
-TEXT: It also reminded me of an important scientific tenet: there’s always more to learn! And I never tire of researching Pokémon, no matter the species.
+TEXT: 身為一個學者，我怎麼能放過這個做學問的機會！
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_4
-TEXT: In that spirit, what do you say we do some research on Bulbasaur, Trainer?
+TEXT: 你願意去幫我調查一下妙蛙種子嗎？
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_0
-TEXT: Welcome back, Trainer. That’s a downright adorable Bulbasaur you’ve caught!
+TEXT: 歡迎回來！看來你捉到了一隻超可愛的妙蛙種子呢！
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_1
-TEXT: Did you know that Bulbasaur uses the nutrients that are stored in the seed on its back to grow?
+TEXT: 你知道妙蛙種子背上的種子存著很多營養嗎？
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_2
-TEXT: I’d love to have a built-in snack backpack. It would keep my stomach quiet in the field, that’s for sure! Haha!
+TEXT: 我也想跟牠一樣，有個能儲備營養…不對，是個能儲備零食的背包！！
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_3
-TEXT: As you may know, Bulbasaur’s Evolution—Ivysaur—gains strength when it’s exposed to sunlight.
+TEXT: 妙蛙種子的進化形態妙蛙草沐浴在陽光下越久，身體內會湧出越多力量。
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_4
-TEXT: That sunlight also makes the bud on its back grow larger. It would be lovely to witness that phenomenon myself, for old time’s sake.
+TEXT: 陽光能牠背上的花苞持續成長，你就讓牠進化看看吧！
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_5
-TEXT: While you go off and evolve your Bulbasaur, I’ll continue following this pack of Bulbasaur I’ve been observing. They appear to be on the move!
+TEXT: 我會繼續追蹤這群妙蛙種子，請你試著讓妙蛙種子進化！
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_0
-TEXT: Goodness me, look at the size of that Ivysaur! Well done, %PLAYERNAME%.
+TEXT: 天啊，你的妙蛙草好大一隻！
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_1
-TEXT: If memory serves, the bud on Ivysaur’s back produces a sweet aroma when it starts to swell, indicating the flower’s about to bloom.
+TEXT: 妙蛙草背上的花苞在吸收了養分、變大的花苞開始飄出香氣時，就表示快要開花了。
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_2
-TEXT: Have you gotten a whiff of that scent yet? If you do, your Ivysaur may be getting ready to evolve!
+TEXT: 你有聞過那道香味嗎？
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_3
-TEXT: Now, remember that pack of Bulbasaur I was following? A handful of Ivysaur have recently emerged from a nearby forest to join them.
+TEXT: 你記得我跟你說我要去追蹤妙蛙種子嗎？我在森林裡看到妙蛙草和牠們匯合喔！
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_4
-TEXT: They all seem to be heading in the same direction... But what’s their destination, I wonder? Let’s go see if we can’t dig up some answers, hm?
+TEXT: 牠們看起來都朝著同一個方向前進……牠們到底要去哪裡？
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_0
-TEXT: Welcome back %PLAYERNAME%. Hold on—is that a Venusaur with you?! It must be my lucky day.
+TEXT: %PLAYERNAME%，辛苦你了。……等等，那是妙蛙花嗎！！看來我們今天會很幸運呢！
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_1
-TEXT: You see, the Bulbasaur and Ivysaur I was following led me to a grove where a Venusaur was resting. There was an unusual scent in the air that seemed to calm the Pokémon that had gathered.
+TEXT: 妙蛙種子和妙蛙草把我帶到了妙蛙花那裡去。那附近的香味真是誘人。
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_2
-TEXT: I’ve read that Venusaur sometimes produces a scent that attracts other Pokémon, so I surmised that’s what was occurring.
+TEXT: 據說妙蛙花會把寶可夢吸引到牠身邊。
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_3
-TEXT: In fact, the way the Bulbasaur and Ivysaur gathered around Venusaur reminded me of how Lure Modules work to attract Pokémon via scent.
+TEXT: 感覺就像是個誘餌模組一樣……
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_4
-TEXT: Now, let’s talk Venusaur. Did you know it can Mega Evolve?
+TEXT: 說到妙蛙花，你知道牠可以超級進化嗎？
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_5
-TEXT: Take this Venusaur Mega Energy and try Mega Evolving your new friend. You’ll learn more by experiencing Mega Venusaur’s power for yourself!
+TEXT: 讓牠超級進化，觀察一下有何不同吧！
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_6
-TEXT: There are so many things we can learn from Pokémon, and researching them can lead us to even more exciting discoveries. I hope you enjoyed yourself during today’s scientific excursion!
+TEXT: 我們可以從寶可夢身上學到很多東西，所以每天的調查都非常重要。今天也謝謝你幫我做調查！
 
 RESOURCE ID: quest_special_dialogue_dec2021_0_0
 TEXT: 你好， %PLAYERNAME%！轉眼間就又到了年底呢。

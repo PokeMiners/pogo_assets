@@ -1,3 +1,9 @@
+RESOURCE ID: advanced_settings_delete_account_button
+TEXT: Delete Account
+
+RESOURCE ID: advanced_settings_delete_account_button_description
+TEXT: Once your Pokémon GO account is deleted, it will no longer be accessible by you or anyone else. This action cannot be undone.
+
 RESOURCE ID: ardk_download_prompt_title_monodepth
 TEXT: Скачай пакет Niantic AR для более полного погружения в дополненную реальность. 
 
@@ -377,8 +383,17 @@ TEXT: Посети интересные места, которые показа�
 RESOURCE ID: challenge_snapshot_pkmn_fighting
 TEXT: Сделай {0} фото боевых Покемонов
 
+RESOURCE ID: combat_grunt_balloon_quote#3__female_speaker
+TEXT: Если честно, я скучаю по временам, когда стояла рядом с Покестопом.
+
+RESOURCE ID: combat_grunt_balloon_quote#5__female_speaker
+TEXT: Тебе в последнее время не попадались странные персонажи? Один с синими волосами, другой с малиновыми?
+
+RESOURCE ID: combat_grunt_balloon_quote#5__male_speaker
+TEXT: Тебе в последнее время не попадались странные персонажи? Один с синими волосами, другой с малиновыми?
+
 RESOURCE ID: community_day_bulbasaur_event_name
-TEXT: Community Day Classic: Bulbasaur
+TEXT: Классический день сообщества: Бульбазавр
 
 RESOURCE ID: community_day_dec2021_event_name
 TEXT: Декабрьский день сообщества 2021
@@ -399,31 +414,37 @@ RESOURCE ID: dd_event_name
 TEXT: Сошествие драконов
 
 RESOURCE ID: delete_account_complete_message
-TEXT: You have initiated the account deletion process. Once you’ve verified the deletion via email, your account deletion request will be finalized. This action cannot be undone.
+TEXT: Был инициирован процесс удаления аккаунта. Как только твой родитель подтвердит удаление по электронной почте, твой запрос на удаление аккаунта будет завершён. Это действие не может быть отменено.
 
 RESOURCE ID: delete_account_complete_message_kids
-TEXT: You have initiated the account deletion process. Once your parent has verified the deletion via email, your account deletion request will be finalized. This action cannot be undone.
+TEXT: Был инициирован процесс удаления аккаунта. Как только твой родитель подтвердит удаление по электронной почте, твой запрос на удаление аккаунта будет завершён. Это действие не может быть отменено.
 
 RESOURCE ID: delete_account_complete_title
-TEXT: An email will be sent to {0} to finalize the deletion of your account.
+TEXT: На адрес {0} будет отправлено электронное письмо для завершения процесса удаления твоего аккаунта.
 
 RESOURCE ID: delete_account_complete_title_kids
-TEXT: An email will be sent to your parent’s email address, {0}, to finalize the deletion of your account.
+TEXT: На адрес электронной почты твоего родителя – {0} – будет отправлено электронное письмо для завершения процесса удаления твоего аккаунта.
 
 RESOURCE ID: delete_account_initiate_message
-TEXT: By tapping Yes, an email will be sent to you to complete the account deletion process.
+TEXT: Если ты нажмёшь Да, тебе будет отправлено электронное письмо для завершения процесса удаления аккаунта.
 
 RESOURCE ID: delete_account_initiate_message_kids
-TEXT: By tapping Yes, an email will be sent to your parent’s email address to complete the account deletion process.
+TEXT: Если ты нажмёшь Да, на адрес электронной почты твоего родителя будет отправлено электронное письмо для завершения процесса удаления аккаунта.
 
 RESOURCE ID: delete_account_initiate_title
-TEXT: Are you sure you want begin the account deletion process?
+TEXT: Хочешь начать процесс удаления аккаунта?
 
 RESOURCE ID: delete_account_input_email_message
-TEXT: An email will be sent to you to complete the account deletion process.
+TEXT: Тебе будет отправлено электронное письмо для завершения процесса удаления аккаунта.
+
+RESOURCE ID: delete_account_input_email_message_kids
+TEXT: An email will be sent to your parent's email to complete the account deletion process.
 
 RESOURCE ID: delete_account_input_email_title
-TEXT: Please verify your email address to confirm.
+TEXT: Подтверди свой адрес электронной почты.
+
+RESOURCE ID: delete_account_input_email_title_kids
+TEXT: Please verify your parent's email to confirm.
 
 RESOURCE ID: disable_sponsored_gift_description
 TEXT: Когда ты посещаешь Покестопы или Гимы, ты можешь получать относящиеся к твоему местоположению спонсорские подарки вместе со спонсорским сообщением. Отключая эту опцию, ты отказываешься получать спонсорские подарки. Перезагрузи приложение, чтобы твой выбор сохранился.
@@ -529,12 +550,12 @@ RESOURCE ID: full_inventory_text
 TEXT: ЗАПОЛНЕНО
 
 RESOURCE ID: general1.ticket.2_bulbt_description
-TEXT: A ticket to access the Bulbasaur Community Day Classic Special Research on January 22, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: Билет на специальный квест классического дня сообщества: Бульбазавр 22 января 2022 г. с 14:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ СОБЫТИЯ, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
 
 RESOURCE ID: general1.ticket.2_bulbt_title
-TEXT: Bulbasaur Community Day Classic Ticket
+TEXT: Классический билет на день сообщества: Бульбазавр
 
 RESOURCE ID: general1.ticket.2_dec2021_description
 TEXT: Билет на специальный квест «Декабрьский день сообщества 2021» 18 и 19 декабря 2021 г. с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
@@ -587,16 +608,49 @@ RESOURCE ID: general_week
 TEXT: Неделя
 
 RESOURCE ID: gift_open_double_stardust
-TEXT: Double Stardust from opening Gifts
+TEXT: 2× звёздной пыли за открытие подарков
 
 RESOURCE ID: gofest2020_quest_rocket_dialogue_3_7
 TEXT: Я слышал, что Джованни часто начинает свои сражения, используя своего Покемона-приятеля, Персиана, который слаб к атакам боевого типа. В этом тебе сможет помочь пойманный тобой ранее Мачамп.
+
+RESOURCE ID: grunt_balloon_challenge#5__female_speaker
+TEXT: Я проделала весь этот путь, чтобы сразиться с тобой, так что спорим, я не проиграю!
+
+RESOURCE ID: grunt_balloon_defeat#4__female_speaker
+TEXT: Но... Я же прилетела сюда на воздушном шаре и всё такое...
+
+RESOURCE ID: grunt_balloon_defeat#5__female_speaker
+TEXT: Садись в воздушный шар, говорили они. Будет весело, говорили они...
+
+RESOURCE ID: grunt_balloon_defeat#5__male_speaker
+TEXT: Садись в воздушный шар, говорили они. Будет весело, говорили они...
+
+RESOURCE ID: grunt_balloon_greeting#3__female_speaker
+TEXT: Кар-КАР! Я спустилась с небес, чтобы забрать твоих Покемонов!
+
+RESOURCE ID: grunt_balloon_victory#1__female_speaker
+TEXT: Кар-КАРРР! Тебя победила повелительница небес!
+
+RESOURCE ID: grunt_balloon_victory#1__male_speaker
+TEXT: Кар-КАРРР! Тебя победил повелитель небес!
+
+RESOURCE ID: grunt_balloon_victory#5__female_speaker
+TEXT: Готова поспорить, тебе бы хотелось иметь воздушный шар, а?
+
+RESOURCE ID: grunt_crafted_pre_battle#4__female_speaker
+TEXT: Проваливай! Я устала!
+
+RESOURCE ID: grunt_generic_challenge#13__female_speaker
+TEXT: На Покемонах можно хорошо заработать, поэтому мы их и используем. Не лезь в наши дела!
 
 RESOURCE ID: grunt_generic_defeat#21__female_speaker
 TEXT: Так не пойдёт!
 
 RESOURCE ID: grunt_generic_defeat#21__male_speaker
 TEXT: Так не пойдёт!
+
+RESOURCE ID: grunt_generic_greeting#18__female_speaker
+TEXT: Мы, между прочим, работаем здесь! Убирайся!
 
 RESOURCE ID: hours_abbreviation_format
 TEXT: {0} ч.
@@ -623,16 +677,16 @@ RESOURCE ID: incubator_distance_quarter
 TEXT: 1/4× расстояния для вынашивания
 
 RESOURCE ID: item_event_ticket_pink_bulbt_desc
-TEXT: A ticket to access Special Research on January 22, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
+TEXT: Билет на специальный квест 22 января 2022 г. с 14:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_bulbt_details
-TEXT: This ticket will automatically activate to give you access to Special Research on January 22, 2022, wherever you are.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 22 января 2022 г. вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Билет на специальный квест 16 января 2022 г. с 11 до 17 часов по местному времени, вне зависимости от твоего местонахождения.
+TEXT: Билет на специальный квест 22 января 2022 г. с 14:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 16 января 2022 г., вне зависимости от твоего местонахождения.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 22 января 2022 г. вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_hoopau_desc
 TEXT: Билет на специальный квест «Свободный озорник», вне зависимости от твоего местонахождения.
@@ -687,10 +741,10 @@ RESOURCE ID: last_played_date_setting_description
 TEXT: Разрешить моим друзьям видеть информацию о том, когда я последний раз играл(а) в игру Niantic.
 
 RESOURCE ID: lunar_new_year_catch_timed_research
-TEXT: Lunar New Year: Catch Challenge
+TEXT: Лунный новый год: Испытание по поимке
 
 RESOURCE ID: lunar_new_year_friendship_timed_research
-TEXT: Lunar New Year: Friendship Challenge
+TEXT: Лунный новый год: Дружеское испытание
 
 RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: Поза
@@ -709,9 +763,9 @@ RESOURCE ID: maxrevive.6_title
 TEXT: Оживление Макс ×6
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-01-18T20:09:55.966554
-at SHA e0c08c5b7f4e04a316d43c671b72cd5c3eeb9551
-Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218
+TEXT: Built at 2022-01-21T02:25:12.251578
+at SHA 608509258f779f0bdcf38f9dd98f535cdc933ffa
+Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218, 0.227.1-SHA-d7318086
 
 RESOURCE ID: minicollect_help_subtitle
 TEXT: С некоторыми Покемонами можно встретиться только определённым образом. Смотри описание символов ниже, чтобы понять, как встретить интересующих тебя Покемонов.
@@ -876,7 +930,7 @@ RESOURCE ID: not_modified
 TEXT: Не удалось изменить открытку
 
 RESOURCE ID: photobomb_five_bulbasaur
-TEXT: 5 surprise encounters with Bulbasaur in GO Snapshot
+TEXT: 5 неожиданных встреч с Бульбазавром в Стоп-кадре GO
 
 RESOURCE ID: photobomb_five_shinx
 TEXT: 5 неожиданных встреч с Шинксом в Стоп-кадре GO
@@ -1166,13 +1220,13 @@ RESOURCE ID: quest_battler_appears
 TEXT: ПОЯВЛЕНИЕ ПРОТИВНИКА!
 
 RESOURCE ID: quest_bulbt_catch_b
-TEXT: Catch {0} Bulbasaur
+TEXT: Поймай {0} Бульбазавров
 
 RESOURCE ID: quest_bulbt_evolve_b
-TEXT: Evolve {0} Bulbasaur
+TEXT: Эволюционируй {0} Бульбазавров
 
 RESOURCE ID: quest_bulbt_evolve_s1
-TEXT: Evolve {0} Ivysaur
+TEXT: Эволюционируй {0} Айвизавров
 
 RESOURCE ID: quest_catch_legendary_plural
 TEXT: Поймай {0} Легендарных или Мифических Покемонов
@@ -1187,7 +1241,7 @@ RESOURCE ID: quest_catch_type_fighting_singular
 TEXT: Поймай 1 боевого Покемона
 
 RESOURCE ID: quest_complete_bulbt
-TEXT: Bulbasaur Community Day Classic
+TEXT: Классический билет на день сообщества: Бульбазавр
 
 RESOURCE ID: quest_complete_dec2021
 TEXT: Декабрьский день сообщества 2021
@@ -1253,10 +1307,10 @@ RESOURCE ID: quest_send_gifts_daily_row
 TEXT: Отправляй подарки {0} дн. подряд
 
 RESOURCE ID: quest_send_gifts_sticker_plural
-TEXT: Send {0} Gifts with a Sticker
+TEXT: Отправить {0} подарков и добавить наклейку к каждому
 
 RESOURCE ID: quest_send_gifts_sticker_singular
-TEXT: Send a Gift with a Sticker
+TEXT: Отправить подарок с наклейкой
 
 RESOURCE ID: quest_shint_catch_b
 TEXT: Поймай {0} Шинксов
@@ -1274,73 +1328,73 @@ RESOURCE ID: quest_snapshot_wild_ice_singular
 TEXT: Сделай фото дикого ледяного Покемона
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_0
-TEXT: Hello there, %PLAYERNAME%! Look around—have you ever seen so many Bulbasaur?
+TEXT: Привет, %PLAYERNAME%! Оглянись – вокруг полно Бульбазавров!
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_1
-TEXT: Personally, I’ve only witnessed a gathering like this once before. It was some time ago, and there were so many Trainers out and about catching all the little Seed Pokémon they could find.
+TEXT: Лично я только один раз был свидетелем подобного зрелища. Это было недавно. Я видел много Тренеров, которые собирались поймать всех этих маленьких Покемонов-Семя.
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_2
-TEXT: In fact, seeing all these Bulbasaur has me feeling quite nostalgic!
+TEXT: На самом деле, снова увидев всех этих Бульбазавров, я почувствовал сильную ностальгию!
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_3
-TEXT: It also reminded me of an important scientific tenet: there’s always more to learn! And I never tire of researching Pokémon, no matter the species.
+TEXT: Это также напомнило мне о важном научном принципе: всегда есть чему поучиться! И я никогда не устаю исследовать Покемонов, независимо от их вида.
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_4
-TEXT: In that spirit, what do you say we do some research on Bulbasaur, Trainer?
+TEXT: А теперь что ты скажешь, если мы проведём небольшое исследование Бульбазавра, Тренер?
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_0
-TEXT: Welcome back, Trainer. That’s a downright adorable Bulbasaur you’ve caught!
+TEXT: С возвращением, Тренер. Тебе удалось поймать совершенно очаровательного Бульбазавра!
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_1
-TEXT: Did you know that Bulbasaur uses the nutrients that are stored in the seed on its back to grow?
+TEXT: Ты в курсе, что Бульбазавр использует для роста питательные вещества, хранящиеся в семенах на его спине?
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_2
-TEXT: I’d love to have a built-in snack backpack. It would keep my stomach quiet in the field, that’s for sure! Haha!
+TEXT: Я бы тоже хотел иметь встроенный рюкзак с закусками. В полевых условиях мой желудок успокоился бы, это точно! Ха-ха!
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_3
-TEXT: As you may know, Bulbasaur’s Evolution—Ivysaur—gains strength when it’s exposed to sunlight.
+TEXT: Как ты, возможно, знаешь, эволюция Бульбазавра – Ивизавр – набирает силу, когда подвергается воздействию солнечного света.
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_4
-TEXT: That sunlight also makes the bud on its back grow larger. It would be lovely to witness that phenomenon myself, for old time’s sake.
+TEXT: Солнечный свет также увеличивает рост бутона на его спине. Было бы здорово стать свидетелем этого явления.
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_5
-TEXT: While you go off and evolve your Bulbasaur, I’ll continue following this pack of Bulbasaur I’ve been observing. They appear to be on the move!
+TEXT: Пока ты будешь занят эволюцией своего Бульбазавра, я продолжу наблюдать за этой группой Бульбазавров. Кажется, они куда-то направляются!
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_0
-TEXT: Goodness me, look at the size of that Ivysaur! Well done, %PLAYERNAME%.
+TEXT: Ничего себе, посмотри на размер этого Айвизавра! Молодец, %PLAYERNAME%.
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_1
-TEXT: If memory serves, the bud on Ivysaur’s back produces a sweet aroma when it starts to swell, indicating the flower’s about to bloom.
+TEXT: Если мне не изменяет память, бутон на спине Айвизавра испускает сладкий аромат. Когда бутон начинает набухать, это значит, что цветок вот-вот распустится.
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_2
-TEXT: Have you gotten a whiff of that scent yet? If you do, your Ivysaur may be getting ready to evolve!
+TEXT: Чувствуешь запах этого аромата? Если да, твой Айвизавр может быть готов к эволюции!
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_3
-TEXT: Now, remember that pack of Bulbasaur I was following? A handful of Ivysaur have recently emerged from a nearby forest to join them.
+TEXT: Ты помнишь группу Бульбазавров, за которой я следил? Несколько Айвизавров недавно вышли из соседнего леса, чтобы присоединиться к ним.
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_4
-TEXT: They all seem to be heading in the same direction... But what’s their destination, I wonder? Let’s go see if we can’t dig up some answers, hm?
+TEXT: Все они, кажется, движутся в одном направлении... Интересно, какова их цель? Пойдём посмотрим, не сможем ли мы найти ответы, а?
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_0
-TEXT: Welcome back %PLAYERNAME%. Hold on—is that a Venusaur with you?! It must be my lucky day.
+TEXT: С возвращением, %PLAYERNAME%. Подожди, этот Венузавр с тобой?! Должно быть, это мой счастливый день.
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_1
-TEXT: You see, the Bulbasaur and Ivysaur I was following led me to a grove where a Venusaur was resting. There was an unusual scent in the air that seemed to calm the Pokémon that had gathered.
+TEXT: Видишь ли, Бульбазавр и Айвизавр, за которыми я следовал, привели меня в рощу, где отдыхал Венузавр. В воздухе витал необычный запах, который, казалось, успокаивал собравшихся Покемонов.
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_2
-TEXT: I’ve read that Venusaur sometimes produces a scent that attracts other Pokémon, so I surmised that’s what was occurring.
+TEXT: Я читал, что Венузавр иногда испускает запах, привлекающий других Покемонов, поэтому я предположил, что именно это и произошло.
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_3
-TEXT: In fact, the way the Bulbasaur and Ivysaur gathered around Venusaur reminded me of how Lure Modules work to attract Pokémon via scent.
+TEXT: На самом деле, то, что Венузавр привлёк к себе Бульбазавра и Айвизавра с помощью запаха, напомнило мне, как работают приманки.
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_4
-TEXT: Now, let’s talk Venusaur. Did you know it can Mega Evolve?
+TEXT: Теперь давай поговорим о Венузавре. Ты в курсе, что он может мегаэволюционировать?
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_5
-TEXT: Take this Venusaur Mega Energy and try Mega Evolving your new friend. You’ll learn more by experiencing Mega Venusaur’s power for yourself!
+TEXT: Возьми Мегаэнергию Венузавра и попробуй мегаэволюционировать своего нового друга. Ты узнаешь больше, испытав силу Мега-Венузавра на себе!
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_6
-TEXT: There are so many things we can learn from Pokémon, and researching them can lead us to even more exciting discoveries. I hope you enjoyed yourself during today’s scientific excursion!
+TEXT: Мы можем многому научиться у Покемонов, и их исследование может привести нас к ещё более захватывающим открытиям. Надеюсь, тебе понравилась сегодняшняя научная экскурсия!
 
 RESOURCE ID: quest_special_dialogue_celebi_7_1
 TEXT: Должен признаться, что твои исследования вдохновили меня: я хочу попытаться найти ещё больше Покемонов. До следующего раза, %PLAYERNAME%!
@@ -1919,19 +1973,19 @@ RESOURCE ID: quest_start_battle
 TEXT: НАЧАТЬ СРАЖЕНИЕ!
 
 RESOURCE ID: quest_title_bulbt
-TEXT: Bulbasaur Community Day Classic
+TEXT: Классический билет на день сообщества: Бульбазавр
 
 RESOURCE ID: quest_title_bulbt_0
-TEXT: Bulbasaur Community Day Classic (1/4)
+TEXT: Классический билет на день сообщества: Бульбазавр (1/4)
 
 RESOURCE ID: quest_title_bulbt_1
-TEXT: Bulbasaur Community Day Classic (2/4)
+TEXT: Классический билет на день сообщества: Бульбазавр (2/4)
 
 RESOURCE ID: quest_title_bulbt_2
-TEXT: Bulbasaur Community Day Classic (3/4)
+TEXT: Классический билет на день сообщества: Бульбазавр (3/4)
 
 RESOURCE ID: quest_title_bulbt_3
-TEXT: Bulbasaur Community Day Classic (4/4)
+TEXT: Классический билет на день сообщества: Бульбазавр (4/4)
 
 RESOURCE ID: quest_title_dec2021
 TEXT: Декабрьский день сообщества 2021
@@ -2039,49 +2093,49 @@ RESOURCE ID: quest_title_season5_dec_page_9
 TEXT: Сезон наследия: Испытание звёздной пыли (10/15)
 
 RESOURCE ID: quest_title_season5_feb_page_0
-TEXT: Season of Heritage: Catch Challenge (1/15)
+TEXT: Сезон наследия: Испытание по поимке (1/15)
 
 RESOURCE ID: quest_title_season5_feb_page_1
-TEXT: Season of Heritage: Catch Challenge (2/15)
+TEXT: Сезон наследия: Испытание по поимке (2/15)
 
 RESOURCE ID: quest_title_season5_feb_page_10
-TEXT: Season of Heritage: Catch Challenge (11/15)
+TEXT: Сезон наследия: Испытание по поимке (11/15)
 
 RESOURCE ID: quest_title_season5_feb_page_11
-TEXT: Season of Heritage: Catch Challenge (12/15)
+TEXT: Сезон наследия: Испытание по поимке (12/15)
 
 RESOURCE ID: quest_title_season5_feb_page_12
-TEXT: Season of Heritage: Catch Challenge (13/15)
+TEXT: Сезон наследия: Испытание по поимке (13/15)
 
 RESOURCE ID: quest_title_season5_feb_page_13
-TEXT: Season of Heritage: Catch Challenge (14/15)
+TEXT: Сезон наследия: Испытание по поимке (14/15)
 
 RESOURCE ID: quest_title_season5_feb_page_14
-TEXT: Season of Heritage: Catch Challenge (15/15)
+TEXT: Сезон наследия: Испытание по поимке (15/15)
 
 RESOURCE ID: quest_title_season5_feb_page_2
-TEXT: Season of Heritage: Catch Challenge (3/15)
+TEXT: Сезон наследия: Испытание по поимке (3/15)
 
 RESOURCE ID: quest_title_season5_feb_page_3
-TEXT: Season of Heritage: Catch Challenge (4/15)
+TEXT: Сезон наследия: Испытание по поимке (4/15)
 
 RESOURCE ID: quest_title_season5_feb_page_4
-TEXT: Season of Heritage: Catch Challenge (5/15)
+TEXT: Сезон наследия: Испытание по поимке (5/15)
 
 RESOURCE ID: quest_title_season5_feb_page_5
-TEXT: Season of Heritage: Catch Challenge (6/15)
+TEXT: Сезон наследия: Испытание по поимке (6/15)
 
 RESOURCE ID: quest_title_season5_feb_page_6
-TEXT: Season of Heritage: Catch Challenge (7/15)
+TEXT: Сезон наследия: Испытание по поимке (7/15)
 
 RESOURCE ID: quest_title_season5_feb_page_7
-TEXT: Season of Heritage: Catch Challenge (8/15)
+TEXT: Сезон наследия: Испытание по поимке (8/15)
 
 RESOURCE ID: quest_title_season5_feb_page_8
-TEXT: Season of Heritage: Catch Challenge (9/15)
+TEXT: Сезон наследия: Испытание по поимке (9/15)
 
 RESOURCE ID: quest_title_season5_feb_page_9
-TEXT: Season of Heritage: Catch Challenge (10/15)
+TEXT: Сезон наследия: Испытание по поимке (10/15)
 
 RESOURCE ID: quest_title_season5_jan
 TEXT: Сезон наследия: Испытание очков опыта
@@ -2234,7 +2288,7 @@ RESOURCE ID: sinnoh_cup_title
 TEXT: Кубок Синно
 
 RESOURCE ID: spawn_bulbasaur
-TEXT: More Bulbasaur are appearing in the wild
+TEXT: Появляется больше диких Бульбазавров
 
 RESOURCE ID: spawn_shinx
 TEXT: Появляется больше диких Шинксов
@@ -2267,7 +2321,7 @@ RESOURCE ID: tabrs_title_regional
 TEXT: Региональное испытание
 
 RESOURCE ID: ticket_bulbasaur
-TEXT: Ticket for the Bulbasaur Community Day Classic Special Research story available in the shop
+TEXT: Билет на специальный квест Классического дня сообщества: Бульбазавр доступен в магазине
 
 RESOURCE ID: ticket_dec2021
 TEXT: Билет на специальный квест доступен в магазине

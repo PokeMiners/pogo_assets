@@ -1,3 +1,9 @@
+RESOURCE ID: advanced_settings_delete_account_button
+TEXT: 계정 삭제
+
+RESOURCE ID: advanced_settings_delete_account_button_description
+TEXT: 계정 삭제를 하면 당신 또는 다른 누구도 접속할 수 없게 됩니다. 이 조작을 진행 후 되돌릴 수 없습니다.
+
 RESOURCE ID: ardk_download_prompt_title_monodepth
 TEXT: AR체험을 더 즐기기 위해서는 Niantic AR 패키지를 다운로드 해야합니다.
 
@@ -260,7 +266,7 @@ RESOURCE ID: catch_candy_xl_chance_quadruple
 TEXT: 4x 포켓몬을 잡고 사탕XL 얻을 확률
 
 RESOURCE ID: community_day_bulbasaur_event_name
-TEXT: Community Day Classic: Bulbasaur
+TEXT: 커뮤니티 데이 복각: 이상해씨
 
 RESOURCE ID: community_day_dec2021_event_name
 TEXT: 12월 커뮤니티 데이2021
@@ -307,7 +313,13 @@ TEXT: 계정 삭제를 진행하겠습니까?
 RESOURCE ID: delete_account_input_email_message
 TEXT: 계정 삭제 절차 완료를 위한 메일이 보내집니다.
 
+RESOURCE ID: delete_account_input_email_message_kids
+TEXT: 계정 삭제 진행 완료를 위한 메일을 보호자 메일에 보내집니다.
+
 RESOURCE ID: delete_account_input_email_title
+TEXT: 메일 주소 확인
+
+RESOURCE ID: delete_account_input_email_title_kids
 TEXT: 메일 주소 확인
 
 RESOURCE ID: disable_sponsored_gift_description
@@ -431,12 +443,12 @@ RESOURCE ID: general1.ticket.1_title
 TEXT: 댄스포켓몬의 수수께끼를 풀어라! 티켓
 
 RESOURCE ID: general1.ticket.2_bulbt_description
-TEXT: A ticket to access the Bulbasaur Community Day Classic Special Research on January 22, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: 전 세계 어디에 있어도 현지 시간 2022년 1월 22일 14시~17시까지 이상해씨 커뮤니티 데이(복각) 스페셜리서치를 플레이할 수 있는 티켓. 자세한 내용은 게임 내 새소식에서 확인할 수 있습니다.
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+이벤트를 최대한 즐기려면 기재된 개최 시간 내에 완료할  필요가 있습니다.
 
 RESOURCE ID: general1.ticket.2_bulbt_title
-TEXT: Bulbasaur Community Day Classic Ticket
+TEXT: 이상해씨 커뮤니티 데이(복각) 티켓
 
 RESOURCE ID: general1.ticket.2_dec2021_description
 TEXT: 전 세계 어디에 있어도 12월 커뮤니티 데이 스페셜리서치를 현지 시간 2021년 12월 18일, 19일 11시~ 17시까지 게임 내에서 시작할 수 있는 티켓. 자세한 내용은 게임 내 새소식에서 확인할 수 있습니다.
@@ -503,7 +515,7 @@ RESOURCE ID: general_week
 TEXT: 주
 
 RESOURCE ID: gift_open_double_stardust
-TEXT: Double Stardust from opening Gifts
+TEXT: 2× Stardust from opening Gifts
 
 RESOURCE ID: hours_abbreviation_format
 TEXT: {0}시간
@@ -512,19 +524,19 @@ RESOURCE ID: incense_day_pokemon_swinub
 TEXT: 꾸꾸리가 향로에 반응
 
 RESOURCE ID: item_event_ticket_pink_bulbt_desc
-TEXT: A ticket to access Special Research on January 22, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
+TEXT: 현지 시간 2022년 1월 22일 14시~17시까지 스페셜리서치를 진행하기 위한 티켓.
 
 RESOURCE ID: item_event_ticket_pink_bulbt_details
-TEXT: This ticket will automatically activate to give you access to Special Research on January 22, 2022, wherever you are.
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2022년 1월 22일에 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 현지 시간 2022년 1월 16일 11시~17시까지 스페셜리서치를 진행하기 위한 티켓.
+TEXT: 현지 시간 2022년 1월 22일 14시~17시까지 스페셜리서치를 진행하기 위한 티켓.
 
 RESOURCE ID: item_event_ticket_pink_desc_2
 TEXT: 현지시간 2021년 11월 21일 11:00AM~5:00PM에 스페셜리서치를 진행하기 위한 티켓.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2022년1월 16일에 스페셜리서치가 진행됩니다.
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2022년 1월 22일에 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: item_event_ticket_pink_hoopau_desc
 TEXT: "후파를 해방 시켜라!" 스페셜리서치에 참가할 수 있는 티켓입니다.
@@ -585,9 +597,9 @@ RESOURCE ID: master_classic_title
 TEXT: ML 클래식
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-01-18T20:09:55.966554
-at SHA e0c08c5b7f4e04a316d43c671b72cd5c3eeb9551
-Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218
+TEXT: Built at 2022-01-21T02:25:12.251578
+at SHA 608509258f779f0bdcf38f9dd98f535cdc933ffa
+Patch from: 0.225.2-SHA-04f1aa2b, 0.225.3-SHA-31771dad, 0.227.0-SHA-42163218, 0.227.1-SHA-d7318086
 
 RESOURCE ID: minicollect_help_subtitle
 TEXT: 야생에서 발견할 수 없는 포켓몬도 포함되는 경우가 있습니다. 레이드배틀에 참가하는 등 컬렉션을 진행하세요.
@@ -755,7 +767,7 @@ RESOURCE ID: not_modified
 TEXT: 엽서를 변경할 수 없습니다.
 
 RESOURCE ID: photobomb_five_bulbasaur
-TEXT: 5 surprise encounters with Bulbasaur in GO Snapshot
+TEXT: GO스냅샷에서 이상해씨의 서프라이즈 5회
 
 RESOURCE ID: photobomb_five_shinx
 TEXT: GO스냅샷으로 꼬링크의 서프라이즈 5회
@@ -931,13 +943,13 @@ RESOURCE ID: quest_battler_appears
 TEXT: 상대가 나타났다!
 
 RESOURCE ID: quest_bulbt_catch_b
-TEXT: Catch {0} Bulbasaur
+TEXT: 이상해씨를 {0}마리 잡는다
 
 RESOURCE ID: quest_bulbt_evolve_b
-TEXT: Evolve {0} Bulbasaur
+TEXT: 이상해씨를 {0}마리 진화시킨다
 
 RESOURCE ID: quest_bulbt_evolve_s1
-TEXT: Evolve {0} Ivysaur
+TEXT: 이상해풀을 {0}마리 진화시킨다
 
 RESOURCE ID: quest_catch_legendary_plural
 TEXT: 전설 또는 환상의 포켓몬을 {0}마리 잡는다
@@ -946,7 +958,7 @@ RESOURCE ID: quest_catch_legendary_singular
 TEXT: 전설 또는 환상의 포켓몬을 1마리 잡는다
 
 RESOURCE ID: quest_complete_bulbt
-TEXT: Bulbasaur Community Day Classic
+TEXT: 이상해씨 커뮤니티 데이(복각)
 
 RESOURCE ID: quest_complete_dec2021
 TEXT: 12월 커뮤니티 데이2021
@@ -985,10 +997,10 @@ RESOURCE ID: quest_send_gifts_daily_row
 TEXT: 선물을 {0}일 연속 보내기
 
 RESOURCE ID: quest_send_gifts_sticker_plural
-TEXT: Send {0} Gifts with a Sticker
+TEXT: Send {0} Gifts and add a sticker to each
 
 RESOURCE ID: quest_send_gifts_sticker_singular
-TEXT: Send a Gift with a Sticker
+TEXT: Send a Gift with a sticker
 
 RESOURCE ID: quest_shint_catch_b
 TEXT: 꼬링크를 {0}마리 잡는다
@@ -1009,73 +1021,73 @@ RESOURCE ID: quest_special_dialogue_bidoof_branch_quest_0_0
 TEXT: 안녕, %PLAYERNAME%! 나이스 타이밍이야! 실은 특별 연구 의뢰를 받았어. 너에게 협력을 부탁하려고 해.
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_0
-TEXT: Hello there, %PLAYERNAME%! Look around—have you ever seen so many Bulbasaur?
+TEXT: 안녕, %PLAYERNAME%! 이상해씨가 모인 것 같은데?
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_1
-TEXT: Personally, I’ve only witnessed a gathering like this once before. It was some time ago, and there were so many Trainers out and about catching all the little Seed Pokémon they could find.
+TEXT: 전에도 이렇게 이상해씨가 모여서 트레이너들과 활발하게 활동하던 날이 있었지.
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_2
-TEXT: In fact, seeing all these Bulbasaur has me feeling quite nostalgic!
+TEXT: 그때를 떠올리게 하는군!
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_3
-TEXT: It also reminded me of an important scientific tenet: there’s always more to learn! And I never tire of researching Pokémon, no matter the species.
+TEXT: 연구자로서 이 기회를 놓칠 수 없지. 다시 조사할 수 있는 기회니까.
 
 RESOURCE ID: quest_special_dialogue_bulbt_0_4
-TEXT: In that spirit, what do you say we do some research on Bulbasaur, Trainer?
+TEXT: 협력해줄 거지?
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_0
-TEXT: Welcome back, Trainer. That’s a downright adorable Bulbasaur you’ve caught!
+TEXT: 어서 와. 귀여운 이상해씨를 잡았군.
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_1
-TEXT: Did you know that Bulbasaur uses the nutrients that are stored in the seed on its back to grow?
+TEXT: 이상해씨는 등의 씨앗에 있는 영양분으로 자란다는 것을 알고 있니?
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_2
-TEXT: I’d love to have a built-in snack backpack. It would keep my stomach quiet in the field, that’s for sure! Haha!
+TEXT: 백팩이 아닌 스낵백이군! 하하하...
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_3
-TEXT: As you may know, Bulbasaur’s Evolution—Ivysaur—gains strength when it’s exposed to sunlight.
+TEXT: 이상해씨의 경우 태양광을 쐴수록 몸에 힘이 생겨서
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_4
-TEXT: That sunlight also makes the bud on its back grow larger. It would be lovely to witness that phenomenon myself, for old time’s sake.
+TEXT: 등의 봉우리가 자란다고 해. 이상해씨를 진화시켜서 관찰하고 싶군
 
 RESOURCE ID: quest_special_dialogue_bulbt_1_5
-TEXT: While you go off and evolve your Bulbasaur, I’ll continue following this pack of Bulbasaur I’ve been observing. They appear to be on the move!
+TEXT: 난 이동하기 시작한 이상해씨를 쫓아가볼 테니 넌 진화를 시켜봐!
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_0
-TEXT: Goodness me, look at the size of that Ivysaur! Well done, %PLAYERNAME%.
+TEXT: 굉장해, 이상해풀이 아주 크군! 딱 좋아 %PLAYERNAME%.
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_1
-TEXT: If memory serves, the bud on Ivysaur’s back produces a sweet aroma when it starts to swell, indicating the flower’s about to bloom.
+TEXT: 등의 봉우리는 어때? 부풀기 시작하면 달콤한 향을 내뿜어서
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_2
-TEXT: Have you gotten a whiff of that scent yet? If you do, your Ivysaur may be getting ready to evolve!
+TEXT: 진화 준비가 다 된 것을 알 수 있지.
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_3
-TEXT: Now, remember that pack of Bulbasaur I was following? A handful of Ivysaur have recently emerged from a nearby forest to join them.
+TEXT: 내가 쫓아간 이상해씨 집단은 숲에서 이상해풀도 나타나 합류한 것을 봤어.
 
 RESOURCE ID: quest_special_dialogue_bulbt_2_4
-TEXT: They all seem to be heading in the same direction... But what’s their destination, I wonder? Let’s go see if we can’t dig up some answers, hm?
+TEXT: 같이 어디론가 가는 것 같았지.... 대체 어딜 가는 걸까?
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_0
-TEXT: Welcome back %PLAYERNAME%. Hold on—is that a Venusaur with you?! It must be my lucky day.
+TEXT: 잘 왔어. %PLAYERNAME%. 이상해꽃이군! 운이 좋은 하루가 되겠어!
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_1
-TEXT: You see, the Bulbasaur and Ivysaur I was following led me to a grove where a Venusaur was resting. There was an unusual scent in the air that seemed to calm the Pokémon that had gathered.
+TEXT: 나는 이상해씨와 이상해풀가 이끌어 주듯이 1마리의 이상해꽃에 도달했어. 주변에는 황홀한 향기로 가득하고
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_2
-TEXT: I’ve read that Venusaur sometimes produces a scent that attracts other Pokémon, so I surmised that’s what was occurring.
+TEXT: 이상해씨와 이상해풀이 이끌리듯 이상해꽃 주변으로 모이더군.
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_3
-TEXT: In fact, the way the Bulbasaur and Ivysaur gathered around Venusaur reminded me of how Lure Modules work to attract Pokémon via scent.
+TEXT: 마치 루어모듈 같다고 생각했지.
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_4
-TEXT: Now, let’s talk Venusaur. Did you know it can Mega Evolve?
+TEXT: 아, 이런 것보다 하나 더 조사할 게 생겼어! 이상해꽃의 메가진화야!
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_5
-TEXT: Take this Venusaur Mega Energy and try Mega Evolving your new friend. You’ll learn more by experiencing Mega Venusaur’s power for yourself!
+TEXT: 메가진화 시켜서 그 모습을 자세히 관찰해줘!
 
 RESOURCE ID: quest_special_dialogue_bulbt_3_6
-TEXT: There are so many things we can learn from Pokémon, and researching them can lead us to even more exciting discoveries. I hope you enjoyed yourself during today’s scientific excursion!
+TEXT: 포켓몬에는 아직 모르는 부분이 많고 꾸준한 조사활동만이 발견과 연결되지. 오늘은 협력해 줘서 고마워!
 
 RESOURCE ID: quest_special_dialogue_dec2021_0_0
 TEXT: 안녕, %PLAYERNAME%! 전에 봤던 포켓몬이
@@ -1651,19 +1663,19 @@ RESOURCE ID: quest_start_battle
 TEXT: 대전 시작!
 
 RESOURCE ID: quest_title_bulbt
-TEXT: Bulbasaur Community Day Classic
+TEXT: 이상해씨 커뮤니티 데이(복각)
 
 RESOURCE ID: quest_title_bulbt_0
-TEXT: Bulbasaur Community Day Classic (1/4)
+TEXT: 이상해씨 커뮤니티 데이(복각)(1/4)
 
 RESOURCE ID: quest_title_bulbt_1
-TEXT: Bulbasaur Community Day Classic (2/4)
+TEXT: 이상해씨 커뮤니티 데이(복각)(2/4)
 
 RESOURCE ID: quest_title_bulbt_2
-TEXT: Bulbasaur Community Day Classic (3/4)
+TEXT: 이상해씨 커뮤니티 데이(복각)(3/4)
 
 RESOURCE ID: quest_title_bulbt_3
-TEXT: Bulbasaur Community Day Classic (4/4)
+TEXT: 이상해씨 커뮤니티 데이(복각)(4/4)
 
 RESOURCE ID: quest_title_dec2021
 TEXT: 12월 커뮤니티 데이2021
@@ -1957,7 +1969,7 @@ RESOURCE ID: sinnoh_cup_title
 TEXT: 신오컵
 
 RESOURCE ID: spawn_bulbasaur
-TEXT: More Bulbasaur are appearing in the wild
+TEXT: 이상해씨가 야생에서 많이 출현
 
 RESOURCE ID: spawn_shinx
 TEXT: 꼬링크가 야생에서 많이 출현
@@ -1996,7 +2008,7 @@ RESOURCE ID: tabrs_title_regional
 TEXT: 리져널 챌린지
 
 RESOURCE ID: ticket_bulbasaur
-TEXT: Ticket for the Bulbasaur Community Day Classic Special Research story available in the shop
+TEXT: "이상해씨 커뮤니티 데이(복각) 스페셜리서치 티켓"이 숍에 등장
 
 RESOURCE ID: ticket_dec2021
 TEXT: 12월 커뮤니티 데이 스페셜리서치 티켓이 숍에 등장
