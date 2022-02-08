@@ -200,6 +200,9 @@ TEXT: สแกนเสาโปเกสต็อปหรือยิม {0} 
 RESOURCE ID: badge_pokestops_scanned_singular
 TEXT: สแกนเสาโปเกสต็อปหรือยิม.
 
+RESOURCE ID: battle_day_flabébé
+TEXT: โกแบตเทิลเดย : ฟลาเบเบ
+
 RESOURCE ID: battle_day_goomy
 TEXT: โกแบตเทิลเดย : นูเมรา
 
@@ -207,7 +210,7 @@ RESOURCE ID: battle_day_politoed
 TEXT: โกแบตเทิลเดย : เนียวโรโทโนะ
 
 RESOURCE ID: bonus_xl_candy_skiploom
-TEXT: Bonus Hoppip XL Candy from Skiploom
+TEXT: Increased chance to get Hoppip Candy XL from catching Skiploom
 
 RESOURCE ID: buddy_level_requirement_plural
 TEXT: Earn {0} more hearts with your buddy to become {1}!
@@ -492,10 +495,19 @@ RESOURCE ID: form_zygarde_ten_percent
 TEXT: ฟอรม 10%
 
 RESOURCE ID: free_box_push_1
-TEXT: Check out your Daily Free Box today in the Shop that has items just for you!
+TEXT: Your Daily Free Box is ready to be claimed. Find it in the in-game shop!
 
 RESOURCE ID: free_box_push_2
-TEXT: There are some items customized just for you in your Daily Free Box in the Shop!
+TEXT: Your Daily Free Box contains customized items just for you! Claim it from the in-game shop.
+
+RESOURCE ID: furfrou_heart_trim
+TEXT: Furfrou can Form Change into Heart Trim
+
+RESOURCE ID: gardevoir_gallade_synchronoise_catch
+TEXT: Gardevoir and Gallade encountered after raids will know Synchronoise
+
+RESOURCE ID: gardevoir_gallade_synchronoise_evolve
+TEXT: Evolve a Kirlia into a Gardevoir or a Gallade that knows Synchronoise
 
 RESOURCE ID: general1.ticket.2_bulbt_description
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ
@@ -532,12 +544,12 @@ RESOURCE ID: general1.ticket.2_hoopau_title
 TEXT: ตั๋ว "ปลดปลอยความปวน"
 
 RESOURCE ID: general1.ticket.2_hoppt_description
-TEXT: A ticket to access the Hop, Skip, and a Jump away Special Research on February 12, 2022, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: A ticket to access the A Hop, Skip, and Jump Away Special Research on February 12, 2022, from 11:00 a.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
 
 YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
 RESOURCE ID: general1.ticket.2_hoppt_title
-TEXT: Hop, Skip, and a Jump away
+TEXT: A Hop, Skip, and Jump Away
 
 RESOURCE ID: general1.ticket.2_sphet_description
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ
@@ -1083,16 +1095,19 @@ RESOURCE ID: johto_cup_title
 TEXT: การแขงขันโจโตะ
 
 RESOURCE ID: jp_iap_link1
-TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=others&f=%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA&l=ja&p=web
+TEXT: https://niantic.helpshift.com/hc/ja/6-pokemon-go/faq/2046-%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/?s=others&f=%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA&l=ja&p=web
 
 RESOURCE ID: jp_iap_link2
-TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=others&f=%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA&l=ja&p=web
+TEXT: https://niantic.helpshift.com/hc/ja/6-pokemon-go/faq/150-%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/?s=others&f=%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA&l=ja&p=web
 
 RESOURCE ID: jp_iap_linkname1
 TEXT: Link 1
 
 RESOURCE ID: jp_iap_linkname2
 TEXT: Link 2
+
+RESOURCE ID: limited_research_flabébé
+TEXT: งานวิจัยแบบจำกัดเวลาของฟลาเบเบ
 
 RESOURCE ID: limited_research_goomy
 TEXT: งานวิจัยแบบจำกัดเวลาของนูเมรา
@@ -1117,8 +1132,8 @@ RESOURCE ID: m_avatar_poses_bundle_pose_33
 TEXT: ทาโพสเฟลอรเดอลี
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-01-29T00:34:44.764846
-at SHA 894f07e9d42bdee29ee25a19170d1d02a637be99
+TEXT: Built at 2022-02-02T16:53:02.851851
+at SHA bab2a6b986d8daf245ef4cdd93a1e0be82597dbc
 Patch from: 0.227.1-SHA-d7318086
 
 RESOURCE ID: mobile_games_catch_sr
@@ -1278,7 +1293,7 @@ RESOURCE ID: photobomb_five_bulbasaur
 TEXT: เผชิญหนากับฟุชิกิดาเนะแบบไมคาดคิดในโกสแนปช็อต 5 ครั้ง
 
 RESOURCE ID: photobomb_five_hoppip
-TEXT: 5 surprise encounters with Skiploom in GO Snapshot
+TEXT: 5 surprise encounters with Hoppip in GO Snapshot
 
 RESOURCE ID: photobomb_five_spheal
 TEXT: เผชิญหนากับทามาซาราชิแบบไมคาดคิดในโกสแนปช็อต 5 ครั้ง
@@ -1840,7 +1855,7 @@ RESOURCE ID: quest_complete_dec2021
 TEXT: คอมมิวนิตี้เดยธันวาคม 2021
 
 RESOURCE ID: quest_complete_hoppt
-TEXT: Hop, Skip, and a Jump away
+TEXT: A Hop, Skip, and Jump Away
 
 RESOURCE ID: quest_complete_onboard_sr
 TEXT: ยินดีตอนรับสู Pokémon GO!
@@ -1850,6 +1865,9 @@ TEXT: เรื่องของทามาซาราชิ
 
 RESOURCE ID: quest_dec2021_catch_b
 TEXT: จับโปเกมอนเดนในชวงคอมมิวนิตี้เดยป 2021 {0}  ตัว
+
+RESOURCE ID: quest_evolve_flabébé_singular
+TEXT: วิวัฒนาการฟลาเบเบ
 
 RESOURCE ID: quest_evolve_goomy_singular
 TEXT: วิวัฒนาการนูเมรา
@@ -1874,6 +1892,21 @@ TEXT: ทำการขวางบอลโคง
 
 RESOURCE ID: quest_play_buddy_singular
 TEXT: เลนกับคูหูของคุณ
+
+RESOURCE ID: quest_power_up_plural_electric
+TEXT: Power up {0} Electric-type Pokémon
+
+RESOURCE ID: quest_power_up_plural_fighting
+TEXT: Power up {0} Fighting-type Pokémon
+
+RESOURCE ID: quest_power_up_plural_ground
+TEXT: Power up {0} Ground-type Pokémon
+
+RESOURCE ID: quest_power_up_plural_normal
+TEXT: Power up {0} Normal-type Pokémon
+
+RESOURCE ID: quest_power_up_plural_water
+TEXT: Power up {0} Water-type Pokémon
 
 RESOURCE ID: quest_send_gifts_daily_row
 TEXT: สงของขวัญ {0} วันติดตอกัน
@@ -2279,52 +2312,52 @@ RESOURCE ID: quest_special_dialogue_hoopaunbound_2_9
 TEXT: เราตองทดสอบดูกอนถึงจะไดขอสรุป!
 
 RESOURCE ID: quest_special_dialogue_hoppt_0_0
-TEXT: Hey there %PLAYERNAME%! Thanks for being here, I'm so glad to see you
+TEXT: Hey there, %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_hoppt_0_1
-TEXT: I've been noticing the most wonderous thing lately: Hoppip are filling the skies! Floating on the winds!
+TEXT: I just saw the most wonderful thing: hundreds of Hoppip are filling the sky! You’d think the clouds were pink with how many there are out there right now.
 
 RESOURCE ID: quest_special_dialogue_hoppt_0_2
-TEXT: This is the perfect opportunity for us to learn more about the Cottonweed Pokémon, don't you think?
+TEXT: I believe this is the perfect opportunity for us to learn more about Hoppip, the Cottonweed Pokémon, don’t you agree?
 
 RESOURCE ID: quest_special_dialogue_hoppt_0_3
-TEXT: It is said that when Hoppip gather in fields and mountains, spring is on the way.
+TEXT: It’s said that when Hoppip gather in fields and mountains, spring is on the way.
 
 RESOURCE ID: quest_special_dialogue_hoppt_0_4
-TEXT: I believe it's almost springtime in some areas right now, so this checks out! Why don't you go catch some and report back on what you find, hm?
+TEXT: Does it feel like spring yet, with all these Hoppip floating about? Let’s see about catching a few to find out more about them.
 
 RESOURCE ID: quest_special_dialogue_hoppt_1_0
-TEXT: Wow, look at all of those Hoppip! Did you know that its body is so light, it must grip the ground firmly with its feet to keep from being blown away?
+TEXT: Wow, look at all those Hoppip! Hoppip are so light that they grip the ground with their feet to keep from being blown away. They also like to huddle up and link their leaves to stay grounded as a group.
 
 RESOURCE ID: quest_special_dialogue_hoppt_1_1
-TEXT: According to the Pokédex, the average Hoppip weighs just 0.5 kg. That's so light! Hoppip has an evolved form as well, did you know?
+TEXT: They sure have found all sorts of clever ways to keep themselves in place.
 
 RESOURCE ID: quest_special_dialogue_hoppt_1_2
-TEXT: If you evolve it, you'll see just how it changes its appearance: specifically the plant on its head! I'm so excited for you to see it!
+TEXT: Hoppip can also evolve, and it’s quite the sight. Don’t take my word for it—how about you go see for yourself!
 
 RESOURCE ID: quest_special_dialogue_hoppt_2_0
-TEXT: Ahh, what an adorable Skiploom! Do you see there, %PLAYERNAME%? How the flower on its head and is opening and closing?
+TEXT: What an adorable Skiploom, %PLAYERNAME%! Have you had a moment to study it?
 
 RESOURCE ID: quest_special_dialogue_hoppt_2_1
-TEXT: Apparently, the bloom on top of its head open and closes as the temperature fluctuates up and down! Isn't that absolutely fascinating?
+TEXT: The bloom on top of its head opens and closes as the temperature fluctuates. Because Skiploom’s flower blossoms when the temperature rises, some Trainers have taken to using it as a thermometer. Isn’t that fascinating?
 
 RESOURCE ID: quest_special_dialogue_hoppt_2_2
-TEXT: And not just that, but it also floats in the air to get closer to the sun. I don't blame it, if I could float closer to the sun I would too, haha!
+TEXT: In warm weather, Skiploom can also be seen floating in the air to get closer to the sun. I don’t blame it—if I could float and get a little more sunlight, I would, too!
 
 RESOURCE ID: quest_special_dialogue_hoppt_2_3
-TEXT: Skiploom can evolve one more time, did you know that? Let's see what it turns into!
+TEXT: Did you know that Skiploom can evolve as well? Why don’t you evolve one, hm?
 
 RESOURCE ID: quest_special_dialogue_hoppt_3_0
-TEXT: Great work, %PLAYERNAME%! Looks like you've got a Jumpluff! Blown by seasonal winds, it circles the globe, scattering cotton spores as it goes.
+TEXT: Great work, %PLAYERNAME%! Looks like you’ve got yourself a Jumpluff. Jumpluff rides the winds to cross the sea and fly to foreign lands, scattering cotton spores as it goes.
 
 RESOURCE ID: quest_special_dialogue_hoppt_3_1
-TEXT: Sounds like such a beautiful sight! 
+TEXT: Wouldn’t it be wonderful to travel so breezily?
 
 RESOURCE ID: quest_special_dialogue_hoppt_3_2
-TEXT: Well this was a fun adventure learning all about the Cottonweed Pokémon with you! Research all day with no play is no way to be a Pokémon Trainer.
+TEXT: On that note, you should take your new friend for a stroll—maybe bask in the sunlight together a bit, too.
 
 RESOURCE ID: quest_special_dialogue_hoppt_3_3
-TEXT: You should go take your new friends for a little walk, maybe bask in the sun together a bit. Hope you have some fun in the sun together, %PLAYERNAME%!
+TEXT: See you again soon, %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_onboard_sr_0_0
 TEXT: สวัสดี! ยินดีที่ไดรูจักนะ %PLAYERNAME%
@@ -3015,19 +3048,19 @@ RESOURCE ID: quest_title_hoopaunbound_2
 TEXT: ปลดปลอยความปวน (3/3)
 
 RESOURCE ID: quest_title_hoppt
-TEXT: Hop, Skip, and a Jump away
+TEXT: A Hop, Skip, and Jump Away
 
 RESOURCE ID: quest_title_hoppt_0
-TEXT: Hop, Skip, and a Jump away (1/4)
+TEXT: A Hop, Skip, and Jump Away (1/4)
 
 RESOURCE ID: quest_title_hoppt_1
-TEXT: Hop, Skip, and a Jump away (2/4)
+TEXT: A Hop, Skip, and Jump Away (2/4)
 
 RESOURCE ID: quest_title_hoppt_2
-TEXT: Hop, Skip, and a Jump away (3/4)
+TEXT: A Hop, Skip, and Jump Away (3/4)
 
 RESOURCE ID: quest_title_hoppt_3
-TEXT: Hop, Skip, and a Jump away (4/4)
+TEXT: A Hop, Skip, and Jump Away (4/4)
 
 RESOURCE ID: quest_title_onboard_sr
 TEXT: ยินดีตอนรับสู Pokémon GO!
@@ -3221,6 +3254,12 @@ TEXT: เรื่องของทามาซาราชิ (3/4)
 RESOURCE ID: quest_title_sphet_3
 TEXT: เรื่องของทามาซาราชิ (4/4)
 
+RESOURCE ID: quest_use_standard_charged_tm
+TEXT: Use a standard Charged TM
+
+RESOURCE ID: quest_use_standard_fast_tm
+TEXT: Use a standard Fast TM
+
 RESOURCE ID: quest_walk_km
 TEXT: เดิน {0} กม
 
@@ -3233,11 +3272,20 @@ TEXT: ชนะการตีบอสหนึ่งดาว
 RESOURCE ID: quest_xp_plural
 TEXT: รับ {0} XP
 
+RESOURCE ID: raid with a friend
+TEXT: Raid with a friend
+
+RESOURCE ID: raid_day_flabébé
+TEXT: วันตีบอส : ฟลาเบเบ
+
 RESOURCE ID: raid_day_goomy
 TEXT: วันตีบอส : นูเมรา
 
 RESOURCE ID: raid_day_politoed
 TEXT: วันตีบอส : เนียวโรโทโนะ
+
+RESOURCE ID: raid_weekend_flabébé
+TEXT: สุดสัปดาหตีบอสรอบพิเศษ : ฟลาเบเบ
 
 RESOURCE ID: raid_weekend_goomy
 TEXT: สุดสัปดาหตีบอสรอบพิเศษ : นูเมรา
@@ -3261,10 +3309,10 @@ RESOURCE ID: spawn_bulbasaur
 TEXT: ฟุชิกิดาเนะปรากฏตัวออกมามากขึ้น
 
 RESOURCE ID: spawn_hoppip
-TEXT: More Skiploom are appearing in the wild
+TEXT: More Hoppip are appearing in the wild
 
 RESOURCE ID: spawn_skiploom_park
-TEXT: Chance for Skiploom to appear in Parks
+TEXT: Increased chance for Skiploom to appear in parks
 
 RESOURCE ID: spawn_spheal
 TEXT: ทามาซาราชิปรากฏตัวออกมามากขึ้น
@@ -3282,7 +3330,7 @@ RESOURCE ID: ticket_hoopau
 TEXT: สามารถซื้อตั๋วสำหรับงานวิจัยพิเศษไดที่รานคา
 
 RESOURCE ID: ticket_hoppip
-TEXT: Ticket for the Hop, Skip, and a Jump away Special Research story available in the shop
+TEXT: Ticket for the A Hop, Skip, and Jump Away Special Research story available in the shop
 
 RESOURCE ID: ticket_oshawott
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "จากโฮตาจิสูอาชิกาตานะ" ไดที่รานคา 
@@ -3294,9 +3342,6 @@ RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: เทรนเนอรในคอมมิวนิตี้ทองถิ่นจะตองทำงานรวมกันเพื่อทำคำทานี้ใหเสร็จสมบูรณ
 
 RESOURCE ID: timed_challenge_bonus_modal_title
-TEXT: คำทาเฉพาะทองถิ่น
-
-RESOURCE ID: timed_challenge_global_type
 TEXT: คำทาเฉพาะทองถิ่น
 
 RESOURCE ID: timed_challenge_work_together
@@ -3378,6 +3423,9 @@ TEXT: อุปกรณปลอยลัวรน้ำฝน
 30 นาที โดยเฉพาะโปเกมอนที่ชื่นชอบ
 ฝน และทำใหโปเกมอนบางตัว
 วิวัฒนาการไดดวย
+
+RESOURCE ID: vd22_collection_challenge_2
+TEXT: Valentine’s Day Challenge 2
 
 RESOURCE ID: verbose_logs_disable_body
 TEXT: If you stop saving {0} Logs, any {1} Logs that you haven’t uploaded will be deleted.
