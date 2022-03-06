@@ -106,6 +106,15 @@ TEXT: 実力の違いだな。しかもどんどん強くなる．．．
 RESOURCE ID: avatar_f_backpack_hououbackpack_00_bundle_icon
 TEXT: ホウオウ　翼
 
+RESOURCE ID: avatar_f_face_festofcolors_00_bundle_icon
+TEXT: カラーフェスティバル　フェイスステッカー　赤
+
+RESOURCE ID: avatar_f_face_festofcolors_01_bundle_icon
+TEXT: カラーフェスティバル　フェイスステッカー　黄
+
+RESOURCE ID: avatar_f_face_festofcolors_02_bundle_icon
+TEXT: カラーフェスティバル　フェイスステッカー　青
+
 RESOURCE ID: avatar_f_glasses_lugiaglasses_00_bundle_icon
 TEXT: ルギア　お面
 
@@ -186,6 +195,15 @@ TEXT: くるぶしソックス
 
 RESOURCE ID: avatar_m_backpack_hououbackpack_00_bundle_icon
 TEXT: ホウオウ　翼
+
+RESOURCE ID: avatar_m_face_festofcolors_00_bundle_icon
+TEXT: カラーフェスティバル　フェイスステッカー　赤
+
+RESOURCE ID: avatar_m_face_festofcolors_01_bundle_icon
+TEXT: カラーフェスティバル　フェイスステッカー　黄
+
+RESOURCE ID: avatar_m_face_festofcolors_02_bundle_icon
+TEXT: カラーフェスティバル　フェイスステッカー　青
 
 RESOURCE ID: avatar_m_glasses_lugiaglasses_00_bundle_icon
 TEXT: ルギア　お面
@@ -328,7 +346,7 @@ RESOURCE ID: blanche_incident_defeat__male_speaker
 TEXT: ふーむ。
 
 RESOURCE ID: blanche_incident_greeting
-TEXT: Steady composure and precise analysis—that is the Team Mystic way.
+TEXT: 常に冷静。的確な分析。チームミスティックとは、そういう集団だ。
 
 RESOURCE ID: blanche_incident_victory__female_speaker
 TEXT: ふーむ。
@@ -367,7 +385,7 @@ RESOURCE ID: candela_incident_defeat__male_speaker
 TEXT: いいんだ、別に。いいんだ．．．
 
 RESOURCE ID: candela_incident_greeting
-TEXT: No matter what happens, our courageous fire will never go out! Team Valor blazes toward victory.
+TEXT: 何が起ころうと、熱く燃える炎が消えることはない！チームヴァーラーの行く道には勝利が待っているのみ！
 
 RESOURCE ID: candela_incident_victory__female_speaker
 TEXT: またチームヴァーラーの勝ち。もう1回挑戦してみる？
@@ -1077,7 +1095,7 @@ RESOURCE ID: gotour2022_instinct_leader_loss
 TEXT: ああ．．．
 
 RESOURCE ID: gotour2022_instinct_leader_prebattle
-TEXT: I remember when you were just a newbie. But I won’t go easy on ya just because we’re old friends!
+TEXT: トレーナーになりたての頃のきみ、覚えてるよ。顔見知りだからって手加減はしないぜ！
 
 RESOURCE ID: gotour2022_instinct_leader_quote
 TEXT: 直感を信じる、っていうのは結局一番確実なのさ。チームインスティンクトがいけてるのはそういうところ！
@@ -1169,7 +1187,7 @@ RESOURCE ID: gotour2022_valor_leader_loss
 TEXT: いいんだ、別に。いいんだ．．．
 
 RESOURCE ID: gotour2022_valor_leader_prebattle
-TEXT: Your battle skills have improved so much since we first met. Let’s see which one of us comes out on top, shall we?
+TEXT: 最初会ったときよりバトルの腕を上げたようね。どちらが勝つか、熱いバトルで確かめましょ！ 
 
 RESOURCE ID: gotour2022_valor_leader_quote
 TEXT: 何が起ころうと、熱く燃える炎が消えることはない！チームヴァーラーの行く道には勝利が待っているのみ！
@@ -1892,7 +1910,7 @@ RESOURCE ID: incident_unknown_error
 TEXT: バトルエラー
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: きみも、いよいよポケモンバトルへ参加する準備が整ったようだね！
+TEXT: ポケモンバトル参加準備完了！
 
 RESOURCE ID: item_event_ticket_gray_name
 TEXT: チケット
@@ -2021,8 +2039,8 @@ RESOURCE ID: masterwork_lugiahoohs_dialogue_3_8
 TEXT: 本当にありがとう。ホウオウとルギアも感謝していると思うよ。では、次の冒険で会おう。それまで、元気にGOだ！
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-03-01T06:38:46.207384
-at SHA 072c08cd7a50b6384def6d60af581992afb60e88
+TEXT: Built at 2022-03-03T23:33:09.492406
+at SHA 2adead00c2a5bbacf3b204fb438cb2c144b3a002
 Patch from: 0.229.2-SHA-94673640, 0.231.0-SHA-413df5be
 
 RESOURCE ID: mobile_games_catch_sr
@@ -3795,8 +3813,32 @@ TEXT: バレンタインチャレンジ1
 RESOURCE ID: vd22_collection_challenge_2
 TEXT: バレンタインチャレンジ2
 
+RESOURCE ID: verbose_logs_disable_body
+TEXT: 保存を停止すると、アップロード前のログ{1}件は消えます
+
+RESOURCE ID: verbose_logs_disable_title
+TEXT: ログの保存を停止しますか？
+
 RESOURCE ID: verbose_logs_pending_count
-TEXT: {0}ログのアップロードが完了していません
+TEXT: ログ1 件のアップロードが完了していません
+
+RESOURCE ID: verbose_logs_pending_count_plural
+TEXT: ログ{0}件のアップロードが完了していません
+
+RESOURCE ID: verbose_logs_toggle
+TEXT: ログ{0}件保存
+
+RESOURCE ID: verbose_logs_upload_list_entry
+TEXT: ログ{0}件 ({1} MB）
+
+RESOURCE ID: verbose_logs_upload_title_plural
+TEXT: いますぐアップロードしますか？
+
+RESOURCE ID: verbose_logs_uploading_count
+TEXT: ログ1件アップロード中...
+
+RESOURCE ID: verbose_logs_uploading_count_plural
+TEXT: ログ{0}件アップロード中...
 
 RESOURCE ID: walk_distance
 TEXT: km
