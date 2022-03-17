@@ -361,6 +361,24 @@ TEXT: Dia Comunitário: Hoppip
 RESOURCE ID: community_day_sandshrew_event_name
 TEXT: Dia Comunitário: Sandshrew
 
+RESOURCE ID: error_memento_type_not_enabled
+TEXT: Erro de Livro de Cartões-postais
+
+RESOURCE ID: error_not_enabled
+TEXT: Erro de Livro de Cartões-postais
+
+RESOURCE ID: error_postcard_already_created
+TEXT: O Cartão-postal já foi fixado
+
+RESOURCE ID: error_postcard_does_not_exist
+TEXT: Cartão-postal não encontrado
+
+RESOURCE ID: error_postcard_favorited
+TEXT: Não é possível remover um Cartão-postal favorito
+
+RESOURCE ID: error_postcard_inventory_full
+TEXT: Livro de Cartões-postais cheio
+
 RESOURCE ID: event_npc00_combat_quote__female_speaker
 TEXT: Deixa eu ver se você é tudo isso mesmo!
 
@@ -645,7 +663,7 @@ RESOURCE ID: free_box_push_2
 TEXT: O seu combo grátis diário contém itens escolhidos especialmente para você! Resgate na loja do jogo.
 
 RESOURCE ID: friend_pinned_your_postcard_singular_from_poi
-TEXT: {0} has saved your Postcard from {1}!
+TEXT: {0} salvou o seu Cartão-postal de {1}!
 
 RESOURCE ID: furfrou_heart_trim
 TEXT: Furfrou pode mudar sua forma para Corte Coração
@@ -1812,6 +1830,12 @@ TEXT: Um ingresso para acessar uma pesquisa especial no dia 13 de março de 2022
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a uma pesquisa especial no dia 13 de março de 2022, de onde você estiver.
 
+RESOURCE ID: item_postcard_inventory_desc
+TEXT: Um livro para colecionar Cartões-postais e relembrar locais de suas jornadas e amigos.
+
+RESOURCE ID: item_postcard_inventory_name
+TEXT: Livro de Cartões-postais
+
 RESOURCE ID: jp_iap_link1
 TEXT: https://niantic.helpshift.com/hc/ja/6-pokemon-go/faq/2046-%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/?s=others&f=%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA&l=ja&p=web
 
@@ -1916,15 +1940,18 @@ RESOURCE ID: masterwork_lugiahoohs_dialogue_3_8
 TEXT: E mais uma vez obrigado por toda a sua ajuda. Tenho certeza que Ho-Oh e Lugia também estão agradecidos. Até a nossa próxima aventura...e vamos nessa!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-03-12T03:24:02.584645
-at SHA e22caf61839d8cf31d62213c2575b1e8bf6e9690
+TEXT: Built at 2022-03-16T21:22:57.921685
+at SHA 32759ce56f2754288a0bf93bebb2679459a3ab99
 Patch from: 0.231.0-SHA-413df5be, 0.231.1-SHA-14046783
 
 RESOURCE ID: move_name_0364
 TEXT: Acrobático
 
+RESOURCE ID: not_modified
+TEXT: Não foi possível alterar o Cartão-postal
+
 RESOURCE ID: pair_friend_pinned_your_postcard
-TEXT: {0} and {1} have saved your Postcards!
+TEXT: {0} e {1} salvaram seus Cartões-postais!
 
 RESOURCE ID: photobomb_five_hoppip
 TEXT: 5 encontros surpresa com Hoppip ao usar o Retrato GO
@@ -1933,7 +1960,7 @@ RESOURCE ID: photobomb_five_sandshrew
 TEXT: 5 encontros surpresa com Sandshrew ao usar o Retrato GO
 
 RESOURCE ID: plural_friend_pinned_your_postcard
-TEXT: {0}, {1}, and other friends have saved your Postcards!
+TEXT: {0}, {1} e outros amigos salvaram seus Cartões-postais!
 
 RESOURCE ID: pokemon_category_0101_2735
 TEXT: Pokémon Esfera
@@ -1961,6 +1988,55 @@ TEXT: As pedras em sua juba são mais afiadas do que uma faca. Fragmentos que ca
 
 RESOURCE ID: pokemon_desc_0745_2685
 TEXT: Não se incomoda em ignorar ordens das quais não goste. Não se importa também em se machucar, contanto que acabe com seu oponente antes.
+
+RESOURCE ID: postcard_added
+TEXT: Fixado no Livro de Cartões-postais!
+
+RESOURCE ID: postcard_cant_delete_favorite
+TEXT: Não é possível deletar um Cartão-postal favorito.
+
+RESOURCE ID: postcard_delete_confirmation_1
+TEXT: Deseja excluir este Cartão-postal?
+
+RESOURCE ID: postcard_delete_confirmation_2
+TEXT: Não é possível desfazer esta ação depois de excluir o Cartão-postal.
+
+RESOURCE ID: postcard_full_warning_body
+TEXT: Se deseja salvar este Cartão-postal, libere espaço no seu Livro de Cartões-postais.
+
+RESOURCE ID: postcard_full_warning_header
+TEXT: Seu Livro de Cartões-postais está cheio
+
+RESOURCE ID: postcard_keep
+TEXT: Fixar Cartões-postais
+
+RESOURCE ID: postcard_nocard
+TEXT: Você não fixou nenhum Cartão-postal.
+
+RESOURCE ID: postcard_nocard_dialog
+TEXT: Você pode fixar Cartões-postais dos presentes de amigos ou dos seus antes de enviá-los.
+
+RESOURCE ID: postcard_removed
+TEXT: Removido do Livro de Cartões-postais.
+
+RESOURCE ID: postcard_self_sender
+TEXT: Seu Cartão-postal
+
+RESOURCE ID: postcard_sharing_optin_prompt_message
+TEXT: Se compartilhar seu apelido com amigos, eles poderão salvá-lo em seus Livros de Cartões-postais. Você pode alterar isso no menu de Configurações. Deseja compartilhar seu apelido?
+
+RESOURCE ID: postcard_sharing_optin_prompt_title
+TEXT: Compartilhar apelido no Livro de Cartões-postais
+
+RESOURCE ID: postcard_trainer_name_setting_message
+TEXT: Seu apelido não será compartilhado nos Livros de Cartões-postais de amigos. Você pode alterar isso no menu de Configurações.
+
+RESOURCE ID: postcard_tutorial_1
+TEXT: Ao fixar um Cartão-postal do presente de um amigo, ele vai para o seu Livro de Cartões-postais! Você também pode ficar com os Cartões-postais de presentes que você conseguiu durante sua jornada.
+Para ver seus Cartões-postais, abra o Livro de Cartões-postais do seu perfil ou da sua Bolsa.
+
+RESOURCE ID: postcard_unfriend_tutorial
+TEXT: Você recebeu Cartões-postais de Treinadores desconhecidos. Eles podem ter escolhido não compartilhar os apelidos, ou talvez vocês não sejam mais amigos. Você pode guardar o Cartão-postal no seu Livro.
 
 RESOURCE ID: quest_buddy_affection_days_in_a_row
 TEXT: Ganhar 1 coração com seu companheiro {0} dias seguidos.
@@ -2131,7 +2207,7 @@ RESOURCE ID: quest_snapshot_wild_entei
 TEXT: Tirar 1 foto de Entei selvagem.
 
 RESOURCE ID: quest_snapshot_wild_grass_singular
-TEXT: Tirar uma foto de um Pokémon selvagem de tipo Planta.
+TEXT: Tirar 1 foto de um Pokémon selvagem de tipo Planta.
 
 RESOURCE ID: quest_snapshot_wild_raikou
 TEXT: Tirar 1 foto de Raikou selvagem.
@@ -2402,6 +2478,12 @@ TEXT: Usar 1 MT de ataque carregado.
 
 RESOURCE ID: quest_use_standard_fast_tm
 TEXT: Usar 1 MT de ataque ágil.
+
+RESOURCE ID: select_gift_to_delete_or_save_prompt
+TEXT: Selecione um presente para fixar ou excluir o Cartão-postal.
+
+RESOURCE ID: settings_postcard_optin_name
+TEXT: Compartilhar apelido nos Livros de Cartões-postais de amigos
 
 RESOURCE ID: spark_incident_combat_quote__female_speaker
 TEXT: Eu lembro quando você era apenas iniciante. Mas não vou pegar leve só porque somos velhos amigos!
@@ -2696,6 +2778,9 @@ TEXT: Desafio global
 
 RESOURCE ID: timed_challenge_work_together_global_backup
 TEXT: Todos os Treinadores devem trabalhar juntos como uma comunidade global para completar este desafio.
+
+RESOURCE ID: tips_tasks_snapshot_wild_title
+TEXT: Tirar 1 foto de um Pokémon selvagem
 
 RESOURCE ID: today_view_all_hours
 TEXT: Pokémon selvagens de todas as horas estão aparecendo com mais frequência!

@@ -316,6 +316,9 @@ TEXT: Больше Хоппип-конфет XL при поимке Скиплу
 RESOURCE ID: buddy_level_requirement_plural
 TEXT: Заработай сердечки с твоим приятелем, чтобы достичь уровня {1}: {0}!
 
+RESOURCE ID: buddy_level_requirement_singular
+TEXT: Заработай ещё {0} сердечко с твоим приятелем, чтобы достичь уровня {1}!
+
 RESOURCE ID: candela_incident_combat_quote__female_speaker
 TEXT: Твои боевые навыки значительно улучшились с нашей первой встречи. Ну что, посмотрим, кто кого?
 
@@ -348,6 +351,9 @@ TEXT: Когда ты посещаешь Покестопы или Гимы, т�
 
 RESOURCE ID: enable_sponsored_gift_description
 TEXT: Когда ты посещаешь Покестопы или Гимы, ты можешь получать относящиеся к твоему местоположению спонсорские подарки вместе со спонсорским сообщением. Нажми <b>ОК<b>, чтобы включить эту опцию и получать спонсорские подарки. <b>Перезагрузи приложение, чтобы твой выбор сохранился. Нажми <a href="https://niantic.helpshift.com/a/pokemon-go/?p=all&l=ru&s=in-game-locations&f=sponsored-gifts">сюда</a>, чтобы больше узнать о спонсорских подарках.</b>
+
+RESOURCE ID: err_taking_you_to_app_store
+TEXT: Обнови, чтобы продолжить...
 
 RESOURCE ID: event_npc00_combat_quote__female_speaker
 TEXT: Покажи, что ты умеешь!
@@ -638,7 +644,7 @@ RESOURCE ID: free_box_push_2
 TEXT: Your Daily Free Box contains customized items just for you! Claim it from the in-game shop.
 
 RESOURCE ID: friend_pinned_your_postcard_singular_from_poi
-TEXT: {0} has saved your Postcard from {1}!
+TEXT: Твоя открытка «{1}» была сохранена другом {0}!
 
 RESOURCE ID: furfrou_heart_trim
 TEXT: Фурфу может изменить форму на Причёска-сердце
@@ -1827,7 +1833,7 @@ RESOURCE ID: jp_iap_link2
 TEXT: https://niantic.helpshift.com/hc/ja/6-pokemon-go/faq/150-%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/?s=others&f=%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA&l=ja&p=web
 
 RESOURCE ID: lush_jungle_event_name
-TEXT: Lush Jungle
+TEXT: Густые джунгли
 
 RESOURCE ID: m_avatar_poses_bundle_pose_34
 TEXT: Поза Гладиона
@@ -1923,15 +1929,15 @@ RESOURCE ID: masterwork_lugiahoohs_dialogue_3_8
 TEXT: И ещё раз спасибо за помощь. Уверен, что Хо-Oх и Лугиа тоже тебя благодарят. Что ж, до следующего приключения... ИДИ и ЛОВИ!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-03-12T03:24:02.584645
-at SHA e22caf61839d8cf31d62213c2575b1e8bf6e9690
+TEXT: Built at 2022-03-16T21:22:57.921685
+at SHA 32759ce56f2754288a0bf93bebb2679459a3ab99
 Patch from: 0.231.0-SHA-413df5be, 0.231.1-SHA-14046783
 
 RESOURCE ID: minicollect_help_desc_type_costume
 TEXT: Лови Покемонов коллекционного испытания.
 
 RESOURCE ID: pair_friend_pinned_your_postcard
-TEXT: {0} and {1} have saved your Postcards!
+TEXT: {0} и {1} сохранили твои открытки!
 
 RESOURCE ID: pgp_log_received_items
 TEXT: Покестоп{1} выдал предметы: {0}.
@@ -1943,7 +1949,7 @@ RESOURCE ID: photobomb_five_sandshrew
 TEXT: 5 неожиданных встреч с Сэндшрю в Стоп-кадре GO
 
 RESOURCE ID: plural_friend_pinned_your_postcard
-TEXT: {0}, {1}, and other friends have saved your Postcards!
+TEXT: {0}, {1} и другие друзья сохранили твои открытки!
 
 RESOURCE ID: pokemon_category_0101_2735
 TEXT: Покемон-Сфера
@@ -2018,7 +2024,7 @@ RESOURCE ID: quest_buddy_affection_days_in_a_row
 TEXT: Заработай сердечко с твоим приятелем {0} дн. подряд
 
 RESOURCE ID: quest_catch_special_cottonee
-TEXT: Поймай Коттони: {0}
+TEXT: Поймай {0} Коттони
 
 RESOURCE ID: quest_complete_hoppt
 TEXT: Прыг-скок
@@ -2299,6 +2305,9 @@ TEXT: Думаешь, у нас будет шанс встретиться с д
 RESOURCE ID: quest_special_dialogue_melemele_3_5
 TEXT: Что ж, время покажет. А пока давай отдохнём и проведём время с новыми друзьями!
 
+RESOURCE ID: quest_special_dialogue_onboard_sr_0_4
+TEXT: Если ты бросишь Поке-Болл в самый центр Покемона в нужный момент, то сможешь сделать хороший, отличный или прекрасный бросок!
+
 RESOURCE ID: quest_special_dialogue_sandt_0_0
 TEXT: Доброе утро, %PLAYERNAME%! Кажется, в округе сегодня больше Сэндшрю, чем обычно.
 
@@ -2393,16 +2402,16 @@ RESOURCE ID: quest_title_hoppt_3
 TEXT: Прыг-скок (4/4)
 
 RESOURCE ID: quest_title_lush_jungle_0
-TEXT: Lush Jungle (1/4)
+TEXT: Густые джунгли (1/4)
 
 RESOURCE ID: quest_title_lush_jungle_1
-TEXT: Lush Jungle (2/4)
+TEXT: Густые джунгли (2/4)
 
 RESOURCE ID: quest_title_lush_jungle_2
-TEXT: Lush Jungle (3/4)
+TEXT: Густые джунгли (3/4)
 
 RESOURCE ID: quest_title_lush_jungle_3
-TEXT: Lush Jungle (4/4)
+TEXT: Густые джунгли (4/4)
 
 RESOURCE ID: quest_title_melemele
 TEXT: Приключения на Мелемеле
@@ -2804,6 +2813,9 @@ TEXT: Загрузка 1 журнала...
 
 RESOURCE ID: verbose_logs_uploading_count_plural
 TEXT: Загрузка {0} журналов...
+
+RESOURCE ID: vss_entry_confirmation
+TEXT: Вперёд!
 
 RESOURCE ID: welcome_to_alola_event_name
 TEXT: Добро пожаловать в Алолу!

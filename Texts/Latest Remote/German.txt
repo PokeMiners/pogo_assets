@@ -282,6 +282,12 @@ TEXT: Kaohsiung Test: 27. Februar 2022
 RESOURCE ID: badge_gotour_2022_live_b_test_title
 TEXT: Pokémon GO-Tour: Live – Betritt Kanto
 
+RESOURCE ID: badge_small_rattata_title
+TEXT: Knirps
+
+RESOURCE ID: badge_type_psychic_title
+TEXT: Medium
+
 RESOURCE ID: blanche_incident_combat_quote__female_speaker
 TEXT: Die Resultate dieses Kampfes werden – unabhängig vom Ergebnis – aufschlussreich sein. Ich erwarte, dass wir beide unser Bestes geben. Lass uns anfangen.
 
@@ -735,6 +741,38 @@ TEXT: Gelbblütler
 RESOURCE ID: form_full_belly
 TEXT: Pappsattmuster
 
+RESOURCE ID: form_furfrou_dandy
+TEXT: Kavaliers-
+schnitt
+
+RESOURCE ID: form_furfrou_debutante
+TEXT: Fräulein-
+schnitt
+
+RESOURCE ID: form_furfrou_diamond
+TEXT: Diamanten-
+schnitt
+
+RESOURCE ID: form_furfrou_heart
+TEXT: Herzchen-
+schnitt
+
+RESOURCE ID: form_furfrou_la_reine
+TEXT: Königinnen-
+schnitt
+
+RESOURCE ID: form_furfrou_matron
+TEXT: Damen-
+schnitt
+
+RESOURCE ID: form_furfrou_pharaoh
+TEXT: Herrscher-
+schnitt
+
+RESOURCE ID: form_furfrou_star
+TEXT: Sternchen-
+schnitt
+
 RESOURCE ID: form_gorging
 TEXT: Stopfform
 
@@ -807,6 +845,9 @@ TEXT: Tanzform
 RESOURCE ID: form_primal
 TEXT: Protomorphose
 
+RESOURCE ID: form_rotom_normal
+TEXT: Rotom
+
 RESOURCE ID: form_school
 TEXT: Schwarmform
 
@@ -838,7 +879,7 @@ RESOURCE ID: free_box_push_2
 TEXT: Deine tägliche kostenlose Box enthält individuelle Items, nur für dich. Hol sie dir im In-Game-Shop!
 
 RESOURCE ID: friend_pinned_your_postcard_singular_from_poi
-TEXT: {0} has saved your Postcard from {1}!
+TEXT: {0} hat deine Postkarte von {1} gespeichert!
 
 RESOURCE ID: furfrou_heart_trim
 TEXT: Coiffwaff kann seine Form zu einem Herzchenschnitt ändern
@@ -1296,6 +1337,9 @@ TEXT: Jetzt: Viola City-Stunde!
 
 RESOURCE ID: gotour2022_welcome
 TEXT: Willkommen zur Pokémon GO-Tour: Johto!
+
+RESOURCE ID: gotour_kanto_raid_description
+TEXT: Schließe Raids gegen Pokémon aus der Kanto-Region ab.
 
 RESOURCE ID: gotourprep_event_name
 TEXT: GO-Tour: Bleib am Pokéball
@@ -1999,6 +2043,12 @@ TEXT: Unbekannter Fehler beim Kämpfen.
 RESOURCE ID: invasion_introduction_onboarding__male_speaker|1
 TEXT: Einige merkwürde Figuren sind an PokéStops aufgetaucht! Vorsicht, das könnte ein Kampf werden!
 
+RESOURCE ID: item_bag_potion_fainted
+TEXT: Tränke können nicht für ein kampfunfähiges Pokémon verwendet werden.
+
+RESOURCE ID: item_bag_revive_not_fainted
+TEXT: Beleber können nur für kampfunfähige Pokémon verwendet werden.
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Du bist bereit, an Pokémon-Kämpfen teilzunehmen!
 
@@ -2018,7 +2068,7 @@ RESOURCE ID: jp_iap_link2
 TEXT: https://niantic.helpshift.com/hc/ja/6-pokemon-go/faq/150-%E7%89%B9%E5%AE%9A%E5%95%86%E5%8F%96%E5%BC%95%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/?s=others&f=%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA&l=ja&p=web
 
 RESOURCE ID: lush_jungle_event_name
-TEXT: Lush Jungle
+TEXT: Schattendschungel
 
 RESOURCE ID: m_avatar_poses_bundle_pose_34
 TEXT: Gladio-Pose
@@ -2114,15 +2164,15 @@ RESOURCE ID: masterwork_lugiahoohs_dialogue_3_8
 TEXT: Nochmals danke für all deine Hilfe. Ich bin mir sicher, dass Ho-Oh und Lugia ebenfalls dankbar sind. Bis zum nächsten Abenteuer ... Nichts wie raus und GO!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-03-12T03:24:02.584645
-at SHA e22caf61839d8cf31d62213c2575b1e8bf6e9690
+TEXT: Built at 2022-03-16T21:22:57.921685
+at SHA 32759ce56f2754288a0bf93bebb2679459a3ab99
 Patch from: 0.231.0-SHA-413df5be, 0.231.1-SHA-14046783
 
 RESOURCE ID: move_name_0364
 TEXT: Akrobatik
 
 RESOURCE ID: pair_friend_pinned_your_postcard
-TEXT: {0} and {1} have saved your Postcards!
+TEXT: {0} und {1} haben deine Postkarten gespeichert!
 
 RESOURCE ID: photobomb_five_hoppip
 TEXT: 5 überraschende Begegnungen mit Hoppspross in GO-Schnappschuss
@@ -2131,7 +2181,7 @@ RESOURCE ID: photobomb_five_sandshrew
 TEXT: 5 überraschende Begegnungen mit Sandan in GO-Schnappschuss
 
 RESOURCE ID: plural_friend_pinned_your_postcard
-TEXT: {0}, {1}, and other friends have saved your Postcards!
+TEXT: {0}, {1} und weitere Freunde haben deine Postkarten gespeichert!
 
 RESOURCE ID: pokemon_category_0101_2735
 TEXT: Kugel-Pokémon
@@ -2172,11 +2222,17 @@ TEXT: In dieser Form hat es seine Schale verloren. Die Inhaltsstoffe in Metenos 
 RESOURCE ID: pokemon_desc_0779_busted
 TEXT: Es wird traurig, wenn seine wahre Gestalt zum Vorschein zu kommen droht. Wer sein Kostüm beschädigt, zieht seine Rachsucht auf sich.
 
+RESOURCE ID: pokemon_info_powerup_player_lv_too_low
+TEXT: Trainer-Level zu niedrig, um Power-up durchzuführen.
+
+RESOURCE ID: pokemon_info_transfer_favorite_error
+TEXT: Du kannst kein Pokémon tauschen, das als Favorit markiert ist!
+
 RESOURCE ID: quest_buddy_affection_days_in_a_row
 TEXT: Verdiene {0} Tage hintereinander ein Herz mit deinem Kumpel.
 
 RESOURCE ID: quest_catch_special_cottonee
-TEXT: Catch {0} Cottonee
+TEXT: Fange {0} Waumboll
 
 RESOURCE ID: quest_complete_hoppt
 TEXT: Hopplahopp
@@ -2335,7 +2391,7 @@ RESOURCE ID: quest_snapshot_wild_entei
 TEXT: Mache einen Schnappschuss von Entei im Freien.
 
 RESOURCE ID: quest_snapshot_wild_grass_singular
-TEXT: Take a snapshot of a wild Grass-type Pokémon
+TEXT: Mache einen Schnappschuss von einem wilden Pokémon vom Typ Pflanze.
 
 RESOURCE ID: quest_snapshot_wild_raikou
 TEXT: Mache einen Schnappschuss von Raikou im Freien.
@@ -2390,6 +2446,30 @@ TEXT: Bei der Gelegenheit solltest du mit deinem neuen Freund einen Spaziergang 
 
 RESOURCE ID: quest_special_dialogue_hoppt_3_3
 TEXT: Bis bald, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_jj_2_21
+TEXT: James: ... und unseren eigenen Staat kreieren – HEY! Hörst du überhaupt zu?
+
+RESOURCE ID: quest_special_dialogue_lvl_45_2_4
+TEXT: Hmm ... Das erinnert mich an die Zeit, als Team GO Rocket plötzlich ungebeten in den Schnappschüssen von Trainern aufgetaucht ist. Und DAS erinnert mich wiederum an weitere Forschungen, bei denen ich deine Hilfe brauche!
+
+RESOURCE ID: quest_special_dialogue_lvl_50_0_2
+TEXT: Einatmen ... und ausatmen ... Noch einmal. Ein ... und aus ... Schon besser, nicht wahr?
+
+RESOURCE ID: quest_special_dialogue_lvl_50_0_4
+TEXT: Kapiert? „Werfen“? Räusper. Wie auch immer ... Das Zeichen eines wirklich großartigen Trainers ist seine Hingabe an das Training, und echte Hingabe wird erst mit der Zeit ersichtlich.
+
+RESOURCE ID: quest_special_dialogue_lvl_50_1_1
+TEXT: Ich kenne nicht viele, die die Hingabe und die Geduld haben würden, diese Aufgaben abzuschließen.
+
+RESOURCE ID: quest_special_dialogue_lvl_50_1_2
+TEXT: Sag mal, mir fällt gerade ein ... Erinnerst du dich, als du dich entschieden hast, welchem Team du beitreten möchtest?
+
+RESOURCE ID: quest_special_dialogue_lvl_50_2_5
+TEXT: Was Candela angeht ... Nun, sie möchte mit dir feiern, nachdem du einige Raids gewonnen hast.
+
+RESOURCE ID: quest_special_dialogue_m23_2021_0_3
+TEXT: Schuhe zu finden, die zu den Füßen passen würden, wäre kompliziert! Da muss ein Pokémon verantwortlich sein, obwohl ich nicht sicher bin, welches ...
 
 RESOURCE ID: quest_special_dialogue_melemele_0_0
 TEXT: Hallo, %PLAYERNAME%! Ich freue mich, wie immer, dich zu sehen.
@@ -2456,6 +2536,9 @@ TEXT: Meinst du, dass wir die Chance haben werden, die anderen Inselwächter ken
 
 RESOURCE ID: quest_special_dialogue_melemele_3_5
 TEXT: Abwarten und Tee trinken ... Bis dahin sollten wir es uns gut gehen lassen und ein wenig Zeit mit unseren neuen Freunden verbringen!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_9
+TEXT: Schließlich erlebt man nicht jeden Tag eine finale Explosion aus der Vergangenheit! Verstehst du? Weil Voltobal Finale einsetzen kann? Haha ...
 
 RESOURCE ID: quest_special_dialogue_sandt_0_0
 TEXT: Guten Morgen, %PLAYERNAME%! Heute scheint es einen Überschuss an Sandan zu geben, findest du nicht auch?
@@ -2551,16 +2634,16 @@ RESOURCE ID: quest_title_hoppt_3
 TEXT: Hopplahopp (4/4)
 
 RESOURCE ID: quest_title_lush_jungle_0
-TEXT: Lush Jungle (1/4)
+TEXT: Schattendschungel (1/4)
 
 RESOURCE ID: quest_title_lush_jungle_1
-TEXT: Lush Jungle (2/4)
+TEXT: Schattendschungel (2/4)
 
 RESOURCE ID: quest_title_lush_jungle_2
-TEXT: Lush Jungle (3/4)
+TEXT: Schattendschungel (3/4)
 
 RESOURCE ID: quest_title_lush_jungle_3
-TEXT: Lush Jungle (4/4)
+TEXT: Schattendschungel (4/4)
 
 RESOURCE ID: quest_title_melemele
 TEXT: Ein Mele-Mele-Abenteuer
