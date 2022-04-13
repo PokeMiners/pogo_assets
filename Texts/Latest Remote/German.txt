@@ -213,6 +213,15 @@ TEXT: Oh?
 RESOURCE ID: alo_mar22_collection_challenge
 TEXT: Willkommen in Alola
 
+RESOURCE ID: ar_plus_arcore_installation_desc
+TEXT: AR+ erfordert die Installation von ARCore. Möchtest du es jetzt installieren? Du musst <i>Pokémon GO</i> danach neu starten. 
+
+RESOURCE ID: ar_plus_arcore_update_desc
+TEXT: AR+ auf Android-Geräten erfordert die Installation einer aktualisierten Version von ARCore. Möchtest du ARCore aktualisieren? Du musst <i>Pokémon GO</i> nach der Aktualisierung von ARCore neu starten.
+
+RESOURCE ID: ar_plus_ios_update_desc
+TEXT: AR+ auf iOS-Geräten erfordert die Installation einer aktualisierten iOS-Version. Möchtest du deine iOS-Version aktualisieren? Du musst <i>Pokémon GO</i> nach der Aktualisierung neu starten.
+
 RESOURCE ID: arlo_challenge#1
 TEXT: Warum bestehst du darauf, meine Zeit zu verschwenden?
 
@@ -429,20 +438,29 @@ TEXT: Knirps
 RESOURCE ID: badge_type_psychic_title
 TEXT: Medium
 
+RESOURCE ID: banned_player_lockout_2
+TEXT: Erfahre mehr
+
 RESOURCE ID: batch_transfer_unique_mega_level_pokemon
 TEXT: {0} Mega-Level-Pokémon
+
+RESOURCE ID: beedrill_mega_energy_bonus_research
+TEXT: Tagesbonus-Feldforschungsaufgaben mit Bibor-Mega-Energie-Belohnung
 
 RESOURCE ID: blanche_incident_greeting
 TEXT: Stoische Gelassenheit und präzise Analyse – das ist Team Weisheit.
 
 RESOURCE ID: buddy_widget_description
-TEXT: Use Adventure Sync to track Buddy heart progress when Pokémon GO is in the background
+TEXT: Use Adventure Sync to track your Buddy Pokémon’s heart meter when Pokémon GO is open in the background.
 
 RESOURCE ID: buddy_widget_title
 TEXT: Adventure Sync: Buddy
 
 RESOURCE ID: candela_incident_greeting
 TEXT: Egal, was passiert: Unsere feurige Entschlossenheit wird niemals erlöschen! Team Wagemut rast dem Sieg entgegen.
+
+RESOURCE ID: cd_walk_challenge
+TEXT: Community Day Distance Challenge
 
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: This will change the language setting to {0}. Restart the app to apply settings?
@@ -465,11 +483,38 @@ TEXT: Community Day Classic mit Hydropi
 RESOURCE ID: community_day_sandshrew_event_name
 TEXT: Community Day: Sandan
 
+RESOURCE ID: dd_2021_collection_challenge
+TEXT: Sammler-Herausforderung: Drachenstiegenabstieg
+
+RESOURCE ID: earthday22_collection_challenge
+TEXT: Sustainability Week Collection Challenge
+
+RESOURCE ID: egg_detail_start_incubation
+TEXT: AUSBRÜTEN BEGINNEN
+
 RESOURCE ID: encounter_score_active_mega_bonus
 TEXT: Aktiver Mega-Pokémon-Bonus
 
+RESOURCE ID: encounter_score_milestone
+TEXT: Sammler-Bonus
+
+RESOURCE ID: encounter_score_total
+TEXT: GESAMT
+
+RESOURCE ID: encounter_too_many_pokemon
+TEXT: Deine Pokémon-Aufbewahrung ist voll. Du kannst im Shop mehr Platz kaufen.
+
+RESOURCE ID: encounter_wild_pokemon_appeared
+TEXT: Ein wildes <b>{0}</b> ist erschienen!
+
+RESOURCE ID: event_mossy_lure_pokemon
+TEXT: Event Pokémon attracted to Mossy Lure Modules
+
 RESOURCE ID: event_season6_name
 TEXT: Alola-Jahreszeit
+
+RESOURCE ID: event_seasonal_wild
+TEXT: Jahreszeiten-Pokémon erscheinen im Freien
 
 RESOURCE ID: f_avatar_poses_bundle_pose_34
 TEXT: Gladio-Pose
@@ -480,6 +525,10 @@ Pose
 
 RESOURCE ID: festival_of_colors_event_name
 TEXT: Farbfestival
+
+RESOURCE ID: field_test_lockout
+TEXT: Vielen Dank für deine Teilnahme am Testlauf von <i>Pokémon GO</i>!
+Bis bald!
 
 RESOURCE ID: foc22_collection_challenge
 TEXT: Farbfestival
@@ -1255,6 +1304,12 @@ TEXT: Yo!
 RESOURCE ID: grunt_generic_victory#7__male_speaker
 TEXT: Yo!
 
+RESOURCE ID: gym_deploy_confirmation
+TEXT: Soll {0} wirklich diese Arena verteidigen? Es kehrt erst dann wieder zu dir zurück, wenn es in der Arena kampfunfähig wird.
+
+RESOURCE ID: help_center_link
+TEXT: https://pokemongo.nianticlabs.com/support/contact/de
+
 RESOURCE ID: invasion_introduction_onboarding__male_speaker|1
 TEXT: Einige merkwürde Figuren sind an PokéStops aufgetaucht! Vorsicht, das könnte ein Kampf werden!
 
@@ -1296,8 +1351,14 @@ Mütze
 RESOURCE ID: mega_active_countdown_description
 TEXT: Verbleibende Zeit der Mega-Entwicklung
 
+RESOURCE ID: mega_candy_hour
+TEXT: Mega-Bonus-Stunde: [Candy]
+
+RESOURCE ID: mega_candy_plus_energy_walking_desc
+TEXT: Beim Spazieren kannst du Bonbons für das Pokémon verdienen, das du als Kumpel gewählt hast. Wenn dein Kumpel aufgeregt ist, reduziert sich die Distanz, die du laufen musst, um ein Bonbon zu verdienen! Durch Knurspe wird dein Kumpel schneller aufgeregt als durch andere Snacks! Du kannst außerdem Mega-Energien passend zu deinem Kumpel erhalten!
+
 RESOURCE ID: mega_cooldown_countdown_description
-TEXT: Ruhezeit
+TEXT: Ruhephase
 
 RESOURCE ID: mega_countdown_day_and_hour
 TEXT: {0} Tag {1} Stunde
@@ -1318,16 +1379,25 @@ RESOURCE ID: mega_countdown_days_singular
 TEXT: {0} Tag
 
 RESOURCE ID: mega_daily_limit_description
-TEXT: {0}s Mega-Level kann heute nicht weiter steigen.
+TEXT: {0}s Mega-Level kann heute nicht weiter erhöht werden.
 
 RESOURCE ID: mega_daily_limit_header
 TEXT: Tägliches Level-Limit erreicht
 
+RESOURCE ID: mega_energy_cap
+TEXT: Du kannst bis zu {0} Mega-Energien erhalten.
+
+RESOURCE ID: mega_energy_cap_singular
+TEXT: Du kannst 1 Mega-Energie erhalten.
+
+RESOURCE ID: mega_energy_cap_stardust_warning
+TEXT: Du hast fast bei der Obergrenze von {0} Mega-Energien erreicht. Darüber hinausgehende Mega-Energie-Belohnungen werden in Sternenstaub umgewandelt.
+
 RESOURCE ID: mega_evolve_energy_prompt
-TEXT: Tap to Mega Evolve!
+TEXT: Tippe für Mega-Entwicklung!
 
 RESOURCE ID: mega_evolve_free_prompt
-TEXT: Tap to Mega Evolve!
+TEXT: Tippe für Mega-Entwicklung!
 
 RESOURCE ID: mega_evolve_lobby_callout
 TEXT: Mega-Entwicklung verfügbar
@@ -1342,7 +1412,7 @@ RESOURCE ID: mega_evolve_pokemon
 TEXT: Löse bei {0} die Mega-Entwicklung aus.
 
 RESOURCE ID: mega_evolve_preview_first_time
-TEXT: Nachdem du bei einem Pokémon zum ersten Mal die Mega-Entwicklung ausgelöst hast, kannst du bei ihm nach einer Ruhezeit die Mega-Entwicklung ohne Mega-Energie erneut auslösen.
+TEXT: Nachdem du bei einem Pokémon zum ersten Mal die Mega-Entwicklung ausgelöst hast, kannst du bei ihm nach einer Ruhephase die Mega-Entwicklung ohne Mega-Energie erneut auslösen.
 
 RESOURCE ID: mega_evolve_prompt_title
 TEXT: Löse bei {0} die Mega-Entwicklung aus.
@@ -1372,19 +1442,19 @@ RESOURCE ID: mega_level_transfer_confirmation
 TEXT: Dieses Pokémon hat einen erhöhten Mega-Level. Möchtest du es trotzdem verschicken?
 
 RESOURCE ID: mega_level_tutorial_hero_body
-TEXT: Mega Evolution temporarily changes a Pokémon’s appearance and increases its strength. Mega-Evolved Pokémon can be used in Gyms, raids, and Trainer Battles.
+TEXT: Die Mega-Entwicklung eines Pokémon verändert vorrübergehend sein Aussehen und verstärkt es. Mega-Entwicklungs-Pokémon können in Arenen, Raids und Trainer-Kämpfen eingesetzt werden.
 
-You can use only one Mega-Evolved Pokémon at a time.
+Du kannst nur ein Mega-Entwicklungs-Pokémon auf einmal einsetzen.
 
 RESOURCE ID: mega_level_tutorial_hero_title
 TEXT: Los geht‘s, Mega!
 
 RESOURCE ID: mega_level_tutorial_page1_body
-TEXT: • Du kannst jetzt ein Pokémon ohne Mega-Energie entwickeln.
+TEXT: • Du kannst jetzt bei einem Pokémon die Mega-Entwicklung ohne Mega-Energie auslösen.
 • Du kannst immer noch Mega-Energie verwenden, um während der Ruhephase eines Pokémon die Mega-Entwicklung auszulösen.
-• Es gibt neue Bonusse, die den Bund zwischen dir und deinem Pokémon stärken, je öfter du die Mega-Entwicklung bei ihm durchführst.
+• Es gibt neue Bonusse, die sich verbessern, je öfter du die Mega-Entwicklung bei deinem Pokémon auslöst.
 
-Nachdem du bei einem Pokémon die Mega-Entwicklung ausgelöst hast, musst du eine Weile warten, bevor du dies bei ihm erneut ohne Mega-Energie tun kannst. Du kannst Mega-Energien auch verwenden, um die Mega-Entwicklung bei deinen Pokémon vorher auszulösen.
+Nachdem du bei einem Pokémon die Mega-Entwicklung ausgelöst hast, musst du eine Weile warten, bevor du dies bei ihm erneut ohne Mega-Energie tun kannst. Du kannst auch Mega-Energie verwenden, um die Mega-Entwicklung bei deinem Pokémon vorher auszulösen.
 
 RESOURCE ID: mega_level_tutorial_page1_title
 TEXT: Mega-Entwicklung
@@ -1417,10 +1487,16 @@ RESOURCE ID: mega_level_tutorial_page4_title
 TEXT: Ruhephasen
 
 RESOURCE ID: mega_level_tutorial_page5_body
-TEXT: Jedes Mega-Entwicklungs-Pokémon hat einen Mega-Level. Wenn der Mega-Level eines Pokémon ansteigt, erhältst du mehr Bonusse, während die Mega-Entwicklung bei einem Pokémon ausgelöst ist. Die Wartezeit, um bei diesem Pokémon erneut die Mega-Entwicklung auszulösen, wird verringert. Der Mega-Level deines Pokémon erhöht sich jedes Mal, wenn die Mega-Entwicklung ausgelöst wird.
+TEXT: Jedes Mega-Entwicklungs-Pokémon hat einen Mega-Level. Wenn der Mega-Level eines Pokémon ansteigt, erhältst du mehr Bonusse, während die Mega-Entwicklung bei einem Pokémon ausgelöst ist. Die Wartezeit, um bei diesem Pokémon erneut die Mega-Entwicklung auszulösen, wird verringert. Jedes Mal, wenn du bei einem Pokémon die Mega-Entwicklung auslöst, arbeitest du darauf hin, seinen Mega-Level zu erhöhen.
 
 RESOURCE ID: mega_level_tutorial_page5_title
 TEXT: Mega-Level
+
+RESOURCE ID: mega_level_tutorial_page6_body
+TEXT: Wenn du ein Pokémon fängst, das mit dem Typ deines Mega-Entwicklungs-Pokémon übereinstimmt, erhältst du folgende Bonusse:
+• Zusätzliche Bonbons
+• Zusätzliche EP
+• Erhöhte Chance Bonbons XL zu erhalten
 
 RESOURCE ID: mega_level_tutorial_page6_title
 TEXT: Fangbonusse
@@ -1432,7 +1508,7 @@ RESOURCE ID: mega_level_unlock_prompt
 TEXT: Tippe, um den Mega-Level zu sehen.
 
 RESOURCE ID: mega_level_unlock_title
-TEXT: You can now increase the Mega Level of this Pokémon!
+TEXT: Du kannst den Mega-Level dieses Pokémon jetzt erhöhen!
 
 RESOURCE ID: mega_level_up_message
 TEXT: {0}s Mega-Level wurde erhöht!
@@ -1450,28 +1526,28 @@ RESOURCE ID: mega_perk_candy_bonus
 TEXT: Fang-Bonbon-Bonus
 
 RESOURCE ID: mega_perk_candy_bonus_excellent
-TEXT: Great Candy Catch Bonus
+TEXT: Erhöhter Fang-Bonbon-Bonus
 
 RESOURCE ID: mega_perk_catch_xp_bonus
 TEXT: Fang-EP-Bonus
 
 RESOURCE ID: mega_perk_catch_xp_bonus_excellent
-TEXT: Great Catch Xp Bonus
+TEXT: Erhöhter Fang-EP-Bonus
 
 RESOURCE ID: mega_perk_cooldown_days
-TEXT: {0}-tägige Mega-Entwicklungs-Ruhezeit
+TEXT: {0}-tägige Mega-Entwicklungs-Ruhephase
 
 RESOURCE ID: mega_perk_cooldown_days_singular
-TEXT: {0}-tägige Mega-Entwicklungs-Ruhezeit
+TEXT: {0}-tägige Mega-Entwicklungs-Ruhephase
 
 RESOURCE ID: mega_perk_reduced_energy
 TEXT: Reduzierte Mega-Energie zur Mega-Entwicklung
 
 RESOURCE ID: mega_perk_reduced_energy_excellent
-TEXT: Massively Reduced Mega Energy Cost
+TEXT: Massiv verringerte Mega-Energiekosten
 
 RESOURCE ID: mega_perk_reduced_energy_great
-TEXT: Greatly Reduced Mega Energy Cost
+TEXT: Erheblich verringerte Mega-Energiekosten
 
 RESOURCE ID: mega_perk_xl_bonus_excellent
 TEXT: Fabelhafte Chance auf Bonbons XL
@@ -1483,18 +1559,43 @@ RESOURCE ID: mega_perks_header
 TEXT: Mega-Entwicklungsbonusse
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-06T00:35:53.377540
-at SHA 437157b398e5b3a7c29cd3b6e52e26f633a1f42b
-Patch from: 0.233.0-SHA-38f92c4a
+TEXT: Built at 2022-04-12T04:50:49.315412
+at SHA aeaa99044489f9f519c04a810913ce9926c5230e
+Patch from: 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
+
+RESOURCE ID: nearby_pokemon_find_grass_info
+TEXT: Finde diese wilden Pokémon!
 
 RESOURCE ID: no_buddy
 TEXT: No Buddy
+
+RESOURCE ID: onboard_name_too_long_error
+TEXT: Zu lang ...
+
+RESOURCE ID: onboard_name_too_short_error
+TEXT: Zu kurz ...
+
+RESOURCE ID: onboard_tos_title
+TEXT: Nutzungsbedingungen für <i>Pokémon GO</i>
 
 RESOURCE ID: pair_friend_pinned_your_postcard
 TEXT: {0} und {1} haben deine Postkarten gespeichert!
 
 RESOURCE ID: performance_successfully_updated
 TEXT: Performance has been successfully updated!
+
+RESOURCE ID: pgp_registering
+TEXT: {0} wird registriert ...
+
+RESOURCE ID: pgp_scaning
+TEXT: {0} gefunden ... 
+Drücke den Knopf auf dem {0}.
+
+RESOURCE ID: pgp_start_session
+TEXT: Verbindung zu {0} wird hergestellt ...
+
+RESOURCE ID: pgp_stop_session
+TEXT: Verbindung zu {0} wird getrennt ...
 
 RESOURCE ID: photobomb_five_mudkip
 TEXT: 5 überraschende Begegnungen mit Hydropi in GO-Schnappschuss
@@ -1504,6 +1605,12 @@ TEXT: 5 überraschende Begegnungen mit Sandan in GO-Schnappschuss
 
 RESOURCE ID: plural_friend_pinned_your_postcard
 TEXT: {0}, {1} und weitere Freunde haben deine Postkarten gespeichert!
+
+RESOURCE ID: pokedex_page_name_not_seen
+TEXT: ???
+
+RESOURCE ID: pokedex_sort_favorite
+TEXT: Favoriten
 
 RESOURCE ID: pokemon_category_0163
 TEXT: Eulen-Pokémon
@@ -1541,11 +1648,54 @@ TEXT: In dieser Form hat es seine Schale verloren. Die Inhaltsstoffe in Metenos 
 RESOURCE ID: pokemon_desc_0779_busted
 TEXT: Es wird traurig, wenn seine wahre Gestalt zum Vorschein zu kommen droht. Wer sein Kostüm beschädigt, zieht seine Rachsucht auf sich.
 
+RESOURCE ID: pokemon_evolution_tap_to_evolve
+TEXT: Zum Entwickeln tippen!
+
+RESOURCE ID: pokemon_info_candy_label
+TEXT: {0}-
+Bonbon
+
+RESOURCE ID: pokemon_info_evolution_crystals_remaining
+TEXT: Sammle mehr {0}!
+
+RESOURCE ID: pokemon_info_mega_resource_label
+TEXT: {0}-
+Mega-
+Energien
+
+RESOURCE ID: pokemon_info_powerup_confirmation
+TEXT: Möchtest du bei {0} ein Power-up durchführen?
+
+RESOURCE ID: pokemon_info_powerup_need_candies
+TEXT: Du brauchst mehr {0}-Bonbons.
+
+RESOURCE ID: pokemon_info_powerup_need_stardusts
+TEXT: Du brauchst mehr Sternenstaub.
+
 RESOURCE ID: pokemon_info_powerup_player_lv_too_low
 TEXT: Trainer-Level zu niedrig, um Power-up durchzuführen.
 
+RESOURCE ID: pokemon_info_powerup_section
+TEXT: POWER-UP
+
+RESOURCE ID: pokemon_info_stardust_label
+TEXT: Sternen-
+staub
+
 RESOURCE ID: pokemon_info_transfer_favorite_error
 TEXT: Du kannst kein Pokémon tauschen, das als Favorit markiert ist!
+
+RESOURCE ID: pokestop_disk_activate_error_already_has_disk
+TEXT: Du brauchst PokéStop-Module.
+
+RESOURCE ID: pokestop_disk_error_out_of_range
+TEXT: Du bist zu weit vom PokéStop entfernt!
+
+RESOURCE ID: profile_button_customize
+TEXT: Schrank
+
+RESOURCE ID: profile_pokestops_visited
+TEXT: Besuchte PokéStops
 
 RESOURCE ID: quest_catch_special_cottonee
 TEXT: Fange {0} Waumboll
@@ -1823,8 +1973,17 @@ TEXT: Aber darüber muss ich allein grübeln. Mach dir keine Umstände, sondern 
 RESOURCE ID: quest_special_dialogue_bidoof_branch_quest_2b_2
 TEXT: Ein von Bidifas eingedämmter Fluss wird niemals seine Ufer überschwemmen, was Menschen in der Nähe dieser Flüsse sehr zu schätzen wissen. Einfach faszinierend, oder?
 
+RESOURCE ID: quest_special_dialogue_bidoof_branch_quest_3_2
+TEXT: Warum ziehst du es nicht gleich an und genießt einen kleinen Spaziergang mit deinem Bidiza? Wer weiß, was dir auf deinem Weg begegnen wird! Also, nichts wie raus und GO!
+
+RESOURCE ID: quest_special_dialogue_galarian_mrmime_4_3
+TEXT: Bis zum nächsten Mal, %PLAYERNAME%! Nichts wie raus und GO!
+
 RESOURCE ID: quest_special_dialogue_jj_2_21
 TEXT: James: ... und unseren eigenen Staat kreieren – HEY! Hörst du überhaupt zu?
+
+RESOURCE ID: quest_special_dialogue_lvl_45_1_5
+TEXT: Wie wäre es, wenn du mit deinem Kumpel einen Spaziergang machst und einen anderen Trainer und seine Pokémon zum Kampf herausforderst? Mach auch ein paar Schnappschüsse, um diese schönen Momente zusammen festzuhalten!
 
 RESOURCE ID: quest_special_dialogue_lvl_45_2_4
 TEXT: Hmm ... Das erinnert mich an die Zeit, als Team GO Rocket plötzlich ungebeten in den Schnappschüssen von Trainern aufgetaucht ist. Und DAS erinnert mich wiederum an weitere Forschungen, bei denen ich deine Hilfe brauche!
@@ -1846,6 +2005,9 @@ TEXT: Was Candela angeht ... Nun, sie möchte mit dir feiern, nachdem du einige 
 
 RESOURCE ID: quest_special_dialogue_m23_2021_0_3
 TEXT: Schuhe zu finden, die zu den Füßen passen würden, wäre kompliziert! Da muss ein Pokémon verantwortlich sein, obwohl ich nicht sicher bin, welches ...
+
+RESOURCE ID: quest_special_dialogue_m23_2021_3_5
+TEXT: Schau da! Ein dunkler Schatten huschte gerade über den Himmel! Sieh nach oben, %PLAYERNAME%, und jage ihm hinterher! Nichts wie raus und GO!
 
 RESOURCE ID: quest_special_dialogue_melemele_0_0
 TEXT: Hallo, %PLAYERNAME%! Ich freue mich, wie immer, dich zu sehen.
@@ -2060,6 +2222,15 @@ TEXT: Ich bin mir sicher, dass es nicht lange dauern wird, bis Team GO Rocket mi
 RESOURCE ID: quest_special_dialogue_rockethq10_5_3
 TEXT: Aber jetzt mache erstmal eine kleine Pause. Du hast sie dir mehr als verdient!
 
+RESOURCE ID: quest_special_dialogue_rockethq8_0_2
+TEXT: Also, nichts wie raus und GO!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_3_3
+TEXT: Wir glauben, dass wir dies am besten machen, indem wir zuerst Team GO Rocket-Bosse ausfindig machen. Genau da kommst du ins Spiel, Trainer. Nichts wie raus und GO!
+
+RESOURCE ID: quest_special_dialogue_rockethq8_5_2
+TEXT: Bis zum nächsten Mal, nichts wie raus und GO!
+
 RESOURCE ID: quest_special_dialogue_sandt_0_0
 TEXT: Guten Morgen, %PLAYERNAME%! Heute scheint es einen Überschuss an Sandan zu geben, findest du nicht auch?
 
@@ -2137,6 +2308,102 @@ TEXT: Und ich werde mich auf jeden Fall melden, wenn ich mal wieder Hilfe brauch
 
 RESOURCE ID: quest_special_dialogue_sandt_3_7
 TEXT: Bis zum nächsten Mal, nichts wie raus und GO!
+
+RESOURCE ID: quest_special_dialogue_season2_0_5
+TEXT: Kapiert? Felsenfest? Weil sie vom ... Typ Gestein sind? Na gut, ich würde mich über deine Hilfe freuen. Nichts wie raus und GO!
+
+RESOURCE ID: quest_special_dialogue_season2_2_3
+TEXT: Wir sollten uns jetzt um Boreos kümmern. Den Geschichten zufolge stößt Boreos massive Energie aus seiner Rute aus, was zu schweren Stürmen führt. Seine Kräfte sollen groß genug sein, um ganze Häuser einfach wegzublasen.
+
+RESOURCE ID: quest_special_dialogue_season2_4_7
+TEXT: Somniam scheint ein faszinierendes Pokémon zu sein. Ich kann es nicht erwarten, es weiter zu erforschen. Hoffentlich wirst du mir wieder helfen, wenn es dann soweit ist, Trainer! Also, nichts wie raus und GO!
+
+RESOURCE ID: quest_special_dialogue_tcg1_5_6
+TEXT: Nochmals vielen Dank für all deine Hilfe und bis zum nächsten Mal, nichts wie raus und GO!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_0
+TEXT: Hallo, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_1
+TEXT: Perfektes Timing! Ich stehe bei meiner Forschung gerade wirklich auf dem Schlauch!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_2
+TEXT: Ich grübel immer noch über die Schutzpatrone, die Spark und Blanche kürzlich gesehen haben. Ich habe immer noch nicht herausgefunden, weshalb sie erscheinen.
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_3
+TEXT: Ich hoffe nur, dass sie nicht wütend auf uns sind – oder sogar noch schlimmer!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_4
+TEXT: Ich mach mal eine Pause im kühlen Schatten, um meinen Kopf freizubekommen. Es ist wichtig, dass man seinem Gehirn ab und zu eine Pause gönnt!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_5
+TEXT: Wieso gehst du nicht mal nach draußen, um selbst ein Plätzchen im Schatten zu finden, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_0
+TEXT: Willkommen zurück, %PLAYERNAME%! Wie ich sehe, hast du ein paar blattreiche Pokémon gefunden, die dir Schatten spenden.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_1
+TEXT: Hast du dich gut ausgeruht? Also ich mich auf jeden Fall!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_2
+TEXT: Während du unterwegs warst, hat sich mir eine neue Perspektive für unsere Forschung eröffnet.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_3
+TEXT: Wie du vielleicht weißt, ist Alola die Heimat von vier Schutzpatronen. Wir haben schon zwei von ihnen gesehen, also liegt es nahe, dass sich die anderen beiden auch in der Nähe befinden.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_4
+TEXT: Wir sollten aber nicht warten, bis sie zu uns kommen. Lass uns rausgehen und selbst nach ihnen suchen!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_5
+TEXT: Am besten fangen wir mit Kapu-Toro an, dem Schutzpatron der Insel Ula-Ula.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_6
+TEXT: Ula-Ula ist eine zerklüftete Insel und auf ihr liegt der höchste Berg von Alola, Mount Lanakila.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_7
+TEXT: Kapu-Toro soll mit dem Klingeln seines Schweifs auf sich aufmerksam machen, um unnötige Kämpfe zu vermeiden. In dem Fall wird es bestimmt leicht zu finden sein!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_8
+TEXT: Zusätzlich kann Kapu-Toro Pflanzen beim Wachsen helfen, also versuchen wir doch unser Glück mal, indem wir nach Pokémon Ausschau halten, die für ihr Wachstum bekannt sind. Nichts wie raus, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_0
+TEXT: Ah, %PLAYERNAME% – du bist wieder da. Wie lief deine Suche?
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_1
+TEXT: Kurz nachdem du losgezogen bist, habe ich Candela um Hilfe gebeten.
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_2
+TEXT: Und nur ein paar Minuten später, bevor ich meine Ausrüstung zusammengepackt hatte, rannte sie zurück zu mir und sagte, dass sie erst ein Klingeln gehört hat und dann Kapu-Toro an ihr vorbeigeflogen ist!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_3
+TEXT: Noch ein Schutzpatron, den ich knapp verpasst habe … Die Pokémon-Forschung kann manchmal ein wenig frustrierend sein.
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_4
+TEXT: Ich bin aber froh, dass wenigstens du mehr Erfolg hattest, %PLAYERNAME%. Wir wissen jetzt, dass Kapu-Toro da draußen ist, also sollten wir unsere Suche ausweiten!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_5
+TEXT: Ich spreche mal mit Candela. Vielleicht hat sie ja weitere Informationen, die uns dabei helfen könnten.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_0
+TEXT: %PLAYERNAME% – du hast Kapu-Toro gesehen, oder?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_1
+TEXT: Wie war es? Du musst mir alles erzählen! Hast du das Klingeln gehört? Hat es Pflanzen wachsen lassen oder vielleicht sogar riesige Bäume entwurzelt und herumgeschwungen?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_2
+TEXT: Das sind alles Dinge, für die Kapu-Toro bekannt ist.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_3
+TEXT: Wie du es dir vielleicht denken kannst, habe ich Kapu-Toro – mal wieder – nicht selbst gesehen. Ich habe mir jedoch eine neue Theorie ausgedacht.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_4
+TEXT: Die Schutzpatrone scheinen sich recht unauffällig zu verhalten. Vielleicht sind sie nur hier, um etwas zu untersuchen oder uns irgendwie zu helfen.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_5
+TEXT: Vielleicht wird alles mehr Sinn machen, wenn wir Kapu-Kime sehen, den letzten Schutzpatron von Alola.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_6
+TEXT: Aber jetzt haben wir uns erst einmal eine Pause verdient. Bis zum nächsten Mal, %PLAYERNAME%!
 
 RESOURCE ID: quest_title_af2022
 TEXT: April, April 2022
@@ -2222,17 +2489,71 @@ TEXT: Sand und Schnee (3/4)
 RESOURCE ID: quest_title_sandt_3
 TEXT: Sand und Schnee (4/4)
 
+RESOURCE ID: quest_title_ulaula
+TEXT: Ein Ula-Ula-Abenteuer
+
+RESOURCE ID: quest_title_ulaula_0
+TEXT: Ein Ula-Ula-Abenteuer (1/4)
+
+RESOURCE ID: quest_title_ulaula_1
+TEXT: Ein Ula-Ula-Abenteuer (2/4)
+
+RESOURCE ID: quest_title_ulaula_2
+TEXT: Ein Ula-Ula-Abenteuer (3/4)
+
+RESOURCE ID: quest_title_ulaula_3
+TEXT: Ein Ula-Ula-Abenteuer (4/4)
+
 RESOURCE ID: quests_batch_updated
 TEXT: {0} Research Tasks Updated
 
+RESOURCE ID: quickstart_gymbuttons_0
+TEXT: Weise eines deiner Pokémon einer leeren Arena zu, um sie für dein Team in Besitz zu nehmen. Stärke eine Arena deines Teams, indem du ihr eines deiner Pokémon zuweist, um bei der Verteidigung zu helfen.
+
+RESOURCE ID: quickstart_gymmap_0
+TEXT: Das ist eine Arena.
+
+RESOURCE ID: quickstart_pokestopfar_0
+TEXT: Das ist ein PokéStop.
+
+RESOURCE ID: quickstart_pokestopfar_1
+TEXT: Es ist ein Ort in der echten Welt, an dem du Pokébälle und andere Items finden kannst.
+
 RESOURCE ID: restart_app
 TEXT: Restart
+
+RESOURCE ID: screen_title_item_bag
+TEXT: ITEMS
+
+RESOURCE ID: screen_title_pokedex
+TEXT: POKÉDEX
+
+RESOURCE ID: screen_title_pokemon_inventory
+TEXT: POKÉMON
+
+RESOURCE ID: screen_title_shop
+TEXT: SHOP
+
+RESOURCE ID: server_lockout
+TEXT: <i>Pokémon GO</i> ist derzeit wegen geplanter Wartungsarbeiten nicht verfügbar. Bitte versuche es später noch einmal!
 
 RESOURCE ID: settings_advanced_adjust_performance
 TEXT: Adjust Performance
 
 RESOURCE ID: settings_advanced_adjust_performance_sub
 TEXT: Optimize your gameplay based on your device, which may provide better performance or save battary life.
+
+RESOURCE ID: shop_inventory_full
+TEXT: Dein Item-Beutel ist voll!
+
+RESOURCE ID: sis22_collection_challenge
+TEXT: Sammler-Herausforderung: Hüpfe in den Frühling 2022
+
+RESOURCE ID: songkran_2022_description
+TEXT: Songkran-Fest 2022
+
+RESOURCE ID: songkran_2022_title
+TEXT: April-Platscher!
 
 RESOURCE ID: spark_incident_greeting
 TEXT: Auf unsere Intuition können wir uns verlassen, findest du nicht? Team Intuition weiß Bescheid!
@@ -2295,7 +2616,7 @@ RESOURCE ID: timed_challenge_work_together_global_backup
 TEXT: Alle Trainer müssen als globale Gemeinschaft zusammenarbeiten, um diese Herausforderung abzuschließen.
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_body
-TEXT: Wenn du ein Mega-Entwicklungs-Pokémon in einem Raid- oder Arenakampf einsetzt, werden die Attacken der Pokémon anderer Trainer, die im gleichen Raid antreten oder mit dir eine Arena herausfordern, mehr Schaden austeilen, wenn sie vom gleichen Typ wie dein Mega-Entwicklungs-Pokémon sind.
+TEXT: Wenn du ein Mega-Entwicklungs-Pokémon in einem Raid- oder Arenakampf einsetzt, werden die Attacken der Pokémon anderer Trainer, die im gleichen Raid antreten oder mit dir eine Arena herausfordern, mehr Schaden austeilen. Diese Attacken verursachen noch mehr Schaden, wenn sie vom gleichen Typ wie dein Mega-Entwicklungs-Pokémon sind.
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_title
 TEXT: Mega-Angriffs-Boost

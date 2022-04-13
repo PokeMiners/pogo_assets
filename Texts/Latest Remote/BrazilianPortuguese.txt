@@ -436,13 +436,16 @@ RESOURCE ID: blanche_incident_greeting
 TEXT: Compostura estável e análise precisa... esse é o caminho da Equipe Sabedoria.
 
 RESOURCE ID: buddy_widget_description
-TEXT: Use Adventure Sync to track Buddy heart progress when Pokémon GO is in the background
+TEXT: Use Adventure Sync to track your Buddy Pokémon’s heart meter when Pokémon GO is open in the background.
 
 RESOURCE ID: buddy_widget_title
 TEXT: Adventure Sync: Buddy
 
 RESOURCE ID: candela_incident_greeting
 TEXT: Não importa o que aconteça, nossa chama corajosa nunca se apagará! A Equipe Valor brilha em direção à vitória.
+
+RESOURCE ID: cd_walk_challenge
+TEXT: Community Day Distance Challenge
 
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: This will change the language setting to {0}. Restart the app to apply settings?
@@ -465,6 +468,9 @@ TEXT: Clássicos do Dia Comunitário: Mudkip
 RESOURCE ID: community_day_sandshrew_event_name
 TEXT: Dia Comunitário: Sandshrew
 
+RESOURCE ID: earthday22_collection_challenge
+TEXT: Sustainability Week Collection Challenge
+
 RESOURCE ID: encounter_score_active_mega_bonus
 TEXT: Bônus ativos de Megaevolução de Pokémon 
 
@@ -485,6 +491,9 @@ TEXT: Não é possível remover um Cartão-postal favorito
 
 RESOURCE ID: error_postcard_inventory_full
 TEXT: Livro de Cartões-postais cheio
+
+RESOURCE ID: event_mossy_lure_pokemon
+TEXT: Event Pokémon attracted to Mossy Lure Modules
 
 RESOURCE ID: event_season6_name
 TEXT: Temporada de Alola
@@ -1152,6 +1161,12 @@ TEXT: Cada Pokémon Megaevoluído tem um Meganível. Quando o Meganível de um P
 RESOURCE ID: mega_level_tutorial_page5_title
 TEXT: Meganível
 
+RESOURCE ID: mega_level_tutorial_page6_body
+TEXT: When you catch a Pokémon that shares a type with your Mega-Evolved Pokémon, you’ll receive the following bonuses.
+• Extra Candy
+• Extra XP
+• An increased chance of receiving Candy XL
+
 RESOURCE ID: mega_level_tutorial_page6_title
 TEXT: Bônus de captura
 
@@ -1180,13 +1195,13 @@ RESOURCE ID: mega_perk_candy_bonus
 TEXT: Bônus de doce por captura
 
 RESOURCE ID: mega_perk_candy_bonus_excellent
-TEXT: Great Candy Catch Bonus
+TEXT: Enhanced Catch Candy bonus
 
 RESOURCE ID: mega_perk_catch_xp_bonus
 TEXT: Bônus de PE por captura
 
 RESOURCE ID: mega_perk_catch_xp_bonus_excellent
-TEXT: Great Catch Xp Bonus
+TEXT: Enhanced Catch XP bonus
 
 RESOURCE ID: mega_perk_cooldown_days
 TEXT: Tempo de descanso de Megaevolução: {0} dias
@@ -1198,10 +1213,10 @@ RESOURCE ID: mega_perk_reduced_energy
 TEXT: Megaenergia para Megaevoluir reduzida
 
 RESOURCE ID: mega_perk_reduced_energy_excellent
-TEXT: Massively Reduced Mega Energy Cost
+TEXT: Massively reduced Mega Energy cost
 
 RESOURCE ID: mega_perk_reduced_energy_great
-TEXT: Greatly Reduced Mega Energy Cost
+TEXT: Greatly reduced Mega Energy cost
 
 RESOURCE ID: mega_perk_xl_bonus_excellent
 TEXT: Excelente probabilidade de receber doces GG
@@ -1213,9 +1228,9 @@ RESOURCE ID: mega_perks_header
 TEXT: Bônus de Megaevolução
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-06T00:35:53.377540
-at SHA 437157b398e5b3a7c29cd3b6e52e26f633a1f42b
-Patch from: 0.233.0-SHA-38f92c4a
+TEXT: Built at 2022-04-12T04:50:49.315412
+at SHA aeaa99044489f9f519c04a810913ce9926c5230e
+Patch from: 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: mini_collection_apr21_egg_event
 TEXT: Coleção evento de Páscoa 2021
@@ -1809,6 +1824,90 @@ TEXT: E com certeza avisarei na próxima vez em que precisar de ajuda. Algo me d
 RESOURCE ID: quest_special_dialogue_sandt_3_7
 TEXT: Até a próxima, e vamos nessa!
 
+RESOURCE ID: quest_special_dialogue_ulaula_0_0
+TEXT: Oi, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_1
+TEXT: Chegou na hora certa. Eu tive alguns problemas durante minha pesquisa!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_2
+TEXT: Sabe, eu ainda estou intrigado com os espíritos guardiões que Spark e Blanche viram recentemente. Ainda preciso descobrir por que eles têm aparecido.
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_3
+TEXT: Só espero que não estejam aborrecidos com a gente, ou algo pior que isso!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_4
+TEXT: Acho que vou fazer uma pausa... desfrutar de um pouco de sombra e água fresca para clarear a mente. É importante dar um descanso para o cérebro de vez em quando!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_5
+TEXT: Por que você não vai atrás de uma sombra para também, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_0
+TEXT: Boas-vindas de volta, %PLAYERNAME%! Vejo que encontrou alguns Pokémon cobertos de folhas r, dá até pra descansar debaixo deles, né?
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_1
+TEXT: Está se sentindo bem? Eu sei que estou!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_2
+TEXT: Enquanto você estava fora, pensei em uma nova perspectiva para nossa investigação.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_3
+TEXT: Como você deve saber, Alola é o lar de quatro espíritos guardiões. Já vimos dois, então é lógico que os outros dois já estão passeando por aí.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_4
+TEXT: Em vez de esperar que eles venham até nós, acho que devemos sair e procurá-los nós mesmos.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_5
+TEXT: Vamos começar com Tapu Bulu, Espírito Guardião da Ilha de Ula-ula.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_6
+TEXT: A Ilha de Ula-ula é um local acidentado, que abriga o Monte Lanakila, o pico mais alto de Alola.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_7
+TEXT: Dizem que Tapu Bulu emite sons com sua cauda para que outros saibam onde ele está e evitem conflitos desnecessários. Sabendo disso, não deve ser muito difícil de encontrar!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_8
+TEXT: Além disso, sei que Tapu Bulu pode ajudar as plantas a crescerem?, então talvez a gente tenha sorte se começarmos procurando Pokémon que são conhecidos por crescer bastante. Vamos lá fora, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_0
+TEXT: Ah, %PLAYERNAME%, você voltou. Como foi sua busca?
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_1
+TEXT: Pedi a Candela para nos dar uma mão logo depois que você saiu.
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_2
+TEXT: E poucos minutos depois, antes mesmo de eu me preparar para sair, ela voltou correndo dizendo que tinha ouvido um barulho no ar. Foi então que olhou para cima e viu Tapu Bulu flutuando!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_3
+TEXT: Mais um espírito guardião que me escapou por pouco... Essa é a natureza instável da Pesquisa de Pokémon, eu acho.
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_4
+TEXT: Fico feliz que pelo menos você tenha se saído melhor, %PLAYERNAME%. Agora que sabemos que está lá fora, vamos dobrar nossa busca por Tapu Bulu!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_5
+TEXT: Vou falar com Candela para ver se ela sabe mais detalhes que possam nos ajudar.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_0
+TEXT: %PLAYERNAME%, você viu Tapu Bulu, não é?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_1
+TEXT: Como era? Me conte tudo! Você ouviu algum barulho? Viu ele fazer a vegetação crescer, ou talvez até balançar árvores grandonas pelas raízes?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_2
+TEXT: Tapu Bulu é conhecido por tudo isso.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_3
+TEXT: Como você poderia esperar, mais uma vez eu não pude testemunhar Tapu Bulu. No entanto, tenho uma nova teoria.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_4
+TEXT: Os espíritos guardiões parecem estar evitando chamar a atenção. Talvez estejam aqui apenas para investigar algo, ou até mesmo nos ajudar de alguma forma.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_5
+TEXT: As coisas podem ficar mais clara mais se encontrarmos Tapu Fini, o último dos espíritos guardiões de Alola.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_6
+TEXT: Mas, por enquanto, acho que merecemos um bom descanso. Até a próxima, %PLAYERNAME%!
+
 RESOURCE ID: quest_title_af2022
 TEXT: Dia da Mentira ’ 2-Oh?-22
 
@@ -1893,6 +1992,21 @@ TEXT: Arenoso e congelante (3/4)
 RESOURCE ID: quest_title_sandt_3
 TEXT: Arenoso e congelante (4/4)
 
+RESOURCE ID: quest_title_ulaula
+TEXT: Uma aventura em Ula-ula
+
+RESOURCE ID: quest_title_ulaula_0
+TEXT: Uma aventura em Ula-ula (1/4)
+
+RESOURCE ID: quest_title_ulaula_1
+TEXT: Uma aventura em Ula-ula (2/4)
+
+RESOURCE ID: quest_title_ulaula_2
+TEXT: Uma aventura em Ula-ula (3/4)
+
+RESOURCE ID: quest_title_ulaula_3
+TEXT: Uma aventura em Ula-ula (4/4)
+
 RESOURCE ID: quests_batch_updated
 TEXT: {0} Research Tasks Updated
 
@@ -1910,6 +2024,15 @@ TEXT: Optimize your gameplay based on your device, which may provide better perf
 
 RESOURCE ID: settings_postcard_optin_name
 TEXT: Compartilhar apelido nos Livros de Cartões-postais de amigos
+
+RESOURCE ID: sis22_collection_challenge
+TEXT: Desafio de coleção evento de Páscoa 2022
+
+RESOURCE ID: songkran_2022_description
+TEXT: Festival Songkran 2022
+
+RESOURCE ID: songkran_2022_title
+TEXT: Abril chega dando um banho!
 
 RESOURCE ID: spark_incident_greeting
 TEXT: Instintos com certeza são úteis, você não acha? A Equipe Instinto sempre sabe o que está rolando!

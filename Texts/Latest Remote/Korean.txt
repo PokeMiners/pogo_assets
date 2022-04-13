@@ -408,19 +408,22 @@ RESOURCE ID: badge_event_0033_title
 TEXT: 파트너 리서치: Yoshinoya
 
 RESOURCE ID: batch_transfer_unique_mega_level_pokemon
-TEXT: 메가 레벨 포켓몬: {0}마리
+TEXT: 메가레벨 포켓몬: {0}마리
 
 RESOURCE ID: blanche_incident_greeting
 TEXT: 항상 냉정할 것. 적절한 분석. 팀 미스틱은 이런 집단이야.
 
 RESOURCE ID: buddy_widget_description
-TEXT: Use Adventure Sync to track Buddy heart progress when Pokémon GO is in the background
+TEXT: Use Adventure Sync to track your Buddy Pokémon’s heart meter when Pokémon GO is open in the background.
 
 RESOURCE ID: buddy_widget_title
 TEXT: Adventure Sync: Buddy
 
 RESOURCE ID: candela_incident_greeting
 TEXT: 무슨 일이 일어나도 뜨겁게 불타오르는 불꽃이 사라지지 않아! 팀 발로가 가는 길에는 승리만이 있을 뿐!
+
+RESOURCE ID: cd_walk_challenge
+TEXT: Community Day Distance Challenge
 
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: This will change the language setting to {0}. Restart the app to apply settings?
@@ -446,11 +449,17 @@ TEXT: 포켓스톱 또는 체육관의 포토디스크를 돌리면 그 주변�
 RESOURCE ID: disable_sponsored_gift_title
 TEXT: 스폰서 선물 정지
 
+RESOURCE ID: earthday22_collection_challenge
+TEXT: Sustainability Week Collection Challenge
+
 RESOURCE ID: enable_sponsored_gift_description
 TEXT: 포켓스톱 또는 체육관의 포토디스크를 돌리면 그 주변에 관계한 광고가 있는 선물이 제공됩니다. 스폰서 선물을 선택하면 광고가 있는 스폰서 선물을 받게 됩니다. 선택 후 앱을 다시 켜주십시오.
 
 RESOURCE ID: encounter_score_active_mega_bonus
 TEXT: 메가진화 상태
+
+RESOURCE ID: event_mossy_lure_pokemon
+TEXT: Event Pokémon attracted to Mossy Lure Modules
 
 RESOURCE ID: event_season6_name
 TEXT: 알로라 시즌
@@ -1016,7 +1025,7 @@ RESOURCE ID: mega_countdown_days_singular
 TEXT: {0}일
 
 RESOURCE ID: mega_daily_limit_description
-TEXT: {0}의 하루에 올릴 수 있는 메가 레벨 최대치에 도달했습니다
+TEXT: {0}의 하루에 올릴 수 있는 메가레벨 최대치에 도달했습니다
 
 RESOURCE ID: mega_daily_limit_header
 TEXT: 하루 레벨 최대치 도달
@@ -1055,7 +1064,7 @@ RESOURCE ID: mega_level_3
 TEXT: 맥스 레벨
 
 RESOURCE ID: mega_level_header
-TEXT: {0}의 메가 레벨
+TEXT: {0}의 메가레벨
 
 RESOURCE ID: mega_level_requirement_message
 TEXT: {0}(을)를 앞으로 {1}번 메가진화 시키면 {2}(으)로!
@@ -1067,7 +1076,7 @@ RESOURCE ID: mega_level_show_me_button
 TEXT: 확인
 
 RESOURCE ID: mega_level_transfer_confirmation
-TEXT: 정말로 이 메가 레벨에 오른 포켓몬을 보내도 되겠습니까?
+TEXT: 정말로 이 메가레벨에 오른 포켓몬을 보내도 되겠습니까?
 
 RESOURCE ID: mega_level_tutorial_hero_body
 TEXT: Mega Evolution temporarily changes a Pokémon’s appearance and increases its strength. Mega-Evolved Pokémon can be used in Gyms, raids, and Trainer Battles.
@@ -1103,10 +1112,16 @@ RESOURCE ID: mega_level_tutorial_page4_title
 TEXT: 휴식 시간
 
 RESOURCE ID: mega_level_tutorial_page5_body
-TEXT: 각각의 포켓몬에는 메가진화할 때마다 올라가는 메가 레벨이 있습니다, 메가 레벨에 따라 받을 수 있는 보너스가 달라집니다.
+TEXT: 메가진화한 포켓몬에는 메가레벨이 있어 레벨이 올라갈수록 메가진화할 때 받을 수 있는 보너스가 늘어납니다. 그리고 메가진화할 때까지 기다리는 시간이 단축됩니다. 메가진화는 할 때마다 메가레벨 업에 영향을 줍니다,
 
 RESOURCE ID: mega_level_tutorial_page5_title
-TEXT: 메가 레벨
+TEXT: 메가레벨
+
+RESOURCE ID: mega_level_tutorial_page6_body
+TEXT: When you catch a Pokémon that shares a type with your Mega-Evolved Pokémon, you’ll receive the following bonuses.
+• Extra Candy
+• Extra XP
+• An increased chance of receiving Candy XL
 
 RESOURCE ID: mega_level_tutorial_page6_title
 TEXT: 잡으면 받을 수 있는 보너스
@@ -1115,19 +1130,19 @@ RESOURCE ID: mega_level_unlock_message
 TEXT: 메가 에너지가 없어도 메가진화할 수 있습니다.
 
 RESOURCE ID: mega_level_unlock_prompt
-TEXT: 메가 레벨 확인
+TEXT: 메가레벨 확인
 
 RESOURCE ID: mega_level_unlock_title
 TEXT: You can now increase the Mega Level of this Pokémon!
 
 RESOURCE ID: mega_level_up_message
-TEXT: {0}의 메가 파워가 레벨업 했다!
+TEXT: {0}의 메가레벨이 레벨업 했다!
 
 RESOURCE ID: mega_level_up_perk_message
 TEXT: 메가진화 후의 휴식 시간이 단축됩니다!
 
 RESOURCE ID: mega_level_up_title
-TEXT: 메가 레벨 업!
+TEXT: 메가레벨 업!
 
 RESOURCE ID: mega_perk_attack_boost
 TEXT: 동료 공격 부스터
@@ -1136,13 +1151,13 @@ RESOURCE ID: mega_perk_candy_bonus
 TEXT: 잡았을 때 사탕 보너스
 
 RESOURCE ID: mega_perk_candy_bonus_excellent
-TEXT: Great Candy Catch Bonus
+TEXT: Enhanced Catch Candy bonus
 
 RESOURCE ID: mega_perk_catch_xp_bonus
 TEXT: 잡았을 때 XP 보너스
 
 RESOURCE ID: mega_perk_catch_xp_bonus_excellent
-TEXT: Great Catch Xp Bonus
+TEXT: Enhanced Catch XP bonus
 
 RESOURCE ID: mega_perk_cooldown_days
 TEXT: 휴식 시간 {0}일
@@ -1154,10 +1169,10 @@ RESOURCE ID: mega_perk_reduced_energy
 TEXT: 메가진화에 필요한 에너지 감소
 
 RESOURCE ID: mega_perk_reduced_energy_excellent
-TEXT: Massively Reduced Mega Energy Cost
+TEXT: Massively reduced Mega Energy cost
 
 RESOURCE ID: mega_perk_reduced_energy_great
-TEXT: Greatly Reduced Mega Energy Cost
+TEXT: Greatly reduced Mega Energy cost
 
 RESOURCE ID: mega_perk_xl_bonus_excellent
 TEXT: Excellent 사탕 XL 보너스
@@ -1169,9 +1184,9 @@ RESOURCE ID: mega_perks_header
 TEXT: 메가진화 보너스
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-06T00:35:53.377540
-at SHA 437157b398e5b3a7c29cd3b6e52e26f633a1f42b
-Patch from: 0.233.0-SHA-38f92c4a
+TEXT: Built at 2022-04-12T04:50:49.315412
+at SHA aeaa99044489f9f519c04a810913ce9926c5230e
+Patch from: 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: no_buddy
 TEXT: No Buddy
@@ -1752,6 +1767,90 @@ TEXT: 다음 협력이 필요해지만 연락할게. 곧 부탁할 일이 있을
 RESOURCE ID: quest_special_dialogue_sandt_3_7
 TEXT: 그럼 다음에 또 보자!
 
+RESOURCE ID: quest_special_dialogue_ulaula_0_0
+TEXT: 안녕, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_1
+TEXT: 조사하기 좋은 날인데 신경 쓰이는 게 있어.
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_2
+TEXT: 스파크와 블랑쉬가 목격한 수호신에 대해서 말이야. 왜 나타난 걸까? 화를 불렀나?
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_3
+TEXT: 뭘 생각하는지 알 수가 없어!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_4
+TEXT: 그늘에서 잠깐 쉬면서 머리를 식힐게.
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_5
+TEXT: 너도 무리하지 말고 조사를 시작해줘, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_0
+TEXT: %PLAYERNAME%, 어서 와! 같이 휴식을 취할 수 있는 포켓몬을 잡았구나!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_1
+TEXT: 우거진 나뭇잎 아래서 쉬어봤니?
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_2
+TEXT: 나는 발상의 전환으로 한가지가 떠올랐어.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_3
+TEXT: 수호신 중 2마리가 목격되었다는 것은 나머지 2마리도 어딘가에 있을 것 같다는 생각이야.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_4
+TEXT: 기다리지 말고 적극적으로 찾으러 가야 해.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_5
+TEXT: 우선 카푸브루루야. 울라울라섬의 수호신을 찾아보자.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_6
+TEXT: 알로라지방의 최대의 산, 라나키라마운틴이 있는 곳이 울라울라섬이야.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_7
+TEXT: 카푸브루루는 영역에 들어가면 꼬리로 소리를 내어 위치를 알림으로써 불필요한 싸움을 피한다고 하는군. 그러니 찾기 쉬울 거야.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_8
+TEXT: 그리고 카푸브루루는 초목을 다를 수 있으니 이 부분을 주의 하면서 찾아봐, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_0
+TEXT: 아, %PLAYERNAME%, 왔군. 난 칸델라의 목격담을 전해주지!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_1
+TEXT: 칸델라가 먼저 탐색을 나갔었는데
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_2
+TEXT: 나도 찾으려고 할 때 칸델라가 돌아와서 카푸브루루를 봤다고 하더군!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_3
+TEXT: 소리가 나는 방향으로 걸어갔더니 날아가는 카푸브루루를 봤다고 하는군. 난 한발 늦어서 보지 못했어!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_4
+TEXT: 너는 모든 수호신을 목격했지? 카푸브루루는 그리 멀지 않는 곳에 있어!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_5
+TEXT: 난 칸델라로부터 자세한 이야기를 듣고 조사를 하지.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_0
+TEXT: %PLAYERNAME%, 카푸브루루를 만났구나?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_1
+TEXT: 초목을 자라게 하는 것을 봤니? 큰 나무를 뽑아서 가볍게 휘두르는 건?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_2
+TEXT: 물어보는 것만이 현재 단서야!
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_3
+TEXT: 나는 못 만나서... 계속 생각해 봤는데..
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_4
+TEXT: 수호신은 조용히 우리를 지켜보고 있겠지? 뭔가를 관찰하기 위해 왔다고 생각할 수 있지 않을까?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_5
+TEXT: 수호신 중 마지막인 카푸느지느를 목격하면 좀 더 알 수 있는 게 있지 않을까?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_6
+TEXT: 계속 연락은 줘. 그럼 또 보자, %PLAYERNAME%!
+
 RESOURCE ID: quest_title_af2022
 TEXT: 만우절2022
 
@@ -1836,6 +1935,21 @@ TEXT: 쥐포켓몬의 수수께끼를 풀어라!(3/4)
 RESOURCE ID: quest_title_sandt_3
 TEXT: 쥐포켓몬의 수수께끼를 풀어라!(4/4)
 
+RESOURCE ID: quest_title_ulaula
+TEXT: 울라울라섬을 연구하라!
+
+RESOURCE ID: quest_title_ulaula_0
+TEXT: 울라울라섬을 연구하라! (1/4)
+
+RESOURCE ID: quest_title_ulaula_1
+TEXT: 울라울라섬을 연구하라! (2/4)
+
+RESOURCE ID: quest_title_ulaula_2
+TEXT: 울라울라섬을 연구하라! (3/4)
+
+RESOURCE ID: quest_title_ulaula_3
+TEXT: 울라울라섬을 연구하라! (4/4)
+
 RESOURCE ID: quests_batch_updated
 TEXT: {0} Research Tasks Updated
 
@@ -1847,6 +1961,15 @@ TEXT: Adjust Performance
 
 RESOURCE ID: settings_advanced_adjust_performance_sub
 TEXT: Optimize your gameplay based on your device, which may provide better performance or save battary life.
+
+RESOURCE ID: sis22_collection_challenge
+TEXT: 봄 이벤트2022 챌린지
+
+RESOURCE ID: songkran_2022_description
+TEXT: 송끄란 페스티벌 2022
+
+RESOURCE ID: songkran_2022_title
+TEXT: 송끄란2022
 
 RESOURCE ID: spark_incident_greeting
 TEXT: 직감을 믿으라는 것이 결국 제일 확실해. 팀 인스팅트가 잘 나가는 것은 이런 이유지!
@@ -1912,7 +2035,7 @@ RESOURCE ID: timed_challenge_work_together_global_backup
 TEXT: 전 세계 트레이너가 하나 되어 완료를 목표로 하는 챌린지입니다!
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_body
-TEXT: 메가진화한 포켓몬을 사용해서 레이드배틀에 참가하하면 함께 배틀하는 같은 타입의 포켓몬이 주는 데미지가 증가합니다.
+TEXT: 메가진화한 포켓몬을 사용해서 레이드배틀에 참가하면, 함께 배틀하는 다른 트레이너가 주는 데미지가 늘어나며 같은 타입의 포켓몬이면 주는 데미지가 더 증가합니다.
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_title
 TEXT: 메가 어택 부스터

@@ -445,10 +445,13 @@ RESOURCE ID: batch_transfer_unique_mega_level_pokemon
 TEXT: {0} Mega-Leveled Pokémon
 
 RESOURCE ID: buddy_widget_description
-TEXT: Use Adventure Sync to track Buddy heart progress when Pokémon GO is in the background
+TEXT: Use Adventure Sync to track your Buddy Pokémon’s heart meter when Pokémon GO is open in the background.
 
 RESOURCE ID: buddy_widget_title
 TEXT: Adventure Sync: Buddy
+
+RESOURCE ID: cd_walk_challenge
+TEXT: Community Day Distance Challenge
 
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: This will change the language setting to {0}. Restart the app to apply settings?
@@ -477,6 +480,9 @@ TEXT: Disable this option to stop receiving Sponsored Message served through thi
 RESOURCE ID: disable_sponsored_gift_title
 TEXT: Disable Sponsored Messages from third party advertising services
 
+RESOURCE ID: earthday22_collection_challenge
+TEXT: Sustainability Week Collection Challenge
+
 RESOURCE ID: enable_sponsored_gift_description
 TEXT: Enable this option to receive Sponsored Messages through third party ad services. Please restart the app to save your choice.
 
@@ -485,6 +491,9 @@ TEXT: Enable Sponsored Messages from third-party advertising services
 
 RESOURCE ID: encounter_score_active_mega_bonus
 TEXT: Active Mega Pokémon Bonus
+
+RESOURCE ID: event_mossy_lure_pokemon
+TEXT: Event Pokémon attracted to Mossy Lure Modules
 
 RESOURCE ID: event_season6_name
 TEXT: Season of Alola
@@ -1099,7 +1108,7 @@ TEXT: Let’s GO Mega!
 RESOURCE ID: mega_level_tutorial_page1_body
 TEXT: • You can now Mega Evolve a Pokémon without using Mega Energy.
 • You can still use Mega Energy to Mega Evolve a Pokémon during its rest period.
-• New bonuses have been added that strengthen your bond with your Pokémon the more it Mega Evolves.
+• New bonuses have been added that will improve the more your Pokémon Mega Evolves.
 
 After a Pokémon Mega Evolves, you’ll need to wait a while before it can Mega Evolve again without using Mega Energy. You can also use Mega Energy to Mega Evolve your Pokémon before then.
 
@@ -1134,10 +1143,16 @@ RESOURCE ID: mega_level_tutorial_page4_title
 TEXT: Rest Periods
 
 RESOURCE ID: mega_level_tutorial_page5_body
-TEXT: Each Mega-Evolved Pokémon has a Mega Level. When a Pokémon’s Mega Level increases, you’ll get increased bonuses while the Pokémon is Mega Evolved, and the period you’ll have to wait before you can Mega Evolve the Pokémon again will be shorter. Your Pokémon’s Mega Level increases each time the Pokémon Mega Evolves.
+TEXT: Each Mega-Evolved Pokémon has a Mega Level. When a Pokémon’s Mega Level increases, you’ll get increased bonuses while the Pokémon is Mega Evolved, and the period you’ll have to wait before you can Mega Evolve the Pokémon again will be shorter. Each time you Mega Evolve a Pokémon, you work toward increasing its Mega Level.
 
 RESOURCE ID: mega_level_tutorial_page5_title
 TEXT: Mega Level
+
+RESOURCE ID: mega_level_tutorial_page6_body
+TEXT: When you catch a Pokémon that shares a type with your Mega-Evolved Pokémon, you’ll receive the following bonuses.
+• Extra Candy
+• Extra XP
+• An increased chance of receiving Candy XL
 
 RESOURCE ID: mega_level_tutorial_page6_title
 TEXT: Catch Bonuses
@@ -1167,13 +1182,13 @@ RESOURCE ID: mega_perk_candy_bonus
 TEXT: Catch Candy Bonus
 
 RESOURCE ID: mega_perk_candy_bonus_excellent
-TEXT: Great Candy Catch Bonus
+TEXT: Enhanced Catch Candy bonus
 
 RESOURCE ID: mega_perk_catch_xp_bonus
 TEXT: Catch XP Bonus
 
 RESOURCE ID: mega_perk_catch_xp_bonus_excellent
-TEXT: Great Catch Xp Bonus
+TEXT: Enhanced Catch XP bonus
 
 RESOURCE ID: mega_perk_cooldown_days
 TEXT: {0}-day Mega Evolution rest period
@@ -1185,10 +1200,10 @@ RESOURCE ID: mega_perk_reduced_energy
 TEXT: Reduced Mega Energy to Mega Evolve
 
 RESOURCE ID: mega_perk_reduced_energy_excellent
-TEXT: Massively Reduced Mega Energy Cost
+TEXT: Massively reduced Mega Energy cost
 
 RESOURCE ID: mega_perk_reduced_energy_great
-TEXT: Greatly Reduced Mega Energy Cost
+TEXT: Greatly reduced Mega Energy cost
 
 RESOURCE ID: mega_perk_xl_bonus_excellent
 TEXT: Excellent Candy XL Chance
@@ -1200,9 +1215,9 @@ RESOURCE ID: mega_perks_header
 TEXT: Mega Evolution Bonuses
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-06T00:35:53.377540
-at SHA 437157b398e5b3a7c29cd3b6e52e26f633a1f42b
-Patch from: 0.233.0-SHA-38f92c4a
+TEXT: Built at 2022-04-12T04:50:49.315412
+at SHA aeaa99044489f9f519c04a810913ce9926c5230e
+Patch from: 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: no_buddy
 TEXT: No Buddy
@@ -1744,6 +1759,90 @@ TEXT: It didn’t take long for me to realize I was standing before a Trevenant,
 RESOURCE ID: quest_special_dialogue_season4_10_8
 TEXT: Ghost-type Pokémon can seem frightening at first glance, but look a little closer and you’ll find they’re full of surprises. I’m sure the same goes for Hoopa!
 
+RESOURCE ID: quest_special_dialogue_ulaula_0_0
+TEXT: Hey there, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_1
+TEXT: Your timing is excellent. I’ve hit a bit of a roadblock in my research!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_2
+TEXT: You see, I’m still puzzling over the guardian deities both Spark and Blanche have seen recently. I’ve yet to suss out why they’ve been appearing.
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_3
+TEXT: I can only hope they’re not angry with us—or worse!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_4
+TEXT: I think I’ll take a break in the shade to clear my mind. It’s important to give your brain a breather now and then!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_5
+TEXT: Why don’t you head out to find some shade for yourself, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_0
+TEXT: Welcome back, %PLAYERNAME%! I see you’ve found some leafy Pokémon to rest under.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_1
+TEXT: Are you feeling refreshed? I know I am!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_2
+TEXT: While you were out, I thought of a new angle for our investigation.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_3
+TEXT: As you may know, Alola is home to four guardian deities. We’ve seen two, so it stands to reason the other two may be buzzing about already.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_4
+TEXT: Instead of waiting for them to come to us, I think we should get out and search for them ourselves.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_5
+TEXT: Let’s start with Tapu Bulu, Guardian Deity of Ula’Ula Island.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_6
+TEXT: Ula’Ula Island is a rugged locale, home to Mount Lanakila, the highest peak in Alola.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_7
+TEXT: Tapu Bulu is said to make ringing sounds with its tail to let others know where it is and avoid unneeded conflicts. Knowing that, it shouldn’t be too hard to find!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_8
+TEXT: In addition, I know Tapu Bulu can help plants grow, so perhaps we’ll have some luck if we begin by looking for Pokémon that are known to grow. Let’s get out there, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_0
+TEXT: Ah, %PLAYERNAME%—you’re back. How did your search go?
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_1
+TEXT: I asked Candela to lend us a hand shortly after you left.
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_2
+TEXT: And just a few minutes later, before I’d even finished packing my gear, she came running back saying she’d heard a ringing in the air and looked up to see Tapu Bulu floating by!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_3
+TEXT: Yet another guardian deity I’ve missed by a hair... Such is the fickle nature of Pokémon research, I suppose.
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_4
+TEXT: I’m glad you’ve at least been more successful, %PLAYERNAME%. Now that we know it’s out there, let’s double down on our search for Tapu Bulu!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_5
+TEXT: I’ll speak with Candela to see if she might know any more details that could help us.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_0
+TEXT: %PLAYERNAME%—you saw Tapu Bulu, didn’t you!
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_1
+TEXT: What was it like? Tell me everything! Did you hear a ringing noise? Did you see it making vegetation grow, or maybe even swinging large trees around by their roots?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_2
+TEXT: Those are all things Tapu Bulu is known for.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_3
+TEXT: As you might’ve expected, I was—yet again—unable to witness Tapu Bulu myself. I did, however, think up a new theory.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_4
+TEXT: The guardian deities seem to be keeping a relatively low profile. Perhaps they’re just here to investigate something, or even help us somehow.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_5
+TEXT: Things may become clearer if we see Tapu Fini, the last of Alola’s guardian deities.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_6
+TEXT: For now, though, I think we’ve earned some rest. See you next time, %PLAYERNAME%!
+
 RESOURCE ID: quest_title_af2022
 TEXT: April Fools’ 2-Oh?-22
 
@@ -1828,6 +1927,21 @@ TEXT: Gritty and Glacial (3/4)
 RESOURCE ID: quest_title_sandt_3
 TEXT: Gritty and Glacial (4/4)
 
+RESOURCE ID: quest_title_ulaula
+TEXT: An Ula’ula Adventure
+
+RESOURCE ID: quest_title_ulaula_0
+TEXT: An Ula’ula Adventure (1/4)
+
+RESOURCE ID: quest_title_ulaula_1
+TEXT: An Ula’ula Adventure (2/4)
+
+RESOURCE ID: quest_title_ulaula_2
+TEXT: An Ula’ula Adventure (3/4)
+
+RESOURCE ID: quest_title_ulaula_3
+TEXT: An Ula’ula Adventure (4/4)
+
 RESOURCE ID: quests_batch_updated
 TEXT: {0} Research Tasks Updated
 
@@ -1842,6 +1956,15 @@ TEXT: Optimize your gameplay based on your device, which may provide better perf
 
 RESOURCE ID: settings_wasabi_ads
 TEXT: Show Sponsored Messages from third party ad services
+
+RESOURCE ID: sis22_collection_challenge
+TEXT: Spring into Spring 2022 Collection Challenge
+
+RESOURCE ID: songkran_2022_description
+TEXT: Songkran Festival 2022
+
+RESOURCE ID: songkran_2022_title
+TEXT: April Splash!
 
 RESOURCE ID: spawn_mudkip
 TEXT: More Mudkip are appearing in the wild
@@ -1901,7 +2024,7 @@ RESOURCE ID: timed_challenge_work_together_global_backup
 TEXT: Trainers must work together as a global community to complete this challenge.
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_body
-TEXT: While using a Mega-Evolved Pokémon in a Raid Battle or a Gym battle, the attacks of other Trainers’ Pokémon challenging that same raid or Gym will deal more damage if they’re the same type as your Mega-Evolved Pokémon.
+TEXT: While using a Mega-Evolved Pokémon in a Raid Battle or a Gym battle, the attacks of other Trainers’ Pokémon challenging that same raid or Gym will deal more damage. These attacks will deal even more damage if they’re the same type as your Mega-Evolved Pokémon.
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_title
 TEXT: Mega Attack Boost

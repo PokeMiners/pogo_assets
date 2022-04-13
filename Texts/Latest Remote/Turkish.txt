@@ -746,7 +746,7 @@ RESOURCE ID: buddy_week_event_name
 TEXT: Dostluk
 
 RESOURCE ID: buddy_widget_description
-TEXT: Use Adventure Sync to track Buddy heart progress when Pokémon GO is in the background
+TEXT: Use Adventure Sync to track your Buddy Pokémon’s heart meter when Pokémon GO is open in the background.
 
 RESOURCE ID: buddy_widget_title
 TEXT: Adventure Sync: Buddy
@@ -756,6 +756,9 @@ TEXT: Dostunuzu heyecanlandırmak daha kolay
 
 RESOURCE ID: candela_incident_greeting
 TEXT: Ne olursa olsun, içimizde yanan cesaret alevi asla sönmeyecek! Cesaret Takımı zafer yolunda cesurca yürür.
+
+RESOURCE ID: cd_walk_challenge
+TEXT: Topluluk Günü Yürüme Görevi
 
 RESOURCE ID: challenge_buddy_affection_plural
 TEXT: Dostunuzla {0} kalp kazanın
@@ -871,6 +874,9 @@ TEXT: PokéDurakları ve Spor Salonlarını ziyaret ettiğinizde Sponsor Hediyes
 RESOURCE ID: disabled_buddy
 TEXT: Dost Pokémon'unuzu Spor Salonunu savunması için atayamazsınız.
 
+RESOURCE ID: earthday22_collection_challenge
+TEXT: Sürdürülebilirlik Haftası Toplama Görevi
+
 RESOURCE ID: encounter_great_throw
 TEXT: Süper!
 
@@ -888,6 +894,9 @@ TEXT: Dostunuz şu anda değiştirilemiyor.
 
 RESOURCE ID: error_change_team_no_item
 TEXT: Envanterinizde Takım Madalyonu yok.
+
+RESOURCE ID: event_mossy_lure_pokemon
+TEXT: Etkinlik Pokémon’ları yosunlu yem modülüne geliyor
 
 RESOURCE ID: event_npc05_crafted_pre_battle
 TEXT: <intimidate>Aa, Dost Pokémon'un var! Yakından bakmak istiyorum!
@@ -1561,10 +1570,10 @@ RESOURCE ID: mega_daily_limit_header
 TEXT: Günlük Seviye Limitine Ulaşıldı
 
 RESOURCE ID: mega_evolve_energy_prompt
-TEXT: Tap to Mega Evolve!
+TEXT: Mega Evrimleştirmek için dokunun!
 
 RESOURCE ID: mega_evolve_free_prompt
-TEXT: Tap to Mega Evolve!
+TEXT: Mega Evrimleştirmek için dokunun!
 
 RESOURCE ID: mega_evolve_lobby_callout
 TEXT: Mega Evrimleştirilebilir
@@ -1617,11 +1626,11 @@ RESOURCE ID: mega_level_tutorial_hero_title
 TEXT: Mega Olalım!
 
 RESOURCE ID: mega_level_tutorial_page1_body
-TEXT: • Artık Mega Enerji kullanmadan bir Pokémon'u Mega Evrimleştirebileceksiniz.
-• Dinlenme süresindeki bir Pokémon'u Mega Evrimleştirmek için Mega Enerji kullanmaya devam edebilirsiniz.
-• Pokémon'unuz Mega Evrimleştikçe aranızdaki bağı artıracak yeni bonuslar eklendi.
+TEXT: • Artık mega enerji kullanmadan bir Pokémon'u mega evrimleştirebileceksiniz.
+• Dinlenme süresindeki bir Pokémon'u mega evrimleştirmek için mega enerji kullanmaya devam edebilirsiniz.
+• Pokémon'unuz mega evrimleştikçe artacak yeni bonuslar eklendi.
 
-Bir Pokémon Mega Evrimleştiğinde, Mega Enerji kullanmadan tekrar Mega Evrim geçirebilmesi için belirli bir süre beklemeniz gerekir. Bu süre dolmadan Pokémon'u tekrar Mega Evrimleştirebilmek için Mega Enerji kullanabilirsiniz.
+Bir Pokémon mega evrimleştiğinde, mega enerji kullanmadan tekrar mega evrim geçirebilmesi için belirli bir süre beklemeniz gerekir. Bu süre dolmadan Pokémon'u tekrar mega evrimleştirebilmek için mega enerji kullanabilirsiniz.
 
 RESOURCE ID: mega_level_tutorial_page1_title
 TEXT: Mega Evrim Özellikleri
@@ -1654,10 +1663,16 @@ RESOURCE ID: mega_level_tutorial_page4_title
 TEXT: Dinlenme Süresi
 
 RESOURCE ID: mega_level_tutorial_page5_body
-TEXT: Mega Evrimleşen her Pokémon’un Mega Seviyesi vardır. Pokémon’un Mega Seviyesi yükseldikçe, o Pokémon’u Mega Evrimleştirdiğinizde alacağınız bonuslar da artar ve Pokémon’u tekrar Mega Evrimleştirmeniz için beklemeniz gereken süre kısalır. Pokémon’unuzun Mega Seviyesi, o Pokémon’u her Mega Evrimleştirdiğinizde yükselir.
+TEXT: Mega evrimleşen her Pokémon’un bir mega seviyesi vardır. Pokémon’un mega seviyesi yükseldikçe, o Pokémon’u mega evrimleştirdiğinizde alacağınız bonuslar da artar ve Pokémon’u tekrar mega evrimleştirmeniz için beklemeniz gereken süre kısalır. Pokémon’unuzu mega evrimleştirdikçe o Pokémon’un mega seviyesini artırmaya devam edersiniz.
 
 RESOURCE ID: mega_level_tutorial_page5_title
 TEXT: Mega Seviye
+
+RESOURCE ID: mega_level_tutorial_page6_body
+TEXT: When you catch a Pokémon that shares a type with your Mega-Evolved Pokémon, you’ll receive the following bonuses.
+• Extra Candy
+• Extra XP
+• An increased chance of receiving Candy XL
 
 RESOURCE ID: mega_level_tutorial_page6_title
 TEXT: Yakalama Bonusları
@@ -1669,7 +1684,7 @@ RESOURCE ID: mega_level_unlock_prompt
 TEXT: Mega Seviyesini görmek için dokunun
 
 RESOURCE ID: mega_level_unlock_title
-TEXT: You can now increase the Mega Level of this Pokémon!
+TEXT: Bu Pokémon’un mega seviyesini şimdi yükseltebilirsiniz!
 
 RESOURCE ID: mega_level_up_message
 TEXT: {0} Mega Seviyesi yükseldi! 
@@ -1687,13 +1702,13 @@ RESOURCE ID: mega_perk_candy_bonus
 TEXT: Yakalama Şekeri Bonusu
 
 RESOURCE ID: mega_perk_candy_bonus_excellent
-TEXT: Great Candy Catch Bonus
+TEXT: Artırılmış yakalama şekeri bonusu
 
 RESOURCE ID: mega_perk_catch_xp_bonus
 TEXT: Yakalama TP'si Bonusu
 
 RESOURCE ID: mega_perk_catch_xp_bonus_excellent
-TEXT: Great Catch Xp Bonus
+TEXT: Artırılmış yakalama TP'si bonusu
 
 RESOURCE ID: mega_perk_cooldown_days
 TEXT: {0} günlük Mega Evrim dinlenme süresi
@@ -1705,10 +1720,10 @@ RESOURCE ID: mega_perk_reduced_energy
 TEXT: Mega Evrim İçin Azaltılmış Enerji Gereksinimi
 
 RESOURCE ID: mega_perk_reduced_energy_excellent
-TEXT: Massively Reduced Mega Energy Cost
+TEXT: Çok azaltılmış mega enerji bedeli
 
 RESOURCE ID: mega_perk_reduced_energy_great
-TEXT: Greatly Reduced Mega Energy Cost
+TEXT: Azaltılmış mega enerji bedeli
 
 RESOURCE ID: mega_perk_xl_bonus_excellent
 TEXT: Çok Artırılmış Büyük Şeker Şansı
@@ -1720,9 +1735,9 @@ RESOURCE ID: mega_perks_header
 TEXT: Mega Evrim Bonusları
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-06T00:35:53.377540
-at SHA 437157b398e5b3a7c29cd3b6e52e26f633a1f42b
-Patch from: 0.233.0-SHA-38f92c4a
+TEXT: Built at 2022-04-12T04:50:49.315412
+at SHA aeaa99044489f9f519c04a810913ce9926c5230e
+Patch from: 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: mvt_stat_use_buddy_player_details
 TEXT: Maça bir Dost Pokémon getirdi
@@ -2492,6 +2507,90 @@ TEXT: Dost Pokémon'unla birlikte inanılmaz işler başaracağından eminim, Me
 RESOURCE ID: quest_special_dialogue_tepit_1_1
 TEXT: Bakıyorum da kendine bir Tepig yakalamışsın! Hayatın her alanında çok iyi dostluk ederler.
 
+RESOURCE ID: quest_special_dialogue_ulaula_0_0
+TEXT: Merhaba %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_1
+TEXT: Zamanlaman harika. Tam da araştırmamda bir engele denk gelmiştim!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_2
+TEXT: Kısa bir süre önce Spark ve Blanche tarafından görülen koruyucu tanrılar kafamı kurcalıyor. Neden ortaya çıktıklarını hâlâ anlayabilmiş değilim.
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_3
+TEXT: Umarım bize bir nedenden dolayı kızmamışlardır!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_4
+TEXT: Sanırım çalışmaya biraz ara verip gölgelik bir yerde dinlenirken bu düşüncelerden kurtulmaya çalışacağım. Ne de olsa beynimiz de ara sıra molaya ihtiyaç duyuyor.
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_5
+TEXT: Sen de kendine gölgelik bir yer bul istersen %PLAYERNAME%, ne dersin?
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_0
+TEXT: Tekrar hoş geldin %PLAYERNAME%! Görüyorum ki altında dinlenebileceğin büyük yapraklı bir Pokémon bulmuşsun.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_1
+TEXT: Biraz olsun rahatladın mı? Şahsen ben rahatladım!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_2
+TEXT: Sen dışarıdayken araştırmamıza dair yeni bir şey aklıma geldi.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_3
+TEXT: Bildiğin gibi Alola dört koruyucu tanrıya ev sahipliği yapıyor. Şu ana dek bunlardan ikisini gördük. Diğer ikisi de bu yakınlarda olmalı.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_4
+TEXT: O hâlde onların ayağımıza gelmesini beklemek yerine biz çıkıp onları arayalım.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_5
+TEXT: İşe Ula’Ula Adası’nın koruyucu tanrısı Tapu Bulu’yla başlayalım.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_6
+TEXT: Ula’Ula Adası, Alola’nın en yüksek zirvesi olan Lanakila Dağı’nı barındıran sarp bir bölgedir.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_7
+TEXT: Tapu Bulu ise bir çınlama sesi yayarak varlığını etraftakilere bildirmesi ve gereksiz gerginlikleri önlemesiyle bilinir. Dolayısıyla onu bulmak zor olmasa gerek!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_8
+TEXT: Ayrıca Tapu Bulu’nun bitkilerin büyümesine yardımcı olabildiğini duymuştum. Belki büyümesiyle ünlü bir Pokémon ararsak Tapu Bulu’yu bulma şansımız artabilir. O hâlde gel, hemen aramaya başlayalım %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_0
+TEXT: Dönmüşsün bile %PLAYERNAME%! Arayışın nasıl gitti?
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_1
+TEXT: Sen çıktıktan hemen sonra Candela’dan yardım istedim.
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_2
+TEXT: Daha çantamı bile toplamamıştım ki birkaç dakika içinde Candela çıkageldi. Göklerde bir çınlama duymuş ve başını kaldırdığında Tapu Bulu’yu gökte süzülürken görmüş!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_3
+TEXT: Bir koruyucu tanrıyı daha görmeyi kıl payı kaçırdım... Pokémon’ları araştırmanın böyle talihsizlikleri olabiliyor.
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_4
+TEXT: Ama senin işlerinin benimkilerden daha iyi gittiğine sevindim %PLAYERNAME%. Artık Tapu Bulu’nun etrafta olduğunu bildiğimize göre arayışımızı yoğunlaştırabiliriz!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_5
+TEXT: Candela’yla konuşup bize yardımcı olabilecek daha fazla bilgisi olup olmadığını öğreneceğim.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_0
+TEXT: Tapu Bulu’yu gördün, değil mi %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_1
+TEXT: Nasıldı? Bana her şeyi anlat! Çınlama sesini duydun mu? Bitkilerin büyümesini sağladı mı? Koca koca ağaçları köklerinden tutup savuruyor muydu?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_2
+TEXT: Tapu Bulu’nun tüm bunları yapabileceği söylenir.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_3
+TEXT: Tahmin edebileceğin gibi Tapu Bulu’yu YİNE göremedim. Ancak yeni bir teori üzerine kafa yordum!
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_4
+TEXT: Koruyucu tanrıların dikkatleri üzerlerine çekmek istemediğini gözlemledim. Belki de bir şeyi araştırıyorlardır. Hatta belki bize yardım etmek istiyor bile olabilirler.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_5
+TEXT: Alola’nın koruyucu tanrılarından sonuncusu olan Tapu Fini bu sırrı çözmemize yardımcı olabilir.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_6
+TEXT: Ama şimdilik güzel bir istirahati hak ettiğimizi düşünüyorum. Tekrar görüşünceye dek hoşça kal %PLAYERNAME%!
+
 RESOURCE ID: quest_title_af2022
 TEXT: 1 Nisan 2-O?-22
 
@@ -2588,6 +2687,21 @@ TEXT: Kum ve Buz (3/4)
 RESOURCE ID: quest_title_sandt_3
 TEXT: Kum ve Buz (4/4)
 
+RESOURCE ID: quest_title_ulaula
+TEXT: Bir Ula'ula Macerası
+
+RESOURCE ID: quest_title_ulaula_0
+TEXT: Bir Ula'ula Macerası (1/4)
+
+RESOURCE ID: quest_title_ulaula_1
+TEXT: Bir Ula'ula Macerası (2/4)
+
+RESOURCE ID: quest_title_ulaula_2
+TEXT: Bir Ula'ula Macerası (3/4)
+
+RESOURCE ID: quest_title_ulaula_3
+TEXT: Bir Ula'ula Macerası (4/4)
+
 RESOURCE ID: quest_walk_buddy_plural
 TEXT: Dostunuzla yürüyerek {0} Şeker kazanın
 
@@ -2636,6 +2750,15 @@ TEXT: Optimize your gameplay based on your device, which may provide better perf
 
 RESOURCE ID: settings_push_buddy_v2
 TEXT: Dost Özelliği
+
+RESOURCE ID: sis22_collection_challenge
+TEXT: Bahara Merhaba 2022 Toplama Görevi
+
+RESOURCE ID: songkran_2022_description
+TEXT: 2022 Songkran Festivali
+
+RESOURCE ID: songkran_2022_title
+TEXT: Nisan Yağmuru!
 
 RESOURCE ID: spark_incident_greeting
 TEXT: İçgüdüler oldukça kullanışlı, öyle değil mi? İçgüdü Takımı işini bilir!
@@ -2713,7 +2836,7 @@ RESOURCE ID: timed_challenge_work_together_global_backup
 TEXT: Eğitmenler, bu görevi tamamlamak için küresel bir topluluk olarak birlikte çalışmalıdır.
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_body
-TEXT: Mega Evrimleşmiş bir Pokémon, bir akın veya spor salonu maçına katıldıysa ve başka Eğitmenler, Mega Evrimleşmiş Pokémon'la aynı türü paylaşan bir Pokémon kullanıyorsa bu Pokémon'ların saldırıları akın veya spor salonu maçında daha fazla hasar verir.
+TEXT: Bir akın veya spor salonu maçında mega evrimleşmiş bir Pokémon kullandığınızda, aynı akın veya spor salonuna saldıran diğer Eğitmenlerin Pokémon’ları daha fazla hasar verir. Eğitmenlerin Pokémon’ları, mega evrimleşmiş Pokémon’unuzla aynı türden olursa alacakları hasar artırımı daha da güçlenir.
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_title
 TEXT: Mega Saldırı Güçlendirmesi

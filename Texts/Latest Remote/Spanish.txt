@@ -440,13 +440,16 @@ RESOURCE ID: blanche_incident_greeting
 TEXT: Postura firme y análisis preciso. Así hace las cosas el Equipo Sabiduría.
 
 RESOURCE ID: buddy_widget_description
-TEXT: Use Adventure Sync to track Buddy heart progress when Pokémon GO is in the background
+TEXT: Use Adventure Sync to track your Buddy Pokémon’s heart meter when Pokémon GO is open in the background.
 
 RESOURCE ID: buddy_widget_title
 TEXT: Adventure Sync: Buddy
 
 RESOURCE ID: candela_incident_greeting
 TEXT: No importa lo que ocurra, ¡nuestras llamas de la valentía nunca se extinguirán! El Equipo Valor arrasa hacia la victoria.
+
+RESOURCE ID: cd_walk_challenge
+TEXT: Desafío de distancia del Día de la Comunidad
 
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: This will change the language setting to {0}. Restart the app to apply settings?
@@ -472,11 +475,17 @@ TEXT: Día de la Comunidad: Sandshrew
 RESOURCE ID: disable_sponsored_gift_description
 TEXT: Cuando visites Poképaradas o Gimnasios, podrás recibir regalos de patrocinadores junto con un mensaje de patrocinio relevante para tu ubicación. Al desactivar esta función, ya no recibirás regalos de patrocinadores. Reinicia la aplicación para guardar tu elección.
 
+RESOURCE ID: earthday22_collection_challenge
+TEXT: Desafío de colección de la Semana de la Sostenibilidad
+
 RESOURCE ID: enable_sponsored_gift_description
 TEXT: Cuando visites Poképaradas o Gimnasios, podrás recibir regalos de patrocinadores junto con un mensaje de patrocinio relevante para tu ubicación. Al activar esta función, recibirás regalos de patrocinadores cuando estén disponibles. Reinicia la aplicación para guardar tu elección.
 
 RESOURCE ID: encounter_score_active_mega_bonus
 TEXT: Activa el bonus de Mega Pokémon
+
+RESOURCE ID: event_mossy_lure_pokemon
+TEXT: Los Pokémon del evento se verán atraídos a los Módulos Cebo Musgosos
 
 RESOURCE ID: event_season6_name
 TEXT: Temporada de Alola
@@ -1044,7 +1053,7 @@ RESOURCE ID: mega_evolve_energy_prompt
 TEXT: ¡Pulsa para megaevolucionar!
 
 RESOURCE ID: mega_evolve_free_prompt
-TEXT: ¡Pulsa para megaevolucionar!
+TEXT: ¡Toca para hacerlo megaevolucionar!
 
 RESOURCE ID: mega_evolve_lobby_callout
 TEXT: Megaevolución disponible
@@ -1099,7 +1108,7 @@ TEXT: ¡Vamos allá con la megaevolución!
 RESOURCE ID: mega_level_tutorial_page1_body
 TEXT: • Ya puedes hacer megaevolucionar a un Pokémon sin usar Megaenergía.
 • Puedes seguir usando Megaenergía para hacer megaevolucionar a un Pokémon durante su periodo de descanso.
-• Se han añadido nuevos bonus para mejorar el vínculo con tus Pokémon cuantas más veces megaevolucione.
+• Se han añadido nuevos bonus que irán mejorando cuantas más veces hagas megaevolucionar tus Pokémon.
 
 Después de hacer megaevolucionar a un Pokémon, deberás esperar un tiempo antes de poder hacerlo megaevolucionar de nuevo sin utilizar Megaenergía. También podrás utilizar Megaenergía para hacer megaevolucionar a tu Pokémon antes de que se agote la espera.
 
@@ -1134,10 +1143,16 @@ RESOURCE ID: mega_level_tutorial_page4_title
 TEXT: Periodos de descanso
 
 RESOURCE ID: mega_level_tutorial_page5_body
-TEXT: Todos los Pokémon megaevolucionados tienen un meganivel. Al aumentar el meganivel de un Pokémon, recibirás recompensas mejoradas mientras el Pokémon esté megaevolucionado y el periodo de espera para poder megaevolucionarlo de nuevo será más corto. El meganivel de tu Pokémon subirá cada vez que el Pokémon megaevolucione.
+TEXT: Todos los Pokémon megaevolucionados tienen un meganivel. Al aumentar el meganivel de un Pokémon, recibirás recompensas mejoradas mientras el Pokémon esté megaevolucionado y el periodo de espera para poder megaevolucionarlo de nuevo será más corto. Cada vez que hagas megaevolucionar un Pokémon harás que vaya subiendo su meganivel.
 
 RESOURCE ID: mega_level_tutorial_page5_title
 TEXT: Meganivel
+
+RESOURCE ID: mega_level_tutorial_page6_body
+TEXT: When you catch a Pokémon that shares a type with your Mega-Evolved Pokémon, you’ll receive the following bonuses.
+• Extra Candy
+• Extra XP
+• An increased chance of receiving Candy XL
 
 RESOURCE ID: mega_level_tutorial_page6_title
 TEXT: Bonus por captura
@@ -1167,13 +1182,13 @@ RESOURCE ID: mega_perk_candy_bonus
 TEXT: Bonus de Caramelos por captura
 
 RESOURCE ID: mega_perk_candy_bonus_excellent
-TEXT: Great Candy Catch Bonus
+TEXT: Bonus de Caramelos por captura mejorado
 
 RESOURCE ID: mega_perk_catch_xp_bonus
 TEXT: Bonus de PX por captura
 
 RESOURCE ID: mega_perk_catch_xp_bonus_excellent
-TEXT: Great Catch Xp Bonus
+TEXT: Bonus de PX por captura mejorado
 
 RESOURCE ID: mega_perk_cooldown_days
 TEXT: Día {0} del periodo de descanso de megaevolución
@@ -1185,10 +1200,10 @@ RESOURCE ID: mega_perk_reduced_energy
 TEXT: Megaenergía para megaevolucionar reducida
 
 RESOURCE ID: mega_perk_reduced_energy_excellent
-TEXT: Massively Reduced Mega Energy Cost
+TEXT: Coste de Megaenergía superreducido
 
 RESOURCE ID: mega_perk_reduced_energy_great
-TEXT: Greatly Reduced Mega Energy Cost
+TEXT: Coste de Megaenergía muy reducido
 
 RESOURCE ID: mega_perk_xl_bonus_excellent
 TEXT: Excelente probabilidad de conseguir Caramelos ++
@@ -1200,9 +1215,9 @@ RESOURCE ID: mega_perks_header
 TEXT: Bonus de megaevolución
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-06T00:35:53.377540
-at SHA 437157b398e5b3a7c29cd3b6e52e26f633a1f42b
-Patch from: 0.233.0-SHA-38f92c4a
+TEXT: Built at 2022-04-12T04:50:49.315412
+at SHA aeaa99044489f9f519c04a810913ce9926c5230e
+Patch from: 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: no_buddy
 TEXT: No Buddy
@@ -1750,6 +1765,90 @@ TEXT: Y me aseguraré de ponerme en contacto contigo la próxima vez que necesit
 RESOURCE ID: quest_special_dialogue_sandt_3_7
 TEXT: Hasta la próxima, ¡vamos allá!
 
+RESOURCE ID: quest_special_dialogue_ulaula_0_0
+TEXT: ¡Hola, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_1
+TEXT: ¡Qué buen momento para llegar, estoy un poco bloqueado con mi investigación!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_2
+TEXT: Verás, sigo dándole vueltas a los espíritus guardianes que Spark y Blanche han visto recientemente. Todavía tengo que descubrir por qué han estado apareciendo.
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_3
+TEXT: Solo espero que no se hayan enfadado con nosotros. ¡O algo peor!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_4
+TEXT: Creo que me voy un rato a la sombrita para despejar la mente. ¡Es importante darle un descanso al coco de vez en cuando!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_5
+TEXT: ¿Por qué no sales a buscar alguna sombra tú también, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_0
+TEXT: ¡Qué bueno verte de nuevo, %PLAYERNAME%! Ya veo que has encontrados algunos Pokémon con hojas bajo las que descansar.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_1
+TEXT: ¿Sientes tus pilas recargadas? ¡Yo sí!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_2
+TEXT: Mientras estabas ahí fuera, se me ha ocurrido una nueva línea para mi investigación.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_3
+TEXT: Como sabrás, en Alola habitan cuatro espíritus guardianes. Ya hemos visto a dos de ellos, por lo que parece lógico que los otros dos también anden ya por aquí.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_4
+TEXT: En vez de esperar a que se nos aparezcan, creo que deberíamos salir ahí fuera y buscarlos nosotros mismos.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_5
+TEXT: Empecemos con Tapu Bulu, el espíritu guardián de la Isla Ula-Ula.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_6
+TEXT: Ula-Ula es una isla rocosa que alberga el monte más alto de toda la región de Alola, el Monte Lanakila.
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_7
+TEXT: Se dice que Tapu Bulu hace repicar su cola para alertar de su presencia y prevenir riñas sin sentido. Ahora que sabemos eso, ¡no debería ser muy difícil encontrarlo!
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_8
+TEXT: Además, sé que Tapu Bulu ayuda a las plantas a crecer, por lo que quizás tengamos suerte si nos centramos en los Pokémon que crecen. ¡Salgamos ahí fuera, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_0
+TEXT: Estás de vuelta, %PLAYERNAME%. ¿Cómo ha ido la búsqueda?
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_1
+TEXT: Le pedí a Candela que nos echara una mano justo después de que te fueras.
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_2
+TEXT: Y al momentito, que ni me ha dado tiempo de preparar mi equipo, ha venido corriendo porque ha escuchado el repicar ¡y al levantar la cabeza ahí estaba Tapu Bulu flotando!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_3
+TEXT: Otro espíritu guardián que se me escapa por los pelos... Pero me imagino que así es como son las investigaciones de Pokémon.
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_4
+TEXT: Me alegra que tú, al menos, hayas tenido más suerte, %PLAYERNAME%. Ahora que sabemos que está ahí fuera, ¡redoblemos nuestros esfuerzos para buscar a Tapu Bulu!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_5
+TEXT: Le preguntaré a Candela por si tiene más detalles que nos puedan ayudar.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_0
+TEXT: %PLAYERNAME%, has visto a Tapu Bulu, ¿verdad?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_1
+TEXT: ¿Cómo era? ¡Cuéntame hasta el último detalle! ¿Oíste el repicar de su cola? ¿Lo has visto volver la vegetación exuberante? O mejor, ¿lo has visto arrancar de cuajo árboles grandes para hacerlos girar?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_2
+TEXT: Todo eso son cosas por las que se conoce a Tapu Bulu.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_3
+TEXT: Como era de esperar, no he podido ver a Tapu Bulu con mis propios ojos. Pero sí se me ha ocurrido una nueva teoría.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_4
+TEXT: Los espíritus guardianes parecen que están pasando bastante desapercibidos. Igual solo han venido a investigar algo, o incluso a ayudarnos.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_5
+TEXT: Todo se podrá esclarecer si vemos a Tapu Fini, el último de los espíritus guardianes de Alola.
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_6
+TEXT: Pero, por ahora, creo que nos hemos ganado un merecido descanso. ¡Hasta la próxima, %PLAYERNAME%!
+
 RESOURCE ID: quest_title_af2022
 TEXT: Día de las bromas de abril 2022
 
@@ -1834,6 +1933,21 @@ TEXT: Arenoso y glacial (3/4)
 RESOURCE ID: quest_title_sandt_3
 TEXT: Arenoso y glacial (4/4)
 
+RESOURCE ID: quest_title_ulaula
+TEXT: Una aventura en Ula-Ula
+
+RESOURCE ID: quest_title_ulaula_0
+TEXT: Una aventura en Ula-Ula (1/4)
+
+RESOURCE ID: quest_title_ulaula_1
+TEXT: Una aventura en Ula-Ula (2/4)
+
+RESOURCE ID: quest_title_ulaula_2
+TEXT: Una aventura en Ula-Ula (3/4)
+
+RESOURCE ID: quest_title_ulaula_3
+TEXT: Una aventura en Ula-Ula (4/4)
+
 RESOURCE ID: quests_batch_updated
 TEXT: {0} Research Tasks Updated
 
@@ -1845,6 +1959,15 @@ TEXT: Adjust Performance
 
 RESOURCE ID: settings_advanced_adjust_performance_sub
 TEXT: Optimize your gameplay based on your device, which may provide better performance or save battary life.
+
+RESOURCE ID: sis22_collection_challenge
+TEXT: Desafío de colección Florece la Primavera 2022
+
+RESOURCE ID: songkran_2022_description
+TEXT: Festival Songkran 2022
+
+RESOURCE ID: songkran_2022_title
+TEXT: ¡En abril, aguas mil!
 
 RESOURCE ID: spark_incident_greeting
 TEXT: Los instintos son muy útiles, ¿no crees? ¡El Equipo Instinto sabe de qué va la cosa!
@@ -1907,7 +2030,7 @@ RESOURCE ID: timed_challenge_work_together_global_backup
 TEXT: Los Entrenadores deben trabajar juntos como una comunidad global para completar este desafío.
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_body
-TEXT: Cuando uses un Pokémon megaevolucionado en una incursión o en un combate de Gimnasio, los ataques de los Pokémon de otros Entrenadores en esa misma incursión o combate de Gimnasio infligirán más daño si son del mismo tipo que tu Pokémon megaevolucionado.
+TEXT: Cuando uses un Pokémon megaevolucionado en una incursión o en un combate de Gimnasio, los ataques de los Pokémon de otros Entrenadores en esa misma incursión o combate de Gimnasio infligirán más daño. Estos ataques infligirán aún más daño si son del mismo tipo que tu Pokémon megaevolucionado.
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_title
 TEXT: Aumento de megaataques

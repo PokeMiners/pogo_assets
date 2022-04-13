@@ -1018,7 +1018,7 @@ RESOURCE ID: buddy_multiplayer_qr_display_body
 TEXT: หากทุกคนมารวมตัวกันครบแลว กดที่ปุม GO
 
 RESOURCE ID: buddy_widget_description
-TEXT: Use Adventure Sync to track Buddy heart progress when Pokémon GO is in the background
+TEXT: Use Adventure Sync to track your Buddy Pokémon’s heart meter when Pokémon GO is open in the background.
 
 RESOURCE ID: buddy_widget_title
 TEXT: Adventure Sync: Buddy
@@ -1026,6 +1026,9 @@ TEXT: Adventure Sync: Buddy
 RESOURCE ID: candela_incident_greeting
 TEXT: ไมวาจะเกิดอะไรขึ้น ไฟที่โหมกระหน่ำของเรา
 จะไมมีวันดับ! ทีมแวเลอรพุงทะยานสูชัยชนะ
+
+RESOURCE ID: cd_walk_challenge
+TEXT: คำทาระยะทางคอมมิวนิตี้เดย
 
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: This will change the language setting to {0}. Restart the app to apply settings?
@@ -1059,6 +1062,9 @@ TEXT: เมื่อคุณไปที่เสาโปเกสต็อ�
 RESOURCE ID: disable_sponsored_gift_title
 TEXT: ปดรับของขวัญที่มีผูสนับสนุน
 
+RESOURCE ID: earthday22_collection_challenge
+TEXT: คำทานักสะสมสัปดาหแหงความยั่งยืน
+
 RESOURCE ID: eggs_widget_title
 TEXT: แอดเวนเจอรซิงค - ไข
 
@@ -1075,6 +1081,9 @@ TEXT: เปดรับของขวัญที่มีผูสน�
 
 RESOURCE ID: encounter_score_active_mega_bonus
 TEXT: โบนัสวิวัฒนาการเมกา
+
+RESOURCE ID: event_mossy_lure_pokemon
+TEXT: โปเกมอนอีเวนตถูกดึงดูดดวยอุปกรณปลอยลัวรมอส
 
 RESOURCE ID: event_season6_name
 TEXT: ฤดูกาลแหงอโลลา
@@ -1862,10 +1871,10 @@ RESOURCE ID: mega_daily_limit_header
 TEXT: ถึงขีดจำกัดประจำวัน
 
 RESOURCE ID: mega_evolve_energy_prompt
-TEXT: Tap to Mega Evolve!
+TEXT: แตะเพื่อวิวัฒนาการเมกา!
 
 RESOURCE ID: mega_evolve_free_prompt
-TEXT: Tap to Mega Evolve!
+TEXT: แตะเพื่อวิวัฒนาการเมกา!
 
 RESOURCE ID: mega_evolve_lobby_callout
 TEXT: วิวัฒนาการเมกาได
@@ -1926,8 +1935,8 @@ TEXT: • ตอนนี้คุณสามารถวิวัฒนาก�
 โดยไมตองใชพลังงานเมกาไดแลว
 • คุณยังคงสามารถใชพลังงานเมกาเพื่อ
 วิวัฒนาการเมกาโปเกมอนในชวงพักได
-• เพิ่มโบนัสใหมที่จะเพิ่มความผูกพันของคุณ
-กับโปเกมอนมากยิ่งขึ้นเมื่อวิวัฒนาการเมกา
+• เพิ่มโบนัสใหมที่จะยิ่งพัฒนาขึ้น
+เมื่อโปเกมอนวิวัฒนาการเมกา
 
 หลังจากโปเกมอนวิวัฒนาการเมกา คุณจะตอง
 รอชวงระยะเวลาหนึ่งกอนจึงจะสามารถ
@@ -1988,11 +1997,17 @@ TEXT: โปเกมอนที่วิวัฒนาการเมก�
 โบนัสเพิ่มในชวงที่โปเกมอนตัวนั้นกำลัง
 วิวัฒนาการเมกา
 นอกจากนี้ ชวงเวลาที่ตองรอเพื่อวิวัฒนาการ
-เมกาอีกครั้งจะสั้นลง โดยระดับเมกาจะเพิ่มขึ้น
+เมกาอีกครั้งจะสั้นลง โดยระดับเมกาจะคอย ๆ เพิ่มขึ้น
 ทุกครั้งที่โปเกมอนวิวัฒนาการเมกา
 
 RESOURCE ID: mega_level_tutorial_page5_title
 TEXT: ระดับเมกา
+
+RESOURCE ID: mega_level_tutorial_page6_body
+TEXT: When you catch a Pokémon that shares a type with your Mega-Evolved Pokémon, you’ll receive the following bonuses.
+• Extra Candy
+• Extra XP
+• An increased chance of receiving Candy XL
 
 RESOURCE ID: mega_level_tutorial_page6_title
 TEXT: โบนัสการจับ
@@ -2005,7 +2020,7 @@ RESOURCE ID: mega_level_unlock_prompt
 TEXT: แตะเพื่อดูระดับเมกา
 
 RESOURCE ID: mega_level_unlock_title
-TEXT: You can now increase the Mega Level of this Pokémon!
+TEXT: คุณสามารถเพิ่มระดับเมกาของโปเกมอนตัวนี้ไดแลว!
 
 RESOURCE ID: mega_level_up_message
 TEXT: ระดับเมกาของ{0}เพิ่มขึ้นแลว!
@@ -2024,13 +2039,13 @@ RESOURCE ID: mega_perk_candy_bonus
 TEXT: โบนัสลูกอมจากการจับ
 
 RESOURCE ID: mega_perk_candy_bonus_excellent
-TEXT: Great Candy Catch Bonus
+TEXT: เพิ่มโบนัสลูกอมจากการจับ
 
 RESOURCE ID: mega_perk_catch_xp_bonus
 TEXT: โบนัส XP จากการจับ
 
 RESOURCE ID: mega_perk_catch_xp_bonus_excellent
-TEXT: Great Catch Xp Bonus
+TEXT: เพิ่มโบนัส XP จากการจับ
 
 RESOURCE ID: mega_perk_cooldown_days
 TEXT: ชวงพักวิวัฒนาการเมกา {0} วัน
@@ -2042,10 +2057,10 @@ RESOURCE ID: mega_perk_reduced_energy
 TEXT: ลดพลังงานเมกาที่ใชในการวิวัฒนาการเมกา
 
 RESOURCE ID: mega_perk_reduced_energy_excellent
-TEXT: Massively Reduced Mega Energy Cost
+TEXT: ลดพลังงานเมกาที่ใชลงอยางมหาศาล
 
 RESOURCE ID: mega_perk_reduced_energy_great
-TEXT: Greatly Reduced Mega Energy Cost
+TEXT: ลดพลังงานเมกาที่ใชลงอยางมาก
 
 RESOURCE ID: mega_perk_xl_bonus_excellent
 TEXT: โอกาสรับลูกอม XL ขั้นสุดยอด
@@ -2057,9 +2072,9 @@ RESOURCE ID: mega_perks_header
 TEXT: โบนัสวิวัฒนาการเมกา
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-06T00:35:53.377540
-at SHA 437157b398e5b3a7c29cd3b6e52e26f633a1f42b
-Patch from: 0.233.0-SHA-38f92c4a
+TEXT: Built at 2022-04-12T04:50:49.315412
+at SHA aeaa99044489f9f519c04a810913ce9926c5230e
+Patch from: 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: minicollect_description_ongoing
 TEXT: จับโปเกมอนเหลานี้ใหครบกอนหมดเวลาเพื่ออัปเกรดเหรียญรางวัลนักสะสมชั้นเลิศ!
@@ -3587,7 +3602,7 @@ TEXT: โปเกมอนผูพิทักษกาลาร ร�
 
 RESOURCE ID: pokemon_desc_0889_crowned
 TEXT: ไมวาการโจมตีแบบไหนก็สะทอนกลับไปได รางนั้นถูก
-ขนานนามวาโลหของเทพแหงการตอสู ไดรับความเคารพยำเกรง
+ขนานนามวาโลของเทพแหงการตอสู ไดรับความเคารพยำเกรง
 
 RESOURCE ID: pokemon_desc_0889_default
 TEXT: โปเกมอนผูพิทักษกาลาร รวมพลังกับกษัตริยของเหลา
@@ -4860,6 +4875,124 @@ TEXT: ไวมีอะไรใหชวยฉันจะติด�
 RESOURCE ID: quest_special_dialogue_sandt_3_7
 TEXT: ลากอน จนกวาจะไดพบกันใหมนะ เล็ตสโก!
 
+RESOURCE ID: quest_special_dialogue_ulaula_0_0
+TEXT: ไง %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_1
+TEXT: มาไดจังหวะพอดี ฉันกำลังสมองตันอยูเลย!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_2
+TEXT: ฉันยังสงสัยเกี่ยวกับเทพพิทักษที่สปารกกับ
+บลองชเจอกอนหนานี้ ฉันยังไมเขาใจวาทำไม
+พวกมันถึงปรากฏตัวขึ้น
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_3
+TEXT: หวังวาพวกมันคงไมไดโกรธเรา หรือโกรธ
+อะไรสักอยางอยูหรอกนะ!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_4
+TEXT: ฉันวาฉันไปพักใตรมเงาไมใหสมองปลอด
+โปรงสักหนอยดีกวา การผอนคลายเองก็
+เปนสิ่งสำคัญนะ!
+
+RESOURCE ID: quest_special_dialogue_ulaula_0_5
+TEXT: เธอก็ลองไปหารมเงาไมดี ๆ แลวนั่งพัก
+สักหนอยไหมละ %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_0
+TEXT: กลับมาแลวเหรอ %PLAYERNAME%!
+ดูเหมือนเธอจะเจอโปเกมอนที่มีใบไม
+ใหรมเงาแลวนี่
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_1
+TEXT: ไดลองพักใตรมเงาของมันแลวหรือยัง
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_2
+TEXT: ชวงที่เธอไมอยู ฉันลองเปลี่ยนมุมมอง
+เกี่ยวกับงานวิจัยของพวกเราละ
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_3
+TEXT: อโลลาเปนบานเกิดของเทพพิทักษทั้งสี่
+ซึ่งเราไดพบพวกมันสองตัวจากสี่ตัวแลว
+และเปนไปไดวาพวกมันสองตัวที่เหลือ
+อาจจะอยูที่ไหนสักแหงใกล ๆ นี้
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_4
+TEXT: แทนที่จะรอใหพวกมันมาหาเรา ฉันวาเรา
+ควรออกไปตามหามันกอนดีกวา 
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_5
+TEXT: เริ่มดวยคาปู บูลูลู เทพพิทักษประจำ
+เกาะอูลาอูลา
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_6
+TEXT: เกาะอูลาอูลาเปนที่ตั้งของภูเขาลานาคิลา
+ยอดเขาที่สูงที่สุดในอโลลา
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_7
+TEXT: วากันวาคาปู บูลูลูจะสั่นหางบอกที่อยูเพื่อ
+หลีกเลี่ยงความขัดแยงที่ไมจำเปน นั่นก็แปล
+วาการจะตามหามันก็ไมใชเรื่องยากยังไงละ
+
+RESOURCE ID: quest_special_dialogue_ulaula_1_8
+TEXT: นอกจากนี้ คาปู บูลูลูยังชวยใหพืชพรรณเจริญ
+เติบโตอีกดวย เพราะฉะนั้นถาเรามองหา
+โปเกมอนที่มักจะเจริญเติบโตอาจจะโชคดีก็ไดนะ %PLAYERNAME%
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_0
+TEXT: อาว %PLAYERNAME% พอดีเลย?
+ออกไปสำรวจมาเปนยังไงบาง?
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_1
+TEXT: หลังจากที่เธอออกไป ฉันก็ไปขอใหแคนเดลาชวย
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_2
+TEXT: หลังจากนั้นฉันก็วาจะออกไปหาเองดวยเหมือนกัน
+แตยังไมทันเกบของเสร็จ แคนเดลาก็กลับมา
+แลวบอกวาเธอเจอคาปู บูลูลูลอยผานไป!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_3
+TEXT: นี่ฉันพลาดโอกาสเจอเทพพิทักษอีกแลวเหรอเนี่ย
+...แตก็เปนเรื่องปกติที่ตองเจอเวลาวิจัยเกี่ยวกับ
+โปเกมอนสินะ
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_4
+TEXT: แตเธอเคยพบมาแลวนี่ %PLAYERNAME%
+ตอนนี้เรารูแลววามันอยูไมไกล เพราะฉะนั้น
+รีบไปคนหาตอกันเถอะ!
+
+RESOURCE ID: quest_special_dialogue_ulaula_2_5
+TEXT: เดี๋ยวฉันจะไปถามรายละเอียดเพิ่มเติมจาก
+แคนเดลาแลวออกไปสำรวจตอนะ
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_0
+TEXT: %PLAYERNAME% เธอพบคาปู บูลูลูแลวใชไหม?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_1
+TEXT: มันหนาตาเปนยังไง เธอไดยินเสียงกระดิ่งไหม
+แลวไดเห็นตอนที่มันทำใหพืชพรรณ
+เจริญงอกงามหรือเปลา?
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_2
+TEXT: ที่วามาทั้งหมดเปนลักษณะเดนของคาปู บูลูลูละ
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_3
+TEXT: และแนนอนวา รอบนี้ฉันก็ไมไดเห็นคาปู บูลูลู
+ตัวเปน ๆ เหมือนเดิม แตฉันก็คิดมาตลอด...
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_4
+TEXT: วาพวกเทพพิทักษอาจจะเฝามองพวกเราอยูเงียบ ๆ
+ไมแนวาพวกมันอาจจะมาเพื่อตรวจสอบอะไร
+บางอยาง หรือชวยเหลือเราก็เปนได
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_5
+TEXT: ถาไดเจอเทพพิทักษตัวสุดทายของอโลลา
+ที่ชื่อวา คาปู เรฮิเร ปริศนาอาจจะไขกระจางก็ได
+
+RESOURCE ID: quest_special_dialogue_ulaula_3_6
+TEXT: เอาเปนวาตอนนี้ เราไปพักผอนกันกอนดีกวา
+ไวเจอกันใหม %PLAYERNAME%!
+
 RESOURCE ID: quest_title_af2022
 TEXT: เมษาหนาโง 2022
 
@@ -4944,6 +5077,21 @@ TEXT: ดินทรายและเกล็ดหิมะ (3/4)
 RESOURCE ID: quest_title_sandt_3
 TEXT: ดินทรายและเกล็ดหิมะ (4/4)
 
+RESOURCE ID: quest_title_ulaula
+TEXT: ผจญภัยในเกาะอูลาอูลา
+
+RESOURCE ID: quest_title_ulaula_0
+TEXT: ผจญภัยในเกาะอูลาอูลา (1/4)
+
+RESOURCE ID: quest_title_ulaula_1
+TEXT: ผจญภัยในเกาะอูลาอูลา (2/4)
+
+RESOURCE ID: quest_title_ulaula_2
+TEXT: ผจญภัยในเกาะอูลาอูลา (3/4)
+
+RESOURCE ID: quest_title_ulaula_3
+TEXT: ผจญภัยในเกาะอูลาอูลา (4/4)
+
 RESOURCE ID: quests_batch_updated
 TEXT: {0} Research Tasks Updated
 
@@ -4959,6 +5107,15 @@ TEXT: Optimize your gameplay based on your device, which may provide better perf
 RESOURCE ID: settings_sfida_bluetooth_disabled
 TEXT: ปดการใชงานบลูทูธอยู กรุณาเปดการ
 ใชงานบลูทูธในเมนูการตั้งคาอุปกรณ
+
+RESOURCE ID: sis22_collection_challenge
+TEXT: คำทานักสะสมใบไมผลิในวสันตฤดู 2022
+
+RESOURCE ID: songkran_2022_description
+TEXT: เทศกาลสงกรานต 2022
+
+RESOURCE ID: songkran_2022_title
+TEXT: เมษาชุมฉ่ำ!
 
 RESOURCE ID: spark_incident_greeting
 TEXT: สัญชาตญาณนี่สะดวกดีนะ วาไหม?
@@ -5033,11 +5190,13 @@ TEXT: อุปกรณปลอยลัวรจะดึงดู�
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_body
 TEXT: ขณะที่ใชโปเกมอนที่วิวัฒนาการเมกาในการ
-ตีบอสหรือในยิมแบตเทิล หากโปเกมอนของ
-เทรนเนอรคนอื่นที่กำลังทาสูในการตีบอสหรือ
-ในยิมเดียวกันเปนประเภทเดียวกับโปเกมอน
-ที่วิวัฒนาการเมกาของคุณ การโจมตีของ
-พวกมันจะสรางแดเมจมากขึ้น
+ตีบอสหรือในยิมแบตเทิล โปเกมอนของ
+เทรนเนอรอื่นที่กำลังทาสูในการตีบอสหรือ
+ในยิมเดียวกันก็จะสรางแดเมจมากขึ้น
+และหากโปเกมอนของเทรนเนอรอื่นใชทา
+ที่เปนประเภทเดียวกับโปเกมอนที่วิวัฒนาการ
+เมกาของคุณ การโจมตีนั้นก็จะสรางแดเมจ
+เพิ่มขึ้นอีก
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_title
 TEXT: เมกาบูสตพลังโจมตี
