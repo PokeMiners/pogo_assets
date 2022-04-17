@@ -273,6 +273,9 @@ TEXT: 勝てる　だと？　キミのような弱小トレーナーが、で�
 RESOURCE ID: arlo_greeting#9
 TEXT: わたしと勝負できると思うなんて、なんという愚かな考えだ。
 
+RESOURCE ID: avatar_f_backpack_ultra_bundle_icon
+TEXT: ウルトラムーン バッグ
+
 RESOURCE ID: avatar_f_face_festofcolors_00_bundle_icon
 TEXT: カラーフェスティバル
 フェイスステッカー　赤
@@ -329,6 +332,9 @@ TEXT: スカル団　シューズ
 
 RESOURCE ID: avatar_f_shoes_ultra_bundle_icon
 TEXT: ウルトラムーン サンダル
+
+RESOURCE ID: avatar_m_backpack_ultra_bundle_icon
+TEXT: ウルトラサン バッグ
 
 RESOURCE ID: avatar_m_face_festofcolors_00_bundle_icon
 TEXT: カラーフェスティバル
@@ -471,8 +477,14 @@ TEXT: スポンサーギフト受信
 RESOURCE ID: encounter_score_active_mega_bonus
 TEXT: メガシンカ状態
 
+RESOURCE ID: event_evolve_exeggcute
+TEXT: タマタマはアローラのすがたのナッシーに進化できる
+
 RESOURCE ID: event_mossy_lure_pokemon
 TEXT: いつもとは違うポケモンがハーブルアーに反応
+
+RESOURCE ID: event_move_alolan_exeggutor_draco_meteor
+TEXT: タマタマをアローラのすがたのナッシーに進化させるとりゅうせいぐんを覚えている
 
 RESOURCE ID: event_season6_name
 TEXT: アローラシーズン
@@ -1061,7 +1073,7 @@ RESOURCE ID: mega_evolve_pokemon
 TEXT: {0}をメガシンカ
 
 RESOURCE ID: mega_evolve_preview_first_time
-TEXT: 初めてポケモンをメガシンカさせたあとは、休憩時間を経てメガエナジーなしで再びメガシンカできます。
+TEXT: 初めてポケモンをメガシンカさせたあとは休憩時間を経てメガエナジーなしで再びメガシンカできます。
 
 RESOURCE ID: mega_evolve_prompt_title
 TEXT: {0}をメガシンカ
@@ -1100,16 +1112,20 @@ TEXT: メガシンカさせよう！
 
 RESOURCE ID: mega_level_tutorial_page1_body
 TEXT: メガエナジーを使うことなくメガシンカさせることができるようになりました。上げるとボーナスが手に入るメガレベルも導入されました。
-一度メガシンカすると、次にメガシンカできるまで時間がかかります。その時間内でも、メガエナジーを使えばメガシンカが可能です。
+一度メガシンカすると、次にメガシンカできるまで時間がかかります。その時間内でもメガエナジーを使えばメガシンカが可能です。
 
 RESOURCE ID: mega_level_tutorial_page1_title
 TEXT: メガシンカの詳細
 
 RESOURCE ID: mega_level_tutorial_page2_body
-TEXT: 休憩時間中にメガシンカさせるには、メガエナジーを使います。メガシンカさせるたびに休憩時間は短くなるため、必要なメガエナジーの量も減っていきます。
+TEXT: メガエナジー使用
+休憩時間中でもメガエナジーを使えばメガシンカさせることができます。
+
+休憩を待つ
+ポケモンはメガシンカしたあとに休憩が必要になりますが、休憩時間を経て再びメガシンカできるようになります。メガシンカさせるたびに休憩時間は短くなります。
 
 RESOURCE ID: mega_level_tutorial_page2_title
-TEXT: メガシンカの方法
+TEXT: 2つの方法
 
 RESOURCE ID: mega_level_tutorial_page3_body
 TEXT: メガエナジーは、メガシンカできるポケモンに使えるエナジーです。メガポケモンのレイドに勝つか、メガエナジーがもらえるリサーチを完了することでもらえます。メガシンカできるポケモンを相棒にして歩いても入手できます。
@@ -1118,7 +1134,7 @@ RESOURCE ID: mega_level_tutorial_page3_title
 TEXT: メガエナジー
 
 RESOURCE ID: mega_level_tutorial_page4_body
-TEXT: 初めてポケモンをメガシンカさせたあとは、休憩時間を経てメガエナジーなしで再びメガシンカできます。休憩時間中でもメガエナジーを使えばメガシンカは可能です。メガシンカさせるたびに必要なメガエネジーと休憩時間は減っていきます。
+TEXT: 初めてポケモンをメガシンカさせたあとは休憩時間を経てメガエナジーなしで再びメガシンカできます。休憩時間中でもメガエナジーを使えばメガシンカは可能です。メガシンカさせるたびに必要なメガエネジーと休憩時間は減っていきます。
 
 RESOURCE ID: mega_level_tutorial_page4_title
 TEXT: 休憩時間
@@ -1142,7 +1158,7 @@ RESOURCE ID: mega_level_unlock_prompt
 TEXT: メガレベルを確認
 
 RESOURCE ID: mega_level_unlock_title
-TEXT: このポケモンのメガレベルを開放！
+TEXT: このポケモンのメガレベルが開放されました！
 
 RESOURCE ID: mega_level_up_message
 TEXT: {0}のメガレベルが上がった！
@@ -1193,9 +1209,9 @@ RESOURCE ID: mega_perks_header
 TEXT: メガシンカボーナス
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-12T04:50:49.315412
-at SHA aeaa99044489f9f519c04a810913ce9926c5230e
-Patch from: 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
+TEXT: Built at 2022-04-15T17:41:58.288028
+at SHA 2274b49a5d46219b0f5c813758ca4b249f9c9d62
+Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: no_buddy
 TEXT: 相棒なし
@@ -1236,6 +1252,9 @@ TEXT: 気に入らない命令は平気で無視。 相手を仕留めるため�
 RESOURCE ID: pokemon_desc_0745_midnight
 TEXT: 気に入らない命令は平気で無視。 相手を仕留めるためなら傷つくこともまるで気にしない。
 
+RESOURCE ID: pokemon_info_mega_evolution_replace
+TEXT: {0}のメガシンカは解除されます。
+
 RESOURCE ID: pokemon_info_transfer_to_professor_result
 TEXT: ポケモンを送って博士から{0}のアメをもらった
 
@@ -1253,6 +1272,54 @@ TEXT: ミズゴロウコミュニティ・デイ復刻
 
 RESOURCE ID: quest_complete_sandt
 TEXT: ねずみポケモンを解明せよ！
+
+RESOURCE ID: quest_elrd22_april16_battle
+TEXT: タマタマリサーチ：ジムバトルを1回する
+
+RESOURCE ID: quest_elrd22_april16_berries
+TEXT: タマタマリサーチ：ポケモンを捕まえるときにきのみ3個を使う
+
+RESOURCE ID: quest_elrd22_april16_catch_grass
+TEXT: タマタマリサーチ：くさタイプのポケモンを3匹捕まえる
+
+RESOURCE ID: quest_elrd22_april16_charged_move
+TEXT: タマタマリサーチ：効果ばつぐんのスペシャルアタックを使う
+
+RESOURCE ID: quest_elrd22_april16_curve
+TEXT: タマタマリサーチ：カーブボールを5回投げる
+
+RESOURCE ID: quest_elrd22_april16_evolve_grass
+TEXT: タマタマリサーチ：くさタイプのポケモンを2匹進化させる
+
+RESOURCE ID: quest_elrd22_april16_gifts_stickers
+TEXT: タマタマリサーチ：ステッカー付きのギフトを2個贈る
+
+RESOURCE ID: quest_elrd22_april16_great
+TEXT: タマタマリサーチ：グレートスローを3回投げる
+
+RESOURCE ID: quest_elrd22_april16_great_row
+TEXT: タマタマリサーチ：グレートスローを2回連続で投げる
+
+RESOURCE ID: quest_elrd22_april16_nice
+TEXT: タマタマリサーチ：ナイススローを5回投げる
+
+RESOURCE ID: quest_elrd22_april16_nice_row
+TEXT: タマタマリサーチ：ナイススローを3回連続で投げる
+
+RESOURCE ID: quest_elrd22_april16_raid
+TEXT: タマタマリサーチ：レイドバトルを1回する
+
+RESOURCE ID: quest_elrd22_april16_spin
+TEXT: タマタマリサーチ：ポケストップ2個を回す
+
+RESOURCE ID: quest_elrd22_april16_weather_easy
+TEXT: タマタマリサーチ：天候ブーストを受けているポケモンを3匹捕まえる
+
+RESOURCE ID: quest_elrd22_april16_weather_hard
+TEXT: タマタマリサーチ：天候ブーストを受けているポケモンを5匹捕まえる
+
+RESOURCE ID: quest_elrd22_april16_wild_grass_snapshot
+TEXT: タマタマリサーチ：野生のくさタイプのポケモンのGOスナップショットを撮る
 
 RESOURCE ID: quest_mudkt_catch_b
 TEXT: ミズゴロウを{0}匹捕まえる
@@ -1929,6 +1996,88 @@ TEXT: パフォーマンス調整
 RESOURCE ID: settings_advanced_adjust_performance_sub
 TEXT: デバイスのスペックに応じて設定を変え電池消費を抑える効果などを狙う
 
+RESOURCE ID: shop_already_own_this_ticket
+TEXT: このイベントのチケットを持っています
+
+RESOURCE ID: shop_confirm_gift
+TEXT: ギフト
+
+RESOURCE ID: shop_gift_friend_ineligible_description
+TEXT: 以下の理由でフレンドが有料ギフトを受け取ることができないことがあります。
+ • すでにチケットを持っている
+ • 他の人がチケットを贈った
+ • ギフトを贈るための仲良し度に達していない
+
+RESOURCE ID: shop_gift_friend_ineligible_title
+TEXT: チケットが贈れません
+
+RESOURCE ID: shop_gift_invitation_description
+TEXT: こんにちは、<b>{0}</b>さん！このイベントに参加しませんか？
+イベントのチケットをお贈りします。楽しみにしています！
+<b>{1}</b>より
+
+RESOURCE ID: shop_gift_invitation_title
+TEXT: 招待
+
+RESOURCE ID: shop_gift_purchase_confirmation_button
+TEXT: 確定
+
+RESOURCE ID: shop_gift_purchase_confirmation_cancel
+TEXT: キャンセル
+
+RESOURCE ID: shop_gift_purchase_confirmation_description
+TEXT: <b>{1}</b>は{0}さんへ贈られます。
+他のプレイヤーは使うことはできず、返金・キャンセルができないチケットです。
+
+RESOURCE ID: shop_gift_purchase_confirmation_gift_policy
+TEXT: ギフティングポリシーを見る
+
+RESOURCE ID: shop_gift_purchase_confirmation_title
+TEXT: 購入確定
+
+RESOURCE ID: shop_gift_purchase_error_modal_description
+TEXT: 購入を完了できませんでした。
+支払いは発生しません。
+ショップへ戻ります。
+
+RESOURCE ID: shop_gift_purchase_error_modal_title
+TEXT: エラー
+
+RESOURCE ID: shop_gift_purchase_friends_disabled_description
+TEXT: チケットを贈るにはこのアカウントでフレンド承認がなされている必要があります。
+
+RESOURCE ID: shop_gift_purchase_friends_disabled_title
+TEXT: フレンド承認が必要
+
+RESOURCE ID: shop_gift_purchase_invitation_sent
+TEXT: ギフトを贈りました！
+
+RESOURCE ID: shop_gift_purchase_invitation_sent_description
+TEXT: {0}さんに贈りました。
+イベント前に開けてもらえるよう一言声をかけておきましょう！
+
+RESOURCE ID: shop_gift_purchase_select_friend
+TEXT: フレンドを選ぶ
+
+RESOURCE ID: shop_gift_purchase_user_limit_description
+TEXT: 一日に贈ることができる有料ギフトは{0}個です。明日また贈ることができます。
+ 過剰な贈答や偽造ギフトを防ぐため上限を設けています。
+
+RESOURCE ID: shop_gift_purchase_user_limit_title
+TEXT: 有料ギフトの上限
+
+RESOURCE ID: shop_gift_redemption_error_modal_description
+TEXT: ギフト購入が完了する前に相手が入手してしまったため、贈ることができません。
+アプリのストアから払い戻しの手続きをしてください。
+
+RESOURCE ID: shop_gifting_policy_modal_description
+TEXT: • フレンドのために購入したギフトは返金できません。
+ • 贈ったあとにキャンセルできません。
+ • 贈ることができる有料ギフトの一日の上限は{0}個です。
+
+RESOURCE ID: shop_gifting_policy_modal_title
+TEXT: ギフティングポリシー
+
 RESOURCE ID: sis22_collection_challenge
 TEXT: 春イベント2022チャレンジ
 
@@ -2000,6 +2149,18 @@ TEXT: メガシンカしたポケモンを使ってレイドバトルに参加�
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_title
 TEXT: メガアタックブースト
+
+RESOURCE ID: trade_mega_level_buddy_prompt_message
+TEXT: このポケモンは相棒ポケモンだったことがありメガシンカしたことがあります。交換すると相棒・メガレベルはリセットされます。続けますか？
+
+RESOURCE ID: trade_mega_level_buddy_prompt_title
+TEXT: メガレベルのある以前の相棒ポケモンを交換に出しますか？
+
+RESOURCE ID: trade_mega_level_prompt_message
+TEXT: このポケモンはメガシンカしたことがあります。交換するとメガレベルはリセットされます。続けますか？
+
+RESOURCE ID: trade_mega_level_prompt_title
+TEXT: 本当にこのメガレベルの上がったポケモンを交換に出しますか？
 
 RESOURCE ID: use_system_settings
 TEXT: システム設定を使う
