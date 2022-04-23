@@ -1,14 +1,17 @@
+RESOURCE ID: accept
+TEXT: Kabul et
+
 RESOURCE ID: adv_perf_are_you_sure_discard_changes_message
-TEXT: If you choose to discard these changes, this action cannot be undone.
+TEXT: If you choose to discard your changes, you will have to reselect your performance settings from the beginning.
 
 RESOURCE ID: adv_perf_are_you_sure_discard_changes_title
-TEXT: Are you sure you want cancel making changes to your performance settings?
+TEXT: Are you sure you want to discard the changes you’ve made to your performance settings?
 
 RESOURCE ID: adv_perf_are_you_sure_save_changes_message
-TEXT: Your game experience may vary after you change your performance settings. If you choose to save your changes, your game will be restarted.
+TEXT: Your game experience may change when you adjust your performance settings. If you choose to save your changes, your game will restart.
 
 RESOURCE ID: adv_perf_are_you_sure_save_changes_message_short
-TEXT: Your game experience may vary after you change your performance settings.
+TEXT: Your game experience may change when you adjust your performance settings.
 
 RESOURCE ID: adv_perf_are_you_sure_save_changes_title
 TEXT: Are you sure you want to save these changes to your performance settings?
@@ -23,7 +26,7 @@ RESOURCE ID: adv_perf_discard_changes
 TEXT: CANCEL CHANGES
 
 RESOURCE ID: adv_perf_help_text
-TEXT: Optimize your gameplay experience based on your device. Doing so may enable better performance or save battery life.
+TEXT: Optimize your gameplay experience based on your device. Doing so may improve performance or save battery life.
 
 You’ll need to restart the game to implement any changes.
 
@@ -85,13 +88,13 @@ RESOURCE ID: adv_perf_v1_native_refresh_rate_incompatible_descr
 TEXT: This device’s native refresh rate is not compatible with smoother gameplay.
 
 RESOURCE ID: adv_perf_v2_are_you_sure_auto_set_perf
-TEXT: Are you sure you want the game to automatically select your performance settings?
+TEXT: Are you sure you want to automatically select your performance settings?
 
 RESOURCE ID: adv_perf_v2_auto_set
 TEXT: AUTO-SELECT
 
 RESOURCE ID: adv_perf_v2_auto_set_auto_adjust
-TEXT: This selection will automatically adjust your performance settings based on your device. This action cannot be undone.
+TEXT: This selection will automatically adjust your performance settings based on your device.
 
 RESOURCE ID: adv_perf_v2_auto_set_performance
 TEXT: Auto-Select Performance
@@ -136,7 +139,7 @@ RESOURCE ID: adv_perf_v2_map_details
 TEXT: Map Details
 
 RESOURCE ID: adv_perf_v2_map_details_tip
-TEXT: Improved map draw distance and scale, reduced fog, and better visibility of Gyms, sky, and buildings.
+TEXT: Improved map draw distance and scale, reduced fog, and better visibility of Gyms, buildings, and the sky.
 
 RESOURCE ID: adv_perf_v2_max_description
 TEXT: Best graphics and smooth performance
@@ -151,7 +154,7 @@ RESOURCE ID: adv_perf_v2_native_refresh_rate_disabled_tip
 TEXT: This device’s native refresh rate does not enable smoother visuals.
 
 RESOURCE ID: adv_perf_v2_native_refresh_rate_tip
-TEXT: Affects how smooth and responsive the game looks in motion.
+TEXT: Higher frame rate (FPS) based on your device. Affects how smooth and responsive the game looks in motion.
 
 RESOURCE ID: adv_perf_v2_perf_set_as_recommended
 TEXT: You’re already using the recommended performance settings.
@@ -214,7 +217,31 @@ RESOURCE ID: alo_mar22_collection_challenge
 TEXT: Alola'ya Hoş Geldiniz
 
 RESOURCE ID: ardk_download_confirm_body
-TEXT: AR Dost özelliğinden tam olarak faydalanabilmek için lütfen Niantic AR Platformu'nu indirin. (Denemeyi istediğin zaman kapatabilirsiniz.)
+TEXT: AR Dost özelliğinden tam olarak faydalanabilmek için lütfen Niantic AR Platformu'nu indirin. (Denemeyi istediğiniz zaman kapatabilirsiniz.)
+
+RESOURCE ID: ardk_download_prompt_dowload_size_description
+TEXT: (İndirme boyutu: {0} MB)
+
+RESOURCE ID: ardk_download_prompt_multiplayer_legal_tos_link_text
+TEXT: Ayrıntılı Bilgi
+
+RESOURCE ID: ardk_update_confirm_disable_button
+TEXT: DEVRE DIŞI BIRAK
+
+RESOURCE ID: arlo_defeat#1
+TEXT: Bu... Nasıl olabilir? Ben... Asla kaybetmem!
+
+RESOURCE ID: arlo_defeat#2
+TEXT: Sen... Beni nasıl böyle küçük düşürebilirsin?
+
+RESOURCE ID: arlo_defeat#3
+TEXT: Candela'yla yaptığımız maçı kaybettiğimden beri bu kadar aşağılanmış hissetmemiştim... Bunun bedelini ödeyeceksin.
+
+RESOURCE ID: arlo_defeat#4
+TEXT: Beni bu şekilde aşağılayan son kişi Candela'ydı. Tüm bunların bedelini ödeyeceksin...
+
+RESOURCE ID: arlo_defeat#5
+TEXT: Anlayamıyorum... Ben... Hiçbir zaman kaybetmem ki...
 
 RESOURCE ID: async_hatchathon_event_name
 TEXT: Macera Senkronizasyonu Yumurta Maratonu
@@ -414,6 +441,12 @@ TEXT: Alola Mevsimi Partner Araştırması: Yoshinoya
 RESOURCE ID: badge_event_0033_title
 TEXT: Partner Araştırması: Yoshinoya
 
+RESOURCE ID: badge_hatched_total_title
+TEXT: Yetiştirici
+
+RESOURCE ID: badge_type_dark_title
+TEXT: Belalı
+
 RESOURCE ID: batch_transfer_unique_mega_level_pokemon
 TEXT: {0} Mega Seviyeye sahip Pokémon
 
@@ -423,11 +456,44 @@ TEXT: Maç Düellosu
 RESOURCE ID: blanche_incident_greeting
 TEXT: Soğukkanlılık ve analiz. Mistik Takımı’nın yolu budur.
 
+RESOURCE ID: bonus_2x_candy_stufful
+TEXT: 2× Yakalama Şekeri
+
+RESOURCE ID: bonus_2x_xl_candy_chance_stufful
+TEXT: Stufful yakalayarak Büyük Şeker kazanmak için 2× şans
+
+RESOURCE ID: bonus_3x_catch_xp_stufful
+TEXT: 3× Yakalama TP’si
+
+RESOURCE ID: bonus_4x_catch_xp_stufful
+TEXT: 4× Yakalama TP'si
+
+RESOURCE ID: bonus_implicit_social_stufful
+TEXT: Tek bir Yem Modülüyle yeterince Pokémon yakalanırsa, Yem Modülünün kullanıldığı PokéDurağın etrafındaki Eğitmenler için 3× yakalama TP’si 30 dakikalığına artarak 4× olacak
+
+RESOURCE ID: bonus_implicit_social_unlock
+TEXT: Bonus aktif!
+
+RESOURCE ID: bonus_incense_3hr_stufful
+TEXT: 3 saatlik Tütsü süresi
+
+RESOURCE ID: bonus_lure_3hr_stufful
+TEXT: 3 saatlik Yem Modülü süresi 
+
+RESOURCE ID: bonus_special_trade_stufful
+TEXT: One additional Special Trade during the event and up to two hours after for a maximum of two for the day
+
+RESOURCE ID: bonus_trade_stardust_stufful
+TEXT: Etkinlik süresince ve etkinlikten 2 saat sonrasına kadar yapılacak takaslar %50 daha az Yıldız Tozu gerektirecek
+
 RESOURCE ID: buddy_affection_distance_half
 TEXT: Dostunuzla 1/2 kalp kazanma mesafesi
 
 RESOURCE ID: buddy_attractive_poi_notification_toast
 TEXT: Dostunuz yakınlarda enteresan bir yer buldu!
+
+RESOURCE ID: buddy_berry
+TEXT: Dostunuza bir atıştırmalık verin
 
 RESOURCE ID: buddy_camera_permissions_desc
 TEXT: Dostunuzla oynamak için kamera izinlerini etkinleştirin.
@@ -601,6 +667,9 @@ TEXT: Dostlarınızı birlikte bulun!
 RESOURCE ID: buddy_multiplayer_mapping_timeout
 TEXT: Mevcut Dost Grubu, hareketsizlik nedeniyle kapandı. Devam etmek için lütfen bir Grup QR Kodunu tarayarak tekrar deneyin.
 
+RESOURCE ID: buddy_multiplayer_safety_warning
+TEXT: AR modunu kullanırken güvenli bir yerde olduğunuzdan ve çocukların her zaman gözetim altında olduğundan emin olun.
+
 RESOURCE ID: buddy_multiplayer_timeout_dialog_description
 TEXT: Mevcut Dost Grubu, hareketsizlik nedeniyle kapandı. Devam etmek için lütfen bir Grup QR Kodunu tarayarak tekrar deneyin.
 
@@ -751,14 +820,11 @@ TEXT: Dostunuzla yürürken artırılmış Büyük Şeker kazanımı
 RESOURCE ID: buddy_week_event_name
 TEXT: Dostluk
 
-RESOURCE ID: buddy_widget_description
-TEXT: Pokémon GO arka planda açıkken Macera Senkronizasyonu ile dost Pokémon’unuzun kalp sayacını izleyin.
-
-RESOURCE ID: buddy_widget_title
-TEXT: Macera Senkronizasyonu: Dost
-
 RESOURCE ID: buddy_yatta_increase
 TEXT: Dostunuzu heyecanlandırmak daha kolay
+
+RESOURCE ID: bundle_retweet_reward
+TEXT: Retweet Ödül Kutusu
 
 RESOURCE ID: candela_incident_greeting
 TEXT: Ne olursa olsun, içimizde yanan cesaret alevi asla sönmeyecek! Cesaret Takımı zafer yolunda cesurca yürür.
@@ -836,7 +902,7 @@ RESOURCE ID: challenge_buddy_treat_plural
 TEXT: Dostunuza {0} adet atıştırmalık verin
 
 RESOURCE ID: challenge_buddy_treat_single
-TEXT: Dostunuza bir atıştırmalık verin
+TEXT: Atıştırmalık verin
 
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: This will change the game’s language setting to {0}. Do you want to restart the game to apply this setting?
@@ -865,6 +931,9 @@ TEXT: Mudkip Topluluk Günü Klasik
 RESOURCE ID: community_day_sandshrew_event_name
 TEXT: Topluluk Günü: Sandshrew
 
+RESOURCE ID: community_day_stufful_event_name
+TEXT: Topluluk Günü: Stufful
+
 RESOURCE ID: defeat_npcs_buddy_plural
 TEXT: Dostunuzla {0} GO Tur Meydan Rakibini alt edin
 
@@ -879,6 +948,9 @@ TEXT: PokéDurakları ve Spor Salonlarını ziyaret ettiğinizde Sponsor Hediyes
 
 RESOURCE ID: disabled_buddy
 TEXT: Dost Pokémon'unuzu Spor Salonunu savunması için atayamazsınız.
+
+RESOURCE ID: double_buddy_hearts
+TEXT: 2× hearts with your buddy
 
 RESOURCE ID: earthday22_collection_challenge
 TEXT: Sürdürülebilirlik Haftası Toplama Görevi
@@ -948,14 +1020,23 @@ Ayakkabısı
 RESOURCE ID: festival_of_colors_event_name
 TEXT: Renk Festivali
 
+RESOURCE ID: field_research_special
+TEXT: Unique Field Research tasks are now available at certain PokéStops and Gyms
+
 RESOURCE ID: filter_friend_key_giftable
 TEXT: hediye
 
 RESOURCE ID: filter_key_hatched
 TEXT: yumurtadan
 
+RESOURCE ID: filter_key_traded
+TEXT: takaslanan
+
 RESOURCE ID: filter_label_hatched
 TEXT: Yumurtadan
+
+RESOURCE ID: first_daily_spin_3x_xp
+TEXT: 3× XP when you spin the Photo Disc at a Gym or PokéStop for the first time that day
 
 RESOURCE ID: fitness_no_buddy_warning
 TEXT: Seçili Dost Pokémon yok!
@@ -966,14 +1047,26 @@ TEXT: DOSTU GÖRÜNTÜLE
 RESOURCE ID: foc22_collection_challenge
 TEXT: Renk Festivali
 
+RESOURCE ID: form_aegislash_blade
+TEXT: Kılıç Formu
+
 RESOURCE ID: form_change_collapsed_quest_description
 TEXT: Bu Pokémon'un formunu değiştirmek için Dost olarak seçin ve birlikte maceraya atılın
+
+RESOURCE ID: form_dusk
+TEXT: Alacakaranlık Formu
 
 RESOURCE ID: form_furfrou_diamond
 TEXT: Karo Süslü
 
+RESOURCE ID: form_furfrou_matron
+TEXT: Patroniçe Süslü
+
+RESOURCE ID: form_giratina_origin
+TEXT: Orijin Formu
+
 RESOURCE ID: form_lycanroc_dusk
-TEXT: Loş Formu
+TEXT: Alacakaranlık Formu
 
 RESOURCE ID: form_lycanroc_midday
 TEXT: Gün Ortası Formu
@@ -993,6 +1086,15 @@ TEXT: Ponpon Tarzı
 RESOURCE ID: form_oricorio_sensu
 TEXT: Sensu Tarzı
 
+RESOURCE ID: form_origin
+TEXT: Orijin Formu
+
+RESOURCE ID: form_school
+TEXT: Sürü Formu
+
+RESOURCE ID: form_wishiwashi_school
+TEXT: Sürü Formu
+
 RESOURCE ID: fragment_collected
 TEXT: Gizemli Bileşen buldunuz!
 
@@ -1005,8 +1107,20 @@ TEXT: Günlük ücretsiz kutu, size özel eşyalar içerir! Oyun içi mağazadan
 RESOURCE ID: friend_pinned_your_postcard_singular_from_poi
 TEXT: {0}, {1} kartpostalınızı kaydetti!
 
+RESOURCE ID: friend_sort_online_not_available_cancel_button
+TEXT:  Hayır
+
+RESOURCE ID: friendslist_sort_nickname
+TEXT: Takma ad
+
 RESOURCE ID: full_fragments_collected
 TEXT: Roket Radarı oluşturmaya yetecek kadar Gizemli Bileşen topladınız!
+
+RESOURCE ID: furret_walk_description
+TEXT: Haftalık Keşif Görevi
+
+RESOURCE ID: furret_walk_title
+TEXT: Dünya Gezintisi
 
 RESOURCE ID: general1.ticket.2_mudkt_description
 TEXT: Bu bilet 10 Nisan 2022’de, yerel saatle 14:00-17:00 arasında gerçekleşecek Mudkip Topluluk Günü Klasik özel araştırmasına dilediğiniz yerden katılmanıza olanak tanır. Ayrıntıları oyun içi Haberler bölümünde bulabilirsiniz.
@@ -1023,6 +1137,14 @@ TEXT: Bu bilet, 13 Mart 2022’de, yerel saatle 11:00-17:00 arasında gerçekle�
 
 RESOURCE ID: general1.ticket.2_sandt_title
 TEXT: Kum ve Buz
+
+RESOURCE ID: general1.ticket.2_stuff_description
+TEXT: Bu bilet 23 Nisan 2022’de, yerel saatle 14:00-17:00 arasında gerçekleşecek Yumuşacık Ayıcık özel araştırmasına dilediğiniz yerden katılmanıza olanak tanır. Ayrıntıları oyun içi Haberler bölümünde bulabilirsiniz.
+
+ÖZEL ETKİNLİĞE AİT TÜM BONUSLARI ALABİLMEK İÇİN OYUNU BELİRTİLEN SAATLERDE OYNAMALISINIZ.
+
+RESOURCE ID: general1.ticket.2_stuff_title
+TEXT: Yumuşacık Ayıcık Bileti
 
 RESOURCE ID: global_victini_dialogue_3_4
 TEXT: Bu becerileri daha da geliştirmek için Dostunla biraz vakit geçirmeye ne dersin?
@@ -1498,6 +1620,9 @@ TEXT: Lütfen tekrar deneyin.
 RESOURCE ID: gym_results_victory
 TEXT: Kazandın!
 
+RESOURCE ID: help_center_friends_link
+TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=friends-gifting-trading&f=adding-friends
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Artık Pokémon maçlarına katılmaya hazırsın!
 
@@ -1505,10 +1630,10 @@ RESOURCE ID: item_event_ticket_gray_name
 TEXT: Bilet
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Bu bilet 10 Nisan 2022’de, yerel saatle 14:00-17:00 arasında gerçekleşecek özel araştırmaya dilediğiniz yerden katılmanıza olanak tanır.
+TEXT: Bu bilet 23 Nisan 2022'de, yerel saatle 14:00-17:00 arasında gerçekleşecek özel araştırmaya dilediğiniz yerden katılmanıza olanak tanır.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Bu bilet 10 Nisan 2022’de gerçekleşecek özel araştırmaya dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
+TEXT: Bu bilet 23 Nisan 2022'de gerçekleşecek özel araştırmaya dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_leader_map_fragment_desc
 TEXT: GO Roket Takımı Serserilerini yendiğinizde bir Gizemli Bileşen elde edersiniz. Birleştirmek için altı tane Gizemli Bileşen toplayın!
@@ -1527,6 +1652,9 @@ TEXT: Gizemli Bileşenleri birleştirerek Roket Radarı oluşturdunuz! Bu eşyay
 
 RESOURCE ID: lets_go
 TEXT: GİDELİM!
+
+RESOURCE ID: lure_duration_6_hr
+TEXT: 6-Hour Lure duration
 
 RESOURCE ID: lush_jungle_event_name
 TEXT: Gür Orman
@@ -1747,9 +1875,24 @@ RESOURCE ID: mega_perks_header
 TEXT: Mega Evrim Bonusları
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-15T17:41:58.288028
-at SHA 2274b49a5d46219b0f5c813758ca4b249f9c9d62
+TEXT: Built at 2022-04-23T00:21:02.457550
+at SHA f78632bff8d7ed3534f432fe6f1689141347224a
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
+
+RESOURCE ID: move_name_0240
+TEXT: Ateş Diş
+
+RESOURCE ID: move_name_0277
+TEXT: Öfke Krizi
+
+RESOURCE ID: move_name_0345
+TEXT: Kasırga
+
+RESOURCE ID: move_name_0365
+TEXT: Luster Purge
+
+RESOURCE ID: move_name_0366
+TEXT: Mist Ball
 
 RESOURCE ID: mvt_stat_use_buddy_player_details
 TEXT: Maça bir Dost Pokémon getirdi
@@ -1772,8 +1915,11 @@ TEXT: Maça bir Dost Pokémon getirdi
 RESOURCE ID: mvt_stat_use_buddy_pokemon_title
 TEXT: Akın Dostu
 
-RESOURCE ID: no_buddy
-TEXT: Seçili Dost Yok
+RESOURCE ID: old_friends_description
+TEXT: Eski Arkadaşlar, Yeni Başlangıçlar Süreli Araştırması
+
+RESOURCE ID: old_friends_title
+TEXT: Eski Arkadaşlar, Yeni Başlangıçlar
 
 RESOURCE ID: pair_friend_pinned_your_postcard
 TEXT: {0} ve {1} kartpostallarınızı kaydetti!
@@ -1786,6 +1932,9 @@ TEXT: GO Fotoğrafta Mudkip ile 5 sürpriz karşılaşma
 
 RESOURCE ID: photobomb_five_sandshrew
 TEXT: GO Fotoğrafta Sandshrew ile 5 sürpriz karşılaşma
+
+RESOURCE ID: photobomb_five_stufful
+TEXT: GO Fotoğrafta Stufful ile 5 sürpriz karşılaşma
 
 RESOURCE ID: plural_friend_pinned_your_postcard
 TEXT: {0}, {1} ve diğer arkadaşlarınız kartpostallarınızı kaydetti!
@@ -1817,8 +1966,68 @@ TEXT: Gerçekten bu Dost Pokémon'u göndermek istiyor musunuz?
 RESOURCE ID: pokemon_category_0010
 TEXT: Tırtıl Pokémon
 
+RESOURCE ID: pokemon_category_0167
+TEXT: Ağ Atan Pokémon
+
+RESOURCE ID: pokemon_category_0255
+TEXT: Civciv Pokémon
+
+RESOURCE ID: pokemon_category_0256
+TEXT: Piliç Pokémon
+
+RESOURCE ID: pokemon_category_0328
+TEXT: Çukur Karıncası Pokémon
+
+RESOURCE ID: pokemon_category_0329
+TEXT: Titreşen Pokémon
+
+RESOURCE ID: pokemon_category_0334
+TEXT: Mırıldanan Pokémon
+
+RESOURCE ID: pokemon_category_0447
+TEXT: Duygu Yayan Pokémon
+
 RESOURCE ID: pokemon_category_0469
 TEXT: Dev Yusufçuk Pokémon
+
+RESOURCE ID: pokemon_category_0487
+TEXT: Sürgün Pokémon
+
+RESOURCE ID: pokemon_category_0517
+TEXT: Rüya Yiyen Pokémon
+
+RESOURCE ID: pokemon_category_0536
+TEXT: Titreşen Pokémon
+
+RESOURCE ID: pokemon_category_0537
+TEXT: Titreşen Pokémon
+
+RESOURCE ID: pokemon_category_0547
+TEXT: Uçuşan Pokémon
+
+RESOURCE ID: pokemon_category_0610
+TEXT: Uzun Dişli Pokémon
+
+RESOURCE ID: pokemon_category_0646
+TEXT: Sınır Pokémon
+
+RESOURCE ID: pokemon_category_0707
+TEXT: Anahtarlık Pokémon
+
+RESOURCE ID: pokemon_category_0720_2652
+TEXT: Lamba Cini Pokémon
+
+RESOURCE ID: pokemon_category_0759
+TEXT: Savuran Pokémon
+
+RESOURCE ID: pokemon_category_0791
+TEXT: Güneş Gücü Pokémon
+
+RESOURCE ID: pokemon_category_0792
+TEXT: Ay Gücü Pokémon
+
+RESOURCE ID: pokemon_category_0794
+TEXT: Kaslı Pokémon
 
 RESOURCE ID: pokemon_desc_0335
 TEXT: Ezeli rakibi Seviper'la yaptığı maçın anıları, Zangoose'un vücudundaki her bir hücresine nüfuz etmiştir. Bu Pokémon, inanılmaz bir çeviklikle kendisine yapılan saldırılardan kaçınır.
@@ -1880,6 +2089,18 @@ TEXT: Dostunuzla {0} km yürüyün
 RESOURCE ID: quest_catch_special_cottonee
 TEXT: {0} Cottonee yakalayın
 
+RESOURCE ID: quest_catch_stufful_pinap_plural
+TEXT: Pokémon yakalarken {0} Pinap Meyvesi kullanın
+
+RESOURCE ID: quest_catch_stufful_pinap_singular
+TEXT: Pokémon yakalarken bir Pinap Meyvesi kullanın
+
+RESOURCE ID: quest_catch_stufful_razz_plural
+TEXT: Pokémon yakalarken {0} Razz Meyvesi kullanın
+
+RESOURCE ID: quest_catch_stufful_razz_singular
+TEXT: Pokémon yakalarken bir Razz Meyvesi kullanın
+
 RESOURCE ID: quest_catch_transform_pokemon_plural
 TEXT: {0} adet Dönüşüm Pokémonu yakalayın
 
@@ -1891,6 +2112,9 @@ TEXT: Mudkip Topluluk Günü Klasik
 
 RESOURCE ID: quest_complete_sandt
 TEXT: Kum ve Buz
+
+RESOURCE ID: quest_complete_stuff
+TEXT: Yumuşacık Ayıcık
 
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: Exeggcute Araştırması: Bir spor salonunda maç yapın
@@ -2534,6 +2758,57 @@ TEXT: Ayrıca tekrar yardıma ihtiyacım olduğunda elbette seninle iletişime g
 RESOURCE ID: quest_special_dialogue_sandt_3_7
 TEXT: Şimdilik hoşça kal, hadi GİDELİM!
 
+RESOURCE ID: quest_special_dialogue_season2_4_4
+TEXT: Olası şüphelileri araştırmak için Pokédex'e bakarken Munna adında bir Pokémon hakkında yazılmış yazılarla karşılaştım. Rüya Yiyen Pokémon olarak biliniyormuş, bu yüzden gözüme takıldı!
+
+RESOURCE ID: quest_special_dialogue_stufful_0_0
+TEXT: *esner* Merhaba %PLAYERNAME%... Görünüşümü mazur gör. Dün gece geç saatlere kadar yakınlardaki Rowlet’ları inceledim. Gündüzleri uykucu olsalar da geceleri yerlerinde duramıyorlar!
+
+RESOURCE ID: quest_special_dialogue_stufful_0_1
+TEXT: Şöyle şirin ve yumuşacık bir Pokémon’a sarılabilsem ne güzel olurdu... Mesela Stufful gibi bir Pokémon’a!
+
+RESOURCE ID: quest_special_dialogue_stufful_0_2
+TEXT: Stufful'lar şirin görünürler ama kendilerine sarılınmasından veya dokunulmasından nefret ederler. Ne yazık! Kürklerini okşamanın inanılmaz keyifli olduğunu duymuştum oysa!
+
+RESOURCE ID: quest_special_dialogue_stufful_0_3
+TEXT: Acaba günün birinde bir Stufful’a sarılabilecek miyim? Bilim adına elbette! Bana bir Stufful getirebilir misin %PLAYERNAME%? Söz, sadece bakacağım!
+
+RESOURCE ID: quest_special_dialogue_stufful_1_0
+TEXT: % PLAYERNAME%, geri dönmüşsün! Üstelik yanında bir de Stufful getirmişsin! Ne pofuduk, ne yumuşak duruyor...
+
+RESOURCE ID: quest_special_dialogue_stufful_1_1
+TEXT: Ehem! Stufful’lar şirin görünüşlerinin aksine son derece tehlikeli Pokémon’lardır. Arkadaşları haricinde biri dokunursa çılgına dönerler!
+
+RESOURCE ID: quest_special_dialogue_stufful_1_2
+TEXT: İkimizin de iyiliği için Stufful’a sarılmadan... Pardon, araştırmamıza devam etmeden önce arkadaş olduğumuza emin olmalıyız. O halde ne dersin, Stufful’a birkaç meyve verelim mi %PLAYERNAME%? Belki bu şekilde biraz yakınlaşabiliriz.
+
+RESOURCE ID: quest_special_dialogue_stufful_2_0
+TEXT: Stufful'ın şimdiden daha arkadaş canlısı görünüyor %PLAYERNAME%! Arkadaş canlısı demişken, Stufful’ın evrimleşmiş hali olan Bewear’in arkadaşlarına sarılma huyunu duymuş muydun?
+
+RESOURCE ID: quest_special_dialogue_stufful_2_1
+TEXT: Bewear’ler arkadaş olarak kabul ettikleri kişilere olan sevgilerini sarılarak gösterirmiş. Ama Bewear’lerin sarılmasına izin vermek tehlikelidir. Çünkü o kadar güçlüdür ki kemiklerini un ufak edebilir!
+
+RESOURCE ID: quest_special_dialogue_stufful_2_2
+TEXT: Pek çok Eğitmen, Bewear’in kendilerine sarılmasından sonra bu dünyadan göçüp gitmiştir...
+
+RESOURCE ID: quest_special_dialogue_stufful_2_3
+TEXT: Bewear’e sarılmanı önermesem de bu Pokémon’la karşılaşmanın bir zararı yok! O hâlde ne duruyorsun %PLAYERNAME%, haydi bir Stufful evrimleştir!
+
+RESOURCE ID: quest_special_dialogue_stufful_3_0
+TEXT: Bewear’in ne kadar da güçlü duruyor %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_stufful_3_1
+TEXT: Efendim? Normalden daha bitap mı duruyorum? Şey... Sen dışarıdayken Stufful’ı okşamaya çalışmış olabilirim. Ve Stufful da beni fırlatmış olabilir. Hatta Stufful fırlatınca birileri beni uçan bir Pokémon’a benzetmiş de olabilir. Haha. Ah...
+
+RESOURCE ID: quest_special_dialogue_stufful_3_2
+TEXT: Ama bardağın dolu tarafına bakalım. Sonuçta hem Stufful’ı okşadım hem de gücüne birinci elden tanık oldum! Düşününce, bu yaşadıklarımı duymaya can atacak bir iş arkadaşım var. Kendisi Pokémon hareketleri üzerinde çalışır...
+
+RESOURCE ID: quest_special_dialogue_stufful_3_3
+TEXT: Umarım yeni Stufful ve Bewear’lerinle arkadaşlığında şansın benden daha yaver gitmiştir %PLAYERNAME%. Ben de gidip bir buz torbası bulayım. Veya birkaç buz torbası... Bugünkü yardımların için teşekkürler! Kendine iyi bak. Yakında görüşürüz!
+
+RESOURCE ID: quest_special_dialogue_swabt_3_1
+TEXT: Swablu'nun Evrimi Altaria'ya Mırıldanan Pokémon denir.
+
 RESOURCE ID: quest_special_dialogue_tcg1_0_1
 TEXT: Dost Pokémon'um ve takım liderlerinin dostları hakkında daha fazla araştırma yapmanın ilginç olacağını düşünüyordum. 
 
@@ -2651,6 +2926,15 @@ TEXT: Alola’nın koruyucu tanrılarından sonuncusu olan Tapu Fini bu sırrı 
 RESOURCE ID: quest_special_dialogue_ulaula_3_6
 TEXT: Ama şimdilik güzel bir istirahati hak ettiğimizi düşünüyorum. Tekrar görüşünceye dek hoşça kal %PLAYERNAME%!
 
+RESOURCE ID: quest_stuff_catch_b
+TEXT: {0} Stufful yakalayın
+
+RESOURCE ID: quest_stuff_evolve_b
+TEXT: {0} Stufful evrimleştirin
+
+RESOURCE ID: quest_stuff_snapshot_b
+TEXT: Doğada Stufful’ın {0} fotoğrafını çekin
+
 RESOURCE ID: quest_title_af2022
 TEXT: 1 Nisan 2-O?-22
 
@@ -2747,6 +3031,21 @@ TEXT: Kum ve Buz (3/4)
 RESOURCE ID: quest_title_sandt_3
 TEXT: Kum ve Buz (4/4)
 
+RESOURCE ID: quest_title_stuff
+TEXT: Yumuşacık Ayıcık
+
+RESOURCE ID: quest_title_stuff_0
+TEXT: Yumuşacık Ayıcık (1/4)
+
+RESOURCE ID: quest_title_stuff_1
+TEXT: Yumuşacık Ayıcık (2/4)
+
+RESOURCE ID: quest_title_stuff_2
+TEXT: Yumuşacık Ayıcık (3/4)
+
+RESOURCE ID: quest_title_stuff_3
+TEXT: Yumuşacık Ayıcık (4/4)
+
 RESOURCE ID: quest_title_ulaula
 TEXT: Bir Ula'ula Macerası
 
@@ -2792,12 +3091,18 @@ TEXT: Safari Bölgesi: Dostunuzla yürüyerek bir Şeker kazanın
 RESOURCE ID: safari_2020_dialogue_1_2a
 TEXT: Dostunla bağ kurmak için biraz zaman harcamak ister misin?
 
+RESOURCE ID: safari_2022_seville_dialogue_0_0
+TEXT: Safari Bölgesi Seville 2022'ye hoş geldin %PLAYERNAME%!
+
 RESOURCE ID: safari_buddy_snapshot
 TEXT: Safari Bölgesi: Dostunuzun fotoğrafını çekin
 
 RESOURCE ID: set_buddy
 TEXT: Dost
 Seçin
+
+RESOURCE ID: set_friend_nickname
+TEXT: Takma İsim Seçin
 
 RESOURCE ID: set_privacy_settings_error_message
 TEXT: Gizlilik ayarları kaydedilemedi.
@@ -2806,32 +3111,36 @@ RESOURCE ID: settings_advanced_adjust_performance
 TEXT: Adjust Performance
 
 RESOURCE ID: settings_advanced_adjust_performance_sub
-TEXT: Optimize your gameplay experience based on your device. Doing so may enable better performance or save battery life.
+TEXT: Optimize your gameplay experience based on your device. Doing so may improve performance or save battery life.
 
 RESOURCE ID: settings_push_buddy_v2
 TEXT: Dost Özelliği
 
 RESOURCE ID: shop_already_own_this_ticket
-TEXT: You already own a ticket for this event.
+TEXT: Bu etkinlik için halihazırda biletiniz var.
 
 RESOURCE ID: shop_confirm_gift
-TEXT: GIFT
+TEXT: HEDİYE
 
 RESOURCE ID: shop_gift_friend_ineligible_description
-TEXT: Some friends may be ineligible for receiving paid gifts. Reasons for being ineligible include: 
- • They already own the ticket 
- • Someone else has sent them a ticket already 
- • You do not meet the minimum friendship level requirement to buy this player a gift
+TEXT: Bazı arkadaşlarınız şu sebeplerden dolayı ücretli hediye kabul edemeyebilirler: 
+• Hediye ettiğiniz bilete halihazırda sahipler.
+• Başka biri onlara bilet göndermiş.
+• Bu arkadaşa hediye göndermek için gereken minimum arkadaşlık seviyesinin altındasınız.
 
 RESOURCE ID: shop_gift_friend_ineligible_title
-TEXT: Cannot Send Ticket
+TEXT: Bilet Gönderilemiyor
 
 RESOURCE ID: shop_gift_invitation_description
-TEXT: Hello, <b>{0}</b>! I invite you to join me in this event! 
-Here’s your event ticket. Let’s go!Sincerely, -<b>{1}</b>
+TEXT: Merhaba <b>{0}</b>! Gel bu etkinlikte bana katıl!
+
+Biletin burada. Hadi gidelim!
+
+Sevgiler,
+—<b>{1}</b>
 
 RESOURCE ID: shop_gift_invitation_title
-TEXT: INVITATION
+TEXT: DAVETİYE
 
 RESOURCE ID: shop_gift_purchase_confirmation_button
 TEXT: ONAYLA
@@ -2840,58 +3149,63 @@ RESOURCE ID: shop_gift_purchase_confirmation_cancel
 TEXT: İPTAL ET
 
 RESOURCE ID: shop_gift_purchase_confirmation_description
-TEXT: {0} will receive <b>{1}</b> from you. 
-This ticket cannot be used by any other player. This purchase cannot be refunded or undone.
+TEXT: {0} sizden <b>{1}</b> alacak. 
+
+Bu bilet başka bir oyuncu tarafından kullanılamaz. Bu işlem geri alınamaz veya para iadesi yapılmaz.
 
 RESOURCE ID: shop_gift_purchase_confirmation_gift_policy
-TEXT: SEE GIFTING POLICY
+TEXT: HEDİYE POLİTİKASINI GÖSTER
 
 RESOURCE ID: shop_gift_purchase_confirmation_title
-TEXT: Confirm Purchase
+TEXT: Satın Alımı Onayla
 
 RESOURCE ID: shop_gift_purchase_error_modal_description
-TEXT: An error occurred that prevented this purchase from completing. 
- You were not charged for the purchase. 
- You will be returned to the shop.
+TEXT: Bu satın alımın tamamlanmasını engelleyen bir hata gerçekleşti.
+Bu işlem için ücretlendirilmediniz.
+Şimdi yeniden mağazaya yönlendirileceksiniz.
 
 RESOURCE ID: shop_gift_purchase_error_modal_title
-TEXT: Purchase Error
+TEXT: Satın Alım Hatası
 
 RESOURCE ID: shop_gift_purchase_friends_disabled_description
-TEXT: In order to gift tickets, Friends Permission must be enabled on this account.
+TEXT: Bilet hediye edebilmek için Arkadaş İzninin etkinleştirilmesi gerekiyor.
 
 RESOURCE ID: shop_gift_purchase_friends_disabled_title
-TEXT: Friends Permission Required
+TEXT: Arkadaş İzni Gerekli
 
 RESOURCE ID: shop_gift_purchase_invitation_sent
-TEXT: Gift is on its way!
+TEXT: Hediye gönderiliyor!
 
 RESOURCE ID: shop_gift_purchase_invitation_sent_description
-TEXT: Your gift has been sent off to {0}. 
-Go tell them so they can open it in time for the event!
+TEXT: Hediyeniz şu oyuncuya gönderildi: {0}
+
+Etkinlik sona ermeden hediyeyi açabilmesi için ona haber verin.
 
 RESOURCE ID: shop_gift_purchase_select_friend
-TEXT: Select a Friend
+TEXT: Bir Arkadaş Seç
 
 RESOURCE ID: shop_gift_purchase_user_limit_description
-TEXT: You can only send {0} paid gifts in a day. Please wait until tomorrow to purchase more gifts for friends. 
- Dailly limits exist to prevent overspending and fraud.
+TEXT: Bir gün içerisinde yalnızca {0} ücretli hediye gönderebilirsiniz. Arkadaşlarınıza göndermek üzere daha fazla hediye satın almak için lütfen yarına kadar bekleyin.
+
+Günlük sınırın amacı aşırı harcamayı ve dolandırıcılığı önlemektir.
 
 RESOURCE ID: shop_gift_purchase_user_limit_title
-TEXT: Paid Gift Daily Limit Reached
+TEXT: Günlük Ücretli Hediye Sınırına Ulaşıldı
 
 RESOURCE ID: shop_gift_redemption_error_modal_description
-TEXT: Unfortunately your gift could not be sent at this time. The recipient obtained the gift before your gift purchase could complete. 
-Please contact your app store for a refund.
+TEXT: Ne yazık ki hediyeniz gönderilemedi. Hedeflenen alıcı, hediye satın alma işleminiz sırasında hediyeyi başka yollarla edinmiş.
+Para iadesi için lütfen uygulama mağazanızla iletişime geçin.
 
 RESOURCE ID: shop_gifting_policy_modal_description
-TEXT: • You cannot get refunded for gifts purchased for friends. 
- • You cannot cancel a gift after it is sent. 
- • You can only send {0} daily paid gifts. 
-
+TEXT: • Arkadaşlara göndermek üzere satın alınmış hediyeler için para iadesi yapılmaz.
+• Hediye gönderildikten sonra iptal edilemez.
+•Bir gün içerisinde yalnızca {0} ücretli hediye gönderebilirsiniz. 
 
 RESOURCE ID: shop_gifting_policy_modal_title
-TEXT: Gifting Policy
+TEXT: Hediye Gönderme Politikası
+
+RESOURCE ID: shop_ticket_gift_info
+TEXT: Bilet hediye ederek arkadaşlarınızı bu etkinliğe davet edin!
 
 RESOURCE ID: sis22_collection_challenge
 TEXT: Bahara Merhaba 2022 Toplama Görevi
@@ -2910,6 +3224,9 @@ TEXT: Doğada daha fazla Mudkip ortaya çıkıyor
 
 RESOURCE ID: spawn_sandshrew
 TEXT: Yabanda daha fazla Sandshrew ortaya çıkıyor
+
+RESOURCE ID: spawn_stufful
+TEXT: Doğada daha fazla Stufful ortaya çıkıyor!
 
 RESOURCE ID: sr_gotour2022_sr_dialogue_1_0
 TEXT: Maceranın neye ihtiyacı var biliyor musun %PLAYERNAME%? Yeni bir Dosta! Bir iş arkadaşımla konuşup senin için küçük bir sürpriz hazırladım.
@@ -2953,6 +3270,9 @@ TEXT: Özel araştırma hikayesi Mudkip Topluluk Günü Klasik biletini Mağazad
 RESOURCE ID: ticket_sandshrew
 TEXT: Özel araştırma hikayesi Kum ve Buz biletini Mağaza'dan alabilirsiniz
 
+RESOURCE ID: ticket_stufful
+TEXT: Özel araştırma hikayesi Yumuşacık Ayıcık biletini mağazadan alabilirsiniz
+
 RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: Eğitmenler, bu görevi tamamlamak için bölgesel bir topluluk olarak birlikte çalışmalıdır.
 
@@ -2993,31 +3313,34 @@ RESOURCE ID: tips_tasks_snapshot_buddy_title
 TEXT: Dostunuzu Fotoğraflamak
 
 RESOURCE ID: trade_best_buddy_prompt_message
-TEXT: Bu Pokémon önceden dostunuzdu. Takas ederseniz Dost Seviyesi sıfırlanır. Takasa devam etmek istiyor musunuz?
+TEXT: Bu Pokémon önceden dostunuzdu. Takas ederseniz Dost Seviyesi sıfırlanır. Takasa devam etmek istiyor musun?
 
 RESOURCE ID: trade_best_buddy_prompt_title
 TEXT: Eski Dost Pokémon'unuzu takas etmek istiyor musunuz?
 
 RESOURCE ID: trade_buddy_prompt_message
-TEXT: Bu Pokémon önceden dostunuzdu. Takas ederseniz Dost Seviyesi sıfırlanır. Takasa devam etmek istiyor musun?
+TEXT: Bu Pokémon önceden dostunuzdu. Takas ederseniz Dost Seviyesi sıfırlanır. Takasa devam etmek istiyor musunuz?
 
 RESOURCE ID: trade_buddy_prompt_title
 TEXT: Eski Dost Pokémon'unuzu takas etmek istiyor musunuz?
+
+RESOURCE ID: trade_detail_appraisal
+TEXT: Değer:
 
 RESOURCE ID: trade_exclusion_reason_buddy
 TEXT: Bu Pokémon sizin Dost Pokémon'unuz.
 
 RESOURCE ID: trade_mega_level_buddy_prompt_message
-TEXT: This Pokémon was previously your buddy, and previously Mega Evolved. Trading it will reset Buddy Level and Mega Level. Proceed with trading?
+TEXT: Bu Pokémon daha önce hem dostunuzdu hem de mega evrimleşmiş. Takas ettiğinizde dost ve mega seviyeler sıfırlanacak. Takasa devam etmek istiyor musunuz?
 
 RESOURCE ID: trade_mega_level_buddy_prompt_title
-TEXT: Do you want to trade this former Buddy and Mega Pokémon?
+TEXT: Bu Pokémon’u takas etmek istediğinizden emin misiniz?
 
 RESOURCE ID: trade_mega_level_prompt_message
-TEXT: This Pokémon has previously Mega Evolved. Trading it will reset its Mega Level. Proceed with trading?
+TEXT: Bu Pokémon daha önce mega evrimleşmiş. Takas ettiğinizde mega seviye sıfırlanacak. Takasa devam etmek istiyor musunuz?
 
 RESOURCE ID: trade_mega_level_prompt_title
-TEXT: Do you want to trade this Mega Leveled Pokémon?
+TEXT: Bu Pokémon’u takas etmek istediğinizden emin misiniz?
 
 RESOURCE ID: tutorial_buddy_giftbox
 TEXT: Dostunuz keşfe çıktı ve birkaç Hediye getirdi. Bunları arkadaşlarınıza gönderin!
@@ -3026,7 +3349,7 @@ RESOURCE ID: tutorial_buddy_giftbox_title
 TEXT: Dostunuz birkaç Hediye buldu!
 
 RESOURCE ID: use_system_settings
-TEXT: Use System Settings
+TEXT: Use Device Settings
 
 RESOURCE ID: verbose_logs_disable_body
 TEXT: Saklamaktan vazgeçerseniz, henüz yüklemediğiniz {1} kayıt silinecek.

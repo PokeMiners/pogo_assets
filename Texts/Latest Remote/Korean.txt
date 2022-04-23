@@ -1,14 +1,20 @@
+RESOURCE ID: accept
+TEXT: 동의한다
+
+RESOURCE ID: add_friend_confirmation_title
+TEXT: {0}님에게 친구 신청을 보내겠습니까?
+
 RESOURCE ID: adv_perf_are_you_sure_discard_changes_message
-TEXT: If you choose to discard these changes, this action cannot be undone.
+TEXT: If you choose to discard your changes, you will have to reselect your performance settings from the beginning.
 
 RESOURCE ID: adv_perf_are_you_sure_discard_changes_title
-TEXT: Are you sure you want cancel making changes to your performance settings?
+TEXT: Are you sure you want to discard the changes you’ve made to your performance settings?
 
 RESOURCE ID: adv_perf_are_you_sure_save_changes_message
-TEXT: Your game experience may vary after you change your performance settings. If you choose to save your changes, your game will be restarted.
+TEXT: Your game experience may change when you adjust your performance settings. If you choose to save your changes, your game will restart.
 
 RESOURCE ID: adv_perf_are_you_sure_save_changes_message_short
-TEXT: Your game experience may vary after you change your performance settings.
+TEXT: Your game experience may change when you adjust your performance settings.
 
 RESOURCE ID: adv_perf_are_you_sure_save_changes_title
 TEXT: Are you sure you want to save these changes to your performance settings?
@@ -23,7 +29,7 @@ RESOURCE ID: adv_perf_discard_changes
 TEXT: CANCEL CHANGES
 
 RESOURCE ID: adv_perf_help_text
-TEXT: Optimize your gameplay experience based on your device. Doing so may enable better performance or save battery life.
+TEXT: Optimize your gameplay experience based on your device. Doing so may improve performance or save battery life.
 
 You’ll need to restart the game to implement any changes.
 
@@ -85,13 +91,13 @@ RESOURCE ID: adv_perf_v1_native_refresh_rate_incompatible_descr
 TEXT: This device’s native refresh rate is not compatible with smoother gameplay.
 
 RESOURCE ID: adv_perf_v2_are_you_sure_auto_set_perf
-TEXT: Are you sure you want the game to automatically select your performance settings?
+TEXT: Are you sure you want to automatically select your performance settings?
 
 RESOURCE ID: adv_perf_v2_auto_set
 TEXT: AUTO-SELECT
 
 RESOURCE ID: adv_perf_v2_auto_set_auto_adjust
-TEXT: This selection will automatically adjust your performance settings based on your device. This action cannot be undone.
+TEXT: This selection will automatically adjust your performance settings based on your device.
 
 RESOURCE ID: adv_perf_v2_auto_set_performance
 TEXT: Auto-Select Performance
@@ -136,7 +142,7 @@ RESOURCE ID: adv_perf_v2_map_details
 TEXT: Map Details
 
 RESOURCE ID: adv_perf_v2_map_details_tip
-TEXT: Improved map draw distance and scale, reduced fog, and better visibility of Gyms, sky, and buildings.
+TEXT: Improved map draw distance and scale, reduced fog, and better visibility of Gyms, buildings, and the sky.
 
 RESOURCE ID: adv_perf_v2_max_description
 TEXT: Best graphics and smooth performance
@@ -151,7 +157,7 @@ RESOURCE ID: adv_perf_v2_native_refresh_rate_disabled_tip
 TEXT: This device’s native refresh rate does not enable smoother visuals.
 
 RESOURCE ID: adv_perf_v2_native_refresh_rate_tip
-TEXT: Affects how smooth and responsive the game looks in motion.
+TEXT: Higher frame rate (FPS) based on your device. Affects how smooth and responsive the game looks in motion.
 
 RESOURCE ID: adv_perf_v2_perf_set_as_recommended
 TEXT: You’re already using the recommended performance settings.
@@ -213,6 +219,13 @@ TEXT: 어라?
 RESOURCE ID: alo_mar22_collection_challenge
 TEXT: 알로라에 어서 오세요
 
+RESOURCE ID: ardk_download_prompt_multi_success_header
+TEXT: 다운로드 완료!
+환영합니다! AR 공유 체험입니다!
+
+RESOURCE ID: ardk_download_prompt_multiplayer_legal_tos_link_text
+TEXT: 배지란?
+
 RESOURCE ID: arlo_challenge#1
 TEXT: 당신은 제 시간이 얼마나 귀중한지 알고 있나요?
 
@@ -242,6 +255,21 @@ TEXT: 당신은 아주 평범한 트레이너라고 생각합니다. 제가 그 
 
 RESOURCE ID: arlo_challenge#9
 TEXT: 평범한 트레이너와 배틀은 하지 않지만... 그렇게 수치심을 알고 싶다면...
+
+RESOURCE ID: arlo_defeat#1
+TEXT: 이, 이럴 수가... 어째서... 내가... 지다니!
+
+RESOURCE ID: arlo_defeat#2
+TEXT: 감히.... 이 만큼의 굴욕을 나에게 주다니 정체가 뭐죠?
+
+RESOURCE ID: arlo_defeat#3
+TEXT: 칸델라에게 졌을 때도 이 정도의 굴욕은 느끼지 않았어요... 이 빚은 갚겠습니다.
+
+RESOURCE ID: arlo_defeat#4
+TEXT: 나에게 굴욕을 준 마지막 트레이너는 칸델라였어요. 이대로 가만두지 않겠어요...
+
+RESOURCE ID: arlo_defeat#5
+TEXT: 잠, 잠깐... 지다니... 그럴 리가...
 
 RESOURCE ID: arlo_greeting#1
 TEXT: 오? 나를 방해할 건가요? 건방지네!
@@ -416,20 +444,86 @@ TEXT: 파트너 리서치: Yoshinoya
 RESOURCE ID: batch_transfer_unique_mega_level_pokemon
 TEXT: 메가레벨 포켓몬: {0}마리
 
+RESOURCE ID: became_friends_prompt
+TEXT: {0}님과 친구가 되었습니다.
+
 RESOURCE ID: blanche_incident_greeting
 TEXT: 항상 냉정할 것. 적절한 분석. 팀 미스틱은 이런 집단이야.
 
-RESOURCE ID: buddy_widget_description
-TEXT: 언제나 모험 모드로 앱을 켜지 않았을 때도 파트너 포켓몬의 하트 양을 추적할 수 있습니다.
+RESOURCE ID: bonus_2x_candy_stufful
+TEXT: 2× 포켓몬을 잡았을 때의 사탕
 
-RESOURCE ID: buddy_widget_title
-TEXT: 언제나 모험 모드: 파트너 포켓몬
+RESOURCE ID: bonus_2x_xl_candy_chance_stufful
+TEXT: 2x 포곰곰을 잡았을 때 사탕XL 얻을 확률
+
+RESOURCE ID: bonus_3x_catch_xp_stufful
+TEXT: 3× 포켓몬 잡았을 때 XP
+
+RESOURCE ID: bonus_4x_catch_xp_stufful
+TEXT: 4× 포켓몬 잡았을 때 XP
+
+RESOURCE ID: bonus_implicit_social_stufful
+TEXT: 하나의 루어모듈에서 잡은 포켓몬이 일정 수를 넘으면, 그 주변에서 30분 동안 4x 포켓몬 잡았을 때 XP
+
+RESOURCE ID: bonus_implicit_social_unlock
+TEXT: 보너스 가능!
+
+RESOURCE ID: bonus_incense_3hr_stufful
+TEXT: 향로 지속 3시간
+
+RESOURCE ID: bonus_lure_3hr_stufful
+TEXT: 루어모듈 지속 3시간
+
+RESOURCE ID: bonus_special_trade_stufful
+TEXT: 이벤트 진행 중과 종료 후 2시간 동안, 특별한 교환 1회 추가
+
+RESOURCE ID: bonus_trade_stardust_stufful
+TEXT: 이벤트 진행 중과 종료 후 2시간 동안 진행 되는 교환에 필요한 별의모래 1/2
+
+RESOURCE ID: buddy_berry
+TEXT: 간식을 준다
+
+RESOURCE ID: buddy_detail_bbb
+TEXT: 최고리본
+
+RESOURCE ID: buddy_detail_emotion
+TEXT: 기분을 안다
+
+RESOURCE ID: buddy_detail_map
+TEXT: 파트너와 모험
+
+RESOURCE ID: buddy_feed_stop_content
+TEXT: 파트너 포켓몬은 배가 고파, 아직 함께 걸어주지 않습니다.
+
+RESOURCE ID: buddy_multiplayer_lobby_body_host
+TEXT: 당신이 그룹리더입니다. 포켓몬이 나오는 장소(소용돌이) 는 그룹 리더만 보입니다. 동료 트레이너에게 알려주세요.
+
+RESOURCE ID: buddy_multiplayer_peer_cannot_exit_group_photo
+TEXT: 포토 리더인 {0} 님이 그룹 사진 모드를 꺼야합니다.
+
+RESOURCE ID: buddy_multiplayer_peer_taking_group_photo
+TEXT: {0} 님이 그룹 사진을 찍으려고 합니다.
+
+RESOURCE ID: buddy_multiplayer_player_count_can_join_plural
+TEXT: {0} 명 참가할 수 있습니다.
+
+RESOURCE ID: buddy_page_total
+TEXT: 활동
+
+RESOURCE ID: buddy_tutorial_cpboost_title
+TEXT: CP부스터
+
+RESOURCE ID: bundle_retweet_reward
+TEXT: 리트윗 박스
 
 RESOURCE ID: candela_incident_greeting
 TEXT: 무슨 일이 일어나도 뜨겁게 불타오르는 불꽃이 사라지지 않아! 팀 발로가 가는 길에는 승리만이 있을 뿐!
 
 RESOURCE ID: cd_walk_challenge
 TEXT: 커뮤니티 데이 거리 챌린지
+
+RESOURCE ID: challenge_buddy_treat_single
+TEXT: 간식을 준다
 
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: This will change the game’s language setting to {0}. Do you want to restart the game to apply this setting?
@@ -449,11 +543,23 @@ TEXT: 물짱이 커뮤니티 데이(복각)
 RESOURCE ID: community_day_sandshrew_event_name
 TEXT: 커뮤니티 데이: 모래두지
 
+RESOURCE ID: community_day_stufful_event_name
+TEXT: 커뮤니티 데이: 포곰곰
+
+RESOURCE ID: decline_action_label
+TEXT: 동의 안 함
+
+RESOURCE ID: delete_pokemon_tag_confirmation
+TEXT: 이 태그를 포켓몬에서 제거합니다. 포켓몬은 박사에게 보낼 수 없습니다.
+
 RESOURCE ID: disable_sponsored_gift_description
 TEXT: 포켓스톱 또는 체육관의 포토디스크를 돌리면 그 주변에 관계한 광고가 있는 선물이 제공됩니다. 스폰서 선물을 정지하면 스폰서 선물을 받지 않게 됩니다. 선택 후 앱을 다시 켜주십시오.
 
 RESOURCE ID: disable_sponsored_gift_title
 TEXT: 스폰서 선물 정지
+
+RESOURCE ID: double_buddy_hearts
+TEXT: 2× hearts with your buddy
 
 RESOURCE ID: earthday22_collection_challenge
 TEXT: 지속가능성 위크 2022 컬렉션 챌린지
@@ -463,6 +569,9 @@ TEXT: 포켓스톱 또는 체육관의 포토디스크를 돌리면 그 주변�
 
 RESOURCE ID: encounter_score_active_mega_bonus
 TEXT: 메가진화 상태
+
+RESOURCE ID: error_friend_request_friend_inbox_full
+TEXT: 이 트레이너에게는 미승인 프렌드 신청이 있습니다.
 
 RESOURCE ID: event_evolve_exeggcute
 TEXT: 아라리는 알로라의 모습 나시로 진화할 수 있다
@@ -482,11 +591,23 @@ TEXT: 글라디오 포즈
 RESOURCE ID: f_avatar_poses_bundle_pose_35
 TEXT: 스컬단 포즈
 
+RESOURCE ID: fb_invite_send_invite_message
+TEXT: {0}님에게 친구 신청을 보내겠습니다
+
 RESOURCE ID: festival_of_colors_event_name
 TEXT: 컬러 페스티벌
 
+RESOURCE ID: field_research_special
+TEXT: Unique Field Research tasks are now available at certain PokéStops and Gyms
+
+RESOURCE ID: first_daily_spin_3x_xp
+TEXT: 3× XP when you spin the Photo Disc at a Gym or PokéStop for the first time that day
+
 RESOURCE ID: foc22_collection_challenge
 TEXT: 컬러 페스티벌
+
+RESOURCE ID: form_baile
+TEXT: 이글이글스타일
 
 RESOURCE ID: form_dusk
 TEXT: 황혼의 모습
@@ -518,8 +639,26 @@ TEXT: 파칙파칙스타일
 RESOURCE ID: form_oricorio_sensu
 TEXT: 하늘하늘스타일
 
+RESOURCE ID: form_pau
+TEXT: 훌라훌라스타일
+
+RESOURCE ID: form_pompom
+TEXT: 파칙파칙스타일
+
+RESOURCE ID: form_sensu
+TEXT: 하늘하늘스타일
+
 RESOURCE ID: friend_pinned_your_postcard_singular_from_poi
 TEXT: {0}님이 {1}의 엽서를 저장했습니다!
+
+RESOURCE ID: friend_sort_online_not_available_cancel_button
+TEXT:  이럴 수가
+
+RESOURCE ID: furret_walk_description
+TEXT: 위클리 탐색 챌린지
+
+RESOURCE ID: furret_walk_title
+TEXT: 걸어서 모험
 
 RESOURCE ID: general1.ticket.2_mudkt_description
 TEXT: 전 세계 어디에 있어도 현지 시간 2022년 4월 10일 14시~ 17시까지 게임 내에서 물짱이 커뮤니티 데이(복각) 스페셜리서치를 플레이할 수 있는 티켓. 자세한 내용은 게임 내 새소식에서 확인할 수 있습니다.
@@ -536,6 +675,14 @@ TEXT: 전 세계 어디에 있어도 현지 시간 2022년 3월 13일 11시~ 17�
 
 RESOURCE ID: general1.ticket.2_sandt_title
 TEXT: 쥐포켓몬의 수수께끼를 풀어라!
+
+RESOURCE ID: general1.ticket.2_stuff_description
+TEXT: 전 세계 어디에 있어도 현지 시간 2022년 4월 23일 14시~ 17시까지 게임 내에서 시작할 수 있는 이벤트 "바둥바둥포켓몬의 수수께끼를 풀어라!"를 플레이할 수 있는 티켓. 자세한 내용은 게임 내 새소식에서 확인할 수 있습니다.
+
+이벤트를 최대한 즐기려면 기재된 개최 시간 내에 완료할  필요가 있습니다.
+
+RESOURCE ID: general1.ticket.2_stuff_title
+TEXT: 바둥바둥포켓몬의 수수께끼를 풀어라!
 
 RESOURCE ID: gotour2022_instinct_leader_prebattle
 TEXT: 막 트레이너가 되었을 때의 널 기억해. 낯익은 얼굴이라고 봐주진 않아!
@@ -984,6 +1131,15 @@ TEXT: 예이!
 RESOURCE ID: grunt_generic_victory#7__male_speaker
 TEXT: 예이!
 
+RESOURCE ID: gym_battle_victory_subtitle_alone
+TEXT: 체육관을 격파했다
+
+RESOURCE ID: help_center_friends_link
+TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=all&s=friends-gifting-trading&f=friend-list-friendship-levels-1614899618
+
+RESOURCE ID: invite_action_label
+TEXT: 초대
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: 포켓몬 배틀 참가 준비 완료!
 
@@ -991,13 +1147,16 @@ RESOURCE ID: item_event_ticket_gray_name
 TEXT: 티켓
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 현지 시간 2022년 4월 10일 14시~17시에 스페셜리서치를 진행하기 위한 티켓
+TEXT: 현지 시간 2022년 4월 23일 14시~17시에 스페셜리서치를 진행하기 위한 티켓
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2020년4월 10일 스페셜리서치가 진행됩니다.
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2020년4월 23일 스페셜리서치가 진행됩니다.
 
 RESOURCE ID: lets_go
 TEXT: Let’s GO!
+
+RESOURCE ID: lure_duration_6_hr
+TEXT: 6-Hour Lure duration
 
 RESOURCE ID: lush_jungle_event_name
 TEXT: 셰이드정글
@@ -1099,8 +1258,8 @@ RESOURCE ID: mega_level_tutorial_hero_title
 TEXT: 메가진화 시키자!
 
 RESOURCE ID: mega_level_tutorial_page1_body
-TEXT: 메가 에너지를 사용하지 않고 메가진화할 수 있게 되었습니다. 레벨이 올라가면 보너스를 손에 넣을 수 있는 메가 레벨도 도입되었습니다.
-한번 진화하면 다음에 메가진화할 때까지 시간이 걸립니다. 이 시간내에도 메가에너지를 사용하면 메가진화를 할 수 있습니다.
+TEXT: 메가 에너지를 사용하지 않고 메가진화할 수 있게 되었습니다. 레벨업하면 보너스를 손에 넣을 수 있는 메가레벨도 도입되었습니다.
+한번 진화하면 다음에 메가진화할 때까지 시간이 걸립니다. 이 시간내에도 메가 에너지를 사용하면 메가진화를 할 수 있습니다.
 
 RESOURCE ID: mega_level_tutorial_page1_title
 TEXT: 메가진화의 자세한 내용
@@ -1193,12 +1352,24 @@ RESOURCE ID: mega_perks_header
 TEXT: 메가진화 보너스
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-15T17:41:58.288028
-at SHA 2274b49a5d46219b0f5c813758ca4b249f9c9d62
+TEXT: Built at 2022-04-23T00:21:02.457550
+at SHA f78632bff8d7ed3534f432fe6f1689141347224a
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
-RESOURCE ID: no_buddy
-TEXT: 파트너 없음
+RESOURCE ID: move_name_0365
+TEXT: Luster Purge
+
+RESOURCE ID: move_name_0366
+TEXT: Mist Ball
+
+RESOURCE ID: now_label
+TEXT: Now
+
+RESOURCE ID: old_friends_description
+TEXT: 프렌드와 새로운 모험- 시간제한 리서치
+
+RESOURCE ID: old_friends_title
+TEXT: 프렌드와 새로운 모험
 
 RESOURCE ID: pair_friend_pinned_your_postcard
 TEXT: {0}님과 {1}님이 엽서를 저장했습니다!
@@ -1211,6 +1382,9 @@ TEXT: GO스냅샷으로 물짱이 서프라이즈 5번
 
 RESOURCE ID: photobomb_five_sandshrew
 TEXT: GO스냅샷으로 모래두지 서프라이즈 5번
+
+RESOURCE ID: photobomb_five_stufful
+TEXT: GO스냅샷으로 포곰곰의 서프라이즈 5번
 
 RESOURCE ID: plural_friend_pinned_your_postcard
 TEXT: {0}님, {1}님 그리고 다른 프렌드가 엽서를 저장했습니다!
@@ -1248,6 +1422,18 @@ TEXT: {0}(은)는 메가진화할 수 없습니다!
 RESOURCE ID: quest_catch_special_cottonee
 TEXT: 소미안을 {0}마리 잡는다
 
+RESOURCE ID: quest_catch_stufful_pinap_plural
+TEXT: 포켓몬을 잡을 때 파인열매를 {0}개 사용한다
+
+RESOURCE ID: quest_catch_stufful_pinap_singular
+TEXT: 포켓몬을 잡을 때 파인열매를 1개 사용한다
+
+RESOURCE ID: quest_catch_stufful_razz_plural
+TEXT: 포켓몬을 잡을 때 라즈열매를 {0}개 사용한다
+
+RESOURCE ID: quest_catch_stufful_razz_singular
+TEXT: 포켓몬을 잡을 때 라즈열매를 1개 사용한다
+
 RESOURCE ID: quest_catch_transform_pokemon_plural
 TEXT: 변신포켓몬을 {0}마리 잡는다
 
@@ -1259,6 +1445,9 @@ TEXT: 물짱이 커뮤니티 데이(복각)
 
 RESOURCE ID: quest_complete_sandt
 TEXT: 쥐포켓몬의 수수께끼를 풀어라!
+
+RESOURCE ID: quest_complete_stuff
+TEXT: 바둥바둥포켓몬의 수수께끼를 풀어라!
 
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: 아라리 리서치: 체육관배틀을 1번 한다
@@ -1824,6 +2013,51 @@ TEXT: 다음 협력이 필요해지만 연락할게. 곧 부탁할 일이 있을
 RESOURCE ID: quest_special_dialogue_sandt_3_7
 TEXT: 그럼 다음에 또 보자!
 
+RESOURCE ID: quest_special_dialogue_stufful_0_0
+TEXT: %PLAYERNAME%, 안녕. 오늘은 기운이 없어 보인다고? 나몰빼미가 밤에 활발해지는 포켓몬이라서 밤새워서 나몰빼미를 관찰했거든.
+
+RESOURCE ID: quest_special_dialogue_stufful_0_1
+TEXT: 이런 아침에는 푹신푹신한 포켓몬의 힐링을 받고 싶군. 포곰곰이라던가.
+
+RESOURCE ID: quest_special_dialogue_stufful_0_2
+TEXT: 포곰곰은 사랑스러운 외모와 부드러운 털 촉감이 최고지! 하지만 방심하고 만졌다간 반격 당한다.
+
+RESOURCE ID: quest_special_dialogue_stufful_0_3
+TEXT: 그래도 포곰곰을 쓰다듬어 보고 싶군... 물론 연구 목적으로 말이지.
+
+RESOURCE ID: quest_special_dialogue_stufful_1_0
+TEXT: %PLAYERNAME%, 돌아왔군! 포곰곰도 같이 왔구나! 부드럽고 보들보들...
+
+RESOURCE ID: quest_special_dialogue_stufful_1_1
+TEXT: ... 보기와 다르게 포곰곰을 아주 위험한 포켓몬이야.  친밀한 사이나 동료 이외의 사람이 만지면 굉장한 힘으로 날뛰거든.
+
+RESOURCE ID: quest_special_dialogue_stufful_1_2
+TEXT: 가까이 다가가기 위해 친해지는 게 좋겠어.... 그래 나무열매를 줘봐, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_stufful_2_0
+TEXT: 너와 포곰곰 합이 잘 맞는 느낌이야, %PLAYERNAME%! 포곰곰은 동료 외에 만지거나 껴안으면 싫어하지만 그 진화한 이븐곰은 동료끼리 서로 껴안는 버릇이 있어!
+
+RESOURCE ID: quest_special_dialogue_stufful_2_1
+TEXT: 안기지 않도록 조심해! 척추가 부러진다.
+
+RESOURCE ID: quest_special_dialogue_stufful_2_2
+TEXT: 척추가 부러져서 이 세상을 떠난 트레이너가 있다고 할 정도야. 엄청난 괴력이지.
+
+RESOURCE ID: quest_special_dialogue_stufful_2_3
+TEXT: 충분히 조심해서 포곰곰을 진화 시켜봐. 얼마나 대단한 괴력인지 보여줄지도 몰라.
+
+RESOURCE ID: quest_special_dialogue_stufful_3_0
+TEXT: 강해보이는 이븐곰과 돌왔구나, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_stufful_3_1
+TEXT: 음? 무슨 일이 있었냐고? 실은 포곰곰을 쓰다듬으려고 했는데 공격받아서 몇 m나 날아갔지. 하하하, 아아ㅡ 아프다.
+
+RESOURCE ID: quest_special_dialogue_stufful_3_2
+TEXT: 힘을 직접 체험할 수 있었어. 사랑에는 고통은 따른다고 하는 걸 몸소 느낀 조사였어.
+
+RESOURCE ID: quest_special_dialogue_stufful_3_3
+TEXT: 너도 더 신중하게 해. 나는 부딪힌 곳을 냉찜질해야지. 오늘은 함께 조사해 줘서 고마워! 또 보자!
+
 RESOURCE ID: quest_special_dialogue_ulaula_0_0
 TEXT: 안녕, %PLAYERNAME%!
 
@@ -1907,6 +2141,15 @@ TEXT: 수호신 중 마지막인 카푸느지느를 목격하면 좀 더 알 수
 
 RESOURCE ID: quest_special_dialogue_ulaula_3_6
 TEXT: 계속 연락은 줘. 그럼 또 보자, %PLAYERNAME%!
+
+RESOURCE ID: quest_stuff_catch_b
+TEXT: 포곰곰을 {0} 마리 잡는다
+
+RESOURCE ID: quest_stuff_evolve_b
+TEXT: 포곰곰을 {0}마리 진화시킨다
+
+RESOURCE ID: quest_stuff_snapshot_b
+TEXT: 야생 포곰곰의 GO스냅샷을 찍는다
 
 RESOURCE ID: quest_title_af2022
 TEXT: 만우절2022
@@ -1992,6 +2235,21 @@ TEXT: 쥐포켓몬의 수수께끼를 풀어라!(3/4)
 RESOURCE ID: quest_title_sandt_3
 TEXT: 쥐포켓몬의 수수께끼를 풀어라!(4/4)
 
+RESOURCE ID: quest_title_stuff
+TEXT: 바둥바둥포켓몬의 수수께끼를 풀어라!
+
+RESOURCE ID: quest_title_stuff_0
+TEXT: 바둥바둥포켓몬의 수수께끼를 풀어라!(1/4)
+
+RESOURCE ID: quest_title_stuff_1
+TEXT: 바둥바둥포켓몬의 수수께끼를 풀어라!(2/4)
+
+RESOURCE ID: quest_title_stuff_2
+TEXT: 바둥바둥포켓몬의 수수께끼를 풀어라!(3/4)
+
+RESOURCE ID: quest_title_stuff_3
+TEXT: 바둥바둥포켓몬의 수수께끼를 풀어라!(4/4)
+
 RESOURCE ID: quest_title_ulaula
 TEXT: 울라울라섬을 연구하라!
 
@@ -2013,33 +2271,47 @@ TEXT: {0} Research Tasks Updated
 RESOURCE ID: restart_app
 TEXT: Restart
 
+RESOURCE ID: retro_cup_title
+TEXT: 레트로컵
+
+RESOURCE ID: safari_2022_seville_dialogue_0_0
+TEXT: Welcome to Safari Zone Seville 2022, %PLAYERNAME%!
+
+RESOURCE ID: screen_title_notification
+TEXT: 알림 설정
+
+RESOURCE ID: set_friend_nickname
+TEXT: 닉네임을 붙인다
+
 RESOURCE ID: settings_advanced_adjust_performance
 TEXT: Adjust Performance
 
 RESOURCE ID: settings_advanced_adjust_performance_sub
-TEXT: Optimize your gameplay experience based on your device. Doing so may enable better performance or save battery life.
+TEXT: Optimize your gameplay experience based on your device. Doing so may improve performance or save battery life.
 
 RESOURCE ID: shop_already_own_this_ticket
-TEXT: You already own a ticket for this event.
+TEXT: 이 이벤트 티켓을 가지고 있습니다
 
 RESOURCE ID: shop_confirm_gift
-TEXT: GIFT
+TEXT: 선물
 
 RESOURCE ID: shop_gift_friend_ineligible_description
-TEXT: Some friends may be ineligible for receiving paid gifts. Reasons for being ineligible include: 
- • They already own the ticket 
- • Someone else has sent them a ticket already 
- • You do not meet the minimum friendship level requirement to buy this player a gift
+TEXT: 다음 이유로 프렌드가 유료 선물을 받을 수 없는 경우가 있습니다.
+•이미 티켓을 가지고 있는 경우
+•다른 사람이 이미 선물을 보낸 경우
+•선물을 보낼 수 있는 우정레벨이 아닌 경우
 
 RESOURCE ID: shop_gift_friend_ineligible_title
-TEXT: Cannot Send Ticket
+TEXT: 티켓을 보낼 수 없습니다
 
 RESOURCE ID: shop_gift_invitation_description
-TEXT: Hello, <b>{0}</b>! I invite you to join me in this event! 
-Here’s your event ticket. Let’s go!Sincerely, -<b>{1}</b>
+TEXT: 안녕하세요, <b>{0}</b>님! 이 이벤트에 같이 참가합시다!
+
+이벤트 티켓을 보내드리겠습니다. 기다리겠습니다!
+—보낸 사람 <b>{1}</b>
 
 RESOURCE ID: shop_gift_invitation_title
-TEXT: INVITATION
+TEXT: 초대
 
 RESOURCE ID: shop_gift_purchase_confirmation_button
 TEXT: 확인
@@ -2048,58 +2320,62 @@ RESOURCE ID: shop_gift_purchase_confirmation_cancel
 TEXT: 취소
 
 RESOURCE ID: shop_gift_purchase_confirmation_description
-TEXT: {0} will receive <b>{1}</b> from you. 
-This ticket cannot be used by any other player. This purchase cannot be refunded or undone.
+TEXT: <b>{1}</b>(은)는 {0}님에게 보내집니다.
+다른 플레이어가 사용할 수 없으며 환불, 및 취소가 불가능한 티켓입니다.
 
 RESOURCE ID: shop_gift_purchase_confirmation_gift_policy
-TEXT: SEE GIFTING POLICY
+TEXT: 선물 정책 보기
 
 RESOURCE ID: shop_gift_purchase_confirmation_title
-TEXT: Confirm Purchase
+TEXT: 구매 확정
 
 RESOURCE ID: shop_gift_purchase_error_modal_description
-TEXT: An error occurred that prevented this purchase from completing. 
- You were not charged for the purchase. 
- You will be returned to the shop.
+TEXT: 구입을 완료하지 못했습니다.
+지불은 진행되지 않습니다.
+숍에 돌아갑니다.
 
 RESOURCE ID: shop_gift_purchase_error_modal_title
-TEXT: Purchase Error
+TEXT: Error
 
 RESOURCE ID: shop_gift_purchase_friends_disabled_description
-TEXT: In order to gift tickets, Friends Permission must be enabled on this account.
+TEXT: 티켓을 보내기 위해서는 이 계정에서 프렌드 승인이 필요합니다.
 
 RESOURCE ID: shop_gift_purchase_friends_disabled_title
-TEXT: Friends Permission Required
+TEXT: 프렌드 승인이 필요합니다
 
 RESOURCE ID: shop_gift_purchase_invitation_sent
-TEXT: Gift is on its way!
+TEXT: 선물을 보냈습니다!
 
 RESOURCE ID: shop_gift_purchase_invitation_sent_description
-TEXT: Your gift has been sent off to {0}. 
-Go tell them so they can open it in time for the event!
+TEXT: {0}님에게 보냈습니다.
+
+이벤트 전에 열 수 있도록 알려주세요!
 
 RESOURCE ID: shop_gift_purchase_select_friend
-TEXT: Select a Friend
+TEXT: 프렌드 선택하기
 
 RESOURCE ID: shop_gift_purchase_user_limit_description
-TEXT: You can only send {0} paid gifts in a day. Please wait until tomorrow to purchase more gifts for friends. 
- Dailly limits exist to prevent overspending and fraud.
+TEXT: 하루에 보낼 수 있는 유료 선물은  {0}개입니다. 내일 다시 보낼 수 있습니다. 
+
+지나친 선물 보내기와 위조 선물을 방지하기 위해 수량을 제한하고 있습니다.
 
 RESOURCE ID: shop_gift_purchase_user_limit_title
-TEXT: Paid Gift Daily Limit Reached
+TEXT: 유료 선물 상한
 
 RESOURCE ID: shop_gift_redemption_error_modal_description
-TEXT: Unfortunately your gift could not be sent at this time. The recipient obtained the gift before your gift purchase could complete. 
-Please contact your app store for a refund.
+TEXT: 선물 구입이 완료되기 전에 상대방이 이미 해당 선물을 가지고 있어 보낼 수 없습니다.
+앱 스토어에서 환불 절차를 밟아 주십시오.
 
 RESOURCE ID: shop_gifting_policy_modal_description
-TEXT: • You cannot get refunded for gifts purchased for friends. 
- • You cannot cancel a gift after it is sent. 
- • You can only send {0} daily paid gifts. 
-
+TEXT: • 프렌드를 위해 구입한 선물을 환불 제외 대상입니다.
+• 보낸 뒤 취소할 수 없습니다.
+• 유료 선물은 하루 최대 {0}개까지 보낼 수 있습니다.
 
 RESOURCE ID: shop_gifting_policy_modal_title
-TEXT: Gifting Policy
+TEXT: 선물 정책
+
+RESOURCE ID: shop_ticket_gift_info
+TEXT: 프렌드에게 티켓을 선물해서 이벤트에 초대하세요!
 
 RESOURCE ID: sis22_collection_challenge
 TEXT: 봄 이벤트2022 챌린지
@@ -2118,6 +2394,9 @@ TEXT: 물짱이가 야생에서 더 많이 출현
 
 RESOURCE ID: spawn_sandshrew
 TEXT: 모래두지가 야생에서 많이 출현
+
+RESOURCE ID: spawn_stufful
+TEXT: 포곰곰이 야생에서 많이 출현!
 
 RESOURCE ID: story_quest_rockethq10
 TEXT: 악의 조직을 저지하라!
@@ -2149,6 +2428,9 @@ TEXT: 물짱이 커뮤니티 데이(복각) 스페셜리서치 티켓이 숍에 
 RESOURCE ID: ticket_sandshrew
 TEXT: '쥐포켓몬의 수수께끼를 풀어라!' 티켓이 숍에 등장
 
+RESOURCE ID: ticket_stufful
+TEXT: '바둥바둥포켓몬의 수수께끼를 풀어라!' 티켓이 숍에 등장
+
 RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: 지역 트레이너가 하나가 되어 완료를 목표로 하는 챌린지입니다!
 
@@ -2179,20 +2461,23 @@ TEXT: 메가진화한 포켓몬을 사용해서 레이드배틀에 참가하면,
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_title
 TEXT: 메가 어택 부스터
 
+RESOURCE ID: trade_detail_appraisal
+TEXT: 평가:
+
 RESOURCE ID: trade_mega_level_buddy_prompt_message
-TEXT: This Pokémon was previously your buddy, and previously Mega Evolved. Trading it will reset Buddy Level and Mega Level. Proceed with trading?
+TEXT: This Pokémon was previously your buddy, and it has also previously Mega Evolved. Trading it will reset its Buddy Level and its Mega Level. Do you want to proceed with this trade?
 
 RESOURCE ID: trade_mega_level_buddy_prompt_title
-TEXT: Do you want to trade this former Buddy and Mega Pokémon?
+TEXT: Are you sure you want to trade this Pokémon?
 
 RESOURCE ID: trade_mega_level_prompt_message
-TEXT: This Pokémon has previously Mega Evolved. Trading it will reset its Mega Level. Proceed with trading?
+TEXT: This Pokémon has previously Mega Evolved. Trading it will reset its Mega Level. Do you want to proceed with the trade?
 
 RESOURCE ID: trade_mega_level_prompt_title
-TEXT: Do you want to trade this Mega Leveled Pokémon?
+TEXT: Are you sure you want to trade this Pokémon?
 
 RESOURCE ID: use_system_settings
-TEXT: Use System Settings
+TEXT: Use Device Settings
 
 RESOURCE ID: verbose_logs_disable_body
 TEXT: 로그 저장을 정지하면, 업로드 안한 {1} 로그는 삭제됩니다.

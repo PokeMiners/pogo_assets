@@ -1,14 +1,17 @@
+RESOURCE ID: add_friend_confirmation_title
+TEXT: Enviar um pedido de amizade para {0}? 
+
 RESOURCE ID: adv_perf_are_you_sure_discard_changes_message
-TEXT: If you choose to discard these changes, this action cannot be undone.
+TEXT: If you choose to discard your changes, you will have to reselect your performance settings from the beginning.
 
 RESOURCE ID: adv_perf_are_you_sure_discard_changes_title
-TEXT: Are you sure you want cancel making changes to your performance settings?
+TEXT: Are you sure you want to discard the changes you’ve made to your performance settings?
 
 RESOURCE ID: adv_perf_are_you_sure_save_changes_message
-TEXT: Your game experience may vary after you change your performance settings. If you choose to save your changes, your game will be restarted.
+TEXT: Your game experience may change when you adjust your performance settings. If you choose to save your changes, your game will restart.
 
 RESOURCE ID: adv_perf_are_you_sure_save_changes_message_short
-TEXT: Your game experience may vary after you change your performance settings.
+TEXT: Your game experience may change when you adjust your performance settings.
 
 RESOURCE ID: adv_perf_are_you_sure_save_changes_title
 TEXT: Are you sure you want to save these changes to your performance settings?
@@ -23,7 +26,7 @@ RESOURCE ID: adv_perf_discard_changes
 TEXT: CANCEL CHANGES
 
 RESOURCE ID: adv_perf_help_text
-TEXT: Optimize your gameplay experience based on your device. Doing so may enable better performance or save battery life.
+TEXT: Optimize your gameplay experience based on your device. Doing so may improve performance or save battery life.
 
 You’ll need to restart the game to implement any changes.
 
@@ -85,13 +88,13 @@ RESOURCE ID: adv_perf_v1_native_refresh_rate_incompatible_descr
 TEXT: This device’s native refresh rate is not compatible with smoother gameplay.
 
 RESOURCE ID: adv_perf_v2_are_you_sure_auto_set_perf
-TEXT: Are you sure you want the game to automatically select your performance settings?
+TEXT: Are you sure you want to automatically select your performance settings?
 
 RESOURCE ID: adv_perf_v2_auto_set
 TEXT: AUTO-SELECT
 
 RESOURCE ID: adv_perf_v2_auto_set_auto_adjust
-TEXT: This selection will automatically adjust your performance settings based on your device. This action cannot be undone.
+TEXT: This selection will automatically adjust your performance settings based on your device.
 
 RESOURCE ID: adv_perf_v2_auto_set_performance
 TEXT: Auto-Select Performance
@@ -136,7 +139,7 @@ RESOURCE ID: adv_perf_v2_map_details
 TEXT: Map Details
 
 RESOURCE ID: adv_perf_v2_map_details_tip
-TEXT: Improved map draw distance and scale, reduced fog, and better visibility of Gyms, sky, and buildings.
+TEXT: Improved map draw distance and scale, reduced fog, and better visibility of Gyms, buildings, and the sky.
 
 RESOURCE ID: adv_perf_v2_max_description
 TEXT: Best graphics and smooth performance
@@ -151,7 +154,7 @@ RESOURCE ID: adv_perf_v2_native_refresh_rate_disabled_tip
 TEXT: This device’s native refresh rate does not enable smoother visuals.
 
 RESOURCE ID: adv_perf_v2_native_refresh_rate_tip
-TEXT: Affects how smooth and responsive the game looks in motion.
+TEXT: Higher frame rate (FPS) based on your device. Affects how smooth and responsive the game looks in motion.
 
 RESOURCE ID: adv_perf_v2_perf_set_as_recommended
 TEXT: You’re already using the recommended performance settings.
@@ -242,6 +245,21 @@ TEXT: Alguém da sua laia não deveria ser tão confiante. Mas não se preocupe.
 
 RESOURCE ID: arlo_challenge#9
 TEXT: Geralmente, não me rebaixaria a batalhar com alguém tão sem graça... mas abrirei uma exceção só para humilhar você.
+
+RESOURCE ID: arlo_defeat#1
+TEXT: Como... como é possível? Eu... eu nunca perco!
+
+RESOURCE ID: arlo_defeat#2
+TEXT: Como se atreve... a me humilhar assim?
+
+RESOURCE ID: arlo_defeat#3
+TEXT: Não me sinto tão humilhado desde a minha batalha contra Candela... Você pagará caro por isto.
+
+RESOURCE ID: arlo_defeat#4
+TEXT: A última pessoa que me humilhou assim foi Candela. Você pagará caro por isto...
+
+RESOURCE ID: arlo_defeat#5
+TEXT: Eu... eu não entendo... Eu nunca perco...
 
 RESOURCE ID: arlo_greeting#1
 TEXT: Como? Você veio me desafiar? Nem vem!
@@ -441,17 +459,65 @@ TEXT: {0} Pokémon com Meganível
 RESOURCE ID: blanche_incident_greeting
 TEXT: Compostura estável e análise precisa... esse é o caminho da Equipe Sabedoria.
 
-RESOURCE ID: buddy_widget_description
-TEXT: Use Sincroaventura para rastrear o medidor de afetividade do seu Pokémon companheiro quando Pokémon GO estiver aberto em segundo plano.
+RESOURCE ID: bonus_2x_candy_stufful
+TEXT: 2× doces por captura
 
-RESOURCE ID: buddy_widget_title
-TEXT: Sincroaventura: Companheiro
+RESOURCE ID: bonus_2x_xl_candy_chance_stufful
+TEXT: 2× mais chances de receber doces GG de Stufful por capturar Stufful
+
+RESOURCE ID: bonus_3x_catch_xp_stufful
+TEXT: 3× PE por captura!
+
+RESOURCE ID: bonus_4x_catch_xp_stufful
+TEXT: 4× PE por captura
+
+RESOURCE ID: bonus_implicit_social_stufful
+TEXT: Se Pokémon suficientes forem pegos com a ajuda de um único Módulo Atrair, o bônus de 3× PE por captura para Treinadores perto da Poképarada com o Módulo Atrair será aumentado para um bônus de 4× por 30 minutos
+
+RESOURCE ID: bonus_implicit_social_unlock
+TEXT: Bonus available!
+
+RESOURCE ID: bonus_incense_3hr_stufful
+TEXT: 3 horas de duração do Incenso
+
+RESOURCE ID: bonus_lure_3hr_stufful
+TEXT: 3 horas de duração do Módulo Atrair
+
+RESOURCE ID: bonus_special_trade_stufful
+TEXT: Uma troca especial adicional durante e até duas horas após o evento (máximo 2 trocas no dia)
+
+RESOURCE ID: bonus_trade_stardust_stufful
+TEXT: As trocas feitas durante e até duas horas após o evento exigirão 50% menos Poeira Estelar
+
+RESOURCE ID: bundle_retweet_reward
+TEXT: Caixa de recompensa de retweet
 
 RESOURCE ID: candela_incident_greeting
 TEXT: Não importa o que aconteça, nossa chama corajosa nunca se apagará! A Equipe Valor brilha em direção à vitória.
 
 RESOURCE ID: cd_walk_challenge
 TEXT: Desafio de distância do Dia Comunitário
+
+RESOURCE ID: challenge_buddy_affection_plural
+TEXT: Ganhe {0} corações com o seu companheiro
+
+RESOURCE ID: challenge_buddy_affection_single
+TEXT: Ganhe 1 coração com o seu companheiro
+
+RESOURCE ID: challenge_buddy_battle_plural
+TEXT: Batalhe junto de seu companheiro {0} vezes enquanto participa de sua aventura
+
+RESOURCE ID: challenge_buddy_battle_single
+TEXT: Batalhe junto de seu companheiro enquanto participa de sua aventura
+
+RESOURCE ID: challenge_buddy_emotion_plural
+TEXT: Deixe o seu companheiro empolgado {0} vezes
+
+RESOURCE ID: challenge_buddy_emotion_single
+TEXT: Deixe o seu companheiro empolgado
+
+RESOURCE ID: challenge_buddy_poi_plural
+TEXT: Visitar um lugar interessante indicado pelo seu companheiro {0} vezes
 
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: This will change the game’s language setting to {0}. Do you want to restart the game to apply this setting?
@@ -473,6 +539,12 @@ TEXT: Clássicos do Dia Comunitário: Mudkip
 
 RESOURCE ID: community_day_sandshrew_event_name
 TEXT: Dia Comunitário: Sandshrew
+
+RESOURCE ID: community_day_stufful_event_name
+TEXT: Dia comunitário: Stufful
+
+RESOURCE ID: double_buddy_hearts
+TEXT: 2× hearts with your buddy
 
 RESOURCE ID: earthday22_collection_challenge
 TEXT: Desafio de coleção da Semana da sustentabilidade
@@ -520,6 +592,12 @@ TEXT: Pose da Equipe Skull
 RESOURCE ID: festival_of_colors_event_name
 TEXT: Festival das Cores
 
+RESOURCE ID: field_research_special
+TEXT: Unique Field Research tasks are now available at certain PokéStops and Gyms
+
+RESOURCE ID: first_daily_spin_3x_xp
+TEXT: 3× XP when you spin the Photo Disc at a Gym or PokéStop for the first time that day
+
 RESOURCE ID: foc22_collection_challenge
 TEXT: Festival das Cores
 
@@ -547,6 +625,12 @@ TEXT: Estilo Sensu
 RESOURCE ID: friend_pinned_your_postcard_singular_from_poi
 TEXT: {0} salvou o seu Cartão-postal de {1}!
 
+RESOURCE ID: furret_walk_description
+TEXT: Desafio de exploração semanal
+
+RESOURCE ID: furret_walk_title
+TEXT: Caminhe pelo mundo
+
 RESOURCE ID: general1.ticket.2_mudkt_description
 TEXT: Um ingresso para participar do Clássicos do Dia Comunitário: Mudkip, no dia 10 de abril de 2022, das 2h às 17h, horário local, de onde você estiver. Mais detalhes podem ser encontrados na seção de novidades do jogo.
 
@@ -562,6 +646,14 @@ VOCÊ DEVE JOGAR DURANTE O HORÁRIO ESPECIFICADO PARA RECEBER O BÔNUS.
 
 RESOURCE ID: general1.ticket.2_sandt_title
 TEXT: Arenoso e congelante
+
+RESOURCE ID: general1.ticket.2_stuff_description
+TEXT: Um ingresso para acessar a pesquisa especial “Coisinha braba” no dia 23 de abril de 2022, das 14h às 17h do seu horário local, de onde você estiver. Os detalhes podem ser encontrados in-game News.
+
+ VOCÊ DEVE JOGAR DURANTE O TEMPO ESPECIFICADO PARA RECEBER TODOS OS BÔNUS ESPECIAIS DE EVENTO.
+
+RESOURCE ID: general1.ticket.2_stuff_title
+TEXT: Ingresso: Coisinha braba
 
 RESOURCE ID: gotour2022_instinct_leader_prebattle
 TEXT: Eu lembro quando você era apenas iniciante. Mas não vou pegar leve só porque somos velhos amigos!
@@ -1017,10 +1109,10 @@ RESOURCE ID: item_event_ticket_gray_name
 TEXT: Ingresso
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Um ingresso para acessar uma pesquisa especial no dia domingo, 10 de abril de 2022, das 14h às 17h, no seu horário local, de onde você estiver.
+TEXT: Um ingresso para acessar a pesquisa especial no dia 23 de abril de 2022, das 14h às 17h do seu horário local, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a uma pesquisa especial no dia 10 de abril de 2022, de onde você estiver.
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a uma pesquisa especial no dia 23 de abril de 2022, de onde você estiver.
 
 RESOURCE ID: item_postcard_inventory_desc
 TEXT: Um livro para colecionar Cartões-postais e relembrar locais de suas jornadas e amigos.
@@ -1030,6 +1122,9 @@ TEXT: Livro de Cartões-postais
 
 RESOURCE ID: lets_go
 TEXT: Vamos nessa!
+
+RESOURCE ID: lure_duration_6_hr
+TEXT: 6-Hour Lure duration
 
 RESOURCE ID: lush_jungle_event_name
 TEXT: Selva exuberante
@@ -1241,18 +1336,27 @@ RESOURCE ID: mega_perks_header
 TEXT: Bônus de Megaevolução
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-15T17:41:58.288028
-at SHA 2274b49a5d46219b0f5c813758ca4b249f9c9d62
+TEXT: Built at 2022-04-23T00:21:02.457550
+at SHA f78632bff8d7ed3534f432fe6f1689141347224a
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: mini_collection_apr21_egg_event
 TEXT: Coleção evento de Páscoa 2021
 
-RESOURCE ID: no_buddy
-TEXT: Sem companheiro
+RESOURCE ID: move_name_0365
+TEXT: Luster Purge
+
+RESOURCE ID: move_name_0366
+TEXT: Mist Ball
 
 RESOURCE ID: not_modified
-TEXT: Não foi possível alterar o Cartão-postal
+TEXT: Não foi possível alterar o Cartão-Postal
+
+RESOURCE ID: old_friends_description
+TEXT: Pesquisa temporária “Velhos amigos, novos começos”
+
+RESOURCE ID: old_friends_title
+TEXT: Velhos amigos, novos começos
 
 RESOURCE ID: pair_friend_pinned_your_postcard
 TEXT: {0} e {1} salvaram seus Cartões-postais!
@@ -1266,8 +1370,26 @@ TEXT: 5 encontros surpresa com Mudkip ao usar o Retrato GO
 RESOURCE ID: photobomb_five_sandshrew
 TEXT: 5 encontros surpresa com Sandshrew ao usar o Retrato GO
 
+RESOURCE ID: photobomb_five_stufful
+TEXT: 5 encontros surpresa com Stufful ao usar o Retrato GO
+
 RESOURCE ID: plural_friend_pinned_your_postcard
 TEXT: {0}, {1} e outros amigos salvaram seus Cartões-postais!
+
+RESOURCE ID: poi_power_turorial_3
+TEXT: NÍVEL 1
+
+RESOURCE ID: poi_power_turorial_4
+TEXT: NÍVEL 2
+
+RESOURCE ID: poi_power_turorial_5
+TEXT: NÍVEL 3
+
+RESOURCE ID: poi_power_turorial_6
+TEXT: Receba itens de bônus!
+
+RESOURCE ID: poi_power_turorial_8
+TEXT: Em Poképaradas, Pokémon selvagens aparecerão com mais frequência. Em Ginásios, você receberá mais Bolas Presenteadas no encontro com Pokémon depois de vencer uma Batalha de Reide.
 
 RESOURCE ID: pokemon_desc_0741_2679
 TEXT: Este Oricorio bebeu néctar vermelho. Se seu Treinador lhe der uma ordem que não pareça certa, este Pokémon impulsivo ficará muito irritado.
@@ -1345,6 +1467,18 @@ TEXT: Você recebeu Cartões-postais de Treinadores desconhecidos. Eles podem te
 RESOURCE ID: quest_catch_special_cottonee
 TEXT: Pegar {0} Cottonee.
 
+RESOURCE ID: quest_catch_stufful_pinap_plural
+TEXT: Usar {0} Frutas Caxí para ajudar a pegar Pokémon.
+
+RESOURCE ID: quest_catch_stufful_pinap_singular
+TEXT: Usar 1 Fruta Caxí para ajudar a pegar um Pokémon.
+
+RESOURCE ID: quest_catch_stufful_razz_plural
+TEXT: Usar {0} Frutas Frambo para ajudar a pegar Pokémon.
+
+RESOURCE ID: quest_catch_stufful_razz_singular
+TEXT: Usar 1 Fruta Frambo para ajudar a pegar um Pokémon.
+
 RESOURCE ID: quest_catch_transform_pokemon_plural
 TEXT: Pegar {0} Pokémon Transformação.
 
@@ -1356,6 +1490,9 @@ TEXT: Clássicos do Dia Comunitário: Mudkip
 
 RESOURCE ID: quest_complete_sandt
 TEXT: Arenoso e congelante
+
+RESOURCE ID: quest_complete_stuff
+TEXT: Coisinha braba
 
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: Pesquisa de Exeggcute: batalhar em 1 Ginásio.
@@ -1885,6 +2022,51 @@ TEXT: E com certeza avisarei na próxima vez em que precisar de ajuda. Algo me d
 RESOURCE ID: quest_special_dialogue_sandt_3_7
 TEXT: Até a próxima, e vamos nessa!
 
+RESOURCE ID: quest_special_dialogue_stufful_0_0
+TEXT: *bocejo* Olá, %PLAYERNAME%... Desculpe a minha aparência, é que eu fiquei acordado até tarde ontem à noite, estudando algum Rowlet que estava por perto. Por mais sonolentos que possam ser durante o dia, com certeza se animam à noite!
+
+RESOURCE ID: quest_special_dialogue_stufful_0_1
+TEXT: Talvez me ajudasse a relaxar se eu tivesse um Pokémon macio e bonito para abraçar... Como Stufful!
+
+RESOURCE ID: quest_special_dialogue_stufful_0_2
+TEXT: Stufful tem uma aparência adorável, mas odeia ser abraçado ou tocado. O que é uma pena, porque ouvi dizer que é uma delícia fazer carinho nesse Pokémon!
+
+RESOURCE ID: quest_special_dialogue_stufful_0_3
+TEXT: Eu me pergunto se algum dia terei a chance de abraçar um. Tudo em nome da ciência, é claro! Talvez você possa me trazer um Stufful, %PLAYERNAME%? Só para olhar!
+
+RESOURCE ID: quest_special_dialogue_stufful_1_0
+TEXT: %PLAYERNAME%, você voltou! E trouxe um Stufful com você! Parece ser tão macio e fofinho.
+
+RESOURCE ID: quest_special_dialogue_stufful_1_1
+TEXT: É... Quer dizer... Apesar de sua aparência, Stufful são Pokémon incrivelmente perigosos. Apenas o toque de um estranho deixa Stufful enlouquecido!
+
+RESOURCE ID: quest_special_dialogue_stufful_1_2
+TEXT: Para o bem de ambos, talvez seja melhor fazermos amizade antes de tentarmos nos abraçar... quer dizer, de continuar nossa pesquisa, não acha? Por que não tenta alimentar Stufful com uma ou duas Frutas, %PLAYERNAME%? Talvez assim possamos chegar mais perto dele.
+
+RESOURCE ID: quest_special_dialogue_stufful_2_0
+TEXT: Seu Stufful já parece mais amigável, %PLAYERNAME%! Falando em amigável, você já ouviu falar que sua Evolução, Bewear, tem o hábito de abraçar seus companheiros?
+
+RESOURCE ID: quest_special_dialogue_stufful_2_1
+TEXT: Uma vez que Bewear aceita você como um amigo, ele tenta mostrar seu afeto com um abraço. Mas deixá-lo fazer isso é perigoso, pois poderia facilmente quebrar seus ossos!
+
+RESOURCE ID: quest_special_dialogue_stufful_2_2
+TEXT: Muitos Treinadores partiram dessa pra melhor depois de um abraço bem apertado de Bewear...
+
+RESOURCE ID: quest_special_dialogue_stufful_2_3
+TEXT: Apesar de eu não recomendar que você abrace um Bewear tão cedo, não há mal em tentar conhecer um deles! Por que você não evolui Stufful, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_stufful_3_0
+TEXT: Seu Bewear parece ser muito forte, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_stufful_3_1
+TEXT: O que é aquilo? Você está dizendo que eu pareço um pouco mais cansado que o normal? Quer dizer... Eu posso ter tentado fazer carinho em Stufful enquanto você estava fora, e o agito dele me fez voar tão longe que alguém poderia ter me confundido com um Pokémon Pássaro. Haha... opa...
+
+RESOURCE ID: quest_special_dialogue_stufful_3_2
+TEXT: O lado bom da história é que eu cheguei a fazer tanto carinho em Stufful que tive o privilégio de experimentar sua força! Pensando bem, tenho um colega estudando movimentos de Pokémon que adoraria ouvir tudo sobre isso...
+
+RESOURCE ID: quest_special_dialogue_stufful_3_3
+TEXT: Espero que tenha tido mais sorte em fortalecer laços com seus novos companheiros Stufful e Bewear, %PLAYERNAME%. Acho que vou me recolher e pegar uma bolsa de gelo. Obrigado por toda a sua ajuda hoje! Fique bem. Eu entrarei em contato em breve!
+
 RESOURCE ID: quest_special_dialogue_ulaula_0_0
 TEXT: Oi, %PLAYERNAME%!
 
@@ -1968,6 +2150,15 @@ TEXT: As coisas podem ficar mais clara mais se encontrarmos Tapu Fini, o último
 
 RESOURCE ID: quest_special_dialogue_ulaula_3_6
 TEXT: Mas, por enquanto, acho que merecemos um bom descanso. Até a próxima, %PLAYERNAME%!
+
+RESOURCE ID: quest_stuff_catch_b
+TEXT: Pegar {0} Stufful.
+
+RESOURCE ID: quest_stuff_evolve_b
+TEXT: Evoluir {0} Stufful.
+
+RESOURCE ID: quest_stuff_snapshot_b
+TEXT: Tirar 1 foto de Stufful selvagem.
 
 RESOURCE ID: quest_title_af2022
 TEXT: Dia da Mentira ’ 2-Oh?-22
@@ -2053,6 +2244,21 @@ TEXT: Arenoso e congelante (3/4)
 RESOURCE ID: quest_title_sandt_3
 TEXT: Arenoso e congelante (4/4)
 
+RESOURCE ID: quest_title_stuff
+TEXT: Coisinha braba
+
+RESOURCE ID: quest_title_stuff_0
+TEXT: Coisinha braba (1/4)
+
+RESOURCE ID: quest_title_stuff_1
+TEXT: Coisinha braba (2/4)
+
+RESOURCE ID: quest_title_stuff_2
+TEXT: Coisinha braba (3/4)
+
+RESOURCE ID: quest_title_stuff_3
+TEXT: Coisinha braba (4/4)
+
 RESOURCE ID: quest_title_ulaula
 TEXT: Uma aventura em Ula-ula
 
@@ -2074,6 +2280,9 @@ TEXT: {0} Research Tasks Updated
 RESOURCE ID: restart_app
 TEXT: Restart
 
+RESOURCE ID: safari_2022_seville_dialogue_0_0
+TEXT: Boas vindas à Zona de Safári de Sevilha 2022, %PLAYERNAME%!
+
 RESOURCE ID: select_gift_to_delete_or_save_prompt
 TEXT: Selecione um presente para fixar ou excluir o Cartão-postal.
 
@@ -2081,32 +2290,36 @@ RESOURCE ID: settings_advanced_adjust_performance
 TEXT: Adjust Performance
 
 RESOURCE ID: settings_advanced_adjust_performance_sub
-TEXT: Optimize your gameplay experience based on your device. Doing so may enable better performance or save battery life.
+TEXT: Optimize your gameplay experience based on your device. Doing so may improve performance or save battery life.
 
 RESOURCE ID: settings_postcard_optin_name
 TEXT: Compartilhar apelido nos Livros de Cartões-postais de amigos
 
 RESOURCE ID: shop_already_own_this_ticket
-TEXT: You already own a ticket for this event.
+TEXT: Você já tem um ingresso para este evento.
 
 RESOURCE ID: shop_confirm_gift
-TEXT: GIFT
+TEXT: PRESENTE
 
 RESOURCE ID: shop_gift_friend_ineligible_description
-TEXT: Some friends may be ineligible for receiving paid gifts. Reasons for being ineligible include: 
- • They already own the ticket 
- • Someone else has sent them a ticket already 
- • You do not meet the minimum friendship level requirement to buy this player a gift
+TEXT: Alguns amigos podem não ser elegíveis para receber presentes pagos pelos seguintes motivos:
+• Eles já têm o ingresso a ser enviado.
+• Outra pessoa já lhes enviou um ingresso.
+• Você não cumpre o requisito mínimo de nível de amizade para comprar um presente para esse amigo.
 
 RESOURCE ID: shop_gift_friend_ineligible_title
-TEXT: Cannot Send Ticket
+TEXT: Não foi possível enviar o ingresso
 
 RESOURCE ID: shop_gift_invitation_description
-TEXT: Hello, <b>{0}</b>! I invite you to join me in this event! 
-Here’s your event ticket. Let’s go!Sincerely, -<b>{1}</b>
+TEXT: Olá, <b>{0}</b>! Junte-se a mim neste evento!
+
+Aqui está o seu ingresso. Vamos nessa!
+
+Atenciosamente,
+ — <b>{1}</b>
 
 RESOURCE ID: shop_gift_invitation_title
-TEXT: INVITATION
+TEXT: CONVITE
 
 RESOURCE ID: shop_gift_purchase_confirmation_button
 TEXT: CONFIRMAR
@@ -2115,58 +2328,64 @@ RESOURCE ID: shop_gift_purchase_confirmation_cancel
 TEXT: CANCELAR
 
 RESOURCE ID: shop_gift_purchase_confirmation_description
-TEXT: {0} will receive <b>{1}</b> from you. 
-This ticket cannot be used by any other player. This purchase cannot be refunded or undone.
+TEXT: {0} receberá <b>{1}</b> de você. 
+
+Este ingresso não pode ser usado por qualquer outro jogador. Esta compra não pode ser reembolsada ou desfeita.
 
 RESOURCE ID: shop_gift_purchase_confirmation_gift_policy
-TEXT: SEE GIFTING POLICY
+TEXT: CONSULTE A POLÍTICA DE ENVIO DE PRESENTES
 
 RESOURCE ID: shop_gift_purchase_confirmation_title
-TEXT: Confirm Purchase
+TEXT: Confirmar compra
 
 RESOURCE ID: shop_gift_purchase_error_modal_description
-TEXT: An error occurred that prevented this purchase from completing. 
- You were not charged for the purchase. 
- You will be returned to the shop.
+TEXT: Ocorreu um erro que impediu que esta compra fosse concluída.
+Você não foi cobrado pela compra.
+Agora você retornará à loja.
 
 RESOURCE ID: shop_gift_purchase_error_modal_title
-TEXT: Purchase Error
+TEXT: Erro ao efetuar compra
 
 RESOURCE ID: shop_gift_purchase_friends_disabled_description
-TEXT: In order to gift tickets, Friends Permission must be enabled on this account.
+TEXT: Para presentear com ingressos, a Permissão de Amigos deve ser habilitada nesta conta.
 
 RESOURCE ID: shop_gift_purchase_friends_disabled_title
-TEXT: Friends Permission Required
+TEXT: Permissão de Amigos necessária
 
 RESOURCE ID: shop_gift_purchase_invitation_sent
-TEXT: Gift is on its way!
+TEXT: O presente está a caminho!
 
 RESOURCE ID: shop_gift_purchase_invitation_sent_description
-TEXT: Your gift has been sent off to {0}. 
-Go tell them so they can open it in time for the event!
+TEXT: Seu presente foi enviado para {0}.
+
+Avise{0} que enviou para que  possa abrir o presente a tempo do evento!
 
 RESOURCE ID: shop_gift_purchase_select_friend
-TEXT: Select a Friend
+TEXT: Selecione um amigo
 
 RESOURCE ID: shop_gift_purchase_user_limit_description
-TEXT: You can only send {0} paid gifts in a day. Please wait until tomorrow to purchase more gifts for friends. 
- Dailly limits exist to prevent overspending and fraud.
+TEXT: Você só pode enviar {0} presentes pagos por dia. Aguarde até amanhã para comprar mais presentes para amigos.
+
+Limites diários evitam gastos excessivos e fraudes.
 
 RESOURCE ID: shop_gift_purchase_user_limit_title
-TEXT: Paid Gift Daily Limit Reached
+TEXT: Limite diário de presente pago atingido
 
 RESOURCE ID: shop_gift_redemption_error_modal_description
-TEXT: Unfortunately your gift could not be sent at this time. The recipient obtained the gift before your gift purchase could complete. 
-Please contact your app store for a refund.
+TEXT: Infelizmente, o seu presente não pôde ser enviado. O destinatário obteve o presente por outros meios enquanto seu presente estava sendo processado.
+Entre em contato com a loja de aplicativos do seu dispositivo móvel para obter um reembolso.
 
 RESOURCE ID: shop_gifting_policy_modal_description
-TEXT: • You cannot get refunded for gifts purchased for friends. 
- • You cannot cancel a gift after it is sent. 
- • You can only send {0} daily paid gifts. 
+TEXT: • Você não pode obter reembolso de presentes comprados para amigos.
+• Você não pode cancelar um presente depois que ele foi enviado.
+• Você só pode enviar {0} presente pagos por dia.
 
 
 RESOURCE ID: shop_gifting_policy_modal_title
-TEXT: Gifting Policy
+TEXT: Política de envio de presentes
+
+RESOURCE ID: shop_ticket_gift_info
+TEXT: Convide seus amigos para este evento dando-lhes um ingresso!
 
 RESOURCE ID: sis22_collection_challenge
 TEXT: Desafio de coleção evento de Páscoa 2022
@@ -2185,6 +2404,9 @@ TEXT: Mudkip selvagens estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_sandshrew
 TEXT: Sandshrew estão aparecendo com mais frequência
+
+RESOURCE ID: spawn_stufful
+TEXT: Stufful selvagens estão aparecendo com mais frequência!
 
 RESOURCE ID: story_quest_rockethq10
 TEXT: Planos secretos
@@ -2212,6 +2434,9 @@ TEXT: Ingressos para a pesquisa especial de Clássicos do Dia Comunitário: Mudk
 
 RESOURCE ID: ticket_sandshrew
 TEXT: O ingresso para a pesquisa especial "Arenoso e congelante" está disponível na loja
+
+RESOURCE ID: ticket_stufful
+TEXT: O ingresso para a pesquisa especial "Coisinha braba" está disponível na loja
 
 RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: Todos os Treinadores devem trabalhar juntos como uma comunidade regional para completar este desafio.
@@ -2247,19 +2472,19 @@ RESOURCE ID: tips_tasks_snapshot_wild_title
 TEXT: Tirar 1 foto de um Pokémon selvagem
 
 RESOURCE ID: trade_mega_level_buddy_prompt_message
-TEXT: This Pokémon was previously your buddy, and previously Mega Evolved. Trading it will reset Buddy Level and Mega Level. Proceed with trading?
+TEXT: This Pokémon was previously your buddy, and it has also previously Mega Evolved. Trading it will reset its Buddy Level and its Mega Level. Do you want to proceed with this trade?
 
 RESOURCE ID: trade_mega_level_buddy_prompt_title
-TEXT: Do you want to trade this former Buddy and Mega Pokémon?
+TEXT: Are you sure you want to trade this Pokémon?
 
 RESOURCE ID: trade_mega_level_prompt_message
-TEXT: This Pokémon has previously Mega Evolved. Trading it will reset its Mega Level. Proceed with trading?
+TEXT: This Pokémon has previously Mega Evolved. Trading it will reset its Mega Level. Do you want to proceed with the trade?
 
 RESOURCE ID: trade_mega_level_prompt_title
-TEXT: Do you want to trade this Mega Leveled Pokémon?
+TEXT: Are you sure you want to trade this Pokémon?
 
 RESOURCE ID: use_system_settings
-TEXT: Use System Settings
+TEXT: Use Device Settings
 
 RESOURCE ID: verbose_logs_disable_body
 TEXT: Registros de {1} que não foram carregados serão removidos se você parar de salvar esses registros.
