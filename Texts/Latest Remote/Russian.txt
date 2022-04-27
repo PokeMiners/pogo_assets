@@ -518,6 +518,20 @@ TEXT: Испытание дня сообщества: Прогулка
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: This will change the game’s language setting to {0}. Do you want to restart the game to apply this setting?
 
+RESOURCE ID: combat_log_upload_complete_modal_body
+TEXT: Thank you for sharing your game logs with Niantic. This data will help us improve Pokémon GO.
+
+For further assistance, please contact support and mention your uploaded game logs.
+
+RESOURCE ID: combat_log_upload_modal_body
+TEXT: If you experienced issues during your last Trainer Battle, consider uploading your game logs via the Game Logging feature to share them with Niantic.
+
+RESOURCE ID: combat_log_upload_modal_complete_title
+TEXT: Upload Complete!
+
+RESOURCE ID: combat_log_upload_modal_title
+TEXT: Upload Game Logs
+
 RESOURCE ID: combat_processing_shield
 TEXT: Attempting to use a Protect Shield...
 
@@ -642,8 +656,20 @@ TEXT: Билет на специальный квест «Стойкий Ста�
 RESOURCE ID: general1.ticket.2_stuff_title
 TEXT: Билет на специальный квест «Стойкий Стаффул»
 
+RESOURCE ID: generic_contact_support
+TEXT: How to Share Game Logs
+
+RESOURCE ID: generic_done
+TEXT: Done
+
 RESOURCE ID: gf2020_content_hashtag
 TEXT: Публикуй фото с хэштегом #PokemonGOFest2020, а мы перепостим наиболее понравившиеся снимки!
+
+RESOURCE ID: gofest2022_ticket_description
+TEXT: Билет на фестиваль Pokémon GO 4 и 5 июня 2022 г. с 10:00 до 18:00 по местному времени, вне зависимости от твоего местонахождения. 
+
+RESOURCE ID: gofest2022_ticket_title
+TEXT: Билет на Фестиваль Pokémon GO 2022
 
 RESOURCE ID: gotour2021_content_hashtag
 TEXT: Публикуй фото с хэштегом #PokemonGOTour, а мы перепостим наиболее понравившиеся снимки!
@@ -1101,6 +1127,9 @@ TEXT: Да!
 RESOURCE ID: grunt_generic_victory#7__male_speaker
 TEXT: Да!
 
+RESOURCE ID: helpshift_sharing_game_logs
+TEXT: https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/3325-sharing-game-logs/
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Настало время участвовать в битвах с Покемонами!
 
@@ -1112,6 +1141,9 @@ TEXT: Билет на специальный квест 23 апреля 2022 г.
 
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 23 апреля 2022 г., вне зависимости от твоего местонахождения.
+
+RESOURCE ID: item_global_event_ticket_details
+TEXT: Билет на фестиваль Pokémon GO 4 и 5 июня 2022 г. с 10:00 до 18:00 по местному времени, вне зависимости от твоего местонахождения. 
 
 RESOURCE ID: item_leader_map_desc
 TEXT: Ты можешь использовать это устройство, чтобы отследить секретные места Команды Ракета GO!
@@ -1335,8 +1367,8 @@ RESOURCE ID: mega_perks_header
 TEXT: Бонусы мегаэволюции
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-23T00:21:02.457550
-at SHA f78632bff8d7ed3534f432fe6f1689141347224a
+TEXT: Built at 2022-04-27T01:14:34.014300
+at SHA f22c0d06fcf603b12f50bfe2d90c9485c16ac8b8
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: minicollect_help_desc_type_costume
@@ -2291,30 +2323,28 @@ RESOURCE ID: settings_advanced_adjust_performance_sub
 TEXT: Optimize your gameplay experience based on your device. Doing so may improve performance or save battery life.
 
 RESOURCE ID: shop_already_own_this_ticket
-TEXT: You already have a ticket for this event.
+TEXT: У тебя уже есть билет на это событие.
 
 RESOURCE ID: shop_confirm_gift
-TEXT: GIFT
+TEXT: ПОДАРОК
 
 RESOURCE ID: shop_gift_friend_ineligible_description
-TEXT: Some friends may be ineligible to receive paid gifts for the following reasons:
-• They already have the ticket being gifted.
-• Someone else has sent them a ticket already.
-• You do not meet the minimum friendship level requirement to buy this friend a gift.
+TEXT: Некоторые друзья не могут получать платные подарки по следующим причинам:
+• Они уже получили билет в подарок.
+• Кто-то уже отправил им билет в подарок.
+• Вы с другом не достигли уровня дружбы, необходимого для покупки подарка.
 
 RESOURCE ID: shop_gift_friend_ineligible_title
-TEXT: Cannot Send Ticket
+TEXT: Не удалось отправить билет
 
 RESOURCE ID: shop_gift_invitation_description
-TEXT: Hello, <b>{0}</b>! Come join me in this event!
+TEXT: Привет, <b>{0}</b>! Присоединяйся ко мне на этом событии!
 
-Here’s your event ticket. Let’s go!
-
-Sincerely,
+Вот твой билет. Вперёд! 
 —<b>{1}</b>
 
 RESOURCE ID: shop_gift_invitation_title
-TEXT: INVITATION
+TEXT: ПРИГЛАШЕНИЕ
 
 RESOURCE ID: shop_gift_purchase_confirmation_button
 TEXT: ПОДТВЕРДИТЬ
@@ -2323,64 +2353,64 @@ RESOURCE ID: shop_gift_purchase_confirmation_cancel
 TEXT: ОТМЕНИТЬ
 
 RESOURCE ID: shop_gift_purchase_confirmation_description
-TEXT: {0} will receive <b>{1}</b> from you. 
+TEXT: {0} получит от тебя <b>{1}</b>. 
 
-This ticket cannot be used by any other player. This purchase cannot be refunded or undone.
+Этот билет не может быть использован другим игроком. Данная покупка не подлежит возврату или отмене.
 
 RESOURCE ID: shop_gift_purchase_confirmation_gift_policy
-TEXT: SEE GIFTING POLICY
+TEXT: ПОСМОТРЕТЬ ПРАВИЛА ОТПРАВКИ ПОДАРКОВ
 
 RESOURCE ID: shop_gift_purchase_confirmation_title
-TEXT: Confirm Purchase
+TEXT: Подтвердить покупку
 
 RESOURCE ID: shop_gift_purchase_error_modal_description
-TEXT: An error occurred that prevented this purchase from being completed.
-You were not charged for the purchase.
-You will now be returned to the shop.
+TEXT: Произошла ошибка, не позволяющая завершить покупку.
+Средства за покупку не были списаны.
+Произойдёт переход обратно в магазин.
 
 RESOURCE ID: shop_gift_purchase_error_modal_title
-TEXT: Purchase Error
+TEXT: Ошибка при покупке
 
 RESOURCE ID: shop_gift_purchase_friends_disabled_description
-TEXT: In order to give tickets as a gift, Friends Permission must be enabled on this account.
+TEXT: Для отправки билетов в подарок в этом аккаунте должно быть включено разрешение друга.
 
 RESOURCE ID: shop_gift_purchase_friends_disabled_title
-TEXT: Friends Permission Required
+TEXT: Требуется разрешение друга
 
 RESOURCE ID: shop_gift_purchase_invitation_sent
-TEXT: The gift is on its way!
+TEXT: Подарок уже в пути!
 
 RESOURCE ID: shop_gift_purchase_invitation_sent_description
-TEXT: Your gift has been sent to {0}.
+TEXT: Твой подарок был отправлен {0}.
 
-Go tell them about it so they can open the gift in time for the event!
+Расскажи другу об этом, чтобы подарок был открыт вовремя!
 
 RESOURCE ID: shop_gift_purchase_select_friend
-TEXT: Select a Friend
+TEXT: Выбери друга
 
 RESOURCE ID: shop_gift_purchase_user_limit_description
-TEXT: You can only send {0} paid gifts per day. Please wait until tomorrow to purchase more gifts for friends.
+TEXT: Ты можешь отправлять только до {0} платных подарков в день. Дождись следующего дня, чтобы купить новые платные подарки для друзей. 
 
-Daily limits exist to prevent overspending and fraud.
+Дневные лимиты существуют, чтобы предотвратить перерасход средств и мошенничество.
 
 RESOURCE ID: shop_gift_purchase_user_limit_title
-TEXT: Paid Gift Daily Limit Reached
+TEXT: Достигнут дневной лимит платных подарков
 
 RESOURCE ID: shop_gift_redemption_error_modal_description
-TEXT: Unfortunately, your gift could not be sent. The intended recipient obtained the gift by other means while your gift was being processed.
-Please contact your app store for a refund.
+TEXT: К сожалению, твой подарок не может быть отправлен. Адресат получил подарок другим способом, пока обрабатывался твой подарок.
+Пожалуйста, обратись в магазин приложений своего региона за возвратом средств.
 
 RESOURCE ID: shop_gifting_policy_modal_description
-TEXT: • You cannot get a refund for gifts purchased for friends.
-• You cannot cancel a gift after it has been sent.
-• You can only send {0} paid gifts per day.
+TEXT: • Ты не сможешь получить возврат средств за подарки, купленные для друзей.
+• Ты не сможешь произвести отмену после отправки подарка.
+• Ты можешь отправлять только до {0} платных подарков в день.
 
 
 RESOURCE ID: shop_gifting_policy_modal_title
-TEXT: Gifting Policy
+TEXT: Правила отправки подарков
 
 RESOURCE ID: shop_ticket_gift_info
-TEXT: Invite your friends to this event by gifting them a ticket!
+TEXT: Пригласи своих друзей на это событие, подарив им билет!
 
 RESOURCE ID: sis22_collection_challenge
 TEXT: Коллекционное испытание Весёлая весна 2022
@@ -2470,16 +2500,16 @@ RESOURCE ID: tips_raid_tutorial_mega_attack_boost_title
 TEXT: Мегаусиление атаки
 
 RESOURCE ID: trade_mega_level_buddy_prompt_message
-TEXT: This Pokémon was previously your buddy, and it has also previously Mega Evolved. Trading it will reset its Buddy Level and its Mega Level. Do you want to proceed with this trade?
+TEXT: Этот Покемон раньше был твоим приятелем и прошёл мегаэволюцию. Обмен сбросит его уровень приятеля и мегауровень. Продолжить обмен?
 
 RESOURCE ID: trade_mega_level_buddy_prompt_title
-TEXT: Are you sure you want to trade this Pokémon?
+TEXT: Ты действительно хочешь обменять этого Покемона?
 
 RESOURCE ID: trade_mega_level_prompt_message
-TEXT: This Pokémon has previously Mega Evolved. Trading it will reset its Mega Level. Do you want to proceed with the trade?
+TEXT: Этот Покемон раньше прошёл мегаэволюцию. Обмен сбросит его мегауровень. Продолжить обмен?
 
 RESOURCE ID: trade_mega_level_prompt_title
-TEXT: Are you sure you want to trade this Pokémon?
+TEXT: Ты действительно хочешь обменять этого Покемона?
 
 RESOURCE ID: use_system_settings
 TEXT: Use Device Settings

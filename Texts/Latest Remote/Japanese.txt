@@ -668,6 +668,20 @@ TEXT: 相棒をなでてあげる
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: 言語設定を{0}にします。アプリを再起動して設定を適用しますか？
 
+RESOURCE ID: combat_log_upload_complete_modal_body
+TEXT: ゲームログ共有ありがとうございます。このデータはアプリの改善のために使用されます。
+
+発生した問題についてお問い合わせいただく場合は、ゲームログを添えてください。
+
+RESOURCE ID: combat_log_upload_modal_body
+TEXT: 最後に行った対戦で問題が発生した場合、ゲームローグをアップロードしてNianticと共有することができます。
+
+RESOURCE ID: combat_log_upload_modal_complete_title
+TEXT: アップロード完了
+
+RESOURCE ID: combat_log_upload_modal_title
+TEXT: ログのアップロード
+
 RESOURCE ID: combat_processing_shield
 TEXT: シールド準備...
 
@@ -738,7 +752,7 @@ RESOURCE ID: festival_of_colors_event_name
 TEXT: カラーフェスティバル
 
 RESOURCE ID: field_research_special
-TEXT: 特別なフィールドリサーチがいくつかのポケストップから出る
+TEXT: 特別なフィールドリサーチがいくつかのポケストップ・ジムから出る
 
 RESOURCE ID: first_daily_spin_3x_xp
 TEXT: 3x 最初のポケストップ／ジムスピンXP
@@ -801,7 +815,7 @@ RESOURCE ID: furret_walk_description
 TEXT: ウィークリー探索チャレンジ
 
 RESOURCE ID: furret_walk_title
-TEXT: Walk around the World
+TEXT: 歩いて冒険
 
 RESOURCE ID: general1.ticket.2_mudkt_description
 TEXT: 世界中のどこにいても、現地時間2022年4月10日2:00PM～5:00PMにミズゴロウコミュニティ・デイ復刻スペシャルリサーチを行うことができるチケット。詳細は、ゲーム内ニュースで確認できます。
@@ -826,6 +840,20 @@ TEXT: 世界中のどこにいても、現地時間2022年4月23日2:00PM～5:00
 
 RESOURCE ID: general1.ticket.2_stuff_title
 TEXT: じたばたポケモンを解明せよ！
+
+RESOURCE ID: generic_contact_support
+TEXT: 問い合わせる
+
+RESOURCE ID: generic_done
+TEXT: 終了
+
+RESOURCE ID: gofest2022_ticket_description
+TEXT: 世界中のどこにいても現地時間2022年6月4日と5日の10:00AM～6:00PMに、Pokémon GO Fest に参加できるチケットです。また、8月のフィナーレイベントにも参加できます。詳細は、ゲーム内ニュースで確認できます。
+
+すべての特別ボーナス受け取るには、記載の開催時間内にプレイする必要があります。
+
+RESOURCE ID: gofest2022_ticket_title
+TEXT: Pokémon GO Fest 2022 チケット
 
 RESOURCE ID: gotour2022_instinct_leader_prebattle
 TEXT: トレーナーになりたての頃のきみ、覚えてるよ。顔見知りだからって手加減はしないぜ！
@@ -1277,6 +1305,9 @@ TEXT: よっしゃ！
 RESOURCE ID: help_center_friends_link
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=all&s=friends-gifting-trading&f=friend-list-friendship-levels-1614899618
 
+RESOURCE ID: helpshift_sharing_game_logs
+TEXT: https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/3325-sharing-game-logs/
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: ポケモンバトル参加準備完了！
 
@@ -1288,6 +1319,11 @@ TEXT: 現地時間2022年4月23日2:00PM～5:00PMにスペシャルリサーチ�
 
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: このチケットは自動的に発動し、現地時間2022年4月23日にスペシャルリサーチが行えるようになります。
+
+RESOURCE ID: item_global_event_ticket_details
+TEXT: 世界中のどこにいても現地時間2022年6月4日と5日の10:00AM～6:00PMに、Pokémon GO Fest に参加できるチケットです。また、8月のフィナーレイベントにも参加できます。詳細は、ゲーム内ニュースで確認できます。
+
+すべての特別ボーナス受け取るには、記載の開催時間内にプレイする必要があります。
 
 RESOURCE ID: lets_go
 TEXT: さぁ、GOだ！
@@ -1492,15 +1528,15 @@ RESOURCE ID: mega_perks_header
 TEXT: メガシンカボーナス
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-23T00:21:02.457550
-at SHA f78632bff8d7ed3534f432fe6f1689141347224a
+TEXT: Built at 2022-04-27T01:14:34.014300
+at SHA f22c0d06fcf603b12f50bfe2d90c9485c16ac8b8
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: move_name_0365
-TEXT: Luster Purge
+TEXT: ラスターパージ
 
 RESOURCE ID: move_name_0366
-TEXT: Mist Ball
+TEXT: ミストボール
 
 RESOURCE ID: next_button
 TEXT: 次へ
@@ -1509,7 +1545,7 @@ RESOURCE ID: now_label
 TEXT: 0秒
 
 RESOURCE ID: old_friends_description
-TEXT: Old Friends, New Beginnings Timed Research
+TEXT: 友との新たな冒険 - タイムチャレンジ
 
 RESOURCE ID: old_friends_title
 TEXT: 友との新たな冒険
@@ -2379,7 +2415,7 @@ RESOURCE ID: restart_app
 TEXT: 再起動
 
 RESOURCE ID: safari_2022_seville_dialogue_0_0
-TEXT: Welcome to Safari Zone Seville 2022, %PLAYERNAME%!
+TEXT: セビリアにようこそ、%PLAYERNAME%！
 
 RESOURCE ID: screen_title_notification
 TEXT: 通知のオン・オフ
@@ -2557,6 +2593,11 @@ TEXT: 地域のトレーナーが一丸となって完了を目指すチャレ�
 
 RESOURCE ID: timed_challenge_work_together_global_backup
 TEXT: 全世界のトレーナーが一丸となって完了を目指すチャレンジです！
+
+RESOURCE ID: tips_lucky_trading_modal_body
+TEXT: キラ交換を行うと、ポケモンがキラポケモンになります！
+
+キラポケモンになると、バトルでより強くなり、強化に必要なほしのすながより少なくなります。図鑑では背景がキラキラと輝く詳細画面で表示されます。
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_body
 TEXT: メガシンカしたポケモンを使ってレイドバトルに参加すると、一緒に戦うトレーナーのポケモンが与えるダメージが増え、同じタイプのワザであれば、ダメージがさらに増えます。

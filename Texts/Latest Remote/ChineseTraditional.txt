@@ -1,6 +1,9 @@
 RESOURCE ID: accept
 TEXT: 同意
 
+RESOURCE ID: ad_feedback_like_reason_see_more
+TEXT: 我想接收更多來自此廣告商的訊息
+
 RESOURCE ID: add_friend_confirmation_title
 TEXT: 要向 {0} 傳送朋友申請嗎？
 
@@ -46,7 +49,7 @@ RESOURCE ID: adv_perf_performance
 TEXT: PERFORMANCE
 
 RESOURCE ID: adv_perf_recommended
-TEXT: (Recommended)
+TEXT: (推薦)
 
 RESOURCE ID: adv_perf_save
 TEXT: SAVE
@@ -196,19 +199,19 @@ RESOURCE ID: adv_perv_v1_performance_preset
 TEXT: PERFORMANCE PRESETS
 
 RESOURCE ID: adv_set_custom
-TEXT: Custom
+TEXT: 自訂
 
 RESOURCE ID: adv_set_high
-TEXT: High
+TEXT: 高
 
 RESOURCE ID: adv_set_low
-TEXT: Low
+TEXT: 低
 
 RESOURCE ID: adv_set_max
-TEXT: Max
+TEXT: 最高
 
 RESOURCE ID: adv_set_medium
-TEXT: Medium
+TEXT: 中
 
 RESOURCE ID: af2022_event_name
 TEXT: 2022愚人節
@@ -443,6 +446,20 @@ TEXT: This will change the game’s language setting to {0}. Do you want to rest
 RESOURCE ID: combat_challenge_canceled_generic
 TEXT: 挑戰者已取消此次挑戰
 
+RESOURCE ID: combat_log_upload_complete_modal_body
+TEXT: Thank you for sharing your game logs with Niantic. This data will help us improve Pokémon GO.
+
+For further assistance, please contact support and mention your uploaded game logs.
+
+RESOURCE ID: combat_log_upload_modal_body
+TEXT: If you experienced issues during your last Trainer Battle, consider uploading your game logs via the Game Logging feature to share them with Niantic.
+
+RESOURCE ID: combat_log_upload_modal_complete_title
+TEXT: Upload Complete!
+
+RESOURCE ID: combat_log_upload_modal_title
+TEXT: Upload Game Logs
+
 RESOURCE ID: combat_processing_shield
 TEXT: 正在準備防禦網……
 
@@ -589,6 +606,20 @@ TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當�
 
 RESOURCE ID: general1.ticket.2_stuff_title
 TEXT: 抓狂毛茸茸入場券
+
+RESOURCE ID: generic_contact_support
+TEXT: How to Share Game Logs
+
+RESOURCE ID: generic_done
+TEXT: Done
+
+RESOURCE ID: gofest2022_ticket_description
+TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2022年6月4日、5日的10:00～18:00參加遊戲裡的Pokémon GO Fest。除此之外, 你還可以參加八月底的閉幕活動。詳情請至遊戲內快訊確認。
+
+請務必在上述活動時間內完成活動指定的課題，以取得活動獎勵。
+
+RESOURCE ID: gofest2022_ticket_title
+TEXT: Pokémon GO Fest 2022 入場券
 
 RESOURCE ID: gotour2022_instinct_leader_prebattle
 TEXT: 我還記得當年你還是個新人那時候的事。但就算我認識你，我也不會放水！
@@ -1040,6 +1071,9 @@ TEXT: 喔耶！
 RESOURCE ID: help_center_friends_link
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=all&s=friends-gifting-trading&f=friend-list-friendship-levels-1614899618
 
+RESOURCE ID: helpshift_sharing_game_logs
+TEXT: https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/3325-sharing-game-logs/
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: 看來你已經做好參加寶可夢對戰的準備了！
 
@@ -1051,6 +1085,11 @@ TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時�
 
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2022年4月23日活動時間內領取特殊調查。
+
+RESOURCE ID: item_global_event_ticket_details
+TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2022年6月4日、5日的10:00～18:00參加遊戲裡的Pokémon GO Fest。除此之外, 你還可以參加八月底的閉幕活動。詳情請至遊戲內快訊確認。
+
+請務必在上述活動時間內完成活動指定的課題，以取得活動獎勵。
 
 RESOURCE ID: lets_go
 TEXT: Let's GO!
@@ -1264,8 +1303,8 @@ RESOURCE ID: mega_perks_header
 TEXT: 超級進化獎勵
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-23T00:21:02.457550
-at SHA f78632bff8d7ed3534f432fe6f1689141347224a
+TEXT: Built at 2022-04-27T01:14:34.014300
+at SHA f22c0d06fcf603b12f50bfe2d90c9485c16ac8b8
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: move_name_0365
@@ -1287,7 +1326,7 @@ RESOURCE ID: pair_friend_pinned_your_postcard
 TEXT: {0} 和 {1} 儲存了你的明信片！
 
 RESOURCE ID: performance_successfully_updated
-TEXT: Your performance settings were successfully updated!
+TEXT: 成功更新效能設定！
 
 RESOURCE ID: photobomb_five_mudkip
 TEXT: 水躍魚將在GO Snapshot中驚喜現身5次

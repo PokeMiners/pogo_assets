@@ -913,6 +913,20 @@ TEXT: Dost Pokémon'unla şehrini keşfetme vakti geldi %PLAYERNAME%! Ben de ayn
 RESOURCE ID: combat_challenge_canceled_generic
 TEXT: Meydan okuma iptal edildi.
 
+RESOURCE ID: combat_log_upload_complete_modal_body
+TEXT: Thank you for sharing your game logs with Niantic. This data will help us improve Pokémon GO.
+
+For further assistance, please contact support and mention your uploaded game logs.
+
+RESOURCE ID: combat_log_upload_modal_body
+TEXT: If you experienced issues during your last Trainer Battle, consider uploading your game logs via the Game Logging feature to share them with Niantic.
+
+RESOURCE ID: combat_log_upload_modal_complete_title
+TEXT: Upload Complete!
+
+RESOURCE ID: combat_log_upload_modal_title
+TEXT: Upload Game Logs
+
 RESOURCE ID: combat_processing_shield
 TEXT: Koruma kalkanı kullanılmaya çalışılıyor...
 
@@ -1146,6 +1160,12 @@ TEXT: Bu bilet 23 Nisan 2022’de, yerel saatle 14:00-17:00 arasında gerçekle�
 RESOURCE ID: general1.ticket.2_stuff_title
 TEXT: Yumuşacık Ayıcık Bileti
 
+RESOURCE ID: generic_contact_support
+TEXT: How to Share Game Logs
+
+RESOURCE ID: generic_done
+TEXT: Done
+
 RESOURCE ID: global_victini_dialogue_3_4
 TEXT: Bu becerileri daha da geliştirmek için Dostunla biraz vakit geçirmeye ne dersin?
 
@@ -1157,6 +1177,14 @@ TEXT: Dostunla aranda harika bir bağ var Eğitmen! Dostluğunuzun ilerlemesini 
 
 RESOURCE ID: gofest2020_quest_rocket_dialogue_3_7
 TEXT: Giovanni'nin, maçlara sık sık Dövüşçü türü saldırılarına karşı zayıf olan Dost Pokémon'u Persian'la başladığını duydum. Daha önce yakaladığın Machamp bu konuda sana yardımcı olabilir.
+
+RESOURCE ID: gofest2022_ticket_description
+TEXT: 4-5 Haziran 2022’de yerel saatle 10:00-18:00 arasında gerçekleşecek Pokémon GO Festivaline dilediğiniz yerden katılmanızı sağlayacak bir bilet. Ayrıca bu biletle ağustos ayında gerçekleşecek Pokémon GO Festivali final etkinliğine de erişebileceksiniz. Ayrıntıları oyun içi Haberler bölümünde bulabilirsiniz.
+
+TÜM ÖZEL ETKİNLİK BONUSLARINI ALABİLMEK İÇİN BELİRTİLEN SÜRE İÇİNDE OYNAMALISINIZ.
+
+RESOURCE ID: gofest2022_ticket_title
+TEXT: Pokémon GO Festivali 2022 Bileti
 
 RESOURCE ID: gotour2022_instinct_leader_prebattle
 TEXT: Daha yeni başladığın zamanları hatırlıyorum. Ama eski arkadaşız diye sana iltimas göstereceğimi sanma.
@@ -1623,6 +1651,9 @@ TEXT: Kazandın!
 RESOURCE ID: help_center_friends_link
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?s=friends-gifting-trading&f=adding-friends
 
+RESOURCE ID: helpshift_sharing_game_logs
+TEXT: https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/3325-sharing-game-logs/
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Artık Pokémon maçlarına katılmaya hazırsın!
 
@@ -1634,6 +1665,11 @@ TEXT: Bu bilet 23 Nisan 2022'de, yerel saatle 14:00-17:00 arasında gerçekleşe
 
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Bu bilet 23 Nisan 2022'de gerçekleşecek özel araştırmaya dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_global_event_ticket_details
+TEXT: 4-5 Haziran 2022’de yerel saatle 10:00-18:00 arasında gerçekleşecek Pokémon GO Festivaline dilediğiniz yerden katılmanızı sağlayacak bir bilet. Ayrıca bu biletle ağustos ayında gerçekleşecek Pokémon GO Festivali final etkinliğine de erişebileceksiniz. Ayrıntıları oyun içi Haberler bölümünde bulabilirsiniz.
+
+TÜM ÖZEL ETKİNLİK BONUSLARINI ALABİLMEK İÇİN BELİRTİLEN SÜRE İÇİNDE OYNAMALISINIZ.
 
 RESOURCE ID: item_leader_map_fragment_desc
 TEXT: GO Roket Takımı Serserilerini yendiğinizde bir Gizemli Bileşen elde edersiniz. Birleştirmek için altı tane Gizemli Bileşen toplayın!
@@ -1875,8 +1911,8 @@ RESOURCE ID: mega_perks_header
 TEXT: Mega Evrim Bonusları
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-23T00:21:02.457550
-at SHA f78632bff8d7ed3534f432fe6f1689141347224a
+TEXT: Built at 2022-04-27T01:14:34.014300
+at SHA f22c0d06fcf603b12f50bfe2d90c9485c16ac8b8
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: move_name_0240
@@ -1889,10 +1925,10 @@ RESOURCE ID: move_name_0345
 TEXT: Kasırga
 
 RESOURCE ID: move_name_0365
-TEXT: Luster Purge
+TEXT: Cila Temizliği
 
 RESOURCE ID: move_name_0366
-TEXT: Mist Ball
+TEXT: Sis Topu
 
 RESOURCE ID: mvt_stat_use_buddy_player_details
 TEXT: Maça bir Dost Pokémon getirdi
@@ -1984,6 +2020,9 @@ TEXT: Titreşen Pokémon
 RESOURCE ID: pokemon_category_0334
 TEXT: Mırıldanan Pokémon
 
+RESOURCE ID: pokemon_category_0392
+TEXT: Alev Pokémon
+
 RESOURCE ID: pokemon_category_0447
 TEXT: Duygu Yayan Pokémon
 
@@ -2029,11 +2068,17 @@ TEXT: Ay Gücü Pokémon
 RESOURCE ID: pokemon_category_0794
 TEXT: Kaslı Pokémon
 
+RESOURCE ID: pokemon_desc_0271
+TEXT: Lombre gececidir. Alacakaranlık vaktinden sonra harekete geçer. Aynı zamanda biraz haylazdır. Bu Pokémon, balıkçıları fark ettiğinde aşağıdan oltalarını çeker ve onların yaşadığı şaşkınlıktan zevk alır.
+
 RESOURCE ID: pokemon_desc_0335
 TEXT: Ezeli rakibi Seviper'la yaptığı maçın anıları, Zangoose'un vücudundaki her bir hücresine nüfuz etmiştir. Bu Pokémon, inanılmaz bir çeviklikle kendisine yapılan saldırılardan kaçınır.
 
 RESOURCE ID: pokemon_desc_0569
 TEXT: Bazıları, Alola'daki Garbodor'ların başka yerlerdeki akranlarından biraz daha güçlü olmasının nedeninin, doğal düşmanları Muk'ın varlığı olduğunu söyler.
+
+RESOURCE ID: pokemon_desc_0581
+TEXT: Swanna'lar alacakaranlık vakti dans etmeye başlar. Ortada dans eden, sürünün lideridir.
 
 RESOURCE ID: pokemon_desc_0741_2679
 TEXT: Bu Oricorio, kırmızı nektar içmiş. Hırslı Pokémon, Eğitmeni yanlış bir emir verirse çok sinirlenir.
@@ -2059,8 +2104,17 @@ TEXT: Bu Pokémon'u evrimleştirmek için Dostunuz {0} ile birlikte yürüyün.
 RESOURCE ID: pokemon_info_evolve_need_buddy_distance
 TEXT: Bu Dostla {0} km daha yürüyün.
 
+RESOURCE ID: pokemon_info_evolve_need_candies
+TEXT: Daha fazla {0} şekeri gerekli.
+
 RESOURCE ID: pokemon_info_evolve_need_quest_completion
 TEXT: Bu Dostla bir görev bitirin
+
+RESOURCE ID: pokemon_info_powerup_need_candies
+TEXT: Daha fazla {0} şekeri gerekli.
+
+RESOURCE ID: pokemon_info_powerup_need_xl_candies
+TEXT: Daha fazla {0} büyük şekeri gerekli.
 
 RESOURCE ID: pokemon_info_transfer_pokemon_buddies
 TEXT: Dostunuzu seçemezsiniz!
@@ -2809,6 +2863,9 @@ TEXT: Umarım yeni Stufful ve Bewear’lerinle arkadaşlığında şansın bende
 RESOURCE ID: quest_special_dialogue_swabt_3_1
 TEXT: Swablu'nun Evrimi Altaria'ya Mırıldanan Pokémon denir.
 
+RESOURCE ID: quest_special_dialogue_swabt_3_3
+TEXT: Bir de durmadan mırıldanır! İnsanlar Altaria'nın mırıldanışının güzelliğiyle tüm izleyicileri büyüleyebileceğini söyler ve nedenini anlamak pek de zor değil.
+
 RESOURCE ID: quest_special_dialogue_tcg1_0_1
 TEXT: Dost Pokémon'um ve takım liderlerinin dostları hakkında daha fazla araştırma yapmanın ilginç olacağını düşünüyordum. 
 
@@ -3076,6 +3133,15 @@ TEXT: Dostunuzla bir akın kazanın
 RESOURCE ID: quests_batch_updated
 TEXT: {0} Research Tasks Updated
 
+RESOURCE ID: raid_defeat_message
+TEXT: Tüm Pokémon’lar bayıldı.
+
+RESOURCE ID: recycle_dialog_prefix
+TEXT: {0}
+
+RESOURCE ID: recycle_dialog_suffix
+TEXT: atılsın mı?
+
 RESOURCE ID: restart_app
 TEXT: Restart
 
@@ -3331,13 +3397,13 @@ RESOURCE ID: trade_exclusion_reason_buddy
 TEXT: Bu Pokémon sizin Dost Pokémon'unuz.
 
 RESOURCE ID: trade_mega_level_buddy_prompt_message
-TEXT: Bu Pokémon daha önce hem dostunuzdu hem de mega evrimleşmiş. Takas ettiğinizde dost ve mega seviyeler sıfırlanacak. Takasa devam etmek istiyor musunuz?
+TEXT: Bu Pokémon daha önce hem dostunuzdu hem de mega evrimleşmiş. Takas ettiğinizde dost ve mega seviyeleri sıfırlanacak. Takasa devam etmek istiyor musunuz?
 
 RESOURCE ID: trade_mega_level_buddy_prompt_title
 TEXT: Bu Pokémon’u takas etmek istediğinizden emin misiniz?
 
 RESOURCE ID: trade_mega_level_prompt_message
-TEXT: Bu Pokémon daha önce mega evrimleşmiş. Takas ettiğinizde mega seviye sıfırlanacak. Takasa devam etmek istiyor musunuz?
+TEXT: Bu Pokémon daha önce mega evrimleşmiş. Takas ettiğinizde mega seviyesi sıfırlanacak. Takasa devam etmek istiyor musunuz?
 
 RESOURCE ID: trade_mega_level_prompt_title
 TEXT: Bu Pokémon’u takas etmek istediğinizden emin misiniz?

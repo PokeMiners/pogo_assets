@@ -528,6 +528,20 @@ TEXT: 간식을 준다
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: This will change the game’s language setting to {0}. Do you want to restart the game to apply this setting?
 
+RESOURCE ID: combat_log_upload_complete_modal_body
+TEXT: Thank you for sharing your game logs with Niantic. This data will help us improve Pokémon GO.
+
+For further assistance, please contact support and mention your uploaded game logs.
+
+RESOURCE ID: combat_log_upload_modal_body
+TEXT: If you experienced issues during your last Trainer Battle, consider uploading your game logs via the Game Logging feature to share them with Niantic.
+
+RESOURCE ID: combat_log_upload_modal_complete_title
+TEXT: Upload Complete!
+
+RESOURCE ID: combat_log_upload_modal_title
+TEXT: Upload Game Logs
+
 RESOURCE ID: combat_processing_shield
 TEXT: 실드 준비...
 
@@ -683,6 +697,18 @@ TEXT: 전 세계 어디에 있어도 현지 시간 2022년 4월 23일 14시~ 17�
 
 RESOURCE ID: general1.ticket.2_stuff_title
 TEXT: 바둥바둥포켓몬의 수수께끼를 풀어라!
+
+RESOURCE ID: generic_contact_support
+TEXT: How to Share Game Logs
+
+RESOURCE ID: generic_done
+TEXT: Done
+
+RESOURCE ID: gofest2022_ticket_description
+TEXT: 당신이 전 세계 어디에 있든지 현지 시각으로 2022년 6월 4일과 5일, 10시~18시까지 Pokémon GO Fest에 참가할 수 있는 티켓입니다. 또한 8월에 있을 Pokémon GO 피날레 이벤트 참가 자격도 주어집니다. 더 자세한 사항은 게임 내의 뉴스 란을 참고하세요. 스페셜 이벤트 보너스를 수령하기 위해서는 꼭 이벤트 기간 내에 플레이해 주세요.
+
+RESOURCE ID: gofest2022_ticket_title
+TEXT: Pokémon GO Fest 2022 티켓
 
 RESOURCE ID: gotour2022_instinct_leader_prebattle
 TEXT: 막 트레이너가 되었을 때의 널 기억해. 낯익은 얼굴이라고 봐주진 않아!
@@ -1137,6 +1163,9 @@ TEXT: 체육관을 격파했다
 RESOURCE ID: help_center_friends_link
 TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=all&s=friends-gifting-trading&f=friend-list-friendship-levels-1614899618
 
+RESOURCE ID: helpshift_sharing_game_logs
+TEXT: https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/3325-sharing-game-logs/
+
 RESOURCE ID: invite_action_label
 TEXT: 초대
 
@@ -1151,6 +1180,9 @@ TEXT: 현지 시간 2022년 4월 23일 14시~17시에 스페셜리서치를 진�
 
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2020년4월 23일 스페셜리서치가 진행됩니다.
+
+RESOURCE ID: item_global_event_ticket_details
+TEXT: 당신이 전 세계 어디에 있든지 현지 시각으로 2022년 6월 4일과 5일, 10시~18시까지 Pokémon GO Fest에 참가할 수 있는 티켓입니다. 또한 8월에 있을 Pokémon GO 피날레 이벤트 참가 자격도 주어집니다. 더 자세한 사항은 게임 내의 뉴스 란을 참고하세요. 스페셜 이벤트 보너스를 수령하기 위해서는 꼭 이벤트 기간 내에 플레이해 주세요.
 
 RESOURCE ID: lets_go
 TEXT: Let’s GO!
@@ -1352,15 +1384,15 @@ RESOURCE ID: mega_perks_header
 TEXT: 메가진화 보너스
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-23T00:21:02.457550
-at SHA f78632bff8d7ed3534f432fe6f1689141347224a
+TEXT: Built at 2022-04-27T01:14:34.014300
+at SHA f22c0d06fcf603b12f50bfe2d90c9485c16ac8b8
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: move_name_0365
-TEXT: Luster Purge
+TEXT: 라스트버지
 
 RESOURCE ID: move_name_0366
-TEXT: Mist Ball
+TEXT: 미스트볼
 
 RESOURCE ID: now_label
 TEXT: Now
@@ -2465,16 +2497,16 @@ RESOURCE ID: trade_detail_appraisal
 TEXT: 평가:
 
 RESOURCE ID: trade_mega_level_buddy_prompt_message
-TEXT: This Pokémon was previously your buddy, and it has also previously Mega Evolved. Trading it will reset its Buddy Level and its Mega Level. Do you want to proceed with this trade?
+TEXT: 이 포켓몬은 파트너 포켓몬이었고 메가진화한 적이 있습니다. 교환하면 파트너, 메가레벨이 리셋됩니다. 계속 하겠습니까?
 
 RESOURCE ID: trade_mega_level_buddy_prompt_title
-TEXT: Are you sure you want to trade this Pokémon?
+TEXT: 메가레벨이 있는 전 파트너 포켓몬을 교환에 내보내겠습니까?
 
 RESOURCE ID: trade_mega_level_prompt_message
-TEXT: This Pokémon has previously Mega Evolved. Trading it will reset its Mega Level. Do you want to proceed with the trade?
+TEXT: 이 포켓몬은 메가진화한 적이 있습니다. 교환하면 메가레벨이 리셋됩니다. 계속하겠습니까?
 
 RESOURCE ID: trade_mega_level_prompt_title
-TEXT: Are you sure you want to trade this Pokémon?
+TEXT: 정말로 이 메가레벨이 올라간 포켓몬을 교환에 내보내겠습니까?
 
 RESOURCE ID: use_system_settings
 TEXT: Use Device Settings

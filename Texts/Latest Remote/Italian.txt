@@ -494,6 +494,20 @@ TEXT: This will change the game’s language setting to {0}. Do you want to rest
 RESOURCE ID: combat_challenge_canceled_generic
 TEXT: La sfida è stata annullata.
 
+RESOURCE ID: combat_log_upload_complete_modal_body
+TEXT: Thank you for sharing your game logs with Niantic. This data will help us improve Pokémon GO.
+
+For further assistance, please contact support and mention your uploaded game logs.
+
+RESOURCE ID: combat_log_upload_modal_body
+TEXT: If you experienced issues during your last Trainer Battle, consider uploading your game logs via the Game Logging feature to share them with Niantic.
+
+RESOURCE ID: combat_log_upload_modal_complete_title
+TEXT: Upload Complete!
+
+RESOURCE ID: combat_log_upload_modal_title
+TEXT: Upload Game Logs
+
 RESOURCE ID: combat_processing_shield
 TEXT: Tentativo di utilizzo di uno scudo protettivo...
 
@@ -631,6 +645,20 @@ PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 
 RESOURCE ID: general1.ticket.2_stuff_title
 TEXT: Biglietto: Roba tosta
+
+RESOURCE ID: generic_contact_support
+TEXT: How to Share Game Logs
+
+RESOURCE ID: generic_done
+TEXT: Fatto
+
+RESOURCE ID: gofest2022_ticket_description
+TEXT: Un biglietto per partecipare a entrambe le giornate del Festival di Pokémon GO, il 4 e il 5 giugno 2022 dalle 10:00 alle 18:00 ora locale, ovunque ti trovi. Con questo biglietto avrai anche accesso all’evento finale del Festival di Pokémon GO in agosto. Per ulteriori dettagli consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: gofest2022_ticket_title
+TEXT: Biglietto per il Festival di Pokémon GO 2022
 
 RESOURCE ID: gotour2022_instinct_leader_prebattle
 TEXT: Ricordo quando eri alle prime armi. Ma non ti farò sconti solo perché siamo amici da tanto tempo!
@@ -1079,6 +1107,9 @@ TEXT: E vai!
 RESOURCE ID: grunt_generic_victory#7__male_speaker
 TEXT: E vai!
 
+RESOURCE ID: helpshift_sharing_game_logs
+TEXT: https://niantic.helpshift.com/hc/en/6-pokemon-go/faq/3325-sharing-game-logs/
+
 RESOURCE ID: item_event_ticket_gray_desc
 TEXT: Vorrà dire che hai tutte le carte in regola per affrontare delle lotte Pokémon!
 
@@ -1090,6 +1121,11 @@ TEXT: Un biglietto per accedere a una ricerca speciale il 23 aprile 2022 dalle 1
 
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso a una ricerca speciale il 23 aprile 2022, ovunque ti trovi.
+
+RESOURCE ID: item_global_event_ticket_details
+TEXT: Un biglietto per partecipare a entrambe le giornate del Festival di Pokémon GO, il 4 e il 5 giugno 2022 dalle 10:00 alle 18:00 ora locale, ovunque ti trovi. Con questo biglietto avrai anche accesso all’evento finale del Festival di Pokémon GO in agosto. Per ulteriori dettagli consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 
 RESOURCE ID: lets_go
 TEXT: Pronti, partenza... GO!
@@ -1306,8 +1342,8 @@ RESOURCE ID: mega_perks_header
 TEXT: Bonus megaevoluzione
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-23T00:21:02.457550
-at SHA f78632bff8d7ed3534f432fe6f1689141347224a
+TEXT: Built at 2022-04-27T01:14:34.014300
+at SHA f22c0d06fcf603b12f50bfe2d90c9485c16ac8b8
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: move_name_0365
@@ -2184,30 +2220,30 @@ RESOURCE ID: settings_advanced_adjust_performance_sub
 TEXT: Optimize your gameplay experience based on your device. Doing so may improve performance or save battery life.
 
 RESOURCE ID: shop_already_own_this_ticket
-TEXT: You already have a ticket for this event.
+TEXT: Hai già un biglietto per questo evento.
 
 RESOURCE ID: shop_confirm_gift
-TEXT: GIFT
+TEXT: PACCO AMICIZIA
 
 RESOURCE ID: shop_gift_friend_ineligible_description
-TEXT: Some friends may be ineligible to receive paid gifts for the following reasons:
-• They already have the ticket being gifted.
-• Someone else has sent them a ticket already.
-• You do not meet the minimum friendship level requirement to buy this friend a gift.
+TEXT: Alcuni amici potrebbero non presentare i requisiti per ricevere pacchi amicizia a pagamento per le seguenti ragioni:
+• Hanno già ricevuto il biglietto in regalo.
+• Qualcun altro ha già inviato loro il biglietto.
+• Non possiedi il livello minimo di amicizia richiesto per comprare un pacco amicizia a questo amico.
 
 RESOURCE ID: shop_gift_friend_ineligible_title
-TEXT: Cannot Send Ticket
+TEXT: Impossibile inviare biglietto
 
 RESOURCE ID: shop_gift_invitation_description
-TEXT: Hello, <b>{0}</b>! Come join me in this event!
+TEXT: Ciao, <b>{0}</b>! Unisciti a me in questo evento!
 
-Here’s your event ticket. Let’s go!
+Ecco il tuo biglietto. Andiamo!
 
-Sincerely,
-—<b>{1}</b>
+Saluti,
+-<b>{1}</b>
 
 RESOURCE ID: shop_gift_invitation_title
-TEXT: INVITATION
+TEXT: INVITO
 
 RESOURCE ID: shop_gift_purchase_confirmation_button
 TEXT: CONFERMA
@@ -2216,64 +2252,64 @@ RESOURCE ID: shop_gift_purchase_confirmation_cancel
 TEXT: ANNULLA
 
 RESOURCE ID: shop_gift_purchase_confirmation_description
-TEXT: {0} will receive <b>{1}</b> from you. 
+TEXT: {0} riceverà <b>{1}</b> da parte tua. 
 
-This ticket cannot be used by any other player. This purchase cannot be refunded or undone.
+Questo biglietto non potrà essere usato da altri giocatori. L’acquisto non può essere annullato o rimborsato.
 
 RESOURCE ID: shop_gift_purchase_confirmation_gift_policy
-TEXT: SEE GIFTING POLICY
+TEXT: VEDI REGOLAMENTO INVIO PACCHI AMICIZIA
 
 RESOURCE ID: shop_gift_purchase_confirmation_title
-TEXT: Confirm Purchase
+TEXT: Conferma acquisto
 
 RESOURCE ID: shop_gift_purchase_error_modal_description
-TEXT: An error occurred that prevented this purchase from being completed.
-You were not charged for the purchase.
-You will now be returned to the shop.
+TEXT: Un errore ha impedito che questo acquisto andasse a buon fine.
+Il costo dell’acquisto non ti è stato addebitato.
+Farai ritorno al negozio.
 
 RESOURCE ID: shop_gift_purchase_error_modal_title
-TEXT: Purchase Error
+TEXT: Errore acquisto
 
 RESOURCE ID: shop_gift_purchase_friends_disabled_description
-TEXT: In order to give tickets as a gift, Friends Permission must be enabled on this account.
+TEXT: Per poter dare in regalo dei biglietti, devi abilitare il permesso degli amici su questo account.
 
 RESOURCE ID: shop_gift_purchase_friends_disabled_title
-TEXT: Friends Permission Required
+TEXT: Richiede permesso degli amici
 
 RESOURCE ID: shop_gift_purchase_invitation_sent
-TEXT: The gift is on its way!
+TEXT: Il pacco amicizia sta per arrivare!
 
 RESOURCE ID: shop_gift_purchase_invitation_sent_description
-TEXT: Your gift has been sent to {0}.
+TEXT: Hai inviato il tuo pacco amicizia a {0}.
 
-Go tell them about it so they can open the gift in time for the event!
+Faglielo sapere, così potrà aprirlo in tempo per l'evento!
 
 RESOURCE ID: shop_gift_purchase_select_friend
-TEXT: Select a Friend
+TEXT: Seleziona un amico
 
 RESOURCE ID: shop_gift_purchase_user_limit_description
-TEXT: You can only send {0} paid gifts per day. Please wait until tomorrow to purchase more gifts for friends.
+TEXT: Puoi inviare solo {0} pacchi amicizia a pagamento al giorno. Aspetta fino a domani per poter acquistare altri pacchi amicizia per i tuoi amici.
 
-Daily limits exist to prevent overspending and fraud.
+Il limite giornaliero serve a prevenire acquisti compulsivi e frodi.
 
 RESOURCE ID: shop_gift_purchase_user_limit_title
-TEXT: Paid Gift Daily Limit Reached
+TEXT: Limite giornaliero pacchi amicizia a pagamento raggiunto
 
 RESOURCE ID: shop_gift_redemption_error_modal_description
-TEXT: Unfortunately, your gift could not be sent. The intended recipient obtained the gift by other means while your gift was being processed.
-Please contact your app store for a refund.
+TEXT: Purtroppo non è stato possibile inviare il tuo pacco amicizia. Il destinatario ha già ricevuto il pacco amicizia in altro modo durante il trasferimento.
+Contatta App Store o Google Play per un rimborso.
 
 RESOURCE ID: shop_gifting_policy_modal_description
-TEXT: • You cannot get a refund for gifts purchased for friends.
-• You cannot cancel a gift after it has been sent.
-• You can only send {0} paid gifts per day.
+TEXT: • Non puoi ottenere un rimborso per acquisti fatti per amici.
+• Non puoi annullare un pacco amicizia una volta inviato.
+• Puoi inviare solo {0} pacchi amicizia a pagamento al giorno.
 
 
 RESOURCE ID: shop_gifting_policy_modal_title
-TEXT: Gifting Policy
+TEXT: Regolamento invio pacchi amicizia
 
 RESOURCE ID: shop_ticket_gift_info
-TEXT: Invite your friends to this event by gifting them a ticket!
+TEXT: Invita i tuoi amici a questo evento donando loro un biglietto!
 
 RESOURCE ID: sis22_collection_challenge
 TEXT: Sfida di collezione Profumo di primavera 2022
@@ -2354,16 +2390,16 @@ RESOURCE ID: tips_raid_tutorial_mega_attack_boost_title
 TEXT: Potenziamento dei megattacchi
 
 RESOURCE ID: trade_mega_level_buddy_prompt_message
-TEXT: This Pokémon was previously your buddy, and it has also previously Mega Evolved. Trading it will reset its Buddy Level and its Mega Level. Do you want to proceed with this trade?
+TEXT: Questo Pokémon è stato tuo compagno, e si è anche megaevoluto. Scambiandolo azzererai il vostro livello di affiatamento e il suo megalivello. Vuoi procedere ugualmente con lo scambio?
 
 RESOURCE ID: trade_mega_level_buddy_prompt_title
-TEXT: Are you sure you want to trade this Pokémon?
+TEXT: Vuoi davvero scambiare questo Pokémon?
 
 RESOURCE ID: trade_mega_level_prompt_message
-TEXT: This Pokémon has previously Mega Evolved. Trading it will reset its Mega Level. Do you want to proceed with the trade?
+TEXT: Questo Pokémon si è megaevoluto. Scambiandolo azzererai il suo megalivello. Vuoi procedere ugualmente con lo scambio?
 
 RESOURCE ID: trade_mega_level_prompt_title
-TEXT: Are you sure you want to trade this Pokémon?
+TEXT: Vuoi davvero scambiare questo Pokémon?
 
 RESOURCE ID: use_system_settings
 TEXT: Usa le impostazioni del dispositivo
