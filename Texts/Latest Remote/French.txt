@@ -486,6 +486,24 @@ TEXT: Un Échange spécial supplémentaire pendant l’évènement et jusqu’à
 RESOURCE ID: bonus_trade_stardust_stufful
 TEXT: Les échanges effectués pendant l’évènement et jusqu’à 2 heures après sa fin nécessiteront 50 % de Poussières Étoiles en moins.
 
+RESOURCE ID: branch_megav3_1a_description
+TEXT: En choisissant Florizarre, tu pourras gagner de la Méga-Énergie Florizarre et rencontrer Florizarre plus tard.
+
+RESOURCE ID: branch_megav3_1a_title
+TEXT: Choisis Florizarre.
+
+RESOURCE ID: branch_megav3_1b_description
+TEXT: En choisissant Dracaufeu, tu pourras gagner de la Méga-Énergie Dracaufeu et rencontrer Dracaufeu plus tard.
+
+RESOURCE ID: branch_megav3_1b_title
+TEXT: Choisis Dracaufeu.
+
+RESOURCE ID: branch_megav3_1c_description
+TEXT: En choisissant Tortank, tu pourras gagner de la Méga-Énergie Tortank et rencontrer Tortank plus tard.
+
+RESOURCE ID: branch_megav3_1c_title
+TEXT: Choisis Tortank.
+
 RESOURCE ID: bundle_retweet_reward
 TEXT: Boite récompense : retweet
 
@@ -638,14 +656,6 @@ Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet 
 
 RESOURCE ID: general1.ticket.2_sandt_title
 TEXT: Sableux et neigeux
-
-RESOURCE ID: general1.ticket.2_stuff_description
-TEXT: Un ticket pour accéder à l’Étude spéciale “Un ours mal léché” le 23 avril 2022 de 14h à 17h (heures locales), où que tu sois. Consulte les Actualités en jeu pour plus d’infos.
-
-Tu dois jouer pendant les heures indiquées pour recevoir tous les bonus de cet évènement spécial.
-
-RESOURCE ID: general1.ticket.2_stuff_title
-TEXT: Ticket pour “Un ours mal léché”
 
 RESOURCE ID: generic_contact_support
 TEXT: How to Share Game Logs
@@ -1129,11 +1139,11 @@ TEXT: Tu es prêt à participer à des combats Pokémon.
 RESOURCE ID: item_event_ticket_gray_name
 TEXT: Ticket
 
-RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Un ticket pour accéder à une Étude spéciale le 23 avril 2022 de 14h à 17h (heures locales), où que tu sois.
-
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Ce ticket s’activera automatiquement pour te donner accès à une Étude spéciale le 23 avril 2022, où que tu sois.
+
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: Un ticket pour accéder au Festival Pokémon GO les 4 et 5 juin 2022, de 10h à 18h (heures locales), où que tu sois. 
 
 RESOURCE ID: item_global_event_ticket_details
 TEXT: Un ticket pour accéder au Festival Pokémon GO les 4 et 5 juin 2022, de 10h à 18h (heures locales), où que tu sois. Tu auras également accès à l’évènement final du Festival Pokémon GO en août. Consulte les Actualités en jeu pour plus d’infos.
@@ -1354,9 +1364,12 @@ TEXT: Grandes chances de Bonbons L
 RESOURCE ID: mega_perks_header
 TEXT: Bonus de Méga-Évolution
 
+RESOURCE ID: mega_v3_event_name
+TEXT: Un Méga-moment
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-27T01:14:34.014300
-at SHA f22c0d06fcf603b12f50bfe2d90c9485c16ac8b8
+TEXT: Built at 2022-04-28T15:29:56.168482
+at SHA 5cf0dcd79c71c2fa55d1e66765b08c2ab235bec2
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: move_name_0365
@@ -1439,9 +1452,6 @@ TEXT: Les classiques de la Journée Communauté – Gobou
 
 RESOURCE ID: quest_complete_sandt
 TEXT: Sableux et neigeux
-
-RESOURCE ID: quest_complete_stuff
-TEXT: Un ours mal léché
 
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: Étude Noeunoeuf : combats dans une Arène
@@ -1682,6 +1692,147 @@ TEXT: Si je pouvais rencontrer moi-même l’une des divinités protectrices, ç
 
 RESOURCE ID: quest_special_dialogue_akala_3_8
 TEXT: Je vais y réfléchir. Ne t’inquiète pas de ça : sors et profite de cette journée ! À bientôt ! Vas-y, GO !
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_0
+TEXT: Bonjour, %PLAYERNAME% !
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_1
+TEXT: J’ai prévu quelque chose d’intéressant pour toi aujourd’hui... On pourrait dire que c’est une méga-surprise, haha !
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_2
+TEXT: Il me reste cependant quelques détails à régler.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_3
+TEXT: Pendant que je termine mes préparatifs, que dirais-tu de faire un tour et de voir quels Pokémon on peut rencontrer aujourd’hui ?
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_4
+TEXT: J’aurai fini quand tu reviendras.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_0
+TEXT: Ah, tu es de retour. Je viens juste de finir de tout préparer.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_1
+TEXT: As-tu essayé de faire méga-évoluer un Pokémon récemment ?
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_2
+TEXT: Quelque chose dans la Méga-Évolution a attiré mon attention récemment. J’espère que tu pourras m’aider à enquêter.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_3
+TEXT: Regardons la Méga-Évolution de plus près.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_4
+TEXT: Tout d’abord, choisissons le Pokémon qui sera la star de nos recherches, %PLAYERNAME% !
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_5
+TEXT: Quand nous aurons terminé, notre compréhension de la Méga-Évolution sera totale.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_0
+TEXT: Tu as choisi Florizarre, le Pokémon Graine.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_1
+TEXT: Florizarre absorbe l’énergie du soleil en tant que nutriments. Ses pétales lui servent à capter la lumière du soleil. Il peut ainsi en canaliser l’énergie.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_2
+TEXT: Pendant que je vais chercher Florizarre, pourquoi ne pas attraper quelques Pokémon pour t’échauffer ? N’oublie pas de les recharger.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_3
+TEXT: En un rien de temps, tu auras une équipe encore plus redoutable à tes côtés.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_0
+TEXT: Tu as choisi Dracaufeu, le Pokémon Flamme.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_1
+TEXT: Il tire sa puissance du lien qui l’unit à son Dresseur. Sa capacité à voler plus rapidement qu’un avion à réaction fait toute sa fierté.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_2
+TEXT: Pendant que je vais chercher Dracaufeu, pourquoi ne pas attraper quelques Pokémon pour t’échauffer ? N’oublie pas de les recharger.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_3
+TEXT: En un rien de temps, tu auras une équipe encore plus redoutable à tes côtés.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_0
+TEXT: Tu as choisi Tortank, le Pokémon Carapace.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_1
+TEXT: Les jets d’eau propulsés par les canons de sa carapace sont si puissants qu’ils peuvent percer d’épaisses plaques de métal instantanément.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_2
+TEXT: Pendant que je vais chercher Tortank, pourquoi ne pas attraper quelques Pokémon pour t’échauffer ? N’oublie pas de les recharger.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_3
+TEXT: En un rien de temps, tu auras une équipe encore plus redoutable à tes côtés.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_0
+TEXT: Tu es de retour, %PLAYERNAME%. Maintenant que nous sommes bien échauffés, plongeons dans nos recherches sur la Méga-Évolution.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_1
+TEXT: Certains pensent qu’un lien fort entre un Dresseur et un Pokémon est la clé de la Méga-Évolution. Nous avons également vu que la Méga-Énergie joue un rôle.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_2
+TEXT: Cependant, j’ai remarqué récemment que si tu fais méga-évoluer ton Pokémon une fois en utilisant de la Méga-Énergie, tu n’auras pas besoin d’utiliser de la Méga-Énergie pour le faire méga-évoluer à nouveau.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_3
+TEXT: Faisons méga-évoluer Florizarre et voyons si c’est vrai, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_0
+TEXT: Tu es de retour, %PLAYERNAME%. Maintenant que nous sommes bien échauffés, plongeons dans nos recherches sur la Méga-Évolution.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_1
+TEXT: Certains pensent qu’un lien fort entre un Dresseur et un Pokémon est la clé de la Méga-Évolution. Nous avons également vu que la Méga-Énergie joue un rôle.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_2
+TEXT: Cependant, j’ai remarqué récemment que si tu fais méga-évoluer ton Pokémon une fois en utilisant de la Méga-Énergie, tu n’auras pas besoin d’utiliser de la Méga-Énergie pour le faire méga-évoluer à nouveau.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_3
+TEXT: Faisons méga-évoluer Dracaufeu et voyons si c’est vrai, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_0
+TEXT: Tu es de retour, %PLAYERNAME%. Maintenant que nous sommes bien échauffés, plongeons dans nos recherches sur la Méga-Évolution.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_1
+TEXT: Certains pensent qu’un lien fort entre un Dresseur et un Pokémon est la clé de la Méga-Évolution. Nous avons également vu que la Méga-Énergie joue un rôle.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_2
+TEXT: Cependant, j’ai remarqué récemment que si tu fais méga-évoluer ton Pokémon une fois en utilisant de la Méga-Énergie, tu n’auras pas besoin d’utiliser de la Méga-Énergie pour le faire méga-évoluer à nouveau.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_3
+TEXT: Faisons méga-évoluer Tortank et voyons si c’est vrai, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_0
+TEXT: Quel magnifique Méga-Florizarre, %PLAYERNAME% !
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_1
+TEXT: Prenons-en de la graine : pourquoi ne pas te lancer dans un Combat de Raid avec ton puissant Méga-Florizarre ? Il se peut même qu’un Sbire de la Team GO Rocket se cache dans les parages, à la recherche d’un combat.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_2
+TEXT: Les Pokémon méga-évolués sont de puissants alliés. Leur force au combat est inégalée.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_3
+TEXT: Il y a beaucoup à apprendre sur la Méga-Évolution, alors pourquoi s’arrêter maintenant ? C’est parti !
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_0
+TEXT: Ton Méga-Dracaufeu est imposant, %PLAYERNAME% !
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_1
+TEXT: Entretenons la flamme : pourquoi ne pas participer à un Combat de Raid avec ton puissant Méga-Dracaufeu ? Il se peut même qu’un Sbire de la Team GO Rocket se cache dans les parages, à la recherche d’un combat.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_2
+TEXT: Les Pokémon méga-évolués sont de puissants alliés. Leur force au combat est inégalée.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_3
+TEXT: Il y a beaucoup à apprendre sur la Méga-Évolution, alors pourquoi s’arrêter maintenant ? C’est parti !
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_0
+TEXT: Ce Méga-Tortank est superbe, %PLAYERNAME% !
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_1
+TEXT: Apportons de l’eau à notre moulin : pourquoi ne pas participer à un Combat de Raid avec ton puissant Méga-Tortank ? Il se peut même qu’un Sbire de la Team GO Rocket se cache dans les parages, à la recherche d’un combat.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_2
+TEXT: Les Pokémon méga-évolués sont de puissants alliés. Leur force au combat est inégalée.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_3
+TEXT: Il y a beaucoup à apprendre sur la Méga-Évolution, alors pourquoi s’arrêter maintenant ? C’est parti !
 
 RESOURCE ID: quest_special_dialogue_melemele_0_0
 TEXT: Salut, %PLAYERNAME% ! Ça fait plaisir de te revoir, comme toujours.
@@ -2148,6 +2299,18 @@ TEXT: Jungle Sombrefeuille (3/4)
 RESOURCE ID: quest_title_lush_jungle_3
 TEXT: Jungle Sombrefeuille (4/4)
 
+RESOURCE ID: quest_title_megav3_branch_quest_0
+TEXT: Un Méga-moment (1/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_1
+TEXT: Un Méga-moment (2/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_2
+TEXT: Un Méga-moment (3/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_3
+TEXT: Un Méga-moment (4/4)
+
 RESOURCE ID: quest_title_melemele
 TEXT: Une aventure à Mele-Mele
 
@@ -2225,6 +2388,9 @@ TEXT: Une aventure sur Ula-Ula (4/4)
 
 RESOURCE ID: quests_batch_updated
 TEXT: {0} Research Tasks Updated
+
+RESOURCE ID: raid_day_mega_kangaskhan
+TEXT: Raid Day: Mega Kangaskhan
 
 RESOURCE ID: restart_app
 TEXT: Restart

@@ -482,6 +482,24 @@ TEXT: Uno scambio speciale aggiuntivo fino a due ore dopo l’evento per un mass
 RESOURCE ID: bonus_trade_stardust_stufful
 TEXT: Gli scambi effettuati fino a due ore dopo l’evento richiederanno il 50% di polvere di stelle in meno
 
+RESOURCE ID: branch_megav3_1a_description
+TEXT: Scegliendo Venusaur, potrai guadagnare Megaenergie Venusaur e incontrarne uno più tardi!
+
+RESOURCE ID: branch_megav3_1a_title
+TEXT: Scegli Venusaur!
+
+RESOURCE ID: branch_megav3_1b_description
+TEXT: Scegliendo Charizard, potrai guadagnare Megaenergie Charizard e incontrarne uno più tardi!
+
+RESOURCE ID: branch_megav3_1b_title
+TEXT: Scegli Charizard!
+
+RESOURCE ID: branch_megav3_1c_description
+TEXT: Scegliendo Blastoise, potrai guadagnare Megaenergie Blastoise e incontrarne uno più tardi!
+
+RESOURCE ID: branch_megav3_1c_title
+TEXT: Scegli Blastoise!
+
 RESOURCE ID: bundle_retweet_reward
 TEXT: Pacco ricompensa retweet
 
@@ -637,14 +655,6 @@ PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 
 RESOURCE ID: general1.ticket.2_sandt_title
 TEXT: Sabbioso e nevoso
-
-RESOURCE ID: general1.ticket.2_stuff_description
-TEXT: Un biglietto per accedere alla ricerca speciale “Roba tosta” il 23 aprile 2022 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità della app.
-
-PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
-
-RESOURCE ID: general1.ticket.2_stuff_title
-TEXT: Biglietto: Roba tosta
 
 RESOURCE ID: generic_contact_support
 TEXT: How to Share Game Logs
@@ -1116,11 +1126,11 @@ TEXT: Vorrà dire che hai tutte le carte in regola per affrontare delle lotte Po
 RESOURCE ID: item_event_ticket_gray_name
 TEXT: Biglietto
 
-RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Un biglietto per accedere a una ricerca speciale il 23 aprile 2022 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
-
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso a una ricerca speciale il 23 aprile 2022, ovunque ti trovi.
+
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: Un biglietto per partecipare a entrambe le giornate del Festival di Pokémon GO, il 4 e il 5 giugno 2022 dalle 10:00 alle 18:00 ora locale, ovunque ti trovi. 
 
 RESOURCE ID: item_global_event_ticket_details
 TEXT: Un biglietto per partecipare a entrambe le giornate del Festival di Pokémon GO, il 4 e il 5 giugno 2022 dalle 10:00 alle 18:00 ora locale, ovunque ti trovi. Con questo biglietto avrai anche accesso all’evento finale del Festival di Pokémon GO in agosto. Per ulteriori dettagli consulta la sezione Novità dell’app.
@@ -1341,16 +1351,19 @@ TEXT: Ottime probabilità di ottenere caramelle L
 RESOURCE ID: mega_perks_header
 TEXT: Bonus megaevoluzione
 
+RESOURCE ID: mega_v3_event_name
+TEXT: Un megamomento
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-27T01:14:34.014300
-at SHA f22c0d06fcf603b12f50bfe2d90c9485c16ac8b8
+TEXT: Built at 2022-04-28T15:29:56.168482
+at SHA 5cf0dcd79c71c2fa55d1e66765b08c2ab235bec2
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: move_name_0365
-TEXT: Luster Purge
+TEXT: Abbagliante
 
 RESOURCE ID: move_name_0366
-TEXT: Mist Ball
+TEXT: Foschisfera
 
 RESOURCE ID: old_friends_description
 TEXT: Ricerca a tempo dell’evento "Vecchi amici, nuovi inizi"
@@ -1420,9 +1433,6 @@ TEXT: Community Day Classico di Mudkip
 
 RESOURCE ID: quest_complete_sandt
 TEXT: Sabbioso e nevoso
-
-RESOURCE ID: quest_complete_stuff
-TEXT: Roba tosta
 
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: Ricerca dedicata a Exeggcute: lotta in una Palestra
@@ -1663,6 +1673,147 @@ TEXT: Se potessi incontrare uno dei Pokémon protettori, forse potrei elaborare 
 
 RESOURCE ID: quest_special_dialogue_akala_3_8
 TEXT: È una cosa su cui dovrò riflettere. Tu però non preoccuparti e goditi la giornata! A presto. Pronti, partenza... GO!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_0
+TEXT: Ciao, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_1
+TEXT: Oggi ho in serbo per te qualcosa di entusiasmante. Diciamo una... “mega” sorpresa! Ah ah!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_2
+TEXT: Tuttavia, ho ancora dei piccoli ritocchi da fare.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_3
+TEXT: Mentre finisco i preparativi, che ne diresti di fare un giretto nei dintorni per scoprire quali Pokémon puoi incontrare oggi?
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_4
+TEXT: Credo che avrò finito al tuo ritorno.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_0
+TEXT: Ah, ottimo! Sei qui. Ho appena finito di mettere a punto tutto quanto.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_1
+TEXT: Hai provato a far megaevolvere un Pokémon, di recente?
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_2
+TEXT: Di recente, la megaevoluzione mi incuriosisce molto e speravo che potessi darmi una mano a scoprire di che si tratta.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_3
+TEXT: Diamo un’occhiata più da vicino e più nel dettaglio alla megaevoluzione.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_4
+TEXT: Innanzitutto, scegliamo il Pokémon su cui incentrare le nostre ricerche, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_5
+TEXT: Quando avremo finito, la nostra conoscenza della megaevoluzione sarà impareggiabile!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_0
+TEXT: Dunque hai scelto Venusaur, il Pokémon Seme!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_1
+TEXT: Venusaur trae energia dall'assorbimento dei raggi solari. Si riempie di energia grazie ai grandi petali del fiore, che spalanca catturando i raggi solari.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_2
+TEXT: Mentre mi procuro un Venusaur, perché non esci e come allenamento provi a catturare qualche Pokémon? E non scordarti di potenziarli.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_3
+TEXT: In un batter d’occhio ti ritroverai con una squadra ancora più formidabile!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_0
+TEXT: Dunque hai scelto Charizard, il Pokémon Fiamma!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_1
+TEXT: Il legame con il suo Allenatore è la fonte del suo potere. Vanta una velocità di volo superiore a quella di un aereo a reazione.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_2
+TEXT: Mentre mi procuro un Charizard, perché non esci e come allenamento provi a catturare qualche Pokémon? E non scordarti di potenziarli.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_3
+TEXT: In un batter d’occhio ti ritroverai con una squadra ancora più formidabile!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_0
+TEXT: Dunque hai scelto Blastoise, il Pokémon Crostaceo!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_1
+TEXT: I cannoni sul suo guscio sparano getti d'acqua capaci di bucare l'acciaio.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_2
+TEXT: Mentre mi procuro un Blastoise, perché non esci e come allenamento provi a catturare qualche Pokémon? E non scordarti di potenziarli.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_3
+TEXT: In un batter d’occhio ti ritroverai con una squadra ancora più formidabile!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_0
+TEXT: Rieccoti, %PLAYERNAME%! Ora che ci siamo riscaldati, rimbocchiamoci le maniche e cominciamo la ricerca sulla megaevoluzione.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_1
+TEXT: Alcuni ipotizzano che un forte legame tra un Allenatore e il suo Pokémon sia la chiave per la megaevoluzione. Abbiamo visto che anche la Megaenergia gioca un ruolo importante.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_2
+TEXT: Comunque, di recente ho notato che se fai megaevolvere un Pokémon usando la Megaenergia, non avrai più bisogno di usarla per farlo evolvere di nuovo.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_3
+TEXT: Facciamo megaevolvere Venusaur e verifichiamo se è vero, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_0
+TEXT: Rieccoti, %PLAYERNAME%! Ora che ci siamo riscaldati, rimbocchiamoci le maniche e cominciamo la ricerca sulla megaevoluzione.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_1
+TEXT: Alcuni ipotizzano che un forte legame tra un Allenatore e il suo Pokémon sia la chiave per la megaevoluzione. Abbiamo visto che anche la Megaenergia gioca un ruolo importante.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_2
+TEXT: Comunque, di recente ho notato che se fai megaevolvere un Pokémon usando la Megaenergia, non avrai più bisogno di usarla per farlo evolvere di nuovo.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_3
+TEXT: Facciamo megaevolvere Charizard e verifichiamo se è vero, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_0
+TEXT: Rieccoti, %PLAYERNAME%! Ora che ci siamo riscaldati, rimbocchiamoci le maniche e cominciamo la ricerca sulla megaevoluzione.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_1
+TEXT: Alcuni ipotizzano che un forte legame tra un Allenatore e il suo Pokémon sia la chiave per la megaevoluzione. Abbiamo visto che anche la Megaenergia gioca un ruolo importante.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_2
+TEXT: Comunque, di recente ho notato che se fai megaevolvere un Pokémon usando la Megaenergia, non avrai più bisogno di usarla per farlo evolvere di nuovo.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_3
+TEXT: Facciamo megaevolvere Blastoise e verifichiamo se è vero, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_0
+TEXT: Che magnifico MegaVenusaur, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_1
+TEXT: Continuiamo a crescere! Perché non partecipi a un raid con il tuo possente MegaVenusaur? Potrebbe anche esserci una recluta del Team GO Rocket in agguato, pronta alla lotta...
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_2
+TEXT: I Pokémon megaevoluti sono alleati potenti. La loro forza nelle lotte non ha eguali!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_3
+TEXT: Sono sicuro che ci sia ancora molto da scoprire sulla megaevoluzione, quindi perché fermarci? Pronti, partenza... GO!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_0
+TEXT: Che maestoso MegaCharizard, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_1
+TEXT: Tieni viva la tua fiamma! Perché non partecipi a un raid con il tuo possente MegaCharizard? Potrebbe anche esserci una recluta del Team GO Rocket in agguato, pronta alla lotta...
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_2
+TEXT: I Pokémon megaevoluti sono alleati potenti. La loro forza nelle lotte non ha eguali!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_3
+TEXT: Sono sicuro che ci sia ancora molto da scoprire sulla megaevoluzione, quindi perché fermarci? Pronti, partenza... GO!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_0
+TEXT: Che sfavillante MegaBlastoise, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_1
+TEXT: Non fermare questo fiume in piena! Perché non partecipi a un raid con il tuo possente MegaBlastoise? Potrebbe anche esserci una recluta del Team GO Rocket in agguato, pronta alla lotta...
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_2
+TEXT: I Pokémon megaevoluti sono alleati potenti. La loro forza nelle lotte non ha eguali!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_3
+TEXT: Sono sicuro che ci sia ancora molto da scoprire sulla megaevoluzione, quindi perché fermarci? Pronti, partenza... GO!
 
 RESOURCE ID: quest_special_dialogue_melemele_0_0
 TEXT: Ehilà, %PLAYERNAME%! Sono sempre felice di rivederti.
@@ -2129,6 +2280,18 @@ TEXT: Giungla Ombrosa (3/4)
 RESOURCE ID: quest_title_lush_jungle_3
 TEXT: Giungla Ombrosa (4/4)
 
+RESOURCE ID: quest_title_megav3_branch_quest_0
+TEXT: Un megamomento (1/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_1
+TEXT: Un megamomento (2/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_2
+TEXT: Un megamomento (3/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_3
+TEXT: Un megamomento (4/4)
+
 RESOURCE ID: quest_title_melemele
 TEXT: Avventura di Mele Mele
 
@@ -2206,6 +2369,9 @@ TEXT: Un’avventura a Ula Ula (4/4)
 
 RESOURCE ID: quests_batch_updated
 TEXT: {0} Research Tasks Updated
+
+RESOURCE ID: raid_day_mega_kangaskhan
+TEXT: Raid Day: Mega Kangaskhan
 
 RESOURCE ID: restart_app
 TEXT: Restart

@@ -486,6 +486,24 @@ TEXT: One additional Special Trade during the event and up to two hours after fo
 RESOURCE ID: bonus_trade_stardust_stufful
 TEXT: Etkinlik süresince ve etkinlikten 2 saat sonrasına kadar yapılacak takaslar %50 daha az Yıldız Tozu gerektirecek
 
+RESOURCE ID: branch_megav3_1a_description
+TEXT: Venusaur’u seçtiğinizde Venusaur mega enerjisi kazanabilecek ve daha sonra da Venusaur’la karşılaşabileceksiniz!
+
+RESOURCE ID: branch_megav3_1a_title
+TEXT: Venusaur’u seç!
+
+RESOURCE ID: branch_megav3_1b_description
+TEXT: Charizard’ı seçtiğinizde Charizard mega enerjisi kazanabilecek ve daha sonra da Charizard’la karşılaşabileceksiniz!
+
+RESOURCE ID: branch_megav3_1b_title
+TEXT: Charizard’ı seç!
+
+RESOURCE ID: branch_megav3_1c_description
+TEXT: Blastoise’u seçtiğinizde Blastoise mega enerjisi kazanabilecek ve daha sonra da Blastoise’la karşılaşabileceksiniz!
+
+RESOURCE ID: branch_megav3_1c_title
+TEXT: Blastoise’u seç!
+
 RESOURCE ID: buddy_affection_distance_half
 TEXT: Dostunuzla 1/2 kalp kazanma mesafesi
 
@@ -1152,14 +1170,6 @@ TEXT: Bu bilet, 13 Mart 2022’de, yerel saatle 11:00-17:00 arasında gerçekle�
 RESOURCE ID: general1.ticket.2_sandt_title
 TEXT: Kum ve Buz
 
-RESOURCE ID: general1.ticket.2_stuff_description
-TEXT: Bu bilet 23 Nisan 2022’de, yerel saatle 14:00-17:00 arasında gerçekleşecek Yumuşacık Ayıcık özel araştırmasına dilediğiniz yerden katılmanıza olanak tanır. Ayrıntıları oyun içi Haberler bölümünde bulabilirsiniz.
-
-ÖZEL ETKİNLİĞE AİT TÜM BONUSLARI ALABİLMEK İÇİN OYUNU BELİRTİLEN SAATLERDE OYNAMALISINIZ.
-
-RESOURCE ID: general1.ticket.2_stuff_title
-TEXT: Yumuşacık Ayıcık Bileti
-
 RESOURCE ID: generic_contact_support
 TEXT: How to Share Game Logs
 
@@ -1660,11 +1670,11 @@ TEXT: Artık Pokémon maçlarına katılmaya hazırsın!
 RESOURCE ID: item_event_ticket_gray_name
 TEXT: Bilet
 
-RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Bu bilet 23 Nisan 2022'de, yerel saatle 14:00-17:00 arasında gerçekleşecek özel araştırmaya dilediğiniz yerden katılmanıza olanak tanır.
-
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Bu bilet 23 Nisan 2022'de gerçekleşecek özel araştırmaya dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
+
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: 4-5 Haziran 2022’de yerel saatle 10:00-18:00 arasında gerçekleşecek Pokémon GO Festivaline dilediğiniz yerden katılmanızı sağlayacak bir bilet. 
 
 RESOURCE ID: item_global_event_ticket_details
 TEXT: 4-5 Haziran 2022’de yerel saatle 10:00-18:00 arasında gerçekleşecek Pokémon GO Festivaline dilediğiniz yerden katılmanızı sağlayacak bir bilet. Ayrıca bu biletle ağustos ayında gerçekleşecek Pokémon GO Festivali final etkinliğine de erişebileceksiniz. Ayrıntıları oyun içi Haberler bölümünde bulabilirsiniz.
@@ -1910,9 +1920,12 @@ TEXT: Artırılmış Büyük Şeker Şansı
 RESOURCE ID: mega_perks_header
 TEXT: Mega Evrim Bonusları
 
+RESOURCE ID: mega_v3_event_name
+TEXT: Mega Olay
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-27T01:14:34.014300
-at SHA f22c0d06fcf603b12f50bfe2d90c9485c16ac8b8
+TEXT: Built at 2022-04-28T15:29:56.168482
+at SHA 5cf0dcd79c71c2fa55d1e66765b08c2ab235bec2
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: move_name_0240
@@ -1925,7 +1938,7 @@ RESOURCE ID: move_name_0345
 TEXT: Kasırga
 
 RESOURCE ID: move_name_0365
-TEXT: Cila Temizliği
+TEXT: Arındıran Işık
 
 RESOURCE ID: move_name_0366
 TEXT: Sis Topu
@@ -2166,9 +2179,6 @@ TEXT: Mudkip Topluluk Günü Klasik
 
 RESOURCE ID: quest_complete_sandt
 TEXT: Kum ve Buz
-
-RESOURCE ID: quest_complete_stuff
-TEXT: Yumuşacık Ayıcık
 
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: Exeggcute Araştırması: Bir spor salonunda maç yapın
@@ -2475,6 +2485,147 @@ TEXT: Spark, Dostunla yürüyüşe çıkıp bağınızı güçlendirmeni istiyor
 
 RESOURCE ID: quest_special_dialogue_lvl_50_3_4
 TEXT: İlk Pokémon'unu yakaladığında nasıl hissettiğini, Dostunla ilk yürüyüşe çıkışını, ilk akınını hatırla ve bu enerjini yaptığın her işte kullan. Güçlü kalbin ve eşsiz kararlılığınla yapamayacağın hiçbir şey yok!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_0
+TEXT: Merhaba %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_1
+TEXT: Bugün senin için çok heyecan verici planlarım var. Mega sürpriz desem yalan olmaz! Haha!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_2
+TEXT: Ama önce bitirmem gereken yarım kalmış işler var.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_3
+TEXT: Ben hazırlıklarımı tamamlarken sen de etrafı kolaçan edip bugün hangi Pokémon’ların ortalıkta olduğuna bak, ne dersin?
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_4
+TEXT: Sen dönene kadar hazır olurum.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_0
+TEXT: Ah iyi, dönmüşsün. Ben de hazırlıklarımı şimdi tamamladım.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_1
+TEXT: Son zamanlarda bir Pokémon’u mega evrimleştirmeyi denedin mi?
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_2
+TEXT: Geçenlerde mega evrimle ilgili bir şey dikkatimi çekti. Bu konuyu araştırmama yardım edeceğini umuyorum.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_3
+TEXT: Başından sonuna mega evrime daha yakından bakalım.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_4
+TEXT: Öncelikle bu Pokémon’lardan hangisinin araştırmamızın yıldızı olması istediğine karar verelim %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_5
+TEXT: Araştırmayı tamamladığımızda mega evrim bilgimiz kimseninkinden aşağı kalmayacak.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_0
+TEXT: Görüyorum ki Tohum Pokémon Venusaur’u seçmişsin!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_1
+TEXT: Venusaur güneş enerjisini özümseyerek beslenir. Çiçeğinin geniş taç yapraklarını uzatıp güneş ışınlarını emerek güç toplar.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_2
+TEXT: Ben Venusaur’u alıp getirirken sen de alıştırma olarak birkaç Pokémon yakala, ne dersin? Yakaladığın Pokémon’ları güçlendirmeyi de unutma.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_3
+TEXT: Çok geçmeden son derece güçlü bir takıma sahip olacaksın!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_0
+TEXT: Görüyorum ki Alev Pokémon Charizard’ı seçmişsin!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_1
+TEXT: Eğitmeniyle arasındaki bağ, gücünün kaynağıdır. Bir savaş jetinden daha yüksek hız ve manevra kabiliyetine sahiptir.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_2
+TEXT: Ben Charizard’ı alıp getirirken sen de alıştırma olarak birkaç Pokémon yakala, ne dersin? Yakaladığın Pokémon’ları güçlendirmeyi de unutma.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_3
+TEXT: Çok geçmeden son derece güçlü bir takıma sahip olacaksın!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_0
+TEXT: Görüyorum ki Kabuklu Pokémon Blastoise’u seçmişsin!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_1
+TEXT: Kabuğundaki roket toplarından fışkırttığı su kalın bir çelik tabakasını delip geçebilir.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_2
+TEXT: Ben Blastoise’u alıp getirirken sen de alıştırma olarak birkaç Pokémon yakala, ne dersin? Yakaladığın Pokémon’ları güçlendirmeyi de unutma.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_3
+TEXT: Çok geçmeden son derece güçlü bir takıma sahip olacaksın!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_0
+TEXT: Tekrar hoş geldin %PLAYERNAME%! Alıştırmalarla iyice ısındığına göre hadi şimdi mega evrim araştırmamıza girişelim.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_1
+TEXT: Bazıları bir Eğitmen ile Pokémon arasındaki güçlü bağın mega evrimin anahtarı olduğunu savunur. Mega enerjinin de bunda rol oynayabileceğini gördük.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_2
+TEXT: Ama fark ettim ki Pokémon’unu mega enerji kullanarak bir kez mega evrimleştirdiğinde, aynı Pokémon’u tekrar mega evrimleştirmek için mega enerji kullanmana gerek yok.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_3
+TEXT: Hadi Venusaur’u mega evrimleştirerek bunun doğru olup olmadığını kendi gözlerimizle görelim %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_0
+TEXT: Tekrar hoş geldin %PLAYERNAME%! Alıştırmalarla iyice ısındığına göre hadi şimdi mega evrim araştırmamıza girişelim.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_1
+TEXT: Bazıları bir Eğitmen ile Pokémon arasındaki güçlü bağın mega evrimin anahtarı olduğunu savunur. Mega enerjinin de bunda rol oynayabileceğini gördük.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_2
+TEXT: Ama fark ettim ki Pokémon’unu mega enerji kullanarak bir kez mega evrimleştirdiğinde, aynı Pokémon’u tekrar mega evrimleştirmek için mega enerji kullanmana gerek yok.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_3
+TEXT: Hadi Charizard’ı mega evrimleştirerek bunun doğru olup olmadığını kendi gözlerimizle görelim %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_0
+TEXT: Tekrar hoş geldin %PLAYERNAME%! Alıştırmalarla iyice ısındığına göre hadi şimdi mega evrim araştırmamıza girişelim.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_1
+TEXT: Bazıları bir Eğitmen ile Pokémon arasındaki güçlü bağın mega evrimin anahtarı olduğunu savunur. Mega enerjinin de bunda rol oynayabileceğini gördük.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_2
+TEXT: Ama fark ettim ki Pokémon’unu mega enerji kullanarak bir kez mega evrimleştirdiğinde, aynı Pokémon’u tekrar mega evrimleştirmek için mega enerji kullanmana gerek yok.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_3
+TEXT: Hadi Blastoise’u mega evrimleştirerek bunun doğru olup olmadığını kendi gözlerimizle görelim %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_0
+TEXT: Ne harikulade bir Mega Venusaur %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_1
+TEXT: Büyümeye devam edelim: Güçlü Mega Venusaur’unla akın maçı yapmaya ne dersin? Maç yapmaya can atan bir Roket Takımı serserisi pusuya yatmış bile olabilir.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_2
+TEXT: Mega evrimleşmiş Pokémon’lar güçlü müttefiklerdir. Maçlarda sergiledikleri kuvvet rakipsizdir.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_3
+TEXT: Eminim mega evrimle ilgili öğrenilecek daha çok şey var. Araştırmaya devam edelim. Hadi GİDELİM!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_0
+TEXT: Ne heybetli bir Mega Charizard %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_1
+TEXT: Ateşimiz yanmaya devam etsin: Güçlü Mega Charizard’ınla akın maçı yapmaya ne dersin? Maç yapmaya can atan bir Roket Takımı serserisi pusuya yatmış bile olabilir.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_2
+TEXT: Mega evrimleşmiş Pokémon’lar güçlü müttefiklerdir. Maçlarda sergiledikleri kuvvet rakipsizdir.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_3
+TEXT: Eminim mega evrimle ilgili öğrenilecek daha çok şey var. Araştırmaya devam edelim. Hadi GİDELİM!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_0
+TEXT: Ne muhteşem bir Mega Blastoise %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_1
+TEXT: Başarımız su gibi akmaya devam etsin: Güçlü Mega Blastoise’unla akın maçı yapmaya ne dersin? Maç yapmaya can atan bir Roket Takımı serserisi pusuya yatmış bile olabilir.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_2
+TEXT: Mega evrimleşmiş Pokémon’lar güçlü müttefiklerdir. Maçlarda sergiledikleri kuvvet rakipsizdir.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_3
+TEXT: Eminim mega evrimle ilgili öğrenilecek daha çok şey var. Araştırmaya devam edelim. Hadi GİDELİM!
 
 RESOURCE ID: quest_special_dialogue_melemele_0_0
 TEXT: Selam %PLAYERNAME%! Seni tekrar görmek ne güzel.
@@ -3043,6 +3194,18 @@ TEXT: Mega Dost Görevi (3/4)
 RESOURCE ID: quest_title_megabuddy_3
 TEXT: Mega Dost Görevi (4/4)
 
+RESOURCE ID: quest_title_megav3_branch_quest_0
+TEXT: Mega Olay (1/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_1
+TEXT: Mega Olay (2/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_2
+TEXT: Mega Olay (3/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_3
+TEXT: Mega Olay (4/4)
+
 RESOURCE ID: quest_title_melemele
 TEXT: Bir Melemele Macerası
 
@@ -3132,6 +3295,9 @@ TEXT: Dostunuzla bir akın kazanın
 
 RESOURCE ID: quests_batch_updated
 TEXT: {0} Research Tasks Updated
+
+RESOURCE ID: raid_day_mega_kangaskhan
+TEXT: Raid Day: Mega Kangaskhan
 
 RESOURCE ID: raid_defeat_message
 TEXT: Tüm Pokémon’lar bayıldı.

@@ -945,6 +945,24 @@ TEXT: Ein zusätzlicher Spezial-Tausch während des Events und bis zu zwei Stund
 RESOURCE ID: bonus_trade_stardust_stufful
 TEXT: Während des Events und bis zu zwei Stunden danach erfordert jeder Tausch 50 % weniger Sternenstaub als gewöhnlich
 
+RESOURCE ID: branch_megav3_1a_description
+TEXT: Wenn du Bisaflor wählst, kannst du Bisaflor-Mega-Energie verdienen und später Bisaflor begegnen!
+
+RESOURCE ID: branch_megav3_1a_title
+TEXT: Wähle Bisaflor!
+
+RESOURCE ID: branch_megav3_1b_description
+TEXT: Wenn du Glurak wählst, kannst du Glurak-Mega-Energie verdienen und später Glurak begegnen!
+
+RESOURCE ID: branch_megav3_1b_title
+TEXT: Wähle Glurak!
+
+RESOURCE ID: branch_megav3_1c_description
+TEXT: Wenn du Turtok wählst, kannst du Turtok-Mega-Energie verdienen und später Turtok begegnen!
+
+RESOURCE ID: branch_megav3_1c_title
+TEXT: Wähle Turtok!
+
 RESOURCE ID: branch_pop_star_description
 TEXT: Pikachu will sich für deine Show als Popstar verkleiden. Beim Pokémon GO Fest 2021 begegnest du Star-Pikachu und hörst vom Pop inspirierte Musik.
 
@@ -1032,7 +1050,7 @@ RESOURCE ID: delete_pokemon_tag_confirmation
 TEXT: Dieses Tag wird von Pokémon entfernt, denen es zugeschrieben wurde. Die Pokémon werden nicht an Prof. Willow verschickt.
 
 RESOURCE ID: double_buddy_hearts
-TEXT: 2× hearts with your buddy
+TEXT: Zweifache Menge an Herzen mit deinem Kumpel
 
 RESOURCE ID: earthday22_collection_challenge
 TEXT: Sammler-Herausforderung: Umweltwoche
@@ -1093,7 +1111,7 @@ RESOURCE ID: festival_of_colors_event_name
 TEXT: Farbfestival
 
 RESOURCE ID: field_research_special
-TEXT: Unique Field Research tasks are now available at certain PokéStops and Gyms
+TEXT: Einzigartige Feldforschungsaufgaben sind nun bei bestimmten PokéStops und Arenen verfügbar
 
 RESOURCE ID: field_test_lockout
 TEXT: Vielen Dank für deine Teilnahme am Testlauf von <i>Pokémon GO</i>!
@@ -1103,7 +1121,7 @@ RESOURCE ID: filter_key_traded
 TEXT: getauscht
 
 RESOURCE ID: first_daily_spin_3x_xp
-TEXT: 3× XP when you spin the Photo Disc at a Gym or PokéStop for the first time that day
+TEXT: Dreifache Menge EP, wenn du die Fotoscheiben an einer Arena oder einem PokéStop zum ersten Mal an diesem Tag drehst
 
 RESOURCE ID: foc22_collection_challenge
 TEXT: Farbfestival
@@ -1422,14 +1440,6 @@ DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZ
 
 RESOURCE ID: general1.ticket.2_sandt_title
 TEXT: Sand und Schnee 
-
-RESOURCE ID: general1.ticket.2_stuff_description
-TEXT: Ein Ticket zur Teilnahme an der Spezialforschung „Wilder Fang“ am 23. April 2022, von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest). Details unter „Neuigkeiten“ im Spiel.
-
-DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZIAL-EVENTS ZU ERHALTEN.
-
-RESOURCE ID: general1.ticket.2_stuff_title
-TEXT: Ticket: Wilder Fang
 
 RESOURCE ID: general1.ticket.3_description
 TEXT: Ein Ticket zur Teilnahme am Pokémon GO Fest am 25. und 26. Juli 2020 von 10:00 bis 20:00 Uhr Ortszeit an beiden Tagen (wo immer du dich befindest). Details findest du unter „Neuigkeiten“ im Spiel.
@@ -2139,11 +2149,11 @@ TEXT: Du bist bereit, an Pokémon-Kämpfen teilzunehmen!
 RESOURCE ID: item_event_ticket_gray_name
 TEXT: Ticket
 
-RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Ein Ticket für den Zugang zur Spezialforschung am 23. April 2022 von 14:00 bis 17:00 Uhr Ortszeit (wo immer du dich befindest).
-
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: Dieses Ticket aktiviert sich automatisch und gewährt dir Zugang zur Spezialforschung am 23. April 2022 (wo immer du dich befindest).
+
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: Ein Ticket zur Teilnahme am Pokémon GO Fest am 4. und 5. Juni 2022, jeweils von 10:00 bis 18:00 Uhr Ortszeit (wo immer du dich befindest). 
 
 RESOURCE ID: item_global_event_ticket_details
 TEXT: Ein Ticket zur Teilnahme am Pokémon GO Fest am 4. und 5. Juni 2022, jeweils von 10:00 bis 18:00 Uhr Ortszeit (wo immer du dich befindest). Außerdem erhältst du mit diesem Ticket auch Zugang zum Pokémon GO Fest-Finalevent im August. Details unter „Neuigkeiten“ im Spiel.
@@ -2157,7 +2167,7 @@ RESOURCE ID: lets_go
 TEXT: Nichts wie raus und GO!
 
 RESOURCE ID: lure_duration_6_hr
-TEXT: 6-Hour Lure duration
+TEXT: 6-stündige Lockmodul-Wirkungszeit
 
 RESOURCE ID: lush_jungle_event_name
 TEXT: Schattendschungel
@@ -2386,9 +2396,12 @@ TEXT: Großartige Chance auf Bonbons XL
 RESOURCE ID: mega_perks_header
 TEXT: Mega-Entwicklungsbonusse
 
+RESOURCE ID: mega_v3_event_name
+TEXT: Ein Mega-Moment
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-27T01:14:34.014300
-at SHA f22c0d06fcf603b12f50bfe2d90c9485c16ac8b8
+TEXT: Built at 2022-04-28T15:29:56.168482
+at SHA 5cf0dcd79c71c2fa55d1e66765b08c2ab235bec2
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: move_name_0365
@@ -2575,9 +2588,6 @@ TEXT: Community Day Classic mit Hydropi
 
 RESOURCE ID: quest_complete_sandt
 TEXT: Sand und Schnee
-
-RESOURCE ID: quest_complete_stuff
-TEXT: Wilder Fang
 
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: Owei-Forschung: Kämpfe in einer Arena.
@@ -2932,6 +2942,147 @@ TEXT: Schuhe zu finden, die zu den Füßen passen würden, wäre kompliziert! Da
 
 RESOURCE ID: quest_special_dialogue_m23_2021_3_5
 TEXT: Schau da! Ein dunkler Schatten huschte gerade über den Himmel! Sieh nach oben, %PLAYERNAME%, und jage ihm hinterher! Nichts wie raus und GO!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_0
+TEXT: Hallöchen, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_1
+TEXT: Ich habe heute etwas Aufregendes geplant – man könnte sogar sagen, es ist eine Mega-Überraschung! Haha!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_2
+TEXT: Ich habe allerdings noch ein paar Dinge zu erledigen.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_3
+TEXT: Während ich meine Vorbereitungen abschließe, könntest du dich in der Gegend umsehen und herausfinden, welche Pokémon heute unterwegs sind?
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_4
+TEXT: Ich werde fertig sein, wenn du zurückkommst.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_0
+TEXT: Ah, gut, dass du zurück bist. Ich bin gerade damit fertig geworden, alles vorzubereiten.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_1
+TEXT: Hast du in letzter Zeit versucht, bei einem Pokémon die Mega-Entwicklung auszulösen?
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_2
+TEXT: Vor Kurzem ist mir etwas über die Mega-Entwicklung aufgefallen und ich habe gehofft, dass du mir bei meinen Untersuchungen helfen kannst.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_3
+TEXT: Schauen wir uns die Mega-Entwicklung genauer an, von Anfang bis Ende.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_4
+TEXT: Wähle erst einmal aus, welches dieser Pokémon du zum Star unserer Forschung machen möchtest, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_5
+TEXT: Wenn wir fertig sind, wird unser Verständnis der Mega-Entwicklung unübertroffen sein.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_0
+TEXT: Du hast dich also für Bisaflor, das Samen-Pokémon, entschieden!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_1
+TEXT: Bisaflor nutzt Solarenergie als Nahrung. Es spreizt die breiten Blätter seiner Blüte, um seinen Körper mit Sonnenenergie zu durchfluten.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_2
+TEXT: Während ich Bisaflor hole, solltest du rausgehen und zum Aufwärmen schon mal ein paar Pokémon  fangen. Vergiss nicht, auch Power-ups zu verwenden.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_3
+TEXT: Im Handumdrehen hast du ein noch schlagkräftigeres Team an deiner Seite!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_0
+TEXT: Du hast dich also für Glurak, das Flammen-Pokémon, entschieden!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_1
+TEXT: Aus der Bindung zu seinem Trainer schöpft es seine Kraft. Seine Fluggeschwindigkeit übertrifft sogar die eines Düsenjets.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_2
+TEXT: Während ich Glurak hole, solltest du rausgehen und zum Aufwärmen schon mal ein paar Pokémon fangen. Vergiss nicht, auch Power-ups zu verwenden.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_3
+TEXT: Im Handumdrehen hast du ein noch schlagkräftigeres Team an deiner Seite!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_0
+TEXT: Du hast dich also für Turtok, das Panzertier-Pokémon, entschieden!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_1
+TEXT: Der Wasserstrahl, der aus den Wasserdüsen schießt, kann sogar Stahlwände durchdringen.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_2
+TEXT: Während ich Turtok hole, solltest du rausgehen und zum Aufwärmen schon mal ein paar Pokémon fangen. Vergiss nicht, auch Power-ups zu verwenden.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_3
+TEXT: Im Handumdrehen hast du ein noch schlagkräftigeres Team an deiner Seite!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_0
+TEXT: Willkommen zurück, %PLAYERNAME%! Jetzt, wo wir aufgewärmt sind, können wir uns an die Forschung zur Mega-Entwicklung machen.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_1
+TEXT: Einige Theorien besagen, dass eine starke Bindung zwischen einem Trainer und einem Pokémon der Schlüssel zur Mega-Entwicklung ist. Wir haben auch gesehen, dass Mega-Energie eine Rolle spielen kann.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_2
+TEXT: Allerdings habe ich vor Kurzem festgestellt, dass man, wenn man einmal die Mega-Entwicklung eines Pokémon mit Mega-Energie ausgelöst hat, keine Mega-Energie mehr braucht, um die Mega-Entwicklung dieses Pokémon erneut auszulösen.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_3
+TEXT: Lass uns bei Bisaflor die Mega-Entwicklung auslösen und sehen, ob das stimmt, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_0
+TEXT: Willkommen zurück, %PLAYERNAME%! Jetzt, wo wir aufgewärmt sind, können wir uns an die Forschung zur Mega-Entwicklung machen.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_1
+TEXT: Einige Theorien besagen, dass eine starke Bindung zwischen einem Trainer und einem Pokémon der Schlüssel zur Mega-Entwicklung ist. Wir haben auch gesehen, dass Mega-Energie eine Rolle spielen kann.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_2
+TEXT: Allerdings habe ich vor Kurzem festgestellt, dass man, wenn man einmal die Mega-Entwicklung eines Pokémon mit Mega-Energie ausgelöst hat, keine Mega-Energie mehr braucht, um die Mega-Entwicklung dieses Pokémon erneut auszulösen.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_3
+TEXT: Lass uns bei Glurak die Mega-Entwicklung auslösen und sehen, ob das stimmt, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_0
+TEXT: Willkommen zurück, %PLAYERNAME%! Jetzt, wo wir aufgewärmt sind, können wir uns an die Forschung zur Mega-Entwicklung machen.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_1
+TEXT: Einige Theorien besagen, dass eine starke Bindung zwischen einem Trainer und einem Pokémon der Schlüssel zur Mega-Entwicklung ist. Wir haben auch gesehen, dass Mega-Energie eine Rolle spielen kann.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_2
+TEXT: Allerdings habe ich vor Kurzem festgestellt, dass man, wenn man einmal die Mega-Entwicklung eines Pokémon mit Mega-Energie ausgelöst hat, keine Mega-Energie mehr braucht, um die Mega-Entwicklung dieses Pokémon erneut auszulösen.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_3
+TEXT: Lass uns bei Turtok die Mega-Entwicklung auslösen und sehen, ob das stimmt, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_0
+TEXT: Was für ein großartiges Mega-Bisaflor, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_1
+TEXT: Lass uns weiter wachsen: Warum nimmst du mit deinem mächtigen Mega-Bisaflor nicht an einem Raid-Kampf teil? Vielleicht lauert sogar ein Team GO Rocket-Rüpel in der Nähe, der einen Kampf sucht.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_2
+TEXT: Die Mega-Entwicklung macht Pokémon zu mächtigen Verbündeten. Ihre Stärke im Kampf ist unübertroffen!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_3
+TEXT: Ich bin mir sicher, dass es noch mehr über die Mega-Entwicklung zu erfahren gibt. Wir sollten jetzt nicht aufhören! Los geht's!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_0
+TEXT: Was für ein großartiges Mega-Glurak, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_1
+TEXT: Ich brenne auf Ergebnisse: Warum nimmst du mit deinem mächtigen Mega-Glurak nicht an einem Raid-Kampf teil? Vielleicht lauert sogar ein Team GO Rocket-Rüpel in der Nähe, der einen Kampf sucht.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_2
+TEXT: Die Mega-Entwicklung macht Pokémon zu mächtigen Verbündeten. Ihre Stärke im Kampf ist unübertroffen!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_3
+TEXT: Ich bin mir sicher, dass es noch mehr über die Mega-Entwicklung zu erfahren gibt. Wir sollten jetzt nicht aufhören! Los geht's!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_0
+TEXT: Was für ein großartiges Mega-Turtok, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_1
+TEXT: Wagen wir uns in unbekannte Gewässer: Warum nimmst du mit deinem mächtigen Mega-Turtok nicht an einem Raid-Kampf teil? Vielleicht lauert sogar ein Team GO Rocket-Rüpel in der Nähe, der einen Kampf sucht.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_2
+TEXT: Die Mega-Entwicklung macht Pokémon zu mächtigen Verbündeten. Ihre Stärke im Kampf ist unübertroffen!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_3
+TEXT: Ich bin mir sicher, dass es noch mehr über die Mega-Entwicklung zu erfahren gibt. Wir sollten jetzt nicht aufhören! Los geht's!
 
 RESOURCE ID: quest_special_dialogue_melemele_0_0
 TEXT: Hallo, %PLAYERNAME%! Ich freue mich, wie immer, dich zu sehen.
@@ -3425,6 +3576,18 @@ TEXT: Schattendschungel (3/4)
 RESOURCE ID: quest_title_lush_jungle_3
 TEXT: Schattendschungel (4/4)
 
+RESOURCE ID: quest_title_megav3_branch_quest_0
+TEXT: Ein Mega-Moment (1/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_1
+TEXT: Ein Mega-Moment (2/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_2
+TEXT: Ein Mega-Moment (3/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_3
+TEXT: Ein Mega-Moment (4/4)
+
 RESOURCE ID: quest_title_melemele
 TEXT: Ein Mele-Mele-Abenteuer
 
@@ -3514,6 +3677,9 @@ TEXT: Das ist ein PokéStop.
 
 RESOURCE ID: quickstart_pokestopfar_1
 TEXT: Es ist ein Ort in der echten Welt, an dem du Pokébälle und andere Items finden kannst.
+
+RESOURCE ID: raid_day_mega_kangaskhan
+TEXT: Raid Day: Mega Kangaskhan
 
 RESOURCE ID: raid_exclusive_description
 TEXT: Dies ist eine Belohung für einen früheren Sieg bei {0}!

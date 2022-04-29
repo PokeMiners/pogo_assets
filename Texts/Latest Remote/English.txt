@@ -489,6 +489,24 @@ TEXT: One additional Special Trade during the event and up to two hours after fo
 RESOURCE ID: bonus_trade_stardust_stufful
 TEXT: Trades made during the event and up to two hours after the event will require 50% less Stardust
 
+RESOURCE ID: branch_megav3_1a_description
+TEXT: By choosing Venusaur, you’ll be able to earn Venusaur Mega Energy and encounter Venusaur later!
+
+RESOURCE ID: branch_megav3_1a_title
+TEXT: Choose Venusaur!
+
+RESOURCE ID: branch_megav3_1b_description
+TEXT: By choosing Charizard, you’ll be able to earn Charizard Mega Energy and encounter Charizard later!
+
+RESOURCE ID: branch_megav3_1b_title
+TEXT: Choose Charizard!
+
+RESOURCE ID: branch_megav3_1c_description
+TEXT: By choosing Blastoise, you’ll be able to earn Blastoise Mega Energy and encounter Blastoise later!
+
+RESOURCE ID: branch_megav3_1c_title
+TEXT: Choose Blastoise!
+
 RESOURCE ID: bundle_retweet_reward
 TEXT: Retweet Reward Box
 
@@ -629,14 +647,6 @@ YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES
 
 RESOURCE ID: general1.ticket.2_sandt_title
 TEXT: Gritty and Glacial
-
-RESOURCE ID: general1.ticket.2_stuff_description
-TEXT: A ticket to access the Strong Stuff Special Research on April 23, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
-
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
-
-RESOURCE ID: general1.ticket.2_stuff_title
-TEXT: Strong Stuff Ticket
 
 RESOURCE ID: generic_contact_support
 TEXT: How to Share Game Logs
@@ -1102,11 +1112,11 @@ TEXT: You're ready to participate in Pokémon battles!
 RESOURCE ID: item_event_ticket_gray_name
 TEXT: Ticket
 
-RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access Special Research on April 23, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
-
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: This ticket will automatically activate to give you access to Special Research on April 23, 2022, wherever you are.
+
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: A ticket to access Pokémon GO Fest on June 4 and June 5, 2022, from 10:00 a.m. to 6:00 p.m. local time each day, wherever you are. 
 
 RESOURCE ID: item_global_event_ticket_details
 TEXT: A ticket to access Pokémon GO Fest on June 4 and June 5, 2022, from 10:00 a.m. to 6:00 p.m. local time each day, wherever you are. This ticket will also give you access to the Pokémon GO Fest finale event in August. Details can be found in the in-game News.
@@ -1327,9 +1337,12 @@ TEXT: Great Candy XL Chance
 RESOURCE ID: mega_perks_header
 TEXT: Mega Evolution Bonuses
 
+RESOURCE ID: mega_v3_event_name
+TEXT: A Mega Moment
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-27T01:14:34.014300
-at SHA f22c0d06fcf603b12f50bfe2d90c9485c16ac8b8
+TEXT: Built at 2022-04-28T15:29:56.168482
+at SHA 5cf0dcd79c71c2fa55d1e66765b08c2ab235bec2
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: move_name_0365
@@ -1406,9 +1419,6 @@ TEXT: Mudkip Community Day Classic
 
 RESOURCE ID: quest_complete_sandt
 TEXT: Gritty and Glacial
-
-RESOURCE ID: quest_complete_stuff
-TEXT: Strong Stuff
 
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: Exeggcute Research: Battle in a Gym
@@ -1649,6 +1659,147 @@ TEXT: If I could just meet one of the guardian deities myself, it would help me 
 
 RESOURCE ID: quest_special_dialogue_akala_3_8
 TEXT: But that’s for me to ponder. Don’t trouble yourself with it—go out and enjoy the day! I’ll be in touch soon. Let’s GO!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_0
+TEXT: Hello there, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_1
+TEXT: I have something exciting planned for you today—you could even say it’s a mega surprise! Haha!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_2
+TEXT: I still have a few loose ends to wrap up, though.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_3
+TEXT: While I finish my preparations, how about you take a quick survey of the area and see what Pokémon are out and about today?
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_4
+TEXT: I’ll be ready by the time you’re back.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_0
+TEXT: Ah, good—you’re back. I’ve just finished getting everything ready.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_1
+TEXT: Have you tried to Mega Evolve a Pokémon lately?
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_2
+TEXT: Something about Mega Evolution caught my attention recently, so I was hoping you could help me investigate.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_3
+TEXT: Let’s take a closer look at Mega Evolution, from beginning to end.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_4
+TEXT: First, let’s choose which of these Pokémon you’d like to be the star of our research, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1_5
+TEXT: Once we’re done, our understanding of Mega Evolution will be second to none.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_0
+TEXT: So, you’ve chosen Venusaur, the Seed Pokémon!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_1
+TEXT: Venusaur absorbs solar energy as nutrition. By spreading the broad petals of its flower and catching the sun’s rays, it fills its body with power.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_2
+TEXT: While I fetch Venusaur, how about you go out and catch a few Pokémon as a warm-up. Don’t forget to power them up, too.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1a_3
+TEXT: You’ll have an even more formidable team by your side in no time!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_0
+TEXT: So, you’ve chosen Charizard, the Flame Pokémon!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_1
+TEXT: Its bond with its Trainer is the source of its power. It boasts speed and maneuverability greater than that of a jet fighter.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_2
+TEXT: While I fetch Charizard, how about you go out and catch a few Pokémon as a warm-up. Don’t forget to power them up, too.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1b_3
+TEXT: You’ll have an even more formidable team by your side in no time!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_0
+TEXT: So, you’ve chosen Blastoise, the Shellfish Pokémon!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_1
+TEXT: The jets of water it spouts from the rocket cannons on its shell can punch through thick steel.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_2
+TEXT: While I fetch Blastoise, how about you go out and catch a few Pokémon as a warm-up. Don’t forget to power them up, too.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_1c_3
+TEXT: You’ll have an even more formidable team by your side in no time!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_0
+TEXT: Welcome back, %PLAYERNAME%! Now that we’re fully warmed up, let’s tuck into our research on Mega Evolution.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_1
+TEXT: Some theorize that a strong bond between a Trainer and a Pokémon is the key to Mega Evolution. We’ve also seen that Mega Energy can play a role.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_2
+TEXT: However, I noticed recently that if you Mega Evolve your Pokémon once using Mega Energy, you won’t need to use Mega Energy to Mega Evolve that Pokémon again.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2a_3
+TEXT: Let’s Mega Evolve Venusaur and see if that’s true for ourselves, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_0
+TEXT: Welcome back, %PLAYERNAME%! Now that we’re fully warmed up, let’s tuck into our research on Mega Evolution.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_1
+TEXT: Some theorize that a strong bond between a Trainer and a Pokémon is the key to Mega Evolution. We’ve also seen that Mega Energy can play a role.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_2
+TEXT: However, I noticed recently that if you Mega Evolve your Pokémon once using Mega Energy, you won’t need to use Mega Energy to Mega Evolve that Pokémon again.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2b_3
+TEXT: Let’s Mega Evolve Charizard and see if that’s true for ourselves, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_0
+TEXT: Welcome back, %PLAYERNAME%! Now that we’re fully warmed up, let’s tuck into our research on Mega Evolution.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_1
+TEXT: Some theorize that a strong bond between a Trainer and a Pokémon is the key to Mega Evolution. We’ve also seen that Mega Energy can play a role.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_2
+TEXT: However, I noticed recently that if you Mega Evolve your Pokémon once using Mega Energy, you won’t need to use Mega Energy to Mega Evolve that Pokémon again.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_2c_3
+TEXT: Let’s Mega Evolve Blastoise and see if that’s true for ourselves, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_0
+TEXT: What a magnificent Mega Venusaur, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_1
+TEXT: Let’s keep growing: why don’t you take on a Raid Battle with your mighty Mega Venusaur? There may even be a Team GO Rocket Grunt lurking about, looking for a battle.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_2
+TEXT: Mega-Evolved Pokémon are powerful allies. Their strength in battle is unmatched!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3a_3
+TEXT: I’m sure there’s more to learn about Mega Evolution, so why stop now? Let’s GO!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_0
+TEXT: What a commanding Mega Charizard, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_1
+TEXT: Let’s keep our fire burning: why don’t you take on a Raid Battle with your mighty Mega Charizard? There may even be a Team GO Rocket Grunt lurking about, looking for a battle.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_2
+TEXT: Mega-Evolved Pokémon are powerful allies. Their strength in battle is unmatched!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3b_3
+TEXT: I’m sure there’s more to learn about Mega Evolution, so why stop now? Let’s GO!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_0
+TEXT: What a brilliant Mega Blastoise, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_1
+TEXT: Let’s keep our progress flowing: why don’t you take on a Raid Battle with your mighty Mega Blastoise? There may even be a Team GO Rocket Grunt lurking about, looking for a battle.
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_2
+TEXT: Mega-Evolved Pokémon are powerful allies. Their strength in battle is unmatched!
+
+RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_3
+TEXT: I’m sure there’s more to learn about Mega Evolution, so why stop now? Let’s GO!
 
 RESOURCE ID: quest_special_dialogue_melemele_0_0
 TEXT: Hey there, %PLAYERNAME%! It’s great to see you, as always.
@@ -2124,6 +2275,18 @@ TEXT: Lush Jungle (3/4)
 RESOURCE ID: quest_title_lush_jungle_3
 TEXT: Lush Jungle (4/4)
 
+RESOURCE ID: quest_title_megav3_branch_quest_0
+TEXT: A Mega Moment (1/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_1
+TEXT: A Mega Moment (2/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_2
+TEXT: A Mega Moment (3/4)
+
+RESOURCE ID: quest_title_megav3_branch_quest_3
+TEXT: A Mega Moment (4/4)
+
 RESOURCE ID: quest_title_melemele
 TEXT: A Melemele Adventure
 
@@ -2201,6 +2364,9 @@ TEXT: An Ula’ula Adventure (4/4)
 
 RESOURCE ID: quests_batch_updated
 TEXT: {0} Research Tasks Updated
+
+RESOURCE ID: raid_day_mega_kangaskhan
+TEXT: Raid Day: Mega Kangaskhan
 
 RESOURCE ID: restart_app
 TEXT: Restart
