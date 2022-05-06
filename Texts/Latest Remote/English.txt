@@ -136,7 +136,7 @@ RESOURCE ID: adv_perf_v1_low_description
 TEXT: Power saving
 
 RESOURCE ID: adv_perf_v1_max_description
-TEXT: Best graphics and smooth performance
+TEXT: Best graphics and smoothest performance
 
 RESOURCE ID: adv_perf_v1_max_incompatible
 TEXT: This device is not compatible with the max-performance setting.
@@ -211,7 +211,7 @@ RESOURCE ID: adv_perf_v2_map_details_tip
 TEXT: Improved map draw distance and scale, reduced fog, and better visibility of Gyms, buildings, and the sky.
 
 RESOURCE ID: adv_perf_v2_max_description
-TEXT: Best graphics and smooth performance
+TEXT: Best graphics and smoothest performance
 
 RESOURCE ID: adv_perf_v2_medium_description
 TEXT: Moderate graphics and performance
@@ -223,7 +223,7 @@ RESOURCE ID: adv_perf_v2_native_refresh_rate_disabled_tip
 TEXT: This device’s native refresh rate does not enable smoother visuals.
 
 RESOURCE ID: adv_perf_v2_native_refresh_rate_tip
-TEXT: Higher frame rate (FPS) based on your device. Affects how smooth and responsive the game looks in motion.
+TEXT: Higher frame rate (FPS) based on your device. Affects how smooth the game looks and how responsive it is in motion.
 
 RESOURCE ID: adv_perf_v2_perf_set_as_recommended
 TEXT: You’re already using the recommended performance settings.
@@ -558,6 +558,21 @@ TEXT: Pokémon Air Adventures: Okinawa
 RESOURCE ID: badge_event_0038_title
 TEXT: Pokémon Air Adventures 2022
 
+RESOURCE ID: batch_transfer_confirm
+TEXT: <size=36><b>Do you want to transfer {0} Pokémon to the professor?</b></size>
+
+You can’t undo a transfer.
+
+RESOURCE ID: batch_transfer_eligible_confirm_plural
+TEXT: <size=36><b>Only {0} of the selected Pokémon can be transferred to the professor.</b></size>
+
+Any Pokémon that can’t be transferred will remain in your Pokémon storage. You cannot undo a transfer.
+
+RESOURCE ID: batch_transfer_eligible_confirm_singular
+TEXT: <size=36><b>Only 1 of the selected Pokémon can be transferred to the professor.</b></size>
+
+Any Pokémon that can’t be transferred will remain in your Pokémon storage. You cannot undo a transfer.
+
 RESOURCE ID: batch_transfer_unique_mega_level_pokemon
 TEXT: {0} Mega-Leveled Pokémon
 
@@ -589,7 +604,7 @@ RESOURCE ID: bonus_special_trade_stufful
 TEXT: One additional Special Trade during the event and up to two hours after for a maximum of two for the day
 
 RESOURCE ID: bonus_trade_stardust_stufful
-TEXT: Trades made during the event and up to two hours after the event will require 50% less Stardust
+TEXT: Trades made during the event and up to two hours after will require 50% less Stardust
 
 RESOURCE ID: branch_megav3_1a_description
 TEXT: By choosing Venusaur, you’ll be able to earn Venusaur Mega Energy and encounter Venusaur later!
@@ -654,10 +669,10 @@ RESOURCE ID: community_day_stufful_event_name
 TEXT: Community Day: Stufful
 
 RESOURCE ID: disable_sponsored_gift_description
-TEXT: Disable this option to stop receiving Sponsored Message served through third party ad services. Please restart the app to save your choice.
+TEXT: Disable this option to stop receiving sponsored messages through third-party advertisement services. Please restart the game to save your selection.
 
 RESOURCE ID: disable_sponsored_gift_title
-TEXT: Disable Sponsored Messages from third party advertising services
+TEXT: Disable sponsored messages from third party advertising services
 
 RESOURCE ID: double_buddy_hearts
 TEXT: 2× hearts with your buddy
@@ -666,13 +681,13 @@ RESOURCE ID: earthday22_collection_challenge
 TEXT: Sustainability Week Collection Challenge
 
 RESOURCE ID: enable_sponsored_gift_description
-TEXT: Enable this option to receive Sponsored Messages through third party ad services. Please restart the app to save your choice.
+TEXT: Enable this option to receive sponsored messages through third-party advertising services. Please restart the game to save your selection.
 
 RESOURCE ID: enable_sponsored_gift_title
-TEXT: Enable Sponsored Messages from third-party advertising services
+TEXT: Enable sponsored messages from third-party advertising services
 
 RESOURCE ID: encounter_score_active_mega_bonus
-TEXT: Active Mega Pokémon Bonus
+TEXT: Active Mega-Evolution Bonus
 
 RESOURCE ID: event_evolve_exeggcute
 TEXT: Exeggcute can evolve into Alolan Exeggutor
@@ -717,7 +732,7 @@ RESOURCE ID: form_oricorio_baile
 TEXT: Baile Style
 
 RESOURCE ID: form_oricorio_pau
-TEXT: Pa'u Style
+TEXT: Pa’u Style
 
 RESOURCE ID: form_oricorio_pompom
 TEXT: Pom-Pom Style
@@ -1083,10 +1098,10 @@ RESOURCE ID: grunt_generic_greeting#19__female_speaker
 TEXT: Hey, you! What are you wandering here for?
 
 RESOURCE ID: grunt_generic_greeting#19__male_speaker
-TEXT: Hey, you! What are you wandering here for?
+TEXT: Hey, you! What’re you wandering here for?
 
 RESOURCE ID: grunt_generic_greeting#1__female_speaker
-TEXT: Wha— Hey! You’re the Trainer that’s been getting in our way all the time!
+TEXT: Wha—? Hey! You’re the Trainer that’s been getting in our way all this time!
 
 RESOURCE ID: grunt_generic_greeting#1__male_speaker
 TEXT: Wha— Hey! You’re the Trainer that’s been getting in our way all the time!
@@ -1113,7 +1128,7 @@ RESOURCE ID: grunt_generic_greeting#23__female_speaker
 TEXT: We’re Team GO Rocket, and we strike fear into others with our strength!
 
 RESOURCE ID: grunt_generic_greeting#23__male_speaker
-TEXT: We’re Team GO Rocket, and we strike fear into others with our strength!
+TEXT: We’re Team GO Rocket, and we strike fear into all with our strength!
 
 RESOURCE ID: grunt_generic_greeting#2__female_speaker
 TEXT: Hahaha!
@@ -1122,7 +1137,7 @@ RESOURCE ID: grunt_generic_greeting#2__male_speaker
 TEXT: Hahaha!
 
 RESOURCE ID: grunt_generic_greeting#3__female_speaker
-TEXT: Wha—?!
+TEXT: Wha—?
 
 RESOURCE ID: grunt_generic_greeting#3__male_speaker
 TEXT: Wha—?!
@@ -1284,7 +1299,7 @@ RESOURCE ID: mega_evolve_lobby_callout
 TEXT: Mega Evolution available
 
 RESOURCE ID: mega_evolve_lobby_existing_toast
-TEXT: You can only use one Mega-Evolved Pokémon at a time
+TEXT: You can only use one Mega-Evolved Pokémon at a time.
 
 RESOURCE ID: mega_evolve_lobby_toast
 TEXT: Select a Pokémon to Mega Evolve!
@@ -1333,7 +1348,7 @@ TEXT: Let’s GO Mega!
 RESOURCE ID: mega_level_tutorial_page1_body
 TEXT: • You can now Mega Evolve a Pokémon without using Mega Energy.
 • You can still use Mega Energy to Mega Evolve a Pokémon during its rest period.
-• New bonuses have been added that will improve the more your Pokémon Mega Evolves.
+• New bonuses have been added that will improve the more your Pokémon’s Mega Level increases.
 
 After a Pokémon Mega Evolves, you’ll need to wait a while before it can Mega Evolve again without using Mega Energy. You can also use Mega Energy to Mega Evolve your Pokémon before then.
 
@@ -1368,7 +1383,7 @@ RESOURCE ID: mega_level_tutorial_page4_title
 TEXT: Rest Periods
 
 RESOURCE ID: mega_level_tutorial_page5_body
-TEXT: Each Mega-Evolved Pokémon has a Mega Level. When a Pokémon’s Mega Level increases, you’ll get increased bonuses while the Pokémon is Mega Evolved, and the period you’ll have to wait before you can Mega Evolve the Pokémon again will be shorter. Each time you Mega Evolve a Pokémon, you work toward increasing its Mega Level.
+TEXT: Each Mega-Evolved Pokémon has a Mega Level. When a Pokémon’s Mega Level increases, you’ll get more bonuses, and the period you’ll have to wait before you can Mega Evolve the Pokémon again will be shorter. Each time you Mega Evolve a Pokémon, you work toward increasing its Mega Level.
 
 RESOURCE ID: mega_level_tutorial_page5_title
 TEXT: Mega Level
@@ -1443,8 +1458,8 @@ RESOURCE ID: mega_v3_event_name
 TEXT: A Mega Moment
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-04-29T23:45:49.219815
-at SHA 639a7ecf72bcff5f60c967a8490d7a170e9a5ee2
+TEXT: Built at 2022-05-05T16:41:30.933059
+at SHA 6ebcbfc6ff9ebcd818ef659645cea8a8f56895fa
 Patch from: 0.235.0-SHA-a3840134, 0.233.0-SHA-38f92c4a, 0.233.1-SHA-93b167b9
 
 RESOURCE ID: move_name_0365
@@ -1463,7 +1478,7 @@ RESOURCE ID: pair_friend_pinned_your_postcard
 TEXT: {0} and {1} have saved your Postcards!
 
 RESOURCE ID: performance_successfully_updated
-TEXT: Your performance settings were successfully updated!
+TEXT: Your performance settings were successfully updated.
 
 RESOURCE ID: photobomb_five_mudkip
 TEXT: 5 surprise encounters with Mudkip in GO Snapshot
@@ -1475,7 +1490,7 @@ RESOURCE ID: photobomb_five_stufful
 TEXT: 5 surprise encounters with Stufful in GO Snapshot
 
 RESOURCE ID: plural_friend_pinned_your_postcard
-TEXT: {0}, {1}, and other friends have saved your Postcards!
+TEXT: {0} and {1} other friends have saved your Postcards!
 
 RESOURCE ID: pokemon_desc_0741_2679
 TEXT: This Oricorio has drunk red nectar. If its Trainer gives the wrong order, this passionate Pokémon becomes fiercely angry.
@@ -1494,6 +1509,11 @@ TEXT: The rocks in its mane are sharper than a knife. Fragments that break off a
 
 RESOURCE ID: pokemon_desc_0745_2685
 TEXT: It has no problem ignoring orders it doesn’t like. It doesn’t seem to mind getting hurt at all—as long as it can finish off its opponent.
+
+RESOURCE ID: pokemon_info_transfer_to_professor_confirmation
+TEXT: <size=36><b>Do you want to transfer {0} to the professor?</b></size>
+
+You can’t undo a transfer.
 
 RESOURCE ID: quest_catch_berry_pinap
 TEXT: Use {0} Pinap Berries to help catch Pokémon
@@ -1574,7 +1594,7 @@ RESOURCE ID: quest_elrd22_april16_weather_easy
 TEXT: Exeggcute Research: Catch three Pokémon with Weather Boost
 
 RESOURCE ID: quest_elrd22_april16_weather_hard
-TEXT: Exeggcute Research: Catch five Pokemon with Weather Boost
+TEXT: Exeggcute Research: Catch five Pokémon with Weather Boost
 
 RESOURCE ID: quest_elrd22_april16_wild_grass_snapshot
 TEXT: Exeggcute Research: Take a snapshot of a wild Grass-type Pokémon
@@ -1925,7 +1945,7 @@ RESOURCE ID: quest_special_dialogue_melemele_0_0
 TEXT: Hey there, %PLAYERNAME%! It’s great to see you, as always.
 
 RESOURCE ID: quest_special_dialogue_melemele_0_1
-TEXT: I’m feeling especially refreshed today, as if a pleasant island breeze were following me. Maybe it’s the freshly squeezed Pinap Juice I had for breakfast?
+TEXT: I’m feeling especially refreshed today, as if a pleasant island breeze was following me. Maybe it’s the freshly squeezed Pinap Juice I had for breakfast?
 
 RESOURCE ID: quest_special_dialogue_melemele_0_2
 TEXT: Or maybe it’s because more and more Pokémon first discovered in the Alola region have been coming to visit me lately!
@@ -1976,13 +1996,13 @@ RESOURCE ID: quest_special_dialogue_melemele_3_1
 TEXT: And would you believe it: Spark was just here, raving that he’d seen Tapu Koko, too! So it is in the area after all. What an exceptional discovery, %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_melemele_3_2
-TEXT: I wonder why Tapu Koko is here. Tapu Koko is said to be a Pokémon brimming with curiosity—but, naturally, Island Guardians tend to stay on their respective islands. The fact that one of them is here may mean something is amiss...
+TEXT: I wonder why Tapu Koko is here. Tapu Koko is said to be a Pokémon brimming with curiosity—but, naturally, island guardians tend to stay on their respective islands. The fact that one of them is here may mean something is amiss...
 
 RESOURCE ID: quest_special_dialogue_melemele_3_3
 TEXT: Or did someone do something to anger it? I’ll have to do some more research before I can say anything for sure.
 
 RESOURCE ID: quest_special_dialogue_melemele_3_4
-TEXT: Do you think we’ll get a chance to meet the other Island Guardians, %PLAYERNAME%? Wouldn’t that be something.
+TEXT: Do you think we’ll get a chance to meet the other island guardians, %PLAYERNAME%? Wouldn’t that be something.
 
 RESOURCE ID: quest_special_dialogue_melemele_3_5
 TEXT: I guess we’ll just have to wait and see. Until then, let’s kick back and enjoy a little R and R with our new friends!
@@ -2162,7 +2182,7 @@ RESOURCE ID: quest_special_dialogue_sandt_1_3
 TEXT: The Sandshrew first found in the Kanto region are quite fascinating in their own right.
 
 RESOURCE ID: quest_special_dialogue_sandt_1_4
-TEXT: When their shells are wrinkled from moisture, they head for volcanoes and lie flat on a spot with a lot of geothermal heat to dry themselves out.
+TEXT: When their skin gets wrinkled from moisture, they head for volcanoes and lie flat on a spot with a lot of geothermal heat to dry themselves out.
 
 RESOURCE ID: quest_special_dialogue_sandt_1_5
 TEXT: It’s truly incredible how different geography and climates can influence Pokémon.
@@ -2297,7 +2317,7 @@ RESOURCE ID: quest_special_dialogue_ulaula_1_4
 TEXT: Instead of waiting for them to come to us, I think we should get out and search for them ourselves.
 
 RESOURCE ID: quest_special_dialogue_ulaula_1_5
-TEXT: Let’s start with Tapu Bulu, Guardian Deity of Ula’Ula Island.
+TEXT: Let’s start with Tapu Bulu, guardian deity of Ula’Ula Island.
 
 RESOURCE ID: quest_special_dialogue_ulaula_1_6
 TEXT: Ula’Ula Island is a rugged locale, home to Mount Lanakila, the highest peak in Alola.
@@ -2333,13 +2353,13 @@ RESOURCE ID: quest_special_dialogue_ulaula_3_1
 TEXT: What was it like? Tell me everything! Did you hear a ringing noise? Did you see it making vegetation grow, or maybe even swinging large trees around by their roots?
 
 RESOURCE ID: quest_special_dialogue_ulaula_3_2
-TEXT: Those are all things Tapu Bulu is known for.
+TEXT: Those are all things Tapu Bulu is known for, you know.
 
 RESOURCE ID: quest_special_dialogue_ulaula_3_3
 TEXT: As you might’ve expected, I was—yet again—unable to witness Tapu Bulu myself. I did, however, think up a new theory.
 
 RESOURCE ID: quest_special_dialogue_ulaula_3_4
-TEXT: The guardian deities seem to be keeping a relatively low profile. Perhaps they’re just here to investigate something, or even help us somehow.
+TEXT: The guardian deities seem to be keeping a relatively low profile. Perhaps they’re just here to investigate something—or even help us somehow.
 
 RESOURCE ID: quest_special_dialogue_ulaula_3_5
 TEXT: Things may become clearer if we see Tapu Fini, the last of Alola’s guardian deities.
@@ -2497,6 +2517,9 @@ TEXT: Restart
 RESOURCE ID: safari_2022_seville_dialogue_0_0
 TEXT: Welcome to Safari Zone Seville 2022, %PLAYERNAME%!
 
+RESOURCE ID: set_privacy_settings_error_message
+TEXT: Could not save your privacy settings.
+
 RESOURCE ID: settings_advanced_adjust_performance
 TEXT: Adjust Performance
 
@@ -2504,7 +2527,7 @@ RESOURCE ID: settings_advanced_adjust_performance_sub
 TEXT: Optimize your gameplay experience based on your device. Doing so may improve performance or save battery life.
 
 RESOURCE ID: settings_wasabi_ads
-TEXT: Show Sponsored Messages from third party ad services
+TEXT: Show sponsored messages from third-party advertising services
 
 RESOURCE ID: shop_already_own_this_ticket
 TEXT: You already have a ticket for this event.
@@ -2513,18 +2536,18 @@ RESOURCE ID: shop_confirm_gift
 TEXT: GIFT
 
 RESOURCE ID: shop_gift_friend_ineligible_description
-TEXT: Some friends may be ineligible to receive paid gifts for the following reasons:
-• They already have the ticket being gifted.
-• Someone else has sent them a ticket already.
-• You do not meet the minimum friendship level requirement to buy this friend a gift.
+TEXT: A friend may be ineligible to receive paid gifts for the following reasons.
+• They already have the ticket you are trying to give.
+• Someone else has sent them that ticket already.
+• You do not meet the minimum Friendship level requirement to give this friend a gift.
 
 RESOURCE ID: shop_gift_friend_ineligible_title
-TEXT: Cannot Send Ticket
+TEXT: Cannot Send Gift
 
 RESOURCE ID: shop_gift_invitation_description
-TEXT: Hello, <b>{0}</b>! Come join me in this event!
+TEXT: Hello, <b>{0}</b>! Come join me for this event!
 
-Here’s your event ticket. Let’s go!
+Here’s your ticket—it’s on me!
 
 Sincerely,
 —<b>{1}</b>
@@ -2541,7 +2564,7 @@ TEXT: CANCEL
 RESOURCE ID: shop_gift_purchase_confirmation_description
 TEXT: {0} will receive <b>{1}</b> from you. 
 
-This ticket cannot be used by any other player. This purchase cannot be refunded or undone.
+This ticket cannot be used by any other Trainer. This purchase cannot be undone, nor will you be able to receive a refund for it.
 
 RESOURCE ID: shop_gift_purchase_confirmation_gift_policy
 TEXT: SEE GIFTING POLICY
@@ -2551,20 +2574,20 @@ TEXT: Confirm Purchase
 
 RESOURCE ID: shop_gift_purchase_error_modal_description
 TEXT: An error occurred that prevented this purchase from being completed.
-You were not charged for the purchase.
+You were not charged for this purchase.
 You will now be returned to the shop.
 
 RESOURCE ID: shop_gift_purchase_error_modal_title
 TEXT: Purchase Error
 
 RESOURCE ID: shop_gift_purchase_friends_disabled_description
-TEXT: In order to give tickets as a gift, Friends Permission must be enabled on this account.
+TEXT: To give tickets as a gift, Friends Permission must be enabled on this account.
 
 RESOURCE ID: shop_gift_purchase_friends_disabled_title
 TEXT: Friends Permission Required
 
 RESOURCE ID: shop_gift_purchase_invitation_sent
-TEXT: The gift is on its way!
+TEXT: Your gift is on its way!
 
 RESOURCE ID: shop_gift_purchase_invitation_sent_description
 TEXT: Your gift has been sent to {0}.
@@ -2577,20 +2600,19 @@ TEXT: Select a Friend
 RESOURCE ID: shop_gift_purchase_user_limit_description
 TEXT: You can only send {0} paid gifts per day. Please wait until tomorrow to purchase more gifts for friends.
 
-Daily limits exist to prevent overspending and fraud.
+Daily limits exist to prevent overspending or fraud.
 
 RESOURCE ID: shop_gift_purchase_user_limit_title
 TEXT: Paid Gift Daily Limit Reached
 
 RESOURCE ID: shop_gift_redemption_error_modal_description
-TEXT: Unfortunately, your gift could not be sent. The intended recipient obtained the gift by other means while your gift was being processed.
-Please contact your app store for a refund.
+TEXT: Unfortunately, your gift could not be sent at this time. It appears that the intended recipient obtained this item before your purchase could be completed.
+Please contact the app store for a refund.
 
 RESOURCE ID: shop_gifting_policy_modal_description
 TEXT: • You cannot get a refund for gifts purchased for friends.
-• You cannot cancel a gift after it has been sent.
-• You can only send {0} paid gifts per day.
-
+• You cannot retrieve or cancel a gift after it has been sent.
+• You can only send {0} paid gifts each day.
 
 RESOURCE ID: shop_gifting_policy_modal_title
 TEXT: Gifting Policy
@@ -2606,6 +2628,9 @@ TEXT: Songkran Festival 2022
 
 RESOURCE ID: songkran_2022_title
 TEXT: April Splash!
+
+RESOURCE ID: spark_map_time_warning|1
+TEXT: No signals? Well, it’s getting pretty late... And I need to get going.
 
 RESOURCE ID: sparks_fly_description
 TEXT: Pokémon Air Adventures: Catch Challenge
@@ -2697,6 +2722,9 @@ TEXT: This Pokémon has previously Mega Evolved. Trading it will reset its Mega 
 RESOURCE ID: trade_mega_level_prompt_title
 TEXT: Are you sure you want to trade this Pokémon?
 
+RESOURCE ID: trade_tips_p2|4
+TEXT: Legendary Pokémon, Purified Pokémon, Shiny Pokémon, and Pokémon not currently in your Pokédex can only be traded by performing a Special Trade.
+
 RESOURCE ID: trade_tut_special_trade_message
 TEXT: Legendary Pokémon, Purified Pokémon, Shiny Pokémon, and Pokémon not currently in your Pokédex can only be traded via Special Trade. You can only make one Special Trade per day.
 
@@ -2704,15 +2732,15 @@ RESOURCE ID: use_system_settings
 TEXT: Use Device Settings
 
 RESOURCE ID: verbose_logs_disable_body
-TEXT: {1} logs you haven’t uploaded will be deleted if you choose to stop saving these logs.
+TEXT: {1} game logs you haven’t uploaded will be deleted if you choose to stop saving.
 
 RESOURCE ID: verbose_logs_disable_title
-TEXT: Do you want to stop saving these logs?
+TEXT: Do you want to stop saving these game logs?
 
 RESOURCE ID: verbose_logs_info_body
 TEXT: Game logs contain valuable information that can help Niantic improve certain aspects of Pokémon GO. If you allow your game logs to be saved, you can then upload them and share them with Niantic.
 
-Logs for each activity are stored for 24 hours or until you participate in that type of activity again. You can upload logs at any time in the Settings menu.
+Game logs for each activity are stored for 24 hours or until you participate in that activity again. You can upload game logs at any time in the Settings menu.
 
 RESOURCE ID: verbose_logs_info_learn_more
 TEXT: Learn more
@@ -2721,10 +2749,10 @@ RESOURCE ID: verbose_logs_pending_count
 TEXT: You have 1 log awaiting upload.
 
 RESOURCE ID: verbose_logs_pending_count_plural
-TEXT: You have {0} logs awaiting upload.
+TEXT: You have {0} logs waiting to be uploaded.
 
 RESOURCE ID: verbose_logs_pending_logs_title
-TEXT: Logs Awaiting Upload
+TEXT: Game Logs Awaiting Upload
 
 RESOURCE ID: verbose_logs_upload_complete
 TEXT: Upload complete!
