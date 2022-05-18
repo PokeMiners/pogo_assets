@@ -19,7 +19,7 @@ TEXT: Zona Safari de Pokémon GO
 RESOURCE ID: 5289
 TEXT: Sevilla, 13 de mayo de 2022
 
-RESOURCE ID: 5289 _title
+RESOURCE ID: 5289_title
 TEXT: Zona Safari de Pokémon GO: Acceso anticipado
 
 RESOURCE ID: 5290
@@ -371,7 +371,7 @@ TEXT: Mascarilla
 del Team Skull
 
 RESOURCE ID: avatar_f_hat_laprasbandana_00_bundle_icon
-TEXT: Bufanda
+TEXT: Pañuelo del
 Festival
 Acuático
 
@@ -405,7 +405,7 @@ TEXT: Mascarilla
 del Team Skull
 
 RESOURCE ID: avatar_m_hat_laprasbandana_00_bundle_icon
-TEXT: Bufanda
+TEXT: Pañuelo del
 Festival
 Acuático
 
@@ -456,6 +456,18 @@ TEXT: Aventuras Aéreas Pokémon: Okinawa
 
 RESOURCE ID: badge_event_0038_title
 TEXT: Aventuras Aéreas Pokémon 2022
+
+RESOURCE ID: badge_gofest_2022_global
+TEXT: En todo el mundo, 4 y 5 de junio de 2022 y verano de 2022
+
+RESOURCE ID: badge_gofest_2022_global_title
+TEXT: Festival de Pokémon GO 2022
+
+RESOURCE ID: badge_gofest_2022_test
+TEXT: En todo el mundo, 4 y 5 de junio de 2022 y verano de 2022
+
+RESOURCE ID: badge_gofest_2022_test_title
+TEXT: Festival de Pokémon GO 2022
 
 RESOURCE ID: badge_safarizone_2022_seville_day_00_earlyaccess
 TEXT: Zona Safari de Pokémon GO: Acceso anticipado
@@ -508,17 +520,35 @@ TEXT: Sevilla, 15 de mayo de 2022
 RESOURCE ID: batch_transfer_unique_mega_level_pokemon
 TEXT: {0} Pokémon con meganivel
 
+RESOURCE ID: bonus_2x_candy
+TEXT: Doble de Caramelos por captura
+
 RESOURCE ID: bonus_2x_candy_stufful
 TEXT: Doble de Caramelos por captura
+
+RESOURCE ID: bonus_2x_xl_candy_chance
+TEXT: Doble de probabilidades de conseguir Caramelos ++ por capturar Pokémon
 
 RESOURCE ID: bonus_2x_xl_candy_chance_stufful
 TEXT: Doble de probabilidades de conseguir Caramelos Stufful ++ por capturar Stufful
 
+RESOURCE ID: bonus_3x_catch_xp_alodude
+TEXT: Triple de PX por capturar Pokémon
+
 RESOURCE ID: bonus_3x_catch_xp_stufful
 TEXT: Triple de PX por captura
 
+RESOURCE ID: bonus_4x_catch_stardust
+TEXT: Cuatro veces más Polvos Estelares por captura
+
 RESOURCE ID: bonus_4x_catch_xp_stufful
 TEXT: Cuádruple de PX por captura
+
+RESOURCE ID: bonus_cd_move_alodude
+TEXT: Haz evolucionar a Graveler de Alola para conseguir un Golem de Alola que conozca el ataque rápido Desenrollar
+
+RESOURCE ID: bonus_implicit_social_alodude
+TEXT: Si capturas suficientes Pokémon con la ayuda de un solo Módulo Cebo, el bonus del triple de Polvos Estelares por captura para los Entrenadores que estén cerca de la Poképarada con un Módulo Cebo se convertirá en un bonus de 4 veces más Polvos Estelares por captura durante 30 minutos.
 
 RESOURCE ID: bonus_implicit_social_stufful
 TEXT: Si capturas suficientes Pokémon con la ayuda de un solo Módulo Cebo, el bonus del triple de PX por captura para los Entrenadores que estén cerca de la Poképarada con un Módulo Cebo se convertirá en un bonus de 4 veces más PX por captura durante 30 minutos.
@@ -630,11 +660,20 @@ TEXT: ¡{0} no ha usado un escudo protector a tiempo!
 RESOURCE ID: combat_recovery_failed
 TEXT: No se ha podido recuperar el combate anterior.
 
+RESOURCE ID: community_day_alodude_event_name
+TEXT: Día de la Comunidad: Geodude de Alola
+
 RESOURCE ID: community_day_mudkip_event_name
 TEXT: Clásicos del Día de la Comunidad: Mudkip
 
 RESOURCE ID: community_day_stufful_event_name
 TEXT: Día de la Comunidad: Stufful
+
+RESOURCE ID: corphish_o_clock
+TEXT: Las Corphish en punto
+
+RESOURCE ID: corphish_o_clock_description
+TEXT: Al comienzo de cada hora, ¡Corphish aparecerá en grandes cantidades!
 
 RESOURCE ID: double_buddy_hearts
 TEXT: Doble de corazones con tu compañero
@@ -644,6 +683,9 @@ TEXT: Desafío de colección de la Semana de la Sostenibilidad
 
 RESOURCE ID: encounter_score_active_mega_bonus
 TEXT: Activa el bonus de Mega Pokémon
+
+RESOURCE ID: error_has_unsent_gift
+TEXT: You can gift your extra ticket from the Item Bag
 
 RESOURCE ID: event_evolve_exeggcute
 TEXT: Exeggcute puede evolucionar a Exeggutor de Alola
@@ -670,6 +712,14 @@ TEXT: Desafío de exploración semanal
 RESOURCE ID: furret_walk_title
 TEXT: Recurre el mundo
 
+RESOURCE ID: general1.ticket.2_alodude_description
+TEXT: Una entrada para acceder a la investigación especial "Un camino rocoso" el 21 de mayo de 2022 de 11 a. m. a 2 p. m. en tu hora local, estés donde estés. Puedes encontrar más información en las noticias dentro de la aplicación.
+
+DEBES JUGAR DURANTE LAS HORAS ESPECIFICADAS PARA RECIBIR TODOS LOS BONUS DE ESTE EVENTO ESPECIAL.
+
+RESOURCE ID: general1.ticket.2_alodude_title
+TEXT: Un camino rocoso
+
 RESOURCE ID: general1.ticket.2_mudkt_description
 TEXT: Una entrada para acceder a la investigación especial “Clásicos del Día de la Comunidad: Mudkip” el 10 de abril de 2022 de 2 p. m. a 5 p. m. en tu hora local, estés donde estés. Puedes encontrar más información en las noticias dentro de la aplicación.
 
@@ -684,6 +734,20 @@ TEXT: Cómo compartir registros de juego
 RESOURCE ID: generic_done
 TEXT: Hecho
 
+RESOURCE ID: gifting_error_description
+TEXT: We are sorry. 
+ Your gift could not be sent, because the recipient obtained the Event Ticket before the purchase could complete. You can choose a new friend to send this to now. 
+ If you would like a refund, you can request one through your app store.
+
+RESOURCE ID: gifting_error_refund_button
+TEXT: REQUEST REFUND
+
+RESOURCE ID: gifting_error_send_to_friend_button
+TEXT: SEND TO FRIEND
+
+RESOURCE ID: gifting_error_title
+TEXT: Gift Unable To Send
+
 RESOURCE ID: gofest2022_ticket_description
 TEXT: Una entrada para acceder al Festival de Pokémon GO el 4 y el 5 de junio de 2022 de 10 a. m. a 6 p. m. cada día en tu hora local, estés donde estés. Esta entrada también te dará acceso al evento final del Festival de Pokémon GO en agosto. Puedes encontrar más información en las noticias dentro de la aplicación.
 
@@ -693,7 +757,7 @@ RESOURCE ID: gofest2022_ticket_title
 TEXT: Entrada para el Festival de Pokémon GO 2022
 
 RESOURCE ID: gp_super_premium_bundle
-TEXT: Pack colección superpremium
+TEXT: Pack superpremium
 
 RESOURCE ID: grunt_generic_greeting#21__female_speaker
 TEXT: ¿Crees que puedes infiltrarte en la guarida del Team GO Rocket e irte de rositas?
@@ -707,8 +771,26 @@ TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=all&s=friends-gifting-tradin
 RESOURCE ID: helpshift_sharing_game_logs
 TEXT: https://niantic.helpshift.com/hc/es/6-pokemon-go/faq/3325-sharing-game-logs/
 
+RESOURCE ID: incense_duration_8_hr
+TEXT: El Incienso dura 8 horas
+
+RESOURCE ID: item_event_ticket_pink_desc
+TEXT: Una entrada para acceder a una investigación especial el 21 de mayo de 2022 de 11 a. m. a 2 p. m. en tu hora local, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_desc_alodude
+TEXT: Una entrada para acceder a una investigación especial el 21 de mayo de 2022 de 11 a. m. a 2 p. m. en tu hora local, estés donde estés.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial del 23 de abril de 2022, estés donde estés.
+TEXT: Esta entrada se activará automáticamente para darte acceso a la investigación especial del 21 de mayo de 2022, estés donde estés.
+
+RESOURCE ID: item_event_ticket_pink_to_gift_desc
+TEXT:  
+
+RESOURCE ID: item_event_ticket_pink_to_gift_name
+TEXT: Extra Ticket
+
+RESOURCE ID: item_event_ticket_to_gift_desc
+TEXT: Extra event ticket from a purchase error. You can send it to another friend or get refunded.
 
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: Una entrada para acceder al Festival de Pokémon GO el 4 y el 5 de junio de 2022 de 10 a. m. a 6 p. m. cada día en tu hora local, estés donde estés. 
@@ -720,6 +802,9 @@ TEXT: Una entrada para acceder al Festival de Pokémon GO el 4 y el 5 de junio d
 
 RESOURCE ID: lets_go
 TEXT: ¡Vamos allá!
+
+RESOURCE ID: lure_duration_4_hr
+TEXT: 4 horas de duración de los Módulos Cebo
 
 RESOURCE ID: lure_duration_6_hr
 TEXT: 6 horas de duración de los Módulos Cebo
@@ -761,6 +846,24 @@ TEXT: El meganivel de {0} no puede aumentar más hoy.
 
 RESOURCE ID: mega_daily_limit_header
 TEXT: Límite de nivel diario alcanzado
+
+RESOURCE ID: mega_evo_bonus_buff_desc_mult_1
+TEXT: Mientras {0} esté megaevolucionado, ganarás Caramelos adicionales cuando captures Pokémon de tipo <b>{1}</b> y <b>{2}</b>.
+
+RESOURCE ID: mega_evo_bonus_buff_desc_mult_2
+TEXT: Mientras {0} esté megaevolucionado, ganarás más Caramelos, PX adicionales y una mayor probabilidad de obtener Caramelos ++ cuando captures Pokémon de tipo <b>{1}</b> y <b>{2}</b>.
+
+RESOURCE ID: mega_evo_bonus_buff_desc_mult_3
+TEXT: Mientras {0} esté megaevolucionado, ganarás más Caramelos, PX adicionales y una mayor probabilidad de obtener Caramelos ++ cuando captures Pokémon de tipo <b>{1}</b> y <b>{2}</b>.
+
+RESOURCE ID: mega_evo_bonus_buff_desc_singular_1
+TEXT: Mientras {0} esté megaevolucionado, ganarás Caramelos adicionales cuando captures Pokémon de tipo <b>{1}</b>.
+
+RESOURCE ID: mega_evo_bonus_buff_desc_singular_2
+TEXT: Mientras {0} esté megaevolucionado, ganarás más Caramelos, PX adicionales y una mayor probabilidad de obtener Caramelos ++ cuando captures Pokémon de tipo <b>{1}</b>.
+
+RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
+TEXT: Mientras {0} esté megaevolucionado, ganarás más Caramelos, PX adicionales y una mayor probabilidad de obtener Caramelos ++ cuando captures Pokémon de tipo <b>{1}</b>.
 
 RESOURCE ID: mega_evolve_energy_prompt
 TEXT: ¡Pulsa para megaevolucionar!
@@ -931,8 +1034,8 @@ RESOURCE ID: mega_v3_event_name
 TEXT: Un megamomento
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-05-07T01:02:39.245288
-at SHA c7e76eade13bd70dc00c753c9f58be99b4ea4215
+TEXT: Built at 2022-05-17T19:10:48.613840
+at SHA 84601656f5de4b6782a0d8175d909529ce75dec0
 Patch from: 0.235.0-SHA-a3840134, 0.237.0-SHA-5e5782b5
 
 RESOURCE ID: mobile_games_catch_sr
@@ -947,14 +1050,26 @@ TEXT: Resplandor
 RESOURCE ID: move_name_0366
 TEXT: Bola Neblina
 
+RESOURCE ID: move_name_0368
+TEXT: Desenrollar
+
 RESOURCE ID: old_friends_description
 TEXT: Investigación temporal "Viejas amistades, nuevos comienzos"
 
 RESOURCE ID: old_friends_title
 TEXT: Viejas amistades, nuevos comienzos
 
+RESOURCE ID: paidraidticket.3_description
+TEXT: A pack of 3 Premium Battles Passes, which can be used to join a Raid Battle or enter the premium GO Battle League.
+
+RESOURCE ID: paidraidticket.3_title
+TEXT: 3 Premium Battles Passes
+
 RESOURCE ID: performance_successfully_updated
 TEXT: ¡Tu configuración de rendimiento se ha actualizado con éxito!
+
+RESOURCE ID: photobomb_five_alodude
+TEXT: 5 encuentros sorpresa con Geodude de Alola al usar Instantánea de GO
 
 RESOURCE ID: photobomb_five_mudkip
 TEXT: 5 encuentros sorpresa con Mudkip al usar Instantánea de GO
@@ -962,14 +1077,32 @@ TEXT: 5 encuentros sorpresa con Mudkip al usar Instantánea de GO
 RESOURCE ID: photobomb_five_stufful
 TEXT: 5 encuentros sorpresa con Stufful al usar Instantánea de GO
 
+RESOURCE ID: photobomb_safari_pika
+TEXT: 5 encuentros sorpresa con Pikachu con sombrero de safari en Instantánea de GO
+
 RESOURCE ID: plural_friend_pinned_your_postcard
 TEXT: ¡{0} y {1} otras amistades han guardado tus postales!
+
+RESOURCE ID: quest_alodude_catch
+TEXT: Captura {0} Geodude de Alola
+
+RESOURCE ID: quest_alodude_evolve_a
+TEXT: Haz evolucionar {0} Geodude de Alola
+
+RESOURCE ID: quest_alodude_evolve_b
+TEXT: Haz evolucionar {0} Graveler de Alola
+
+RESOURCE ID: quest_alodude_snap
+TEXT: Toma {0} instantáneas de Geodude de Alola
 
 RESOURCE ID: quest_catch_berry_pinap
 TEXT: Usa {0} Bayas Pinia para ayudarte a capturar Pokémon
 
 RESOURCE ID: quest_catch_berry_razz
 TEXT: Usa {0} Bayas Frambu para ayudarte a capturar Pokémon
+
+RESOURCE ID: quest_catch_legendary_inarow_plural
+TEXT: Captura al menos un Pokémon legendario o singular en tus próximos {0} encuentros con Pokémon legendarios o singulares
 
 RESOURCE ID: quest_catch_pikachu_plural
 TEXT: Captura {0} Pikachu
@@ -992,8 +1125,23 @@ TEXT: Captura {0} veces al Pokémon Transformación
 RESOURCE ID: quest_complete_af2022
 TEXT: Día de las bromas de abril 2022
 
+RESOURCE ID: quest_complete_alodude
+TEXT: Un camino rocoso
+
 RESOURCE ID: quest_complete_mudkt
 TEXT: Clásicos del Día de la Comunidad: Mudkip
+
+RESOURCE ID: quest_dude_catch
+TEXT: Captura {0} Geodude
+
+RESOURCE ID: quest_dude_evolve_a
+TEXT: Haz evolucionar {0} Geodude
+
+RESOURCE ID: quest_dude_evolve_b
+TEXT: Haz evolucionar {0} Graveler
+
+RESOURCE ID: quest_dude_snap
+TEXT: Toma {0} instantáneas de Geodude
 
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: Investigación de Exeggcute: Combate en un Gimnasio
@@ -1043,6 +1191,15 @@ TEXT: Investigación de Exeggcute: Captura cinco Pokémon potenciados por el tie
 RESOURCE ID: quest_elrd22_april16_wild_grass_snapshot
 TEXT: Investigación de Exeggcute: Consigue una instantánea de un Pokémon de tipo Planta en estado salvaje
 
+RESOURCE ID: quest_explore_buddy
+TEXT: Consigue 1 Caramelo explorando con tu compañero
+
+RESOURCE ID: quest_explore_buddy_plural
+TEXT: Consigue {0} Caramelos explorando con tu compañero
+
+RESOURCE ID: quest_explore_km
+TEXT: Explora {0} km
+
 RESOURCE ID: quest_mudkt_catch_b
 TEXT: Captura {0} Mudkip
 
@@ -1060,6 +1217,9 @@ TEXT: Consigue una instantánea en Okinawa
 
 RESOURCE ID: quest_snapshot_singular
 TEXT: Consigue una instantánea
+
+RESOURCE ID: quest_snapshot_wild_water_singular
+TEXT: Take a snapshot of wild Water-type Pokémon
 
 RESOURCE ID: quest_special_dialogue_af2022_0_0
 TEXT: ... ... ...
@@ -1150,6 +1310,66 @@ TEXT: ¿Y has visto a un Ditto que se ha transformado para parecerse a mí? ¡In
 
 RESOURCE ID: quest_special_dialogue_af2022_2_9
 TEXT: Como has podido comprobar, Ditto puede alterar por completo su estructura celular para emular cualquier objeto que vea.
+
+RESOURCE ID: quest_special_dialogue_alodude_0_0
+TEXT: ¡%PLAYERNAME%! Encantado de verte.
+
+RESOURCE ID: quest_special_dialogue_alodude_0_1
+TEXT: Igual ya lo sabes, pero algunos Pokémon tienen diferentes formas dependiendo de la región en la que se encuentren, como Geodude. En la mayoría de los sitios, Geodude es bastante similar a las rocas; tanto que muchos Entrenadores los confunden con estas.
+
+RESOURCE ID: quest_special_dialogue_alodude_0_2
+TEXT: Curiosamente, los Geodude de Alola son de tipo Roca y de tipo Eléctrico, mientras que los Geodude de Kanto son de tipo Roca y de tipo Tierra. Fascinante, ¿verdad?
+
+RESOURCE ID: quest_special_dialogue_alodude_0_3
+TEXT: ¿Sabías que si pisas por error a un Geodude que esté durmiendo en el suelo, se oirá un chasquido y un calambre te recorrerá todo el cuerpo?
+
+RESOURCE ID: quest_special_dialogue_alodude_0_4
+TEXT: Leí sobre este fenómeno hace un tiempo ya, pero hoy, bueno..., he tenido la "suerte" de vivirlo en primera persona. ¡Digamos que me ha dejado electrificado!
+
+RESOURCE ID: quest_special_dialogue_alodude_0_5
+TEXT: ¿Por qué no sales ahí fuera a buscar algunos Geodude de Alola? ¡Y ten cuidado por donde pisas!
+
+RESOURCE ID: quest_special_dialogue_alodude_1_0
+TEXT: ¡Hola de nuevo, %PLAYERNAME%! Ya veo que no has tenido ningún problema para encontrar los Geodude de Alola.
+
+RESOURCE ID: quest_special_dialogue_alodude_1_1
+TEXT: Cuando Geodude de Alola evoluciona a Graveler de Alola, este se convierte en un Pokémon incluso más espectacular. Graveler de Alola se alimenta de dravita, su manjar favorito. Tras digerirla, queda convertida en cristales que brotan en la superficie de su cuerpo.
+
+RESOURCE ID: quest_special_dialogue_alodude_1_2
+TEXT: ¡Oh! Y mi dato favorito: Cuando dos Graveler pelean entre ellos, el aire se llena de destellos y estallidos. Los lugareños lo suelen comparar con fuegos artificiales.
+
+RESOURCE ID: quest_special_dialogue_alodude_1_3
+TEXT: ¿Sabes qué? Me gustaría echar un vistazo a Graveler de Alola por mí mismo. ¿Crees que me puedas ayudar, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_alodude_2_0
+TEXT: ¡Genial! Has conseguido un poderoso Graveler de Alola.
+
+RESOURCE ID: quest_special_dialogue_alodude_2_1
+TEXT: Me encantaría ver esos fuegos artificiales con los que la gente los compara con mis propios ojos, pero igual más tarde. Y muy lejos de mi laboratorio.
+
+RESOURCE ID: quest_special_dialogue_alodude_2_2
+TEXT: ¡De vuelta a lo que nos atañe! He seguido investigando un poco mientras andabas por ahí y he visto algo de lo más curioso: ¡un Geodude de Alola volando!
+
+RESOURCE ID: quest_special_dialogue_alodude_2_3
+TEXT: Sospecho que es obra de Golem de Alola, la evolución de Graveler de Alola. Golem de Alola puede lanzar rocas cargadas de electricidad. Sin embargo, cuando no le quedan piedras alrededor, echa mano de los Geodude que tenga cerca y los lanza como proyectiles.
+
+RESOURCE ID: quest_special_dialogue_alodude_2_4
+TEXT: ¿Puedes investigar un poco para ayudarme a entender mejor ese fenómeno?
+
+RESOURCE ID: quest_special_dialogue_alodude_3_0
+TEXT: Estás de vuelta, ¡y con un Golem de Alola!
+
+RESOURCE ID: quest_special_dialogue_alodude_3_1
+TEXT: Los Golem de Alola son de carácter cascarrabias y obstinado. Cuando se hartan, descargan electricidad por todo el cuerpo y rugen con voz atronadora.
+
+RESOURCE ID: quest_special_dialogue_alodude_3_2
+TEXT: Entre esto y su gusto por lanzar Geodude como si fueran rocas, mejor andarse con cuidado cuando estemos cerca de los Golem de Alola.
+
+RESOURCE ID: quest_special_dialogue_alodude_3_3
+TEXT: Pero tienes una habiliad especial para conectar con los Pokémon, ¡así que seréis amigos en nada de tiempo!
+
+RESOURCE ID: quest_special_dialogue_alodude_3_4
+TEXT: Gracias por ayudarme en mi investigación, %PLAYERNAME%. ¡Tienes una dureza propia de una roca para esto de las investigaciones! ¡Je, je! ¡Hasta la próxima!
 
 RESOURCE ID: quest_special_dialogue_megav3_branch_quest_0_0
 TEXT: ¡Hola, %PLAYERNAME%!
@@ -1664,6 +1884,21 @@ TEXT: Día de las bromas de abril 2022 (2/3)
 RESOURCE ID: quest_title_af2022_2
 TEXT: Día de las bromas de abril 2022 (3/3)
 
+RESOURCE ID: quest_title_alodude
+TEXT: Un camino rocoso
+
+RESOURCE ID: quest_title_alodude_0
+TEXT: Un camino rocoso (1/4)
+
+RESOURCE ID: quest_title_alodude_1
+TEXT: Un camino rocoso (2/4)
+
+RESOURCE ID: quest_title_alodude_2
+TEXT: Un camino rocoso (3/4)
+
+RESOURCE ID: quest_title_alodude_3
+TEXT: Un camino rocoso (4/4)
+
 RESOURCE ID: quest_title_megav3_branch_quest_0
 TEXT: Un megamomento (1/4)
 
@@ -1757,6 +1992,15 @@ TEXT: Reiniciar
 RESOURCE ID: safari_2022_seville_dialogue_0_0
 TEXT: ¡Te damos la bienvenida a la Zona Safari de Sevilla 2022, %PLAYERNAME%!
 
+RESOURCE ID: safari_2022_seville_title
+TEXT: Zona Safari de Sevilla 2022
+
+RESOURCE ID: safari_2022_seville_title_0
+TEXT: Zona Safari de Sevilla 2022 (1/2)
+
+RESOURCE ID: safari_2022_seville_title_1
+TEXT: Zona Safari de Sevilla 2022 (2/2)
+
 RESOURCE ID: settings_advanced_adjust_performance
 TEXT: Ajustar rendimiento
 
@@ -1771,6 +2015,27 @@ TEXT: Habilitar esta configuración te permitirá transferir Pokémon legendario
 
 RESOURCE ID: settings_push_buddy_v2
 TEXT: Beneficio de compañero
+
+RESOURCE ID: seville_cup_description
+TEXT: Una Copa Captura diaria para los asistentes a la Zona Safari de Sevilla
+
+RESOURCE ID: seville_cup_title
+TEXT: Copa Captura de Sevilla
+
+RESOURCE ID: seville_cup_title_01
+TEXT: Copa Captura de Sevilla: 13 de mayo
+
+RESOURCE ID: seville_cup_title_02
+TEXT: Copa Captura de Sevilla: 14 de mayo
+
+RESOURCE ID: seville_cup_title_03
+TEXT: Copa Captura de Sevilla: 15 de mayo
+
+RESOURCE ID: seville_cup_title_extended
+TEXT: Copa Captura de Sevilla: Torneo
+
+RESOURCE ID: seville_cup_title_extended_description
+TEXT: Una Copa Captura de una semana de duración para los Entrenadores con entradas para la Zona Safari de Sevilla
 
 RESOURCE ID: shop_already_own_this_ticket
 TEXT: Ya dispones de una entrada para este evento.
@@ -1852,7 +2117,7 @@ RESOURCE ID: shop_gift_purchase_user_limit_title
 TEXT: Has alcanzado el límite diario de regalos pagados
 
 RESOURCE ID: shop_gift_redemption_error_modal_description
-TEXT: Desafortunadamente, no se ha podido enviar tu regalo en este momento. El destinatario del regalo ha obtenido el artículo de otra manera mientras se procesaba tu regalo.
+TEXT: No se ha podido enviar tu regalo en este momento. El destinatario del regalo ha obtenido este artículo antes de que tu compra se completara.
 Ponte en contacto con la tienda de aplicaciones para pedir el reembolso.
 
 RESOURCE ID: shop_gifting_policy_modal_description
@@ -1881,6 +2146,9 @@ TEXT: Aventuras Aéreas Pokémon: Desafío de captura
 RESOURCE ID: sparks_fly_title
 TEXT: Cielos electrificados
 
+RESOURCE ID: spawn_alodude
+TEXT: Están apareciendo más Geodude de Alola en estado salvaje
+
 RESOURCE ID: spawn_mudkip
 TEXT: Están apareciendo más Mudkip en estado salvaje
 
@@ -1889,6 +2157,45 @@ TEXT: ¡Están apareciendo más Stufful en estado salvaje!
 
 RESOURCE ID: special_trade_plus_3
 TEXT: Tres intercambios especiales adicionales cada día (para un total de cuatro)
+
+RESOURCE ID: special_trades_plus_5
+TEXT: Cinco intercambios especiales adicionales cada día
+
+RESOURCE ID: sticker_funawari_22_312.5_description
+TEXT:  
+
+RESOURCE ID: sticker_giftthankyou.3_description
+TEXT:  
+
+RESOURCE ID: sticker_nagano_06_312.5_description
+TEXT:  
+
+RESOURCE ID: sticker_nagano_15_312.5_description
+TEXT:  
+
+RESOURCE ID: sticker_nagano_marill.5_description
+TEXT:  
+
+RESOURCE ID: sticker_nagano_yadon.3_description
+TEXT:  
+
+RESOURCE ID: sticker_spring_eievui.5_description
+TEXT:  
+
+RESOURCE ID: sticker_spring_hapinas.5_description
+TEXT:  
+
+RESOURCE ID: sticker_spring_mimirol.5_description
+TEXT:  
+
+RESOURCE ID: sticker_spring_nimphia.5_description
+TEXT:  
+
+RESOURCE ID: sticker_spring_pikachu.5_description
+TEXT:  
+
+RESOURCE ID: sticker_spring_pipito.3_description
+TEXT:  
 
 RESOURCE ID: story_quest_rockethq10
 TEXT: Planes sigilosos
@@ -1911,11 +2218,38 @@ TEXT: Planes sigilosos (5/6)
 RESOURCE ID: story_quest_rockethq10_5
 TEXT: Planes sigilosos (6/6)
 
+RESOURCE ID: ticket_alodude
+TEXT: Las entradas para la historia de investigación especial "Un camino rocoso" están disponibles en la tienda
+
 RESOURCE ID: ticket_mudkip
 TEXT: Las entradas para la historia de investigación especial "Clásicos del Día de la Comunidad: Mudkip" están disponibles en la tienda
 
 RESOURCE ID: ticket_stufful
 TEXT: Las entradas para la historia de investigación especial "Un peluche muy fuerte" están disponibles en la tienda
+
+RESOURCE ID: timed_challenge_bonus_modal_description
+TEXT: Los Entrenadores deben trabajar juntos como una comunidad global para completar este desafío.
+
+RESOURCE ID: timed_challenge_bonus_modal_description_regional_backup
+TEXT: Todos los Entrenadores deben trabajar juntos como una comunidad regional para completar este desafío.
+
+RESOURCE ID: timed_challenge_bonus_modal_title
+TEXT: Desafío global
+
+RESOURCE ID: timed_challenge_bonus_modal_title_regional_backup
+TEXT: Desafío regional
+
+RESOURCE ID: timed_challenge_global_type
+TEXT: Desafío global
+
+RESOURCE ID: timed_challenge_global_type_regional_backup
+TEXT: Desafío regional
+
+RESOURCE ID: timed_challenge_work_together
+TEXT: Los Entrenadores deben trabajar juntos como una comunidad global para completar este desafío.
+
+RESOURCE ID: timed_challenge_work_together_regional_backup
+TEXT: Todos los Entrenadores deben trabajar juntos como una comunidad regional para completar este desafío.
 
 RESOURCE ID: tips_raid_tutorial_mega_attack_boost_body
 TEXT: Cuando uses un Pokémon megaevolucionado en una incursión o en un combate de Gimnasio, los ataques de los Pokémon de otros Entrenadores en esa misma incursión o combate de Gimnasio infligirán más daño. Estos ataques infligirán aún más daño si son del mismo tipo que tu Pokémon megaevolucionado.

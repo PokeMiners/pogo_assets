@@ -19,7 +19,7 @@ TEXT: Pokémon GO Safari Zone
 RESOURCE ID: 5289
 TEXT: Seville, May 13, 2022
 
-RESOURCE ID: 5289 _title
+RESOURCE ID: 5289_title
 TEXT: Pokémon GO Safari Zone— 사전 입장
 
 RESOURCE ID: 5290
@@ -456,6 +456,18 @@ TEXT: 하늘 나는 피카츄 프로젝트: 오키나와
 RESOURCE ID: badge_event_0038_title
 TEXT: 하늘 나는 피카츄 프로젝트 콜라보 2022
 
+RESOURCE ID: badge_gofest_2022_global
+TEXT: 글로벌, 2022년 6월 4일~5일& 2022년 여름
+
+RESOURCE ID: badge_gofest_2022_global_title
+TEXT: Pokémon GO Fest 2022
+
+RESOURCE ID: badge_gofest_2022_test
+TEXT: 글로벌, 2022년 6월 4일~5일& 2022년 여름
+
+RESOURCE ID: badge_gofest_2022_test_title
+TEXT: Pokémon GO Fest 2022
+
 RESOURCE ID: badge_safarizone_2022_seville_day_00_earlyaccess
 TEXT: Pokémon GO Safari Zone— 사전 입장
 
@@ -510,17 +522,35 @@ TEXT: 메가레벨 포켓몬: {0}마리
 RESOURCE ID: became_friends_prompt
 TEXT: {0}님과 친구가 되었습니다.
 
+RESOURCE ID: bonus_2x_candy
+TEXT: 2× 포켓몬을 잡았을 때의 사탕
+
 RESOURCE ID: bonus_2x_candy_stufful
 TEXT: 2× 포켓몬을 잡았을 때의 사탕
+
+RESOURCE ID: bonus_2x_xl_candy_chance
+TEXT: 2x 포켓몬을 잡았을 때 사탕XL 얻을 확률
 
 RESOURCE ID: bonus_2x_xl_candy_chance_stufful
 TEXT: 2x 포곰곰을 잡았을 때 사탕XL 얻을 확률
 
+RESOURCE ID: bonus_3x_catch_xp_alodude
+TEXT: 3× 포켓몬 잡았을 때 XP
+
 RESOURCE ID: bonus_3x_catch_xp_stufful
 TEXT: 3× 포켓몬 잡았을 때 XP
 
+RESOURCE ID: bonus_4x_catch_stardust
+TEXT: 4× 포켓몬을 잡았을 때의 별의모래
+
 RESOURCE ID: bonus_4x_catch_xp_stufful
 TEXT: 4× 포켓몬 잡았을 때 XP
+
+RESOURCE ID: bonus_cd_move_alodude
+TEXT: 알로라의 모습의 데구리를 딱구리로 진화시키면 구르기를 배우고 있다
+
+RESOURCE ID: bonus_implicit_social_alodude
+TEXT: 하나의 루어모듈에서 잡은 포켓몬이 일정 수를 넘으면, 그 주변에서 30분 동안 4x 포켓몬 잡았을 때 별의모래
 
 RESOURCE ID: bonus_implicit_social_stufful
 TEXT: 하나의 루어모듈에서 잡은 포켓몬이 일정 수를 넘으면, 그 주변에서 30분 동안 4x 포켓몬 잡았을 때 XP
@@ -629,11 +659,20 @@ TEXT: {0}의 실드 준비가 늦었습니다.
 RESOURCE ID: combat_recovery_failed
 TEXT: 이전 대전에 복귀할 수 없습니다.
 
+RESOURCE ID: community_day_alodude_event_name
+TEXT: 커뮤니티 데이: 꼬마돌(알로라의 모습)
+
 RESOURCE ID: community_day_mudkip_event_name
 TEXT: 물짱이 커뮤니티 데이(복각)
 
 RESOURCE ID: community_day_stufful_event_name
 TEXT: 커뮤니티 데이: 포곰곰
+
+RESOURCE ID: corphish_o_clock
+TEXT: 가재군 대량발생
+
+RESOURCE ID: corphish_o_clock_description
+TEXT: 가재군이 정시에 대량발생
 
 RESOURCE ID: decline_action_label
 TEXT: 동의 안 함
@@ -655,6 +694,9 @@ TEXT: 메가진화 상태
 
 RESOURCE ID: error_friend_request_friend_inbox_full
 TEXT: 이 트레이너에게는 미승인 프렌드 신청이 있습니다.
+
+RESOURCE ID: error_has_unsent_gift
+TEXT: You can gift your extra ticket from the Item Bag
 
 RESOURCE ID: event_evolve_exeggcute
 TEXT: 아라리는 알로라의 모습 나시로 진화할 수 있다
@@ -698,6 +740,14 @@ TEXT: 위클리 탐색 챌린지
 RESOURCE ID: furret_walk_title
 TEXT: 걸어서 모험
 
+RESOURCE ID: general1.ticket.2_alodude_description
+TEXT: 전 세계 어디에 있어도 현지 시간 2022년 5월 21일 11시~ 14시까지 게임 내에서 시작할 수 있는 이벤트 "암석포켓몬의 수수께끼를 풀어라!"를 플레이할 수 있는 티켓. 자세한 내용은 게임 내 새소식에서 확인할 수 있습니다.
+
+이벤트를 최대한 즐기려면 기재된 개최 시간 내에 완료할  필요가 있습니다.
+
+RESOURCE ID: general1.ticket.2_alodude_title
+TEXT: 암석포켓몬의 수수께끼를 풀어라!
+
 RESOURCE ID: general1.ticket.2_mudkt_description
 TEXT: 전 세계 어디에 있어도 현지 시간 2022년 4월 10일 14시~ 17시까지 게임 내에서 물짱이 커뮤니티 데이(복각) 스페셜리서치를 플레이할 수 있는 티켓. 자세한 내용은 게임 내 새소식에서 확인할 수 있습니다.
 
@@ -711,6 +761,20 @@ TEXT: 문의 하기
 
 RESOURCE ID: generic_done
 TEXT: 종료
+
+RESOURCE ID: gifting_error_description
+TEXT: We are sorry. 
+ Your gift could not be sent, because the recipient obtained the Event Ticket before the purchase could complete. You can choose a new friend to send this to now. 
+ If you would like a refund, you can request one through your app store.
+
+RESOURCE ID: gifting_error_refund_button
+TEXT: REQUEST REFUND
+
+RESOURCE ID: gifting_error_send_to_friend_button
+TEXT: SEND TO FRIEND
+
+RESOURCE ID: gifting_error_title
+TEXT: Gift Unable To Send
 
 RESOURCE ID: gofest2022_ticket_description
 TEXT: 당신이 전 세계 어디에 있든지 현지 시각으로 2022년 6월 4일과 5일, 10시~18시까지 Pokémon GO Fest에 참가할 수 있는 티켓입니다. 또한 8월에 있을 Pokémon GO 피날레 이벤트 참가 자격도 주어집니다. 더 자세한 사항은 게임 내의 뉴스 란을 참고하세요. 스페셜 이벤트 보너스를 수령하기 위해서는 꼭 이벤트 기간 내에 플레이해 주세요.
@@ -748,11 +812,29 @@ TEXT: https://niantic.helpshift.com/a/pokemon-go/?p=all&s=friends-gifting-tradin
 RESOURCE ID: helpshift_sharing_game_logs
 TEXT: https://niantic.helpshift.com/hc/ko/6-pokemon-go/faq/3325-sharing-game-logs/
 
+RESOURCE ID: incense_duration_8_hr
+TEXT: 향로 8시간 지속
+
 RESOURCE ID: invite_action_label
 TEXT: 초대
 
+RESOURCE ID: item_event_ticket_pink_desc
+TEXT: 현지시간 2022년 5월 21일 11시~14시에 스페셜리서치를 진행하기 위한 티켓.
+
+RESOURCE ID: item_event_ticket_pink_desc_alodude
+TEXT: 현지시간 2022년 5월 21일 11시~14시에 스페셜리서치를 진행하기 위한 티켓.
+
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2020년4월 23일 스페셜리서치가 진행됩니다.
+TEXT: 이 티켓은 자동으로 활성화되어 현지시간 2022년 5월 21일에 스페셜리서치가 진행됩니다.
+
+RESOURCE ID: item_event_ticket_pink_to_gift_desc
+TEXT:  
+
+RESOURCE ID: item_event_ticket_pink_to_gift_name
+TEXT: Extra Ticket
+
+RESOURCE ID: item_event_ticket_to_gift_desc
+TEXT: Extra event ticket from a purchase error. You can send it to another friend or get refunded.
 
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: 당신이 전 세계 어디에 있든지 현지 시각으로 2022년 6월 4일과 5일, 10시~18시까지 Pokémon GO Fest에 참가할 수 있는 티켓입니다. 
@@ -762,6 +844,9 @@ TEXT: 당신이 전 세계 어디에 있든지 현지 시각으로 2022년 6월 
 
 RESOURCE ID: lets_go
 TEXT: Let’s GO!
+
+RESOURCE ID: lure_duration_4_hr
+TEXT: 루어모듈 4시간 지속
 
 RESOURCE ID: lure_duration_6_hr
 TEXT: 루어모듈 6시간 지속
@@ -805,6 +890,24 @@ TEXT: {0}의 하루에 올릴 수 있는 메가레벨 최대치에 도달했습�
 
 RESOURCE ID: mega_daily_limit_header
 TEXT: 하루 레벨 최대치 도달
+
+RESOURCE ID: mega_evo_bonus_buff_desc_mult_1
+TEXT: While {0} is Mega Evolved, you’ll earn extra Candy when you catch <b>{1}</b>- or <b>{2}</b>-type Pokémon.
+
+RESOURCE ID: mega_evo_bonus_buff_desc_mult_2
+TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>- or <b>{2}</b>-type Pokémon.
+
+RESOURCE ID: mega_evo_bonus_buff_desc_mult_3
+TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>- or <b>{2}</b>-type Pokémon.
+
+RESOURCE ID: mega_evo_bonus_buff_desc_singular_1
+TEXT: While {0} is Mega Evolved, you’ll earn extra Candy when you catch <b>{1}</b>-type Pokémon.
+
+RESOURCE ID: mega_evo_bonus_buff_desc_singular_2
+TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>-type Pokémon.
+
+RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
+TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>-type Pokémon.
 
 RESOURCE ID: mega_evolve_energy_prompt
 TEXT: 탭 해서 메가진화!
@@ -960,8 +1063,8 @@ RESOURCE ID: mega_v3_event_name
 TEXT: 위대한 메가진화
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-05-07T01:02:39.245288
-at SHA c7e76eade13bd70dc00c753c9f58be99b4ea4215
+TEXT: Built at 2022-05-17T19:10:48.613840
+at SHA 84601656f5de4b6782a0d8175d909529ce75dec0
 Patch from: 0.235.0-SHA-a3840134, 0.237.0-SHA-5e5782b5
 
 RESOURCE ID: move_name_0365
@@ -969,6 +1072,9 @@ TEXT: 라스트버지
 
 RESOURCE ID: move_name_0366
 TEXT: 미스트볼
+
+RESOURCE ID: move_name_0368
+TEXT: 구르기
 
 RESOURCE ID: now_label
 TEXT: Now
@@ -979,14 +1085,26 @@ TEXT: 프렌드와 새로운 모험- 시간제한 리서치
 RESOURCE ID: old_friends_title
 TEXT: 프렌드와 새로운 모험
 
+RESOURCE ID: paidraidticket.3_description
+TEXT: A pack of 3 Premium Battles Passes, which can be used to join a Raid Battle or enter the premium GO Battle League.
+
+RESOURCE ID: paidraidticket.3_title
+TEXT: 3 Premium Battles Passes
+
 RESOURCE ID: performance_successfully_updated
 TEXT: 성능 설정을 갱신했습니다!
+
+RESOURCE ID: photobomb_five_alodude
+TEXT: GO스냅샷으로 꼬마돌(알로라의 모습)의 서프라이즈 5회
 
 RESOURCE ID: photobomb_five_mudkip
 TEXT: GO스냅샷으로 물짱이 서프라이즈 5번
 
 RESOURCE ID: photobomb_five_stufful
 TEXT: GO스냅샷으로 포곰곰의 서프라이즈 5번
+
+RESOURCE ID: photobomb_safari_pika
+TEXT: GO스냅샷에서 사파리 모자를 쓴 피카츄 서프라이즈 5번
 
 RESOURCE ID: plural_friend_pinned_your_postcard
 TEXT: {0}님외 {1}명의 프렌드가 엽서를 저장했습니다!
@@ -996,6 +1114,18 @@ TEXT: 메가진화로 인해 다른 차원으로 접근이 가능하게 되었�
 
 RESOURCE ID: pokemon_info_mega_evolution_replace
 TEXT: {0}(은)는 메가진화할 수 없습니다!
+
+RESOURCE ID: quest_alodude_catch
+TEXT: 알로라의 모습 꼬마돌을 {0}마리 잡는다
+
+RESOURCE ID: quest_alodude_evolve_a
+TEXT: 알로라의 모습 꼬마돌을 {0}마리 진화시킨다
+
+RESOURCE ID: quest_alodude_evolve_b
+TEXT: 알로라의 모습 데구리를 {0}마리 진화시킨다
+
+RESOURCE ID: quest_alodude_snap
+TEXT: 알로라의 모습 꼬마돌의 GO스냅샷을 {0}장 찍는다
 
 RESOURCE ID: quest_catch_berry_pinap
 TEXT: 포켓몬을 잡을 때 파인열매를 {0}개 사용한다
@@ -1024,8 +1154,23 @@ TEXT: 변신포켓몬을 {0}마리 잡는다
 RESOURCE ID: quest_complete_af2022
 TEXT: 만우절2022
 
+RESOURCE ID: quest_complete_alodude
+TEXT: 암석포켓몬의 수수께끼를 풀어라!
+
 RESOURCE ID: quest_complete_mudkt
 TEXT: 물짱이 커뮤니티 데이(복각)
+
+RESOURCE ID: quest_dude_catch
+TEXT: 꼬마돌을 {0}마리 잡는다
+
+RESOURCE ID: quest_dude_evolve_a
+TEXT: 꼬마돌을 {0}마리 진화시킨다
+
+RESOURCE ID: quest_dude_evolve_b
+TEXT: 데구리를 {0}마리 진화시킨다
+
+RESOURCE ID: quest_dude_snap
+TEXT: 꼬마돌 GO스냅샷 사진을 {0}장 찍는다
 
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: 아라리 리서치: 체육관배틀을 1번 한다
@@ -1075,6 +1220,15 @@ TEXT: 아라리 리서치: 날씨 부스트를 받고 있는 포켓몬을 5마�
 RESOURCE ID: quest_elrd22_april16_wild_grass_snapshot
 TEXT: 아라리 리서치: 야생 풀타입 포켓몬의 GO스냅샷을 찍는다
 
+RESOURCE ID: quest_explore_buddy
+TEXT: 파트너 포켓몬과 탐색하여 사탕 1개를 얻는다
+
+RESOURCE ID: quest_explore_buddy_plural
+TEXT: 파트너 포켓몬과 탐색하여 사탕 {0}개를 얻는다
+
+RESOURCE ID: quest_explore_km
+TEXT: {0}km 탐색한다
+
 RESOURCE ID: quest_mudkt_catch_b
 TEXT: 물짱이를 {0}마리 잡는다
 
@@ -1095,6 +1249,9 @@ TEXT: GO스냅샷을 찍는다
 
 RESOURCE ID: quest_snapshot_wild_grass_singular
 TEXT: 풀타입 야생 포켓몬의 GO스냅샷을 1장 찍는다
+
+RESOURCE ID: quest_snapshot_wild_water_singular
+TEXT: Take a snapshot of wild Water-type Pokémon
 
 RESOURCE ID: quest_special_dialogue_af2022_0_0
 TEXT: ... ... ...
@@ -1185,6 +1342,66 @@ TEXT: 넌 나로 변신한 메타몽이란 말이군...
 
 RESOURCE ID: quest_special_dialogue_af2022_2_9
 TEXT: 두말할 것도 없이 메타몽은 전신의 세포를 재구성해서 본 것의 모양과 똑같이 변신하는 능력을 가지고 있지.
+
+RESOURCE ID: quest_special_dialogue_alodude_0_0
+TEXT: %PLAYERNAME%, 만나서 반가워!
+
+RESOURCE ID: quest_special_dialogue_alodude_0_1
+TEXT: 넌 알고 있겠지만 포켓몬에는 서식하는 장소에 따라 외모가 다른 것이 있어. 꼬마돌도 마찬가지야. 그 외모로 자주 바위로 오해받곤 하지.
+
+RESOURCE ID: quest_special_dialogue_alodude_0_2
+TEXT: 하지만 알로라지방에서 처음으로 발견된 꼬마돌은 조금 달라. 바위타입과 전기타입을 가지고 있지.
+
+RESOURCE ID: quest_special_dialogue_alodude_0_3
+TEXT: 땅에서 자는 알로라의 모습 꼬마돌을 잘못해서 밟으면 온몸이 짜릿해서 저려와...
+
+RESOURCE ID: quest_special_dialogue_alodude_0_4
+TEXT: ....그래 경험자는 알지. 짜릿하게 시작해서 한번에 짜르르릇!
+
+RESOURCE ID: quest_special_dialogue_alodude_0_5
+TEXT: 알로라 모습의 꼬마돌을 찾아보자. 넌 잘못해서 밟지 않도록 해.
+
+RESOURCE ID: quest_special_dialogue_alodude_1_0
+TEXT: 어서 와, %PLAYERNAME%! 알로라의 모습 꼬마돌에 대해 완벽하군.
+
+RESOURCE ID: quest_special_dialogue_alodude_1_1
+TEXT: 게다가 알로라의 모습 데구리가 좋아하는 것이 뭔지 아니? 전기석인 드라바이트야. 먹으면 결정이 되어서 몸의 일부로 튀어나온다고 하는군.
+
+RESOURCE ID: quest_special_dialogue_alodude_1_2
+TEXT: 그리고 2마리 데구리가 싸우면? 부딪힐 때마다 폭발음과 빛을 내뿜어. 사람을 그걸 육지의 불꽃이라고 부르지.
+
+RESOURCE ID: quest_special_dialogue_alodude_1_3
+TEXT: 불꽃에는 주의하고 알로라 데구리를 실제 보고 조사를 계속해줘, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_alodude_2_0
+TEXT: 잘했어! 알로라의 모습 데구리를 진화시켰구나!
+
+RESOURCE ID: quest_special_dialogue_alodude_2_1
+TEXT: 이 눈으로 육지의 불꽃을 보고 싶지만... 그건 다음으로 하지... 탈 것이 없는 곳에서.
+
+RESOURCE ID: quest_special_dialogue_alodude_2_2
+TEXT: 네가 조사하는 동안, 신기한 것을 봤어. 알로라의 모습 꼬마돌이 하늘을 날고 있었어!
+
+RESOURCE ID: quest_special_dialogue_alodude_2_3
+TEXT: 알로라의 모습 딱구리가 한 짓이겟지. 전기를 띈 암석을 발사할 수 있는데 암석은 연사할 수 없어. 그래서 주변에 있는 꼬마돌을 등에 넣어 발사할 때도 있다고 하는군.
+
+RESOURCE ID: quest_special_dialogue_alodude_2_4
+TEXT: 난 발사한 꼬마돌을 본 거야. 설마 비행타입의 꼬마돌인가! 어떻게 생각해?
+
+RESOURCE ID: quest_special_dialogue_alodude_3_0
+TEXT: 아, 너구나. 알로라의 딱구리와 돌아왔구나!
+
+RESOURCE ID: quest_special_dialogue_alodude_3_1
+TEXT: 연사용 꼬마돌도 잡았니? ... 농담이야.
+
+RESOURCE ID: quest_special_dialogue_alodude_3_2
+TEXT: 어쨌든 알로라의 모습 딱구리는 가만히 놔두는 게 안전해. 까다롭고 고집이 세다고 전해지거든. 기분을 상하게 하면 온몸을 방전해서 천둥 같은 울음소리를 낸다고 하는군.
+
+RESOURCE ID: quest_special_dialogue_alodude_3_3
+TEXT: 너라면 어떤 포켓몬이라도 사이 좋게 지낼 수 있겠지만.
+
+RESOURCE ID: quest_special_dialogue_alodude_3_4
+TEXT: %PLAYERNAME%, 협력해줘서 고마워! 네가 도와준 덕분에 단단한 하루였어! 또 보자!
 
 RESOURCE ID: quest_special_dialogue_megabee_1_1
 TEXT: 그럼.. 뿔충이로는 메가진화할 수 없지. 하지만 독침붕이라면 가능해.
@@ -1702,6 +1919,21 @@ TEXT: 만우절2022 (2/3)
 RESOURCE ID: quest_title_af2022_2
 TEXT: 만우절2022 (3/3)
 
+RESOURCE ID: quest_title_alodude
+TEXT: 암석포켓몬의 수수께끼를 풀어라!
+
+RESOURCE ID: quest_title_alodude_0
+TEXT: 암석포켓몬의 수수께끼를 풀어라!(1/4)
+
+RESOURCE ID: quest_title_alodude_1
+TEXT: 암석포켓몬의 수수께끼를 풀어라!(2/4)
+
+RESOURCE ID: quest_title_alodude_2
+TEXT: 암석포켓몬의 수수께끼를 풀어라!(3/4)
+
+RESOURCE ID: quest_title_alodude_3
+TEXT: 암석포켓몬의 수수께끼를 풀어라!(4/4)
+
 RESOURCE ID: quest_title_megav3_branch_quest_0
 TEXT: 위대한 메가진화(1/4)
 
@@ -1784,7 +2016,7 @@ RESOURCE ID: quest_waterfestival_evolve_type_water_plural
 TEXT: 워터페스티벌: 물타입 포켓몬을 {0}마리 진화시킨다
 
 RESOURCE ID: quests_batch_updated
-TEXT: {0} Research Tasks Updated
+TEXT: {0}건 리서치 과제 완료
 
 RESOURCE ID: raid_day_mega_kangaskhan
 TEXT: 메가캥카 레이드 데이
@@ -1798,6 +2030,15 @@ TEXT: 레트로컵
 RESOURCE ID: safari_2022_seville_dialogue_0_0
 TEXT: Welcome to Safari Zone Seville 2022, %PLAYERNAME%!
 
+RESOURCE ID: safari_2022_seville_title
+TEXT: Safari Zone Seville 2022
+
+RESOURCE ID: safari_2022_seville_title_0
+TEXT: Safari Zone Seville 2022 (1/2)
+
+RESOURCE ID: safari_2022_seville_title_1
+TEXT: Safari Zone Seville 2022 (2/2)
+
 RESOURCE ID: screen_title_notification
 TEXT: 알림 설정
 
@@ -1809,6 +2050,27 @@ TEXT: 성능 조정
 
 RESOURCE ID: settings_advanced_adjust_performance_sub
 TEXT: 디바이스 스펙에 따라 설정을 변경하여 배터리 소모를 절약하는 효과를 봅니다.
+
+RESOURCE ID: seville_cup_description
+TEXT: Safari Zone 참가자가 배틀할 수 있는 캐치컵
+
+RESOURCE ID: seville_cup_title
+TEXT: Seville 캐치컵
+
+RESOURCE ID: seville_cup_title_01
+TEXT: Seville 캐치컵, May 13
+
+RESOURCE ID: seville_cup_title_02
+TEXT: Seville 캐치컵, May 14
+
+RESOURCE ID: seville_cup_title_03
+TEXT: Seville 캐치컵, May 15
+
+RESOURCE ID: seville_cup_title_extended
+TEXT: Seville 캐치컵: 토너먼트
+
+RESOURCE ID: seville_cup_title_extended_description
+TEXT: Safari Zone Seville 티켓을 가진 트레이너가 참가할 수 있는 캐치컵
 
 RESOURCE ID: shop_already_own_this_ticket
 TEXT: 이 이벤트 티켓을 가지고 있습니다
@@ -1913,6 +2175,9 @@ TEXT: "하늘 나는 피카츄 프로젝트" 콜라보 챌린지
 RESOURCE ID: sparks_fly_title
 TEXT: "하늘 나는 피카츄 프로젝트" 콜라보 챌린지
 
+RESOURCE ID: spawn_alodude
+TEXT: 꼬마돌(알로라의 모습)이 야생에서 많이 출현
+
 RESOURCE ID: spawn_mudkip
 TEXT: 물짱이가 야생에서 더 많이 출현
 
@@ -1921,6 +2186,45 @@ TEXT: 포곰곰이 야생에서 많이 출현!
 
 RESOURCE ID: special_trade_plus_3
 TEXT: 특별한 교환이 3번 추가로, 하루에 총 4번 가능
+
+RESOURCE ID: special_trades_plus_5
+TEXT: 특별한 교환 5번 추가
+
+RESOURCE ID: sticker_funawari_22_312.5_description
+TEXT:  
+
+RESOURCE ID: sticker_giftthankyou.3_description
+TEXT:  
+
+RESOURCE ID: sticker_nagano_06_312.5_description
+TEXT:  
+
+RESOURCE ID: sticker_nagano_15_312.5_description
+TEXT:  
+
+RESOURCE ID: sticker_nagano_marill.5_description
+TEXT:  
+
+RESOURCE ID: sticker_nagano_yadon.3_description
+TEXT:  
+
+RESOURCE ID: sticker_spring_eievui.5_description
+TEXT:  
+
+RESOURCE ID: sticker_spring_hapinas.5_description
+TEXT:  
+
+RESOURCE ID: sticker_spring_mimirol.5_description
+TEXT:  
+
+RESOURCE ID: sticker_spring_nimphia.5_description
+TEXT:  
+
+RESOURCE ID: sticker_spring_pikachu.5_description
+TEXT:  
+
+RESOURCE ID: sticker_spring_pipito.3_description
+TEXT:  
 
 RESOURCE ID: story_quest_rockethq10
 TEXT: 악의 조직을 저지하라!
@@ -1943,11 +2247,38 @@ TEXT: 악의 조직을 저지하라!(5/6)
 RESOURCE ID: story_quest_rockethq10_5
 TEXT: 악의 조직을 저지하라!(6/6)
 
+RESOURCE ID: ticket_alodude
+TEXT: '암석포켓몬의 수수께끼'를 풀어라!' 티켓이 숍에 등장!
+
 RESOURCE ID: ticket_mudkip
 TEXT: 물짱이 커뮤니티 데이(복각) 스페셜리서치 티켓이 숍에 등장
 
 RESOURCE ID: ticket_stufful
 TEXT: '바둥바둥포켓몬의 수수께끼를 풀어라!' 티켓이 숍에 등장
+
+RESOURCE ID: timed_challenge_bonus_modal_description
+TEXT: 전 세계 트레이너가 하나 되어 완료를 목표로 하는 챌린지입니다!
+
+RESOURCE ID: timed_challenge_bonus_modal_description_regional_backup
+TEXT: 지역 트레이너가 하나가 되어 완료를 목표로 하는 챌린지입니다!
+
+RESOURCE ID: timed_challenge_bonus_modal_title
+TEXT: 글로벌 챌린지
+
+RESOURCE ID: timed_challenge_bonus_modal_title_regional_backup
+TEXT: 리저널 챌린지
+
+RESOURCE ID: timed_challenge_global_type
+TEXT: 글로벌 챌린지
+
+RESOURCE ID: timed_challenge_global_type_regional_backup
+TEXT: 리저널 챌린지
+
+RESOURCE ID: timed_challenge_work_together
+TEXT: 전 세계 트레이너가 하나 되어 완료를 목표로 하는 챌린지입니다!
+
+RESOURCE ID: timed_challenge_work_together_regional_backup
+TEXT: 지역 트레이너가 하나가 되어 완료를 목표로 하는 챌린지입니다!
 
 RESOURCE ID: tips_lucky_trading_modal_body
 TEXT: 반짝반짝 포켓몬 교환을 하면 포켓몬이 반짝반짝 포켓몬이 됩니다!
