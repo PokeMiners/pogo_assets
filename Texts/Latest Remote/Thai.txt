@@ -716,7 +716,7 @@ RESOURCE ID: error_friend_request_friend_inbox_full
 TEXT: ผูเลนนี้มีคำขอเปนเพื่อนที่คางอยูมากเกินไป
 
 RESOURCE ID: error_has_unsent_gift
-TEXT: You can gift your extra ticket from the Item Bag
+TEXT: คุณมีตั๋วที่สามารถสงเปนของขวัญเหลืออยูในกระเปาเก็บไอเท็ม
 
 RESOURCE ID: event_evolve_exeggcute
 TEXT: ทามะทามะสามารถวิวัฒนาการเปนอโลลา นัชชีได
@@ -780,18 +780,18 @@ RESOURCE ID: generic_done
 TEXT: เสร็จสิ้น
 
 RESOURCE ID: gifting_error_description
-TEXT: We are sorry. 
- Your gift could not be sent, because the recipient obtained the Event Ticket before the purchase could complete. You can choose a new friend to send this to now. 
- If you would like a refund, you can request one through your app store.
+TEXT: ไมสามารถสงของขวัญไดเนื่องจากผูรับมีตั๋วของอีเวนตเดียวกันในครอบครองกอนที่การดำเนินการซื้อของคุณจะเสร็จสิ้น
+คุณสามารถเลือกเพื่อนคนอื่นเพื่อสงตั๋วใบนี้ใหแทนได
+หากคุณตองการทำเรื่องขอเงินคืน กรุณาติดตอรานคาแอปของคุณ
 
 RESOURCE ID: gifting_error_refund_button
-TEXT: REQUEST REFUND
+TEXT: ยื่นเรื่องขอเงินคืน
 
 RESOURCE ID: gifting_error_send_to_friend_button
-TEXT: SEND TO FRIEND
+TEXT: สงใหเพื่อน
 
 RESOURCE ID: gifting_error_title
-TEXT: Gift Unable To Send
+TEXT: สงของขวัญไมสำเร็จ
 
 RESOURCE ID: gofest2022_ticket_description
 TEXT: ตั๋วสำหรับเขารวม Pokémon GO Fest ในวันที่ 4 และ 5 มิถุนายน 2022 ตั้งแตเวลา 10:00 น. ถึง 18:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด รวมถึงโบนัสในชวงอีเวนตปดทาย Pokémon GO Fest ในเดือนสิงหาคม สามารถดูรายละเอียดไดที่ขาวสารในเกม
@@ -1049,10 +1049,10 @@ RESOURCE ID: item_event_ticket_pink_to_gift_desc
 TEXT:  
 
 RESOURCE ID: item_event_ticket_pink_to_gift_name
-TEXT: Extra Ticket
+TEXT: ตั๋วสวนเกิน
 
 RESOURCE ID: item_event_ticket_to_gift_desc
-TEXT: Extra event ticket from a purchase error. You can send it to another friend or get refunded.
+TEXT: เกิดขอผิดพลาดในการซื้อตั๋วอีเวนตสวนเกิน คุณสามารถสงใหเพื่อนหรือทำเรื่องขอเงินคืนได
 
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: ตั๋วสำหรับเขารวม Pokémon GO Fest ในวันที่ 4 และ 5 มิถุนายน 2022 ตั้งแตเวลา 10:00 น. ถึง 18:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด รวมถึงโบนัสในชวงอีเวนตปดทาย Pokémon GO Fest ในเดือนสิงหาคม สามารถดูรายละเอียดไดที่ขาวสารในเกม
@@ -1116,22 +1116,22 @@ RESOURCE ID: mega_daily_limit_header
 TEXT: ถึงขีดจำกัดประจำวัน
 
 RESOURCE ID: mega_evo_bonus_buff_desc_mult_1
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy when you catch <b>{1}</b>- or <b>{2}</b>-type Pokémon.
+TEXT: ในขณะที่{0}วิวัฒนาการเมกา คุณจะไดรับลูกอมเพิ่มเมื่อจับโปเกมอนประเภท<b>{1}</b> และ <b>{2}</b>
 
 RESOURCE ID: mega_evo_bonus_buff_desc_mult_2
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>- or <b>{2}</b>-type Pokémon.
+TEXT: ในขณะที่{0}วิวัฒนาการเมกา คุณจะไดรับลูกอม, XP และโอกาสในการไดรับลูกอม XL เพิ่มเมื่อจับโปเกมอนประเภท<b>{1}</b> หรือ <b>{2}</b>
 
 RESOURCE ID: mega_evo_bonus_buff_desc_mult_3
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>- or <b>{2}</b>-type Pokémon.
+TEXT: ในขณะที่{0}วิวัฒนาการเมกา คุณจะไดรับลูกอม, XP และโอกาสในการไดรับลูกอม XL เพิ่มเมื่อจับโปเกมอนประเภท<b>{1}</b> หรือ <b>{2}</b>
 
 RESOURCE ID: mega_evo_bonus_buff_desc_singular_1
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy when you catch <b>{1}</b>-type Pokémon.
+TEXT: ในขณะที่{0}วิวัฒนาการเมกา คุณจะไดรับลูกอมเพิ่มเมื่อจับโปเกมอนประเภท<b>{1}</b>
 
 RESOURCE ID: mega_evo_bonus_buff_desc_singular_2
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>-type Pokémon.
+TEXT: ในขณะที่{0}วิวัฒนาการเมกา คุณจะไดรับลูกอม, XP และโอกาสในการไดรับลูกอม XL เพิ่มเมื่อจับโปเกมอนประเภท<b>{1}</b>
 
 RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>-type Pokémon.
+TEXT: ในขณะที่{0}วิวัฒนาการเมกา คุณจะไดรับลูกอม, XP และโอกาสในการไดรับลูกอม XL เพิ่มเมื่อจับโปเกมอนประเภท<b>{1}</b>
 
 RESOURCE ID: mega_evolve_energy_prompt
 TEXT: แตะเพื่อวิวัฒนาการเมกา!
@@ -1340,8 +1340,8 @@ RESOURCE ID: mega_v3_event_name
 TEXT: ชวงเวลาสุดเมกา
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-05-17T19:10:48.613840
-at SHA 84601656f5de4b6782a0d8175d909529ce75dec0
+TEXT: Built at 2022-05-20T06:09:29.803671
+at SHA c7de11945e552d8ff78ef7d1a3ce2b8b3a9e2dbc
 Patch from: 0.235.0-SHA-a3840134, 0.237.0-SHA-5e5782b5
 
 RESOURCE ID: move_name_0365
@@ -1353,6 +1353,9 @@ TEXT: บอลหมอก
 RESOURCE ID: move_name_0368
 TEXT: กลิ้ง
 
+RESOURCE ID: move_name_0369
+TEXT: ซีดแฟลร
+
 RESOURCE ID: old_friends_description
 TEXT: งานวิจัยแบบจำกัดเวลาเพื่อนเกา - เรื่องราวใหม
 
@@ -1363,10 +1366,10 @@ RESOURCE ID: onboard_welcome_screen|4
 TEXT: บางตัววิ่งอยูในทุงหญา บางตัวก็บินผานทองฟา บางตัวอาศัยอยูบนภูเขา ในปา หรือใกลกับแหลงน้ำ...
 
 RESOURCE ID: paidraidticket.3_description
-TEXT: A pack of 3 Premium Battles Passes, which can be used to join a Raid Battle or enter the premium GO Battle League.
+TEXT: A pack of 3  Premium Battle Passes that can be used to join a Raid Battle or to earn premium rewards in the GO Battle League. 
 
 RESOURCE ID: paidraidticket.3_title
-TEXT: 3 Premium Battles Passes
+TEXT: 3 Premium Battle Passes
 
 RESOURCE ID: performance_successfully_updated
 TEXT: อัปเดตการตั้งคาประสิทธิภาพแลว!
@@ -4238,6 +4241,18 @@ TEXT: แลกเปลี่ยนแบบพิเศษไดเพิ�
 
 RESOURCE ID: special_trades_plus_5
 TEXT: แลกเปลี่ยนแบบพิเศษไดเพิ่ม 5 ครั้งตอวัน
+
+RESOURCE ID: sticker_alolaishi_1.3_description
+TEXT:  
+
+RESOURCE ID: sticker_alolaishi_2.3_description
+TEXT:  
+
+RESOURCE ID: sticker_alolaishi_3.3_description
+TEXT:  
+
+RESOURCE ID: sticker_alolaishi_4.3_description
+TEXT:  
 
 RESOURCE ID: sticker_funawari_22_312.5_description
 TEXT:  

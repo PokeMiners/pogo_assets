@@ -696,7 +696,7 @@ RESOURCE ID: error_friend_request_friend_inbox_full
 TEXT: 이 트레이너에게는 미승인 프렌드 신청이 있습니다.
 
 RESOURCE ID: error_has_unsent_gift
-TEXT: You can gift your extra ticket from the Item Bag
+TEXT: 도구 가방에 선물로 보낼 수 있는 티켓이 있습니다
 
 RESOURCE ID: event_evolve_exeggcute
 TEXT: 아라리는 알로라의 모습 나시로 진화할 수 있다
@@ -763,18 +763,17 @@ RESOURCE ID: generic_done
 TEXT: 종료
 
 RESOURCE ID: gifting_error_description
-TEXT: We are sorry. 
- Your gift could not be sent, because the recipient obtained the Event Ticket before the purchase could complete. You can choose a new friend to send this to now. 
- If you would like a refund, you can request one through your app store.
+TEXT: 구매 완료 직전에 상대방이 티켓을 손에 넣었기 때문에 선물을 보낼 수 없었습니다.
+다른 프렌드에게 보내거나 앱 스토어에서 환불을 요청해 주세요
 
 RESOURCE ID: gifting_error_refund_button
-TEXT: REQUEST REFUND
+TEXT: 환불 요청
 
 RESOURCE ID: gifting_error_send_to_friend_button
-TEXT: SEND TO FRIEND
+TEXT: 프렌드에게 보내기
 
 RESOURCE ID: gifting_error_title
-TEXT: Gift Unable To Send
+TEXT: 선물을 보낼 수 없습니다
 
 RESOURCE ID: gofest2022_ticket_description
 TEXT: 당신이 전 세계 어디에 있든지 현지 시각으로 2022년 6월 4일과 5일, 10시~18시까지 Pokémon GO Fest에 참가할 수 있는 티켓입니다. 또한 8월에 있을 Pokémon GO 피날레 이벤트 참가 자격도 주어집니다. 더 자세한 사항은 게임 내의 뉴스 란을 참고하세요. 스페셜 이벤트 보너스를 수령하기 위해서는 꼭 이벤트 기간 내에 플레이해 주세요.
@@ -834,7 +833,7 @@ RESOURCE ID: item_event_ticket_pink_to_gift_name
 TEXT: Extra Ticket
 
 RESOURCE ID: item_event_ticket_to_gift_desc
-TEXT: Extra event ticket from a purchase error. You can send it to another friend or get refunded.
+TEXT: An extra event ticket from a purchase error. You can send it to a friend or get it refunded.
 
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: 당신이 전 세계 어디에 있든지 현지 시각으로 2022년 6월 4일과 5일, 10시~18시까지 Pokémon GO Fest에 참가할 수 있는 티켓입니다. 
@@ -892,22 +891,22 @@ RESOURCE ID: mega_daily_limit_header
 TEXT: 하루 레벨 최대치 도달
 
 RESOURCE ID: mega_evo_bonus_buff_desc_mult_1
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy when you catch <b>{1}</b>- or <b>{2}</b>-type Pokémon.
+TEXT: {0}(이)가 메가진화 중에는 <b>{1}타입</b> 또는 <b>{2}타입</b> 포켓몬을 잡았을 때 받을 수 있는 포켓몬의 사탕이 증가합니다.
 
 RESOURCE ID: mega_evo_bonus_buff_desc_mult_2
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>- or <b>{2}</b>-type Pokémon.
+TEXT: {0}(이)가 메가진화 중에는 <b>{1}타입</b> 또는 <b>{2}타입</b> 포켓몬을 잡았을 때 받을 수 있는 포켓몬의 사탕, XP, 사탕XL의 확률이 증가합니다.
 
 RESOURCE ID: mega_evo_bonus_buff_desc_mult_3
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>- or <b>{2}</b>-type Pokémon.
+TEXT: {0}(이)가 메가진화 중에는 <b>{1}타입</b> 또는 <b>{2}</b> 포켓몬을 잡았을 때 받을 수 있는 포켓몬의 사탕, XP, 사탕XL의 확률이 증가합니다.
 
 RESOURCE ID: mega_evo_bonus_buff_desc_singular_1
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy when you catch <b>{1}</b>-type Pokémon.
+TEXT: {0}(이)가 메가진화 중에는 <b>{1}타입</b> 포켓몬을 잡았을 때 받을 수 있는 포켓몬의 사탕이 증가합니다.
 
 RESOURCE ID: mega_evo_bonus_buff_desc_singular_2
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>-type Pokémon.
+TEXT: {0}(이)가 메가진화 중에는 <b>{1}타입</b> 포켓몬을 잡았을 때 받을 수 있는 포켓몬의 사탕, XP, 사탕XL의 확률이 증가합니다.
 
 RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>-type Pokémon.
+TEXT: {0}(이)가 메가진화 중에는 <b>{1}타입</b> 포켓몬을 잡았을 때 받을 수 있는 포켓몬의 사탕, XP, 사탕XL의 확률이 증가합니다.
 
 RESOURCE ID: mega_evolve_energy_prompt
 TEXT: 탭 해서 메가진화!
@@ -1063,8 +1062,8 @@ RESOURCE ID: mega_v3_event_name
 TEXT: 위대한 메가진화
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-05-17T19:10:48.613840
-at SHA 84601656f5de4b6782a0d8175d909529ce75dec0
+TEXT: Built at 2022-05-20T06:09:29.803671
+at SHA c7de11945e552d8ff78ef7d1a3ce2b8b3a9e2dbc
 Patch from: 0.235.0-SHA-a3840134, 0.237.0-SHA-5e5782b5
 
 RESOURCE ID: move_name_0365
@@ -1076,6 +1075,9 @@ TEXT: 미스트볼
 RESOURCE ID: move_name_0368
 TEXT: 구르기
 
+RESOURCE ID: move_name_0369
+TEXT: 시드플레어
+
 RESOURCE ID: now_label
 TEXT: Now
 
@@ -1086,10 +1088,10 @@ RESOURCE ID: old_friends_title
 TEXT: 프렌드와 새로운 모험
 
 RESOURCE ID: paidraidticket.3_description
-TEXT: A pack of 3 Premium Battles Passes, which can be used to join a Raid Battle or enter the premium GO Battle League.
+TEXT: A pack of 3  Premium Battle Passes that can be used to join a Raid Battle or to earn premium rewards in the GO Battle League. 
 
 RESOURCE ID: paidraidticket.3_title
-TEXT: 3 Premium Battles Passes
+TEXT: 3 Premium Battle Passes
 
 RESOURCE ID: performance_successfully_updated
 TEXT: 성능 설정을 갱신했습니다!
@@ -1132,6 +1134,9 @@ TEXT: 포켓몬을 잡을 때 파인열매를 {0}개 사용한다
 
 RESOURCE ID: quest_catch_berry_razz
 TEXT: 포켓몬을 잡을 때 라즈열매를 {0}개 사용한다
+
+RESOURCE ID: quest_catch_legendary_inarow_plural
+TEXT: 다음에 만날 전설, 환상의 포켓몬 {0}마리 중 1마리를 잡는다
 
 RESOURCE ID: quest_catch_pikachu_plural
 TEXT: 피카츄를 {0}마리 잡는다
@@ -2189,6 +2194,18 @@ TEXT: 특별한 교환이 3번 추가로, 하루에 총 4번 가능
 
 RESOURCE ID: special_trades_plus_5
 TEXT: 특별한 교환 5번 추가
+
+RESOURCE ID: sticker_alolaishi_1.3_description
+TEXT:  
+
+RESOURCE ID: sticker_alolaishi_2.3_description
+TEXT:  
+
+RESOURCE ID: sticker_alolaishi_3.3_description
+TEXT:  
+
+RESOURCE ID: sticker_alolaishi_4.3_description
+TEXT:  
 
 RESOURCE ID: sticker_funawari_22_312.5_description
 TEXT:  

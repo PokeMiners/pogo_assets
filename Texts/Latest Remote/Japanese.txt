@@ -894,9 +894,8 @@ RESOURCE ID: generic_done
 TEXT: 終了
 
 RESOURCE ID: gifting_error_description
-TEXT: 購入完了前に相手がイベントチケットを入手したため、ギフトを贈ることができませんでした。
-別のフレンドを選んで贈ることはできます。
- 払い戻しをご希望の場合は、アプリのストアから手続きをしてください。
+TEXT: 購入完了直前に相手がイベントチケットを入手したため、ギフトを贈ることができませんでした。
+別のフレンドを選んで贈るか、アプリのストアから払い戻しの手続きをしてください。
 
 RESOURCE ID: gifting_error_refund_button
 TEXT: 返金をリクエスト
@@ -905,7 +904,7 @@ RESOURCE ID: gifting_error_send_to_friend_button
 TEXT: フレンドに贈る
 
 RESOURCE ID: gifting_error_title
-TEXT: ギフト送信エラー
+TEXT: ギフト送信できません
 
 RESOURCE ID: gofest2022_ticket_description
 TEXT: 世界中のどこにいても現地時間2022年6月4日と5日の10:00AM～6:00PMに、Pokémon GO Fest に参加できるチケットです。また、8月のフィナーレイベントにも参加できます。詳細はゲーム内ニュースで確認できます。
@@ -1366,8 +1365,8 @@ RESOURCE ID: mega_v3_event_name
 TEXT: 大いなるメガ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-05-17T19:10:48.613840
-at SHA 84601656f5de4b6782a0d8175d909529ce75dec0
+TEXT: Built at 2022-05-20T06:09:29.803671
+at SHA c7de11945e552d8ff78ef7d1a3ce2b8b3a9e2dbc
 Patch from: 0.235.0-SHA-a3840134, 0.237.0-SHA-5e5782b5
 
 RESOURCE ID: move_name_0365
@@ -1378,6 +1377,9 @@ TEXT: ミストボール
 
 RESOURCE ID: move_name_0368
 TEXT: ころがる
+
+RESOURCE ID: move_name_0369
+TEXT: シードフレア
 
 RESOURCE ID: next_button
 TEXT: 次へ
@@ -2391,7 +2393,7 @@ RESOURCE ID: shop_gift_friend_ineligible_description
 TEXT: 以下の理由でフレンドが有料ギフトを受け取ることができないことがあります。
  • すでにチケットを持っている
  • 他の人がチケットを贈った
- • ギフトを贈るための仲良し度に達していない
+ •ギフトを贈るための仲良し度に達していない
 
 RESOURCE ID: shop_gift_friend_ineligible_title
 TEXT: チケットが贈れません
@@ -2497,6 +2499,18 @@ TEXT: 特別な交換3回追加
 
 RESOURCE ID: special_trades_plus_5
 TEXT: 特別な交換5回追加
+
+RESOURCE ID: sticker_alolaishi_1.3_description
+TEXT:  
+
+RESOURCE ID: sticker_alolaishi_2.3_description
+TEXT:  
+
+RESOURCE ID: sticker_alolaishi_3.3_description
+TEXT:  
+
+RESOURCE ID: sticker_alolaishi_4.3_description
+TEXT:  
 
 RESOURCE ID: sticker_funawari_22_312.5_description
 TEXT:  

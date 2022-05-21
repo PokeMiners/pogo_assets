@@ -382,6 +382,18 @@ RESOURCE ID: avatar_f_pants_teamskull_00_bundle_icon
 TEXT: Pantaloncini
 Team Skull
 
+RESOURCE ID: avatar_f_shirt_detectivepikachu_0_bundle_icon
+TEXT: T-shirt Detective Pikachu
+
+RESOURCE ID: avatar_f_shirt_galarfarfetchditems_00_bundle_icon
+TEXT: T-shirt e borsa Farfetch’d di Galar
+
+RESOURCE ID: avatar_f_shirt_guccitshirts_00_bundle_icon
+TEXT: T-shirt The North Face per Gucci
+
+RESOURCE ID: avatar_f_shirt_shinymewtshirts_00_bundle_icon
+TEXT: T-shirt Mew cromatico
+
 RESOURCE ID: avatar_f_shirt_teamskull_00_bundle_icon
 TEXT: Set canottiera
 Team Skull
@@ -410,6 +422,18 @@ Festival dell’Acqua
 RESOURCE ID: avatar_m_pants_teamskull_00_bundle_icon
 TEXT: Pantaloncini
 Team Skull
+
+RESOURCE ID: avatar_m_shirt_detectivepikachu_0_bundle_icon
+TEXT: T-shirt Detective Pikachu
+
+RESOURCE ID: avatar_m_shirt_galarfarfetchditems_00_bundle_icon
+TEXT: T-shirt e borsa Farfetch’d di Galar
+
+RESOURCE ID: avatar_m_shirt_guccitshirts_00_bundle_icon
+TEXT: T-shirt The North Face per Gucci
+
+RESOURCE ID: avatar_m_shirt_shinymewtshirts_00_bundle_icon
+TEXT: T-shirt Mew cromatico
 
 RESOURCE ID: avatar_m_shirt_teamskull_00_bundle_icon
 TEXT: Set canottiera
@@ -647,7 +671,7 @@ RESOURCE ID: encounter_score_active_mega_bonus
 TEXT: Bonus megaevoluzione attivo
 
 RESOURCE ID: error_has_unsent_gift
-TEXT: You can gift your extra ticket from the Item Bag
+TEXT: You can gift your extra ticket from the Item Bag.
 
 RESOURCE ID: event_evolve_exeggcute
 TEXT: Exeggcute può evolversi in Exeggutor di Alola
@@ -669,6 +693,10 @@ TEXT: Stagione di Alola
 
 RESOURCE ID: f_avatar_poses_bundle_pose_35
 TEXT: Team Skull
+
+RESOURCE ID: f_shirt_tshirt_fest_chicago_2017_bundle_icon
+TEXT: T-shirt Festival di
+Pokémon GO 
 
 RESOURCE ID: field_research_special
 TEXT: Missioni di ricerca sul campo esclusive sono ora disponibili in alcuni Pokéstop e Palestre
@@ -720,18 +748,18 @@ RESOURCE ID: gift_open_double_stardust
 TEXT: Doppio della polvere di stelle per aver aperto pacchi amicizia
 
 RESOURCE ID: gifting_error_description
-TEXT: We are sorry. 
- Your gift could not be sent, because the recipient obtained the Event Ticket before the purchase could complete. You can choose a new friend to send this to now. 
- If you would like a refund, you can request one through your app store.
+TEXT: We are sorry.
+Your gift was not delivered because the intended recipient obtained the same event ticket before your purchase could be completed. You can choose a different friend to send this to now.
+If you would like a refund instead, you can request one through your app store.
 
 RESOURCE ID: gifting_error_refund_button
 TEXT: REQUEST REFUND
 
 RESOURCE ID: gifting_error_send_to_friend_button
-TEXT: SEND TO FRIEND
+TEXT: SEND TO A FRIEND
 
 RESOURCE ID: gifting_error_title
-TEXT: Gift Unable To Send
+TEXT: Unable to Send Gift
 
 RESOURCE ID: gofest2022_ticket_description
 TEXT: Un biglietto per partecipare a entrambe le giornate del Festival di Pokémon GO, il 4 e il 5 giugno 2022 dalle 10:00 alle 18:00 ora locale, ovunque ti trovi. Con questo biglietto avrai anche accesso all’evento finale del Festival di Pokémon GO in agosto. Per ulteriori dettagli consulta la sezione Novità dell’app.
@@ -775,7 +803,7 @@ RESOURCE ID: item_event_ticket_pink_to_gift_name
 TEXT: Extra Ticket
 
 RESOURCE ID: item_event_ticket_to_gift_desc
-TEXT: Extra event ticket from a purchase error. You can send it to another friend or get refunded.
+TEXT: An extra event ticket from a purchase error. You can send it to a friend or get it refunded.
 
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: Un biglietto per partecipare a entrambe le giornate del Festival di Pokémon GO, il 4 e il 5 giugno 2022 dalle 10:00 alle 18:00 ora locale, ovunque ti trovi. 
@@ -831,23 +859,29 @@ TEXT: Per oggi il megalivello di {0} non può aumentare ulteriormente. Potrà au
 RESOURCE ID: mega_daily_limit_header
 TEXT: Limite di livello giornaliero raggiunto
 
+RESOURCE ID: mega_evo_bonus_buff_desc_mult
+TEXT: Mentre {0} è megaevoluto, otterrai caramelle aggiuntive per la cattura di Pokémon di tipo <b>{1}</b> o <b>{2}</b> o di un qualsiasi boss del raid.
+
 RESOURCE ID: mega_evo_bonus_buff_desc_mult_1
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy when you catch <b>{1}</b>- or <b>{2}</b>-type Pokémon.
+TEXT: Mentre {0} è megaevoluto, otterrai caramelle aggiuntive per la cattura di Pokémon di tipo <b>{1}</b> o <b>{2}</b>.
 
 RESOURCE ID: mega_evo_bonus_buff_desc_mult_2
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>- or <b>{2}</b>-type Pokémon.
+TEXT: Mentre {0} è megaevoluto, otterrai caramelle e PE aggiuntivi e avrai maggiori probabilità di ricevere caramelle L per la cattura di Pokémon di tipo <b>{1}</b> o <b>{2}</b>.
 
 RESOURCE ID: mega_evo_bonus_buff_desc_mult_3
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>- or <b>{2}</b>-type Pokémon.
+TEXT: Mentre {0} è megaevoluto, otterrai caramelle e PE aggiuntivi e avrai maggiori probabilità di ricevere caramelle L per la cattura di Pokémon di tipo <b>{1}</b> o <b>{2}</b>.
+
+RESOURCE ID: mega_evo_bonus_buff_desc_singular
+TEXT: Mentre {0} è megaevoluto, otterrai caramelle aggiuntive per la cattura di Pokémon di tipo <b>{1}</b> o di un qualsiasi boss del raid.
 
 RESOURCE ID: mega_evo_bonus_buff_desc_singular_1
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy when you catch <b>{1}</b>-type Pokémon.
+TEXT: Mentre {0} è megaevoluto, otterrai caramelle aggiuntive per la cattura di Pokémon di tipo <b>{1}</b>.
 
 RESOURCE ID: mega_evo_bonus_buff_desc_singular_2
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>-type Pokémon.
+TEXT: Mentre {0} è megaevoluto, otterrai caramelle e PE aggiuntivi e avrai maggiori probabilità di ricevere caramelle L per la cattura di Pokémon di tipo <b>{1}</b>.
 
 RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
-TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>-type Pokémon.
+TEXT: Mentre {0} è megaevoluto, otterrai caramelle e PE aggiuntivi e avrai maggiori probabilità di ricevere caramelle L per la cattura di Pokémon di tipo <b>{1}</b>.
 
 RESOURCE ID: mega_evolve_energy_prompt
 TEXT: Tocca per far megaevolvere!
@@ -1018,8 +1052,8 @@ RESOURCE ID: mega_v3_event_name
 TEXT: Un megamomento
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-05-17T19:10:48.613840
-at SHA 84601656f5de4b6782a0d8175d909529ce75dec0
+TEXT: Built at 2022-05-20T06:09:29.803671
+at SHA c7de11945e552d8ff78ef7d1a3ce2b8b3a9e2dbc
 Patch from: 0.235.0-SHA-a3840134, 0.237.0-SHA-5e5782b5
 
 RESOURCE ID: move_name_0365
@@ -1031,6 +1065,9 @@ TEXT: Foschisfera
 RESOURCE ID: move_name_0368
 TEXT: Rotolamento
 
+RESOURCE ID: move_name_0369
+TEXT: Infuriaseme
+
 RESOURCE ID: old_friends_description
 TEXT: Ricerca a tempo dell’evento "Vecchi amici, nuovi inizi"
 
@@ -1038,10 +1075,10 @@ RESOURCE ID: old_friends_title
 TEXT: Vecchi amici, nuovi inizi
 
 RESOURCE ID: paidraidticket.3_description
-TEXT: A pack of 3 Premium Battles Passes, which can be used to join a Raid Battle or enter the premium GO Battle League.
+TEXT: Un pacchetto da tre biglietti lotta premium che può essere usato per partecipare a un raid o o guadagnare ricompense premium nella Lega Lotte GO.
 
 RESOURCE ID: paidraidticket.3_title
-TEXT: 3 Premium Battles Passes
+TEXT: 3 biglietti lotta premium
 
 RESOURCE ID: performance_successfully_updated
 TEXT: Impostazioni delle prestazioni aggiornate con successo!
@@ -2130,6 +2167,18 @@ TEXT: Tre scambi speciali aggiuntivi al giorno, per un totale di quattro
 
 RESOURCE ID: special_trades_plus_5
 TEXT: Cinque scambi speciali aggiuntivi al giorno
+
+RESOURCE ID: sticker_alolaishi_1.3_description
+TEXT:  
+
+RESOURCE ID: sticker_alolaishi_2.3_description
+TEXT:  
+
+RESOURCE ID: sticker_alolaishi_3.3_description
+TEXT:  
+
+RESOURCE ID: sticker_alolaishi_4.3_description
+TEXT:  
 
 RESOURCE ID: sticker_funawari_22_312.5_description
 TEXT:  
