@@ -136,9 +136,6 @@ TEXT: Sua experiência de jogo pode mudar quando você ajustar suas configuraç�
 RESOURCE ID: adv_perf_are_you_sure_save_changes_title
 TEXT: Tem certeza de que deseja salvar estas alterações nas suas configurações de desempenho?
 
-RESOURCE ID: adv_perf_back
-TEXT: VOLTAR
-
 RESOURCE ID: adv_perf_device_is_not_compatible_for_performance
 TEXT: O modo de desempenho {0} não é compatível com este dispositivo.
 
@@ -240,15 +237,6 @@ TEXT: Melhores gráficos
 RESOURCE ID: adv_perf_v2_image_cache
 TEXT: Baixar o cache RAM da imagem
 
-RESOURCE ID: adv_perf_v2_image_cache_max
-TEXT: 32 MB
-
-RESOURCE ID: adv_perf_v2_image_cache_middle
-TEXT: 16 MB
-
-RESOURCE ID: adv_perf_v2_image_cache_min
-TEXT: 1 MB
-
 RESOURCE ID: adv_perf_v2_image_cache_tip
 TEXT: Determina a quantidade de memória do dispositivo atribuída aos recursos do jogo. Afeta quanto tempo as imagens levam para carregar.
 
@@ -266,9 +254,6 @@ TEXT: Melhores gráficos e desempenho suave
 
 RESOURCE ID: adv_perf_v2_medium_description
 TEXT: Gráficos e desempenho moderados
-
-RESOURCE ID: adv_perf_v2_native_refresh_rate
-TEXT: Taxa de atualização nativa
 
 RESOURCE ID: adv_perf_v2_native_refresh_rate_disabled_tip
 TEXT: A taxa de atualização nativa deste dispositivo não permite uma taxa de FPS mais suave.
@@ -330,12 +315,6 @@ TEXT: Médio
 RESOURCE ID: adventure_week_event_name
 TEXT: Semana Aventura
 
-RESOURCE ID: af2022_event_name
-TEXT: Dia da Mentira ’ 2-Oh?-22
-
-RESOURCE ID: af2022_oh
-TEXT: An?
-
 RESOURCE ID: air_adventures_okinawa_sr_title_0
 TEXT: Aventuras Aéreas Pokémon: Okinawa
 
@@ -381,13 +360,6 @@ RESOURCE ID: avatar_f_backpack_alolaitemsrowletbp_00_bundle_icon
 TEXT: Mochila de
 Rowlet
 
-RESOURCE ID: avatar_f_backpack_ultra_bundle_icon
-TEXT: Mochila de Ultra Moon
-
-RESOURCE ID: avatar_f_face_teamskull_00_bundle_icon
-TEXT: Bandana da
-Equipe Skull
-
 RESOURCE ID: avatar_f_hat_laprasbandana_00_bundle_icon
 TEXT: Lenço do
 Festival Aquático
@@ -411,26 +383,6 @@ RESOURCE ID: avatar_f_hat_oricorioyellow_00_bundle_icon
 TEXT: Boné de Oricorio
 Estilo Animado
 
-RESOURCE ID: avatar_f_hat_teamskull_00_bundle_icon
-TEXT: Gorro da
-Equipe Skull
-
-RESOURCE ID: avatar_f_pants_teamskull_00_bundle_icon
-TEXT: Shorts da
-Equipe Skull
-
-RESOURCE ID: avatar_f_shirt_teamskull_00_bundle_icon
-TEXT: Regata da
-Equipe Skull
-
-RESOURCE ID: avatar_f_shirt_wcs2022_00_bundle_icon
-TEXT: Camiseta de
-Campeão Regional
-
-RESOURCE ID: avatar_f_shoes_teamskull_00_bundle_icon
-TEXT: Tênis da
-Equipe Skull
-
 RESOURCE ID: avatar_m_backpack_alolaitemslittenbp_00_bundle_icon
 TEXT: Mochila de
 Litten
@@ -442,13 +394,6 @@ Popplio
 RESOURCE ID: avatar_m_backpack_alolaitemsrowletbp_00_bundle_icon
 TEXT: Mochila de
 Rowlet
-
-RESOURCE ID: avatar_m_backpack_ultra_bundle_icon
-TEXT: Mochila de Ultra Sun
-
-RESOURCE ID: avatar_m_face_teamskull_00_bundle_icon
-TEXT: Bandana da
-Equipe Skull
 
 RESOURCE ID: avatar_m_glasses_teardrop_bundle_icon
 TEXT: Óculos escuros aviador
@@ -475,40 +420,6 @@ Estilo Flamenco
 RESOURCE ID: avatar_m_hat_oricorioyellow_00_bundle_icon
 TEXT: Boné de Oricorio
 Estilo Animado
-
-RESOURCE ID: avatar_m_pants_teamskull_00_bundle_icon
-TEXT: Shorts da
-Equipe Skull
-
-RESOURCE ID: avatar_m_shirt_teamskull_00_bundle_icon
-TEXT: Regata da
-Equipe Skull
-
-RESOURCE ID: avatar_m_shirt_wcs2022_00_bundle_icon
-TEXT: Camiseta de
-Campeão Regional
-
-RESOURCE ID: avatar_m_shoes_teamskull_00_bundle_icon
-TEXT: Tênis da
-Equipe Skull
-
-RESOURCE ID: badge_event_0031
-TEXT: Pesquisa de parceiros da Temporada de Alola: Tully's
-
-RESOURCE ID: badge_event_0031_title
-TEXT: Pesquisa de parceiros: Tully's
-
-RESOURCE ID: badge_event_0032
-TEXT: Pesquisa de parceiros da Temporada de Alola: Sushiro
-
-RESOURCE ID: badge_event_0032_title
-TEXT: Pesquisa de parceiros: Sushiro
-
-RESOURCE ID: badge_event_0033
-TEXT: Pesquisa de parceiros da Temporada de Alola: Yoshinoya
-
-RESOURCE ID: badge_event_0033_title
-TEXT: Pesquisa de parceiros: Yoshinoya
 
 RESOURCE ID: badge_event_0037
 TEXT: Aventuras Aéreas Pokémon: Okinawa
@@ -582,8 +493,14 @@ TEXT: Zona de Safári de Pokémon GO
 RESOURCE ID: badge_safarizone_2022_seville_day_03_general_title
 TEXT: Sevilha, 15 de maio de 2022
 
-RESOURCE ID: batch_transfer_unique_mega_level_pokemon
-TEXT: {0} Pokémon com Meganível
+RESOURCE ID: batch_transfer_unique_included
+TEXT: You have selected at least one Legendary Pokémon, Mythical Pokémon, Ultra Beast, or event Pokémon.
+
+RESOURCE ID: batch_transfer_unique_legendary_or_mythical_or_ultra_beast_pokemon
+TEXT: {0} Pokémon Lendários, Pokémon Míticos ou Ultracriaturas
+
+RESOURCE ID: battle_box
+TEXT: Combo de Batalha
 
 RESOURCE ID: bonus_2x_candy
 TEXT: 2× doces por captura
@@ -675,11 +592,14 @@ TEXT: Ao escolher Blastoise, você poderá ganhar Megaenergia de Blastoise e enc
 RESOURCE ID: branch_megav3_1c_title
 TEXT: Escolher Blastoise!
 
+RESOURCE ID: brazilianportuguese
+TEXT: Portuguese
+
 RESOURCE ID: bundle_retweet_reward
 TEXT: Caixa de recompensa de retweet
 
-RESOURCE ID: cd_walk_challenge
-TEXT: Desafio de distância do Dia Comunitário
+RESOURCE ID: catch_box
+TEXT: Combo de Captura
 
 RESOURCE ID: challenge_buddy_affection_plural
 TEXT: Ganhe {0} corações com o seu companheiro
@@ -705,8 +625,8 @@ TEXT: Visitar um lugar interessante indicado pelo seu companheiro {0} vezes
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: Isso mudará a configuração do idioma do jogo para {0}. Deseja reiniciar o jogo para aplicar esta configuração?
 
-RESOURCE ID: combat_challenge_canceled_generic
-TEXT: O desafio foi cancelado.
+RESOURCE ID: chinesetraditional
+TEXT: ChineseTraditional
 
 RESOURCE ID: combat_log_upload_complete_modal_body
 TEXT: Agradecemos por compartilhar seus registros de jogo com a Niantic. Esses dados nos ajudarão a melhorar o Pokémon GO.
@@ -722,26 +642,14 @@ TEXT: Upload concluído!
 RESOURCE ID: combat_log_upload_modal_title
 TEXT: Fazer upload de registros de jogo
 
-RESOURCE ID: combat_processing_shield
-TEXT: Tentando usar um escudo protetor...
-
-RESOURCE ID: combat_processing_shield_failure
-TEXT: {0} não usou um escudo protetor a tempo!
-
-RESOURCE ID: combat_recovery_failed
-TEXT: A batalha anterior não pôde ser recuperada.
-
 RESOURCE ID: community_day_alodude_event_name
 TEXT: Dia comunitário: Geodude de Alola
-
-RESOURCE ID: community_day_mudkip_event_name
-TEXT: Clássicos do Dia Comunitário: Mudkip
 
 RESOURCE ID: community_day_stufful_event_name
 TEXT: Dia comunitário: Stufful
 
 RESOURCE ID: convert_to_stardust
-TEXT: You'll be able to receive Stardust if you open this gift, but you won't receive other items since your Item Bag is full.To prevent opening gifts when your Item Bag is full, go to Settings.
+TEXT: You’ll be able to receive Stardust if you open this Gift, but you won’t receive other items because your Item Bag is full.You can change whether Gifts can be opened while your Item Bag is full by going to Settings.
 
 RESOURCE ID: corphish_o_clock
 TEXT: É hora de Corphish
@@ -752,11 +660,8 @@ TEXT: Assim que a hora especial começar, Corphish selvagens aparecerão com mai
 RESOURCE ID: double_buddy_hearts
 TEXT: 2× corações com seu companheiro
 
-RESOURCE ID: earthday22_collection_challenge
-TEXT: Desafio de coleção da Semana da sustentabilidade
-
-RESOURCE ID: encounter_score_active_mega_bonus
-TEXT: Bônus ativos de Megaevolução de Pokémon 
+RESOURCE ID: english
+TEXT: BrazilianPortuguese
 
 RESOURCE ID: error_has_unsent_gift
 TEXT: Você pode presentear o seu ingresso extra direto na sua Bolsa.
@@ -764,35 +669,32 @@ TEXT: Você pode presentear o seu ingresso extra direto na sua Bolsa.
 RESOURCE ID: event_evolve_cubone
 TEXT: Cubone pode evoluir para Marowak de Alola
 
-RESOURCE ID: event_evolve_exeggcute
-TEXT: Exeggcute pode evoluir para Exeggutor de Alola
-
-RESOURCE ID: event_mossy_lure_pokemon
-TEXT: Pokémon de evento atraídos por Módulo Atrair Musgoso
-
-RESOURCE ID: event_move_alolan_exeggutor_draco_meteor
-TEXT: Evolua Exeggcute para conseguir Exeggutor de Alola que sabe Meteoro do Dragão
-
 RESOURCE ID: event_move_alolan_marowak_shadow_bone
 TEXT: Evolua Cubone para obter Marowak de Alola que sabe Osso Sombrio
 
-RESOURCE ID: f_avatar_poses_bundle_pose_35
-TEXT: Pose da Equipe Skull
+RESOURCE ID: event_season7_name
+TEXT: Temporada de GO
 
 RESOURCE ID: field_research_special
 TEXT: Pesquisas de campo exclusivas agora estão disponíveis em determinadas Poképaradas e Ginásios
 
 RESOURCE ID: filter_key_attack
-TEXT: attack
+TEXT: ataque
 
 RESOURCE ID: filter_key_defense
-TEXT: defense
+TEXT: defesa
+
+RESOURCE ID: filter_key_ultra_beast
+TEXT: Ultracriatura
 
 RESOURCE ID: first_daily_spin_3x_xp
 TEXT: 3× PE quando você girar o fotodisco em um Ginásio ou Poképarada pela primeira vez naquele dia
 
 RESOURCE ID: form_oricorio_pau
 TEXT: Estilo Hula
+
+RESOURCE ID: french
+TEXT: French
 
 RESOURCE ID: furret_walk_description
 TEXT: Desafio de exploração semanal
@@ -814,19 +716,17 @@ TEXT: Um ingresso para acessar a pesquisa especial “De Alola a Alola”, de on
 RESOURCE ID: general1.ticket.2_may22_alola_title
 TEXT: Ingresso para “De Alola a Alola”
 
-RESOURCE ID: general1.ticket.2_mudkt_description
-TEXT: Um ingresso para participar do Clássicos do Dia Comunitário: Mudkip, no dia 10 de abril de 2022, das 2h às 17h, horário local, de onde você estiver. Mais detalhes podem ser encontrados na seção de novidades do jogo.
-
-VOCÊ DEVE JOGAR DURANTE O HORÁRIO ESPECIFICADO PARA RECEBER TODOS OS BÔNUS ESPECIAIS DO EVENTO.
-
-RESOURCE ID: general1.ticket.2_mudkt_title
-TEXT: Ingresso para Clássicos do Dia Comunitário: Mudkip
+RESOURCE ID: general_language
+TEXT: Language
 
 RESOURCE ID: generic_contact_support
 TEXT: Como compartilhar registros de jogo
 
 RESOURCE ID: generic_done
 TEXT: CONCLUÍDO
+
+RESOURCE ID: german
+TEXT: German
 
 RESOURCE ID: gifting_error_description
 TEXT: Sentimos muito!
@@ -850,137 +750,14 @@ VOCÊ DEVE JOGAR DURANTE O HORÁRIO ESPECIFICADO PARA RECEBER O BÔNUS.
 RESOURCE ID: gofest2022_ticket_title
 TEXT: Ingresso: Festival de Pokémon GO 2022
 
-RESOURCE ID: grunt_generic_challenge#12__female_speaker
-TEXT: Não tem nada pra você aqui! Cai fora!
-
-RESOURCE ID: grunt_generic_challenge#12__male_speaker
-TEXT: Não tem nada pra você aqui! Cai fora!
-
-RESOURCE ID: grunt_generic_challenge#6__female_speaker
-TEXT: Você não parece muito forte, acho que vai ser moleza te derrotar. Vamos nessa!
-
-RESOURCE ID: grunt_generic_challenge#6__male_speaker
-TEXT: Você não parece muito forte, acho que vai ser moleza te derrotar. Vamos nessa!
-
-RESOURCE ID: grunt_generic_defeat#13__female_speaker
-TEXT: Como assim?! Eu perdi? Não é possível!
-
-RESOURCE ID: grunt_generic_defeat#13__male_speaker
-TEXT: Como assim?! Eu perdi? Não é possível!
-
-RESOURCE ID: grunt_generic_defeat#15__female_speaker
-TEXT: Ah, vá! Sai daqui agora! Eu nem ligo!
-
-RESOURCE ID: grunt_generic_defeat#15__male_speaker
-TEXT: Ah, vá! Sai daqui agora! Eu nem ligo!
-
-RESOURCE ID: grunt_generic_defeat#17__female_speaker
-TEXT: Eu falhei em meus deveres... E pagarei caro por isso...
-
-RESOURCE ID: grunt_generic_defeat#17__male_speaker
-TEXT: Eu falhei em meus deveres... E pagarei caro por isso...
-
-RESOURCE ID: grunt_generic_defeat#1__female_speaker
-TEXT: Ah... até que você não é ruim!
-
-RESOURCE ID: grunt_generic_defeat#1__male_speaker
-TEXT: Ah... até que você não é ruim!
-
-RESOURCE ID: grunt_generic_defeat#20__female_speaker
-TEXT: Ai! A gente apanhou feio!
-
-RESOURCE ID: grunt_generic_defeat#26__female_speaker
-TEXT: Que força é essa, hein?
-
-RESOURCE ID: grunt_generic_defeat#26__male_speaker
-TEXT: Que força é essa, hein?
-
-RESOURCE ID: grunt_generic_defeat#28__female_speaker
-TEXT: Tô em choque!
-
-RESOURCE ID: grunt_generic_defeat#28__male_speaker
-TEXT: Tô em choque!
-
-RESOURCE ID: grunt_generic_defeat#29__female_speaker
-TEXT: Já chega! Eu desisto! Vou fingir que nada aconteceu!
-
-RESOURCE ID: grunt_generic_defeat#29__male_speaker
-TEXT: Já chega! Eu desisto! Vou fingir que nada aconteceu!
-
-RESOURCE ID: grunt_generic_defeat#31__female_speaker
-TEXT: Grrr, a Equipe GO Rocket é mais assustadora do que imagina! Você não irá se esquecer de nós tão cedo!
-
-RESOURCE ID: grunt_generic_defeat#31__male_speaker
-TEXT: Grrr, a Equipe GO Rocket é mais assustadora do que imagina! Você não irá se esquecer de nós tão cedo!
-
-RESOURCE ID: grunt_generic_defeat#9__female_speaker
-TEXT: Perdeu alguma coisa aqui? Se manda daqui ou eu terei que fazer você sair!
-
-RESOURCE ID: grunt_generic_defeat#9__male_speaker
-TEXT: Perdeu alguma coisa aqui? Se manda daqui ou eu terei que fazer você sair!
-
-RESOURCE ID: grunt_generic_greeting#10__female_speaker
-TEXT: Ops! Olha só, encrenca à vista!
-
-RESOURCE ID: grunt_generic_greeting#10__male_speaker
-TEXT: Ops! Olha só, encrenca à vista!
-
-RESOURCE ID: grunt_generic_greeting#13__female_speaker
-TEXT: O que você quer, verme? Some daqui!
-
-RESOURCE ID: grunt_generic_greeting#13__male_speaker
-TEXT: O que você quer, verme? Some daqui!
-
-RESOURCE ID: grunt_generic_greeting#18__female_speaker
-TEXT: Estamos trabalhando em algo grandioso aqui! Vaza daqui!
-
-RESOURCE ID: grunt_generic_greeting#19__female_speaker
-TEXT: Ei, você! O que você está querendo por aqui?
-
-RESOURCE ID: grunt_generic_greeting#19__male_speaker
-TEXT: Ei, você! O que você está querendo por aqui?
-
-RESOURCE ID: grunt_generic_greeting#1__female_speaker
-TEXT: Ei! Você é quem está se metendo em nosso caminho toda hora!
-
-RESOURCE ID: grunt_generic_greeting#1__male_speaker
-TEXT: Ei! Ah! Você é quem está se metendo em nosso caminho toda hora!
-
-RESOURCE ID: grunt_generic_greeting#21__female_speaker
-TEXT: Você está se intrometendo em uma operação da Equipe GO Rocket? Que ousadia!
-
-RESOURCE ID: grunt_generic_greeting#21__male_speaker
-TEXT: Você está se intrometendo em uma operação da Equipe GO Rocket? Que ousadia!
-
-RESOURCE ID: grunt_generic_greeting#2__female_speaker
-TEXT: Hahaha!
-
-RESOURCE ID: grunt_generic_greeting#2__male_speaker
-TEXT: Hahaha!
-
-RESOURCE ID: grunt_generic_greeting#5__female_speaker
-TEXT: Peraí! Me conta qual é o motivo de estar aqui?
-
-RESOURCE ID: grunt_generic_greeting#5__male_speaker
-TEXT: Peraí! Me conta qual é o motivo de estar aqui?
-
-RESOURCE ID: grunt_generic_greeting#8__female_speaker
-TEXT: Boas-vindas a esta Poképarada! Que bom que você resolveu se juntar a mim!
-
-RESOURCE ID: grunt_generic_greeting#8__male_speaker
-TEXT: Boas-vindas a esta Poképarada! Que bom que você resolveu se juntar a mim!
-
-RESOURCE ID: grunt_generic_victory#6__female_speaker
-TEXT: Mandou bem!
-
-RESOURCE ID: grunt_generic_victory#6__male_speaker
-TEXT: Mandou bem!
-
 RESOURCE ID: helpshift_sharing_game_logs
 TEXT: https://niantic.helpshift.com/hc/pt-br/6-pokemon-go/faq/3325-sharing-game-logs
 
 RESOURCE ID: incense_duration_8_hr
 TEXT: 8 horas de duração do Incenso
+
+RESOURCE ID: italian
+TEXT: Italian
 
 RESOURCE ID: item_event_ticket_pink_desc
 TEXT: Um ingresso para acessar a pesquisa especial “De Alola a Alola”, de onde você estiver.
@@ -996,6 +773,9 @@ TEXT: Um ingresso para acessar a pesquisa especial “De Alola a Alola”, de on
 
 RESOURCE ID: item_event_ticket_pink_may22_alola_details
 TEXT: Este ingresso será ativado automaticamente para dar-lhe acesso à pesquisa especial “De Alola a Alola”, de onde você estiver. Mais detalhes podem ser encontrados na seção de novidades do jogo e no blog.
+
+RESOURCE ID: item_event_ticket_pink_name
+TEXT: Ingresso
 
 RESOURCE ID: item_event_ticket_pink_to_gift_desc
 TEXT:  
@@ -1014,8 +794,29 @@ TEXT: Um ingresso para participar do Festival de Pokémon GO nos dias 4 e 5 de j
 
 VOCÊ DEVE JOGAR DURANTE O HORÁRIO ESPECIFICADO PARA RECEBER TODOS OS BÔNUS ESPECIAIS DO EVENTO.
 
-RESOURCE ID: lets_go
-TEXT: Vamos nessa!
+RESOURCE ID: japanese
+TEXT: Japanese
+
+RESOURCE ID: korean
+TEXT: Korean
+
+RESOURCE ID: language_change_confirmation_description
+TEXT: If you choose to save changes, your game will be restarted.
+
+RESOURCE ID: language_change_confirmation_header
+TEXT: Are you sure you want to change the language setting to {0}?
+
+RESOURCE ID: language_selector_description
+TEXT: Changes made will require you to restart the game.
+
+RESOURCE ID: language_selector_header
+TEXT: Select Language
+
+RESOURCE ID: language_settings_updated
+TEXT: Language settings successfully updated!
+
+RESOURCE ID: legendary_mythical_and_ultra_beast_not_allowed_in_gyms
+TEXT: Pokémon Lendários, Pokémon Míticos e Ultracriaturas não podem ser deixados nos Ginásios.
 
 RESOURCE ID: lure_duration_4_hr
 TEXT: 4 horas de duração do Módulo Atrair
@@ -1023,48 +824,11 @@ TEXT: 4 horas de duração do Módulo Atrair
 RESOURCE ID: lure_duration_6_hr
 TEXT: 6 horas de duração do Módulo Atrair
 
-RESOURCE ID: m_avatar_poses_bundle_pose_35
-TEXT: Pose da Equipe Skull
-
-RESOURCE ID: m_hat_teamskull_00_bundle_icon
-TEXT: Gorro da
-Equipe Skull
-
 RESOURCE ID: may22_alola_collection_challenge_1
 TEXT: Desafio de coleção De Alola a Alola
 
 RESOURCE ID: may22_alola_event_name
 TEXT: De Alola a Alola
-
-RESOURCE ID: mega_active_countdown_description
-TEXT: Período restante de Megaevolução 
-
-RESOURCE ID: mega_cooldown_countdown_description
-TEXT: Tempo de descanso
-
-RESOURCE ID: mega_countdown_day_and_hour
-TEXT: {0} dia {1} horas
-
-RESOURCE ID: mega_countdown_day_and_hours
-TEXT: {0} dias {1} horas
-
-RESOURCE ID: mega_countdown_days
-TEXT: {0} dias
-
-RESOURCE ID: mega_countdown_days_and_hour
-TEXT: {0} dias {1} hora
-
-RESOURCE ID: mega_countdown_days_and_hours
-TEXT: {0} dias {1} horas
-
-RESOURCE ID: mega_countdown_days_singular
-TEXT: {0} dia
-
-RESOURCE ID: mega_daily_limit_description
-TEXT: Não é possível mais aumentar o Meganível de {0} hoje
-
-RESOURCE ID: mega_daily_limit_header
-TEXT: Limite de nível diário atingido
 
 RESOURCE ID: mega_evo_bonus_buff_desc_mult_1
 TEXT: Enquanto {0} estiver Megaevoluído, você receberá doces extras ao capturar Pokémon de tipo <b>{1}</b> ou de tipo <b>{2}</b>.
@@ -1084,181 +848,20 @@ TEXT: Enquanto {0} estiver Megaevoluído, você receberá doces e PE extras, e a
 RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
 TEXT: Enquanto {0} estiver Megaevoluído, você receberá doces e PE extras, e aumentará sua chance de receber doces GG ao capturar Pokémon de tipo <b>{1}</b>.
 
-RESOURCE ID: mega_evolve_energy_prompt
-TEXT: Toque para Megaevoluir!
-
-RESOURCE ID: mega_evolve_free_prompt
-TEXT: Toque para Megaevoluir!
-
-RESOURCE ID: mega_evolve_lobby_callout
-TEXT: Megaevolução disponível
-
-RESOURCE ID: mega_evolve_lobby_existing_toast
-TEXT: Você pode usar apenas um Pokémon Megaevouído por vez.
-
-RESOURCE ID: mega_evolve_lobby_toast
-TEXT: Escolha um Pokémon para Megaevoluir!
-
-RESOURCE ID: mega_evolve_pokemon
-TEXT: Megaevoluir {0}
-
-RESOURCE ID: mega_evolve_preview_first_time
-TEXT: Após você Megaevoluir um Pokémon pela primeira vez, é possível Megaevoluí-lo novamente sem usar Megaenergia depois de um tempo de descanso.
-
-RESOURCE ID: mega_evolve_prompt_title
-TEXT: Megaevoluir {0}
-
-RESOURCE ID: mega_level_1
-TEXT: Nível básico
-
-RESOURCE ID: mega_level_2
-TEXT: Nível alto
-
-RESOURCE ID: mega_level_3
-TEXT: Nível máximo
-
-RESOURCE ID: mega_level_header
-TEXT: Meganível de {0}
-
-RESOURCE ID: mega_level_requirement_message
-TEXT: Megaevolua {0} mais {1} vezes para atingir {2}!
-
-RESOURCE ID: mega_level_requirement_message_singular
-TEXT: Megaevolua {0} mais {1} vez para atingir {2}!
-
-RESOURCE ID: mega_level_show_me_button
-TEXT: Quero ver
-
-RESOURCE ID: mega_level_transfer_confirmation
-TEXT: O  Meganível deste Pokémon é aumentado. Quer transferi-lo mesmo assim?
-
-RESOURCE ID: mega_level_tutorial_hero_body
-TEXT: Mega Evolution temporarily changes a Pokémon’s appearance and increases its strength. Mega-Evolved Pokémon can be used in Gyms, raids, and Trainer Battles.
-
-You can use only one Mega-Evolved Pokémon at a time.
-
-RESOURCE ID: mega_level_tutorial_hero_title
-TEXT: Vamos Mega!
-
-RESOURCE ID: mega_level_tutorial_page1_body
-TEXT: • Agora é possível Megaevoluir um Pokémon sem usar Megaenergia.
-• Você ainda poderá usar Megaenergia para Megaevoluir um Pokémon durante o tempo de descanso.
-• Novos bônus foram adicionados que vão melhorar quanto o seu Pokémon Megaevoluir.
-
-Após um Pokémon Megaevoluir, é preciso aguardar até que ele possa Megaevoluir novamente sem usar Megaenergia. Você também poderá usar Megaenergia para Megaevoluir seu Pokémon antes disso.
-
-RESOURCE ID: mega_level_tutorial_page1_title
-TEXT: Recursos da Megaevolução
-
 RESOURCE ID: mega_level_tutorial_page2_body
 TEXT: <b>Usando Megaenergia</b>
 Você sempre pode Megaevoluir um Pokémon usando Megaenergia mesmo durante o tempo de descanso. A Megaenergia necessária para Megaevoluir dependerá do tempo de descanso restante.
 
-<b>Descanso</b>
+ <b>Descanso</b>
 O seu Pokémon precisará descansar após Megaevoluir sem usar Megaenergia. O tempo de descanso do Pokémon diminuirá quantos mais ele Megaevoluir.
-
-RESOURCE ID: mega_level_tutorial_page2_title
-TEXT: Duas maneiras de Megaevoluir
-
-RESOURCE ID: mega_level_tutorial_page3_body
-TEXT: A Megaenergia é exclusiva para cada espécie de Pokémon e pode ser conseguida das seguintes maneiras.
-• Vencendo Megarreides.
-• Completando certas tarefas de pesquisa.
-• Aventurando-se com seu Pokémon companheiro que pode Megaevoluir.
-
-RESOURCE ID: mega_level_tutorial_page3_title
-TEXT: Megaenergia
-
-RESOURCE ID: mega_level_tutorial_page4_body
-TEXT: Após Megaevoluir, seus Pokémon ficarão cansados e precisarão descansar antes de Megaevoluir novamente sem usar Megaenergia. Você poderá sempre Megaevoluir um Pokémon sem usar Meganergia, até mesmo durante o tempo de descanso.
-• O tempo de descanso de um Pokémon diminuirá quanto mais ele Megaevoluir.
-• A Megaenergia necessária para Megaevoluir um Pokémon diminuirá e o tempo de descanso do Pokémon será mais curto.
-
-RESOURCE ID: mega_level_tutorial_page4_title
-TEXT: Tempo de descanso
-
-RESOURCE ID: mega_level_tutorial_page5_body
-TEXT: Cada Pokémon Megaevoluído tem um Meganível. Quando o Meganível de um Pokémon aumenta, você receberá mais bônus enquanto o Pokémon estiver Megaevoluído, e o tempo de espera antes de poder Megaevoluir novamente será menor. O Meganível do seu Pokémon aumenta cada vez que você Megaevoluí-lo.
-
-RESOURCE ID: mega_level_tutorial_page5_title
-TEXT: Meganível
-
-RESOURCE ID: mega_level_tutorial_page6_body
-TEXT: Quando pegar um Pokémon que é do mesmo tipo do seu Pokémon Megaevoluído, você receberá os seguintes bônus.
-• Doces extras
-• PE extra
-• Maior probabilidade de receber doces GG
-
-RESOURCE ID: mega_level_tutorial_page6_title
-TEXT: Bônus de captura
-
-RESOURCE ID: mega_level_unlock_message
-TEXT: Você pode Megaevoluir sem usar Megaenergia e receber bônus adicionais
-
-RESOURCE ID: mega_level_unlock_prompt
-TEXT: Toque para ver o Meganível
-
-RESOURCE ID: mega_level_unlock_title
-TEXT: Agora você pode aumentar o Meganível deste Pokémon!
-
-RESOURCE ID: mega_level_up_message
-TEXT: Meganível de {0} aumentou!
-
-RESOURCE ID: mega_level_up_perk_message
-TEXT: Seu Pokémon agora pode Megaevoluir mais rápido sem usar Megaenergia!
-
-RESOURCE ID: mega_level_up_title
-TEXT: Aumento de Meganível! 
-
-RESOURCE ID: mega_perk_attack_boost
-TEXT: Reforçar ataque de aliados.
-
-RESOURCE ID: mega_perk_candy_bonus
-TEXT: Bônus de doce por captura
-
-RESOURCE ID: mega_perk_candy_bonus_excellent
-TEXT: Bônus de doce por captura intensificado
-
-RESOURCE ID: mega_perk_catch_xp_bonus
-TEXT: Bônus de PE por captura
-
-RESOURCE ID: mega_perk_catch_xp_bonus_excellent
-TEXT: Bônus de PE por captura intensificado
-
-RESOURCE ID: mega_perk_cooldown_days
-TEXT: Tempo de descanso de Megaevolução: {0} dias
-
-RESOURCE ID: mega_perk_cooldown_days_singular
-TEXT: Tempo de descanso de Megaevolução: {0} dia
-
-RESOURCE ID: mega_perk_reduced_energy
-TEXT: Megaenergia para Megaevoluir reduzida
-
-RESOURCE ID: mega_perk_reduced_energy_excellent
-TEXT: Custo de Megaenergia massivamente reduzido
-
-RESOURCE ID: mega_perk_reduced_energy_great
-TEXT: Custo de Megaenergia altamente reduzido
-
-RESOURCE ID: mega_perk_xl_bonus_excellent
-TEXT: Excelente probabilidade de receber doces GG
-
-RESOURCE ID: mega_perk_xl_bonus_great
-TEXT: Boa probabilidade de receber doces GG
-
-RESOURCE ID: mega_perks_header
-TEXT: Bônus de Megaevolução
 
 RESOURCE ID: mega_v3_event_name
 TEXT: Um megamomento
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-05-24T06:04:55.975036
-at SHA fba79910e72b2309c5f4b7e5796c4c9e7efc2dee
-Patch from: 0.235.0-SHA-a3840134, 0.237.0-SHA-5e5782b5
-
-RESOURCE ID: mini_collection_apr21_egg_event
-TEXT: Coleção evento de Páscoa 2021
+TEXT: Built at 2022-05-26T22:52:40.791372
+at SHA dc94a3a527aa7ff2d0da788fc2368cc71cce3f7e
+Patch from: 0.237.0-SHA-5e5782b5, 0.239.0-SHA-9ccad1b6
 
 RESOURCE ID: move_name_0365
 TEXT: Purga de Esplendor
@@ -1282,10 +885,10 @@ RESOURCE ID: old_friends_title
 TEXT: Velhos amigos, novos começos
 
 RESOURCE ID: open_gifts_on_bag_full
-TEXT: Open gifts when Item Bag is full
+TEXT: Open Gifts when Item Bag is full
 
 RESOURCE ID: open_gifts_on_bag_full_tip
-TEXT: Allows you to open gifts when your Item Bag is full. You may still receive Stardust.
+TEXT: Allows you to open Gifts when your Item Bag is full. You may still receive Stardust, but you won’t receive other items.
 
 RESOURCE ID: paidraidticket.3_description
 TEXT: Um combo com 3 Passes de Batalha Premium que podem ser usados para participar de uma Batalha de Reide ou ganhar recompensas premium na Liga de Batalha GO.
@@ -1298,9 +901,6 @@ TEXT: Suas configurações de desempenho foram atualizadas com sucesso!
 
 RESOURCE ID: photobomb_five_alodude
 TEXT: 5 encontros surpresa com Geodude de Alola ao usar o Retrato GO
-
-RESOURCE ID: photobomb_five_mudkip
-TEXT: 5 encontros surpresa com Mudkip ao usar o Retrato GO
 
 RESOURCE ID: photobomb_five_stufful
 TEXT: 5 encontros surpresa com Stufful ao usar o Retrato GO
@@ -1341,11 +941,11 @@ TEXT: Pokémon Obuseiro
 RESOURCE ID: pokemon_category_0897
 TEXT: Pokémon Cavalo Ligeiro
 
-RESOURCE ID: pokemon_desc_0787
-TEXT: Emite sons com sua cauda para avisar aos outros onde está, evitando assim conflitos desnecessários. O espírito guardião de Ula-ula controla as plantas.
+RESOURCE ID: pokemon_info_multi_transfer_ultra_beast_pokemon_error
+TEXT: Não é possível selecionar Ultracriatura.
 
-RESOURCE ID: pokemon_name_0741
-TEXT: Oricorio
+RESOURCE ID: pokemon_ultra_beast_info_transfer_to_professor_confirmation
+TEXT: Quer mesmo transferir esta Ultracriatura?
 
 RESOURCE ID: quest_adventure2019_catch_special33_plural
 TEXT: Semana Aventura 2019: pegar {0} Aron.
@@ -1413,17 +1013,8 @@ TEXT: Usar {0} Frutas Frambo para ajudar a pegar Pokémon.
 RESOURCE ID: quest_catch_stufful_razz_singular
 TEXT: Usar 1 Fruta Frambo para ajudar a pegar um Pokémon.
 
-RESOURCE ID: quest_catch_transform_pokemon_plural
-TEXT: Pegar {0} Pokémon Transformação.
-
-RESOURCE ID: quest_complete_af2022
-TEXT: Dia da Mentira ’ 2-Oh?-22
-
 RESOURCE ID: quest_complete_alodude
 TEXT: O caminho das pedras
-
-RESOURCE ID: quest_complete_mudkt
-TEXT: Clássicos do Dia Comunitário: Mudkip
 
 RESOURCE ID: quest_dude_catch
 TEXT: Pegar {0} Geodude.
@@ -1437,53 +1028,8 @@ TEXT: Evoluir {0} Graveler.
 RESOURCE ID: quest_dude_snap
 TEXT: Tirar {0} fotos de Geodude.
 
-RESOURCE ID: quest_elrd22_april16_battle
-TEXT: Pesquisa de Exeggcute: batalhar em 1 Ginásio.
-
-RESOURCE ID: quest_elrd22_april16_berries
-TEXT: Pesquisa de Exeggcute: usar 3 Frutas para ajudar a pegar Pokémon.
-
-RESOURCE ID: quest_elrd22_april16_catch_grass
-TEXT: Pesquisa de Exeggcute: pegar 3 Pokémon de tipo Planta.
-
-RESOURCE ID: quest_elrd22_april16_charged_move
-TEXT: Pesquisa de Exeggcute: usar 1 ataque carregado supereficaz.
-
-RESOURCE ID: quest_elrd22_april16_curve
-TEXT: Pesquisa de Exeggcute: jogar 5 bolas curvas.
-
 RESOURCE ID: quest_elrd22_april16_evolve_grass
 TEXT: Pesquisa de Exeggcute: evoluir 2 Pokémon de tipo Planta.
-
-RESOURCE ID: quest_elrd22_april16_gifts_stickers
-TEXT: Pesquisa de Exeggcute: enviar 2 presentes e adicionar um adesivo em cada.
-
-RESOURCE ID: quest_elrd22_april16_great
-TEXT: Pesquisa de Exeggcute: fazer 3 ótimas jogadas.
-
-RESOURCE ID: quest_elrd22_april16_great_row
-TEXT: Pesquisa de Exeggcute: fazer 2 ótimas jogadas seguidas.
-
-RESOURCE ID: quest_elrd22_april16_nice
-TEXT: Pesquisa de Exeggcute: fazer 5 boas jogadas.
-
-RESOURCE ID: quest_elrd22_april16_nice_row
-TEXT: Pesquisa de Exeggcute: fazer 3 boas jogadas seguidas.
-
-RESOURCE ID: quest_elrd22_april16_raid
-TEXT: Pesquisa de Exeggcute: batalhar em 1 Reide.
-
-RESOURCE ID: quest_elrd22_april16_spin
-TEXT: Pesquisa de Exeggcute: girar 2 fotodiscos de Poképaradas.
-
-RESOURCE ID: quest_elrd22_april16_weather_easy
-TEXT: Pesquisa de Exeggcute: pegar 3 Pokémon com fortalecimento de clima.
-
-RESOURCE ID: quest_elrd22_april16_weather_hard
-TEXT: Pesquisa de Exeggcute: pegar 5 Pokémon com fortalecimento de clima.
-
-RESOURCE ID: quest_elrd22_april16_wild_grass_snapshot
-TEXT: Pesquisa de Exeggcute: tirar 1 foto de um Pokémon selvagem de tipo Planta.
 
 RESOURCE ID: quest_explore_buddy
 TEXT: Ganhar 1 doce explorando com seu companheiro.
@@ -1493,15 +1039,6 @@ TEXT: Ganhar {0} doces explorando com seu companheiro.
 
 RESOURCE ID: quest_explore_km
 TEXT: Explorar {0} km.
-
-RESOURCE ID: quest_mudkt_catch_b
-TEXT: Pegar {0} Mudkip.
-
-RESOURCE ID: quest_mudkt_evolve_b
-TEXT: Evoluir {0} Mudkip.
-
-RESOURCE ID: quest_mudkt_evolve_s1
-TEXT: Evoluir {0} Marshtomp.
 
 RESOURCE ID: quest_snapshot_buddy
 TEXT: Tirar 1 foto com seu companheiro.
@@ -1514,96 +1051,6 @@ TEXT: Tirar 1 foto.
 
 RESOURCE ID: quest_snapshot_wild_water_singular
 TEXT: Take a snapshot of wild Water-type Pokémon
-
-RESOURCE ID: quest_special_dialogue_af2022_0_0
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_0_1
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_0_2
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_0_3
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_0_4
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_0_5
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_0_6
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_0_7
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_1_0
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_1_1
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_1_2
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_1_3
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_1_4
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_1_5
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_1_6
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_1_7
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_1_8
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_1_9
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_2_0
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_2_1
-TEXT: ... ... ...
-
-RESOURCE ID: quest_special_dialogue_af2022_2_10
-TEXT: Você...  você acha que existe alguma chance de que outros Treinadores que você viu por aí nas ruas fossem na verdade Ditto? Acho que não tem como saber ao certo...
-
-RESOURCE ID: quest_special_dialogue_af2022_2_11
-TEXT: O dia foi estranho, mas de muito aprendizado, %PLAYERNAME%. Espero que você tenha curtido bastante as travessuras do Pokémon Transformação! Bem, até a próxima... ... ...!
-
-RESOURCE ID: quest_special_dialogue_af2022_2_2
-TEXT: Er...
-
-RESOURCE ID: quest_special_dialogue_af2022_2_3
-TEXT: Ei, %PLAYERNAME%? É você?
-
-RESOURCE ID: quest_special_dialogue_af2022_2_4
-TEXT: Ah, ainda bem! Hoje o dia foi muito estranho.
-
-RESOURCE ID: quest_special_dialogue_af2022_2_5
-TEXT: Os Pokémon por aqui estavam agindo de uma forma muito estranha, então, como sempre, fui atrás de você para me ajudar a descobrir o motivo. Mas, para tudo ficar mais estranho ainda, você apenas me olhou sem expressão alguma e comeu uma Fruta Anaba!
-
-RESOURCE ID: quest_special_dialogue_af2022_2_6
-TEXT: E então, quando me dei conta, “você” tinha se transformado em Ditto! Ou seria o contrário? De qualquer forma, parece que todos os Pokémon de comportamento estranho que eu vi hoje eram na verdade Ditto disfarçados.
-
-RESOURCE ID: quest_special_dialogue_af2022_2_7
-TEXT: Hein? Você percebeu isso também, não foi?
-
-RESOURCE ID: quest_special_dialogue_af2022_2_8
-TEXT: E você viu um Ditto que se transformou para se parecer comigo? Incrível!
-
-RESOURCE ID: quest_special_dialogue_af2022_2_9
-TEXT: Como você sabe, Ditto têm a fascinante habilidade de reconstituir sua estrutura celular e se transformar em qualquer coisa que avistem.
 
 RESOURCE ID: quest_special_dialogue_alodude_0_0
 TEXT: %PLAYERNAME%! Que maravilhoso te ver!
@@ -1938,81 +1385,6 @@ TEXT: Pokémon Megaevoluídos são aliados poderosos. Sua força em batalha é i
 RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_3
 TEXT: Tenho certeza de que há mais para aprender sobre a Megaevolução, então por que parar agora? Vamos nessa!
 
-RESOURCE ID: quest_special_dialogue_mudkt_0_0
-TEXT: Oi, %PLAYERNAME%! Você chegou numa hora curiosa. Eu estava caminhando e pensando no quanto eu adoraria ver um Mudkip, e você acredita que eu acabei me deparando com um bando deles?
-
-RESOURCE ID: quest_special_dialogue_mudkt_0_1
-TEXT: Você sabia que Mudkip dormem ao se enterrarem na terra que beira a água? Muito fofo, não acha?
-
-RESOURCE ID: quest_special_dialogue_mudkt_0_2
-TEXT: Uma coisa que sempre me impressionou em Mudkip é como ele é forte apesar do seu tamanho.
-
-RESOURCE ID: quest_special_dialogue_mudkt_0_3
-TEXT: Ao deparar-se com uma situação complicada, Mudkip desfere seu poder impressionante. Mudkip pode até quebrar rochas muito maiores que si mesmo!
-
-RESOURCE ID: quest_special_dialogue_mudkt_0_4
-TEXT: Não seria muito bom se todos esses Mudkip decidissem fazer isso agora... E mesmo assim, o pesquisador em mim está curioso pra ver isso acontecer, haha!
-
-RESOURCE ID: quest_special_dialogue_mudkt_0_5
-TEXT: Enfim, que tal pesquisar um pouco sobre Mudkip, %PLAYERNAME%?
-
-RESOURCE ID: quest_special_dialogue_mudkt_1_0
-TEXT: Você está de volta, %PLAYERNAME%. E vejo que trouxe um Mudkip com você, bom trabalho! 
-
-RESOURCE ID: quest_special_dialogue_mudkt_1_1
-TEXT: Usando a barbatana em sua cabeça, Mudkip sente o fluxo da água para monitorar o que está acontecendo ao redor.
-
-RESOURCE ID: quest_special_dialogue_mudkt_1_2
-TEXT: Eu cheguei perto demais durante uma de minhas observações mais cedo, e aqueles Mudkip deixaram meu jaleco cheio de lama! Na verdade, isso me fez pensar em Marshtomp, a Evolução de Mudkip.
-
-RESOURCE ID: quest_special_dialogue_mudkt_1_3
-TEXT: As pernas de Marshtomp são muito resistentes devido ao fato de que este Pokémon vive em solos enlameados e instáveis.
-
-RESOURCE ID: quest_special_dialogue_mudkt_1_4
-TEXT: E como está acostumado a superfícies enlameadas, Marshtomp são capazes de devastar seus oponentes atolando-os na lama.
-
-RESOURCE ID: quest_special_dialogue_mudkt_1_5
-TEXT: Enquanto eu limpo meu jaleco, por que não tenta evoluir seu Mudkip para que possamos ver Marshtomp de perto, %PLAYERNAME%?
-
-RESOURCE ID: quest_special_dialogue_mudkt_2_0
-TEXT: Sabia que eu devia ter trazido outro jaleco comigo... Ah, você voltou, %PLAYERNAME%! Esse Marshtomp com você parece muito robusto.
-
-RESOURCE ID: quest_special_dialogue_mudkt_2_1
-TEXT: Não é inspirador como Pokémon podem prosperar em vários tipos de ambientes? Mudkip e Marshtomp parecem ser especialmente versáteis.
-
-RESOURCE ID: quest_special_dialogue_mudkt_2_2
-TEXT: Bom, eu tenho notícias empolgantes. Acabei vendo alguns Swampert, a Evolução de Marshtomp, enquanto você não estava aqui!
-
-RESOURCE ID: quest_special_dialogue_mudkt_2_3
-TEXT: Swampert não só consegue quebrar rochedos em pedacinhos com um único golpe de braços, mas também pode prever tempestades ao usar suas barbatanas para sentir as diferenças sutis no som das ondas e dos ventos marítimos!
-
-RESOURCE ID: quest_special_dialogue_mudkt_2_4
-TEXT: Eu costumo ficar tão focado na minha pesquisa que acabo esquecendo das coisas ao meu redor, então ter Swampert por perto pode ser exatamente o que eu preciso.
-
-RESOURCE ID: quest_special_dialogue_mudkt_2_5
-TEXT: ...O quê? Eu poderia tentar prestar mais atenção nas coisas? Bom, eu acho que é uma opção válida... Mas não tão divertida, não acha? Haha!
-
-RESOURCE ID: quest_special_dialogue_mudkt_2_6
-TEXT: Por que não tenta evoluir seu Marshtomp, %PLAYERNAME%?
-
-RESOURCE ID: quest_special_dialogue_mudkt_3_0
-TEXT: Uau, %PLAYERNAME%! É difícil acreditar que este seu Swampert era um Mudkip pequeno e adorável. Pokémon são realmente incríveis!
-
-RESOURCE ID: quest_special_dialogue_mudkt_3_1
-TEXT: Swampert costumam fazer ninhos perto de praias bonitas, e é forte o suficiente para puxar um navio grande.
-
-RESOURCE ID: quest_special_dialogue_mudkt_3_2
-TEXT: Acho que você sabe qual Pokémon levar nas suas próximas férias na praia, né?
-
-RESOURCE ID: quest_special_dialogue_mudkt_3_3
-TEXT: Sabe, na última vez que vi Mudkip aparecendo em massa como hoje, também vi vários Treinadores explorando e fazendo pesquisas por aí.
-
-RESOURCE ID: quest_special_dialogue_mudkt_3_4
-TEXT: Sempre fico muito feliz ao ver todo mundo se divertindo com Pokémon. Espero que você tenha se divertido hoje também!
-
-RESOURCE ID: quest_special_dialogue_mudkt_3_5
-TEXT: E agora eu preciso apertar o passo e ir pra casa. Conversamos depois!
-
 RESOURCE ID: quest_special_dialogue_poni_0_0
 TEXT: Ah, %PLAYERNAME%! Que bom te ver.
 
@@ -2091,75 +1463,6 @@ TEXT: É quase certeza de que os motivos deles não têm nada a ver com a gente.
 RESOURCE ID: quest_special_dialogue_poni_3_8
 TEXT: Mas o que pode ser? Acho que tudo o que podemos fazer agora é esperar e ver o que acontece.
 
-RESOURCE ID: quest_special_dialogue_rockethq10_0_0
-TEXT: %PLAYERNAME%! Como estão as coisas? Espero que encontrando tempo para relaxar, né? Talvez com seus Pokémon?
-
-RESOURCE ID: quest_special_dialogue_rockethq10_0_1
-TEXT: Estou curtindo uma explosão de produtividade minha, mas isso me fez perceber que já faz um tempo que a nada interrompe minha pesquisa.
-
-RESOURCE ID: quest_special_dialogue_rockethq10_0_2
-TEXT: Tenho medo de que problemas possam estar surgindo, vindos especificamente da Equipe GO Rocket. Eles estão muito quietos faz tempo, não acha?
-
-RESOURCE ID: quest_special_dialogue_rockethq10_0_3
-TEXT: Você se importa de vigiar a área para ver se está tudo certo por aqui?
-
-RESOURCE ID: quest_special_dialogue_rockethq10_1_0
-TEXT: Bom trabalho, %PLAYERNAME%. Por mais que eu gostaria que eles nos dessem um tempo, sei que a Equipe GO Rocket nunca descansa. Então, a gente também não!
-
-RESOURCE ID: quest_special_dialogue_rockethq10_1_1
-TEXT: Estou aliviado em ver que você já resgatou alguns Pokémon Sombrosos deles.
-
-RESOURCE ID: quest_special_dialogue_rockethq10_1_2
-TEXT: Como professor e como alguém que ama Pokémon, não posso ficar de braços cruzados enquanto a Equipe GO Rocket maltrata tantos Pokémon inocentes.
-
-RESOURCE ID: quest_special_dialogue_rockethq10_1_3
-TEXT: Vamos voltar lá e resgatar mais alguns Pokémon deles!
-
-RESOURCE ID: quest_special_dialogue_rockethq10_2_0
-TEXT: Boas-vindas de volta, %PLAYERNAME%! Obrigado por lidar com esses Recrutas da Equipe GO Rocket. Você e seus Pokémon fizeram um ótimo trabalho mandando-os pra longe, como sempre!
-
-RESOURCE ID: quest_special_dialogue_rockethq10_2_1
-TEXT: Imagino que eles vão pensar duas vezes antes de aparecer por aqui de novo.
-
-RESOURCE ID: quest_special_dialogue_rockethq10_2_2
-TEXT: Mas aqueles Pokémon Sombrosos que eles deixaram para trás... Bem, pelo menos estão seguros com a gente agora.
-
-RESOURCE ID: quest_special_dialogue_rockethq10_2_3
-TEXT: %PLAYERNAME%, vamos purificá-los para que eles possam deixar para trás a experiência terrível que tiveram ao lado da Equipe GO Rocket. Eu sei que eles agradecerão por sua ajuda!
-
-RESOURCE ID: quest_special_dialogue_rockethq10_3_0
-TEXT: Esses Pokémon parecem bem melhores agora, %PLAYERNAME%. Tenho certeza de que eles estão aliviados por estar com um Treinador como você e longe da Equipe GO Rocket.
-
-RESOURCE ID: quest_special_dialogue_rockethq10_3_1
-TEXT: Agora que demos um jeito em alguns de seus subordinados, acho que é melhor a gente rastrear os Líderes da Equipe GO Rocket.
-
-RESOURCE ID: quest_special_dialogue_rockethq10_3_2
-TEXT: Da forma  como você lidou com esses Recrutas, tenho certeza de que os Líderes não terão chance nenhuma contra você!
-
-RESOURCE ID: quest_special_dialogue_rockethq10_4_0
-TEXT: Você conseguiu, %PLAYERNAME%! Mais uma vez, você tem sido fundamental para impedir a Equipe GO Rocket de conseguir o que quer.
-
-RESOURCE ID: quest_special_dialogue_rockethq10_4_1
-TEXT: É um privilégio ver você e seus parceiros crescerem juntos e usarem suas forças para ajudar Pokémon em todos os lugares.
-
-RESOURCE ID: quest_special_dialogue_rockethq10_4_2
-TEXT: Agora que neutralizamos os Líderes da Equipe GO Rocket, é hora de avisar  Giovanni que não vamos deixá-lo executar seu plano sem antes se ver com a gente.
-
-RESOURCE ID: quest_special_dialogue_rockethq10_4_3
-TEXT: Eu sei que ele é valentão, mas você é mais forte. Confio totalmente em você, %PLAYERNAME%!
-
-RESOURCE ID: quest_special_dialogue_rockethq10_5_0
-TEXT: Fantástico, %PLAYERNAME%! Você e seus Pokémon têm um vínculo impressionante, que a Equipe GO Rocket nunca será capaz de copiar.
-
-RESOURCE ID: quest_special_dialogue_rockethq10_5_1
-TEXT: Pokémon de todos os lugares têm sorte de ter você ao lado deles!
-
-RESOURCE ID: quest_special_dialogue_rockethq10_5_2
-TEXT: Eu sei que não vai demorar muito até a Equipe GO Rocket aparecer com outro plano, mas fico mais tranquilo em saber que você está aqui para detê-los.
-
-RESOURCE ID: quest_special_dialogue_rockethq10_5_3
-TEXT: Mas, por enquanto, descanse um pouco. Você mais que merece!
-
 RESOURCE ID: quest_special_dialogue_stufful_0_0
 TEXT: *bocejo* Olá, %PLAYERNAME%... Desculpe a minha aparência, é que eu fiquei acordado até tarde ontem à noite, estudando algum Rowlet que estava por perto. Por mais sonolentos que possam ser durante o dia, com certeza se animam à noite!
 
@@ -2205,90 +1508,6 @@ TEXT: O lado bom da história é que eu cheguei a fazer tanto carinho em Stufful
 RESOURCE ID: quest_special_dialogue_stufful_3_3
 TEXT: Espero que tenha tido mais sorte em fortalecer laços com seus novos companheiros Stufful e Bewear, %PLAYERNAME%. Acho que vou me recolher e pegar uma bolsa de gelo. Obrigado por toda a sua ajuda hoje! Fique bem. Eu entrarei em contato em breve!
 
-RESOURCE ID: quest_special_dialogue_ulaula_0_0
-TEXT: Oi, %PLAYERNAME%!
-
-RESOURCE ID: quest_special_dialogue_ulaula_0_1
-TEXT: Chegou na hora certa. Eu tive alguns problemas durante minha pesquisa!
-
-RESOURCE ID: quest_special_dialogue_ulaula_0_2
-TEXT: Sabe, eu ainda estou intrigado com os espíritos guardiões que Spark e Blanche viram recentemente. Ainda preciso descobrir por que eles têm aparecido.
-
-RESOURCE ID: quest_special_dialogue_ulaula_0_3
-TEXT: Só espero que não estejam aborrecidos com a gente, ou algo pior que isso!
-
-RESOURCE ID: quest_special_dialogue_ulaula_0_4
-TEXT: Acho que vou fazer uma pausa... desfrutar de um pouco de sombra e água fresca para clarear a mente. É importante dar um descanso para o cérebro de vez em quando!
-
-RESOURCE ID: quest_special_dialogue_ulaula_0_5
-TEXT: Por que você não vai atrás de uma sombra para também, %PLAYERNAME%?
-
-RESOURCE ID: quest_special_dialogue_ulaula_1_0
-TEXT: Boas-vindas de volta, %PLAYERNAME%! Vejo que encontrou alguns Pokémon cobertos de folhas r, dá até pra descansar debaixo deles, né?
-
-RESOURCE ID: quest_special_dialogue_ulaula_1_1
-TEXT: Está se sentindo bem? Eu sei que estou!
-
-RESOURCE ID: quest_special_dialogue_ulaula_1_2
-TEXT: Enquanto você estava fora, pensei em uma nova perspectiva para nossa investigação.
-
-RESOURCE ID: quest_special_dialogue_ulaula_1_3
-TEXT: Como você deve saber, Alola é o lar de quatro espíritos guardiões. Já vimos dois, então é lógico que os outros dois já estão passeando por aí.
-
-RESOURCE ID: quest_special_dialogue_ulaula_1_4
-TEXT: Em vez de esperar que eles venham até nós, acho que devemos sair e procurá-los nós mesmos.
-
-RESOURCE ID: quest_special_dialogue_ulaula_1_5
-TEXT: Vamos começar com Tapu Bulu, Espírito Guardião da Ilha de Ula-ula.
-
-RESOURCE ID: quest_special_dialogue_ulaula_1_6
-TEXT: A Ilha de Ula-ula é um local acidentado, que abriga o Monte Lanakila, o pico mais alto de Alola.
-
-RESOURCE ID: quest_special_dialogue_ulaula_1_7
-TEXT: Dizem que Tapu Bulu emite sons com sua cauda para que outros saibam onde ele está e evitem conflitos desnecessários. Sabendo disso, não deve ser muito difícil de encontrar!
-
-RESOURCE ID: quest_special_dialogue_ulaula_1_8
-TEXT: Além disso, sei que Tapu Bulu pode ajudar as plantas a crescerem?, então talvez a gente tenha sorte se começarmos procurando Pokémon que são conhecidos por crescer bastante. Vamos lá fora, %PLAYERNAME%!
-
-RESOURCE ID: quest_special_dialogue_ulaula_2_0
-TEXT: Ah, %PLAYERNAME%, você voltou. Como foi sua busca?
-
-RESOURCE ID: quest_special_dialogue_ulaula_2_1
-TEXT: Pedi a Candela para nos dar uma mão logo depois que você saiu.
-
-RESOURCE ID: quest_special_dialogue_ulaula_2_2
-TEXT: E poucos minutos depois, antes mesmo de eu me preparar para sair, ela voltou correndo dizendo que tinha ouvido um barulho no ar. Foi então que olhou para cima e viu Tapu Bulu flutuando!
-
-RESOURCE ID: quest_special_dialogue_ulaula_2_3
-TEXT: Mais um espírito guardião que me escapou por pouco... Essa é a natureza instável da Pesquisa de Pokémon, eu acho.
-
-RESOURCE ID: quest_special_dialogue_ulaula_2_4
-TEXT: Fico feliz que pelo menos você tenha se saído melhor, %PLAYERNAME%. Agora que sabemos que está lá fora, vamos dobrar nossa busca por Tapu Bulu!
-
-RESOURCE ID: quest_special_dialogue_ulaula_2_5
-TEXT: Vou falar com Candela para ver se ela sabe mais detalhes que possam nos ajudar.
-
-RESOURCE ID: quest_special_dialogue_ulaula_3_0
-TEXT: %PLAYERNAME%, você viu Tapu Bulu, não é?
-
-RESOURCE ID: quest_special_dialogue_ulaula_3_1
-TEXT: Como era? Me conte tudo! Você ouviu algum barulho? Viu ele fazer a vegetação crescer, ou talvez até balançar árvores grandonas pelas raízes?
-
-RESOURCE ID: quest_special_dialogue_ulaula_3_2
-TEXT: Tapu Bulu é conhecido por tudo isso.
-
-RESOURCE ID: quest_special_dialogue_ulaula_3_3
-TEXT: Como você poderia esperar, mais uma vez eu não pude testemunhar Tapu Bulu. No entanto, tenho uma nova teoria.
-
-RESOURCE ID: quest_special_dialogue_ulaula_3_4
-TEXT: Os espíritos guardiões parecem estar evitando chamar a atenção. Talvez estejam aqui apenas para investigar algo, ou até mesmo nos ajudar de alguma forma.
-
-RESOURCE ID: quest_special_dialogue_ulaula_3_5
-TEXT: As coisas podem ficar mais clara mais se encontrarmos Tapu Fini, o último dos espíritos guardiões de Alola.
-
-RESOURCE ID: quest_special_dialogue_ulaula_3_6
-TEXT: Mas, por enquanto, acho que merecemos um bom descanso. Até a próxima, %PLAYERNAME%!
-
 RESOURCE ID: quest_stuff_catch_b
 TEXT: Pegar {0} Stufful.
 
@@ -2297,18 +1516,6 @@ TEXT: Evoluir {0} Stufful.
 
 RESOURCE ID: quest_stuff_snapshot_b
 TEXT: Tirar 1 foto de Stufful selvagem.
-
-RESOURCE ID: quest_title_af2022
-TEXT: Dia da Mentira ’ 2-Oh?-22
-
-RESOURCE ID: quest_title_af2022_0
-TEXT: Dia da Mentira ’ 2-Oh?-22 (1/3)
-
-RESOURCE ID: quest_title_af2022_1
-TEXT: Dia da Mentira ’ 2-Oh?-22 (2/3)
-
-RESOURCE ID: quest_title_af2022_2
-TEXT: Dia da Mentira ’ 2-Oh?-22 (3/3)
 
 RESOURCE ID: quest_title_alodude
 TEXT: O caminho das pedras
@@ -2349,21 +1556,6 @@ TEXT: Um megamomento (3/4)
 RESOURCE ID: quest_title_megav3_branch_quest_3
 TEXT: Um megamomento (4/4)
 
-RESOURCE ID: quest_title_mudkt
-TEXT: Clássicos do Dia Comunitário: Mudkip
-
-RESOURCE ID: quest_title_mudkt_0
-TEXT: Clássicos do Dia Comunitário: Mudkip (1/4)
-
-RESOURCE ID: quest_title_mudkt_1
-TEXT: Clássicos do Dia Comunitário: Mudkip (2/4)
-
-RESOURCE ID: quest_title_mudkt_2
-TEXT: Clássicos do Dia Comunitário: Mudkip (3/4)
-
-RESOURCE ID: quest_title_mudkt_3
-TEXT: Clássicos do Dia Comunitário: Mudkip (4/4)
-
 RESOURCE ID: quest_title_poni
 TEXT: Uma aventura em Poni
 
@@ -2394,21 +1586,6 @@ TEXT: Coisinha braba (3/4)
 RESOURCE ID: quest_title_stuff_3
 TEXT: Coisinha braba (4/4)
 
-RESOURCE ID: quest_title_ulaula
-TEXT: Uma aventura em Ula-ula
-
-RESOURCE ID: quest_title_ulaula_0
-TEXT: Uma aventura em Ula-ula (1/4)
-
-RESOURCE ID: quest_title_ulaula_1
-TEXT: Uma aventura em Ula-ula (2/4)
-
-RESOURCE ID: quest_title_ulaula_2
-TEXT: Uma aventura em Ula-ula (3/4)
-
-RESOURCE ID: quest_title_ulaula_3
-TEXT: Uma aventura em Ula-ula (4/4)
-
 RESOURCE ID: quest_trade_pikachu_plural
 TEXT: Trocar {0} Pikachu.
 
@@ -2428,8 +1605,14 @@ TEXT: Semana Aventura 2019: pegar {0} Omanyte ou Kabuto.
 RESOURCE ID: raid_day_mega_kangaskhan
 TEXT: Dia de Reides: Mega Kangaskhan
 
+RESOURCE ID: raiding_box
+TEXT: Combo de Reides
+
 RESOURCE ID: restart_app
 TEXT: Reiniciar
+
+RESOURCE ID: russian
+TEXT: Russian
 
 RESOURCE ID: safari_2022_seville_dialogue_0_0
 TEXT: Boas vindas à Zona de Safári de Sevilha 2022, %PLAYERNAME%!
@@ -2464,6 +1647,9 @@ TEXT: Combined Research Updates
 RESOURCE ID: settings_in_app_notification_header
 TEXT: In-Game Notifications
 
+RESOURCE ID: settings_legendary_multi_selection_confirmation_title
+TEXT: Are you sure you want to be able to transfer Legendary Pokémon, Mythical Pokémon, and Ultra Beasts when selecting multiple Pokémon?
+
 RESOURCE ID: settings_nearby_raids
 TEXT: Nearby Raids
 
@@ -2471,7 +1657,7 @@ RESOURCE ID: settings_notifications_description
 TEXT: Control your Push Notification and In-Game Notification settings
 
 RESOURCE ID: settings_notifications_title
-TEXT: Notifications
+TEXT: Notificações
 
 RESOURCE ID: seville_cup_description
 TEXT: Uma Copa da Captura por dia para os participantes da Zona de Safári de Sevilha
@@ -2519,12 +1705,6 @@ Atenciosamente,
 
 RESOURCE ID: shop_gift_invitation_title
 TEXT: CONVITE
-
-RESOURCE ID: shop_gift_purchase_confirmation_button
-TEXT: CONFIRMAR
-
-RESOURCE ID: shop_gift_purchase_confirmation_cancel
-TEXT: CANCELAR
 
 RESOURCE ID: shop_gift_purchase_confirmation_description
 TEXT: {0} receberá <b>{1}</b> de você. 
@@ -2586,14 +1766,8 @@ TEXT: Política de envio de presentes
 RESOURCE ID: shop_ticket_gift_info
 TEXT: Convide seus amigos para este evento dando-lhes um ingresso!
 
-RESOURCE ID: sis22_collection_challenge
-TEXT: Desafio de coleção evento de Páscoa 2022
-
-RESOURCE ID: songkran_2022_description
-TEXT: Festival Songkran 2022
-
-RESOURCE ID: songkran_2022_title
-TEXT: Abril chega dando um banho!
+RESOURCE ID: spanish
+TEXT: Spanish
 
 RESOURCE ID: sparks_fly_description
 TEXT: Aventuras Aéreas Pokémon: desafio de captura
@@ -2603,9 +1777,6 @@ TEXT: Eletrizando os céus
 
 RESOURCE ID: spawn_alodude
 TEXT: Geodude de Alola selvagens estão aparecendo com mais frequência
-
-RESOURCE ID: spawn_mudkip
-TEXT: Mudkip selvagens estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_stufful
 TEXT: Stufful selvagens estão aparecendo com mais frequência!
@@ -2664,35 +1835,32 @@ TEXT:
 RESOURCE ID: sticker_spring_pipito.3_description
 TEXT:  
 
-RESOURCE ID: story_quest_rockethq10
-TEXT: Planos secretos
+RESOURCE ID: sticker_summer_1.5_description
+TEXT:  
 
-RESOURCE ID: story_quest_rockethq10_0
-TEXT: Planos secretos (1/6)
+RESOURCE ID: sticker_summer_2.3_description
+TEXT:  
 
-RESOURCE ID: story_quest_rockethq10_1
-TEXT: Planos secretos (2/6)
+RESOURCE ID: sticker_summer_3.3_description
+TEXT:  
 
-RESOURCE ID: story_quest_rockethq10_2
-TEXT: Planos secretos (3/6)
+RESOURCE ID: sticker_summer_4.5_description
+TEXT:  
 
-RESOURCE ID: story_quest_rockethq10_3
-TEXT: Planos secretos (4/6)
+RESOURCE ID: sticker_summer_5.3_description
+TEXT:  
 
-RESOURCE ID: story_quest_rockethq10_4
-TEXT: Planos secretos (5/6)
+RESOURCE ID: sticker_summer_6.3_description
+TEXT:  
 
-RESOURCE ID: story_quest_rockethq10_5
-TEXT: Planos secretos (6/6)
+RESOURCE ID: thai
+TEXT: Thai
 
 RESOURCE ID: ticket_alodude
 TEXT: O ingresso para a narrativa de pesquisa especial "O caminho das pedras” está disponível na loja
 
 RESOURCE ID: ticket_may22_alola
 TEXT: O ingresso para a pesquisa especial “De Alola a Alola” está disponível na loja
-
-RESOURCE ID: ticket_mudkip
-TEXT: Ingressos para a pesquisa especial de Clássicos do Dia Comunitário: Mudkip estão disponíveis na loja
 
 RESOURCE ID: ticket_stufful
 TEXT: O ingresso para a pesquisa especial "Coisinha braba" está disponível na loja
@@ -2721,12 +1889,6 @@ TEXT: Todos os Treinadores devem trabalhar juntos como uma comunidade global par
 RESOURCE ID: timed_challenge_work_together_regional_backup
 TEXT: Todos os Treinadores devem trabalhar juntos como uma comunidade regional para completar este desafio.
 
-RESOURCE ID: tips_raid_tutorial_mega_attack_boost_body
-TEXT: Enquanto estiver usando um Pokémon Megaevoluído em uma Batalha de Reide ou de Ginásio, os ataques dos Pokémon de Treinadores batalhando no mesmo Reide ou Ginásio causarão ainda mais dano se estiverem usando Pokémon do mesmo tipo do seu Pokémon Megaevoluído.
-
-RESOURCE ID: tips_raid_tutorial_mega_attack_boost_title
-TEXT: Reforço de Mega-ataques
-
 RESOURCE ID: trade_mega_level_buddy_prompt_message
 TEXT: Este Pokémon já foi seu companheiro e já Megaevoluiu. Se trocá-lo, redefinirá o grau de amizade e seu Meganível. Deseja continuar com a troca?
 
@@ -2739,11 +1901,17 @@ TEXT: Este Pokémon já Megaevoluiu. Se trocá-lo, redefinirá seu Meganível. D
 RESOURCE ID: trade_mega_level_prompt_title
 TEXT: Tem certeza de que deseja trocar este Pokémon?
 
+RESOURCE ID: trade_tut_special_trade_message
+TEXT: Pokémon Lendários, Pokémon Míticos, Ultracriatura, Pokémon Purificados, Pokémon Brilhantes e Pokémon que ainda não estão registrados no seu Pokédex precisam de uma troca especial. Você só pode realizar uma troca especial por dia.
+
+RESOURCE ID: turkish
+TEXT: Turkish
+
+RESOURCE ID: ultra_beast_not_allowed_in_gyms
+TEXT: Ultracriaturas não podem ser deixadas nos Ginásios.
+
 RESOURCE ID: use_system_settings
 TEXT: Usar as configurações do dispositivo
-
-RESOURCE ID: verbose_logs_disable_body
-TEXT: Registros de {1} que não foram carregados serão removidos se você parar de salvar esses registros.
 
 RESOURCE ID: water_festival_catch_timed_research
 TEXT: Festival Aquático: desafio de captura
