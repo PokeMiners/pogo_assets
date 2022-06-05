@@ -124,6 +124,15 @@ TEXT: 同意します
 RESOURCE ID: add_friend_confirmation_title
 TEXT: {0}さんにフレンド申請を送りますか？ 
 
+RESOURCE ID: adventure_week_explore_timed_research
+TEXT: アドベンチャーウィークチャレンジ
+
+RESOURCE ID: adventure_week_research_day_ultra_unlock_event_name
+TEXT: ウルトラアンロック：リサーチデイ
+
+RESOURCE ID: adventure_week_ultra_unlock_event_name
+TEXT: ウルトラアンロック：アドベンチャーウィーク
+
 RESOURCE ID: air_adventures_okinawa_sr_title_0
 TEXT: そらとぶピカチュウプロジェクト
 コラボイベント、沖縄
@@ -353,21 +362,24 @@ TEXT: パートナーリサーチ-シーズンオブGO：
 小田急
 
 RESOURCE ID: badge_event_0034_title
-TEXT: Partner Research: Odakyu
+TEXT: パートナーリサーチ：
+小田急
 
 RESOURCE ID: badge_event_0035
 TEXT: パートナーリサーチ-シーズンオブGO：
 ソフトバンク
 
 RESOURCE ID: badge_event_0035_title
-TEXT: Partner Research: SoftBank
+TEXT: パートナーリサーチ：
+ソフトバンク
 
 RESOURCE ID: badge_event_0036
 TEXT: パートナーリサーチ-シーズンオブGO：
 ドン・キホーテ
 
 RESOURCE ID: badge_event_0036_title
-TEXT: Partner Research: Don Quijote
+TEXT: パートナーリサーチ：
+ドン・キホーテ
 
 RESOURCE ID: badge_event_0037
 TEXT: そらとぶピカチュウプロジェクト
@@ -444,9 +456,9 @@ RESOURCE ID: badge_safarizone_2022_seville_day_03_general_title
 TEXT: セビリア、2022年5月15日
 
 RESOURCE ID: batch_transfer_confirm
-TEXT: <size=36><b>Do you want to transfer {0} Pokémon?</b></size>
+TEXT: 研究所に{0}匹送りますか？
 
-You can’t undo a transfer.
+開始後キャンセルはできません。
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>選択されたポケモンのうち{0}匹のみ研究所に送ることができます。</b></size>
@@ -459,7 +471,7 @@ TEXT: <size=36><b>選択されたポケモンのうち1匹のみ研究所に送�
 送ることができないポケモンはボックスに残ります。送ったポケモンを戻すことはできません。
 
 RESOURCE ID: batch_transfer_result
-TEXT: Received Candy.
+TEXT: 研究所からアメを受け取った
 
 RESOURCE ID: batch_transfer_unique_included
 TEXT: 伝説・幻のポケモン、ウルトラビースト、もしくは特殊なポケモンが含まれています！
@@ -468,10 +480,10 @@ RESOURCE ID: batch_transfer_unique_legendary_or_mythical_or_ultra_beast_pokemon
 TEXT: 伝説・幻のポケモンもしくはウルトラビースト{0}匹
 
 RESOURCE ID: batch_transfer_unique_not_included
-TEXT: You have not selected any Legendary Pokémon, Mythical Pokémon, Ultra Beasts, or event Pokémon.
+TEXT: 伝説・幻のポケモン、ウルトラビースト、特殊なポケモンを選択していません
 
 RESOURCE ID: batch_transfer_unique_warning_message
-TEXT: Are you sure you want to transfer these Pokémon?
+TEXT: 本当に研究所に送ってもいいですか？
 
 RESOURCE ID: battle_box
 TEXT: バトルボックス
@@ -570,7 +582,10 @@ RESOURCE ID: branch_megav3_1c_title
 TEXT: カメックスを選ぶ
 
 RESOURCE ID: brazilianportuguese
-TEXT: ポルトガル語
+TEXT: Português
+
+RESOURCE ID: browse_campfire
+TEXT: Campfireを見る
 
 RESOURCE ID: buddy_bonus
 TEXT: ボーナス
@@ -754,7 +769,7 @@ RESOURCE ID: challenge_buddy_play_single
 TEXT: 相棒をなでてあげる
 
 RESOURCE ID: chinesetraditional
-TEXT: 繁体中文
+TEXT: 繁體中文
 
 RESOURCE ID: combat_log_upload_complete_modal_body
 TEXT: ゲームログ共有ありがとうございます。このデータはアプリの改善のために使用されます。
@@ -813,6 +828,9 @@ TEXT: カラカラはガラガラ（アローラのすがた）に進化でき�
 
 RESOURCE ID: event_move_alolan_marowak_shadow_bone
 TEXT: カラカラをアローラのすがたのガラガラに進化させるとシャドーボーンを覚えている
+
+RESOURCE ID: event_new_ditto_bonus
+TEXT: メタモンがより多くのポケモンにへんしんしている
 
 RESOURCE ID: event_season7_name
 TEXT: シーズンオブGO
@@ -889,7 +907,7 @@ RESOURCE ID: generic_done
 TEXT: 終了
 
 RESOURCE ID: german
-TEXT: ドイツ語
+TEXT: Deutsch
 
 RESOURCE ID: gifting_error_description
 TEXT: 購入完了直前に相手がイベントチケットを入手したため、ギフトを贈ることができませんでした。
@@ -1491,6 +1509,9 @@ TEXT: https://niantic.helpshift.com/hc/ja/6-pokemon-go/faq/3325-sharing-game-log
 RESOURCE ID: incense_duration_8_hr
 TEXT: おこう持続8時間
 
+RESOURCE ID: increased_adventure_sync_rewards
+TEXT: いつでも冒険モードの来週リワード増
+
 RESOURCE ID: invasion_pokemon_inventory_warning_message
 TEXT: ポケモンボックスがいっぱいのためシャドウポケモンに出会うことができません。ポケモンを研究所に送るか、ショップでポケモンボックスアップグレードを入手してください。
 
@@ -1532,6 +1553,9 @@ TEXT: 世界中のどこにいても現地時間2022年6月4日と5日の10:00AM
 
 すべての特別ボーナス受け取るには、記載の開催時間内にプレイする必要があります。
 
+RESOURCE ID: item_global_event_ticket_to_gift_desc
+TEXT: 余分チケット購入エラー。フレンドに贈るか払い戻しを受けることができます。
+
 RESOURCE ID: item_global_event_ticket_to_gift_description
 TEXT: 世界中のどこにいても現地時間2022年6月4日と5日の10:00AM～6:00PMに、Pokémon GO Fest に参加できるチケットです。
 
@@ -1541,8 +1565,38 @@ TEXT: Pokémon GO Fest 2022
 RESOURCE ID: japanese
 TEXT: 日本語
 
+RESOURCE ID: jun22_tcg_collection_challenge_1
+TEXT: ポケカ：フシギダネチャレンジ
+
+RESOURCE ID: jun22_tcg_collection_challenge_2
+TEXT: ポケカ：ヒトカゲチャレンジ
+
+RESOURCE ID: jun22_tcg_collection_challenge_3
+TEXT: ポケカ：ゼニガメチャレンジ
+
+RESOURCE ID: jun22_tcg_collection_challenge_4
+TEXT: ポケカ：交換チャレンジ
+
+RESOURCE ID: jun22_tcg_collection_challenge_5
+TEXT: ポケカ：カントーチャレンジ
+
+RESOURCE ID: jun22_tcg_collection_challenge_6
+TEXT: ポケカ：コレクションチャレンジ
+
+RESOURCE ID: jun22_tcg_collection_challenge_7
+TEXT: ポケカ：フシギダネチャレンジ2
+
+RESOURCE ID: jun22_tcg_collection_challenge_8
+TEXT: ポケカ：ヒトカゲチャレンジ2
+
+RESOURCE ID: jun22_tcg_collection_challenge_9
+TEXT: ポケカ：ゼニガメチャレンジ2
+
+RESOURCE ID: jun22_tcg_event_name
+TEXT: ポケモンカードコラボイベント
+
 RESOURCE ID: korean
-TEXT: 韓国語
+TEXT: 한국인
 
 RESOURCE ID: language_change_confirmation_description
 TEXT: 変更を保存するとゲームは再起動されます。
@@ -1611,9 +1665,9 @@ RESOURCE ID: mega_v3_event_name
 TEXT: 大いなるメガ
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-06-01T22:36:21.275634
-at SHA 06a710160fb0868df34022699e3f1bda6830450c
-Patch from: 0.237.0-SHA-5e5782b5, 0.239.0-SHA-9ccad1b6
+TEXT: Built at 2022-06-04T16:21:12.755974
+at SHA 252ec15845ed43f8254ec08d460eb497aa549d59
+Patch from: 0.237.0-SHA-5e5782b5, 0.239.0-SHA-9ccad1b6, 0.239.1-SHA-ae2c6b4d
 
 RESOURCE ID: move_name_0365
 TEXT: ラスターパージ
@@ -1679,6 +1733,9 @@ TEXT: ポケモンを送って研究所から{0}のアメを受け取った
 
 RESOURCE ID: pokemon_ultra_beast_info_transfer_to_professor_confirmation
 TEXT: 本当にこのポケモンを送ってもいいですか？
+
+RESOURCE ID: pokestop_spin_new_xp_five
+TEXT: 5× 新ポケストップスピンXP
 
 RESOURCE ID: purchase_limit_one
 TEXT: 1回限定
@@ -1754,6 +1811,9 @@ TEXT: 相棒と探索してアメを{0}個もらう
 
 RESOURCE ID: quest_explore_km
 TEXT: {0}km 探索する
+
+RESOURCE ID: quest_land_inarow_excellent_curveball_plural
+TEXT: カーブボールのエクセレントスローを{0}回連続で投げる
 
 RESOURCE ID: quest_raid_with_buddy_plural
 TEXT: 相棒ポケモンでレイドバトルを{0}回行う

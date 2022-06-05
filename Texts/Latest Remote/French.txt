@@ -309,6 +309,15 @@ TEXT: Maximal
 RESOURCE ID: adv_set_medium
 TEXT: Moyen
 
+RESOURCE ID: adventure_week_explore_timed_research
+TEXT: Semaine Aventure : Défi Aventure
+
+RESOURCE ID: adventure_week_research_day_ultra_unlock_event_name
+TEXT: Ultra Bonus : Journée Recherche
+
+RESOURCE ID: adventure_week_ultra_unlock_event_name
+TEXT: Ultra Bonus : Semaine Aventure
+
 RESOURCE ID: air_adventures_okinawa_sr_title_0
 TEXT: Pokémon Aventures Aériennes : Okinawa
 
@@ -589,13 +598,13 @@ RESOURCE ID: badge_event_0038_title
 TEXT: Pokémon Aventures Aériennes 2022
 
 RESOURCE ID: badge_gofest_2022_global
-TEXT: Mondial, 4 et 5 juin et été 2022
+TEXT: Mondial, les 4 et 5 juin et le 27 août 2022
 
 RESOURCE ID: badge_gofest_2022_global_title
 TEXT: Festival Pokémon GO 2022
 
 RESOURCE ID: badge_gofest_2022_test
-TEXT: Mondial, 4 et 5 juin et été 2022
+TEXT: Mondial, les 4 et 5 juin et le 27 août 2022
 
 RESOURCE ID: badge_gofest_2022_test_title
 TEXT: Festival Pokémon GO 2022
@@ -649,12 +658,12 @@ RESOURCE ID: badge_safarizone_2022_seville_day_03_general_title
 TEXT: Séville, le 15 mai 2022
 
 RESOURCE ID: batch_transfer_confirm
-TEXT: <size=36><b>Do you want to transfer {0} Pokémon?</b></size>
+TEXT: Veux-tu vraiment transférer {0} Pokémon ?
 
-You can’t undo a transfer.
+Tu ne pourras pas les reprendre après cette opération.
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
-TEXT: <size=36><b>Seuls {0} des Pokémon sélectionnés peuvent être transférés.</b></size>
+TEXT: <size=36><b>Seuls {0} des Pokémon sélectionnés peuvent être transférés.
 
 Les Pokémon non éligibles pour le transfert resteront dans ton stockage de Pokémon. Les Pokémon transférés ne peuvent pas être récupérés.
 
@@ -774,6 +783,9 @@ TEXT: Choisis Tortank.
 RESOURCE ID: brazilianportuguese
 TEXT: Portuguese
 
+RESOURCE ID: browse_campfire
+TEXT: Parcourir Campfire
+
 RESOURCE ID: bundle_retweet_reward
 TEXT: Boite récompense : retweet
 
@@ -840,6 +852,9 @@ TEXT: Osselait peut évoluer en Ossatueur d’Alola
 
 RESOURCE ID: event_move_alolan_marowak_shadow_bone
 TEXT: Fais évoluer Osselait pour obtenir un Ossatueur d’Alola connaissant Os Ombre
+
+RESOURCE ID: event_new_ditto_bonus
+TEXT: Ditto disguised as more Pokemon in the wild
 
 RESOURCE ID: event_season7_name
 TEXT: Saison GO
@@ -1070,6 +1085,9 @@ TEXT: https://niantic.helpshift.com/hc/fr/6-pokemon-go/faq/3325-sharing-game-log
 RESOURCE ID: incense_duration_8_hr
 TEXT: Les Encens durent 8 heures
 
+RESOURCE ID: increased_adventure_sync_rewards
+TEXT: Plus de Récompenses de Suivi la semaine prochaine
+
 RESOURCE ID: invasion_pokemon_inventory_warning_message
 TEXT: Ton espace de stockage de Pokémon est plein. Tu ne pourras pas rencontrer de Pokémon Obscur. Pour faire de la place, transfère des Pokémon ou agrandis ton espace de stockage de Pokémon dans la Boutique.
 
@@ -1111,6 +1129,9 @@ TEXT: Un ticket pour accéder au Festival Pokémon GO les 4 et 5 juin 2022, de 1
 
 Tu dois jouer aux heures indiquées pour recevoir les bonus des évènements spéciaux.
 
+RESOURCE ID: item_global_event_ticket_to_gift_desc
+TEXT: Ticket supplémentaire provenant d’une erreur survenue à l’achat. Tu peux l’envoyer à un ami ou te faire rembourser.
+
 RESOURCE ID: item_global_event_ticket_to_gift_description
 TEXT: Un ticket pour accéder au Festival Pokémon GO les 4 et 5 juin 2022, de 10h à 18h (heures locales), où que tu sois. 
 
@@ -1119,6 +1140,36 @@ TEXT: Festival Pokémon GO 2022
 
 RESOURCE ID: japanese
 TEXT: 日本
+
+RESOURCE ID: jun22_tcg_collection_challenge_1
+TEXT: Pokemon TCG: Bulbasaur Collection Challenge 1
+
+RESOURCE ID: jun22_tcg_collection_challenge_2
+TEXT: Pokemon TCG: Charmander Collection Challenge 1
+
+RESOURCE ID: jun22_tcg_collection_challenge_3
+TEXT: Pokemon TCG: Squirtle Collection Challenge 1
+
+RESOURCE ID: jun22_tcg_collection_challenge_4
+TEXT: Pokemon TCG: Trade Collection Challenge
+
+RESOURCE ID: jun22_tcg_collection_challenge_5
+TEXT: Pokemon TCG: Kanto Collection Challenge
+
+RESOURCE ID: jun22_tcg_collection_challenge_6
+TEXT: Pokemon TCG: Rare Collection Challenge
+
+RESOURCE ID: jun22_tcg_collection_challenge_7
+TEXT: Pokemon TCG: Bulbasaur Collection Challenge 2
+
+RESOURCE ID: jun22_tcg_collection_challenge_8
+TEXT: Pokemon TCG: Charmander Collection Challenge 2
+
+RESOURCE ID: jun22_tcg_collection_challenge_9
+TEXT: Pokemon TCG: Squirtle Collection Challenge 2
+
+RESOURCE ID: jun22_tcg_event_name
+TEXT: Pokemon TCG Crossover Event
 
 RESOURCE ID: korean
 TEXT: 韓国語
@@ -1191,9 +1242,9 @@ RESOURCE ID: mega_v3_event_name
 TEXT: Un Méga-moment
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-06-01T22:36:21.275634
-at SHA 06a710160fb0868df34022699e3f1bda6830450c
-Patch from: 0.237.0-SHA-5e5782b5, 0.239.0-SHA-9ccad1b6
+TEXT: Built at 2022-06-04T16:21:12.755974
+at SHA 252ec15845ed43f8254ec08d460eb497aa549d59
+Patch from: 0.237.0-SHA-5e5782b5, 0.239.0-SHA-9ccad1b6, 0.239.1-SHA-ae2c6b4d
 
 RESOURCE ID: move_name_0353
 TEXT: Psycho-Croc
@@ -1260,6 +1311,9 @@ TEXT: Transfert effectué. Tu as reçu un Bonbon {0}.
 RESOURCE ID: pokemon_ultra_beast_info_transfer_to_professor_confirmation
 TEXT: Veux-tu vraiment transférer cette Ultra-Chimère ?
 
+RESOURCE ID: pokestop_spin_new_xp_five
+TEXT: 5 fois plus de PX en visitant des PokéStops pour la première fois
+
 RESOURCE ID: quest_alodude_catch
 TEXT: Attrape {0} Racaillou d’Alola
 
@@ -1312,7 +1366,7 @@ RESOURCE ID: quest_complete_alodude
 TEXT: Pierre qui roule...
 
 RESOURCE ID: quest_defeat_rocket_leader_2500
-TEXT: Defeat a Team GO Rocket Leader {0} times with Pokémon below 2500 CP
+TEXT: Bats {0} chefs de la Team GO Rocket avec des Pokémon de 2500 PC max
 
 RESOURCE ID: quest_dude_catch
 TEXT: Attrape {0} Racaillou
@@ -1903,13 +1957,13 @@ RESOURCE ID: quest_transfer_rock_or_poison_plural
 TEXT: Transfère {0} Pokémon de type Roche ou Poison
 
 RESOURCE ID: quest_transfer_rock_poison
-TEXT: Transfer {0} Rock or Poison-type Pokémon
+TEXT: Transfère {0} Pokémon de type Roche ou Poison
 
 RESOURCE ID: quest_use_poffin
 TEXT: Utilise un Poffin
 
 RESOURCE ID: quest_use_rare_candy_plural
-TEXT: Use {0} Rare Candy
+TEXT: Utilise {0} Super Bonbons
 
 RESOURCE ID: quest_use_rare_candy_singular
 TEXT: Utilise un Super Bonbon
@@ -1921,13 +1975,13 @@ RESOURCE ID: quest_waterfestival_evolve_type_water_plural
 TEXT: Festival Aquatique : fais évoluer {0} Pokémon de type Eau
 
 RESOURCE ID: quest_win_raid_buddy_plural
-TEXT: Win {0} raids with your buddy
+TEXT: Remporte {0} Raids avec ton Copain Pokémon
 
 RESOURCE ID: quest_win_raids_unique_1500_plural
-TEXT: Win {0} raids with a team of unique Pokémon below 1500 CP
+TEXT: Gagne {0} Raids avec une équipe de Pokémon différents de 1500 PC max
 
 RESOURCE ID: quest_win_raids_unique_plural
-TEXT: Win {0} raids with a team of unique Pokémon
+TEXT: Remporte {0} Raids avec une équipe de Pokémon différents
 
 RESOURCE ID: quests_batch_updated
 TEXT: {0} tâches d’Études mises à jour
@@ -2445,7 +2499,7 @@ RESOURCE ID: sr_gofest2022_d2_basic_3_4
 TEXT: Comme tu l’as sans doute remarqué, de plus en plus d’Ultra-Chimères apparaissent autour de toi.
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_5
-TEXT: The one in your world now is known as UB01 PARASITE. Certain humans also call it Nihilego.
+TEXT: Celle qui se trouve dans ton monde en ce moment est appelée UC-01 Parasite. Certains êtres humains l’appellent aussi Zéroïd.
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_6
 TEXT: On pense que cette Ultra-Chimère de type Roche et Poison est porteuse d’une violente neurotoxine. Tel un parasite, elle aurait besoin d’un hôte, Pokémon ou humain, pour survivre.
@@ -2607,37 +2661,37 @@ RESOURCE ID: sr_gofest2022_d2_nihilego_9_9
 TEXT: En fait...
 
 RESOURCE ID: sr_gofest2022_d2b
-TEXT: Introducing Rhi
+TEXT: L’arrivée de Rhi
 
 RESOURCE ID: sr_gofest2022_d2b_1
-TEXT: Introducing Rhi (1/3)
+TEXT: L’arrivée de Rhi (1/3)
 
 RESOURCE ID: sr_gofest2022_d2b_2
-TEXT: Introducing Rhi (2/3)
+TEXT: L’arrivée de Rhi (2/3)
 
 RESOURCE ID: sr_gofest2022_d2b_3
-TEXT: Introducing Rhi (3/3)
+TEXT: L’arrivée de Rhi (3/3)
 
 RESOURCE ID: sr_gofest2022_d2n
-TEXT: A Different World
+TEXT: Un monde radieux
 
 RESOURCE ID: sr_gofest2022_d2n_4
-TEXT: A Different World (1/6)
+TEXT: Un monde radieux (1/6)
 
 RESOURCE ID: sr_gofest2022_d2n_5
-TEXT: A Different World (2/6)
+TEXT: Un monde radieux (2/6)
 
 RESOURCE ID: sr_gofest2022_d2n_6
-TEXT: A Different World (3/6)
+TEXT: Un monde radieux (3/6)
 
 RESOURCE ID: sr_gofest2022_d2n_7
-TEXT: A Different World (4/6)
+TEXT: Un monde radieux (4/6)
 
 RESOURCE ID: sr_gofest2022_d2n_8
-TEXT: A Different World (5/6)
+TEXT: Un monde radieux (5/6)
 
 RESOURCE ID: sr_gofest2022_d2n_9
-TEXT: A Different World (6/6)
+TEXT: Un monde radieux (6/6)
 
 RESOURCE ID: sticker_alolaishi_1.3_description
 TEXT:  
@@ -2775,7 +2829,7 @@ RESOURCE ID: sticker_summer_6.5_description
 TEXT:  
 
 RESOURCE ID: tabrs_reward_nihilego
-TEXT: Nihilego raid eggs will appear.
+TEXT: Zéroïd apparaîtra dans les Raids.
 
 RESOURCE ID: thai
 TEXT: ไทย

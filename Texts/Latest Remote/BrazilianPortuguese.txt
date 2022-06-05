@@ -315,6 +315,15 @@ TEXT: Médio
 RESOURCE ID: adventure_week_event_name
 TEXT: Semana Aventura
 
+RESOURCE ID: adventure_week_explore_timed_research
+TEXT: Semana Aventura: desafio de Aventura
+
+RESOURCE ID: adventure_week_research_day_ultra_unlock_event_name
+TEXT: Ultrabônus: Dia de pesquisa
+
+RESOURCE ID: adventure_week_ultra_unlock_event_name
+TEXT: Ultrabônus: Semana Aventura
+
 RESOURCE ID: air_adventures_okinawa_sr_title_0
 TEXT: Aventuras Aéreas Pokémon: Okinawa
 
@@ -581,13 +590,13 @@ RESOURCE ID: badge_event_0038_title
 TEXT: Aventuras Aéreas Pokémon 2022
 
 RESOURCE ID: badge_gofest_2022_global
-TEXT: Global, 4 e 5 de junho de 2022, e  3º trimestre de 2022
+TEXT: Global, 4 e 5 de junho de 2022, e 27 de agosto de 2022
 
 RESOURCE ID: badge_gofest_2022_global_title
 TEXT: Festival de Pokémon GO 2022
 
 RESOURCE ID: badge_gofest_2022_test
-TEXT: Global, 4 e 5 de junho de 2022, e  3º trimestre de 2022
+TEXT: Global, 4 e 5 de junho de 2022, e 27 de agosto de 2022
 
 RESOURCE ID: badge_gofest_2022_test_title
 TEXT: Festival de Pokémon GO 2022
@@ -641,9 +650,14 @@ RESOURCE ID: badge_safarizone_2022_seville_day_03_general_title
 TEXT: Sevilha, 15 de maio de 2022
 
 RESOURCE ID: batch_transfer_confirm
-TEXT: <size=36><b>Do you want to transfer {0} Pokémon?</b></size>
+TEXT: Quer transferir {0} Pokémon?
 
-You can’t undo a transfer.
+Você não poderá recuperar nenhum Pokémon após serem transferidos.
+
+RESOURCE ID: batch_transfer_eligible_confirm_plural
+TEXT: <size=36><b>Apenas {0} dos Pokémon selecionados podem ser transferidos.
+
+Qualquer Pokémon que não possa ser transferido continuará no seu estoque de Pokémon. Pokémon que forem transferidos não podem ser recuperados.
 
 RESOURCE ID: batch_transfer_eligible_confirm_singular
 TEXT: <size=36><b>Apenas 1 dos Pokémon selecionados pode ser transferido.</b></size>
@@ -758,6 +772,9 @@ TEXT: Escolher Blastoise!
 RESOURCE ID: brazilianportuguese
 TEXT: Portuguese
 
+RESOURCE ID: browse_campfire
+TEXT: Descubra Campfire
+
 RESOURCE ID: bundle_retweet_reward
 TEXT: Caixa de recompensa de retweet
 
@@ -845,6 +862,9 @@ TEXT: Cubone pode evoluir para Marowak de Alola
 
 RESOURCE ID: event_move_alolan_marowak_shadow_bone
 TEXT: Evolua Cubone para obter Marowak de Alola que sabe Osso Sombrio
+
+RESOURCE ID: event_new_ditto_bonus
+TEXT: Ditto disguised as more Pokemon in the wild
 
 RESOURCE ID: event_season7_name
 TEXT: Temporada de GO
@@ -1066,6 +1086,9 @@ TEXT: https://niantic.helpshift.com/hc/pt-br/6-pokemon-go/faq/3325-sharing-game-
 RESOURCE ID: incense_duration_8_hr
 TEXT: 8 horas de duração do Incenso
 
+RESOURCE ID: increased_adventure_sync_rewards
+TEXT: Maior número de recompensas da Sincroaventura na semana que vem
+
 RESOURCE ID: invasion_pokemon_inventory_warning_message
 TEXT: O seu estoque de Pokémon está cheio, portanto você não poderá ter um encontro com um Pokémon Sombroso. Para liberar espaço, você pode transferir Pokémon ou aumentar o seu espaço de estoque de Pokémon na loja.
 
@@ -1107,6 +1130,9 @@ TEXT: Um ingresso para participar do Festival de Pokémon GO nos dias 4 e 5 de j
 
 VOCÊ DEVE JOGAR DURANTE O HORÁRIO ESPECIFICADO PARA RECEBER TODOS OS BÔNUS ESPECIAIS DO EVENTO.
 
+RESOURCE ID: item_global_event_ticket_to_gift_desc
+TEXT: Um ingresso de evento extra recebido após um erro ocorrido ao efetuar a compra. Você pode enviá-lo a um amigo ou pedir o reembolso.
+
 RESOURCE ID: item_global_event_ticket_to_gift_description
 TEXT: Um ingresso para participar do Festival de Pokémon GO nos dias 4 e 5 de junho de 2022, das 10h às 18h, no seu horário local, de onde você estiver. 
 
@@ -1115,6 +1141,36 @@ TEXT: Festival de Pokémon GO 2022
 
 RESOURCE ID: japanese
 TEXT: 日本
+
+RESOURCE ID: jun22_tcg_collection_challenge_1
+TEXT: Pokemon TCG: Bulbasaur Collection Challenge 1
+
+RESOURCE ID: jun22_tcg_collection_challenge_2
+TEXT: Pokemon TCG: Charmander Collection Challenge 1
+
+RESOURCE ID: jun22_tcg_collection_challenge_3
+TEXT: Pokemon TCG: Squirtle Collection Challenge 1
+
+RESOURCE ID: jun22_tcg_collection_challenge_4
+TEXT: Pokemon TCG: Trade Collection Challenge
+
+RESOURCE ID: jun22_tcg_collection_challenge_5
+TEXT: Pokemon TCG: Kanto Collection Challenge
+
+RESOURCE ID: jun22_tcg_collection_challenge_6
+TEXT: Pokemon TCG: Rare Collection Challenge
+
+RESOURCE ID: jun22_tcg_collection_challenge_7
+TEXT: Pokemon TCG: Bulbasaur Collection Challenge 2
+
+RESOURCE ID: jun22_tcg_collection_challenge_8
+TEXT: Pokemon TCG: Charmander Collection Challenge 2
+
+RESOURCE ID: jun22_tcg_collection_challenge_9
+TEXT: Pokemon TCG: Squirtle Collection Challenge 2
+
+RESOURCE ID: jun22_tcg_event_name
+TEXT: Pokemon TCG Crossover Event
 
 RESOURCE ID: korean
 TEXT: 韓国語
@@ -1188,9 +1244,9 @@ RESOURCE ID: mega_v3_event_name
 TEXT: Um megamomento
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-06-01T22:36:21.275634
-at SHA 06a710160fb0868df34022699e3f1bda6830450c
-Patch from: 0.237.0-SHA-5e5782b5, 0.239.0-SHA-9ccad1b6
+TEXT: Built at 2022-06-04T16:21:12.755974
+at SHA 252ec15845ed43f8254ec08d460eb497aa549d59
+Patch from: 0.237.0-SHA-5e5782b5, 0.239.0-SHA-9ccad1b6, 0.239.1-SHA-ae2c6b4d
 
 RESOURCE ID: move_name_0365
 TEXT: Purga de Esplendor
@@ -1287,6 +1343,9 @@ TEXT: Transferência realizada com sucesso! {0} doces recebidos.
 RESOURCE ID: pokemon_ultra_beast_info_transfer_to_professor_confirmation
 TEXT: Quer mesmo transferir esta Ultracriatura?
 
+RESOURCE ID: pokestop_spin_new_xp_five
+TEXT: 5× PE por visitar Poképaradas pela primeira vez
+
 RESOURCE ID: quest_adventure2019_catch_special33_plural
 TEXT: Semana Aventura 2019: pegar {0} Aron.
 
@@ -1363,7 +1422,7 @@ RESOURCE ID: quest_complete_alodude
 TEXT: O caminho das pedras
 
 RESOURCE ID: quest_defeat_rocket_leader_2500
-TEXT: Defeat a Team GO Rocket Leader {0} times with Pokémon below 2500 CP
+TEXT: Derrotar um Líder da Equipe GO Rocket {0} vezes usando Pokémon com 2,500 PC ou menos.
 
 RESOURCE ID: quest_dude_catch
 TEXT: Pegar {0} Geodude.
@@ -1957,13 +2016,13 @@ RESOURCE ID: quest_transfer_rock_or_poison_plural
 TEXT: Transferir {0} Pokémon de tipo Pedra ou Venenoso.
 
 RESOURCE ID: quest_transfer_rock_poison
-TEXT: Transfer {0} Rock or Poison-type Pokémon
+TEXT: Transferir {0} Pokémon de tipo Pedra ou Venenoso.
 
 RESOURCE ID: quest_use_poffin
 TEXT: Usar 1 Poffin.
 
 RESOURCE ID: quest_use_rare_candy_plural
-TEXT: Use {0} Rare Candy
+TEXT: Usar {0} Doces Raros.
 
 RESOURCE ID: quest_use_rare_candy_singular
 TEXT: Usar 1 Doce Raro.
@@ -1975,13 +2034,13 @@ RESOURCE ID: quest_waterfestival_evolve_type_water_plural
 TEXT: Festival Aquático: evoluir {0} Pokémon de tipo Água.
 
 RESOURCE ID: quest_win_raid_buddy_plural
-TEXT: Win {0} raids with your buddy
+TEXT: Vencer {0} Reides com o seu Pokémon companheiro.
 
 RESOURCE ID: quest_win_raids_unique_1500_plural
-TEXT: Win {0} raids with a team of unique Pokémon below 1500 CP
+TEXT: Vencer {0} Reides com uma equipe de Pokémon diferentes abaixo de 1.500 PC.
 
 RESOURCE ID: quest_win_raids_unique_plural
-TEXT: Win {0} raids with a team of unique Pokémon
+TEXT: Vencer {0} Reides com uma equipe de Pokémon diferentes.
 
 RESOURCE ID: quests_batch_updated
 TEXT: {0} tarefas de pesquisa
@@ -2509,7 +2568,7 @@ RESOURCE ID: sr_gofest2022_d2_basic_3_4
 TEXT: Como você provavelmente observou, mais e mais Ultracriaturas estão aparecendo ao seu redor.
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_5
-TEXT: The one in your world now is known as UB01 PARASITE. Certain humans also call it Nihilego.
+TEXT: A que está em seu mundo agora é conhecida como UC01-PARASITA. Alguns humanos também a chamam de Nihilego.
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_6
 TEXT: É uma Ultracriatura de tipo Pedra e Venenoso, e dizem que que ela produz uma neurotoxina forte. Parece ser um parasita que vive se alimentando de pessoas e Pokémon.
@@ -2671,37 +2730,37 @@ RESOURCE ID: sr_gofest2022_d2_nihilego_9_9
 TEXT: Na verdade...
 
 RESOURCE ID: sr_gofest2022_d2b
-TEXT: Introducing Rhi
+TEXT: A chegada de Rhi
 
 RESOURCE ID: sr_gofest2022_d2b_1
-TEXT: Introducing Rhi (1/3)
+TEXT: A chegada de Rhi (1/3)
 
 RESOURCE ID: sr_gofest2022_d2b_2
-TEXT: Introducing Rhi (2/3)
+TEXT: A chegada de Rhi (2/3)
 
 RESOURCE ID: sr_gofest2022_d2b_3
-TEXT: Introducing Rhi (3/3)
+TEXT: A chegada de Rhi (3/3)
 
 RESOURCE ID: sr_gofest2022_d2n
-TEXT: A Different World
+TEXT: Um mundo radiante
 
 RESOURCE ID: sr_gofest2022_d2n_4
-TEXT: A Different World (1/6)
+TEXT: Um mundo radiante (1/6)
 
 RESOURCE ID: sr_gofest2022_d2n_5
-TEXT: A Different World (2/6)
+TEXT: Um mundo radiante (2/6)
 
 RESOURCE ID: sr_gofest2022_d2n_6
-TEXT: A Different World (3/6)
+TEXT: Um mundo radiante (3/6)
 
 RESOURCE ID: sr_gofest2022_d2n_7
-TEXT: A Different World (4/6)
+TEXT: Um mundo radiante (4/6)
 
 RESOURCE ID: sr_gofest2022_d2n_8
-TEXT: A Different World (5/6)
+TEXT: Um mundo radiante (5/6)
 
 RESOURCE ID: sr_gofest2022_d2n_9
-TEXT: A Different World (6/6)
+TEXT: Um mundo radiante (6/6)
 
 RESOURCE ID: sticker_alolaishi_1.3_description
 TEXT:  
@@ -2839,7 +2898,7 @@ RESOURCE ID: sticker_summer_6.5_description
 TEXT:  
 
 RESOURCE ID: tabrs_reward_nihilego
-TEXT: Nihilego raid eggs will appear.
+TEXT: Nihilego aparecerá em Reides.
 
 RESOURCE ID: thai
 TEXT: ไทย

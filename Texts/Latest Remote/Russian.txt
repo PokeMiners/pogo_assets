@@ -315,6 +315,15 @@ TEXT: Максимальный
 RESOURCE ID: adv_set_medium
 TEXT: Средний
 
+RESOURCE ID: adventure_week_explore_timed_research
+TEXT: Неделя приключений: Испытание приключениями
+
+RESOURCE ID: adventure_week_research_day_ultra_unlock_event_name
+TEXT: Ультрабонус: День исследований
+
+RESOURCE ID: adventure_week_ultra_unlock_event_name
+TEXT: Ультрабонус: Неделя приключений
+
 RESOURCE ID: air_adventures_okinawa_sr_title_0
 TEXT: Воздушные приключения Покемон: Окинава
 
@@ -567,13 +576,13 @@ RESOURCE ID: badge_event_0038_title
 TEXT: Воздушные приключения Покемон 2022
 
 RESOURCE ID: badge_gofest_2022_global
-TEXT: По всему миру, 4-5 июня и летом 2022
+TEXT: По всему миру, 4-5 июня и 27 августа 2022
 
 RESOURCE ID: badge_gofest_2022_global_title
 TEXT: Фестиваль Pokémon GO 2022
 
 RESOURCE ID: badge_gofest_2022_test
-TEXT: По всему миру, 4-5 июня и летом 2022
+TEXT: По всему миру, 4-5 июня и 27 августа 2022
 
 RESOURCE ID: badge_gofest_2022_test_title
 TEXT: Фестиваль Pokémon GO 2022
@@ -627,9 +636,14 @@ RESOURCE ID: badge_safarizone_2022_seville_day_03_general_title
 TEXT: Севилья, 15 мая 2022
 
 RESOURCE ID: batch_transfer_confirm
-TEXT: <size=36><b>Do you want to transfer {0} Pokémon?</b></size>
+TEXT: Передать Покемонов: {0}?
 
-You can’t undo a transfer.
+Ты не сможешь отменить это действие после передачи.
+
+RESOURCE ID: batch_transfer_eligible_confirm_plural
+TEXT: <size=36><b>Только {0} из выбранных Покемонов могут быть переданы.
+
+Покемоны, которых нельзя передать, останутся в твоём хранилище Покемонов. Переданных Покемонов нельзя вернуть.
 
 RESOURCE ID: batch_transfer_eligible_confirm_singular
 TEXT: <size=36><b>Только один из выбранных Покемонов может быть передан.</b></size>
@@ -750,6 +764,9 @@ TEXT: Выбрать Бластойза!
 RESOURCE ID: brazilianportuguese
 TEXT: Portuguese
 
+RESOURCE ID: browse_campfire
+TEXT: Посмотреть Campfire
+
 RESOURCE ID: bundle_retweet_reward
 TEXT: Ретвит- коробка
 
@@ -831,6 +848,9 @@ TEXT: Эволюционируй Эксегкьюта, чтобы получит
 
 RESOURCE ID: event_move_alolan_marowak_shadow_bone
 TEXT: Эволюционируй Кьюбона, чтобы получить Алольского Маровака, который знает Теневую Кость
+
+RESOURCE ID: event_new_ditto_bonus
+TEXT: Ditto disguised as more Pokemon in the wild
 
 RESOURCE ID: event_season7_name
 TEXT: Сезон GO
@@ -1490,6 +1510,9 @@ TEXT: https://niantic.helpshift.com/hc/ru/6-pokemon-go/faq/3325-sharing-game-log
 RESOURCE ID: incense_duration_8_hr
 TEXT: 8-часовое действие ладана
 
+RESOURCE ID: increased_adventure_sync_rewards
+TEXT: Больше наград Синхронизации приключений на следующей неделе
+
 RESOURCE ID: invasion_pokemon_inventory_warning_message
 TEXT: Твоё хранилище Покемонов заполнено, поэтому встреча с Теневым Покемоном не состоится. Чтобы освободить место, ты можешь передать Покемонов или увеличить хранилище Покемонов в магазине.
 
@@ -1531,6 +1554,9 @@ TEXT: Билет на Фестиваль Pokémon GO 4 и 5 июня 2022 г. с
 
 ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ СОБЫТИЯ, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
 
+RESOURCE ID: item_global_event_ticket_to_gift_desc
+TEXT: Дополнительный билет вследствие ошибки при совершении покупки. Ты можешь отправить его другу или получить возврат средств.
+
 RESOURCE ID: item_global_event_ticket_to_gift_description
 TEXT: Билет на Фестиваль Pokémon GO 4 и 5 июня 2022 г. с 10:00 до 18:00 по местному времени, вне зависимости от твоего местонахождения. 
 
@@ -1539,6 +1565,36 @@ TEXT: Фестиваль Pokémon GO 2022
 
 RESOURCE ID: japanese
 TEXT: 日本
+
+RESOURCE ID: jun22_tcg_collection_challenge_1
+TEXT: Pokemon TCG: Bulbasaur Collection Challenge 1
+
+RESOURCE ID: jun22_tcg_collection_challenge_2
+TEXT: Pokemon TCG: Charmander Collection Challenge 1
+
+RESOURCE ID: jun22_tcg_collection_challenge_3
+TEXT: Pokemon TCG: Squirtle Collection Challenge 1
+
+RESOURCE ID: jun22_tcg_collection_challenge_4
+TEXT: Pokemon TCG: Trade Collection Challenge
+
+RESOURCE ID: jun22_tcg_collection_challenge_5
+TEXT: Pokemon TCG: Kanto Collection Challenge
+
+RESOURCE ID: jun22_tcg_collection_challenge_6
+TEXT: Pokemon TCG: Rare Collection Challenge
+
+RESOURCE ID: jun22_tcg_collection_challenge_7
+TEXT: Pokemon TCG: Bulbasaur Collection Challenge 2
+
+RESOURCE ID: jun22_tcg_collection_challenge_8
+TEXT: Pokemon TCG: Charmander Collection Challenge 2
+
+RESOURCE ID: jun22_tcg_collection_challenge_9
+TEXT: Pokemon TCG: Squirtle Collection Challenge 2
+
+RESOURCE ID: jun22_tcg_event_name
+TEXT: Pokemon TCG Crossover Event
 
 RESOURCE ID: korean
 TEXT: 韓国語
@@ -1611,9 +1667,9 @@ RESOURCE ID: mega_v3_event_name
 TEXT: Мегасобытие
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-06-01T22:36:21.275634
-at SHA 06a710160fb0868df34022699e3f1bda6830450c
-Patch from: 0.237.0-SHA-5e5782b5, 0.239.0-SHA-9ccad1b6
+TEXT: Built at 2022-06-04T16:21:12.755974
+at SHA 252ec15845ed43f8254ec08d460eb497aa549d59
+Patch from: 0.237.0-SHA-5e5782b5, 0.239.0-SHA-9ccad1b6, 0.239.1-SHA-ae2c6b4d
 
 RESOURCE ID: move_name_0365
 TEXT: Генеральная Чистка
@@ -1686,6 +1742,9 @@ TEXT: Передача прошла успешно! Получены конфе�
 RESOURCE ID: pokemon_ultra_beast_info_transfer_to_professor_confirmation
 TEXT: Ты действительно хочешь передать это Ультрачудовище?
 
+RESOURCE ID: pokestop_spin_new_xp_five
+TEXT: 5× XP за первое посещение Покестопов
+
 RESOURCE ID: quest_alodude_catch
 TEXT: Поймай {0} Алольских Геодудов
 
@@ -1732,7 +1791,7 @@ RESOURCE ID: quest_complete_alodude
 TEXT: Камень преткновения
 
 RESOURCE ID: quest_defeat_rocket_leader_2500
-TEXT: Defeat a Team GO Rocket Leader {0} times with Pokémon below 2500 CP
+TEXT: Победи лидера Команды Ракета GO, используя только Покемонов с 2500 БC или меньше x{0}
 
 RESOURCE ID: quest_dialogue_genesect_2_0
 TEXT: Спасибо, %PLAYERNAME%! Ты наверное в полном восторге от выполнения этих заданий для квеста!
@@ -2401,13 +2460,13 @@ RESOURCE ID: quest_transfer_rock_or_poison_plural
 TEXT: Передай {0} каменных или ядовитых Покемонов
 
 RESOURCE ID: quest_transfer_rock_poison
-TEXT: Transfer {0} Rock or Poison-type Pokémon
+TEXT: Передай {0} каменных или ядовитых Покемонов
 
 RESOURCE ID: quest_use_poffin
 TEXT: Используй 1 Поффин
 
 RESOURCE ID: quest_use_rare_candy_plural
-TEXT: Use {0} Rare Candy
+TEXT: Используй редкие конфеты: {0}
 
 RESOURCE ID: quest_use_rare_candy_singular
 TEXT: Используй 1 редкую конфету
@@ -2419,13 +2478,13 @@ RESOURCE ID: quest_waterfestival_evolve_type_water_plural
 TEXT: Водный фестиваль – Эволюционируй {0} водных Покемонов
 
 RESOURCE ID: quest_win_raid_buddy_plural
-TEXT: Win {0} raids with your buddy
+TEXT: Победи в {0} рейдах со своим Покемоном-приятелем
 
 RESOURCE ID: quest_win_raids_unique_1500_plural
-TEXT: Win {0} raids with a team of unique Pokémon below 1500 CP
+TEXT: Победи в {0} рейдах с командой из разных Покемонов с 1500 БC или меньше
 
 RESOURCE ID: quest_win_raids_unique_plural
-TEXT: Win {0} raids with a team of unique Pokémon
+TEXT: Победи в {0} рейдах с командой из разных Покемонов
 
 RESOURCE ID: quests_batch_updated
 TEXT: Обновлены задания для квеста: {0}
@@ -2476,7 +2535,7 @@ RESOURCE ID: settings_in_app_notification_header
 TEXT: In-Game Notifications
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
-TEXT: Включение этой опции позволит тебе передавать Легендарных Покемонов, некоторых Мифических Покемонов и Ультрачудовищ, когда в хранилище выбрано несколько Покемонов. Передачу Покемонов в лабораторию Профессора Уиллоу нельзя отменить.
+TEXT: Включение этой опции позволит тебе передавать Легендарных Покемонов, Ультрачудовищ и некоторых Мифических Покемонов, когда в хранилище выбрано несколько Покемонов. Передачу Покемонов в лабораторию Профессора Уиллоу нельзя отменить.
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_title
 TEXT: Are you sure you want to be able to transfer Legendary Pokémon, Mythical Pokémon, and Ultra Beasts when selecting multiple Pokémon?
@@ -2947,7 +3006,7 @@ RESOURCE ID: sr_gofest2022_d2_basic_3_4
 TEXT: Вероятно, ты замечаешь, что всё больше и больше Ультрачудовищ появляются вокруг?
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_5
-TEXT: The one in your world now is known as UB01 PARASITE. Certain humans also call it Nihilego.
+TEXT: Ультрачудовище, которое сейчас находится в твоём мире, известно нам под названием УЧ-01 Симбионт. Люди называют его Нигилего.
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_6
 TEXT: Это Ультрачудовище каменного и ядовитого типа. Оно производит сильный нейротоксин и паразитирует на людях и Покемонах.
@@ -3109,37 +3168,37 @@ RESOURCE ID: sr_gofest2022_d2_nihilego_9_9
 TEXT: Собственно...
 
 RESOURCE ID: sr_gofest2022_d2b
-TEXT: Introducing Rhi
+TEXT: Прибытие Ри
 
 RESOURCE ID: sr_gofest2022_d2b_1
-TEXT: Introducing Rhi (1/3)
+TEXT: Прибытие Ри (1/3)
 
 RESOURCE ID: sr_gofest2022_d2b_2
-TEXT: Introducing Rhi (2/3)
+TEXT: Прибытие Ри (2/3)
 
 RESOURCE ID: sr_gofest2022_d2b_3
-TEXT: Introducing Rhi (3/3)
+TEXT: Прибытие Ри (3/3)
 
 RESOURCE ID: sr_gofest2022_d2n
-TEXT: A Different World
+TEXT: Сияющий мир
 
 RESOURCE ID: sr_gofest2022_d2n_4
-TEXT: A Different World (1/6)
+TEXT: Сияющий мир (1/6)
 
 RESOURCE ID: sr_gofest2022_d2n_5
-TEXT: A Different World (2/6)
+TEXT: Сияющий мир (2/6)
 
 RESOURCE ID: sr_gofest2022_d2n_6
-TEXT: A Different World (3/6)
+TEXT: Сияющий мир (3/6)
 
 RESOURCE ID: sr_gofest2022_d2n_7
-TEXT: A Different World (4/6)
+TEXT: Сияющий мир (4/6)
 
 RESOURCE ID: sr_gofest2022_d2n_8
-TEXT: A Different World (5/6)
+TEXT: Сияющий мир (5/6)
 
 RESOURCE ID: sr_gofest2022_d2n_9
-TEXT: A Different World (6/6)
+TEXT: Сияющий мир (6/6)
 
 RESOURCE ID: sticker_alolaishi_1.3_description
 TEXT:  
@@ -3277,7 +3336,7 @@ RESOURCE ID: sticker_summer_6.5_description
 TEXT:  
 
 RESOURCE ID: tabrs_reward_nihilego
-TEXT: Nihilego raid eggs will appear.
+TEXT: Нигилего будет появляться в рейдах
 
 RESOURCE ID: thai
 TEXT: ไทย

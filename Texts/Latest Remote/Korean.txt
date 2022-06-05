@@ -312,6 +312,15 @@ TEXT: 최고 높음
 RESOURCE ID: adv_set_medium
 TEXT: 보통
 
+RESOURCE ID: adventure_week_explore_timed_research
+TEXT: 어드벤처위크: 어드벤처 챌린지
+
+RESOURCE ID: adventure_week_research_day_ultra_unlock_event_name
+TEXT: 울트라 언록: 리서치데이
+
+RESOURCE ID: adventure_week_ultra_unlock_event_name
+TEXT: 울트라 언록: 어드벤처위크
+
 RESOURCE ID: air_adventures_okinawa_sr_title_0
 TEXT: 하늘 나는 피카츄 프로젝트: 오키나와
 
@@ -559,16 +568,28 @@ RESOURCE ID: badge_event_0038_title
 TEXT: 하늘 나는 피카츄 프로젝트 콜라보 2022
 
 RESOURCE ID: badge_gofest_2022_global
-TEXT: 글로벌, 2022년 6월 4일~5일& 2022년 여름
+TEXT: 글로벌, 2022년 6월 4일~5일& 8월 27일
 
 RESOURCE ID: badge_gofest_2022_global_title
 TEXT: Pokémon GO Fest 2022
 
 RESOURCE ID: badge_gofest_2022_test
-TEXT: 글로벌, 2022년 6월 4일~5일& 2022년 여름
+TEXT: 글로벌, 2022년 6월 4일~5일& 8월 27일
 
 RESOURCE ID: badge_gofest_2022_test_title
 TEXT: Pokémon GO Fest 2022
+
+RESOURCE ID: badge_gotour_2022_gold_global
+TEXT: 글로벌, 2022년 2월 26일
+
+RESOURCE ID: badge_gotour_2022_gold_test
+TEXT: 글로벌, 2022년 2월 26일
+
+RESOURCE ID: badge_gotour_2022_silver_global
+TEXT: 글로벌, 2022년 2월 26일
+
+RESOURCE ID: badge_gotour_2022_silver_test
+TEXT: 글로벌, 2022년 2월 26일
 
 RESOURCE ID: badge_safarizone_2022_seville_day_00_earlyaccess
 TEXT: Pokémon GO Safari Zone— 사전 입장
@@ -619,12 +640,12 @@ RESOURCE ID: badge_safarizone_2022_seville_day_03_general_title
 TEXT: Seville, May 15, 2022
 
 RESOURCE ID: batch_transfer_confirm
-TEXT: <size=36><b>Do you want to transfer {0} Pokémon?</b></size>
+TEXT: 연구소에 {0} 마리 보내겠습니까?
 
-You can’t undo a transfer.
+ 시작 후 취소할 수 없습니다.
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
-TEXT: <size=36><b>선택한 포켓몬 중 {0}마리만 연구소에 보낼 수 있습니다.</b></size>
+TEXT: <size=36><b>선택한 포켓몬 중 {0}마리만 연구소에 보낼 수 있습니다.
 
  보낼 수 없는 포켓몬은 박스에 남습니다. 보낸 포켓몬은 되돌릴 수 없습니다.
 
@@ -756,6 +777,9 @@ TEXT: 선택 표시가 되는 스페셜리서치가 있습니다. 선택하면 �
 RESOURCE ID: brazilianportuguese
 TEXT: Portuguese
 
+RESOURCE ID: browse_campfire
+TEXT: Campfire 보기
+
 RESOURCE ID: buddy_berry
 TEXT: 간식을 준다
 
@@ -871,6 +895,9 @@ TEXT: 탕구리는 텅구리(알로라의 모습)에 진화할 수 있다
 RESOURCE ID: event_move_alolan_marowak_shadow_bone
 TEXT: 탕구리를 알로라의 모습 텅구리로 진화시키면 섀도본을 배운다
 
+RESOURCE ID: event_new_ditto_bonus
+TEXT: Ditto disguised as more Pokemon in the wild
+
 RESOURCE ID: event_season7_name
 TEXT: 시즌 오브 GO
 
@@ -961,7 +988,7 @@ RESOURCE ID: general1.ticket.2_tepit_title
 TEXT: 불돼지포켓몬의 수수께끼를 풀어라!' 티켓
 
 RESOURCE ID: general_language
-TEXT: Language
+TEXT: 언어
 
 RESOURCE ID: generic_contact_support
 TEXT: 문의 하기
@@ -1573,6 +1600,9 @@ TEXT: https://niantic.helpshift.com/hc/ko/6-pokemon-go/faq/3325-sharing-game-log
 RESOURCE ID: incense_duration_8_hr
 TEXT: 향로 8시간 지속
 
+RESOURCE ID: increased_adventure_sync_rewards
+TEXT: 언제나 모험 모드의 다음주 리워드 증가
+
 RESOURCE ID: invasion_pokemon_inventory_warning_message
 TEXT: 포켓몬 박스가 가득차서 그림자 포켓몬을 만날 수 없습니다. 포켓몬을 연구소에 보내거나 숍에서 박스를 업그레이드 해주십시오
 
@@ -1607,10 +1637,10 @@ RESOURCE ID: item_event_ticket_pink_to_gift_desc
 TEXT:  
 
 RESOURCE ID: item_event_ticket_pink_to_gift_name
-TEXT: Extra Ticket
+TEXT: 여분 티켓
 
 RESOURCE ID: item_event_ticket_to_gift_desc
-TEXT: An extra event ticket from a purchase error. You can send it to a friend or get it refunded.
+TEXT: 여분 티켓 구매 에러. 프렌드에게 보내거나 환불할 수 있습니다.
 
 RESOURCE ID: item_global_event_ticket_desc
 TEXT: 당신이 전 세계 어디에 있든지 현지 시각으로 2022년 6월 4일과 5일, 10시~18시까지 Pokémon GO Fest에 참가할 수 있는 티켓입니다. 
@@ -1618,35 +1648,68 @@ TEXT: 당신이 전 세계 어디에 있든지 현지 시각으로 2022년 6월 
 RESOURCE ID: item_global_event_ticket_details
 TEXT: 당신이 전 세계 어디에 있든지 현지 시각으로 2022년 6월 4일과 5일, 10시~18시까지 Pokémon GO Fest에 참가할 수 있는 티켓입니다. 또한 8월에 있을 Pokémon GO 피날레 이벤트 참가 자격도 주어집니다. 더 자세한 사항은 게임 내의 뉴스 란을 참고하세요. 스페셜 이벤트 보너스를 수령하기 위해서는 꼭 이벤트 기간 내에 플레이해 주세요.
 
+RESOURCE ID: item_global_event_ticket_to_gift_desc
+TEXT: 여분 티켓 구매 에러. 프렌드에게 보내거나 환불할 수 있습니다.
+
 RESOURCE ID: item_global_event_ticket_to_gift_description
-TEXT: 당신이 전 세계 어디에 있든지 현지 시각으로 2022년 6월 4일과 5일, 10시~18시까지 Pokémon GO Fest에 참가할 수 있는 티켓입니다. 
+TEXT: 전 세계 어디에 있어도 현지 시간 2022년 6월 4일과 5일의 10시~ 18시까지 Pokémon GO Fest에 참가할 수 있는 티켓.
 
 RESOURCE ID: item_global_event_ticket_to_gift_name
 TEXT: Pokémon GO Fest 2022
 
 RESOURCE ID: japanese
-TEXT: 日本
+TEXT: 日本語
+
+RESOURCE ID: jun22_tcg_collection_challenge_1
+TEXT: Pokemon TCG: Bulbasaur Collection Challenge 1
+
+RESOURCE ID: jun22_tcg_collection_challenge_2
+TEXT: Pokemon TCG: Charmander Collection Challenge 1
+
+RESOURCE ID: jun22_tcg_collection_challenge_3
+TEXT: Pokemon TCG: Squirtle Collection Challenge 1
+
+RESOURCE ID: jun22_tcg_collection_challenge_4
+TEXT: Pokemon TCG: Trade Collection Challenge
+
+RESOURCE ID: jun22_tcg_collection_challenge_5
+TEXT: Pokemon TCG: Kanto Collection Challenge
+
+RESOURCE ID: jun22_tcg_collection_challenge_6
+TEXT: Pokemon TCG: Rare Collection Challenge
+
+RESOURCE ID: jun22_tcg_collection_challenge_7
+TEXT: Pokemon TCG: Bulbasaur Collection Challenge 2
+
+RESOURCE ID: jun22_tcg_collection_challenge_8
+TEXT: Pokemon TCG: Charmander Collection Challenge 2
+
+RESOURCE ID: jun22_tcg_collection_challenge_9
+TEXT: Pokemon TCG: Squirtle Collection Challenge 2
+
+RESOURCE ID: jun22_tcg_event_name
+TEXT: Pokemon TCG Crossover Event
 
 RESOURCE ID: korean
 TEXT: 韓国語
 
 RESOURCE ID: language_change_confirmation_description
-TEXT: If you choose to save changes, your game will be restarted.
+TEXT: 변경을 저장하면 게임은 다시 시작합니다.
 
 RESOURCE ID: language_change_confirmation_header
-TEXT: Are you sure you want to change the language setting to {0}?
+TEXT: 언어 설정을 {0}(으)로 변경하겠습니까?
 
 RESOURCE ID: language_currently_selected
-TEXT: You currently have this language selected
+TEXT: 이미 이 언어를 선택하고 있습니다.
 
 RESOURCE ID: language_selector_description
-TEXT: Changes made will require you to restart the game.
+TEXT: 변경 후 게임을 다시 시작할 필요가 있습니다.
 
 RESOURCE ID: language_selector_header
-TEXT: Select Language
+TEXT: 언어 선택
 
 RESOURCE ID: language_settings_updated
-TEXT: Language settings successfully updated!
+TEXT: 언어 설정을 변경했습니다!
 
 RESOURCE ID: legendary_mythical_and_ultra_beast_not_allowed_in_gyms
 TEXT: 전설, 환상의 포켓몬과 울트라비스트는 체육관에 배치할 수 없습니다
@@ -1705,9 +1768,9 @@ RESOURCE ID: mega_v3_event_name
 TEXT: 위대한 메가진화
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-06-01T22:36:21.275634
-at SHA 06a710160fb0868df34022699e3f1bda6830450c
-Patch from: 0.237.0-SHA-5e5782b5, 0.239.0-SHA-9ccad1b6
+TEXT: Built at 2022-06-04T16:21:12.755974
+at SHA 252ec15845ed43f8254ec08d460eb497aa549d59
+Patch from: 0.237.0-SHA-5e5782b5, 0.239.0-SHA-9ccad1b6, 0.239.1-SHA-ae2c6b4d
 
 RESOURCE ID: move_name_0365
 TEXT: 라스트버지
@@ -1780,6 +1843,9 @@ TEXT: 포켓몬을 보내고 연구에서 {0}의 사탕을 받았다.
 RESOURCE ID: pokemon_ultra_beast_info_transfer_to_professor_confirmation
 TEXT: 정말로 이 포켓몬을 보내겠습니까?
 
+RESOURCE ID: pokestop_spin_new_xp_five
+TEXT: 5× 신규 포켓스톱 스핀 XP
+
 RESOURCE ID: quest_alodude_catch
 TEXT: 알로라의 모습 꼬마돌을 {0}마리 잡는다
 
@@ -1826,7 +1892,7 @@ RESOURCE ID: quest_complete_alodude
 TEXT: 암석포켓몬의 수수께끼를 풀어라!
 
 RESOURCE ID: quest_defeat_rocket_leader_2500
-TEXT: Defeat a Team GO Rocket Leader {0} times with Pokémon below 2500 CP
+TEXT: CP2500이하 포켓몬만 사용해서 GO로켓단 리더에게 {0}번 이긴다
 
 RESOURCE ID: quest_dude_catch
 TEXT: 꼬마돌을 {0}마리 잡는다
@@ -2426,13 +2492,13 @@ RESOURCE ID: quest_transfer_rock_or_poison_plural
 TEXT: 바위타입 또는 독타입 포켓몬을 {0}마리 보낸다
 
 RESOURCE ID: quest_transfer_rock_poison
-TEXT: Transfer {0} Rock or Poison-type Pokémon
+TEXT: 바위타입 또는 독타입 포켓몬을 {0}마리 보낸다
 
 RESOURCE ID: quest_use_poffin
 TEXT: 포핀을 사용
 
 RESOURCE ID: quest_use_rare_candy_plural
-TEXT: Use {0} Rare Candy
+TEXT: 이상한사탕 {0}개를 사용한다
 
 RESOURCE ID: quest_use_rare_candy_singular
 TEXT: 이상한사탕 1개를 사용한다
@@ -2444,13 +2510,13 @@ RESOURCE ID: quest_waterfestival_evolve_type_water_plural
 TEXT: 워터페스티벌: 물타입 포켓몬을 {0}마리 진화시킨다
 
 RESOURCE ID: quest_win_raid_buddy_plural
-TEXT: Win {0} raids with your buddy
+TEXT: 파트너 포켓몬으로 레이드배틀에서 {0}번 이긴다
 
 RESOURCE ID: quest_win_raids_unique_1500_plural
-TEXT: Win {0} raids with a team of unique Pokémon below 1500 CP
+TEXT: 모두 다른 종류의 1500CP이하의 포켓몬 파티로 레이드에서 {0}번 이긴다
 
 RESOURCE ID: quest_win_raids_unique_plural
-TEXT: Win {0} raids with a team of unique Pokémon
+TEXT: 모두 다른 종류의 포켓몬 파티로 레이드에서 {0}번 이긴다
 
 RESOURCE ID: quests_batch_updated
 TEXT: {0}건 리서치 과제 완료
@@ -2485,6 +2551,9 @@ TEXT: Safari Zone Seville 2022 (2/2)
 RESOURCE ID: screen_title_notification
 TEXT: 알림 설정
 
+RESOURCE ID: search_label
+TEXT: 검색
+
 RESOURCE ID: set_friend_nickname
 TEXT: 닉네임을 붙인다
 
@@ -2513,7 +2582,7 @@ RESOURCE ID: settings_legendary_multi_selection_confirmation_description
 TEXT: 이 설정을 켜면 전설의 포켓몬, 울트라비스트와 일부 환상의 포켓몬을 포함해서 복수 선택이 가능해집니다. 연구소에 보낸 포켓몬은 되돌릴 수 없습니다. 
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_title
-TEXT: Are you sure you want to be able to transfer Legendary Pokémon, Mythical Pokémon, and Ultra Beasts when selecting multiple Pokémon?
+TEXT: 전설, 환상, 울트라비스트를 선택할 수 있도록 하겠습니까?
 
 RESOURCE ID: settings_nearby_raids
 TEXT: 근처의 레이드배틀
@@ -2626,6 +2695,9 @@ TEXT: • 프렌드를 위해 구입한 선물을 환불 제외 대상입니다.
 
 RESOURCE ID: shop_gifting_policy_modal_title
 TEXT: 선물 정책
+
+RESOURCE ID: shop_remote_raid_passes_title
+TEXT: 리모트 레이드패스가 없습니다!
 
 RESOURCE ID: shop_ticket_gift_info
 TEXT: 프렌드에게 티켓을 선물해서 이벤트에 초대하세요!
@@ -2985,7 +3057,7 @@ RESOURCE ID: sr_gofest2022_d2_basic_3_4
 TEXT: 계속해서 올 가능성이... 그래, 이 세계에 처음 나타난 울트라비스트는
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_5
-TEXT: The one in your world now is known as UB01 PARASITE. Certain humans also call it Nihilego.
+TEXT: 한때 "UB01 PARASITE"라고 불린 "텅비드"라는 포켓몬이야.
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_6
 TEXT: 텅비드는 바위와 독의 2가지 타입을 가지고 있어. 강력한 신경독이 있어서 포켓몬과 사람에 기생하기도 해.
@@ -3147,37 +3219,37 @@ RESOURCE ID: sr_gofest2022_d2_nihilego_9_9
 TEXT: 그런 방식을 쓰면
 
 RESOURCE ID: sr_gofest2022_d2b
-TEXT: Introducing Rhi
+TEXT: 리, 등장!
 
 RESOURCE ID: sr_gofest2022_d2b_1
-TEXT: Introducing Rhi (1/3)
+TEXT: 리, 등장!(1/3)
 
 RESOURCE ID: sr_gofest2022_d2b_2
-TEXT: Introducing Rhi (2/3)
+TEXT: 리, 등장!(2/3)
 
 RESOURCE ID: sr_gofest2022_d2b_3
-TEXT: Introducing Rhi (3/3)
+TEXT: 리, 등장!(3/3)
 
 RESOURCE ID: sr_gofest2022_d2n
-TEXT: A Different World
+TEXT: 빛나는 세상을 모험하라!
 
 RESOURCE ID: sr_gofest2022_d2n_4
-TEXT: A Different World (1/6)
+TEXT: 빛나는 세상을 모험하라!(1/6)
 
 RESOURCE ID: sr_gofest2022_d2n_5
-TEXT: A Different World (2/6)
+TEXT: 빛나는 세상을 모험하라!(2/6)
 
 RESOURCE ID: sr_gofest2022_d2n_6
-TEXT: A Different World (3/6)
+TEXT: 빛나는 세상을 모험하라!(3/6)
 
 RESOURCE ID: sr_gofest2022_d2n_7
-TEXT: A Different World (4/6)
+TEXT: 빛나는 세상을 모험하라!(4/6)
 
 RESOURCE ID: sr_gofest2022_d2n_8
-TEXT: A Different World (5/6)
+TEXT: 빛나는 세상을 모험하라!(5/6)
 
 RESOURCE ID: sr_gofest2022_d2n_9
-TEXT: A Different World (6/6)
+TEXT: 빛나는 세상을 모험하라!(6/6)
 
 RESOURCE ID: sticker_alolaishi_1.3_description
 TEXT:  
@@ -3315,7 +3387,7 @@ RESOURCE ID: sticker_summer_6.5_description
 TEXT:  
 
 RESOURCE ID: tabrs_reward_nihilego
-TEXT: Nihilego raid eggs will appear.
+TEXT: 텅비드의 레이드배틀
 
 RESOURCE ID: thai
 TEXT: ไทย
@@ -3383,11 +3455,19 @@ TEXT: 글로벌 챌린지
 RESOURCE ID: timed_challenge_global_type_regional_backup
 TEXT: 리저널 챌린지
 
+RESOURCE ID: timed_challenge_new_notif
+TEXT: 다음 챌린지 시작!
+
 RESOURCE ID: timed_challenge_work_together
 TEXT: 전 세계 트레이너가 하나 되어 완료를 목표로 하는 챌린지입니다!
 
 RESOURCE ID: timed_challenge_work_together_regional_backup
 TEXT: 지역 트레이너가 하나가 되어 완료를 목표로 하는 챌린지입니다!
+
+RESOURCE ID: tips_gym_pokecoins_tutorial_body
+TEXT: 배치한 포켓몬이 체육관을 지키면 하루에 50포켓코인을 받을 수 있습니다.
+
+포켓코인은 포켓몬이 체육관에서 트레이너 곁으로 돌아올 때 가져옵니다.
 
 RESOURCE ID: tips_lucky_trading_modal_body
 TEXT: 반짝반짝 포켓몬 교환을 하면 포켓몬이 반짝반짝 포켓몬이 됩니다!
