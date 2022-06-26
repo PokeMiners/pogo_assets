@@ -19,9 +19,6 @@ TEXT: Ultra Kilit Açma: Araştırma Günü
 RESOURCE ID: adventure_week_ultra_unlock_event_name
 TEXT: Ultra Kilit Açma: Macera Haftası
 
-RESOURCE ID: arlo_victory#1
-TEXT: Bu... Nasıl olabilir? Ben... Asla kaybetmem!
-
 RESOURCE ID: arlo_victory#2
 TEXT: Sen... Beni nasıl böyle küçük düşürebilirsin?
 
@@ -39,6 +36,9 @@ TEXT: FOTOĞRAFLARI PAYLAŞ
 
 RESOURCE ID: arphoto_tutorial_intro_description
 TEXT: Bir Pokémon'u Poké Topundan çıkartıp onunla birlikte fotoğraf çekebilirsiniz! Hatta bir sürprizle bile karşılaşabilirsiniz!
+
+RESOURCE ID: assemble_leader_map_prompt
+TEXT: PARÇALARI BİRLEŞTİR
 
 RESOURCE ID: avatar_f_backpack_alolaitemslittenbp_00_bundle_icon
 TEXT: Litten
@@ -220,76 +220,76 @@ RESOURCE ID: badge_event_0036_title
 TEXT: Partner Araştırması: Don Quijote
 
 RESOURCE ID: badge_gofest_2022_berlin_addon_hatch
-TEXT: Berlin, July 1-3, 2022
+TEXT: Berlin, July 1–3, 2022
 
 RESOURCE ID: badge_gofest_2022_berlin_addon_hatch_test
-TEXT: Berlin, July 1-3, 2022
+TEXT: Berlin, July 1–3, 2022
 
 RESOURCE ID: badge_gofest_2022_berlin_addon_hatch_test_title
-TEXT: GO Fest Critical Hatch
+TEXT: Pokémon GO Festivali—Yumurta Meraklısı
 
 RESOURCE ID: badge_gofest_2022_berlin_addon_hatch_title
-TEXT: GO Fest Critical Hatch
+TEXT: Pokémon GO Festivali—Yumurta Meraklısı
 
 RESOURCE ID: badge_gofest_2022_berlin_addon_raid
-TEXT: Berlin, July 1-3, 2022
+TEXT: Berlin, July 1–3, 2022
 
 RESOURCE ID: badge_gofest_2022_berlin_addon_raid_test
-TEXT: Berlin, July 1-3, 2022
+TEXT: Berlin, July 1–3, 2022
 
 RESOURCE ID: badge_gofest_2022_berlin_addon_raid_test_title
-TEXT: GO Fest Raid Lover
+TEXT: Pokémon GO Festivali—Akınsever
 
 RESOURCE ID: badge_gofest_2022_berlin_addon_raid_title
-TEXT: GO Fest Raid Lover
+TEXT: Pokémon GO Festivali—Akınsever
 
 RESOURCE ID: badge_gofest_2022_berlin_day_01_earlyaccess
-TEXT: Berlin, July 1, 2022, 9am-6pm
+TEXT: Berlin, 1 Temmuz 2022—Erken Erişim
 
 RESOURCE ID: badge_gofest_2022_berlin_day_01_earlyaccess_title
-TEXT: GO Fest 2022 Berlin
+TEXT: Pokémon GO Festivali: Berlin
 
 RESOURCE ID: badge_gofest_2022_berlin_day_01_general
-TEXT: Berlin, July 1, 2022, 11am-6pm
+TEXT: Berlin, 1 Temmuz 2022
 
 RESOURCE ID: badge_gofest_2022_berlin_day_01_general_title
-TEXT: GO Fest 2022 Berlin
+TEXT: Pokémon GO Festivali: Berlin
 
 RESOURCE ID: badge_gofest_2022_berlin_day_02_earlyaccess
-TEXT: Berlin, July 2, 2022, 9am-6pm
+TEXT: Berlin, 2 Temmuz 2022—Erken Erişim
 
 RESOURCE ID: badge_gofest_2022_berlin_day_02_earlyaccess_title
-TEXT: GO Fest 2022 Berlin
+TEXT: Pokémon GO Festivali: Berlin
 
 RESOURCE ID: badge_gofest_2022_berlin_day_02_general
-TEXT: Berlin, July 2, 2022, 11am-6pm
+TEXT: Berlin, 2 Temmuz 2022
 
 RESOURCE ID: badge_gofest_2022_berlin_day_02_general_title
-TEXT: GO Fest 2022 Berlin
+TEXT: Pokémon GO Festivali: Berlin
 
 RESOURCE ID: badge_gofest_2022_berlin_day_03_earlyaccess
-TEXT: Berlin, July 3, 2022, 9am-6pm
+TEXT: Berlin, 3 Temmuz 2022—Erken Erişim
 
 RESOURCE ID: badge_gofest_2022_berlin_day_03_earlyaccess_title
-TEXT: GO Fest 2022 Berlin
+TEXT: Pokémon GO Festivali: Berlin
 
 RESOURCE ID: badge_gofest_2022_berlin_day_03_general
-TEXT: Berlin, July 3, 2022, 11am-6pm
+TEXT: Berlin, 3 Temmuz 2022
 
 RESOURCE ID: badge_gofest_2022_berlin_day_03_general_title
-TEXT: GO Fest 2022 Berlin
+TEXT: Pokémon GO Festivali: Berlin
 
 RESOURCE ID: badge_gofest_2022_berlin_test_earlyaccess
-TEXT: Berlin, July 1-3, 2022
+TEXT: Berlin, July 1–3, 2022
 
 RESOURCE ID: badge_gofest_2022_berlin_test_earlyaccess_title
-TEXT: GO Fest 2022 Berlin
+TEXT: Pokémon GO Festivali: Berlin
 
 RESOURCE ID: badge_gofest_2022_berlin_test_general
-TEXT: Berlin, July 1-3, 2022
+TEXT: Berlin, July 1–3, 2022
 
 RESOURCE ID: badge_gofest_2022_berlin_test_general_title
-TEXT: GO Fest 2022 Berlin
+TEXT: Pokémon GO Festivali: Berlin
 
 RESOURCE ID: badge_gofest_2022_global
 TEXT: Küresel, 4-5 Haziran 2022 ve 27 Ağustos 2022
@@ -298,250 +298,262 @@ RESOURCE ID: badge_gofest_2022_global_title
 TEXT: Pokémon GO Festivali 2022
 
 RESOURCE ID: badge_gofest_2022_sapporo_addon_hatch
-TEXT: Sapporo, August 5-7, 2022
+TEXT: Sapporo, 5–7 Ağustos 2022
 
 RESOURCE ID: badge_gofest_2022_sapporo_addon_hatch_test
-TEXT: Sapporo, August 5-7, 2022
+TEXT: Sapporo, 5–7 Ağustos 2022
 
 RESOURCE ID: badge_gofest_2022_sapporo_addon_hatch_test_title
-TEXT: GO Fest Critical Hatch
+TEXT: Pokémon GO Festivali—Yumurta Meraklısı
 
 RESOURCE ID: badge_gofest_2022_sapporo_addon_hatch_title
-TEXT: GO Fest Critical Hatch
+TEXT: Pokémon GO Festivali—Yumurta Meraklısı
 
 RESOURCE ID: badge_gofest_2022_sapporo_addon_raid
-TEXT: Sapporo, August 5-7, 2022
+TEXT: Sapporo, 5–7 Ağustos 2022
 
 RESOURCE ID: badge_gofest_2022_sapporo_addon_raid_test
-TEXT: Sapporo, August 5-7, 2022
+TEXT: Sapporo, 5–7 Ağustos 2022
 
 RESOURCE ID: badge_gofest_2022_sapporo_addon_raid_test_title
-TEXT: GO Fest Raid Lover
+TEXT: Pokémon GO Festivali—Akınsever
 
 RESOURCE ID: badge_gofest_2022_sapporo_addon_raid_title
-TEXT: GO Fest Raid Lover
+TEXT: Pokémon GO Festivali—Akınsever
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_01_city_afternoon
-TEXT: Sapporo, August 5, 2022, 2:30pm-8:00pm
+TEXT: Sapporo, 5 Ağustos 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_01_city_afternoon_title
-TEXT: GO Fest City Afternoon
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_01_city_morning
-TEXT: Sapporo, August 5, 2022, 8:00am-1:30pm
+TEXT: Sapporo, 5 Ağustos 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_01_city_morning_title
-TEXT: GO Fest City Morning
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_01_park_afternoon
-TEXT: Sapporo, August 5, 2022, 2:30pm-8:00pm
+TEXT: Sapporo, 5 Ağustos 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_01_park_afternoon_title
-TEXT: GO Fest Park Afternoon
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_01_park_morning
-TEXT: Sapporo, August 5, 2022, 8:00am-1:30pm
+TEXT: Sapporo, 5 Ağustos 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_01_park_morning_title
-TEXT: GO Fest Park Morning
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_02_city_afternoon
-TEXT: Sapporo, August 6, 2022, 2:30pm-8:00pm
+TEXT: Sapporo, 6 Ağustos 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_02_city_afternoon_title
-TEXT: GO Fest City Afternoon
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_02_city_morning
-TEXT: Sapporo, August 6, 2022, 8:00am-1:30pm
+TEXT: Sapporo, 6 Ağustos 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_02_city_morning_title
-TEXT: GO Fest City Morning
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_02_park_afternoon
-TEXT: Sapporo, August 6, 2022, 2:30pm-8:00pm
+TEXT: Sapporo, 6 Ağustos 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_02_park_afternoon_title
-TEXT: GO Fest Park Afternoon
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_02_park_morning
-TEXT: Sapporo, August 6, 2022, 8:00am-1:30pm
+TEXT: Sapporo, 6 Ağustos 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_02_park_morning_title
-TEXT: GO Fest Park Morning
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_03_city_afternoon
-TEXT: Sapporo, August 7, 2022, 2:30pm-8:00pm
+TEXT: Sapporo, 7 Ağustos 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_03_city_afternoon_title
-TEXT: GO Fest City Afternoon
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_03_city_morning
-TEXT: Sapporo, August 7, 2022, 8:00am-1:30pm
+TEXT: Sapporo, 7 Ağustos 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_03_city_morning_title
-TEXT: GO Fest City Morning
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_03_park_afternoon
-TEXT: Sapporo, August 7, 2022, 2:30pm-8:00pm
+TEXT: Sapporo, 7 Ağustos 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_03_park_afternoon_title
-TEXT: GO Fest Park Afternoon
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_03_park_morning
-TEXT: Sapporo, August 7, 2022, 8:00am-1:30pm
+TEXT: Sapporo, 7 Ağustos 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_03_park_morning_title
-TEXT: GO Fest Park Morning
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_test_city_afternoon
-TEXT: Sapporo, August 4, 2022, 2:30pm-8:00pm
+TEXT: Sapporo, 4 Ağustos 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_sapporo_test_city_afternoon_title
-TEXT: GO Fest City Afternoon
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_test_city_morning
-TEXT: Sapporo, August 4, 2022, 8:00am-1:30pm
+TEXT: Sapporo, 4 Ağustos 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_sapporo_test_city_morning_title
-TEXT: GO Fest City Morning
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_test_park_afternoon
-TEXT: Sapporo, August 4, 2022, 2:30pm-8:00pm
+TEXT: Sapporo, 4 Ağustos 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_sapporo_test_park_afternoon_title
-TEXT: GO Fest Park Afternoon
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_sapporo_test_park_morning
-TEXT: Sapporo, August 4, 2022, 8:00am-1:30pm
+TEXT: Sapporo, 4 Ağustos 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_sapporo_test_park_morning_title
-TEXT: GO Fest Park Morning
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_addon_hatch
-TEXT: Seattle, July 22-24, 2022
+TEXT: Seattle, 22–24 Temmuz 2022
 
 RESOURCE ID: badge_gofest_2022_seattle_addon_hatch_test
-TEXT: Seattle, July 22-24, 2022
+TEXT: Seattle, 22–24 Temmuz 2022
 
 RESOURCE ID: badge_gofest_2022_seattle_addon_hatch_test_title
-TEXT: GO Fest Critical Hatch
+TEXT: Pokémon GO Festivali—Yumurta Meraklısı
 
 RESOURCE ID: badge_gofest_2022_seattle_addon_hatch_title
-TEXT: GO Fest Critical Hatch
+TEXT: Pokémon GO Festivali—Yumurta Meraklısı
 
 RESOURCE ID: badge_gofest_2022_seattle_addon_raid
-TEXT: Seattle, July 22-24, 2022
+TEXT: Seattle, 22–24 Temmuz 2022
 
 RESOURCE ID: badge_gofest_2022_seattle_addon_raid_test
-TEXT: Seattle, July 22-24, 2022
+TEXT: Seattle, 22–24 Temmuz 2022
 
 RESOURCE ID: badge_gofest_2022_seattle_addon_raid_test_title
-TEXT: GO Fest Raid Lover
+TEXT: Pokémon GO Festivali—Akınsever
 
 RESOURCE ID: badge_gofest_2022_seattle_addon_raid_title
-TEXT: GO Fest Raid Lover
+TEXT: Pokémon GO Festivali—Akınsever
 
 RESOURCE ID: badge_gofest_2022_seattle_day_01_city_afternoon
-TEXT: Seattle, July 22, 2022, 2:30pm-7:00pm
+TEXT: Seattle, 22 Temmuz 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_seattle_day_01_city_afternoon_title
-TEXT: GO Fest City Afternoon
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_day_01_city_morning
-TEXT: Seattle, July 22, 2022, 9:00am-1:30pm
+TEXT: Seattle, 22 Temmuz 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_seattle_day_01_city_morning_title
-TEXT: GO Fest City Morning
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_day_01_park_afternoon
-TEXT: Seattle, July 22, 2022, 2:30pm-7:00pm
+TEXT: Seattle, 22 Temmuz 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_seattle_day_01_park_afternoon_title
-TEXT: GO Fest Park Afternoon
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_day_01_park_morning
-TEXT: Seattle, July 22, 2022, 9:00am-1:30pm
+TEXT: Seattle, 22 Temmuz 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_seattle_day_01_park_morning_title
-TEXT: GO Fest Park Morning
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_day_02_city_afternoon
-TEXT: Seattle, July 23, 2022, 2:30pm-7:00pm
+TEXT: Seattle, 23 Temmuz 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_seattle_day_02_city_afternoon_title
-TEXT: GO Fest City Afternoon
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_day_02_city_morning
-TEXT: Seattle, July 23, 2022, 9:00am-1:30pm
+TEXT: Seattle, 23 Temmuz 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_seattle_day_02_city_morning_title
-TEXT: GO Fest City Morning
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_day_02_park_afternoon
-TEXT: Seattle, July 23, 2022, 2:30pm-7:00pm
+TEXT: Seattle, 23 Temmuz 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_seattle_day_02_park_afternoon_title
-TEXT: GO Fest Park Afternoon
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_day_02_park_morning
-TEXT: Seattle, July 23, 2022, 9:00am-1:30pm
+TEXT: Seattle, 23 Temmuz 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_seattle_day_02_park_morning_title
-TEXT: GO Fest Park Morning
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_day_03_city_afternoon
-TEXT: Seattle, July 24, 2022, 2:30pm-7:00pm
+TEXT: Seattle, 24 Temmuz 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_seattle_day_03_city_afternoon_title
-TEXT: GO Fest City Afternoon
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_day_03_city_morning
-TEXT: Seattle, July 24, 2022, 9:00am-1:30pm
+TEXT: Seattle, 24 Temmuz 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_seattle_day_03_city_morning_title
-TEXT: GO Fest City Morning
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_day_03_park_afternoon
-TEXT: Seattle, July 24, 2022, 2:30pm-7:00pm
+TEXT: Seattle, 24 Temmuz 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_seattle_day_03_park_afternoon_title
-TEXT: GO Fest Park Afternoon
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_day_03_park_morning
-TEXT: Seattle, July 24, 2022, 9:00am-1:30pm
+TEXT: Seattle, 24 Temmuz 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_seattle_day_03_park_morning_title
-TEXT: GO Fest Park Morning
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_test_city_afternoon
-TEXT: Seattle, July 21, 2022, 2:30pm-7:00pm
+TEXT: Seattle, 21 Temmuz 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_seattle_test_city_afternoon_title
-TEXT: GO Fest City Afternoon
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_test_city_morning
-TEXT: Seattle, July 21, 2022, 9:00am-1:30pm
+TEXT: Seattle, 21 Temmuz 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_seattle_test_city_morning_title
-TEXT: GO Fest City Morning
+TEXT: Pokémon GO Festivali—Şehir Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_test_park_afternoon
-TEXT: Seattle, July 21, 2022, 2:30pm-7:00pm
+TEXT: Seattle, 21 Temmuz 2022—Öğleden Sonra
 
 RESOURCE ID: badge_gofest_2022_seattle_test_park_afternoon_title
-TEXT: GO Fest Park Afternoon
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_seattle_test_park_morning
-TEXT: Seattle, July 21, 2022, 9:00am-1:30pm
+TEXT: Seattle, 21 Temmuz 2022—Sabah
 
 RESOURCE ID: badge_gofest_2022_seattle_test_park_morning_title
-TEXT: GO Fest Park Morning
+TEXT: Pokémon GO Festivali—Park Tecrübesi
 
 RESOURCE ID: badge_gofest_2022_test
 TEXT: Küresel, 4-5 Haziran 2022 ve 27 Ağustos 2022
 
 RESOURCE ID: badge_gofest_2022_test_title
 TEXT: Pokémon GO Festivali 2022
+
+RESOURCE ID: badge_pokedex_entries_gen8a
+TEXT: Register {0} Pokémon first discovered in the Hisui region to the Pokédex.
+
+RESOURCE ID: badge_pokedex_entries_gen8a_singular
+TEXT: Register {0} Pokémon first discovered in the Hisui region to the Pokédex.
+
+RESOURCE ID: badge_pokedex_entries_gen8a_title
+TEXT: Hisui
+
+RESOURCE ID: badge_pokedex_entries_gen8a_value_format
+TEXT: N0
 
 RESOURCE ID: badge_unique_mega_evos_singular
 TEXT: Bir Pokémon türünü mega evrimleştirin.
@@ -588,8 +600,8 @@ TEXT: Pokémon göndermeyi tekrar dene
 RESOURCE ID: beluga_wonder_box_description
 TEXT: Gizemli Kutu hazır!
 
-RESOURCE ID: blanche_incident_greeting
-TEXT: Thinking things through calmly and collectedly--that's the Team Mystic way.
+RESOURCE ID: bonus_1/4_hatch_dist_deino
+TEXT: 1/4 çatlatma mesafesi
 
 RESOURCE ID: bonus_2x_candy
 TEXT: 2× yakalama şekeri
@@ -600,17 +612,44 @@ TEXT: 2× yakalama şekeri
 RESOURCE ID: bonus_2x_xl_candy_chance
 TEXT: Pokémon yakalayarak Büyük Şeker kazanmak için 2× şans
 
+RESOURCE ID: bonus_2x_xl_candy_chance_deino
+TEXT: Deino yakalayarak Deino Büyük Şekeri kazanmak için 2× şans
+
 RESOURCE ID: bonus_3x_catch_xp_alodude
 TEXT: Pokémon yakalama için 3× TP
 
 RESOURCE ID: bonus_4x_catch_stardust
 TEXT: 4× yakalama yıldız tozu
 
+RESOURCE ID: bonus_active
+TEXT: Bonus şimdi aktif!
+
 RESOURCE ID: bonus_cd_move_alodude
 TEXT: Alolalı Graveler’ı evrimleştirerek Yuvarlan hızlı saldırısını bilen Alolalı Golem elde edin
 
+RESOURCE ID: bonus_cd_move_deino
+TEXT: Vahşi Savurma güçlü saldırısını bilen Hydreigon’ı elde etmek için Zweilos’u evrimleştirin
+
 RESOURCE ID: bonus_implicit_social_alodude
 TEXT: Tek bir Yem Modülüyle yeterince Pokémon yakalanırsa, Yem Modülünün kullanıldığı PokéDurağın etrafındaki Eğitmenler için 3× yakalama yıldız tozu bonusu 30 dakikalığına 4× olacak
+
+RESOURCE ID: bonus_implicit_social_deino_lure
+TEXT: Tek bir Yem Modülüyle yeterince Pokémon yakalanırsa, Yem Modülünün kullanıldığı PokéDurağın etrafında 30 dakika boyunca Zweilous’lar belirecek.
+
+RESOURCE ID: bonus_implicit_social_deino_lure_title
+TEXT: Topluluk Günü Görevi: Yakalama
+
+RESOURCE ID: bonus_implicit_social_deino_raid
+TEXT: Eğitmenler bir Spor Salonunda birlikte Zweilous akın maçı kazanırsa, 30 dakika boyunca o bölgede çok sayıda Deino ortaya çıkacak.
+
+RESOURCE ID: bonus_implicit_social_deino_raid_title
+TEXT: Topluluk Günü Görevi: Akın
+
+RESOURCE ID: bonus_not_active
+TEXT: Bonus henüz aktif değil
+
+RESOURCE ID: bonus_unlocked
+TEXT: Bonus açıldı!
 
 RESOURCE ID: branch_may22_alola_1a_description
 TEXT: Bu adayı seçtiğinizde arkadaşlık temalı görevler alacak, Alolalı Raichu karşılaşması ve avatarınız için Ponpon Tarzı Oricorio Şapkası gibi ödüller kazanacaksınız.
@@ -642,17 +681,32 @@ TEXT: Português
 RESOURCE ID: browse_campfire
 TEXT: Campfire’ı keşfedin
 
-RESOURCE ID: candela_incident_greeting
-TEXT: No matter what happens, I remain courageous in battle! Team Valor all the way.
-
 RESOURCE ID: catch_box
 TEXT: Yakalama Kutusu
 
 RESOURCE ID: catch_rewards_double
 TEXT: 2× yakalama yıldız tozu, 2× yakalama şekeri ve 2× yakalama TP'si
 
+RESOURCE ID: challenge_available
+TEXT: Yeni bir görev mevcut!
+
+RESOURCE ID: charge_tm_used_on_shadow_pokemon
+TEXT: Güçlü TM'ler Gölge Pokémon'lar üzerinde kullanılamaz.
+
 RESOURCE ID: chinesetraditional
 TEXT: 繁體中文
+
+RESOURCE ID: combat_grunt_quote_flying__female_speaker
+TEXT: Uçan tür Pokémon'larıma karşı savaş!
+
+RESOURCE ID: combat_grunt_quote_flying__male_speaker
+TEXT: Uçan tür Pokémon'larıma karşı savaş!
+
+RESOURCE ID: combat_grunt_quote_poison__female_speaker
+TEXT: Zehrimi salmaya hazırım!
+
+RESOURCE ID: combat_grunt_quote_poison__male_speaker
+TEXT: Zehrimi salmaya hazırım!
 
 RESOURCE ID: combat_move_attack_debuff_self
 TEXT: SALDIRIYI DÜŞÜRÜR
@@ -680,6 +734,9 @@ TEXT: RAKİBİN SAVUNMASINI DÜŞÜREBİLİR
 
 RESOURCE ID: community_day_alodude_event_name
 TEXT: Topluluk Günü: Alolalı Geodude
+
+RESOURCE ID: community_day_deino_event_name
+TEXT: Topluluk Günü: Deino
 
 RESOURCE ID: convert_to_stardust
 TEXT: Eşya Çantanız dolu olduğu için bu Hediyeyi açtığınızda sadece Yıldız Tozunu alabileceksiniz.
@@ -725,11 +782,23 @@ TEXT: Hediyeleri açmadan önce lütfen Eşya Çantanızda yer açın veya çant
 RESOURCE ID: event_evolve_cubone
 TEXT: Cubone, Alolalı Marowak’a evrimleşebilir
 
+RESOURCE ID: event_gotour_2021_npc01_combat_quote__female_speaker
+TEXT: Bu etkinlik ne güzel, değil mi?
+
+RESOURCE ID: event_gotour_2021_npc06_combat_quote__female_speaker
+TEXT: Hadi maç yapalım! Hazır... GİDELİM!
+
+RESOURCE ID: event_gotour_2021_npc07_combat_quote__female_speaker
+TEXT: Hadi... Hadi... GİDELİM!
+
 RESOURCE ID: event_move_alolan_marowak_shadow_bone
 TEXT: Gölge Kemik hareketini bilen Alolalı Marowak’ı elde etmek için Cubone’u evrimleştirin
 
 RESOURCE ID: event_new_ditto_bonus
 TEXT: Ditto doğada daha fazla Pokémon’un kılığında
+
+RESOURCE ID: event_npc08_crafted_pre_battle
+TEXT: <taunt>Gel bakalım Eğitmen! Hadi GİDELİM!
 
 RESOURCE ID: event_season7_name
 TEXT: GO Sezonu
@@ -756,8 +825,14 @@ TEXT: saldırı
 RESOURCE ID: filter_key_defense
 TEXT: savunma
 
+RESOURCE ID: filter_key_hisui
+TEXT: hisui
+
 RESOURCE ID: filter_key_ultra_beast
 TEXT: Ultra Yaratık
+
+RESOURCE ID: form_white_striped
+TEXT: White-Striped Form
 
 RESOURCE ID: fossil_cup_title
 TEXT: Fosil Kupası
@@ -778,6 +853,14 @@ TEXT: 21 Mayıs 2022’de, yerel saatle 11:00-14:00 arasında gerçekleşecek Ka
 
 RESOURCE ID: general1.ticket.2_alodude_title
 TEXT: Kayalık Bir Yol
+
+RESOURCE ID: general1.ticket.2_deino_description
+TEXT: 25 Haziran 2022’de yerel saatle 11:00-14:00 arasında gerçekleşecek Alan Notları: Deino özel araştırmasına katılmanıza olanak tanıyan bir bilet. Ayrıntıları oyun içi Haberler bölümünde bulabilirsiniz.
+
+ÖZEL ETKİNLİĞE AİT TÜM BONUSLARI ALABİLMEK İÇİN OYUNU BELİRTİLEN SAATLERDE OYNAMALISINIZ.
+
+RESOURCE ID: general1.ticket.2_deino_title
+TEXT: Alan Notları: Deino
 
 RESOURCE ID: general1.ticket.2_may22_alola_description
 TEXT: Elveda Alola özel araştırmasına dilediğiniz yerden erişebilmenizi sağlayacak bir bilet. Unutmayın: Alola Mevsimi süresince geçerli olan dört özel araştırma hikayesini 1 Haziran 2022 Çarşamba günü, yerel saatle 09:59’dan önce tamamladığınızda Elveda Alola özel araştırmasına ücretsiz erişim hakkı kazanacaksınız. Elveda Alola özel araştırmasına ücretsiz erişim hakkı kazandıysanız, yine de bu bileti satın alarak ek görev ve ödüllere ulaşabilirsiniz. Ayrıntıları oyun içi Haberler bölümünde ve blog gönderisinde bulabilirsiniz.
@@ -1040,7 +1123,7 @@ RESOURCE ID: gofest2022_live_seattle_habitat_electric_garden
 TEXT: Pokémon GO Fest 2022: Seattle (Electric Garden Habitat)
 
 RESOURCE ID: gofest2022_live_seattle_habitat_the_oasis
-TEXT: Pokémon GO Fest 2022: Seattle (The Oasis Habitat)
+TEXT: Pokémon GO Fest: Seattle – The Oasis Habitat
 
 RESOURCE ID: gofest2022_live_seattle_park
 TEXT: Pokémon GO Fest 2022: Seattle (Park Session)
@@ -1152,44 +1235,8 @@ TEXT: Go Festivali 2022: Tundra Habitatı
 RESOURCE ID: gofest2022_tundra_description
 TEXT: Tundra habitatı saatinde ortaya çıkan bu Pokémon'ları yakalayın!
 
-RESOURCE ID: grunt_generic_challenge#10__male_speaker
-TEXT: Elbette GO Roket Takımı kötü işler peşinde değil.
-
-RESOURCE ID: grunt_generic_challenge#11__male_speaker
-TEXT: Elbette GO Roket Takımı kötü işler peşinde değil.
-
-RESOURCE ID: grunt_generic_challenge#12__male_speaker
-TEXT: Elbette GO Roket Takımı kötü işler peşinde değil.
-
-RESOURCE ID: grunt_generic_challenge#13__male_speaker
-TEXT: Elbette GO Roket Takımı kötü işler peşinde değil.
-
-RESOURCE ID: grunt_generic_challenge#14__male_speaker
-TEXT: Elbette GO Roket Takımı kötü işler peşinde değil.
-
-RESOURCE ID: grunt_generic_challenge#1__male_speaker
-TEXT: Tüm dikkatini bu maça versen iyi edersin!
-
-RESOURCE ID: grunt_generic_challenge#2__male_speaker
-TEXT: Tüm dikkatini bu maça versen iyi edersin!
-
-RESOURCE ID: grunt_generic_challenge#3__male_speaker
-TEXT: Tüm dikkatini bu maça versen iyi edersin!
-
-RESOURCE ID: grunt_generic_challenge#5__male_speaker
-TEXT: Tüm dikkatini bu maça versen iyi edersin!
-
-RESOURCE ID: grunt_generic_challenge#6__male_speaker
-TEXT: Tüm dikkatini bu maça versen iyi edersin!
-
-RESOURCE ID: grunt_generic_challenge#7__male_speaker
-TEXT: Tüm dikkatini bu maça versen iyi edersin!
-
-RESOURCE ID: grunt_generic_challenge#8__male_speaker
-TEXT: Elbette GO Roket Takımı kötü işler peşinde değil.
-
-RESOURCE ID: grunt_generic_challenge#9__male_speaker
-TEXT: Elbette GO Roket Takımı kötü işler peşinde değil.
+RESOURCE ID: gotoursik_elitefour_d_quote
+TEXT: Burada başka bir Eğitmenle karşılaşmayı beklemiyordu. Ne tesadüf!
 
 RESOURCE ID: grunt_generic_defeat#10__male_speaker
 TEXT: Of, kafamdan duman çıkacak şimdi!
@@ -1218,95 +1265,20 @@ TEXT: GO Roket Takımı'na bulaşma!
 RESOURCE ID: grunt_generic_defeat#9__male_speaker
 TEXT: Ne bakıyorsun? Toz ol. Ya gidersin ya da ben seni göndermesini bilirim!
 
-RESOURCE ID: grunt_generic_greeting#10__male_speaker
-TEXT: Hey! Buraya bak!
-
 RESOURCE ID: grunt_generic_greeting#11__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
-
-RESOURCE ID: grunt_generic_greeting#12__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
-
-RESOURCE ID: grunt_generic_greeting#13__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
-
-RESOURCE ID: grunt_generic_greeting#14__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
-
-RESOURCE ID: grunt_generic_greeting#15__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
-
-RESOURCE ID: grunt_generic_greeting#16__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
-
-RESOURCE ID: grunt_generic_greeting#17__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
-
-RESOURCE ID: grunt_generic_greeting#18__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
-
-RESOURCE ID: grunt_generic_greeting#19__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
-
-RESOURCE ID: grunt_generic_greeting#1__male_speaker
-TEXT: Hey! Buraya bak!
-
-RESOURCE ID: grunt_generic_greeting#20__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
+TEXT: Tek bir Rattata bile benden kaçamaz!
 
 RESOURCE ID: grunt_generic_greeting#21__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
-
-RESOURCE ID: grunt_generic_greeting#22__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
-
-RESOURCE ID: grunt_generic_greeting#23__male_speaker
-TEXT: Merhaba! Dikkatini dağıtmaya geldim!
-
-RESOURCE ID: grunt_generic_greeting#2__male_speaker
-TEXT: Hey! Buraya bak!
-
-RESOURCE ID: grunt_generic_greeting#3__male_speaker
-TEXT: Hey! Buraya bak!
-
-RESOURCE ID: grunt_generic_greeting#4__male_speaker
-TEXT: Hey! Buraya bak!
-
-RESOURCE ID: grunt_generic_greeting#5__male_speaker
-TEXT: Hey! Buraya bak!
-
-RESOURCE ID: grunt_generic_greeting#6__male_speaker
-TEXT: Hey! Buraya bak!
+TEXT: GO Roket Takımı'nın operasyonuna mı sızdın? Bu ne terbiyesizlik!
 
 RESOURCE ID: grunt_generic_greeting#7__male_speaker
-TEXT: Hey! Buraya bak!
-
-RESOURCE ID: grunt_generic_greeting#8__male_speaker
-TEXT: Hey! Buraya bak!
-
-RESOURCE ID: grunt_generic_greeting#9__male_speaker
-TEXT: Hey! Buraya bak!
-
-RESOURCE ID: grunt_generic_victory#1__male_speaker
-TEXT: Ooo... Ağlıyor musun yoksa? Haha. Güzel!
+TEXT: Buradan daha ileri gidemezsin!
 
 RESOURCE ID: grunt_generic_victory#2__male_speaker
-TEXT: Ooo... Ağlıyor musun yoksa? Haha. Güzel!
+TEXT: Hayatımı bir suçlu olarak sürdürmek beni çok zinde kılıyor!
 
 RESOURCE ID: grunt_generic_victory#3__male_speaker
-TEXT: Ooo... Ağlıyor musun yoksa? Haha. Güzel!
-
-RESOURCE ID: grunt_generic_victory#4__male_speaker
-TEXT: Ooo... Ağlıyor musun yoksa? Haha. Güzel!
-
-RESOURCE ID: grunt_generic_victory#5__male_speaker
-TEXT: Heh... Bu dikkat dağınıklığı sert vurur!
-
-RESOURCE ID: grunt_generic_victory#6__male_speaker
-TEXT: Heh... Bu dikkat dağınıklığı sert vurur!
-
-RESOURCE ID: grunt_generic_victory#7__male_speaker
-TEXT: Heh... Bu dikkat dağınıklığı sert vurur!
+TEXT: Pis işleri Pokémon'lara yaptırmak gerçekten harika bir his!
 
 RESOURCE ID: incense_duration_8_hr
 TEXT: 8 saatlik Tütsü süresi
@@ -1315,22 +1287,22 @@ RESOURCE ID: increased_adventure_sync_rewards
 TEXT: Gelecek haftanın Macera Senkronizasyonu ödüllerinde artış
 
 RESOURCE ID: invasion_pokemon_inventory_warning_message
-TEXT: Pokémon deponuz dolu. Bu yüzden Gölge Pokémon’larla karşılaşamayacaksınız. Yer açmak için Pokémon’ları gönderebilir veya mağazadan Pokémon deponuzu geliştirebilirsiniz.
+TEXT: Pokémon deponuz dolu olduğu için Gölge Pokémon'larla karşılaşamazsınız. Yer açmak için Pokémon’larınızı Profesör Willow'a gönderebilir ya da Pokémon mağazadan deponuzu geliştirebilirsiniz.
 
 RESOURCE ID: italian
 TEXT: Italiano
 
 RESOURCE ID: item_event_ticket_gray_to_gift_desc
-TEXT: An extra event ticket from a purchase error. You can send it to a friend or get it refunded.
+TEXT: Satın alım hatasından kaynaklanan ekstra bir etkinlik bileti. Bu bileti bir arkadaşınıza gönderebilir ya da ücret iadesi alabilirsiniz.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 21 Mayıs 2022’de, yerel saatle 11:00-14:00 arasında gerçekleşecek özel araştırmaya dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
+TEXT: 25 Haziran 2022’de yerel saatle 11:00-14:00 arasında gerçekleşecek özel araştırmaya dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_event_ticket_pink_desc_alodude
 TEXT: 21 Mayıs 2022’de, yerel saatle 11:00-14:00 arasında gerçekleşecek özel araştırmaya dilediğiniz yerden katılmanıza olanak tanıyan bir bilet.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Bu bilet, 21 Mayıs 2022’de gerçekleşecek özel araştırmaya dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
+TEXT: Bu bilet, 25 Haziran 2022’de gerçekleşecek özel araştırmaya dilediğiniz yerden erişebilmeniz için otomatik olarak etkinleştirilecek.
 
 RESOURCE ID: item_event_ticket_pink_may22_alola_desc
 TEXT: Elveda Alola özel araştırmasına dilediğiniz yerden erişebilmenizi sağlayacak bir bilet.
@@ -1475,15 +1447,18 @@ Bir Pokémon, dinlenme süresinde olsa bile, Mega Enerji kullanılarak her zaman
 Mega Evrimleşen Pokémon'unuzun, Mega Enerji kullanmadan tekrar Mega Evrim geçirebilmesi için dinlenmesi gerekir. Pokémon ne kadar çok Mega Evrim geçirirse dinlenmek için ihtiyaç duyduğu süre o kadar kısalır.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-06-16T15:56:41.307847
-at SHA 8877f462d0d1f6d06e7cbfac961c6ce276ba33f1
-Patch from: 0.239.0-SHA-9ccad1b6, 0.239.1-SHA-ae2c6b4d, 0.239.2-SHA-9d26dbfd
+TEXT: Built at 2022-06-24T04:15:46.268590
+at SHA dba337662242400715774af03cf95e227d377316
+Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Gerçeklik Karıştırıcıyı kullanmak için Niantic AR'ı açın.
 
 RESOURCE ID: monodepth_landscape_unavailable_toast
 TEXT: Manzara modu, Gerçeklik Karıştırıcıyı desteklemiyor.
+
+RESOURCE ID: move_name_0367
+TEXT: Vahşi Savurma
 
 RESOURCE ID: move_name_0368
 TEXT: Yuvarlanma
@@ -1524,6 +1499,9 @@ TEXT: 3 Premium Maç Bileti
 RESOURCE ID: photobomb_five_alodude
 TEXT: GO Fotoğrafta Alolalı Geodude ile 5 sürpriz karşılaşma
 
+RESOURCE ID: photobomb_five_deino
+TEXT: GO Fotoğrafta Deino ile 5 sürpriz karşılaşma
+
 RESOURCE ID: photobomb_safari_pika
 TEXT: GO Fotoğrafta safari şapkalı Pikachu ile 5 sürpriz karşılaşma
 
@@ -1542,6 +1520,12 @@ TEXT: Katkılarınız için teşekkürler! Siz ve yakınlardaki Eğitmenler bu P
 RESOURCE ID: poi_power_p_level_body
 TEXT: Katkılarınız için teşekkürler! Siz ve diğer Eğitmenler bu PokéDuraktan bonus alabilirsiniz.
 
+RESOURCE ID: pokemon_category_0058_2792
+TEXT: Scout Pokémon
+
+RESOURCE ID: pokemon_category_0059_2793
+TEXT: Legendary Pokémon
+
 RESOURCE ID: pokemon_category_0125
 TEXT: Elektrik Pokémon
 
@@ -1557,6 +1541,9 @@ TEXT: Evrim Geçiren Pokémon
 RESOURCE ID: pokemon_category_0145
 TEXT: Elektrik Pokémon
 
+RESOURCE ID: pokemon_category_0157_2786
+TEXT: Ghost Flame Pokémon
+
 RESOURCE ID: pokemon_category_0176
 TEXT: Mutluluk Pokémon
 
@@ -1568,6 +1555,12 @@ TEXT: Torbalı Güve Pokémon
 
 RESOURCE ID: pokemon_category_0205
 TEXT: Torbalı Güve Pokémon
+
+RESOURCE ID: pokemon_category_0211_2788
+TEXT: Balloon Pokémon
+
+RESOURCE ID: pokemon_category_0215_2794
+TEXT: Sharp Claw Pokémon
 
 RESOURCE ID: pokemon_category_0225
 TEXT: Teslimatçı Pokémon
@@ -1632,8 +1625,14 @@ TEXT: Görkemli Pokémon
 RESOURCE ID: pokemon_category_0502
 TEXT: Disiplinli Pokémon
 
+RESOURCE ID: pokemon_category_0503_2787
+TEXT: Formidable Pokémon
+
 RESOURCE ID: pokemon_category_0524
 TEXT: Taş Pokémon
+
+RESOURCE ID: pokemon_category_0549_2789
+TEXT: Spinning Pokémon
 
 RESOURCE ID: pokemon_category_0553
 TEXT: Göz Korkutucu Pokémon
@@ -1646,6 +1645,12 @@ TEXT: Taş Evli Pokémon
 
 RESOURCE ID: pokemon_category_0563
 TEXT: Lahit Pokémon
+
+RESOURCE ID: pokemon_category_0570_2796
+TEXT: Spiteful Fox Pokémon
+
+RESOURCE ID: pokemon_category_0571_2797
+TEXT: Baneful Fox Pokémon
 
 RESOURCE ID: pokemon_category_0585
 TEXT: Mevsimlik Pokémon
@@ -1668,6 +1673,9 @@ TEXT: Mağarasever Pokémon
 RESOURCE ID: pokemon_category_0627
 TEXT: Kartal Yavrusu Pokémon
 
+RESOURCE ID: pokemon_category_0628_2798
+TEXT: Battle Cry Pokémon
+
 RESOURCE ID: pokemon_category_0639
 TEXT: Oyuksever Pokémon
 
@@ -1680,6 +1688,15 @@ TEXT: Bahçıvan Pokémon
 RESOURCE ID: pokemon_category_0678
 TEXT: Baskıcı Pokémon
 
+RESOURCE ID: pokemon_category_0705_2790
+TEXT: Snail Pokémon
+
+RESOURCE ID: pokemon_category_0706_2791
+TEXT: Shell Bunker Pokémon
+
+RESOURCE ID: pokemon_category_0713_2795
+TEXT: Iceberg Pokémon
+
 RESOURCE ID: pokemon_category_0716
 TEXT: Yaşam Enerjili Pokémon
 
@@ -1688,6 +1705,9 @@ TEXT: İmha Eden Pokémon
 
 RESOURCE ID: pokemon_category_0718
 TEXT: Nizam Pokémon
+
+RESOURCE ID: pokemon_category_0724_2785
+TEXT: Arrow Quill Pokémon
 
 RESOURCE ID: pokemon_category_0735
 TEXT: Yakın Takipçi Pokémon
@@ -1713,11 +1733,100 @@ TEXT: Çekilmiş Kılıç Pokémon
 RESOURCE ID: pokemon_category_0861
 TEXT: Güçlenen Pokémon
 
+RESOURCE ID: pokemon_category_0899
+TEXT: Big Horn Pokémon
+
+RESOURCE ID: pokemon_category_0900
+TEXT: Axe Pokémon
+
+RESOURCE ID: pokemon_category_0901
+TEXT: Peat Pokémon
+
+RESOURCE ID: pokemon_category_0902
+TEXT: Big Fish Pokémon
+
+RESOURCE ID: pokemon_category_0903
+TEXT: Free Climb Pokémon
+
+RESOURCE ID: pokemon_category_0904
+TEXT: Pin Cluster Pokémon
+
+RESOURCE ID: pokemon_category_0905
+TEXT: Love-Hate Pokémon
+
+RESOURCE ID: pokemon_desc_0058_2792
+TEXT: They patrol their territory in pairs. I believe the igneous  rock components in the fur of this species are the result of  volcanic activity in its habitat.
+
+RESOURCE ID: pokemon_desc_0059_2793
+TEXT: Snaps at its foes with fangs cloaked in blazing flame. Despite its  bulk, it deftly feints every which way, leading opponents on a  deceptively merry chase as it all but dances around them.
+
+RESOURCE ID: pokemon_desc_0157_2786
+TEXT: Said to purify lost, forsaken souls with its flames and guide them  to the afterlife. I believe its form has been influenced by the  energy of the sacred mountain towering at Hisui’s center.
+
+RESOURCE ID: pokemon_desc_0211_2788
+TEXT: Fishers detest this troublesome Pokémon because it sprays  poison from its spines, getting it everywhere. A different form  of Qwilfish lives in other regions.
+
+RESOURCE ID: pokemon_desc_0215_2794
+TEXT: Its sturdy, curved claws are ideal for traversing precipitous cliffs.  From the tips of these claws drips a venom that infiltrates the  nerves of any prey caught in Sneasel’s grasp.
+
 RESOURCE ID: pokemon_desc_0359
 TEXT: İnsanlar Absol'u ne zaman görse arkasından mutlaka deprem veya gelgit gibi bir felaket gerçekleşir. Bu yüzden ona Felaket Tellalı Pokémon derler.
 
+RESOURCE ID: pokemon_desc_0503_2787
+TEXT: Hard of heart and deft of blade, this rare form of Samurott is  a product of the Pokémon’s evolution in the region of Hisui. Its  turbulent blows crash into foes like ceaseless pounding waves.
+
+RESOURCE ID: pokemon_desc_0549_2789
+TEXT: I suspect that its well-developed legs are the result of a life  spent on mountains covered in deep snow. The scent it exudes  from its flower crown heartens those in proximity.
+
+RESOURCE ID: pokemon_desc_0570_2796
+TEXT: A once-departed soul, returned to life in Hisui. Derives power  from resentment, which rises as energy atop its head and takes  on the forms of foes. In this way, Zorua vents lingering malice.
+
+RESOURCE ID: pokemon_desc_0571_2797
+TEXT: With its disheveled white fur, it looks like an embodiment of  death. Heedless of its own safety, Zoroark attacks its nemeses  with a bitter energy so intense, it lacerates Zoroark’s own body.
+
+RESOURCE ID: pokemon_desc_0628_2798
+TEXT: Screaming a bloodcurdling battle cry, this huge and ferocious  bird Pokémon goes out on the hunt. It blasts lakes with shock  waves, then scoops up any prey that float to the water’s surface.
+
+RESOURCE ID: pokemon_desc_0705_2790
+TEXT: A creature given to melancholy. I suspect its metallic shell  developed as a result of the mucus on its skin reacting with  the iron in Hisui’s water.
+
+RESOURCE ID: pokemon_desc_0706_2791
+TEXT: Able to freely control the hardness of its metallic shell.  It loathes solitude and is extremely clingy—it will fume and  run riot if those dearest to it ever leave its side.
+
+RESOURCE ID: pokemon_desc_0713_2795
+TEXT: The armor of ice covering its lower jaw puts steel to shame and  can shatter rocks with ease. This Pokémon barrels along steep  mountain paths, cleaving through the deep snow.
+
+RESOURCE ID: pokemon_desc_0724_2785
+TEXT: The air stored inside the rachises of Decidueye’s feathers  insulates the Pokémon against Hisui’s extreme cold. This is  firm proof that evolution can be influenced by environment.
+
+RESOURCE ID: pokemon_desc_0899
+TEXT: The black orbs shine with an uncanny light when the Pokémon is  erecting invisible barriers. The fur shed from its beard retains  heat well and is a highly useful material for winter clothing.
+
+RESOURCE ID: pokemon_desc_0900
+TEXT: A violent creature that fells towering trees with its crude axes  and shields itself with hard stone. If one should chance upon  this Pokémon in the wilds, one’s only recourse is to flee.
+
+RESOURCE ID: pokemon_desc_0901
+TEXT: I believe it was Hisui’s swampy terrain that gave Ursaluna its  burly physique and newfound capacity to manipulate peat  at will.
+
+RESOURCE ID: pokemon_desc_0902
+TEXT: Clads itself in the souls of comrades that perished before  fulfilling their goals of journeying upstream. No other species  throughout all Hisui’s rivers is Basculegion’s equal.
+
+RESOURCE ID: pokemon_desc_0903
+TEXT: Because of Sneasler’s virulent poison and daunting physical  prowess, no other species could hope to best it on the frozen  highlands. Preferring solitude, this species does not form packs.
+
+RESOURCE ID: pokemon_desc_0904
+TEXT: Its lancelike spikes and savage temperament have earned it the  nickname “sea fiend.” It slurps up poison to nourish itself.
+
+RESOURCE ID: pokemon_desc_0905
+TEXT: When it flies to this land from across the sea, the bitter winter  comes to an end. According to legend, this Pokémon’s love  gives rise to the budding of fresh life across Hisui.
+
 RESOURCE ID: pokemon_info_multi_transfer_ultra_beast_pokemon_error
 TEXT: Ultra Yaratıkları seçemezsiniz.
+
+RESOURCE ID: pokemon_info_purification_confirmation
+TEXT: {0} arındırılsın mı?
+
+Büyük miktarda DG kazanacak, güçlendirme bedeli daha düşük olacak ve özel İyiliğin Karşılığı güçlü saldırısını öğrenecek!
 
 RESOURCE ID: pokemon_info_transfer_to_professor_confirmation
 TEXT: <size=36><b>{0} gönderilsin mi?</b></size>
@@ -1726,6 +1835,27 @@ Gönderme işlemi geri alınamaz.
 
 RESOURCE ID: pokemon_info_transfer_to_professor_result
 TEXT: Gönderildi! {0} Şeker aldınız.
+
+RESOURCE ID: pokemon_name_0899
+TEXT: Wyrdeer
+
+RESOURCE ID: pokemon_name_0900
+TEXT: Kleavor
+
+RESOURCE ID: pokemon_name_0901
+TEXT: Ursaluna
+
+RESOURCE ID: pokemon_name_0902
+TEXT: Basculegion
+
+RESOURCE ID: pokemon_name_0903
+TEXT: Sneasler
+
+RESOURCE ID: pokemon_name_0904
+TEXT: Overqwil
+
+RESOURCE ID: pokemon_name_0905
+TEXT: Enamorus
 
 RESOURCE ID: pokemon_ultra_beast_info_transfer_to_professor_confirmation
 TEXT: Bu Ultra Yaratığı gerçekten göndermek istiyor musunuz?
@@ -1766,8 +1896,26 @@ TEXT: {0} Dönüşen Pokémon yakalayın
 RESOURCE ID: quest_complete_alodude
 TEXT: Kayalık Bir Yol
 
+RESOURCE ID: quest_complete_deino
+TEXT: Alan Notları: Deino
+
 RESOURCE ID: quest_defeat_rocket_leader_2500
 TEXT: 2500 ve altı DG'li Pokémon'larla GO Roket Takımı Liderini {0} kez yen
+
+RESOURCE ID: quest_deino_catch
+TEXT: {0} Deino yakalayın
+
+RESOURCE ID: quest_deino_evolve_a
+TEXT: {0} Deino evrimleştirin
+
+RESOURCE ID: quest_deino_evolve_b
+TEXT: {0} Deino veya Zweilous evrimleştirin
+
+RESOURCE ID: quest_deino_snap
+TEXT: Deino’nun {0} fotoğrafını çekin
+
+RESOURCE ID: quest_dialogue_thanks_1
+TEXT: Birlikte GO Roket Takımı'nı alt ettik, Dilek Pokémon Jirachi'yi ortaya çıkardık ve Unova bölgesinde keşfedilen Pokémon’larla karşılaşmaya başladık.
 
 RESOURCE ID: quest_dude_catch
 TEXT: {0} Geodude yakalayın
@@ -1795,6 +1943,9 @@ TEXT: {0} km katedin
 
 RESOURCE ID: quest_pokemon_appears
 TEXT: Pokémon belirir!
+
+RESOURCE ID: quest_power_up_dragon_plural
+TEXT: Power up Dragon-type Pokémon {0} times
 
 RESOURCE ID: quest_raid_with_buddy_plural
 TEXT: Dostunuzla {0} akında maç yapın
@@ -1894,6 +2045,76 @@ TEXT: Gerçi senin Pokémon’larla arkadaşlık kurmakta üstüne yok, eminim �
 
 RESOURCE ID: quest_special_dialogue_alodude_3_4
 TEXT: Bugünkü araştırmamda bana destek olduğun için teşekkürler %PLAYERNAME%. Herkese “taş” çıkarttın! Haha... Görüşmek üzere!
+
+RESOURCE ID: quest_special_dialogue_deino_0_0
+TEXT: Saldırganlıkları her şeyden önce zorunluluktan ileri geliyor gibi gözüküyor...
+
+RESOURCE ID: quest_special_dialogue_deino_0_1
+TEXT: Ah! Tekrar merhabalar Pokémon Eğitmeni. Beni tam da tespitte bulunurken yakaladın. Bugün etrafta şu Pokémon’lardan şaşırtıcı miktarda var. Deino’ydu adı, değil mi?
+
+RESOURCE ID: quest_special_dialogue_deino_0_2
+TEXT: Görme yeteneğinden yoksun olan bu Pokémon’lar içgüdüsel olarak ısırır. Bunu bizzat deneyimledim. Ama merak etme, çok acımadı.
+
+RESOURCE ID: quest_special_dialogue_deino_0_3
+TEXT: Bu dünya benzersiz Pokémon’larla dolu. Hepsini araştırmak istiyorum ama bugün yalnızca Deino’ya odaklanacağız.
+
+RESOURCE ID: quest_special_dialogue_deino_0_4
+TEXT: Biraz vaktini alabilir miyim Pokémon Eğitmeni? Bu alandaki uzmanlığına ihtiyacım var.
+
+RESOURCE ID: quest_special_dialogue_deino_1_0
+TEXT: Yardımın için teşekkürler Pokémon Eğitmeni.
+
+RESOURCE ID: quest_special_dialogue_deino_1_1
+TEXT: Deino etrafındakilere saldırıp onları ısırır. Onun dünyası karanlıkta bile olsa yönünü belirleyebilmek için yeni yöntemler geliştirir...
+
+RESOURCE ID: quest_special_dialogue_deino_1_2
+TEXT: ......
+
+
+RESOURCE ID: quest_special_dialogue_deino_1_3
+TEXT: Ehem. Sence Deino belirli bir şey mi arıyor? Aradığı yiyecek olabilir mi acaba?
+
+RESOURCE ID: quest_special_dialogue_deino_1_4
+TEXT: Anlıyorum. Senin dünyanda Pokémon yakalamaya çalışırken onlara meyve vermek doğal sayılıyor. Hımm... Deino göremiyor ama koku ve tat ne kadar iyi alabiliyor merak ediyorum.
+
+RESOURCE ID: quest_special_dialogue_deino_1_5
+TEXT: Deino’nun meyvelere nasıl tepki verdiğine bakarak bu duyularının ne kadar gelişmiş olduğunu incelemek istiyorum. Bana yardım eder misin Pokémon Eğitmeni?
+
+RESOURCE ID: quest_special_dialogue_deino_2_0
+TEXT: Haber ne Pokémon Eğitmeni? Arkadaşlarına sevimli süsler eklenmiş Hediyeler gönderdiğini gözlemledim. Çıkmaca mıydı adı? Değil mi? Ha, çıkartma. Bu süslemelerin işlevi ne?
+
+RESOURCE ID: quest_special_dialogue_deino_2_1
+TEXT: Anlıyorum... Yani esasen dekoratifler ama aynı zamanda bazı duyguları da iletebiliyorlar demek. Bu dünyanın Pokémon Eğitmenleri arasındaki bağlar ne kadar da kuvvetli böyle.
+
+RESOURCE ID: quest_special_dialogue_deino_2_2
+TEXT: Deino’lar birbirlerini ısırıp boğuşurlar. Bize saldırgan ve düşmanca görünen bu hareketler aslında bizim anlam veremediğimiz bir etkileşimden ibaret. Kendini bir Pokémon’un yerine koymak ne ufuk açıcı, değil mi?
+
+RESOURCE ID: quest_special_dialogue_deino_2_3
+TEXT: Hım? Senin Profesör Willow da karşılaştığın Pokémon’larla ilgili gözlemlerini mi paylaşacak? Umarım benim düşüncelerimi de aynı derecede faydalı bulursun.
+
+RESOURCE ID: quest_special_dialogue_deino_2_4
+TEXT: Bir düşüncem daha var: Deino’nun evrimini gözlemlemek istiyorum. Geçirdiği fiziksel değişiklikler davranışlarına tesir ediyor olabilir.
+
+RESOURCE ID: quest_special_dialogue_deino_3_0
+TEXT: Müthiş. Bu dünyanın bir harikasını daha paylaştın benimle Pokémon Eğitmeni.
+
+RESOURCE ID: quest_special_dialogue_deino_3_1
+TEXT: Deino’nun Zweilous’a evrildiğinde ikinci bir kafaya sahip olacağını tahmin etmemiştim. Gerçi kafaların hiçbiri göremiyor sanırım.
+
+RESOURCE ID: quest_special_dialogue_deino_3_2
+TEXT: Kafalar birbirleriyle fena didişiyorlar. Özellikle de yemek konusunda. Ah, sakin olun! Bütün ağızlara yetecek kadar meyve var!
+
+RESOURCE ID: quest_special_dialogue_deino_3_3
+TEXT: Zweilous’ın ikimizin arasındaki arkadaşlıktan alacağı çok ders var. Birlikte mesafe kat ettikçe kendini bu konuda geliştirir belki.
+
+RESOURCE ID: quest_special_dialogue_deino_3_4
+TEXT: Geçenlerde öğrendiğime göre Zweilous evrim geçirince Hydreigon adlı bir Pokémon’a dönüşüyormuş. Kafalarının sayısı artacak mı acaba? Didişmeyi bırakıp nazik huylu olacak mı?
+
+RESOURCE ID: quest_special_dialogue_deino_3_5
+TEXT: Bugünkü araştırmamda bana eşlik ettiğin için teşekkürler Pokémon Eğitmeni.
+
+RESOURCE ID: quest_special_dialogue_deino_3_6
+TEXT: Buraya geldiğimde Ultra Solucan Delikleri ile Ultra Yaratıkların gizemine odaklanacağımı düşünüyordum ama senin dünyandaki Pokémon’ların her biri o kadar gizemli ki...
 
 RESOURCE ID: quest_special_dialogue_eevet_0_1
 TEXT: Fark ettin mi bilmiyorum ama büyük bir Evrim Geçiren Pokémon Eevee istilası var gibi!
@@ -2075,6 +2296,21 @@ TEXT: Kayalık Bir Yol (3/4)
 RESOURCE ID: quest_title_alodude_3
 TEXT: Kayalık Bir Yol (4/4)
 
+RESOURCE ID: quest_title_deino
+TEXT: Alan Notları: Deino
+
+RESOURCE ID: quest_title_deino_0
+TEXT: Alan Notları: Deino (1/4)
+
+RESOURCE ID: quest_title_deino_1
+TEXT: Alan Notları: Deino (2/4)
+
+RESOURCE ID: quest_title_deino_2
+TEXT: Alan Notları: Deino (3/4)
+
+RESOURCE ID: quest_title_deino_3
+TEXT: Alan Notları: Deino (4/4)
+
 RESOURCE ID: quest_title_may22_alola_branch_quest_0
 TEXT: Elveda Alola (1/4)
 
@@ -2211,6 +2447,15 @@ TEXT: {0} Su türü Pokémon yakaladınız
 RESOURCE ID: score_1_12_singular
 TEXT: {0} Bitki türü Pokémon yakaladınız
 
+RESOURCE ID: score_defeat_rocket_none
+TEXT: Defeated 0 Team GO Rocket members
+
+RESOURCE ID: score_defeat_rocket_plural
+TEXT: Defeated {0} Team GO Rocket members
+
+RESOURCE ID: score_defeat_rocket_singular
+TEXT: Defeated 1 Team GO Rocket member
+
 RESOURCE ID: screen_friends_title
 TEXT: arkadaşlar
 
@@ -2218,19 +2463,19 @@ RESOURCE ID: select_giftbox_to_send_prompt
 TEXT: Hangi Hediye gönderilsin?
 
 RESOURCE ID: settings_buddy_gained_candy
-TEXT: Buddy Candies
+TEXT: Dost Şekerleri
 
 RESOURCE ID: settings_friend_level_increased
-TEXT: Friendship Level Increases
+TEXT: Artmış Arkadaşlık Seviyesi
 
 RESOURCE ID: settings_gift_opened
-TEXT: Opened Gifts
+TEXT: Açılmış Hediyeler
 
 RESOURCE ID: settings_group_research_task
-TEXT: Combined Research Updates
+TEXT: Birleşik Araştırma Güncellemeleri
 
 RESOURCE ID: settings_in_app_notification_header
-TEXT: In-Game Notifications
+TEXT: Oyun İçi Bildirimler
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
 TEXT: Bu ayarı etkinleştirdiğinizde, Pokémon deponuzda birden fazla Pokémon seçerken Efsanevi Pokémon, Ultra Yaratık Pokémon ve bazı Mitolojik Pokémon’ları gönderebileceksiniz. Profesör Willow’un laboratuvarına Pokémon gönderme işlemi geri alınamaz.
@@ -2239,13 +2484,19 @@ RESOURCE ID: settings_legendary_multi_selection_confirmation_title
 TEXT: Birden fazla Pokémon seçerken Efsanevi ve Mitolojik Pokémon'lar ile Ultra Yaratıkları gönderebilmeyi istediğinizden emin misiniz?
 
 RESOURCE ID: settings_nearby_raids
-TEXT: Nearby Raids
+TEXT: Yakındaki Akınlar
 
 RESOURCE ID: settings_notifications_description
-TEXT: Control your Push Notification and In-Game Notification settings
+TEXT: Anlık ve oyun içi bildirim ayarlarınızı kişiselleştirin.
 
 RESOURCE ID: settings_notifications_title
 TEXT: Bildirimler
+
+RESOURCE ID: settings_remember_last_pokeball
+TEXT: Remember Last-Used Poké Ball
+
+RESOURCE ID: settings_remember_last_pokeball_tip
+TEXT: The type of Poké Ball you last used will be automatically selected at the beginning of your next Pokémon encounter.
 
 RESOURCE ID: seville_cup_description
 TEXT: Safari Bölgesi Sevilla katılımcıları için günlük Yakalama Kupası
@@ -2274,14 +2525,14 @@ TEXT: Özel bir hediye!
 RESOURCE ID: spanish
 TEXT: Español
 
-RESOURCE ID: spark_incident_greeting
-TEXT: Gut feelings are super handy, don't you think? Let's go Team Instinct!
-
 RESOURCE ID: spark_map_time_warning|1
 TEXT: Sinyal yok mu? Neyse, epey geç oluyor... Benim de gitmem lazım.
 
 RESOURCE ID: spawn_alodude
 TEXT: Doğada daha fazla Alolalı Geodude ortaya çıkıyor
+
+RESOURCE ID: spawn_deino
+TEXT: Doğada daha fazla Deino ortaya çıkıyor
 
 RESOURCE ID: special_trades_plus_5
 TEXT: Her gün fazladan 5 özel takas fırsatı
@@ -2988,6 +3239,9 @@ TEXT: ภาษาไทย
 RESOURCE ID: ticket_alodude
 TEXT: Özel araştırma hikayesi Kayalık Bir Yol biletini mağazadan alabilirsiniz
 
+RESOURCE ID: ticket_deino
+TEXT: Özel araştırma hikayesi Alan Notları: Deino biletini mağazadan alabilirsiniz
+
 RESOURCE ID: ticket_may22_alola
 TEXT: Özel araştırma hikayesi Elveda Alola biletini mağazadan alabilirsiniz
 
@@ -3023,6 +3277,12 @@ TEXT: Efsanevi, Arınmış, Mitolojik, Parlak ve Pokédex’inizde olmayan Poké
 
 RESOURCE ID: turkish
 TEXT: Türkçe
+
+RESOURCE ID: type_tutorial_normal__female_speaker
+TEXT: Normal tür Pokémon’lar, Dövüşçü türü saldırılarına karşı güçsüzdür.
+
+RESOURCE ID: type_tutorial_normal__male_speaker
+TEXT: Normal tür Pokémon’lar, Dövüşçü türü saldırılarına karşı güçsüzdür.
 
 RESOURCE ID: ultra_beast_not_allowed_in_gyms
 TEXT: Ultra Yaratıklar spor salonlarında bırakılamaz.
