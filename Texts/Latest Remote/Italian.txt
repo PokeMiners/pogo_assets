@@ -4,11 +4,62 @@ TEXT: Zona Safari di Pokémon GO - Accesso in anteprima
 RESOURCE ID: aa2022_okinawa_collection_challenge
 TEXT: Sfida di collezione di “Vola con me“
 
+RESOURCE ID: aa_2022_photobomb_pika_corsola
+TEXT: Incontri a sorpresa in modalità foto GO
+
 RESOURCE ID: activity_summary_widget_description
 TEXT: Usa Sincroavventura per tenere traccia del progresso di schiusa delle Uova e della distanza percorsa con il tuo Pokémon compagno quando Pokémon GO è attivo in background.
 
 RESOURCE ID: activity_summary_widget_title
 TEXT: Sincroavventura: riepilogo attività
+
+RESOURCE ID: add_referrer_already_added_accept_invite
+TEXT: Hai una richiesta di amicizia in sospeso da parte di questo Allenatore. Conferma la richiesta per continuare a ricevere delle ricompense da invito. Se vuoi, puoi inserire un altro codice invito.
+
+RESOURCE ID: add_referrer_already_added_already_friends
+TEXT: Siete già amici in Pokémon GO, quindi continuerai a ricevere delle ricompense da invito. Se vuoi, puoi inserire un altro codice invito.
+
+RESOURCE ID: add_referrer_already_added_friend_later
+TEXT: Dovete diventare amici in Pokémon GO per continuare a ricevere delle ricompense da invito. Se vuoi, puoi inserire un altro codice invito.
+
+RESOURCE ID: add_referrer_already_added_maybe_friend_later
+TEXT: Se non siete già amici in Pokémon GO, dovrete diventarlo per poter continuare a ricevere delle ricompense da invito. Se vuoi, puoi inserire un altro codice invito.
+
+RESOURCE ID: add_referrer_already_added_sent_invite
+TEXT: La richiesta di amicizia è stata inviata. Una volta confermata, potrai ricevere delle ricompense da invito mentre prosegui nella tua avventura. Se vuoi, puoi inserire un altro codice invito.
+
+RESOURCE ID: add_referrer_already_added_title
+TEXT: È già stata stabilita una connessione su invito con questo Allenatore
+
+RESOURCE ID: add_referrer_disabled
+TEXT: Impossbile stabilire una connessione.
+
+RESOURCE ID: add_referrer_disabled_sent_invite
+TEXT: Non è stato possibile usare il codice invito per la connessione, ma la richiesta di amicizia è stata inviata.
+
+RESOURCE ID: add_referrer_error_past_grace_period_message
+TEXT: Non è più possibile riscattare i codici invito.
+
+RESOURCE ID: add_referrer_error_past_grace_period_sent_invite
+TEXT: Non è più possibile riscattare i codici invito, ma la richiesta di amicizia è stata inviata.
+
+RESOURCE ID: add_referrer_error_past_grace_period_title
+TEXT: Il periodo di validità dei codici invito è terminato
+
+RESOURCE ID: add_referrer_error_unknown
+TEXT: Impossbile stabilire una connessione.
+
+RESOURCE ID: add_referrer_error_unknown_sent_friend_request
+TEXT: La richiesta di amicizia è stata inviata, ma non è stato possibile usare il codice invito per la connessione.
+
+RESOURCE ID: add_referrer_success_already_friends
+TEXT: Siete già amici in Pokémon GO, quindi potrai ricevere delle ricompense da invito man mano che continui la tua avventura.
+
+RESOURCE ID: add_referrer_success_maybe_friend_later
+TEXT: Se non siete già amici in Pokémon GO, ricordati di diventarlo per ricevere altre ricompense da invito.
+
+RESOURCE ID: add_referrer_success_title
+TEXT: Codice invito confermato
 
 RESOURCE ID: adventure_week_explore_timed_research
 TEXT: Settimana dell'avventura: sfida di avventura
@@ -645,14 +696,17 @@ Tutti i Pokémon che non possono essere trasferiti resteranno nel tuo spazio Pok
 RESOURCE ID: batch_transfer_result
 TEXT: Hai ricevuto delle caramelle.
 
+RESOURCE ID: batch_transfer_unique_event_pokemon
+TEXT: {0} Pokémon dell’evento
+
 RESOURCE ID: batch_transfer_unique_included
-TEXT: Hai selezionato almeno un Pokémon leggendario, misterioso, speciale o una Ultracreatura.
+TEXT: Hai selezionato almeno un Pokémon leggendario, misterioso, di eventi o una Ultracreatura.
 
 RESOURCE ID: batch_transfer_unique_legendary_or_mythical_or_ultra_beast_pokemon
 TEXT: {0} Pokémon leggendari, Ultracreature o Pokémon misteriosi
 
 RESOURCE ID: batch_transfer_unique_not_included
-TEXT: Non hai selezionato alcun Pokémon leggendario, Pokémon misterioso, Ultracreatura o Pokémon speciale.
+TEXT: Non hai selezionato alcun Pokémon leggendario, Pokémon misterioso, Ultracreatura o Pokémon di eventi.
 
 RESOURCE ID: batch_transfer_unique_warning_message
 TEXT: Vuoi davvero trasferire questi Pokémon?
@@ -709,13 +763,13 @@ RESOURCE ID: bonus_cd_move_deino
 TEXT: Fai evolvere Zweilos per ottenere un Hydreigon che conosce l’attacco caricato Vorticolpo!
 
 RESOURCE ID: bonus_cd_move_starly
-TEXT: Evolve Staravia to get a Staraptor that knows the Fast Attack Gust
+TEXT: Fai evolvere Staravia per ottenere uno Staraptor che conosce l’attacco veloce Raffica
 
 RESOURCE ID: bonus_implicit_social_alodude
 TEXT: Se catturi abbastanza Pokémon con l’aiuto di un singolo modulo esca, tutti gli Allenatori vicini al Pokéstop presso cui è stato usato otterranno il quadruplo dei PE da cattura per 30 minuti, anziché il triplo
 
 RESOURCE ID: bonus_implicit_social_deino_lure
-TEXT: Se catturi un numero sufficiente di Pokémon con un solo modulo esca, Zweilous apparirà per 30 minuti nelle vicinanze del Pokéstop dove è stato usato il modulo esca.
+TEXT: Se catturi abbastanza Pokémon con l’aiuto di un singolo modulo esca, Zweilous apparirà per 30 minuti nelle vicinanze del Pokéstop dove è stato usato il modulo esca.
 
 RESOURCE ID: bonus_implicit_social_deino_lure_title
 TEXT: Sfida cattura del Community Day
@@ -736,16 +790,19 @@ RESOURCE ID: bonus_implicit_social_raid_title
 TEXT: Sfida raid del Community Day
 
 RESOURCE ID: bonus_implicit_social_starly_raid
-TEXT: If Trainers defeat Staravia in a Raid Battle, more wild Starly will appear around the Gym that hosted the raid for 30 minutes.
+TEXT: Se gli Allenatori sconfiggono Staravia in un raid, più Starly selvatici appariranno nei pressi della Palestra che ha ospitato il raid per 30 minuti.
 
 RESOURCE ID: bonus_not_active
 TEXT: Al momento il bonus non è attivo
 
 RESOURCE ID: bonus_special_trade_starly_cd
-TEXT: One additional Special Trade can be made during the event and up to five hours afterward for a maximum of three for the day.
+TEXT: Uno scambio speciale aggiuntivo fino a cinque ore dopo l’evento per un massimo di tre al giorno.
 
 RESOURCE ID: bonus_trade_stardust_50pc_5hr
 TEXT: Gli scambi effettuati fino a cinque ore dopo l’evento richiederanno il 50% di polvere di stelle in meno.
+
+RESOURCE ID: bonus_trade_stardust_stufful
+TEXT: Gli scambi effettuati fino a due ore dopo l’evento richiederanno il 50% di polvere di stelle in meno.
 
 RESOURCE ID: bonus_unlocked
 TEXT: Bonus sbloccato!
@@ -816,6 +873,9 @@ TEXT: Doppio della polvere di stelle da cattura per i Pokémon in primo piano
 RESOURCE ID: challenge_available
 TEXT: È disponibile una nuova sfida!
 
+RESOURCE ID: challenge_catch_unique_any
+TEXT: Cattura {0} specie diverse di Pokémon
+
 RESOURCE ID: change_the_language_setting_and_restart_app
 TEXT: La lingua del gioco verrà impostata su {0}. Vuoi riavviare il gioco per applicare questa impostazione?
 
@@ -841,18 +901,33 @@ RESOURCE ID: community_day_mudkip_event_name
 TEXT: Community Day classico dedicato a Mudkip
 
 RESOURCE ID: community_day_starly_event_name
-TEXT: Community Day: Starly
+TEXT: Community Day dedicato a Starly
 
 RESOURCE ID: convert_to_stardust
 TEXT: Potrai ricevere polvere di stelle se apri questo pacco amicizia, ma non riceverai altri oggetti perché il tuo spazio Borsa è pieno.
 
 Puoi scegliere se aprire pacchi amicizia quando il tuo spazio Borsa è pieno nelle impostazioni.
 
+RESOURCE ID: copy_referral_code_toast
+TEXT: Il tuo codice invito è stato copiato.
+
 RESOURCE ID: corphish_o_clock
 TEXT: Ore Corphish e zero minuti
 
 RESOURCE ID: corphish_o_clock_description
 TEXT: All'inizio di ogni ora, Corphish apparirà in gran numero!
+
+RESOURCE ID: costume_pokemon_eggs
+TEXT: Pokémon dell’evento stanno nascendo dalle Uova
+
+RESOURCE ID: costume_pokemon_field_research
+TEXT: Incontra dei Pokémon dell’evento completando le ricerche sul campo
+
+RESOURCE ID: costume_pokemon_raids
+TEXT: Pokémon dell’evento si stanno facendo vivi nei raid
+
+RESOURCE ID: costume_pokemon_wild
+TEXT: Pokémon dell’evento stanno apparendo allo stato selvatico
 
 RESOURCE ID: dd_2021_collection_challenge
 TEXT: Sfida di collezione di “Discesa Dragospira”
@@ -869,8 +944,17 @@ TEXT: Puoi trasferire dei Pokémon o ampliare il tuo spazio Pokémon.
 RESOURCE ID: english
 TEXT: English
 
+RESOURCE ID: error_generate_referral_code_failed
+TEXT: Impossibile individuare il tuo codice invito.
+
 RESOURCE ID: error_has_unsent_gift
 TEXT: Puoi regalare il biglietto in più dallo spazio Borsa.
+
+RESOURCE ID: error_refresh_referral_code_failed
+TEXT: Impossibile aggiornare il tuo codice invito.
+
+RESOURCE ID: error_refresh_referral_code_in_cooldown
+TEXT: Al momento il tuo codice invito non può essere aggiornato. Riprova più tardi.
 
 RESOURCE ID: event_evolve_cubone
 TEXT: Cubone può evolversi in Marowak di Alola
@@ -919,6 +1003,9 @@ TEXT: Forma Lineabianca
 RESOURCE ID: fossil_cup_title
 TEXT: Coppa Fossili
 
+RESOURCE ID: found_referral_code_from_link
+TEXT: Codice invito trovato!
+
 RESOURCE ID: french
 TEXT: Français
 
@@ -935,7 +1022,7 @@ RESOURCE ID: gbl_quintuple_dust_win
 TEXT: Quintuplo della polvere di stelle nella Lega Lotte GO
 
 RESOURCE ID: general1.ticket.2_alodude_description
-TEXT: Un biglietto per accedere alla ricerca speciale “Una strada rocciosa” il 21 maggio 2022 dalle 11:00 alle 14:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità della app.
+TEXT: Un biglietto per partecipare alla ricerca speciale “Una strada rocciosa” il 21 maggio 2022 dalle 11:00 alle 14:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità della app.
 
 PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 
@@ -953,6 +1040,46 @@ PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 RESOURCE ID: general1.ticket.2_deino_title
 TEXT: Appunti di campo: Deino
 
+RESOURCE ID: general1.ticket.2_description
+TEXT: Un biglietto per partecipare alla ricerca speciale “Dalle conchiglie alle spade” il 19 settembre 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.2_description_2
+TEXT: Un biglietto per accedere alla ricerca speciale “Fuoco e fiamme con Magmar” il 21 novembre 2020 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità della app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.2_duskt_description
+TEXT: Un biglietto per accedere alla ricerca speciale “Duskull, divertimento fino all’osso” il 9 ottobre 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.2_eevet_description
+TEXT: Un biglietto per accedere alla ricerca speciale “A te la scelta” il 14 e 15 agosto 2021 dalle 11:00 alle 17:00 ora locale entrambi i giorni, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.2_flett_description
+TEXT: Un biglietto per accedere alla ricerca speciale “Un coraggioso volatile” il 6 marzo 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità della app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.2_giblt_description
+TEXT: Un biglietto per accedere alla ricerca speciale “Qualcosa da sgranocchiare” il 6 giugno 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.2_hoppt_description
+TEXT: Un biglietto per accedere alla ricerca speciale “Op, op, Hop-là!” il 12 febbraio 2022 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.2_machop_description
+TEXT: Un biglietto per partecipare alla ricerca speciale “Sei una forza, Machop!” dalle 11:00 alle 17:00 ora locale del 16 gennaio, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS DELL’EVENTO, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
 RESOURCE ID: general1.ticket.2_may22_alola_description
 TEXT: Un biglietto per accedere alla ricerca speciale “Arrivederci Alola”, ovunque ti trovi. Ricorda che puoi ottenere questa ricerca speciale gratis completando tutte e quattro le ricerche speciali offerte durante la stagione di Alola entro le 9:59 ora locale di mercoledì 1° giugno 2022. Se hai già ottenuto la ricerca speciale “Arrivederci Alola” gratuitamente, puoi ancora acquistarne il biglietto per ottenere una serie aggiuntiva di missioni e premi. Per ulteriori dettagli consulta la sezione Novità della app.
 
@@ -967,13 +1094,53 @@ PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 RESOURCE ID: general1.ticket.2_mudkt_title
 TEXT: Biglietto per il Community Day classico dedicato a Mudkip
 
-RESOURCE ID: general1.ticket.2_starly_description
-TEXT: A ticket to access the Field Notes: Starly Special Research on July 17, 2022, from 11:00 a.m. to 2:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+RESOURCE ID: general1.ticket.2_oshat_description
+TEXT: Un biglietto per accedere alla ricerca speciale “Dalle conchiglie alle spade” il 19 settembre 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.2_shint_description
+TEXT: Un biglietto per accedere alla ricerca speciale “Baleno, Favilla e Occhiluce” il 21 novembre 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.2_sphet_description
+TEXT: Un biglietto per accedere alla ricerca speciale “Rotolando con Spheal” il 16 gennaio 2022 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.2_starly_description
+TEXT: Un biglietto per accedere alla ricerca speciale “Appunti di campo: Starly” il 17 luglio 2022 dalle 11:00 alle 14:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità della app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 
 RESOURCE ID: general1.ticket.2_starly_title
-TEXT: Field Notes: Starly
+TEXT: Appunti di campo: Starly
+
+RESOURCE ID: general1.ticket.2_swabt_description
+TEXT: Un biglietto per accedere alla ricerca speciale “Un volatile dalle ali di cotone” il 15 maggio 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.2_tepit_description
+TEXT: Un biglietto per accedere alla ricerca speciale “Bacche arrostite” il 3 luglio 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.3_description
+TEXT: Un biglietto per partecipare al Festival di Pokémon GO 2020 il 25 e 26 luglio 2020 dalle 10:00 alle 20:00 ora locale durante entrambe le giornate, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità della app.
+
+PER RICEVERE TUTTI I BONUS DELL’EVENTO SPECIALE, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.4_description
+TEXT: Un biglietto per partecipare al “Tour di Pokémon GO di Johto” il 26 febbraio 2022 dalle 9:00 alle 21:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità della app.
+
+ PER RICEVERE TUTTI I BONUS DELL’EVENTO SPECIALE, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: general1.ticket.5_description
+TEXT: Un biglietto per accedere al Festival di Pokémon GO il 17 e 18 luglio 2021 dalle 10:00 alle 18:00 ora locale entrambe le giornate, ovunque ti trovi. Il biglietto è offerto a un prezzo scontato solo per quest’anno in occasione dei festeggiamenti del quinto anniversario di Pokémon GO. Per ulteriori dettagli consulta la sezione Novità dell’app.
+
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 
 RESOURCE ID: general_buddy
 TEXT: Compagno
@@ -1585,14 +1752,26 @@ TEXT: Festival di Pokémon GO 2022: habitat tundra
 RESOURCE ID: gofest2022_tundra_description
 TEXT: Cattura questi Pokémon durante l’ora dell’habitat tundra!
 
+RESOURCE ID: gotour2022_choose_gold
+TEXT: Scegli la Versione Oro
+
+RESOURCE ID: gotour2022_choose_silver
+TEXT: Scegli la Versione Argento
+
+RESOURCE ID: gotour_kanto_srd_dialogue_4_3
+TEXT: Magari il tuo percorso personale e le tue aspirazioni sono diverse da quelle dei tuoi colleghi, ma in fin dei conti siete tutti Allenatori! Dovresti fare del tuo meglio per conoscere gli altri Allenatori che incontri durante le tue avventure
+
+RESOURCE ID: gotour_kanto_srd_dialogue_5_3
+TEXT: Hai già fatto grandi progressi nella tua avventura. Mi sa che è arrivato il momento di far vedere ciò che hai imparato durante il tuo cammino!
+
 RESOURCE ID: gotoursik_catch_beginning
-TEXT: Cattura questi Pokémon nell’habitat il viaggio comincia!
+TEXT: Cattura questi Pokémon nell’habitat: il viaggio comincia
 
 RESOURCE ID: gotoursik_photo_habitat_beginning
-TEXT: Fai una foto nell’habitat il viaggio comincia
+TEXT: Fai una foto nell’habitat: il viaggio comincia
 
 RESOURCE ID: gotoursik_today_view_habitat_beginning
-TEXT: Sei nell’habitat il viaggio comincia
+TEXT: Sei nell’habitat: il viaggio comincia
 
 RESOURCE ID: grunt_generic_greeting#14__male_speaker
 TEXT: Hai perso la strada? Eppure non hai l’aria preoccupata.
@@ -1618,6 +1797,18 @@ TEXT: Ricompense della Sincroavventura aumentate per la prossima settimana
 RESOURCE ID: increased_stardust_rocket
 TEXT: Più polvere di stelle sconfiggendo reclute del Team GO Rocket
 
+RESOURCE ID: input_referral_code_time_remaining_plural
+TEXT: Ti restano {0} ore per inserire un codice invito. Il tuo codice sarà disponibile qui tra {0} ore o dopo che avrai inserito il codice invito di un altro Allenatore.
+
+RESOURCE ID: input_referral_code_time_remaining_singular
+TEXT: Ti restano {0} ore per inserire un codice invito. Il tuo codice sarà disponibile qui tra {0} ore o dopo che avrai inserito il codice invito di un altro Allenatore.
+
+RESOURCE ID: invalid_referral_code
+TEXT: Codice invito non valido
+
+RESOURCE ID: invitations_not_available_special_desc
+TEXT: Non puoi invitare gli amici ai raid contro certi Pokémon leggendari, Pokémon di eventi o forme regionali.
+
 RESOURCE ID: italian
 TEXT: Italiano
 
@@ -1625,7 +1816,7 @@ RESOURCE ID: item_event_ticket_gray_to_gift_desc
 TEXT: Un biglietto in più per l’evento, dovuto a un errore di acquisto. Puoi inviarlo a un amico oppure ottenere un rimborso.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Un biglietto per accedere a una ricerca speciale il 25 giugno 2022 dalle 11:00 alle 14:00 ora locale, ovunque ti trovi.
+TEXT: A ticket to access Special Research on July 17, 2022, from 11:00 a.m. to 2:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc_2
 TEXT: Un biglietto per accedere a una ricerca speciale il 21 novembre dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
@@ -1637,7 +1828,25 @@ RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: Un biglietto per accedere a un evento speciale dalle 10:00 del 19 dicembre alle 20:00 del 20 dicembre 2020 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso a una ricerca speciale il 25 giugno 2022, ovunque ti trovi.
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso a una ricerca speciale il 17 luglio 2022, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_details_mrmime
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso all’evento dedicato a Mr. Mime di Galar dalle 10:00 del 19 dicembre alle 20:00 al 20 dicembre 2020 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_duskt_desc
+TEXT: Un biglietto per accedere a una ricerca speciale il 9 ottobre 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_eevet_desc
+TEXT: Un biglietto per accedere a una ricerca speciale il 14 e 15 agosto 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_flett_desc
+TEXT: Un biglietto per accedere a un ricerca speciale il 6 marzo 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_flett_details
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale il 6 febbraio 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_giblt_desc
+TEXT: Un biglietto per accedere a una ricerca speciale il 6 giugno dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_may22_alola_desc
 TEXT: Un biglietto per accedere alla ricerca speciale “Arrivederci Alola”, ovunque ti trovi.
@@ -1648,6 +1857,24 @@ TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso all
 RESOURCE ID: item_event_ticket_pink_name
 TEXT: Biglietto
 
+RESOURCE ID: item_event_ticket_pink_oshat_desc
+TEXT: Un biglietto per accedere a una ricerca speciale il 19 settembre 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_roset_desc
+TEXT: Un biglietto per accedere a un ricerca speciale il 7 febbraio 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_roset_details
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale il 7 febbraio 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_snivt_desc
+TEXT: Un biglietto per accedere a una ricerca speciale l’11 aprile 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_swabt_desc
+TEXT: Un biglietto per accedere a una ricerca speciale il 15 maggio 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_tepit_desc
+TEXT: Un biglietto per accedere a una ricerca speciale il 3 luglio 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
+
 RESOURCE ID: item_event_ticket_pink_to_gift_desc
 TEXT:  An extra event ticket from a purchase error. You can send it to a friend or get it refunded.
 
@@ -1657,10 +1884,23 @@ TEXT: Biglietto extra
 RESOURCE ID: item_event_ticket_to_gift_desc
 TEXT: Un biglietto dell'evento in più dovuto a un errore di acquisto. Puoi inviarlo a un amico oppure ottenere un rimborso.
 
+RESOURCE ID: item_global_event_ticket_desc
+TEXT: Un biglietto per partecipare a entrambe le giornate del Festival di Pokémon GO, il 4 e il 5 giugno 2022 dalle 10:00 alle 18:00 ora locale, ovunque ti trovi.
+
 RESOURCE ID: item_global_event_ticket_details
 TEXT: Un biglietto per partecipare all’evento finale del Festival di Pokémon GO, il 27 agosto 2022 dalle 10:00 alle 18:00 ora locale, ovunque ti trovi.
 
 PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
+RESOURCE ID: item_global_event_ticket_details_no_version_selected
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso a un evento speciale il 26 febbraio 2022, ovunque ti trovi.
+
+Per partecipare, devi scegliere una versione dell’evento. Ti consigliamo di scegliere una versione diversa da quella dei tuoi amici per scambiare Pokémon e completare così le sfide di collezione!
+
+RESOURCE ID: item_global_event_ticket_details_version_selected
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso a un evento speciale il 26 febbraio 2022, ovunque ti trovi.
+
+Puoi vedere la versione dell’evento che hai scelto nella sezione Premi del tuo profilo Allenatore.
 
 RESOURCE ID: item_global_event_ticket_to_gift_desc
 TEXT: Un biglietto in più per l’evento, dovuto a un errore di acquisto. Puoi inviarlo a un amico oppure ottenere un rimborso.
@@ -1744,6 +1984,12 @@ TEXT: Cinque Uova piene di felicità. Fanno guadagnare al giocatore il doppio de
 RESOURCE ID: lure_duration_4_hr
 TEXT: I moduli esca durano 4 ore
 
+RESOURCE ID: lure_rainy_event_bonus
+TEXT: Pokémon dell’evento sono attratti dai moduli esca pluviali
+
+RESOURCE ID: lure_spawns_custom
+TEXT: Pokémon dell’evento sono attratti dai moduli esca
+
 RESOURCE ID: m_avatar_poses_bundle_pose_36
 TEXT: Con mazzo 
 di Gracidee
@@ -1751,11 +1997,17 @@ di Gracidee
 RESOURCE ID: m_avatar_poses_bundle_pose_37
 TEXT: Posa Fabia
 
+RESOURCE ID: masterwork_sm_dialogue_1_4
+TEXT: Ad ogni modo, siamo qui per dare un’occhiata alla strana situazione che abbiamo scoperto durante la tua avventura ispirata alla regione di Kanto.
+
 RESOURCE ID: may22_alola_collection_challenge_1
 TEXT: Sfida di collezione di “Arrivederci Alola“
 
 RESOURCE ID: may22_alola_event_name
 TEXT: Arrivederci Alola
+
+RESOURCE ID: mega_daily_limit_description
+TEXT: Per oggi il megalivello di {0} non può aumentare ulteriormente.
 
 RESOURCE ID: mega_evo_bonus_buff_desc_mult
 TEXT: Mentre {0} è megaevoluto, otterrai caramelle aggiuntive per la cattura di Pokémon di tipo <b>{1}</b> o <b>{2}</b> o di un qualsiasi boss del raid.
@@ -1781,12 +2033,18 @@ TEXT: Mentre {0} è megaevoluto, otterrai caramelle e PE aggiuntivi e avrai magg
 RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
 TEXT: Mentre {0} è megaevoluto, otterrai caramelle e PE aggiuntivi e avrai maggiori probabilità di ricevere caramelle L per la cattura di Pokémon di tipo <b>{1}</b>.
 
+RESOURCE ID: mega_level_requirement_message_singular
+TEXT: Fai megaevolvere {0} ancora {1} volta per raggiungere il {2}!
+
 RESOURCE ID: mega_level_show_me_button
 TEXT: Fammi vedere!
 
+RESOURCE ID: mega_level_unlock_title
+TEXT: Ora puoi aumentare il megalivello di questo Pokémon!
+
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-02T00:41:14.866654
-at SHA ba57c0c5200dea6c2e0cc8e3b6dd11a75c76af50
+TEXT: Built at 2022-07-06T21:09:43.589978
+at SHA ef16cd22f9c3c71333d79514f6d12ff46492268f
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51
 
 RESOURCE ID: move_name_0367
@@ -1835,7 +2093,7 @@ RESOURCE ID: photobomb_five_deino
 TEXT: Cinque incontri a sorpresa con Deino in modalità foto GO
 
 RESOURCE ID: photobomb_five_starly
-TEXT: 5 surprise encounters with Starly in GO Snapshot
+TEXT: Cinque incontri a sorpresa con Starly in modalità foto GO
 
 RESOURCE ID: photobomb_safari_pika
 TEXT: Cinque incontri a sorpresa con Pikachu con un cappello da safari in modalità foto GO
@@ -1915,6 +2173,9 @@ TEXT: Pin Cluster Pokémon
 RESOURCE ID: pokemon_category_0905
 TEXT: Love-Hate Pokémon
 
+RESOURCE ID: pokemon_costume_info_transfer_to_professor_confirmation
+TEXT: Vuoi davvero trasferire questo Pokémon dell’evento?
+
 RESOURCE ID: pokemon_desc_0058_2792
 TEXT: They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.
 
@@ -1986,6 +2247,12 @@ TEXT: Its lancelike spikes and savage temperament have earned it the nickname �
 
 RESOURCE ID: pokemon_desc_0905
 TEXT: When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon’s love gives rise to the budding of fresh life across Hisui.
+
+RESOURCE ID: pokemon_info_multi_transfer_costume_pokemon_error
+TEXT: Non puoi selezionare Pokémon di eventi.
+
+RESOURCE ID: pokemon_info_multi_transfer_event_pokemon_final_confirmation
+TEXT: Hai selezionato anche Pokémon di eventi! Vuoi davvero trasferire i Pokémon selezionati?
 
 RESOURCE ID: pokemon_info_multi_transfer_ultra_beast_pokemon_error
 TEXT: Non puoi selezionare una Ultracreatura.
@@ -2096,6 +2363,9 @@ TEXT: Lotta contro un altro Allenatore mentre il tuo Pokémon compagno è con te
 
 RESOURCE ID: quest_catch_legendary_inarow_plural
 TEXT: Cattura almeno un Pokémon leggendario o misterioso nei tuoi prossimi {0} incontri con Pokémon leggendari o misteriosi
+
+RESOURCE ID: quest_catch_plural_unique
+TEXT: Cattura {0} specie diverse di Pokémon
 
 RESOURCE ID: quest_complete_alodude
 TEXT: Una strada rocciosa
@@ -3183,6 +3453,9 @@ TEXT: Guadagna {0} caramelle esplorando con il tuo compagno
 RESOURCE ID: quest_explore_km
 TEXT: Esplora {0} km
 
+RESOURCE ID: quest_gotoursik_photo_beginning
+TEXT: Fai una foto nell’habitat: il viaggio comincia
+
 RESOURCE ID: quest_power_up_dragon_plural
 TEXT: Power up Dragon-type Pokémon {0} times
 
@@ -3196,10 +3469,13 @@ RESOURCE ID: quest_snapshot_buddy
 TEXT: Fai una foto del tuo compagno
 
 RESOURCE ID: quest_snapshot_unique_fire_pokemon
-TEXT: Scatta una foto a {0} Pokémon di tipo Fuoco diversi
+TEXT: Scatta una foto a {0} Pokémon diversi di tipo Fuoco
 
 RESOURCE ID: quest_snapshot_unique_pokemon
 TEXT: Scatta una foto a {0} Pokémon diversi
+
+RESOURCE ID: quest_snapshot_wild_dragon_plural
+TEXT: Fai {0} foto a Pokémon di tipo Drago allo stato selvatico
 
 RESOURCE ID: quest_snapshot_wild_water_fire_grass_unique_plural
 TEXT: Scatta una foto a {0} Pokémon selvatici diversi di tipo Fuoco, Acqua o Erba
@@ -3282,6 +3558,9 @@ TEXT: Hai un talento incredibile per fare amicizia con i Pokémon, però, quindi
 RESOURCE ID: quest_special_dialogue_alodude_3_4
 TEXT: Grazie per avermi assistito nella mia ricerca oggi, %PLAYERNAME%. Il tuo aiuto provvidenziale è sempre una certezza “granitica” per me! Eh eh... A presto!
 
+RESOURCE ID: quest_special_dialogue_battle_weekend_1_0
+TEXT: Su che cosa concentrerai i tuoi sforzi, Allenatore di Pokémon?
+
 RESOURCE ID: quest_special_dialogue_dec20cd_2_5
 TEXT: Se i membri del Team GO Rocket non fossero così dediti a compiere furfanterie, con la loro energia e le loro risorse potrebbero essere degli ottimi alleati.
 
@@ -3357,6 +3636,21 @@ TEXT: Credevo che i misteri degli Ultravarchi e delle Ultracreature sarebbero st
 
 RESOURCE ID: quest_special_dialogue_elect_0_4
 TEXT: Pensi di riuscire a catturare alcuni di questi Pokémon?
+
+RESOURCE ID: quest_special_dialogue_flett_1_0
+TEXT: Ben fatto! Questo Fletchling ti seguirà per accompagnarti nella tua avventura.
+
+RESOURCE ID: quest_special_dialogue_giblt_3_4
+TEXT: Sarà bello vedere il vostro rapporto crescere durante la vostra avventura insieme!
+
+RESOURCE ID: quest_special_dialogue_hoopaunbound_2_12
+TEXT: Un po’ triste, non credi? Ma non temere, sono sicuro che  ci aspettano tante altre scoperte.
+
+RESOURCE ID: quest_special_dialogue_lvl_45_0_0
+TEXT: Ehilà, %PLAYERNAME%! Volevo vedere come te la stavi cavando. Sembra che tu abbia fatto ancora più progressi dall’ultima volta che abbiamo parlato!
+
+RESOURCE ID: quest_special_dialogue_lvl_50_3_1
+TEXT: È stato sorprendente vedere quanta strada hai fatto dall’inizio della tua avventura. Hai un grande talento e spero che sfrutterai appieno le tue abilità.
 
 RESOURCE ID: quest_special_dialogue_may22_alola_branch_quest_0_0
 TEXT: %PLAYERNAME%! Che bello vederti. Come va? Spero tu abbia avuto modo di riposare e rilassarti!
@@ -3505,86 +3799,206 @@ TEXT: Comunque, succo delizioso a parte, sapevi che ogni isola della regione di 
 RESOURCE ID: quest_special_dialogue_melemele_2_3
 TEXT: Tapu Koko è in grado di controllare i fulmini e si dice che sia in grado di volare più velocemente di quanto l’occhio umano possa percepire. Siccome sono apparsi così tanti Pokémon originari di Mele Mele, non sarà che anche Tapu Koko ci stia facendo visita?
 
+RESOURCE ID: quest_special_dialogue_onboard_sr_7_3
+TEXT: Sono le Palestre, e avranno un ruolo di primaria importanza per la tua avventura.
+
 RESOURCE ID: quest_special_dialogue_poni_0_4
 TEXT: Tapu Fini è il protettore di Poni nella regione di Alola.
 
+RESOURCE ID: quest_special_dialogue_rockethq11_0_0
+TEXT: Come va, Allenatore di Pokémon?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_0_1
+TEXT: Sembrerebbe esserci un incremento nel numero di membri del Team GO Rocket in giro in questa zona.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_0_2
+TEXT: Non ho ancora capito che cosa stiano facendo qui, ma sospetto che stiano tramando qualche sorta di piano.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_0_3
+TEXT: Dovremmo indagare prima che decidano di causare dei guai.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_0
+TEXT: Grazie, Allenatore. L’atmosfera è migliorata ora che in giro ci sono meno membri del Team GO Rocket.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_1
+TEXT: Un dettaglio ancora mi sfugge... Perché i Pokémon usati dal Team GO Rocket possiedono quelle aure particolari?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_2
+TEXT: Capisco. Allora diventano Pokémon Ombra a seguito di esperimenti e maltrattamenti.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_3
+TEXT: In sostanza, corrompono delle creature innocenti per poi abbandonarle?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_4
+TEXT: La loro crudeltà è imperdonabile.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_5
+TEXT: Ormai è evidente che questa associazione intende perseguire i propri obiettivi senza alcuno scrupolo di coscienza.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_6
+TEXT: Dobbiamo mettergli il bastone tra le ruote in tutti i modi possibili.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_7
+TEXT: Andiamo, Allenatore. Iniziamo a soccorrere dei Pokémon Ombra.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_0
+TEXT: Quei poveri Pokémon...
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_1
+TEXT: ... ... ...
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_2
+TEXT: Ah... Allenatore di Pokémon.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_3
+TEXT: Domando scusa per il mio umore tetro. Non riesco a smettere di pensare ai Pokémon Ombra.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_4
+TEXT: Non c’è nient’altro che possiamo fare, a parte salvarli dal Team GO Rocket? Rimarranno in questo stato per sempre?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_5
+TEXT: Mhmm. Sei in grado di... purificarli?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_6
+TEXT: Se nel processo riesci a rimuovere la loro aura cupa, mi farebbe molto piacere osservare il fenomeno.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_7
+TEXT: Me lo mostreresti, Allenatore di Pokémon?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_0
+TEXT: Dunque questo è un Pokémon purificato. La sua aura cupa è sparita, sostituta da... lucentezza.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_1
+TEXT: Meriti un encomio, ma i nostri sforzi non possono concludersi qui.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_2
+TEXT: Forse dovremmo rivolgere la nostra attenzione ai membri del Team GO Rocket di più elevata posizione.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_3
+TEXT: Se tu riuscissi a sconfiggere i leader, forse potremmo contrastare i loro piani.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_0
+TEXT: Sono state tra le lotte più feroci a cui io abbia mai assistito, Allenatore di Pokémon. È una fortuna averti dalla mia parte.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_1
+TEXT: Nonostante tutto, purtroppo pare che i leader del Team GO Rocket non abbiano avuto ripensamenti. Anche loro hanno abbandonato i Pokémon Ombra.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_2
+TEXT: Ma di sicuro abbiamo rallentato i loro piani. Un’organizzazione tanto estesa non può funzionare se i suoi leader non sono al pieno delle forze.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_3
+TEXT: Mhmm. Dobbiamo ancora misurarci con questo... Giovanni, giusto?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_4
+TEXT: Dunque il nostro lavoro non è ancora finito, Allenatore di Pokémon.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_0
+TEXT: Una lotta davvero impressionante.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_1
+TEXT: Ammiro la tua capacità di superare qualunque ostacolo che trovi lungo il tuo cammino.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_2
+TEXT: Assapora pure la tua meritata vittoria... Ma dobbiamo restare all’erta. Se il Team GO Rocket dovesse arrivare a manipolare le Ultracreature...
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_3
+TEXT: La loro malvagità non deve interferire con i nostri sforzi.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_4
+TEXT: Per ora, tuttavia, ritengo che dovremmo porre nuovamente concentrarci sugli Ultravarchi.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_5
+TEXT: Finché resteranno aperti nel tuo mondo, potrebbero comparire altre Ultracreature.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_6
+TEXT: Ma considerando la forza che hai dimostrato oggi, forse le mie ansie sono infondate.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_7
+TEXT: In ogni caso, ti ringrazio per avermi consentito di osservarti oggi. Sono felice di aver potuto aiutare così tanti Pokémon.
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_8
+TEXT: Arrivederci alla prossima, Allenatore di Pokémon.
+
+RESOURCE ID: quest_special_dialogue_snivt_2_4
+TEXT: Ti dispiacerebbe far evolvere il tuo Servine in Serperior? Sarebbe veramente utile per le mie ricerche, e tu avresti un Pokémon di tipo Erba potente con cui continuare la tua avventura.
+
 RESOURCE ID: quest_special_dialogue_starly_0_0
-TEXT: Greetings, Pokémon Trainer. You have arrived at a convenient time. I would like you to assist me.
+TEXT: Salve, Allenatore di Pokémon. Capiti al momento opportuno, vorrei chiederti di assistermi.
 
 RESOURCE ID: quest_special_dialogue_starly_0_1
-TEXT: I am only beginning to grow familiar with the sounds of this world. The rustling of leaves, the crashing of waves...
+TEXT: Sto giusto iniziando a familiarizzare con i suoni di questo mondo. Il fruscio delle foglie, il frangersi delle onde...
 
 RESOURCE ID: quest_special_dialogue_starly_0_2
-TEXT: But today I hear a new—there!
+TEXT: Ma oggi ne odo uno nuovo che giunge da laggiù!
 
 RESOURCE ID: quest_special_dialogue_starly_0_3
-TEXT: That high-pitched chattering and stirring of air. Is it some sort of natural phenomenon?
+TEXT: Quella melodia acuta e stridente e il frullare di ali. È una sorta di fenomeno naturale?
 
 RESOURCE ID: quest_special_dialogue_starly_0_4
-TEXT: So you believe it to be caused by Pokémon. Intriguing.
+TEXT: Dunque credi che sia causato da un Pokémon. Accattivante.
 
 RESOURCE ID: quest_special_dialogue_starly_0_5
-TEXT: I am eager to locate the source. Let us proceed.
+TEXT: Vorrei individuarne la fonte. Procediamo.
 
 RESOURCE ID: quest_special_dialogue_starly_1_0
-TEXT: So the multitude of Starly are the source of this cacophony.
+TEXT: Dunque la fonte di questa cacofonia è una moltitudine di Starly.
 
 RESOURCE ID: quest_special_dialogue_starly_1_1
-TEXT: Though diminutive, they flap their wings with great power. And when they form a flock...
+TEXT: Nonostante la taglia minuta, sbattono le ali con grande energia. E quando formano uno stormo...
 
 RESOURCE ID: quest_special_dialogue_starly_1_2
-TEXT: I would not wish to be the target of their displeasure.
+TEXT: Non vorrei essere la causa del loro fastidio.
 
 RESOURCE ID: quest_special_dialogue_starly_1_3
-TEXT: The strength of such a small creature is a marvel.
+TEXT: È un prodigio come una creatura tanto piccola sia così forte.
 
 RESOURCE ID: quest_special_dialogue_starly_1_4
-TEXT: And if it were to evolve, I suspect that strength would only grow.
+TEXT: E se dovesse evolversi, presumo che la sua forza aumenterebbe ancora.
 
 RESOURCE ID: quest_special_dialogue_starly_1_5
-TEXT: Evolution affects Pokémon in such splendid ways. How will Starly change, do you think? Not another head, surely?
+TEXT: Le evoluzioni influenzano i Pokémon in maniera stupefacente. Come cambierà Starly, secondo te? Non gli spunterà certamente un’altra testa, vero?
 
 RESOURCE ID: quest_special_dialogue_starly_1_6
-TEXT: After our experience with Deino, little would surprise me. Nevertheless, I would like to witness this transformation for myself.
+TEXT: Dopo la nostra esperienza con Deino, poco mi sorprenderebbe. In ogni caso, vorrei assistere a questa trasformazione di persona.
 
 RESOURCE ID: quest_special_dialogue_starly_2_0
-TEXT: I am impressed yet again, Pokémon Trainer.
+TEXT: Sono di nuovo in preda allo stupore, Allenatore di Pokémon.
 
 RESOURCE ID: quest_special_dialogue_starly_2_1
-TEXT: Staravia might not have grown an additional head, but it did increase in size.
+TEXT: A Staravia non sarà spuntata una seconda testa, ma è cresciuto alquanto di dimensioni.
 
 RESOURCE ID: quest_special_dialogue_starly_2_2
-TEXT: My early observations indicate that Staravia, too, prefer to travel in a flock.
+TEXT: Le mie prime osservazioni indicano che anche Staravia preferisca viaggiare in stormi.
 
 RESOURCE ID: quest_special_dialogue_starly_2_3
-TEXT: And when Staravia are not surrounded by their kind, they cry noisily. Perhaps they find comfort and security when together.
+TEXT: E quando non è circondato dai suoi simili, emette forti versi. Forse si sente più a suo agio e sicuro in gruppo.
 
 RESOURCE ID: quest_special_dialogue_starly_2_4
-TEXT: I...can understand this.
+TEXT: Lo posso capire.
 
 RESOURCE ID: quest_special_dialogue_starly_2_5
-TEXT: Ahem. Does it evolve further? What changes might that bring?
+TEXT: Ehm. Ha ulteriori evoluzioni? In quale altro modo può cambiare?
 
 RESOURCE ID: quest_special_dialogue_starly_3_0
-TEXT: Stunning. What a formidable physique.
+TEXT: Sbalorditivo. Che corporatura formidabile.
 
 RESOURCE ID: quest_special_dialogue_starly_3_1
-TEXT: This musculature of this Pokémon—Staraptor, is it?—indicates great strength. It appears more than capable of carrying away its prey.
+TEXT: La muscolatura di questo Pokémon è indice di grande possanza. Staraptor, giusto? Sembra più che capace di volar via portando con sé la sua preda.
 
 RESOURCE ID: quest_special_dialogue_starly_3_2
-TEXT: And, unlike Starly and Staravia, it appears not to travel in flocks. Curious.
+TEXT: E, a differenza di Starly e Staravia, non viaggia in stormi. Curioso.
 
 RESOURCE ID: quest_special_dialogue_starly_3_3
-TEXT: The Pokémon of this world have such fascinating social structures. Some are more comfortable with others, and some find contentment alone.
+TEXT: I Pokémon di questo mondo hanno delle strutture sociali davvero affascinanti. Alcuni sono più a proprio agio in gruppo, altri da soli.
 
 RESOURCE ID: quest_special_dialogue_starly_3_4
-TEXT: They are like humans in this way, do you not think?
+TEXT: Sotto questo punto di vista, somigliano agli esseri umani, non trovi?
 
 RESOURCE ID: quest_special_dialogue_starly_3_5
-TEXT: With each investigation we undertake, my understanding of your world is further illuminated.
+TEXT: Con ogni indagine che intraprendiamo, la mia comprensione del tuo mondo si espande ulteriormente.
 
 RESOURCE ID: quest_special_dialogue_starly_3_6
-TEXT: Thank you for your company, Pokémon Trainer. Until again.
+TEXT: Grazie della compagnia, Allenatore di Pokémon. A presto.
 
 RESOURCE ID: quest_special_dialogue_ulaula_1_5
 TEXT: Cominciamo con Tapu Bulu, il protettore di Ula Ula.
@@ -3593,10 +4007,10 @@ RESOURCE ID: quest_starly_catch_b
 TEXT: Cattura {0} Starly
 
 RESOURCE ID: quest_starly_evolve_b
-TEXT: Evolve {0} Starly
+TEXT: Fai evolvere {0} Starly
 
 RESOURCE ID: quest_starly_snapshot_b
-TEXT: Take {0} snapshots of Starly
+TEXT: Fai {0} foto a Starly
 
 RESOURCE ID: quest_template.display.branches#0.button_text_key
 TEXT: Palestre e reclute
@@ -3707,19 +4121,19 @@ RESOURCE ID: quest_title_mudkt_3
 TEXT: Community Day classico dedicato a Mudkip (4/4)
 
 RESOURCE ID: quest_title_starly
-TEXT: Field Notes: Starly
+TEXT: Appunti di campo: Starly
 
 RESOURCE ID: quest_title_starly_0
-TEXT: Field Notes: Starly (1/4)
+TEXT: Appunti di campo: Starly (1/4)
 
 RESOURCE ID: quest_title_starly_1
-TEXT: Field Notes: Starly (2/4)
+TEXT: Appunti di campo: Starly (2/4)
 
 RESOURCE ID: quest_title_starly_2
-TEXT: Field Notes: Starly (3/4)
+TEXT: Appunti di campo: Starly (3/4)
 
 RESOURCE ID: quest_title_starly_3
-TEXT: Field Notes: Starly (4/4)
+TEXT: Appunti di campo: Starly (4/4)
 
 RESOURCE ID: quest_title_ulaula
 TEXT: Avventura a Ula Ula
@@ -3802,6 +4216,9 @@ TEXT: Usa {0} Caramelle Rare
 RESOURCE ID: quest_use_rare_candy_singular
 TEXT: Usa una Caramella Rara
 
+RESOURCE ID: quest_walk_25km_inaweek_plural
+TEXT: Percorri 25 km in una settimana {0} volte usando Sincroavventura
+
 RESOURCE ID: quest_win_raid_buddy_plural
 TEXT: Vinci {0} raid con il tuo Pokémon compagno
 
@@ -3824,7 +4241,7 @@ RESOURCE ID: quest_win_raid_with_friend_singular
 TEXT: Vinci un raid con un amico
 
 RESOURCE ID: quest_win_raids_unique_1500_plural
-TEXT: Vinci {0} raid con una squadra formata da Pokémon di specie diversa con un massimo di 1.500 PL
+TEXT: Vinci {0} raid con una squadra formata da Pokémon diversi con un massimo di 1.500 PL
 
 RESOURCE ID: quest_win_raids_unique_plural
 TEXT: Vinci {0} raid con una squadra di Pokémon diversi
@@ -3841,8 +4258,89 @@ TEXT: Lotta insieme ad altri giocatori nei dintorni per sconfiggere il boss del 
 RESOURCE ID: raid_join_in_person_out_of_range
 TEXT: Avvicinati per lottare in questo raid.
 
+RESOURCE ID: raid_xp_25_fivestar
+TEXT: PE da raid livello cinque moltiplicati per 1,25
+
 RESOURCE ID: raiding_box
 TEXT: Pacco raid
+
+RESOURCE ID: referral_code_copy
+TEXT: Copia il codice invito
+
+RESOURCE ID: referral_code_share
+TEXT: Condividi il codice invito
+
+RESOURCE ID: referral_disclaimer
+TEXT: Se inviti qualcuno che aveva già iniziato la sua avventura in Pokémon GO, potrai ricevere ricompense solo se l’Allenatore che ha usato il tuo codice invito non ha effettuato l’accesso da più di {0} giorni.
+
+RESOURCE ID: referral_enter_code_about
+TEXT: Puoi ricevere un codice invito dagli amici che giocano a Pokémon GO.
+
+RESOURCE ID: referral_enter_code_button
+TEXT: Hai un codice invito?
+
+RESOURCE ID: referral_enter_code_later
+TEXT: Puoi inserire un codice invito anche nel menu amici fino a 72 ore dall’inizio della tua avventura.
+
+RESOURCE ID: referral_enter_code_later_parameterized
+TEXT: Puoi inserire un codice invito anche nel menu amici fino a {0} ore dall’inizio della tua avventura.
+
+RESOURCE ID: referral_enter_code_skip
+TEXT: Ignora
+
+RESOURCE ID: referral_enter_friend_code_button
+TEXT: INSERISCI UN CODICE INVITO
+
+RESOURCE ID: referral_enter_invite_code
+TEXT: Inserisci il codice invito:
+
+RESOURCE ID: referral_friend_invite_error_friend_later_message
+TEXT: Vuoi comunque provare ad aggiungere questa persona? Riceverai una ricompensa da invito, ma per ottenerne altre di questo tipo dovrai diventare amico della persona che ti ha invitato a giocare a Pokémon GO.
+
+RESOURCE ID: referral_friend_invite_error_friend_list_full_message
+TEXT: Riceverai una ricompensa da invito, ma per ottenerne altre di questo tipo dovrai diventare amico della persona che ti ha invitato a giocare a Pokémon GO.
+
+RESOURCE ID: referral_friend_invite_error_outbox_full_title
+TEXT: Non puoi inviare altre richieste di amicizia al momento.
+
+RESOURCE ID: referral_friend_invite_error_self
+TEXT: Non puoi inviare il codice invito a te stesso.
+
+RESOURCE ID: referral_friend_invite_later_error_title
+TEXT: Impossibile inviare la richiesta di amicizia all’Allenatore che ti ha invitato.
+
+RESOURCE ID: referral_get_code_button
+TEXT: OTTIENI IL CODICE INVITO
+
+RESOURCE ID: referral_get_code_now_modal_title
+TEXT: Vuoi invitare degli amici a giocare a Pokémon GO?
+
+RESOURCE ID: referral_get_code_now_modal_warning
+TEXT: Non potrai più inserire il codice invito di un amico.
+
+RESOURCE ID: referral_initial_reward_generic_name
+TEXT: Un tuo amico
+
+RESOURCE ID: referral_initial_reward_joined
+TEXT: Un tuo amico ha cominciato a giocare a Pokémon GO!
+
+RESOURCE ID: referral_initial_reward_label
+TEXT: Ricompense ottenute:
+
+RESOURCE ID: referral_initial_reward_returned
+TEXT: Un tuo amico è tornato a giocare a Pokémon GO!
+
+RESOURCE ID: referral_initial_reward_welcome_back
+TEXT: Un tuo amico ti dà il bentornato in Pokémon GO!
+
+RESOURCE ID: referral_reward_example_description
+TEXT: Ecco alcune ricompense che puoi ricevere quando un amico che hai invitato raggiunge determinati obiettivi in Pokémon GO. Anche il tuo amico riceverà delle ricompense, come 100 Poké Ball per aver intrapreso la sua avventura!
+
+RESOURCE ID: referral_welcome
+TEXT: Ti diamo il benvenuto!
+
+RESOURCE ID: referral_your_code
+TEXT: Il tuo codice invito
 
 RESOURCE ID: russian
 TEXT: Русский
@@ -3922,6 +4420,9 @@ TEXT: Coppa Cattura di Siviglia: torneo
 RESOURCE ID: seville_cup_title_extended_description
 TEXT: Una Coppa Cattura di una settimana per tutti gli Allenatori con biglietti per la Zona Safari di Siviglia
 
+RESOURCE ID: share_my_referral_code_message
+TEXT: Se ti iscrivi o torni a giocare a Pokémon GO utilizzando il mio codice invito {0}, riceverai immediatamente 100 Poké Ball, potrai ottenere dei bonus speciali e altro ancora. {1}
+
 RESOURCE ID: shop_daily_bonus_header
 TEXT: Un regalo speciale!
 
@@ -3944,7 +4445,7 @@ RESOURCE ID: spawn_deino
 TEXT: Più Deino stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_starly
-TEXT: More Starly are appearing in the wild!
+TEXT: Più Starly stanno apparendo allo stato selvatico!
 
 RESOURCE ID: special_trades_plus_5
 TEXT: Cinque scambi speciali aggiuntivi al giorno
@@ -4052,7 +4553,7 @@ RESOURCE ID: sr_gofest2022_d1_catch_narrative_section_5_2
 TEXT: Mentre cerchiamo più informazioni, che ne dici di tornare a dare un’occhiata a quali Pokémon si trovino in giro?
 
 RESOURCE ID: sr_gofest2022_d1_explore_narrative_section_2_0
-TEXT: Sono certo che non vedi l’ora di andare, ma dedichiamo qualche momento a pensare agli amici che ti hanno aiutato in questo viaggio.
+TEXT: Sono certo che non vedi l’ora di andare, ma dedichiamo qualche momento a pensare agli amici che ti hanno aiutato in questa avventura.
 
 RESOURCE ID: sr_gofest2022_d1_explore_narrative_section_2_1
 TEXT: Perché non invii loro qualche pacco amicizia per fargli sapere che sono nei tuoi pensieri? È un ottimo modo per ringraziarli!
@@ -4495,6 +4996,9 @@ TEXT: Pokémon GO Fest 2022: Berlin (6/7)
 RESOURCE ID: sr_gofest2022_leb_7
 TEXT: Pokémon GO Fest 2022: Berlin (7/7)
 
+RESOURCE ID: sr_gotour2022_sr_dialogue_2_2
+TEXT: Sono sicuro che questo piccolo amico non vede l’ora di passare un po’ di tempo con te, e quale modo migliore se non accompagnarti nella tua avventura nella regione di Johto!
+
 RESOURCE ID: starpiece.25_title
 TEXT: Pezzi Stella x25
 
@@ -4699,6 +5203,27 @@ TEXT: Recent
 RESOURCE ID: stickers_v2_recently_collected
 TEXT: Recently Collected
 
+RESOURCE ID: story_quest_rockethq11
+TEXT: Appunti di campo: Team GO Rocket
+
+RESOURCE ID: story_quest_rockethq11_0
+TEXT: Appunti di campo: Team GO Rocket(1/6)
+
+RESOURCE ID: story_quest_rockethq11_1
+TEXT: Appunti di campo: Team GO Rocket(2/6)
+
+RESOURCE ID: story_quest_rockethq11_2
+TEXT: Appunti di campo: Team GO Rocket(3/6)
+
+RESOURCE ID: story_quest_rockethq11_3
+TEXT: Appunti di campo: Team GO Rocket(4/6)
+
+RESOURCE ID: story_quest_rockethq11_4
+TEXT: Appunti di campo: Team GO Rocket(5/6)
+
+RESOURCE ID: story_quest_rockethq11_5
+TEXT: Appunti di campo: Team GO Rocket(6/6)
+
 RESOURCE ID: summer_cup_title
 TEXT: Coppa Estate
 
@@ -4714,6 +5239,11 @@ TEXT: Biglietto per la ricerca speciale intitolata “Una strada rocciosa” dis
 RESOURCE ID: ticket_deino
 TEXT: I biglietti per la ricerca speciale “Appunti di campo: Deino” sono disponibili nel negozio
 
+RESOURCE ID: ticket_electabuzz_description
+TEXT: Un biglietto per accedere alla ricerca speciale "L’elettrizzante Electabuzz" del 15 novembre 2020 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità della app.
+
+PER RICEVERE IL BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
+
 RESOURCE ID: ticket_may22_alola
 TEXT: I biglietti per la ricerca speciale “Arrivederci Alola” sono disponibili nel negozio
 
@@ -4721,7 +5251,7 @@ RESOURCE ID: ticket_mudkip
 TEXT: I biglietti per la ricerca speciale del Community Day classico dedicato a Mudkip sono disponibili nel negozio
 
 RESOURCE ID: ticket_starly
-TEXT: Ticket for the Field Notes: Starly Special Research story available in the shop
+TEXT: I biglietti per la ricerca speciale “Appunti di campo: Starly” sono disponibili nel negozio
 
 RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: Gli Allenatori devono collaborare come community globale per completare questa sfida.
@@ -4755,6 +5285,15 @@ TEXT: I moduli esca attirano i Pokémon verso un Pokéstop per 30 minuti. Hanno 
 
 RESOURCE ID: trade_tut_special_trade_message
 TEXT: Pokémon leggendari, Pokémon misteriosi, Ultracreature, Pokémon purificati, Pokémon cromatici e Pokémon al momento non inclusi nel tuo Pokédex possono essere scambiati solo una volta al giorno tramite scambio speciale.
+
+RESOURCE ID: troydisk_glacial.1_description
+TEXT: Un modulo esca gelido che attira i Pokémon, specialmente quelli amanti del freddo, per 30 minuti. Può far evolvere alcuni Pokémon.
+
+RESOURCE ID: troydisk_magnetic.1_description
+TEXT: Un modulo esca elettronico che attira i Pokémon, specialmente quelli circondati da un campo magnetico, per 30 minuti. Può far evolvere alcuni Pokémon.
+
+RESOURCE ID: troydisk_mossy.1_description
+TEXT: Un modulo esca naturale che attira i Pokémon, specialmente quelli amanti del profumo di sottobosco, per 30 minuti. Può far evolvere alcuni Pokémon.
 
 RESOURCE ID: turkish
 TEXT: Türkçe
@@ -4795,6 +5334,12 @@ TEXT: La Lega Lotte GO richiede {0} Pokémon di specie diversa per giocare!
 RESOURCE ID: vss_league_unique_rule_description
 TEXT: Pokémon di specie diversa necessari: {0}
 
+RESOURCE ID: waiting_for_referral_code_from_link
+TEXT: Ricerca in corso del codice invito associato al tuo link.
+
 RESOURCE ID: weekly_box
 TEXT: Pacco settimanale
+
+RESOURCE ID: your_referral_code_changed
+TEXT: Il tuo codice invito è stato cambiato.
 

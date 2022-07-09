@@ -114,12 +114,21 @@ TEXT: เสื้อสูทขาว
 RESOURCE ID: avatar_f_shirt_bea_00_bundle_icon
 TEXT: ชุดสไตลไซโต
 
+RESOURCE ID: avatar_f_shirt_genderlessskirt_00_bundle_icon
+TEXT: เสื้อแจ็กเก็ตแบบชั้น
+
 RESOURCE ID: avatar_f_shirt_gofest2022_00_bundle_icon
 TEXT: เสื้อยืด GO Fest 2022
 
 RESOURCE ID: avatar_f_shirt_shayminlandtshirt_00_bundle_icon
 TEXT: เสื้อยืดเชมิน
 ฟอรมพื้นดิน
+
+RESOURCE ID: avatar_f_shirt_spring2021gulpin_00_bundle_icon
+TEXT: ชุดโกคูลิน
+
+RESOURCE ID: avatar_f_shirt_spring2021plusle_00_bundle_icon
+TEXT: ชุดไมนัน
 
 RESOURCE ID: avatar_f_shirt_tcgcollabtshirtandcap_00_bundle_icon
 TEXT: เสื้อยืดลายพิคาชู
@@ -190,6 +199,9 @@ TEXT: เสื้อสูทขาว
 
 RESOURCE ID: avatar_m_shirt_bea_00_bundle_icon
 TEXT: ชุดสไตลไซโต
+
+RESOURCE ID: avatar_m_shirt_genderlessskirt_00_bundle_icon
+TEXT: เสื้อแจ็กเก็ตแบบชั้น
 
 RESOURCE ID: avatar_m_shirt_gofest2022_00_bundle_icon
 TEXT: เสื้อยืด GO Fest 2022
@@ -1047,7 +1059,7 @@ RESOURCE ID: general1.ticket.2_alodude_title
 TEXT: เสนทางแสนขรุขระ
 
 RESOURCE ID: general1.ticket.2_deino_description
-TEXT: ตั๋วเขารวมงานวิจัยพิเศษ "วิจัยโปเกมอน: โมโนซึ"
+TEXT: ตั๋วเขารวมงานวิจัยพิเศษ "งานวิจัย: โมโนซึ"
 ในวันที่ 25 มิถุนายน 2022 เวลา 11:00-14:00 น.
 ตามเวลาทองถิ่น
 สามารถดูรายละเอียดไดที่ขาวสารในเกม
@@ -1056,7 +1068,7 @@ TEXT: ตั๋วเขารวมงานวิจัยพิเศ�
 เพื่อรับโบนัสทั้งหมดจากอีเวนตพิเศษ
 
 RESOURCE ID: general1.ticket.2_deino_title
-TEXT: วิจัยโปเกมอน: โมโนซึ
+TEXT: งานวิจัย: โมโนซึ
 
 RESOURCE ID: general1.ticket.2_may22_alola_description
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ "อโลลาฟนาเล" ไดจากทุกที่ทั่วโลก โปรดทราบวาคุณสามารถรับงานวิจัยพิเศษนี้ไดโดยไมเสียคาใชจายโดยการทำงานวิจัยพิเศษทั้งสี่ของฤดูกาลนี้ใหเสร็จสิ้นภายในวันที่ 1 มิถุนายน 2022 9:59 น. ตามเวลาทองถิ่นทั่วโลก และแมวาคุณไดรับงานวิจัยพิเศษ "อโลลาฟนาเล" โดยไมมีคาใชจายแลว คุณก็ยังสามารถซื้อตั๋วนี้เพื่อรับภารกิจและรางวัลเซ็ตเดียวกันไดอีกครั้ง ตรวจสอบรายละเอียดไดในหนาขาวสารในเกมและบล็อก
@@ -1822,9 +1834,7 @@ RESOURCE ID: item_event_ticket_gray_to_gift_desc
 TEXT: ตั๋วอีเวนตสวนเกินที่เกิดจากขอผิดพลาดในการซื้อ คุณสามารถสงใหเพื่อนหรือทำเรื่องขอเงินคืนได
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษในวันที่
-25 มิ.ย. 2022 เวลา 11:00 - 14:00 น.
-ตามเวลาทองถิ่นทั่วโลก
+TEXT: A ticket to access Special Research on July 17, 2022, from 11:00 a.m. to 2:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc_alodude
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษในวันที่
@@ -1834,9 +1844,9 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 
 RESOURCE ID: item_event_ticket_pink_details
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ
-ในวันที่ 25 มิถุนายน 2022
-คุณจะสามารถเขารวมไดโดยอัตโนมัติ
-ตามเวลาทองถิ่นทั่วโลก
+ในวันที่ 17 กรกฎาคม 2022
+คุณจะสามารถเขารวมไดโดย
+อัตโนมัติตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_pink_may22_alola_desc
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ "อโลลาฟนาเล" ไดจากทุกที่
@@ -2060,8 +2070,8 @@ TEXT: <b>ใชพลังงานเมกา</b>
 ก็จะลดลงเทานั้น
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-02T00:41:14.866654
-at SHA ba57c0c5200dea6c2e0cc8e3b6dd11a75c76af50
+TEXT: Built at 2022-07-06T21:09:43.589978
+at SHA ef16cd22f9c3c71333d79514f6d12ff46492268f
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51
 
 RESOURCE ID: mobile_games_catch_sr
@@ -2351,6 +2361,9 @@ TEXT: มักเกียว
 RESOURCE ID: pokemon_name_0655
 TEXT: มาฟอกซี
 
+RESOURCE ID: pokemon_name_0731
+TEXT: สึสึเคระ
+
 RESOURCE ID: pokemon_name_0899
 TEXT: Wyrdeer
 
@@ -2440,7 +2453,7 @@ RESOURCE ID: quest_complete_alodude
 TEXT: เสนทางแสนขรุขระ
 
 RESOURCE ID: quest_complete_deino
-TEXT: วิจัยโปเกมอน: โมโนซึ
+TEXT: งานวิจัย: โมโนซึ
 
 RESOURCE ID: quest_defeat_rocket_leader_2500
 TEXT: เอาชนะหัวหนาแกงโกร็อกเกตโดยใชเฉพาะโปเกมอนที่มี CP ต่ำกวา 2,500 จำนวน {0} ครั้ง
@@ -2648,6 +2661,9 @@ TEXT: ขอบคุณที่มาชวยทำวิจัยใน�
 
 RESOURCE ID: quest_special_dialogue_at_0_1
 TEXT: ใชแลว ฉันเองก็รูสึก ตอนแรกฉันคิดวาปรากฏการณแปลก ๆ นี้เกิดขึ้นเพราะความสามารถในการเทเลพอรทของเคซี
+
+RESOURCE ID: quest_special_dialogue_battle_weekend_1_0
+TEXT: วันนี้คุณจะเลือกอะไรเหรอ โปเกมอนเทรนเนอร?
 
 RESOURCE ID: quest_special_dialogue_celebi_5_2
 TEXT: ฉันขอแนะนำใหคุณเก็บตัวอยางในชวงสัปดาหหนา และทดลองใชไอเท็มวิวัฒนาการบางชิ้นเพื่อดูวาความรูสึกขึ้นนั้นจะเกิดขึ้นอีกครั้งหรือไม
@@ -3139,6 +3155,156 @@ TEXT: ขอบคุณชวยนะ %PLAYERNAME%!
 แคนเดลากับฉันคนควาเกี่ยวกับโปเกมอนชาโดว
  และไดคนพบบางอยางที่ไมสูดีนัก
 
+RESOURCE ID: quest_special_dialogue_rockethq11_0_0
+TEXT: สวัสดี โปเกมอนเทรนเนอร
+
+RESOURCE ID: quest_special_dialogue_rockethq11_0_1
+TEXT: ดูเหมือนสมาชิกแกงโกร็อกเกตจะปรากฏตัว
+ออกมาเยอะขึ้นในบริเวณนี้นะ
+
+RESOURCE ID: quest_special_dialogue_rockethq11_0_2
+TEXT: ถึงฉันจะยังไมรูเหตุผลที่พวกเขาทำตัว
+ลับ ๆ ลอ ๆ บริเวณนี้ แตเชื่อวาพวกเขาตอง
+กำลังวางแผนบางอยางอยูแน
+
+RESOURCE ID: quest_special_dialogue_rockethq11_0_3
+TEXT: ไปตรวจสอบกันเถอะ เราจะไดจัดการไดทันทวงที่
+หากเกิดเรื่องขึ้น
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_0
+TEXT: ขอบคุณมาก โปเกมอนเทรนเนอร
+พอสมาชิกแกงโกร็อกเกตเหลือนอยลง
+บรรยากาศโดยรอบก็ดูดีขึ้นมาเลย
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_1
+TEXT: แตฉันยังสงสัยอยูเรื่องหนึ่ง ทำไมโปเกมอน
+ของพวกแกงโกร็อกเกตถึงมีออรา
+แปลก ๆ หอหุมอยูละ?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_2
+TEXT: อยางนี้นี่เอง พวกมันถูกจับไปทดลอง
+เลยกลายเปนโปเกมอนชาโดวสินะ
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_3
+TEXT: พวกเขาเปลี่ยนโปเกมอนใหกลายเปนโปเกมอน
+ชาโดว จากนั้นก็ทอดทิ้งพวกมันงั้นเหรอ?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_4
+TEXT: อภัยใหไมได
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_5
+TEXT: พวกเขาเปนกลุมที่จะทำเพื่อเปาหมาย
+โดยไมเลือกวิธีการสินะ
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_6
+TEXT: เราตองขัดขวางพวกเขาใหได
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_7
+TEXT: ไปชวยโปเกมอนชาโดวกันเถอะ โปเกมอนเทรนเนอร
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_0
+TEXT: เหลาโปเกมอนที่นาสงสาร...
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_1
+TEXT: ... ... ...
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_2
+TEXT: อะ โปเกมอนเทรนเนอร
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_3
+TEXT: ตองขอโทษดวยที่แสดงกิริยาไมดีออกไปนะ
+ฉันกังวลเกี่ยวกับพวกโปเกมอนชาโดวนะ
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_4
+TEXT: ไมมีอะไรที่พวกเราสามารถทำไดนอกจาก
+ชวยพวกมันออกมาจากแกงโกร็อกเกตเหรอ?
+พวกมันตองอยูในสภาพนี้ไปตลอดหรือเปลา?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_5
+TEXT: หืม? คุณสามารถชำระลางพวกมันไดงั้นเหรอ?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_6
+TEXT: การชำระลางจะทำใหออราพวกนี้หายไป
+และทำใหพวกมันกลับไปอยูในสภาพดั้งเดิมสินะ
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_7
+TEXT: ทำใหดูหนอยไดไหม โปเกมอนเทรนเนอร?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_0
+TEXT: นี่คือโปเกมอนขาวสะอาดสินะ ออราที่ดำมืด
+กลายเปนออราเรืองรองสองประกาย
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_1
+TEXT: แตเพื่อใหความพยายามของพวกเราไม
+สูญเปลา เราจะมาหยุดอยูแคนี้ไมได
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_2
+TEXT: เราตองจัดการผูที่อยูเบื้องหลังแผนการชั่วราย
+ของแกงโกร็อกเกต
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_3
+TEXT: ถาเราเอาชนะหัวหนาของพวกเขาในการแบตเทิล
+ไดละก็ เราอาจจะยับยั้งแผนการชั่วรายนั้นได
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_0
+TEXT: นั่นเปนการแบตเทิลที่ดุเดือดที่สุด
+ที่ฉันเคยเห็นมาเลยละ โปเกมอนเทรนเนอร
+โชคดีจริง ๆ ที่อยูฝายเดียวกับคุณ
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_1
+TEXT: นาเสียดายที่หัวหนาแกงโกร็อกเกตดูไมมีทาที
+จะเปลี่ยนความคิดของพวกเขา แถมยัง
+ทอดทิ้งเหลาโปเกมอนชาโดวอีกดวย
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_2
+TEXT: แตอยางนอยเราก็ลมระดับหัวหนาของพวกเขา
+ได เพราะฉะนั้นแผนการก็ตองหยุดชะงักอยางแนนอน
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_3
+TEXT: หืม? เรายังตองจัดการกับคนที่ชื่อ...ซากากิ
+งั้นเหรอ?
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_4
+TEXT: หมายความวาหนาที่ของพวกเรายังไมจบสินะ
+โปเกมอนเทรนเนอร
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_0
+TEXT: เปนแบตเทิลที่รอนแรงมากเลย โปเกมอนเทรนเนอร
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_1
+TEXT: ฉันทึ่งในความสามารถในการกาวขามสิ่งทาทาย
+ตาง ๆ ของคุณมากเลย
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_2
+TEXT: ขอใหคุณภูมิใจกับชัยชนะที่ไดรับมา แตก็อยาเหลิง
+จนลืมตัว ถาหากแกงโกร็อกเกตเขาไปยุงเกี่ยว
+กับอัลตราบีสตละก็...
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_3
+TEXT: ตองกลายเปนเรื่องใหญแน เราตองระวัง
+ไมใหพวกเขาทำไดสำเร็จ
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_4
+TEXT: สวนตอนนี้ พวกเรากลับมาจัดการเรื่อง
+อัลตราโฮลกันกอนเถอะ
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_5
+TEXT: ตราบใดที่อัลตราโฮลยังปรากฏอยูในโลก
+ของคุณ พวกอัลตราบีสตก็อาจจะปรากฏตัวเพิ่มขึ้น
+เมื่อไหรก็ได
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_6
+TEXT: แตตราบใดที่เรามีโปเกมอนเทรนเนอรที่
+แข็งแกรงแบบคุณอยู เราอาจจะไมจำเปน
+ตองกังวลขนาดนั้นก็ได
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_7
+TEXT: อยางไรก็ตาม ขอบคุณที่ชวยเหลือโปเกมอน
+จากเงื้อมมือของแกงโกร็อกเกตในวันนี้นะ
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_8
+TEXT: ไวเจอกันใหม โปเกมอนเทรนเนอร
+
 RESOURCE ID: quest_special_dialogue_starly_0_0
 TEXT: Greetings, Pokémon Trainer. You have arrived at a convenient time. I would like you to assist me.
 
@@ -3271,19 +3437,19 @@ RESOURCE ID: quest_title_alodude_3
 TEXT: เสนทางแสนขรุขระ (4/4)
 
 RESOURCE ID: quest_title_deino
-TEXT: วิจัยโปเกมอน: โมโนซึ
+TEXT: งานวิจัย: โมโนซึ
 
 RESOURCE ID: quest_title_deino_0
-TEXT: วิจัยโปเกมอน: โมโนซึ (1/4)
+TEXT: งานวิจัย: โมโนซึ (1/4)
 
 RESOURCE ID: quest_title_deino_1
-TEXT: วิจัยโปเกมอน: โมโนซึ (2/4)
+TEXT: งานวิจัย: โมโนซึ (2/4)
 
 RESOURCE ID: quest_title_deino_2
-TEXT: วิจัยโปเกมอน: โมโนซึ (3/4)
+TEXT: งานวิจัย: โมโนซึ (3/4)
 
 RESOURCE ID: quest_title_deino_3
-TEXT: วิจัยโปเกมอน: โมโนซึ (4/4)
+TEXT: งานวิจัย: โมโนซึ (4/4)
 
 RESOURCE ID: quest_title_may22_alola_branch_quest_0
 TEXT: อโลลาฟนาเล (1/4)
@@ -4547,6 +4713,27 @@ TEXT: Recent
 RESOURCE ID: stickers_v2_recently_collected
 TEXT: Recently Collected
 
+RESOURCE ID: story_quest_rockethq11
+TEXT: วิจัย: แกงโกร็อกเกต
+
+RESOURCE ID: story_quest_rockethq11_0
+TEXT: วิจัย: แกงโกร็อกเกต (1/6)
+
+RESOURCE ID: story_quest_rockethq11_1
+TEXT: วิจัย: แกงโกร็อกเกต (2/6)
+
+RESOURCE ID: story_quest_rockethq11_2
+TEXT: วิจัย: แกงโกร็อกเกต (3/6)
+
+RESOURCE ID: story_quest_rockethq11_3
+TEXT: วิจัย: แกงโกร็อกเกต (4/6)
+
+RESOURCE ID: story_quest_rockethq11_4
+TEXT: วิจัย: แกงโกร็อกเกต (5/6)
+
+RESOURCE ID: story_quest_rockethq11_5
+TEXT: วิจัย: แกงโกร็อกเกต (6/6)
+
 RESOURCE ID: summer_cup_title
 TEXT: การแขงขันฤดูรอน
 
@@ -4560,7 +4747,7 @@ RESOURCE ID: ticket_alodude
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "เสนทางแสนขรุขระ" ไดที่รานคา
 
 RESOURCE ID: ticket_deino
-TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "วิจัยโปเกมอน: โมโนซึ" ไดที่รานคา
+TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "งานวิจัย: โมโนซึ" ไดที่รานคา
 
 RESOURCE ID: ticket_may22_alola
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "อโลลาฟนาเล" ไดที่รานคา

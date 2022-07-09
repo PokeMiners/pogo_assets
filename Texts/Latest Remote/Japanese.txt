@@ -84,10 +84,12 @@ TEXT: ポケモンカードゲーム
 キャップ
 
 RESOURCE ID: avatar_f_pants_6thanniversary_00_bundle_icon
-TEXT: 6周年　白スーツ　パンツ
+TEXT: 6周年　白スーツ
+パンツ
 
 RESOURCE ID: avatar_f_shirt_6thanniversary_00_bundle_icon
-TEXT: 6周年　白スーツ　トップスセット
+TEXT: 6周年　白スーツ
+トップスセット
 
 RESOURCE ID: avatar_f_shirt_bea_00_bundle_icon
 TEXT: サイトウ　セット
@@ -152,13 +154,15 @@ TEXT: ポケモンカードゲーム
 キャップ
 
 RESOURCE ID: avatar_m_pants_6thanniversary_00_bundle_icon
-TEXT: 6周年　白スーツ　パンツ
+TEXT: 6周年　白スーツ
+パンツ
 
 RESOURCE ID: avatar_m_pants_veterantrainerxy_0_bundle_icon
 TEXT: ベテランレギンズ
 
 RESOURCE ID: avatar_m_shirt_6thanniversary_00_bundle_icon
-TEXT: 6周年　白スーツ　トップスセット
+TEXT: 6周年　白スーツ
+トップスセット
 
 RESOURCE ID: avatar_m_shirt_bea_00_bundle_icon
 TEXT: サイトウ　セット
@@ -545,7 +549,7 @@ TEXT: ポケモンを1種類メガシンカできた！
 RESOURCE ID: batch_transfer_confirm
 TEXT: 研究所に{0}匹送りますか？
 
-開始後キャンセルはできません。
+開始後キャンセルはできません
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
 TEXT: <size=36><b>選択されたポケモンのうち{0}匹のみ研究所に送ることができます。</b></size>
@@ -735,7 +739,7 @@ TEXT: コミュニティ・デイ：ムックル
 RESOURCE ID: convert_to_stardust
 TEXT: 道具バッグがいっぱいのため、このギフトを開けるとほしのすな以外はもらえません。
 
-設定から道具バッグがいっぱいのときにギフトを開けない設定にできます。
+設定から道具バッグがいっぱいのときにギフトを開けるかどうか設定できます。
 
 RESOURCE ID: corphish_o_clock
 TEXT: ヘイガニ大量発生
@@ -869,11 +873,20 @@ TEXT: けんのおう
 RESOURCE ID: form_darmanitan_zen
 TEXT: ダルマモード
 
+RESOURCE ID: form_disguised
+TEXT: ばけたすがた
+
 RESOURCE ID: form_full_belly
 TEXT: まんぷくもよう
 
+RESOURCE ID: form_gorging
+TEXT: まるのみのすがた
+
 RESOURCE ID: form_greninja_ash
 TEXT: サトシのゲッコウガ
+
+RESOURCE ID: form_gulping
+TEXT: うのみのすがた
 
 RESOURCE ID: form_hangry
 TEXT: はらぺこもよう
@@ -919,6 +932,9 @@ TEXT: がんさくフォルム
 
 RESOURCE ID: form_pirouette
 TEXT: ステップフォルム
+
+RESOURCE ID: form_primal
+TEXT: ゲンシカイキのすがた
 
 RESOURCE ID: form_school
 TEXT: むれたすがた
@@ -1635,13 +1651,13 @@ RESOURCE ID: item_event_ticket_gray_to_gift_desc
 TEXT: 購入エラーによる余分なイベントチケット。別のフレンドに贈るか払い戻しを受けることができます。
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 現地時間2022年6月25日11:00AM～2:00PMにスペシャルリサーチを遂行するためのチケット。
+TEXT: 現地時間2022年7月17日11:00AM～2:00PMにスペシャルリサーチを遂行するためのチケット。
 
 RESOURCE ID: item_event_ticket_pink_desc_alodude
 TEXT: 現地時間2022年5月21日11:00AM～2:00PMにスペシャルリサーチを遂行するためのチケット。
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: このチケットは自動的に発動し、現地時間2022年6月25日にスペシャルリサーチが行えるようになります。
+TEXT: このチケットは自動的に発動し、現地時間2022年7月17日にスペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_may22_alola_desc
 TEXT: 「アローラフィナーレ」スペシャルリサーチを遂行するためのチケット。
@@ -1769,8 +1785,8 @@ RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
 TEXT: {0}がメガシンカしているあいだは、{1}タイプのポケモンを捕まえてもらえるアメ・XPとアメXL確率が増えます
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-02T00:41:14.866654
-at SHA ba57c0c5200dea6c2e0cc8e3b6dd11a75c76af50
+TEXT: Built at 2022-07-06T21:09:43.589978
+at SHA ef16cd22f9c3c71333d79514f6d12ff46492268f
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51
 
 RESOURCE ID: minicollect_medal_progress_description
@@ -1801,10 +1817,10 @@ RESOURCE ID: open_gifts_on_bag_full_tip
 TEXT: 道具バッグがいっぱいでもギフトを開けてほしのすなを入手
 
 RESOURCE ID: open_video_sponsored_balloon_postcard_message
-TEXT: Watch a video from your sponsor and earn some free items!
+TEXT: スポンサーの動画を見て無料アイテムをもらおう！
 
 RESOURCE ID: open_video_sponsored_gift_button
-TEXT: Open Video
+TEXT: 動画を開く
 
 RESOURCE ID: paidraidticket.3_description
 TEXT: レイドバトルや、GOバトルリーグのプレミアム戦に使用できるパス。お得な3枚入り。
@@ -1893,6 +1909,15 @@ TEXT: 対になりて　縄張りを　哨戒す。　体毛に　火成岩な�
 RESOURCE ID: pokemon_desc_0059_2793
 TEXT: 燃え盛る炎　牙に纏わせ　食らい付く。　体躯　大柄なれど　陽動　鮮やかなりて　敵　翻弄せしむる姿　演舞の如し。
 
+RESOURCE ID: pokemon_desc_0144_g
+TEXT: サイコパワーでつくった羽根の刃はぶ厚い鉄板も紙のように切り裂く。
+
+RESOURCE ID: pokemon_desc_0145_g
+TEXT: 羽毛が擦れるときバチバチと電気のような音がすることからサンダーと呼ばれてきた。
+
+RESOURCE ID: pokemon_desc_0146_g
+TEXT: 烈火のごとき邪悪なオーラに当てられると精魂が尽き果て真っ白に燃えつきてしまうのだ。
+
 RESOURCE ID: pokemon_desc_0157_2786
 TEXT: ヒスイの中心にそびえし　霊山の気が　影響した姿と　考察。　行き場　失いし　霊魂を　己の炎で浄化し　送ると言う。
 
@@ -1929,6 +1954,21 @@ TEXT: 下顎を　覆う　氷塊の装甲は　鋼に勝り　岩石を　砕�
 RESOURCE ID: pokemon_desc_0724_2785
 TEXT: ヒスイの　極寒に　耐えるため　羽根の　芯に　空気を含み　防寒機能　有す。　環境が　進化に　影響すると　判明す。
 
+RESOURCE ID: pokemon_desc_0745_dusk
+TEXT: 黄昏時に進化した結果なぜか変わった姿に。アローラではとても珍しい。
+
+RESOURCE ID: pokemon_desc_0746_school
+TEXT: 海の魔物と呼ばれて いる。戦いで傷つきヨワシの数が減るとただの群れに戻る。
+
+RESOURCE ID: pokemon_desc_0773_disc
+TEXT: 封印されたタイプチェンジの能力を解放。湧きあがるエネルギーで銀色に輝く。
+
+RESOURCE ID: pokemon_desc_0774_exposed
+TEXT: 外殻のむけた姿。コアの色の違いは食べたエサの成分によるもの。
+
+RESOURCE ID: pokemon_desc_0779_busted
+TEXT: 正体がばれそうで悲しい。首の部分を折った相手は絶対許さず復しゅうする。
+
 RESOURCE ID: pokemon_desc_0899
 TEXT: 目に見えぬ　壁を　作りしとき　黒き珠　妖しく　輝きたり。　抜け落ちし　髭は　暖かく 冬衣の　原料に　重宝す。
 
@@ -1959,7 +1999,7 @@ TEXT: 研究所に送る
 RESOURCE ID: pokemon_info_transfer_to_professor_confirmation
 TEXT: <size=36><b>{0}を研究所に送ってもいいですか？</b></size>
 
-開始後キャンセルはできません。
+開始後キャンセルはできません
 
 RESOURCE ID: pokemon_info_transfer_to_professor_result
 TEXT: ポケモンを送って研究所から{0}のアメを受け取った
@@ -2090,6 +2130,9 @@ TEXT: {0}km 探索する
 RESOURCE ID: quest_land_inarow_excellent_curveball_plural
 TEXT: カーブボールのエクセレントスローを{0}回連続で投げる
 
+RESOURCE ID: quest_play_buddy_singular
+TEXT: 相棒と遊ぶ
+
 RESOURCE ID: quest_power_up_dragon_plural
 TEXT: ドラゴンタイプのポケモンを{0}回強化する
 
@@ -2179,6 +2222,9 @@ TEXT: きみならば、どんなポケモンとでも仲良くなれるとは�
 
 RESOURCE ID: quest_special_dialogue_alodude_3_4
 TEXT: 協力に感謝する、%PLAYERNAME%！きみの協力を得られて「最硬」な一日だった。またすぐ会おう！
+
+RESOURCE ID: quest_special_dialogue_battle_weekend_1_0
+TEXT: ポケモントレーナー、どちらを選ぶ？
 
 RESOURCE ID: quest_special_dialogue_deino_0_0
 TEXT: ．．．きみ、興味深いポケモンだね。どこを見てるの？光は見えてるのかな？
@@ -2386,6 +2432,120 @@ TEXT: おかえり！GOロケット団も難なく倒せたようだな！
 RESOURCE ID: quest_special_dialogue_poni_1_0
 TEXT: %PLAYERNAME%、おかえり！
 
+RESOURCE ID: quest_special_dialogue_rockethq11_0_0
+TEXT: あ、こんにちは。ポケモントレーナー。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_0_1
+TEXT: GOロケット団に属する人たちが現れだしているようだね。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_0_2
+TEXT: 邪魔をしに現れたのか。何か悪事を働こうとしているのか．．．
+
+RESOURCE ID: quest_special_dialogue_rockethq11_0_3
+TEXT: 調べてみよう。大きな問題を起こす前に対処しておこう。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_0
+TEXT: ありがとう、ポケモントレーナー。GOロケット団の人たちが少なくなって、空気が違う感じがする。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_1
+TEXT: ひとつわからないことがあるんだけど、なぜGOロケット団が連れているポケモンは怪しいオーラをまとっている？
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_2
+TEXT: そうか。怪しい実験によってシャドウポケモンに変えられているからなんだね。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_3
+TEXT: ポケモンをシャドウポケモンに変えておきながら、逃げるときは置き去りにする？
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_4
+TEXT: 許せない。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_5
+TEXT: GOロケット団は、自分たちの目的のためには手段を選ばない人たちだね。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_6
+TEXT: なんとかして止めなければ。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_1_7
+TEXT: シャドウポケモンを救いに行こう、ポケモントレーナー！
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_0
+TEXT: かわいそうなポケモンたち．．．
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_1
+TEXT: ... ... ...
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_2
+TEXT: シャドウポケモンについて、何かできることがないか、考えていたんだ。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_3
+TEXT: GOロケット団から救い出す方法．．．
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_4
+TEXT: ．．．考えても思いつかなくて。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_5
+TEXT: え？リトレーンという方法があるって？
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_6
+TEXT: リトレーンでポケモン本来のすがたに戻すことができるんだね。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_2_7
+TEXT: ポケモントレーナー、やって見せてくれるかな？
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_0
+TEXT: リトレーンすると輝きがすごいね、キラキラした空気をまとって、いっそう美しく見える。まさにライトポケモン、だ。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_1
+TEXT: でも油断はできないね。GOロケット団にはリーダーがいるんでしょう？
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_2
+TEXT: その人たちが裏で悪だくみを考えているんだね。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_3_3
+TEXT: リーダーたちを抑えることができれば、GOロケット団の動きを抑えることにつながるはず。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_0
+TEXT: あんなに激しい戦いをみたのは初めて。あなたが味方で良かったよ！
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_1
+TEXT: リーダーたちまでポケモンを置き去りにして逃げるのには驚いたけどね。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_2
+TEXT: でも、リーダーを倒したので、悪だくみを実行するのは止められたはずじゃないかな？
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_3
+TEXT: えっ、違う？サカキという名のボスがいる？
+
+RESOURCE ID: quest_special_dialogue_rockethq11_4_4
+TEXT: じゃあ、サカキを倒さなくては！
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_0
+TEXT: 激しい戦いだったね、ポケモントレーナー。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_1
+TEXT: どんなに手強い相手でも一歩も引かないようすには驚いたよ。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_2
+TEXT: お疲れさま。でも油断はできないね。GOロケット団が、もしウルトラビーストに目をつけたりしたら．．．
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_3
+TEXT: それは阻止しなくては。わたしたちの活動を邪魔されたくない。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_4
+TEXT: でも、ウルトラホールにも注意を払う必要がある。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_5
+TEXT: あなたたちの世界にウルトラホールが出現している以上、ウルトラビーストがやってくる可能性はある。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_6
+TEXT: あなたのように頼りになるポケモントレーナーがいればそれほど恐れる必要もないのかもしれないが．．．
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_7
+TEXT: 今日はたくさんのポケモンを、あなたと一緒に救えてよかったよ。
+
+RESOURCE ID: quest_special_dialogue_rockethq11_5_8
+TEXT: また会おう、ポケモントレーナー！
+
 RESOURCE ID: quest_special_dialogue_starly_0_0
 TEXT: あ、ポケモントレーナー。こんにちは。
 
@@ -2486,7 +2646,7 @@ RESOURCE ID: quest_template.display.branches#1.button_text_key
 TEXT: GOバトルリーグ
 
 RESOURCE ID: quest_template.display.branches#1.description_key
-TEXT: By choosing this path, you'll be challenged with tasks related to battling and winning against other players and earn rewards such as an encounter with Charizard and more
+TEXT: この道を選ぶとトレーナーとの対戦に勝ってリザードンに出会うことを含むリワードを入手できます。
 
 RESOURCE ID: quest_template.display.branches#1.title_key
 TEXT: GOバトルリーグ
@@ -3500,6 +3660,27 @@ TEXT: 最近
 
 RESOURCE ID: stickers_v2_recently_collected
 TEXT: 最近集めた
+
+RESOURCE ID: story_quest_rockethq11
+TEXT: 研究：GOロケット団
+
+RESOURCE ID: story_quest_rockethq11_0
+TEXT: 研究：GOロケット団 (1/6)
+
+RESOURCE ID: story_quest_rockethq11_1
+TEXT: 研究：GOロケット団 (2/6)
+
+RESOURCE ID: story_quest_rockethq11_2
+TEXT: 研究：GOロケット団 (3/6)
+
+RESOURCE ID: story_quest_rockethq11_3
+TEXT: 研究：GOロケット団 (4/6)
+
+RESOURCE ID: story_quest_rockethq11_4
+TEXT: 研究：GOロケット団 (5/6)
+
+RESOURCE ID: story_quest_rockethq11_5
+TEXT: 研究：GOロケット団 (6/6)
 
 RESOURCE ID: summer_cup_title
 TEXT: サマーカップ
