@@ -528,13 +528,13 @@ RESOURCE ID: badge_gotour_2022_silver_test
 TEXT: 글로벌, 2022년 2월 26일
 
 RESOURCE ID: badge_pokedex_entries_gen8a
-TEXT: Register {0} Pokémon first discovered in the Hisui region to the Pokédex.
+TEXT: 히스이지방에서 발견된 포켓몬을 {0}마리 포켓몬 도감에 등록했다!
 
 RESOURCE ID: badge_pokedex_entries_gen8a_singular
-TEXT: Register {0} Pokémon first discovered in the Hisui region to the Pokédex.
+TEXT: 히스이지방에서 발견된 포켓몬을 1마리 포켓몬 도감에 등록했다!
 
 RESOURCE ID: badge_pokedex_entries_gen8a_title
-TEXT: Hisui
+TEXT: 히스이
 
 RESOURCE ID: badge_pokedex_entries_gen8a_value_format
 TEXT: N0
@@ -627,7 +627,7 @@ RESOURCE ID: bonus_cd_move_deino
 TEXT: 디헤드를 삼삼드래로 진화시키면 스페셜 어택 세차게휘두르기를 배우고 있다
 
 RESOURCE ID: bonus_cd_move_starly
-TEXT: Evolve Staravia to get a Staraptor that knows the Fast Attack Gust
+TEXT: 찌르버드를 찌르호크로 진화시키면 바람일으키기를 배울 수 있다
 
 RESOURCE ID: bonus_implicit_social_alodude
 TEXT: 하나의 루어모듈에서 잡은 포켓몬이 일정 수를 넘으면, 그 주변에서 30분 동안 4x 포켓몬 잡았을 때 별의모래
@@ -645,7 +645,7 @@ RESOURCE ID: bonus_implicit_social_deino_raid_title
 TEXT: 커뮤니티 데이 챌린지: 레이드
 
 RESOURCE ID: bonus_implicit_social_lure_4x_catch_xp
-TEXT: If enough Pokémon are caught with help from a single Lure Module, the 3× XP bonus for catching Pokémon near the Lured PokéStop will become a 4× bonus for 30 minutes.
+TEXT: 하나의 루어모듈에서 잡은 포켓몬이 일정 수를 넘으면, 그 주변에서 30분 동안 4x 포켓몬 잡았을 때 XP
 
 RESOURCE ID: bonus_implicit_social_lure_title
 TEXT: 커뮤니티 데이 챌린지: 캐치
@@ -654,16 +654,16 @@ RESOURCE ID: bonus_implicit_social_raid_title
 TEXT: 커뮤니티 데이 챌린지: 레이드
 
 RESOURCE ID: bonus_implicit_social_starly_raid
-TEXT: If Trainers defeat Staravia in a Raid Battle, more wild Starly will appear around the Gym that hosted the raid for 30 minutes.
+TEXT: 트레이너가 협력해 레이드배틀에서 찌르버드를 쓰러뜨리면, 그 체육관 주변에 30분 동안 찌르꼬가 많이 출현
 
 RESOURCE ID: bonus_not_active
 TEXT: 현재 활성화 된 보너스 없음
 
 RESOURCE ID: bonus_special_trade_starly_cd
-TEXT: One additional Special Trade can be made during the event and up to five hours afterward for a maximum of three for the day.
+TEXT: 이벤트 시작부터 종료 5시간 후까지 특별한 교환 1회추가(당일 최대 3회 가능)
 
 RESOURCE ID: bonus_trade_stardust_50pc_5hr
-TEXT: Trades made during the event and up to five hours after will require 50% less Stardust.
+TEXT: 이벤트 시작부터 종료 5시간 후까지 교환에 필요한 별의모래 1/2.
 
 RESOURCE ID: bonus_unlocked
 TEXT: 보너스 언록!
@@ -723,7 +723,7 @@ RESOURCE ID: community_day_deino_event_name
 TEXT: 커뮤니티 데이: 모노두
 
 RESOURCE ID: community_day_starly_event_name
-TEXT: Community Day: Starly
+TEXT: 커뮤니티 데이: 찌르꼬
 
 RESOURCE ID: convert_to_stardust
 TEXT: 도구가 가득 차서 이 선물을 열면 별의모래 외에는 받을 수 없습니다.
@@ -747,6 +747,9 @@ TEXT: English
 
 RESOURCE ID: error_has_unsent_gift
 TEXT: 도구 가방에 선물로 보낼 수 있는 티켓이 있습니다
+
+RESOURCE ID: error_ticket_not_owned
+TEXT: You must purchase a ticket for this event before you can purchase one for a friend.
 
 RESOURCE ID: event_evolve_cubone
 TEXT: 탕구리는 텅구리(알로라의 모습)에 진화할 수 있다
@@ -777,13 +780,43 @@ RESOURCE ID: filter_key_defense
 TEXT: 방어
 
 RESOURCE ID: filter_key_hisui
-TEXT: hisui
+TEXT: 히스이
 
 RESOURCE ID: filter_key_ultra_beast
 TEXT: 울트라비스트
 
+RESOURCE ID: form_aegislash_blade
+TEXT: 블레이드폼
+
+RESOURCE ID: form_aegislash_shield
+TEXT: 실드폼
+
+RESOURCE ID: form_amped
+TEXT: 하이한 모습
+
+RESOURCE ID: form_antique
+TEXT: 진작폼
+
+RESOURCE ID: form_busted
+TEXT: 들킨 모습
+
+RESOURCE ID: form_swirl_ruby
+TEXT: 루비믹스
+
 RESOURCE ID: form_white_striped
-TEXT: White-Striped Form
+TEXT: 백색근의 모습
+
+RESOURCE ID: form_wishiwashi_school
+TEXT: 군집의 모습
+
+RESOURCE ID: form_zygarde_complete
+TEXT: 퍼펙트폼
+
+RESOURCE ID: form_zygarde_fifty_percent
+TEXT: 50%폼
+
+RESOURCE ID: form_zygarde_ten_percent
+TEXT: 10%폼
 
 RESOURCE ID: fossil_cup_title
 TEXT: 화석컵
@@ -840,12 +873,12 @@ RESOURCE ID: general1.ticket.2_sphet_title
 TEXT: 손뼉포켓몬의 수수께끼를 풀어라!' 티켓
 
 RESOURCE ID: general1.ticket.2_starly_description
-TEXT: A ticket to access the Field Notes: Starly Special Research on July 17, 2022, from 11:00 a.m. to 2:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: 전 세계 어디에 있어도 현지 시간 2022년 7월 17일 11시~14시까지 게임 내에서 시작할 수 있는 이벤트 "포켓몬 연구:  찌르꼬에 대해"를 플레이할 수 있는 티켓. 자세한 내용은 게임 내 새소식에서 확인할 수 있습니다.
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+이벤트를 최대한 즐기려면 기재된 개최 시간 내에 완료해야합니다.
 
 RESOURCE ID: general1.ticket.2_starly_title
-TEXT: Field Notes: Starly
+TEXT: 포켓몬 연구:  찌르꼬에 대해
 
 RESOURCE ID: general1.ticket.2_tepit_title
 TEXT: 불돼지포켓몬의 수수께끼를 풀어라!' 티켓
@@ -1475,7 +1508,7 @@ RESOURCE ID: item_event_ticket_gray_to_gift_desc
 TEXT: 여분 티켓 구매 에러. 프렌드에게 보내거나 환불할 수 있습니다.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access Special Research on July 17, 2022, from 11:00 a.m. to 2:00 p.m. local time, wherever you are.
+TEXT: 현지시간 2022년 7월 17일 11:00~14:00까지 스페셜리서치를 진행하기 위한 티켓.
 
 RESOURCE ID: item_event_ticket_pink_desc_alodude
 TEXT: 현지시간 2022년 5월 21일 11시~14시에 스페셜리서치를 진행하기 위한 티켓.
@@ -1613,8 +1646,8 @@ RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
 TEXT: {0}(이)가 메가진화 중에는 <b>{1}타입</b> 포켓몬을 잡았을 때 받을 수 있는 포켓몬의 사탕, XP, 사탕XL의 확률이 증가합니다.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-06T21:09:43.589978
-at SHA ef16cd22f9c3c71333d79514f6d12ff46492268f
+TEXT: Built at 2022-07-13T16:47:11.192465
+at SHA 1d0b4248505aadb18a8a599fd7a555c3aae045be
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51
 
 RESOURCE ID: move_name_0367
@@ -1625,6 +1658,9 @@ TEXT: 구르기
 
 RESOURCE ID: move_name_0369
 TEXT: 시드플레어
+
+RESOURCE ID: nearby_raid_local_only
+TEXT: 현장 참가
 
 RESOURCE ID: nearby_raid_notification_toast
 TEXT: 거대한 알이 근처 체육관에 출현 중...!
@@ -1663,136 +1699,157 @@ RESOURCE ID: photobomb_five_deino
 TEXT: GO스냅샷으로 모노두의 서프라이즈 5회
 
 RESOURCE ID: photobomb_five_starly
-TEXT: 5 surprise encounters with Starly in GO Snapshot
+TEXT: GO스냅샷으로 찌르꼬의 서프라이즈 5번
 
 RESOURCE ID: photobomb_safari_pika
 TEXT: GO스냅샷에서 사파리 모자를 쓴 피카츄 서프라이즈 5번
 
 RESOURCE ID: pokemon_category_0058_2792
-TEXT: Scout Pokémon
+TEXT: 망보기포켓몬
 
 RESOURCE ID: pokemon_category_0059_2793
-TEXT: Legendary Pokémon
+TEXT: 전설포켓몬
+
+RESOURCE ID: pokemon_category_0144_2801
+TEXT: 냉혹포켓몬
+
+RESOURCE ID: pokemon_category_0145_2800
+TEXT: 건각포켓몬
+
+RESOURCE ID: pokemon_category_0146_2799
+TEXT: 사악포켓몬
 
 RESOURCE ID: pokemon_category_0157_2786
-TEXT: Ghost Flame Pokémon
+TEXT: 도깨비불포켓몬
 
 RESOURCE ID: pokemon_category_0211_2788
-TEXT: Balloon Pokémon
+TEXT: 풍선포켓몬
 
 RESOURCE ID: pokemon_category_0215_2794
-TEXT: Sharp Claw Pokémon
+TEXT: 갈고리손톱포켓몬
 
 RESOURCE ID: pokemon_category_0503_2787
-TEXT: Formidable Pokémon
+TEXT: 관록포켓몬
 
 RESOURCE ID: pokemon_category_0549_2789
-TEXT: Spinning Pokémon
+TEXT: 스핀포켓몬
 
 RESOURCE ID: pokemon_category_0570_2796
-TEXT: Spiteful Fox Pokémon
+TEXT: 원한여우포켓몬
 
 RESOURCE ID: pokemon_category_0571_2797
-TEXT: Baneful Fox Pokémon
+TEXT: 저주여우포켓몬
 
 RESOURCE ID: pokemon_category_0628_2798
-TEXT: Battle Cry Pokémon
+TEXT: 부르짖기포켓몬
 
 RESOURCE ID: pokemon_category_0705_2790
-TEXT: Snail Pokémon
+TEXT: 달팽이포켓몬
 
 RESOURCE ID: pokemon_category_0706_2791
-TEXT: Shell Bunker Pokémon
+TEXT: 껍질숨기포켓몬
 
 RESOURCE ID: pokemon_category_0713_2795
-TEXT: Iceberg Pokémon
+TEXT: 빙산포켓몬
 
 RESOURCE ID: pokemon_category_0724_2785
-TEXT: Arrow Quill Pokémon
+TEXT: 화살깃포켓몬
 
 RESOURCE ID: pokemon_category_0899
-TEXT: Big Horn Pokémon
+TEXT: 큰뿔포켓몬
 
 RESOURCE ID: pokemon_category_0900
-TEXT: Axe Pokémon
+TEXT: 큰도끼포켓몬
 
 RESOURCE ID: pokemon_category_0901
-TEXT: Peat Pokémon
+TEXT: 이탄포켓몬
 
 RESOURCE ID: pokemon_category_0902
-TEXT: Big Fish Pokémon
+TEXT: 큰물고기포켓몬
 
 RESOURCE ID: pokemon_category_0903
-TEXT: Free Climb Pokémon
+TEXT: 클라이밍포켓몬
 
 RESOURCE ID: pokemon_category_0904
-TEXT: Pin Cluster Pokémon
+TEXT: 침봉포켓몬
 
 RESOURCE ID: pokemon_category_0905
-TEXT: Love-Hate Pokémon
+TEXT: 애증포켓몬
 
 RESOURCE ID: pokemon_desc_0058_2792
-TEXT: They patrol their territory in pairs. I believe the igneous rock components in the fur of this species are the result of volcanic activity in its habitat.
+TEXT: 짝을 이루어 영역을 지킨다. 털에 화성암의 성분이 섞여 있는 것은 화산 활동의 영향인 것으로 추측된다.
 
 RESOURCE ID: pokemon_desc_0059_2793
-TEXT: Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.
+TEXT: 활활 타는 불꽃을 이빨에 두르고 문다. 체구가 큼에도 불구하고 화려한 움직임으로 적을 농락하는 모습이 마치 춤추는 것 같다.
+
+RESOURCE ID: pokemon_desc_0144_2801
+TEXT: 사이코 파워로 만들어진 깃털 형태의 칼날은 두꺼운 철판도 종잇장처럼 베어버린다.
+
+RESOURCE ID: pokemon_desc_0145_2800
+TEXT: 깃털이 마찰할 때 파직파직하는 전기가 튀는 듯한 소리가 나서 썬더라고 불렸다.
+
+RESOURCE ID: pokemon_desc_0146_2799
+TEXT: 열화와 같은 사악한 오라에 닿으면 기진맥진하게 되고 이윽고 새하얗게 타버린다고 한다.
 
 RESOURCE ID: pokemon_desc_0157_2786
-TEXT: Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui’s center.
+TEXT: 히스이 중심에 우뚝 선 영산의 기운에 영향을 받은 모습으로 보인다. 갈 곳 없는 영혼을 자신의 불꽃으로 정화하여 저승으로 인도한다고 한다.
 
 RESOURCE ID: pokemon_desc_0211_2788
-TEXT: Fishers detest this troublesome Pokémon because it sprays poison from its spines, getting it everywhere. A different form of Qwilfish lives in other regions.
+TEXT: 침으로 독을 흩뿌리며 귀찮게 하기 때문에 어부들이 몹시 싫어하는 존재다. 다른 지방에서는 다른 모습으로 서식한다.
 
 RESOURCE ID: pokemon_desc_0215_2794
-TEXT: Its sturdy, curved claws are ideal for traversing precipitous cliffs. From the tips of these claws drips a venom that infiltrates the nerves of any prey caught in Sneasel’s grasp.
+TEXT: 단단한 갈고리손톱은 가파른 절벽을 오르기에 유리하다. 끄트머리에서 나오는 독액은 먹이를 잡을 때 신경에 침투한다.
 
 RESOURCE ID: pokemon_desc_0503_2787
-TEXT: Hard of heart and deft of blade, this rare form of Samurott is a product of the Pokémon’s evolution in the region of Hisui. Its turbulent blows crash into foes like ceaseless pounding waves.
+TEXT: 히스이에서 진화한 희귀한 모습. 비정한 성격과 칼 솜씨를 자랑한다. 성난 파도 같은 연격은 천 겹의 파도와도 같다.
 
 RESOURCE ID: pokemon_desc_0549_2789
-TEXT: I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.
+TEXT: 눈 덮인 산에 살기 때문에 다릿심이 발달한 것으로 추측된다. 화관을 통해 주위에 있는 이를 고무시키는 향기를 내보낸다.
 
 RESOURCE ID: pokemon_desc_0570_2796
-TEXT: A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.
+TEXT: 죽은 영혼이 히스이 땅에서 되살아났다. 원한은 곧 힘이 되어 머리에 피어오르고 상대의 모습으로 변하여 원한을 풀려 한다.
 
 RESOURCE ID: pokemon_desc_0571_2797
-TEXT: With its disheveled white fur, it looks like an embodiment of death. Heedless of its own safety, Zoroark attacks its nemeses with a bitter energy so intense, it lacerates Zoroark’s own body.
+TEXT: 백발을 흐트러트린 모습은 마치 사신 같다. 자신의 몸이 찢어질 정도의 강한 원한을 이용해 함께 죽을 각오로 원수의 숨통을 노린다.
 
 RESOURCE ID: pokemon_desc_0628_2798
-TEXT: Screaming a bloodcurdling battle cry, this huge and ferocious bird Pokémon goes out on the hunt. It blasts lakes with shock waves, then scoops up any prey that float to the water’s surface.
+TEXT: 소름 끼치는 함성을 외쳐서 사냥하는 용맹하고 큰 새. 호수에 충격파를 발산해서 수면에 떠오른 먹잇감을 잡는다.
 
 RESOURCE ID: pokemon_desc_0705_2790
-TEXT: A creature given to melancholy. I suspect its metallic shell developed as a result of the mucus on its skin reacting with the iron in Hisui’s water.
+TEXT: 음침한 성격을 가졌다. 히스이 땅에 흐르는 물에 함유된 철이 피부의 점액에 작용하여 금속 껍질로 변한 것으로 추측된다.
 
 RESOURCE ID: pokemon_desc_0706_2791
-TEXT: Able to freely control the hardness of its metallic shell. It loathes solitude and is extremely clingy—it will fume and run riot if those dearest to it ever leave its side.
+TEXT: 금속 껍질의 강도를 자유롭게 조절할 수 있다. 고독한 것을 싫어하고 집요하여, 좋아하는 이가 자신에게서 떨어지려 하면 분노하여 날뛴다.
 
 RESOURCE ID: pokemon_desc_0713_2795
-TEXT: The armor of ice covering its lower jaw puts steel to shame and can shatter rocks with ease. This Pokémon barrels along steep mountain paths, cleaving through the deep snow.
+TEXT: 아래턱을 감싸고 있는 얼음으로 된 장갑은 강철보다 단단하여 암석을 손쉽게 부서뜨린다. 깊이 쌓인 눈을 가로지르며 험한 산길을 맹진한다.
 
 RESOURCE ID: pokemon_desc_0724_2785
-TEXT: The air stored inside the rachises of Decidueye’s feathers insulates the Pokémon against Hisui’s extreme cold. This is firm proof that evolution can be influenced by environment.
+TEXT: 히스이의 극한의 추위에 견디기 위해 깃털의 심에 공기를 머금어 방한 기능을 갖췄다. 환경이 진화에 영향을 주는 것으로 판명된다.
 
 RESOURCE ID: pokemon_desc_0899
-TEXT: The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing.
+TEXT: 눈에 보이지 않는 벽을 만들어 낼 때 검은 구슬이 신비하게 빛난다. 떨어진 수염은 따뜻해서 겨울옷의 귀중한 재료가 된다.
 
 RESOURCE ID: pokemon_desc_0900
-TEXT: A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one’s only recourse is to flee.
+TEXT: 단단한 바위로 몸을 보호하고 투박한 도끼로 거목을 베어 넘긴다. 성질이 사납기 때문에 황무지에서 만난다면 도망치는 수밖에 없다.
 
 RESOURCE ID: pokemon_desc_0901
-TEXT: I believe it was Hisui’s swampy terrain that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.
+TEXT: 히스이 땅에 펼쳐진 습지의 토양 덕분에 튼튼한 몸과 함께, 이탄을 자유롭게 다루는 새로운 재주를 익히게 된 것으로 추측된다.
 
 RESOURCE ID: pokemon_desc_0902
-TEXT: Clads itself in the souls of comrades that perished before fulfilling their goals of journeying upstream. No other species throughout all Hisui’s rivers is Basculegion’s equal.
+TEXT: 물길을 거슬러 오르는 여정에서 뜻을 이루지 못하고 죽은 동료들의 혼을 두르고 있다. 히스이에 흐르는 하천에서는 대적할 자가 없다.
 
 RESOURCE ID: pokemon_desc_0903
-TEXT: Because of Sneasler’s virulent poison and daunting physical prowess, no other species could hope to best it on the frozen highlands. Preferring solitude, this species does not form packs.
+TEXT: 다른 종을 압도하는 신체 능력과 맹독을 가지고 있어 한랭한 고지대에서는 맞수가 없다. 무리를 이루지 않고 고독함을 즐긴다.
 
 RESOURCE ID: pokemon_desc_0904
-TEXT: Its lancelike spikes and savage temperament have earned it the nickname “sea fiend.” It slurps up poison to nourish itself.
+TEXT: 창과 같은 침과 흉포한 성질 때문에 ""바다 도깨비""라는 이명이 있는 포켓몬. 독을 마셔서 자신의 양식으로 삼는다.
 
-RESOURCE ID: pokemon_desc_0905
-TEXT: When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon’s love gives rise to the budding of fresh life across Hisui.
+RESOURCE ID: pokemon_desc_0905_2802
+TEXT: 바다를 건너 날아와 혹독한 겨울의 끝을 알린다. 자애로움이 히스이 땅에 새로운 생명을 싹틔우게 했다는 전승이 있다.
+
+RESOURCE ID: pokemon_desc_0905_2803
+TEXT: 여인의 형상에서 변한 모습. 목숨을 함부로 여기는 자가 있으면 운해로부터 나타나서 자비 없는 분노의 벌을 내린다.
 
 RESOURCE ID: pokemon_info_multi_transfer_ultra_beast_pokemon_error
 TEXT: 울트라비스트는 선택할 수 없습니다!
@@ -1809,25 +1866,25 @@ RESOURCE ID: pokemon_info_transfer_to_professor_result
 TEXT: 포켓몬을 보내고 연구에서 {0}의 사탕을 받았다.
 
 RESOURCE ID: pokemon_name_0899
-TEXT: Wyrdeer
+TEXT: 신비록
 
 RESOURCE ID: pokemon_name_0900
-TEXT: Kleavor
+TEXT: 사마자르
 
 RESOURCE ID: pokemon_name_0901
-TEXT: Ursaluna
+TEXT: 다투곰
 
 RESOURCE ID: pokemon_name_0902
-TEXT: Basculegion
+TEXT: 대쓰여너
 
 RESOURCE ID: pokemon_name_0903
-TEXT: Sneasler
+TEXT: 포푸니크
 
 RESOURCE ID: pokemon_name_0904
-TEXT: Overqwil
+TEXT: 장침바루
 
 RESOURCE ID: pokemon_name_0905
-TEXT: Enamorus
+TEXT: 러브로스
 
 RESOURCE ID: pokemon_ultra_beast_info_transfer_to_professor_confirmation
 TEXT: 정말로 이 포켓몬을 보내겠습니까?
@@ -2342,91 +2399,91 @@ RESOURCE ID: quest_special_dialogue_rockethq11_5_8
 TEXT: 또 보자, 포켓몬 트레이너.
 
 RESOURCE ID: quest_special_dialogue_starly_0_0
-TEXT: Greetings, Pokémon Trainer. You have arrived at a convenient time. I would like you to assist me.
+TEXT: 아, 포켓몬 트레이너. 안녕?
 
 RESOURCE ID: quest_special_dialogue_starly_0_1
-TEXT: I am only beginning to grow familiar with the sounds of this world. The rustling of leaves, the crashing of waves...
+TEXT: 나뭇잎 소리... 파도 소리... 이 세계는 많은 소리가 넘치고 있어.
 
 RESOURCE ID: quest_special_dialogue_starly_0_2
-TEXT: But today I hear a new—there!
+TEXT: 하지만 오늘의 바람 소리는 조금 달라.
 
 RESOURCE ID: quest_special_dialogue_starly_0_3
-TEXT: That high-pitched chattering and stirring of air. Is it some sort of natural phenomenon?
+TEXT: 울음소리가 섞인 듯한 소리가 나.
 
 RESOURCE ID: quest_special_dialogue_starly_0_4
-TEXT: So you believe it to be caused by Pokémon. Intriguing.
+TEXT: 포켓몬의 소리인가?
 
 RESOURCE ID: quest_special_dialogue_starly_0_5
-TEXT: I am eager to locate the source. Let us proceed.
+TEXT: 그럼 조사해 봐야겠다. 같이 가줄 거지?
 
 RESOURCE ID: quest_special_dialogue_starly_1_0
-TEXT: So the multitude of Starly are the source of this cacophony.
+TEXT: 찌르꼬라는 포켓몬의 울음소리였구나...
 
 RESOURCE ID: quest_special_dialogue_starly_1_1
-TEXT: Though diminutive, they flap their wings with great power. And when they form a flock...
+TEXT: 무리 지어 다니는구나. 몸은 작지만 날개 힘은 아주 강한다고?
 
 RESOURCE ID: quest_special_dialogue_starly_1_2
-TEXT: I would not wish to be the target of their displeasure.
+TEXT: 날개로 맞으면 아플 것 같아...
 
 RESOURCE ID: quest_special_dialogue_starly_1_3
-TEXT: The strength of such a small creature is a marvel.
+TEXT: 작은 몸에 큰 힘을 숨기고 있는 포켓몬 같아서
 
 RESOURCE ID: quest_special_dialogue_starly_1_4
-TEXT: And if it were to evolve, I suspect that strength would only grow.
+TEXT: 진화하면...
 
 RESOURCE ID: quest_special_dialogue_starly_1_5
-TEXT: Evolution affects Pokémon in such splendid ways. How will Starly change, do you think? Not another head, surely?
+TEXT: 아주 커지는 건 상상할 수 있어. 아니면 혹시 옆으로 커져서 다리가 늘어나?
 
 RESOURCE ID: quest_special_dialogue_starly_1_6
-TEXT: After our experience with Deino, little would surprise me. Nevertheless, I would like to witness this transformation for myself.
+TEXT: 모노두를 잘 관찰해서 진화의 다양성에 대해 알게 된 이상, 상상을 하게 돼.... 진화시켜 보여줄 거야?
 
 RESOURCE ID: quest_special_dialogue_starly_2_0
-TEXT: I am impressed yet again, Pokémon Trainer.
+TEXT: 역시 포켓몬 트레이너!
 
 RESOURCE ID: quest_special_dialogue_starly_2_1
-TEXT: Staravia might not have grown an additional head, but it did increase in size.
+TEXT: 찌르버드로 진화했구나. 다리가 늘어났을 거라 생각했는데... 좀 커졌네.
 
 RESOURCE ID: quest_special_dialogue_starly_2_2
-TEXT: My early observations indicate that Staravia, too, prefer to travel in a flock.
+TEXT: 머리 위에 길게 뻗은 날개. 멋있어! 진화해도 무리 지어 다니는 건 똑같나 봐.
 
 RESOURCE ID: quest_special_dialogue_starly_2_3
-TEXT: And when Staravia are not surrounded by their kind, they cry noisily. Perhaps they find comfort and security when together.
+TEXT: 무리에서 떨어진 찌르버드의 울음소리는 특별히 더 큰 것 같아. 역시 무리 안에 있는 게 안심이 되는 걸까?
 
 RESOURCE ID: quest_special_dialogue_starly_2_4
-TEXT: I...can understand this.
+TEXT: 그럴 수도 있겠지. 나도 당신이 없었다면 이 세상에 대해 잘 알지 못하고 외로웠을 거야.
 
 RESOURCE ID: quest_special_dialogue_starly_2_5
-TEXT: Ahem. Does it evolve further? What changes might that bring?
+TEXT: 진화시키면 그 성질에 어떤 변화가 있을지 확인하자.
 
 RESOURCE ID: quest_special_dialogue_starly_3_0
-TEXT: Stunning. What a formidable physique.
+TEXT: 압도 당한다....
 
 RESOURCE ID: quest_special_dialogue_starly_3_1
-TEXT: This musculature of this Pokémon—Staraptor, is it?—indicates great strength. It appears more than capable of carrying away its prey.
+TEXT: 이 포켓몬 찌르호크라고 하는 거야? 멋진 날개, 튼튼한 다리. 날아다니는 모습이 웅장해.
 
 RESOURCE ID: quest_special_dialogue_starly_3_2
-TEXT: And, unlike Starly and Staravia, it appears not to travel in flocks. Curious.
+TEXT: 작은 포켓몬을 잡은 채 가볍게 날 수 있다고?
 
 RESOURCE ID: quest_special_dialogue_starly_3_3
-TEXT: The Pokémon of this world have such fascinating social structures. Some are more comfortable with others, and some find contentment alone.
+TEXT: 찌르꼬도 찌르버드도 무리 지어 다니지만 찌르호크는 달라. 단독 행동을 좋아할 것 같아.
 
 RESOURCE ID: quest_special_dialogue_starly_3_4
-TEXT: They are like humans in this way, do you not think?
+TEXT: 포켓몬들의 사회 구조는 흥미로워. 무리 지어 행동하고 있다가도 진화하면 무리 없이 다리는 포켓몬도 있으니까.
 
 RESOURCE ID: quest_special_dialogue_starly_3_5
-TEXT: With each investigation we undertake, my understanding of your world is further illuminated.
+TEXT: 다양한 사람이 있는 것처럼 포켓몬도 다양한 것 같아.
 
 RESOURCE ID: quest_special_dialogue_starly_3_6
-TEXT: Thank you for your company, Pokémon Trainer. Until again.
+TEXT: 오늘의 연구도 아주 흥미로웠어. 또 보자. 포켓몬 트레이너, 안녕!
 
 RESOURCE ID: quest_starly_catch_b
 TEXT: 찌르꼬를 {0}마리 잡는다
 
 RESOURCE ID: quest_starly_evolve_b
-TEXT: Evolve {0} Starly
+TEXT: 찌르꼬를 {0}마리 진화시킨다
 
 RESOURCE ID: quest_starly_snapshot_b
-TEXT: Take {0} snapshots of Starly
+TEXT: 찌르꼬 GO스냅샷 사진을 {0}장 찍는다
 
 RESOURCE ID: quest_template.display.branches#0.button_text_key
 TEXT: 레이드, 조무래기, 체육관
@@ -2489,19 +2546,19 @@ RESOURCE ID: quest_title_may22_alola_branch_quest_3
 TEXT: 알로라 피날레 (4/4)
 
 RESOURCE ID: quest_title_starly
-TEXT: Field Notes: Starly
+TEXT: 포켓몬 연구:  찌르꼬에 대해
 
 RESOURCE ID: quest_title_starly_0
-TEXT: Field Notes: Starly (1/4)
+TEXT: 포켓몬 연구:  찌르꼬에 대해 (1/4)
 
 RESOURCE ID: quest_title_starly_1
-TEXT: Field Notes: Starly (2/4)
+TEXT: 포켓몬 연구:  찌르꼬에 대해 (2/4)
 
 RESOURCE ID: quest_title_starly_2
-TEXT: Field Notes: Starly (3/4)
+TEXT: 포켓몬 연구:  찌르꼬에 대해 (3/4)
 
 RESOURCE ID: quest_title_starly_3
-TEXT: Field Notes: Starly (4/4)
+TEXT: 포켓몬 연구:  찌르꼬에 대해 (4/4)
 
 RESOURCE ID: quest_transfer_rock_or_poison_plural
 TEXT: 바위타입 또는 독타입 포켓몬을 {0}마리 보낸다
@@ -2596,7 +2653,7 @@ TEXT: 로컬 레이드
 RESOURCE ID: raid_join_in_person_description
 TEXT: 주변 트레이너와 협력해서 보스 포켓몬을 쓰러뜨리자
 
-RESOURCE ID: raid_join_in_person_out_of_range
+RESOURCE ID: raid_join_in_person_out_of_range_toast
 TEXT: 참가하려면 더 가까이 가주세요.
 
 RESOURCE ID: raiding_box
@@ -2604,6 +2661,9 @@ TEXT: 레이드 박스
 
 RESOURCE ID: russian
 TEXT: Русский
+
+RESOURCE ID: safari_2022_seville_dialogue_0_0
+TEXT: %PLAYERNAME%, Safari Zone Seville 2022로 어서 오세요! 
 
 RESOURCE ID: safari_2022_seville_title
 TEXT: Safari Zone Seville 2022
@@ -2626,14 +2686,23 @@ TEXT: GO로켓단 단원 1명을 쓰러뜨렸다!
 RESOURCE ID: search_label
 TEXT: 검색
 
+RESOURCE ID: settings_allow_paid_gifts
+TEXT: Allow friends to send you paid gifts
+
 RESOURCE ID: settings_buddy_gained_candy
 TEXT: 파트너 포켓몬이 발견한 사탕
 
 RESOURCE ID: settings_friend_level_increased
 TEXT: 우정레벨 상승
 
+RESOURCE ID: settings_gift_notified_push_notification
+TEXT: Your friend received their event ticket!
+
 RESOURCE ID: settings_gift_opened
 TEXT: 프렌드가 연 선물
+
+RESOURCE ID: settings_gift_received_push_notification
+TEXT: You’ve received an event ticket!
 
 RESOURCE ID: settings_group_research_task
 TEXT: 리서치 업데이트 모음
@@ -2657,10 +2726,10 @@ RESOURCE ID: settings_notifications_title
 TEXT: 알림 설정
 
 RESOURCE ID: settings_remember_last_pokeball
-TEXT: Remember Last-Used Poké Ball
+TEXT: 마지막에 사용한 볼 기억하기
 
 RESOURCE ID: settings_remember_last_pokeball_tip
-TEXT: The type of Poké Ball you last used will be automatically selected at the beginning of your next Pokémon encounter.
+TEXT: 다음 포켓몬과 만났을 때 표시
 
 RESOURCE ID: seville_cup_description
 TEXT: Safari Zone 참가자가 배틀할 수 있는 캐치컵
@@ -2686,8 +2755,41 @@ TEXT: Safari Zone Seville 티켓을 가진 트레이너가 참가할 수 있는 
 RESOURCE ID: shop_daily_bonus_header
 TEXT: 선물이 도착했습니다!
 
+RESOURCE ID: shop_gift_notified_in_app_notification
+TEXT: {0} received your event invite!
+
+RESOURCE ID: shop_gift_notified_notification
+TEXT: {0} received your event invite!
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_description
+TEXT: You can purchase {0} gift tickets for this event.
+The limit exists to prevent overspending and fraud.
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_title
+TEXT: Paid Gift Limit Reached
+
+RESOURCE ID: shop_gift_received_journal_entry
+TEXT: {0} gifted you a ticket for an event!
+
+RESOURCE ID: shop_gift_received_notification
+TEXT: {0} gifted you a ticket for an event!
+
+RESOURCE ID: shop_gifting_policy_modal_description_limited
+TEXT: • You cannot get a refund for tickets purchased for friends.
+• You cannot cancel a gift after it has been sent.
+• You can only send {0} paid gifts for this event.
+
 RESOURCE ID: shop_remote_raid_passes_title
 TEXT: 리모트 레이드패스가 없습니다!
+
+RESOURCE ID: shop_ticket_gift_info_limited
+TEXT: You can purchase {0} discounted tickets to give to your friends!
+
+RESOURCE ID: shop_ticket_gift_info_limited_require_purchase
+TEXT: Once you have purchased a ticket, you can purchase {0} discounted tickets to give to your friends!
+
+RESOURCE ID: shop_ticket_gift_info_require_purchase
+TEXT: Once you have purchased a ticket, you can purchase {0} discounted tickets to give to your friends!
 
 RESOURCE ID: spanish
 TEXT: Español
@@ -2705,7 +2807,7 @@ RESOURCE ID: spawn_deino
 TEXT: 모노두가 야생에서 많이 출현
 
 RESOURCE ID: spawn_starly
-TEXT: More Starly are appearing in the wild!
+TEXT: 찌르꼬가 야생에서 많이 출현!
 
 RESOURCE ID: special_trades_plus_5
 TEXT: 특별한 교환 5번 추가
@@ -3415,14 +3517,14 @@ TEXT:
 RESOURCE ID: sticker_summer_6.5_description
 TEXT:  
 
-RESOURCE ID: stickers_rv2_ecently_used
-TEXT: Recently Used
-
 RESOURCE ID: stickers_v2_characters_category
 TEXT: Characters
 
 RESOURCE ID: stickers_v2_collect_from
 TEXT: Collect these stickers from the Shop, Gifts, or the PokéStop.
+
+RESOURCE ID: stickers_v2_ecently_used
+TEXT: Recently Used
 
 RESOURCE ID: stickers_v2_featured_category
 TEXT: Featured
@@ -3527,7 +3629,7 @@ RESOURCE ID: ticket_spheal
 TEXT: 손뼉포켓몬의 수수께끼를 풀어라!' 티켓이 숍에 등장
 
 RESOURCE ID: ticket_starly
-TEXT: Ticket for the Field Notes: Starly Special Research story available in the shop
+TEXT: '포켓몬 연구: 찌르꼬에 대해' 티켓이 숍에 등장
 
 RESOURCE ID: ticket_tepig
 TEXT: 불돼지포켓몬의 수수께끼를 풀어라!' 티켓이 숍에 등장

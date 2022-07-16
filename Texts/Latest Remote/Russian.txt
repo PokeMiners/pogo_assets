@@ -197,6 +197,15 @@ TEXT: 6-летний юбилей
 RESOURCE ID: badge_challenge_quests
 TEXT: Выполни задания для полевого квеста: {0}.
 
+RESOURCE ID: badge_event_0031_title
+TEXT: Партнёрский квест: Sushiro
+
+RESOURCE ID: badge_event_0032_title
+TEXT: Партнёрский квест: Tully’s
+
+RESOURCE ID: badge_event_0033
+TEXT: Партнёрский квест сезона Алолы: Yoshinoya
+
 RESOURCE ID: badge_event_0034
 TEXT: Партнёрский квест сезона GO: Odakyu
 
@@ -573,7 +582,7 @@ RESOURCE ID: batch_transfer_result
 TEXT: Получены конфеты.
 
 RESOURCE ID: batch_transfer_unique_included
-TEXT: Был выбран по крайней мере один Легендарный, Мифический или Ивент-Покемон, а также Ультрачудовище.
+TEXT: Был выбран по крайней мере один Легендарный, Мифический или Ивент-Покемон.
 
 RESOURCE ID: batch_transfer_unique_legendary_or_mythical_or_ultra_beast_pokemon
 TEXT: Легендарные и Мифические Покемоны или Ультрачудовище: {0}
@@ -586,6 +595,9 @@ TEXT: Ты действительно хочешь передать этих П�
 
 RESOURCE ID: battle_box
 TEXT: Боевая коробка
+
+RESOURCE ID: battle_day_porygon2
+TEXT: Боевой день GO: Поригон-2
 
 RESOURCE ID: battle_weekend_2022_event_name
 TEXT: Выходные сражений
@@ -623,6 +635,9 @@ TEXT: 2× шанс получить конфеты XL при поимке Пок
 RESOURCE ID: bonus_2x_xl_candy_chance_deino
 TEXT: 2× шанс получить Дейно-конфеты XL при поимке Дейно
 
+RESOURCE ID: bonus_2x_xl_candy_chance_stufful
+TEXT: 2× шанс получить Стаффул-конфеты XL при поимке Стаффула
+
 RESOURCE ID: bonus_3x_catch_xp_alodude
 TEXT: 3× XP за поимку Покемонов
 
@@ -639,7 +654,7 @@ RESOURCE ID: bonus_cd_move_deino
 TEXT: Эволюционируй Цвайлоса, чтобы получить Хайдрайгона, который знает заряженную атаку Резкий Поворот
 
 RESOURCE ID: bonus_cd_move_starly
-TEXT: Evolve Staravia to get a Staraptor that knows the Fast Attack Gust
+TEXT: Эволюционируй Старавию, чтобы получить Стараптора, который знает Быструю атаку Шквал
 
 RESOURCE ID: bonus_implicit_social_alodude
 TEXT: Если ты поймаешь достаточно Покемонов с помощью одной приманки, то бонусная звёздная пыль за поимку рядом с Покестопом, где была использована приманка, будет увеличена c 3× до 4× на 30 минут
@@ -657,7 +672,7 @@ RESOURCE ID: bonus_implicit_social_deino_raid_title
 TEXT: Испытание дня сообщества: Рейд
 
 RESOURCE ID: bonus_implicit_social_lure_4x_catch_xp
-TEXT: If enough Pokémon are caught with help from a single Lure Module, the 3× XP bonus for catching Pokémon near the Lured PokéStop will become a 4× bonus for 30 minutes.
+TEXT: Если ты поймаешь достаточно Покемонов с помощью одной приманки, то бонусные XP за поимку рядом с Покестопом, где была использована приманка, будут увеличены c 3× до 4× на 30 минут.
 
 RESOURCE ID: bonus_implicit_social_lure_title
 TEXT: Испытание дня сообщества: Поимка
@@ -666,16 +681,16 @@ RESOURCE ID: bonus_implicit_social_raid_title
 TEXT: Испытание дня сообщества: Рейд
 
 RESOURCE ID: bonus_implicit_social_starly_raid
-TEXT: If Trainers defeat Staravia in a Raid Battle, more wild Starly will appear around the Gym that hosted the raid for 30 minutes.
+TEXT: Если Тренеры одолеют Старавию в рейде, то в течение 30 минут рядом с Гимом, где была одержана победа, будет появляться больше диких Старли.
 
 RESOURCE ID: bonus_not_active
 TEXT: Бонус не активирован
 
 RESOURCE ID: bonus_special_trade_starly_cd
-TEXT: One additional Special Trade can be made during the event and up to five hours afterward for a maximum of three for the day.
+TEXT: Один дополнительный специальный обмен во время события и в течение пяти часов после него – не более трёх в день.
 
 RESOURCE ID: bonus_trade_stardust_50pc_5hr
-TEXT: Trades made during the event and up to five hours after will require 50% less Stardust.
+TEXT: Для обменов во время события и в течение пяти часов после него понадобится на 50% меньше звёздной пыли.
 
 RESOURCE ID: bonus_unlocked
 TEXT: Бонус разблокирован!
@@ -713,6 +728,9 @@ TEXT: Посмотреть Campfire
 RESOURCE ID: catch_box
 TEXT: Коробка поимки
 
+RESOURCE ID: catch_candy_xl_chance_double
+TEXT: 2× шанс получить конфеты XL при поимке Покемонов
+
 RESOURCE ID: catch_rewards_double
 TEXT: 2× звёздной пыли за поимку, 2× конфет за поимку и 2× XP за поимку
 
@@ -738,7 +756,7 @@ RESOURCE ID: community_day_deino_event_name
 TEXT: День сообщества: Дейно
 
 RESOURCE ID: community_day_starly_event_name
-TEXT: Community Day: Starly
+TEXT: День сообщества: Старли
 
 RESOURCE ID: convert_to_stardust
 TEXT: Открыв этот подарок, ты получишь звёздную пыль. Ты не сможешь получить другие предметы, так как твой рюкзак для предметов заполнен.
@@ -754,6 +772,9 @@ TEXT: Корфишы будут появляться в больших коли�
 RESOURCE ID: delete_pokemon_tag_confirmation
 TEXT: Тег будет удалён с Покемона, которому был присвоен. Покемон не будет передан.
 
+RESOURCE ID: encounter_score_active_mega_bonus
+TEXT: Активный бонус мегаэволюции
+
 RESOURCE ID: encounter_transfer_or_upgrade
 TEXT: Ты можешь передать Покемонов или увеличить своё хранилище Покемонов.
 
@@ -762,6 +783,9 @@ TEXT: English
 
 RESOURCE ID: error_has_unsent_gift
 TEXT: Ты можешь подарить свой дополнительный билет из рюкзака для предметов.
+
+RESOURCE ID: error_ticket_not_owned
+TEXT: You must purchase a ticket for this event before you can purchase one for a friend.
 
 RESOURCE ID: event_evolve_cubone
 TEXT: Кьюбон может эволюционировать в Алольского Маровака
@@ -815,6 +839,9 @@ TEXT: Кубок ископаемых
 RESOURCE ID: french
 TEXT: Français
 
+RESOURCE ID: gbl_double_dust_end_of_set
+TEXT: 2× звёздной пыли за совершение сражений в Боевой Лиге GO
+
 RESOURCE ID: gbl_legendary_rank16
 TEXT: Встречи с Легендарными Покемонами в качестве награды в Боевой Лиге GO за 16-й ранг и выше
 
@@ -844,12 +871,12 @@ RESOURCE ID: general1.ticket.2_may22_alola_title
 TEXT: Билет: Прощание с Алолой
 
 RESOURCE ID: general1.ticket.2_starly_description
-TEXT: A ticket to access the Field Notes: Starly Special Research on July 17, 2022, from 11:00 a.m. to 2:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: Билет на специальный квест «Полевые заметки: Старли» 17 июля 2022 г. с 11:00 до 14:00 по местному времени, вне зависимости от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+ЧТОБЫ ПОЛУЧИТЬ ВСЕ СПЕЦИАЛЬНЫЕ БОНУСЫ СОБЫТИЯ, НЕОБХОДИМО ИГРАТЬ В УКАЗАННОЕ ВРЕМЯ.
 
 RESOURCE ID: general1.ticket.2_starly_title
-TEXT: Field Notes: Starly
+TEXT: Полевые заметки: Старли
 
 RESOURCE ID: general_buddy
 TEXT: Приятель
@@ -859,6 +886,12 @@ TEXT: Язык
 
 RESOURCE ID: german
 TEXT: Deutsch
+
+RESOURCE ID: gift_open_double
+TEXT: Открой 2× подарков
+
+RESOURCE ID: gift_storage_double
+TEXT: 2× подарков помещается в твоём рюкзаке для предметов
 
 RESOURCE ID: gifting_error_description
 TEXT: К сожалению, подарок не был доставлен, так как твой друг получил билет на это событие до того, как твоя покупка была завершена. Ты можешь выбрать другого друга для отправки подарка.
@@ -1282,31 +1315,31 @@ RESOURCE ID: gofest2022_live_habitat_windy_coast
 TEXT: Территория: Ветреное побережье
 
 RESOURCE ID: gofest2022_live_quest_photo_athletic_park
-TEXT: Сделай фото Хитмонтопа на территории Спортивная площадка
+TEXT: Сделай фото своего Хитмонтопа на территории Спортивная площадка
 
 RESOURCE ID: gofest2022_live_quest_photo_cloud_sanctuary
-TEXT: Сделай фото Сваблу на территории Облачная гавань
+TEXT: Сделай фото своего Сваблу на территории Облачная гавань
 
 RESOURCE ID: gofest2022_live_quest_photo_dreamy_mindscape
-TEXT: Сделай фото Абры на территории Пейзаж мечты
+TEXT: Сделай фото своего Абры на территории Пейзаж мечты
 
 RESOURCE ID: gofest2022_live_quest_photo_electric_garden
-TEXT: Сделай фото Лилипа на территории Электрический сад
+TEXT: Сделай фото своего Лилипа на территории Электрический сад
 
 RESOURCE ID: gofest2022_live_quest_photo_frozen_lake
-TEXT: Сделай фото Дарумаки на территории Замёрзшее озеро
+TEXT: Сделай фото своего Дарумаки на территории Замёрзшее озеро
 
 RESOURCE ID: gofest2022_live_quest_photo_living_meadow
-TEXT: Сделай фото Черрима на территории Живой луг
+TEXT: Сделай фото своего Черрима на территории Живой луг
 
 RESOURCE ID: gofest2022_live_quest_photo_molten_rocks
-TEXT: Сделай фото Дарумаки на территории Расплавленные скалы
+TEXT: Сделай фото своего Дарумаки на территории Расплавленные скалы
 
 RESOURCE ID: gofest2022_live_quest_photo_oasis
-TEXT: Сделай фото Двеббла на территории Оазис
+TEXT: Сделай фото своего Двеббла на территории Оазис
 
 RESOURCE ID: gofest2022_live_quest_photo_windy_coast
-TEXT: Сделай фото Раффлета на территории Ветреное побережье
+TEXT: Сделай фото своего Раффлета на территории Ветреное побережье
 
 RESOURCE ID: gofest2022_live_sapporo
 TEXT: Фестиваль Pokémon GO: Саппоро
@@ -1470,11 +1503,23 @@ TEXT: Что смотришь? Иди отсюда! А то я заставлю 
 RESOURCE ID: incense_duration_8_hr
 TEXT: 8-часовое действие ладана
 
+RESOURCE ID: incense_effectiveness_double
+TEXT: 2× эффективность ладана
+
+RESOURCE ID: incense_effectiveness_triple
+TEXT: 3× эффективность ладана
+
 RESOURCE ID: increased_adventure_sync_rewards
 TEXT: Больше наград Синхронизации приключений на следующей неделе
 
 RESOURCE ID: increased_stardust_rocket
 TEXT: Больше звёздной пыли за победу над агентами Команды Ракета GO
+
+RESOURCE ID: incubator_distance_half
+TEXT: 1/2 расстояния для вынашивания
+
+RESOURCE ID: incubator_distance_quarter
+TEXT: 1/4 расстояния для вынашивания
 
 RESOURCE ID: italian
 TEXT: Italiano
@@ -1483,7 +1528,7 @@ RESOURCE ID: item_event_ticket_gray_to_gift_desc
 TEXT: Дополнительный билет вследствие ошибки при совершении покупки. Ты можешь отправить его другу или получить возврат средств.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access Special Research on July 17, 2022, from 11:00 a.m. to 2:00 p.m. local time, wherever you are.
+TEXT: Билет на специальный квест 17 июля 2022 г. с 11:00 до 14:00 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_desc_alodude
 TEXT: Билет на специальный квест 21 мая 2022 г. с 11:00 до 14:00 по местному времени, вне зависимости от твоего местонахождения.
@@ -1525,6 +1570,9 @@ TEXT: Фестиваль Pokémon GO 2022
 
 RESOURCE ID: japanese
 TEXT: 日本語
+
+RESOURCE ID: journal_received_fitness_rewards
+TEXT: Предметы, полученные в качестве еженедельной награды Синхронизации приключений: {0}.
 
 RESOURCE ID: jun22_tcg_collection_challenge_1
 TEXT: Событие ККИ: Коллекционное испытание Бульбазавр 1
@@ -1580,6 +1628,9 @@ TEXT: Языковые настройки успешно обновлены!
 RESOURCE ID: legendary_mythical_and_ultra_beast_not_allowed_in_gyms
 TEXT: Легендарные и Мифические Покемоны, а также Ультрачудовища не могут быть оставлены в Гимах.
 
+RESOURCE ID: limited_research_porygon2
+TEXT: Ограниченный квест: Поригон-2
+
 RESOURCE ID: lure_duration_4_hr
 TEXT: 4-часовое действие приманки
 
@@ -1621,8 +1672,8 @@ RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
 TEXT: Пока {0} находится в состоянии мегаэволюции, ты заработаешь дополнительные конфеты, XP и больше шансов получить конфеты XL при поимке Покемонов следующего типа: <b>{1}</b>.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-06T21:09:43.589978
-at SHA ef16cd22f9c3c71333d79514f6d12ff46492268f
+TEXT: Built at 2022-07-13T16:47:11.192465
+at SHA 1d0b4248505aadb18a8a599fd7a555c3aae045be
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51
 
 RESOURCE ID: move_name_0367
@@ -1636,6 +1687,9 @@ TEXT: Сияние Семени
 
 RESOURCE ID: mvt_stat_final_strike_player_details_4
 TEXT: Эффективная атака!
+
+RESOURCE ID: nearby_raid_local_only
+TEXT: LOCAL ONLY
 
 RESOURCE ID: nearby_raid_notification_toast
 TEXT: В Гиме поблизости появилось рейдовое яйцо!
@@ -1667,6 +1721,9 @@ TEXT: Набор из 3 боевых премиум-пропусков, кото
 RESOURCE ID: paidraidticket.3_title
 TEXT: 3 боевых премиум-пропуска
 
+RESOURCE ID: performance_successfully_updated
+TEXT: Твои настройки производительности успешно обновлены.
+
 RESOURCE ID: photobomb_five_alodude
 TEXT: 5 неожиданных встреч с Алольским Геодудом в Стоп-кадре GO
 
@@ -1674,16 +1731,28 @@ RESOURCE ID: photobomb_five_deino
 TEXT: 5 неожиданных встреч с Дейно в Стоп-кадре GO
 
 RESOURCE ID: photobomb_five_starly
-TEXT: 5 surprise encounters with Starly in GO Snapshot
+TEXT: 5 неожиданных встреч со Старли в Стоп-кадре GO
 
 RESOURCE ID: photobomb_safari_pika
 TEXT: 5 неожиданных встреч с Пикачу в шляпe Сафари в Стоп-кадре GO
+
+RESOURCE ID: poffin_duration_double
+TEXT: 2× время действия Поффина
 
 RESOURCE ID: pokemon_category_0058_2792
 TEXT: Scout Pokémon
 
 RESOURCE ID: pokemon_category_0059_2793
 TEXT: Legendary Pokémon
+
+RESOURCE ID: pokemon_category_0144_2801
+TEXT: Cruel Pokémon
+
+RESOURCE ID: pokemon_category_0145_2800
+TEXT: Strong Legs Pokémon
+
+RESOURCE ID: pokemon_category_0146_2799
+TEXT: Malevolent Pokémon
 
 RESOURCE ID: pokemon_category_0157_2786
 TEXT: Ghost Flame Pokémon
@@ -1748,6 +1817,15 @@ TEXT: They patrol their territory in pairs. I believe the igneous rock component
 RESOURCE ID: pokemon_desc_0059_2793
 TEXT: Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.
 
+RESOURCE ID: pokemon_desc_0144_2801
+TEXT: Its feather-like blades are composed of psychic energy and can shear through thick iron sheets as if they were paper.
+
+RESOURCE ID: pokemon_desc_0145_2800
+TEXT: When its feathers rub together, they produce a crackling sound like the zapping of electricity. That’s why this Pokémon is called Zapdos.
+
+RESOURCE ID: pokemon_desc_0146_2799
+TEXT: This Pokémon’s sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.
+
 RESOURCE ID: pokemon_desc_0157_2786
 TEXT: Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui’s center.
 
@@ -1802,8 +1880,11 @@ TEXT: Because of Sneasler’s virulent poison and daunting physical prowess, no 
 RESOURCE ID: pokemon_desc_0904
 TEXT: Its lancelike spikes and savage temperament have earned it the nickname “sea fiend.” It slurps up poison to nourish itself.
 
-RESOURCE ID: pokemon_desc_0905
+RESOURCE ID: pokemon_desc_0905_2802
 TEXT: When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon’s love gives rise to the budding of fresh life across Hisui.
+
+RESOURCE ID: pokemon_desc_0905_2803
+TEXT: A different guise from its feminine humanoid form. From the clouds, it descends upon those who treat any form of life with disrespect and metes out wrathful, ruthless punishment.
 
 RESOURCE ID: pokemon_info_multi_transfer_ultra_beast_pokemon_error
 TEXT: Ты не можешь выбрать Ультрачудовище.
@@ -1856,10 +1937,10 @@ RESOURCE ID: quest_alodude_snap
 TEXT: Сделай {0} фото Алольского Геодуда
 
 RESOURCE ID: quest_battle_buddy_adventure_plural
-TEXT: Сразись с другим Тренером вместе со своим Покемон-приятелем, пока он путешествует с тобой ×{0}
+TEXT: Сразись с другим Тренером вместе со своим Покемоном-приятелем, пока он путешествует с тобой ×{0}
 
 RESOURCE ID: quest_battle_buddy_adventure_single
-TEXT: Сразись с другим Тренером вместе со своим Покемон-приятелем, пока он путешествует с тобой
+TEXT: Сразись с другим Тренером вместе со своим Покемоном-приятелем, пока он путешествует с тобой
 
 RESOURCE ID: quest_battle_great_plural
 TEXT: Сразись с другим Тренером в Великой Лиге ×{0}
@@ -1877,10 +1958,10 @@ RESOURCE ID: quest_battle_team_rocket_singular
 TEXT: Сразись с 1 агентом Команды Ракета GO
 
 RESOURCE ID: quest_buddy_battle_trainer_adventuring_plural
-TEXT: Сразись с другим Тренером вместе со своим Покемон-приятелем, пока он путешествует с тобой ×{0}
+TEXT: Сразись с другим Тренером вместе со своим Покемоном-приятелем, пока он путешествует с тобой ×{0}
 
 RESOURCE ID: quest_buddy_battle_trainer_adventuring_single
-TEXT: Сразись с другим Тренером вместе со своим Покемон-приятелем, пока он путешествует с тобой
+TEXT: Сразись с другим Тренером вместе со своим Покемоном-приятелем, пока он путешествует с тобой
 
 RESOURCE ID: quest_catch_legendary_inarow_plural
 TEXT: Поймай хотя бы одного Легендарного или Мифического Покемона во время следующих {0} встреч с этими Покемонами
@@ -1923,6 +2004,12 @@ TEXT: Сделай {0} фото Геодуда
 
 RESOURCE ID: quest_evolve_ground_plural
 TEXT: Эволюционируй {0} земляных Покемонов
+
+RESOURCE ID: quest_evolve_porygon2_singular
+TEXT: Эволюционируй 1 Покемона: Поригон-2
+
+RESOURCE ID: quest_evolve_starly_singular
+TEXT: Эволюционируй 1 Старли
 
 RESOURCE ID: quest_explore_buddy
 TEXT: Исследуя со своим Покемоном-приятелем, заработай 1 конфету
@@ -2233,6 +2320,9 @@ TEXT: С возвращением! Дай-ка посмотреть, какие 
 RESOURCE ID: quest_special_dialogue_may22_alola_branch_quest_3d_0
 TEXT: С возвращением! Я не сомневался, что ты с блеском одержишь победу над Командой Ракета GO! Так держать!
 
+RESOURCE ID: quest_special_dialogue_meloetta_1_2
+TEXT: Бланш не очень понравилось, что все ягоды рассыпались по земле. Другое дело Покемоны в костюмах: они тут же благодарно бросились их подъедать. Ха-ха!
+
 RESOURCE ID: quest_special_dialogue_meltan_4_7
 TEXT: К тому времени, как ты выполнишь все задания для квеста, я смогу показать тебе свои последние разработки.
 
@@ -2366,94 +2456,100 @@ RESOURCE ID: quest_special_dialogue_rockethq11_5_8
 TEXT: Увидим друг друга, Тренер Покемонов.
 
 RESOURCE ID: quest_special_dialogue_starly_0_0
-TEXT: Greetings, Pokémon Trainer. You have arrived at a convenient time. I would like you to assist me.
+TEXT: Мои приветствия, Тренер Покемонов. Ты как раз вовремя. Мне пригодится твоё содействие.
 
 RESOURCE ID: quest_special_dialogue_starly_0_1
-TEXT: I am only beginning to grow familiar with the sounds of this world. The rustling of leaves, the crashing of waves...
+TEXT: Я только начинаю знакомиться со звуками в этом мире. Шорох листьев, шум волн...
 
 RESOURCE ID: quest_special_dialogue_starly_0_2
-TEXT: But today I hear a new—there!
+TEXT: Но сегодня – прислушайся!
 
 RESOURCE ID: quest_special_dialogue_starly_0_3
-TEXT: That high-pitched chattering and stirring of air. Is it some sort of natural phenomenon?
+TEXT: Это пронзительное щебетание и завихрения воздуха. Это ведь какой-то природный феномен?
 
 RESOURCE ID: quest_special_dialogue_starly_0_4
-TEXT: So you believe it to be caused by Pokémon. Intriguing.
+TEXT: Ты считаешь, что причиной всего этого могут быть Покемоны. Занятно.
 
 RESOURCE ID: quest_special_dialogue_starly_0_5
-TEXT: I am eager to locate the source. Let us proceed.
+TEXT: Мне не терпится найти причину. Итак, приступим.
 
 RESOURCE ID: quest_special_dialogue_starly_1_0
-TEXT: So the multitude of Starly are the source of this cacophony.
+TEXT: Получается, источник этой какофонии – большое скопление Старли.
 
 RESOURCE ID: quest_special_dialogue_starly_1_1
-TEXT: Though diminutive, they flap their wings with great power. And when they form a flock...
+TEXT: Такие миниатюрные, а их крылья всё же обладают большой силой. А уж когда они сбиваются в стаи...
 
 RESOURCE ID: quest_special_dialogue_starly_1_2
-TEXT: I would not wish to be the target of their displeasure.
+TEXT: Мне не хотелось бы стать объектом их недовольства...
 
 RESOURCE ID: quest_special_dialogue_starly_1_3
-TEXT: The strength of such a small creature is a marvel.
+TEXT: Сила столь маленьких созданий – поистине нечто замечательное.
 
 RESOURCE ID: quest_special_dialogue_starly_1_4
-TEXT: And if it were to evolve, I suspect that strength would only grow.
+TEXT: Я предполагаю, что после эволюции их сила только возрастёт.
 
 RESOURCE ID: quest_special_dialogue_starly_1_5
-TEXT: Evolution affects Pokémon in such splendid ways. How will Starly change, do you think? Not another head, surely?
+TEXT: Эволюция оказывает такое невероятное влияние на Покемонов. Как думаешь, насколько Старли изменится? Надеюсь, у него не появится ещё одна голова?
 
 RESOURCE ID: quest_special_dialogue_starly_1_6
-TEXT: After our experience with Deino, little would surprise me. Nevertheless, I would like to witness this transformation for myself.
+TEXT: После того, что нам удалось наблюдать при эволюции Дейно, меня мало что может удивить. Однако мне хотелось бы увидеть такую трансформацию своими глазами.
 
 RESOURCE ID: quest_special_dialogue_starly_2_0
-TEXT: I am impressed yet again, Pokémon Trainer.
+TEXT: Твои навыки не перестают меня поражать, Тренер Покемонов.
 
 RESOURCE ID: quest_special_dialogue_starly_2_1
-TEXT: Staravia might not have grown an additional head, but it did increase in size.
+TEXT: У Старавии не выросла ещё одна голова, но в размерах он увеличился.
 
 RESOURCE ID: quest_special_dialogue_starly_2_2
-TEXT: My early observations indicate that Staravia, too, prefer to travel in a flock.
+TEXT: Мои скромные наблюдения также указывают на то, что Старавии предпочитают перемещаться стаями.
 
 RESOURCE ID: quest_special_dialogue_starly_2_3
-TEXT: And when Staravia are not surrounded by their kind, they cry noisily. Perhaps they find comfort and security when together.
+TEXT: А когда Старавии не находятся в окружении своих сородичей, они издают громкие крики. Вероятно, только вместе они чувствуют себя в безопасности.
 
 RESOURCE ID: quest_special_dialogue_starly_2_4
-TEXT: I...can understand this.
+TEXT: Мне это... понятно.
 
 RESOURCE ID: quest_special_dialogue_starly_2_5
-TEXT: Ahem. Does it evolve further? What changes might that bring?
+TEXT: Хм. А может ли Старавия дальше эволюционировать? Какие же изменения могут с ним произойти?
 
 RESOURCE ID: quest_special_dialogue_starly_3_0
-TEXT: Stunning. What a formidable physique.
+TEXT: Невероятно. Какой грозный облик.
 
 RESOURCE ID: quest_special_dialogue_starly_3_1
-TEXT: This musculature of this Pokémon—Staraptor, is it?—indicates great strength. It appears more than capable of carrying away its prey.
+TEXT: Мускулистое тело этого Покемона ярко демонстрирует его недюжинную силу. Ты называешь его Стараптором, верно? Он явно способен поднять и унести свою добычу.
 
 RESOURCE ID: quest_special_dialogue_starly_3_2
-TEXT: And, unlike Starly and Staravia, it appears not to travel in flocks. Curious.
+TEXT: И, в отличие от Старли и Старавии, не похоже, чтобы он нуждался в стае. Любопытно.
 
 RESOURCE ID: quest_special_dialogue_starly_3_3
-TEXT: The Pokémon of this world have such fascinating social structures. Some are more comfortable with others, and some find contentment alone.
+TEXT: У Покемонов в этом мире столь удивительная социальная организация. Некоторые предпочитают быть в окружении своих сородичей, а другим комфортнее в одиночестве.
 
 RESOURCE ID: quest_special_dialogue_starly_3_4
-TEXT: They are like humans in this way, do you not think?
+TEXT: Этим они похожи на людей, не находишь?
 
 RESOURCE ID: quest_special_dialogue_starly_3_5
-TEXT: With each investigation we undertake, my understanding of your world is further illuminated.
+TEXT: Каждое наше исследование помогает пролить свет на всё новые аспекты этого мира.
 
 RESOURCE ID: quest_special_dialogue_starly_3_6
-TEXT: Thank you for your company, Pokémon Trainer. Until again.
+TEXT: Спасибо за помощь сегодня, Тренер Покемонов. Увидим друг друга.
 
 RESOURCE ID: quest_special_dialogue_tcc_3_3
 TEXT: В любом случае, приступим к этим заданиям для квеста. Слушай внимательно, ведь никогда не знаешь, с чем можно столкнуться!
+
+RESOURCE ID: quest_special_dialogue_tcg1_0_2
+TEXT: У нас четверых сложились прочные отношения с нашими приятелями. У Бланш крепкая дружба с Лапрасом, у Канделы Рапидаш ещё с тех пор, когда он был маленьким Понитой, а Спарк отлично ладит с Элекидом.
+
+RESOURCE ID: quest_special_dialogue_tcg1_1_0
+TEXT: С возвращением, Тренер! Похоже, пришло время приступить к нашему исследованию. Почему бы нам не начать со знакомства с Бланш и Лапрасом?
 
 RESOURCE ID: quest_starly_catch_b
 TEXT: Поймай {0} Старли
 
 RESOURCE ID: quest_starly_evolve_b
-TEXT: Evolve {0} Starly
+TEXT: Эволюционируй {0} Старли
 
 RESOURCE ID: quest_starly_snapshot_b
-TEXT: Take {0} snapshots of Starly
+TEXT: Сделай {0} фото Старли
 
 RESOURCE ID: quest_template.display.branches#0.button_text_key
 TEXT: Gyms and Grunts!
@@ -2516,19 +2612,19 @@ RESOURCE ID: quest_title_may22_alola_branch_quest_3
 TEXT: Прощание с Алолой (4/4)
 
 RESOURCE ID: quest_title_starly
-TEXT: Field Notes: Starly
+TEXT: Полевые заметки: Старли
 
 RESOURCE ID: quest_title_starly_0
-TEXT: Field Notes: Starly (1/4)
+TEXT: Полевые заметки: Старли (1/4)
 
 RESOURCE ID: quest_title_starly_1
-TEXT: Field Notes: Starly (2/4)
+TEXT: Полевые заметки: Старли (2/4)
 
 RESOURCE ID: quest_title_starly_2
-TEXT: Field Notes: Starly (3/4)
+TEXT: Полевые заметки: Старли (3/4)
 
 RESOURCE ID: quest_title_starly_3
-TEXT: Field Notes: Starly (4/4)
+TEXT: Полевые заметки: Старли (4/4)
 
 RESOURCE ID: quest_transfer_rock_or_poison_plural
 TEXT: Передай {0} каменных или ядовитых Покемонов
@@ -2617,17 +2713,26 @@ TEXT: Победи в {0} рейдах с командой из разных П�
 RESOURCE ID: quests_batch_updated
 TEXT: Обновлены задания для квеста: {0}
 
+RESOURCE ID: raid_day_porygon2
+TEXT: Рейдовый день: Поригон-2
+
 RESOURCE ID: raid_join_in_person_button
 TEXT: Местный рейд
 
 RESOURCE ID: raid_join_in_person_description
 TEXT: Сражайся с Тренерами поблизости, чтобы победить рейдового босса.
 
-RESOURCE ID: raid_join_in_person_out_of_range
+RESOURCE ID: raid_join_in_person_out_of_range_toast
 TEXT: Подойди ближе, чтобы сразиться в этом рейде.
+
+RESOURCE ID: raid_weekend_porygon2
+TEXT: Особые рейдовые выходные: Поригон-2
 
 RESOURCE ID: raiding_box
 TEXT: Рейдовая коробка
+
+RESOURCE ID: rocket_component_double
+TEXT: 2× загадочных компонентов от агентов Команды Ракета GO
 
 RESOURCE ID: russian
 TEXT: Русский
@@ -2650,14 +2755,23 @@ TEXT: Побеждены члены Команды Ракета GO: {0}
 RESOURCE ID: score_defeat_rocket_singular
 TEXT: Побеждён 1 член Команды Ракета GO
 
+RESOURCE ID: settings_allow_paid_gifts
+TEXT: Allow friends to send you paid gifts
+
 RESOURCE ID: settings_buddy_gained_candy
 TEXT: Конфеты приятеля
 
 RESOURCE ID: settings_friend_level_increased
 TEXT: Повышение уровня дружбы
 
+RESOURCE ID: settings_gift_notified_push_notification
+TEXT: Your friend received their event ticket!
+
 RESOURCE ID: settings_gift_opened
 TEXT: Открытые подарки
+
+RESOURCE ID: settings_gift_received_push_notification
+TEXT: You’ve received an event ticket!
 
 RESOURCE ID: settings_group_research_task
 TEXT: Суммарные обновления по квестам
@@ -2666,7 +2780,7 @@ RESOURCE ID: settings_in_app_notification_header
 TEXT: Внутриигровые уведомления
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
-TEXT: Включение этой опции позволит тебе передавать Легендарных Покемонов, Ультрачудовищ и некоторых Мифических Покемонов, когда в хранилище выбрано несколько Покемонов. Передачу Покемонов в лабораторию Профессора Уиллоу нельзя отменить.
+TEXT: Включение этой опции позволит тебе передавать Легендарных Покемонов, Ультрачудовищ и некоторых Мифических Покемонов, когда в хранилище выбрано несколько Покемонов. Передачу Покемонов нельзя отменить.
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_title
 TEXT: Are you sure you want to be able to transfer Legendary Pokémon, Mythical Pokémon, and Ultra Beasts when selecting multiple Pokémon?
@@ -2710,6 +2824,50 @@ TEXT: Недельный кубок поимки для всех Тренеро�
 RESOURCE ID: shop_daily_bonus_header
 TEXT: Особый подарок!
 
+RESOURCE ID: shop_gift_friend_ineligible_title
+TEXT: Не удалось отправить подарок
+
+RESOURCE ID: shop_gift_notified_in_app_notification
+TEXT: {0} received your event invite!
+
+RESOURCE ID: shop_gift_notified_notification
+TEXT: {0} received your event invite!
+
+RESOURCE ID: shop_gift_purchase_confirmation_description
+TEXT: {0} получит от тебя <b>{1}</b>. 
+
+Этот билет не может быть использован другим Тренером. Данная покупка не подлежит возврату или отмене.
+
+RESOURCE ID: shop_gift_purchase_invitation_sent
+TEXT: Твой подарок уже в пути!
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_description
+TEXT: You can purchase {0} gift tickets for this event.
+The limit exists to prevent overspending and fraud.
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_title
+TEXT: Paid Gift Limit Reached
+
+RESOURCE ID: shop_gift_received_journal_entry
+TEXT: {0} gifted you a ticket for an event!
+
+RESOURCE ID: shop_gift_received_notification
+TEXT: {0} gifted you a ticket for an event!
+
+RESOURCE ID: shop_gifting_policy_modal_description_limited
+TEXT: • You cannot get a refund for tickets purchased for friends.
+• You cannot cancel a gift after it has been sent.
+• You can only send {0} paid gifts for this event.
+
+RESOURCE ID: shop_ticket_gift_info_limited
+TEXT: You can purchase {0} discounted tickets to give to your friends!
+
+RESOURCE ID: shop_ticket_gift_info_limited_require_purchase
+TEXT: Once you have purchased a ticket, you can purchase {0} discounted tickets to give to your friends!
+
+RESOURCE ID: shop_ticket_gift_info_require_purchase
+TEXT: Once you have purchased a ticket, you can purchase {0} discounted tickets to give to your friends!
+
 RESOURCE ID: spanish
 TEXT: Español
 
@@ -2720,7 +2878,7 @@ RESOURCE ID: spawn_deino
 TEXT: Появляется больше диких Дейно
 
 RESOURCE ID: spawn_starly
-TEXT: More Starly are appearing in the wild!
+TEXT: Появляется больше диких Старли!
 
 RESOURCE ID: special_trades_plus_5
 TEXT: Пять дополнительных cпециальных обменов в день
@@ -3433,14 +3591,14 @@ TEXT:
 RESOURCE ID: sticker_summer_6.5_description
 TEXT:  
 
-RESOURCE ID: stickers_rv2_ecently_used
-TEXT: Recently Used
-
 RESOURCE ID: stickers_v2_characters_category
 TEXT: Characters
 
 RESOURCE ID: stickers_v2_collect_from
 TEXT: Collect these stickers from the Shop, Gifts, or the PokéStop.
+
+RESOURCE ID: stickers_v2_ecently_used
+TEXT: Recently Used
 
 RESOURCE ID: stickers_v2_featured_category
 TEXT: Featured
@@ -3518,7 +3676,7 @@ RESOURCE ID: ticket_may22_alola
 TEXT: Билет на специальный квест «Прощание с Алолой» доступен в магазине
 
 RESOURCE ID: ticket_starly
-TEXT: Ticket for the Field Notes: Starly Special Research story available in the shop
+TEXT: Билет на специальный квест «Полевые заметки: Старли» доступен в магазине
 
 RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: Тренеры должны работать вместе как глобальное сообщество, чтобы пройти это испытание.

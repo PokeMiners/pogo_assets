@@ -714,6 +714,9 @@ TEXT: By choosing this path, you’ll be challenged with tasks related to battli
 RESOURCE ID: branch_may22_alola_1d_title
 TEXT: Poni Island
 
+RESOURCE ID: branching_quests_tut_description
+TEXT: Some research presents choices that can lead to different challenges and rewards. Your experience might change based on choices you make!
+
 RESOURCE ID: brazilianportuguese
 TEXT: Português
 
@@ -766,6 +769,9 @@ TEXT: English
 
 RESOURCE ID: error_has_unsent_gift
 TEXT: You can gift your extra ticket from your Item Bag.
+
+RESOURCE ID: error_ticket_not_owned
+TEXT: You must purchase a ticket for this event before you can purchase one for a friend.
 
 RESOURCE ID: event_evolve_cubone
 TEXT: Cubone can evolve into Alolan Marowak
@@ -1281,31 +1287,31 @@ RESOURCE ID: gofest2022_live_habitat_windy_coast
 TEXT: Current habitat: Windy Coast
 
 RESOURCE ID: gofest2022_live_quest_photo_athletic_park
-TEXT: Take a snapshot of Hitmontop in the Athletic Park habitat
+TEXT: In the Athletic Park habitat, take a snapshot of a Hitmontop you caught
 
 RESOURCE ID: gofest2022_live_quest_photo_cloud_sanctuary
-TEXT: Take a snapshot of Swablu in the Cloud Sanctuary habitat
+TEXT: In the Cloud Sanctuary habitat, take a snapshot of a Swablu you caught
 
 RESOURCE ID: gofest2022_live_quest_photo_dreamy_mindscape
-TEXT: Take a snapshot of Abra in the Dreamy Mindscape habitat
+TEXT: In the Dreamy Mindscape habitat, take a snapshot of an Abra you caught
 
 RESOURCE ID: gofest2022_live_quest_photo_electric_garden
-TEXT: Take a snapshot of Lileep in the Electric Garden habitat
+TEXT: In the Electric Garden habitat, take a snapshot of a Lileep you caught
 
 RESOURCE ID: gofest2022_live_quest_photo_frozen_lake
-TEXT: Take a snapshot of Darumaka in the Frozen Lake habitat
+TEXT: In the Frozen Lake habitat, take a snapshot of a Darumaka you caught
 
 RESOURCE ID: gofest2022_live_quest_photo_living_meadow
-TEXT: Take a snapshot of Cherrim in the Living Meadow habitat
+TEXT: In the Living Meadow habitat, take a snapshot of a Cherrim you caught
 
 RESOURCE ID: gofest2022_live_quest_photo_molten_rocks
-TEXT: Take a snapshot of Darumaka in the Molten Rocks habitat
+TEXT: In the Molten Rocks habitat, take a snapshot of a Darumaka you caught
 
 RESOURCE ID: gofest2022_live_quest_photo_oasis
-TEXT: Take a snapshot of Dwebble in The Oasis habitat
+TEXT: In The Oasis habitat, take a snapshot of a Dwebble you caught
 
 RESOURCE ID: gofest2022_live_quest_photo_windy_coast
-TEXT: Take a snapshot of Rufflet in the Windy Coast habitat
+TEXT: In the Windy Coast habitat, take a snapshot of a Rufflet you caught
 
 RESOURCE ID: gofest2022_live_sapporo
 TEXT: Pokémon GO Fest: Sapporo
@@ -1611,8 +1617,8 @@ RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
 TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>-type Pokémon.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-06T21:09:43.589978
-at SHA ef16cd22f9c3c71333d79514f6d12ff46492268f
+TEXT: Built at 2022-07-13T16:47:11.192465
+at SHA 1d0b4248505aadb18a8a599fd7a555c3aae045be
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51
 
 RESOURCE ID: move_name_0367
@@ -1623,6 +1629,9 @@ TEXT: Rollout
 
 RESOURCE ID: move_name_0369
 TEXT: Seed Flare
+
+RESOURCE ID: nearby_raid_local_only
+TEXT: LOCAL ONLY
 
 RESOURCE ID: nearby_raid_notification_toast
 TEXT: A Raid Egg has appeared at a nearby Gym!
@@ -1668,6 +1677,15 @@ TEXT: Scout Pokémon
 
 RESOURCE ID: pokemon_category_0059_2793
 TEXT: Legendary Pokémon
+
+RESOURCE ID: pokemon_category_0144_2801
+TEXT: Cruel Pokémon
+
+RESOURCE ID: pokemon_category_0145_2800
+TEXT: Strong Legs Pokémon
+
+RESOURCE ID: pokemon_category_0146_2799
+TEXT: Malevolent Pokémon
 
 RESOURCE ID: pokemon_category_0157_2786
 TEXT: Ghost Flame Pokémon
@@ -1732,6 +1750,15 @@ TEXT: They patrol their territory in pairs. I believe the igneous rock component
 RESOURCE ID: pokemon_desc_0059_2793
 TEXT: Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.
 
+RESOURCE ID: pokemon_desc_0144_2801
+TEXT: Its feather-like blades are composed of psychic energy and can shear through thick iron sheets as if they were paper.
+
+RESOURCE ID: pokemon_desc_0145_2800
+TEXT: When its feathers rub together, they produce a crackling sound like the zapping of electricity. That’s why this Pokémon is called Zapdos.
+
+RESOURCE ID: pokemon_desc_0146_2799
+TEXT: This Pokémon’s sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.
+
 RESOURCE ID: pokemon_desc_0157_2786
 TEXT: Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui’s center.
 
@@ -1786,8 +1813,11 @@ TEXT: Because of Sneasler’s virulent poison and daunting physical prowess, no 
 RESOURCE ID: pokemon_desc_0904
 TEXT: Its lancelike spikes and savage temperament have earned it the nickname “sea fiend.” It slurps up poison to nourish itself.
 
-RESOURCE ID: pokemon_desc_0905
+RESOURCE ID: pokemon_desc_0905_2802
 TEXT: When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon’s love gives rise to the budding of fresh life across Hisui.
+
+RESOURCE ID: pokemon_desc_0905_2803
+TEXT: A different guise from its feminine humanoid form. From the clouds, it descends upon those who treat any form of life with disrespect and metes out wrathful, ruthless punishment.
 
 RESOURCE ID: pokemon_info_multi_transfer_ultra_beast_pokemon_error
 TEXT: You can’t select Ultra Beasts.
@@ -2547,11 +2577,20 @@ TEXT: Use {0} Rare Candies
 RESOURCE ID: quest_use_rare_candy_singular
 TEXT: Use a Rare Candy
 
+RESOURCE ID: quest_win_raid_2_singular
+TEXT: Win a two-star raid or higher
+
+RESOURCE ID: quest_win_raid_3_plural
+TEXT: Win {0} three-star raids or higher
+
+RESOURCE ID: quest_win_raid_3_singular
+TEXT: Win a three-star raid or higher
+
 RESOURCE ID: quest_win_raid_buddy_plural
 TEXT: Win {0} raids with your Buddy Pokémon
 
 RESOURCE ID: quest_win_raid_lvl1_higher_singular
-TEXT: Win a level 1 or higher raid
+TEXT: Win a one-star raid or higher
 
 RESOURCE ID: quest_win_raid_with_friend_plural
 TEXT: Win {0} raids with a friend
@@ -2571,7 +2610,7 @@ TEXT: Local Raid
 RESOURCE ID: raid_join_in_person_description
 TEXT: Battle with nearby Trainers to defeat this Raid Boss.
 
-RESOURCE ID: raid_join_in_person_out_of_range
+RESOURCE ID: raid_join_in_person_out_of_range_toast
 TEXT: Walk closer to battle in this raid.
 
 RESOURCE ID: raiding_box
@@ -2598,14 +2637,23 @@ TEXT: Defeated {0} Team GO Rocket members
 RESOURCE ID: score_defeat_rocket_singular
 TEXT: Defeated 1 Team GO Rocket member
 
+RESOURCE ID: settings_allow_paid_gifts
+TEXT: Allow friends to send you paid gifts
+
 RESOURCE ID: settings_buddy_gained_candy
 TEXT: Buddy Candies
 
 RESOURCE ID: settings_friend_level_increased
 TEXT: Increased Friendship Level
 
+RESOURCE ID: settings_gift_notified_push_notification
+TEXT: Your friend received their event ticket!
+
 RESOURCE ID: settings_gift_opened
 TEXT: Opened Gifts
+
+RESOURCE ID: settings_gift_received_push_notification
+TEXT: You’ve received an event ticket!
 
 RESOURCE ID: settings_group_research_task
 TEXT: Combined Research Updates
@@ -2658,6 +2706,12 @@ TEXT: A weeklong Catch Cup for all Trainers with Pokémon GO Safari Zone: Sevill
 RESOURCE ID: shop_daily_bonus_header
 TEXT: A special gift!
 
+RESOURCE ID: shop_gift_notified_in_app_notification
+TEXT: {0} received your event invite!
+
+RESOURCE ID: shop_gift_notified_notification
+TEXT: {0} received your event invite!
+
 RESOURCE ID: shop_gift_purchase_confirmation_description
 TEXT: {0} will receive <b>{1}</b> from you. 
 
@@ -2667,6 +2721,33 @@ RESOURCE ID: shop_gift_purchase_user_limit_description
 TEXT: You can only send {0} paid gifts per day. Please wait until tomorrow to purchase more gifts.
 
 Daily limits exist to prevent overspending or fraud.
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_description
+TEXT: You can purchase {0} gift tickets for this event.
+The limit exists to prevent overspending and fraud.
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_title
+TEXT: Paid Gift Limit Reached
+
+RESOURCE ID: shop_gift_received_journal_entry
+TEXT: {0} gifted you a ticket for an event!
+
+RESOURCE ID: shop_gift_received_notification
+TEXT: {0} gifted you a ticket for an event!
+
+RESOURCE ID: shop_gifting_policy_modal_description_limited
+TEXT: • You cannot get a refund for tickets purchased for friends.
+• You cannot cancel a gift after it has been sent.
+• You can only send {0} paid gifts for this event.
+
+RESOURCE ID: shop_ticket_gift_info_limited
+TEXT: You can purchase {0} discounted tickets to give to your friends!
+
+RESOURCE ID: shop_ticket_gift_info_limited_require_purchase
+TEXT: Once you have purchased a ticket, you can purchase {0} discounted tickets to give to your friends!
+
+RESOURCE ID: shop_ticket_gift_info_require_purchase
+TEXT: Once you have purchased a ticket, you can purchase {0} discounted tickets to give to your friends!
 
 RESOURCE ID: spanish
 TEXT: Español
@@ -3388,14 +3469,14 @@ TEXT:
 RESOURCE ID: sticker_summer_6.5_description
 TEXT:  
 
-RESOURCE ID: stickers_rv2_ecently_used
-TEXT: Recently Used
-
 RESOURCE ID: stickers_v2_characters_category
 TEXT: Characters
 
 RESOURCE ID: stickers_v2_collect_from
 TEXT: Collect these stickers from the Shop, Gifts, or the PokéStop.
+
+RESOURCE ID: stickers_v2_ecently_used
+TEXT: Recently Used
 
 RESOURCE ID: stickers_v2_featured_category
 TEXT: Featured

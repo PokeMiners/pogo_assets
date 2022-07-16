@@ -208,6 +208,12 @@ TEXT: Sapato social
 branco do
 6º aniversário
 
+RESOURCE ID: badge_event_0031
+TEXT: Pesquisa de parceiros da Temporada de Alola: Sushiro
+
+RESOURCE ID: badge_event_0032_title
+TEXT: Pesquisa de parceiros: Tully’s
+
 RESOURCE ID: badge_event_0034
 TEXT: Pesquisa de parceiros da Temporada de GO: Odakyu
 
@@ -584,7 +590,7 @@ RESOURCE ID: batch_transfer_result
 TEXT: Doce recebido.
 
 RESOURCE ID: batch_transfer_unique_included
-TEXT: You have selected at least one Legendary Pokémon, Mythical Pokémon, Ultra Beast, or event Pokémon.
+TEXT: Você selecionou pelo menos um Pokémon Lendário, Mítico, Ultracriatura ou de evento.
 
 RESOURCE ID: batch_transfer_unique_legendary_or_mythical_or_ultra_beast_pokemon
 TEXT: {0} Pokémon Lendários, Pokémon Míticos ou Ultracriaturas
@@ -644,7 +650,7 @@ RESOURCE ID: bonus_cd_move_deino
 TEXT: Evolua Zweilos para Hydreigon que sabe o ataque carregado Balanço Violento!
 
 RESOURCE ID: bonus_cd_move_starly
-TEXT: Evolve Staravia to get a Staraptor that knows the Fast Attack Gust
+TEXT: Evolua Staravia para conseguir um Staraptor que conheça o ataque ágil Lufada de Vento
 
 RESOURCE ID: bonus_implicit_social_alodude
 TEXT: Se Pokémon suficientes forem pegos com a ajuda de um único Módulo Atrair, o bônus de 3× Poeira Estelar por captura para Treinadores perto da Poképarada com o Módulo Atrair se tornará um bônus de 4× por 30 minutos
@@ -662,7 +668,7 @@ RESOURCE ID: bonus_implicit_social_deino_raid_title
 TEXT: Desafio do Dia Comunitário: Reide
 
 RESOURCE ID: bonus_implicit_social_lure_4x_catch_xp
-TEXT: If enough Pokémon are caught with help from a single Lure Module, the 3× XP bonus for catching Pokémon near the Lured PokéStop will become a 4× bonus for 30 minutes.
+TEXT: Se Pokémon suficientes forem pegos com a ajuda de um único Módulo Atrair, o bônus de 3× PE por pegar Pokémon perto da Poképarada com o Módulo Atrair se tornará um bônus de 4× por 30 minutos.
 
 RESOURCE ID: bonus_implicit_social_lure_title
 TEXT: Desafio do Dia Comunitário: Captura
@@ -671,16 +677,16 @@ RESOURCE ID: bonus_implicit_social_raid_title
 TEXT: Desafio do Dia Comunitário: Reide
 
 RESOURCE ID: bonus_implicit_social_starly_raid
-TEXT: If Trainers defeat Staravia in a Raid Battle, more wild Starly will appear around the Gym that hosted the raid for 30 minutes.
+TEXT: Se os Treinadores derrotarem Staravia em uma Batalha de Reide, mais Starly selvagens aparecerão ao redor do Ginásio onde o Reide aconteceu por 30 minutos.
 
 RESOURCE ID: bonus_not_active
 TEXT: Bônus não ativo
 
 RESOURCE ID: bonus_special_trade_starly_cd
-TEXT: One additional Special Trade can be made during the event and up to five hours afterward for a maximum of three for the day.
+TEXT: Uma troca especial adicional pode ser feita durante e até cinco horas após o evento (máximo de 3 trocas no dia).
 
 RESOURCE ID: bonus_trade_stardust_50pc_5hr
-TEXT: Trades made during the event and up to five hours after will require 50% less Stardust.
+TEXT: As trocas feitas durante e até cinco horas após o evento exigirão 50% a menos de Poeira Estelar.
 
 RESOURCE ID: bonus_unlocked
 TEXT: Bônus desbloqueado!
@@ -734,7 +740,7 @@ RESOURCE ID: community_day_deino_event_name
 TEXT: Dia Comunitário: Deino
 
 RESOURCE ID: community_day_starly_event_name
-TEXT: Community Day: Starly
+TEXT: Dia Comunitário: Starly
 
 RESOURCE ID: convert_to_stardust
 TEXT: Você conseguirá receber Poeira Estelar ao abrir este presente, mas não receberá outros itens, já que sua Bolsa está cheia.
@@ -750,8 +756,20 @@ TEXT: Assim que a hora especial começar, Corphish selvagens aparecerão com mai
 RESOURCE ID: delete_pokemon_tag_confirmation
 TEXT: A tag será removida dos Pokémon correspondentes. Os Pokémon não serão transferidos.
 
+RESOURCE ID: disable_sponsored_gift_description
+TEXT: Desative esta opção para parar de receber mensagens patrocinadas através de serviços de propaganda terceirizados. Reinicie o aplicativo para salvar a sua escolha.
+
+RESOURCE ID: disable_sponsored_gift_title
+TEXT: Desativar mensagens patrocinadas de serviços de propaganda terceirizados
+
+RESOURCE ID: enable_sponsored_gift_description
+TEXT: Ative esta opção para receber mensagens patrocinadas através de serviços de propaganda terceirizados. Reinivie o jogo para salvar a sua escolha.
+
+RESOURCE ID: enable_sponsored_gift_title
+TEXT: Ativar mensagens patrocinadas de serviços de propaganda terceirizados
+
 RESOURCE ID: encounter_score_active_mega_bonus
-TEXT: Active Mega-Evolution Bonus
+TEXT: Bônus de Megaevolução ativo
 
 RESOURCE ID: encounter_transfer_or_upgrade
 TEXT: Você pode transferir seus Pokémon ou aumentar o seu espaço de estoque de Pokémon.
@@ -761,6 +779,9 @@ TEXT: English
 
 RESOURCE ID: error_has_unsent_gift
 TEXT: Você pode presentear o seu ingresso extra direto na sua Bolsa.
+
+RESOURCE ID: error_ticket_not_owned
+TEXT: You must purchase a ticket for this event before you can purchase one for a friend.
 
 RESOURCE ID: event_evolve_cubone
 TEXT: Cubone pode evoluir para Marowak de Alola
@@ -837,12 +858,12 @@ RESOURCE ID: general1.ticket.2_may22_alola_title
 TEXT: Ingresso para “De Alola a Alola”
 
 RESOURCE ID: general1.ticket.2_starly_description
-TEXT: A ticket to access the Field Notes: Starly Special Research on July 17, 2022, from 11:00 a.m. to 2:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: Um ingresso para acessar a pesquisa especial “Notas de Campo: Starly” em 17 de julho de 2022, das 11h às 14h do seu horário local, de onde você estiver. Mais detalhes podem ser encontrados na seção de novidades do jogo.
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+VOCÊ DEVE JOGAR DURANTE O HORÁRIO ESPECIFICADO PARA RECEBER TODOS OS BÔNUS DO EVENTO ESPECIAL.
 
 RESOURCE ID: general1.ticket.2_starly_title
-TEXT: Field Notes: Starly
+TEXT: Notas de campo: Starly
 
 RESOURCE ID: general_buddy
 TEXT: Companheiro
@@ -1276,31 +1297,31 @@ RESOURCE ID: gofest2022_live_habitat_windy_coast
 TEXT: Habitat atual: Costa dos Ventos
 
 RESOURCE ID: gofest2022_live_quest_photo_athletic_park
-TEXT: Tirar 1 foto de Hitmontop no habitat Parque Atlético.
+TEXT: No habitat Parque Atlético, tirar 1 foto de Hitmontop que você pegar.
 
 RESOURCE ID: gofest2022_live_quest_photo_cloud_sanctuary
-TEXT: Tirar 1 foto de Swablu no habitat Santuário das Nuvens.
+TEXT: No habitat Santuário das Nuvens, tirar 1 foto de Swablu que você pegar.
 
 RESOURCE ID: gofest2022_live_quest_photo_dreamy_mindscape
-TEXT: Tirar 1 foto de Abra no habitat Paisagem dos Sonhos.
+TEXT: No habitat Paisagem dos Sonhos, tirar 1 foto de Abra que você pegar.
 
 RESOURCE ID: gofest2022_live_quest_photo_electric_garden
-TEXT: Tirar 1 foto de Lileep no habitat Jardim Elétrico.
+TEXT: No habitat Jardim Elétrico, tirar 1 foto de Lileep que você pegar.
 
 RESOURCE ID: gofest2022_live_quest_photo_frozen_lake
-TEXT: Tirar 1 foto de Darumaka no habitat Lago Congelado.
+TEXT: No habitat Lago Congelado, tirar 1 foto de Darumaka que você pegar.
 
 RESOURCE ID: gofest2022_live_quest_photo_living_meadow
-TEXT: Tirar 1 foto de Cherrim no habitat Prados Vívidos.
+TEXT: No habitat Prados Vívidos, tirar 1 foto de Cherrim que você pegar.
 
 RESOURCE ID: gofest2022_live_quest_photo_molten_rocks
-TEXT: Tirar 1 foto de Darumaka no habitat Rochas Fundidas.
+TEXT: No habitat Rochas Fundidas, tirar 1 foto de Darumaka que você pegar.
 
 RESOURCE ID: gofest2022_live_quest_photo_oasis
-TEXT: Tirar 1 foto de Dwebble no habitat O Oásis.
+TEXT: No habitat O Oásis, tirar 1 foto de Dwebble que você pegar.
 
 RESOURCE ID: gofest2022_live_quest_photo_windy_coast
-TEXT: Tirar 1 foto de Rufflet no habitat Costa dos Ventos.
+TEXT: No habitat Costa dos Ventos, tirar 1 foto de Rufflet que você pegar.
 
 RESOURCE ID: gofest2022_live_sapporo
 TEXT: Festival de Pokémon GO: Sapporo
@@ -1467,13 +1488,13 @@ RESOURCE ID: item_event_ticket_gray_to_gift_desc
 TEXT: Um ingresso de evento extra recebido após um erro ocorrido ao efetuar a compra. Você pode enviá-lo a um amigo ou pedir o reembolso.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: A ticket to access Special Research on July 17, 2022, from 11:00 a.m. to 2:00 p.m. local time, wherever you are.
+TEXT: Um ingresso para acessar uma pesquisa especial em 17 de julho de 2022, das 11h às 14h do seu horário local, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_desc_alodude
 TEXT: Um ingresso para acessar uma pesquisa especial em 21 de maio de 2022, das 11h às 14h, horário local, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a uma pesquisa especial no dia 17 de julho de 2022, de onde você estiver.
+TEXT: Este ingresso será ativado automaticamente para lhe garantir acesso a uma pesquisa especial em 17 de julho de 2022, de onde você estiver.
 
 RESOURCE ID: item_event_ticket_pink_may22_alola_desc
 TEXT: Um ingresso para acessar a pesquisa especial “De Alola a Alola”, de onde você estiver.
@@ -1502,10 +1523,13 @@ RESOURCE ID: item_global_event_ticket_to_gift_desc
 TEXT: Um ingresso de evento extra recebido após um erro ocorrido ao efetuar a compra. Você pode enviá-lo a um amigo ou pedir o reembolso.
 
 RESOURCE ID: item_global_event_ticket_to_gift_description
-TEXT: A ticket to access Pokémon GO Fest on June 4 and June 5, 2022, from 10:00 a.m. to 6:00 p.m. local time each day, wherever you are.
+TEXT: Um ingresso para participar do Festival de Pokémon GO nos dias 4 e 5 de junho de 2022, das 10h às 18h, no seu horário local, de onde você estiver.
 
 RESOURCE ID: item_global_event_ticket_to_gift_name
 TEXT: Festival de Pokémon GO 2022
+
+RESOURCE ID: item_pokemon_storage_upgrade_name
+TEXT: Estoque de Pokémon
 
 RESOURCE ID: japanese
 TEXT: 日本語
@@ -1599,7 +1623,14 @@ RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
 TEXT: Enquanto {0} estiver Megaevoluído, você receberá doces e PE extras, e aumentará sua chance de receber doces GG ao capturar Pokémon de tipo <b>{1}</b>.
 
 RESOURCE ID: mega_evolve_lobby_existing_toast
-TEXT: You can only use one Mega-Evolved Pokémon at a time.
+TEXT: Você pode usar apenas um Pokémon Megaevoluído por vez.
+
+RESOURCE ID: mega_level_tutorial_page1_body
+TEXT: • Agora é possível Megaevoluir um Pokémon sem usar Megaenergia.
+• Você ainda poderá usar Megaenergia para Megaevoluir um Pokémon durante o tempo de descanso.
+• Novos bônus foram adicionados que vão melhorar quanto mais o Meganível do seu Pokémon aumentar.
+
+Após um Pokémon Megaevoluir, é preciso aguardar até que ele possa Megaevoluir novamente sem usar Megaenergia. Você também poderá usar Megaenergia para Megaevoluir seu Pokémon antes disso.
 
 RESOURCE ID: mega_level_tutorial_page2_body
 TEXT: <b>Usando Megaenergia</b>
@@ -1609,8 +1640,8 @@ Você sempre pode Megaevoluir um Pokémon usando Megaenergia mesmo durante o tem
 O seu Pokémon precisará descansar após Megaevoluir sem usar Megaenergia. O tempo de descanso do Pokémon diminuirá quantos mais ele Megaevoluir.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-06T21:09:43.589978
-at SHA ef16cd22f9c3c71333d79514f6d12ff46492268f
+TEXT: Built at 2022-07-13T16:47:11.192465
+at SHA 1d0b4248505aadb18a8a599fd7a555c3aae045be
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51
 
 RESOURCE ID: move_name_0367
@@ -1621,6 +1652,9 @@ TEXT: Rolagem
 
 RESOURCE ID: move_name_0369
 TEXT: Semente Ofuscante
+
+RESOURCE ID: nearby_raid_local_only
+TEXT: LOCAL ONLY
 
 RESOURCE ID: nearby_raid_notification_toast
 TEXT: Um Ovo de Reide apareceu em um Ginásio próximo!
@@ -1649,6 +1683,9 @@ TEXT: Um combo com 3 Passes de Batalha Premium que podem ser usados para partici
 RESOURCE ID: paidraidticket.3_title
 TEXT: 3 Passes de Batalha Premium
 
+RESOURCE ID: performance_successfully_updated
+TEXT: Suas configurações de desempenho foram atualizadas com sucesso.
+
 RESOURCE ID: photobomb_five_alodude
 TEXT: 5 encontros surpresa com Geodude de Alola ao usar o Retrato GO
 
@@ -1656,7 +1693,7 @@ RESOURCE ID: photobomb_five_deino
 TEXT: 5 encontros surpresa com Deino ao usar o Retrato GO
 
 RESOURCE ID: photobomb_five_starly
-TEXT: 5 surprise encounters with Starly in GO Snapshot
+TEXT: 5 encontros surpresa com Starly ao usar o Retrato GO
 
 RESOURCE ID: photobomb_safari_pika
 TEXT: 5 encontros surpresa com Pikachu usando chapéu de safári no Retrato GO!
@@ -1666,6 +1703,15 @@ TEXT: Scout Pokémon
 
 RESOURCE ID: pokemon_category_0059_2793
 TEXT: Legendary Pokémon
+
+RESOURCE ID: pokemon_category_0144_2801
+TEXT: Cruel Pokémon
+
+RESOURCE ID: pokemon_category_0145_2800
+TEXT: Strong Legs Pokémon
+
+RESOURCE ID: pokemon_category_0146_2799
+TEXT: Malevolent Pokémon
 
 RESOURCE ID: pokemon_category_0157_2786
 TEXT: Ghost Flame Pokémon
@@ -1730,6 +1776,15 @@ TEXT: They patrol their territory in pairs. I believe the igneous rock component
 RESOURCE ID: pokemon_desc_0059_2793
 TEXT: Snaps at its foes with fangs cloaked in blazing flame. Despite its bulk, it deftly feints every which way, leading opponents on a deceptively merry chase as it all but dances around them.
 
+RESOURCE ID: pokemon_desc_0144_2801
+TEXT: Its feather-like blades are composed of psychic energy and can shear through thick iron sheets as if they were paper.
+
+RESOURCE ID: pokemon_desc_0145_2800
+TEXT: When its feathers rub together, they produce a crackling sound like the zapping of electricity. That’s why this Pokémon is called Zapdos.
+
+RESOURCE ID: pokemon_desc_0146_2799
+TEXT: This Pokémon’s sinister, flame-like aura will consume the spirit of any creature it hits. Victims become burned-out shadows of themselves.
+
 RESOURCE ID: pokemon_desc_0157_2786
 TEXT: Said to purify lost, forsaken souls with its flames and guide them to the afterlife. I believe its form has been influenced by the energy of the sacred mountain towering at Hisui’s center.
 
@@ -1744,6 +1799,9 @@ TEXT: Hard of heart and deft of blade, this rare form of Samurott is a product o
 
 RESOURCE ID: pokemon_desc_0549_2789
 TEXT: I suspect that its well-developed legs are the result of a life spent on mountains covered in deep snow. The scent it exudes from its flower crown heartens those in proximity.
+
+RESOURCE ID: pokemon_desc_0552
+TEXT: Enterra algumas de suas presas na areia para emergências, caso suas outras caçadas não sejam bem sucedidas.
 
 RESOURCE ID: pokemon_desc_0570_2796
 TEXT: A once-departed soul, returned to life in Hisui. Derives power from resentment, which rises as energy atop its head and takes on the forms of foes. In this way, Zorua vents lingering malice.
@@ -1784,8 +1842,11 @@ TEXT: Because of Sneasler’s virulent poison and daunting physical prowess, no 
 RESOURCE ID: pokemon_desc_0904
 TEXT: Its lancelike spikes and savage temperament have earned it the nickname “sea fiend.” It slurps up poison to nourish itself.
 
-RESOURCE ID: pokemon_desc_0905
+RESOURCE ID: pokemon_desc_0905_2802
 TEXT: When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon’s love gives rise to the budding of fresh life across Hisui.
+
+RESOURCE ID: pokemon_desc_0905_2803
+TEXT: A different guise from its feminine humanoid form. From the clouds, it descends upon those who treat any form of life with disrespect and metes out wrathful, ruthless punishment.
 
 RESOURCE ID: pokemon_info_multi_transfer_ultra_beast_pokemon_error
 TEXT: Não é possível selecionar Ultracriatura.
@@ -1821,6 +1882,9 @@ TEXT: Enamorus
 
 RESOURCE ID: pokemon_ultra_beast_info_transfer_to_professor_confirmation
 TEXT: Quer mesmo transferir esta Ultracriatura?
+
+RESOURCE ID: pokemonstorageupgrade.1_title
+TEXT: Estoque de Pokémon
 
 RESOURCE ID: pokestop_spin_new_xp_five
 TEXT: 5× PE por visitar Poképaradas pela primeira vez
@@ -2240,15 +2304,6 @@ TEXT: Que bom que voltou! Deixe eu dar uma olhada nos Pokémon que você trouxe.
 RESOURCE ID: quest_special_dialogue_may22_alola_branch_quest_3d_0
 TEXT: Que bom que voltou! Sabia que você não teria problemas ao enfrentar a Equipe GO Rocket. Você nunca tem!
 
-RESOURCE ID: quest_special_dialogue_melemele_0_1
-TEXT: I’m feeling especially refreshed today, as if a pleasant island breeze was following me. Maybe it’s the freshly squeezed Pinap Juice I had for breakfast?
-
-RESOURCE ID: quest_special_dialogue_melemele_3_2
-TEXT: I wonder why Tapu Koko is here. Tapu Koko is said to be a Pokémon brimming with curiosity—but, naturally, island guardians tend to stay on their respective islands. The fact that one of them is here may mean something is amiss...
-
-RESOURCE ID: quest_special_dialogue_melemele_3_4
-TEXT: Do you think we’ll get a chance to meet the other island guardians, %PLAYERNAME%? Wouldn’t that be something.
-
 RESOURCE ID: quest_special_dialogue_rockethq11_0_0
 TEXT: Saudações.
 
@@ -2364,103 +2419,94 @@ RESOURCE ID: quest_special_dialogue_rockethq11_5_8
 TEXT: Até outra hora.
 
 RESOURCE ID: quest_special_dialogue_sandt_1_4
-TEXT: When their skin gets wrinkled from moisture, they head for volcanoes and lie flat on a spot with a lot of geothermal heat to dry themselves out.
+TEXT: Quando sua pele está enrugada pela umidade, eles vão para os vulcões e se deitam em um lugar com muito calor vindo da terra para se secar.
 
 RESOURCE ID: quest_special_dialogue_starly_0_0
-TEXT: Greetings, Pokémon Trainer. You have arrived at a convenient time. I would like you to assist me.
+TEXT: Saudações! Você chegou em uma hora conveniente. Eu gostaria que você me ajudasse.
 
 RESOURCE ID: quest_special_dialogue_starly_0_1
-TEXT: I am only beginning to grow familiar with the sounds of this world. The rustling of leaves, the crashing of waves...
+TEXT: Estou apenas começando a me familiarizar com os sons deste mundo. O farfalhar das folhas, o bater das ondas...
 
 RESOURCE ID: quest_special_dialogue_starly_0_2
-TEXT: But today I hear a new—there!
+TEXT: Mas hoje eu ouço um novo... lá!
 
 RESOURCE ID: quest_special_dialogue_starly_0_3
-TEXT: That high-pitched chattering and stirring of air. Is it some sort of natural phenomenon?
+TEXT: Aquele falatório alto e agudo e a agitação do ar. Isso é algum tipo de fenômeno natural?
 
 RESOURCE ID: quest_special_dialogue_starly_0_4
-TEXT: So you believe it to be caused by Pokémon. Intriguing.
+TEXT: Então você acredita que seja causado por Pokémon. Intrigante.
 
 RESOURCE ID: quest_special_dialogue_starly_0_5
-TEXT: I am eager to locate the source. Let us proceed.
+TEXT: Estou ansioso para localizar a fonte. Vamos prosseguir.
 
 RESOURCE ID: quest_special_dialogue_starly_1_0
-TEXT: So the multitude of Starly are the source of this cacophony.
+TEXT: Então, a multidão de Starly é a fonte dessa cacofonia.
 
 RESOURCE ID: quest_special_dialogue_starly_1_1
-TEXT: Though diminutive, they flap their wings with great power. And when they form a flock...
+TEXT: Apesar de diminutos, eles batem as asas com grande poder. E quando formam um bando...
 
 RESOURCE ID: quest_special_dialogue_starly_1_2
-TEXT: I would not wish to be the target of their displeasure.
+TEXT: Eu não gostaria de ser alvo de seu descontentamento.
 
 RESOURCE ID: quest_special_dialogue_starly_1_3
-TEXT: The strength of such a small creature is a marvel.
+TEXT: A força de uma criatura tão pequena é uma maravilha.
 
 RESOURCE ID: quest_special_dialogue_starly_1_4
-TEXT: And if it were to evolve, I suspect that strength would only grow.
+TEXT: E se evoluísse, suspeito que a força só aumentaria.
 
 RESOURCE ID: quest_special_dialogue_starly_1_5
-TEXT: Evolution affects Pokémon in such splendid ways. How will Starly change, do you think? Not another head, surely?
+TEXT: A evolução afeta um Pokémon de maneiras tão esplêndidas. Como você acha que Starly vai mudar? Não vai ter outra cabeça, certo?
 
 RESOURCE ID: quest_special_dialogue_starly_1_6
-TEXT: After our experience with Deino, little would surprise me. Nevertheless, I would like to witness this transformation for myself.
+TEXT: Depois da nossa experiência com Deino, nada me surpreenderia. No entanto, eu gostaria de testemunhar essa transformação.
 
 RESOURCE ID: quest_special_dialogue_starly_2_0
-TEXT: I am impressed yet again, Pokémon Trainer.
+TEXT: Você me impressiona mais uma vez.
 
 RESOURCE ID: quest_special_dialogue_starly_2_1
-TEXT: Staravia might not have grown an additional head, but it did increase in size.
+TEXT: Staravia pode não ter uma cabeça adicional, mas definitivamente aumentou de tamanho.
 
 RESOURCE ID: quest_special_dialogue_starly_2_2
-TEXT: My early observations indicate that Staravia, too, prefer to travel in a flock.
+TEXT: Minhas primeiras observações indicam que Staravia também prefere viajar em bando.
 
 RESOURCE ID: quest_special_dialogue_starly_2_3
-TEXT: And when Staravia are not surrounded by their kind, they cry noisily. Perhaps they find comfort and security when together.
+TEXT: E quando Staravia não estão cercados por outros sua espécie, eles choram ruidosamente. Talvez encontrem conforto e segurança quando estão juntos.
 
 RESOURCE ID: quest_special_dialogue_starly_2_4
-TEXT: I...can understand this.
+TEXT: Eu... consigo entender isso.
 
 RESOURCE ID: quest_special_dialogue_starly_2_5
-TEXT: Ahem. Does it evolve further? What changes might that bring?
+TEXT: Hein? Evolui mais? Que mudanças isso pode trazer?
 
 RESOURCE ID: quest_special_dialogue_starly_3_0
-TEXT: Stunning. What a formidable physique.
+TEXT: Esplêndido. Que físico formidável.
 
 RESOURCE ID: quest_special_dialogue_starly_3_1
-TEXT: This musculature of this Pokémon—Staraptor, is it?—indicates great strength. It appears more than capable of carrying away its prey.
+TEXT: Essa musculatura desse Pokémon... Staraptor, não é?... indica uma grande força. Parece mais do que capaz de carregar sua presa.
 
 RESOURCE ID: quest_special_dialogue_starly_3_2
-TEXT: And, unlike Starly and Staravia, it appears not to travel in flocks. Curious.
+TEXT: E, ao contrário de Starly e Staravia, parece não viajar em bandos. Curioso.
 
 RESOURCE ID: quest_special_dialogue_starly_3_3
-TEXT: The Pokémon of this world have such fascinating social structures. Some are more comfortable with others, and some find contentment alone.
+TEXT: Os Pokémon deste mundo têm estruturas sociais tão fascinantes. Alguns se sentem mais à vontade com os outros, e alguns encontram contentamento sozinhos.
 
 RESOURCE ID: quest_special_dialogue_starly_3_4
-TEXT: They are like humans in this way, do you not think?
+TEXT: Eles são como humanos nesse sentido, você não acha?
 
 RESOURCE ID: quest_special_dialogue_starly_3_5
-TEXT: With each investigation we undertake, my understanding of your world is further illuminated.
+TEXT: A cada investigação que empreendemos, minha compreensão do seu mundo fica mais clara.
 
 RESOURCE ID: quest_special_dialogue_starly_3_6
-TEXT: Thank you for your company, Pokémon Trainer. Until again.
-
-RESOURCE ID: quest_special_dialogue_ulaula_1_5
-TEXT: Let’s start with Tapu Bulu, guardian deity of Ula’Ula Island.
-
-RESOURCE ID: quest_special_dialogue_ulaula_3_2
-TEXT: Those are all things Tapu Bulu is known for, you know.
-
-RESOURCE ID: quest_special_dialogue_ulaula_3_4
-TEXT: The guardian deities seem to be keeping a relatively low profile. Perhaps they’re just here to investigate something—or even help us somehow.
+TEXT: Obrigado por sua companhia. Até outra hora.
 
 RESOURCE ID: quest_starly_catch_b
 TEXT: Pegar {0} Starly.
 
 RESOURCE ID: quest_starly_evolve_b
-TEXT: Evolve {0} Starly
+TEXT: Evoluir {0} Starly.
 
 RESOURCE ID: quest_starly_snapshot_b
-TEXT: Take {0} snapshots of Starly
+TEXT: Tirar {0} fotos de Starly.
 
 RESOURCE ID: quest_template.display.branches#0.button_text_key
 TEXT: Reides, Recrutas e Ginásios!
@@ -2523,19 +2569,19 @@ RESOURCE ID: quest_title_may22_alola_branch_quest_3
 TEXT: De Alola a Alola (4/4)
 
 RESOURCE ID: quest_title_starly
-TEXT: Field Notes: Starly
+TEXT: Notas de Campo: Starly
 
 RESOURCE ID: quest_title_starly_0
-TEXT: Field Notes: Starly (1/4)
+TEXT: Notas de Campo: Starly (1/4)
 
 RESOURCE ID: quest_title_starly_1
-TEXT: Field Notes: Starly (2/4)
+TEXT: Notas de Campo: Starly (2/4)
 
 RESOURCE ID: quest_title_starly_2
-TEXT: Field Notes: Starly (3/4)
+TEXT: Notas de Campo: Starly (3/4)
 
 RESOURCE ID: quest_title_starly_3
-TEXT: Field Notes: Starly (4/4)
+TEXT: Notas de Campo: Starly (4/4)
 
 RESOURCE ID: quest_transfer_rock_or_poison_plural
 TEXT: Transferir {0} Pokémon de tipo Pedra ou Venenoso.
@@ -2634,7 +2680,7 @@ TEXT: Reide local
 RESOURCE ID: raid_join_in_person_description
 TEXT: Batalhe com Treinadores próximos para derrotar este Chefe de Reide.
 
-RESOURCE ID: raid_join_in_person_out_of_range
+RESOURCE ID: raid_join_in_person_out_of_range_toast
 TEXT: Chegue mais perto para batalhar neste Reide.
 
 RESOURCE ID: raiding_box
@@ -2662,16 +2708,25 @@ RESOURCE ID: score_defeat_rocket_singular
 TEXT: Derrotou 1 membro da Equipe GO Rocket
 
 RESOURCE ID: set_privacy_settings_error_message
-TEXT: Could not save your privacy settings.
+TEXT: Não foi possível salvar suas configurações de privacidade.
+
+RESOURCE ID: settings_allow_paid_gifts
+TEXT: Allow friends to send you paid gifts
 
 RESOURCE ID: settings_buddy_gained_candy
 TEXT: Doces por companheiro
 
 RESOURCE ID: settings_friend_level_increased
-TEXT: Increased Friendship Level
+TEXT: Nível de amizade aumentado
+
+RESOURCE ID: settings_gift_notified_push_notification
+TEXT: Your friend received their event ticket!
 
 RESOURCE ID: settings_gift_opened
 TEXT: Presentes abertos
+
+RESOURCE ID: settings_gift_received_push_notification
+TEXT: You’ve received an event ticket!
 
 RESOURCE ID: settings_group_research_task
 TEXT: Atualizações de pesquisa combinada
@@ -2680,7 +2735,7 @@ RESOURCE ID: settings_in_app_notification_header
 TEXT: Notificações no jogo
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_description
-TEXT: Ativar esta configuração permitirá que você transfira Pokémon Lendários, certos Pokémon Míticos e Ultracriaturas ao selecionar vários Pokémon em seu estoque de Pokémon. A transferência de Pokémon para o laboratório do Professor Willow não pode ser desfeita.
+TEXT: Ativar esta configuração permitirá que você transfira Pokémon Lendários, certos Pokémon Míticos e Ultracriaturas ao selecionar vários Pokémon em seu estoque de Pokémon. A transferência de Pokémon não pode ser desfeita.
 
 RESOURCE ID: settings_legendary_multi_selection_confirmation_title
 TEXT: Tem certeza de que deseja poder transferir Pokémon Lendários, Pokémon Míticos e Ultracriatura ao selecionar vários Pokémon?
@@ -2700,8 +2755,11 @@ TEXT: Lembrar da última Poké Bola usada
 RESOURCE ID: settings_remember_last_pokeball_tip
 TEXT: O tipo de Poké Bola que você usou por último será selecionado automaticamente no início do seu próximo encontro com Pokémon.
 
+RESOURCE ID: settings_wasabi_ads
+TEXT: Mostrar mensagens patrocinadas de serviços de propaganda terceirizados
+
 RESOURCE ID: seville_cup_description
-TEXT: Uma Copa da Captura por dia para os participantes da Zona de Safári de Sevilha
+TEXT: Uma Copa da Captura por dia para os participantes da Zona de Safári de Pokémon GO de Sevilha
 
 RESOURCE ID: seville_cup_title
 TEXT: Copa da Captura de Sevilha
@@ -2719,10 +2777,52 @@ RESOURCE ID: seville_cup_title_extended
 TEXT: Copa da Captura de Sevilha: torneio
 
 RESOURCE ID: seville_cup_title_extended_description
-TEXT: Uma semana inteirinha de Copa de Captura para todos os Treinadores com ingressos para a Zona de Safári de Sevilha
+TEXT: Uma semana inteirinha de Copa de Captura para todos os Treinadores com ingressos para a Zona de Safári de Pokémon GO de Sevilha
 
 RESOURCE ID: shop_daily_bonus_header
 TEXT: Um presente especial!
+
+RESOURCE ID: shop_gift_notified_in_app_notification
+TEXT: {0} received your event invite!
+
+RESOURCE ID: shop_gift_notified_notification
+TEXT: {0} received your event invite!
+
+RESOURCE ID: shop_gift_purchase_confirmation_description
+TEXT: {0} receberá <b>{1}</b> de você. 
+
+Este ingresso não pode ser usado por qualquer outro Treinador. Esta compra não pode ser reembolsada ou desfeita.
+
+RESOURCE ID: shop_gift_purchase_invitation_sent
+TEXT: O seu presente está a caminho!
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_description
+TEXT: You can purchase {0} gift tickets for this event.
+The limit exists to prevent overspending and fraud.
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_title
+TEXT: Paid Gift Limit Reached
+
+RESOURCE ID: shop_gift_received_journal_entry
+TEXT: {0} gifted you a ticket for an event!
+
+RESOURCE ID: shop_gift_received_notification
+TEXT: {0} gifted you a ticket for an event!
+
+RESOURCE ID: shop_gifting_policy_modal_description_limited
+TEXT: • Você não pode obter reembolso de presentes comprados para amigos.
+ • Você não pode cancelar um presente depois que ele foi enviado.
+ • Você só pode enviar {0} presente pagos por dia.
+
+
+RESOURCE ID: shop_ticket_gift_info_limited
+TEXT: You can purchase {0} discounted tickets to give to your friends!
+
+RESOURCE ID: shop_ticket_gift_info_limited_require_purchase
+TEXT: Once you have purchased a ticket, you can purchase {0} discounted tickets to give to your friends!
+
+RESOURCE ID: shop_ticket_gift_info_require_purchase
+TEXT: Once you have purchased a ticket, you can purchase {0} discounted tickets to give to your friends!
 
 RESOURCE ID: spanish
 TEXT: Español
@@ -2734,7 +2834,7 @@ RESOURCE ID: spawn_deino
 TEXT: Deino selvagens estão aparecendo com mais frequência
 
 RESOURCE ID: spawn_starly
-TEXT: More Starly are appearing in the wild!
+TEXT: Starly selvagens estão aparecendo com mais frequência!
 
 RESOURCE ID: special_trades_plus_5
 TEXT: Cinco trocas especiais adicionais por dia
@@ -3444,14 +3544,14 @@ TEXT:
 RESOURCE ID: sticker_summer_6.5_description
 TEXT:  
 
-RESOURCE ID: stickers_rv2_ecently_used
-TEXT: Recently Used
-
 RESOURCE ID: stickers_v2_characters_category
 TEXT: Characters
 
 RESOURCE ID: stickers_v2_collect_from
 TEXT: Collect these stickers from the Shop, Gifts, or the PokéStop.
+
+RESOURCE ID: stickers_v2_ecently_used
+TEXT: Recently Used
 
 RESOURCE ID: stickers_v2_featured_category
 TEXT: Featured
@@ -3523,7 +3623,7 @@ RESOURCE ID: ticket_may22_alola
 TEXT: O ingresso para a pesquisa especial “De Alola a Alola” está disponível na loja
 
 RESOURCE ID: ticket_starly
-TEXT: Ticket for the Field Notes: Starly Special Research story available in the shop
+TEXT: O ingresso para a narrativa de pesquisa especial “Notas de Campo: Starly” está disponível na loja
 
 RESOURCE ID: timed_challenge_bonus_modal_description
 TEXT: Todos os Treinadores devem trabalhar juntos como uma comunidade global para completar este desafio.
@@ -3563,6 +3663,23 @@ TEXT: Ultrabônus: Fim de semana de batalhas
 
 RESOURCE ID: ultra_beast_not_allowed_in_gyms
 TEXT: Ultracriaturas não podem ser deixadas nos Ginásios.
+
+RESOURCE ID: verbose_logs_disable_body
+TEXT: Registros de jogo de {1} que não foram carregados serão removidos se você parar de salvá-los.
+
+RESOURCE ID: verbose_logs_disable_title
+TEXT: Quer parar de salvar esses registros de jogo?
+
+RESOURCE ID: verbose_logs_info_body
+TEXT: Os registros de jogo contêm informações valiosas que podem ajudar a Niantic a melhorar aspectos do Pokémon GO. Se você permitir que seus registros de jogo sejam salvos, poderá enviá-los e compartilhá-los com a Niantic.
+
+Os registros de jogo de cada atividade são armazenados por 24 horas ou até que você participe desse tipo de atividade novamente. Você pode fazer upload de registros de jogo a qualquer momento no menu de Configurações.
+
+RESOURCE ID: verbose_logs_pending_count_plural
+TEXT: Você tem {0} registros de jogo aguardando carregamento.
+
+RESOURCE ID: verbose_logs_pending_logs_title
+TEXT: Registros de jogo aguardando upload
 
 RESOURCE ID: weekly_box
 TEXT: Combo semanal

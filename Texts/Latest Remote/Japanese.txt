@@ -659,16 +659,16 @@ TEXT: コミュニティデイチャレンジ：
 レイド
 
 RESOURCE ID: bonus_implicit_social_starly_raid
-TEXT: トレーナーが協力してレイドでムクバードを倒すと、そのジムの周りに30分間ムックルが現れる
+TEXT: トレーナーが協力してレイドでムクバードを倒すと、そのジムの周りに30分間ムックルがより多く現れる
 
 RESOURCE ID: bonus_not_active
 TEXT: アクティブボーナス無し
 
 RESOURCE ID: bonus_special_trade_starly_cd
-TEXT: イベント中と終了後5時間内に特別な交換1回追加
+TEXT: イベント中と終了後5時間内に特別な交換1回追加（当日上限3回）
 
 RESOURCE ID: bonus_trade_stardust_50pc_5hr
-TEXT: イベント中と終了後5時間内に行う交換に必要なほしのすな半減.
+TEXT: イベント中と終了後5時間内に行う交換に必要なほしのすな半減
 
 RESOURCE ID: bonus_unlocked
 TEXT: ボーナスアンロック！
@@ -696,6 +696,15 @@ TEXT: この島を選ぶとバトルテーマの調査を行うことでアロ�
 
 RESOURCE ID: branch_may22_alola_1d_title
 TEXT: ポニ島
+
+RESOURCE ID: branching_quest_choice_gui_title
+TEXT: 選択肢
+
+RESOURCE ID: branching_quests_title
+TEXT: 選択肢
+
+RESOURCE ID: branching_quests_tut_description
+TEXT: 選択が表示されるスペシャルリサーチやタイムチャレンジがあります。選ぶとリサーチやチャレンジの内容とリワードが決定するため、慎重に選びましょう。
 
 RESOURCE ID: brazilianportuguese
 TEXT: Português
@@ -761,6 +770,9 @@ TEXT: English
 
 RESOURCE ID: error_has_unsent_gift
 TEXT: 道具バッグにギフトとして贈れるチケットがあります
+
+RESOURCE ID: error_ticket_not_owned
+TEXT: 自分用のチケットを持っていないためギフトとして贈ることはできません
 
 RESOURCE ID: event_evolve_cubone
 TEXT: カラカラはガラガラ（アローラのすがた）に進化できる
@@ -1460,7 +1472,7 @@ RESOURCE ID: gofest2022_live_quest_photo_cloud_sanctuary
 TEXT: 「サンクチュアリ」でチルットのGOスナップショット写真を撮る
 
 RESOURCE ID: gofest2022_live_quest_photo_dreamy_mindscape
-TEXT: 「夢の世界」でケーシィのスナップショット写真を撮る
+TEXT: 「夢の世界」でケーシィのGOスナップショット写真を撮る
 
 RESOURCE ID: gofest2022_live_quest_photo_electric_garden
 TEXT: 「エレクトリックガーデン」でリリーラのGOスナップショット写真を撮る
@@ -1478,7 +1490,7 @@ RESOURCE ID: gofest2022_live_quest_photo_oasis
 TEXT: 「オアシス」でイシズマイのGOスナップショット写真を撮る
 
 RESOURCE ID: gofest2022_live_quest_photo_windy_coast
-TEXT: 「そよ風草原」でワシボンのGOスナップショット写真を撮る
+TEXT: 「そよ風海岸」でワシボンのGOスナップショット写真を撮る
 
 RESOURCE ID: gofest2022_live_sapporo
 TEXT: Pokémon GO Fest 2022: 札幌
@@ -1785,8 +1797,8 @@ RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
 TEXT: {0}がメガシンカしているあいだは、{1}タイプのポケモンを捕まえてもらえるアメ・XPとアメXL確率が増えます
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-06T21:09:43.589978
-at SHA ef16cd22f9c3c71333d79514f6d12ff46492268f
+TEXT: Built at 2022-07-13T16:47:11.192465
+at SHA 1d0b4248505aadb18a8a599fd7a555c3aae045be
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51
 
 RESOURCE ID: minicollect_medal_progress_description
@@ -1800,6 +1812,9 @@ TEXT: ころがる
 
 RESOURCE ID: move_name_0369
 TEXT: シードフレア
+
+RESOURCE ID: nearby_raid_local_only
+TEXT: ローカルのみ
 
 RESOURCE ID: nearby_raid_notification_toast|2
 TEXT: 近くのジムでレイドバトルが始まりそうだ・・・！
@@ -1845,6 +1860,15 @@ TEXT: みはりポケモン
 
 RESOURCE ID: pokemon_category_0059_2793
 TEXT: でんせつポケモン
+
+RESOURCE ID: pokemon_category_0144_2801
+TEXT: れいこくポケモン
+
+RESOURCE ID: pokemon_category_0145_2800
+TEXT: けんきゃくポケモン
+
+RESOURCE ID: pokemon_category_0146_2799
+TEXT: じゃあくポケモン
 
 RESOURCE ID: pokemon_category_0157_2786
 TEXT: おにびポケモン
@@ -1909,11 +1933,20 @@ TEXT: 対になりて　縄張りを　哨戒す。　体毛に　火成岩な�
 RESOURCE ID: pokemon_desc_0059_2793
 TEXT: 燃え盛る炎　牙に纏わせ　食らい付く。　体躯　大柄なれど　陽動　鮮やかなりて　敵　翻弄せしむる姿　演舞の如し。
 
+RESOURCE ID: pokemon_desc_0144_2801
+TEXT: サイコパワーでつくった羽根の刃はぶ厚い鉄板も紙のように切り裂く。
+
 RESOURCE ID: pokemon_desc_0144_g
 TEXT: サイコパワーでつくった羽根の刃はぶ厚い鉄板も紙のように切り裂く。
 
+RESOURCE ID: pokemon_desc_0145_2800
+TEXT: 羽毛が擦れるときバチバチと電気のような音がすることからサンダーと呼ばれてきた。
+
 RESOURCE ID: pokemon_desc_0145_g
 TEXT: 羽毛が擦れるときバチバチと電気のような音がすることからサンダーと呼ばれてきた。
+
+RESOURCE ID: pokemon_desc_0146_2799
+TEXT: 烈火のごとき邪悪なオーラに当てられると精魂が尽き果て真っ白に燃えつきてしまうのだ。
 
 RESOURCE ID: pokemon_desc_0146_g
 TEXT: 烈火のごとき邪悪なオーラに当てられると精魂が尽き果て真っ白に燃えつきてしまうのだ。
@@ -1987,11 +2020,17 @@ TEXT: 他種圧倒する　身体能力と　猛毒　有し　寒冷なる　�
 RESOURCE ID: pokemon_desc_0904
 TEXT: 槍の如き　針と　凶暴なる　気質にて　海鬼の　異名を　持つ　ポケモン。　毒を　すすりて　己の　糧とす。
 
-RESOURCE ID: pokemon_desc_0905
+RESOURCE ID: pokemon_desc_0905_2802
 TEXT: 海を越えて　飛来したらば　厳しき冬の　終わりを知る。　慈愛が　ヒスイの地に　新しき命　芽吹かせるとの　伝承あり。
+
+RESOURCE ID: pokemon_desc_0905_2803
+TEXT: 女人の姿より　変わりし現象。　命 粗末にする者あれば　雲海より　現れ　憤怒の罰を下し　容赦なし。
 
 RESOURCE ID: pokemon_info_multi_transfer_ultra_beast_pokemon_error
 TEXT: ウルトラビーストは選択できません！
+
+RESOURCE ID: pokemon_info_transfer_failed
+TEXT: {0}を送ることができませんでした
 
 RESOURCE ID: pokemon_info_transfer_to_professor
 TEXT: 研究所に送る
@@ -2472,7 +2511,7 @@ RESOURCE ID: quest_special_dialogue_rockethq11_2_0
 TEXT: かわいそうなポケモンたち．．．
 
 RESOURCE ID: quest_special_dialogue_rockethq11_2_1
-TEXT: ... ... ...
+TEXT: ．．．あ、気付かなくてごめん。
 
 RESOURCE ID: quest_special_dialogue_rockethq11_2_2
 TEXT: シャドウポケモンについて、何かできることがないか、考えていたんだ。
@@ -2778,7 +2817,7 @@ RESOURCE ID: quest_win_raid_buddy_plural
 TEXT: 相棒ポケモンでレイドバトルに{0}回勝つ
 
 RESOURCE ID: quest_win_raid_lvl1_higher_singular
-TEXT: レベル1以上のレイドに1回勝つ
+TEXT: 1つ星以上のレイドに勝つ
 
 RESOURCE ID: quest_win_raid_with_friend_plural
 TEXT: フレンドと一緒にレイドバトルで{0}回勝つ
@@ -2798,7 +2837,7 @@ TEXT: ローカルレイド
 RESOURCE ID: raid_join_in_person_description
 TEXT: 近くのトレーナーと協力してボスポケモンを倒そう
 
-RESOURCE ID: raid_join_in_person_out_of_range
+RESOURCE ID: raid_join_in_person_out_of_range_toast
 TEXT: レイドに参加するにはもっと近づいてください
 
 RESOURCE ID: raiding_box
@@ -2831,14 +2870,23 @@ TEXT: GOロケット団員を{0}人倒した！
 RESOURCE ID: score_defeat_rocket_singular
 TEXT: GOロケット団員1人を倒した！
 
+RESOURCE ID: settings_allow_paid_gifts
+TEXT: フレンドに有料のチケットなどを贈ってもらう
+
 RESOURCE ID: settings_buddy_gained_candy
 TEXT: 相棒の見つけるアメ
 
 RESOURCE ID: settings_friend_level_increased
 TEXT: 仲良し度の上昇
 
+RESOURCE ID: settings_gift_notified_push_notification
+TEXT: 贈ったイベントチケットが開けられたとき
+
 RESOURCE ID: settings_gift_opened
 TEXT: フレンドの開けたギフト
+
+RESOURCE ID: settings_gift_received_push_notification
+TEXT: イベントチケットを贈られたとき
 
 RESOURCE ID: settings_group_research_task
 TEXT: タスク更新まとめ
@@ -2897,10 +2945,43 @@ TEXT: 以下の理由でフレンドが有料ギフトを受け取ることが�
  • 他の人がチケットを贈った
  •ギフトを贈るための仲良し度に達していない
 
+RESOURCE ID: shop_gift_notified_in_app_notification
+TEXT: {0}さんがイベント招待を受け取りました！
+
+RESOURCE ID: shop_gift_notified_notification
+TEXT: {0}さんがイベント招待を受け取りました！
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_description
+TEXT: このイベント用に贈ることができる有料ギフトは{0}個です。
+ 過剰な贈答や偽造ギフトを防ぐため上限を設けています。
+
+RESOURCE ID: shop_gift_purchase_user_max_limit_title
+TEXT: 有料ギフト上限
+
+RESOURCE ID: shop_gift_received_journal_entry
+TEXT: {0}さんからイベントチケットのプレゼントをもらった！
+
+RESOURCE ID: shop_gift_received_notification
+TEXT: {0}さんからイベントチケットのプレゼントが届きました！
+
 RESOURCE ID: shop_gifting_policy_modal_description
 TEXT: •フレンドのために購入したギフトは返金の対象外です。
  • 贈ったあとにキャンセルできません。
  • 有料ギフトの一日の上限数は{0}個です。
+
+RESOURCE ID: shop_gifting_policy_modal_description_limited
+TEXT: •フレンドのために購入したギフトは返金できません。
+ •贈ったあとにキャンセルできません。
+ •贈ることができるこのイベントの有料ギフト上限数は{0}個です。
+
+RESOURCE ID: shop_ticket_gift_info_limited
+TEXT: ディスカウントチケットで招待できるフレンド数は{0}人です
+
+RESOURCE ID: shop_ticket_gift_info_limited_require_purchase
+TEXT: このイベントのチケットを持っているプレイヤーはフレンドを{0}人ディスカウントチケットで招待できます
+
+RESOURCE ID: shop_ticket_gift_info_require_purchase
+TEXT: このイベントのチケットを持っているプレイヤーはフレンドを招待できます
 
 RESOURCE ID: spanish
 TEXT: Español
@@ -2912,7 +2993,7 @@ RESOURCE ID: spawn_deino
 TEXT: モノズがより多く野生で出現
 
 RESOURCE ID: spawn_starly
-TEXT: ムックルがより多く野生で出現!
+TEXT: ムックルがより多く野生で出現
 
 RESOURCE ID: special_trades_plus_5
 TEXT: 特別な交換5回追加
@@ -3622,14 +3703,14 @@ TEXT:
 RESOURCE ID: sticker_summer_6.5_description
 TEXT:  
 
-RESOURCE ID: stickers_rv2_ecently_used
-TEXT: 最近使った
-
 RESOURCE ID: stickers_v2_characters_category
 TEXT: 人物など
 
 RESOURCE ID: stickers_v2_collect_from
 TEXT: ショップでポケコインと交換するか、ギフト・ポケストップから入手できます
+
+RESOURCE ID: stickers_v2_ecently_used
+TEXT: 最近使った
 
 RESOURCE ID: stickers_v2_featured_category
 TEXT: CHECK!
