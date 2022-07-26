@@ -19,6 +19,21 @@ TEXT: Use Adventure Sync to track Egg-hatching progress and your Buddy Pokémon�
 RESOURCE ID: activity_summary_widget_title
 TEXT: Adventure Sync: Activity Summary
 
+RESOURCE ID: adventure_recap_subtitle
+TEXT: Today’s Adventure
+
+RESOURCE ID: adventure_recap_text_0
+TEXT: You traveled {0} km!
+
+RESOURCE ID: adventure_recap_text_1
+TEXT: You caught {0} Pokémon!
+
+RESOURCE ID: adventure_recap_text_2
+TEXT: You visited {0} PokéStops!
+
+RESOURCE ID: adventure_recap_title
+TEXT: Adventure Recap
+
 RESOURCE ID: adventure_week_explore_timed_research
 TEXT: Adventure Week: Adventure Challenge
 
@@ -744,8 +759,14 @@ TEXT: Browse Campfire
 RESOURCE ID: campfire_invite_notification
 TEXT: {0} in Campfire has invited you to join the fun!
 
+RESOURCE ID: cannot_use_mystery_box_and_incense2
+TEXT: Only one type of Incense or Mystery Box can be active at a time.
+
 RESOURCE ID: catch_box
 TEXT: Catch Box
+
+RESOURCE ID: catch_recap_text_0
+TEXT: You caught {0} Pokémon
 
 RESOURCE ID: catch_rewards_double
 TEXT: 2× Catch Stardust, 2× Catch Candy, and 2× Catch XP
@@ -790,6 +811,33 @@ TEXT: A Mysterious Incense Part 2 (1/2)
 
 RESOURCE ID: dai_part2_title_page2
 TEXT: A Mysterious Incense Part 2 (2/2)
+
+RESOURCE ID: daily_adventure_incense_modal_message
+TEXT: Special Incense with a mysterious fragrance that attracts wild Pokémon to your location as you move for {0} minutes. You can receive one each day at no cost.
+As an added bonus, you’ll receive {1} Poké Balls when you use a Daily Adventure Incense if you currently have less than {2} Poké Balls in your Item Bag. You must have space in your Item Bag for this bonus to activate.
+
+RESOURCE ID: daily_incense_log_use
+TEXT: Used a Daily Adventure Incense!
+
+RESOURCE ID: daily_incense_recap_header2
+TEXT: {0} Pokémon
+
+RESOURCE ID: daily_incense_recap_header3
+TEXT: Caught:
+
+RESOURCE ID: daily_incense_recap_header3_plural
+TEXT: caught while using Incense
+on this {0} m adventure.
+
+RESOURCE ID: daily_incense_recap_header3_singular
+TEXT: caught while using Incense
+on this {0} m adventure.
+
+RESOURCE ID: daily_incense_recap_screen_error
+TEXT: Error retrieving Daily Adventure Incense summary
+
+RESOURCE ID: daily_incense_recap_share_button
+TEXT: SHARE
 
 RESOURCE ID: delete_pokemon_tag_confirmation
 TEXT: This tag will be removed from the Pokémon it has been assigned to. Pokémon will not be transferred.
@@ -1810,6 +1858,9 @@ TEXT: Hisuian Discoveries
 RESOURCE ID: incense_duration_8_hr
 TEXT: 8-hour Incense duration
 
+RESOURCE ID: incense_use_error2
+TEXT: You can use only one type of Incense at a time.
+
 RESOURCE ID: increased_adventure_sync_rewards
 TEXT: Increased Adventure Sync rewards next week
 
@@ -1861,14 +1912,19 @@ TEXT: A ticket to access the Pokémon GO Fest finale event on August 27, 2022, f
 YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
 RESOURCE ID: item_global_event_ticket_to_gift_desc
-TEXT: An extra event ticket from a purchase error. You can send it to a friend or get it refunded.
-
+TEXT: An extra event ticket from a purchase error. You can send it to a friend or get it refunded. 
 
 RESOURCE ID: item_global_event_ticket_to_gift_description
 TEXT: A ticket to access Pokémon GO Fest on June 4 and June 5, 2022, from 10:00 a.m. to 6:00 p.m. local time each day, wherever you are.
 
 RESOURCE ID: item_global_event_ticket_to_gift_name
 TEXT: Pokémon GO Fest 2022
+
+RESOURCE ID: item_incense_daily_adventure_desc
+TEXT: Special Incense with a mysterious fragrance that attracts wild Pokémon to your location as you move for {0} minutes. You can receive one each day at no cost.
+
+RESOURCE ID: item_incense_daily_adventure_name
+TEXT: Daily Adventure Incense
 
 RESOURCE ID: japanese
 TEXT: 日本語
@@ -1971,8 +2027,8 @@ RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
 TEXT: While {0} is Mega Evolved, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>-type Pokémon.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-22T06:44:42.578407
-at SHA 5c3891f4c124847645095966a56a1ad53db933f9
+TEXT: Built at 2022-07-25T22:25:00.001859
+at SHA 885922991854fe0b4f16effd849608d0f75e75ca
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51, 0.243.0-SHA-9e2cbb7b, 0.243.1-SHA-d28fec69
 
 RESOURCE ID: move_name_0367
@@ -2447,6 +2503,15 @@ TEXT: Thanks for assisting me with my research today, %PLAYERNAME%. It always �
 
 RESOURCE ID: quest_special_dialogue_battle_weekend_1_0
 TEXT: Where will you focus your efforts, Pokémon Trainer?
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_0
+TEXT: Hey there, %PLAYERNAME%! I just developed this new type of Incense—Daily Adventure Incense.
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_1
+TEXT: One Daily Adventure Incense lasts for 15 minutes and stays active only while you’re moving. Most importantly, though, this Incense can attract almost any Pokémon you’ve encountered before—even Legendary Pokémon!
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_2
+TEXT: I’ll give you one Daily Adventure Incense each day, so don’t be afraid to go out on some adventures! In fact, why not start one now? Try to catch as many Pokémon as you can!
 
 RESOURCE ID: quest_special_dialogue_deino_0_0
 TEXT: It appears their aggression is primarily fueled by necessity...
@@ -3068,6 +3133,9 @@ TEXT: Completed {0} Field Research tasks
 
 RESOURCE ID: score_field_research_singular
 TEXT: Completed 1 Field Research task
+
+RESOURCE ID: see_summary_button
+TEXT: SEE SUMMARY
 
 RESOURCE ID: settings_allow_paid_gifts
 TEXT: Allow friends to send you paid gifts
@@ -4092,6 +4160,9 @@ TEXT: Ultra Unlock: Battle Weekend
 
 RESOURCE ID: ultra_beast_not_allowed_in_gyms
 TEXT: Ultra Beast cannot be left at Gyms.
+
+RESOURCE ID: use_now_button
+TEXT: USE NOW
 
 RESOURCE ID: uu_hisuian_discoveries_title_name
 TEXT: Ultra Unlock: Hisuian Discoveries

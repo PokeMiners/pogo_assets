@@ -7,6 +7,21 @@ TEXT: Используй Синхронизацию приключений, чт
 RESOURCE ID: activity_summary_widget_title
 TEXT: Синхронизация приключений: Прогресс
 
+RESOURCE ID: adventure_recap_subtitle
+TEXT: Сегодняшнее приключение
+
+RESOURCE ID: adventure_recap_text_0
+TEXT: Пройденное расстояние: {0} км
+
+RESOURCE ID: adventure_recap_text_1
+TEXT: Пойманные Покемоны: {0}
+
+RESOURCE ID: adventure_recap_text_2
+TEXT: Посещённые Покестопы: {0}
+
+RESOURCE ID: adventure_recap_title
+TEXT: Итоги приключения
+
 RESOURCE ID: adventure_week_explore_timed_research
 TEXT: Неделя приключений: Испытание приключениями
 
@@ -809,11 +824,17 @@ TEXT: Посмотреть Campfire
 RESOURCE ID: campfire_invite_notification
 TEXT: {0} in Campfire has invited you to join the fun!
 
+RESOURCE ID: cannot_use_mystery_box_and_incense2
+TEXT: Только один тип ладана или таинственной коробки может быть активен одновременно.
+
 RESOURCE ID: catch_box
 TEXT: Коробка поимки
 
 RESOURCE ID: catch_candy_xl_chance_double
 TEXT: 2× шанс получить конфеты XL при поимке Покемонов
+
+RESOURCE ID: catch_recap_text_0
+TEXT: Пойманные Покемоны: {0}
 
 RESOURCE ID: catch_rewards_double
 TEXT: 2× звёздной пыли за поимку, 2× конфет за поимку и 2× XP за поимку
@@ -864,6 +885,31 @@ TEXT: Загадочный ладан: Часть 2 (1/2)
 
 RESOURCE ID: dai_part2_title_page2
 TEXT: Загадочный ладан: Часть 2 (2/2)
+
+RESOURCE ID: daily_adventure_incense_modal_message
+TEXT: Особый ладан с таинственным ароматом, который привлекает к тебе диких Покемонов в течение {0} минут, пока ты двигаешься. Ты можешь каждый день бесплатно получать один такой ладан.
+В качестве дополнительного бонуса ты получишь {1} Поке-Боллов при использовании ладана ежедневных приключений, если в твоём рюкзаке для предметов меньше {2} Поке-Боллов. Для активации бонуса в твоём рюкзаке для предметов должно быть место.
+
+RESOURCE ID: daily_incense_log_use
+TEXT: Использован ладан ежедневных приключений!
+
+RESOURCE ID: daily_incense_recap_header2
+TEXT: Покемонов: {0}
+
+RESOURCE ID: daily_incense_recap_header3
+TEXT: Поймано:
+
+RESOURCE ID: daily_incense_recap_header3_plural
+TEXT: – Покемоны, пойманные с использованием ладана/nво время прогулки длиной {0} м.
+
+RESOURCE ID: daily_incense_recap_header3_singular
+TEXT: – Покемоны, пойманные с использованием ладана/nво время прогулки длиной {0} м.
+
+RESOURCE ID: daily_incense_recap_screen_error
+TEXT: Ошибка при получении итогов ладана ежедневных приключений
+
+RESOURCE ID: daily_incense_recap_share_button
+TEXT: ПОДЕЛИТЬСЯ
 
 RESOURCE ID: delete_pokemon_tag_confirmation
 TEXT: Тег будет удалён с Покемона, которому был присвоен. Покемон не будет передан.
@@ -1315,76 +1361,76 @@ RESOURCE ID: gofest2022_hour_habitat5
 TEXT: Тундра
 
 RESOURCE ID: gofest2022_le_berlin_electric_garden
-TEXT: Electric Garden
+TEXT: Электрический сад
 
 RESOURCE ID: gofest2022_le_berlin_electric_garden_description
-TEXT: Catch these Pokémon in the Electric Garden habitat!
+TEXT: Поймай этих Покемонов на территории Электрический сад!
 
 RESOURCE ID: gofest2022_le_berlin_living_meadow
-TEXT: Living Meadow
+TEXT: Живой луг
 
 RESOURCE ID: gofest2022_le_berlin_living_meadow_description
-TEXT: Catch these Pokémon in the Living Meadow habitat!
+TEXT: Поймай этих Покемонов на территории Живой луг!
 
 RESOURCE ID: gofest2022_le_berlin_molten_rocks
-TEXT: Molten Rocks
+TEXT: Расплавленные скалы
 
 RESOURCE ID: gofest2022_le_berlin_molten_rocks_description
-TEXT: Catch these Pokémon in the Molten Rocks habitat!
+TEXT: Поймай этих Покемонов на территории Расплавленные скалы!
 
 RESOURCE ID: gofest2022_le_berlin_windy_coast
-TEXT: Windy Coast
+TEXT: Ветреное побережье
 
 RESOURCE ID: gofest2022_le_berlin_windy_coast_description
-TEXT: Catch these Pokémon in the Windy Coast habitat!
+TEXT: Поймай этих Покемонов на территории Ветреное побережье!
 
 RESOURCE ID: gofest2022_le_sapporo_athletic_park
-TEXT: Athletic Park
+TEXT: Спортивная площадка
 
 RESOURCE ID: gofest2022_le_sapporo_athletic_park_description
-TEXT: Catch these Pokémon in the Athletic Park habitat!
+TEXT: Поймай этих Покемонов на территории Спортивная площадка!
 
 RESOURCE ID: gofest2022_le_sapporo_dreamy_mindscape
-TEXT: Dreamy Mindscape
+TEXT: Пейзаж мечты
 
 RESOURCE ID: gofest2022_le_sapporo_dreamy_mindscape_description
-TEXT: Catch these Pokémon in the Dreamy Mindscape habitat!
+TEXT: Поймай этих Покемонов на территории Пейзаж мечты!
 
 RESOURCE ID: gofest2022_le_sapporo_frozen_lake
-TEXT: Frozen Lake
+TEXT: Замёрзшее озеро
 
 RESOURCE ID: gofest2022_le_sapporo_frozen_lake_description
-TEXT: Catch these Pokémon in the Frozen Lake habitat!
+TEXT: Поймай этих Покемонов на территории Замёрзшее озеро!
 
 RESOURCE ID: gofest2022_le_sapporo_living_meadow
-TEXT: Living Meadow
+TEXT: Живой луг
 
 RESOURCE ID: gofest2022_le_sapporo_living_meadow_description
-TEXT: Catch these Pokémon in the Living Meadow habitat!
+TEXT: Поймай этих Покемонов на территории Живой луг!
 
 RESOURCE ID: gofest2022_le_seattle_cloud_sanctuary
-TEXT: Cloud Sanctuary
+TEXT: Облачная гавань
 
 RESOURCE ID: gofest2022_le_seattle_cloud_sanctuary_description
-TEXT: Catch these Pokémon in the Cloud Sanctuary habitat!
+TEXT: Поймай этих Покемонов на территории Облачная гавань!
 
 RESOURCE ID: gofest2022_le_seattle_dreamy_mindscape
-TEXT: Dreamy Mindscape
+TEXT: Пейзаж мечты
 
 RESOURCE ID: gofest2022_le_seattle_dreamy_mindscape_description
-TEXT: Catch these Pokémon in the Dreamy Mindscape habitat!
+TEXT: Поймай этих Покемонов на территории Пейзаж мечты!
 
 RESOURCE ID: gofest2022_le_seattle_electric_garden
-TEXT: Electric Garden
+TEXT: Электрический сад
 
 RESOURCE ID: gofest2022_le_seattle_electric_garden_description
-TEXT: Catch these Pokémon in the Electric Garden habitat!
+TEXT: Поймай этих Покемонов на территории Электрический сад!
 
 RESOURCE ID: gofest2022_le_seattle_the_oasis
-TEXT: The Oasis
+TEXT: Оазис
 
 RESOURCE ID: gofest2022_le_seattle_the_oasis_description
-TEXT: Catch these Pokémon in the The Oasis habitat!
+TEXT: Поймай этих Покемонов на территории Оазис!
 
 RESOURCE ID: gofest2022_live_berlin
 TEXT: Фестиваль Pokémon GO: Берлин
@@ -1510,196 +1556,196 @@ RESOURCE ID: gofest2022_rainforest_description
 TEXT: Лови этих Покемонов во время часа тропического леса!
 
 RESOURCE ID: gofest2022_sapporo_city_team_leader_desc_1
-TEXT: Specifically, an individual with long white hair.
+TEXT: Особенно некто с длинными белыми волосами.
 
 RESOURCE ID: gofest2022_sapporo_city_team_leader_desc_2
-TEXT: It was mentioned that applied research could shed some light on your professor’s whereabouts.
+TEXT: Мне было сказано, что наши исследования могут пролить свет на местонахождение твоего профессора.
 
 RESOURCE ID: gofest2022_sapporo_city_team_leader_desc_3
-TEXT: As for how, I cannot say... But I trust that person’s expertise on the matter.
+TEXT: Не могу сказать, как именно... Но я доверяю опыту других в данном вопросе.
 
 RESOURCE ID: gofest2022_sapporo_city_ub_1
-TEXT: My data indicates that the Ultra Beast most likely to appear is UB-03 Lighting.
+TEXT: Есть информация, что наиболее вероятно появление Ультрачудовища под названием УЧ-03 Освещение.
 
 RESOURCE ID: gofest2022_sapporo_city_ub_2
-TEXT: Some humans call it Xurkitree. They stand unmoving with their limbs stuck into the ground.
+TEXT: Некоторые люди называют его Заркитри. Он стоит неподвижно, как дерево, воткнув руки и ноги в землю.
 
 RESOURCE ID: gofest2022_sapporo_city_ub_3
 TEXT: Мы не можем допустить хаоса.
 
 RESOURCE ID: gofest2022_sapporo_city_ub_4
-TEXT: Be warned that this Ultra Beast is not easily subdued.
+TEXT: Но нужно помнить, что это Ультрачудовище непросто усмирить.
 
 RESOURCE ID: gofest2022_sapporo_city_ub_5
 TEXT: Поэтому у меня наготове специальные УЧ-Боллы.
 
 RESOURCE ID: gofest2022_sapporo_city_wrap_up_1
-TEXT: The ease with which you handled Xurkitree is enviable. It is a technique unfamiliar to me, and yet it comes to you naturally.
+TEXT: Тому, как легко у тебя получилось справиться с Заркитри, можно позавидовать. Я не обладаю такими навыками, а у тебя природный талант.
 
 RESOURCE ID: gofest2022_sapporo_city_wrap_up_2
-TEXT: I detected an odd signal when Xurkitree emerged from the Ultra Wormhole.
+TEXT: Появление Заркитри из Ультрачервоточины сопровождалось необычным сигналом.
 
 RESOURCE ID: gofest2022_sapporo_park_pokemon
-TEXT: I have seen—let me consult my notes—Galarian Ponyta, Lapras, Makuhita, and Litwick...
+TEXT: Мне встретились – позволь свериться с записями – Галарский Понита, Лапрас, Макухита и Литвик...
 
 RESOURCE ID: gofest2022_seattle_city_1_1
-TEXT: Good night, Pokémon Trainer. No—is it good morning now?
+TEXT: Добрый вечер, Тренер Покемонов. Нет – сейчас утро?
 
 RESOURCE ID: gofest2022_seattle_city_1_10
-TEXT: Others have also expressed distress over his absence.
+TEXT: Многие выражают обеспокоенность его исчезновением.
 
 RESOURCE ID: gofest2022_seattle_city_1_11
-TEXT: Specifically, a man with spiked hair and an apparent affection for the color yellow.
+TEXT: Особенно один молодой человек со взъерошенными волосами, который отдаёт явное предпочтение жёлтому цвету.
 
 RESOURCE ID: gofest2022_seattle_city_1_12
-TEXT: He has been conducting reconnaissance and seeking clues to your professor’s whereabouts by speaking to Pokémon Trainers assembled at raids.
+TEXT: Он проводит расследование и собирает информацию о местоположении твоего профессора, общаясь с Тренерами Покемонов перед рейдами.
 
 RESOURCE ID: gofest2022_seattle_city_1_13
-TEXT: Perhaps we can also venture to Gyms as we attempt to locate the Ultra Wormhole. Those gathered may help direct our search.
+TEXT: Возможно, нам тоже следует посетить Гимы. Тренеры, которые там собираются, могут помочь нам в поисках Ультрачервоточины.
 
 RESOURCE ID: gofest2022_seattle_city_1_14
-TEXT: Let us go, Pokémon Trainer.
+TEXT: Идём, Тренер Покемонов.
 
 RESOURCE ID: gofest2022_seattle_city_1_2
-TEXT: Temporal expressions aside, I am struck by our surroundings.
+TEXT: Поговорим об обозначении времени в другой раз. Меня просто поражают окрестности.
 
 RESOURCE ID: gofest2022_seattle_city_1_3
-TEXT: This is quite a bustling place.
+TEXT: Это довольно оживлённое место.
 
 RESOURCE ID: gofest2022_seattle_city_1_4
-TEXT: Which makes my recent readings all the more distressing. I have detected signals that indicate the inevitable appearance of an Ultra Wormhole.
+TEXT: Тем тревожнее становится от полученных мной сигналов. Они указывают на неизбежное появление Ультрачервоточины.
 
 RESOURCE ID: gofest2022_seattle_city_1_5
-TEXT: We must locate it and prepare for the emergence of another Ultra Beast.
+TEXT: Нам нужно определить её местоположение и подготовиться к появлению ещё одного Ультрачудовища.
 
 RESOURCE ID: gofest2022_seattle_city_1_6
-TEXT: Let us survey the city.
+TEXT: Давай исследуем город.
 
 RESOURCE ID: gofest2022_seattle_city_1_7
 TEXT: Я также всё ещё помню о твоём пропавшем профессоре.
 
 RESOURCE ID: gofest2022_seattle_city_2_1
-TEXT: How brightly glass glistens when touched by the sun...
+TEXT: Как ярко блестит стекло, когда на него падают лучи солнца...
 
 RESOURCE ID: gofest2022_seattle_city_2_2
-TEXT: Apologies. Even the mundane becomes novel in this abundant light.
+TEXT: Мои извинения. Даже самые обыкновенные вещи кажутся необычными в сиянии этого света.
 
 RESOURCE ID: gofest2022_seattle_city_2_3
-TEXT: But I digress. Have you seen any additional anomalies on your patrol?
+TEXT: Но я отвлекаюсь от темы. Тебе не встретились какие-либо ещё аномалии во время обхода?
 
 RESOURCE ID: gofest2022_seattle_city_2_4
-TEXT: In an area this large, I cannot pinpoint the exact location from which an Ultra Wormhole will originate.
+TEXT: На такой большой территории я не могу указать точное место, где появится Ультрачервоточина.
 
 RESOURCE ID: gofest2022_seattle_city_2_5
-TEXT: We can only rely on our own visual surveillance.
+TEXT: Нам придётся рассчитывать только на собственные наблюдения.
 
 RESOURCE ID: gofest2022_seattle_city_2_6
-TEXT: I wonder if the items provided by your PokéStops might help us prepare for the Ultra Wormhole’s impending arrival.
+TEXT: Полагаю, что предметы ,полученные при вращении твоих Покестопов, помогут нам подготовиться к неминуемому появлению Ультрачервоточины.
 
 RESOURCE ID: gofest2022_seattle_city_2_7
-TEXT: It would befit us to gather as much aid as possible.
+TEXT: Нам следует как можно лучше подготовиться.
 
 RESOURCE ID: gofest2022_seattle_city_3_1
-TEXT: Pokémon Trainer. Indulge me in a moment of introspection.
+TEXT: Тренер Покемонов. Удели мне минуту своего внимания.
 
 RESOURCE ID: gofest2022_seattle_city_3_2
-TEXT: To me, the humans here are exceedingly fortunate.
+TEXT: Я считаю, что всем людям, которые находятся здесь, невероятно повезло.
 
 RESOURCE ID: gofest2022_seattle_city_3_3
-TEXT: Even with all our technology, my home is not at all like this.
+TEXT: Хотя в моём мире есть совершенные технологии, он совсем не похож на этот.
 
 RESOURCE ID: gofest2022_seattle_city_3_4
-TEXT: A world of darkness...
+TEXT: Мир темноты...
 
 RESOURCE ID: gofest2022_seattle_city_3_5
-TEXT: Yet here, light spills from the smallest things—such as your Incubators and their Eggs.
+TEXT: Однако здесь свет исходит от разных, даже самых маленьких предметов: например, от твоих инкубаторов и помещённых в них яиц.
 
 RESOURCE ID: gofest2022_seattle_city_3_6
-TEXT: If you can forgive another imposition, will you show me the effect of an Incubator once again?
+TEXT: Если тебя не затруднит, можешь продемонстрировать работу инкубатора ещё раз?
 
 RESOURCE ID: gofest2022_seattle_city_3_7
-TEXT: I wish to see its light.
+TEXT: Мне хочется увидеть его свет.
 
 RESOURCE ID: gofest2022_seattle_city_3_8
-TEXT: Thank you, Pokémon Trainer.
+TEXT: Благодарю тебя, Тренер Покемонов.
 
 RESOURCE ID: gofest2022_seattle_city_4_1
-TEXT: Pokémon Trainer. I have located the Ultra Wormhole.
+TEXT: Тренер Покемонов, мне удалось определить местоположение Ультрачервоточины.
 
 RESOURCE ID: gofest2022_seattle_city_4_10
-TEXT:  I hope they prove useful.
+TEXT: Надеюсь, они сработают.
 
 RESOURCE ID: gofest2022_seattle_city_4_2
-TEXT: The appearance of an Ultra Beast is imminent.
+TEXT: Появление Ультрачудовища неизбежно.
 
 RESOURCE ID: gofest2022_seattle_city_4_3
-TEXT: Fortunately, you and I have a history of contending with such situations.
+TEXT: К счастью, у нас уже есть опыт решения таких ситуаций.
 
 RESOURCE ID: gofest2022_seattle_city_4_4
-TEXT: My data indicates that the Ultra Beast most likely to appear is UB-02 Absorption.
+TEXT: Есть информация, что наиболее вероятно появление Ультрачудовища под названием УЧ-02 Поглощение.
 
 RESOURCE ID: gofest2022_seattle_city_4_5
-TEXT: Some humans call it Buzzwole. It seems to enjoy displaying its robust musculature.
+TEXT: Некоторые люди называют его Баззволом. Он любит демонстрировать свои чрезвычайно накачанные мышцы.
 
 RESOURCE ID: gofest2022_seattle_city_4_6
 TEXT: Мы не можем допустить хаоса.
 
 RESOURCE ID: gofest2022_seattle_city_4_7
-TEXT: Be warned that this Ultra Beast is not easily subdued.
+TEXT: Но нужно помнить, что это Ультрачудовище непросто усмирить.
 
 RESOURCE ID: gofest2022_seattle_city_4_8
 TEXT: Поэтому у меня наготове специальные УЧ-Боллы.
 
 RESOURCE ID: gofest2022_seattle_city_4_9
-TEXT: They are a type of ball specifically designed to capture Ultra Beasts.
+TEXT: Они разработаны специально, чтобы ловить Ультрачудовищ.
 
 RESOURCE ID: gofest2022_seattle_city_5_1
 TEXT: Твои навыки не перестают меня поражать, Тренер Покемонов.
 
 RESOURCE ID: gofest2022_seattle_city_5_10
-TEXT: Until that time, I release you to your festivities. The light of your celebration beckons.
+TEXT: А ты пока можешь наслаждаться праздником: его свет так и манит.
 
 RESOURCE ID: gofest2022_seattle_city_5_11
 TEXT: Увидим друг друга, Тренер Покемонов.
 
 RESOURCE ID: gofest2022_seattle_city_5_2
-TEXT: The ease with which you handled Buzzwole is enviable. It is a technique unfamiliar to me, and yet it comes to you naturally.
+TEXT: Тому, как легко у тебя получилось справиться с Баззволом, можно позавидовать. Я не обладаю такими навыками, а у тебя природный талант.
 
 RESOURCE ID: gofest2022_seattle_city_5_3
-TEXT: Now, I have an update to share.
+TEXT: У меня есть новости.
 
 RESOURCE ID: gofest2022_seattle_city_5_4
-TEXT: I detected an odd signal when Buzzwole emerged from the Ultra Wormhole.
+TEXT: Появление Баззвола из Ультрачервоточины сопровождалось необычным сигналом.
 
 RESOURCE ID: gofest2022_seattle_city_5_6
-TEXT: Using it, I can better investigate where within Ultra Space your Professor Willow may be.
+TEXT: С его помощью я смогу попытаться лучше определить местоположение Профессора Уиллоу в Ультраизмерении.
 
 RESOURCE ID: gofest2022_seattle_city_5_7
-TEXT: I will continue to do what I can to expedite his recovery.
+TEXT: Я продолжу делать всё возможное для его скорейшего возвращения.
 
 RESOURCE ID: gofest2022_seattle_park_1_1
-TEXT: Pokémon Trainer. Good...morning? Or is it the evening?
+TEXT: Тренер Покемонов. Доброе... утро? Или же сейчас вечер?
 
 RESOURCE ID: gofest2022_seattle_park_1_10
-TEXT: Perhaps we should both patrol the area to familiarize ourselves with its geography and identify any emerging irregularities.
+TEXT: Пожалуй, нам стоит пройтись по округе, чтобы получше узнать местность и вовремя выявить возможные отклонения.
 
 RESOURCE ID: gofest2022_seattle_park_1_11
-TEXT: Come, Pokémon Trainer. Let us begin.
+TEXT: Идём, Тренер Покемонов. Время начинать.
 
 RESOURCE ID: gofest2022_seattle_park_1_2
-TEXT: I am still growing accustomed to the cycles of this world.
+TEXT: Я всё ещё привыкаю к циклам этого мира.
 
 RESOURCE ID: gofest2022_seattle_park_1_3
-TEXT: But enough about time—let us focus on space. Prior to your arrival, I was surveying the area for Ultra Wormholes.
+TEXT: Но довольно о времени, сосредоточимся на пространстве. До твоего прибытия меня занимали поиски Ультрачервоточин в округе.
 
 RESOURCE ID: gofest2022_seattle_park_1_4
-TEXT: Though I find myself getting lost in the atmosphere around us.
+TEXT: Но мне сложно сосредоточиться: я полностью растворяюсь в атмосфере, которая нас окружает.
 
 RESOURCE ID: gofest2022_seattle_park_1_5
-TEXT: Trainers are gathering here en masse...
+TEXT: Тренеры собираются здесь в больших количествах...
 
 RESOURCE ID: gofest2022_seattle_park_1_6
-TEXT: Ah. So it’s a festival to celebrate the Pokémon Trainers of this world.
+TEXT: Понимаю. Это фестиваль для Тренеров Покемонов со всего мира.
 
 RESOURCE ID: gofest2022_seattle_park_1_7
 TEXT: Раз и ты здесь, полагаю, ты принимаешь в нём участие?
@@ -1717,61 +1763,61 @@ RESOURCE ID: gofest2022_seattle_park_2_2
 TEXT: Как видишь, меня вновь переполняет восхищение, Тренер Покемонов.
 
 RESOURCE ID: gofest2022_seattle_park_2_3
-TEXT: I am continually struck by the radiance of this world.
+TEXT: Меня не перестаёт поражать сияние этого мира.
 
 RESOURCE ID: gofest2022_seattle_park_2_4
-TEXT: Back home—it is dark.
+TEXT: Там, откуда я родом, темно...
 
 RESOURCE ID: gofest2022_seattle_park_2_5
-TEXT: You and your fellows are fortunate.
+TEXT: Тебе и твоим товарищам повезло.
 
 RESOURCE ID: gofest2022_seattle_park_2_6
 TEXT: ... ... ...
 
 RESOURCE ID: gofest2022_seattle_park_2_7
-TEXT: We should continue our patrol. After you, Pokémon Trainer.
+TEXT: Нам нужно продолжить изучение местности. После тебя, Тренер Покемонов.
 
 RESOURCE ID: gofest2022_seattle_park_3_1
 TEXT: Это место привлекло необычайно большое количество Покемонов – какой великолепный пример разнообразия животной жизни этого региона!
 
 RESOURCE ID: gofest2022_seattle_park_3_2
-TEXT: One even attempted to approach me. Your world’s Pokémon offer friendship so effortlessly. If only the Ultra Beasts were as amiable.
+TEXT: Один Покемон даже попытался подойти ко мне поближе. Покемоны в твоём мире так открыты к дружбе. Вот бы Ультрачудовища были так же добродушны...
 
 RESOURCE ID: gofest2022_seattle_park_3_3
-TEXT: I have seen—let me consult my notes—Lapras, Skorupi, Litwick, Rufflet...
+TEXT: Мне встретились – позволь свериться с записями – Лапрас, Скорупи, Литвик и Раффлет...
 
 RESOURCE ID: gofest2022_seattle_park_3_4
-TEXT: Even my idle time has been illuminating. I discovered that Litwick shines a light that absorbs the life energy of people and Pokémon.
+TEXT: Но даже время отдыха подарило мне свет знаний. Как выяснилось, Литвик излучает свет, который поглощает жизненную энергию людей и Покемонов.
 
 RESOURCE ID: gofest2022_seattle_park_3_5
-TEXT: I noted this phenomenon from a distance.
+TEXT: Это явление привлекло моё внимание издалека.
 
 RESOURCE ID: gofest2022_seattle_park_3_6
-TEXT: Another benefit of your photographic observations. What else can be safely documented through them?
+TEXT: Это ещё одно преимущество твоих фотографических заметок. Что ещё можно задокументировать с их помощью?
 
 RESOURCE ID: gofest2022_seattle_park_3_7
-TEXT: Taking snapshots of the unique locations in this area might answer this. It is “worth a shoot,” at any rate.
+TEXT: Мы сможем ответить на этот вопрос, если сделаем снимки уникальных объектов в окрестностях. Полагаю, стоит попробовать.
 
 RESOURCE ID: gofest2022_seattle_park_4_1
-TEXT: Pokémon Trainer, you mentioned that you and Willow were pursuing the Pokémon Shaymin before his disappearance, correct?
+TEXT: Кстати, Тренер Покемонов, прямо перед исчезновением Уиллоу вы вместе были заняты поисками Шеймина, так ведь?
 
 RESOURCE ID: gofest2022_seattle_park_4_2
 TEXT: Мне довелось услышать, как один Тренер Покемонов сказал: «Вдыхая аромат одного редкого цветка, Шеймин начинает светиться, а его маленькое тело меняется».
 
 RESOURCE ID: gofest2022_seattle_park_4_3
-TEXT: An irradiant image.
+TEXT: Какое блестящее зрелище.
 
 RESOURCE ID: gofest2022_seattle_park_4_4
-TEXT: I wonder if this transformation is akin to Evolution or if it is something else entirely.
+TEXT: Интересно, такая трансформация – это что-то сродни эволюции или же нечто совсем иное по своей природе?
 
 RESOURCE ID: gofest2022_seattle_park_4_5
-TEXT: There is so much I do not know about Pokémon, and yet you gift your knowledge to me freely.
+TEXT: Я многого не знаю о Покемонах, но ты так щедро делишься своими знаниями.
 
 RESOURCE ID: gofest2022_seattle_park_4_6
-TEXT: Our time together has taught me much, and for that, I—
+TEXT: Время, которое мы провели вместе, многому меня научило. Я очень тебе за это –
 
 RESOURCE ID: gofest2022_seattle_park_4_7
-TEXT: Wait. An anomaly is approaching. It almost resembles the description you gave of the Pokémon Shaymin, and yet with marked differences...
+TEXT: Минуточку. Приближается аномалия. Очень похожа на твоё описание Покемона Шеймина, но всё же есть видимые отличия...
 
 RESOURCE ID: gofest2022_seattle_park_5_1
 TEXT: Итак, мне довелось увидеть Шеймина и свет его трансформации.
@@ -1786,13 +1832,13 @@ RESOURCE ID: gofest2022_seattle_park_5_6
 TEXT: Мне приходилось слышать от тебя, что Шеймина привлекает благодарность. Думаешь, это моё чувство благодарности привело его сюда?
 
 RESOURCE ID: gofest2022_seattle_park_5_7
-TEXT: I am pleased that it recognizes my appreciation.
+TEXT: Мне очень приятно, что он оценил мою признательность.
 
 RESOURCE ID: gofest2022_seattle_park_5_8
-TEXT: And I hope that appreciation is apparent to you as well.
+TEXT: Я надеюсь, ты тоже замечаешь эту признательность.
 
 RESOURCE ID: gofest2022_seattle_park_5_9
-TEXT: With no proximate threat, you should return to your festival. I will keep watch.
+TEXT: Так как сейчас нам ничто не угрожает, предлагаю тебе вернуться к фестивалю. А я останусь на страже.
 
 RESOURCE ID: gofest2022_sr_battle_easy
 TEXT: Фестиваль Pokémon GO 2022: Сражение (Для души)
@@ -2355,6 +2401,9 @@ TEXT: 2× эффективность ладана
 RESOURCE ID: incense_effectiveness_triple
 TEXT: 3× эффективность ладана
 
+RESOURCE ID: incense_use_error2
+TEXT: Можно использовать только один вид ладана за раз.
+
 RESOURCE ID: increased_adventure_sync_rewards
 TEXT: Больше наград Синхронизации приключений на следующей неделе
 
@@ -2413,6 +2462,12 @@ TEXT: Билет на Фестиваль Pokémon GO 4 и 5 июня 2022 г. с
 
 RESOURCE ID: item_global_event_ticket_to_gift_name
 TEXT: Фестиваль Pokémon GO 2022
+
+RESOURCE ID: item_incense_daily_adventure_desc
+TEXT: Особый ладан с таинственным ароматом, который привлекает к тебе диких Покемонов в течение {0} минут, пока ты двигаешься. Ты можешь каждый день бесплатно получать один такой ладан.
+
+RESOURCE ID: item_incense_daily_adventure_name
+TEXT: ладан ежедневных приключений
 
 RESOURCE ID: japanese
 TEXT: 日本語
@@ -2524,8 +2579,8 @@ RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
 TEXT: Пока {0} находится в состоянии мегаэволюции, ты заработаешь дополнительные конфеты, XP и больше шансов получить конфеты XL при поимке Покемонов следующего типа: <b>{1}</b>.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-22T06:44:42.578407
-at SHA 5c3891f4c124847645095966a56a1ad53db933f9
+TEXT: Built at 2022-07-25T22:25:00.001859
+at SHA 885922991854fe0b4f16effd849608d0f75e75ca
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51, 0.243.0-SHA-9e2cbb7b, 0.243.1-SHA-d28fec69
 
 RESOURCE ID: move_name_0367
@@ -3030,6 +3085,15 @@ TEXT: %PLAYERNAME%, спасибо тебе за помощь с исследо�
 
 RESOURCE ID: quest_special_dialogue_battle_weekend_1_0
 TEXT: На что ты сделаешь упор, Тренер Покемонов?
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_0
+TEXT: Привет, %PLAYERNAME%! Я только что закончил создание нового вида ладана и назвал его "ладаном ежедневных приключений".
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_1
+TEXT: Действие ладана ежедневных приключений длится 15 минут и продолжается, только пока ты двигаешься. Но главная особенность этого ладана заключается в том, что он привлекает практически всех Покемонов, которые тебе встречались раньше – даже Легендарных Покемонов!
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_2
+TEXT: Я буду давать тебе один ладан ежедневных приключений каждый день, так что смело отправляйся навстречу приключениям! Может, начнём прямо сейчас? Попробуй поймать как можно больше Покемонов!
 
 RESOURCE ID: quest_special_dialogue_deino_0_0
 TEXT: Есть подозрение, что их агрессия в основном вызвана необходимостью...
@@ -3695,13 +3759,16 @@ RESOURCE ID: score_defeat_rocket_singular
 TEXT: Побеждён 1 член Команды Ракета GO
 
 RESOURCE ID: score_field_research_none
-TEXT: Completed 0 Field Research tasks
+TEXT: Не выполнено ни одно задание полевого квеста
 
 RESOURCE ID: score_field_research_plural
-TEXT: Completed {0} Field Research tasks
+TEXT: Выполнены задания полевого квеста: {0}
 
 RESOURCE ID: score_field_research_singular
-TEXT: Completed 1 Field Research task
+TEXT: Выполнено 1 задание полевого квеста
+
+RESOURCE ID: see_summary_button
+TEXT: SEE SUMMARY
 
 RESOURCE ID: settings_allow_paid_gifts
 TEXT: Разрешить друзьям отправлять тебе платные подарки
@@ -4385,73 +4452,73 @@ RESOURCE ID: sr_gofest2022_lesapc
 TEXT: Фестиваль Pokémon GO: Саппоро – Город
 
 RESOURCE ID: sr_gofest2022_lesapc_1
-TEXT: Pokémon GO Fest: Sapporo – City Experience (1/5)
+TEXT: Фестиваль Pokémon GO: Саппоро – Город (1/5)
 
 RESOURCE ID: sr_gofest2022_lesapc_2
-TEXT: Pokémon GO Fest: Sapporo – City Experience (2/5)
+TEXT: Фестиваль Pokémon GO: Саппоро – Город (2/5)
 
 RESOURCE ID: sr_gofest2022_lesapc_3
-TEXT: Pokémon GO Fest: Sapporo – City Experience (3/5)
+TEXT: Фестиваль Pokémon GO: Саппоро – Город (3/5)
 
 RESOURCE ID: sr_gofest2022_lesapc_4
-TEXT: Pokémon GO Fest: Sapporo – City Experience (4/5)
+TEXT: Фестиваль Pokémon GO: Саппоро – Город (4/5)
 
 RESOURCE ID: sr_gofest2022_lesapc_5
-TEXT: Pokémon GO Fest: Sapporo – City Experience (5/5)
+TEXT: Фестиваль Pokémon GO: Саппоро – Город (5/5)
 
 RESOURCE ID: sr_gofest2022_lesapp
 TEXT: Фестиваль Pokémon GO: Саппоро – Парк
 
 RESOURCE ID: sr_gofest2022_lesapp_1
-TEXT: Pokémon GO Fest: Sapporo – Park Experience (1/5)
+TEXT: Фестиваль Pokémon GO: Саппоро – Парк (1/5)
 
 RESOURCE ID: sr_gofest2022_lesapp_2
-TEXT: Pokémon GO Fest: Sapporo – Park Experience (2/5)
+TEXT: Фестиваль Pokémon GO: Саппоро – Парк (2/5)
 
 RESOURCE ID: sr_gofest2022_lesapp_3
-TEXT: Pokémon GO Fest: Sapporo – Park Experience (3/5)
+TEXT: Фестиваль Pokémon GO: Саппоро – Парк (3/5)
 
 RESOURCE ID: sr_gofest2022_lesapp_4
-TEXT: Pokémon GO Fest: Sapporo – Park Experience (4/5)
+TEXT: Фестиваль Pokémon GO: Саппоро – Парк (4/5)
 
 RESOURCE ID: sr_gofest2022_lesapp_5
-TEXT: Pokémon GO Fest: Sapporo – Park Experience (5/5)
+TEXT: Фестиваль Pokémon GO: Саппоро – Парк (5/5)
 
 RESOURCE ID: sr_gofest2022_leseac
 TEXT: Фестиваль Pokémon GO: Сиэтл – Город
 
 RESOURCE ID: sr_gofest2022_leseac_1
-TEXT: Pokémon GO Fest: Seattle – City Experience (1/5)
+TEXT: Фестиваль Pokémon GO: Сиэтл – Город (1/5)
 
 RESOURCE ID: sr_gofest2022_leseac_2
-TEXT: Pokémon GO Fest: Seattle – City Experience (2/5)
+TEXT: Фестиваль Pokémon GO: Сиэтл – Город (2/5)
 
 RESOURCE ID: sr_gofest2022_leseac_3
-TEXT: Pokémon GO Fest: Seattle – City Experience (3/5)
+TEXT: Фестиваль Pokémon GO: Сиэтл – Город (3/5)
 
 RESOURCE ID: sr_gofest2022_leseac_4
-TEXT: Pokémon GO Fest: Seattle – City Experience (4/5)
+TEXT: Фестиваль Pokémon GO: Сиэтл – Город (4/5)
 
 RESOURCE ID: sr_gofest2022_leseac_5
-TEXT: Pokémon GO Fest: Seattle – City Experience (5/5)
+TEXT: Фестиваль Pokémon GO: Сиэтл – Город (5/5)
 
 RESOURCE ID: sr_gofest2022_leseap
 TEXT: Фестиваль Pokémon GO: Сиэтл – Парк
 
 RESOURCE ID: sr_gofest2022_leseap_1
-TEXT: Pokémon GO Fest: Seattle – Park Experience (1/5)
+TEXT: Фестиваль Pokémon GO: Сиэтл – Парк (1/5)
 
 RESOURCE ID: sr_gofest2022_leseap_2
-TEXT: Pokémon GO Fest: Seattle – Park Experience (2/5)
+TEXT: Фестиваль Pokémon GO: Сиэтл – Парк (2/5)
 
 RESOURCE ID: sr_gofest2022_leseap_3
-TEXT: Pokémon GO Fest: Seattle – Park Experience (3/5)
+TEXT: Фестиваль Pokémon GO: Сиэтл – Парк (3/5)
 
 RESOURCE ID: sr_gofest2022_leseap_4
-TEXT: Pokémon GO Fest: Seattle – Park Experience (4/5)
+TEXT: Фестиваль Pokémon GO: Сиэтл – Парк (4/5)
 
 RESOURCE ID: sr_gofest2022_leseap_5
-TEXT: Pokémon GO Fest: Seattle – Park Experience (5/5)
+TEXT: Фестиваль Pokémon GO: Сиэтл – Парк (5/5)
 
 RESOURCE ID: sticker_alolaishi_1.3_description
 TEXT:  
@@ -4737,6 +4804,9 @@ TEXT: Ультрабонус: Выходные сражений
 
 RESOURCE ID: ultra_beast_not_allowed_in_gyms
 TEXT: Ультрачудовища не могут быть оставлены в Гимах.
+
+RESOURCE ID: use_now_button
+TEXT: ИСПОЛЬЗОВАТЬ
 
 RESOURCE ID: uu_hisuian_discoveries_title_name
 TEXT: Ультрабонус: Гисуйские открытия

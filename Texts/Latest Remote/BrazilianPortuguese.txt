@@ -7,6 +7,21 @@ TEXT: Use Sincroaventura para acompanhar o progresso de Ovos chocados e a distâ
 RESOURCE ID: activity_summary_widget_title
 TEXT: Sincroaventura: resumo de atividades
 
+RESOURCE ID: adventure_recap_subtitle
+TEXT: Aventuras de hoje
+
+RESOURCE ID: adventure_recap_text_0
+TEXT: Você viajou {0} km!
+
+RESOURCE ID: adventure_recap_text_1
+TEXT: Você pegou {0} Pokémon!
+
+RESOURCE ID: adventure_recap_text_2
+TEXT: Você visitou {0} Poképaradas!
+
+RESOURCE ID: adventure_recap_title
+TEXT: Resumo de aventuras
+
 RESOURCE ID: adventure_week_event_name
 TEXT: Semana Aventura
 
@@ -745,8 +760,14 @@ TEXT: Descubra Campfire
 RESOURCE ID: campfire_invite_notification
 TEXT: {0} in Campfire has invited you to join the fun!
 
+RESOURCE ID: cannot_use_mystery_box_and_incense2
+TEXT: Apenas 1 tipo de Incenso ou Caixa Misteriosa pode ser ativado por vez.
+
 RESOURCE ID: catch_box
 TEXT: Combo de Captura
+
+RESOURCE ID: catch_recap_text_0
+TEXT: Você pegou {0} Pokémon
 
 RESOURCE ID: catch_rewards_double
 TEXT: 2× Poeira Estelar por captura, 2× doces por captura e 2× PE por captura
@@ -788,6 +809,33 @@ TEXT: Um incenso misterioso: parte 2 (1/2)
 
 RESOURCE ID: dai_part2_title_page2
 TEXT: Um incenso misterioso: parte 2 (2/2)
+
+RESOURCE ID: daily_adventure_incense_modal_message
+TEXT: Incenso especial de fragrância misteriosa que atrai Pokémon selvagens até você enquanto você se move por {0} minutos. Você pode receber um todos os dias sem nenhum custo.
+Como bônus adicional, você receberá {1} Poké Bolas quando usar um Incenso de Aventura Diário se naquele momento tiver menos do que {2} Poké Bolas em sua Bolsa. Você deve ter espaço em sua Bolsa para que este bônus seja ativado.
+
+RESOURCE ID: daily_incense_log_use
+TEXT: Usou um Incenso de Aventura Diário!
+
+RESOURCE ID: daily_incense_recap_header2
+TEXT: {0} Pokémon
+
+RESOURCE ID: daily_incense_recap_header3
+TEXT: Pegos:
+
+RESOURCE ID: daily_incense_recap_header3_plural
+TEXT: pego enquanto usava Incenso
+ em sua aventura de {0} m.
+
+RESOURCE ID: daily_incense_recap_header3_singular
+TEXT: pego enquanto usava Incenso
+ em sua aventura de {0} m.
+
+RESOURCE ID: daily_incense_recap_screen_error
+TEXT: Erro ao recuperar o resumo de Incenso de Aventura Diário
+
+RESOURCE ID: daily_incense_recap_share_button
+TEXT: COMPARTILHAR
 
 RESOURCE ID: delete_pokemon_tag_confirmation
 TEXT: A tag será removida dos Pokémon correspondentes. Os Pokémon não serão transferidos.
@@ -1829,6 +1877,9 @@ TEXT: Descobertas de Hisui
 RESOURCE ID: incense_duration_8_hr
 TEXT: 8 horas de duração do Incenso
 
+RESOURCE ID: incense_use_error2
+TEXT: Você só pode usar 1 tipo de Incenso por vez.
+
 RESOURCE ID: increased_adventure_sync_rewards
 TEXT: Maior número de recompensas da Sincroaventura na semana que vem
 
@@ -1884,6 +1935,12 @@ TEXT: Um ingresso para participar do Festival de Pokémon GO nos dias 4 e 5 de j
 
 RESOURCE ID: item_global_event_ticket_to_gift_name
 TEXT: Festival de Pokémon GO 2022
+
+RESOURCE ID: item_incense_daily_adventure_desc
+TEXT: Incenso especial de fragrância misteriosa que atrai Pokémon selvagens até você enquanto você se move por {0} minutos. Você pode receber um todos os dias sem nenhum custo.
+
+RESOURCE ID: item_incense_daily_adventure_name
+TEXT: Incenso de Aventura Diário
 
 RESOURCE ID: item_pokemon_storage_upgrade_name
 TEXT: Estoque de Pokémon
@@ -2003,8 +2060,8 @@ Você sempre pode Megaevoluir um Pokémon usando Megaenergia mesmo durante o tem
 O seu Pokémon precisará descansar após Megaevoluir sem usar Megaenergia. O tempo de descanso do Pokémon diminuirá quantos mais ele Megaevoluir.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-22T06:44:42.578407
-at SHA 5c3891f4c124847645095966a56a1ad53db933f9
+TEXT: Built at 2022-07-25T22:25:00.001859
+at SHA 885922991854fe0b4f16effd849608d0f75e75ca
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51, 0.243.0-SHA-9e2cbb7b, 0.243.1-SHA-d28fec69
 
 RESOURCE ID: move_name_0367
@@ -2017,7 +2074,7 @@ RESOURCE ID: move_name_0369
 TEXT: Semente Ofuscante
 
 RESOURCE ID: nearby_raid_local_only
-TEXT: LOCAL ONLY
+TEXT: SÓ PRESENCIAL
 
 RESOURCE ID: nearby_raid_notification_toast
 TEXT: Um Ovo de Reide apareceu em um Ginásio próximo!
@@ -2524,6 +2581,15 @@ TEXT: Obrigado por me ajudar com minha pesquisa hoje, %PLAYERNAME%. É sempre "u
 
 RESOURCE ID: quest_special_dialogue_battle_weekend_1_0
 TEXT: Onde você vai concentrar os seus esforços?
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_0
+TEXT: Oi, %PLAYERNAME%! Eu acabei de desenvolver um novo tipo de Incenso, o Incenso de Aventura Diário.
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_1
+TEXT: Um Incenso de Aventura Diário dura 15 minutos e permanece ativo enquanto você está se movimentando. No entanto, o mais importante é que este Incenso pode atrair quase todos os Pokémon que você encontrou antes, até mesmo Pokémon Lendários!
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_2
+TEXT: Eu te darei 1 Incenso de Aventura Diário todos os dias, então não tenha medo de sair por aí atrás de mais aventuras! Aliás, que tal se aventurar agora mesmo? Tente pegar a maior quantidade de Pokémon que você puder!
 
 RESOURCE ID: quest_special_dialogue_deino_0_0
 TEXT: Parece que a agressividade deles é alimentada principalmente pela necessidade...
@@ -3156,6 +3222,9 @@ TEXT: Completou {0} tarefas de pesquisa de campo
 
 RESOURCE ID: score_field_research_singular
 TEXT: Completou 1 tarefa de pesquisa de campo
+
+RESOURCE ID: see_summary_button
+TEXT: SEE SUMMARY
 
 RESOURCE ID: set_privacy_settings_error_message
 TEXT: Não foi possível salvar suas configurações de privacidade.
@@ -4066,43 +4135,43 @@ RESOURCE ID: sticker_summer_6.5_description
 TEXT:  
 
 RESOURCE ID: stickers_v2_characters_category
-TEXT: Characters
+TEXT: Personagens
 
 RESOURCE ID: stickers_v2_collect_from
-TEXT: You can get these stickers from Gifts, the shop, or PokéStops.
+TEXT: Você pode obter esses adesivos por meio de presente recebidos, na loja ou em Poképaradas.
 
 RESOURCE ID: stickers_v2_ecently_used
-TEXT: Recently Used
+TEXT: Usado recentemente
 
 RESOURCE ID: stickers_v2_featured_category
-TEXT: Featured
+TEXT: Destaques
 
 RESOURCE ID: stickers_v2_messages_category
-TEXT: Messages
+TEXT: Mensagens
 
 RESOURCE ID: stickers_v2_misc_category
-TEXT: Misc
+TEXT: Variados
 
 RESOURCE ID: stickers_v2_no_recent
-TEXT: Add a sticker to a Gift to start seeing your recently used stickers.
+TEXT: Adicione um adesivo a um presente para começar a ver seus adesivos usados recentemente.
 
 RESOURCE ID: stickers_v2_no_sticker_of_type
-TEXT: You have no stickers of this type.
+TEXT: Você não tem adesivos deste tipo.
 
 RESOURCE ID: stickers_v2_no_stickers
-TEXT: You do not have any stickers. You can get them from Gifts, the shop, or PokéStops.
+TEXT: Você não tem adesivos. Você pode obtê-los por meio de presentes recebidos, na loja ou em Poképaradas.
 
 RESOURCE ID: stickers_v2_no_stickers_of_category
-TEXT: You have no stickers from this category.
+TEXT: Você não tem adesivos desta categoria.
 
 RESOURCE ID: stickers_v2_pokemon_category
 TEXT: Pokémon
 
 RESOURCE ID: stickers_v2_recent_category
-TEXT: Recent
+TEXT: Recentes
 
 RESOURCE ID: stickers_v2_recently_collected
-TEXT: Recently Received
+TEXT: Recebido recentemente
 
 RESOURCE ID: story_quest_rockethq11
 TEXT: Notas de campo: Equipe GO Rocket
@@ -4184,6 +4253,9 @@ TEXT: Ultrabônus: Fim de semana de batalhas
 
 RESOURCE ID: ultra_beast_not_allowed_in_gyms
 TEXT: Ultracriaturas não podem ser deixadas nos Ginásios.
+
+RESOURCE ID: use_now_button
+TEXT: USE AGORA
 
 RESOURCE ID: uu_hisuian_discoveries_title_name
 TEXT: Ultrabônus: Descobertas de Hisui

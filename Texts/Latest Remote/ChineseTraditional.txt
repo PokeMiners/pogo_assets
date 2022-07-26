@@ -7,6 +7,21 @@ TEXT: 開啟時時刻刻冒險後，即便沒有啟動遊戲，也能追蹤孵�
 RESOURCE ID: activity_summary_widget_title
 TEXT: 時時刻刻冒險：活動紀錄
 
+RESOURCE ID: adventure_recap_subtitle
+TEXT: Today's Adventure
+
+RESOURCE ID: adventure_recap_text_0
+TEXT: {0} km walked!
+
+RESOURCE ID: adventure_recap_text_1
+TEXT: {0} Pokémon caught!
+
+RESOURCE ID: adventure_recap_text_2
+TEXT: {0} Pokéstops spun!
+
+RESOURCE ID: adventure_recap_title
+TEXT: 冒險紀錄
+
 RESOURCE ID: adventure_week_explore_timed_research
 TEXT: 驚奇冒險週：冒險大挑戰
 
@@ -764,13 +779,19 @@ RESOURCE ID: browse_campfire
 TEXT: 瀏覽Campfire
 
 RESOURCE ID: campfire_invite_notification
-TEXT: {0} in Campfire has invited you to join the fun!
+TEXT: Campfire：收到來自{0}的邀請！
 
 RESOURCE ID: candela_incident_greeting
 TEXT: 不論發生了什麼事，這熊熊燃燒的烈火都不會熄滅。武勇隊鐵定獲勝！
 
+RESOURCE ID: cannot_use_mystery_box_and_incense2
+TEXT: 一次只能使用一種薰香或神秘盒子
+
 RESOURCE ID: catch_box
 TEXT: 捕捉禮盒
+
+RESOURCE ID: catch_recap_text_0
+TEXT: {0} Pokémon caught
 
 RESOURCE ID: catch_rewards_double
 TEXT: 捕獲寶可夢時的星星沙子、糖果及XP加倍
@@ -810,6 +831,33 @@ TEXT: 一個神秘的薰香：Part 2 (1/2)
 
 RESOURCE ID: dai_part2_title_page2
 TEXT: 一個神秘的薰香：Part 2 (2/2)
+
+RESOURCE ID: daily_adventure_incense_modal_message
+TEXT: 一種可吸引野生寶可夢出現的特別薰香，每天都可以免費領到1個。在你持續走路時，它的效果將會持續 {0} 分鐘。
+追加獎勵：{1}顆精靈球（僅限包包裡的精靈球少於{2}顆時。若包包沒有足夠空間，將無法領取追加獎勵）。
+
+RESOURCE ID: daily_incense_log_use
+TEXT: 用了1個散步小薰香！
+
+RESOURCE ID: daily_incense_recap_header2
+TEXT: {0}隻寶可夢
+
+RESOURCE ID: daily_incense_recap_header3
+TEXT: 已捕捉：
+
+RESOURCE ID: daily_incense_recap_header3_plural
+TEXT: 在 {0} 公尺的冒險中
+用薰香捉到的寶可夢
+
+RESOURCE ID: daily_incense_recap_header3_singular
+TEXT: 在 {0} 公尺的冒險中
+用薰香捉到的寶可夢
+
+RESOURCE ID: daily_incense_recap_screen_error
+TEXT: 取得散步小薰香活動紀錄時發生錯誤
+
+RESOURCE ID: daily_incense_recap_share_button
+TEXT: 分享
 
 RESOURCE ID: delete_pokemon_tag_confirmation
 TEXT: 系統將會刪除此標籤，寶可夢不會被傳送出去。
@@ -1580,7 +1628,7 @@ RESOURCE ID: gofest2022_seattle_city_5_1
 TEXT: 訓練家，你的實力真是讓人印象深刻。
 
 RESOURCE ID: gofest2022_seattle_city_5_10
-TEXT: 那我們下次再見。
+TEXT: 希望你玩得愉快。
 
 RESOURCE ID: gofest2022_seattle_city_5_11
 TEXT: 我們下次再見。
@@ -2268,6 +2316,9 @@ TEXT: 洗翠探索
 RESOURCE ID: incense_duration_8_hr
 TEXT: 薰香時間延長為8小時
 
+RESOURCE ID: incense_use_error2
+TEXT: Only one type of incense can be active at a time.
+
 RESOURCE ID: increased_adventure_sync_rewards
 TEXT: 下週「時時刻刻冒險」的獎勵將增加
 
@@ -2320,6 +2371,12 @@ TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當�
 
 RESOURCE ID: item_global_event_ticket_to_gift_name
 TEXT: Pokémon GO Fest 2022
+
+RESOURCE ID: item_incense_daily_adventure_desc
+TEXT: Special Incense with a mysterious fragrance that lures uncommon Pokémon to your location as you move for {0} minutes. Use one for free everyday.
+
+RESOURCE ID: item_incense_daily_adventure_name
+TEXT: 散步小薰香
 
 RESOURCE ID: japanese
 TEXT: 日本語
@@ -2426,8 +2483,8 @@ TEXT: <b>使用超級能量</b>
 如果在超級進化之後，你的寶可夢能獲得足夠的休息時間，那麼牠下次超級進化時將毋需使用超級能量。當寶可夢超級進化的次數越多，牠所需的休息時間就會越短。
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-22T06:44:42.578407
-at SHA 5c3891f4c124847645095966a56a1ad53db933f9
+TEXT: Built at 2022-07-25T22:25:00.001859
+at SHA 885922991854fe0b4f16effd849608d0f75e75ca
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51, 0.243.0-SHA-9e2cbb7b, 0.243.1-SHA-d28fec69
 
 RESOURCE ID: move_name_0367
@@ -3037,6 +3094,15 @@ TEXT: %PLAYERNAME%，謝謝你今天也幫我做研究。畢竟你的「石」�
 
 RESOURCE ID: quest_special_dialogue_battle_weekend_1_0
 TEXT: 訓練家，你的選擇是？
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_0
+TEXT: Hey, {0}! I have this new incense I wanted to share with you.
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_1
+TEXT: One Daily Adventure Incense lasts for 15 minutes and stays active only while you’re moving. Most importantly, though, this Incense can attract almost any Pokémon you’ve encountered before—even Legendary Pokémon!
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_2
+TEXT: I’ll give you one Daily Adventure Incense each day, so don’t be afraid to go out on some adventures! In fact, why not start one now? Try to catch as many Pokémon as you can!
 
 RESOURCE ID: quest_special_dialogue_deino_0_0
 TEXT: 唔……你這隻寶可夢還真是耐人尋味。你看得見光嗎？
@@ -3742,6 +3808,9 @@ TEXT: 已完成 {0} 個田野調查課題
 
 RESOURCE ID: score_field_research_singular
 TEXT: 已完成1個田野調查課題
+
+RESOURCE ID: see_summary_button
+TEXT: 查看摘要
 
 RESOURCE ID: settings_allow_paid_gifts
 TEXT: 讓朋友可以送付費禮物給你
@@ -4773,6 +4842,9 @@ TEXT: 你不能將究極異獸指派至道館
 
 RESOURCE ID: unfriend_niantic_friend_title
 TEXT: 確定要刪除 {0} 這位朋友嗎？
+
+RESOURCE ID: use_now_button
+TEXT: 立刻使用
 
 RESOURCE ID: use_system_settings
 TEXT: 使用裝置設定

@@ -7,6 +7,21 @@ TEXT: Utilise le Suivi d’exploration pour surveiller la progression de l’éc
 RESOURCE ID: activity_summary_widget_title
 TEXT: Suivi d’exploration : résumé d’activité
 
+RESOURCE ID: adventure_recap_subtitle
+TEXT: Aventure du jour
+
+RESOURCE ID: adventure_recap_text_0
+TEXT: Tu as parcouru {0} km.
+
+RESOURCE ID: adventure_recap_text_1
+TEXT: Tu as attrapé {0} Pokémon.
+
+RESOURCE ID: adventure_recap_text_2
+TEXT: Tu as visité {0} PokéStops.
+
+RESOURCE ID: adventure_recap_title
+TEXT: Récapitulatif de l’aventure
+
 RESOURCE ID: adventure_week_explore_timed_research
 TEXT: Semaine Aventure : Défi Aventure
 
@@ -842,8 +857,14 @@ TEXT: Parcourir Campfire
 RESOURCE ID: campfire_invite_notification
 TEXT: {0} in Campfire has invited you to join the fun!
 
+RESOURCE ID: cannot_use_mystery_box_and_incense2
+TEXT: Un seul type d’Encens ou de Boîte Mystère peut être actif à la fois.
+
 RESOURCE ID: catch_box
 TEXT: Boîte Capture
+
+RESOURCE ID: catch_recap_text_0
+TEXT: Tu as attrapé {0} Pokémon.
 
 RESOURCE ID: catch_rewards_double
 TEXT: 2 fois plus de Poussières Étoiles de capture, 2 fois plus de Bonbons de capture et 2 fois plus de PX de capture
@@ -894,6 +915,33 @@ TEXT: Un Encens mystérieux – 2e partie (1/2)
 
 RESOURCE ID: dai_part2_title_page2
 TEXT: Un Encens mystérieux – 2e partie (2/2)
+
+RESOURCE ID: daily_adventure_incense_modal_message
+TEXT: Encens spécial au parfum mystérieux qui attire les Pokémon sauvages vers l’endroit où tu te trouves quand que tu te déplaces pendant {0} minutes. Tu peux en recevoir un chaque jour gratuitement.
+En bonus, tu recevras {1} Poké Balls quand tu utiliseras un Encens d’aventure quotidienne si tu as moins de {2} Poké Balls dans ton Sac d’objets. Ce bonus ne s’active que s’il y a de la place dans ton Sac d’objets.
+
+RESOURCE ID: daily_incense_log_use
+TEXT: Un Encens d’aventure quotidienne utilisé !
+
+RESOURCE ID: daily_incense_recap_header2
+TEXT: {0} Pokémon
+
+RESOURCE ID: daily_incense_recap_header3
+TEXT: Attrapés :
+
+RESOURCE ID: daily_incense_recap_header3_plural
+TEXT: attrapé en utilisant de l’Encens
+lors de cette aventure de {0} m.
+
+RESOURCE ID: daily_incense_recap_header3_singular
+TEXT: attrapé en utilisant de l’Encens
+lors de cette aventure de {0} m.
+
+RESOURCE ID: daily_incense_recap_screen_error
+TEXT: Erreur lors de la récupération du résumé de l’Encens d’aventure quotidienne
+
+RESOURCE ID: daily_incense_recap_share_button
+TEXT: PARTAGER
 
 RESOURCE ID: delete_pokemon_tag_confirmation
 TEXT: Ce mot-clé sera retiré des Pokémon auxquels il était assigné. Ces Pokémon ne seront pas transférés.
@@ -1915,6 +1963,9 @@ TEXT: Découvertes à Hisui
 RESOURCE ID: incense_duration_8_hr
 TEXT: Les Encens durent 8 heures
 
+RESOURCE ID: incense_use_error2
+TEXT: Tu ne peux utiliser qu’un type d’Encens à la fois.
+
 RESOURCE ID: increased_adventure_sync_rewards
 TEXT: Plus de Récompenses de Suivi la semaine prochaine
 
@@ -1967,6 +2018,12 @@ TEXT: Un ticket pour accéder au Festival Pokémon GO les 4 et 5 juin 2022, de 1
 
 RESOURCE ID: item_global_event_ticket_to_gift_name
 TEXT: Festival Pokémon GO 2022
+
+RESOURCE ID: item_incense_daily_adventure_desc
+TEXT: Encens spécial au parfum mystérieux qui attire les Pokémon sauvages vers toi quand tu te déplaces pendant {0} minutes. Tu peux en avoir un par jour sans frais.
+
+RESOURCE ID: item_incense_daily_adventure_name
+TEXT: Encens d’aventure quotidienne
 
 RESOURCE ID: item_troy_disk_rainy_name
 TEXT: Leurre Pluvieux
@@ -2076,8 +2133,8 @@ RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
 TEXT: Quand {0} est méga-évolué, tu gagneras des Bonbons supplémentaires, des PX supplémentaires et tu auras plus de chances de recevoir des Bonbons L quand tu attraperas des Pokémon de type <b>{1}</b>.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-22T06:44:42.578407
-at SHA 5c3891f4c124847645095966a56a1ad53db933f9
+TEXT: Built at 2022-07-25T22:25:00.001859
+at SHA 885922991854fe0b4f16effd849608d0f75e75ca
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51, 0.243.0-SHA-9e2cbb7b, 0.243.1-SHA-d28fec69
 
 RESOURCE ID: move_name_0353
@@ -2562,6 +2619,15 @@ TEXT: Merci de m’avoir aidé dans mes recherches aujourd’hui, %PLAYERNAME%. 
 
 RESOURCE ID: quest_special_dialogue_battle_weekend_1_0
 TEXT: Sur quoi vas-tu concentrer tes efforts, Dresseur Pokémon ?
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_0
+TEXT: Bonjour, %PLAYERNAME% ! Je viens de développer un nouveau type d’Encens : l’Encens d’aventure quotidienne.
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_1
+TEXT: Un Encens d’aventure quotidienne dure 15 minutes et ne reste actif que si tu te déplaces. Surtout, cet Encens peut attirer presque tous les Pokémon que tu as déjà rencontrés, même les Pokémon légendaires !
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_2
+TEXT: Je te donnerai un Encens d’aventure quotidienne chaque jour, alors n’hésite pas à partir à l’aventure ! D’ailleurs, pourquoi ne pas commencer tout de suite ? Attrape autant de Pokémon que tu peux.
 
 RESOURCE ID: quest_special_dialogue_deino_0_0
 TEXT: Leur agressivité s’exprime uniquement quand c’est nécessaire...
@@ -3181,6 +3247,9 @@ TEXT: {0} tâches d’Études de terrain terminées
 
 RESOURCE ID: score_field_research_singular
 TEXT: 1 tâche d’Étude de terrain terminée
+
+RESOURCE ID: see_summary_button
+TEXT: SEE SUMMARY
 
 RESOURCE ID: settings_allow_paid_gifts
 TEXT: Autorise des amis à t’envoyer des Cadeaux payants
@@ -4188,6 +4257,9 @@ TEXT: Ultra Bonus : Week-end Combat
 
 RESOURCE ID: ultra_beast_not_allowed_in_gyms
 TEXT: Les Ultra-Chimères ne peuvent pas être laissées dans une Arène.
+
+RESOURCE ID: use_now_button
+TEXT: UTILISER
 
 RESOURCE ID: uu_hisuian_discoveries_title_name
 TEXT: Ultra Bonus : Découvertes à Hisui

@@ -88,6 +88,21 @@ TEXT: FPS più elevati in base al tuo dispositivo. Condiziona fluidità ed effic
 RESOURCE ID: adv_perf_v2_performance_preset_descr
 TEXT: Preimpostare le prestazioni ti consente di modificare più opzioni contemporaneamente.
 
+RESOURCE ID: adventure_recap_subtitle
+TEXT: Avventura di oggi
+
+RESOURCE ID: adventure_recap_text_0
+TEXT: Hai viaggiato per {0} km!
+
+RESOURCE ID: adventure_recap_text_1
+TEXT: Hai catturato {0} Pokémon!
+
+RESOURCE ID: adventure_recap_text_2
+TEXT: Hai visitato {0} Pokéstop!
+
+RESOURCE ID: adventure_recap_title
+TEXT: Riepilogo avventura
+
 RESOURCE ID: adventure_week_explore_timed_research
 TEXT: Settimana dell'avventura: sfida di avventura
 
@@ -1367,8 +1382,14 @@ TEXT: Pacco nuovo Allenatore
 RESOURCE ID: campfire_invite_notification
 TEXT: {0} ti ha invitato a condividere il divertimento su Campfire!
 
+RESOURCE ID: cannot_use_mystery_box_and_incense2
+TEXT: Può essere attivo solo un tipo di aroma o un pacco sorpresa alla volta.
+
 RESOURCE ID: catch_box
 TEXT: Pacco cattura
+
+RESOURCE ID: catch_recap_text_0
+TEXT: Hai catturato {0} Pokémon
 
 RESOURCE ID: catch_rewards_double
 TEXT: Doppio della polvere di stelle da cattura, doppio delle caramelle da cattura e doppio dei PE da cattura
@@ -1476,6 +1497,33 @@ TEXT: Un aroma misterioso - 2ª parte (1/2)
 
 RESOURCE ID: dai_part2_title_page2
 TEXT: Un aroma misterioso parte 2 (2/2)
+
+RESOURCE ID: daily_adventure_incense_modal_message
+TEXT: Un aroma speciale con una misteriosa fragranza che attira Pokémon selvatici mentre ti muovi ogni {0} minuti. Puoi riceverne gratuitamente uno al giorno.
+Come bonus aggiuntivo, riceverai {1} Poké Ball quando usi un incenso avventura giornaliera se hai meno di {2} Poké Ball nel tuo spazio Borsa. Devi avere spazio nella tua Borsa se vuoi che questo bonus si attivi.
+
+RESOURCE ID: daily_incense_log_use
+TEXT: Hai usato un aroma avventura giornaliera!
+
+RESOURCE ID: daily_incense_recap_header2
+TEXT: {0} Pokémon
+
+RESOURCE ID: daily_incense_recap_header3
+TEXT: Catturati:
+
+RESOURCE ID: daily_incense_recap_header3_plural
+TEXT: catturati usando l’aroma
+durante questa avventura da {0} m.
+
+RESOURCE ID: daily_incense_recap_header3_singular
+TEXT: catturati usando l’aroma
+durante questa avventura da {0} m.
+
+RESOURCE ID: daily_incense_recap_screen_error
+TEXT: Impossibile recuperare il riepilogo dell’aroma avventura giornaliera
+
+RESOURCE ID: daily_incense_recap_share_button
+TEXT: CONDIVIDI
 
 RESOURCE ID: dd_2021_collection_challenge
 TEXT: Sfida di collezione di “Discesa Dragospira”
@@ -2147,13 +2195,13 @@ RESOURCE ID: gofest2022_gle_berlin_molten_rocks_description
 TEXT: Trova questi Pokémon allo stato selvatico durante il Festival di Pokémon GO: Berlino!
 
 RESOURCE ID: gofest2022_gle_sapporo_living_meador
-TEXT: Festival di Pokémon GO: Sapporo (prato pieno di vita)
+TEXT: Festival di Pokémon GO: Sapporo (Prateria animata)
 
 RESOURCE ID: gofest2022_gle_sapporo_living_meador_description
 TEXT: Trova questi Pokémon allo stato selvatico durante il Festival di Pokémon GO: Sapporo!
 
 RESOURCE ID: gofest2022_gle_seattle_the_oasis
-TEXT: Festival di Pokémon GO: Seattle (oasi)
+TEXT: Festival di Pokémon GO: Seattle (Oasi)
 
 RESOURCE ID: gofest2022_gle_seattle_the_oasis_description
 TEXT: Trova questi Pokémon allo stato selvatico durante il Festival di Pokémon GO: Seattle!
@@ -2177,142 +2225,142 @@ RESOURCE ID: gofest2022_le_berlin_electric_garden
 TEXT: Giardino elettrico
 
 RESOURCE ID: gofest2022_le_berlin_electric_garden_description
-TEXT: Cattura questi Pokémon nell’habitat giardino elettrico!
+TEXT: Cattura questi Pokémon nell’habitat Giardino elettrico!
 
 RESOURCE ID: gofest2022_le_berlin_living_meadow
-TEXT: Prato pieno di vita
+TEXT: Prateria animata
 
 RESOURCE ID: gofest2022_le_berlin_living_meadow_description
-TEXT: Cattura questi Pokémon nell’habitat prato pieno di vita!
+TEXT: Cattura questi Pokémon nell’habitat Prateria animata!
 
 RESOURCE ID: gofest2022_le_berlin_molten_rocks
 TEXT: Rocce magmatiche
 
 RESOURCE ID: gofest2022_le_berlin_molten_rocks_description
-TEXT: Cattura questi Pokémon nell’habitat rocce magmatiche!
+TEXT: Cattura questi Pokémon nell’habitat Rocce magmatiche!
 
 RESOURCE ID: gofest2022_le_berlin_windy_coast
 TEXT: Costa ventosa
 
 RESOURCE ID: gofest2022_le_berlin_windy_coast_description
-TEXT: Cattura questi Pokémon nell’habitat costa ventosa!
+TEXT: Cattura questi Pokémon nell’habitat Costa ventosa!
 
 RESOURCE ID: gofest2022_le_sapporo_athletic_park
 TEXT: Parco sportivo
 
 RESOURCE ID: gofest2022_le_sapporo_athletic_park_description
-TEXT: Cattura questi Pokémon nell’habitat parco sportivo!
+TEXT: Cattura questi Pokémon nell’habitat Parco sportivo!
 
 RESOURCE ID: gofest2022_le_sapporo_dreamy_mindscape
 TEXT: Visione sognante
 
 RESOURCE ID: gofest2022_le_sapporo_dreamy_mindscape_description
-TEXT: Cattura questi Pokémon nell’habitat visione sognante!
+TEXT: Cattura questi Pokémon nell’habitat Visione sognante!
 
 RESOURCE ID: gofest2022_le_sapporo_frozen_lake
 TEXT: Lago ghiacciato
 
 RESOURCE ID: gofest2022_le_sapporo_frozen_lake_description
-TEXT: Cattura questi Pokémon nell’habitat lago ghiacciato!
+TEXT: Cattura questi Pokémon nell’habitat Lago ghiacciato!
 
 RESOURCE ID: gofest2022_le_sapporo_living_meadow
-TEXT: Prato pieno di vita
+TEXT: Prateria animata
 
 RESOURCE ID: gofest2022_le_sapporo_living_meadow_description
-TEXT: Cattura questi Pokémon nell’habitat prato pieno di vita!
+TEXT: Cattura questi Pokémon nell’habitat Prateria animata!
 
 RESOURCE ID: gofest2022_le_seattle_cloud_sanctuary
 TEXT: Santuario delle nuvole
 
 RESOURCE ID: gofest2022_le_seattle_cloud_sanctuary_description
-TEXT: Cattura questi Pokémon nell’habitat santuario delle nuvole!
+TEXT: Cattura questi Pokémon nell’habitat Santuario delle nuvole!
 
 RESOURCE ID: gofest2022_le_seattle_dreamy_mindscape
 TEXT: Visione sognante
 
 RESOURCE ID: gofest2022_le_seattle_dreamy_mindscape_description
-TEXT: Cattura questi Pokémon nell’habitat visione sognante!
+TEXT: Cattura questi Pokémon nell’habitat Visione sognante!
 
 RESOURCE ID: gofest2022_le_seattle_electric_garden
 TEXT: Giardino elettrico
 
 RESOURCE ID: gofest2022_le_seattle_electric_garden_description
-TEXT: Cattura questi Pokémon nell’habitat giardino elettrico!
+TEXT: Cattura questi Pokémon nell’habitat Giardino elettrico!
 
 RESOURCE ID: gofest2022_le_seattle_the_oasis
 TEXT: Oasi
 
 RESOURCE ID: gofest2022_le_seattle_the_oasis_description
-TEXT: Cattura questi Pokémon nell’habitat oasi!
+TEXT: Cattura questi Pokémon nell’habitat Oasi!
 
 RESOURCE ID: gofest2022_live_berlin
 TEXT: Pokémon GO Fest: Berlin
 
 RESOURCE ID: gofest2022_live_berlin_habitat_electric_garden
-TEXT: Festival di Pokémon GO: Berlino (giardino elettrico)
+TEXT: Festival di Pokémon GO: Berlino (Giardino elettrico)
 
 RESOURCE ID: gofest2022_live_berlin_habitat_living_meadow
-TEXT: Festival di Pokémon GO: Berlino (prato pieno di vita)
+TEXT: Festival di Pokémon GO: Berlino (Prateria animata)
 
 RESOURCE ID: gofest2022_live_berlin_habitat_molten_rocks
-TEXT: Festival di Pokémon GO: Berlino (rocce magmatiche)
+TEXT: Festival di Pokémon GO: Berlino (Rocce magmatiche)
 
 RESOURCE ID: gofest2022_live_berlin_habitat_windy_coast
-TEXT: Festival di Pokémon GO: Berlino (costa ventosa)
+TEXT: Festival di Pokémon GO: Berlino (Costa ventosa)
 
 RESOURCE ID: gofest2022_live_habitat_athletic_park
-TEXT: Habitat attuale: parco sportivo
+TEXT: Habitat attuale: Parco sportivo
 
 RESOURCE ID: gofest2022_live_habitat_cloud_sanctuary
-TEXT: Habitat attuale: santuario delle nuvole
+TEXT: Habitat attuale: Santuario delle nuvole
 
 RESOURCE ID: gofest2022_live_habitat_dreamy_mindscape
-TEXT: Habitat attuale: visione sognante
+TEXT: Habitat attuale: Visione sognante
 
 RESOURCE ID: gofest2022_live_habitat_electric_garden
-TEXT: Habitat attuale: giardino elettrico
+TEXT: Habitat attuale: Giardino elettrico
 
 RESOURCE ID: gofest2022_live_habitat_frozen_lake
-TEXT: Habitat attuale: lago ghiacciato
+TEXT: Habitat attuale: Lago ghiacciato
 
 RESOURCE ID: gofest2022_live_habitat_living_meadow
-TEXT: Habitat attuale: prato pieno di vita
+TEXT: Habitat attuale: Prateria animata
 
 RESOURCE ID: gofest2022_live_habitat_molten_rocks
-TEXT: Habitat attuale: rocce magmatiche
+TEXT: Habitat attuale: Rocce magmatiche
 
 RESOURCE ID: gofest2022_live_habitat_the_oasis
-TEXT: Habitat attuale: oasi
+TEXT: Habitat attuale: Oasi
 
 RESOURCE ID: gofest2022_live_habitat_windy_coast
-TEXT: Habitat attuale: costa ventosa
+TEXT: Habitat attuale: Costa ventosa
 
 RESOURCE ID: gofest2022_live_quest_photo_athletic_park
-TEXT: Fai una foto a un tuo Hitmontop nell’habitat parco sportivo
+TEXT: Fai una foto a un tuo Hitmontop nell’habitat Parco sportivo
 
 RESOURCE ID: gofest2022_live_quest_photo_cloud_sanctuary
-TEXT: Fai una foto a un tuo Swablu nell’habitat santuario delle nuvole
+TEXT: Fai una foto a un tuo Swablu nell’habitat Santuario delle nuvole
 
 RESOURCE ID: gofest2022_live_quest_photo_dreamy_mindscape
-TEXT: Fai una foto a un tuo Abra nell’habitat visione sognante
+TEXT: Fai una foto a un tuo Abra nell’habitat Visione sognante
 
 RESOURCE ID: gofest2022_live_quest_photo_electric_garden
-TEXT: Fai una foto a un tuo Lileep nell’habitat giardino elettrico
+TEXT: Fai una foto a un tuo Lileep nell’habitat Giardino elettrico
 
 RESOURCE ID: gofest2022_live_quest_photo_frozen_lake
-TEXT: Fai una foto a un tuo Darumaka nell’habitat lago ghiacciato
+TEXT: Fai una foto a un tuo Darumaka nell’habitat Lago ghiacciato
 
 RESOURCE ID: gofest2022_live_quest_photo_living_meadow
-TEXT: Fai una foto a un tuo Cherrim nell’habitat prato pieno di vita
+TEXT: Fai una foto a un tuo Cherrim nell’habitat Prateria animata
 
 RESOURCE ID: gofest2022_live_quest_photo_molten_rocks
-TEXT: Fai una foto a un tuo Darumaka nell’habitat rocce magmatiche
+TEXT: Fai una foto a un tuo Darumaka nell’habitat Rocce magmatiche
 
 RESOURCE ID: gofest2022_live_quest_photo_oasis
-TEXT: Fai una foto a un tuo Dwebble nell’habitat oasi
+TEXT: Fai una foto a un tuo Dwebble nell’habitat Oasi
 
 RESOURCE ID: gofest2022_live_quest_photo_windy_coast
-TEXT: Fai una foto a un tuo Rufflet nell’habitat costa ventosa
+TEXT: Fai una foto a un tuo Rufflet nell’habitat Costa ventosa
 
 RESOURCE ID: gofest2022_live_sapporo
 TEXT: Festival di Pokémon GO: Sapporo
@@ -2321,16 +2369,16 @@ RESOURCE ID: gofest2022_live_sapporo_city
 TEXT: Festival di Pokémon GO: Sapporo (esperienza in città)
 
 RESOURCE ID: gofest2022_live_sapporo_habitat_athletic_park
-TEXT: Festival di Pokémon GO: Sapporo (parco sportivo)
+TEXT: Festival di Pokémon GO: Sapporo (Parco sportivo)
 
 RESOURCE ID: gofest2022_live_sapporo_habitat_dreamy_mindscape
-TEXT: Festival di Pokémon GO: Sapporo (visione sognante)
+TEXT: Festival di Pokémon GO: Sapporo (Visione sognante)
 
 RESOURCE ID: gofest2022_live_sapporo_habitat_frozen_lake
-TEXT: Festival di Pokémon GO: Sapporo (lago ghiacciato)
+TEXT: Festival di Pokémon GO: Sapporo (Lago ghiacciato)
 
 RESOURCE ID: gofest2022_live_sapporo_habitat_living_meadow
-TEXT: Festival di Pokémon GO: Sapporo (prato pieno di vita)
+TEXT: Festival di Pokémon GO: Sapporo (Prateria animata)
 
 RESOURCE ID: gofest2022_live_sapporo_park
 TEXT: Festival di Pokémon GO: Sapporo (esperienza al parco)
@@ -2342,16 +2390,16 @@ RESOURCE ID: gofest2022_live_seattle_city
 TEXT: Festival di Pokémon GO: Seattle (esperienza in città)
 
 RESOURCE ID: gofest2022_live_seattle_habitat_cloud_sanctuary
-TEXT: Festival di Pokémon GO: Seattle (santuario delle nuvole)
+TEXT: Festival di Pokémon GO: Seattle (Santuario delle nuvole)
 
 RESOURCE ID: gofest2022_live_seattle_habitat_dreamy_mindscape
-TEXT: Festival di Pokémon GO: Seattle (visione sognante)
+TEXT: Festival di Pokémon GO: Seattle (Visione sognante)
 
 RESOURCE ID: gofest2022_live_seattle_habitat_electric_garden
-TEXT: Festival di Pokémon GO: Seattle (giardino elettrico)
+TEXT: Festival di Pokémon GO: Seattle (Giardino elettrico)
 
 RESOURCE ID: gofest2022_live_seattle_habitat_the_oasis
-TEXT: Festival di Pokémon GO: Seattle (oasi)
+TEXT: Festival di Pokémon GO: Seattle (Oasi)
 
 RESOURCE ID: gofest2022_live_seattle_park
 TEXT: Festival di Pokémon GO: Seattle (esperienza al parco)
@@ -2820,6 +2868,9 @@ TEXT: L’incenso dura otto ore
 RESOURCE ID: incense_spawns_custom
 TEXT: I Pokémon in primo piano vengono attratti dall’aroma
 
+RESOURCE ID: incense_use_error2
+TEXT: Puoi usare solo un tipo di aroma alla volta.
+
 RESOURCE ID: incenseordinary.1_description
 TEXT: Un intenso profumo che attrae i Pokémon selvatici per 60 minuti. Gli aromi che attraggono specifici Pokémon sono di colore diverso.
 
@@ -2948,6 +2999,12 @@ TEXT: Festival di Pokémon GO 2022
 
 RESOURCE ID: item_golden_pinap_berry_desc
 TEXT: Dai da mangiare questa bacca a un Pokémon per ottenere più caramelle quando lo catturi e renderlo più facile da catturare.
+
+RESOURCE ID: item_incense_daily_adventure_desc
+TEXT: Un aroma speciale con una misteriosa fragranza che attira Pokémon selvatici mentre ti muovi per {0} minuti. Puoi riceverne gratuitamente uno al giorno.
+
+RESOURCE ID: item_incense_daily_adventure_name
+TEXT: aroma avventura giornaliera
 
 RESOURCE ID: item_incense_ordinary_desc
 TEXT: Un intenso profumo che attrae i Pokémon selvatici per 60 minuti. Gli aromi che attraggono specifici Pokémon sono di colore diverso.
@@ -3100,8 +3157,8 @@ RESOURCE ID: mega_level_unlock_title
 TEXT: Ora puoi aumentare il megalivello di questo Pokémon!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-22T06:44:42.578407
-at SHA 5c3891f4c124847645095966a56a1ad53db933f9
+TEXT: Built at 2022-07-25T22:25:00.001859
+at SHA 885922991854fe0b4f16effd849608d0f75e75ca
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51, 0.243.0-SHA-9e2cbb7b, 0.243.1-SHA-d28fec69
 
 RESOURCE ID: mobile_games_catch_sr
@@ -4795,6 +4852,15 @@ TEXT: Su che cosa concentrerai i tuoi sforzi, Allenatore di Pokémon?
 RESOURCE ID: quest_special_dialogue_bidoof_branch_quest_2a_2
 TEXT: Abbiamo molto da imparare dalla sua imperturbabilità. Risveglia il Bidoof che è in te e anche tu potrai avere dei nervi d’acciaio!
 
+RESOURCE ID: quest_special_dialogue_dailyincense_0_0
+TEXT: Ciao, %PLAYERNAME%! Ho appena messo a punto questo nuovo tipo di aroma...L’aroma avventura giornaliera.
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_1
+TEXT: Un aroma avventura giornaliera dura per 15 minuti e rimane attivo solo mentre ti muovi. Ma la cosa più importante è che è in grado di attirare quasi qualunque Pokémon tu abbia già incontrato, inclusi quelli leggendari!
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_2
+TEXT: Te ne darò uno ogni giorno, perciò non avere paura di lanciarti in qualche avventura! Già che ne stiamo parlando, perché non cominci subito? Vai a catturare quanti più Pokémon puoi!
+
 RESOURCE ID: quest_special_dialogue_dec20cd_2_5
 TEXT: Se i membri del Team GO Rocket non fossero così dediti a compiere furfanterie, con la loro energia e le loro risorse potrebbero essere degli ottimi alleati.
 
@@ -5830,6 +5896,9 @@ TEXT: Hai completato {0} missioni di ricerca sul campo
 
 RESOURCE ID: score_field_research_singular
 TEXT: Hai completato una missione di ricerca sul campo
+
+RESOURCE ID: see_summary_button
+TEXT: SEE SUMMARY
 
 RESOURCE ID: set_privacy_settings_error_message
 TEXT: Impossibile salvare le impostazioni sulla privacy.
@@ -7039,6 +7108,9 @@ TEXT: Sblocco dell’ultrabonus: 1ª parte
 
 RESOURCE ID: ultra_unlock_event_name_2
 TEXT: Sblocco dell’ultrabonus: 2ª parte
+
+RESOURCE ID: use_now_button
+TEXT: USA ORA
 
 RESOURCE ID: uu_hisuian_discoveries_title_name
 TEXT: Sblocco dell’ultrabonus: scoperte di Hisui

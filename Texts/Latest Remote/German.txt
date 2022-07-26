@@ -73,6 +73,21 @@ TEXT: Denke daran, dass ihr Freunde in Pokémon GO sein müsst, um mehr Empfehlu
 RESOURCE ID: add_referrer_success_maybe_friend_later
 TEXT: Wenn ihr nicht bereits Freunde in Pokémon GO seid, denke daran das nachzuholen, um mehr Empfehlungs-Belohnungen zu erhalten.
 
+RESOURCE ID: adventure_recap_subtitle
+TEXT: Heutiges Abenteuer
+
+RESOURCE ID: adventure_recap_text_0
+TEXT: Du bist {0} km gelaufen!
+
+RESOURCE ID: adventure_recap_text_1
+TEXT: Du hast {0} Pokémon gefangen!
+
+RESOURCE ID: adventure_recap_text_2
+TEXT: Du hast {0} PokéStops besucht!
+
+RESOURCE ID: adventure_recap_title
+TEXT: Abenteuerbericht
+
 RESOURCE ID: adventure_sync_needs_background_location_body
 TEXT: Abenteuer-Sync erfordert, dass die Hintergrundortung eingeschaltet ist, damit du Bonbons und Belohnungen verdienen und Pokémon-Eier ausbrüten kannst, selbst wenn du Pokémon GO nicht benutzt.
 
@@ -1560,8 +1575,14 @@ TEXT: {0} in Campfire has invited you to join the fun!
 RESOURCE ID: candela_map_time_warning|2
 TEXT: Lass es uns am Morgen nochmal versuchen. Ich habe das Gefühl, dass Team GO Rocket dann etwas vorhat. Ich frage in der Zwischenzeit Blanche, ob sie irgendetwas weiß.
 
+RESOURCE ID: cannot_use_mystery_box_and_incense2
+TEXT: Nur jeweils eine Art von Rauch oder Wunderbox kann gleichzeitig aktiv sein.
+
 RESOURCE ID: catch_box
 TEXT: Fangbox
+
+RESOURCE ID: catch_recap_text_0
+TEXT: Du hast {0} Pokémon gefangen.
 
 RESOURCE ID: catch_rewards_double
 TEXT: 2× Fang-Sternenstaub, 2× Fang-Bonbons und 2× Fang-EP
@@ -1640,8 +1661,35 @@ TEXT: Ein Mysteriöser Rauch: Teil 2 (1/2)
 RESOURCE ID: dai_part2_title_page2
 TEXT: Ein Mysteriöser Rauch Teil 2 (2/2)
 
+RESOURCE ID: daily_adventure_incense_modal_message
+TEXT: Besonderer Rauch mit geheimnisvollem Duft, der wilde Pokémon zu dir lockt, während du dich für {0} Minuten bewegst. Du kannst täglich einen kostenlosen Abenteuerrauch erhalten.
+Als Zusatzbonus bekommst du {1} Pokébälle, wenn du einen Täglichen Abenteuerrauch verwendest, falls du zu diesem Zeitpunkt weniger als {2} Pokébälle in deinem Item-Beutel hast. Du brauchst Platz in deinem Item-Beutel, um diesen Bonus zu aktivieren.
+
 RESOURCE ID: daily_encounter_tutorial_dialogue_1
 TEXT: Hallo, {0}! Vor Kurzem habe ich an einer speziellen Art von Rauch gearbeitet und habe es mir erlaubt, dich damit auszurüsten. Jetzt wirst du sicher jeden Tag ein Pokémon finden, das extra für dich erscheint!
+
+RESOURCE ID: daily_incense_log_use
+TEXT: Täglichen Abenteuerrauch verwendet!
+
+RESOURCE ID: daily_incense_recap_header2
+TEXT: {0} Pokémon
+
+RESOURCE ID: daily_incense_recap_header3
+TEXT: Gefangen:
+
+RESOURCE ID: daily_incense_recap_header3_plural
+TEXT: gefangen, während du Rauch auf diesem
+{0} m langen Abenteuer benutzt hast.
+
+RESOURCE ID: daily_incense_recap_header3_singular
+TEXT: gefangen, während du Rauch auf diesem
+{0} m langen Abenteuer benutzt hast.
+
+RESOURCE ID: daily_incense_recap_screen_error
+TEXT: Fehler beim Abrufen des Täglicher-Abenteuerrauch-Berichts
+
+RESOURCE ID: daily_incense_recap_share_button
+TEXT: TEILEN
 
 RESOURCE ID: daily_research_completed
 TEXT: Komm morgen zurück, um mehr PokéMünzen zu verdienen.
@@ -3668,6 +3716,9 @@ TEXT: Hoopas Ankunft: Sammler-Herausforderung
 RESOURCE ID: incense_duration_8_hr
 TEXT: 8-stündige Rauch-Wirkungszeit
 
+RESOURCE ID: incense_use_error2
+TEXT: Du kannst nur jeweils eine Art von Rauch verwenden.
+
 RESOURCE ID: incenseordinary.25_description
 TEXT: 25 × Rauch. Jeder Rauch lockt 60 Minuten lang wilde Pokémon zu dir.
 
@@ -3747,6 +3798,12 @@ TEXT: Ein Ticket zur Teilnahme am Pokémon GO Fest am 4. und 5. Juni 2022, jewei
 
 RESOURCE ID: item_global_event_ticket_to_gift_name
 TEXT: Pokémon GO Fest 2022
+
+RESOURCE ID: item_incense_daily_adventure_desc
+TEXT: Besonderer Rauch mit geheimnisvollem Duft, der wilde Pokémon zu dir lockt, während du dich für {0} Minuten bewegst. Du kannst täglich einen kostenlosen Abenteuerrauch erhalten.
+
+RESOURCE ID: item_incense_daily_adventure_name
+TEXT: Täglicher Abenteuerrauch
 
 RESOURCE ID: item_incubator_basic_desc
 TEXT: Eine Maschine, die beim Herumlaufen ein Ei ausbrütet, bis es schlüpft. Nach 3 Einsätzen geht sie kaputt.
@@ -3891,8 +3948,8 @@ RESOURCE ID: mega_type_attacks_boosted_msg
 TEXT: Attacken vom Typ {0} werden jetzt verstärkt!
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-22T06:44:42.578407
-at SHA 5c3891f4c124847645095966a56a1ad53db933f9
+TEXT: Built at 2022-07-25T22:25:00.001859
+at SHA 885922991854fe0b4f16effd849608d0f75e75ca
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51, 0.243.0-SHA-9e2cbb7b, 0.243.1-SHA-d28fec69
 
 RESOURCE ID: move_name_0367
@@ -4699,6 +4756,15 @@ TEXT: Danke %PLAYERNAME%, dass du mir bei meiner Forschung geholfen hast. Dafür
 
 RESOURCE ID: quest_special_dialogue_battle_weekend_1_0
 TEXT: Worauf möchtest du deine Bemühungen konzentrieren, Pokémon-Trainer?
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_0
+TEXT: Hallo, %PLAYERNAME%! Ich habe gerade eine neue Art von Rauch entwickelt – Täglicher Abenteuerrauch.
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_1
+TEXT: Ein Täglicher Abenteuerrauch hält 15 Minuten an und bleibt nur aktiv, solange du dich bewegst. Aber noch wichtiger ist, dass dieser Rauch fast alle Pokémon anlocken kann, denen du schon einmal begegnet bist – sogar Legendäre Pokémon!
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_2
+TEXT: Ein Täglicher Abenteuerrauch pro Tag geht auf meine Kosten, damit du dich auf ein paar Abenteuer begeben kannst! Warum legst du nicht gleich los? Versuche, so viele Pokémon wie möglich zu fangen!
 
 RESOURCE ID: quest_special_dialogue_deino_0_0
 TEXT: Es scheint, dass ihre Aggression vor allem aus der Not heraus entsteht ...
@@ -5534,6 +5600,9 @@ TEXT: 1 Feldforschungsaufgabe abgeschlossen
 
 RESOURCE ID: screen_title_pokemon_inventory_party
 TEXT: TEAMS
+
+RESOURCE ID: see_summary_button
+TEXT: SEE SUMMARY
 
 RESOURCE ID: server_lockout
 TEXT: Pokémon GO ist derzeit wegen geplanter Wartungsarbeiten nicht verfügbar. Bitte versuche es später noch einmal!
@@ -6539,43 +6608,43 @@ RESOURCE ID: sticker_summer_6.5_description
 TEXT:  
 
 RESOURCE ID: stickers_v2_characters_category
-TEXT: Characters
+TEXT: Charaktere
 
 RESOURCE ID: stickers_v2_collect_from
-TEXT: You can get these stickers from Gifts, the shop, or PokéStops.
+TEXT: Du kannst diese Sticker von Geschenken, dem Shop oder PokéStops erhalten.
 
 RESOURCE ID: stickers_v2_ecently_used
-TEXT: Recently Used
+TEXT: Vor Kurzem benutzt
 
 RESOURCE ID: stickers_v2_featured_category
-TEXT: Featured
+TEXT: Aktuell
 
 RESOURCE ID: stickers_v2_messages_category
-TEXT: Messages
+TEXT: Nachrichten
 
 RESOURCE ID: stickers_v2_misc_category
-TEXT: Misc
+TEXT: Andere
 
 RESOURCE ID: stickers_v2_no_recent
-TEXT: Add a sticker to a Gift to start seeing your recently used stickers.
+TEXT: Füge einem Geschenk einen Sticker hinzu, um Sticker unter „Vor Kurzem benutzt“ zu sehen.
 
 RESOURCE ID: stickers_v2_no_sticker_of_type
-TEXT: You have no stickers of this type.
+TEXT: Du hast keine Sticker dieser Art.
 
 RESOURCE ID: stickers_v2_no_stickers
-TEXT: You do not have any stickers. You can get them from Gifts, the shop, or PokéStops.
+TEXT: Du hast keine Sticker. Du kannst sie von Geschenken, dem Shop oder PokéStops erhalten.
 
 RESOURCE ID: stickers_v2_no_stickers_of_category
-TEXT: You have no stickers from this category.
+TEXT: Du hast keine Sticker.dieser Kategorie.
 
 RESOURCE ID: stickers_v2_pokemon_category
 TEXT: Pokémon
 
 RESOURCE ID: stickers_v2_recent_category
-TEXT: Recent
+TEXT: Neu
 
 RESOURCE ID: stickers_v2_recently_collected
-TEXT: Recently Received
+TEXT: Vor Kurzem erhalten
 
 RESOURCE ID: story_quest_rockethq11
 TEXT: Feldnotizen: Team GO Rocket
@@ -6705,6 +6774,9 @@ TEXT: Ultrabestien können keinen Arenen zugewiesen werden.
 
 RESOURCE ID: upmgmt_settings_upload_all
 TEXT: ALLE HOCHLADEN ({0} MB)
+
+RESOURCE ID: use_now_button
+TEXT: JETZT VERWENDEN
 
 RESOURCE ID: uu_hisuian_discoveries_title_name
 TEXT: Hyperbonus: Hisui-Entdeckungen

@@ -10,6 +10,21 @@ TEXT: いつでも冒険モードで、アプリを起動していないとき�
 RESOURCE ID: activity_summary_widget_title
 TEXT: いつでも冒険モード：アクティビティサマリー
 
+RESOURCE ID: adventure_recap_subtitle
+TEXT: Today’s Adventure
+
+RESOURCE ID: adventure_recap_text_0
+TEXT: You traveled {0} km!
+
+RESOURCE ID: adventure_recap_text_1
+TEXT: You caught {0} Pokémon!
+
+RESOURCE ID: adventure_recap_text_2
+TEXT: {0}個回した！
+
+RESOURCE ID: adventure_recap_title
+TEXT: おさんぽサマリー
+
 RESOURCE ID: adventure_week_explore_timed_research
 TEXT: アドベンチャーウィークチャレンジ
 
@@ -388,13 +403,13 @@ RESOURCE ID: badge_gofest_2022_sapporo_day_01_city_afternoon
 TEXT: 札幌、2022年8月5日午後
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_01_city_afternoon_title
-TEXT: Pokémon GO Fest 公園体験
+TEXT: Pokémon GO Fest 都市体験
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_01_city_morning
 TEXT: 札幌、2022年8月5日午前
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_01_city_morning_title
-TEXT: GO Fest 都市体験
+TEXT: Pokémon GO Fest 都市体験
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_01_park_afternoon
 TEXT: 札幌、2022年8月5日午後
@@ -412,7 +427,7 @@ RESOURCE ID: badge_gofest_2022_sapporo_day_02_city_afternoon
 TEXT: 札幌、2022年8月6日午後
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_02_city_afternoon_title
-TEXT: Pokémon GO Fest 公園体験
+TEXT: Pokémon GO Fest 都市体験
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_02_city_morning
 TEXT: 札幌、2022年8月6日午前
@@ -430,13 +445,13 @@ RESOURCE ID: badge_gofest_2022_sapporo_day_02_park_morning
 TEXT: 札幌、2022年8月6日午前
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_02_park_morning_title
-TEXT: GO Fest 公園体験
+TEXT: Pokémon GO Fest 公園体験
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_03_city_afternoon
 TEXT: 札幌、2022年8月7日午後
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_03_city_afternoon_title
-TEXT: Pokémon GO Fest 公園体験
+TEXT: Pokémon GO Fest 都市体験
 
 RESOURCE ID: badge_gofest_2022_sapporo_day_03_city_morning
 TEXT: 札幌、2022年8月7日午前
@@ -826,8 +841,14 @@ TEXT: Campfire：{0}さんから招待されました！
 RESOURCE ID: candela_incident_greeting
 TEXT: 何が起ころうと、熱く燃える炎が消えることはない！チームヴァーラーの行く道には勝利が待っているのみ！
 
+RESOURCE ID: cannot_use_mystery_box_and_incense2
+TEXT: おこうとふしぎなはこは1度に1種類しか使えません
+
 RESOURCE ID: catch_box
 TEXT: キャッチボックス
+
+RESOURCE ID: catch_recap_text_0
+TEXT: ゲットしたのは{0}匹です！
 
 RESOURCE ID: catch_rewards_double
 TEXT: 2x 捕まえてもらえるほしのすな・アメ・XP
@@ -869,6 +890,34 @@ TEXT: 研究：おさんぽおこうパート2 (1/2)
 
 RESOURCE ID: dai_part2_title_page2
 TEXT: 研究：おさんぽおこうパート2 (2/2)
+
+RESOURCE ID: daily_adventure_incense_modal_message
+TEXT: 毎日1個もらえる特別なおこう。動いているときに{0}分香りを出し野生のポケモンを呼び寄せる。
+
+追加ボーナス：モンスターボール{1}個。（道具バッグのボールが{2}個以下の場合。バッグに空きがないと受け取れません。）
+
+RESOURCE ID: daily_incense_log_use
+TEXT: おさんぽおこうを使った！
+
+RESOURCE ID: daily_incense_recap_header2
+TEXT: ポケモン{0}匹
+
+RESOURCE ID: daily_incense_recap_header3
+TEXT: 捕まえた数:
+
+RESOURCE ID: daily_incense_recap_header3_plural
+TEXT: 捕まえました！
+（おさんぽ距離{0}m）
+
+RESOURCE ID: daily_incense_recap_header3_singular
+TEXT: 捕まえました！
+（おさんぽ距離{0}m）
+
+RESOURCE ID: daily_incense_recap_screen_error
+TEXT: サマリー取得エラー
+
+RESOURCE ID: daily_incense_recap_share_button
+TEXT: 共有する
 
 RESOURCE ID: delete_pokemon_tag_confirmation
 TEXT: このタグをポケモンから外します。ポケモンは研究所に送られません。
@@ -2517,6 +2566,9 @@ TEXT: Pokémon HOME のボックスがいっぱいです！
 RESOURCE ID: incense_duration_8_hr
 TEXT: おこう持続8時間
 
+RESOURCE ID: incense_use_error2
+TEXT: You can use only one type of Incense at a time.
+
 RESOURCE ID: increased_adventure_sync_rewards
 TEXT: いつでも冒険モードの来週リワード増
 
@@ -2569,6 +2621,12 @@ TEXT: 世界中のどこにいても現地時間2022年6月4日と5日の10:00AM
 
 RESOURCE ID: item_global_event_ticket_to_gift_name
 TEXT: Pokémon GO Fest 2022
+
+RESOURCE ID: item_incense_daily_adventure_desc
+TEXT: Special Incense with a mysterious fragrance that attracts wild Pokémon to your location as you move for {0} minutes. You can receive one each day at no cost.
+
+RESOURCE ID: item_incense_daily_adventure_name
+TEXT: おさんぽおこう
 
 RESOURCE ID: japanese
 TEXT: 日本語
@@ -2673,8 +2731,8 @@ RESOURCE ID: mega_evo_bonus_buff_desc_singular_3
 TEXT: {0}がメガシンカしているあいだは、{1}タイプのポケモンを捕まえてもらえるアメ・XPとアメXL確率が増えます
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-22T06:44:42.578407
-at SHA 5c3891f4c124847645095966a56a1ad53db933f9
+TEXT: Built at 2022-07-25T22:25:00.001859
+at SHA 885922991854fe0b4f16effd849608d0f75e75ca
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51, 0.243.0-SHA-9e2cbb7b, 0.243.1-SHA-d28fec69
 
 RESOURCE ID: minicollect_medal_progress_description
@@ -3204,6 +3262,15 @@ TEXT: 協力に感謝する、%PLAYERNAME%！きみの協力を得られて「�
 
 RESOURCE ID: quest_special_dialogue_battle_weekend_1_0
 TEXT: ポケモントレーナー、どちらを選ぶ？
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_0
+TEXT: やぁ、%PLAYERNAME%！新しくつくったおこうがある。おさんぽおこうだ。
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_1
+TEXT: One Daily Adventure Incense lasts for 15 minutes and stays active only while you’re moving. Most importantly, though, this Incense can attract almost any Pokémon you’ve encountered before—even Legendary Pokémon!
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_2
+TEXT: 毎日1個あげるから冒険に役立ててほしい。早速今日から使ってみてはどうだろう？ポケモンをどんどん捕まえてくれ！
 
 RESOURCE ID: quest_special_dialogue_deino_0_0
 TEXT: ．．．きみ、興味深いポケモンだね。どこを見てるの？光は見えてるのかな？
@@ -3830,6 +3897,9 @@ TEXT: フィールドリサーチタスク{0}個を完了
 
 RESOURCE ID: score_field_research_singular
 TEXT: フィールドリサーチタスク1個を完了
+
+RESOURCE ID: see_summary_button
+TEXT: サマリーを見る
 
 RESOURCE ID: settings_allow_paid_gifts
 TEXT: フレンドに有料のチケットなどを贈ってもらう
@@ -4835,6 +4905,9 @@ TEXT: グローバルチャレンジ
 RESOURCE ID: timed_challenge_bonus_modal_title_regional_backup
 TEXT: リージョナルチャレンジ
 
+RESOURCE ID: timed_challenge_complete
+TEXT: チャレンジ完了でボーナス発生！
+
 RESOURCE ID: timed_challenge_global_type
 TEXT: グローバルチャレンジ
 
@@ -4878,6 +4951,9 @@ TEXT: アップロード待機中の投稿はありません
 
 RESOURCE ID: upmgmt_settings_msg_none
 TEXT: アップロード待機中の投稿はありません
+
+RESOURCE ID: use_now_button
+TEXT: 今すぐ使う
 
 RESOURCE ID: uu_hisuian_discoveries_title_name
 TEXT: ウルトラアンロック：ヒスイイベント

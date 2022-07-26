@@ -7,6 +7,21 @@ TEXT: Usa Sincroaventura para seguir el progreso de la incubación de los Huevos
 RESOURCE ID: activity_summary_widget_title
 TEXT: Sincroaventura: Resumen
 
+RESOURCE ID: adventure_recap_subtitle
+TEXT: Aventura de hoy
+
+RESOURCE ID: adventure_recap_text_0
+TEXT: ¡Has caminado {0} km!
+
+RESOURCE ID: adventure_recap_text_1
+TEXT: ¡Has capturado {0} Pokémon!
+
+RESOURCE ID: adventure_recap_text_2
+TEXT: ¡Has visitado {0} Poképaradas!
+
+RESOURCE ID: adventure_recap_title
+TEXT: Resumen de aventura
+
 RESOURCE ID: adventure_week_explore_timed_research
 TEXT: Semana de Aventuras: Desafío de aventura
 
@@ -853,8 +868,14 @@ TEXT: Bonus
 RESOURCE ID: campfire_invite_notification
 TEXT: {0} in Campfire has invited you to join the fun!
 
+RESOURCE ID: cannot_use_mystery_box_and_incense2
+TEXT: No puedes usar la Caja Misteriosa y un Incienso al mismo tiempo.
+
 RESOURCE ID: catch_box
 TEXT: Pack Captura
+
+RESOURCE ID: catch_recap_text_0
+TEXT: Has capturado {0} Pokémon
 
 RESOURCE ID: catch_rewards_double
 TEXT: Doble de Polvos Estelares por captura, doble de Caramelos por captura y doble de PX por captura
@@ -896,6 +917,33 @@ TEXT: Un Incienso misterioso: Parte 2 (1/2)
 
 RESOURCE ID: dai_part2_title_page2
 TEXT: Un Incienso misterioso: Parte 2 (2/2)
+
+RESOURCE ID: daily_adventure_incense_modal_message
+TEXT: Un Incienso especial con una fragancia misteriosa que atrae Pokémon salvajes a tu ubicación durante {0} minutos mientras te mueves. Recibe uno al día sin coste.
+Como bonus adicional, recibirás {1} Poké Balls cuando uses un Incienso de aventura diario si en este momento tienes menos de {2} Poké Balls en tu Bolsa. Debes tener espacio en tu Bolsa para que se active este bonus.
+
+RESOURCE ID: daily_incense_log_use
+TEXT: ¡Has usado un Incienso de aventura diario!
+
+RESOURCE ID: daily_incense_recap_header2
+TEXT: {0} Pokémon
+
+RESOURCE ID: daily_incense_recap_header3
+TEXT: Atrapados:
+
+RESOURCE ID: daily_incense_recap_header3_plural
+TEXT: capturados mientras usabas Incienso
+en esta aventura de {0} m.
+
+RESOURCE ID: daily_incense_recap_header3_singular
+TEXT: capturados mientras usabas Incienso
+en esta aventura de {0} m.
+
+RESOURCE ID: daily_incense_recap_screen_error
+TEXT: Error al recuperar el resumen del Incienso de aventura diario
+
+RESOURCE ID: daily_incense_recap_share_button
+TEXT: COMPARTIR
 
 RESOURCE ID: delete_pokemon_tag_confirmation
 TEXT: Esta etiqueta será eliminada de los Pokémon a los que ha sido asignada. Los Pokémon no serán transferidos.
@@ -1102,7 +1150,7 @@ RESOURCE ID: gofest2022_berlin_2_4
 TEXT: Una pena. Pero sigamos adelante... Has mencionado que Willow y tú andabais detrás del Pokémon Shaymin antes de que el profesor desapareciera, ¿correcto?
 
 RESOURCE ID: gofest2022_berlin_2_5
-TEXT: Hace poco, escuché a otro Entrenador Pokémon afirmar que "al olisquear el aroma de una flor extraña, la luz rodea el pequeño cuerpo de Shaymin y se transforma". 
+TEXT: Hace poco, escuché a otra persona que entrena Pokémon afirmar que "al olisquear el aroma de una flor extraña, la luz rodea el pequeño cuerpo de Shaymin y se transforma". 
 
 RESOURCE ID: gofest2022_berlin_2_6
 TEXT: Una imagen radiante. Me pregunto si esta transformación está relacionada con las evoluciones o si es algo completamente diferente.
@@ -1777,7 +1825,7 @@ RESOURCE ID: gofest2022_seattle_park_4_1
 TEXT: Has mencionado que Willow y tú andabais detrás del Pokémon Shaymin antes de que el Profesor desapareciera, ¿correcto?
 
 RESOURCE ID: gofest2022_seattle_park_4_2
-TEXT: Hace poco, escuché a otro Entrenador Pokémon afirmar que "al olisquear el aroma de una flor extraña, la luz rodea el pequeño cuerpo de Shaymin y se transforma".
+TEXT: Hace poco, escuché a otra persona que entrena Pokémon afirmar que "al olisquear el aroma de una flor extraña, la luz rodea el pequeño cuerpo de Shaymin y se transforma".
 
 RESOURCE ID: gofest2022_seattle_park_4_3
 TEXT: Una imagen radiante.
@@ -2153,6 +2201,9 @@ TEXT: Descubriendo Hisui
 RESOURCE ID: incense_duration_8_hr
 TEXT: El Incienso dura 8 horas
 
+RESOURCE ID: incense_use_error2
+TEXT: Solo puedes usar un tipo de Incienso a la vez.
+
 RESOURCE ID: increased_adventure_sync_rewards
 TEXT: Aumento en las recompensas de Sincroaventura la semana que viene
 
@@ -2205,6 +2256,12 @@ TEXT: Una entrada para acceder al Festival de Pokémon GO el 4 y el 5 de junio d
 
 RESOURCE ID: item_global_event_ticket_to_gift_name
 TEXT: Festival de Pokémon GO 2022
+
+RESOURCE ID: item_incense_daily_adventure_desc
+TEXT: Un Incienso especial con una fragancia misteriosa que atrae Pokémon salvajes a tu ubicación durante {0} minutos mientras te mueves. Recibe uno al día sin coste.
+
+RESOURCE ID: item_incense_daily_adventure_name
+TEXT: Incienso de aventura diario
 
 RESOURCE ID: japanese
 TEXT: 日本語
@@ -2311,8 +2368,8 @@ TEXT: • Ya puedes hacer megaevolucionar a un Pokémon sin usar Megaenergía.
 Después de hacer megaevolucionar a un Pokémon, deberás esperar un tiempo antes de poder hacerlo megaevolucionar de nuevo sin utilizar Megaenergía. También podrás utilizar Megaenergía para hacer megaevolucionar a tu Pokémon antes de que se agote la espera.
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-07-22T06:44:42.578407
-at SHA 5c3891f4c124847645095966a56a1ad53db933f9
+TEXT: Built at 2022-07-25T22:25:00.001859
+at SHA 885922991854fe0b4f16effd849608d0f75e75ca
 Patch from: 0.239.2-SHA-9d26dbfd, 0.241.0-SHA-08ea08c3, 0.241.1-SHA-d56e7d51, 0.243.0-SHA-9e2cbb7b, 0.243.1-SHA-d28fec69
 
 RESOURCE ID: move_name_0367
@@ -2861,6 +2918,15 @@ TEXT: ¡Seguro que a tu compañero le va a encantar este delicioso Pokocho! A m�
 RESOURCE ID: quest_special_dialogue_battle_weekend_1_0
 TEXT: ¿En qué centrarás tus esfuerzos?
 
+RESOURCE ID: quest_special_dialogue_dailyincense_0_0
+TEXT: ¡Hola, %PLAYERNAME%! Acabo de desarrollar este nuevo tipo de Incienso: el Incienso de aventura diario.
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_1
+TEXT: Un Incienso de aventura diario dura 15 minutos y se mantiene activo mientras estés en movimiento. Pero, más importante aún, este Incienso puede atraer a casi cualquier Pokémon que te hayas encontrado antes, ¡incluso a los Pokémon legendarios!
+
+RESOURCE ID: quest_special_dialogue_dailyincense_0_2
+TEXT: Te daré un Incienso de aventura diario cada día, ¡así que no te cortes y sal a la aventura! De hecho, ¿por qué no empiezas uno ya mismo? ¡Intenta capturar tantos Pokémon como puedas!
+
 RESOURCE ID: quest_special_dialogue_deino_0_0
 TEXT: Parece que su agresividad nace de la necesidad...
 
@@ -2911,7 +2977,7 @@ RESOURCE ID: quest_special_dialogue_deino_2_4
 TEXT: Si me permites otra reflexión, estoy deseando observar la evolución de Deino. Sus cambios físicos pueden tener algo que ver con su comportamiento.
 
 RESOURCE ID: quest_special_dialogue_deino_3_0
-TEXT: Impresionante. Me has mostrado una maravilla más de este mundo, Entrenador Pokémon.
+TEXT: Impresionante. Me has mostrado una maravilla más de este mundo, persona que entrena Pokémon.
 
 RESOURCE ID: quest_special_dialogue_deino_3_1
 TEXT: No esperaba ver que Deino tuviera una nueva cabeza al evolucionar a Zweilous. Aunque no puedo descifrar si alguna de las dos cabezas puede ver.
@@ -2926,7 +2992,7 @@ RESOURCE ID: quest_special_dialogue_deino_3_4
 TEXT: Acabo de descubrir que Zweilous puede evolucionar a un Pokémon llamado Hydreigon. ¿Le saldrán más cabezas? ¿Cambiará la agresividad por la amabilidad?
 
 RESOURCE ID: quest_special_dialogue_deino_3_5
-TEXT: Gracias por acompañarme hoy en mi investigación, Entrenador Pokémon.
+TEXT: Gracias por acompañarme hoy en mi investigación, persona que entrena Pokémon.
 
 RESOURCE ID: quest_special_dialogue_deino_3_6
 TEXT: Asumí que los misterios de los Ultraumbrales y de los Ultraentes serían mi prioridad, pero los Pokémon de tu mundo esconden muchísimos secretos.
@@ -3204,7 +3270,7 @@ RESOURCE ID: quest_special_dialogue_rockethq11_5_7
 TEXT: En cualquier caso, gracias por permitirme observarte hoy. Ha sido un placer ayudar a tantos Pokémon.
 
 RESOURCE ID: quest_special_dialogue_rockethq11_5_8
-TEXT: Hasta de nuevo, Entrenador Pokémon.
+TEXT: Hasta de nuevo, persona que entrena Pokémon.
 
 RESOURCE ID: quest_special_dialogue_sandt_1_4
 TEXT: Cuando la humedad satura su piel, se dirigen a los volcanes y aprovechan las altas temperaturas del suelo para secarse.
@@ -3528,6 +3594,9 @@ TEXT: Tareas de investigación de campo completadas: {0}
 
 RESOURCE ID: score_field_research_singular
 TEXT: Tareas de investigación de campo completadas: 1
+
+RESOURCE ID: see_summary_button
+TEXT: SEE SUMMARY
 
 RESOURCE ID: settings_allow_paid_gifts
 TEXT: Permitir que tus amigos te envíen regalos pagados.
@@ -3926,7 +3995,7 @@ RESOURCE ID: sr_gofest2022_d2_basic_1_11
 TEXT: Gracias. Qué fortuna encontrar a alguien tan amable.
 
 RESOURCE ID: sr_gofest2022_d2_basic_1_12
-TEXT: Cuéntame más sobre tu mundo, Entrenador Pokémon.
+TEXT: Cuéntame más sobre tu mundo, persona que entrena Pokémon.
 
 RESOURCE ID: sr_gofest2022_d2_basic_1_13
 TEXT: Quizá juntos podamos descubrir el porqué de la materialización de los Ultraumbrales en tu mundo y mitigar las anomalías que produce.
@@ -3935,7 +4004,7 @@ RESOURCE ID: sr_gofest2022_d2_basic_1_2
 TEXT: Es un placer conocerte. Soy Rhi, de la Unidad Ultra GO.
 
 RESOURCE ID: sr_gofest2022_d2_basic_1_3
-TEXT: Eres... un Entrenador Pokémon, ¿cierto? Conozco el concepto.
+TEXT: Eres... Una persona que entrena Pokémon, ¿cierto? Conozco el concepto.
 
 RESOURCE ID: sr_gofest2022_d2_basic_1_4
 TEXT: Mis disculpas si parezco algo torpe. Eres el primer ser humano que me encuentro en este mundo.
@@ -3956,13 +4025,13 @@ RESOURCE ID: sr_gofest2022_d2_basic_1_9
 TEXT: Te ayudaré en tu búsqueda y, a cambio, te pediré un favor.
 
 RESOURCE ID: sr_gofest2022_d2_basic_2_0
-TEXT: ¿Cómo está eso, Entrenador Pokémon? Ya sé, suena a que está mal dicho.
+TEXT: ¿Cómo está eso, persona que entrena Pokémon? Ya sé, suena a que está mal dicho.
 
 RESOURCE ID: sr_gofest2022_d2_basic_2_1
 TEXT: Gracias por tu ayuda hasta ahora. ¿Deberíamos fijarnos otros objetivos?
 
 RESOURCE ID: sr_gofest2022_d2_basic_2_10
-TEXT: Hasta de nuevo, Entrenador Pokémon.
+TEXT: Hasta de nuevo, persona que entrena Pokémon.
 
 RESOURCE ID: sr_gofest2022_d2_basic_2_2
 TEXT: Primero, debemos encontrar la causa de la aparición de los Ultraumbrales en este mundo.
@@ -3977,10 +4046,10 @@ RESOURCE ID: sr_gofest2022_d2_basic_2_5
 TEXT: Pero antes de todo esto, aquí va una pregunta: ¿qué son esas altísimas e imponentes estructuras que he vislumbrado por la zona? Parecen ser azules, rojas o amarillas, y son bastante más grandes que lo que llamas "Poképaradas".
 
 RESOURCE ID: sr_gofest2022_d2_basic_2_6
-TEXT: Así que "Gimnasios", ¿eh? ¿Y los Entrenadores Pokémon se reúnen ahí para desafiar a Pokémon poderosos en "incursiones"? Fascinante.
+TEXT: Así que "Gimnasios", ¿eh? ¿Y las personas que entrenan Pokémon se reúnen ahí para desafiar a Pokémon poderosos en "incursiones"? Fascinante.
 
 RESOURCE ID: sr_gofest2022_d2_basic_2_7
-TEXT: Cuéntame todo lo que sepas sobre estas incursiones, Entrenador Pokémon.
+TEXT: Cuéntame todo lo que sepas sobre estas incursiones, persona que entrena Pokémon.
 
 RESOURCE ID: sr_gofest2022_d2_basic_2_8
 TEXT: Parecen servir como nexo entre las criaturas poderosas y los humanos.
@@ -3989,13 +4058,13 @@ RESOURCE ID: sr_gofest2022_d2_basic_2_9
 TEXT: Si te parece aceptable, me gustaría empezar centrando nuestros esfuerzos en esta materia.
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_0
-TEXT: Gracias por dar algo de luz al concepto de las incursiones, Entrenador Pokémon. Como muestra de mi agradecimiento, te compartiré todo lo que sé sobre los Ultraumbrales.
+TEXT: Gracias por dar algo de luz al concepto de las incursiones, persona que entrena Pokémon. Como muestra de mi agradecimiento, te compartiré todo lo que sé sobre los Ultraumbrales.
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_1
 TEXT: Los Ultraumbrales son portales al Ultraespacio.
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_10
-TEXT: Pero no te preocupes, Entrenador Pokémon.
+TEXT: Pero no te preocupes, persona que entrena Pokémon.
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_11
 TEXT: Si esa persona es el tal Profesor Willow que estás buscando, la Unidad Ultra GO no dudará en acudir en su ayuda. Esa es nuestra misión.
@@ -4004,7 +4073,7 @@ RESOURCE ID: sr_gofest2022_d2_basic_3_12
 TEXT: Mientras tanto, me quedaré aquí para prestar ayuda y arrojar luz sobre todas las verdades que pueda.
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_13
-TEXT: Sigamos colaborando, Entrenador Pokémon.
+TEXT: Sigamos colaborando, persona que entrena Pokémon.
 
 RESOURCE ID: sr_gofest2022_d2_basic_3_2
 TEXT: Estos pasadizos dimensionales permiten a unas criaturas, que conocemos como Ultraentes, alcanzar mundos a los que no pertenecen. Y son realmente poderosos.
@@ -4031,7 +4100,7 @@ RESOURCE ID: sr_gofest2022_d2_basic_3_9
 TEXT: Además, veo indicios de que alguien de este mundo ha sido absorbido por el Ultraumbral. Si es cierto, esa persona corre un peligro extremo.
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_4_0
-TEXT: ¿Qué te traes entre brazos, Entrenador Pokémon? No, no es así, ¿cierto? ¡Ay! Veo que has capturado muchos Pokémon de tipo Tierra. ¿Puedo preguntar la razón?
+TEXT: ¿Qué te traes entre brazos, persona que entrena Pokémon? No, no es así, ¿cierto? ¡Ay! Veo que has capturado muchos Pokémon de tipo Tierra. ¿Puedo preguntar la razón?
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_4_1
 TEXT: Son muy eficaces contra los Pokémon de tipo Roca y de tipo Veneno como Nihilego, ¿cierto? Ya veo. Tu nivel de preparación es impresionante.
@@ -4049,10 +4118,10 @@ RESOURCE ID: sr_gofest2022_d2_nihilego_4_5
 TEXT: Aún me queda mucho por descubrir acerca de este mundo, pero ha sido muy interesante hasta ahora.
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_4_6
-TEXT: Vamos, Entrenador Pokémon. Veamos qué podemos descubrir juntos.
+TEXT: Vamos, persona que entrena Pokémon. Veamos qué podemos descubrir juntos.
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_5_0
-TEXT: Una pregunta, Entrenador Pokémon: ¿quiénes son esas personas con una gran R roja en sus ropajes?
+TEXT: Una pregunta, persona que entrena Pokémon: ¿quiénes son esas personas con una gran R roja en sus ropajes?
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_5_1
 TEXT: A juzgar por sus hoscas expresiones, deduzco que no son tus amistades.
@@ -4067,7 +4136,7 @@ RESOURCE ID: sr_gofest2022_d2_nihilego_5_4
 TEXT: Si intentan meternos en problemas, ¿puedo confiar en ti?
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_6_0
-TEXT: ¡Tu habilidad en el combate es efervescente, Entrenador Pokémon! Confío en que tus aptitudes conseguirán contener a Nihilego sin problema.
+TEXT: ¡Tu habilidad en el combate es efervescente, persona que entrena Pokémon! Confío en que tus aptitudes conseguirán contener a Nihilego sin problema.
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_6_1
 TEXT: Ahora deberíamos prestar atención a los Gimnasios en los que ha estado apareciendo Nihilego, ¿no crees? Participar en incursiones también puede llegar a ser muy revelador.
@@ -4082,7 +4151,7 @@ RESOURCE ID: sr_gofest2022_d2_nihilego_6_4
 TEXT: … Me pregunto cómo es la región de Alola…
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_7_0
-TEXT: ¿Deberíamos parar entonces, Entrenador Pokémon?
+TEXT: ¿Deberíamos parar entonces, persona que entrena Pokémon?
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_7_1
 TEXT: Esta es la primera vez que estoy mano a mano con alguien sobre el terreno. Mis disculpas, aún no me he acostumbrado a los matices de esta dinámica.
@@ -4118,7 +4187,7 @@ RESOURCE ID: sr_gofest2022_d2_nihilego_8_2
 TEXT: ¿Crees que Nihilego se ha sentido desorientado y solo cuando se ha visto en un mundo desconocido? Siento una conexión en ese sentido...
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_8_3
-TEXT: Yo he tenido la fortuna de conocer a un humano muy amable nada más llegar. Espero que Nihilego también se sienta afortunado de haber encontrado un Entrenador Pokémon tan agradable y con tanta experiencia.
+TEXT: Yo he tenido la fortuna de conocer a un humano muy amable nada más llegar. Espero que Nihilego también se sienta afortunado de haber encontrado una persona que entrena Pokémon tan agradable y con tanta experiencia.
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_8_4
 TEXT: Al fin y al cabo, los Ultraentes son criaturas poderosas nada fáciles de controlar.
@@ -4142,7 +4211,7 @@ RESOURCE ID: sr_gofest2022_d2_nihilego_9_1
 TEXT: Si mi existencia estuviera en un mundo tan resplandeciente, me dedicaría por completo a protegerlo.
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_9_10
-TEXT: ¿Te importaría seguir colaborando conmigo, Entrenador Pokémon?
+TEXT: ¿Te importaría seguir colaborando conmigo, persona que entrena Pokémon?
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_9_11
 TEXT: Nuestros objetivos tienen puntos en común. Y juntos podremos llegar más lejos.
@@ -4160,7 +4229,7 @@ RESOURCE ID: sr_gofest2022_d2_nihilego_9_3
 TEXT: Y en cuanto a tu Willow... He encontrado esta bata manchada de zumo cerca del Ultraumbral. No hay manera de tener la certeza, pero es bastante probable que tu Willow esté en algún lugar del Ultraespacio.
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_9_4
-TEXT: Pero no debes preocuparte, Entrenador Pokémon. Trabajaré contigo para rescatarlo. Me has ayudado con muchos favores, así que es lo justo.
+TEXT: Pero no debes preocuparte, persona que entrena Pokémon. Trabajaré contigo para rescatarlo. Me has ayudado con muchos favores, así que es lo justo.
 
 RESOURCE ID: sr_gofest2022_d2_nihilego_9_5
 TEXT: Si esta persona es tal y como la has descrito, no tengo ninguna duda de que estará bien.
@@ -4584,6 +4653,9 @@ TEXT: Ultrabonus: Fin de Semana de Combates
 
 RESOURCE ID: ultra_beast_not_allowed_in_gyms
 TEXT: No se pueden dejar Ultraentes en los Gimnasios.
+
+RESOURCE ID: use_now_button
+TEXT: USAR AHORA
 
 RESOURCE ID: uu_hisuian_discoveries_title_name
 TEXT: Ultrabonus: Descubriendo Hisui
