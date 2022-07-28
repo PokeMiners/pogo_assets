@@ -1,16 +1,16 @@
 # Pokemon GO Assets
 
-Repository of all mined assets including sprites, sounds, and news items. This repo is organized based on category and is a combination of downloaded/remote assets and assets found inside the APK.
+Repository of all mined assets, including sprites, sounds, and news items. This repo is organized based on category and is a combination of downloaded/remote assets and assets found inside the APK.
 
 ## Folder Structure
 
 ### Images
 
-All 2D images of all assets that we mine are located here. Assets are organized based on category such as `Pokemon`, `Items`, `Backgrounds`, etc.
+All 2D images of all assets that we mine are located here. Assets are organized based on the category, such as `Pokemon`, `Items`, `Backgrounds`, etc.
 
 ### 3D Assets
 
-All 3D models and their textures (if present) of all assets that we mine are located here. Assets are organized based on category such as `Pokemon`, `Items`, `Clothing`, etc.
+All 3D models and their textures (if present) of all assets that we mine are located here. Assets are organized based on the category, such as `Pokemon`, `Items`, `Clothing`, etc.
 
 ### Sounds
 
@@ -36,7 +36,7 @@ Images that appear as a photobombed overlay during Snapshots will be in this fol
 
 ### Quest Branching
 
-Any images that appear during quest branches (the banners or the choose images themselves). Broken up into their quest/event folders.
+Any images that appear during quest branches (the banners or the chosen images themselves). They are broken up into their quest/event folders.
 
 ### Mega Portraits
 
@@ -44,8 +44,8 @@ The images the game uses to display a mega behind a Mega evolved Pokemon.
 
 ### Candy Color Data
 
-The json structure that the game uses to generate the in game candy colors.
+The JSON structure that the game uses to generate the in-game candy colors.
 
 ## Disclaimer
 
-This repo is for educational use only. All content found within this repo is the property of The Pokemon Company and Niantic. PokeMiners did not create or modify any images or sounds found within this repo and all copyright belongs to the respective companies. Please respect the original source material.
+This repo is for educational use only. All content within this repo is the property of The Pokemon Company and Niantic. PokeMiners did not create or modify any images or sounds found within this repo, and all copyright belongs to the respective companies. Please respect the original source material.
