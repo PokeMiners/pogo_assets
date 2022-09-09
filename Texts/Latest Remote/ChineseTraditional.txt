@@ -25,6 +25,24 @@ TEXT: 3. 開啟通知
 RESOURCE ID: allow_notifications_prompt_message
 TEXT: 請開啟通知，以提升遊戲體驗
 
+RESOURCE ID: appraise_size_xxl_1|1
+TEXT: The size of your {0} is...colossal. This is indeed exceptional. Fascinating!
+
+RESOURCE ID: appraise_size_xxl_2|1
+TEXT: Your {0} is gigantic—the largest I've ever seen!
+
+RESOURCE ID: appraise_size_xxl_3|1
+TEXT: Your {0} is massive! ...Could it be the biggest {0} in the world?
+
+RESOURCE ID: appraise_size_xxs_1|1
+TEXT: Your {0} is tinier than any we have on record. Astounding.
+
+RESOURCE ID: appraise_size_xxs_2|1
+TEXT: Your {0} is so tiny, I almost didn't notice it!
+
+RESOURCE ID: appraise_size_xxs_3|1
+TEXT: Wh-whoa. That's the tiniest {0} I've ever seen!
+
 RESOURCE ID: arlo_defeat#1
 TEXT: 怎……怎麼可能？我……我從來沒輸過！
 
@@ -266,6 +284,12 @@ TEXT: <size=36><b>目前選擇的寶可夢中，只有 {0} 隻能傳送出去。
 
 無法傳送的寶可夢將會留在盒子裡。寶可夢傳送出去後將無法取消。
 
+RESOURCE ID: batch_transfer_unique_xxl_pokemon
+TEXT: {0} XXL Pokémon
+
+RESOURCE ID: batch_transfer_unique_xxs_pokemon
+TEXT: {0} XXS Pokémon
+
 RESOURCE ID: battle_pass_ticket_iap_description
 TEXT: 可在GO對戰聯盟參加限時調查的入場券。此挑戰將持續到目前的GO對戰聯盟結束。
 
@@ -485,6 +509,9 @@ TEXT: 捕捉伽勒爾蛇紋熊時獲得蛇紋熊糖果XL的機率加倍
 RESOURCE ID: bonus_candy_nice_great_excel
 TEXT: 以Nice/Great/Excellent捉到寶可夢時可獲得額外的糖果
 
+RESOURCE ID: bonus_cd_move_roggenrola
+TEXT: Evolve Boldore to Gigalith that know the Charged Attack Meteor Beam!
+
 RESOURCE ID: bonus_cd_move_zigzagoon
 TEXT: 讓伽勒爾直衝熊進化成堵攔熊後，牠就能學會特殊招式「攔堵」
 
@@ -496,6 +523,9 @@ TEXT: 轉動指定區域內寶可補給站轉盤時可獲得活動貼圖
 
 RESOURCE ID: bonus_event_sticker_plural
 TEXT: 轉動指定區域內寶可補給站轉盤時可獲得活動貼圖
+
+RESOURCE ID: bonus_implicit_social_roggenrola_raid
+TEXT: If Trainers work together to win a Boldore raid, bonus Roggenrola spawns will appear around the Gym for 30 minutes
 
 RESOURCE ID: bonus_implicit_social_zigzagoon_raid
 TEXT: 如果訓練家們同心協力在團體戰中擊敗伽勒爾直衝熊，接下來的30分鐘裡將會有大量伽勒爾蛇紋熊在附近出現。
@@ -587,6 +617,9 @@ TEXT: 做一張閃卡來炫耀這隻寶可夢吧！
 RESOURCE ID: catch_card_total_species_caught
 TEXT: 共捉到{1}隻{0}
 
+RESOURCE ID: catch_exclamation_point
+TEXT: Catch!
+
 RESOURCE ID: catch_recap_text_0
 TEXT: {0} Pokémon caught
 
@@ -601,6 +634,9 @@ TEXT: When Season of GO begins on May 31, your end-of-season rewards for Season 
 
 RESOURCE ID: combat_title_season_7
 TEXT: GO對戰聯盟（GO的季節）行程表
+
+RESOURCE ID: community_day_roggenrola_event_name
+TEXT: Community Day: Roggenrola
 
 RESOURCE ID: community_day_zigzagoon_event_name
 TEXT: 究極解鎖：伽勒爾蛇紋熊社群日
@@ -931,6 +967,9 @@ TEXT: 古茲馬姿勢
 RESOURCE ID: featured_pokemon_7k_eggs
 TEXT: 7公里蛋中將可孵出焦點寶可夢
 
+RESOURCE ID: field_research_special_abbrev
+TEXT: Unique Field Research tasks are now available
+
 RESOURCE ID: form_hero
 TEXT: 身經百戰
 
@@ -965,6 +1004,18 @@ TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當�
 
 RESOURCE ID: general1.ticket.2_zigzagoon_title
 TEXT: 伽勒爾蛇紋熊調查筆記
+
+RESOURCE ID: general_maximum_height
+TEXT: Tallest
+
+RESOURCE ID: general_maximum_weight
+TEXT: Heaviest
+
+RESOURCE ID: general_minimum_height
+TEXT: Shortest
+
+RESOURCE ID: general_minimum_weight
+TEXT: Lightest
 
 RESOURCE ID: general_no_thanks
 TEXT: 不用，謝謝
@@ -1915,6 +1966,9 @@ TEXT: 哈！你連我都打不贏，別妄想打贏亞洛大人！
 RESOURCE ID: grunt_generic_victory#7__male_speaker
 TEXT: 哈！你連我都打不贏，別妄想打贏亞洛大人！
 
+RESOURCE ID: gui_vivillon_map_header
+TEXT: Vivillon Habitat
+
 RESOURCE ID: halloween_ultra_cup_title
 TEXT: Halloween Cup: Ultra League Edition
 
@@ -1986,18 +2040,21 @@ RESOURCE ID: m_avatar_poses_bundle_pose_41
 TEXT: 古茲馬姿勢
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-09-02T05:41:44.264229
-at SHA 13084dbfc7607c18088203293706406b21038e89
+TEXT: Built at 2022-09-09T03:09:52.431132
+at SHA 1007973f9c8f45a22990e0ed6cf407e995b52696
 Patch from: 0.245.2-SHA-b0fe7bfc, 0.247.0-SHA-0a48ad3b
 
 RESOURCE ID: move_name_0350
-TEXT: 妖精之风
+TEXT: 妖精之風
 
 RESOURCE ID: move_name_0356
-TEXT: 二连踢
+TEXT: 二連踢
 
 RESOURCE ID: move_name_0370
 TEXT: 攔堵
+
+RESOURCE ID: move_name_0372
+TEXT: 流星光束
 
 RESOURCE ID: nearby_raid_local_only
 TEXT: LOCAL ONLY
@@ -2023,6 +2080,9 @@ TEXT: 開啟來自贊助商的AR訊息，領取免費道具！
 RESOURCE ID: open_webar_sponsored_gift_button
 TEXT: 開啟AR
 
+RESOURCE ID: photobomb_five_roggenrola
+TEXT: 5 surprise encounters with Roggenrola in GO Snapshot
+
 RESOURCE ID: photobomb_five_zigzagoon
 TEXT: 伽勒爾蛇紋熊將在GO Snapshot中驚喜現身5次
 
@@ -2030,6 +2090,108 @@ RESOURCE ID: pokemon_info_transfer_to_professor_confirmation
 TEXT: <size=36>確定要將 {0} 傳送給博士？</size>
 
 傳送後將無法取消
+
+RESOURCE ID: pokemon_size_huge_encounter
+TEXT: It's huge!
+
+RESOURCE ID: pokemon_size_new_banner
+TEXT: New Record
+
+RESOURCE ID: pokemon_size_new_height_title
+TEXT: New Height Record
+
+RESOURCE ID: pokemon_size_new_tag
+TEXT: New
+
+RESOURCE ID: pokemon_size_new_title
+TEXT: New Size Record
+
+RESOURCE ID: pokemon_size_new_weight_title
+TEXT: New Weight Record
+
+RESOURCE ID: pokemon_size_tiny_encounter
+TEXT: It's tiny!
+
+RESOURCE ID: pokemon_vivillon_form_archipelago
+TEXT: Archipelago
+
+RESOURCE ID: pokemon_vivillon_form_continental
+TEXT: Continental
+
+RESOURCE ID: pokemon_vivillon_form_elegant
+TEXT: Elegant
+
+RESOURCE ID: pokemon_vivillon_form_fancy
+TEXT: Fancy
+
+RESOURCE ID: pokemon_vivillon_form_garden
+TEXT: Garden
+
+RESOURCE ID: pokemon_vivillon_form_high_plains
+TEXT: High Plains
+
+RESOURCE ID: pokemon_vivillon_form_icy_snow
+TEXT: Icy Snow
+
+RESOURCE ID: pokemon_vivillon_form_jungle
+TEXT: Jungle
+
+RESOURCE ID: pokemon_vivillon_form_marine
+TEXT: Marine
+
+RESOURCE ID: pokemon_vivillon_form_meadow
+TEXT: Meadow
+
+RESOURCE ID: pokemon_vivillon_form_modern
+TEXT: Modern
+
+RESOURCE ID: pokemon_vivillon_form_monsoon
+TEXT: Monsoon
+
+RESOURCE ID: pokemon_vivillon_form_ocean
+TEXT: Ocean
+
+RESOURCE ID: pokemon_vivillon_form_pokebal
+TEXT: Pokeball
+
+RESOURCE ID: pokemon_vivillon_form_polar
+TEXT: Polar
+
+RESOURCE ID: pokemon_vivillon_form_river
+TEXT: River
+
+RESOURCE ID: pokemon_vivillon_form_sandstorm
+TEXT: Sandstrom
+
+RESOURCE ID: pokemon_vivillon_form_savanna
+TEXT: 熱帶草原
+
+RESOURCE ID: pokemon_vivillon_form_sun
+TEXT: Sun
+
+RESOURCE ID: pokemon_vivillon_form_tundra
+TEXT: Tundra
+
+RESOURCE ID: pokemon_xxl_info_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer this XXL Pokémon?
+
+RESOURCE ID: pokemon_xxs_info_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer this XXS Pokémon?
+
+RESOURCE ID: postcard_multi_delete_button_text
+TEXT: REMOVE ({0})
+
+RESOURCE ID: postcard_multi_delete_cannot_undo
+TEXT: You cannot recover a Postcard once it has been removed.
+
+RESOURCE ID: postcard_multi_delete_complete
+TEXT: Your selection has been removed.
+
+RESOURCE ID: postcard_multi_delete_plural
+TEXT: Remove these {0} Postcards?
+
+RESOURCE ID: postcard_multi_delete_singular
+TEXT: Remove this Postcard?
 
 RESOURCE ID: psychic_cup_title
 TEXT: 超能力盃
@@ -2187,6 +2349,15 @@ TEXT: 強化 {0} 隻毒屬性的寶可夢
 RESOURCE ID: quest_power_up_plural_rock
 TEXT: 強化 {0} 隻岩石屬性的寶可夢
 
+RESOURCE ID: quest_roggenrola_catch_b
+TEXT: Catch {0} Roggenrola
+
+RESOURCE ID: quest_roggenrola_evolve_b
+TEXT: Evolve {0} Roggenrola
+
+RESOURCE ID: quest_roggenrola_snapshot_b
+TEXT: Take a Snapshot of {0} Roggenrola
+
 RESOURCE ID: quest_snapshot_storage_bug_unique_plural
 TEXT: 為{0}種蟲屬性寶可夢拍攝GO Snapshot照片
 
@@ -2204,6 +2375,75 @@ TEXT: 我每天都會給你一個散步小薰香，要不要現在就去試試�
 
 RESOURCE ID: quest_special_dialogue_hoopaunbound_0_7
 TEXT: 「予之糖蜜及沙塵，即可解放汝胡帕」
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_0
+TEXT: %PLAYERNAME! Glad you’re here. There’s something I could use your help with today.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_1
+TEXT: As you know, I’ve been away for a while.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_2
+TEXT: I asked myself how I could feel more at home again… and then it hit me! Researching Roggenrola!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_3
+TEXT: Roggenrola were first discovered a hundred years ago in an earthquake fissure, but the material that makes up their bodies is dirt that’s even older!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_4
+TEXT: A Pokémon made of earth is just the thing to get me feeling grounded again, don’t you think? And it’s always a good idea to learn more about Pokémon!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_5
+TEXT: Could you unearth some Roggenrola, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_0
+TEXT: Great job, %PLAYERNAME%! Let’s get a closer look at those Roggenrola.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_1
+TEXT: Hm… Did you notice the hexagonal cavities on their bodies? Those are their ears, and deep inside is an energy core that makes Roggenrola slightly warm to the touch.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_2
+TEXT: But don’t stick your hand inside the cavity — they’ll be very angry!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_3
+TEXT: Is that from firsthand experience, you ask? Well… I was testing a theory.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_4
+TEXT: And, when Roggenrola evolve into Boldore and their energy is too great to be contained, they grow orange crystals on their bodies hard enough to smash diamonds.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_5
+TEXT: Doesn’t that sound like a sight, %PLAYERNAME%? Evolve Roggenrola, and you can see it for yourself!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_0
+TEXT: Welcome back, %PLAYERNAME%! Your Boldore are looking great.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_1
+TEXT: Their crystals— Amazing! If only I had some diamonds, we could see whether Boldore really can smash them up…
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_2
+TEXT: Well, while we can’t conduct that particular experiment, I can still tell you more about Boldore.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_3
+TEXT: Their crystals are actually powerful lumps of energy. Just one crystal fragment would provide enough fuel for a hundred dump trucks!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_4
+TEXT: Unfortunately, I don’t even have one dump truck. But if you evolve Boldore, I’ll tell you all about what they do with that power, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_0
+TEXT: There you have it, %PLAYERNAME%— a Gigalith of your own! Those crystals are even bigger now!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_1
+TEXT: When Gigalith’s orange crystals absorb solar energy, it’s magnified internally and fired from its mouth. It’s even capable of blowing away a mountain!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_2
+TEXT: Because of its hefty horsepower, it’s a Pokémon that’s useful where hardiness is needed.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_3
+TEXT: I know you’re always out and about, so I know Gigalith will be a great partner to you too.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_4
+TEXT: Thanks for helping me out today as always, %PLAYERNAME%. Today’s research has me feeling more like my old self already.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_5
+TEXT: Let’s do this again soon!
 
 RESOURCE ID: quest_special_dialogue_season8_0_0
 TEXT: 嘿，%PLAYERNAME%，你最近還好嗎？
@@ -2358,6 +2598,21 @@ TEXT: 為什麼會有如此劇烈的變化呢？我也很想聽聽你那博士�
 RESOURCE ID: quest_special_dialogue_zigzagoon_3_6
 TEXT: 這次的調查也讓我學到了很多。謝謝你，訓練家。
 
+RESOURCE ID: quest_title_roggenrola
+TEXT: Rock 'n' Roll
+
+RESOURCE ID: quest_title_roggenrola_0
+TEXT: Rock 'n' Roll (1/4)
+
+RESOURCE ID: quest_title_roggenrola_1
+TEXT: Rock 'n' Roll (2/4)
+
+RESOURCE ID: quest_title_roggenrola_2
+TEXT: Rock 'n' Roll (3/4)
+
+RESOURCE ID: quest_title_roggenrola_3
+TEXT: Rock 'n' Roll (4/4)
+
 RESOURCE ID: quest_title_season8
 TEXT: 宇宙知己
 
@@ -2469,6 +2724,12 @@ TEXT: 朋友開啟你送的活動入場券時
 RESOURCE ID: settings_gift_received_push_notification
 TEXT: 收到別人贈送的活動入場券時
 
+RESOURCE ID: settings_pbp_check_other_menu
+TEXT: To access your currently paired device, please go to the Pokémon GO Plus screen via the Settings menu.
+
+RESOURCE ID: settings_pgp_check_other_menu
+TEXT: To access your currently paired device, please go to the Poké Ball Plus screen via the Settings menu.
+
 RESOURCE ID: settings_remember_last_pokeball_tip
 TEXT: 在下次捕捉寶可夢時會自動顯示上次最後投出的精靈球
 
@@ -2519,6 +2780,9 @@ TEXT: Gut feelings are super handy, don't you think? Let's go Team Instinct!
 
 RESOURCE ID: spark_map_time_warning|1
 TEXT: 沒有訊號？好吧，已經很晚了……而且我自己也有事，那我先走囉。
+
+RESOURCE ID: spawn_roggenrola
+TEXT: More Roggenrola are appearing in the wild!
 
 RESOURCE ID: spawn_zigzagoon
 TEXT: 更多伽勒爾蛇紋熊出現在地圖上!
@@ -2641,7 +2905,7 @@ RESOURCE ID: stickers_v2_featured_category
 TEXT: 精選
 
 RESOURCE ID: stickers_v2_group_category
-TEXT: Group
+TEXT: 群組
 
 RESOURCE ID: stickers_v2_messages_category
 TEXT: 附文字
@@ -2676,6 +2940,9 @@ TEXT: 最近收集的
 RESOURCE ID: stickers_v2_recently_used
 TEXT: 最近使用的
 
+RESOURCE ID: ticket_roggenrola
+TEXT: Ticket for the Rock 'n' Roll Special Research story available in the shop
+
 RESOURCE ID: ticket_zigzagoon
 TEXT: 特殊調查「伽勒爾蛇紋熊調查筆記」的入場券在商店中上架
 
@@ -2687,6 +2954,18 @@ TEXT: 開啟推播通知，即可接收活動及遊戲功能等最新資訊
 
 RESOURCE ID: turn_on_notifications_dialog_title
 TEXT: 不錯過任何資訊！
+
+RESOURCE ID: tutorial_vivillon_postcard_body_0
+TEXT: If you collect many Postcards from each region, you have a chance to encounter a Pokémon! Let’s save many received Postcards!
+
+RESOURCE ID: tutorial_vivillon_postcard_body_1
+TEXT: Vivillon’s patterns are changed by their habitats and climate. Which pattern of Vivillon is living at each place can be checked on the Vivillon map from the Pokédex and Vivillon medal page.
+
+RESOURCE ID: tutorial_vivillon_postcard_body_2
+TEXT: If you save a received Postcard from a friend, the Postcard location’s Vivillon medal will progress. If you collect many Postcards from the location, you can encounter Pokémon from the habitat.
+
+RESOURCE ID: tutorial_vivillon_postcard_header
+TEXT: Collect Vivillon from all over the world!
 
 RESOURCE ID: ultra_premier_cup_title
 TEXT: Ultra Premier

@@ -25,6 +25,24 @@ TEXT: 3. Aktiviere „Benachrichtigungen zulassen“
 RESOURCE ID: allow_notifications_prompt_message
 TEXT: Um dein Spielerlebnis zu verbessern, kannst du Pokémon GO erlauben, auf Benachrichtigungen zuzugreifen.
 
+RESOURCE ID: appraise_size_xxl_1|1
+TEXT: The size of your {0} is...colossal. This is indeed exceptional. Fascinating!
+
+RESOURCE ID: appraise_size_xxl_2|1
+TEXT: Your {0} is gigantic—the largest I've ever seen!
+
+RESOURCE ID: appraise_size_xxl_3|1
+TEXT: Your {0} is massive! ...Could it be the biggest {0} in the world?
+
+RESOURCE ID: appraise_size_xxs_1|1
+TEXT: Your {0} is tinier than any we have on record. Astounding.
+
+RESOURCE ID: appraise_size_xxs_2|1
+TEXT: Your {0} is so tiny, I almost didn't notice it!
+
+RESOURCE ID: appraise_size_xxs_3|1
+TEXT: Wh-whoa. That's the tiniest {0} I've ever seen!
+
 RESOURCE ID: arlo_victory#1
 TEXT: Sei nicht zu enttäuscht. Das Ende war vorauszusehen.
 
@@ -272,6 +290,12 @@ TEXT: Jahreszeit des Lichts – Partnerforschung: Hanamaru Udon
 RESOURCE ID: badge_event_0052_title
 TEXT: Partnerforschung: Hanamaru Udon
 
+RESOURCE ID: badge_unique_pokestops
+TEXT: Drehe {0} verschiedene PokéStops.
+
+RESOURCE ID: badge_unique_pokestops_singular
+TEXT: Drehe einen PokéStop.
+
 RESOURCE ID: bahasa_indonesia
 TEXT: Bahasa Indonesia
 
@@ -290,6 +314,12 @@ TEXT: Bonbons vom Professor erhalten!
 
 RESOURCE ID: batch_transfer_unique_warning_message
 TEXT: Bist du sicher, dass du diese Pokémon an den Professor verschicken möchtest?
+
+RESOURCE ID: batch_transfer_unique_xxl_pokemon
+TEXT: {0} XXL Pokémon
+
+RESOURCE ID: batch_transfer_unique_xxs_pokemon
+TEXT: {0} XXS Pokémon
 
 RESOURCE ID: battle_npcs_plural
 TEXT: Kämpfe gegen {0} GO Tour-Herausforderer.
@@ -519,6 +549,9 @@ TEXT: Zusätzliche Bonbons für das Fangen von Pokémon mit guten, großartigen 
 RESOURCE ID: bonus_cd_move_deino
 TEXT: Entwickle Duodino, um ein Trikephalo zu erhalten, das die Lade-Attacke Wirbler beherrscht.
 
+RESOURCE ID: bonus_cd_move_roggenrola
+TEXT: Evolve Boldore to Gigalith that know the Charged Attack Meteor Beam!
+
 RESOURCE ID: bonus_cd_move_zigzagoon
 TEXT: Entwickle Galar-Geradaks, um ein Barrikadax zu erhalten, das die Lade-Attacke Abblocker beherrscht!
 
@@ -530,6 +563,9 @@ TEXT: Besondere Event-Sticker erhältlich beim Drehen von PokéStops in der Gege
 
 RESOURCE ID: bonus_event_sticker_plural
 TEXT: Besondere Event-Sticker erhältlich beim Drehen von PokéStops in der Gegend
+
+RESOURCE ID: bonus_implicit_social_roggenrola_raid
+TEXT: If Trainers work together to win a Boldore raid, bonus Roggenrola spawns will appear around the Gym for 30 minutes
 
 RESOURCE ID: bonus_implicit_social_zigzagoon_raid
 TEXT: Wenn Trainer zusammen einen Galar-Geradaks-Raid gewinnen, wird in dieser Gegend eine große Anzahl von Galar-Zigzachs für 30 Minuten auftauchen.
@@ -618,6 +654,9 @@ TEXT: Feiere dieses Pokémon mit einer Fangkarte.
 RESOURCE ID: catch_card_total_species_caught
 TEXT: {0} gefangen: {1}
 
+RESOURCE ID: catch_exclamation_point
+TEXT: Catch!
+
 RESOURCE ID: catch_recap_text_0
 TEXT: Du hast {0} Pokémon gefangen.
 
@@ -638,6 +677,9 @@ TEXT: When Season of GO begins on May 31, your end-of-season rewards for Season 
 
 RESOURCE ID: combat_title_season_7
 TEXT: GO Battle League Season of GO Schedule
+
+RESOURCE ID: community_day_roggenrola_event_name
+TEXT: Community Day: Roggenrola
 
 RESOURCE ID: community_day_zigzagoon_event_name
 TEXT: Hyperbonus: Community Day – Galar-Zigzachs
@@ -1061,6 +1103,10 @@ TEXT: Bromley-Pose
 RESOURCE ID: featured_pokemon_7k_eggs
 TEXT: Event-Pokémon schlüpfen aus 7-km-Eiern
 
+RESOURCE ID: field_research_special_abbrev
+TEXT: Einzigartige Feld-
+forschungsaufgaben verfügbar
+
 RESOURCE ID: fragment_collected_description
 TEXT: Sammle mehr, um ein Rocket-Radar zusammenzubauen, mit dem du die Geheimbasen von Team GO Rocket finden kannst!
 
@@ -1092,6 +1138,18 @@ DU MUSST WÄHREND DES ANGEGEBENEN ZEITRAUMS SPIELEN, UM ALLE BONUSSE DIESES SPEZ
 
 RESOURCE ID: general1.ticket.2_zigzagoon_title
 TEXT: Feldnotizen: Galar-Zigzachs
+
+RESOURCE ID: general_maximum_height
+TEXT: Tallest
+
+RESOURCE ID: general_maximum_weight
+TEXT: Heaviest
+
+RESOURCE ID: general_minimum_height
+TEXT: Shortest
+
+RESOURCE ID: general_minimum_weight
+TEXT: Lightest
 
 RESOURCE ID: general_no_thanks
 TEXT: Nein, danke
@@ -1756,6 +1814,9 @@ TEXT: Nirgendwo ist man sicher vor Team GO Rocket!
 RESOURCE ID: grunt_generic_victory#1__female_speaker
 TEXT: Es wäre besser für dich, wenn du dich Team GO Rocket nicht in den Weg stellen würdest!
 
+RESOURCE ID: gui_vivillon_map_header
+TEXT: Vivillon Habitat
+
 RESOURCE ID: hal_pumpkaboo_2021_collection_challenge
 TEXT: Irrbis-Sammler-Herausforderung
 
@@ -1830,8 +1891,8 @@ RESOURCE ID: may22_alola_collection_challenge_1
 TEXT: Alola an Alola: Sammler-Herausforderung
 
 RESOURCE ID: metadata_patch
-TEXT: Built at 2022-09-02T05:41:44.264229
-at SHA 13084dbfc7607c18088203293706406b21038e89
+TEXT: Built at 2022-09-09T03:09:52.431132
+at SHA 1007973f9c8f45a22990e0ed6cf407e995b52696
 Patch from: 0.245.2-SHA-b0fe7bfc, 0.247.0-SHA-0a48ad3b
 
 RESOURCE ID: move_name_0350
@@ -1842,6 +1903,9 @@ TEXT: Doppelkick
 
 RESOURCE ID: move_name_0370
 TEXT: Abblocker
+
+RESOURCE ID: move_name_0372
+TEXT: Meteorstrahl
 
 RESOURCE ID: nearby_raid_local_only
 TEXT: LOCAL ONLY
@@ -1866,6 +1930,9 @@ TEXT: Öffne ein gesponsertes AR-Erlebnis um ein paar Items zu verdienen!
 
 RESOURCE ID: open_webar_sponsored_gift_button
 TEXT: AR öffnen
+
+RESOURCE ID: photobomb_five_roggenrola
+TEXT: 5 surprise encounters with Roggenrola in GO Snapshot
 
 RESOURCE ID: photobomb_five_zigzagoon
 TEXT: 5 überraschende Begegnungen mit Galar-Zigzachs in GO-Schnappschuss
@@ -1895,6 +1962,108 @@ Nachdem du es an den Professor geschickt hast, kannst du es nicht zurückholen.
 
 RESOURCE ID: pokemon_info_transfer_to_professor_result
 TEXT: Erfolgreich verschickt! {0}-Bonbon vom Professor erhalten!
+
+RESOURCE ID: pokemon_size_huge_encounter
+TEXT: It's huge!
+
+RESOURCE ID: pokemon_size_new_banner
+TEXT: New Record
+
+RESOURCE ID: pokemon_size_new_height_title
+TEXT: New Height Record
+
+RESOURCE ID: pokemon_size_new_tag
+TEXT: New
+
+RESOURCE ID: pokemon_size_new_title
+TEXT: New Size Record
+
+RESOURCE ID: pokemon_size_new_weight_title
+TEXT: New Weight Record
+
+RESOURCE ID: pokemon_size_tiny_encounter
+TEXT: It's tiny!
+
+RESOURCE ID: pokemon_vivillon_form_archipelago
+TEXT: Archipelago
+
+RESOURCE ID: pokemon_vivillon_form_continental
+TEXT: Continental
+
+RESOURCE ID: pokemon_vivillon_form_elegant
+TEXT: Elegant
+
+RESOURCE ID: pokemon_vivillon_form_fancy
+TEXT: Fancy
+
+RESOURCE ID: pokemon_vivillon_form_garden
+TEXT: Garden
+
+RESOURCE ID: pokemon_vivillon_form_high_plains
+TEXT: High Plains
+
+RESOURCE ID: pokemon_vivillon_form_icy_snow
+TEXT: Icy Snow
+
+RESOURCE ID: pokemon_vivillon_form_jungle
+TEXT: Jungle
+
+RESOURCE ID: pokemon_vivillon_form_marine
+TEXT: Marine
+
+RESOURCE ID: pokemon_vivillon_form_meadow
+TEXT: Meadow
+
+RESOURCE ID: pokemon_vivillon_form_modern
+TEXT: Modern
+
+RESOURCE ID: pokemon_vivillon_form_monsoon
+TEXT: Monsoon
+
+RESOURCE ID: pokemon_vivillon_form_ocean
+TEXT: Ocean
+
+RESOURCE ID: pokemon_vivillon_form_pokebal
+TEXT: Pokeball
+
+RESOURCE ID: pokemon_vivillon_form_polar
+TEXT: Polar
+
+RESOURCE ID: pokemon_vivillon_form_river
+TEXT: River
+
+RESOURCE ID: pokemon_vivillon_form_sandstorm
+TEXT: Sandstrom
+
+RESOURCE ID: pokemon_vivillon_form_savanna
+TEXT: Savanna
+
+RESOURCE ID: pokemon_vivillon_form_sun
+TEXT: Sun
+
+RESOURCE ID: pokemon_vivillon_form_tundra
+TEXT: Tundra
+
+RESOURCE ID: pokemon_xxl_info_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer this XXL Pokémon?
+
+RESOURCE ID: pokemon_xxs_info_transfer_to_professor_confirmation
+TEXT: Do you really want to transfer this XXS Pokémon?
+
+RESOURCE ID: postcard_multi_delete_button_text
+TEXT: REMOVE ({0})
+
+RESOURCE ID: postcard_multi_delete_cannot_undo
+TEXT: You cannot recover a Postcard once it has been removed.
+
+RESOURCE ID: postcard_multi_delete_complete
+TEXT: Your selection has been removed.
+
+RESOURCE ID: postcard_multi_delete_plural
+TEXT: Remove these {0} Postcards?
+
+RESOURCE ID: postcard_multi_delete_singular
+TEXT: Remove this Postcard?
 
 RESOURCE ID: psychic_cup_title
 TEXT: Psycho-Cup
@@ -2094,6 +2263,15 @@ TEXT: Verwende ein Power-up bei {0} Pokémon vom Typ Gestein.
 RESOURCE ID: quest_rocket_power_up_plural
 TEXT: Verwende {0}-mal Power-ups bei Pokémon.
 
+RESOURCE ID: quest_roggenrola_catch_b
+TEXT: Catch {0} Roggenrola
+
+RESOURCE ID: quest_roggenrola_evolve_b
+TEXT: Evolve {0} Roggenrola
+
+RESOURCE ID: quest_roggenrola_snapshot_b
+TEXT: Take a Snapshot of {0} Roggenrola
+
 RESOURCE ID: quest_snapshot_storage_bug_unique_plural
 TEXT: Mache Schnappschüsse von {0} verschiedenen Käfer-Pokémon, die du gefangen hast.
 
@@ -2135,6 +2313,75 @@ TEXT: Du hast die Rüpel so einfach abgefertigt, ich bin mir sicher, dass die Bo
 RESOURCE ID: quest_special_dialogue_rockethq8_0_1
 TEXT: Du hast es wahrscheinlich schon vermutet – Team GO Rocket hat mal wieder nichts Gutes im Sinn! Wir sind uns noch nicht sicher, was sie diesmal geplant haben, aber wir müssen sie aufhalten, soviel ist klar!
 
+RESOURCE ID: quest_special_dialogue_roggenrola_0_0
+TEXT: %PLAYERNAME! Glad you’re here. There’s something I could use your help with today.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_1
+TEXT: As you know, I’ve been away for a while.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_2
+TEXT: I asked myself how I could feel more at home again… and then it hit me! Researching Roggenrola!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_3
+TEXT: Roggenrola were first discovered a hundred years ago in an earthquake fissure, but the material that makes up their bodies is dirt that’s even older!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_4
+TEXT: A Pokémon made of earth is just the thing to get me feeling grounded again, don’t you think? And it’s always a good idea to learn more about Pokémon!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_5
+TEXT: Could you unearth some Roggenrola, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_0
+TEXT: Great job, %PLAYERNAME%! Let’s get a closer look at those Roggenrola.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_1
+TEXT: Hm… Did you notice the hexagonal cavities on their bodies? Those are their ears, and deep inside is an energy core that makes Roggenrola slightly warm to the touch.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_2
+TEXT: But don’t stick your hand inside the cavity — they’ll be very angry!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_3
+TEXT: Is that from firsthand experience, you ask? Well… I was testing a theory.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_4
+TEXT: And, when Roggenrola evolve into Boldore and their energy is too great to be contained, they grow orange crystals on their bodies hard enough to smash diamonds.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_5
+TEXT: Doesn’t that sound like a sight, %PLAYERNAME%? Evolve Roggenrola, and you can see it for yourself!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_0
+TEXT: Welcome back, %PLAYERNAME%! Your Boldore are looking great.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_1
+TEXT: Their crystals— Amazing! If only I had some diamonds, we could see whether Boldore really can smash them up…
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_2
+TEXT: Well, while we can’t conduct that particular experiment, I can still tell you more about Boldore.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_3
+TEXT: Their crystals are actually powerful lumps of energy. Just one crystal fragment would provide enough fuel for a hundred dump trucks!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_4
+TEXT: Unfortunately, I don’t even have one dump truck. But if you evolve Boldore, I’ll tell you all about what they do with that power, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_0
+TEXT: There you have it, %PLAYERNAME%— a Gigalith of your own! Those crystals are even bigger now!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_1
+TEXT: When Gigalith’s orange crystals absorb solar energy, it’s magnified internally and fired from its mouth. It’s even capable of blowing away a mountain!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_2
+TEXT: Because of its hefty horsepower, it’s a Pokémon that’s useful where hardiness is needed.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_3
+TEXT: I know you’re always out and about, so I know Gigalith will be a great partner to you too.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_4
+TEXT: Thanks for helping me out today as always, %PLAYERNAME%. Today’s research has me feeling more like my old self already.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_5
+TEXT: Let’s do this again soon!
+
 RESOURCE ID: quest_special_dialogue_season2_1_5
 TEXT: Warum erforschen wir fürs Erste nicht einfach Pokémon vom Typ Boden? Vielleicht können wir so Demeteros in Tiergeistform besser identifizieren, wenn es soweit ist.
 
@@ -2157,7 +2404,7 @@ RESOURCE ID: quest_special_dialogue_season8_0_5
 TEXT: Apropos geheimnisvoll: Ich habe etwas, das ich dir unbedingt noch erzählen wollte, %PLAYERNAME%. Seit meiner Rückkehr treibt sich ein kleines, gasförmiges Pokémon, das ich vorher noch nie gesehen habe, in meinem Labor herum.
 
 RESOURCE ID: quest_special_dialogue_season8_0_6
-TEXT: Es scheint freundlich zu sein, aber woher ist es gekommen? Ist es mir von durch die Ultrapforte gefolgt? Könnte es eine Ultrabestie sein?
+TEXT: Es scheint freundlich zu sein, aber woher ist es gekommen? Ist es mir durch die Ultrapforte gefolgt? Könnte es eine Ultrabestie sein?
 
 RESOURCE ID: quest_special_dialogue_season8_0_7
 TEXT: In Anbetracht dieser Möglichkeit halte ich es für das Beste, wenn du dich mit Rhi zusammen um dieses Pokémon kümmerst. Natürlich bin ich gespannt auf alles, was ihr dabei herausfindet.
@@ -2291,6 +2538,21 @@ TEXT: Wie es sich wohl anfühlt, eine solch tiefgreifende Transformation zu erle
 RESOURCE ID: quest_special_dialogue_zigzagoon_3_6
 TEXT: Das war eine wertvolle Lernerfahrung. Vielen Dank für deine Unterstützung heute, Pokémon-Trainer.
 
+RESOURCE ID: quest_title_roggenrola
+TEXT: Rock 'n' Roll
+
+RESOURCE ID: quest_title_roggenrola_0
+TEXT: Rock 'n' Roll (1/4)
+
+RESOURCE ID: quest_title_roggenrola_1
+TEXT: Rock 'n' Roll (2/4)
+
+RESOURCE ID: quest_title_roggenrola_2
+TEXT: Rock 'n' Roll (3/4)
+
+RESOURCE ID: quest_title_roggenrola_3
+TEXT: Rock 'n' Roll (4/4)
+
 RESOURCE ID: quest_title_season8
 TEXT: Ein kosmischer Kumpane
 
@@ -2405,6 +2667,12 @@ TEXT: Dein Freund hat das Event-Ticket erhalten!
 RESOURCE ID: settings_gift_received_push_notification
 TEXT: Du hast ein Event-Ticket erhalten!
 
+RESOURCE ID: settings_pbp_check_other_menu
+TEXT: To access your currently paired device, please go to the Pokémon GO Plus screen via the Settings menu.
+
+RESOURCE ID: settings_pgp_check_other_menu
+TEXT: To access your currently paired device, please go to the Poké Ball Plus screen via the Settings menu.
+
 RESOURCE ID: settings_show_campfire_buttons
 TEXT: Campfire anzeigen
 
@@ -2455,6 +2723,9 @@ TEXT: Komm zurück, wenn du tatsächlich eine Herausforderung darstellst!
 
 RESOURCE ID: sis22_collection_challenge
 TEXT: Hüpfe in den Frühling 2022: Sammler-Herausforderung
+
+RESOURCE ID: spawn_roggenrola
+TEXT: More Roggenrola are appearing in the wild!
 
 RESOURCE ID: spawn_wild_bug_types
 TEXT: Mehr Pokémon vom Typ Käfer erscheinen im Freien
@@ -2663,6 +2934,9 @@ TEXT: VOR KURZEM ERHALTEN
 RESOURCE ID: stickers_v2_recently_used
 TEXT: VOR KURZEM BENUTZT
 
+RESOURCE ID: ticket_roggenrola
+TEXT: Ticket for the Rock 'n' Roll Special Research story available in the shop
+
 RESOURCE ID: ticket_zigzagoon
 TEXT: Ticket für die Spezialforschung „Feldnotizen: Galar-Zigzachs“ im Shop erhältlich
 
@@ -2674,6 +2948,18 @@ TEXT: Aktiviere Push-Benachrichtigungen, um über neue Events und Funktionen auf
 
 RESOURCE ID: turn_on_notifications_dialog_title
 TEXT: Bleibe auf dem Laufenden!
+
+RESOURCE ID: tutorial_vivillon_postcard_body_0
+TEXT: If you collect many Postcards from each region, you have a chance to encounter a Pokémon! Let’s save many received Postcards!
+
+RESOURCE ID: tutorial_vivillon_postcard_body_1
+TEXT: Vivillon’s patterns are changed by their habitats and climate. Which pattern of Vivillon is living at each place can be checked on the Vivillon map from the Pokédex and Vivillon medal page.
+
+RESOURCE ID: tutorial_vivillon_postcard_body_2
+TEXT: If you save a received Postcard from a friend, the Postcard location’s Vivillon medal will progress. If you collect many Postcards from the location, you can encounter Pokémon from the habitat.
+
+RESOURCE ID: tutorial_vivillon_postcard_header
+TEXT: Collect Vivillon from all over the world!
 
 RESOURCE ID: type_tutorial_ghost__female_speaker
 TEXT: Geister-Pokémon sind schwach gegen Geister- und Unlicht-Attacken.
