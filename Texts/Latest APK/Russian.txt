@@ -70,6 +70,9 @@ TEXT: Севилья, 15 мая 2022
 RESOURCE ID: 5293_title
 TEXT: Зона Сафари Pokémon GO – Ранний доступ
 
+RESOURCE ID: 5_special_trades_total
+TEXT: Пять специальных обменов в день
+
 RESOURCE ID: __backup__
 TEXT: Прекрасная работа! Похоже, пойман {0}, Покемон типа {1}!
 
@@ -766,7 +769,7 @@ RESOURCE ID: appraisal_filter_group_key
 TEXT: Оценка
 
 RESOURCE ID: appraise_intro_1|1
-TEXT: Привет, {0}. Если хочешь, я могу провести оценку твоего Покемона {1}.
+TEXT: Привет, {0}. Если хочешь, я дам оценку твоему Покемону.
 
 RESOURCE ID: appraise_intro_2|1
 TEXT: Привет, {0}! Давай посмотрим на твоего Покемона {1}.
@@ -820,40 +823,58 @@ RESOURCE ID: appraise_overall_mid_3|1
 TEXT: В целом, твой {0} – достойный Покемон!
 
 RESOURCE ID: appraise_size_huge_1|1
-TEXT: Твой Покемон {0} невероятно большой. Это действительно исключение. Поразительно!
+TEXT: {0}. Этот Покемон необычайно крупный.
 
 RESOURCE ID: appraise_size_huge_2|1
-TEXT: Твой {0} – гигант, самый большой, который я когда-либо видела!
+TEXT: {0}. Это невероятно крупный Покемон!
 
 RESOURCE ID: appraise_size_huge_3|1
-TEXT: Твой {0} просто ОГРОМНЫЙ!
+TEXT: {0}. Этот Покемон просто ОГРОМНЫЙ!
 
 RESOURCE ID: appraise_size_large_1|1
-TEXT: Твой Покемон {0} выше среднего по размеру.
+TEXT: {0}. Этот Покемон крупнее среднего.
 
 RESOURCE ID: appraise_size_large_2|1
 TEXT: Твой {0} довольно большой, это точно!
 
 RESOURCE ID: appraise_size_large_3|1
-TEXT: Твой {0} ОЧЕНЬ БОЛЬШОЙ!
+TEXT: {0}. Этот Покемон ОЧЕНЬ БОЛЬШОЙ!
 
 RESOURCE ID: appraise_size_small_1|1
-TEXT: Твой Покемон {0} ниже среднего по размеру.
+TEXT: {0}. Этот Покемон меньше среднего.
 
 RESOURCE ID: appraise_size_small_2|1
 TEXT: Ах, какой маленький {0}! И какой симпатяга!
 
 RESOURCE ID: appraise_size_small_3|1
-TEXT: Твой {0} немного мал для своего вида, тебе не кажется?
+TEXT: {0}. Этот Покемон немного меньше других, тебе не кажется?
 
 RESOURCE ID: appraise_size_tiny_1|1
-TEXT: Твой Покемон {0} гораздо меньше, чем у нас в данных. Поразительно.
+TEXT: {0}. Этот Покемон необычайно маленький.
 
 RESOURCE ID: appraise_size_tiny_2|1
-TEXT: Твой {0} такой крошечный, я почти его не заметила!
+TEXT: {0}. Ой, какой маленький Покемон!
 
 RESOURCE ID: appraise_size_tiny_3|1
-TEXT: Ничего себе! Это самый маленький {0}, которого я когда-либо видел!
+TEXT: {0}. Этот Покемон довольно маленький, да?
+
+RESOURCE ID: appraise_size_xxl_1|1
+TEXT: {0}. Этот Покемон невообразимо огромен. Это действительно исключительный экземпляр.
+
+RESOURCE ID: appraise_size_xxl_2|1
+TEXT: {0}. Твой Покемон – просто гигант! Самый большой, которого мне доводилось видеть!
+
+RESOURCE ID: appraise_size_xxl_3|1
+TEXT: {0}. Этот Покемон реально огромный! Может, даже самый большой в мире.
+
+RESOURCE ID: appraise_size_xxs_1|1
+TEXT: {0}. Этот Покемон гораздо меньше других Покемонов этого вида. Поразительно.
+
+RESOURCE ID: appraise_size_xxs_2|1
+TEXT: {0}. Такой крошечный Покемон, его почти не видно!
+
+RESOURCE ID: appraise_size_xxs_3|1
+TEXT: {0}. Ничего себе! Этот Покемон – самый маленький, которого мне доводилось видеть!
 
 RESOURCE ID: appraise_stat_best_1|1
 TEXT: Его параметры превышают мои расчёты. Это потрясающе!
@@ -910,16 +931,16 @@ RESOURCE ID: appraise_stat_mid_3|1
 TEXT: У него опредёленно есть некоторые хорошие параметры. Определённо!
 
 RESOURCE ID: appraise_v2_caught
-TEXT: Этот Покемон {0} был пойман {1} около {2}.
+TEXT: {0}. Этот Покемон был пойман {1} около {2}.
 
 RESOURCE ID: appraise_v2_date_uncached_loc
-TEXT: Этот Покемон {0} был пойман {1}.
+TEXT: {0}. Этот Покемон был пойман {1}
 
 RESOURCE ID: appraise_v2_dateless_caught
-TEXT: Этот Покемон {0} был пойман около Покестопа {1}.
+TEXT: {0}. Этот Покемон был пойман около {1}.
 
 RESOURCE ID: appraise_v2_dateless_uncached_loc
-TEXT: Этот Покемон {0} был пойман
+TEXT: {0}. Этот Покемон был пойман
 
 RESOURCE ID: appraise_v2_late_address
 TEXT: около {0}.
@@ -1249,7 +1270,7 @@ RESOURCE ID: arphoto_tutorial_intro_description
 TEXT: Достань Покемона из Поке-Болла и сфотографируйся с ним! Возможно, тебя ждёт сюрприз! 
 
 RESOURCE ID: arphoto_tutorial_intro_no_photobomb_description
-TEXT: You can take a Pokémon out of its Poké Ball and snap photos together!
+TEXT: Ты можешь достать Покемона из Поке-Болла и сфотографироваться с ним!
 
 RESOURCE ID: arphoto_tutorial_intro_title
 TEXT: Фотографируй своих Покемонов где и когда захочешь! 
@@ -1604,6 +1625,10 @@ TEXT: Браслеты LeafGreen
 RESOURCE ID: avatar_f_gloves_giovanni_0_bundle_icon
 TEXT: Перчатки Джованни
 
+RESOURCE ID: avatar_f_gloves_guzma_00_bundle_icon
+TEXT: Браслеты
+в стиле Гузмы
+
 RESOURCE ID: avatar_f_gloves_gymleader_bundle_icon
 TEXT: Перчатки Гим-Лидера
 
@@ -1689,6 +1714,9 @@ TEXT: Кепка в стиле Н
 RESOURCE ID: avatar_f_hat_casket_bundle_icon
 TEXT: Кепка газетчика
 
+RESOURCE ID: avatar_f_hat_cosmog_00_bundle_icon
+TEXT: Шапка Космог
+
 RESOURCE ID: avatar_f_hat_cubonehat_0_bundle_icon
 TEXT: Шапка с Кьюбоном
 
@@ -1766,6 +1794,10 @@ TEXT: Праздничная
 
 RESOURCE ID: avatar_f_hat_guccihat_00_bundle_icon
 TEXT: Панама The North Face x Gucci
+
+RESOURCE ID: avatar_f_hat_guzma_00_bundle_icon
+TEXT: Очки
+в стиле Гузмы
 
 RESOURCE ID: avatar_f_hat_gyaradoscap_00_bundle_icon
 TEXT: Шапка Гиарадоса
@@ -2052,6 +2084,10 @@ RESOURCE ID: avatar_f_pants_greencoat_00_bundle_icon
 TEXT: Праздничные
 шорты
 
+RESOURCE ID: avatar_f_pants_guzma_00_bundle_icon
+TEXT: Штаны
+в стиле Гузмы
+
 RESOURCE ID: avatar_f_pants_gymleader_bundle_icon
 TEXT: Юбка Гим-Лидера
 
@@ -2214,6 +2250,9 @@ TEXT: Футболка с Селеби
 RESOURCE ID: avatar_f_shirt_chimcharonesie_00_bundle_icon
 TEXT: Костюм Чимчар
 
+RESOURCE ID: avatar_f_shirt_cosmog_00_bundle_icon
+TEXT: Ветровка Космог
+
 RESOURCE ID: avatar_f_shirt_cowichansweater_0_bundle_icon
 TEXT: Свитер со Стантлером
 
@@ -2315,6 +2354,10 @@ TEXT: Футболка Хо-Oх
 
 RESOURCE ID: avatar_f_shirt_guccitshirts_00_bundle_icon
 TEXT: Футболка The North Face x Gucci
+
+RESOURCE ID: avatar_f_shirt_guzma_00_bundle_icon
+TEXT: Ветровка
+в стиле Гузмы
 
 RESOURCE ID: avatar_f_shirt_gymleader_bundle_icon
 TEXT: Одежда Гим-Лидера
@@ -3196,6 +3239,10 @@ TEXT: Браслеты FireRed
 RESOURCE ID: avatar_m_gloves_giovanni_0_bundle_icon
 TEXT: Перчатки Джованни
 
+RESOURCE ID: avatar_m_gloves_guzma_00_bundle_icon
+TEXT: Браслеты
+в стиле Гузмы
+
 RESOURCE ID: avatar_m_gloves_gymleader_bundle_icon
 TEXT: Перчатки Гим-Лидера
 
@@ -3284,6 +3331,9 @@ TEXT: Кепка в стиле Н
 RESOURCE ID: avatar_m_hat_casket_bundle_icon
 TEXT: Кепка газетчика
 
+RESOURCE ID: avatar_m_hat_cosmog_00_bundle_icon
+TEXT: Шапка Космог
+
 RESOURCE ID: avatar_m_hat_cubonehat_0_bundle_icon
 TEXT: Шапка с Кьюбоном
 
@@ -3361,6 +3411,10 @@ TEXT: Праздничная
 
 RESOURCE ID: avatar_m_hat_guccihat_00_bundle_icon
 TEXT: Панама The North Face x Gucci
+
+RESOURCE ID: avatar_m_hat_guzma_00_bundle_icon
+TEXT: Очки
+в стиле Гузмы
 
 RESOURCE ID: avatar_m_hat_gyaradoscap_00_bundle_icon
 TEXT: Шапка Гиарадоса
@@ -3637,6 +3691,10 @@ RESOURCE ID: avatar_m_pants_greencoat_00_bundle_icon
 TEXT: Праздничные
 шорты
 
+RESOURCE ID: avatar_m_pants_guzma_00_bundle_icon
+TEXT: Штаны
+в стиле Гузмы
+
 RESOURCE ID: avatar_m_pants_gymleader_bundle_icon
 TEXT: Шорты Гим-Лидера
 
@@ -3793,6 +3851,9 @@ TEXT: Футболка с Селеби
 RESOURCE ID: avatar_m_shirt_chimcharonesie_00_bundle_icon
 TEXT: Костюм Чимчар
 
+RESOURCE ID: avatar_m_shirt_cosmog_00_bundle_icon
+TEXT: Ветровка Космог
+
 RESOURCE ID: avatar_m_shirt_cowichansweater_0_bundle_icon
 TEXT: Свитер со Стантлером
 
@@ -3906,6 +3967,10 @@ TEXT: Футболка Хо-Oх
 
 RESOURCE ID: avatar_m_shirt_guccitshirts_00_bundle_icon
 TEXT: Футболка The North Face x Gucci
+
+RESOURCE ID: avatar_m_shirt_guzma_00_bundle_icon
+TEXT: Ветровка
+в стиле Гузмы
 
 RESOURCE ID: avatar_m_shirt_gymleader_bundle_icon
 TEXT: Одежда Гим-Лидера
@@ -4979,11 +5044,95 @@ TEXT: Воздушные приключения Покемон: Окинава
 RESOURCE ID: badge_event_0038_title
 TEXT: Воздушные приключения Покемон 2022
 
+RESOURCE ID: badge_event_0039
+TEXT: Партнёрский квест сезона cвета: ChargeSPOT
+
+RESOURCE ID: badge_event_0039_title
+TEXT: Партнёрский квест: ChargeSPOT
+
+RESOURCE ID: badge_event_0040
+TEXT: Партнёрский квест сезона cвета: Family Mart
+
+RESOURCE ID: badge_event_0040_title
+TEXT: Партнёрский квест: Family Mart
+
+RESOURCE ID: badge_event_0041
+TEXT: Партнёрский квест сезона cвета: Verizon
+
+RESOURCE ID: badge_event_0041_title
+TEXT: Партнёрский квест: Verizon
+
+RESOURCE ID: badge_event_0041_title_01
+TEXT: Партнёрский квест: Verizon
+
+RESOURCE ID: badge_event_0041_title_02
+TEXT: Партнёрский квест: Verizon
+
+RESOURCE ID: badge_event_0041_title_03
+TEXT: Партнёрский квест: Verizon
+
+RESOURCE ID: badge_event_0041_title_04
+TEXT: Партнёрский квест: Verizon
+
 RESOURCE ID: badge_event_0043
 TEXT: Чемпионат мира Покемон 2022: Бонусный квест на время
 
 RESOURCE ID: badge_event_0043_title
 TEXT: Сплочённая команда: Великая Лига
+
+RESOURCE ID: badge_event_0044
+TEXT: Коян 2022
+
+RESOURCE ID: badge_event_0044_title
+TEXT: Зона Сафари Pokémon GO – Ранний доступ
+
+RESOURCE ID: badge_event_0045
+TEXT: Коян 2022
+
+RESOURCE ID: badge_event_0045_title
+TEXT: Зона Сафари Pokémon GO
+
+RESOURCE ID: badge_event_0046
+TEXT: Коян, 23 сентября 2022 г.
+
+RESOURCE ID: badge_event_0046_title
+TEXT: Зона Сафари Pokémon GO – Ранний доступ
+
+RESOURCE ID: badge_event_0047
+TEXT: Коян, 23 сентября 2022 г.
+
+RESOURCE ID: badge_event_0047_title
+TEXT: Зона Сафари Pokémon GO
+
+RESOURCE ID: badge_event_0048
+TEXT: Коян, 24 сентября 2022 г.
+
+RESOURCE ID: badge_event_0048_title
+TEXT: Зона Сафари Pokémon GO – Ранний доступ
+
+RESOURCE ID: badge_event_0049
+TEXT: Коян, 24 сентября 2022 г.
+
+RESOURCE ID: badge_event_0049_title
+TEXT: Зона Сафари Pokémon GO
+
+RESOURCE ID: badge_event_0050
+TEXT: Коян, 25 сентября 2022 г.
+
+RESOURCE ID: badge_event_0050_title
+TEXT: Зона Сафари Pokémon GO – Ранний доступ
+
+RESOURCE ID: badge_event_0051
+TEXT: Коян, 25 сентября 2022 г.
+
+RESOURCE ID: badge_event_0051_title
+TEXT: Зона Сафари Pokémon GO
+
+RESOURCE ID: badge_event_0052
+TEXT: Партнёрский квест сезона света: Hanamaru Udon
+
+RESOURCE ID: badge_event_0052_title
+TEXT: Партнёрский квест: Hanamaru Udon
 
 RESOURCE ID: badge_event_yoshinoya
 TEXT: Май 2021: Yoshinoya
@@ -6495,10 +6644,10 @@ RESOURCE ID: badge_unique_mega_evos_title
 TEXT: Гуру мегаэволюции
 
 RESOURCE ID: badge_unique_pokestops
-TEXT: Посети разные Покестопы: {0}.
+TEXT: Покрути разные Покестопы: {0}.
 
 RESOURCE ID: badge_unique_pokestops_singular
-TEXT: Посети Покестоп.
+TEXT: Покрути 1 Покестоп.
 
 RESOURCE ID: badge_unique_pokestops_title
 TEXT: Турист
@@ -6656,7 +6805,7 @@ RESOURCE ID: banned_player_lockout_2
 TEXT: Узнай больше!
 
 RESOURCE ID: batch_transfer_confirm
-TEXT: Передать Покемонов: {0}?
+TEXT: <size=36><b>Передать Профессору Покемонов: {0}?</b></size>
 
 Ты не сможешь отменить это действие после передачи.
 
@@ -6666,15 +6815,15 @@ TEXT: <size=36><b>Только {0} из выбранных Покемонов м
 Покемоны, которых нельзя передать, останутся в твоём хранилище Покемонов. Переданных Покемонов нельзя вернуть.
 
 RESOURCE ID: batch_transfer_eligible_confirm_singular
-TEXT: <size=36><b>Только один из выбранных Покемонов может быть передан.</b></size>
+TEXT: <size=36><b>Только 1 из выбранных Покемонов может быть передан профессору.</b></size>
 
-Покемоны, которых нельзя передать, останутся в твоём хранилище Покемонов. Переданных Покемонов нельзя вернуть.
+Любой Покемон, которого нельзя передать, останется в твоём хранилище Покемонов. Покемона, который был передан, нельзя вернуть.
 
 RESOURCE ID: batch_transfer_header
 TEXT: Выбрать Покемона
 
 RESOURCE ID: batch_transfer_result
-TEXT: Получены конфеты.
+TEXT: Получены конфеты от профессора.
 
 RESOURCE ID: batch_transfer_unique_event_pokemon
 TEXT: Ивент-Покемоны: {0}
@@ -6695,10 +6844,16 @@ RESOURCE ID: batch_transfer_unique_not_included
 TEXT: Не выбран ни один Легендарный, Мифический или Ивент-Покемон, а также ни одно Ультрачудовище.
 
 RESOURCE ID: batch_transfer_unique_warning_message
-TEXT: Ты действительно хочешь передать этих Покемонов?
+TEXT: Ты действительно хочешь добавить этих Покемонов для передачи профессору?
 
 RESOURCE ID: batch_transfer_unique_warning_title
 TEXT: Твой выбор содержит следующих Покемонов:
+
+RESOURCE ID: batch_transfer_unique_xxl_pokemon
+TEXT: Покемоны XXL: {0}
+
+RESOURCE ID: batch_transfer_unique_xxs_pokemon
+TEXT: Покемоны XXS: {0}
 
 RESOURCE ID: battle_box
 TEXT: Боевая коробка
@@ -9303,8 +9458,17 @@ TEXT: Открыть
 RESOURCE ID: beluga_wonder_box_title
 TEXT: ТАИНСТВЕННАЯ КОРОБКА
 
+RESOURCE ID: bgmode_no_eggs_incubating_notification_toast
+TEXT: You currently have no Eggs incubating!
+
+RESOURCE ID: bgmode_open_gym_spot_notification_toast
+TEXT: Nearby Gym %s has an open spot for your Pokémon!
+
 RESOURCE ID: bgmode_scanning_notification
 TEXT: Поиск Покемонов поблизости!
+
+RESOURCE ID: bgmode_uncaught_distance_notification_toast
+TEXT: A Pokémon you’ve never caught is %1$s meters away near %2$s!
 
 RESOURCE ID: bidoof_breakout_event
 TEXT: Нашествие Бидуфов
@@ -9405,11 +9569,20 @@ TEXT: Бонус активирован!
 RESOURCE ID: bonus_candy_nice_great_excel
 TEXT: Дополнительные конфеты за поимку Покемонов при помощи хороших, отличных и прекрасных бросков
 
+RESOURCE ID: bonus_catch_cup_daily
+TEXT: Кубок поимки события доступен для местных сражений
+
+RESOURCE ID: bonus_catch_cup_post
+TEXT: Кубок поимки после события доступен в Боевой Лиге GO для участников Зоны Сафари Коян 2022
+
 RESOURCE ID: bonus_cd_move_alodude
 TEXT: Эволюционируй Алольского Гравелера, чтобы получить Алольского Голема, который знает Быструю атаку Перекат
 
 RESOURCE ID: bonus_cd_move_deino
 TEXT: Эволюционируй Цвайлоса, чтобы получить Хайдрайгона, который знает заряженную атаку Резкий Поворот
+
+RESOURCE ID: bonus_cd_move_roggenrola
+TEXT: Эволюционируй Болдора, чтобы получить Гигалита, который знает заряженную атаку Метеоритный Луч
 
 RESOURCE ID: bonus_cd_move_starly
 TEXT: Эволюционируй Старавию, чтобы получить Стараптора, который знает Быструю атаку Шквал
@@ -9449,6 +9622,9 @@ TEXT: Испытание дня сообщества: Поимка
 
 RESOURCE ID: bonus_implicit_social_raid_title
 TEXT: Испытание дня сообщества: Рейд
+
+RESOURCE ID: bonus_implicit_social_roggenrola_raid
+TEXT: Если Тренеры в результате совместной работы победят Болдора в рейде, то в течение 30 минут в окрестностях будет появляться много Роггенрол.
 
 RESOURCE ID: bonus_implicit_social_starly_raid
 TEXT: Если Тренеры одолеют Старавию в рейде, то в течение 30 минут рядом с Гимом, где была одержана победа, будет появляться больше диких Старли.
@@ -9551,6 +9727,9 @@ TEXT: Один дополнительный специальный обмен в
 
 RESOURCE ID: bonus_special_trade_ultra
 TEXT: Один дополнительный специальный обмен во время события и в течение пяти часов после него – не более четырёх в день
+
+RESOURCE ID: bonus_spritzee_o_clock
+TEXT: В начале каждого часа будет появляться много Спритци!
 
 RESOURCE ID: bonus_trade_stardust_50pc_5hr
 TEXT: Для обменов во время события и в течение пяти часов после него понадобится на 50% меньше звёздной пыли.
@@ -10808,40 +10987,46 @@ RESOURCE ID: catch_candy_xl_chance_triple
 TEXT: Тройной шанс получить конфеты XL при поимке Покемонов
 
 RESOURCE ID: catch_card_action_menu
-TEXT: Catch Card
+TEXT: Карта поимки
 
 RESOURCE ID: catch_card_caught_date_location
-TEXT: Caught on {0}, around {1}.
+TEXT: Пойман {0} около {1}.
+
+RESOURCE ID: catch_card_caught_wild_date_location
+TEXT: Пойман диким {0} около {1}.
 
 RESOURCE ID: catch_card_retake_photo_button
-TEXT: RETAKE PHOTOS
+TEXT: ПЕРЕСНЯТЬ
 
 RESOURCE ID: catch_card_retake_snapshot
-TEXT: CHANGE PHOTO
+TEXT: ИЗМЕНИТЬ ФОТО
 
 RESOURCE ID: catch_card_select_photo_button
-TEXT: USE SNAPSHOT
+TEXT: ИСПОЛЬЗОВАТЬ ФОТО
 
 RESOURCE ID: catch_card_select_photo_header
-TEXT: Select a photo for the Catch Card
+TEXT: Выбери фото для карты поимки
 
 RESOURCE ID: catch_card_share_to_campfire
-TEXT: SHARE TO CAMPFIRE
+TEXT: ПОДЕЛИТЬСЯ В CAMPFIRE
 
 RESOURCE ID: catch_card_take_snapshot
-TEXT: TAKE SNAPSHOT
+TEXT: СДЕЛАТЬ ФОТО
 
 RESOURCE ID: catch_card_title
-TEXT: Catch Card
+TEXT: Карта поимки
 
 RESOURCE ID: catch_card_toast
-TEXT: Show off this Pokémon with a Catch Card
+TEXT: Добавь карту поимки к этому Покемону
 
 RESOURCE ID: catch_card_total_species_caught
-TEXT: Total {0} Caught: {1}
+TEXT: {0}: всего поймано {1}
 
 RESOURCE ID: catch_cup_title
 TEXT: Кубок поимки
+
+RESOURCE ID: catch_exclamation_point
+TEXT: Catch!
 
 RESOURCE ID: catch_recap_text_0
 TEXT: Пойманные Покемоны: {0}
@@ -11983,6 +12168,9 @@ TEXT: Загреб
 RESOURCE ID: city_zurich
 TEXT: Цюрих
 
+RESOURCE ID: clefairy_commotion_event_name
+TEXT: Явление Клефэйри
+
 RESOURCE ID: cliff_challenge#1
 TEXT: Я не подведу Джованни!
 
@@ -12156,7 +12344,7 @@ RESOURCE ID: combat_blanche_title
 TEXT: Лидер Команды Мистика
 
 RESOURCE ID: combat_blog_url
-TEXT: For more in-depth information, <a href="{0}">visit the blog</a>.
+TEXT: Чтобы узнать подробности, <a href="{0}">посети блог</a>.
 
 RESOURCE ID: combat_buff_lvl1
 TEXT: {0} усилилась!
@@ -12270,7 +12458,7 @@ RESOURCE ID: combat_defense_warning
 TEXT: Входящая атака!
 
 RESOURCE ID: combat_description_season_7
-TEXT: When Season of GO begins on May 31, your end-of-season rewards for Season 6 will be available on the Battle screen, including an Elite Fast TM if you reached rank 19 or higher. Your rating will be reset. Stay tuned—we'll update you if anything changes.
+TEXT: 31 мая, когда начнётся Сезон GO, твои награды за окончание 6 сезона будут доступны на экране Сражений – включая элитную быструю TM для тех, кто достиг 19 ранга и выше. Твой рейтинг будет сброшен. Следи за новостями, чтобы узнавать об изменениях.
 
 RESOURCE ID: combat_disable_friend_combat_confirmation
 TEXT: Отключить дружеские битвы
@@ -12804,7 +12992,7 @@ RESOURCE ID: combat_tired_of_battle
 TEXT: Твой противник больше не хочет сражаться.
 
 RESOURCE ID: combat_title_season_7
-TEXT: GO Battle League Season of GO Schedule
+TEXT: Расписание Боевой Лиги GO: Сезон GO
 
 RESOURCE ID: combat_train
 TEXT: ТРЕНИРОВАТЬСЯ
@@ -12869,6 +13057,12 @@ TEXT: День cообщества: Мэджикарп
 RESOURCE ID: community_day_magmar_event_name
 TEXT: День cообщества: Магмар
 
+RESOURCE ID: community_day_map_description
+TEXT: Check out our Community Day map to find the best places to spend Community Day!
+
+RESOURCE ID: community_day_map_name
+TEXT: Meet other Trainers
+
 RESOURCE ID: community_day_mudkip_event_name
 TEXT: Классический день сообщества: Мадкип
 
@@ -12877,6 +13071,9 @@ TEXT: День сообщества: Ошавотт
 
 RESOURCE ID: community_day_porygon_event_name
 TEXT: День cообщества: Поригон
+
+RESOURCE ID: community_day_roggenrola_event_name
+TEXT: День сообщества: Роггенрола
 
 RESOURCE ID: community_day_roselia_event_name
 TEXT: День сообщества: Розелия
@@ -12982,6 +13179,9 @@ TEXT: Не удалось создать тег.
 RESOURCE ID: create_tag_gui_title
 TEXT: СОЗДАТЬ ТЕГ
 
+RESOURCE ID: created_by_label
+TEXT: Created By
+
 RESOURCE ID: dai_part1_title
 TEXT: Загадочный ладан: Часть 1
 
@@ -13006,9 +13206,15 @@ TEXT: Удивительный ладан: Часть 2 (1/2)
 RESOURCE ID: dai_willow_part2_tile_page2
 TEXT: Удивительный ладан: Часть 2 (2/2)
 
+RESOURCE ID: daily_adventure_incense_description
+TEXT: Activate Daily Adventure Incense and begin to explore, and you may encounter Pokémon not frequently seen in the wild!
+
 RESOURCE ID: daily_adventure_incense_modal_message
 TEXT: Особый ладан с таинственным ароматом, который привлекает к тебе диких Покемонов в течение {0} минут, пока ты двигаешься. Ты можешь каждый день бесплатно получать один такой ладан.
 В качестве дополнительного бонуса при использовании ладана ежедневных приключений ты получишь Поке-Боллы: {1} (если в твоём рюкзаке для предметов меньше {2} Поке-Боллов). Для активации бонуса в твоём рюкзаке для предметов должно быть место.
+
+RESOURCE ID: daily_adventure_incense_name
+TEXT: Ладан ежедневных приключений
 
 RESOURCE ID: daily_encounter_tutorial_dialogue_1
 TEXT: Привет, {0}! Недавно я разработал особый вид ладана и взял на себя смелость активировать его. Теперь каждый день будет появляться Покемон только для тебя!
@@ -13209,7 +13415,7 @@ RESOURCE ID: delete_gift_confirmation
 TEXT: Ты действительно хочешь удалить этот подарок?
 
 RESOURCE ID: delete_pokemon_tag_confirmation
-TEXT: Тег будет удалён с Покемона, которому был присвоен. Покемон не будет передан.
+TEXT: Тег будет удалён с Покемона, которому был присвоен. Покемон не будет отправлен Профессору Уиллоу.
 
 RESOURCE ID: delete_pokemon_tag_confirmation_title
 TEXT: Ты точно хочешь удалить тег {0}?
@@ -13462,6 +13668,9 @@ TEXT: Активизация типа: Электро
 RESOURCE ID: element_cup_title
 TEXT: Кубок элементов
 
+RESOURCE ID: element_remix_cup_title
+TEXT: Кубок элементов: Ремикс
+
 RESOURCE ID: elite_tm_charged_cd_box
 TEXT: Элитная заряженная TM доступна в коробке Дня сообщества
 
@@ -13631,7 +13840,7 @@ RESOURCE ID: encounter_too_many_pokemon
 TEXT: Твоё хранилище Покемонов заполнено. Ты можешь купить больше места в магазине.
 
 RESOURCE ID: encounter_transfer_or_upgrade
-TEXT: Ты можешь передать Покемонов или увеличить своё хранилище Покемонов.
+TEXT: Ты можешь передать Покемонов Профессору Уиллоу или увеличить своё хранилище Покемонов.
 
 RESOURCE ID: encounter_unknown_cp
 TEXT: ???
@@ -13950,6 +14159,9 @@ TEXT: Недоступно
 
 RESOURCE ID: error_weak_network
 TEXT: В настоящее время твоё сетевое соединение нестабильно. Повтори попытку позже.
+
+RESOURCE ID: event_area_spawns
+TEXT: В окрестностях появляются дикие тематические Покемоны!
 
 RESOURCE ID: event_bonus_season5_dec
 TEXT: Сезон наследия: Декабрьский бонус
@@ -14668,6 +14880,9 @@ TEXT: Сезон Алолы
 RESOURCE ID: event_season7_name
 TEXT: Сезон GO
 
+RESOURCE ID: event_season8_name
+TEXT: Сезон света
+
 RESOURCE ID: event_seasonal_eggs
 TEXT: Сезонные Покемоны из яиц
 
@@ -14823,6 +15038,9 @@ TEXT: Событие Эволюции – Победи в {0} рейдах
 
 RESOURCE ID: evo_2019_rocket_l
 TEXT: Событие Эволюции – Победи лидеров Команды Ракета GO ×{0}
+
+RESOURCE ID: evolution_cup_title
+TEXT: Кубок эволюции
 
 RESOURCE ID: evolution_event_name
 TEXT: Эволюционное событие
@@ -15007,6 +15225,9 @@ RESOURCE ID: f_avatar_poses_bundle_pose_40
 TEXT: Поза
 Жуколова
 
+RESOURCE ID: f_avatar_poses_bundle_pose_41
+TEXT: Поза Гузмы
+
 RESOURCE ID: f_avatar_poses_empty_bundle_pose_empty
 TEXT: Спокойная поза
 
@@ -15132,6 +15353,9 @@ TEXT: Тематический полевой ивент-квест
 
 RESOURCE ID: field_research_special
 TEXT: Уникальные задания для полевого квеста уже доступны на некоторых Покестопах и в некоторых Гимах
+
+RESOURCE ID: field_research_special_abbrev
+TEXT: Уникальные задания для полевого квеста
 
 RESOURCE ID: field_test_lockout
 TEXT: Спасибо за полевые испытания <i>Pokémon GO</i>!
@@ -16588,6 +16812,24 @@ TEXT: 3 дополнительных серий битв в Боевой Лиг�
 RESOURCE ID: gbl_sets_extra_twenty_total
 TEXT: Всего 20 серий битв в Боевой Лиге GO
 
+RESOURCE ID: gbl_ticket_research_header_0
+TEXT: Квест на время в Боевой Лиге GO (1/5)
+
+RESOURCE ID: gbl_ticket_research_header_1
+TEXT: Квест на время в Боевой Лиге GO (2/5)
+
+RESOURCE ID: gbl_ticket_research_header_2
+TEXT: Квест на время в Боевой Лиге GO (3/5)
+
+RESOURCE ID: gbl_ticket_research_header_3
+TEXT: Квест на время в Боевой Лиге GO (4/5)
+
+RESOURCE ID: gbl_ticket_research_header_4
+TEXT: Квест на время в Боевой Лиге GO (5/5)
+
+RESOURCE ID: gbl_ticket_research_title
+TEXT: Квест на время в Боевой Лиге GO
+
 RESOURCE ID: gbl_triple_dust_win
 TEXT: 3× звёздной пыли в награду в Боевой Лиге GO
 
@@ -16913,6 +17155,18 @@ TEXT: НЕ ДОБАВЛЯТЬ
 
 RESOURCE ID: general_m
 TEXT: м
+
+RESOURCE ID: general_maximum_height
+TEXT: Самый высокий
+
+RESOURCE ID: general_maximum_weight
+TEXT: Самый тяжёлый
+
+RESOURCE ID: general_minimum_height
+TEXT: Самый низкий
+
+RESOURCE ID: general_minimum_weight
+TEXT: Самый лёгкий
 
 RESOURCE ID: general_month
 TEXT: Месяц
@@ -17461,7 +17715,7 @@ RESOURCE ID: gofest2020_quest_rocket_dialogue_2_2
 TEXT: Согласно источникам, Команда Ракета GO могла захватить несколько Легендарных Покемонов и превратить их в Теневых Покемонов!
 
 RESOURCE ID: gofest2020_quest_rocket_dialogue_2_3
-TEXT: Если я правильно помню, руководители команд видели один из этих воздушных шаров на Фестивале GO в прошлом году, а другой – во время их захвата несколько недель назад.
+TEXT: Если я правильно помню, лидеры команд видели один из этих воздушных шаров на Фестивале GO в прошлом году, а другой – во время их захвата несколько недель назад.
 
 RESOURCE ID: gofest2020_quest_rocket_dialogue_2_4
 TEXT: Я не могу себе представить, зачем Команда GO вложила ресурсы в такое... интересное средство передвижения. Однако очевидно, что их босс приложил много усилий, чтобы снабдить своих агентов воздушными шарами.
@@ -17892,7 +18146,7 @@ RESOURCE ID: gofest2022_finale_1_2_4
 TEXT: Портал вёл в абсолютно другое измерение. Там были невообразимо странные существа...
 
 RESOURCE ID: gofest2022_finale_1_2_5
-TEXT: Я непременно тебе о них расскажу! (Зевает) Но для начал мне нужно немного поспать. Обещаю, что не упущу ни одной детали после того, как... посплю... 
+TEXT: Я непременно тебе о них расскажу! (Зевает) Но для начала мне нужно немного поспать. Обещаю, что не упущу ни одной детали после того, как... посплю... 
 (Храпит)
 
 RESOURCE ID: gofest2022_finale_2_1_1
@@ -18974,89 +19228,8 @@ TEXT: Добро пожаловать на Тур Pokémon GO: Канто!
 RESOURCE ID: gotour2021_welcome_red
 TEXT: Добро пожаловать на Тур Pokémon GO: Канто!
 
-RESOURCE ID: gotour2022
-TEXT: Тур Pokémon GO: Джото
-
-RESOURCE ID: gotour2022_battle
-TEXT: Тур GO: Боевое испытание Джото
-
-RESOURCE ID: gotour2022_battle_0
-TEXT: Тур GO: Боевое испытание Джото (1/11)
-
-RESOURCE ID: gotour2022_battle_1
-TEXT: Тур GO: Боевое испытание Джото (2/11)
-
-RESOURCE ID: gotour2022_battle_10
-TEXT: Тур GO: Боевое испытание Джото (11/11)
-
-RESOURCE ID: gotour2022_battle_2
-TEXT: Тур GO: Боевое испытание Джото (3/11)
-
-RESOURCE ID: gotour2022_battle_3
-TEXT: Тур GO: Боевое испытание Джото (4/11)
-
-RESOURCE ID: gotour2022_battle_4
-TEXT: Тур GO: Боевое испытание Джото (5/11)
-
-RESOURCE ID: gotour2022_battle_5
-TEXT: Тур GO: Боевое испытание Джото (6/11)
-
-RESOURCE ID: gotour2022_battle_6
-TEXT: Тур GO: Боевое испытание Джото (7/11)
-
-RESOURCE ID: gotour2022_battle_7
-TEXT: Тур GO: Боевое испытание Джото (8/11)
-
-RESOURCE ID: gotour2022_battle_8
-TEXT: Тур GO: Боевое испытание Джото (9/11)
-
-RESOURCE ID: gotour2022_battle_9
-TEXT: Тур GO: Боевое испытание Джото (10/11)
-
 RESOURCE ID: gotour2022_battle_champion
 TEXT: Чемпион боевого испытания Джото
-
-RESOURCE ID: gotour2022_battle_choice_keep_battling
-TEXT: Продолжить сражение
-
-RESOURCE ID: gotour2022_battle_choice_stop_battling
-TEXT: Остановить сражение
-
-RESOURCE ID: gotour2022_battle_description_keep_battling
-TEXT: Все Тренеры Гима GO снова появятся на Покестопах, что позволит тебе снова сразиться с ними. Ты можешь сражаться с ними за награды в течение дня.
-
-RESOURCE ID: gotour2022_battle_description_stop_battling
-TEXT: Тренеры Гима GO больше не появятся на Покестопах, что позволит тебе  сосредоточиться исключительно на сборе Покемонов.
-
-RESOURCE ID: gotour2022_battle_dialogue_0_0
-TEXT: Вот и всё, %PLAYERNAME%. Твоей силе нет равных.
-
-RESOURCE ID: gotour2022_battle_dialogue_0_1
-TEXT: Тебе присвоено звание Чемпиона боевого испытания Джото!
-
-RESOURCE ID: gotour2022_battle_dialogue_0_2
-TEXT: Твои преданность, вера и любовь к Покемонам сделали это возможным. Секрет твоей победы в том, что Покемоны верили в тебя так же, как и ты в них.
-
-RESOURCE ID: gotour2022_battle_dialogue_0_3
-TEXT: Поздравляю, %PLAYERNAME%!
-
-RESOURCE ID: gotour2022_battle_dialogue_0_4
-TEXT: Как ты отпразднуешь это важное достижение?
-
-RESOURCE ID: gotour2022_battle_dialogue_1_0
-TEXT: Ты превосходишь все ожидания, %PLAYERNAME%! Похоже, твои Покемоны тоже готовы продолжать сражаться. Вместе вы действительно идеальная команда. Вперёд, пусть команда тобой гордится!
-
-RESOURCE ID: gotour2022_battle_dialogue_2_0
-TEXT: Важно уметь вовремя остановиться, %PLAYERNAME%. Быть добрым по отношению к себе – это не слабость.
-
-RESOURCE ID: gotour2022_battle_dialogue_2_1
-TEXT: Кажется, и твоим Покемонам не помешает сделать перерыв. Так почему бы вам всем не отдохнуть немного? А когда наберёшься сил, сможешь поймать много Покемонов и завести новых друзей.
-
-RESOURCE ID: gotour2022_battle_leader_guidance
-TEXT: Подсказка: Заработай звёздную пыль, чтобы сразиться с лидером боевого испытания Джото!
-
-RESOURCE ID: gotour2022_beast_guidance
-TEXT: Raikou, Entei, and Suicune will flee from you when encountered in the wild. Take a snapshot before they do!
 
 RESOURCE ID: gotour2022_challenger_bug_azalea_loss
 TEXT: Мой Покемон-Насекомое проиграл! Очень жаль.
@@ -19262,38 +19435,8 @@ TEXT: Ты хочешь выбрать версию Gold?
 RESOURCE ID: gotour2022_choose_version_title_silver
 TEXT: Ты хочешь выбрать версию Silver?
 
-RESOURCE ID: gotour2022_defeat_leader
-TEXT: Победи лидера боевого испытания Джото
-
-RESOURCE ID: gotour2022_evolve
-TEXT: Тур GO Джото: Эволюция
-
-RESOURCE ID: gotour2022_evolve_description
-TEXT: Эволюционируй Покемонов, обнаруженных в Джото
-
 RESOURCE ID: gotour2022_gold
 TEXT: Тур GO Джото: версия Gold
-
-RESOURCE ID: gotour2022_gold_catch
-TEXT: Тур GO Джото: Gold (Ладан)
-
-RESOURCE ID: gotour2022_gold_catch_description
-TEXT: Используй ладан, чтобы получить Покемонов, эксклюзивных для версии Gold
-
-RESOURCE ID: gotour2022_gold_trade
-TEXT: Тур GO Джото: Gold (Обмен)
-
-RESOURCE ID: gotour2022_gold_trade_description
-TEXT: Обменивайся с друзьями, чтобы получить Покемонов, эксклюзивных для версии Silver
-
-RESOURCE ID: gotour2022_goldenrod_city
-TEXT: Тур GO Джото: Голденрод-Сити
-
-RESOURCE ID: gotour2022_goldenrod_city_description
-TEXT: Лови Покемонов во время часа Голденрод-Сити
-
-RESOURCE ID: gotour2022_goldenrod_city_hour
-TEXT: Сейчас: Час Голденрод-Сити!
 
 RESOURCE ID: gotour2022_instinct_leader_loss
 TEXT: Ой...
@@ -19307,15 +19450,6 @@ TEXT: Инстинкты часто нам пригождаются, не так
 RESOURCE ID: gotour2022_instinct_leader_victory
 TEXT: Победа? Вот здорово! Победа! Ура!
 
-RESOURCE ID: gotour2022_mt_silver
-TEXT: Тур GO Джото: Серебряная гора
-
-RESOURCE ID: gotour2022_mt_silver_description
-TEXT: Лови Покемонов во время часа Серебряной горы
-
-RESOURCE ID: gotour2022_mt_silver_hour
-TEXT: Сейчас: Час Серебряной горы!
-
 RESOURCE ID: gotour2022_mystic_leader_loss
 TEXT: Хм, любопытно.
 
@@ -19328,56 +19462,8 @@ TEXT: Полное самообладание и точный анализ – �
 RESOURCE ID: gotour2022_mystic_leader_victory
 TEXT: Хм, любопытно.
 
-RESOURCE ID: gotour2022_national_park
-TEXT: Тур GO Джото: Национальный парк
-
-RESOURCE ID: gotour2022_national_park_description
-TEXT: Лови Покемонов во время часа национального парка
-
-RESOURCE ID: gotour2022_national_park_hour
-TEXT: Сейчас: Час национального парка!
-
-RESOURCE ID: gotour2022_new_bark_town
-TEXT: Тур GO Джото: Нью Барк Таун
-
-RESOURCE ID: gotour2022_new_bark_town_description
-TEXT: Лови Покемонов во время часа Нью Барк Тауна
-
-RESOURCE ID: gotour2022_new_bark_town_hour
-TEXT: Сейчас: Час Нью Барк Тауна!
-
-RESOURCE ID: gotour2022_npc_guidance
-TEXT: Подсказка: ты можешь найти Тренеров Гима Джото GO на Покестопах! Посети разные Покестопы, чтобы найти разных Тренеров Гима.
-
-RESOURCE ID: gotour2022_raid
-TEXT: Тур GO Джото: Рейд
-
-RESOURCE ID: gotour2022_raid_description
-TEXT: Найди этих Покемонов в рейдах
-
 RESOURCE ID: gotour2022_silver
 TEXT: Тур GO Джото: версия Silver
-
-RESOURCE ID: gotour2022_silver_catch
-TEXT: Тур GO Джото: Silver (Ладан)
-
-RESOURCE ID: gotour2022_silver_catch_description
-TEXT: Используй ладан, чтобы получить Покемонов, эксклюзивных для версии Silver
-
-RESOURCE ID: gotour2022_silver_trade
-TEXT: Тур GO Джото: Silver (Обмен)
-
-RESOURCE ID: gotour2022_silver_trade_description
-TEXT: Обменивайся с друзьями, чтобы получить Покемонов, эксклюзивных для версии Gold
-
-RESOURCE ID: gotour2022_snapshot_guidance
-TEXT: Подсказка: Райку, Энтей и Суикун, скорее всего, убегут, когда ты встретишь их в дикой природе. Сделай их фото, чтобы заработать награды, которые позволят их поймать!
-
-RESOURCE ID: gotour2022_special
-TEXT: Тур GO Джото: Особое
-
-RESOURCE ID: gotour2022_special_description
-TEXT: Заверши специальный квест Джото и сделай фото
 
 RESOURCE ID: gotour2022_tr_beasts_photo_safari
 TEXT: Фотосафари: Райку, Энтей и Суикун
@@ -19393,18 +19479,6 @@ TEXT: Что бы ни случилось, огонь нашего мужест�
 
 RESOURCE ID: gotour2022_valor_leader_victory
 TEXT: Очередная победа Команды Доблесть. Хочешь снова сразиться?
-
-RESOURCE ID: gotour2022_violet_city
-TEXT: Тур GO Джото: Виолет-Сити
-
-RESOURCE ID: gotour2022_violet_city_description
-TEXT: Лови Покемонов во время часа Виолет-Сити
-
-RESOURCE ID: gotour2022_violet_city_hour
-TEXT: Сейчас: Час Виолет-Сити!
-
-RESOURCE ID: gotour2022_welcome
-TEXT: Добро пожаловать на Тур Pokémon GO: Джото!
 
 RESOURCE ID: gotour_kanto
 TEXT: Тур Pokémon GO: Канто
@@ -19946,6 +20020,12 @@ TEXT: Тур GO: Живое событие – Элитная Четвёрка (
 RESOURCE ID: gotoursik_welcome
 TEXT: Добро пожаловать на Тур Pokémon GO: Живое событие – Шагни в Канто!
 
+RESOURCE ID: goyang_cup_title
+TEXT: Кубок поимки Коян
+
+RESOURCE ID: goyang_cup_title_post
+TEXT: Кубок поимки после события: Коян
+
 RESOURCE ID: gp_super_premium_bundle
 TEXT: Супер-премиум-
 набор
@@ -20257,7 +20337,7 @@ RESOURCE ID: grunt_generic_challenge#12__female_speaker
 TEXT: Тебе здесь нечего делать! А ну, быстро домой!
 
 RESOURCE ID: grunt_generic_challenge#12__male_speaker
-TEXT: Тебе здесь нечего делать! А ну, быстро домой!
+TEXT: Тебе здесь нечего делать! А ну быстро домой!
 
 RESOURCE ID: grunt_generic_challenge#13__female_speaker
 TEXT: На Покемонах можно хорошо заработать, поэтому мы их и используем. Не лезь в наши дела!
@@ -20602,10 +20682,10 @@ RESOURCE ID: grunt_generic_greeting#21__male_speaker
 TEXT: Ты пытаешься вмешаться в операцию Команды Ракета GO? Это ж какие нервы надо иметь!
 
 RESOURCE ID: grunt_generic_greeting#22__female_speaker
-TEXT: Команда Ракета GO взяла этот Покестоп под свой контроль!
+TEXT: Тебе никуда не спрятаться от Команды Ракета GO!
 
 RESOURCE ID: grunt_generic_greeting#22__male_speaker
-TEXT: Команда Ракета GO взяла этот Покестоп под свой контроль!
+TEXT: Тебе не остановить Команду Ракета GO!
 
 RESOURCE ID: grunt_generic_greeting#23__female_speaker
 TEXT: Мы – Команда Ракета GO, и наша сила вселяет страх!
@@ -20741,6 +20821,9 @@ TEXT: Стремление к расследованию – Сделай хор
 
 RESOURCE ID: gt_2020_spin_medium
 TEXT: Стремление к расследованию – Покрути Покестопы: {0}
+
+RESOURCE ID: gui_vivillon_map_header
+TEXT: Vivillon Habitat
 
 RESOURCE ID: gym_approach_battles_won
 TEXT: Выиграно сражений:
@@ -21054,6 +21137,9 @@ TEXT: Хэллоуинское озорство: Часть 1
 
 RESOURCE ID: halloween_event_name_2
 TEXT: Хэллоуинское озорство: Часть 2
+
+RESOURCE ID: halloween_ultra_cup_title
+TEXT: Кубок Хэллоуина: Ультралига
 
 RESOURCE ID: hatch_box
 TEXT: Коробка инкубаторов
@@ -21663,7 +21749,7 @@ RESOURCE ID: item_event_ticket_pink_bulbt_details
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 22 января 2022 г. вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Билет на специальный квест 17 июля 2022 г. с 11:00 до 14:00 по местному времени, вне зависимости от твоего местонахождения.
+TEXT: Билет на специальный квест 18 сентября 2022 г. с 14:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_desc_2
 TEXT: Билет на специальный квест 21 ноября с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. 
@@ -21675,7 +21761,7 @@ RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: Билет на специальное событие с 10:00 2020 г. 19 декабря до 20:00 20 декабря 2020 г. по местному времени, вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 17 июля 2022 г., вне зависимости от твоего местонахождения.
+TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 18 сентября 2022 г., вне зависимости от твоего местонахождения.
 
 RESOURCE ID: item_event_ticket_pink_details_2
 TEXT: Этот билет активируется автоматически, чтобы дать тебе доступ к специальному квесту 21 ноября, вне зависимости от твоего местонахождения.
@@ -22064,6 +22150,12 @@ TEXT: Препарат, способный оживить Покемона, по
 RESOURCE ID: item_revive_name
 TEXT: Оживление
 
+RESOURCE ID: item_route_maker_desc
+TEXT: A device that lets you create Routes. You can have up to five active Routes at a time.
+
+RESOURCE ID: item_route_maker_name
+TEXT: Составитель маршрутов
+
 RESOURCE ID: item_special_camera_desc
 TEXT: Устройство, чтобы фотографировать Покемонов. Снимками можно делиться с друзьями.
 
@@ -22324,6 +22416,9 @@ TEXT: Последняя игра: 2+ дн. назад
 
 RESOURCE ID: last_played_yesterday
 TEXT: Последняя игра: Вчера
+
+RESOURCE ID: last_time_activity_label
+TEXT: Last Time Activity
 
 RESOURCE ID: leader_map_assembled
 TEXT: Ракетный радар собран!
@@ -23298,7 +23393,7 @@ RESOURCE ID: limited_research_infernape
 TEXT: Ограниченный квест: Инфернейп
 
 RESOURCE ID: limited_research_inkay
-TEXT: Ограниченный квест: Инкей
+TEXT: Inkay Limited Research
 
 RESOURCE ID: limited_research_ivysaur
 TEXT: Ограниченный квест: Айвизавр
@@ -24606,6 +24701,9 @@ TEXT: Малый кубок
 RESOURCE ID: little_jungle_cup_title
 TEXT: Малый кубок джунглей
 
+RESOURCE ID: little_jungle_remix_cup_title
+TEXT: Малый кубок джунглей: Ремикс
+
 RESOURCE ID: live_events_shop_category_button
 TEXT: Узнать больше
 
@@ -24980,6 +25078,9 @@ TEXT: Поза чемпиона
 RESOURCE ID: m_avatar_poses_bundle_pose_40
 TEXT: Поза
 Жуколова
+
+RESOURCE ID: m_avatar_poses_bundle_pose_41
+TEXT: Поза Гузмы
 
 RESOURCE ID: m_avatar_poses_empty_bundle_pose_empty
 TEXT: Спокойная поза
@@ -25628,9 +25729,9 @@ RESOURCE ID: mega_walking_progress
 TEXT: Пройденное расстояние: прогресс
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2022-09-20T14:23:24.547506
-at SHA 382d84ecfe7fe32c2f5cc0224e59d1fcfd4d39d6
-Pipeline 1053654, job 12139488
+TEXT: Built at 2022-10-07T09:04:35.937526
+at SHA 029e467bb49e3de2ae874f180ac9aa1d15fdd8cf
+Pipeline 1076415, job 12507544
 
 RESOURCE ID: milestone_rewards_title
 TEXT: НАГРАДЫ ЗА ДОСТИЖЕНИЕ ЦЕЛИ
@@ -26628,6 +26729,9 @@ TEXT:  Превращение в Пепел
 RESOURCE ID: move_name_0348
 TEXT: Танец с Перьями
 
+RESOURCE ID: move_name_0350
+TEXT: Ветер Феи
+
 RESOURCE ID: move_name_0352
 TEXT: Шар Стихии
 
@@ -26639,6 +26743,9 @@ TEXT: Гиперпространственная Ярость
 
 RESOURCE ID: move_name_0355
 TEXT: Гиперпространственная Дыра
+
+RESOURCE ID: move_name_0356
+TEXT: Двойной Пинок
 
 RESOURCE ID: move_name_0357
 TEXT: Волшебный Лист
@@ -26681,6 +26788,9 @@ TEXT: Сияние Семени
 
 RESOURCE ID: move_name_0370
 TEXT: Преграда
+
+RESOURCE ID: move_name_0372
+TEXT: Метеоритный Луч
 
 RESOURCE ID: move_reroll_confirm_desc
 TEXT: {0} забудет атаку {1}.
@@ -27086,10 +27196,10 @@ RESOURCE ID: next_button
 TEXT: Далее
 
 RESOURCE ID: next_season_starts_on
-TEXT: Next season starts on {0}!
+TEXT: Следующий сезон начнётся {0}!
 
 RESOURCE ID: next_set_coming_on
-TEXT: Next coming on {0}!
+TEXT: Следующий появится {0}!
 
 RESOURCE ID: niantic_anniversary_event
 TEXT: Событие День рождения Niantic
@@ -27314,6 +27424,9 @@ TEXT: Тебе нужно будет находить и собирать Пок
 RESOURCE ID: onboard_welcome_screen|9
 TEXT: Выбери свой стиль и отправляйся навстречу приключениям!
 
+RESOURCE ID: one_route_nearby_label
+TEXT: 1 route
+
 RESOURCE ID: oneyearanniversary.1_title
 TEXT: Юбилейная коробка
 
@@ -27349,6 +27462,57 @@ TEXT: Ты можешь принять участие в AR-событии от 
 
 RESOURCE ID: open_webar_sponsored_gift_button
 TEXT: Открыть AR
+
+RESOURCE ID: ops_reject_i-ina
+TEXT: Inappropriate image
+
+RESOURCE ID: ops_reject_i-nl
+TEXT: Route cannot use Niantic logo
+
+RESOURCE ID: ops_reject_i-ppl
+TEXT: Image cannot contain people
+
+RESOURCE ID: ops_reject_i-tmc
+TEXT: Inappropriate image
+
+RESOURCE ID: ops_reject_or-dan
+TEXT: Route flagged as unsafe or inaccessible
+
+RESOURCE ID: ops_reject_or-h
+TEXT: Route flagged as unsafe
+
+RESOURCE ID: ops_reject_t-dan
+TEXT: Route flagged as unsafe or inaccessible
+
+RESOURCE ID: ops_reject_t-def
+TEXT: Text flagged as inappropriate
+
+RESOURCE ID: ops_reject_t-desc
+TEXT: Needs a description
+
+RESOURCE ID: ops_reject_t-ina
+TEXT: Text flagged as inappropriate
+
+RESOURCE ID: ops_reject_t-off
+TEXT: Route cannot call itself "official"
+
+RESOURCE ID: ops_reject_t-pii
+TEXT: Route cannot contain personal info
+
+RESOURCE ID: ops_reject_t-sell
+TEXT: Text flagged as inappropriate
+
+RESOURCE ID: ops_reject_t-spam
+TEXT: Text not related
+
+RESOURCE ID: ops_reject_t-test
+TEXT: Routes not complete
+
+RESOURCE ID: ops_reject_t-tmc
+TEXT: Text flagged by source
+
+RESOURCE ID: ops_reject_t-url
+TEXT: Text cannot contain HTML or emails
 
 RESOURCE ID: other_section_title
 TEXT: Прочее
@@ -27631,6 +27795,9 @@ TEXT: 5 неожиданных встреч с Ошавоттом в Стоп-к
 
 RESOURCE ID: photobomb_five_porygon
 TEXT: 5 неожиданных встреч с Поригоном в Стоп-кадре GO
+
+RESOURCE ID: photobomb_five_roggenrola
+TEXT: 5 неожиданных встреч с Роггенролой в Стоп-кадре GO
 
 RESOURCE ID: photobomb_five_roselia
 TEXT: 5 неожиданных встреч с Розелией в Стоп-кадре GO
@@ -28683,6 +28850,9 @@ TEXT: Все: {0}
 RESOURCE ID: pokedex_filter_button_mega
 TEXT: Мега: {0}
 
+RESOURCE ID: pokedex_filter_header
+TEXT: FILTER BY:
+
 RESOURCE ID: pokedex_mode_name_all
 TEXT: Все
 
@@ -28733,6 +28903,12 @@ TEXT: Боевая сила
 
 RESOURCE ID: pokedex_sort_number
 TEXT: Номер
+
+RESOURCE ID: pokedex_status_caught
+TEXT: Были пойманы
+
+RESOURCE ID: pokedex_status_seen
+TEXT: Замечено
 
 RESOURCE ID: pokemon_buddy_info_transfer_to_professor_confirmation
 TEXT: Ты действительно хочешь передать этого Покемона-приятеля?
@@ -35053,7 +35229,7 @@ TEXT: <size=36><b>Передать Покемона {0}?</b></size>
 Ты не сможешь отменить это действие после передачи.
 
 RESOURCE ID: pokemon_info_transfer_to_professor_result
-TEXT: Передача прошла успешно! Получены конфеты: {0}.
+TEXT: Передача прошла успешно! Получены конфеты от профессора: {0}.
 
 RESOURCE ID: pokemon_info_type
 TEXT: Тип
@@ -38006,6 +38182,27 @@ TEXT: Покемон {0} очищен!
 RESOURCE ID: pokemon_shiny_info_transfer_to_professor_confirmation
 TEXT: Ты действительно хочешь передать этого Сияющего Покемона?
 
+RESOURCE ID: pokemon_size_huge_encounter
+TEXT: Огромный!
+
+RESOURCE ID: pokemon_size_new_banner
+TEXT: Новый рекорд
+
+RESOURCE ID: pokemon_size_new_height_title
+TEXT: Новый рекорд роста
+
+RESOURCE ID: pokemon_size_new_tag
+TEXT: Новый
+
+RESOURCE ID: pokemon_size_new_title
+TEXT: Новый рекорд размера
+
+RESOURCE ID: pokemon_size_new_weight_title
+TEXT: Новый рекорд веса
+
+RESOURCE ID: pokemon_size_tiny_encounter
+TEXT: Крошечный!
+
 RESOURCE ID: pokemon_transfer_legendary_confirmation
 TEXT: Среди выбранных тобой Покемонов есть Легендарные или Мифические Покемоны! Ты точно хочешь передать выбранных Покемонов?
 
@@ -38069,6 +38266,66 @@ TEXT: Ты действительно хочешь передать это Ул�
 RESOURCE ID: pokemon_unfavorite_error
 TEXT: Не удалось удалить Покемона из избранных.
 
+RESOURCE ID: pokemon_vivillon_form_archipelago
+TEXT: Archipelago
+
+RESOURCE ID: pokemon_vivillon_form_continental
+TEXT: Continental
+
+RESOURCE ID: pokemon_vivillon_form_elegant
+TEXT: Elegant
+
+RESOURCE ID: pokemon_vivillon_form_fancy
+TEXT: Fancy
+
+RESOURCE ID: pokemon_vivillon_form_garden
+TEXT: Garden
+
+RESOURCE ID: pokemon_vivillon_form_high_plains
+TEXT: High Plains
+
+RESOURCE ID: pokemon_vivillon_form_icy_snow
+TEXT: Icy Snow
+
+RESOURCE ID: pokemon_vivillon_form_jungle
+TEXT: Jungle
+
+RESOURCE ID: pokemon_vivillon_form_marine
+TEXT: Marine
+
+RESOURCE ID: pokemon_vivillon_form_meadow
+TEXT: Meadow
+
+RESOURCE ID: pokemon_vivillon_form_modern
+TEXT: Modern
+
+RESOURCE ID: pokemon_vivillon_form_monsoon
+TEXT: Monsoon
+
+RESOURCE ID: pokemon_vivillon_form_ocean
+TEXT: Ocean
+
+RESOURCE ID: pokemon_vivillon_form_pokebal
+TEXT: Poké Ball
+
+RESOURCE ID: pokemon_vivillon_form_polar
+TEXT: Polar
+
+RESOURCE ID: pokemon_vivillon_form_river
+TEXT: River
+
+RESOURCE ID: pokemon_vivillon_form_sandstorm
+TEXT: Sandstorm
+
+RESOURCE ID: pokemon_vivillon_form_savanna
+TEXT: Savanna
+
+RESOURCE ID: pokemon_vivillon_form_sun
+TEXT: Sun
+
+RESOURCE ID: pokemon_vivillon_form_tundra
+TEXT: Tundra
+
 RESOURCE ID: pokemon_with_tag_count
 TEXT: Покемоны с этим тегом: {0}.
 
@@ -38080,6 +38337,12 @@ TEXT: {0} победил в битве!
 
 RESOURCE ID: pokemon_won_notification_toast|2
 TEXT: {0} одержал победу над твоими противниками!
+
+RESOURCE ID: pokemon_xxl_info_transfer_to_professor_confirmation
+TEXT: Ты точно хочешь передать этого Покемона XXL?
+
+RESOURCE ID: pokemon_xxs_info_transfer_to_professor_confirmation
+TEXT: Ты точно хочешь передать этого Покемона XXS?
 
 RESOURCE ID: pokemonstorageupgrade.1_description
 TEXT: Увеличивает максимальное количество твоих Покемонов на {0}.
@@ -38218,7 +38481,7 @@ RESOURCE ID: postcard_delete_confirmation_1
 TEXT: Удалить эту открытку?
 
 RESOURCE ID: postcard_delete_confirmation_2
-TEXT: Ты не сможешь отменить это действие после того, как удалишь открытку.
+TEXT: Ты не сможешь восстановить открытку после удаления.
 
 RESOURCE ID: postcard_favorite
 TEXT: ИЗБРАННОЕ
@@ -38237,6 +38500,21 @@ TEXT: Как добавить открытки
 
 RESOURCE ID: postcard_manage_collection_button
 TEXT: УПРАВЛЕНИЕ
+
+RESOURCE ID: postcard_multi_delete_button_text
+TEXT: УДАЛИТЬ ({0})
+
+RESOURCE ID: postcard_multi_delete_cannot_undo
+TEXT: Ты не сможешь отменить это действие после того, как удалишь открытку.
+
+RESOURCE ID: postcard_multi_delete_complete
+TEXT: Выбранные открытки были удалены.
+
+RESOURCE ID: postcard_multi_delete_plural
+TEXT: Удалить эти открытки: {0}?
+
+RESOURCE ID: postcard_multi_delete_singular
+TEXT: Удалить эту открытку?
 
 RESOURCE ID: postcard_name
 TEXT: Альбом
@@ -38348,6 +38626,9 @@ TEXT: Недавно посещены
 RESOURCE ID: profile_no_gymbadges
 TEXT: У тебя нет Гим-значков.
 
+RESOURCE ID: profile_no_routemedals
+TEXT: You don't have any route medals!
+
 RESOURCE ID: profile_player_level
 TEXT: Уровень
 
@@ -38380,6 +38661,9 @@ TEXT: ПРОМО
 
 RESOURCE ID: promo_redeem_button
 TEXT: ИСПОЛЬЗОВАТЬ
+
+RESOURCE ID: psychic_cup_title
+TEXT: Психический кубок
 
 RESOURCE ID: psychic_spectacular_event_name
 TEXT: Психофеерия
@@ -38656,9 +38940,6 @@ TEXT: Таинственные предметы
 
 RESOURCE ID: quest_breakthrough_reward_stardust
 TEXT: Звёздная Пыль
-
-RESOURCE ID: quest_buddy_affection_days_in_a_row
-TEXT: Заработай сердечко с твоим приятелем {0} дн. подряд
 
 RESOURCE ID: quest_buddy_battle_trainer_adventuring_plural
 TEXT: Сразись с другим Тренером вместе со своим Покемоном-приятелем, пока он путешествует с тобой ×{0}
@@ -39986,9 +40267,6 @@ TEXT: Эволюционируй 1 Покемона: Балтой
 RESOURCE ID: quest_evolve_barboach_singular
 TEXT: Эволюционируй 1 Покемона: Барбоч
 
-RESOURCE ID: quest_evolve_bayleef
-TEXT: Эволюционируй своего Бэйлифа
-
 RESOURCE ID: quest_evolve_bayleef_singular
 TEXT: Эволюционируй 1 Покемона: Бэйлиф
 
@@ -40073,9 +40351,6 @@ TEXT: Эволюционируй 1 Покемона: Чераби
 RESOURCE ID: quest_evolve_chespin_singular
 TEXT: Эволюционируй 1 Покемона: Чеспин
 
-RESOURCE ID: quest_evolve_chikorita
-TEXT: Эволюционируй своего Чикориту
-
 RESOURCE ID: quest_evolve_chikorita_singular
 TEXT: Эволюционируй 1 Покемона: Чикорита
 
@@ -40118,9 +40393,6 @@ TEXT: Эволюционируй 1 Покемона: Кранидос
 RESOURCE ID: quest_evolve_croagunk_singular
 TEXT: Эволюционируй 1 Покемона: Кроганк
 
-RESOURCE ID: quest_evolve_croconaw
-TEXT: Эволюционируй своего Кроконава
-
 RESOURCE ID: quest_evolve_croconaw_singular
 TEXT: Эволюционируй 1 Покемона: Кроконав
 
@@ -40129,9 +40401,6 @@ TEXT: Эволюционируй 1 Покемона: Кабчу
 
 RESOURCE ID: quest_evolve_cubone_singular
 TEXT: Эволюционируй 1 Покемона: Кьюбон
-
-RESOURCE ID: quest_evolve_cyndaquil
-TEXT: Эволюционируй своего Синдаквила
 
 RESOURCE ID: quest_evolve_cyndaquil_singular
 TEXT: Эволюционируй 1 Покемона: Синдаквил
@@ -40694,9 +40963,6 @@ TEXT: Эволюционируй 1 Покемона: Пьюпитар
 RESOURCE ID: quest_evolve_purrloin_singular
 TEXT: Эволюционируй 1 Покемона: Пуррлойн
 
-RESOURCE ID: quest_evolve_quilava
-TEXT: Эволюционируй своего Квилаву
-
 RESOURCE ID: quest_evolve_quilava_singular
 TEXT: Эволюционируй 1 Покемона: Квилава
 
@@ -40725,7 +40991,7 @@ RESOURCE ID: quest_evolve_riolu_singular
 TEXT: Эволюционируй 1 Покемона: Риолу
 
 RESOURCE ID: quest_evolve_roggenrola_singular
-TEXT: Эволюционируй 1 Покемона: Роггенрола
+TEXT: Эволюционируй 1 Роггенролу
 
 RESOURCE ID: quest_evolve_roselia_singular
 TEXT: Эволюционируй 1 Покемона: Розелия
@@ -40976,9 +41242,6 @@ TEXT: Эволюционируй 1 Покемона: Тогэтик
 RESOURCE ID: quest_evolve_torchic_singular
 TEXT: Эволюционируй 1 Покемона: Торчик
 
-RESOURCE ID: quest_evolve_totodile
-TEXT: Эволюционируй своего Тотодайла
-
 RESOURCE ID: quest_evolve_totodile_singular
 TEXT: Эволюционируй 1 Покемона: Тотодайл
 
@@ -41002,6 +41265,9 @@ TEXT: Эволюционируй 1 Покемона: Тимпоул
 
 RESOURCE ID: quest_evolve_tynamo_singular
 TEXT: Эволюционируй 1 Покемона: Тинамо
+
+RESOURCE ID: quest_evolve_type_dark_plural
+TEXT: Эволюционируй {0} тёмных Покемонов
 
 RESOURCE ID: quest_evolve_type_electric_plural
 TEXT: Эволюционируй {0} электрических Покемонов
@@ -41645,60 +41911,6 @@ TEXT: Заработай 5 золотых медалей
 RESOURCE ID: quest_gold_medal_singular
 TEXT: Заработай золотую медаль
 
-RESOURCE ID: quest_gotour2022_sr_title
-TEXT: Тур Pokémon GO: Джото
-
-RESOURCE ID: quest_gotour2022_sr_title_1
-TEXT: Тур Pokémon GO: Джото (1/11)
-
-RESOURCE ID: quest_gotour2022_sr_title_10
-TEXT: Тур Pokémon GO: Джото (10/11)
-
-RESOURCE ID: quest_gotour2022_sr_title_11
-TEXT: Тур Pokémon GO: Джото (11/11)
-
-RESOURCE ID: quest_gotour2022_sr_title_2
-TEXT: Тур Pokémon GO: Джото (2/11)
-
-RESOURCE ID: quest_gotour2022_sr_title_3
-TEXT: Тур Pokémon GO: Джото (3/11)
-
-RESOURCE ID: quest_gotour2022_sr_title_4
-TEXT: Тур Pokémon GO: Джото (4/11)
-
-RESOURCE ID: quest_gotour2022_sr_title_5
-TEXT: Тур Pokémon GO: Джото (5/11)
-
-RESOURCE ID: quest_gotour2022_sr_title_6
-TEXT: Тур Pokémon GO: Джото (6/11)
-
-RESOURCE ID: quest_gotour2022_sr_title_7
-TEXT: Тур Pokémon GO: Джото (7/11)
-
-RESOURCE ID: quest_gotour2022_sr_title_8
-TEXT: Тур Pokémon GO: Джото (8/11)
-
-RESOURCE ID: quest_gotour2022_sr_title_9
-TEXT: Тур Pokémon GO: Джото (9/11)
-
-RESOURCE ID: quest_gotour_branch_chikorita_description
-TEXT: Ты сможешь поймать Чикориту и заработать Чикорита-конфеты. А также ты получишь задания, где нужно эволюционировать и делать фото Чикориты.
-
-RESOURCE ID: quest_gotour_branch_chikorita_title
-TEXT: Выбери Чикориту
-
-RESOURCE ID: quest_gotour_branch_cyndaquil_description
-TEXT: Ты сможешь поймать Синдаквила и заработать Синдаквил-конфеты. А также ты получишь задания, где нужно эволюционировать и делать фото Синдаквила.
-
-RESOURCE ID: quest_gotour_branch_cyndaquil_title
-TEXT: Выбери Синдаквила
-
-RESOURCE ID: quest_gotour_branch_totodile_description
-TEXT: Ты сможешь поймать Тотодайла и заработать Тотодайл-конфеты. А также ты получишь задания, где нужно эволюционировать и делать фото Тотодайла.
-
-RESOURCE ID: quest_gotour_branch_totodile_title
-TEXT: Выбери Тотодайла
-
 RESOURCE ID: quest_gotour_kanto_bonus
 TEXT: Тур Pokémon GO: Канто - Бонусное событие
 
@@ -42074,17 +42286,8 @@ TEXT: Усиль Покемонов ×{0}
 RESOURCE ID: quest_power_up_plural_bug
 TEXT: Усиль {0} насекомых Покемонов
 
-RESOURCE ID: quest_power_up_plural_electric
-TEXT: Усиль {0} электрических Покемонов
-
-RESOURCE ID: quest_power_up_plural_fighting
-TEXT: Усиль {0} боевых Покемонов
-
-RESOURCE ID: quest_power_up_plural_ground
-TEXT: Усиль {0} земляных Покемонов
-
-RESOURCE ID: quest_power_up_plural_normal
-TEXT: Усиль {0} обычных Покемонов
+RESOURCE ID: quest_power_up_plural_dark
+TEXT: Усиль {0} тёмных Покемонов
 
 RESOURCE ID: quest_power_up_plural_poison
 TEXT: Усиль {0} ядовитых Покемонов
@@ -42092,8 +42295,8 @@ TEXT: Усиль {0} ядовитых Покемонов
 RESOURCE ID: quest_power_up_plural_rock
 TEXT: Усиль {0} каменных Покемонов
 
-RESOURCE ID: quest_power_up_plural_water
-TEXT: Усиль {0} водных Покемонов
+RESOURCE ID: quest_power_up_plural_steel
+TEXT: Усиль {0} стальных Покемонов
 
 RESOURCE ID: quest_power_up_singular
 TEXT: Усиль 1 Покемона
@@ -42106,9 +42309,6 @@ TEXT: Поймай {0} психических Покемонов
 
 RESOURCE ID: quest_psychicspec_evolve_plural
 TEXT: Эволюционируй Эксегкьюта или Слоупока: {0}
-
-RESOURCE ID: quest_raid_friend_singular
-TEXT: Прими участие в рейде вместе с другом
 
 RESOURCE ID: quest_raid_with_buddy_plural
 TEXT: Сразись в {0} рейдах со своим приятелем
@@ -42254,6 +42454,15 @@ TEXT: Используй суперэффективные заряженные �
 RESOURCE ID: quest_rockethq1_trainerbattle_win
 TEXT: Выиграй тренерские битвы Великой Лиги против другого Тренера: {0}
 
+RESOURCE ID: quest_roggenrola_catch_b
+TEXT: Поймай {0} Роггенрол
+
+RESOURCE ID: quest_roggenrola_evolve_b
+TEXT: Эволюционируй {0} Роггенрол
+
+RESOURCE ID: quest_roggenrola_snapshot_b
+TEXT: Сделай {0} фото Роггенролы
+
 RESOURCE ID: quest_roset_catch_b
 TEXT: Поймай {0} Розелий
 
@@ -42293,12 +42502,6 @@ TEXT: Сделай фото Бульбазавра
 RESOURCE ID: quest_snapshot_charmander
 TEXT: Сделай фото Чармандера
 
-RESOURCE ID: quest_snapshot_chikorita
-TEXT: Сделай фото своего Чикориты
-
-RESOURCE ID: quest_snapshot_cyndaquil
-TEXT: Сделай фото своего Синдаквила
-
 RESOURCE ID: quest_snapshot_genesect
 TEXT: Сделай {0} фото Дженесекта
 
@@ -42323,14 +42526,14 @@ TEXT: Сделай фото
 RESOURCE ID: quest_snapshot_storage_bug_unique_plural
 TEXT: Сделай фото {0} разных пойманных тобой насекомых Покемонов
 
+RESOURCE ID: quest_snapshot_storage_steel_unique_plural
+TEXT: Сделай фото {0} разных пойманных тобой стальных Покемонов
+
 RESOURCE ID: quest_snapshot_thundurus
 TEXT: Сделай фото Тандуруса
 
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: Сделай фото Торнадуса
-
-RESOURCE ID: quest_snapshot_totodile
-TEXT: Сделай фото своего Тотодайла
 
 RESOURCE ID: quest_snapshot_unique_fire_pokemon
 TEXT: Сделай {0} фото разных огненных Покемонов
@@ -42364,9 +42567,6 @@ TEXT: Сделай фото дикого Иви
 
 RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: Сделай {0} фото диких электрических Покемонов
-
-RESOURCE ID: quest_snapshot_wild_entei
-TEXT: Сделай фото дикого Энтея
 
 RESOURCE ID: quest_snapshot_wild_fairy_plural
 TEXT: Сделай {0} фото диких Покемонов типа Феи
@@ -42422,9 +42622,6 @@ TEXT: Сделай {0} фото диких ядовитых Покемонов
 RESOURCE ID: quest_snapshot_wild_psychic_plural
 TEXT: Сделай {0} фото диких психических Покемонов
 
-RESOURCE ID: quest_snapshot_wild_raikou
-TEXT: Сделай фото дикого Райку
-
 RESOURCE ID: quest_snapshot_wild_rock_plural
 TEXT: Сделай {0} фото диких каменных Покемонов
 
@@ -42443,8 +42640,8 @@ TEXT: Сделай фото дикого Снизела, Кроганка или
 RESOURCE ID: quest_snapshot_wild_steel_plural
 TEXT: Сделай {0} фото диких стальных Покемонов
 
-RESOURCE ID: quest_snapshot_wild_suicune
-TEXT: Сделай фото дикого Суикуна
+RESOURCE ID: quest_snapshot_wild_steel_unique_plural
+TEXT: Сделай фото {0} разных диких стальных Покемонов
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
 TEXT: Сделай фото дикого Сэндшрю, Трапинча или Какнеи
@@ -43790,7 +43987,7 @@ RESOURCE ID: quest_special_dialogue_gt_2_1
 TEXT: Говорят, что Хонтер прячется в стенах, чтобы следить за своими врагами, но в данном случае у меня такое чувство, что он просто играет.
 
 RESOURCE ID: quest_special_dialogue_gt_2_2
-TEXT: Я заметил, что лидеры групп целый день спотыкаются обо что-то в лаборатории. Похоже, что Хонтер развлекается, но я не думаю, что Бланш это нравится.
+TEXT: Я заметил, что лидеры команд целый день спотыкаются обо что-то в лаборатории. Похоже, что Хонтер развлекается, но я не думаю, что Бланш это нравится.
 
 RESOURCE ID: quest_special_dialogue_gt_2_3
 TEXT: Давайте решим эту проблему и эволюционируем Хонтера.
@@ -46155,15 +46352,6 @@ TEXT: Я ценю твою усердную работу, %PLAYERNAME%, и да�
 RESOURCE ID: quest_special_dialogue_poryt_3_6
 TEXT: А пока ИДИ И ЛОВИ!
 
-RESOURCE ID: quest_special_dialogue_power_jan22_1_10
-TEXT: Так или иначе. Наше последнее исследование было захватывающим, не так ли, %PLAYERNAME%?
-
-RESOURCE ID: quest_special_dialogue_power_jan22_1_11
-TEXT: Я уверен, что нас ждут ещё более захватывающие открытия!
-
-RESOURCE ID: quest_special_dialogue_power_jan22_1_12
-TEXT: Давай посмотрим, что ещё принесёт наше совместное приключение.
-
 RESOURCE ID: quest_special_dialogue_rocket_0_0
 TEXT: Привет, %PLAYERNAME%, рад тебя видеть! Поможешь мне с моим квестом?
 
@@ -46705,7 +46893,7 @@ RESOURCE ID: quest_special_dialogue_rockethq4_2_1
 TEXT: Спасение этих Покемонов было основной причиной моей работы над прототипом Ракетного радара.
 
 RESOURCE ID: quest_special_dialogue_rockethq4_2_2
-TEXT: К счастью, с помощью лидеров групп и мотивированных, как ты, Тренеров мы смогли разработать эффективный Ракетный радар и даже начать работу над Суперракетным радаром!
+TEXT: К счастью, с помощью лидеров команд и таких целеустремлённых Тренеров, как ты, мы смогли разработать эффективный Ракетный радар и даже начать работу над Суперракетным радаром!
 
 RESOURCE ID: quest_special_dialogue_rockethq4_2_3
 TEXT: Хотя это и опасная ситуация, но захват Команды Ракета GO предоставил интересную возможность для исследования и стал захватывающим приключением. Я с нетерпением жду того момента, когда мы сможем отправить наши заключения моему наставнику, Профессору Оуку. Я обязательно дам ему знать, что ты передаёшь привет!
@@ -46909,7 +47097,7 @@ RESOURCE ID: quest_special_dialogue_rockethq6_5_0
 TEXT: Какая впечатляющая победа, %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_rockethq6_5_1
-TEXT: Джованни – один из самых сильных противников, но твоё постоянное совершенствование навыков позволило тебе принять вызов! После этого я собираюсь обсудить с лидерами групп, как тебя лучше поддерживать в этой миссии.
+TEXT: Джованни – один из самых сильных противников, но твоё постоянное совершенствование навыков позволило тебе принять вызов! После этого я собираюсь обсудить с лидерами команд, как тебя лучше поддерживать в этой миссии.
 
 RESOURCE ID: quest_special_dialogue_rockethq6_5_2
 TEXT: Ты – замечательный член команды, и мы не смогли бы сдержать этих злодеев без твоих навыков и преданности делу.
@@ -47117,6 +47305,75 @@ TEXT: Команда Ракета GO не знает отдыха, поэтом�
 
 RESOURCE ID: quest_special_dialogue_rockethq9_5_2
 TEXT: Требуется лишь правильный уход и немного удачи, чтобы очистить любого Теневого Покемона! Всего хорошего, %PLAYERNAME%, и до встречи в следующий раз!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_0
+TEXT: %PLAYERNAME%! Здорово, что ты здесь. Мне сегодня будет нужна твоя помощь кое с чем.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_1
+TEXT: Как ты знаешь, меня не было довольно долго.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_2
+TEXT: По возвращении я всё никак не мог прийти в себя. Но тут я придумал – исследование Покемонов! У меня от этой мысли прямо камень с души свалился. Предлагаю начать с изучения Роггенролы.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_3
+TEXT: Роггенролу впервые обнаружили около ста лет назад – его нашли в расщелине после землетрясения. Но земля, из которой состоит его тело, ещё более древняя!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_4
+TEXT: Покемон, созданный из земли – вот что мне нужно, чтобы немного заземлиться. Хотя, конечно, для изучения Покемонов мне особый повод никогда не требовался.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_0_5
+TEXT: Получится ли у тебя откопать для меня несколько Роггенрол, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_0
+TEXT: Молодец, %PLAYERNAME%! Давай познакомимся с Роггенролой поближе.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_1
+TEXT: Хм... Ты замечаешь шестигранные углубления на его теле? Это уши Роггенролы. А ещё глубже внутри него находится ядро энергии – из-за этого Роггенрола слегка тёплый на ощупь.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_2
+TEXT: Но не стоит трогать эти углубления, если только ты не хочешь испытать на себе ярость Роггенролы!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_3
+TEXT: Ты спрашиваешь, откуда я это знаю? Н-ну, каждый уважающий себя исследователь должен иногда рисковать.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_4
+TEXT: Знаешь, когда Роггенрола эволюционирует в Болдора, его энергия становится слишком сильна, чтобы её сдерживать. Так на теле Болдора появляются кристаллы – такие твёрдые, что могут раздробить бриллианты.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_1_5
+TEXT: Вот это было бы зрелище, правда, %PLAYERNAME%? Почему бы тебе не помочь Роггенроле эволюционировать, чтобы убедиться в этом воочию?
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_0
+TEXT: С возвращением, %PLAYERNAME%! Твои Болдоры выглядят отлично!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_1
+TEXT: Их кристаллы – это просто потрясающе! Вот только у меня нет бриллиантов, чтобы попробовать их раскрошить.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_2
+TEXT: Что ж, хотя мы не можем провести этот конкретный эксперимент, я могу рассказать тебе побольше о Болдоре.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_3
+TEXT: На самом деле их кристаллы – это сгустки энергии. Всего один фрагмент кристалла может дать достаточно топлива для сотни самосвалов!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_2_4
+TEXT: (Вздыхает) Ещё одна теория, которую мы не можем проверить сами. Но если ты поможешь Болдору эволюционировать, я расскажу тебе, что он может делать с этой силой!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_0
+TEXT: %PLAYERNAME%, вот он – твой собственный Гигалит. Эти кристаллы стали ещё больше!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_1
+TEXT: Оранжевые кристаллы Гигалита поглощают солнечную энергию. Гигалит приумножает её, а затем изрыгает изо рта. Он может сдуть целую гору!
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_2
+TEXT: Из-за своей мощной силы Гигалит популярен среди строителей.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_3
+TEXT: Я уверен, что вы с Гигалитом отлично поладите: ты тоже часто проводишь время на свежем воздухе.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_4
+TEXT: Что ж, спасибо за помощь с исследованиями сегодня, %PLAYERNAME%. Я наконец-то начал снова чувствовать себя самим собой.
+
+RESOURCE ID: quest_special_dialogue_roggenrola_3_5
+TEXT: До скорой встречи!
 
 RESOURCE ID: quest_special_dialogue_roset_0_0
 TEXT: Мммм... Чувствуешь этот аромат, Тренер?
@@ -47610,6 +47867,84 @@ TEXT: Спасибо за работу над исследованием, Тре
 
 RESOURCE ID: quest_special_dialogue_season4_9_1
 TEXT: Давай проведём ещё одно исследование Покемонов типа Привидения!
+
+RESOURCE ID: quest_special_dialogue_season8_0_0
+TEXT: Привет, %PLAYERNAME%! Рад тебя видеть.
+
+RESOURCE ID: quest_special_dialogue_season8_0_1
+TEXT: У меня нет слов, чтобы отблагодарить тебя и Ри за помощь в моём возвращении из Ультрачервоточины. Вы – настоящая команда!
+
+RESOURCE ID: quest_special_dialogue_season8_0_2
+TEXT: Каким бы волнующим ни было исследование другого измерения, оно не обошлось без проблем. Меня успокаивали мысли о доме: ты, Мелтан, лидеры команд...
+
+RESOURCE ID: quest_special_dialogue_season8_0_3
+TEXT: Наверное, так действовала на меня сила этих воспоминаний, но мне не раз казалось, что меня окружает и защищает нечто – тёплое, как солнце, и спокойное, как луна.
+
+RESOURCE ID: quest_special_dialogue_season8_0_4
+TEXT: Кто знает, может быть, кто-то или что-то действительно присматривало за мной! В конце концов, не только наш мир полон загадок.
+
+RESOURCE ID: quest_special_dialogue_season8_0_5
+TEXT: К слову, о загадках: хочу с тобой поделиться новым таинственным явлением, %PLAYERNAME%. С момента моего возвращения маленький газообразный Покемон, которого я никогда раньше не видел, бродит по моей лаборатории.
+
+RESOURCE ID: quest_special_dialogue_season8_0_6
+TEXT: Он выглядит дружелюбным, но откуда же он взялся? Может, проник вместе со мной через Ультрачервоточину? И может ли он быть Ультрачудовищем?
+
+RESOURCE ID: quest_special_dialogue_season8_0_7
+TEXT: Не исключая такой вероятности, я думаю поручить вам с Ри заняться уходом за этим Покемоном. Конечно, я буду рад любой информации, которую вам удастся получить.
+
+RESOURCE ID: quest_special_dialogue_season8_1_0
+TEXT: Приветствую тебя, Тренер Покемонов. Пока Ультрачудовища нам не угрожают, самое время поразмыслить о наших приключениях.
+
+RESOURCE ID: quest_special_dialogue_season8_1_1
+TEXT: Ультрачервоточины и опасности, которые они представляют, были моей главной заботой по прибытии в этот мир. Но теперь мне кажется, что не меньший интерес представляет и наша дружба.
+
+RESOURCE ID: quest_special_dialogue_season8_1_2
+TEXT: Кажется, пришло время мне вновь представиться.
+
+RESOURCE ID: quest_special_dialogue_season8_1_3
+TEXT: Я Ри из Команды Ультраисследователей GO. Мне радостно, что мы друзья, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_season8_1_4
+TEXT: Есть ли что-то, в чём я сегодня могу оказать тебе помощь?
+
+RESOURCE ID: quest_special_dialogue_season8_1_5
+TEXT: Твой профессор Уиллоу попросил нас изучить необычного Покемона, да? Понимаю.
+
+RESOURCE ID: quest_special_dialogue_season8_1_6
+TEXT: А, мне доводилось слышать рассказы об этом Покемоне.
+
+RESOURCE ID: quest_special_dialogue_season8_1_7
+TEXT: Его размеренное свечение невозможно ни с чем спутать. Я полагаю, этот Покемон называется... Космог.
+
+RESOURCE ID: quest_special_dialogue_season8_1_8
+TEXT: Давай покажем Космогу красоту этого мира.
+
+RESOURCE ID: quest_special_dialogue_season8_2_0
+TEXT: Хм? Ты хочешь побольше узнать о Космоге?
+
+RESOURCE ID: quest_special_dialogue_season8_2_1
+TEXT: Говорят, что в прежние времена он был известен как «звёздное дитя».
+
+RESOURCE ID: quest_special_dialogue_season8_2_2
+TEXT: В остальном нам мало что о нём известно.
+
+RESOURCE ID: quest_special_dialogue_season8_2_3
+TEXT: Возможно, нам с тобой удастся пролить свет на изучение этого необычного Покемона.
+
+RESOURCE ID: quest_special_dialogue_season8_2_4
+TEXT: Наверное, логичным первым шагом будет завоевать его доверие.
+
+RESOURCE ID: quest_special_dialogue_season8_2_5
+TEXT: Как ты думаешь, Космог станет дружелюбнее, если бы мы дадим ему имя?
+
+RESOURCE ID: quest_special_dialogue_season8_2_6
+TEXT: Его облик напоминает мне космическое пространство... какую-то туманность.
+
+RESOURCE ID: quest_special_dialogue_season8_2_7
+TEXT: Но не обращай внимания на мои размышления. Я оставлю это решение за тобой, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_season8_2_8
+TEXT: Так или иначе мне не терпится побольше узнать о Космоге и познакомиться с ним поближе.
 
 RESOURCE ID: quest_special_dialogue_shint_0_0
 TEXT: Привет, %PLAYERNAME%! Надеюсь, у тебя всё хорошо.
@@ -48647,7 +48982,7 @@ RESOURCE ID: quest_summer_title_5
 TEXT: Квест Джамп Старт (6/6)
 
 RESOURCE ID: quest_supereffective_charge_plural
-TEXT: Используй суперэффективную заряженную атаку x{0}
+TEXT: Используй суперэффективную заряженную атаку ×{0}
 
 RESOURCE ID: quest_supereffective_charge_singular
 TEXT: Используй суперэффективную заряженную атаку
@@ -49579,9 +49914,6 @@ TEXT: Код Поригона (3/4)
 RESOURCE ID: quest_title_poryt_3
 TEXT: Код Поригона (4/4)
 
-RESOURCE ID: quest_title_power_jan22_0
-TEXT: Волторб из региона Гисуи?!
-
 RESOURCE ID: quest_title_rocket
 TEXT: Тревожная ситуация
 
@@ -49786,6 +50118,21 @@ TEXT: Радужная тень (5/6)
 RESOURCE ID: quest_title_rockethq9_5
 TEXT: Радужная тень (6/6)
 
+RESOURCE ID: quest_title_roggenrola
+TEXT: Рок-н-ролл
+
+RESOURCE ID: quest_title_roggenrola_0
+TEXT: Рок-н-ролл (1/4)
+
+RESOURCE ID: quest_title_roggenrola_1
+TEXT: Рок-н-ролл (2/4)
+
+RESOURCE ID: quest_title_roggenrola_2
+TEXT: Рок-н-ролл (3/4)
+
+RESOURCE ID: quest_title_roggenrola_3
+TEXT: Рок-н-ролл (4/4)
+
 RESOURCE ID: quest_title_roset
 TEXT: Сладкий аромат Розелии
 
@@ -49884,6 +50231,39 @@ TEXT: Непонятый озорник (9/16)
 
 RESOURCE ID: quest_title_season4_9
 TEXT: Непонятый озорник (10/16)
+
+RESOURCE ID: quest_title_season8
+TEXT: Космический друг
+
+RESOURCE ID: quest_title_season8_0
+TEXT: Космический друг (1/10)
+
+RESOURCE ID: quest_title_season8_1
+TEXT: Космический друг (2/10)
+
+RESOURCE ID: quest_title_season8_2
+TEXT: Космический друг (3/10)
+
+RESOURCE ID: quest_title_season8_3
+TEXT: Космический друг (4/10)
+
+RESOURCE ID: quest_title_season8_4
+TEXT: Космический друг (5/10)
+
+RESOURCE ID: quest_title_season8_5
+TEXT: Космический друг (6/10)
+
+RESOURCE ID: quest_title_season8_6
+TEXT: Космический друг (7/10)
+
+RESOURCE ID: quest_title_season8_7
+TEXT: Космический друг (8/10)
+
+RESOURCE ID: quest_title_season8_8
+TEXT: Космический друг (9/10)
+
+RESOURCE ID: quest_title_season8_9
+TEXT: Космический друг (10/10)
 
 RESOURCE ID: quest_title_shint
 TEXT: Яркий свет, искра и луч
@@ -50491,8 +50871,8 @@ TEXT: День исследований: Используй суперэффек
 RESOURCE ID: quest_use_any_potion
 TEXT: Используй любой эликсир на Покемоне
 
-RESOURCE ID: quest_use_charged_tm
-TEXT: Используй заряженную TM
+RESOURCE ID: quest_use_charged_move_singular
+TEXT: Используй суперэффективную заряженную атаку
 
 RESOURCE ID: quest_use_dai_plural
 TEXT: Используй ладаны ежедневных приключений: {0}
@@ -50500,14 +50880,8 @@ TEXT: Используй ладаны ежедневных приключени�
 RESOURCE ID: quest_use_dai_singular
 TEXT: Используй ладан ежедневных приключений
 
-RESOURCE ID: quest_use_fast_tm
-TEXT: Используй быструю TM
-
 RESOURCE ID: quest_use_hyper_potion
 TEXT: Используй 1 гиперэликсир на Покемоне
-
-RESOURCE ID: quest_use_lure
-TEXT: Используй базовую приманку
 
 RESOURCE ID: quest_use_max_potion
 TEXT: Используй 1 эликсир макс на Покемоне
@@ -50520,12 +50894,6 @@ TEXT: Используй редкие конфеты: {0}
 
 RESOURCE ID: quest_use_rare_candy_singular
 TEXT: Используй 1 редкую конфету
-
-RESOURCE ID: quest_use_standard_charged_tm
-TEXT: Используй заряженную TM
-
-RESOURCE ID: quest_use_standard_fast_tm
-TEXT: Используй быструю TM
 
 RESOURCE ID: quest_use_super_potion
 TEXT: Используй 1 суперэликсир на Покемоне
@@ -50660,7 +51028,7 @@ RESOURCE ID: quest_win_raid_with_friend_singular
 TEXT: Победи в рейде с другом
 
 RESOURCE ID: quest_win_raids_unique_1500_plural
-TEXT: Win {0} raids with a team of unique Pokémon below 1500 CP
+TEXT: Победи в {0} рейдах с командой из разных Покемонов с 1500 БC или меньше
 
 RESOURCE ID: quest_win_raids_unique_plural
 TEXT: Победи в {0} рейдах с командой из разных Покемонов
@@ -50691,9 +51059,6 @@ TEXT: Эволюционируй Какун: {0}
 
 RESOURCE ID: quest_wt_evolve_weedle
 TEXT: Эволюционировать Видлов: {0}
-
-RESOURCE ID: quest_xp_plural
-TEXT: Заработай {0} XP
 
 RESOURCE ID: quest_zigzagoon_catch_b
 TEXT: Поймай {0} Галарских Зигзагунов
@@ -53193,6 +53558,9 @@ TEXT: Лобби рейда заполнено
 
 RESOURCE ID: raid_lobby_item_bag
 TEXT: ПРЕД- МЕТЫ
+
+RESOURCE ID: raid_lobby_local_raid
+TEXT: МЕСТНЫЙ РЕЙД
 
 RESOURCE ID: raid_lobby_locked
 TEXT: Рейд заполнен
@@ -55842,6 +56210,12 @@ TEXT: Не удалось изменить сортировку тега
 RESOURCE ID: report_issues_link
 TEXT: https://niantic.helpshift.com/a/pokemon-go/
 
+RESOURCE ID: research_breakthrough_bonus_items
+TEXT: Дополнительные предметы за научный прорыв
+
+RESOURCE ID: research_breakthrough_bonus_stardust
+TEXT: Больше звёздной пыли за научный прорыв
+
 RESOURCE ID: restart_app
 TEXT: Перезапустить
 
@@ -55910,6 +56284,709 @@ TEXT: 2× звёздной пыли за битвы с Командой Раке
 
 RESOURCE ID: rocket_takeover_event_name
 TEXT: Нашествие Команды Ракета GO
+
+RESOURCE ID: route_about_title
+TEXT: О маршруте:
+
+RESOURCE ID: route_add_point
+TEXT: Set as a stop
+
+RESOURCE ID: route_cancel_description
+TEXT: If you start this route, you will lose your current progress on {0}, and you will have to wait {1} minutes to play it again.
+
+RESOURCE ID: route_cancel_description_same_route
+TEXT: If you restart this route, you will lose your current progress on {0}.
+
+RESOURCE ID: route_cancel_start_new_button
+TEXT: Start new route
+
+RESOURCE ID: route_cancel_title
+TEXT: Do you want to start a new route?
+
+RESOURCE ID: route_cancel_title_same_route
+TEXT: Do you want to restart this route?
+
+RESOURCE ID: route_cannot_delete_route_in_review_prompt
+TEXT: [placeholder on client]
+
+RESOURCE ID: route_cannot_delete_route_in_review_title
+TEXT: CANNOT DELETE THIS ROUTE
+
+RESOURCE ID: route_cannot_edit_routes_in_review
+TEXT: You cannot edit a Route that is being reviewed.
+
+RESOURCE ID: route_checkpoint_general
+TEXT: Stop
+
+RESOURCE ID: route_collapsed_show_more
+TEXT: SHOW MORE {0}
+
+RESOURCE ID: route_completion_congratulation
+TEXT: Поздравляем!
+
+RESOURCE ID: route_completion_get_medal
+TEXT: You got a {0} medal!
+
+RESOURCE ID: route_completion_once
+TEXT: {0} completed 1 time
+
+RESOURCE ID: route_completion_repeat
+TEXT: {0} completed {1} times
+
+RESOURCE ID: route_cooldown_toast_already_walking_this_route
+TEXT: You are already playing this route!
+
+RESOURCE ID: route_cooldown_toast_hour
+TEXT: You must wait 1 hour to play this route.
+
+RESOURCE ID: route_cooldown_toast_hour_and_minute
+TEXT: You must wait 1 hour and 1 minute to play this route.
+
+RESOURCE ID: route_cooldown_toast_hour_and_minutes
+TEXT: You must wait 1 hour and {0} minutes to play this route.
+
+RESOURCE ID: route_cooldown_toast_hours
+TEXT: You must wait {0} hours to play this route.
+
+RESOURCE ID: route_cooldown_toast_hours_and_minutes
+TEXT: You must wait {0} hours and {1} minutes to play this route.
+
+RESOURCE ID: route_cooldown_toast_minute
+TEXT: You must wait {0} minutes to play this route.
+
+RESOURCE ID: route_cooldown_toast_minutes
+TEXT: You must wait {0} minutes to play this route.
+
+RESOURCE ID: route_create_medal_context_page
+TEXT: Pick an image and a color to display as the medal other Trainers get when they complete your Route.
+
+RESOURCE ID: route_create_medal_context_title
+TEXT: Route Medal
+
+RESOURCE ID: route_creation_onboarding_page_1
+TEXT: Create a Route in three easy steps!
+
+1. Plan your Route.
+2. Travel to each PokéStop or Gym along your Route and verify each one. This ensures your Route is safe for others!
+3. Add information about your Route, and submit it.
+
+RESOURCE ID: route_creation_onboarding_page_2
+TEXT: Routes are interesting journeys that you believe others should experience for themselves! Pick a theme for your Route—such as history, art, or nature—and share it with others.
+
+Please avoid adding Pokémon-specific descriptions or splitting your Route into multiple entries. Doing so may delay Route approval.
+
+RESOURCE ID: route_creation_onboarding_page_3
+TEXT: Routes must include five or more PokéStops or Gyms. An average Route should be 400–800 meters from start to finish and take 10–15 minutes to explore.
+
+RESOURCE ID: route_creation_onboarding_page_4
+TEXT: Once your Route is submitted, it will be reviewed. If your Route is rejected, you can make changes and resubmit it. You can also reset your Route at any time and start over.
+
+Let’s create your first Route!
+
+RESOURCE ID: route_creation_onboarding_title_1
+TEXT: Creating a Route
+
+RESOURCE ID: route_creation_onboarding_title_2
+TEXT: Focus on a Theme
+
+RESOURCE ID: route_creation_onboarding_title_3
+TEXT: Rules for Routes
+
+RESOURCE ID: route_creation_onboarding_title_4
+TEXT: Submitting Your Route
+
+RESOURCE ID: route_data_onboarding_page_1
+TEXT: Now that you’ve created a Route, it’s time to tell people about it!
+
+RESOURCE ID: route_data_onboarding_title_1
+TEXT: Enter Route Data
+
+RESOURCE ID: route_denial_exceeds_max_total_distance
+TEXT: Adding this PokéStop or Gym will cause your Route to exceed the maximum Route length.
+
+RESOURCE ID: route_denial_too_close_to_last_poi
+TEXT: This PokéStop is too close to the last. It must be at least {0} meters away.
+
+RESOURCE ID: route_denial_too_far_away_from_last_poi
+TEXT: This PokéStop is too far from the last. It must be less than {0} meters away.
+
+RESOURCE ID: route_denial_too_many_stops_in_route
+TEXT: This Route has reached the maximum number of stops.
+
+RESOURCE ID: route_earned_new_stamp
+TEXT: New stamp registered!
+
+RESOURCE ID: route_edit_button
+TEXT: CONTINUE EDITING
+
+RESOURCE ID: route_enter_description_context_page
+TEXT: Enter a description that tells other Trainers what your Route is about.
+
+RESOURCE ID: route_enter_description_context_title
+TEXT: Route Description
+
+RESOURCE ID: route_enter_title_context_page
+TEXT: Enter the title that other Trainers will see when they search for a Route.
+
+RESOURCE ID: route_enter_title_context_title
+TEXT: Route Title
+
+RESOURCE ID: route_expired_error
+TEXT: Current route has expired
+
+RESOURCE ID: route_frame_select_subtitle
+TEXT: Предварительный просмотр
+
+RESOURCE ID: route_frame_select_title
+TEXT: Please select a medal to preview
+
+RESOURCE ID: route_general
+TEXT: Маршрут
+
+RESOURCE ID: route_general_plural
+TEXT: Маршруты
+
+RESOURCE ID: route_get_route_maker
+TEXT: GET ROUTE MAKER
+
+RESOURCE ID: route_icon_select_subtitle
+TEXT: This medal will be shown to all Trainers
+
+RESOURCE ID: route_icon_select_title
+TEXT: Please select an image for this Route’s medal
+
+RESOURCE ID: route_km_label
+TEXT: {0} km
+
+RESOURCE ID: route_list_context_page
+TEXT: Arrange and modify your list of PokéStops or Gyms here
+
+RESOURCE ID: route_list_context_title
+TEXT: List of PokéStops or Gyms
+
+RESOURCE ID: route_list_item_default_description
+TEXT: Tap to start creating a Route
+
+RESOURCE ID: route_list_item_default_title
+TEXT: Маршрут {0}
+
+RESOURCE ID: route_load_timeout
+TEXT: This Route took too long to load. Please try again.
+
+RESOURCE ID: route_m_label
+TEXT: {0} м
+
+RESOURCE ID: route_maker_item_confirmation_description
+TEXT: Your active Route Makers are shown here.
+
+RESOURCE ID: route_maker_max_warning
+TEXT: You have the maximum number of active Route Makers!
+
+RESOURCE ID: route_map_out_of_bound_warning
+TEXT: You are too far away from this area
+
+RESOURCE ID: route_medal
+TEXT: Medal
+
+RESOURCE ID: route_medals_header
+TEXT: ROUTE MEDALS
+
+RESOURCE ID: route_medals_sort_name
+TEXT: Name
+
+RESOURCE ID: route_medals_sort_recent
+TEXT: Recent
+
+RESOURCE ID: route_min_label
+TEXT: {0} mins
+
+RESOURCE ID: route_nearby_help_distance
+TEXT: Start point distance from your current location.
+
+RESOURCE ID: route_nearby_help_duration
+TEXT: Estimate time from start point to end point.
+
+RESOURCE ID: route_nearby_help_official_route
+TEXT: The route created by NIANTIC partners has this label.
+
+RESOURCE ID: route_nearby_help_played_time
+TEXT: Number of played time of this route.
+
+RESOURCE ID: route_nearby_help_title
+TEXT: Route Information
+
+RESOURCE ID: route_nearby_label
+TEXT: {0} routes
+
+RESOURCE ID: route_nearby_list_button
+TEXT: SEE NEARBY ROUTES ({0})
+
+RESOURCE ID: route_nearby_list_header
+TEXT: NEARBY ROUTE ({0})
+
+RESOURCE ID: route_notification_resume
+TEXT: Entered the route area.
+The paused route is now active!
+
+RESOURCE ID: route_one_time_label
+TEXT: 1 time
+
+RESOURCE ID: route_out_of_range
+TEXT: You can’t travel this Route because it is too far away.
+
+RESOURCE ID: route_pause_description
+TEXT: This route paused because you moved away from the route area. If you walk close to the next location, this route will automatically resume.
+
+RESOURCE ID: route_pause_prompt
+TEXT: Your progress will be saved. You can continue creating your Route by tapping the Route Maker item in your Item Bag at any time.
+
+RESOURCE ID: route_pause_stamp_cancel
+TEXT: (This route will cancel in {0} hours)
+
+RESOURCE ID: route_pause_stamp_cancel_less_than
+TEXT: (This route will cancel in less than {0} hour)
+
+RESOURCE ID: route_pause_stamp_cancel_singular
+TEXT: (This route will cancel in {0} hour)
+
+RESOURCE ID: route_pause_stamp_message
+TEXT: {0} paused because you moved away from a route area. If you walk close to the next route point "<color=#{1}>{2}</color>”, this route automatically turn on again.
+
+RESOURCE ID: route_pause_title
+TEXT: Route paused
+
+RESOURCE ID: route_paused_prompt
+TEXT: Route saved as {0}.
+
+RESOURCE ID: route_paused_title
+TEXT: Route Creation Paused
+
+RESOURCE ID: route_planning_context_page
+TEXT: Plan your Route here
+
+RESOURCE ID: route_planning_context_title
+TEXT: Planning Your Route
+
+RESOURCE ID: route_planning_must_add_more_pois
+TEXT: Add at least {0} more PokéStops or Gyms to this Route.
+
+RESOURCE ID: route_planning_must_add_one_poi
+TEXT: Add at least 1 more Pokéstop or Gym to this route.
+
+RESOURCE ID: route_poi_list_view_description_short_tip
+TEXT: Add at least {0} more PokéStops or Gyms to your Route.
+
+RESOURCE ID: route_poi_list_view_description_tip
+TEXT: To complete your Route, select additional PokéStops or Gyms in the order that others should visit them.
+
+RESOURCE ID: route_poi_list_view_max_wp_tip
+TEXT: Your Route has the maximum number of stops
+
+RESOURCE ID: route_poi_list_view_start_point_tip
+TEXT: Select a starting point
+
+RESOURCE ID: route_poi_list_view_total_distance
+TEXT: Total distance: {0} meters
+
+RESOURCE ID: route_poi_list_view_total_time
+TEXT: Total estimated time: {0} min
+
+RESOURCE ID: route_published_list_header
+TEXT: PUBLISHED ROUTES
+
+RESOURCE ID: route_published_title
+TEXT: PUBLISHED ROUTES
+
+RESOURCE ID: route_rating_button
+TEXT: RATE
+
+RESOURCE ID: route_rating_description
+TEXT: Did you enjoy this route?
+Can you rate this route?
+
+RESOURCE ID: route_rating_reason
+TEXT: You can pick multiple choices.
+
+RESOURCE ID: route_rating_reason_bad_accessibility
+TEXT: Inaccessible
+
+RESOURCE ID: route_rating_reason_bad_accuracy
+TEXT: No Longer Accurate
+
+RESOURCE ID: route_rating_reason_bad_length
+TEXT: Inapproriate Length
+
+RESOURCE ID: route_rating_reason_bad_location
+TEXT: Unrelated Locations
+
+RESOURCE ID: route_rating_reason_good_destination
+TEXT: Great Destination
+
+RESOURCE ID: route_rating_reason_good_learning
+TEXT: Great Learning
+
+RESOURCE ID: route_rating_reason_good_location
+TEXT: Great Locations
+
+RESOURCE ID: route_rating_reason_good_walk
+TEXT: Great Walk
+
+RESOURCE ID: route_rating_theme
+TEXT: You can pick a theme.
+
+RESOURCE ID: route_rating_theme_architecture
+TEXT: Architecture
+
+RESOURCE ID: route_rating_theme_art
+TEXT: Искусство
+
+RESOURCE ID: route_rating_theme_casual
+TEXT: Casual
+
+RESOURCE ID: route_rating_theme_culture
+TEXT: Culture
+
+RESOURCE ID: route_rating_theme_food
+TEXT: Food
+
+RESOURCE ID: route_rating_theme_history
+TEXT: History
+
+RESOURCE ID: route_rating_theme_nature
+TEXT: Nature
+
+RESOURCE ID: route_rating_theme_sightseeing
+TEXT: Sightseeing
+
+RESOURCE ID: route_rating_title
+TEXT: How was this route?
+
+RESOURCE ID: route_rejection_action
+TEXT: EDIT AND RESUBMIT
+
+RESOURCE ID: route_rejection_title
+TEXT: This Route was rejected
+
+RESOURCE ID: route_remove_from_route
+TEXT: Remove from Route
+
+RESOURCE ID: route_report_cancel_message
+TEXT: If you submit this report, the route will cancel.
+
+RESOURCE ID: route_report_description
+TEXT: What kind of issue happened?
+Could you describe it?
+
+RESOURCE ID: route_report_dont_know
+TEXT: I don't know
+
+RESOURCE ID: route_report_permanent
+TEXT: Permanent issue
+
+RESOURCE ID: route_report_submit_description
+TEXT: Thank you for sharing your report with Niantic. We are sorry for the inconvenience. Your current route has been cancelled.
+
+RESOURCE ID: route_report_submit_title
+TEXT: Report Submitted
+
+RESOURCE ID: route_report_temporary
+TEXT: Temporary issue
+
+RESOURCE ID: route_report_title
+TEXT: Report this route
+
+RESOURCE ID: route_reset_modal_promot
+TEXT: Resetting your Route will remove all the information you have included. Are you sure you want to reset this Route?
+
+RESOURCE ID: route_reset_modal_title
+TEXT: RESET ROUTE?
+
+RESOURCE ID: route_review_submission_page
+TEXT: Please look over all the information you’ve entered before submitting your Route.
+
+RESOURCE ID: route_review_submission_title
+TEXT: Review Your Submission
+
+RESOURCE ID: route_set_start_point
+TEXT: Set as the starting point
+
+RESOURCE ID: route_sort_category
+TEXT: Theme
+
+RESOURCE ID: route_sort_length
+TEXT: Length
+
+RESOURCE ID: route_sort_proximity
+TEXT: Nearest
+
+RESOURCE ID: route_sort_rating
+TEXT: Рейтинг
+
+RESOURCE ID: route_spinning_add_to_route
+TEXT: This stop isn’t included on this Route. Do you want to add it?
+
+RESOURCE ID: route_spinning_poi_out_of_order
+TEXT: Please spin the Photo Discs at the PokéStops or Gyms you’ve selected in the order they will appear along this Route.
+
+RESOURCE ID: route_spinning_visit_poi
+TEXT: Please spin the Photo Disc to verify this stop.
+
+RESOURCE ID: route_stamp_category
+TEXT: DEFAULT
+
+RESOURCE ID: route_stamp_category_default
+TEXT: КОЛЛЕКЦИЯ МАРОК
+
+RESOURCE ID: route_stamps_header
+TEXT: STAMPS
+
+RESOURCE ID: route_start_failed
+TEXT: Failed to start route
+
+RESOURCE ID: route_start_toast
+TEXT: {0} started!
+
+RESOURCE ID: route_status_in_progress
+TEXT: Ещё не отправлено
+
+RESOURCE ID: route_status_published
+TEXT: Опубликовано
+
+RESOURCE ID: route_status_rejected
+TEXT: Отклонено
+
+RESOURCE ID: route_status_submitted
+TEXT: На рассмотрении
+
+RESOURCE ID: route_status_time_stamp_saved
+TEXT: Last saved on {0}
+
+RESOURCE ID: route_status_time_stamp_submitted
+TEXT: Submitted on {0}
+
+RESOURCE ID: route_stop_button
+TEXT: Stop this route
+
+RESOURCE ID: route_stop_description
+TEXT: If you stop this route, its route activities will delete. You can't undo this action.
+
+RESOURCE ID: route_stop_report
+TEXT: In case an error happened on this route and you can't continue to play, report from <color=#{0}>here</color>.
+
+RESOURCE ID: route_stop_start_new_button
+TEXT: Start new route
+
+RESOURCE ID: route_stop_start_new_button_same_route
+TEXT: RESTART ROUTE
+
+RESOURCE ID: route_stop_title
+TEXT: Are you sure you want to stop this route?
+
+RESOURCE ID: route_stop_toast
+TEXT: Route cancelled
+
+RESOURCE ID: route_submission_add_description
+TEXT: Add Route Description
+
+RESOURCE ID: route_submission_add_description_placeholder
+TEXT: Please describe the journey, history, or background of this Route.
+
+RESOURCE ID: route_submission_add_info_title
+TEXT: Add Route Information
+
+RESOURCE ID: route_submission_add_title
+TEXT: Add Route Title
+
+RESOURCE ID: route_submission_bad_desc
+TEXT: Your description contains inappropriate or prohibited content
+
+RESOURCE ID: route_submission_bad_image
+TEXT: Route image is not valid
+
+RESOURCE ID: route_submission_bad_name
+TEXT: Your title contains inappropriate or prohibited content
+
+RESOURCE ID: route_submission_badge_creation_title
+TEXT: Medal Creation
+
+RESOURCE ID: route_submission_badge_image_prompt
+TEXT: Select an image for your Route’s medal
+
+RESOURCE ID: route_submission_choose_icon
+TEXT: Please choose an icon for this Route’s medal.
+
+RESOURCE ID: route_submission_color_tab_name
+TEXT: COLOR
+
+RESOURCE ID: route_submission_description
+TEXT: Description
+
+RESOURCE ID: route_submission_medals
+TEXT: Медали
+
+RESOURCE ID: route_submission_must_add_description
+TEXT: Please enter a valid description to proceed
+
+RESOURCE ID: route_submission_must_add_title
+TEXT: Please enter a valid title to proceed
+
+RESOURCE ID: route_submission_next_steps
+TEXT: The next step is to name and describe your Route.
+
+It might take a few minutes for you to write a description, and doing so will help speed up the approval process. Don’t worry—your progress will be saved if you exit!
+
+RESOURCE ID: route_submission_photo_tab_name
+TEXT: PHOTO
+
+RESOURCE ID: route_submission_result_invalid_route
+TEXT: Route submission error. Please try again later.
+
+RESOURCE ID: route_submission_result_too_many_recent
+TEXT: You’ve submitted too many Routes! Please wait and try again later.
+
+RESOURCE ID: route_submission_result_unavailiable
+TEXT: Route submission unavailable. Please try again later.
+
+RESOURCE ID: route_submission_result_unknown_error
+TEXT: Unknown error in the Route submission process. Please try again later.
+
+RESOURCE ID: route_submission_result_unvisited_fort
+TEXT: Please visit all PokéStops or Gyms along this Route.
+
+RESOURCE ID: route_submission_reversible
+TEXT: Can this Route be followed in reverse?
+
+RESOURCE ID: route_submission_select_color_prompt
+TEXT: Select a color for your Route’s header
+
+RESOURCE ID: route_submission_show_name
+TEXT: Display your Trainer Nickname on this Route? This will be visible to other players.
+
+RESOURCE ID: route_submission_start_title
+TEXT: Describe Your Route
+
+RESOURCE ID: route_submission_title
+TEXT: Title
+
+RESOURCE ID: route_submission_write_later
+TEXT: Write Later
+
+RESOURCE ID: route_submission_write_now
+TEXT: Write Now
+
+RESOURCE ID: route_submitted_confirmation_description
+TEXT: You've successfully submitted your Route. Once it's been reviewed, it will show in your Route Maker page.
+
+RESOURCE ID: route_submitted_confirmation_title
+TEXT: Congrats!
+
+RESOURCE ID: route_times_label
+TEXT: {0} times
+
+RESOURCE ID: route_validation_celebration
+TEXT: Nice job, you've verified your route! Now you can add information to the route you've created.
+
+RESOURCE ID: route_validation_description
+TEXT: You will need to resolve these issues before you can submit this Route.
+
+RESOURCE ID: route_validation_description_length
+TEXT: Route descriptions cannot exceed {0} characters.
+
+RESOURCE ID: route_validation_first_waypoint
+TEXT: The starting point of a Route must be a PokéStop or a Gym.
+
+RESOURCE ID: route_validation_last_waypoint
+TEXT: The last stop on a Route must be a PokéStop or a Gym.
+
+RESOURCE ID: route_validation_max_checkpoint
+TEXT: Routes cannot have more than {0} stops.
+
+RESOURCE ID: route_validation_max_checkpoint_between_poi
+TEXT: There cannot be more than {0} checkpoints between Waypoints #{1} and #{2}.
+
+RESOURCE ID: route_validation_max_checkpoint_per_distance
+TEXT: Routes can have one additional stop per {0} meters. Too many stops have been added.
+
+RESOURCE ID: route_validation_max_distance_checkpoint
+TEXT: Stop #{0} cannot be farther than {1} meters away.
+
+RESOURCE ID: route_validation_max_distance_poi
+TEXT: The distance between stops #{0} and #{1} cannot exceed {2} meters.
+
+RESOURCE ID: route_validation_max_length
+TEXT: A Route cannot be longer than {0} meters.
+
+RESOURCE ID: route_validation_max_poi
+TEXT: A Route cannot have more than {0} PokéStops or Gyms.
+
+RESOURCE ID: route_validation_min_distance_checkpoint
+TEXT: Stop #{0} must be at least {1} meters away.
+
+RESOURCE ID: route_validation_min_distance_poi
+TEXT: The distance between stops #{0} and #{1} must exceed {2} meters.
+
+RESOURCE ID: route_validation_min_length
+TEXT: A Route cannot be shorter than {0} meters.
+
+RESOURCE ID: route_validation_min_poi
+TEXT: A Route must have at least {0} PokéStops or Gyms.
+
+RESOURCE ID: route_validation_poi_not_verified
+TEXT: Stop #{0} needs to be verified. Please travel to it and spin the Photo Disc.
+
+RESOURCE ID: route_validation_pois_not_loaded
+TEXT: You are too far away from this Route’s stops to validate them
+
+RESOURCE ID: route_validation_title
+TEXT: Route Validation
+
+RESOURCE ID: route_validation_title_length
+TEXT: Route titles cannot exceed {0} characters.
+
+RESOURCE ID: route_view_stamp_button
+TEXT: О маршруте:
+
+RESOURCE ID: route_waiting_for_data
+TEXT: Waiting for data to load
+
+RESOURCE ID: route_walk_button
+TEXT: TRAVEL
+
+RESOURCE ID: route_walking_all_waypoints_verified
+TEXT: Great job! You’ve visited all the stops along this Route!
+
+RESOURCE ID: route_walking_context_page
+TEXT: Travel to each PokéStop or Gym, and spin the Photo Disc at each
+
+RESOURCE ID: route_walking_context_title
+TEXT: Following Your Route
+
+RESOURCE ID: route_walking_first_poi_spin
+TEXT: This is the starting point that you selected. Please spin the Photo Disc at this PokéStop or Gym to confirm it.
+
+RESOURCE ID: route_walking_head_to_start
+TEXT: Please go to the first PokéStop or Gym on this Route and spin the Photo Disc.
+
+RESOURCE ID: route_walking_head_to_waypoint
+TEXT: Please go to stop #{0}—{1}—and spin the Photo Disc.
+
+RESOURCE ID: route_walking_poi_spin
+TEXT: This is stop #{0}: {1}. Please spin the Photo Disc at this PokéStop or Gym to confirm it.
+
+RESOURCE ID: route_walking_poi_verified
+TEXT: Route PokéStop or Gym has been verified.
+
+RESOURCE ID: route_zero_route_maker_desc
+TEXT: You don’t have a Route Maker. You will need a Route Maker if you want to create a new Route.
+
+RESOURCE ID: routemaker_description
+TEXT: A device that lets you create Routes. You can have up to five active Routes at a time.
+
+RESOURCE ID: routemaker_title
+TEXT: Составитель маршрутов
+
+RESOURCE ID: routes_general
+TEXT: Route Makers
 
 RESOURCE ID: rtakeover_2019_rocket_1
 TEXT: Ракетный захват – Победи 1 агента Команды Ракета GO
@@ -56090,6 +57167,21 @@ TEXT: Зона Сафари – Сент-Луис (1/2)
 
 RESOURCE ID: safari_2020_stlouis_title_1
 TEXT: Зона Сафари – Сент-Луис (2/2)
+
+RESOURCE ID: safari_2022_goyang_dialogue_0_0
+TEXT: Добро пожаловать в Зону Сафари Коян, %PLAYERNAME%!
+
+RESOURCE ID: safari_2022_goyang_dialogue_1_1
+TEXT: Благодаря тебе в Зоне Сафари Коян мы узнали много нового о Покемонах!
+
+RESOURCE ID: safari_2022_goyang_title
+TEXT: Зона Сафари Коян 2022
+
+RESOURCE ID: safari_2022_goyang_title_0
+TEXT: Зона Сафари Коян 2022 (1/2)
+
+RESOURCE ID: safari_2022_goyang_title_1
+TEXT: Зона Сафари Коян 2022 (2/2)
 
 RESOURCE ID: safari_2022_seville_dialogue_0_0
 TEXT: Добро пожаловать в Зону Сафари – Севилья 2022, %PLAYERNAME%!
@@ -56389,7 +57481,7 @@ RESOURCE ID: searching_for_legends_event_name
 TEXT: Поиск легенд
 
 RESOURCE ID: season_gbl_forecast_title_7
-TEXT: Season of GO
+TEXT: Сезон GO
 
 RESOURCE ID: second_abbrev
 TEXT: c
@@ -56398,13 +57490,13 @@ RESOURCE ID: see_details
 TEXT: ПОДРОБНЕЕ
 
 RESOURCE ID: see_less
-TEXT: See less
+TEXT: Скрыть
 
 RESOURCE ID: see_more
-TEXT: See more
+TEXT: Подробнее
 
 RESOURCE ID: see_schedule
-TEXT: See schedule
+TEXT: Посмотреть расписание
 
 RESOURCE ID: see_summary_button
 TEXT: ПОСМОТРЕТЬ ОТЧЁТ
@@ -56635,6 +57727,12 @@ TEXT: Исправление проблем
 RESOURCE ID: settings_palma_troubleshooting_url
 TEXT: https://support.pokemon.com/hc/articles/360001435906
 
+RESOURCE ID: settings_pbp_check_other_menu
+TEXT: Для доступа к сопряжённому устройству перейди на экран Pokémon GO Plus из меню настроек.
+
+RESOURCE ID: settings_pgp_check_other_menu
+TEXT: Для доступа к сопряжённому устройству перейди на экран Poké Ball Plus из меню настроек.
+
 RESOURCE ID: settings_pokemon_badge
 TEXT: Показывать ленту Покемона
 
@@ -56742,7 +57840,7 @@ RESOURCE ID: settings_share_recent_catch_friends
 TEXT: Поделиться недавно пойманными Покемонами с друзьями
 
 RESOURCE ID: settings_show_campfire_buttons
-TEXT: Show Campfire
+TEXT: Показать Campfire
 
 RESOURCE ID: settings_sound_effects
 TEXT: Звук
@@ -56973,7 +58071,7 @@ RESOURCE ID: shop_daily_bonus_button
 TEXT: Супер, спасибо!
 
 RESOURCE ID: shop_daily_bonus_header
-TEXT: Особый подарок!
+TEXT: Особый подарок от профессора!
 
 RESOURCE ID: shop_exchange
 TEXT: Обменять
@@ -57422,7 +58520,7 @@ RESOURCE ID: spark_map_empty_warning|2
 TEXT: Как раз, когда у меня была энергия немного побороться! Может, нам стоит проверить другие места.
 
 RESOURCE ID: spark_map_time_warning|1
-TEXT: Нет сигналов? Что ж, уже довольно поздно... и мне нужно встретиться с Уиллоу.
+TEXT: Нет сигналов? Что ж, уже довольно поздно... и мне пора идти.
 
 RESOURCE ID: spark_map_time_warning|2
 TEXT: Возможно, нам больше повезёт поймать их в дневное время, когда мы с Канделой обычно проводим большую часть наших исследований.
@@ -57487,6 +58585,9 @@ TEXT: Появляется больше диких Ошавоттов
 
 RESOURCE ID: spawn_porygon
 TEXT: Появляется больше диких Поригонов
+
+RESOURCE ID: spawn_roggenrola
+TEXT: Появляется больше диких Роггенрол!
 
 RESOURCE ID: spawn_roselia
 TEXT: Появляется больше диких Розелий
@@ -57700,6 +58801,12 @@ TEXT: Появляется больше диких Воббаффетов
 
 RESOURCE ID: spring event
 TEXT: Весеннее событие
+
+RESOURCE ID: spritzee_o_clock
+TEXT: Спритци-час
+
+RESOURCE ID: spritzee_o_clock_description
+TEXT: В окрестностях появляется много Спритци
 
 RESOURCE ID: sr_gofest2022_d1_battle_narrative_section_2_0
 TEXT: Поскольку мы не знаем, что привлекло сюда Шеймина, то нужно убедиться, что окрестности безопасны.
@@ -58355,44 +59462,8 @@ TEXT: Фестиваль Pokémon GO: Сиэтл – Парк (4/5)
 RESOURCE ID: sr_gofest2022_leseap_5
 TEXT: Фестиваль Pokémon GO: Сиэтл – Парк (5/5)
 
-RESOURCE ID: sr_gotour2022_1
-TEXT: Тур Pokémon GO: Джото (1/9)
-
-RESOURCE ID: sr_gotour2022_2
-TEXT: Тур Pokémon GO: Джото (2/9)
-
-RESOURCE ID: sr_gotour2022_3
-TEXT: Тур Pokémon GO: Джото (3/9)
-
-RESOURCE ID: sr_gotour2022_4
-TEXT: Тур Pokémon GO: Джото (4/9)
-
-RESOURCE ID: sr_gotour2022_5
-TEXT: Тур Pokémon GO: Джото (5/9)
-
-RESOURCE ID: sr_gotour2022_6
-TEXT: Тур Pokémon GO: Джото (6/9)
-
-RESOURCE ID: sr_gotour2022_7
-TEXT: Тур Pokémon GO: Джото (7/9)
-
-RESOURCE ID: sr_gotour2022_8
-TEXT: Тур Pokémon GO: Джото (8/9)
-
-RESOURCE ID: sr_gotour2022_9
-TEXT: Тур Pokémon GO: Джото (9/9)
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_0
-TEXT: Привет, %PLAYERNAME%! Готовься, твои уникальные приключения с Покемонами вот-вот начнутся. Кому-то это путешествие покажется совершенно новым, а кому-то очень знакомым.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_1
-TEXT: Правильно – сегодня мы будем изучать регион Джото и встречать Покемонов, которые были впервые обнаружены именно там!
-
 RESOURCE ID: sr_gotour2022_sr_dialogue_0_10
 TEXT: Но пока ничего не случилось, так что можешь пока веселиться со своими друзьями и Покемонами!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_2
-TEXT: Джото – это регион с богатой историей и традициями. Красивый исторический город Экратик-Сити соседствует здесь с современным мегаполисом Голденрод-Сити.
 
 RESOURCE ID: sr_gotour2022_sr_dialogue_0_3
 TEXT: А ещё именно в Джото были впервые обнаружены Покемоны тёмного и стального типов! Не говоря уже о Мистере Покемоне и таинственном яйце.
@@ -58622,6 +59693,9 @@ TEXT: Осколок звезды ×8. Зарабатывает на 50% бол�
 RESOURCE ID: starpiece.8_title
 TEXT: Осколок звезды ×8
 
+RESOURCE ID: status_filter_group_key
+TEXT: Catch Status
+
 RESOURCE ID: steel_type_event
 TEXT: Активизация типа: Сталь
 
@@ -58840,13 +59914,16 @@ RESOURCE ID: stickers_v2_featured_category
 TEXT: Актуальные
 
 RESOURCE ID: stickers_v2_group_category
-TEXT: Group
+TEXT: Групповые
 
 RESOURCE ID: stickers_v2_messages_category
 TEXT: Текст
 
 RESOURCE ID: stickers_v2_misc_category
 TEXT: Разные
+
+RESOURCE ID: stickers_v2_new_in_shop
+TEXT: НОВЫЕ
 
 RESOURCE ID: stickers_v2_no_recent
 TEXT: Добавь наклейку к подарку, чтобы стали отображаться последние отправленные наклейки.
@@ -59128,8 +60205,26 @@ TEXT: тестовая строка
 RESOURCE ID: test_key
 TEXT: Тест
 
+RESOURCE ID: test_your_mettle_catch_challenge
+TEXT: Проверка на смелость: Испытание по поимке
+
+RESOURCE ID: test_your_mettle_catch_challenge_page_1
+TEXT: Проверка на смелость: Испытание по поимке (1/2)
+
+RESOURCE ID: test_your_mettle_catch_challenge_page_2
+TEXT: Проверка на смелость: Испытание по поимке (2/2)
+
+RESOURCE ID: test_your_mettle_event_name
+TEXT: Проверка на смелость
+
 RESOURCE ID: thai
 TEXT: ภาษาไทย
+
+RESOURCE ID: themed_stickers_description
+TEXT: You’ll also be able to get season-themed stickers by spinning PokéStops, opening Gifts, and purchasing them from the in-game shop.
+
+RESOURCE ID: themed_stickers_name
+TEXT: Themed Stickers
 
 RESOURCE ID: three_free_raid_passes
 TEXT: Получи бесплатно до трёх пропусков на рейд, крутя фотодиски в Гимах
@@ -59225,6 +60320,9 @@ TEXT: Билеты на специальный квест «От гребешк�
 
 RESOURCE ID: ticket_porygon
 TEXT: Билеты на специальный квест «Код Поригона» доступны в магазине
+
+RESOURCE ID: ticket_roggenrola
+TEXT: Билет на специальный квест «Рок-н-ролл» доступен в магазине
 
 RESOURCE ID: ticket_roselia
 TEXT: Билеты на спецальный квест доступны в магазине
@@ -59954,9 +61052,6 @@ TEXT: Один...два...три...ура! {0} обучен атаке {1}!
 RESOURCE ID: today
 TEXT: Сегодня
 
-RESOURCE ID: today_view_all_hours
-TEXT: Покемоны из всех часов появляются в дикой природе!
-
 RESOURCE ID: today_view_catch_competition
 TEXT: Региональное соревнование по поимке Покемонов
 
@@ -59998,6 +61093,9 @@ TEXT: Этот предмет ОТКЛЮЧЁН.
 
 RESOURCE ID: tr_combat_bag_full
 TEXT: Твой рюкзак для предметов заполнен. Ты не получишь награды за этот матч.
+
+RESOURCE ID: tr_sz_goyang_global
+TEXT: Зона Сафари Коян: Исследовательское испытание
 
 RESOURCE ID: trade_action
 TEXT: Обмен
@@ -60470,6 +61568,18 @@ TEXT: Теперь, по достижении 40-го уровня, у тебя 
 RESOURCE ID: tutorial_level_40_plus_intro
 TEXT: Поздравляем с достижением великолепных результатов, Тренер!
 
+RESOURCE ID: tutorial_vivillon_postcard_body_0
+TEXT: If you pin multiple Postcards from a certain region, you’ll have a chance to encounter a Pokémon!
+
+RESOURCE ID: tutorial_vivillon_postcard_body_1
+TEXT: The pattern on Vivillon’s wings is affected by the climate of their habitat. You can check the Vivillon map from the Pokédex and the Vivillon medal page to see where different Vivillon can be found.
+
+RESOURCE ID: tutorial_vivillon_postcard_body_2
+TEXT: When you pin a Postcard you receive from a friend, you’ll make progress on the Vivillon medal associated with that location. If you collect several Postcards from a certain part of the world, you can encounter a Scatterbug specifically from that habitat.
+
+RESOURCE ID: tutorial_vivillon_postcard_header
+TEXT: Catch Vivillon from all around the world!
+
 RESOURCE ID: tutorial_xl_candy_1
 TEXT: Похоже, была найдена конфета XL! Говорят, их можно использовать, чтобы твои Покемоны становились ещё сильнее, чем с помощью обычных конфет!
 
@@ -60628,6 +61738,9 @@ TEXT: Ультралига: Ремикс
 
 RESOURCE ID: ultra_premier_classic_title
 TEXT: Классическая Премьер-УЛ
+
+RESOURCE ID: ultra_premier_cup_title
+TEXT: Премьер-Ультра
 
 RESOURCE ID: ultra_unlock_event_2020
 TEXT: Ультрабонус 2020
@@ -61328,6 +62441,9 @@ TEXT: км
 RESOURCE ID: walk_steps
 TEXT: шаги
 
+RESOURCE ID: walked_label
+TEXT: WALKED
+
 RESOURCE ID: water_festival_catch_timed_research
 TEXT: Водный фестиваль – Испытание по поимке
 
@@ -61472,6 +62588,9 @@ TEXT: Погодные условия могут представлять опа
 RESOURCE ID: weather_clear
 TEXT: Ясно
 
+RESOURCE ID: weather_cup_title
+TEXT: Кубок погоды
+
 RESOURCE ID: weather_extreme
 TEXT: Экстремальные условия
 
@@ -61526,8 +62645,14 @@ TEXT: Не удаётся получить доступ к камере твое
 RESOURCE ID: weekly_box
 TEXT: Еженедельная коробка
 
+RESOURCE ID: weekly_reminder_km_notification_toast
+TEXT: You’ve walked %s km this week. Not much farther until you’ve reached your goal!
+
 RESOURCE ID: welcome_to_alola_event_name
 TEXT: Добро пожаловать в Алолу!
+
+RESOURCE ID: willpower_cup_title
+TEXT: Кубок силы воли
 
 RESOURCE ID: winter event
 TEXT: Зимнее событие
