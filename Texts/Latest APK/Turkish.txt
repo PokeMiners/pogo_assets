@@ -232,6 +232,9 @@ TEXT: Kabul et
 RESOURCE ID: accept_friend_request_prompt
 TEXT: Size Arkadaşlık İsteği gönderdi!
 
+RESOURCE ID: ace_box_title
+TEXT: Yıldız Kutusu
+
 RESOURCE ID: active_status_tutorial_message
 TEXT: Hangi arkadaşlarınızın oyunda olduğunu görün! İstediğiniz zaman Arkadaş Listesinden kapatabilirsiniz! 
 
@@ -823,58 +826,67 @@ RESOURCE ID: appraise_overall_mid_3|1
 TEXT: Genel olarak senin {0} oldukça iyi!
 
 RESOURCE ID: appraise_size_huge_1|1
-TEXT: Your {0} would be categorized as unusually large.
+TEXT: Senin {0} koca bir dev gibi. Bu çok nadir görülen bir durumdur aslında. Büyüleyici!
 
 RESOURCE ID: appraise_size_huge_2|1
-TEXT: Hey, that’s an enormous {0}! 
+TEXT: Senin {0} dev gibi. Hiç bu kadar büyüğünü görmemiştim!
 
 RESOURCE ID: appraise_size_huge_3|1
-TEXT: Your {0} is just HUGE!
+TEXT: Senin {0} KOCAMAN!
 
 RESOURCE ID: appraise_size_large_1|1
+TEXT: {0}, boyut olarak ortalamanın üstünde.
+
+RESOURCE ID: appraise_size_large_1|1b
 TEXT: Your {0} is above average in size.
 
 RESOURCE ID: appraise_size_large_2|1
 TEXT: Hiç şüphesiz senin {0} oldukça büyük.
 
 RESOURCE ID: appraise_size_large_3|1
+TEXT: Senin {0} bayağı BÜYÜK!
+
+RESOURCE ID: appraise_size_large_3|1b
 TEXT: Your {0} is a BIG one!
 
 RESOURCE ID: appraise_size_small_1|1
+TEXT: {0}, boyut olarak ortalamanın altında.
+
+RESOURCE ID: appraise_size_small_1|1b
 TEXT: Your {0} is below average in size.
 
 RESOURCE ID: appraise_size_small_2|1
 TEXT: Ayy, ne kadar küçük bir {0}! Çok tatlı.
 
 RESOURCE ID: appraise_size_small_3|1
-TEXT: Your {0} is a little small for its kind, don’t you think?
+TEXT: {0} sence de türüne göre biraz küçük değil mi?
 
 RESOURCE ID: appraise_size_tiny_1|1
-TEXT: Your {0} would be categorized as unusually small.
+TEXT: {0}, kayıtlarımızdakilerden çok daha küçük. Şaşırtıcı bir durum.
 
 RESOURCE ID: appraise_size_tiny_2|1
-TEXT: That's a lil’ {0} you’ve got there!
+TEXT: Senin {0} o kadar küçük ki neredeyse fark etmeyecektim!
 
 RESOURCE ID: appraise_size_tiny_3|1
-TEXT: Your {0} is pretty petite, huh? 
+TEXT: Vay. Gördüğüm en küçük {0} bu!
 
 RESOURCE ID: appraise_size_xxl_1|1
 TEXT: The size of your {0} is...colossal. This is indeed exceptional. Fascinating!
 
 RESOURCE ID: appraise_size_xxl_2|1
-TEXT: Your {0} is gigantic—the largest I’ve ever seen!
+TEXT: Your {0} is gigantic—the largest I've ever seen!
 
 RESOURCE ID: appraise_size_xxl_3|1
-TEXT: Your {0} is massive! Could it be the biggest {0} in the world?
+TEXT: Your {0} is massive! ...Could it be the biggest {0} in the world?
 
 RESOURCE ID: appraise_size_xxs_1|1
 TEXT: Your {0} is tinier than any we have on record. Astounding.
 
 RESOURCE ID: appraise_size_xxs_2|1
-TEXT: Your {0} is so tiny, I almost didn’t notice it!
+TEXT: Your {0} is so tiny, I almost didn't notice it!
 
 RESOURCE ID: appraise_size_xxs_3|1
-TEXT: Wh-whoa. That's the tiniest {0} I’ve ever seen!
+TEXT: Wh-whoa. That's the tiniest {0} I've ever seen!
 
 RESOURCE ID: appraise_stat_best_1|1
 TEXT: İstatistikleri, hesaplamalarımı aşıyor. İnanılmaz!
@@ -1436,6 +1448,9 @@ TEXT: Ho-Oh Kanatları
 RESOURCE ID: avatar_f_backpack_longchampbp_00_bundle_icon
 TEXT: Longchamp Sırt Çantası
 
+RESOURCE ID: avatar_f_backpack_lunala
+TEXT: Lunala Wings
+
 RESOURCE ID: avatar_f_backpack_mimikyubp_0_bundle_icon
 TEXT: Mimikyu Çantası
 
@@ -1552,6 +1567,9 @@ TEXT: Pikachu Maskesi
 RESOURCE ID: avatar_f_face_sableyemask_00_bundle_icon
 TEXT: Sableye Maskesi
 
+RESOURCE ID: avatar_f_face_solgaleo
+TEXT: Solgaleo Mask
+
 RESOURCE ID: avatar_f_face_teamskull_00_bundle_icon
 TEXT: Kafatası Takımı
 Maskesi
@@ -1564,6 +1582,10 @@ TEXT: Geleceğin Gözlüğü
 
 RESOURCE ID: avatar_f_glasses_empty_bundle_icon
 TEXT: Gözlüksüz
+
+RESOURCE ID: avatar_f_glasses_fw2022_00_bundle_icon
+TEXT: Mareanie
+Güneş Gözlüğü
 
 RESOURCE ID: avatar_f_glasses_goteamrocketarlo_00_bundle_icon
 TEXT: Arlo Tarzı Gözlük
@@ -1774,6 +1796,9 @@ TEXT: LeafGreen Şapkası
 RESOURCE ID: avatar_f_hat_furfrouwig_00_bundle_icon
 TEXT: Furfrou Peruğu
 
+RESOURCE ID: avatar_f_hat_fw2022_00_bundle_icon
+TEXT: Mareanie Siperliği
+
 RESOURCE ID: avatar_f_hat_galarfarfetchditems_00_bundle_icon
 TEXT: Galarlı Farfetch’d Şapka Seti
 
@@ -1845,6 +1870,9 @@ TEXT: 45. Seviye Şapkası
 
 RESOURCE ID: avatar_f_hat_magikarp_bundle_icon
 TEXT: Magikarp Şapkası
+
+RESOURCE ID: avatar_f_hat_mareaniehat_00_bundle_icon
+TEXT: Mareanie Şapkası
 
 RESOURCE ID: avatar_f_hat_megalopunnyitems_00_bundle_icon
 TEXT: Mega Lopunny Kulakları
@@ -2065,11 +2093,18 @@ TEXT: Koşu Takımı
 RESOURCE ID: avatar_f_pants_dp_00_bundle_icon
 TEXT: Sinnoh Eteği
 
+RESOURCE ID: avatar_f_pants_fashionweek2022_00_bundle_icon
+TEXT: Son Moda
+Siyah Pantolon
+
 RESOURCE ID: avatar_f_pants_flabebepack_00_bundle_icon
 TEXT: Flabébé Şortu
 
 RESOURCE ID: avatar_f_pants_frlg_bundle_icon
 TEXT: LeafGreen Eteği
+
+RESOURCE ID: avatar_f_pants_fw2022_00_bundle_icon
+TEXT: Mareanie Şortu
 
 RESOURCE ID: avatar_f_pants_genderlessskirt_00_bundle_icon
 TEXT: Sarma Etek
@@ -2290,6 +2325,11 @@ TEXT: Mavi Sörf Tişörtü
 RESOURCE ID: avatar_f_shirt_elesa_00_bundle_icon
 TEXT: Elesa Tarzı Kıyafet
 
+RESOURCE ID: avatar_f_shirt_fashionweek2022_00_bundle_icon
+TEXT: Son Moda
+Siyah Beyaz
+Gömlek
+
 RESOURCE ID: avatar_f_shirt_flabebepack_00_bundle_icon
 TEXT: Flabébé Gömleği
 
@@ -2298,6 +2338,9 @@ TEXT: H.F Özel Tişört A
 
 RESOURCE ID: avatar_f_shirt_frlg_bundle_icon
 TEXT: LeafGreen Üstü
+
+RESOURCE ID: avatar_f_shirt_fw2022_00_bundle_icon
+TEXT: Mareanie Ceketi
 
 RESOURCE ID: avatar_f_shirt_galarfarfetchditems_00_bundle_icon
 TEXT: Galarlı Farfetch’d Tişörtü ve Çantası
@@ -2780,8 +2823,15 @@ TEXT: Elesa Tarzı Ayakkabı
 RESOURCE ID: avatar_f_shoes_empty_bundle_icon
 TEXT: Ayakkabısız
 
+RESOURCE ID: avatar_f_shoes_fashionweek2022_00_bundle_icon
+TEXT: Son Moda Siyah
+Spor Ayakkabı
+
 RESOURCE ID: avatar_f_shoes_frlg_bundle_icon
 TEXT: LeafGreen Ayakkabısı
+
+RESOURCE ID: avatar_f_shoes_fw2022_00_bundle_icon
+TEXT: Mareanie Ayakkabısı
 
 RESOURCE ID: avatar_f_shoes_giovanni_0_bundle_icon
 TEXT: Giovanni Ayakkabıları
@@ -2942,6 +2992,9 @@ TEXT: Uzun Tozluk
 RESOURCE ID: avatar_f_socks_empty_bundle_icon
 TEXT: Çorapsız
 
+RESOURCE ID: avatar_f_socks_fw2022_00_bundle_icon
+TEXT: Mareanie Çorabı
+
 RESOURCE ID: avatar_f_socks_hgss_bundle_icon
 TEXT: Johto Çorabı
 
@@ -3057,6 +3110,9 @@ TEXT: Ho-Oh Kanatları
 RESOURCE ID: avatar_m_backpack_longchampbp_00_bundle_icon
 TEXT: Longchamp Sırt Çantası
 
+RESOURCE ID: avatar_m_backpack_lunala
+TEXT: Lunala Wings
+
 RESOURCE ID: avatar_m_backpack_mimikyubp_0_bundle_icon
 TEXT: Mimikyu Çantası
 
@@ -3155,6 +3211,9 @@ TEXT: Pikachu Maskesi
 RESOURCE ID: avatar_m_face_sableyemask_00_bundle_icon
 TEXT: Sableye Maskesi
 
+RESOURCE ID: avatar_m_face_solgaleo
+TEXT: Solgaleo Mask
+
 RESOURCE ID: avatar_m_face_teamskull_00_bundle_icon
 TEXT: Kafatası Takımı
 Maskesi
@@ -3167,6 +3226,10 @@ TEXT: Geleceğin Gözlüğü
 
 RESOURCE ID: avatar_m_glasses_empty_bundle_icon
 TEXT: Gözlüksüz
+
+RESOURCE ID: avatar_m_glasses_fw2022_00_bundle_icon
+TEXT: Mareanie
+Güneş Gözlüğü
 
 RESOURCE ID: avatar_m_glasses_goteamrocketarlo_00_bundle_icon
 TEXT: Arlo Tarzı Gözlük
@@ -3379,6 +3442,9 @@ TEXT: FireRed Şapkası
 RESOURCE ID: avatar_m_hat_furfrouwig_00_bundle_icon
 TEXT: Furfrou Peruğu
 
+RESOURCE ID: avatar_m_hat_fw2022_00_bundle_icon
+TEXT: Mareanie Siperliği
+
 RESOURCE ID: avatar_m_hat_galarfarfetchditems_00_bundle_icon
 TEXT: Galarlı Farfetch’d Şapka Seti
 
@@ -3450,6 +3516,9 @@ TEXT: 45. Seviye Şapkası
 
 RESOURCE ID: avatar_m_hat_magikarp_bundle_icon
 TEXT: Magikarp Şapkası
+
+RESOURCE ID: avatar_m_hat_mareaniehat_00_bundle_icon
+TEXT: Mareanie Şapkası
 
 RESOURCE ID: avatar_m_hat_megalopunnyitems_00_bundle_icon
 TEXT: Mega Lopunny Kulakları
@@ -3656,6 +3725,10 @@ TEXT: Sinnoh Pantolonu
 RESOURCE ID: avatar_m_pants_elesa_00_bundle_icon
 TEXT: Elesa Tarzı Pantolon
 
+RESOURCE ID: avatar_m_pants_fashionweek2022_00_bundle_icon
+TEXT: Son Moda
+Siyah Pantolon
+
 RESOURCE ID: avatar_m_pants_fisher_bundle_icon
 TEXT: Balıkçı Pantolonu
 
@@ -3664,6 +3737,9 @@ TEXT: Flabébé Şortu
 
 RESOURCE ID: avatar_m_pants_frlg_bundle_icon
 TEXT: FireRed Pantolonu
+
+RESOURCE ID: avatar_m_pants_fw2022_00_bundle_icon
+TEXT: Mareanie Şortu
 
 RESOURCE ID: avatar_m_pants_genderlessskirt_00_bundle_icon
 TEXT: Sarma Etek
@@ -3887,6 +3963,11 @@ TEXT: Mavi Sörf Tişörtü
 RESOURCE ID: avatar_m_shirt_elesa_00_bundle_icon
 TEXT: Elesa Tarzı Üst
 
+RESOURCE ID: avatar_m_shirt_fashionweek2022_00_bundle_icon
+TEXT: Son Moda
+Siyah Beyaz
+Gömlek
+
 RESOURCE ID: avatar_m_shirt_fisher_bundle_icon
 TEXT: Balıkçı Yeleği
 
@@ -3898,6 +3979,9 @@ TEXT: H.F Özel Tişört A
 
 RESOURCE ID: avatar_m_shirt_frlg_bundle_icon
 TEXT: FireRed Üstü
+
+RESOURCE ID: avatar_m_shirt_fw2022_00_bundle_icon
+TEXT: Mareanie Ceketi
 
 RESOURCE ID: avatar_m_shirt_galarfarfetchditems_00_bundle_icon
 TEXT: Galarlı Farfetch’d Tişörtü ve Çantası
@@ -4380,11 +4464,18 @@ TEXT: Elesa Tarzı Ayakkabı
 RESOURCE ID: avatar_m_shoes_empty_bundle_icon
 TEXT: Ayakkabısız
 
+RESOURCE ID: avatar_m_shoes_fashionweek2022_00_bundle_icon
+TEXT: Son Moda Siyah
+Spor Ayakkabı
+
 RESOURCE ID: avatar_m_shoes_fisher_bundle_icon
 TEXT: Balıkçı Çizmesi
 
 RESOURCE ID: avatar_m_shoes_frlg_bundle_icon
 TEXT: FireRed Ayakkabısı
+
+RESOURCE ID: avatar_m_shoes_fw2022_00_bundle_icon
+TEXT: Mareanie Ayakkabısı
 
 RESOURCE ID: avatar_m_shoes_giovanni_0_bundle_icon
 TEXT: Giovanni Ayakkabıları
@@ -4544,6 +4635,9 @@ TEXT: Tayt
 
 RESOURCE ID: avatar_m_socks_empty_bundle_icon
 TEXT: Çorapsız
+
+RESOURCE ID: avatar_m_socks_fw2022_00_bundle_icon
+TEXT: Mareanie Çorabı
 
 RESOURCE ID: avatar_m_socks_sneakersocks_00_bundle_icon
 TEXT: Kısa Çorap
@@ -4730,6 +4824,132 @@ TEXT: 1 En İyi Dosta sahip olun.
 
 RESOURCE ID: badge_buddy_best_title
 TEXT: En İyi Dost
+
+RESOURCE ID: badge_butterfly_collector_archipelago_singular
+TEXT: Collect Archipelago Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_archipelago_title
+TEXT: Archipelago Collector
+
+RESOURCE ID: badge_butterfly_collector_continental_singular
+TEXT: Collect Continental Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_continental_title
+TEXT: Continental Collector
+
+RESOURCE ID: badge_butterfly_collector_elegant_singular
+TEXT: Collect Elegant Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_elegant_title
+TEXT: Elegant Collector
+
+RESOURCE ID: badge_butterfly_collector_fancy_singular
+TEXT: Collect Fancy Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_fancy_title
+TEXT: Fancy Collector
+
+RESOURCE ID: badge_butterfly_collector_garden_singular
+TEXT: Collect Continental Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_garden_title
+TEXT: Garden Collector
+
+RESOURCE ID: badge_butterfly_collector_high_plains_singular
+TEXT: Collect High Plains Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_high_plains_title
+TEXT: High Plains Collector
+
+RESOURCE ID: badge_butterfly_collector_icy_snow_singular
+TEXT: Collect Icy Snow Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_icy_snow_title
+TEXT: Icy Snow Collector
+
+RESOURCE ID: badge_butterfly_collector_jungle_singular
+TEXT: Collect Jungle Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_jungle_title
+TEXT: Jungle Collector
+
+RESOURCE ID: badge_butterfly_collector_marine_singular
+TEXT: Collect Marine Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_marine_title
+TEXT: Marine Collector
+
+RESOURCE ID: badge_butterfly_collector_meadow_singular
+TEXT: Collect Meadow Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_meadow_title
+TEXT: Meadow Collector
+
+RESOURCE ID: badge_butterfly_collector_modern_singular
+TEXT: Collect Modern Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_modern_title
+TEXT: Modern Collector
+
+RESOURCE ID: badge_butterfly_collector_monsoon_singular
+TEXT: Collect Monsoon Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_monsoon_title
+TEXT: Monsoon Collector
+
+RESOURCE ID: badge_butterfly_collector_ocean_singular
+TEXT: Collect Ocean Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_ocean_title
+TEXT: Ocean Collector
+
+RESOURCE ID: badge_butterfly_collector_pokeball_singular
+TEXT: Collect Poké Ball Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_pokeball_title
+TEXT: Poké Ball Collector
+
+RESOURCE ID: badge_butterfly_collector_polar_singular
+TEXT: Collect Polar Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_polar_title
+TEXT: Polar Collector
+
+RESOURCE ID: badge_butterfly_collector_river_singular
+TEXT: Collect River Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_river_title
+TEXT: River Collector
+
+RESOURCE ID: badge_butterfly_collector_sandstorm_singular
+TEXT: Collect Sandstorm Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_sandstorm_title
+TEXT: Sandstorm Collector
+
+RESOURCE ID: badge_butterfly_collector_savannah_singular
+TEXT: Collect Savannah Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_savannah_title
+TEXT: Savannah Collector
+
+RESOURCE ID: badge_butterfly_collector_singular
+TEXT: Collect Vivillon from all over the world.
+
+RESOURCE ID: badge_butterfly_collector_sun_singular
+TEXT: Collect Sun Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_sun_title
+TEXT: Sun Collector
+
+RESOURCE ID: badge_butterfly_collector_title
+TEXT: Butterfly Collector
+
+RESOURCE ID: badge_butterfly_collector_tundra__singular
+TEXT: Collect Tundra Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_tundra_title
+TEXT: Tundra Collector
 
 RESOURCE ID: badge_capture_bonus_reward
 TEXT: +{0} {1} türü yakalama bonusu
@@ -9437,16 +9657,16 @@ RESOURCE ID: beluga_wonder_box_title
 TEXT: GİZEMLİ KUTU
 
 RESOURCE ID: bgmode_no_eggs_incubating_notification_toast
-TEXT: You currently have no Eggs incubating!
+TEXT: Şu an kulukçada hiç Yumurtanız yok!
 
 RESOURCE ID: bgmode_open_gym_spot_notification_toast
-TEXT: Nearby Gym %s has an open spot for your Pokémon!
+TEXT: Yakındaki %s Spor Salonunda Pokémon’unuz için yer var!
 
 RESOURCE ID: bgmode_scanning_notification
 TEXT: Yakındaki Pokémon’lar aranıyor!
 
 RESOURCE ID: bgmode_uncaught_distance_notification_toast
-TEXT: A Pokémon you’ve never caught is %1$s meters away near %2$s!
+TEXT: Daha önce hiç yakalamadığınız bir Pokémon %1$s metre ileride %2$s yakınında!
 
 RESOURCE ID: bidoof_breakout_event
 TEXT: Bidoof Artışı
@@ -9505,6 +9725,9 @@ TEXT: Sinyal yok... Anladım. Belki de bugünlük işleri bitmiştir. Yarın tek
 RESOURCE ID: blanche_map_time_warning|2
 TEXT: Sabaha kadar bekleyelim. Bir süre ortaya çıkacaklarını sanmıyorum.
 
+RESOURCE ID: bluetooth_permissions_denied
+TEXT: Pokémon GO’da bu özelliğin kullanılabilmesi için Bluetooth erişimi gerekiyor. Lütfen sistem ayarları menüsündeki “Yakındaki cihazlar” altından Bluetooth izni verin.
+
 RESOURCE ID: bonus_1/4_hatch_dist_deino
 TEXT: 1/4 çatlatma mesafesi
 
@@ -9544,6 +9767,9 @@ TEXT: 4× Yakalama TP'si
 RESOURCE ID: bonus_active
 TEXT: Bonus şimdi aktif!
 
+RESOURCE ID: bonus_buddy_catch_assist_boosted
+TEXT: Dost seviyeniz Harika Dost veya üstü ise dostunuzdan daha yüksek Yakalama Yardımı alma şansı
+
 RESOURCE ID: bonus_candy_nice_great_excel
 TEXT: İyi, Süper ve Mükemmel Atışla Pokémon yakalama için daha fazla şeker
 
@@ -9558,6 +9784,9 @@ TEXT: Alolalı Graveler’ı evrimleştirerek Yuvarlan hızlı saldırısını b
 
 RESOURCE ID: bonus_cd_move_deino
 TEXT: Vahşi Savurma güçlü saldırısını bilen Hydreigon’ı elde etmek için Zweilos’u evrimleştirin
+
+RESOURCE ID: bonus_cd_move_litwick
+TEXT: Evolve Lampent to get a Chandelure that knows the Charged Attack Poltergeist!
 
 RESOURCE ID: bonus_cd_move_roggenrola
 TEXT: Boldore’u evrimleştirerek Meteor Işını güçlü saldırısını bilen Gigalith elde edin
@@ -9591,6 +9820,9 @@ TEXT: Eğitmenler bir Spor Salonunda birlikte Zweilous akın maçı kazanırsa, 
 
 RESOURCE ID: bonus_implicit_social_deino_raid_title
 TEXT: Topluluk Günü Görevi: Akın
+
+RESOURCE ID: bonus_implicit_social_litwick_raid
+TEXT: If Trainers work together to win a Lampent raid, large numbers of Litwick will appear in the area for 30 minutes.
 
 RESOURCE ID: bonus_implicit_social_lure_4x_catch_xp
 TEXT: Tek bir Yem Modülü ile yeterli sayıda Pokémon yakalanırsa, normalde 3× olan Pokémon yakalama TP bonusu Yem Modülünün kullanıldığı PokéDurağın etrafında 30 dakikalığına 4× olacak.
@@ -9697,6 +9929,9 @@ TEXT: 1/4 Çatlatma Mesafesi
 RESOURCE ID: bonus_spawn_pikachu
 TEXT: Doğada daha fazla Pikachu ortaya çıkıyor
 
+RESOURCE ID: bonus_special_trade_double_cd
+TEXT: One additional Special Trade can be made during the event and up to five hours afterward for a maximum of two for the day.
+
 RESOURCE ID: bonus_special_trade_starly_cd
 TEXT: Etkinlik süresince ve etkinlikten sonraki 5 saat içinde fazladan bir adet özel takas (günde en fazla 3 adet).
 
@@ -9729,6 +9964,9 @@ TEXT: Skiploom yakalandığında artırılmış Hoppip Büyük Şekeri kazanım�
 
 RESOURCE ID: bonus_xl_rare_candy_irl_raids
 TEXT: Canlı akın maçlarında bonus Nadir Büyük Şeker
+
+RESOURCE ID: boost_box_title
+TEXT: Yükseltme Kutusu
 
 RESOURCE ID: boosted_mega_pokemon_abomasnow
 TEXT: Mega Abomasnow, geçici olarak daha güçlü!
@@ -10905,6 +11143,12 @@ TEXT: Sabah tekrar bakarız. İçimden bir ses GO Roket Takımı'nın bir işler
 RESOURCE ID: candy_exchange_button
 TEXT: Takas et
 
+RESOURCE ID: candy_to_xl_trade
+TEXT: {0} şekeriyle {0} büyük şekeri takas edilsin mi?
+
+RESOURCE ID: candy_to_xl_trade_plural
+TEXT: {0} şekeriyle {0} büyük şekeri takas edilsin mi?
+
 RESOURCE ID: candy_trade_xl
 TEXT: Şeker → Büyük Şeker
 
@@ -11002,7 +11246,7 @@ RESOURCE ID: catch_cup_title
 TEXT: Yakalama Kupası
 
 RESOURCE ID: catch_exclamation_point
-TEXT: Catch!
+TEXT: Yakala!
 
 RESOURCE ID: catch_recap_text_0
 TEXT: {0} Pokémon yakaladınız
@@ -11396,6 +11640,12 @@ TEXT: Çelik türü Pokémon'un bir fotoğrafını çekin
 
 RESOURCE ID: challenge_snapshot_pkmn_water_single
 TEXT: Su türü Pokémon'un bir fotoğrafını çekin
+
+RESOURCE ID: challenge_snapshot_wild_blitzle_singularchallenge_snapshot_wild_blitzle_singular
+TEXT: Doğada Blitzle’ın bir fotoğrafını çekin
+
+RESOURCE ID: challenge_snapshot_wild_glameow_singular
+TEXT: Doğada Glameow’ın bir fotoğrafını çekin
 
 RESOURCE ID: change_banned_name_dialog
 TEXT: Merhaba Eğitmen! Takma adınla ilgili bir sorun var gibi görünüyor. Lütfen yeni bir takma ad seç.
@@ -13024,6 +13274,12 @@ TEXT: Topluluk Günü: Gible
 RESOURCE ID: community_day_hoppip_event_name
 TEXT: Topluluk Günü: Hoppip
 
+RESOURCE ID: community_day_litwick_event_name
+TEXT: Community Day: Litwick
+
+RESOURCE ID: community_day_litwick_limited_research
+TEXT: Litwick Sınırlı Araştırması
+
 RESOURCE ID: community_day_machop_event_name
 TEXT: Topluluk Günü: Machop
 
@@ -13034,10 +13290,10 @@ RESOURCE ID: community_day_magmar_event_name
 TEXT: Topluluk Günü: Magmar
 
 RESOURCE ID: community_day_map_description
-TEXT: Check out our Community Day map to find the best places to spend Community Day!
+TEXT: Topluluk Gününde diğer Eğitmenlerle takas ve maç yapmak veya akın maçlarına katılmak için Topluluk Günü haritamıza göz atın!
 
 RESOURCE ID: community_day_map_name
-TEXT: Meet other Trainers
+TEXT: Diğer Eğitmenlerle tanışın
 
 RESOURCE ID: community_day_mudkip_event_name
 TEXT: Mudkip Topluluk Günü Klasik
@@ -13118,9 +13374,7 @@ RESOURCE ID: continue_to_battle_button
 TEXT: Maça devam et
 
 RESOURCE ID: convert_to_stardust
-TEXT: Eşya Çantanız dolu olduğu için bu Hediyeyi açtığınızda sadece Yıldız Tozunu alabileceksiniz.
-
-Eşya Çantanız doluyken Hediye açıp açamayacağınızı Ayarlardan değiştirebilirsiniz.
+TEXT: You’ll be able to receive Stardust if you open this Gift, but you won’t receive other items because your Item Bag is full.  You can change whether Gifts can be opened while your Item Bag is full by going to the Settings menu.
 
 RESOURCE ID: copy_friend_code_title
 TEXT: EĞİTMEN KODUMU KOPYALA
@@ -13183,7 +13437,7 @@ RESOURCE ID: dai_willow_part2_tile_page2
 TEXT: Şaşırtıcı Bir Tütsü 2. Kısım (1/2)
 
 RESOURCE ID: daily_adventure_incense_description
-TEXT: Activate Daily Adventure Incense and begin to explore, and you may encounter Pokémon not frequently seen in the wild!
+TEXT: Doğada sıklıkla görünmeyen Pokémon’larla karşılaşma fırsatı için Günlük Macera Tütsüsünü hemen etkinleştirin ve keşfe başlayın!
 
 RESOURCE ID: daily_adventure_incense_modal_message
 TEXT: Hareket ettiğinizde gizemli bir koku yayarak {0} dakika boyunca vahşi Pokémon’ları konumunuza çeken özel bir Tütsü. Ücretsiz olarak her gün bir adet alabilirsiniz.
@@ -15018,7 +15272,7 @@ RESOURCE ID: evo_2019_rocket_l
 TEXT: Evrim Etkinliği: GO Roket Takımı Liderlerine karşı {0} kez zafer kazanın
 
 RESOURCE ID: evolution_cup_title
-TEXT: Evolution Cup
+TEXT: Evrim Kupası
 
 RESOURCE ID: evolution_event_name
 TEXT: Evrim Etkinliği
@@ -15047,6 +15301,9 @@ TEXT: Bu Pokémon'un DG'si bazı Maç Ligi limitlerini aşabilir.
 RESOURCE ID: evolved_too_strong_some
 TEXT: Bu Pokémon'un DG'si bazı Maç Ligi limitlerini aşacak.
 
+RESOURCE ID: evolving_stars_event_name
+TEXT: Evrilen Yıldızlar
+
 RESOURCE ID: ex_raid_pass_invite_empty_prompt
 TEXT: Henüz hiç {0} yok!
 
@@ -15068,8 +15325,14 @@ TEXT: Oturum Aç
 RESOURCE ID: existing_player_label
 TEXT: Geri dönen oyuncu
 
+RESOURCE ID: expert_box_title
+TEXT: Uzman Kutusu
+
 RESOURCE ID: explore_responsibly
 TEXT: Keşfederken Dikkati Elden Bırakmayın
+
+RESOURCE ID: explorer_box_title
+TEXT: Kâşif Kutusu
 
 RESOURCE ID: explorer_pikachu_available
 TEXT: Yabanda Kâşif Pikachu ortaya çıkıyor
@@ -15202,6 +15465,9 @@ TEXT: Böcek Avcısı Pozu
 
 RESOURCE ID: f_avatar_poses_bundle_pose_41
 TEXT: Guzma Pozu
+
+RESOURCE ID: f_avatar_poses_bundle_pose_44
+TEXT: Maytap Pozu
 
 RESOURCE ID: f_avatar_poses_empty_bundle_pose_empty
 TEXT: Boşta
@@ -16908,6 +17174,14 @@ TEXT: Bu bilet, 12 Şubat 2022'de, yerel saatle 11:00-17:00 arasında gerçekle�
 
 RESOURCE ID: general1.ticket.2_hoppt_title
 TEXT: Hop Hop Zıplayalım
+
+RESOURCE ID: general1.ticket.2_litwick_description
+TEXT: A ticket to access the Field Notes: Trick of the Light Special Research on October 15, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_litwick_title
+TEXT: Field Notes: Trick of the Light
 
 RESOURCE ID: general1.ticket.2_machop_description
 TEXT: Bu bilet 16 Ocak tarihinde yerel saatle 11:00 - 17:00 arasında Doğrudan Zirveye Machop! Özel Araştırmasına katılmanıza olanak sağlar. Detaylar, oyun içi Haberler'de bulunabilir.
@@ -19135,6 +19409,9 @@ TEXT: Küresel GO Festivali: Bir akın kazanın
 RESOURCE ID: gofestd_2019_medium_win_gym_battle
 TEXT: Küresel GO Festivali: {0} Spor Salonu maçı kazanın
 
+RESOURCE ID: gold_box_title
+TEXT: Altın Kutu
+
 RESOURCE ID: google_auth_failed
 TEXT: Doğrulama başarısız. Lütfen tekrar deneyin.
 
@@ -19195,8 +19472,89 @@ TEXT: Pokémon GO Tur: Kanto'ya hoş geldiniz!
 RESOURCE ID: gotour2021_welcome_red
 TEXT: Pokémon GO Tur: Kanto'ya hoş geldiniz!
 
+RESOURCE ID: gotour2022
+TEXT: Pokémon GO Turu: Johto
+
+RESOURCE ID: gotour2022_battle
+TEXT: Pokémon GO Tour: Johto Battle Challenge
+
+RESOURCE ID: gotour2022_battle_0
+TEXT: Pokémon GO Tour: Johto Battle Challenge (1/11)
+
+RESOURCE ID: gotour2022_battle_1
+TEXT: Pokémon GO Tour: Johto Battle Challenge (2/11)
+
+RESOURCE ID: gotour2022_battle_10
+TEXT: Pokémon GO Tour: Johto Battle Challenge (11/11)
+
+RESOURCE ID: gotour2022_battle_2
+TEXT: Pokémon GO Tour: Johto Battle Challenge (3/11)
+
+RESOURCE ID: gotour2022_battle_3
+TEXT: Pokémon GO Tour: Johto Battle Challenge (4/11)
+
+RESOURCE ID: gotour2022_battle_4
+TEXT: Pokémon GO Tour: Johto Battle Challenge (5/11)
+
+RESOURCE ID: gotour2022_battle_5
+TEXT: Pokémon GO Tour: Johto Battle Challenge (6/11)
+
+RESOURCE ID: gotour2022_battle_6
+TEXT: Pokémon GO Tour: Johto Battle Challenge (7/11)
+
+RESOURCE ID: gotour2022_battle_7
+TEXT: Pokémon GO Tour: Johto Battle Challenge (8/11)
+
+RESOURCE ID: gotour2022_battle_8
+TEXT: Pokémon GO Tour: Johto Battle Challenge (9/11)
+
+RESOURCE ID: gotour2022_battle_9
+TEXT: Pokémon GO Tour: Johto Battle Challenge (10/11)
+
 RESOURCE ID: gotour2022_battle_champion
 TEXT: Johto Maç Görevi Şampiyonu
+
+RESOURCE ID: gotour2022_battle_choice_keep_battling
+TEXT: Maçlara Devam
+
+RESOURCE ID: gotour2022_battle_choice_stop_battling
+TEXT: Yakalamaya Odaklan
+
+RESOURCE ID: gotour2022_battle_description_keep_battling
+TEXT: Tekrar maç yapabilmeniz için tüm GO Spor Salonu Eğitmenleri, Pokéduraklarda ortaya çıkmaya devam edecek. Daha fazla ödül kazanmak için gün boyunca maç yapmaya devam edebilirsiniz.
+
+RESOURCE ID: gotour2022_battle_description_stop_battling
+TEXT: GO Spor Salonu Eğitmenleri bugün Pokéduraklarda daha fazla ortaya çıkmayacak. Böylece Pokémon yakalamaya odaklanabilirsiniz.
+
+RESOURCE ID: gotour2022_battle_dialogue_0_0
+TEXT: Nihayet sona ulaştık %PLAYERNAME%. Artık gücünü sorgulayacak kimse kalmadı.
+
+RESOURCE ID: gotour2022_battle_dialogue_0_1
+TEXT: Johto Maç Görevi Şampiyonu oldun!
+
+RESOURCE ID: gotour2022_battle_dialogue_0_2
+TEXT: Pokémon’lara karşı duyduğun güven, adanmışlık ve sevgi bu başarıyı mümkün kıldı. Kazandın, çünkü Pokémon’ların sana inandı. Tıpkı senin de onlara inandığın gibi.
+
+RESOURCE ID: gotour2022_battle_dialogue_0_3
+TEXT: Tebrikler %PLAYERNAME%!
+
+RESOURCE ID: gotour2022_battle_dialogue_0_4
+TEXT: Bu devasa başarıyı kutlamak için ne yapacaksın?
+
+RESOURCE ID: gotour2022_battle_dialogue_1_0
+TEXT: Beklentileri fazlasıyla aşmayı başardın %PLAYERNAME%! Pokémon’ların maç yapmaya devam etmek için heyecan duyuyor gibi. Birlikte mükemmel bir takım oldunuz. Şimdi git ve takımını gururlandır!
+
+RESOURCE ID: gotour2022_battle_dialogue_2_0
+TEXT: Limitlerini bilmek önemlidir %PLAYERNAME%. Kendini aşırı zorlamamak, zayıflık göstergesi değildir.
+
+RESOURCE ID: gotour2022_battle_dialogue_2_1
+TEXT: Ayrıca Pokémon’ların da biraz istirahat etmek istiyor gibi duruyor. Öyleyse neden biraz dinlenmiyorsun? Enerjini topladığında yakalamanı bekleyen pek çok Pokémon ve pek çok potansiyel yeni arkadaş olacak.
+
+RESOURCE ID: gotour2022_battle_leader_guidance
+TEXT: İpucu: Johto Maç Görevi Lideri ile maç yapabilmek için Yıldız Tozu kazanın!
+
+RESOURCE ID: gotour2022_beast_guidance
+TEXT: Yabanda karşılaşacağınız Raikou, Entei ve Suicune sizden kaçacak. Kaçmadan fotoğraflarını çekin.
 
 RESOURCE ID: gotour2022_challenger_bug_azalea_loss
 TEXT: Böcek Pokémon’larım yenildi! Utanç verici.
@@ -19402,8 +19760,38 @@ TEXT: Gold Versiyonu seçmek istiyor musunuz?
 RESOURCE ID: gotour2022_choose_version_title_silver
 TEXT: Silver Versiyonu seçmek istiyor musunuz?
 
+RESOURCE ID: gotour2022_defeat_leader
+TEXT: Johto Maç Görevi Liderini Yenin
+
+RESOURCE ID: gotour2022_evolve
+TEXT: Pokémon GO Tour: Johto – Evolve
+
+RESOURCE ID: gotour2022_evolve_description
+TEXT: Johto'da keşfedilen Pokémon'ları evrimleştirin
+
 RESOURCE ID: gotour2022_gold
 TEXT: GO Tur Johto: Gold Versiyonu
+
+RESOURCE ID: gotour2022_gold_catch
+TEXT: Pokémon GO Tour: Johto – Gold (Incense)
+
+RESOURCE ID: gotour2022_gold_catch_description
+TEXT: Gold versiyona özel Pokémon’ları çekmek için tütsü kullanın
+
+RESOURCE ID: gotour2022_gold_trade
+TEXT: Pokémon GO Tour: Johto – Gold (Trade)
+
+RESOURCE ID: gotour2022_gold_trade_description
+TEXT: Trade with friends to get these Silver Version–exclusive Pokémon
+
+RESOURCE ID: gotour2022_goldenrod_city
+TEXT: Pokémon GO Tour: Johto – Goldenrod City
+
+RESOURCE ID: gotour2022_goldenrod_city_description
+TEXT: Goldenrod Şehri saatinde Pokémon yakalayın
+
+RESOURCE ID: gotour2022_goldenrod_city_hour
+TEXT: Şimdi: Goldenrod Şehri saati!
 
 RESOURCE ID: gotour2022_instinct_leader_loss
 TEXT: Ay...
@@ -19417,6 +19805,15 @@ TEXT: İçgüdüler oldukça kullanışlı, öyle değil mi? İçgüdü Takımı
 RESOURCE ID: gotour2022_instinct_leader_victory
 TEXT: Kazandım mı? Şey... Yaşasın! Kazandım! Oley!
 
+RESOURCE ID: gotour2022_mt_silver
+TEXT: Pokémon GO Tour: Johto – Mt. Silver
+
+RESOURCE ID: gotour2022_mt_silver_description
+TEXT: Gümüş Dağı saatinde Pokémon yakalayın
+
+RESOURCE ID: gotour2022_mt_silver_hour
+TEXT: Şimdi: Gümüş Dağı saati!
+
 RESOURCE ID: gotour2022_mystic_leader_loss
 TEXT: İlginç.
 
@@ -19429,11 +19826,56 @@ TEXT: Soğukkanlılık ve analiz. Mistik Takımı’nın yolu budur.
 RESOURCE ID: gotour2022_mystic_leader_victory
 TEXT: İlginç.
 
+RESOURCE ID: gotour2022_national_park
+TEXT: Pokémon GO Tour: Johto – National Park
+
+RESOURCE ID: gotour2022_national_park_description
+TEXT: Ulusal Park saatinde Pokémon yakalayın
+
+RESOURCE ID: gotour2022_national_park_hour
+TEXT: Şimdi: Ulusal Park saati!
+
+RESOURCE ID: gotour2022_new_bark_town
+TEXT: Pokémon GO Tour: Johto – New Bark Town
+
+RESOURCE ID: gotour2022_new_bark_town_description
+TEXT: Yeni Kabuk Kasabası saatinde Pokémon yakalayın
+
+RESOURCE ID: gotour2022_new_bark_town_hour
+TEXT: Şimdi: Yeni Kabuk Kasabası saati!
+
+RESOURCE ID: gotour2022_npc_guidance
+TEXT: Tip: To begin battling, you’ll need to find your opponents! You can find GO Gym Trainers at PokéStops. Visit different PokéStops to battle different GO Gym Trainers!
+
+RESOURCE ID: gotour2022_raid
+TEXT: Pokémon GO Tour: Johto – Raid
+
+RESOURCE ID: gotour2022_raid_description
+TEXT: Bu Pokémon'ları akınlarda bulun
+
 RESOURCE ID: gotour2022_silver
 TEXT: GO Tur Johto: Silver Versiyonu
 
-RESOURCE ID: gotour2022_tr_beasts_photo_safari
-TEXT: Raikou, Entei ve Suicune Fotoğraf Safarisi
+RESOURCE ID: gotour2022_silver_catch
+TEXT: Pokémon GO Tour: Johto – Silver (Incense)
+
+RESOURCE ID: gotour2022_silver_catch_description
+TEXT: Silver versiyona özel Pokémon’ları çekmek için tütsü kullanın
+
+RESOURCE ID: gotour2022_silver_trade
+TEXT: Pokémon GO Tour: Johto – Silver (Trade)
+
+RESOURCE ID: gotour2022_silver_trade_description
+TEXT: Trade with friends to get these Gold Version–exclusive Pokémon
+
+RESOURCE ID: gotour2022_snapshot_guidance
+TEXT: İpucu: Yabanda karşılaşacağınız vahşi Raikou, Entei ve Suicune'un kaçma ihtimali yüksektir. Ama kaçmadan önce fotoğraflarını çekerseniz, onları yakalamanıza olanak tanıyacak ödüller kazanabilirsiniz.
+
+RESOURCE ID: gotour2022_special
+TEXT: Pokémon GO Tour: Johto – Special
+
+RESOURCE ID: gotour2022_special_description
+TEXT: Johto Özel Araştırmasını tamamlayın ve fotoğraf çekin
 
 RESOURCE ID: gotour2022_valor_leader_loss
 TEXT: Sorun... değil... iyiyim ben.
@@ -19446,6 +19888,18 @@ TEXT: Ne olursa olsun, içimizde yanan cesaret alevi asla sönmeyecek! Cesaret T
 
 RESOURCE ID: gotour2022_valor_leader_victory
 TEXT: Cesaret Takımı yine kazandı. Tekrar maç yapalım mı?
+
+RESOURCE ID: gotour2022_violet_city
+TEXT: Pokémon GO Tour: Johto – Violet City
+
+RESOURCE ID: gotour2022_violet_city_description
+TEXT: Menekşe Şehri saatinde Pokémon yakalayın
+
+RESOURCE ID: gotour2022_violet_city_hour
+TEXT: Şimdi: Menekşe Şehri saati!
+
+RESOURCE ID: gotour2022_welcome
+TEXT: Pokémon GO Tur: Johto’ya Hoş Geldiniz!
 
 RESOURCE ID: gotour_kanto
 TEXT: Pokémon GO Tur: Kanto
@@ -19750,42 +20204,6 @@ TEXT: GO Tur Kanto: Tüm Meydan Okuyanları alt edin(4/4)
 RESOURCE ID: gotourprep_event_name
 TEXT: GO Tur Hazırlığı: Poké Topu
 
-RESOURCE ID: gotoursik
-TEXT: GO Tur: Canlı – Adım Adım Kanto
-
-RESOURCE ID: gotoursik_catch_beginning
-TEXT: Bu Pokémon’ları Başlangıç Yolculukları habitatında yakalayın!
-
-RESOURCE ID: gotoursik_catch_beginning_description
-TEXT: GO Tur: Canlı – Adım Adım Kanto: Başlangıç Yolculukları
-
-RESOURCE ID: gotoursik_catch_blanche
-TEXT: Bu Pokémon’ları Mistik Takımı habitatında yakalayın!
-
-RESOURCE ID: gotoursik_catch_blanche_description
-TEXT: GO Tur: Canlı – Adım Adım Kanto: Mistik Takımı
-
-RESOURCE ID: gotoursik_catch_candela
-TEXT: Bu Pokémon’ları Cesaret Takımı habitatında yakalayın!
-
-RESOURCE ID: gotoursik_catch_candela_description
-TEXT: GO Tur: Canlı – Adım Adım Kanto: Cesaret Takımı
-
-RESOURCE ID: gotoursik_catch_spark
-TEXT: Bu Pokémon’ları İçgüdü Takımı habitatında yakalayın!
-
-RESOURCE ID: gotoursik_catch_spark_description
-TEXT: GO Tur: Canlı – Adım Adım Kanto: İçgüdü Takımı
-
-RESOURCE ID: gotoursik_catch_willow
-TEXT: Bu Pokémon’ları Profesör Willow habitatında yakalayın!
-
-RESOURCE ID: gotoursik_catch_willow_description
-TEXT: GO Tur: Canlı – Adım Adım Kanto: Profesör Willow
-
-RESOURCE ID: gotoursik_elite4_guidance
-TEXT: İpucu: GO Tur Elit Dörtlüsü üyelerini Pokéduraklarda bulabilirsiniz. Her bir eğitmen farklı habitatta ortaya çıkar!
-
 RESOURCE ID: gotoursik_elitefour_a_loss
 TEXT: Utanç verici. Belki seni bu kadar zorlamamalıyım...
 
@@ -19894,99 +20312,6 @@ TEXT: Burada başka bir Eğitmenle karşılaşmayı beklemiyordum. Ne tesadüf!
 RESOURCE ID: gotoursik_elitefour_d_victory
 TEXT: Çabuk bitti.
 
-RESOURCE ID: gotoursik_elitefour_title
-TEXT: GO Tur Elit Dörtlü
-
-RESOURCE ID: gotoursik_photo_habitat_beginning
-TEXT: Başlangıç Maceraları habitatında bir fotoğraf çekin
-
-RESOURCE ID: gotoursik_photo_habitat_instinct
-TEXT: İçgüdü Takımı habitatında bir fotoğraf çekin
-
-RESOURCE ID: gotoursik_photo_habitat_mystic
-TEXT: Mistik Takımı habitatında bir fotoğraf çekin
-
-RESOURCE ID: gotoursik_photo_habitat_valor
-TEXT: Cesaret Takımı habitatında bir fotoğraf çekin
-
-RESOURCE ID: gotoursik_photo_habitat_willow
-TEXT: Profesör Willow habitatında bir fotoğraf çekin
-
-RESOURCE ID: gotoursik_sr_1
-TEXT: GO Tur: Canlı – Adım Adım Kanto (1/6)
-
-RESOURCE ID: gotoursik_sr_2
-TEXT: GO Tur: Canlı – Adım Adım Kanto (2/6)
-
-RESOURCE ID: gotoursik_sr_3
-TEXT: GO Tur: Canlı – Adım Adım Kanto (3/6)
-
-RESOURCE ID: gotoursik_sr_4
-TEXT: GO Tur: Canlı – Adım Adım Kanto (4/6)
-
-RESOURCE ID: gotoursik_sr_5
-TEXT: GO Tur: Canlı – Adım Adım Kanto (5/6)
-
-RESOURCE ID: gotoursik_sr_6
-TEXT: GO Tur: Canlı – Adım Adım Kanto (6/6)
-
-RESOURCE ID: gotoursik_today_view_habitat_beginning
-TEXT: Başlangıç Yolculukları habitatındasınız!
-
-RESOURCE ID: gotoursik_today_view_habitat_blanche
-TEXT: Mistik Takımı habitatındasınız!
-
-RESOURCE ID: gotoursik_today_view_habitat_candela
-TEXT: Cesaret Takımı habitatındasınız!
-
-RESOURCE ID: gotoursik_today_view_habitat_spark
-TEXT: İçgüdü Takımı habitatındasınız!
-
-RESOURCE ID: gotoursik_today_view_habitat_willow
-TEXT: Profesör Willow habitatındasınız!
-
-RESOURCE ID: gotoursik_tr_city
-TEXT: GO Tur: Canlı
-
-RESOURCE ID: gotoursik_tr_city_0
-TEXT: GO Tur: Canlı (1/7)
-
-RESOURCE ID: gotoursik_tr_city_1
-TEXT: GO Tur: Canlı (2/7)
-
-RESOURCE ID: gotoursik_tr_city_2
-TEXT: GO Tur: Canlı (3/7)
-
-RESOURCE ID: gotoursik_tr_city_3
-TEXT: GO Tur: Canlı (4/7)
-
-RESOURCE ID: gotoursik_tr_city_4
-TEXT: GO Tur: Canlı (5/7)
-
-RESOURCE ID: gotoursik_tr_city_5
-TEXT: GO Tur: Canlı (6/7)
-
-RESOURCE ID: gotoursik_tr_city_6
-TEXT: GO Tur: Canlı (7/7)
-
-RESOURCE ID: gotoursik_tr_elite4
-TEXT: GO Tur: Canlı – Elit Dörtlü
-
-RESOURCE ID: gotoursik_tr_elite4_0
-TEXT: GO Tur: Canlı – Elit Dörtlü (1/4)
-
-RESOURCE ID: gotoursik_tr_elite4_1
-TEXT: GO Tur: Canlı – Elit Dörtlü (2/4)
-
-RESOURCE ID: gotoursik_tr_elite4_2
-TEXT: GO Tur: Canlı – Elit Dörtlü (3/4)
-
-RESOURCE ID: gotoursik_tr_elite4_3
-TEXT: GO Tur: Canlı – Elit Dörtlü (4/4)
-
-RESOURCE ID: gotoursik_welcome
-TEXT: Pokémon GO Tur: Canlı – Adım Adım Kanto’ya Hoş Geldiniz!
-
 RESOURCE ID: goyang_cup_title
 TEXT: Goyang Yakalama Kupası
 
@@ -20001,6 +20326,9 @@ TEXT: Tür Artışı: Bitki
 
 RESOURCE ID: great_league_remix_title
 TEXT: Süper Lig Remix
+
+RESOURCE ID: great_raid_box_title
+TEXT: Süper Akın Kutusu
 
 RESOURCE ID: ground_type_event
 TEXT: Tür Artışı: Yer
@@ -20297,7 +20625,7 @@ RESOURCE ID: grunt_generic_challenge#11__female_speaker
 TEXT: Patron bu PokéDurağı GO Roket Takımı adına ele geçireceğini söyledi!
 
 RESOURCE ID: grunt_generic_challenge#11__male_speaker
-TEXT: Patron, bu PokéDurağı GO Roket Takımı adına alacağını söyledi!
+TEXT: Patron bu bölgeyi GO Roket Takımı adına ele geçireceğini söyledi!
 
 RESOURCE ID: grunt_generic_challenge#12__female_speaker
 TEXT: Burada seni ilgilendiren bir şey yok! Çek git!
@@ -20318,10 +20646,10 @@ RESOURCE ID: grunt_generic_challenge#14__male_speaker
 TEXT: Hey Eğitmen! Sıkıysa gel!
 
 RESOURCE ID: grunt_generic_challenge#17__female_speaker
-TEXT: Bu PokéDuraktaki tüm eşyaları çalıp bütün Pokémon’ları yakalayacağız! Bizi durduracak mısın? Hadi maç yapalım!
+TEXT: GO Roket Takımı’nın zafer kazanmasına engel olmana izin vermeyeceğim. Pokémon maçında karşıma çık!
 
 RESOURCE ID: grunt_generic_challenge#17__male_speaker
-TEXT: Bu PokéDuraktaki tüm eşyaları çalıp bütün Pokémon’ları yakalayacağız! Bizi durduracak mısın? Hadi maç yapalım!
+TEXT: Bölgedeki tüm eşyaları çalacak, tüm Pokémon’ları yakalayacağız! Bizi durdurmak mı istiyorsun? Öyleyse çık karşıma!
 
 RESOURCE ID: grunt_generic_challenge#1__female_speaker
 TEXT: Daha ileri gidemezsin! Düşmanlarıma merhamet etmem!
@@ -20330,7 +20658,7 @@ RESOURCE ID: grunt_generic_challenge#1__male_speaker
 TEXT: Daha ileri gidemezsin! Düşmanlarıma merhamet etmem!
 
 RESOURCE ID: grunt_generic_challenge#2__female_speaker
-TEXT: Bu PokéDurak, GO Roket Takımı'na ait!
+TEXT: Bu bölge GO Roket Takımı'na ait!
 
 RESOURCE ID: grunt_generic_challenge#2__male_speaker
 TEXT: Bu PokéDurak, GO Roket Takımı'na ait!
@@ -20342,10 +20670,10 @@ RESOURCE ID: grunt_generic_challenge#3__male_speaker
 TEXT: Seni nasıl korkutacağımı bilirim ben!
 
 RESOURCE ID: grunt_generic_challenge#4__female_speaker
-TEXT: PokéDurakları ele geçirme planlarımızı mahvetmene izin vermeyeceğiz.
+TEXT: Beni geçebileceğini mi sanıyorsun? Hiç sanmıyorum!
 
 RESOURCE ID: grunt_generic_challenge#4__male_speaker
-TEXT: PokéDurakları ele geçirme planlarımızı mahvetmene izin vermeyeceğiz.
+TEXT: Bu bölgeyi ele geçirme planlarımızı mahvetmene izin vermeyeceğiz.
 
 RESOURCE ID: grunt_generic_challenge#5__female_speaker
 TEXT: Pokémon maçı mı? Tabii! Dövüşelim!
@@ -20375,7 +20703,7 @@ RESOURCE ID: grunt_generic_challenge#9__female_speaker
 TEXT: Burada bizim PokéDurağımızdan başka bir şey yok. Ne işin var burada?
 
 RESOURCE ID: grunt_generic_challenge#9__male_speaker
-TEXT: Burada bizim PokéDurağımızdan başka bir şey yok. Ne işin var burada?
+TEXT: Burası GO Roket Takımı'na ait. Seni buraya hangi rüzgâr attı?
 
 RESOURCE ID: grunt_generic_defeat#10__female_speaker
 TEXT: Off, kafamdan duman çıkacak şimdi!
@@ -20651,7 +20979,7 @@ RESOURCE ID: grunt_generic_greeting#22__female_speaker
 TEXT: GO Roket Takımı her yerde!
 
 RESOURCE ID: grunt_generic_greeting#22__male_speaker
-TEXT: Bu PokéDurak, GO Roket Takımı'nın kontrolü altında!
+TEXT: GO Roket Takımı’na bulaşma!
 
 RESOURCE ID: grunt_generic_greeting#23__female_speaker
 TEXT: Biz GO Roket Takımı'yız, gücümüzle herkese korku salarız!
@@ -20696,10 +21024,10 @@ RESOURCE ID: grunt_generic_greeting#7__male_speaker
 TEXT: Buradan daha ileri gidemezsin!
 
 RESOURCE ID: grunt_generic_greeting#8__female_speaker
-TEXT: Bu PokéDurağa hoş geldin! Bana katılman ne güzel!
+TEXT: Buraya gelmekle büyük hata ettin. Hahaha!
 
 RESOURCE ID: grunt_generic_greeting#8__male_speaker
-TEXT: Bu PokéDurağa hoş geldin! Bana katılman ne güzel!
+TEXT: Ne iyi ettin de buraya uğradın. Heh heh...
 
 RESOURCE ID: grunt_generic_greeting#9__female_speaker
 TEXT: Kaçak görüldü!
@@ -20789,7 +21117,13 @@ RESOURCE ID: gt_2020_spin_medium
 TEXT: Araştırma Arzusu: {0} PokéDurak döndürün
 
 RESOURCE ID: gui_vivillon_map_header
-TEXT: Vivillon Habitat
+TEXT: Vivillon Habitatı
+
+RESOURCE ID: gui_vivillon_medal_button
+TEXT: SEE MEDAL
+
+RESOURCE ID: gui_vivillon_progress_header
+TEXT: Collection Progress
 
 RESOURCE ID: gym_approach_battles_won
 TEXT: Kazanılan Maçlar:
@@ -22286,6 +22620,9 @@ TEXT: Gölge {0} arındırıldı!
 RESOURCE ID: journal_shared_ex_raid_ticket_with_friend
 TEXT: {0} adlı oyuncuyu Özel Akına davet ettiniz.
 
+RESOURCE ID: journeyer_box_title
+TEXT: Seyyah Kutusu
+
 RESOURCE ID: jp_iap_link1
 TEXT: https://niantic.helpshift.com/hc/ja/6-pokemon-go/faq/2046-%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/?s=others&f=%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA&l=ja&p=web
 
@@ -22344,7 +22681,7 @@ RESOURCE ID: kanto_event_name
 TEXT: Kanto Etkinliği
 
 RESOURCE ID: korean
-TEXT: 한국인
+TEXT: 한국어
 
 RESOURCE ID: lake_trio_event_name
 TEXT: Göl Efsaneleri Etkinliği
@@ -22357,6 +22694,9 @@ TEXT: Dili {0} olarak ayarlamak istediğinizden emin misiniz?
 
 RESOURCE ID: language_currently_selected
 TEXT: Bu dil zaten seçili
+
+RESOURCE ID: language_early_access_language
+TEXT: This is an early access language. Please report any issues if found.
 
 RESOURCE ID: language_selector_description
 TEXT: Değişikliklerin geçerli olması için uygulamayı yeniden başlatmanız gerekecek.
@@ -22435,6 +22775,9 @@ TEXT: Sınırlı seçim
 
 RESOURCE ID: league_ruleset_type_label
 TEXT: Uygun Pokémon türleri:
+
+RESOURCE ID: legend_box_title
+TEXT: Efsane Kutusu
 
 RESOURCE ID: legendary_mythical_and_ultra_beast_not_allowed_in_gyms
 TEXT: Efsanevi ve Mitolojik Pokémon'lar ile Ultra Yaratıklar spor salonlarında bırakılamaz.
@@ -23358,7 +23701,7 @@ RESOURCE ID: limited_research_infernape
 TEXT: Infernape Sınırlı Araştırma
 
 RESOURCE ID: limited_research_inkay
-TEXT: Inkay Limited Research
+TEXT: Inkay Sınırlı Araştırması
 
 RESOURCE ID: limited_research_ivysaur
 TEXT: Ivysaur Sınırlı Araştırma
@@ -23517,7 +23860,7 @@ RESOURCE ID: limited_research_litleo
 TEXT: Litleo Sınırlı Araştırma
 
 RESOURCE ID: limited_research_litwick
-TEXT: Litwick Sınırlı Araştırma
+TEXT: Litwick Sınırlı Araştırması
 
 RESOURCE ID: limited_research_lombre
 TEXT: Lombre Sınırlı Araştırma
@@ -23742,7 +24085,7 @@ RESOURCE ID: limited_research_nidoqueen
 TEXT: Nidoqueen Sınırlı Araştırma
 
 RESOURCE ID: limited_research_nidoran
-TEXT: Nidoran♀ ve Nidoran♂ Sınırlı Araştırmasıı
+TEXT: Nidoran♀ ve Nidoran♂ Sınırlı Araştırması
 
 RESOURCE ID: limited_research_nidoranfemale
 TEXT: Nidoran♀ Sınırlı Araştırma
@@ -24864,8 +25207,14 @@ TEXT: Parlak Efsaneler X
 RESOURCE ID: luminous_y_event_name
 TEXT: Parlak Efsaneler Y
 
+RESOURCE ID: lunar_new_year_catch_timed_research
+TEXT: Ay Takvimi Yeni Yılı: Yakalama Görevi
+
 RESOURCE ID: lunar_new_year_event_name
 TEXT: Ay Takvimi Yeni Yılı
+
+RESOURCE ID: lunar_new_year_friendship_timed_research
+TEXT: Ay Takvimi Yeni Yılı: Arkadaşlık Görevi
 
 RESOURCE ID: lure_duration_4_hr
 TEXT: 4 saatlik Yem Modülü süresi
@@ -25044,6 +25393,9 @@ TEXT: Böcek Avcısı Pozu
 RESOURCE ID: m_avatar_poses_bundle_pose_41
 TEXT: Guzma Pozu
 
+RESOURCE ID: m_avatar_poses_bundle_pose_44
+TEXT: Maytap Pozu
+
 RESOURCE ID: m_avatar_poses_empty_bundle_pose_empty
 TEXT: Boşta
 
@@ -25183,95 +25535,8 @@ TEXT: Prömiyer Kupa
 RESOURCE ID: master_premier_classic_title
 TEXT: USL Premier Klasik
 
-RESOURCE ID: masterwork_lugiahoohs
-TEXT: Ustalık Araştırması: Apex
-
-RESOURCE ID: masterwork_lugiahoohs_1
-TEXT: Ustalık Araştırması: Apex (1/4)
-
-RESOURCE ID: masterwork_lugiahoohs_2
-TEXT: Ustalık Araştırması: Apex (2/4)
-
-RESOURCE ID: masterwork_lugiahoohs_3
-TEXT: Ustalık Araştırması: Apex (3/4)
-
-RESOURCE ID: masterwork_lugiahoohs_4
-TEXT: Ustalık Araştırması: Apex (4/4)
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_0_0
-TEXT: Gyarados ve Celebi’ye yardım ettiğin için teşekkürler %PLAYERNAME%. Ancak işimiz henüz bitmemiş gibi duruyor. Ho-Oh ve Lugia hâlâ GO Roket Takımı’nın elinde.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_0_1
-TEXT: Takım liderlerinin yardımı sayesinde Apex Gölge Ho-Oh’nun konumunu belirlemeyi başardık. Bir sebepten dolayı GO Roket Takımı bu iki Pokémon’u farklı konumlarda tutuyor.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_0_2
-TEXT: Acaba bu iki Efsanevi Pokémon onlara biraz ağır mı geldi? Her neyse, işleri biraz kolaylaştırabilmek için Pokémon’ları teker teker yakalayacağız.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_0
-TEXT: Apex Gölge Ho-Oh’yu kurtararak harika iş çıkardın %PLAYERNAME%! Görünüşe göre bu Pokémon, Ho-Oh’nun imza hareketi olan Kutsal Ateş’i biliyor. Ama bir şekilde bu Kutsal Ateş normalde daha güçlü!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_1
-TEXT: Acaba arındırırsan ne olur? Daha da güçlenir mi?
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_2
-TEXT: Bu inanılmaz Pokémon’u araştırmaya devam edeceğim. Bulgularımdan seni de haberdar ederim.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_3
-TEXT: Ben dışarıdayken sen de Pokémon’larınla biraz eğitime çık ve Apex Gölge Lugia’yı kurtarmak için yardım edebilecek arkadaşlar bulmaya çalış, olur mu?
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_4
-TEXT: Her türlü yardıma ihtiyacımız olacak.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_5
-TEXT: Ben de takım liderleriyle birlikte Apex Gölge Lugia’yı bulmaya çalışacağım. Umarım yakında daha fazla bilgi edinmiş oluruz.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_0
-TEXT: İhtiyacın olan her şeyi aldın mı %PLAYERNAME%? İksirler? Canlandırlar? Yiyecekler?
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_1
-TEXT: Apex Gölge Lugia’yı kurtarmak daha da zorlu olacak. O yüzden hazırlıklı olmalısın.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_2
-TEXT: Ben ve takım liderleri, GO Roket Takımı'nın Apex Gölge Lugia’yı gizli bir sığınakta sakladığını keşfettik. Üstelik bir dizi serseri, koruma görevi üstlenmiş. Yanlarında da Giovanni’nin ta kendisi duruyor.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_3
-TEXT: Hazır sen buradayken; Apex Gölge Ho-Oh hakkında araştırma yapacağım demiştim, hatırlıyor musun?
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_4
-TEXT: Görünüşe göre bu Pokémon’u arındırırsan, Kutsal Ateş’i akla hayale sığmayacak kadar güçlü olacak.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_5
-TEXT: Apex Gölge Lugia’yı kurtarırken Apex Arındırılmış Ho-Oh son derece faydalı bir müttefik olabilir.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_6
-TEXT: Ancak dikkatli ol. Önündeki karşılaşmalar, Pokémon Eğitmenliği hayatının en çetin maçları olacak. Ama seni tanıyorum. En büyük özelliğin, zorluklara karşı hazırlıklı olman.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_0
-TEXT: Yüce tanrım!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_1
-TEXT: %PLAYERNAME%!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_2
-TEXT: Başardın!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_3
-TEXT: Apex Gölge Lugia’yı GO Roket Takımı’nın elinden kurtardın!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_4
-TEXT: Tıpkı Ho-Oh gibi, Lugia’nın Hava Darbesi saldırısı da bugüne kadar gördüklerimizden daha güçlü.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_5
-TEXT: Eminim tıpkı Apex Gölge Ho-Oh gibi, Lugia’yı da arındırırsan gücü daha da artacaktır.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_6
-TEXT: Bence artık kutlama zamanı geldi çattı! Ve bunu kesinlikle hak ettin.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_7
-TEXT: Son yaptıkların hiç de küçümsenecek şeyler değildi!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_8
-TEXT: Yardımların için tekrardan teşekkür ederim. Ho-Oh ve Lugia’nın da müteşekkir olduğuna eminim. Bir sonraki maceramıza dek... Hadi GİDELİM! 
+RESOURCE ID: master_raid_box_title
+TEXT: Usta Akın Kutusu
 
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: %PLAYERNAME%! Bu keşifte yanımızda olmana sevindim. Söylesene, bu melodiyi hiç duymuş muydun?
@@ -25691,9 +25956,9 @@ RESOURCE ID: mega_walking_progress
 TEXT: Yürüyüş İlerlemesi
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2022-10-07T09:04:35.937526
-at SHA 029e467bb49e3de2ae874f180ac9aa1d15fdd8cf
-Pipeline 1076415, job 12507544
+TEXT: Built at 2022-10-30T17:10:54.773238
+at SHA a9d340b3c5945d8273421b9463be2a4b4b784b1b
+Pipeline 1114528, job 13097767
 
 RESOURCE ID: milestone_rewards_title
 TEXT: AŞAMA ÖDÜLLERİ
@@ -25784,6 +26049,12 @@ TEXT: dk
 
 RESOURCE ID: minutes_and_seconds
 TEXT: {0} DK {1} SN
+
+RESOURCE ID: mobile_games_catch_sr
+TEXT: Mobile Games Show: Catch Challenge
+
+RESOURCE ID: mobile_games_throw_sr
+TEXT: Mobile Games Show: Throw Challenge
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Gerçeklik Karıştırıcıyı kullanmak için Niantic AR'ı açın.
@@ -26751,8 +27022,14 @@ TEXT: Tohum Meşalesi
 RESOURCE ID: move_name_0370
 TEXT: Engelleme
 
+RESOURCE ID: move_name_0371
+TEXT: Gölge Gücü
+
 RESOURCE ID: move_name_0372
 TEXT: Meteor Işını
+
+RESOURCE ID: move_name_0376
+TEXT: Poltergeist
 
 RESOURCE ID: move_reroll_confirm_desc
 TEXT: {0}, {1} saldırısını unutacak.
@@ -27266,6 +27543,18 @@ TEXT: Bu özellik, AR modundaki Pokémon'un çevrenize daha sorunsuz bir şekild
 RESOURCE ID: occlusions_tutorial_title
 TEXT: Gerçeklik Karıştırıcı
 
+RESOURCE ID: oct22_evo_collection_challenge_1
+TEXT: Evrilen Yıldızlar: Eevee Görevi
+
+RESOURCE ID: oct22_evo_collection_challenge_2
+TEXT: Evrilen Yıldızlar: Takas Görevi
+
+RESOURCE ID: oct22_evo_collection_challenge_3
+TEXT: Evrilen Yıldızlar: Unova Görevi
+
+RESOURCE ID: oct22_evo_collection_challenge_4
+TEXT: Evrilen Yıldızlar: Sinnoh Görevi
+
 RESOURCE ID: old_friends_description
 TEXT: Eski Arkadaşlar, Yeni Başlangıçlar Süreli Araştırması
 
@@ -27412,7 +27701,7 @@ RESOURCE ID: open_sponsored_gift_button
 TEXT: Hediye Aç
 
 RESOURCE ID: open_video_sponsored_balloon_postcard_message
-TEXT: https://storage.googleapis.com/prod-public-images/SponsoredPostcards/pgo_sponsorImage_videoAd.png
+TEXT: Watch a video message from our sponsor and earn some free items.
 
 RESOURCE ID: open_video_sponsored_gift_button
 TEXT: Videoyu İzleyin
@@ -27736,6 +28025,9 @@ TEXT: GO Fotoğrafta Gible ile 5 sürpriz karşılaşma
 
 RESOURCE ID: photobomb_five_hoppip
 TEXT: GO Fotoğrafta Hoppip ile 5 sürpriz karşılaşma
+
+RESOURCE ID: photobomb_five_litwick
+TEXT: 5 surprise encounters with Litwick in GO Snapshot
 
 RESOURCE ID: photobomb_five_machop
 TEXT: GO Fotoğrafta Machop ile 5 sürpriz karşılaşma
@@ -28810,7 +29102,7 @@ RESOURCE ID: pokedex_filter_button_mega
 TEXT: Mega: {0}
 
 RESOURCE ID: pokedex_filter_header
-TEXT: FILTER BY:
+TEXT: FİLTRELE:
 
 RESOURCE ID: pokedex_mode_name_all
 TEXT: Hepsi
@@ -38135,7 +38427,7 @@ RESOURCE ID: pokemon_shiny_info_transfer_to_professor_confirmation
 TEXT: Bu Parlak Pokémon'u gerçekten göndermek istiyor musunuz?
 
 RESOURCE ID: pokemon_size_huge_encounter
-TEXT: It’s huge!
+TEXT: It's huge!
 
 RESOURCE ID: pokemon_size_new_banner
 TEXT: New Record
@@ -38153,7 +38445,7 @@ RESOURCE ID: pokemon_size_new_weight_title
 TEXT: New Weight Record
 
 RESOURCE ID: pokemon_size_tiny_encounter
-TEXT: It’s tiny!
+TEXT: It's tiny!
 
 RESOURCE ID: pokemon_transfer_legendary_confirmation
 TEXT: Seçiminiz Efsanevi veya Mitolojik Pokémon içeriyor! Seçili Pokémon’ları göndermek istediğinizden emin misiniz?
@@ -38219,61 +38511,61 @@ RESOURCE ID: pokemon_unfavorite_error
 TEXT: Pokémon, favorilerden kaldırılamadı.
 
 RESOURCE ID: pokemon_vivillon_form_archipelago
-TEXT: Archipelago
+TEXT: Takımada
 
 RESOURCE ID: pokemon_vivillon_form_continental
-TEXT: Continental
+TEXT: Kıta
 
 RESOURCE ID: pokemon_vivillon_form_elegant
-TEXT: Elegant
+TEXT: Şık
 
 RESOURCE ID: pokemon_vivillon_form_fancy
-TEXT: Fancy
+TEXT: Havalı
 
 RESOURCE ID: pokemon_vivillon_form_garden
-TEXT: Garden
+TEXT: Bahçe
 
 RESOURCE ID: pokemon_vivillon_form_high_plains
-TEXT: High Plains
+TEXT: Yayla
 
 RESOURCE ID: pokemon_vivillon_form_icy_snow
-TEXT: Icy Snow
+TEXT: Buzlu Kar
 
 RESOURCE ID: pokemon_vivillon_form_jungle
-TEXT: Jungle
+TEXT: Gür Orman
 
 RESOURCE ID: pokemon_vivillon_form_marine
-TEXT: Marine
+TEXT: Deniz
 
 RESOURCE ID: pokemon_vivillon_form_meadow
-TEXT: Meadow
+TEXT: Çayır
 
 RESOURCE ID: pokemon_vivillon_form_modern
 TEXT: Modern
 
 RESOURCE ID: pokemon_vivillon_form_monsoon
-TEXT: Monsoon
+TEXT: Muson
 
 RESOURCE ID: pokemon_vivillon_form_ocean
-TEXT: Ocean
+TEXT: Okyanus
 
 RESOURCE ID: pokemon_vivillon_form_pokebal
-TEXT: Poké Ball
+TEXT: Poké Topu
 
 RESOURCE ID: pokemon_vivillon_form_polar
-TEXT: Polar
+TEXT: Kutup
 
 RESOURCE ID: pokemon_vivillon_form_river
-TEXT: River
+TEXT: Nehir
 
 RESOURCE ID: pokemon_vivillon_form_sandstorm
-TEXT: Sandstorm
+TEXT: Kum Fırtınası
 
 RESOURCE ID: pokemon_vivillon_form_savanna
-TEXT: Savanna
+TEXT: Savan
 
 RESOURCE ID: pokemon_vivillon_form_sun
-TEXT: Sun
+TEXT: Güneş
 
 RESOURCE ID: pokemon_vivillon_form_tundra
 TEXT: Tundra
@@ -38893,6 +39185,9 @@ TEXT: Gizemli eşyalar
 RESOURCE ID: quest_breakthrough_reward_stardust
 TEXT: Yıldız Tozu
 
+RESOURCE ID: quest_buddy_affection_days_in_a_row
+TEXT: {0} gün arka arkaya dostunuzla bir kalp kazanın
+
 RESOURCE ID: quest_buddy_battle_trainer_adventuring_plural
 TEXT: Dostunuz sizinle maceradayken başka bir Eğitmenle {0} kez maç yapın
 
@@ -38907,6 +39202,15 @@ TEXT: Dostunuzdan bir Hediyelik Eşya alın
 
 RESOURCE ID: quest_buddy_walk_km_plural
 TEXT: Dostunuzla {0} km yürüyün
+
+RESOURCE ID: quest_bulbt_catch_b
+TEXT: {0} Bulbasaur yakalayın
+
+RESOURCE ID: quest_bulbt_evolve_b
+TEXT: {0} Bulbasaur evrimleştirin
+
+RESOURCE ID: quest_bulbt_evolve_s1
+TEXT: {0} Ivysaur evrimleştirin
 
 RESOURCE ID: quest_catch_b_types_plural
 TEXT: Elektrik, Normal ya da Zehir türünden {0}  Pokémon yakalayın
@@ -38955,6 +39259,9 @@ TEXT: Pokémon yakalamayı kolaylaştırmak için {0} Meyve kullanın
 
 RESOURCE ID: quest_catch_feed_singular
 TEXT: Pokémon yakalamayı kolaylaştırmak için bir Meyve kullanın
+
+RESOURCE ID: quest_catch_furfou_singular
+TEXT: Bir Furfrou yakalayın
 
 RESOURCE ID: quest_catch_in_day_plural
 TEXT: Bir günde {0} Pokémon yakalayın
@@ -39511,6 +39818,9 @@ TEXT: İllüzyonları İnceleme
 RESOURCE ID: quest_complete_bidoof_branch_quest
 TEXT: BIDOOF
 
+RESOURCE ID: quest_complete_bulbt
+TEXT: Bulbasaur Topluluk Günü Klasik
+
 RESOURCE ID: quest_complete_celebi
 TEXT: Zamanda Dalgalanma
 
@@ -39543,6 +39853,9 @@ TEXT: Muhteşem Gastly
 
 RESOURCE ID: quest_complete_hallowyamas
 TEXT: Maskesi Düşmüş Ürkütücü Bir Mesaj
+
+RESOURCE ID: quest_complete_hoppt
+TEXT: Hop Hop Zıplayalım
 
 RESOURCE ID: quest_complete_macht
 TEXT: Doğrudan Zirveye Machop!
@@ -39618,6 +39931,9 @@ TEXT: Flaş, Kıvılcım ve Pırıltı
 
 RESOURCE ID: quest_complete_snivt
 TEXT: Güneş Işığındaki Snivy
+
+RESOURCE ID: quest_complete_sphet
+TEXT: Spheal Olayı
 
 RESOURCE ID: quest_complete_spiritomb
 TEXT: Ürkütücü Bir Mesaj 2018
@@ -40114,18 +40430,6 @@ TEXT: {0} Electabuzz yakalayın
 RESOURCE ID: quest_elect_evolve_b
 TEXT: {0} Electabuzz evrimleştirin
 
-RESOURCE ID: quest_elite4_a
-TEXT: GO Tur Elit Dörtlüsü: Ova Eğitmenini yenin
-
-RESOURCE ID: quest_elite4_b
-TEXT: GO Tur Elit Dörtlüsü: Mağara Eğitmenini yenin
-
-RESOURCE ID: quest_elite4_c
-TEXT: GO Tur Elit Dörtlüsü: Okyanus Eğitmenini yenin
-
-RESOURCE ID: quest_elite4_d
-TEXT: GO Tur Elit Dörtlüsü: Savana Eğitmenini yenin
-
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: Exeggcute Araştırması: Bir spor salonunda maç yapın
 
@@ -40219,6 +40523,9 @@ TEXT: Bir Baltoy evrimleştir
 RESOURCE ID: quest_evolve_barboach_singular
 TEXT: Bir Barboach evrimleştir
 
+RESOURCE ID: quest_evolve_bayleef
+TEXT: Bayleef'inizi evrimleştirin
+
 RESOURCE ID: quest_evolve_bayleef_singular
 TEXT: Bir Bayleef evrimleştirin
 
@@ -40303,6 +40610,9 @@ TEXT: Bir Cherubi evrimleştir
 RESOURCE ID: quest_evolve_chespin_singular
 TEXT: Bir Chespin evrimleştir
 
+RESOURCE ID: quest_evolve_chikorita
+TEXT: Chikorita'nızı evrimleştirin
+
 RESOURCE ID: quest_evolve_chikorita_singular
 TEXT: Bir Chikorita evrimleştirin
 
@@ -40336,6 +40646,12 @@ TEXT: Bir Combusken evrimleştir
 RESOURCE ID: quest_evolve_corphish_singular
 TEXT: Bir Corphish evrimleştir
 
+RESOURCE ID: quest_evolve_cosmoem_singular
+TEXT: Bir Cosmoem evrimleştirin
+
+RESOURCE ID: quest_evolve_cosmog_singular
+TEXT: Bir Cosmog evrimleştirin
+
 RESOURCE ID: quest_evolve_cottonee_singular
 TEXT: Bir Cottonee evrimleştir
 
@@ -40345,6 +40661,9 @@ TEXT: Bir Cranidos evrimleştir
 RESOURCE ID: quest_evolve_croagunk_singular
 TEXT: Bir Croagunk evrimleştir
 
+RESOURCE ID: quest_evolve_croconaw
+TEXT: Croconaw'ınızı evrimleştirin
+
 RESOURCE ID: quest_evolve_croconaw_singular
 TEXT: Bir Croconaw evrimleştirin
 
@@ -40353,6 +40672,9 @@ TEXT: Bir Cubchoo evrimleştir
 
 RESOURCE ID: quest_evolve_cubone_singular
 TEXT: Bir Cubone evrimleştir
+
+RESOURCE ID: quest_evolve_cyndaquil
+TEXT: Cyndaquil'inizi evrimleştirin
 
 RESOURCE ID: quest_evolve_cyndaquil_singular
 TEXT: Bir Cyndaquil evrimleştirin
@@ -40915,6 +41237,9 @@ TEXT: Bir Pupitar evrimleştir
 RESOURCE ID: quest_evolve_purrloin_singular
 TEXT: Bir Purrloin evrimleştir
 
+RESOURCE ID: quest_evolve_quilava
+TEXT: Quilava'nızı evrimleştirin
+
 RESOURCE ID: quest_evolve_quilava_singular
 TEXT: Bir Quilava evrimleştirin
 
@@ -41193,6 +41518,9 @@ TEXT: Bir Togetic evrimleştir
 
 RESOURCE ID: quest_evolve_torchic_singular
 TEXT: Bir Torchic evrimleştir
+
+RESOURCE ID: quest_evolve_totodile
+TEXT: Totodile'ınızı evrimleştirin
 
 RESOURCE ID: quest_evolve_totodile_singular
 TEXT: Bir Totodile evrimleştirin
@@ -41863,6 +42191,60 @@ TEXT: 5 altın madalya kazanın
 RESOURCE ID: quest_gold_medal_singular
 TEXT: Bir altın madalya kazanın
 
+RESOURCE ID: quest_gotour2022_sr_title
+TEXT: Pokémon GO Turu: Johto
+
+RESOURCE ID: quest_gotour2022_sr_title_1
+TEXT: Pokémon GO Tur: Johto (1/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_10
+TEXT: Pokémon GO Tur: Johto (10/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_11
+TEXT: Pokémon GO Tur: Johto (11/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_2
+TEXT: Pokémon GO Tur: Johto (2/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_3
+TEXT: Pokémon GO Tur: Johto (3/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_4
+TEXT: Pokémon GO Tur: Johto (4/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_5
+TEXT: Pokémon GO Tur: Johto (5/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_6
+TEXT: Pokémon GO Tur: Johto (6/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_7
+TEXT: Pokémon GO Tur: Johto (7/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_8
+TEXT: Pokémon GO Tur: Johto (8/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_9
+TEXT: Pokémon GO Tour: Johto (9/11)
+
+RESOURCE ID: quest_gotour_branch_chikorita_description
+TEXT: Yaprak Pokémon Chikorita, başındaki yaprakları kullanarak sıcaklığı ve nem oranını ölçer. Güneşlenmeye bayılır! Chikorita’yı yakalayarak Chikorita Şekeri kazanabileceksiniz. Ayrıca Chikorita’yı evrimleştirmenizi ve fotoğraflarını çekmenizi gerektirecek görevler alacaksınız.
+
+RESOURCE ID: quest_gotour_branch_chikorita_title
+TEXT: Chikorita’yı Seçin
+
+RESOURCE ID: quest_gotour_branch_cyndaquil_description
+TEXT: Ateş Faresi Pokémon Cyndaquil ürkektir ve vücudunu top şekline sokar. Saldırıldığında korunmak için sırtından alevler çıkarır! Cyndaquil’i yakalayarak Cyndaquil Şekeri kazanabileceksiniz. Ayrıca Cyndaquil’i evrimleştirmenizi ve fotoğraflarını çekmenizi gerektirecek görevler alacaksınız.
+
+RESOURCE ID: quest_gotour_branch_cyndaquil_title
+TEXT: Cyndaquil’i Seçin
+
+RESOURCE ID: quest_gotour_branch_totodile_description
+TEXT: Koca Çeneli Pokémon Totodile küçük ama dayanıklıdır. Hareket eden her şeyi ısırabilir! Totodile’ı yakalayarak Totodile Şekeri kazanabileceksiniz. Ayrıca Totodile’ı evrimleştirmenizi ve fotoğraflarını çekmenizi gerektirecek görevler alacaksınız.
+
+RESOURCE ID: quest_gotour_branch_totodile_title
+TEXT: Totodile’ı Seçin
+
 RESOURCE ID: quest_gotour_kanto_bonus
 TEXT: Pokémon GO Tur: Kanto - Bonus Etkinlik
 
@@ -41874,21 +42256,6 @@ TEXT: Pokémon GO Tur: Kanto - Bonus Etkinlik (2/3)
 
 RESOURCE ID: quest_gotour_kanto_bonus_3
 TEXT: Pokémon GO Tur: Kanto - Bonus Etkinlik (3/3)
-
-RESOURCE ID: quest_gotoursik_photo_beginning
-TEXT: Başlangıç Maceraları habitatında bir fotoğraf çekin
-
-RESOURCE ID: quest_gotoursik_photo_instinct
-TEXT: İçgüdü Takımı habitatında bir fotoğraf çekin
-
-RESOURCE ID: quest_gotoursik_photo_mystic
-TEXT: İçgüdü Takımı habitatında bir fotoğraf çekin
-
-RESOURCE ID: quest_gotoursik_photo_valor
-TEXT: Cesaret Takımı habitatında bir fotoğraf çekin
-
-RESOURCE ID: quest_gotoursik_photo_willow
-TEXT: Profesör Willow habitatında bir fotoğraf çekin
 
 RESOURCE ID: quest_gt_catch_b
 TEXT: {0} Gastly yakalayın
@@ -41931,6 +42298,15 @@ TEXT: Hoenn Kutlaması: {0} Yumurta çatlatın
 
 RESOURCE ID: quest_hoenn_celebration_research
 TEXT: Hoenn Kutlaması Araştırması
+
+RESOURCE ID: quest_hoppt_catch_b
+TEXT: {0} Hoppip yakalayın
+
+RESOURCE ID: quest_hoppt_evolve_b
+TEXT: {0} Hoppip evrimleştirin
+
+RESOURCE ID: quest_hoppt_evolve_s1
+TEXT: {0} Skiploom evrimleştirin
 
 RESOURCE ID: quest_incense_plural
 TEXT: {0} Tütsü kullanın
@@ -42003,6 +42379,9 @@ TEXT: GO Tur: Mankey yakalayın
 
 RESOURCE ID: quest_kanto_red_oddish
 TEXT: GO Tur: Oddish yakalayın
+
+RESOURCE ID: quest_lampent_evolve_b
+TEXT: Evolve {0} Lampent
 
 RESOURCE ID: quest_land_curve_type_ghost
 TEXT: Hayalet türü Pokémon’lara {0} Falsolu Atış yapın
@@ -42090,6 +42469,15 @@ TEXT: Bir İyi Atış yapın
 
 RESOURCE ID: quest_land_nice_type_ghost
 TEXT: Hayalet türü Pokémon’lara {0} İyi Atış yapın
+
+RESOURCE ID: quest_litwick_catch_b
+TEXT: Catch {0} Litwick
+
+RESOURCE ID: quest_litwick_evolve_b
+TEXT: Evolve {0} Litwick
+
+RESOURCE ID: quest_litwick_snapshot_b
+TEXT: Take {0} snapshots of Litwick
 
 RESOURCE ID: quest_lucky_plural
 TEXT: Takasla {0} Şanslı Pokémon elde edin
@@ -42241,6 +42629,18 @@ TEXT: {0} adet Böcek türü Pokémon güçlendirin
 RESOURCE ID: quest_power_up_plural_dark
 TEXT: {0} adet Karanlık tür Pokémon güçlendirin
 
+RESOURCE ID: quest_power_up_plural_electric
+TEXT: {0} adet Elektrik türü Pokémon güçlendirin
+
+RESOURCE ID: quest_power_up_plural_fighting
+TEXT: {0} adet Dövüşçü türü Pokémon güçlendirin
+
+RESOURCE ID: quest_power_up_plural_ground
+TEXT: {0} adet Yer türü Pokémon güçlendirin
+
+RESOURCE ID: quest_power_up_plural_normal
+TEXT: {0} adet Normal tür Pokémon güçlendirin
+
 RESOURCE ID: quest_power_up_plural_poison
 TEXT: {0} adet Zehir türü Pokémon güçlendirin
 
@@ -42249,6 +42649,9 @@ TEXT: {0} adet Kaya türü Pokémon güçlendirin
 
 RESOURCE ID: quest_power_up_plural_steel
 TEXT: Çelik türü Pokémon’ları {0} kez güçlendirin
+
+RESOURCE ID: quest_power_up_plural_water
+TEXT: {0} adet Su türü Pokémon güçlendirin
 
 RESOURCE ID: quest_power_up_singular
 TEXT: Bir Pokémon'u güçlendirin
@@ -42261,6 +42664,9 @@ TEXT: {0} Psişik türü Pokémon yakalayın
 
 RESOURCE ID: quest_psychicspec_evolve_plural
 TEXT: {0} Exeggcute ya da Slowpoke evrimleştirin
+
+RESOURCE ID: quest_raid_friend_singular
+TEXT: Bir arkadaşınızla akına katılın
 
 RESOURCE ID: quest_raid_with_buddy_plural
 TEXT: Dostunuzla {0} akında maç yapın
@@ -42436,6 +42842,12 @@ TEXT: Arkadaşlarınıza {0} Hediye gönderin
 RESOURCE ID: quest_send_gifts_singular
 TEXT: Bir arkadaşınıza Hediye gönderin
 
+RESOURCE ID: quest_send_gifts_sticker_plural
+TEXT: {0} hediye gönderin ve hepsine bir çıkartma ekleyin
+
+RESOURCE ID: quest_send_gifts_sticker_singular
+TEXT: Çıkartmalı bir hediye gönderin
+
 RESOURCE ID: quest_shint_catch_b
 TEXT: {0} Shinx yakalayın
 
@@ -42453,6 +42865,12 @@ TEXT: Bulbasaur'ın fotoğrafını çekin
 
 RESOURCE ID: quest_snapshot_charmander
 TEXT: Charmander'ın fotoğrafını çekin
+
+RESOURCE ID: quest_snapshot_chikorita
+TEXT: Chikorita’nızın fotoğrafını çekin
+
+RESOURCE ID: quest_snapshot_cyndaquil
+TEXT: Cyndaquil’inizin fotoğrafını çekin
 
 RESOURCE ID: quest_snapshot_genesect
 TEXT: Genesect'in {0} fotoğrafını çekin
@@ -42487,6 +42905,9 @@ TEXT: Thundurus'un fotoğrafını çekin
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: Tornadus'un fotoğrafını çekin
 
+RESOURCE ID: quest_snapshot_totodile
+TEXT: Totodile’ınızın fotoğrafını çekin
+
 RESOURCE ID: quest_snapshot_unique_fire_pokemon
 TEXT: {0} farklı ateş türü Pokémon’un fotoğrafını çekin
 
@@ -42519,6 +42940,9 @@ TEXT: Yabanda Eevee'nin bir fotoğrafını çekin
 
 RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: Vahşi Elektrik türü Pokémon’ların {0} fotoğrafını çekin
+
+RESOURCE ID: quest_snapshot_wild_entei
+TEXT: Yabanda Entei’in bir fotoğrafını çekin
 
 RESOURCE ID: quest_snapshot_wild_fairy_plural
 TEXT: Vahşi Peri türü Pokémon’ların {0} fotoğrafını çekin
@@ -42562,6 +42986,9 @@ TEXT: Yabanda Metapod'un, Aipom'un ya da Lotad'in bir fotoğrafını çekin
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
 TEXT: Yabanda Chinchou'nun, Luvdisc'in ya da Finneon'un bir fotoğrafını çekin
 
+RESOURCE ID: quest_snapshot_wild_mareanie_singluar
+TEXT: Doğada Mareanie’nin bir fotoğrafını çekin
+
 RESOURCE ID: quest_snapshot_wild_normal_plural
 TEXT: Vahşi Normal tür Pokémon’ların {0} fotoğrafını çekin
 
@@ -42573,6 +43000,9 @@ TEXT: Vahşi Zehir türü Pokémon’ların {0} fotoğrafını çekin
 
 RESOURCE ID: quest_snapshot_wild_psychic_plural
 TEXT: Vahşi Psişik türü Pokémon’ların {0} fotoğrafını çekin
+
+RESOURCE ID: quest_snapshot_wild_raikou
+TEXT: Yabanda Raikou’nun bir fotoğrafını çekin
 
 RESOURCE ID: quest_snapshot_wild_rock_plural
 TEXT: Vahşi Kaya türü Pokémon’ların {0} fotoğrafını çekin
@@ -42594,6 +43024,9 @@ TEXT: Vahşi Çelik türü Pokémon’ların {0} fotoğrafını çekin
 
 RESOURCE ID: quest_snapshot_wild_steel_unique_plural
 TEXT: {0} farklı vahşi Çelik türü Pokémon’un fotoğrafını çekin
+
+RESOURCE ID: quest_snapshot_wild_suicune
+TEXT: Yabanda Suicune’un bir fotoğrafını çekin
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
 TEXT: Yabanda Sandshrew'nun, Trapinch'in ya da Cacnea'nın bir fotoğrafını çekin
@@ -42982,6 +43415,75 @@ TEXT: Çabalarına karşılık teşekkür etmek için takım liderleriyle birlik
 RESOURCE ID: quest_special_dialogue_bidoof_branch_quest_3_2
 TEXT: Giyip Bidoof'unla birlikte güzel bir yürüyüşe çıkmaya ne dersin? Karşına neyin çıkacağını asla bilemezsin! Hadi GİDELİM!
 
+RESOURCE ID: quest_special_dialogue_bulbt_0_0
+TEXT: Merhaba %PLAYERNAME%! Etrafına bak! Daha önce hiç bu kadar çok Bulbasaur’u bir arada görmüş müydün?
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_1
+TEXT: Şahsen ben böyle toplandıklarına daha önce yalnızca bir kere şahit oldum. Uzun zaman önceydi. Pek çok Eğitmen dışarı çıkıp bulabildikleri ufak Tohum Pokémon’ları yakalıyordu.
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_2
+TEXT: Açıkçası onca Bulbasaur’u görmek bende nostaljik hisler uyandırdı!
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_3
+TEXT: Ayrıca bu durum bana önemli bir bilimsel prensibi hatırlattı: Öğrenmenin sonu yoktur! Ve ben, tür ayırt etmeksizin Pokémon'ları araştırmaktan yorulmam.
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_4
+TEXT: O hâlde Bulbasaur hakkında biraz araştırma yapalım, ne dersin Eğitmen?
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_0
+TEXT: Tekrar hoş geldin Eğitmen. Ne kadar da tatlı bir Bulbasaur yakalamışsın!
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_1
+TEXT: Bulbasaur’ların büyümek için sırtlarında sakladıkları besinleri kullandığını biliyor muydun?
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_2
+TEXT: Keşke benim de doğuştan gelen, içi yemek dolu bir sırt çantam olsa. Araştırma yaparken karnımın guruldamasını engellerdi! Haha!
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_3
+TEXT: Bildiğin gibi Bulbasaur’un evrimleşmiş hâli olan Ivysaur, güneş ışığına maruz kaldığında güç kazanır.
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_4
+TEXT: Ayrıca güneş ışığı, Ivysaur’un sırtındaki tomurcuğun büyümesini sağlar. Eski günlerin hatrına bu fenomene şahit olmak harika olurdu. 
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_5
+TEXT: Sen Bulbasaur’unu evrimleştirirken ben de gözlemlediğim Bulbasaur sürüsünü takibe devam edeceğim. Bir yere gidiyorlar gibi duruyor!
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_0
+TEXT: Amanın! Ne büyük bir Ivysaur! Harika bir iş çıkardın %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_1
+TEXT: Hafızam beni yanıltmıyorsa Ivysaur’un sırtındaki tohum şişmeye başladığında tatlı bir koku yayar. Bu, çiçek açmak üzere olduğunun göstergesidir.
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_2
+TEXT: Burnuna güzel kokular geliyor mu? Geliyorsa Ivysaur'un evrimleşmeye hazırlanıyor olabilir!
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_3
+TEXT: Takip ettiğim Bulbasaur sürüsünü hatırlıyor musun? Sürüye yakındaki bir ormandan bir grup Ivysaur da katıldı.
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_4
+TEXT: Hepsi aynı yöne gidiyor gibi duruyor... Acaba nereye gidiyorlar? Bu sorunun cevabını beraber bulalım, ne dersin? 
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_0
+TEXT: Tekrar hoş geldin %PLAYERNAME%. Dur bir saniye. Yanındaki Pokémon bir Venusaur mu? Şanslı günümde olmalıyım.
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_1
+TEXT: Takip ettiğim Bulbasaur ve Ivysaur sürüsü, beni Venusaur’un dinlendiği bir bahçeye getirdi. Havada, etrafta toplanan Pokémon’ları sakinleştiren sıra dışı bir koku vardı.
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_2
+TEXT: Venusaur'ların bazen diğer Pokémon’ları kendine çeken bir koku yaydığını okumuştum. Ben de gördüğüm olayın bu olduğuna kanaat getirdim.
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_3
+TEXT: Hatta Venusaur’un etrafında toplanan Bulbasaur ve Ivysaur’lar bana Yem Modülünü hatırlattı. Yem Modülü de güzel kokusuyla Pokémon’ları kendine çeker.
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_4
+TEXT: Şimdi biraz Venusaur’dan bahsedelim. Venusaur'un Mega Evrimleşebileceğini biliyor muydun?
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_5
+TEXT: O hâlde bu Venusaur Mega Enerjisini al ve yeni arkadaşını Mega Evrimleştirmeyi dene. Mega Venusaur'un gücüne kendi gözlerinle şahit olursan daha iyi öğrenirsin.
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_6
+TEXT: Pokémon’lardan öğrenebileceğimiz çok şey var ve onları araştırarak daha heyecan verici keşifler yapabiliriz. Umarım bugün gerçekleştirdiğimiz bilimsel seyahatten keyif almışsındır!
+
 RESOURCE ID: quest_special_dialogue_celebi_0_0
 TEXT: %PLAYERNAME%, Alan Araştırması ve Özel Araştırmada çok yardımcı oldun!
 
@@ -43167,6 +43669,54 @@ TEXT: Her bir Günlük Macera Tütsüsü 15 dakika sürer ve yalnızca sen harek
 
 RESOURCE ID: quest_special_dialogue_dailyincense_0_2
 TEXT: Sana her gün bir Macera Tütsüsü vereceğim. Bu yüzden dışarı çıkıp maceraya atılmaktan çekinme! Hatta ne dersin? Yeni bir maceraya hemen başlayalım mı? Yakalayabildiğin kadar Pokémon yakala!
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_0
+TEXT: Merhaba %PLAYERNAME%! Yine bir yılın daha sonuna geldik...
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_1
+TEXT: Ve görünüşe göre, yıl boyunca karşılaştığımız bazı tanıdık Pokémon’lar da tekrar ortaya çıkmaya başladı!
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_2
+TEXT: Yıl sonunu bizimle kutlamak için gelmiş olabilirler mi?
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_3
+TEXT: Umarım geçtiğimiz 12 ay boyunca yaşadığımız maceralar ve gösterdiğin gelişim aklında güzel bir anı olarak yer etmiştir.
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_4
+TEXT: İmkansızı başardık, efsaneler yarattık ve kendimiz hakkında pek çok şey keşfettik! En gurur duyduğun an hangisi oldu?
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_0
+TEXT: Tekrar hoş geldin %PLAYERNAME%. Vay canına, yakaladığın Pokémon’lara bak! Bir zorluğun daha üstesinden gelmeye var mısın?
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_1
+TEXT: Benim için bu Pokémon’lardan bazılarını evrimleştirir misin? Bu yıl sen de bir Eğitmen olarak adeta evrim geçirdin. Özellikle Hoopa’yla geçirdiğin onca zamandan sonra.
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_2
+TEXT: Hoopa bu yıl ne çok haylazlık yaptı ama... Tüm Efsanevi Pokémon'ları çağırdığı zamanı hatırlıyor musun?
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_3
+TEXT: Pokémon ile Eğitmeni arasındaki bağ, Pokémon'un görünüşünden bile çok daha fazla değişebilir.
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_4
+TEXT: Bugün Pokémon’larını evrimleştirirken bu dediğimi unutma.
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_0
+TEXT: Yeni yılın kapıyı çalmasıyla birlikte ben de yaşadıklarımıza bir dönüp baktım. Mekanların geçmişlerinden, Pokémon’lardan ve sevgili Eğitmen arkadaşlarımızdan neler öğrendik?
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_1
+TEXT: Mekan demişken, yakın zamanda bulduğum tuhaf kapıyı duydun mu? Bunun sıkı bir maceraya yol açacağını hissediyorum.
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_2
+TEXT: Acaba o kapının arkasında ne gizemler yatıyor. Bu tarihi yapı bize geçmişimiz ve ortak geleceğimiz hakkında neler söyleyecek?
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_3
+TEXT: Pardon, ne diyorduk? Ah evet!  Çok sayıda Pokémon yakalamayı, evrimlerini incelemeyi ve hatta Poké Topu fırlatma tekniğini geliştirmeyi unutma. Yeni yıla yeni bilgilerle girelim!
+
+RESOURCE ID: quest_special_dialogue_dec2021_3_0
+TEXT: Tebrikler %PLAYERNAME%. Bitiş çizgisine ulaştın! Tüm çabaların için ödülün işte burada. Yıl boyu bana ettiğin yardımlar için duyduğum minnettarlığın bir göstergesi olarak kabul et.
+
+RESOURCE ID: quest_special_dialogue_dec2021_3_1
+TEXT: Önümüzdeki yıl birlikte yeni maceralara atılmayı dört gözle bekliyorum! Hazır mısın? O halde GİDELİM!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_0
 TEXT: Merhaba %PLAYERNAME%! Seni gördüğüme sevindim. Yılın sonuna geldiğimize inanabiliyor musun?
@@ -44165,6 +44715,54 @@ RESOURCE ID: quest_special_dialogue_hoopaunbound_0_7
 TEXT: "Verdiğinde bulduğun tozu ve şekeri 
 Serbest kalacaktır Hoopa’nın bedeni
 
+RESOURCE ID: quest_special_dialogue_hoppt_0_0
+TEXT: Merhaba %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_1
+TEXT: Az önce inanılmaz bir şey gördüm: Yüzlerce Hoppip göklerde uçuyordu. O kadar çok Hoppip vardı ki, gök yüzündeki bulutlar pembeye boyanmış gibiydi.
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_2
+TEXT: Bence Pamuk Otu Pokémon Hoppip hakkında daha fazla bilgi edinmek için bundan iyi bir fırsat olamaz, ne dersin?
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_3
+TEXT: Hoppip’lerin dağlarda ve ovalarda toplanmasının, ilkbaharın gelişine işaret ettiği söylenir.
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_4
+TEXT: Göklerde bunca Hoppip süzüldüğüne göre, ilkbahar gelmiş gibi hissediyor musun? Haydi gel birkaç Hoppip yakalayalım ve onlar hakkında daha fazla bilgi edinelim.
+
+RESOURCE ID: quest_special_dialogue_hoppt_1_0
+TEXT: Vay canına, şu Hoppip’lere bak! Hoppip’ler o kadar hafiftir ki, rüzgar onları uçurmasın diye ayaklarıyla zemine tutunurlar. Ayrıca birlikte kümelenip yapraklarını birleştirerek grup halinde zemine tutunmayı da severler.
+
+RESOURCE ID: quest_special_dialogue_hoppt_1_1
+TEXT: Uçup gitmemek için son derece zekice yöntemler bulmuş gibiler.
+
+RESOURCE ID: quest_special_dialogue_hoppt_1_2
+TEXT: Hoppip’ler evrim de geçirebilir. Ve bu sahneye tanıklık etmek şahanedir. Bence anlattıklarımla yetinmeyip bu manzarayı kendi gözlerinle görmelisin!
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_0
+TEXT: Bu ne güzel bir Skiploom, %PLAYERNAME%! Hakkında bir şeyler öğrenmeye vaktin oldu mu?
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_1
+TEXT: Başının üstündeki tomurcuk, sıcaklık değişimine bağlı olarak açılır ve kapanır. Skiploom’un çiçekleri sıcaklık artınca açtığı için bazı Eğitmenler, Skiploom’u termometre olarak kullanır. Ne kadar ilginç, değil mi?
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_2
+TEXT: Sıcak havalarda Skiploom’un göklerde süzülerek güneşe yaklaşmaya çalıştığı da görülür. Açıkçası elimde olsa ben de göklerde süzülüp biraz daha gün ışığı almak isterdim!
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_3
+TEXT: Skiploom’un da evrim geçirebildiğini biliyor muydun? O hâlde ne duruyorsun, haydi bir Skiploom'u evrimleştir!
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_0
+TEXT: Harika iş çıkardın %PLAYERNAME%! Görünüşe göre artık bir Jumpluff’ın var. Jumpluff rüzgarda süzülerek denizleri aşar ve yeni mekanlara yelken açar. Süzülürken etrafına pamuk sporları saçar.
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_1
+TEXT: Böyle püfür püfür seyahat edebilmek ne güzel olmaz mıydı? 
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_2
+TEXT: Seyahat demişken, yeni arkadaşınla yürüyüşe çıkmayı ihmal etme. Gün ışığının tadını beraber çıkarın.
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_3
+TEXT: Yakında yeniden görüşürüz %PLAYERNAME%!
+
 RESOURCE ID: quest_special_dialogue_jj_0_0
 TEXT: Jessie: Baksana James, duydun mu?
 
@@ -44299,6 +44897,79 @@ TEXT: James: Gelecek sefer seni mahvedeceğiz!
 
 RESOURCE ID: quest_special_dialogue_jj_3_7
 TEXT: Jessie: Ama şimdilik yine çuvallıyoruz!
+
+RESOURCE ID: quest_special_dialogue_litwick_0_0
+TEXT: Hey, %PLAYERNAME%! Is it just me, or is there a ghostly chill in the air?
+
+RESOURCE ID: quest_special_dialogue_litwick_0_1
+TEXT: It could have something to do with those lights over there! They belong to Litwick, the Candle Pokémon.
+
+RESOURCE ID: quest_special_dialogue_litwick_0_2
+TEXT: Litwick is known to leech off the life force of any who follow it.
+
+RESOURCE ID: quest_special_dialogue_litwick_0_3
+TEXT: The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns. Makes for a pretty ominous candle, wouldn’t you say?
+
+RESOURCE ID: quest_special_dialogue_litwick_0_4
+TEXT: Litwick appearing in such force makes the perfect chance to learn more about them. I suggest you get up close and see for yourself!
+
+RESOURCE ID: quest_special_dialogue_litwick_0_5
+TEXT: Just be careful not to let Litwick lead you anywhere, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_litwick_1_0
+TEXT: Good day, Trainer. Professor Willow has tasked you with investigating...Litwick, is it?
+
+RESOURCE ID: quest_special_dialogue_litwick_1_1
+TEXT: The flame on its head is certainly alluring. A Pokémon that can bring light to its surroundings… What could be the source of its brilliant glow?
+
+RESOURCE ID: quest_special_dialogue_litwick_1_2
+TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+
+RESOURCE ID: quest_special_dialogue_litwick_1_3
+TEXT: What are your thoughts, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_litwick_2_0
+TEXT: Wow, %PLAYERNAME%! You went looking for Litwick and came back with a lamp! 
+
+RESOURCE ID: quest_special_dialogue_litwick_2_1
+TEXT: I kid—I know a Lampent when I see one! And it was Rhi who suggested you help Litwick evolve? That’s great. We can always learn more when encouraged by our friends!
+
+RESOURCE ID: quest_special_dialogue_litwick_2_2
+TEXT: So, let me tell you about Lampent! While it often pretends to be a lamp, Lampent is usually feared as an emissary of death. 
+
+RESOURCE ID: quest_special_dialogue_litwick_2_3
+TEXT: Through cities it wanders, searching for the spirits of the fallen. Spooky, but appropriate for the season! 
+
+RESOURCE ID: quest_special_dialogue_litwick_2_4
+TEXT: And what a sight that fire is. I’m sure you and Rhi would get a kick out of seeing Lampent’s Evolution, Chandelure, too! But a word of caution, %PLAYERNAME%...
+
+RESOURCE ID: quest_special_dialogue_litwick_2_5
+TEXT: They say spirits burned up in Chandelure's ominous flame lose their way and wander this world forever.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_0
+TEXT: That new Pokémon...
+... ... ...
+
+RESOURCE ID: quest_special_dialogue_litwick_3_1
+TEXT: Oh. My apologies, %PLAYERNAME%. I was...preoccupied gazing at the flame your Pokémon is emanating.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_2
+TEXT: ... ... ...
+
+RESOURCE ID: quest_special_dialogue_litwick_3_3
+TEXT: The swaying of its arms is rather hypnotic.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_4
+TEXT: It's called "Chandelure," is it? And Professor Willow said its flames can burn up spirits? An unsettling thought.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_5
+TEXT: The Pokémon we studied today could easily be seen as frightening. Yet I believe there is a lesson we can take from them.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_6
+TEXT: No matter how dark the world becomes, a little light always persists.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_7
+TEXT: Thank you for teaching me that lesson once again, %PLAYERNAME%. Take care, and I will see you again.
 
 RESOURCE ID: quest_special_dialogue_lvl_43_0_0
 TEXT: Merhaba %PLAYERNAME%! Eğitmen olarak gösterdiğin gelişimden ne kadar etkilendiğimi söylememde bir sakınca var mı?
@@ -45335,36 +46006,6 @@ TEXT: Mega evrimleşmiş Pokémon’lar güçlü müttefiklerdir. Maçlarda serg
 RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_3
 TEXT: Eminim mega evrimle ilgili öğrenilecek daha çok şey var. Araştırmaya devam edelim. Hadi GİDELİM!
 
-RESOURCE ID: quest_special_dialogue_melemele_0_0
-TEXT: Selam %PLAYERNAME%! Seni tekrar görmek ne güzel.
-
-RESOURCE ID: quest_special_dialogue_melemele_0_1
-TEXT: Bugün nedense içimde ayrı bir ferahlık hissi var. Sanki etrafımda ada yelleri esiyor. Acaba kahvaltıda içtiğim Pinap Suyu yüzünden olabilir mi?
-
-RESOURCE ID: quest_special_dialogue_melemele_0_2
-TEXT: Belki de son zamanlarda Alola bölgesinde keşfedilen Pokémon’ların beni sık sık ziyarete gelmesiyle de ilgili olabilir!
-
-RESOURCE ID: quest_special_dialogue_melemele_0_3
-TEXT: Daha önce Alola bölgesini duymuş muydun %PLAYERNAME%? Alola, her biri eşsiz manzaralara ve Pokémon’lara sahip takımadalardan oluşur.
-
-RESOURCE ID: quest_special_dialogue_melemele_0_4
-TEXT: Hatta Alola bölgesindeki Pokémon’ların bazıları diğer bölgelere göre farklı görünür. Bu Pokémon’lardan bazılarına daha önce rastlamış olabilirsin!
-
-RESOURCE ID: quest_special_dialogue_melemele_0_5
-TEXT: Ben bir bardak daha Pinap Suyu hazırlayacağım. Sen de bu sırada Alola’da keşfedilen birkaç Pokémon arar mısın? Eminim ziyaretçilerimizden öğrenecek çok şeyimiz vardır!
-
-RESOURCE ID: quest_special_dialogue_melemele_1_0
-TEXT: Harika zamanlama %PLAYERNAME%! Ben de tam Pinap Suyumu bitirmiştim.
-
-RESOURCE ID: quest_special_dialogue_melemele_1_1
-TEXT: Alola bölgesine ait Pokémon’ları aradığın için teşekkürler. Her zamanki gibi işini titizlikle yapmışsın.
-
-RESOURCE ID: quest_special_dialogue_melemele_1_2
-TEXT: Keşiflerine bakabilir miyim? Hmm... Görünüşe göre keşfettiğin Pokémon’ların pek çoğu Alola’daki Melemele Adası’ndan geliyor.
-
-RESOURCE ID: quest_special_dialogue_melemele_1_3
-TEXT: Alola’daki Eğitmenler maceralarına Melemele Adası'ndan başlar. Bu yüzden karşılaştığın Pokémon’ların Alola’nın genç Eğitmenlerinin ilk karşılaştığı Pokémon’lar olması çok doğal.
-
 RESOURCE ID: quest_special_dialogue_melemele_1_4
 TEXT: O hâlde biraz daha eğlenelim. Yeni Pokémon arkadaşlarının birkaç fotoğrafını çekip onlara biraz da meyve verebilir misin %PLAYERNAME%?
 
@@ -46299,6 +46940,93 @@ TEXT: Sıkı çalışmanı her zaman takdir ediyorum %PLAYERNAME%. Başka bir me
 
 RESOURCE ID: quest_special_dialogue_poryt_3_6
 TEXT: O zamana kadar hoşça kal. Hadi GİDELİM!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_0
+TEXT: %PLAYERNAME%, buna inanamayacaksın!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_1
+TEXT: Etrafta yuvarlanan Poké Topuna benzeyen Pokémon’ları gördün mü?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_10
+TEXT: Ama sormadan da edemiyorum. Bunca zaman ortalıkta görülmeyen Hisuili Voltorb’lar neden bir anda ortaya çıktı? Bir şekilde Sinnoh’nun geçmişinden günümüze zaman yolculuğu mu yaptılar?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_11
+TEXT: GO Roket Takımı’nın gizemli kapıyı kırarak açmasının, Hisuili Voltorb’ların günümüzde görünmesine neden olduğuna dair bir teorim var.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_12
+TEXT: Peki neden bir anda aklıma Zaman Yolcusu Pokémon Celebi geldi...
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_13
+TEXT: Neyse, şimdilik elimdeki bilgiler bu kadar. İnanılmaz ama değil mi?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_14
+TEXT: Ben biraz daha araştırma yapacağım. Sen de bu geçmişten gelen Pokémon’u sahada araştırarak bana yardım edersen minnettar olurum!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_15
+TEXT: Haydi, Hisuili Voltorb’u beraber araştıralım.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_2
+TEXT: Kanto ve birkaç bölgede daha bulunan Voltorb’lara benziyorlar ama... Daha önce bunlar gibi görünen Voltorb'a rastlamamıştım.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_3
+TEXT: Aklıma gelen herkesi aradım, elime geçen tüm belgeleri araştırdım ama modern bilimsel makaleler bu Pokémon’dan bahsetmiyor bile!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_4
+TEXT: Ancak onca araştırmanın sonunda bir şey bulmayı başardım. Sinnoh bölgesinin adının eskiden Hisui bölgesi olduğunu biliyor muydun?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_5
+TEXT: Tarihi belgelerden birinde çok eskiden geliştirilmiş bir Poké Topu buldum ve bu Poké Topunun, bu gizemli Pokémon’a benzediğini fark ettim. Yoksa Pokémon mu Poké Topuna benziyor?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_6
+TEXT: Kim bilir hangisi önce keşfedildi? Poké Topu mu yoksa Pokémon mu?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_7
+TEXT: Tüm bunları göz önünde bulundurunca, bu sıra dışı Pokémon’un bir zamanlar Hisui bölgesinde yaşamış Voltorb olduğuna inanıyorum.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_8
+TEXT: Bir Pokémon yalnızca geçmişte yaşamışsa bölgesel varyant sayılır mı? Gel de çık işin içinden!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_9
+TEXT: Sanırım şimdilik bu Pokémon’a Hisuili Voltorb diyebiliriz, öyle değil mi?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_0
+TEXT: Kafam hâlâ allak bullak %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_1
+TEXT: Başka zamana ait bir Pokémon’un günümüzde ortaya çıktığına inanabiliyor musun?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_10
+TEXT: Neyse. Son zamanlarda oldukça heyecan verici araştırmalar yaptık değil mi %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_11
+TEXT: İçimden bir ses daha da heyecan verici keşiflerin bizi beklediğini söylüyor!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_12
+TEXT: O halde yeni maceraların bize neler sunacağını heyecanla bekleyelim.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_2
+TEXT: Acaba bu Pokémon, Hisui bölgesinde neler gördü? Ve bir anda Hisui’nin geleceğini görünce neler düşündü?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_3
+TEXT: Ah, Hisui bölgesi... Acaba orada başka ne tür Pokémon’lar yaşadı?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_4
+TEXT: Zamanda geriye gidip Hisui bölgesini kendim deneyimlemek için neler vermezdim! Bunu yapabilsem rüyalarım gerçek olurdu!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_5
+TEXT: Belki bir gün Celebi ile karşılaşırsam sırf merakımı gidermek için geçmişe çabucak gidip gelmeyi isteyebilirim.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_6
+TEXT: ...Ama elbette bu mümkün değil. Yine de hayal etmesi güzel!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_7
+TEXT: Neyse... Hisuili Voltorb'un evrim geçirip geçiremediğini araştırmaya karar verdim.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_8
+TEXT: Bu konuda hiçbir fikrim yok ama bu araştırmama engel değil. Bu garip ve harika Pokémon hakkında her şeyi öğrenmek istiyorum. 
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_9
+TEXT: Sonuçta bir anda geçmişten gelen bu dostumuz geldiği gibi yok olabilir. Anladın mı? Voltorb’lar kendilerini yok edebilir ya hani. Haha...
 
 RESOURCE ID: quest_special_dialogue_rocket_0_0
 TEXT: Merhaba %PLAYERNAME%, seni gördüğüme sevindim! Bir şeyi araştırmak için bana yardım eder misin?
@@ -47893,6 +48621,84 @@ TEXT: Ama sen bana aldırma. Son karar senin %PLAYERNAME%.
 RESOURCE ID: quest_special_dialogue_season8_2_8
 TEXT: Adı her ne olursa olsun, yakınlaştıkça Cosmog hakkında daha fazla bilgi edinmeye can atıyorum.
 
+RESOURCE ID: quest_special_dialogue_season8_3_0
+TEXT: Selam %PLAYERNAME%! Her zamanki gibi seni görmek harika!
+
+RESOURCE ID: quest_special_dialogue_season8_3_1
+TEXT: Sen ve Rhi nasılsınız? O gizemli Pokémon hakkında yeni bir şeyler öğrendiniz mi?
+
+RESOURCE ID: quest_special_dialogue_season8_3_2
+TEXT: Rhi o Pokémon’u tanıdı mı dedin? Adı da Cosmog muymuş? İnanılmaz! Farklı boyutlardan yardım almak bilgi haznemizi genişletmeye fazlasıyla yardımcı oluyor.
+
+RESOURCE ID: quest_special_dialogue_season8_3_3
+TEXT: Yine de söz konusu Pokémon’lar olunca bizzat gözlemlemekten iyisi yok. Cosmog'la vakit geçirirken ilginç bir şeye rastladın mı %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_season8_3_4
+TEXT: Hım... Anladım.
+
+RESOURCE ID: quest_special_dialogue_season8_3_5
+TEXT: Görünüşe göre Cosmog meraklı ama pek de ihtiyatlı değil.
+
+RESOURCE ID: quest_special_dialogue_season8_3_6
+TEXT: Bazen ben de ihtiyatı bir kenara bırakıyorum ama kenara bırakılan şey cebe konulup götürülecek kadar küçük olunca... Neyse.
+
+RESOURCE ID: quest_special_dialogue_season8_3_7
+TEXT: Cosmog’u güvende tutmanız güzel. Tıpkı benim güvenliğimi sağladığınız gibi!
+
+RESOURCE ID: quest_special_dialogue_season8_3_8
+TEXT: Elbette Cosmog’la ne kadar vakit geçirirseniz o kadar çok şey öğreniriz. Yeni keşifler yaptığınızda bana haber vermeyi unutma!
+
+RESOURCE ID: quest_special_dialogue_season8_4_0
+TEXT: %PLAYERNAME%. Merhaba.
+
+RESOURCE ID: quest_special_dialogue_season8_4_1
+TEXT: Demek Cosmog evrimleşerek Cosmoem’a dönüştü.
+
+RESOURCE ID: quest_special_dialogue_season8_4_2
+TEXT: Mevcut hali seni rahatsız etmesin.
+
+RESOURCE ID: quest_special_dialogue_season8_4_3
+TEXT: Doğal biyolojisi böyle işliyor.
+
+RESOURCE ID: quest_special_dialogue_season8_4_4
+TEXT: Cosmoem hareketsiz dursa bile içinde enerji biriktirir.
+
+RESOURCE ID: quest_special_dialogue_season8_4_5
+TEXT: Şüphelerime göre evrimleşmeye hazırlanıyor ve zamanı geldiğinde tekrar aktifleşecek.
+
+RESOURCE ID: quest_special_dialogue_season8_4_6
+TEXT: Bunun tam olarak ne zaman gerçekleşeceği ise benim bilgimi aşıyor.
+
+RESOURCE ID: quest_special_dialogue_season8_4_7
+TEXT: Acaba Cosmoem evrimleştiğinde... Dur bir dakika! Aklıma bir fikir geldi. Willow’un bir varlık hakkında “güneş kadar sıcak, ay kadar dingin” dediğini hatırlıyor musun?
+
+RESOURCE ID: quest_special_dialogue_season8_4_8
+TEXT: Sohbetimizi aniden böldüğüm için özür dilerim %PLAYERNAME% ama not almalıyım.
+
+RESOURCE ID: quest_special_dialogue_season8_4_9
+TEXT: Lütfen ben yokken keşiflerine devam et ve Profesör Willow’a Cosmog’un Cosmoem’a evrimleştiğini söyle.
+
+RESOURCE ID: quest_special_dialogue_season8_5_0
+TEXT: %PLAYERNAME%! Demek döndün bile! Cosmog nasıl...
+
+RESOURCE ID: quest_special_dialogue_season8_5_1
+TEXT: Vay canına! Bu Pokémon da kim? Cosmog evrim mi geçirdi?! Kabuğuna bak, nasıl da parlıyor!
+
+RESOURCE ID: quest_special_dialogue_season8_5_2
+TEXT: Demek Rhi’nin hipotezine göre “Cosmoem” evrimleşmeye hazır olana dek bu halde kalacak? Harika bir teori!
+
+RESOURCE ID: quest_special_dialogue_season8_5_3
+TEXT: Sabit duran bir Pokémon’u gözlemlemek son derece kolay ama sence Cosmoem’ın aklından neler geçiyordur? Uyuyor mu? Belki sen ve Rhi ile maceraya atılmayı düşlüyordur!
+
+RESOURCE ID: quest_special_dialogue_season8_5_4
+TEXT: Rhi’nin deyimiyle “aktifleştiğinde” acaba daha neler öğreneceğiz? Nasıl bir Pokémon’a dönüşecek? Benim zihnim, buradaki sakin dostumuzun aksine sorular ve olasılıklarla dolup taşıyor!
+
+RESOURCE ID: quest_special_dialogue_season8_5_5
+TEXT: Aydınlığa çıkaracağımız yeni gizemleri dört gözle bekliyorum %PLAYERNAME%! Tekrar görüşene dek Cosmoem’a iyi bak.
+
+RESOURCE ID: quest_special_dialogue_season8_6_0
+TEXT: Hâlâ Cosmoem’ı mı bekliyorsun %PLAYERNAME%? Endişelenme, bazen işleri ağırdan almak gerekir. Ben buralardayım. Paylaşacak gelişmelerin olunca ziyaret edebilirsin.
+
 RESOURCE ID: quest_special_dialogue_shint_0_0
 TEXT: Merhaba %PLAYERNAME%! Umarım iyisindir.
 
@@ -48015,6 +48821,63 @@ TEXT: Neyse, güneşin altında gösterdiğin çabalar için tekrar teşekkürle
 
 RESOURCE ID: quest_special_dialogue_snivt_3_4
 TEXT: Şimdilik hoşça kal, hadi GİDELİM!
+
+RESOURCE ID: quest_special_dialogue_sphet_0_0
+TEXT: Selam %PLAYERNAME%! Seni tekrar görmek ne güzel.
+
+RESOURCE ID: quest_special_dialogue_sphet_0_1
+TEXT: Bu sabah yürürken gördüğüme inanamayacaksın. Buzlu suyun üzerinde yuvarlanan bir Spheal sürüsü!
+
+RESOURCE ID: quest_special_dialogue_sphet_0_2
+TEXT: Spheal’ların topa benzeyen vücutları üzerinde yuvarlanarak seyahat ettiklerini biliyor muydun?
+
+RESOURCE ID: quest_special_dialogue_sphet_0_3
+TEXT: Kış mevsimi geldiğinde Spheal’ların buzlu suları geçmek için yuvarlandığını görebilirsin.
+
+RESOURCE ID: quest_special_dialogue_sphet_0_4
+TEXT: Ayrıca soğuk ve buzlu iklimlerden korunmak için Spheal’ların vücutları yumuşacık tüylerle kaplıdır. Dürüst olmak gerekirse onları ileri geri yuvarlanırken görünce benim de içim ısındı!
+
+RESOURCE ID: quest_special_dialogue_sphet_0_5
+TEXT: Gidip sen de yuvarlanmalarını izle hadi! 
+
+RESOURCE ID: quest_special_dialogue_sphet_1_0
+TEXT: Tekrar hoş geldin %PLAYERNAME%! Bakıyorum yanında birkaç tane de Spheal getirmişsin. Ne kadar da toparlaklar değil mi?
+
+RESOURCE ID: quest_special_dialogue_sphet_1_1
+TEXT: Araştırmama göre Spheal'ın evrimleşmiş hâli olan Sealeo da böyle düşünüyor! Sealeo’ları zaman zaman burunlarının üstünde Spheal’ları dengelerken görebilirsin. Kendilerini bu şekilde eğlendirirler.
+
+RESOURCE ID: quest_special_dialogue_sphet_1_2
+TEXT: Ama dürüst olmak gerekirse Sealeo’lar, ilk kez gördükleri her şeyi burunlarında dengelemeye çalışırlar. Spheal’ını evrimleştirip kendin görmeye ne dersin?
+
+RESOURCE ID: quest_special_dialogue_sphet_2_0
+TEXT: Tekrar hoş geldin Eğitmen. Sen de hoş geldin Sealeo!
+
+RESOURCE ID: quest_special_dialogue_sphet_2_1
+TEXT: Sana vermem gereken son dakika haberlerim var. Daha önce bahsettiğim buzlu suyu hatırlıyor musun?
+
+RESOURCE ID: quest_special_dialogue_sphet_2_2
+TEXT: Görünüşe göre bir şey buzları kırmış ve tüm Spheal’lar suda çırpınıyor! Eğleniyor gibi duruyorlar ama hangi Pokémon’un buzları kırdığını merak ediyorum.
+
+RESOURCE ID: quest_special_dialogue_sphet_2_3
+TEXT: Bence Walrein yapmış olabilir. Walrein’ler buzlu sularda yüzerken, dişleriyle devasa buz dağlarını parçalamalarıyla ünlüdür. Kulağa muhteşem geliyor ama aynı zamanda biraz da ürkütücü.
+
+RESOURCE ID: quest_special_dialogue_sphet_2_4
+TEXT: Walrein’leri üzerinde araştırma yapabilmemiz için Sealeo’nu evrimleştirebilir misin?
+
+RESOURCE ID: quest_special_dialogue_sphet_3_0
+TEXT: Başardın Eğitmen! Walrein’in dişleri yakından muazzam görünüyor değil mi?
+
+RESOURCE ID: quest_special_dialogue_sphet_3_1
+TEXT: Walrein’lerin 20 ile 30 Pokémon arasında değişen sürüler halinde gezdiğini biliyor muydun? Bir tehdit ortaya çıktığında sürü lideri, sürüyü korumak için elinden gelen her şeyi yapar.
+
+RESOURCE ID: quest_special_dialogue_sphet_3_2
+TEXT: Kendilerini koruyabildiklerini bilmek güzel. Gerçi dişlerinin boyutuna bakılırsa bu kimseyi şaşırtmamalı. Haha!
+
+RESOURCE ID: quest_special_dialogue_sphet_3_3
+TEXT: Eminim Walrein’in seni de maçlarda koruyacaktır. Çok güçlü bir ikili oldunuz!
+
+RESOURCE ID: quest_special_dialogue_sphet_3_4
+TEXT: Bugün benimle bu macerayı paylaştığın için teşekkür ederim %PLAYERNAME%! Beraber yürüttüğümüz araştırmadan çok şey öğrendim. Bir daha görüşene dek, hadi GİDELİM!
 
 RESOURCE ID: quest_special_dialogue_spiritomb_0_0
 TEXT: %PLAYERNAME%! Tam zamanında geldin.
@@ -48819,6 +49682,15 @@ TEXT: Böyle önemli bir değişim geçirmek nasıl bir histir acaba? Herhalde s
 RESOURCE ID: quest_special_dialogue_zigzagoon_3_6
 TEXT: Son derece eğitici bir gün oldu. Yardımların için teşekkürler Pokémon Eğitmeni.
 
+RESOURCE ID: quest_sphet_catch_b
+TEXT: {0} Spheal yakalayın
+
+RESOURCE ID: quest_sphet_evolve_b
+TEXT: {0} Spheal evrimleştirin
+
+RESOURCE ID: quest_sphet_evolve_s1
+TEXT: {0} Sealeo evrimleştirin
+
 RESOURCE ID: quest_spin_daysinarow
 TEXT: Art arda {0} gün PokéDuraklara gidin
 
@@ -49049,6 +49921,21 @@ TEXT: BIDOOF (3/4)
 
 RESOURCE ID: quest_title_bidoof_branch_quest_3
 TEXT: BIDOOF (4/4)
+
+RESOURCE ID: quest_title_bulbt
+TEXT: Bulbasaur Topluluk Günü Klasik
+
+RESOURCE ID: quest_title_bulbt_0
+TEXT: Bulbasaur Topluluk Günü Klasik (1/4)
+
+RESOURCE ID: quest_title_bulbt_1
+TEXT: Bulbasaur Topluluk Günü Klasik (2/4)
+
+RESOURCE ID: quest_title_bulbt_2
+TEXT: Bulbasaur Topluluk Günü Klasik (3/4)
+
+RESOURCE ID: quest_title_bulbt_3
+TEXT: Bulbasaur Topluluk Günü Klasik (4/4)
 
 RESOURCE ID: quest_title_celebi
 TEXT: Zamanda Dalgalanma
@@ -49332,6 +50219,21 @@ TEXT: Haylazlık Serbest (2/3)
 RESOURCE ID: quest_title_hoopaunbound_2
 TEXT: Haylazlık Serbest (3/3)
 
+RESOURCE ID: quest_title_hoppt
+TEXT: Hop Hop Zıplayalım
+
+RESOURCE ID: quest_title_hoppt_0
+TEXT: Hop Hop Zıplayalım (1/4)
+
+RESOURCE ID: quest_title_hoppt_1
+TEXT: Hop Hop Zıplayalım (2/4)
+
+RESOURCE ID: quest_title_hoppt_2
+TEXT: Hop Hop Zıplayalım (3/4)
+
+RESOURCE ID: quest_title_hoppt_3
+TEXT: Hop Hop Zıplayalım (4/4)
+
 RESOURCE ID: quest_title_jirachi_0
 TEXT: GO Festivali 2019—Şikago (1/5)
 
@@ -49424,6 +50326,21 @@ TEXT: Parlak Şeyler Dikkat Çeker (3/4)
 
 RESOURCE ID: quest_title_jj_special_research_3
 TEXT: Parlak Şeyler Dikkat Çeker (4/4)
+
+RESOURCE ID: quest_title_litwick
+TEXT: Field Notes: Trick of the Light
+
+RESOURCE ID: quest_title_litwick_0
+TEXT: Field Notes: Trick of the Light (1/4)
+
+RESOURCE ID: quest_title_litwick_1
+TEXT: Field Notes: Trick of the Light (2/4)
+
+RESOURCE ID: quest_title_litwick_2
+TEXT: Field Notes: Trick of the Light (3/4)
+
+RESOURCE ID: quest_title_litwick_3
+TEXT: Field Notes: Trick of the Light (4/4)
 
 RESOURCE ID: quest_title_luminous_x_0
 TEXT: Parlak Efsaneler X (1/7)
@@ -49680,21 +50597,6 @@ TEXT: Mega Olay (3/4)
 RESOURCE ID: quest_title_megav3_branch_quest_3
 TEXT: Mega Olay (4/4)
 
-RESOURCE ID: quest_title_melemele
-TEXT: Bir Melemele Macerası
-
-RESOURCE ID: quest_title_melemele_0
-TEXT: Bir Melemele Macerası (1/4)
-
-RESOURCE ID: quest_title_melemele_1
-TEXT: Bir Melemele Macerası (2/4)
-
-RESOURCE ID: quest_title_melemele_2
-TEXT: Bir Melemele Macerası (3/4)
-
-RESOURCE ID: quest_title_melemele_3
-TEXT: Bir Melemele Macerası (4/4)
-
 RESOURCE ID: quest_title_meloetta
 TEXT: Kendi Sesini Bul
 
@@ -49862,6 +50764,9 @@ TEXT: Porygon Kodlarını Çözme (3/4)
 
 RESOURCE ID: quest_title_poryt_3
 TEXT: Porygon Kodlarını Çözme (4/4)
+
+RESOURCE ID: quest_title_power_jan22_0
+TEXT: Hisui Bölgesinden Voltorb mu?!
 
 RESOURCE ID: quest_title_rocket
 TEXT: Rahatsız Edici Bir Olay
@@ -50181,6 +51086,102 @@ TEXT: Yanlış Anlaşılan Haylaz (9/16)
 RESOURCE ID: quest_title_season4_9
 TEXT: Yanlış Anlaşılan Haylaz (10/16)
 
+RESOURCE ID: quest_title_season5_feb
+TEXT: Miras Mevsimi: Yakalama Görevi
+
+RESOURCE ID: quest_title_season5_feb_page_0
+TEXT: Miras Mevsimi: Yakalama Görevi (1/15)
+
+RESOURCE ID: quest_title_season5_feb_page_1
+TEXT: Miras Mevsimi: Yakalama Görevi (2/15)
+
+RESOURCE ID: quest_title_season5_feb_page_10
+TEXT: Miras Mevsimi: Yakalama Görevi (11/15)
+
+RESOURCE ID: quest_title_season5_feb_page_11
+TEXT: Miras Mevsimi: Yakalama Görevi (12/15)
+
+RESOURCE ID: quest_title_season5_feb_page_12
+TEXT: Miras Mevsimi: Yakalama Görevi (13/15)
+
+RESOURCE ID: quest_title_season5_feb_page_13
+TEXT: Miras Mevsimi: Yakalama Görevi (14/15)
+
+RESOURCE ID: quest_title_season5_feb_page_14
+TEXT: Miras Mevsimi: Yakalama Görevi (15/15)
+
+RESOURCE ID: quest_title_season5_feb_page_2
+TEXT: Miras Mevsimi: Yakalama Görevi (3/15)
+
+RESOURCE ID: quest_title_season5_feb_page_3
+TEXT: Miras Mevsimi: Yakalama Görevi (4/15)
+
+RESOURCE ID: quest_title_season5_feb_page_4
+TEXT: Miras Mevsimi: Yakalama Görevi (5/15)
+
+RESOURCE ID: quest_title_season5_feb_page_5
+TEXT: Miras Mevsimi: Yakalama Görevi (6/15)
+
+RESOURCE ID: quest_title_season5_feb_page_6
+TEXT: Miras Mevsimi: Yakalama Görevi (7/15)
+
+RESOURCE ID: quest_title_season5_feb_page_7
+TEXT: Miras Mevsimi: Yakalama Görevi (8/15)
+
+RESOURCE ID: quest_title_season5_feb_page_8
+TEXT: Miras Mevsimi: Yakalama Görevi (9/15)
+
+RESOURCE ID: quest_title_season5_feb_page_9
+TEXT: Miras Mevsimi: Yakalama Görevi (10/15)
+
+RESOURCE ID: quest_title_season5_jan
+TEXT: Miras Mevsimi: TP Görevi
+
+RESOURCE ID: quest_title_season5_jan_page_0
+TEXT: Miras Mevsimi: TP Görevi (1/15)
+
+RESOURCE ID: quest_title_season5_jan_page_1
+TEXT: Miras Mevsimi: TP Görevi (2/15)
+
+RESOURCE ID: quest_title_season5_jan_page_10
+TEXT: Miras Mevsimi: TP Görevi (11/15)
+
+RESOURCE ID: quest_title_season5_jan_page_11
+TEXT: Miras Mevsimi: TP Görevi (12/15)
+
+RESOURCE ID: quest_title_season5_jan_page_12
+TEXT: Miras Mevsimi: TP Görevi (13/15)
+
+RESOURCE ID: quest_title_season5_jan_page_13
+TEXT: Miras Mevsimi: TP Görevi (14/15)
+
+RESOURCE ID: quest_title_season5_jan_page_14
+TEXT: Miras Mevsimi: TP Görevi (15/15)
+
+RESOURCE ID: quest_title_season5_jan_page_2
+TEXT: Miras Mevsimi: TP Görevi (3/15)
+
+RESOURCE ID: quest_title_season5_jan_page_3
+TEXT: Miras Mevsimi: TP Görevi (4/15)
+
+RESOURCE ID: quest_title_season5_jan_page_4
+TEXT: Miras Mevsimi: TP Görevi (5/15)
+
+RESOURCE ID: quest_title_season5_jan_page_5
+TEXT: Miras Mevsimi: TP Görevi (6/15)
+
+RESOURCE ID: quest_title_season5_jan_page_6
+TEXT: Miras Mevsimi: TP Görevi (7/15)
+
+RESOURCE ID: quest_title_season5_jan_page_7
+TEXT: Miras Mevsimi: TP Görevi (8/15)
+
+RESOURCE ID: quest_title_season5_jan_page_8
+TEXT: Miras Mevsimi: TP Görevi (9/15)
+
+RESOURCE ID: quest_title_season5_jan_page_9
+TEXT: Miras Mevsimi: TP Görevi (10/15)
+
 RESOURCE ID: quest_title_season8
 TEXT: Kozmik Ortak
 
@@ -50243,6 +51244,21 @@ TEXT: Güneş Işığında Snivy (3/4)
 
 RESOURCE ID: quest_title_snivt_3
 TEXT: Güneş Işığında Snivy (4/4)
+
+RESOURCE ID: quest_title_sphet
+TEXT: Spheal Olayı
+
+RESOURCE ID: quest_title_sphet_0
+TEXT: Spheal Olayı (1/4)
+
+RESOURCE ID: quest_title_sphet_1
+TEXT: Spheal Olayı (2/4)
+
+RESOURCE ID: quest_title_sphet_2
+TEXT: Spheal Olayı (3/4)
+
+RESOURCE ID: quest_title_sphet_3
+TEXT: Spheal Olayı (4/4)
 
 RESOURCE ID: quest_title_spiritomb
 TEXT: Ürkütücü Bir Mesaj 2018
@@ -50823,14 +51839,23 @@ TEXT: Pokémon üzerinde herhangi bir İksir kullanın
 RESOURCE ID: quest_use_charged_move_singular
 TEXT: Bir süper etkili güçlü saldırı kullanın
 
+RESOURCE ID: quest_use_charged_tm
+TEXT: Bir Güçlü TM Kullanın
+
 RESOURCE ID: quest_use_dai_plural
 TEXT: {0} adet Günlük Macera Tütsüsü kullanın
 
 RESOURCE ID: quest_use_dai_singular
 TEXT: Bir adet Günlük Macera Tütsüsü kullanın
 
+RESOURCE ID: quest_use_fast_tm
+TEXT: Bir Hızlı TM Kullanın
+
 RESOURCE ID: quest_use_hyper_potion
 TEXT: Pokémon üzerinde Hiper İksir kullanın
+
+RESOURCE ID: quest_use_lure
+TEXT: Use a Lure Module
 
 RESOURCE ID: quest_use_max_potion
 TEXT: Pokémon üzerinde Maks. İksir kullanın
@@ -50843,6 +51868,12 @@ TEXT: {0} Nadir Şeker kullanın
 
 RESOURCE ID: quest_use_rare_candy_singular
 TEXT: 1 Nadir Şeker kullanın
+
+RESOURCE ID: quest_use_standard_charged_tm
+TEXT: Bir Güçlü TM Kullanın
+
+RESOURCE ID: quest_use_standard_fast_tm
+TEXT: Bir Hızlı TM Kullanın
 
 RESOURCE ID: quest_use_super_potion
 TEXT: Pokémon üzerinde Süper İksir kullanın
@@ -51008,6 +52039,9 @@ TEXT: {0} Kakuna evrimleştirin
 
 RESOURCE ID: quest_wt_evolve_weedle
 TEXT: {0} Weedle evrimleştirin
+
+RESOURCE ID: quest_xp_plural
+TEXT: {0} TP Kazanın
 
 RESOURCE ID: quest_zigzagoon_catch_b
 TEXT: {0} Galarlı Zigzagoon yakalayın
@@ -52383,6 +53417,9 @@ TEXT: Akın Günü: Medicham
 
 RESOURCE ID: raid_day_meditite
 TEXT: Akın Günü: Meditite
+
+RESOURCE ID: raid_day_mega_gyarados
+TEXT: Akın Günü: Mega Gyarados
 
 RESOURCE ID: raid_day_mega_kangaskhan
 TEXT: Akın Günü: Mega Kangaskhan
@@ -56051,9 +57088,8 @@ RESOURCE ID: remote_raid_invite_ingame_notif
 TEXT: {0}, sizi Akın Maçına katılmaya davet etti!
 
 RESOURCE ID: remote_raid_invite_push_notif
-TEXT: Akın Davetiyesi
-
-{0}, sizi Akın Maçına katılmaya davet etti!
+TEXT: Raid Invitation
+ {0} invited you to join a Raid Battle!
 
 RESOURCE ID: remote_raid_invite_rate_limit_desc
 TEXT: Bir süreliğine gönderebileceğiniz maksimum davetiye sayısına ulaştınız. Lütfen daha sonra tekrar deneyin.
@@ -58517,6 +59553,9 @@ TEXT: Yabanda daha fazla Gible ortaya çıkıyor
 RESOURCE ID: spawn_hoppip
 TEXT: Yabanda daha fazla Hoppip ortaya çıkıyor
 
+RESOURCE ID: spawn_litwick
+TEXT: More Litwick are appearing in the wild!
+
 RESOURCE ID: spawn_machop
 TEXT: Yabanda daha fazla Machop ortaya çıkıyor
 
@@ -59411,212 +60450,44 @@ TEXT: Pokémon GO Festivali: Seattle Park Tecrübesi (4/5)
 RESOURCE ID: sr_gofest2022_leseap_5
 TEXT: Pokémon GO Festivali: Seattle Park Tecrübesi (5/5)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_10
-TEXT: Ama henüz bir şey olmadı. O yüzden şimdilik Pokémon ve arkadaşlarınla eğlenmeye odaklanabilirsin.
+RESOURCE ID: sr_gotour2022_1
+TEXT: Pokémon GO Tur: Johto (1/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_3
-TEXT: Ayrıca Karanlık ve Çelik türü Pokémon’lar ilk kez bu bölgede keşfedilmiştir! Bay Pokémon ve Gizemli Yumurta da burada bulunur.
+RESOURCE ID: sr_gotour2022_2
+TEXT: Pokémon GO Tur: Johto (2/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_4
-TEXT: Johto bölgesinde keşfedilen Pokémon’lardan söz açılmışken, Zaman Yolcusu Pokémon Celebi’nin de yakınlarda görüldüğünü duydum.
+RESOURCE ID: sr_gotour2022_3
+TEXT: Pokémon GO Tur: Johto (3/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_5
-TEXT: Celebi zaman içinde hareket etme yeteneğine sahiptir.
+RESOURCE ID: sr_gotour2022_4
+TEXT: Pokémon GO Tur: Johto (4/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_6
-TEXT: Daha önce de bahsetmiştim ama, Hisuili Voltorb’un günümüzde ortaya çıkmasının Celebi’yle ilgili olduğunu düşünmeden edemiyorum.
+RESOURCE ID: sr_gotour2022_5
+TEXT: Pokémon GO Tur: Johto (5/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_7
-TEXT: Neyse... Söylenti o ki, Celebi özel bir hareket biliyormuş. Umarım bunun gerçek olup olmadığını öğrenebiliriz.
+RESOURCE ID: sr_gotour2022_6
+TEXT: Pokémon GO Tur: Johto (6/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_8
-TEXT: Kutlamalar için dışarı çıktığında gözün GO Roket Takımı’nda olsun. Şahsen onları unutmadım.
+RESOURCE ID: sr_gotour2022_7
+TEXT: Pokémon GO Tur: Johto (7/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_9
-TEXT: Gizemli kapıyı kırarak ne amaçladıklarını bu kez biraz olsun öğrenebileceğimizi umuyorum.
+RESOURCE ID: sr_gotour2022_8
+TEXT: Pokémon GO Tur: Johto (8/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_1_0
-TEXT: Maceranın neye ihtiyacı var biliyor musun %PLAYERNAME%? Yeni bir Dosta! Bir iş arkadaşımla konuşup senin için küçük bir sürpriz hazırladım.
+RESOURCE ID: sr_gotour2022_9
+TEXT: Pokémon GO Tur: Johto (9/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_1_1
-TEXT: Karşında Johto bölgesindeki Eğitmenlerin ilk partner Pokémon’ları. Durma. Seç birini! 
+RESOURCE ID: sr_gotour2022_sr_dialogue_0_0
+TEXT: Merhaba %PLAYERNAME%! Hazır mısın? Pokémon hikâyen başlamak üzere. Yaşayacağın macera kimileri için yepyeni olabilir. Ama bazılarına tanıdık da gelebilir.
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_0
-TEXT: Harika bir seçim yaptın %PLAYERNAME%!
+RESOURCE ID: sr_gotour2022_sr_dialogue_0_1
+TEXT: Evet, doğru duydun. Bugün Johto bölgesi hakkında bilgi edinirken ilk kez bu bölgede keşfedilen Pokémon’larla karşılaşacağız!
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_1_chikorita
-TEXT: Yaprak Pokémon Chikorita son derece uysaldır ve güneş ışınlarının tadını çıkarmaya bayılır. Başının üstündeki yapraktan tatlı bir aroma yayılır. Ne kadar da tatlı bir suratı var değil mi?
+RESOURCE ID: sr_gotour2022_sr_dialogue_0_2
+TEXT: Modern metropolü Goldenrod Şehri’ne ve oradan yalnızca birkaç adım uzaklıktaki antik güzelliğiyle ünlü Ecruteak Şehri’ne ev sahipliği yapan Johto bölgesi, zengin tarihi ve gelenekleriyle bilinir.
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_1_cyndaquil
-TEXT: Ateş Faresi Pokémon Cyndaquil çekingendir ve vücudunu top haline getirir. Saldırı altında olduğunda sırtındaki alevler onu korur. O kadar çekingen ki insanın daha da sıkı sarılası geliyor, değil mi?
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_1_totodile
-TEXT: Koca Çeneli Pokémon Totodile küçük ama dayanıklıdır. Hareket eden hiçbir şeyi ısırmaktan çekinmez. Ama şöyle bir okşasam ne kaybederim ki...
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_2
-TEXT: Eminim bu ufaklık da seninle zaman geçirmeye can atıyor. Johto yolculuğuna beraber çıkmak ikinize de iyi gelecek!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_0_chikorita
-TEXT: Vay canına! Chikorita’n şimdiden Bayleef’e evrilmiş! Tam zamanında geldin %PLAYERNAME%. Maalesef kötü haberlerim var.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_0_cyndaquil
-TEXT: Vay canına Cyndaquil’in şimdiden Quilava’ya evrilmiş! Tam zamanında geldin %PLAYERNAME%. Maalesef kötü haberlerim var.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_0_totodile
-TEXT: Vay canına! Totodile’ın şimdiden Croconaw’a evrilmiş! Tam zamanında geldin %PLAYERNAME%. Maalesef kötü haberlerim var.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_1
-TEXT: GO Roket Takımı harekete geçti ve doğrudan buraya geliyorlar!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_2
-TEXT: İçimden bir ses basit bir haylazlıktan fazlasını planladıklarını söylüyor... Dikkatimizi dağıtmak için istilaya hazırlanıyor olmalılar! Elbette eğlencemizi de kursağımızda bırakmaya bayılırlar.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_3
-TEXT: Celebi’nin göründüğünü mü duydular acaba? Ya da henüz bilmediğimiz daha sinsi bir planları mı var?
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_4
-TEXT: GO Roket Takımı serserilerinden birkaçını yenmen için yardımına ihtiyacım olacak. Dikkat dağıtma takımının dikkatini dağıtalım ve araştırma için zaman kazanalım. Yardım edeceğine dair güvenim sonsuz!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_0
-TEXT: Harika iş çıkardın %PLAYERNAME%! Araştırmam sırasında bazı GO Roket Takımı Serserisinin süper güçlü bir Eğitmene yenildiği için ağladığını duydum.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_1
-TEXT: Senden bahsediyor olmalılar. İnanılmazsın! Sana güvenebileceğimi biliyordum.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_2
-TEXT: Araştırmamda ilginç bir söylentiye rastladım. Yakınlarda bir Gyarados görülmüş ama sıradan Gyarados’lara benzemiyormuş.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_3
-TEXT: Söylentiye göre bu Gyarados öfke nöbetlerine tutulmuş. Tıpkı bir zamanlar Johto bölgesindeki Öfke Gölü’nde görülen Kırmızı Gyarados gibi.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_4
-TEXT: O zamanlar Roket Takımı gizemli bir radyo sinyali kullanarak Magikarp’lara evrim geçirtmişti.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_5
-TEXT: Hmm. Ne kadar tanıdık geliyor değil mi... Tıpkı Gölge Pokémon’lar gibi... Ve son zamanlarda onlar daha da sık görülür oldu. GO Roket Takımı da aynı teknolojiyi kullanıyor olabilir mi?
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_6
-TEXT: Peki tüm bu olanların gizemli kapının arkasından çaldıklarıyla ne gibi bir bağı var? Çaldıkları şey bir çeşit güç kaynağı olabilir mi? Acaba bu güç kaynağını kötü emellerine alet ederek daha da kuvvetlendirmiş olabilirler mi?
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_7
-TEXT: Celebi ve zaman yolculuğu güçlerinin de buralarda olduğunu düşününce... Amanın! Kim bilir GO Roket Takımı tüm bu güçle neler yapar! Boşa harcanacak zamanımız yok. Çok geç olmadan Gyarados’u kurtaralım ve Celebi’yi bulalım!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_0
-TEXT: Harika iş çıkardın %PLAYERNAME%! GO Roket Takımı'nın ellerinden kurtardığın Gyarados artık çok daha sakin.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_1
-TEXT: Üstelik GO Roket Takımı da geri çekiliyor gibi duruyor. O hâlde kutlamalara devam edelim mi? Yeterince vaktimizi çaldılar zaten.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_2_chikorita
-TEXT: Sanırım Bayleef’in seninle oynamak istiyor!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_2_cyndaquil
-TEXT: Sanırım Quilava’n seninle oynamak istiyor!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_2_totodile
-TEXT: Sanırım Croconaw’ın seninle oynamak istiyor!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_3
-TEXT: En vahim, en sıkışık anlarında bile arkadaşlarınla biraz zaman geçirip stres atmak, huzurlu anlar yaşamak son derece önemlidir.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_4
-TEXT: Çünkü bu anlar bize direnme gücü verir.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_5_chikorita
-TEXT: Güç demişken, Bayleef'in evrim geçirmeye hazır gibi duruyor!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_5_cyndaquil
-TEXT: Güç demişken, Quilava'n evrim geçirmeye hazır gibi duruyor!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_5_totodile
-TEXT: Güç demişken, Croconaw'ın evrim geçirmeye hazır gibi duruyor!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_0_chikorita
-TEXT: Ah! Meganium’un mutluluktan pırıl pırıl parlıyor! İkiniz de eğleniyor musunuz? Arkadaşlığınızın filizlendiğini görmek ne mutlu!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_0_cyndaquil
-TEXT: Ah! Typhlosion’ın mutluluktan alev alev yanıyor! İkiniz de eğleniyor musunuz? Arkadaşlığınızın alevlenmesini görmek ne mutlu!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_0_totodile
-TEXT: Ah! Feraligatr’ın mutlulukla dolup taşıyor! İkiniz de eğleniyor musunuz? Arkadaşlığınızı görmek ne kadar da iç ferahlatıcı!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_1
-TEXT: Yeni arkadaşlar edinmek ve birlikte, etrafınızdaki dünyayı keşfetmek, bu hayattaki en güzel duygulardan. Yaşadığım maceralar benim hayatımı zenginleştirdi.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_2
-TEXT: Hem bu maceralar olmasa gizemli kapıyı bulamazdım! GO Roket Takımı'nın engellemelerine rağmen takım liderleriyle zaman geçirmekten ve yaptığım araştırmadan son derece hoşnutum.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_3
-TEXT: Yine çenem düştü. Haydi, gidip yeni arkadaşlar edin, olur mu? Henüz günün bitmesine çok var. Git keyfini çıkar.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_7_0
-TEXT: %PLAYERNAME%, acele ettirmek istemezdim ama çabuk olmalıyız! Henüz birkaç dakika önce Celebi’nin görüldüğü doğrulandı. Şimdi yola çıkarsan belki yakalayabilirsin.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_7_1
-TEXT: Hadi GİDELİM!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_0
-TEXT: Celebi’yi yakalayarak harika iş çıkardın! Celebi göründüğü sürece bizi parlak bir geleceğin beklediği söylenir.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_1
-TEXT: Acaba Celebi neden bugün ortaya çıkmayı seçti? Belki de bu, iyi haberler alacağımıza bir işarettir.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_2
-TEXT: GO Roket Takımı’yla yaşadığımız onca sorunun sonrasında huzurlu zamanlar çok uzakta olmasa gerek.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_3
-TEXT: Sen dışarıdayken GO Roket Takımı’nın gizlemeye çalıştığı şeyi buldum: Ho-Oh ve Lugia’yı yakalamışlar!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_4
-TEXT: Daha da kötüsü var. Gizemli kapının arkasından çaldıkları gücü, geçmişteki yayınlarda kullandıkları radyo sinyali teknolojisiyle birleştirerek Lugia ve Ho-Oh’yı şu ana kadar gördüğümüz Gölge Pokémon’ların gücünün ötesine geçmeye zorlamışlar.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_5
-TEXT: Bu yeni Gölge Pokémon’lara Apex Gölge Ho-Oh ve Apex Gölge Lugia diyorlar. Hazır ol %PLAYERNAME%. Savaş daha yeni başladı.
-
-RESOURCE ID: sr_gotoursik_dialogue_0_0
-TEXT: Selamlar %PLAYERNAME%! Dünkü kutlamalarda eğlendin mi? Umarım bugüne de enerjin kalmıştır çünkü daha yapılacak çok şey var. Bu kez Kanto Bölgesi’ne odaklanacağız!
-
-RESOURCE ID: sr_gotoursik_dialogue_0_1
-TEXT: Pokémon macerasına başlamak için Kanto’dan daha iyi bir yer düşünemiyorum.
-
-RESOURCE ID: sr_gotoursik_dialogue_0_2
-TEXT: Haydi gel, dışarı çıkalım ve keşfe başlayalım!
-
-RESOURCE ID: sr_gotoursik_dialogue_1_0
-TEXT: Biraz yorulmuş gibisin %PLAYERNAME%. İstersen biraz mola ver. Dostunla biraz oyna, hatta ona leziz bir meyve ver, ne dersin?
-
-RESOURCE ID: sr_gotoursik_dialogue_1_1
-TEXT: Hatta elin değmişken kendine de atıştırmalık bir şeyler al! Sonuçta sağlam Eğitmen, sağlam vücutta bulunur.
-
-RESOURCE ID: sr_gotoursik_dialogue_2_0
-TEXT: Eğleniyor musun %PLAYERNAME%? Sıradaki maceraya hazır mısın? Umarım hazırsındır çünkü yakında bu bölgenin farklı habitatlarını keşfetmeye başlayacağız.
-
-RESOURCE ID: sr_gotoursik_dialogue_2_1
-TEXT: Toplamda beş habitat var. Hepsi de eşsiz Pokémon’larla dolu. Hangi habitatta hangi Pokémon var diye sorduğunu duyar gibiyim. Gel beraber öğrenelim!
-
-RESOURCE ID: sr_gotoursik_dialogue_3_0
-TEXT: Harika fotoğraflar çekmişsin %PLAYERNAME%! Pokémon’ların doğasını güzel yansıtmışsın. Üstelik Pokémon’lar da modellik yaparken eğleniyor gibi duruyor.
-
-RESOURCE ID: sr_gotoursik_dialogue_3_1
-TEXT: Farklı habitatları gezmek hoşuna gitti mi? Eminim hem tanıdığın hem de ilk kez karşılaştığın pek çok Pokémon görmüşsündür!
-
-RESOURCE ID: sr_gotoursik_dialogue_3_2
-TEXT: Diğer eğitmenler de tıpkı senin gibi keşif yapıyor.
-
-RESOURCE ID: sr_gotoursik_dialogue_3_3
-TEXT: O hâlde neden yeni arkadaşlar edinmiyor, hatta onlarla takas veya maç yapmıyorsun?
-
-RESOURCE ID: sr_gotoursik_dialogue_4_0
-TEXT: Tekrar hoş geldin %PLAYERNAME%! Sen dışarıdayken güçlü bir Efsanevi Pokémon’un bu bölgede görüldüğünü duydum.
-
-RESOURCE ID: sr_gotoursik_dialogue_4_1
-TEXT: Acaba o da kutlamaları duyup eğlenceye katılmak mı istedi? Gel, gidip kontrol edelim!
-
-RESOURCE ID: sr_gotoursik_dialogue_5_0
-TEXT: Vay canına! Bu... Mewtwo mu? İnanılmaz! Pokémon dünyasının mucizeleri bitmek bilmiyor.
-
-RESOURCE ID: sr_gotoursik_dialogue_5_1
-TEXT: Bugün çok eğlenceliydi %PLAYERNAME%. Umarım maceranın kalanında da eğlenirsin. Yapılacak daha pek çok şey var. Tekrar görüşene dek... Haydi, GİDELİM! 
+RESOURCE ID: standard_raid_box_title
+TEXT: Standart Akın Kutusu
 
 RESOURCE ID: star_piece_duration_double
 TEXT: 2× Yıldız Parçası süresi
@@ -59643,7 +60514,7 @@ RESOURCE ID: starpiece.8_title
 TEXT: 8 Yıldız Parçası
 
 RESOURCE ID: status_filter_group_key
-TEXT: Catch Status
+TEXT: Yakalanma Durumu
 
 RESOURCE ID: steel_type_event
 TEXT: Tür Artışı: Çelik
@@ -60167,10 +61038,10 @@ RESOURCE ID: thai
 TEXT: ภาษาไทย
 
 RESOURCE ID: themed_stickers_description
-TEXT: You’ll also be able to get season-themed stickers by spinning PokéStops, opening Gifts, and purchasing them from the in-game shop.
+TEXT: PokéDurakları döndürerek, Hediyeleri açarak veya oyun içi mağazasından satın alarak etkinlik temalı çıkartmaları edinebilirsiniz.
 
 RESOURCE ID: themed_stickers_name
-TEXT: Themed Stickers
+TEXT: Temalı Çıkartmalar
 
 RESOURCE ID: three_free_raid_passes
 TEXT: Spor Salonlarındaki Fotoğraf Disklerini döndürerek ücretsiz olarak üç adede kadar Akın Bileti alın
@@ -60245,6 +61116,9 @@ TEXT: Özel araştırma hikayesi biletini Mağaza'dan alabilirsiniz
 
 RESOURCE ID: ticket_hoppip
 TEXT: Hop Hop Zıplayalım özel araştırma hikayesi biletini mağazadan satın alabilirsiniz
+
+RESOURCE ID: ticket_litwick
+TEXT: Ticket for the Field Notes: Trick of the Light Special Research story available in the shop
 
 RESOURCE ID: ticket_machop
 TEXT: Doğrudan Zirveye Machop! Özel Araştırma hikâyesi için mağazada bilet mevcut
@@ -60994,6 +61868,9 @@ TEXT: Bir... İki... Ve...İşte! {0}, {1} öğrendi!
 RESOURCE ID: today
 TEXT: Bugün
 
+RESOURCE ID: today_view_all_hours
+TEXT: Tüm saatlerin Pokémon’ları yabanda ortaya çıkıyor!
+
 RESOURCE ID: today_view_catch_competition
 TEXT: Bölgesel Yakalama Yarışması
 
@@ -61202,7 +62079,7 @@ RESOURCE ID: trade_exclusion_reason_gym_deployed
 TEXT: Bu Pokémon Spor Salonuna atanmış.
 
 RESOURCE ID: trade_exclusion_reason_mythical
-TEXT: Gölge ve Mitolojik Pokémon’lar takas edilemez.
+TEXT: Gölge ve Mitolojik Pokémon gibi bazı Pokémon’lar takas edilemez.
 
 RESOURCE ID: trade_exclusion_reason_player_cannot_afford
 TEXT: Yeteri kadar Yıldız Tozunuz yok.
@@ -61417,6 +62294,9 @@ TEXT: {0}. Sv.
 RESOURCE ID: trading_waiting
 TEXT: Bekleniyor...
 
+RESOURCE ID: trainee_box_title
+TEXT: Öğrenci Kutusu
+
 RESOURCE ID: trainer_code_label
 TEXT: Eğitmen Kodu
 
@@ -61511,16 +62391,16 @@ RESOURCE ID: tutorial_level_40_plus_intro
 TEXT: Olağanüstü ilerlemeniz için tebrikler Eğitmen!
 
 RESOURCE ID: tutorial_vivillon_postcard_body_0
-TEXT: If you pin multiple Postcards from a certain region, you’ll have a chance to encounter a Pokémon!
+TEXT: Her bölgeden çok sayıda kartpostal toplarsanız bir Pokémon’la karşılaşma şansınız olacak!
 
 RESOURCE ID: tutorial_vivillon_postcard_body_1
-TEXT: The pattern on Vivillon’s wings is affected by the climate of their habitat. You can check the Vivillon map from the Pokédex and the Vivillon medal page to see where different Vivillon can be found.
+TEXT: Vivillon’ların desenleri bulundukları habitata ve iklime göre değişiklik gösterir. Vivillon desenlerini nerede bulabileceğinizi Pokédex’teki Vivillon haritasından veya Vivillon madalya sayfasından görebilirsiniz.
 
 RESOURCE ID: tutorial_vivillon_postcard_body_2
-TEXT: When you pin a Postcard you receive from a friend, you’ll make progress on the Vivillon medal associated with that location. If you collect several Postcards from a certain part of the world, you can encounter a Scatterbug specifically from that habitat.
+TEXT: Arkadaşınızdan gelen bir kartpostalı sakladığınızda kartpostal konumunun Vivillon madalyası ilerler. Dünyanın belirli bir yerinden çok sayıda kartpostal topladığınızda o habitata özel bir Scatterbug ile karşılaşabilirsiniz.
 
 RESOURCE ID: tutorial_vivillon_postcard_header
-TEXT: Catch Vivillon from all around the world!
+TEXT: Dünyanın dört bir yanından Vivillon’ları toplayın!
 
 RESOURCE ID: tutorial_xl_candy_1
 TEXT: Görünüşe göre Büyük Şeker buldunuz! Bunları kullanarak Pokémon’ların normal Şekerlere kıyasla daha da güçlendirilebileceğini duymuştum!
@@ -61683,6 +62563,9 @@ TEXT: UL Premier Klasik
 
 RESOURCE ID: ultra_premier_cup_title
 TEXT: Ultra Premier
+
+RESOURCE ID: ultra_raid_box_title
+TEXT: Ultra Akın Kutusu
 
 RESOURCE ID: ultra_unlock_event_2020
 TEXT: Ultra Kilit Açma 2020
@@ -62185,6 +63068,9 @@ TEXT: 1 kayıt yükleniyor...
 RESOURCE ID: verbose_logs_uploading_count_plural
 TEXT: {0} kayıt yükleniyor...
 
+RESOURCE ID: veteran_box_title
+TEXT: Kıdemli Kutusu
+
 RESOURCE ID: video_sponsored_gift_tutorial_description_1
 TEXT: Pokémon GO oynarken keşifleriniz sırasında sponsorlarımızdan hediyeler ve video mesajları alabilirsiniz.
 
@@ -62217,6 +63103,9 @@ TEXT: Ayrıntılı bilgi için Yardım Merkezi'ni ziyaret edin.
 
 RESOURCE ID: volbeat_illumise_all_regions
 TEXT: Dünya çapında yabanda daha fazla Volbeat ve Illumise ortaya çıkıyor
+
+RESOURCE ID: voyager_box_title
+TEXT: Gezgin Kutusu
 
 RESOURCE ID: vs_seeker_charged_notification
 TEXT: GO Maç Ligi'ne giriş hakkı kazandınız!
@@ -62531,7 +63420,7 @@ RESOURCE ID: weather_clear
 TEXT: Açık
 
 RESOURCE ID: weather_cup_title
-TEXT: Weather Cup
+TEXT: Hava Durumu Kupası
 
 RESOURCE ID: weather_extreme
 TEXT: Ağır Koşullar
@@ -62588,7 +63477,7 @@ RESOURCE ID: weekly_box
 TEXT: Haftalık Kutu
 
 RESOURCE ID: weekly_reminder_km_notification_toast
-TEXT: You’ve walked %s km this week. Not much farther until you’ve reached your goal!
+TEXT: Bu hafta %s km yürüdünüz. Hedefinize ulaşmanıza az kaldı!
 
 RESOURCE ID: welcome_to_alola_event_name
 TEXT: Alola'ya Hoş Geldiniz
@@ -62599,6 +63488,9 @@ TEXT: Willpower Cup
 RESOURCE ID: winter event
 TEXT: Kış Etkinliği
 
+RESOURCE ID: winter_holiday_catch_timed_research
+TEXT: Pokémon GO Tatilleri: Yakalama Görevi
+
 RESOURCE ID: winter_holiday_event_name
 TEXT: Pokémon GO Tatilleri
 
@@ -62607,6 +63499,9 @@ TEXT: Pokémon GO Tatilleri: 1. Bölüm
 
 RESOURCE ID: winter_holiday_event_name_part2
 TEXT: Pokémon GO Tatilleri: 2. Bölüm
+
+RESOURCE ID: winter_holiday_friendship_timed_research
+TEXT: Pokémon GO Tatilleri: Arkadaşlık Görevi
 
 RESOURCE ID: winter_solstice_event_name
 TEXT: Kış Gün Dönümü
@@ -62631,6 +63526,9 @@ TEXT: Dünya Turizm Günü: 10 bin km arayla yakalanmış Pokémon takas edin
 
 RESOURCE ID: wte_2019_trade_distance_hard_z
 TEXT: Dünya Turizm Günü: 10 bin km arayla yakalanmış Pokémon takas edin
+
+RESOURCE ID: ww_2021_collection_challenge
+TEXT: Karlı Harikalar Diyarı Görevi
 
 RESOURCE ID: xp_bonus_hourly
 TEXT: 20.000 TP

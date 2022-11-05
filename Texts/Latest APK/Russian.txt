@@ -232,6 +232,9 @@ TEXT: Принять
 RESOURCE ID: accept_friend_request_prompt
 TEXT: Запрос в друзья отправлен!
 
+RESOURCE ID: ace_box_title
+TEXT: Коробка топ-Тренера
+
 RESOURCE ID: active_status_tutorial_message
 TEXT: Смотри, какие друзья играют! Выключи в любой момент в Списке друзей!
 
@@ -823,58 +826,67 @@ RESOURCE ID: appraise_overall_mid_3|1
 TEXT: В целом, твой {0} – достойный Покемон!
 
 RESOURCE ID: appraise_size_huge_1|1
-TEXT: {0}. Этот Покемон необычайно крупный.
+TEXT: Твой Покемон {0} невероятно большой. Это действительно исключение. Поразительно!
 
 RESOURCE ID: appraise_size_huge_2|1
-TEXT: {0}. Это невероятно крупный Покемон!
+TEXT: Твой {0} – гигант, самый большой, который я когда-либо видела!
 
 RESOURCE ID: appraise_size_huge_3|1
-TEXT: {0}. Этот Покемон просто ОГРОМНЫЙ!
+TEXT: Твой {0} просто ОГРОМНЫЙ!
 
 RESOURCE ID: appraise_size_large_1|1
-TEXT: {0}. Этот Покемон крупнее среднего.
+TEXT: Твой Покемон {0} выше среднего по размеру.
+
+RESOURCE ID: appraise_size_large_1|1b
+TEXT: Your {0} is above average in size.
 
 RESOURCE ID: appraise_size_large_2|1
 TEXT: Твой {0} довольно большой, это точно!
 
 RESOURCE ID: appraise_size_large_3|1
-TEXT: {0}. Этот Покемон ОЧЕНЬ БОЛЬШОЙ!
+TEXT: Твой {0} ОЧЕНЬ БОЛЬШОЙ!
+
+RESOURCE ID: appraise_size_large_3|1b
+TEXT: Your {0} is a BIG one!
 
 RESOURCE ID: appraise_size_small_1|1
-TEXT: {0}. Этот Покемон меньше среднего.
+TEXT: Твой Покемон {0} ниже среднего по размеру.
+
+RESOURCE ID: appraise_size_small_1|1b
+TEXT: Your {0} is below average in size.
 
 RESOURCE ID: appraise_size_small_2|1
 TEXT: Ах, какой маленький {0}! И какой симпатяга!
 
 RESOURCE ID: appraise_size_small_3|1
-TEXT: {0}. Этот Покемон немного меньше других, тебе не кажется?
+TEXT: Твой {0} немного мал для своего вида, тебе не кажется?
 
 RESOURCE ID: appraise_size_tiny_1|1
-TEXT: {0}. Этот Покемон необычайно маленький.
+TEXT: Твой Покемон {0} гораздо меньше, чем у нас в данных. Поразительно.
 
 RESOURCE ID: appraise_size_tiny_2|1
-TEXT: {0}. Ой, какой маленький Покемон!
+TEXT: Твой {0} такой крошечный, я почти его не заметила!
 
 RESOURCE ID: appraise_size_tiny_3|1
-TEXT: {0}. Этот Покемон довольно маленький, да?
+TEXT: Ничего себе! Это самый маленький {0}, которого я когда-либо видел!
 
 RESOURCE ID: appraise_size_xxl_1|1
-TEXT: {0}. Этот Покемон невообразимо огромен. Это действительно исключительный экземпляр.
+TEXT: The size of your {0} is...colossal. This is indeed exceptional. Fascinating!
 
 RESOURCE ID: appraise_size_xxl_2|1
-TEXT: {0}. Твой Покемон – просто гигант! Самый большой, которого мне доводилось видеть!
+TEXT: Your {0} is gigantic—the largest I've ever seen!
 
 RESOURCE ID: appraise_size_xxl_3|1
-TEXT: {0}. Этот Покемон реально огромный! Может, даже самый большой в мире.
+TEXT: Your {0} is massive! ...Could it be the biggest {0} in the world?
 
 RESOURCE ID: appraise_size_xxs_1|1
-TEXT: {0}. Этот Покемон гораздо меньше других Покемонов этого вида. Поразительно.
+TEXT: Your {0} is tinier than any we have on record. Astounding.
 
 RESOURCE ID: appraise_size_xxs_2|1
-TEXT: {0}. Такой крошечный Покемон, его почти не видно!
+TEXT: Your {0} is so tiny, I almost didn't notice it!
 
 RESOURCE ID: appraise_size_xxs_3|1
-TEXT: {0}. Ничего себе! Этот Покемон – самый маленький, которого мне доводилось видеть!
+TEXT: Wh-whoa. That's the tiniest {0} I've ever seen!
 
 RESOURCE ID: appraise_stat_best_1|1
 TEXT: Его параметры превышают мои расчёты. Это потрясающе!
@@ -1431,6 +1443,9 @@ TEXT: Крылья Хо-Oха
 RESOURCE ID: avatar_f_backpack_longchampbp_00_bundle_icon
 TEXT: Рюкзак Longchamp
 
+RESOURCE ID: avatar_f_backpack_lunala
+TEXT: Lunala Wings
+
 RESOURCE ID: avatar_f_backpack_mimikyubp_0_bundle_icon
 TEXT: Рюкзак с Мимикью
 
@@ -1547,6 +1562,9 @@ TEXT: Маска Пикачу
 RESOURCE ID: avatar_f_face_sableyemask_00_bundle_icon
 TEXT: Маска Сэйблая
 
+RESOURCE ID: avatar_f_face_solgaleo
+TEXT: Solgaleo Mask
+
 RESOURCE ID: avatar_f_face_teamskull_00_bundle_icon
 TEXT: Маска
 Команды Череп
@@ -1559,6 +1577,9 @@ TEXT: 3D-очки
 
 RESOURCE ID: avatar_f_glasses_empty_bundle_icon
 TEXT: Без очков
+
+RESOURCE ID: avatar_f_glasses_fw2022_00_bundle_icon
+TEXT: Очки Марини
 
 RESOURCE ID: avatar_f_glasses_goteamrocketarlo_00_bundle_icon
 TEXT: Очки в стиле Арло
@@ -1770,6 +1791,9 @@ TEXT: Панама LeafGreen
 RESOURCE ID: avatar_f_hat_furfrouwig_00_bundle_icon
 TEXT: Парик Фурфу
 
+RESOURCE ID: avatar_f_hat_fw2022_00_bundle_icon
+TEXT: Козырёк Марини
+
 RESOURCE ID: avatar_f_hat_galarfarfetchditems_00_bundle_icon
 TEXT: Набор кепок с Галарским Фарфетчдом
 
@@ -1842,6 +1866,9 @@ TEXT: Кепка 45 уровня
 
 RESOURCE ID: avatar_f_hat_magikarp_bundle_icon
 TEXT: Шапка с Мэджикарпом
+
+RESOURCE ID: avatar_f_hat_mareaniehat_00_bundle_icon
+TEXT: шапка Марини
 
 RESOURCE ID: avatar_f_hat_megalopunnyitems_00_bundle_icon
 TEXT: Ушки Мега-Лопанни
@@ -2062,11 +2089,17 @@ TEXT: Спортивный костюм
 RESOURCE ID: avatar_f_pants_dp_00_bundle_icon
 TEXT: Юбка Синно
 
+RESOURCE ID: avatar_f_pants_fashionweek2022_00_bundle_icon
+TEXT: Стильные чёрные штаны
+
 RESOURCE ID: avatar_f_pants_flabebepack_00_bundle_icon
 TEXT: Шорты Флабебе
 
 RESOURCE ID: avatar_f_pants_frlg_bundle_icon
 TEXT: Юбка LeafGreen
+
+RESOURCE ID: avatar_f_pants_fw2022_00_bundle_icon
+TEXT: Шорты Марини
 
 RESOURCE ID: avatar_f_pants_genderlessskirt_00_bundle_icon
 TEXT: Юбка с запахом
@@ -2288,6 +2321,9 @@ TEXT: Футболка Surf Blue
 RESOURCE ID: avatar_f_shirt_elesa_00_bundle_icon
 TEXT: Наряд в стиле Элизы
 
+RESOURCE ID: avatar_f_shirt_fashionweek2022_00_bundle_icon
+TEXT: Стильная чёрно-белая рубашка
+
 RESOURCE ID: avatar_f_shirt_flabebepack_00_bundle_icon
 TEXT: Рубашка Флабебе
 
@@ -2296,6 +2332,9 @@ TEXT: Футболка A дизайн H.F.
 
 RESOURCE ID: avatar_f_shirt_frlg_bundle_icon
 TEXT: Топ LeafGreen
+
+RESOURCE ID: avatar_f_shirt_fw2022_00_bundle_icon
+TEXT: Ветровка Марини
 
 RESOURCE ID: avatar_f_shirt_galarfarfetchditems_00_bundle_icon
 TEXT: Футболка и сумка с Галарским Фарфетчдом
@@ -2791,8 +2830,14 @@ TEXT: Обувь в стиле Элизы
 RESOURCE ID: avatar_f_shoes_empty_bundle_icon
 TEXT: Без обуви
 
+RESOURCE ID: avatar_f_shoes_fashionweek2022_00_bundle_icon
+TEXT: Стильные чёрные кеды
+
 RESOURCE ID: avatar_f_shoes_frlg_bundle_icon
 TEXT: Ботинки LeafGreen
+
+RESOURCE ID: avatar_f_shoes_fw2022_00_bundle_icon
+TEXT: Ботинки Марини
 
 RESOURCE ID: avatar_f_shoes_giovanni_0_bundle_icon
 TEXT: Обувь Джованни
@@ -2952,6 +2997,9 @@ TEXT: Длинные гетры
 RESOURCE ID: avatar_f_socks_empty_bundle_icon
 TEXT: Без носков
 
+RESOURCE ID: avatar_f_socks_fw2022_00_bundle_icon
+TEXT: Гольфы Марини
+
 RESOURCE ID: avatar_f_socks_hgss_bundle_icon
 TEXT: Носки Джото
 
@@ -3063,6 +3111,9 @@ TEXT: Крылья Хо-Oха
 RESOURCE ID: avatar_m_backpack_longchampbp_00_bundle_icon
 TEXT: Рюкзак Longchamp
 
+RESOURCE ID: avatar_m_backpack_lunala
+TEXT: Lunala Wings
+
 RESOURCE ID: avatar_m_backpack_mimikyubp_0_bundle_icon
 TEXT: Рюкзак с Мимикью
 
@@ -3103,7 +3154,7 @@ RESOURCE ID: avatar_m_backpack_togepibackpack_0_bundle_icon
 TEXT: Рюкзак с Тогэпи
 
 RESOURCE ID: avatar_m_backpack_ultra_bundle_icon
-TEXT: Рюкзак Ультрасолнце
+TEXT: Рюкзак – Ультрасолнце
 
 RESOURCE ID: avatar_m_backpack_verizon2021_00_bundle_icon
 TEXT: Рюкзак Verizon
@@ -3161,6 +3212,9 @@ TEXT: Маска Пикачу
 RESOURCE ID: avatar_m_face_sableyemask_00_bundle_icon
 TEXT: Маска Сэйблая
 
+RESOURCE ID: avatar_m_face_solgaleo
+TEXT: Solgaleo Mask
+
 RESOURCE ID: avatar_m_face_teamskull_00_bundle_icon
 TEXT: Маска
 Команды Череп
@@ -3173,6 +3227,9 @@ TEXT: 3D-очки
 
 RESOURCE ID: avatar_m_glasses_empty_bundle_icon
 TEXT: Без очков
+
+RESOURCE ID: avatar_m_glasses_fw2022_00_bundle_icon
+TEXT: Очки Марини
 
 RESOURCE ID: avatar_m_glasses_goteamrocketarlo_00_bundle_icon
 TEXT: Очки в стиле Арло
@@ -3387,6 +3444,9 @@ TEXT: Кепка FireRed
 RESOURCE ID: avatar_m_hat_furfrouwig_00_bundle_icon
 TEXT: Парик Фурфу
 
+RESOURCE ID: avatar_m_hat_fw2022_00_bundle_icon
+TEXT: Козырёк Марини
+
 RESOURCE ID: avatar_m_hat_galarfarfetchditems_00_bundle_icon
 TEXT: Набор кепок с Галарским Фарфетчдом
 
@@ -3459,6 +3519,9 @@ TEXT: Кепка 45 уровня
 
 RESOURCE ID: avatar_m_hat_magikarp_bundle_icon
 TEXT: Шапка с Мэджикарпом
+
+RESOURCE ID: avatar_m_hat_mareaniehat_00_bundle_icon
+TEXT: шапка Марини
 
 RESOURCE ID: avatar_m_hat_megalopunnyitems_00_bundle_icon
 TEXT: Ушки Мега-Лопанни
@@ -3666,6 +3729,9 @@ TEXT: Штаны Синно
 RESOURCE ID: avatar_m_pants_elesa_00_bundle_icon
 TEXT: Штаны в стиле Элизы
 
+RESOURCE ID: avatar_m_pants_fashionweek2022_00_bundle_icon
+TEXT: Стильные чёрные штаны
+
 RESOURCE ID: avatar_m_pants_fisher_bundle_icon
 TEXT: Штаны рыбака
 
@@ -3674,6 +3740,9 @@ TEXT: Шорты Флабебе
 
 RESOURCE ID: avatar_m_pants_frlg_bundle_icon
 TEXT: Штаны FireRed
+
+RESOURCE ID: avatar_m_pants_fw2022_00_bundle_icon
+TEXT: Шорты Марини
 
 RESOURCE ID: avatar_m_pants_genderlessskirt_00_bundle_icon
 TEXT: Юбка с запахом
@@ -3898,6 +3967,9 @@ TEXT: Футболка Surf Blue
 RESOURCE ID: avatar_m_shirt_elesa_00_bundle_icon
 TEXT: Майка в стиле Элизы
 
+RESOURCE ID: avatar_m_shirt_fashionweek2022_00_bundle_icon
+TEXT: Стильная чёрно-белая рубашка
+
 RESOURCE ID: avatar_m_shirt_fisher_bundle_icon
 TEXT: Жилет рыбака
 
@@ -3909,6 +3981,9 @@ TEXT: Футболка A дизайн H.F.
 
 RESOURCE ID: avatar_m_shirt_frlg_bundle_icon
 TEXT: Футболка FireRed
+
+RESOURCE ID: avatar_m_shirt_fw2022_00_bundle_icon
+TEXT: Ветровка Марини
 
 RESOURCE ID: avatar_m_shirt_galarfarfetchditems_00_bundle_icon
 TEXT: Футболка и сумка с Галарским Фарфетчдом
@@ -4403,11 +4478,17 @@ TEXT: Обувь в стиле Элизы
 RESOURCE ID: avatar_m_shoes_empty_bundle_icon
 TEXT: Без обуви
 
+RESOURCE ID: avatar_m_shoes_fashionweek2022_00_bundle_icon
+TEXT: Стильные чёрные кеды
+
 RESOURCE ID: avatar_m_shoes_fisher_bundle_icon
 TEXT: Сапоги рыбака
 
 RESOURCE ID: avatar_m_shoes_frlg_bundle_icon
 TEXT: Ботинки FireRed
+
+RESOURCE ID: avatar_m_shoes_fw2022_00_bundle_icon
+TEXT: Ботинки Марини
 
 RESOURCE ID: avatar_m_shoes_giovanni_0_bundle_icon
 TEXT: Обувь Джованни
@@ -4566,6 +4647,9 @@ TEXT: Леггинсы
 
 RESOURCE ID: avatar_m_socks_empty_bundle_icon
 TEXT: Без носков
+
+RESOURCE ID: avatar_m_socks_fw2022_00_bundle_icon
+TEXT: Гольфы Марини
 
 RESOURCE ID: avatar_m_socks_sneakersocks_00_bundle_icon
 TEXT: Короткие носки
@@ -4752,6 +4836,132 @@ TEXT: 1 лучший приятель.
 
 RESOURCE ID: badge_buddy_best_title
 TEXT: Лучший приятель
+
+RESOURCE ID: badge_butterfly_collector_archipelago_singular
+TEXT: Collect Archipelago Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_archipelago_title
+TEXT: Archipelago Collector
+
+RESOURCE ID: badge_butterfly_collector_continental_singular
+TEXT: Collect Continental Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_continental_title
+TEXT: Continental Collector
+
+RESOURCE ID: badge_butterfly_collector_elegant_singular
+TEXT: Collect Elegant Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_elegant_title
+TEXT: Elegant Collector
+
+RESOURCE ID: badge_butterfly_collector_fancy_singular
+TEXT: Collect Fancy Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_fancy_title
+TEXT: Fancy Collector
+
+RESOURCE ID: badge_butterfly_collector_garden_singular
+TEXT: Collect Continental Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_garden_title
+TEXT: Garden Collector
+
+RESOURCE ID: badge_butterfly_collector_high_plains_singular
+TEXT: Collect High Plains Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_high_plains_title
+TEXT: High Plains Collector
+
+RESOURCE ID: badge_butterfly_collector_icy_snow_singular
+TEXT: Collect Icy Snow Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_icy_snow_title
+TEXT: Icy Snow Collector
+
+RESOURCE ID: badge_butterfly_collector_jungle_singular
+TEXT: Collect Jungle Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_jungle_title
+TEXT: Jungle Collector
+
+RESOURCE ID: badge_butterfly_collector_marine_singular
+TEXT: Collect Marine Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_marine_title
+TEXT: Marine Collector
+
+RESOURCE ID: badge_butterfly_collector_meadow_singular
+TEXT: Collect Meadow Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_meadow_title
+TEXT: Meadow Collector
+
+RESOURCE ID: badge_butterfly_collector_modern_singular
+TEXT: Collect Modern Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_modern_title
+TEXT: Modern Collector
+
+RESOURCE ID: badge_butterfly_collector_monsoon_singular
+TEXT: Collect Monsoon Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_monsoon_title
+TEXT: Monsoon Collector
+
+RESOURCE ID: badge_butterfly_collector_ocean_singular
+TEXT: Collect Ocean Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_ocean_title
+TEXT: Ocean Collector
+
+RESOURCE ID: badge_butterfly_collector_pokeball_singular
+TEXT: Collect Poké Ball Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_pokeball_title
+TEXT: Poké Ball Collector
+
+RESOURCE ID: badge_butterfly_collector_polar_singular
+TEXT: Collect Polar Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_polar_title
+TEXT: Polar Collector
+
+RESOURCE ID: badge_butterfly_collector_river_singular
+TEXT: Collect River Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_river_title
+TEXT: River Collector
+
+RESOURCE ID: badge_butterfly_collector_sandstorm_singular
+TEXT: Collect Sandstorm Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_sandstorm_title
+TEXT: Sandstorm Collector
+
+RESOURCE ID: badge_butterfly_collector_savannah_singular
+TEXT: Collect Savannah Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_savannah_title
+TEXT: Savannah Collector
+
+RESOURCE ID: badge_butterfly_collector_singular
+TEXT: Collect Vivillon from all over the world.
+
+RESOURCE ID: badge_butterfly_collector_sun_singular
+TEXT: Collect Sun Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_sun_title
+TEXT: Sun Collector
+
+RESOURCE ID: badge_butterfly_collector_title
+TEXT: Butterfly Collector
+
+RESOURCE ID: badge_butterfly_collector_tundra__singular
+TEXT: Collect Tundra Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_tundra_title
+TEXT: Tundra Collector
 
 RESOURCE ID: badge_capture_bonus_reward
 TEXT: Бонус за поимку: +{0} за тип {1}
@@ -6850,10 +7060,10 @@ RESOURCE ID: batch_transfer_unique_warning_title
 TEXT: Твой выбор содержит следующих Покемонов:
 
 RESOURCE ID: batch_transfer_unique_xxl_pokemon
-TEXT: Покемоны XXL: {0}
+TEXT: {0} XXL Pokémon
 
 RESOURCE ID: batch_transfer_unique_xxs_pokemon
-TEXT: Покемоны XXS: {0}
+TEXT: {0} XXS Pokémon
 
 RESOURCE ID: battle_box
 TEXT: Боевая коробка
@@ -9527,6 +9737,9 @@ TEXT: Никаких сигналов... Понятно. Возможно, их 
 RESOURCE ID: blanche_map_time_warning|2
 TEXT: Давай подождём до утра. Сомневаюсь, что они ещё какое-то время покажутся.
 
+RESOURCE ID: bluetooth_permissions_denied
+TEXT: Pokémon GO requires Bluetooth access to use this feature. Please enable permission under “Nearby devices” in the system settings menu.
+
 RESOURCE ID: bonus_1/4_hatch_dist_deino
 TEXT: 1/4 расстояния для вынашивания
 
@@ -9566,6 +9779,9 @@ TEXT: 4× XP за поимку
 RESOURCE ID: bonus_active
 TEXT: Бонус активирован!
 
+RESOURCE ID: bonus_buddy_catch_assist_boosted
+TEXT: Increased chance of buddy Catch Assist if your Buddy Level is Great Buddy or higher
+
 RESOURCE ID: bonus_candy_nice_great_excel
 TEXT: Дополнительные конфеты за поимку Покемонов при помощи хороших, отличных и прекрасных бросков
 
@@ -9581,6 +9797,9 @@ TEXT: Эволюционируй Алольского Гравелера, что
 RESOURCE ID: bonus_cd_move_deino
 TEXT: Эволюционируй Цвайлоса, чтобы получить Хайдрайгона, который знает заряженную атаку Резкий Поворот
 
+RESOURCE ID: bonus_cd_move_litwick
+TEXT: Evolve Lampent to get a Chandelure that knows the Charged Attack Poltergeist!
+
 RESOURCE ID: bonus_cd_move_roggenrola
 TEXT: Эволюционируй Болдора, чтобы получить Гигалита, который знает заряженную атаку Метеоритный Луч
 
@@ -9588,7 +9807,7 @@ RESOURCE ID: bonus_cd_move_starly
 TEXT: Эволюционируй Старавию, чтобы получить Стараптора, который знает Быструю атаку Шквал
 
 RESOURCE ID: bonus_cd_move_zigzagoon
-TEXT: Эволюционируй Галарского Лайнуна, чтобы получить Обстагуна, который знает Заряженную атаку Препятствие!
+TEXT: Эволюционируй Галарского Лайнуна, чтобы получить Обстагуна, который знает заряженную атаку Препятствие!
 
 RESOURCE ID: bonus_cd_ultra_unlock
 TEXT: Ультрабонус: 2× XP за поимку и 2× конфет за передачу
@@ -9613,6 +9832,9 @@ TEXT: Если Тренеры в результате совместной ра�
 
 RESOURCE ID: bonus_implicit_social_deino_raid_title
 TEXT: Испытание дня сообщества: Рейд
+
+RESOURCE ID: bonus_implicit_social_litwick_raid
+TEXT: If Trainers work together to win a Lampent raid, large numbers of Litwick will appear in the area for 30 minutes.
 
 RESOURCE ID: bonus_implicit_social_lure_4x_catch_xp
 TEXT: Если ты поймаешь достаточно Покемонов с помощью одной приманки, то бонусные XP за поимку рядом с Покестопом, где была использована приманка, будут увеличены c 3× до 4× на 30 минут.
@@ -9719,6 +9941,9 @@ TEXT: 1/4 расстояния для вынашивания
 RESOURCE ID: bonus_spawn_pikachu
 TEXT: Появляется больше диких Пикачу
 
+RESOURCE ID: bonus_special_trade_double_cd
+TEXT: One additional Special Trade can be made during the event and up to five hours afterward for a maximum of two for the day.
+
 RESOURCE ID: bonus_special_trade_starly_cd
 TEXT: Один дополнительный специальный обмен во время события и в течение пяти часов после него – не более трёх в день.
 
@@ -9751,6 +9976,9 @@ TEXT: Больше Хоппип-конфет XL при поимке Скиплу
 
 RESOURCE ID: bonus_xl_rare_candy_irl_raids
 TEXT: Бонусные редкие конфеты XL в местных рейдах
+
+RESOURCE ID: boost_box_title
+TEXT: Коробка усиления
 
 RESOURCE ID: boosted_mega_pokemon_abomasnow
 TEXT: Мега-Абомасноу временно сильнее!
@@ -10464,7 +10692,7 @@ RESOURCE ID: buddy_souvenir_lone_earring_description
 TEXT: Одиночная серьга. Её блеск, вероятно, вдохновил твоего Покемона-приятеля на то, чтобы тебе её подарить!
 
 RESOURCE ID: buddy_souvenir_lone_earring_name
-TEXT: Одиночная серьга
+TEXT: Серьга
 
 RESOURCE ID: buddy_souvenir_marble_description
 TEXT: Мрамор с цветным стеклом внутри. Вероятно, твоего приятеля привлёк его замысловатый узор.
@@ -10494,7 +10722,7 @@ RESOURCE ID: buddy_souvenir_pretty_leaf_description
 TEXT: Многие Покемоны любят собирать эти красивые листочки и дарить их своим любимым Тренерам.
 
 RESOURCE ID: buddy_souvenir_pretty_leaf_name
-TEXT: Симпатичный Лист
+TEXT: Симпатичный лист
 
 RESOURCE ID: buddy_souvenir_receive
 TEXT: Твой приятель подарил тебе сувенир: {0}!
@@ -10929,6 +11157,12 @@ TEXT: Давай ещё раз проверим утром. У меня тако
 RESOURCE ID: candy_exchange_button
 TEXT: Обменять
 
+RESOURCE ID: candy_to_xl_trade
+TEXT: Exchange {0} Candies for {0} Candy XL?
+
+RESOURCE ID: candy_to_xl_trade_plural
+TEXT: Exchange {0} Candies for {0} Candies XL?
+
 RESOURCE ID: candy_trade_xl
 TEXT: Конфета → конфета XL
 
@@ -11026,7 +11260,7 @@ RESOURCE ID: catch_cup_title
 TEXT: Кубок поимки
 
 RESOURCE ID: catch_exclamation_point
-TEXT: Catch!
+TEXT: Поймать
 
 RESOURCE ID: catch_recap_text_0
 TEXT: Пойманные Покемоны: {0}
@@ -11420,6 +11654,12 @@ TEXT: Сделай фото стального Покемона
 
 RESOURCE ID: challenge_snapshot_pkmn_water_single
 TEXT: Сделай фото водного Покемона
+
+RESOURCE ID: challenge_snapshot_wild_blitzle_singularchallenge_snapshot_wild_blitzle_singular
+TEXT: Сделай фото дикого Блитцла
+
+RESOURCE ID: challenge_snapshot_wild_glameow_singular
+TEXT: Сделай фото дикого Глеймяу
 
 RESOURCE ID: change_banned_name_dialog
 TEXT: Привет, Тренер! Похоже, с твоим ником возникла проблема. Выбери другой ник.
@@ -13048,6 +13288,12 @@ TEXT: День сообщества: Гибл
 RESOURCE ID: community_day_hoppip_event_name
 TEXT: День сообщества: Хоппип
 
+RESOURCE ID: community_day_litwick_event_name
+TEXT: Community Day: Litwick
+
+RESOURCE ID: community_day_litwick_limited_research
+TEXT: Ограниченный квест: Литвик
+
 RESOURCE ID: community_day_machop_event_name
 TEXT: День cообщества: Мачоп
 
@@ -13058,10 +13304,10 @@ RESOURCE ID: community_day_magmar_event_name
 TEXT: День cообщества: Магмар
 
 RESOURCE ID: community_day_map_description
-TEXT: Check out our Community Day map to find the best places to spend Community Day!
+TEXT: Смотри карту дня сообщества, чтобы находить других Тренеров. Обменивайтесь Покемонами, сражайтесь или вместе участвуйте в рейдах во время дня сообщества!
 
 RESOURCE ID: community_day_map_name
-TEXT: Meet other Trainers
+TEXT: Встречайся с другими Тренерами
 
 RESOURCE ID: community_day_mudkip_event_name
 TEXT: Классический день сообщества: Мадкип
@@ -13142,9 +13388,7 @@ RESOURCE ID: continue_to_battle_button
 TEXT: Продолжить сражаться
 
 RESOURCE ID: convert_to_stardust
-TEXT: Открыв этот подарок, ты получишь звёздную пыль. Ты не сможешь получить другие предметы, так как твой рюкзак для предметов заполнен.
-
-Ты можешь зайти в настройки и выбрать, открывать ли подарки, когда рюкзак для предметов заполнен.
+TEXT: You’ll be able to receive Stardust if you open this Gift, but you won’t receive other items because your Item Bag is full.  You can change whether Gifts can be opened while your Item Bag is full by going to the Settings menu.
 
 RESOURCE ID: copy_friend_code_title
 TEXT: СКОПИРОВАТЬ МОЙ КОД ТРЕНЕРА
@@ -13207,7 +13451,7 @@ RESOURCE ID: dai_willow_part2_tile_page2
 TEXT: Удивительный ладан: Часть 2 (2/2)
 
 RESOURCE ID: daily_adventure_incense_description
-TEXT: Activate Daily Adventure Incense and begin to explore, and you may encounter Pokémon not frequently seen in the wild!
+TEXT: Активируй ладан ежедневных приключений и отправляйся на прогулку. Тебе могут встретиться Покемоны, которых редко увидишь в дикой природе!
 
 RESOURCE ID: daily_adventure_incense_modal_message
 TEXT: Особый ладан с таинственным ароматом, который привлекает к тебе диких Покемонов в течение {0} минут, пока ты двигаешься. Ты можешь каждый день бесплатно получать один такой ладан.
@@ -13693,7 +13937,7 @@ RESOURCE ID: elite_tm_reroll_fast_move_gui_title
 TEXT: Обучить Покемона {0} новой Быстрой атаке
 
 RESOURCE ID: elitechargedtm.1_description
-TEXT: Эта Техническая машина разрешает тебе выбрать Заряженную атаку, чтобы обучить твоего Покемона.
+TEXT: Эта Техническая машина разрешает тебе выбрать заряженную атаку, чтобы обучить твоего Покемона.
 
 RESOURCE ID: elitechargedtm.1_title
 TEXT: Элитная заряженная TM
@@ -15069,6 +15313,9 @@ TEXT: Этот Покемон может превысить максимальн
 RESOURCE ID: evolved_too_strong_some
 TEXT: Этот Покемон превысит максимальную БС для некоторых Боевых Лиг.
 
+RESOURCE ID: evolving_stars_event_name
+TEXT: Звёзды эволюции
+
 RESOURCE ID: ex_raid_pass_invite_empty_prompt
 TEXT: У тебя ещё нет: {0}!
 
@@ -15090,8 +15337,14 @@ TEXT: Войти
 RESOURCE ID: existing_player_label
 TEXT: Возвращающийся игрок
 
+RESOURCE ID: expert_box_title
+TEXT: Коробка эксперта
+
 RESOURCE ID: explore_responsibly
 TEXT: Исследуй ответственно
+
+RESOURCE ID: explorer_box_title
+TEXT: Коробка исследователя
 
 RESOURCE ID: explorer_pikachu_available
 TEXT: Появляются дикие Пикачу-исследователи 
@@ -15227,6 +15480,10 @@ TEXT: Поза
 
 RESOURCE ID: f_avatar_poses_bundle_pose_41
 TEXT: Поза Гузмы
+
+RESOURCE ID: f_avatar_poses_bundle_pose_44
+TEXT: Поза
+с фейерверком
 
 RESOURCE ID: f_avatar_poses_empty_bundle_pose_empty
 TEXT: Спокойная поза
@@ -15374,13 +15631,13 @@ RESOURCE ID: filter_button_see_less
 TEXT: Скрыть
 
 RESOURCE ID: filter_friend_key_giftable
-TEXT: подарочный
+TEXT: подарок
 
 RESOURCE ID: filter_friend_key_interactable
 TEXT: общающиеся
 
 RESOURCE ID: filter_friend_key_lucky
-TEXT: удачливый
+TEXT: удачливые
 
 RESOURCE ID: filter_friend_key_rank
 TEXT: уровеньдружбы
@@ -15422,19 +15679,19 @@ RESOURCE ID: filter_key_can_evolve_with_trading
 TEXT: обменэволюция
 
 RESOURCE ID: filter_key_candyxl
-TEXT:  конфеты XL
+TEXT: конфетыXL
 
 RESOURCE ID: filter_key_costume
 TEXT: костюмы
 
 RESOURCE ID: filter_key_defender
-TEXT: защитник
+TEXT: защитники
 
 RESOURCE ID: filter_key_defense
 TEXT: Защита
 
 RESOURCE ID: filter_key_distance
-TEXT: удалённый
+TEXT: нарасстоянии
 
 RESOURCE ID: filter_key_evolve_mega
 TEXT: мегаэволюция
@@ -15446,40 +15703,40 @@ RESOURCE ID: filter_key_evolve_with_item
 TEXT: предмет
 
 RESOURCE ID: filter_key_evolvemega
-TEXT: мегаэволюционировать
+TEXT: мегаэволюция
 
 RESOURCE ID: filter_key_gbl
 TEXT: боеваялигаGO
 
 RESOURCE ID: filter_key_gender_female
-TEXT: Женский
+TEXT: Женские
 
 RESOURCE ID: filter_key_gender_male
-TEXT: Мужской
+TEXT: Мужские
 
 RESOURCE ID: filter_key_gender_none
 TEXT: Полнеизвестен
 
 RESOURCE ID: filter_key_hatched
-TEXT: вылупился
+TEXT: вылупились
 
 RESOURCE ID: filter_key_hisui
 TEXT: Гисуи
 
 RESOURCE ID: filter_key_legendary
-TEXT: легендарный
+TEXT: легендарные
 
 RESOURCE ID: filter_key_lucky
-TEXT: удачливый
+TEXT: удачливые
 
 RESOURCE ID: filter_key_mythical
-TEXT: мифический
+TEXT: мифические
 
 RESOURCE ID: filter_key_photobomb
 TEXT: фото
 
 RESOURCE ID: filter_key_purified
-TEXT: очищенный
+TEXT: очищенные
 
 RESOURCE ID: filter_key_raid
 TEXT: рейд
@@ -15500,16 +15757,16 @@ RESOURCE ID: filter_key_rocket
 TEXT: ракета
 
 RESOURCE ID: filter_key_shadow
-TEXT: теневой
+TEXT: теневые
 
 RESOURCE ID: filter_key_shiny
-TEXT: сияющий
+TEXT: сияющие
 
 RESOURCE ID: filter_key_special_move
-TEXT: особый
+TEXT: особые
 
 RESOURCE ID: filter_key_traded
-TEXT: обменян
+TEXT: обменянные
 
 RESOURCE ID: filter_key_ultra_beast
 TEXT: Ультрачудовища
@@ -15530,45 +15787,42 @@ RESOURCE ID: filter_label_appraisal_3
 TEXT: 3 звезды
 
 RESOURCE ID: filter_label_appraisal_4
-TEXT: Отлично
+TEXT: Максимальная
 
 RESOURCE ID: filter_label_costume
-TEXT: Событие
+TEXT: События
 
 RESOURCE ID: filter_label_evolvable
-TEXT: Эволюционируемый
+TEXT: Могут
+эволюционировать
 
 RESOURCE ID: filter_label_evolve_mega
-TEXT: Мегаэво-
-люцио-
-нируе-
-мый
+TEXT: Могут
+мегаэволюционировать
 
 RESOURCE ID: filter_label_hatched
-TEXT: Вылупился
+TEXT: Вылупились
 
 RESOURCE ID: filter_label_legendary
-TEXT: Леген-
-дарный
+TEXT: Легендарные
 
 RESOURCE ID: filter_label_lucky
-TEXT: Удачливый
+TEXT: Удачливые
 
 RESOURCE ID: filter_label_mythical
-TEXT: Мифический
+TEXT: Мифические
 
 RESOURCE ID: filter_label_purified
-TEXT: Очищенный
+TEXT: Очищенные
 
 RESOURCE ID: filter_label_shadow
-TEXT: Теневой
+TEXT: Теневые
 
 RESOURCE ID: filter_label_shiny
-TEXT: Сияющий
+TEXT: Сияющие
 
 RESOURCE ID: filter_label_traded
-TEXT: Обме-
-нянный
+TEXT: Обменянные
 
 RESOURCE ID: fire_type_event
 TEXT: Активизация типа: Огонь
@@ -16436,7 +16690,7 @@ RESOURCE ID: form_vivillon_modern
 TEXT: Современный узор
 
 RESOURCE ID: form_vivillon_monsoon
-TEXT: Мусонный узор
+TEXT: Муссонный узор
 
 RESOURCE ID: form_vivillon_ocean
 TEXT: Океанский узор
@@ -16943,6 +17197,14 @@ TEXT: Билет на специальный квест «Прыг-скок» 12
 RESOURCE ID: general1.ticket.2_hoppt_title
 TEXT: Прыг-скок
 
+RESOURCE ID: general1.ticket.2_litwick_description
+TEXT: A ticket to access the Field Notes: Trick of the Light Special Research on October 15, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_litwick_title
+TEXT: Field Notes: Trick of the Light
+
 RESOURCE ID: general1.ticket.2_machop_description
 TEXT: Билет на специальный квест «К вершине, Мачоп!» 16 января с 11:00 до 17:00 по местному времени, вне зависимости от твоего местонахождения. Подробности можно найти во внутриигровых новостях.
 
@@ -17157,16 +17419,16 @@ RESOURCE ID: general_m
 TEXT: м
 
 RESOURCE ID: general_maximum_height
-TEXT: Самый высокий
+TEXT: Tallest
 
 RESOURCE ID: general_maximum_weight
-TEXT: Самый тяжёлый
+TEXT: Heaviest
 
 RESOURCE ID: general_minimum_height
-TEXT: Самый низкий
+TEXT: Shortest
 
 RESOURCE ID: general_minimum_weight
-TEXT: Самый лёгкий
+TEXT: Lightest
 
 RESOURCE ID: general_month
 TEXT: Месяц
@@ -19168,6 +19430,9 @@ TEXT: Глобальный Фестиваль GO – Победи в рейде
 RESOURCE ID: gofestd_2019_medium_win_gym_battle
 TEXT: Глобальный Фестиваль GO – Победи в Гим-битвах: {0}
 
+RESOURCE ID: gold_box_title
+TEXT: Золотая коробка
+
 RESOURCE ID: google_auth_failed
 TEXT: Не удалось выполнить проверку подлинности. Попробуй ещё раз.
 
@@ -19228,8 +19493,89 @@ TEXT: Добро пожаловать на Тур Pokémon GO: Канто!
 RESOURCE ID: gotour2021_welcome_red
 TEXT: Добро пожаловать на Тур Pokémon GO: Канто!
 
+RESOURCE ID: gotour2022
+TEXT: Тур Pokémon GO: Джото
+
+RESOURCE ID: gotour2022_battle
+TEXT: Pokémon GO Tour: Johto Battle Challenge
+
+RESOURCE ID: gotour2022_battle_0
+TEXT: Тур GO: Боевое испытание Джото (1/11)
+
+RESOURCE ID: gotour2022_battle_1
+TEXT: Тур GO: Боевое испытание Джото (2/11)
+
+RESOURCE ID: gotour2022_battle_10
+TEXT: Тур GO: Боевое испытание Джото (11/11)
+
+RESOURCE ID: gotour2022_battle_2
+TEXT: Тур GO: Боевое испытание Джото (3/11)
+
+RESOURCE ID: gotour2022_battle_3
+TEXT: Тур GO: Боевое испытание Джото (4/11)
+
+RESOURCE ID: gotour2022_battle_4
+TEXT: Тур GO: Боевое испытание Джото (5/11)
+
+RESOURCE ID: gotour2022_battle_5
+TEXT: Тур GO: Боевое испытание Джото (6/11)
+
+RESOURCE ID: gotour2022_battle_6
+TEXT: Тур GO: Боевое испытание Джото (7/11)
+
+RESOURCE ID: gotour2022_battle_7
+TEXT: Тур GO: Боевое испытание Джото (8/11)
+
+RESOURCE ID: gotour2022_battle_8
+TEXT: Тур GO: Боевое испытание Джото (9/11)
+
+RESOURCE ID: gotour2022_battle_9
+TEXT: Тур GO: Боевое испытание Джото (10/11)
+
 RESOURCE ID: gotour2022_battle_champion
 TEXT: Чемпион боевого испытания Джото
+
+RESOURCE ID: gotour2022_battle_choice_keep_battling
+TEXT: Продолжить сражение
+
+RESOURCE ID: gotour2022_battle_choice_stop_battling
+TEXT: Сосредоточиться на поимке
+
+RESOURCE ID: gotour2022_battle_description_keep_battling
+TEXT: Все Тренеры Гима GO снова появятся на Покестопах, что позволит тебе снова сразиться с ними. Ты можешь сражаться с ними за награды в течение дня.
+
+RESOURCE ID: gotour2022_battle_description_stop_battling
+TEXT: Тренеры Гима GO больше не появятся на Покестопах, что позволит тебе  сосредоточиться исключительно на сборе Покемонов.
+
+RESOURCE ID: gotour2022_battle_dialogue_0_0
+TEXT: Вот и всё, %PLAYERNAME%. Твоей силе нет равных.
+
+RESOURCE ID: gotour2022_battle_dialogue_0_1
+TEXT: Тебе присвоено звание Чемпиона боевого испытания Джото!
+
+RESOURCE ID: gotour2022_battle_dialogue_0_2
+TEXT: Твои преданность, вера и любовь к Покемонам сделали это возможным. Секрет твоей победы в том, что Покемоны верили в тебя так же, как и ты в них.
+
+RESOURCE ID: gotour2022_battle_dialogue_0_3
+TEXT: Поздравляю, %PLAYERNAME%!
+
+RESOURCE ID: gotour2022_battle_dialogue_0_4
+TEXT: Как ты отпразднуешь это важное достижение?
+
+RESOURCE ID: gotour2022_battle_dialogue_1_0
+TEXT: Ты превосходишь все ожидания, %PLAYERNAME%! Похоже, твои Покемоны тоже готовы продолжать сражаться. Вместе вы действительно идеальная команда. Вперёд, пусть команда тобой гордится!
+
+RESOURCE ID: gotour2022_battle_dialogue_2_0
+TEXT: Важно уметь вовремя остановиться, %PLAYERNAME%. Быть добрым по отношению к себе – это не слабость.
+
+RESOURCE ID: gotour2022_battle_dialogue_2_1
+TEXT: Кажется, и твоим Покемонам не помешает сделать перерыв. Так почему бы вам всем не отдохнуть немного? А когда наберёшься сил, сможешь поймать много Покемонов и завести новых друзей.
+
+RESOURCE ID: gotour2022_battle_leader_guidance
+TEXT: Подсказка: Заработай звёздную пыль, чтобы сразиться с лидером боевого испытания Джото!
+
+RESOURCE ID: gotour2022_beast_guidance
+TEXT: Raikou, Entei, and Suicune will flee from you when encountered in the wild. Take a snapshot before they do!
 
 RESOURCE ID: gotour2022_challenger_bug_azalea_loss
 TEXT: Мой Покемон-Насекомое проиграл! Очень жаль.
@@ -19435,8 +19781,38 @@ TEXT: Ты хочешь выбрать версию Gold?
 RESOURCE ID: gotour2022_choose_version_title_silver
 TEXT: Ты хочешь выбрать версию Silver?
 
+RESOURCE ID: gotour2022_defeat_leader
+TEXT: Победи лидера боевого испытания Джото
+
+RESOURCE ID: gotour2022_evolve
+TEXT: Тур GO Джото: Эволюция
+
+RESOURCE ID: gotour2022_evolve_description
+TEXT: Эволюционируй Покемонов, обнаруженных в Джото
+
 RESOURCE ID: gotour2022_gold
 TEXT: Тур GO Джото: версия Gold
+
+RESOURCE ID: gotour2022_gold_catch
+TEXT: Pokémon GO Tour: Johto – Gold (Incense)
+
+RESOURCE ID: gotour2022_gold_catch_description
+TEXT: Используй ладан, чтобы получить Покемонов, эксклюзивных для версии Gold
+
+RESOURCE ID: gotour2022_gold_trade
+TEXT: Pokémon GO Tour: Johto – Gold (Trade)
+
+RESOURCE ID: gotour2022_gold_trade_description
+TEXT: Обменивайся с друзьями, чтобы получить Покемонов, эксклюзивных для версии Silver
+
+RESOURCE ID: gotour2022_goldenrod_city
+TEXT: Pokémon GO Tour: Johto – Goldenrod City
+
+RESOURCE ID: gotour2022_goldenrod_city_description
+TEXT: Лови Покемонов во время часа Голденрод-Сити
+
+RESOURCE ID: gotour2022_goldenrod_city_hour
+TEXT: Сейчас: Час Голденрод-Сити!
 
 RESOURCE ID: gotour2022_instinct_leader_loss
 TEXT: Ой...
@@ -19450,6 +19826,15 @@ TEXT: Инстинкты часто нам пригождаются, не так
 RESOURCE ID: gotour2022_instinct_leader_victory
 TEXT: Победа? Вот здорово! Победа! Ура!
 
+RESOURCE ID: gotour2022_mt_silver
+TEXT: Pokémon GO Tour: Johto – Mt. Silver
+
+RESOURCE ID: gotour2022_mt_silver_description
+TEXT: Лови Покемонов во время часа Серебряной горы
+
+RESOURCE ID: gotour2022_mt_silver_hour
+TEXT: Сейчас: Час Серебряной горы!
+
 RESOURCE ID: gotour2022_mystic_leader_loss
 TEXT: Хм, любопытно.
 
@@ -19462,11 +19847,56 @@ TEXT: Полное самообладание и точный анализ – �
 RESOURCE ID: gotour2022_mystic_leader_victory
 TEXT: Хм, любопытно.
 
+RESOURCE ID: gotour2022_national_park
+TEXT: Pokémon GO Tour: Johto – National Park
+
+RESOURCE ID: gotour2022_national_park_description
+TEXT: Лови Покемонов во время часа национального парка
+
+RESOURCE ID: gotour2022_national_park_hour
+TEXT: Сейчас: Час национального парка!
+
+RESOURCE ID: gotour2022_new_bark_town
+TEXT: Pokémon GO Tour: Johto – New Bark Town
+
+RESOURCE ID: gotour2022_new_bark_town_description
+TEXT: Лови Покемонов во время часа Нью Барк Тауна
+
+RESOURCE ID: gotour2022_new_bark_town_hour
+TEXT: Сейчас: Час Нью Барк Тауна!
+
+RESOURCE ID: gotour2022_npc_guidance
+TEXT: Tip: To begin battling, you’ll need to find your opponents! You can find GO Gym Trainers at PokéStops. Visit different PokéStops to battle different GO Gym Trainers!
+
+RESOURCE ID: gotour2022_raid
+TEXT: Pokémon GO Tour: Johto – Raid
+
+RESOURCE ID: gotour2022_raid_description
+TEXT: Найди этих Покемонов в рейдах
+
 RESOURCE ID: gotour2022_silver
 TEXT: Тур GO Джото: версия Silver
 
-RESOURCE ID: gotour2022_tr_beasts_photo_safari
-TEXT: Фотосафари: Райку, Энтей и Суикун
+RESOURCE ID: gotour2022_silver_catch
+TEXT: Pokémon GO Tour: Johto – Silver (Incense)
+
+RESOURCE ID: gotour2022_silver_catch_description
+TEXT: Используй ладан, чтобы получить Покемонов, эксклюзивных для версии Silver
+
+RESOURCE ID: gotour2022_silver_trade
+TEXT: Pokémon GO Tour: Johto – Silver (Trade)
+
+RESOURCE ID: gotour2022_silver_trade_description
+TEXT: Обменивайся с друзьями, чтобы получить Покемонов, эксклюзивных для версии Gold
+
+RESOURCE ID: gotour2022_snapshot_guidance
+TEXT: Подсказка: Райку, Энтей и Суикун, скорее всего, убегут, когда ты встретишь их в дикой природе. Сделай их фото, чтобы заработать награды, которые позволят их поймать!
+
+RESOURCE ID: gotour2022_special
+TEXT: Pokémon GO Tour: Johto – Special
+
+RESOURCE ID: gotour2022_special_description
+TEXT: Заверши специальный квест Джото и сделай фото
 
 RESOURCE ID: gotour2022_valor_leader_loss
 TEXT: Это... ничего... Я в полном порядке...
@@ -19479,6 +19909,18 @@ TEXT: Что бы ни случилось, огонь нашего мужест�
 
 RESOURCE ID: gotour2022_valor_leader_victory
 TEXT: Очередная победа Команды Доблесть. Хочешь снова сразиться?
+
+RESOURCE ID: gotour2022_violet_city
+TEXT: Pokémon GO Tour: Johto – Violet City
+
+RESOURCE ID: gotour2022_violet_city_description
+TEXT: Лови Покемонов во время часа Виолет-Сити
+
+RESOURCE ID: gotour2022_violet_city_hour
+TEXT: Сейчас: Час Виолет-Сити!
+
+RESOURCE ID: gotour2022_welcome
+TEXT: Добро пожаловать на Тур Pokémon GO: Джото!
 
 RESOURCE ID: gotour_kanto
 TEXT: Тур Pokémon GO: Канто
@@ -19783,42 +20225,6 @@ TEXT: Тур GO: Канто – Победи всех противников (4/
 RESOURCE ID: gotourprep_event_name
 TEXT: Подготовка к Туру GO: Поке-Боллы
 
-RESOURCE ID: gotoursik
-TEXT: Тур GO: Живое событие – Шагни в Канто
-
-RESOURCE ID: gotoursik_catch_beginning
-TEXT: Поймай этих Покемонов на территории Начала приключений!
-
-RESOURCE ID: gotoursik_catch_beginning_description
-TEXT: Тур GO: Живое событие – Шагни в Канто: Начало приключений
-
-RESOURCE ID: gotoursik_catch_blanche
-TEXT: Поймай этих Покемонов на территории Команды Мистика!
-
-RESOURCE ID: gotoursik_catch_blanche_description
-TEXT: Тур GO: Живое событие – Шагни в Канто: Команда Мистика
-
-RESOURCE ID: gotoursik_catch_candela
-TEXT: Поймай этих Покемонов на территории Команды Доблесть!
-
-RESOURCE ID: gotoursik_catch_candela_description
-TEXT: Тур GO: Живое событие – Шагни в Канто: Команда Доблесть
-
-RESOURCE ID: gotoursik_catch_spark
-TEXT: Поймай этих Покемонов на территории Команды Инстинкт!
-
-RESOURCE ID: gotoursik_catch_spark_description
-TEXT: Тур GO: Живое событие – Шагни в Канто: Команда Инстинкт
-
-RESOURCE ID: gotoursik_catch_willow
-TEXT: Поймай этих Покемонов на территории Профессора Уиллоу!
-
-RESOURCE ID: gotoursik_catch_willow_description
-TEXT: Тур GO: Живое событие – Шагни в Канто: Профессор Уиллоу
-
-RESOURCE ID: gotoursik_elite4_guidance
-TEXT: Подсказка: Ты можешь найти членов Элитной Четвёрки Тура GO на Покестопах. Каждый из них появится на определённой территории!
-
 RESOURCE ID: gotoursik_elitefour_a_loss
 TEXT: Как неловко. Может, нужно сбавить обороты...
 
@@ -19927,99 +20333,6 @@ TEXT: Какая неожиданность: ещё один Тренер. Пр�
 RESOURCE ID: gotoursik_elitefour_d_victory
 TEXT: Это было быстро.
 
-RESOURCE ID: gotoursik_elitefour_title
-TEXT: Тур GO: Элитная Четвёрка
-
-RESOURCE ID: gotoursik_photo_habitat_beginning
-TEXT: Сделай фото на территории Начала приключений
-
-RESOURCE ID: gotoursik_photo_habitat_instinct
-TEXT: Сделай фото на территории Команды Инстинкт
-
-RESOURCE ID: gotoursik_photo_habitat_mystic
-TEXT: Сделай фото на территории Команды Мистика
-
-RESOURCE ID: gotoursik_photo_habitat_valor
-TEXT: Сделай фото на территории Команды Доблесть
-
-RESOURCE ID: gotoursik_photo_habitat_willow
-TEXT: Сделай фото на территории Профессора Уиллоу
-
-RESOURCE ID: gotoursik_sr_1
-TEXT: Тур GO: Живое событие – Шагни в Канто (1/6)
-
-RESOURCE ID: gotoursik_sr_2
-TEXT: Тур GO: Живое событие – Шагни в Канто (2/6)
-
-RESOURCE ID: gotoursik_sr_3
-TEXT: Тур GO: Живое событие – Шагни в Канто (3/6)
-
-RESOURCE ID: gotoursik_sr_4
-TEXT: Тур GO: Живое событие – Шагни в Канто (4/6)
-
-RESOURCE ID: gotoursik_sr_5
-TEXT: Тур GO: Живое событие – Шагни в Канто (5/6)
-
-RESOURCE ID: gotoursik_sr_6
-TEXT: Тур GO: Живое событие – Шагни в Канто (6/6)
-
-RESOURCE ID: gotoursik_today_view_habitat_beginning
-TEXT: Ты на территории Начала приключений!
-
-RESOURCE ID: gotoursik_today_view_habitat_blanche
-TEXT: Ты на территории Команды Мистика!
-
-RESOURCE ID: gotoursik_today_view_habitat_candela
-TEXT: Ты на территории Команды Доблесть!
-
-RESOURCE ID: gotoursik_today_view_habitat_spark
-TEXT: Ты на территории Команды Инстинкт!
-
-RESOURCE ID: gotoursik_today_view_habitat_willow
-TEXT: Ты на территории Профессора Уиллоу!
-
-RESOURCE ID: gotoursik_tr_city
-TEXT: GO Tour: Живое событие
-
-RESOURCE ID: gotoursik_tr_city_0
-TEXT: GO Tour: Живое событие (1/7)
-
-RESOURCE ID: gotoursik_tr_city_1
-TEXT: GO Tour: Живое событие (2/7)
-
-RESOURCE ID: gotoursik_tr_city_2
-TEXT: GO Tour: Живое событие (3/7)
-
-RESOURCE ID: gotoursik_tr_city_3
-TEXT: GO Tour: Живое событие (4/7)
-
-RESOURCE ID: gotoursik_tr_city_4
-TEXT: GO Tour: Живое событие (5/7)
-
-RESOURCE ID: gotoursik_tr_city_5
-TEXT: GO Tour: Живое событие (6/7)
-
-RESOURCE ID: gotoursik_tr_city_6
-TEXT: GO Tour: Живое событие (7/7)
-
-RESOURCE ID: gotoursik_tr_elite4
-TEXT: Тур GO: Живое событие – Элитная Четвёрка
-
-RESOURCE ID: gotoursik_tr_elite4_0
-TEXT: Тур GO: Живое событие – Элитная Четвёрка (1/4)
-
-RESOURCE ID: gotoursik_tr_elite4_1
-TEXT: Тур GO: Живое событие – Элитная Четвёрка (2/4)
-
-RESOURCE ID: gotoursik_tr_elite4_2
-TEXT: Тур GO: Живое событие – Элитная Четвёрка (3/4)
-
-RESOURCE ID: gotoursik_tr_elite4_3
-TEXT: Тур GO: Живое событие – Элитная Четвёрка (4/4)
-
-RESOURCE ID: gotoursik_welcome
-TEXT: Добро пожаловать на Тур Pokémon GO: Живое событие – Шагни в Канто!
-
 RESOURCE ID: goyang_cup_title
 TEXT: Кубок поимки Коян
 
@@ -20035,6 +20348,9 @@ TEXT: Активизация типа: Трава
 
 RESOURCE ID: great_league_remix_title
 TEXT: Великая Лига: Ремикс
+
+RESOURCE ID: great_raid_box_title
+TEXT: Рейдовая суперкоробка
 
 RESOURCE ID: ground_type_event
 TEXT: Активизация типа: Земля
@@ -20331,7 +20647,7 @@ RESOURCE ID: grunt_generic_challenge#11__female_speaker
 TEXT: Босс сказал, что займёт этот Покестоп от имени Команды Ракета GO!
 
 RESOURCE ID: grunt_generic_challenge#11__male_speaker
-TEXT: Босс сказал, что займёт этот Покестоп от имени Команды Ракета GO!
+TEXT: Босс планирует занять эту территорию для Команды Ракета GO!
 
 RESOURCE ID: grunt_generic_challenge#12__female_speaker
 TEXT: Тебе здесь нечего делать! А ну, быстро домой!
@@ -20352,10 +20668,10 @@ RESOURCE ID: grunt_generic_challenge#14__male_speaker
 TEXT: Эй, Тренер! Сюда!
 
 RESOURCE ID: grunt_generic_challenge#17__female_speaker
-TEXT: Мы украдём все предметы и поймаем всех Покемонов из этого Покестопа! Тебе не удастся нас остановить! В бой!
+TEXT: Я не позволю тебе вмешиваться в великие планы Команды Ракета GO. Готовься к битве Покемонов!
 
 RESOURCE ID: grunt_generic_challenge#17__male_speaker
-TEXT: Мы украдём все предметы и поймаем всех Покемонов из этого Покестопа! Тебе не удастся нас остановить! В бой!
+TEXT: Мы украдём предметы и поймаем всех Покемонов в этом районе! Что? Думаешь нас остановить? Тогда сразимся!
 
 RESOURCE ID: grunt_generic_challenge#1__female_speaker
 TEXT: Ни шагу дальше! Я не проявляю милосердия к своим врагам!
@@ -20364,7 +20680,7 @@ RESOURCE ID: grunt_generic_challenge#1__male_speaker
 TEXT: Ни шагу дальше! Я не проявляю милосердия к своим врагам!
 
 RESOURCE ID: grunt_generic_challenge#2__female_speaker
-TEXT: Этот Покестоп принадлежит Команде Ракета GO!
+TEXT: Этот район принадлежит Команде Ракета GO!
 
 RESOURCE ID: grunt_generic_challenge#2__male_speaker
 TEXT: Этот Покестоп принадлежит Команде Ракета GO!
@@ -20376,10 +20692,10 @@ RESOURCE ID: grunt_generic_challenge#3__male_speaker
 TEXT: Сейчас ты у меня испугаешься!
 
 RESOURCE ID: grunt_generic_challenge#4__female_speaker
-TEXT: Мы не позволим тебе помешать захвату Покестопов!
+TEXT: Ты собираешься пройти мимо меня? Не выйдет!
 
 RESOURCE ID: grunt_generic_challenge#4__male_speaker
-TEXT: Мы не позволим тебе помешать захвату Покестопов!
+TEXT: Ты не сможешь помешать нам захватить эту территорию!
 
 RESOURCE ID: grunt_generic_challenge#5__female_speaker
 TEXT: Битва Покемонов? Круто! Начнём!
@@ -20409,7 +20725,7 @@ RESOURCE ID: grunt_generic_challenge#9__female_speaker
 TEXT: Здесь ничего нет, кроме нашего Покестопа. Так что ты здесь шляешься?
 
 RESOURCE ID: grunt_generic_challenge#9__male_speaker
-TEXT: Здесь ничего нет, кроме нашего Покестопа. Так что ты здесь шляешься?
+TEXT: Это территория Команды Ракета GO. Что ты здесь делаешь?
 
 RESOURCE ID: grunt_generic_defeat#10__female_speaker
 TEXT: Ааа, как меня это бесит!
@@ -20685,7 +21001,7 @@ RESOURCE ID: grunt_generic_greeting#22__female_speaker
 TEXT: Тебе никуда не спрятаться от Команды Ракета GO!
 
 RESOURCE ID: grunt_generic_greeting#22__male_speaker
-TEXT: Тебе не остановить Команду Ракета GO!
+TEXT: Не шути с Командой Ракета GO!
 
 RESOURCE ID: grunt_generic_greeting#23__female_speaker
 TEXT: Мы – Команда Ракета GO, и наша сила вселяет страх!
@@ -20730,10 +21046,10 @@ RESOURCE ID: grunt_generic_greeting#7__male_speaker
 TEXT: Дальше тебе не пройти!
 
 RESOURCE ID: grunt_generic_greeting#8__female_speaker
-TEXT: Добро пожаловать на этот Покестоп!
+TEXT: Тебе не стоило приходить сюда. Хахаха!
 
 RESOURCE ID: grunt_generic_greeting#8__male_speaker
-TEXT: Добро пожаловать на этот Покестоп!
+TEXT: Как мило с твоей стороны – заглянуть к нам в гости. Хе-хе...
 
 RESOURCE ID: grunt_generic_greeting#9__female_speaker
 TEXT: Замечен нарушитель!
@@ -20823,7 +21139,13 @@ RESOURCE ID: gt_2020_spin_medium
 TEXT: Стремление к расследованию – Покрути Покестопы: {0}
 
 RESOURCE ID: gui_vivillon_map_header
-TEXT: Vivillon Habitat
+TEXT: Узоры Вивийонов по регионам
+
+RESOURCE ID: gui_vivillon_medal_button
+TEXT: SEE MEDAL
+
+RESOURCE ID: gui_vivillon_progress_header
+TEXT: Collection Progress
 
 RESOURCE ID: gym_approach_battles_won
 TEXT: Выиграно сражений:
@@ -22046,7 +22368,7 @@ RESOURCE ID: item_move_reroll_elite_fast_attack_name
 TEXT: Элитная быстрая TM
 
 RESOURCE ID: item_move_reroll_elite_special_attack_desc
-TEXT: Эта Техническая машина разрешает тебе выбрать Заряженную атаку, чтобы обучить твоего Покемона.
+TEXT: Эта Техническая машина разрешает тебе выбрать заряженную атаку, чтобы обучить твоего Покемона.
 
 RESOURCE ID: item_move_reroll_elite_special_attack_name
 TEXT: Элитная заряженная TM
@@ -22321,6 +22643,9 @@ TEXT: Теневой Покемон {0} очищен!
 RESOURCE ID: journal_shared_ex_raid_ticket_with_friend
 TEXT: Ты пригласил(а) Тренера {0} на EX-рейд.
 
+RESOURCE ID: journeyer_box_title
+TEXT: Коробка странника
+
 RESOURCE ID: jp_iap_link1
 TEXT: https://niantic.helpshift.com/hc/ja/6-pokemon-go/faq/2046-%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/?s=others&f=%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA&l=ja&p=web
 
@@ -22392,6 +22717,9 @@ TEXT: Ты действительно хочешь изменить язык н�
 
 RESOURCE ID: language_currently_selected
 TEXT: Этот язык выбран в данный момент
+
+RESOURCE ID: language_early_access_language
+TEXT: This is an early access language. Please report any issues if found.
 
 RESOURCE ID: language_selector_description
 TEXT: Чтобы применить изменения, необходимо перезапустить приложение.
@@ -22470,6 +22798,9 @@ TEXT: Ограниченный выбор
 
 RESOURCE ID: league_ruleset_type_label
 TEXT: Типы разрешённых Покемонов:
+
+RESOURCE ID: legend_box_title
+TEXT: Коробка легенд
 
 RESOURCE ID: legendary_mythical_and_ultra_beast_not_allowed_in_gyms
 TEXT: Легендарные и Мифические Покемоны, а также Ультрачудовища не могут быть оставлены в Гимах.
@@ -23393,7 +23724,7 @@ RESOURCE ID: limited_research_infernape
 TEXT: Ограниченный квест: Инфернейп
 
 RESOURCE ID: limited_research_inkay
-TEXT: Inkay Limited Research
+TEXT: Ограниченный квест: Инкей
 
 RESOURCE ID: limited_research_ivysaur
 TEXT: Ограниченный квест: Айвизавр
@@ -24899,8 +25230,14 @@ TEXT: Яркие легенды X
 RESOURCE ID: luminous_y_event_name
 TEXT: Яркие легенды Y
 
+RESOURCE ID: lunar_new_year_catch_timed_research
+TEXT: Лунный новый год: Испытание по поимке
+
 RESOURCE ID: lunar_new_year_event_name
 TEXT: Лунный новый год
+
+RESOURCE ID: lunar_new_year_friendship_timed_research
+TEXT: Лунный новый год: Дружеское испытание
 
 RESOURCE ID: lure_duration_4_hr
 TEXT: 4-часовое действие приманки
@@ -25082,6 +25419,10 @@ TEXT: Поза
 RESOURCE ID: m_avatar_poses_bundle_pose_41
 TEXT: Поза Гузмы
 
+RESOURCE ID: m_avatar_poses_bundle_pose_44
+TEXT: Поза
+с фейерверком
+
 RESOURCE ID: m_avatar_poses_empty_bundle_pose_empty
 TEXT: Спокойная поза
 
@@ -25221,95 +25562,8 @@ TEXT: Премьер-кубок
 RESOURCE ID: master_premier_classic_title
 TEXT: Классическая Премьер-МЛ
 
-RESOURCE ID: masterwork_lugiahoohs
-TEXT: Капитальный квест: Высшие Покемоны
-
-RESOURCE ID: masterwork_lugiahoohs_1
-TEXT: Капитальный квест: Высшие Покемоны (1/4)
-
-RESOURCE ID: masterwork_lugiahoohs_2
-TEXT: Капитальный квест: Высшие Покемоны (2/4)
-
-RESOURCE ID: masterwork_lugiahoohs_3
-TEXT: Капитальный квест: Высшие Покемоны (3/4)
-
-RESOURCE ID: masterwork_lugiahoohs_4
-TEXT: Капитальный квест: Высшие Покемоны (4/4)
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_0_0
-TEXT: Спасибо за помощь с Гиарадосом и Селеби, %PLAYERNAME%. Только вот наша работа ещё не окончена. Хо-Oх и Лугиа всё ещё в руках Команды Ракета GO.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_0_1
-TEXT: С помощью лидеров команд нам удалось точно определить местонахождение Высшего Теневого Хо-Oха. По неизвестным нам причинам Команда Ракета GO держит этих двух Покемонов в разных местах.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_0_2
-TEXT: Может ли быть, что два Легендарных Покемона оказались им не по зубам? Как бы то ни было, это облегчает нам задачу: мы будем спасать этих Покемонов по отдельности!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_0
-TEXT: Отличная работа по спасению Высшего Теневого Хо-Oха, %PLAYERNAME%! Похоже, он знает Священный Огонь – коронную атаку Хо-Оха, но этот Священный Огонь ещё сильнее!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_1
-TEXT: Интересно, что произойдёт, если ты очистишь его. Станет ли он ещё сильнее?
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_2
-TEXT: Я продолжу исследовать этого невероятного Покемона и буду держать тебя в курсе того, что узнаю.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_3
-TEXT: Пока меня не будет, почему бы тебе не потренировать своих Покемонов. И ещё неплохо бы посмотреть, какие друзья могут тебе помочь с Высшим Теневым Лугией.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_4
-TEXT: Нам сейчас пригодится любая помощь.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_5
-TEXT: Мы с лидерами команд пока выясняем, где находится Высший Теневой Лугиа. Надеюсь, мы скоро узнаем больше.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_0
-TEXT: У тебя есть всё, что нужно, %PLAYERNAME%? Эликсиры? Оживление? Еда?
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_1
-TEXT: Готовься к тому, что спасение Высшего Теневого Лугии будет сложным испытанием.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_2
-TEXT: Мы с лидерами команд обнаружили, что Команда Ракета GO спрятала Высшего Теневого Лугию на секретной базе, охраняемой отрядом агентов. А вместе с ними там не кто иной, как сам Джованни.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_3
-TEXT: И пока ты здесь: помнишь, я говорил, что продолжу исследование Высшего Теневого Хо-Oха?
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_4
-TEXT: Так вот, оказалось, что после очищения его атака Священный Огонь станет невероятно мощной.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_5
-TEXT: Высший Очищенный Хо-Oх может стать невероятно сильным союзником в наших планах по спасению Высшего Теневого Лугии.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_6
-TEXT: Эти сражения могут оказаться самыми сложными за всю твою карьеру Тренера Покемонов. Но если кто и готов принять этот вызов, то это ты.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_0
-TEXT: Вот это да! Невероятно!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_1
-TEXT: %PLAYERNAME%!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_2
-TEXT: У тебя получилось!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_3
-TEXT: Тебе удалось спасти Высшего Теневого Лугию от Команды Ракета GO!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_4
-TEXT: Как и у Хо-Oха, его атака Аэровзрыв сильнее всего, что я когда-либо видел.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_5
-TEXT: Уверен, что после очищения он, как и Высший Теневой Хо-Oх, станет ещё сильнее.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_6
-TEXT: Ну что, нам давно пора праздновать! Мы это заслужили.
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_7
-TEXT: Твои последние достижения – это нечто!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_8
-TEXT: И ещё раз спасибо за помощь. Уверен, что Хо-Oх и Лугиа тоже тебя благодарят. Что ж, до следующего приключения... ИДИ и ЛОВИ!
+RESOURCE ID: master_raid_box_title
+TEXT: Рейдовая мастер-коробка
 
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: Ах, %PLAYERNAME%! Рад видеть тебя в составе этой экспедиции. Скажи, тебе доводилось когда-нибудь слышать эту мелодию?
@@ -25729,9 +25983,9 @@ RESOURCE ID: mega_walking_progress
 TEXT: Пройденное расстояние: прогресс
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2022-10-07T09:04:35.937526
-at SHA 029e467bb49e3de2ae874f180ac9aa1d15fdd8cf
-Pipeline 1076415, job 12507544
+TEXT: Built at 2022-10-30T17:10:54.773238
+at SHA a9d340b3c5945d8273421b9463be2a4b4b784b1b
+Pipeline 1114528, job 13097767
 
 RESOURCE ID: milestone_rewards_title
 TEXT: НАГРАДЫ ЗА ДОСТИЖЕНИЕ ЦЕЛИ
@@ -25822,6 +26076,12 @@ TEXT: м
 
 RESOURCE ID: minutes_and_seconds
 TEXT: {0} М. {1} С.
+
+RESOURCE ID: mobile_games_catch_sr
+TEXT: Шоу мобильных игр: Испытание по поимке
+
+RESOURCE ID: mobile_games_throw_sr
+TEXT: Шоу мобильных игр: Испытание по броскам
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: Включи режим Niantic AR, чтобы использовать функцию реалистичного наложения.
@@ -26789,8 +27049,14 @@ TEXT: Сияние Семени
 RESOURCE ID: move_name_0370
 TEXT: Преграда
 
+RESOURCE ID: move_name_0371
+TEXT: Сумеречная Сила
+
 RESOURCE ID: move_name_0372
 TEXT: Метеоритный Луч
+
+RESOURCE ID: move_name_0376
+TEXT: Полтергейст
 
 RESOURCE ID: move_reroll_confirm_desc
 TEXT: {0} забудет атаку {1}.
@@ -27306,6 +27572,18 @@ TEXT: Эта функция позволяет Покемонам в режим�
 RESOURCE ID: occlusions_tutorial_title
 TEXT: Реалистичное наложение
 
+RESOURCE ID: oct22_evo_collection_challenge_1
+TEXT: Звёзды эволюции: Испытание Иви
+
+RESOURCE ID: oct22_evo_collection_challenge_2
+TEXT: Звёзды эволюции: Испытание по обмену
+
+RESOURCE ID: oct22_evo_collection_challenge_3
+TEXT: Звёзды эволюции: Испытание Юнова
+
+RESOURCE ID: oct22_evo_collection_challenge_4
+TEXT: Звёзды эволюции: Испытание Синно
+
 RESOURCE ID: old_friends_description
 TEXT: Квест на время «Новые приключения со старыми друзьями»
 
@@ -27452,7 +27730,7 @@ RESOURCE ID: open_sponsored_gift_button
 TEXT: Открыть
 
 RESOURCE ID: open_video_sponsored_balloon_postcard_message
-TEXT: https://storage.googleapis.com/prod-public-images/SponsoredPostcards/pgo_sponsorImage_videoAd.png
+TEXT: Watch a video message from our sponsor and earn some free items.
 
 RESOURCE ID: open_video_sponsored_gift_button
 TEXT: Посмотреть видео
@@ -27777,6 +28055,9 @@ TEXT: 5 неожиданных встреч с Гиблом в Стоп-кадр
 
 RESOURCE ID: photobomb_five_hoppip
 TEXT: 5 неожиданных встреч с Хоппипом в Стоп-кадре GO
+
+RESOURCE ID: photobomb_five_litwick
+TEXT: 5 surprise encounters with Litwick in GO Snapshot
 
 RESOURCE ID: photobomb_five_machop
 TEXT: 5 неожиданных встреч с Мачопом в Стоп-кадре GO
@@ -28851,7 +29132,7 @@ RESOURCE ID: pokedex_filter_button_mega
 TEXT: Мега: {0}
 
 RESOURCE ID: pokedex_filter_header
-TEXT: FILTER BY:
+TEXT: ФИЛЬТР
 
 RESOURCE ID: pokedex_mode_name_all
 TEXT: Все
@@ -28905,10 +29186,10 @@ RESOURCE ID: pokedex_sort_number
 TEXT: Номер
 
 RESOURCE ID: pokedex_status_caught
-TEXT: Были пойманы
+TEXT: Пойманные
 
 RESOURCE ID: pokedex_status_seen
-TEXT: Замечено
+TEXT: Замеченные
 
 RESOURCE ID: pokemon_buddy_info_transfer_to_professor_confirmation
 TEXT: Ты действительно хочешь передать этого Покемона-приятеля?
@@ -38183,25 +38464,25 @@ RESOURCE ID: pokemon_shiny_info_transfer_to_professor_confirmation
 TEXT: Ты действительно хочешь передать этого Сияющего Покемона?
 
 RESOURCE ID: pokemon_size_huge_encounter
-TEXT: Огромный!
+TEXT: It's huge!
 
 RESOURCE ID: pokemon_size_new_banner
-TEXT: Новый рекорд
+TEXT: New Record
 
 RESOURCE ID: pokemon_size_new_height_title
-TEXT: Новый рекорд роста
+TEXT: New Height Record
 
 RESOURCE ID: pokemon_size_new_tag
-TEXT: Новый
+TEXT: New
 
 RESOURCE ID: pokemon_size_new_title
-TEXT: Новый рекорд размера
+TEXT: New Size Record
 
 RESOURCE ID: pokemon_size_new_weight_title
-TEXT: Новый рекорд веса
+TEXT: New Weight Record
 
 RESOURCE ID: pokemon_size_tiny_encounter
-TEXT: Крошечный!
+TEXT: It's tiny!
 
 RESOURCE ID: pokemon_transfer_legendary_confirmation
 TEXT: Среди выбранных тобой Покемонов есть Легендарные или Мифические Покемоны! Ты точно хочешь передать выбранных Покемонов?
@@ -38267,64 +38548,64 @@ RESOURCE ID: pokemon_unfavorite_error
 TEXT: Не удалось удалить Покемона из избранных.
 
 RESOURCE ID: pokemon_vivillon_form_archipelago
-TEXT: Archipelago
+TEXT: Архипелаг
 
 RESOURCE ID: pokemon_vivillon_form_continental
-TEXT: Continental
+TEXT: Континентальный
 
 RESOURCE ID: pokemon_vivillon_form_elegant
-TEXT: Elegant
+TEXT: Элегантный
 
 RESOURCE ID: pokemon_vivillon_form_fancy
-TEXT: Fancy
+TEXT: Модный
 
 RESOURCE ID: pokemon_vivillon_form_garden
-TEXT: Garden
+TEXT: Садовый
 
 RESOURCE ID: pokemon_vivillon_form_high_plains
-TEXT: High Plains
+TEXT: Высокие равнины
 
 RESOURCE ID: pokemon_vivillon_form_icy_snow
-TEXT: Icy Snow
+TEXT: Ледяной снег
 
 RESOURCE ID: pokemon_vivillon_form_jungle
-TEXT: Jungle
+TEXT: Джунгли
 
 RESOURCE ID: pokemon_vivillon_form_marine
-TEXT: Marine
+TEXT: Морской
 
 RESOURCE ID: pokemon_vivillon_form_meadow
-TEXT: Meadow
+TEXT: Луговой
 
 RESOURCE ID: pokemon_vivillon_form_modern
-TEXT: Modern
+TEXT: Современный
 
 RESOURCE ID: pokemon_vivillon_form_monsoon
-TEXT: Monsoon
+TEXT: Муссонный
 
 RESOURCE ID: pokemon_vivillon_form_ocean
-TEXT: Ocean
+TEXT: Океанский
 
 RESOURCE ID: pokemon_vivillon_form_pokebal
-TEXT: Poké Ball
+TEXT: С Поке-Боллом
 
 RESOURCE ID: pokemon_vivillon_form_polar
-TEXT: Polar
+TEXT: Полярный
 
 RESOURCE ID: pokemon_vivillon_form_river
-TEXT: River
+TEXT: Речной
 
 RESOURCE ID: pokemon_vivillon_form_sandstorm
-TEXT: Sandstorm
+TEXT: Песчаная буря
 
 RESOURCE ID: pokemon_vivillon_form_savanna
-TEXT: Savanna
+TEXT: Саванный
 
 RESOURCE ID: pokemon_vivillon_form_sun
-TEXT: Sun
+TEXT: Солнечный
 
 RESOURCE ID: pokemon_vivillon_form_tundra
-TEXT: Tundra
+TEXT: Тундра
 
 RESOURCE ID: pokemon_with_tag_count
 TEXT: Покемоны с этим тегом: {0}.
@@ -38339,10 +38620,10 @@ RESOURCE ID: pokemon_won_notification_toast|2
 TEXT: {0} одержал победу над твоими противниками!
 
 RESOURCE ID: pokemon_xxl_info_transfer_to_professor_confirmation
-TEXT: Ты точно хочешь передать этого Покемона XXL?
+TEXT: Do you really want to transfer this XXL Pokémon?
 
 RESOURCE ID: pokemon_xxs_info_transfer_to_professor_confirmation
-TEXT: Ты точно хочешь передать этого Покемона XXS?
+TEXT: Do you really want to transfer this XXS Pokémon?
 
 RESOURCE ID: pokemonstorageupgrade.1_description
 TEXT: Увеличивает максимальное количество твоих Покемонов на {0}.
@@ -38941,6 +39222,9 @@ TEXT: Таинственные предметы
 RESOURCE ID: quest_breakthrough_reward_stardust
 TEXT: Звёздная Пыль
 
+RESOURCE ID: quest_buddy_affection_days_in_a_row
+TEXT: Заработай сердечко с твоим приятелем {0} дн. подряд
+
 RESOURCE ID: quest_buddy_battle_trainer_adventuring_plural
 TEXT: Сразись с другим Тренером вместе со своим Покемоном-приятелем, пока он путешествует с тобой ×{0}
 
@@ -38955,6 +39239,15 @@ TEXT: Получи сувенир от своего приятеля
 
 RESOURCE ID: quest_buddy_walk_km_plural
 TEXT: Пройди {0} км со своим Покемоном-приятелем
+
+RESOURCE ID: quest_bulbt_catch_b
+TEXT: Поймай {0} Бульбазавров
+
+RESOURCE ID: quest_bulbt_evolve_b
+TEXT: Эволюционируй {0} Бульбазавров
+
+RESOURCE ID: quest_bulbt_evolve_s1
+TEXT: Эволюционируй {0} Айвизавров
 
 RESOURCE ID: quest_catch_b_types_plural
 TEXT: Поймай {0} электрических, обычных или ядовитых Покемонов
@@ -39003,6 +39296,9 @@ TEXT: Используй ягоды для поимки Покемонов: {0}
 
 RESOURCE ID: quest_catch_feed_singular
 TEXT: Используй 1 ягоду для поимки Покемона
+
+RESOURCE ID: quest_catch_furfou_singular
+TEXT: Поймай 1 Фурфу
 
 RESOURCE ID: quest_catch_in_day_plural
 TEXT: Поймай {0} Покемонов за день
@@ -39559,6 +39855,9 @@ TEXT: Исследование иллюзий
 RESOURCE ID: quest_complete_bidoof_branch_quest
 TEXT: БИДУФ
 
+RESOURCE ID: quest_complete_bulbt
+TEXT: Классический день сообщества: Бульбазавр
+
 RESOURCE ID: quest_complete_celebi
 TEXT: Рябь времени
 
@@ -39591,6 +39890,9 @@ TEXT: Великий Гастли
 
 RESOURCE ID: quest_complete_hallowyamas
 TEXT: Жуткая развязка: срывая маски
+
+RESOURCE ID: quest_complete_hoppt
+TEXT: Прыг-скок
 
 RESOURCE ID: quest_complete_macht
 TEXT: К вершине, Мачоп!
@@ -39666,6 +39968,9 @@ TEXT: Яркий свет, искра и луч
 
 RESOURCE ID: quest_complete_snivt
 TEXT: Снайви на солнышке
+
+RESOURCE ID: quest_complete_sphet
+TEXT: Сила Сфила
 
 RESOURCE ID: quest_complete_spiritomb
 TEXT: Жуткое сообщение 2018
@@ -40162,18 +40467,6 @@ TEXT: Поймай {0} Электабаззов
 RESOURCE ID: quest_elect_evolve_b
 TEXT: Эволюционируй Электабаззов: {0}
 
-RESOURCE ID: quest_elite4_a
-TEXT: Победи Элитную Четвёрку Тура GO: Тренер Меса
-
-RESOURCE ID: quest_elite4_b
-TEXT: Победи Элитную Четвёрку Тура GO: Тренер Кейв
-
-RESOURCE ID: quest_elite4_c
-TEXT: Победи Элитную Четвёрку Тура GO: Тренер Оушен
-
-RESOURCE ID: quest_elite4_d
-TEXT: Победи Элитную Четвёрку Тура GO: Тренер Саванна
-
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: Эксегкьют-квест: Сразись в Гиме
 
@@ -40267,6 +40560,9 @@ TEXT: Эволюционируй 1 Покемона: Балтой
 RESOURCE ID: quest_evolve_barboach_singular
 TEXT: Эволюционируй 1 Покемона: Барбоч
 
+RESOURCE ID: quest_evolve_bayleef
+TEXT: Эволюционируй своего Бэйлифа
+
 RESOURCE ID: quest_evolve_bayleef_singular
 TEXT: Эволюционируй 1 Покемона: Бэйлиф
 
@@ -40351,6 +40647,9 @@ TEXT: Эволюционируй 1 Покемона: Чераби
 RESOURCE ID: quest_evolve_chespin_singular
 TEXT: Эволюционируй 1 Покемона: Чеспин
 
+RESOURCE ID: quest_evolve_chikorita
+TEXT: Эволюционируй своего Чикориту
+
 RESOURCE ID: quest_evolve_chikorita_singular
 TEXT: Эволюционируй 1 Покемона: Чикорита
 
@@ -40384,6 +40683,12 @@ TEXT: Эволюционируй 1 Покемона: Комбаскен
 RESOURCE ID: quest_evolve_corphish_singular
 TEXT: Эволюционируй 1 Покемона: Корфиш
 
+RESOURCE ID: quest_evolve_cosmoem_singular
+TEXT: Эволюционируй Космоема
+
+RESOURCE ID: quest_evolve_cosmog_singular
+TEXT: Эволюционируй Космога
+
 RESOURCE ID: quest_evolve_cottonee_singular
 TEXT: Эволюционируй 1 Покемона: Коттони
 
@@ -40393,6 +40698,9 @@ TEXT: Эволюционируй 1 Покемона: Кранидос
 RESOURCE ID: quest_evolve_croagunk_singular
 TEXT: Эволюционируй 1 Покемона: Кроганк
 
+RESOURCE ID: quest_evolve_croconaw
+TEXT: Эволюционируй своего Кроконава
+
 RESOURCE ID: quest_evolve_croconaw_singular
 TEXT: Эволюционируй 1 Покемона: Кроконав
 
@@ -40401,6 +40709,9 @@ TEXT: Эволюционируй 1 Покемона: Кабчу
 
 RESOURCE ID: quest_evolve_cubone_singular
 TEXT: Эволюционируй 1 Покемона: Кьюбон
+
+RESOURCE ID: quest_evolve_cyndaquil
+TEXT: Эволюционируй своего Синдаквила
 
 RESOURCE ID: quest_evolve_cyndaquil_singular
 TEXT: Эволюционируй 1 Покемона: Синдаквил
@@ -40963,6 +41274,9 @@ TEXT: Эволюционируй 1 Покемона: Пьюпитар
 RESOURCE ID: quest_evolve_purrloin_singular
 TEXT: Эволюционируй 1 Покемона: Пуррлойн
 
+RESOURCE ID: quest_evolve_quilava
+TEXT: Эволюционируй своего Квилаву
+
 RESOURCE ID: quest_evolve_quilava_singular
 TEXT: Эволюционируй 1 Покемона: Квилава
 
@@ -41241,6 +41555,9 @@ TEXT: Эволюционируй 1 Покемона: Тогэтик
 
 RESOURCE ID: quest_evolve_torchic_singular
 TEXT: Эволюционируй 1 Покемона: Торчик
+
+RESOURCE ID: quest_evolve_totodile
+TEXT: Эволюционируй своего Тотодайла
 
 RESOURCE ID: quest_evolve_totodile_singular
 TEXT: Эволюционируй 1 Покемона: Тотодайл
@@ -41911,6 +42228,60 @@ TEXT: Заработай 5 золотых медалей
 RESOURCE ID: quest_gold_medal_singular
 TEXT: Заработай золотую медаль
 
+RESOURCE ID: quest_gotour2022_sr_title
+TEXT: Тур Pokémon GO: Джото
+
+RESOURCE ID: quest_gotour2022_sr_title_1
+TEXT: Тур Pokémon GO: Джото (1/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_10
+TEXT: Тур Pokémon GO: Джото (10/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_11
+TEXT: Тур Pokémon GO: Джото (11/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_2
+TEXT: Тур Pokémon GO: Джото (2/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_3
+TEXT: Тур Pokémon GO: Джото (3/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_4
+TEXT: Тур Pokémon GO: Джото (4/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_5
+TEXT: Тур Pokémon GO: Джото (5/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_6
+TEXT: Тур Pokémon GO: Джото (6/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_7
+TEXT: Тур Pokémon GO: Джото (7/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_8
+TEXT: Тур Pokémon GO: Джото (8/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_9
+TEXT: Pokémon GO Tour: Johto (9/11)
+
+RESOURCE ID: quest_gotour_branch_chikorita_description
+TEXT: Ты сможешь поймать Чикориту и заработать Чикорита-конфеты. А также ты получишь задания, где нужно эволюционировать и делать фото Чикориты.
+
+RESOURCE ID: quest_gotour_branch_chikorita_title
+TEXT: Выбери Чикориту
+
+RESOURCE ID: quest_gotour_branch_cyndaquil_description
+TEXT: Ты сможешь поймать Синдаквила и заработать Синдаквил-конфеты. А также ты получишь задания, где нужно эволюционировать и делать фото Синдаквила.
+
+RESOURCE ID: quest_gotour_branch_cyndaquil_title
+TEXT: Выбери Синдаквила
+
+RESOURCE ID: quest_gotour_branch_totodile_description
+TEXT: Ты сможешь поймать Тотодайла и заработать Тотодайл-конфеты. А также ты получишь задания, где нужно эволюционировать и делать фото Тотодайла.
+
+RESOURCE ID: quest_gotour_branch_totodile_title
+TEXT: Выбери Тотодайла
+
 RESOURCE ID: quest_gotour_kanto_bonus
 TEXT: Тур Pokémon GO: Канто - Бонусное событие
 
@@ -41922,21 +42293,6 @@ TEXT: Тур Pokémon GO: Канто - Бонусное событие (2/3)
 
 RESOURCE ID: quest_gotour_kanto_bonus_3
 TEXT: Тур Pokémon GO: Канто - Бонусное событие (3/3)
-
-RESOURCE ID: quest_gotoursik_photo_beginning
-TEXT: Сделай фотографию на территории Начала приключений
-
-RESOURCE ID: quest_gotoursik_photo_instinct
-TEXT: Сделай фотографию на территории на территории Команды Инстинкт
-
-RESOURCE ID: quest_gotoursik_photo_mystic
-TEXT: Сделай фотографию на территории на территории Команды Мистика
-
-RESOURCE ID: quest_gotoursik_photo_valor
-TEXT: Сделай фотографию на территории на территории Команды Доблесть
-
-RESOURCE ID: quest_gotoursik_photo_willow
-TEXT: Сделай фотографию на территории Профессора Уиллоу
 
 RESOURCE ID: quest_gt_catch_b
 TEXT: Поймай {0} Гастли
@@ -41979,6 +42335,15 @@ TEXT: Праздник Хоэнн – Выносить яйца: {0}
 
 RESOURCE ID: quest_hoenn_celebration_research
 TEXT: Квест: Праздник Хоэнн
+
+RESOURCE ID: quest_hoppt_catch_b
+TEXT: Поймай {0} Хоппипов
+
+RESOURCE ID: quest_hoppt_evolve_b
+TEXT: Эволюционируй {0} Хоппипов
+
+RESOURCE ID: quest_hoppt_evolve_s1
+TEXT: Эволюционируй Скиплума: {0}
 
 RESOURCE ID: quest_incense_plural
 TEXT: Используй ладаны: {0}
@@ -42051,6 +42416,9 @@ TEXT: Тур GO: Поймай Манки
 
 RESOURCE ID: quest_kanto_red_oddish
 TEXT: Тур GO: Поймай Оддиша
+
+RESOURCE ID: quest_lampent_evolve_b
+TEXT: Evolve {0} Lampent
 
 RESOURCE ID: quest_land_curve_type_ghost
 TEXT: Примени кручёные броски к Покемонам типа Привидения: {0}
@@ -42138,6 +42506,15 @@ TEXT: Сделай 1 хороший бросок
 
 RESOURCE ID: quest_land_nice_type_ghost
 TEXT: Примени хорошие броски к Покемонам типа Привидения: {0}
+
+RESOURCE ID: quest_litwick_catch_b
+TEXT: Catch {0} Litwick
+
+RESOURCE ID: quest_litwick_evolve_b
+TEXT: Evolve {0} Litwick
+
+RESOURCE ID: quest_litwick_snapshot_b
+TEXT: Take {0} snapshots of Litwick
 
 RESOURCE ID: quest_lucky_plural
 TEXT: Получи {0} Удачливых Покемонов при обмене
@@ -42289,6 +42666,18 @@ TEXT: Усиль {0} насекомых Покемонов
 RESOURCE ID: quest_power_up_plural_dark
 TEXT: Усиль {0} тёмных Покемонов
 
+RESOURCE ID: quest_power_up_plural_electric
+TEXT: Усиль {0} электрических Покемонов
+
+RESOURCE ID: quest_power_up_plural_fighting
+TEXT: Усиль {0} боевых Покемонов
+
+RESOURCE ID: quest_power_up_plural_ground
+TEXT: Усиль {0} земляных Покемонов
+
+RESOURCE ID: quest_power_up_plural_normal
+TEXT: Усиль {0} обычных Покемонов
+
 RESOURCE ID: quest_power_up_plural_poison
 TEXT: Усиль {0} ядовитых Покемонов
 
@@ -42297,6 +42686,9 @@ TEXT: Усиль {0} каменных Покемонов
 
 RESOURCE ID: quest_power_up_plural_steel
 TEXT: Усиль {0} стальных Покемонов
+
+RESOURCE ID: quest_power_up_plural_water
+TEXT: Усиль {0} водных Покемонов
 
 RESOURCE ID: quest_power_up_singular
 TEXT: Усиль 1 Покемона
@@ -42309,6 +42701,9 @@ TEXT: Поймай {0} психических Покемонов
 
 RESOURCE ID: quest_psychicspec_evolve_plural
 TEXT: Эволюционируй Эксегкьюта или Слоупока: {0}
+
+RESOURCE ID: quest_raid_friend_singular
+TEXT: Прими участие в рейде вместе с другом
 
 RESOURCE ID: quest_raid_with_buddy_plural
 TEXT: Сразись в {0} рейдах со своим приятелем
@@ -42344,10 +42739,10 @@ RESOURCE ID: quest_reward_desc_2
 TEXT: Необходимо собрать:
 
 RESOURCE ID: quest_reward_desc_3_plural
-TEXT: Ещё наклеек: {0}!
+TEXT: ещё {0} наклейки!
 
 RESOURCE ID: quest_reward_desc_3_singular
-TEXT: Ещё {0} наклейку!
+TEXT: ещё {0} наклейку!
 
 RESOURCE ID: quest_reward_encounter_later
 TEXT: Позже
@@ -42484,6 +42879,12 @@ TEXT: Отправь подарки друзьям: {0}
 RESOURCE ID: quest_send_gifts_singular
 TEXT: Отправь 1 подарок другу
 
+RESOURCE ID: quest_send_gifts_sticker_plural
+TEXT: Отправь подарки с наклейкой: {0}
+
+RESOURCE ID: quest_send_gifts_sticker_singular
+TEXT: Отправить подарок с наклейкой
+
 RESOURCE ID: quest_shint_catch_b
 TEXT: Поймай {0} Шинксов
 
@@ -42501,6 +42902,12 @@ TEXT: Сделай фото Бульбазавра
 
 RESOURCE ID: quest_snapshot_charmander
 TEXT: Сделай фото Чармандера
+
+RESOURCE ID: quest_snapshot_chikorita
+TEXT: Сделай фото своего Чикориты
+
+RESOURCE ID: quest_snapshot_cyndaquil
+TEXT: Сделай фото своего Синдаквила
 
 RESOURCE ID: quest_snapshot_genesect
 TEXT: Сделай {0} фото Дженесекта
@@ -42535,6 +42942,9 @@ TEXT: Сделай фото Тандуруса
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: Сделай фото Торнадуса
 
+RESOURCE ID: quest_snapshot_totodile
+TEXT: Сделай фото своего Тотодайла
+
 RESOURCE ID: quest_snapshot_unique_fire_pokemon
 TEXT: Сделай {0} фото разных огненных Покемонов
 
@@ -42567,6 +42977,9 @@ TEXT: Сделай фото дикого Иви
 
 RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: Сделай {0} фото диких электрических Покемонов
+
+RESOURCE ID: quest_snapshot_wild_entei
+TEXT: Сделай фото дикого Энтея
 
 RESOURCE ID: quest_snapshot_wild_fairy_plural
 TEXT: Сделай {0} фото диких Покемонов типа Феи
@@ -42610,6 +43023,9 @@ TEXT: Сделай фото дикого Метапода, Эйпома или �
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
 TEXT: Сделай фото дикого Чинчоу, Лавдиска или Финнеона
 
+RESOURCE ID: quest_snapshot_wild_mareanie_singluar
+TEXT: Сделай фото дикого Марини
+
 RESOURCE ID: quest_snapshot_wild_normal_plural
 TEXT: Сделай {0} фото диких обычных Покемонов
 
@@ -42621,6 +43037,9 @@ TEXT: Сделай {0} фото диких ядовитых Покемонов
 
 RESOURCE ID: quest_snapshot_wild_psychic_plural
 TEXT: Сделай {0} фото диких психических Покемонов
+
+RESOURCE ID: quest_snapshot_wild_raikou
+TEXT: Сделай фото дикого Райку
 
 RESOURCE ID: quest_snapshot_wild_rock_plural
 TEXT: Сделай {0} фото диких каменных Покемонов
@@ -42642,6 +43061,9 @@ TEXT: Сделай {0} фото диких стальных Покемонов
 
 RESOURCE ID: quest_snapshot_wild_steel_unique_plural
 TEXT: Сделай фото {0} разных диких стальных Покемонов
+
+RESOURCE ID: quest_snapshot_wild_suicune
+TEXT: Сделай фото дикого Суикуна
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
 TEXT: Сделай фото дикого Сэндшрю, Трапинча или Какнеи
@@ -43030,6 +43452,75 @@ TEXT: В знак благодарности за твою усердную ра
 RESOURCE ID: quest_special_dialogue_bidoof_branch_quest_3_2
 TEXT: Почему бы тебе не надеть его и не сходить прогуляться со своим Бидуфом? Никогда не знаешь, что найдёшь! А теперь ИДИ И ЛОВИ!
 
+RESOURCE ID: quest_special_dialogue_bulbt_0_0
+TEXT: Привет, %PLAYERNAME%! Оглянись – вокруг полно Бульбазавров!
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_1
+TEXT: Лично я только один раз был свидетелем подобного зрелища. Это было недавно. Я видел много Тренеров, которые собирались поймать всех этих маленьких Покемонов-Семя.
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_2
+TEXT: На самом деле, снова увидев всех этих Бульбазавров, я почувствовал сильную ностальгию!
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_3
+TEXT: Это также напомнило мне о важном научном принципе: всегда есть чему поучиться! И я никогда не устаю исследовать Покемонов, независимо от их вида.
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_4
+TEXT: А теперь что ты скажешь, если мы проведём небольшое исследование Бульбазавра, Тренер?
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_0
+TEXT: С возвращением, Тренер. Тебе удалось поймать совершенно очаровательного Бульбазавра!
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_1
+TEXT: Ты в курсе, что Бульбазавр использует для роста питательные вещества, хранящиеся в семенах на его спине?
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_2
+TEXT: Я бы тоже хотел иметь встроенный рюкзак с закусками. В полевых условиях мой желудок успокоился бы, это точно! Ха-ха!
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_3
+TEXT: Как ты, возможно, знаешь, эволюция Бульбазавра – Ивизавр – набирает силу, когда подвергается воздействию солнечного света.
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_4
+TEXT: Солнечный свет также увеличивает рост бутона на его спине. Было бы здорово стать свидетелем этого явления.
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_5
+TEXT: Пока ты будешь занят эволюцией своего Бульбазавра, я продолжу наблюдать за этой группой Бульбазавров. Кажется, они куда-то направляются!
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_0
+TEXT: Ничего себе, посмотри на размер этого Айвизавра! Молодец, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_1
+TEXT: Если мне не изменяет память, бутон на спине Айвизавра испускает сладкий аромат. Когда бутон начинает набухать, это значит, что цветок вот-вот распустится.
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_2
+TEXT: Чувствуешь запах этого аромата? Если да, твой Айвизавр может быть готов к эволюции!
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_3
+TEXT: Ты помнишь группу Бульбазавров, за которой я следил? Несколько Айвизавров недавно вышли из соседнего леса, чтобы присоединиться к ним.
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_4
+TEXT: Все они, кажется, движутся в одном направлении... Интересно, какова их цель? Пойдём посмотрим, не сможем ли мы найти ответы, а?
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_0
+TEXT: С возвращением, %PLAYERNAME%. Подожди, этот Венузавр с тобой?! Должно быть, это мой счастливый день.
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_1
+TEXT: Видишь ли, Бульбазавр и Айвизавр, за которыми я следовал, привели меня в рощу, где отдыхал Венузавр. В воздухе витал необычный запах, который, казалось, успокаивал собравшихся Покемонов.
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_2
+TEXT: Я читал, что Венузавр иногда испускает запах, привлекающий других Покемонов, поэтому я предположил, что именно это и произошло.
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_3
+TEXT: На самом деле, то, что Венузавр привлёк к себе Бульбазавра и Айвизавра с помощью запаха, напомнило мне, как работают приманки.
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_4
+TEXT: Теперь давай поговорим о Венузавре. Ты в курсе, что он может мегаэволюционировать?
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_5
+TEXT: Возьми Мегаэнергию Венузавра и попробуй мегаэволюционировать своего нового друга. Ты узнаешь больше, испытав силу Мега-Венузавра на себе!
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_6
+TEXT: Мы можем многому научиться у Покемонов, и их исследование может привести нас к ещё более захватывающим открытиям. Надеюсь, тебе понравилась сегодняшняя научная экскурсия!
+
 RESOURCE ID: quest_special_dialogue_celebi_0_0
 TEXT: %PLAYERNAME%, спасибо за помощь в проведении полевых и специальных квестов!
 
@@ -43215,6 +43706,54 @@ TEXT: Действие ладана ежедневных приключений 
 
 RESOURCE ID: quest_special_dialogue_dailyincense_0_2
 TEXT: Я буду давать тебе один ладан ежедневных приключений каждый день, так что смело отправляйся навстречу приключениям! Может, начнём прямо сейчас? Попробуй поймать как можно больше Покемонов!
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_0
+TEXT: Привет, %PLAYERNAME%! Вот мы и приблизились к завершению ещё одного года...
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_1
+TEXT: И похоже, что снова появляются некоторые Покемоны, которых мы встречали в течение этого года!
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_2
+TEXT: Может, они пришли отпраздновать окончание года вместе с нами?
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_3
+TEXT: Давай на минутку задумаемся о том, как ты день ото дня становишься всё лучшим Тренером, и вспомним все наши приключения за последние 12 месяцев.
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_4
+TEXT: Мы достигли невозможного, создали легенды и так много узнали о себе! Каким моментом ты больше всего гордишься?
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_0
+TEXT: С возвращением, %PLAYERNAME%! Ух, только посмотри на всех Покемонов, которых тебе удалось поймать! Как насчёт ещё одного испытания?
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_1
+TEXT: Сможешь эволюционировать нескольких для меня? У тебя в этом году была и своя тренерская эволюция. Особенно после всего времени, проведённого с Хуппой.
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_2
+TEXT: Как он озорничал в этом году! Помнишь, как он вызвал Легендарных Покемонов?
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_3
+TEXT: Благодаря дружбе между Тренером и Покемоном подчас меняется не только внешний вид Покемона, но и многое другое.
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_4
+TEXT: Просто подумай об этом, когда будешь сегодня эволюционировать своих Покемонов!
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_0
+TEXT: Новый год уже не за горами, и я вовсю подвожу итоги уходящего года. Чему нас научили истории разных мест, Покемонов и других Тренеров?
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_1
+TEXT: Кстати, я уже говорил о странной двери, которую недавно нашёл? Что-то мне подсказывает, что нас ждёт настоящее приключение!
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_2
+TEXT: Интересно, какие тайны скрываются за этой дверью. Что эта реликвия может рассказать нам о прошлом – и нашем общем будущем?..
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_3
+TEXT: Прости, о чём я говорил? Ах да! Обязательно поймай много Покемонов, изучи, как они эволюционируют, и, может, поработай ещё над бросками Поке-Болла. Давай к концу года наполнимся новыми знаниями!
+
+RESOURCE ID: quest_special_dialogue_dec2021_3_0
+TEXT: Тебе удалось дойти до конца, %PLAYERNAME%! Вот награда за твой упорный труд. Прими её в знак благодарности за твою помощь в этом году.
+
+RESOURCE ID: quest_special_dialogue_dec2021_3_1
+TEXT: Я буду с нетерпением ждать новых приключений с тобой в следующем году! У тебя всё готово? Тогда ИДИ и ЛОВИ!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_0
 TEXT: Привет, %PLAYERNAME%! Рад тебя видеть. Даже не верится, что этот год уже подходит к концу, не правда ли?
@@ -44217,6 +44756,54 @@ TEXT: «Если ты захочешь,
 
 помогут ему стать Свободным.
 
+RESOURCE ID: quest_special_dialogue_hoppt_0_0
+TEXT: Привет, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_1
+TEXT: Я только что увидел удивительную вещь: сотни Хоппипов заполнили пространство в небе! Их было столько, что казалось, будто облака стали розовыми.
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_2
+TEXT: Это прекрасная возможность узнать побольше о Хоппипе, Покемоне-Жабнике, не так ли?
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_3
+TEXT: Говорят, что если Хоппипы собираются в полях и горах – это к началу весны.
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_4
+TEXT: А ты чувствуешь весну со всеми этими Хоппипами, парящими в небе? Давай поймаем нескольких, чтобы больше узнать о них.
+
+RESOURCE ID: quest_special_dialogue_hoppt_1_0
+TEXT: Ух, посмотри на всех этих Хоппипов! Эти Покемоны настолько лёгкие, что цепляются ножками за землю, чтобы их не унесло ветром. А ещё они часто сбиваются в стайку и связывают листья, чтобы удержаться на земле.
+
+RESOURCE ID: quest_special_dialogue_hoppt_1_1
+TEXT: Чего Хоппипы только не придумали, чтобы удержаться на одном месте.
+
+RESOURCE ID: quest_special_dialogue_hoppt_1_2
+TEXT: Хоппип также может эволюционировать, и это выглядит очень зрелищно. Не веришь мне на слово? Тогда как насчёт того, чтобы убедиться в этом воочию?
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_0
+TEXT: Какой у тебя милый Скиплум, %PLAYERNAME%! У тебя уже нашлось время изучить его?
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_1
+TEXT: Цветок на голове Скиплума раскрывается и закрывается в зависимости от колебаний температуры. Так как при повышении температуры этот цветок распускается, некоторые Тренеры стали использовать его как градусник. Так интересно, да?
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_2
+TEXT: В тёплую погоду Скиплум также часто парит в воздухе, чтобы быть поближе к солнцу. Я его хорошо понимаю: если бы я мог парить в воздухе и купаться в солнечных лучах, я бы тоже так делал!
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_3
+TEXT: А ты уже знаешь, что Скиплум тоже может эволюционировать? Может попробуешь это сделать?
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_0
+TEXT: Отличная работа, %PLAYERNAME%! Вижу, что у тебя появился свой собственный Джамплафф. Этот Покемон путешествует в потоке ветров, чтобы пересечь море и улететь в чужие страны. В полёте он разбрасывает ватные споры.
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_1
+TEXT: Так здорово путешествовать с ветерком, не находишь? 
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_2
+TEXT: Кстати, о путешествиях. Может, сходите с новым другом на прогулку и примете пару солнечных ванн?
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_3
+TEXT: До скорой встречи, %PLAYERNAME%!
+
 RESOURCE ID: quest_special_dialogue_jj_0_0
 TEXT: Джесси: Джеймс, ты слышал? 
 
@@ -44351,6 +44938,79 @@ TEXT: Джеймс: В следующий раз мы тебя точно поб
 
 RESOURCE ID: quest_special_dialogue_jj_3_7
 TEXT: Джесси: Мы опять в пролёте!
+
+RESOURCE ID: quest_special_dialogue_litwick_0_0
+TEXT: Hey, %PLAYERNAME%! Is it just me, or is there a ghostly chill in the air?
+
+RESOURCE ID: quest_special_dialogue_litwick_0_1
+TEXT: It could have something to do with those lights over there! They belong to Litwick, the Candle Pokémon.
+
+RESOURCE ID: quest_special_dialogue_litwick_0_2
+TEXT: Litwick is known to leech off the life force of any who follow it.
+
+RESOURCE ID: quest_special_dialogue_litwick_0_3
+TEXT: The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns. Makes for a pretty ominous candle, wouldn’t you say?
+
+RESOURCE ID: quest_special_dialogue_litwick_0_4
+TEXT: Litwick appearing in such force makes the perfect chance to learn more about them. I suggest you get up close and see for yourself!
+
+RESOURCE ID: quest_special_dialogue_litwick_0_5
+TEXT: Just be careful not to let Litwick lead you anywhere, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_litwick_1_0
+TEXT: Good day, Trainer. Professor Willow has tasked you with investigating...Litwick, is it?
+
+RESOURCE ID: quest_special_dialogue_litwick_1_1
+TEXT: The flame on its head is certainly alluring. A Pokémon that can bring light to its surroundings… What could be the source of its brilliant glow?
+
+RESOURCE ID: quest_special_dialogue_litwick_1_2
+TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+
+RESOURCE ID: quest_special_dialogue_litwick_1_3
+TEXT: What are your thoughts, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_litwick_2_0
+TEXT: Wow, %PLAYERNAME%! You went looking for Litwick and came back with a lamp! 
+
+RESOURCE ID: quest_special_dialogue_litwick_2_1
+TEXT: I kid—I know a Lampent when I see one! And it was Rhi who suggested you help Litwick evolve? That’s great. We can always learn more when encouraged by our friends!
+
+RESOURCE ID: quest_special_dialogue_litwick_2_2
+TEXT: So, let me tell you about Lampent! While it often pretends to be a lamp, Lampent is usually feared as an emissary of death. 
+
+RESOURCE ID: quest_special_dialogue_litwick_2_3
+TEXT: Through cities it wanders, searching for the spirits of the fallen. Spooky, but appropriate for the season! 
+
+RESOURCE ID: quest_special_dialogue_litwick_2_4
+TEXT: And what a sight that fire is. I’m sure you and Rhi would get a kick out of seeing Lampent’s Evolution, Chandelure, too! But a word of caution, %PLAYERNAME%...
+
+RESOURCE ID: quest_special_dialogue_litwick_2_5
+TEXT: They say spirits burned up in Chandelure's ominous flame lose their way and wander this world forever.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_0
+TEXT: That new Pokémon...
+... ... ...
+
+RESOURCE ID: quest_special_dialogue_litwick_3_1
+TEXT: Oh. My apologies, %PLAYERNAME%. I was...preoccupied gazing at the flame your Pokémon is emanating.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_2
+TEXT: ... ... ...
+
+RESOURCE ID: quest_special_dialogue_litwick_3_3
+TEXT: The swaying of its arms is rather hypnotic.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_4
+TEXT: It's called "Chandelure," is it? And Professor Willow said its flames can burn up spirits? An unsettling thought.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_5
+TEXT: The Pokémon we studied today could easily be seen as frightening. Yet I believe there is a lesson we can take from them.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_6
+TEXT: No matter how dark the world becomes, a little light always persists.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_7
+TEXT: Thank you for teaching me that lesson once again, %PLAYERNAME%. Take care, and I will see you again.
 
 RESOURCE ID: quest_special_dialogue_lvl_43_0_0
 TEXT: Привет, %PLAYERNAME%! Должен сказать, я впечатлён твоими тренерскими успехами.
@@ -45387,36 +46047,6 @@ TEXT: Прошедшие мегаэволюцию Покемоны – это с
 RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_3
 TEXT: Нам ещё многое предстоит узнать о мегаэволюции, поэтому предлагаю не останавливаться на достигнутом. Вперёд!
 
-RESOURCE ID: quest_special_dialogue_melemele_0_0
-TEXT: Привет, %PLAYERNAME%! Всегда рад тебя видеть.
-
-RESOURCE ID: quest_special_dialogue_melemele_0_1
-TEXT: Я заметил, что сегодня как-то по-особенному свежо, как будто дует лёгкий морской бриз. Может, это завтрак со свежевыжатым пайнеповым соком на меня так подействовал?
-
-RESOURCE ID: quest_special_dialogue_melemele_0_2
-TEXT: Или же дело в том, что в последние дни меня посещает много Покемонов, впервые обнаруженных в регионе Алола?
-
-RESOURCE ID: quest_special_dialogue_melemele_0_3
-TEXT: Тебе уже знаком регион Алола, %PLAYERNAME%? Он представляет собой группу тропических островов, каждый из которых отличается уникальной природой и Покемонами.
-
-RESOURCE ID: quest_special_dialogue_melemele_0_4
-TEXT: А ещё в Алоле есть Покемоны, которые внешне отличаются от своих сородичей из других регионов. Возможно, тебе уже встречались некоторые из них!
-
-RESOURCE ID: quest_special_dialogue_melemele_0_5
-TEXT: Попробуй поискать Покемонов, впервые обнаруженных в Алоле, пока я себе наливаю ещё один стаканчик сока. Я уверен, что нам многое предстоит узнать о наших гостях!
-
-RESOURCE ID: quest_special_dialogue_melemele_1_0
-TEXT: Ты как раз вовремя, %PLAYERNAME%! Я только что допил сок.
-
-RESOURCE ID: quest_special_dialogue_melemele_1_1
-TEXT: Спасибо за изучение Покемонов региона Алола! Ты всегда берёшься за дело с большим усердием.
-
-RESOURCE ID: quest_special_dialogue_melemele_1_2
-TEXT: Покажи, что тебе удалось обнаружить. Хм... Похоже, многие Покемоны, которые тебе встретились, обитают на острове Мелемеле в Алоле.
-
-RESOURCE ID: quest_special_dialogue_melemele_1_3
-TEXT: Именно на острове Мелемеле многие Тренеры Алолы начинают испытание Вызов острова. Забавно, что тебе только что встретились те же Покемоны, что обычно встречаются Тренерам в Алоле!
-
 RESOURCE ID: quest_special_dialogue_melemele_1_4
 TEXT: Что ж, давай ещё немного повеселимся! Можешь сделать несколько фотографий своих новых друзей Покемонов и покормить их ягодами, %PLAYERNAME%?
 
@@ -46351,6 +46981,93 @@ TEXT: Я ценю твою усердную работу, %PLAYERNAME%, и да�
 
 RESOURCE ID: quest_special_dialogue_poryt_3_6
 TEXT: А пока ИДИ И ЛОВИ!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_0
+TEXT: %PLAYERNAME%, у меня есть новости, в которые трудно поверить!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_1
+TEXT: Ты знаешь катающихся Покемонов, похожих на Поке-Боллы?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_10
+TEXT: Возникает вопрос: почему Гисуйский Волторб появляется сейчас после столь долгого отсутствия? Он каким-то образом попал в настоящее из региона Синно прошлого?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_11
+TEXT: У меня есть теория, что когда Команда Ракета GO взломала таинственную дверь, это каким-то образом перенесло этих Гисуйских Волторбов в наше время.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_12
+TEXT: Это мне напомнило о Селеби – Покемоне, путешествующем во времени...
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_13
+TEXT: Впрочем, это всё, что у меня есть! Кажется невероятным, не правда ли?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_14
+TEXT: Я ещё немного покопаюсь в исследованиях, и мне бы очень пришлась кстати твоя помощь в изучении этих старинных Покемонов в полевых условиях!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_15
+TEXT: Давай исследовать Гисуйского Волторба вместе.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_2
+TEXT: Они очень похожи на Волторба – Покемона родом из региона Канто, –  но я никогда не видел таких Волторбов.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_3
+TEXT: Я обратился ко всем, кого только знаю, и изучил все исследовательские работы, которые мог достать. Но поверь, в современной науке этот Покемон не упоминается!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_4
+TEXT: Тем не менее, я кое-что нашёл. Ты наверное знаешь, что регион Синно раньше был известен как регион Гисуи?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_5
+TEXT: Что ж, я нашёл историческую документацию о старомодном Поке-Болле, разработанном давным-давно в регионе Гисуи, и понял, что он очень похож на этого таинственного Покемона. Или может быть наоборот?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_6
+TEXT: Сейчас уже непонятно, что появилось сначала: Поке-Болл или Покемон?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_7
+TEXT: Принимая всё это во внимание, я считаю, что этот аномальный Покемон на самом деле является Волторбом, который когда-то жил в регионе Гисуи.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_8
+TEXT: Является ли он региональным вариантом, если он существовал только в прошлом? Пока это загадка!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_9
+TEXT: На данный момент, я полагаю, мы можем назвать этого Покемона Гисуйским Волторбом?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_0
+TEXT: Я всё ещё не в себе, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_1
+TEXT: Ты можешь поверить, что вокруг нас появляются Покемоны из другого времени?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_10
+TEXT: Так или иначе. Наше последнее исследование было захватывающим, не так ли, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_11
+TEXT: Я уверен, что нас ждут ещё более захватывающие открытия!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_12
+TEXT: Давай посмотрим, что ещё принесёт наше совместное приключение.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_2
+TEXT: Интересно, что этот Покемон видел в регионе Гисуи и что он думает о будущем, которое вдруг увидел сейчас!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_3
+TEXT: Ах, регион Гисуи... Интересно, какие ещё виды Покемонов там жили.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_4
+TEXT: Чего бы я только не отдал, чтобы вернуться в прошлое и лично познакомиться с регионом Гисуи! Это была бы мечта!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_5
+TEXT: Может быть, если я когда-нибудь встречу Селеби, я смогу попросить его о коротком путешествии в прошлое, просто чтобы удовлетворить свое любопытство!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_6
+TEXT: ...Но я уверен, что это невозможно. Зато как приятно мечтать!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_7
+TEXT: В любом случае, я решил исследовать, может ли эволюционировать Гисуйский Волторб.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_8
+TEXT: Понятия не имею, если это возможно, но меня не остановить. Я хочу узнать всё об этом странном и чудесном Покемоне.
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_9
+TEXT: Ведь не каждый день тебе в руки падает такой взрыв из прошлого! Дошло? Потому что Волторб умеет самоуничтожаться! Ха-ха...
 
 RESOURCE ID: quest_special_dialogue_rocket_0_0
 TEXT: Привет, %PLAYERNAME%, рад тебя видеть! Поможешь мне с моим квестом?
@@ -47946,6 +48663,84 @@ TEXT: Но не обращай внимания на мои размышлени
 RESOURCE ID: quest_special_dialogue_season8_2_8
 TEXT: Так или иначе мне не терпится побольше узнать о Космоге и познакомиться с ним поближе.
 
+RESOURCE ID: quest_special_dialogue_season8_3_0
+TEXT: Привет, %PLAYERNAME%! Всегда рад тебя видеть.
+
+RESOURCE ID: quest_special_dialogue_season8_3_1
+TEXT: Как дела у тебя и у Ри? Удалось узнать что-нибудь новое об этом таинственном Покемоне?
+
+RESOURCE ID: quest_special_dialogue_season8_3_2
+TEXT: Ты говоришь, Ри удалось его распознать? И его зовут Космог? Невероятно! Информация из другого измерения действительно помогает расширить наши знания.
+
+RESOURCE ID: quest_special_dialogue_season8_3_3
+TEXT: Но всё же, когда речь идёт об исследовании Покемонов, нет ничего лучше, чем увидеть всё собственными глазами. Удалось ли тебе обнаружить что-нибудь интересное за время, проведённое с Космогом, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_season8_3_4
+TEXT: Хм... Понимаю.
+
+RESOURCE ID: quest_special_dialogue_season8_3_5
+TEXT: Похоже, Космог любопытный, но не очень осторожный.
+
+RESOURCE ID: quest_special_dialogue_season8_3_6
+TEXT: Иногда осторожностью пренебрегают и она улетучивается, но в нашем случае, кажется, хватит и лёгкого дуновения ветерка, чтобы от неё не осталось и следа... Что поделаешь!
+
+RESOURCE ID: quest_special_dialogue_season8_3_7
+TEXT: Хорошо, что ты и Ри здесь, чтобы позаботиться о безопасности Космога – так же, как вы позаботились о моей!
+
+RESOURCE ID: quest_special_dialogue_season8_3_8
+TEXT: В любом случае, чем больше времени вы проведёте с Космогом, тем больше мы о нём узнаем. Держите меня в курсе ваших открытий!
+
+RESOURCE ID: quest_special_dialogue_season8_4_0
+TEXT: %PLAYERNAME%. Мои приветствия.
+
+RESOURCE ID: quest_special_dialogue_season8_4_1
+TEXT: Итак, Космог эволюционировал в Космоема.
+
+RESOURCE ID: quest_special_dialogue_season8_4_2
+TEXT: Не волнуйся за его текущее состояние.
+
+RESOURCE ID: quest_special_dialogue_season8_4_3
+TEXT: Это его обычная природа.
+
+RESOURCE ID: quest_special_dialogue_season8_4_4
+TEXT: Даже когда Космоем неподвижен, в его ядре образуется энергия.
+
+RESOURCE ID: quest_special_dialogue_season8_4_5
+TEXT: Я предполагаю, что он готовится эволюционировать и снова станет активным,когда придёт время.
+
+RESOURCE ID: quest_special_dialogue_season8_4_6
+TEXT: Однако, когда именно это произойдёт, находится за гранью моих познаний.
+
+RESOURCE ID: quest_special_dialogue_season8_4_7
+TEXT: Интересно, когда Космоем эволюционирует... Подожди. Мне пришла в голову мысль. Помнишь, как Уиллоу упоминал нечто «тёплое, как солнце, и спокойное, как луна»?
+
+RESOURCE ID: quest_special_dialogue_season8_4_8
+TEXT: Прошу извинить меня, но нам придётся прервать нашу беседу, %PLAYERNAME%. Мне нужно сделать кое какие записи.
+
+RESOURCE ID: quest_special_dialogue_season8_4_9
+TEXT: Пожалуйста, продолжай своё исследование и сообщи Профессору Уиллоу об эволюции Космога в Космоема.
+
+RESOURCE ID: quest_special_dialogue_season8_5_0
+TEXT: %PLAYERNAME%, ты уже здесь! Как дела у Космога ...
+
+RESOURCE ID: quest_special_dialogue_season8_5_1
+TEXT: Оооо! Что это за Покемон? Неужели Космог эволюционировал?! Только посмотри на его сияющую оболочку!
+
+RESOURCE ID: quest_special_dialogue_season8_5_2
+TEXT: Гипотеза Ри в том, что этот «Космоем» останется в таком состоянии, пока не будет готов к эволюции? Отличная теория!
+
+RESOURCE ID: quest_special_dialogue_season8_5_3
+TEXT: Несомненно, проще рассмотреть Покемона поближе, когда он не двигается, но, как ты думаешь, о чём думает Космоем? Может, он спит? А может, он мечтает о приключениях с тобой и Ри!
+
+RESOURCE ID: quest_special_dialogue_season8_5_4
+TEXT: Что же ещё нам предстоит узнать , когда он «станет активным», выражаясь словами Ри? Каким он может стать? В отличие от нашего безмятежного друга, я не могу перестать задаваться вопросами и размышлять о разных возможностях!
+
+RESOURCE ID: quest_special_dialogue_season8_5_5
+TEXT: Мне не терпится увидеть, какие тайны мы разгадаем с тобой, %PLAYERNAME%! А пока продолжай заботиться о Космоеме.
+
+RESOURCE ID: quest_special_dialogue_season8_6_0
+TEXT: Всё ещё в режиме ожидания с Космоемом, %PLAYERNAME%? Не беспокойся: иногда тише едешь – дальше будешь. Возвращайся, когда у тебя появятся новости, я буду ждать тебя.
+
 RESOURCE ID: quest_special_dialogue_shint_0_0
 TEXT: Привет, %PLAYERNAME%! Надеюсь, у тебя всё хорошо.
 
@@ -48068,6 +48863,63 @@ TEXT: В любом случае, ещё раз благодарю за помо
 
 RESOURCE ID: quest_special_dialogue_snivt_3_4
 TEXT: До следующего раза, ИДИ и ЛОВИ!
+
+RESOURCE ID: quest_special_dialogue_sphet_0_0
+TEXT: Привет, %PLAYERNAME%! Рад снова тебя видеть.
+
+RESOURCE ID: quest_special_dialogue_sphet_0_1
+TEXT: Я хотел рассказать тебе о том, что увидел сегодня во время утренней прогулки. Целое стадо Сфилов катилось по ледяному озеру!
+
+RESOURCE ID: quest_special_dialogue_sphet_0_2
+TEXT: Знаешь ли ты, что Сфилы всегда путешествуют, катясь на своём шаровидном теле?
+
+RESOURCE ID: quest_special_dialogue_sphet_0_3
+TEXT: Когда вода замерзает, можно увидеть пересекающих море Сфилов, катящихся по льду.
+
+RESOURCE ID: quest_special_dialogue_sphet_0_4
+TEXT: Эти Покемоны покрыты пушистым мехом, чтобы не замерзнуть в холодном климате. И я тебе скажу, их катание взад и вперёд согрело мне душу!
+
+RESOURCE ID: quest_special_dialogue_sphet_0_5
+TEXT: Почему бы тебе не пойти и не понаблюдать за Сфилами?
+
+RESOURCE ID: quest_special_dialogue_sphet_1_0
+TEXT: С возвращением, %PLAYERNAME%! Я смотрю, теперь у тебя есть Сфил. Разве они не самые кругленькие?
+
+RESOURCE ID: quest_special_dialogue_sphet_1_1
+TEXT: Насколько я знаю, Силео, который эволюционирует из Сфила, не может со мной не согласиться! Иногда можно увидеть, как Силео развлекается, балансируя на носу Сфила, как будто жонглирует мячом.
+
+RESOURCE ID: quest_special_dialogue_sphet_1_2
+TEXT: На самом деле, когда Силео что-то видит впервые, он подкидывает это носом и сразу начинает жонглировать! Почему бы тебе не эволюционировать своего Сфила и не убедиться в этом?
+
+RESOURCE ID: quest_special_dialogue_sphet_2_0
+TEXT: С возвращением, Тренер, и привет, Силео!
+
+RESOURCE ID: quest_special_dialogue_sphet_2_1
+TEXT: У меня для тебя есть новости. Помнишь то ледяное озеро, о котором я тебе раньше рассказывал?
+
+RESOURCE ID: quest_special_dialogue_sphet_2_2
+TEXT: Что ж, похоже, там раскололся лёд, и теперь все Сфилы плещутся в воде! Кажется, им весело, но мне интересно, какой из Покемонов мог бы расколоть лёд.
+
+RESOURCE ID: quest_special_dialogue_sphet_2_3
+TEXT: Я предполагаю, что это Валрейн. Этот Покемон, как известно, плавает в холодной воде, сокрушая льдины своими огромными бивнями. Звучит довольно внушительно!
+
+RESOURCE ID: quest_special_dialogue_sphet_2_4
+TEXT: Можешь эволюционировать своего Силео, чтобы мы смогли сами исследовать Валрейна?
+
+RESOURCE ID: quest_special_dialogue_sphet_3_0
+TEXT: У тебя получилось, Тренер! Бивни Валрейна великолепны, правда?
+
+RESOURCE ID: quest_special_dialogue_sphet_3_1
+TEXT: Знаешь ли ты, что Валрейны обычно собираются в стада по 20-30 особей? И если возникает опасность, вожак стада сделает всё возможное, чтобы защитить группу.
+
+RESOURCE ID: quest_special_dialogue_sphet_3_2
+TEXT: Приятно знать, что они могут позаботиться о себе – хотя, глядя на их бивни, я не думаю, что у кого-то возникнут сомнения. Ха-ха!
+
+RESOURCE ID: quest_special_dialogue_sphet_3_3
+TEXT: Я уверен, что твой Валрейн защитит тебя и в бою. Вы уже выглядите довольно сильной командой!
+
+RESOURCE ID: quest_special_dialogue_sphet_3_4
+TEXT: Спасибо за компанию сегодня, %PLAYERNAME%! Я многому научился из проведённого тобой исследования. До следующего раза, иди и ЛОВИ!
 
 RESOURCE ID: quest_special_dialogue_spiritomb_0_0
 TEXT: Эй, %PLAYERNAME%! Ты пришёл как раз вовремя.
@@ -48870,6 +49722,15 @@ TEXT: Каково это – претерпеть такую глубинную
 RESOURCE ID: quest_special_dialogue_zigzagoon_3_6
 TEXT: Это было невероятно познавательно. Спасибо за твою помощь сегодня, Тренер Покемонов.
 
+RESOURCE ID: quest_sphet_catch_b
+TEXT: Поймай {0} Сфилов
+
+RESOURCE ID: quest_sphet_evolve_b
+TEXT: Эволюционируй {0} Сфилов
+
+RESOURCE ID: quest_sphet_evolve_s1
+TEXT: Эволюционируй {0} Силео
+
 RESOURCE ID: quest_spin_daysinarow
 TEXT: Посети Покестопы {0} дн. подряд
 
@@ -49100,6 +49961,21 @@ TEXT: БИДУФ (3/4)
 
 RESOURCE ID: quest_title_bidoof_branch_quest_3
 TEXT: БИДУФ (4/4)
+
+RESOURCE ID: quest_title_bulbt
+TEXT: Классический день сообщества: Бульбазавр
+
+RESOURCE ID: quest_title_bulbt_0
+TEXT: Классический билет на день сообщества: Бульбазавр (1/4)
+
+RESOURCE ID: quest_title_bulbt_1
+TEXT: Классический билет на день сообщества: Бульбазавр (2/4)
+
+RESOURCE ID: quest_title_bulbt_2
+TEXT: Классический билет на день сообщества: Бульбазавр (3/4)
+
+RESOURCE ID: quest_title_bulbt_3
+TEXT: Классический билет на день сообщества: Бульбазавр (4/4)
 
 RESOURCE ID: quest_title_celebi
 TEXT: Рябь времени
@@ -49383,6 +50259,21 @@ TEXT: Свободный озорник (2/3)
 RESOURCE ID: quest_title_hoopaunbound_2
 TEXT: Свободный озорник (3/3)
 
+RESOURCE ID: quest_title_hoppt
+TEXT: Прыг-скок
+
+RESOURCE ID: quest_title_hoppt_0
+TEXT: Прыг-скок (1/4)
+
+RESOURCE ID: quest_title_hoppt_1
+TEXT: Прыг-скок (2/4)
+
+RESOURCE ID: quest_title_hoppt_2
+TEXT: Прыг-скок (3/4)
+
+RESOURCE ID: quest_title_hoppt_3
+TEXT: Прыг-скок (4/4)
+
 RESOURCE ID: quest_title_jirachi_0
 TEXT: Фестиваль GO 2019 – Чикаго (1/5)
 
@@ -49475,6 +50366,21 @@ TEXT: Нечто сияющее (3/4)
 
 RESOURCE ID: quest_title_jj_special_research_3
 TEXT: Нечто сияющее (4/4)
+
+RESOURCE ID: quest_title_litwick
+TEXT: Field Notes: Trick of the Light
+
+RESOURCE ID: quest_title_litwick_0
+TEXT: Field Notes: Trick of the Light (1/4)
+
+RESOURCE ID: quest_title_litwick_1
+TEXT: Field Notes: Trick of the Light (2/4)
+
+RESOURCE ID: quest_title_litwick_2
+TEXT: Field Notes: Trick of the Light (3/4)
+
+RESOURCE ID: quest_title_litwick_3
+TEXT: Field Notes: Trick of the Light (4/4)
 
 RESOURCE ID: quest_title_luminous_x_0
 TEXT: Яркие легенды X (1/7)
@@ -49731,21 +50637,6 @@ TEXT: Мегасобытие (3/4)
 RESOURCE ID: quest_title_megav3_branch_quest_3
 TEXT: Мегасобытие (4/4)
 
-RESOURCE ID: quest_title_melemele
-TEXT: Приключения на Мелемеле
-
-RESOURCE ID: quest_title_melemele_0
-TEXT: Приключения на Мелемеле (1/4)
-
-RESOURCE ID: quest_title_melemele_1
-TEXT: Приключения на Мелемеле (2/4)
-
-RESOURCE ID: quest_title_melemele_2
-TEXT: Приключения на Мелемеле (3/4)
-
-RESOURCE ID: quest_title_melemele_3
-TEXT: Приключения на Мелемеле (4/4)
-
 RESOURCE ID: quest_title_meloetta
 TEXT: В поисках своего голоса
 
@@ -49913,6 +50804,9 @@ TEXT: Код Поригона (3/4)
 
 RESOURCE ID: quest_title_poryt_3
 TEXT: Код Поригона (4/4)
+
+RESOURCE ID: quest_title_power_jan22_0
+TEXT: Волторб из региона Гисуи?!
 
 RESOURCE ID: quest_title_rocket
 TEXT: Тревожная ситуация
@@ -50232,6 +51126,102 @@ TEXT: Непонятый озорник (9/16)
 RESOURCE ID: quest_title_season4_9
 TEXT: Непонятый озорник (10/16)
 
+RESOURCE ID: quest_title_season5_feb
+TEXT: Сезон наследия: Испытание по поимке
+
+RESOURCE ID: quest_title_season5_feb_page_0
+TEXT: Сезон наследия: Испытание по поимке (1/15)
+
+RESOURCE ID: quest_title_season5_feb_page_1
+TEXT: Сезон наследия: Испытание по поимке (2/15)
+
+RESOURCE ID: quest_title_season5_feb_page_10
+TEXT: Сезон наследия: Испытание по поимке (11/15)
+
+RESOURCE ID: quest_title_season5_feb_page_11
+TEXT: Сезон наследия: Испытание по поимке (12/15)
+
+RESOURCE ID: quest_title_season5_feb_page_12
+TEXT: Сезон наследия: Испытание по поимке (13/15)
+
+RESOURCE ID: quest_title_season5_feb_page_13
+TEXT: Сезон наследия: Испытание по поимке (14/15)
+
+RESOURCE ID: quest_title_season5_feb_page_14
+TEXT: Сезон наследия: Испытание по поимке (15/15)
+
+RESOURCE ID: quest_title_season5_feb_page_2
+TEXT: Сезон наследия: Испытание по поимке (3/15)
+
+RESOURCE ID: quest_title_season5_feb_page_3
+TEXT: Сезон наследия: Испытание по поимке (4/15)
+
+RESOURCE ID: quest_title_season5_feb_page_4
+TEXT: Сезон наследия: Испытание по поимке (5/15)
+
+RESOURCE ID: quest_title_season5_feb_page_5
+TEXT: Сезон наследия: Испытание по поимке (6/15)
+
+RESOURCE ID: quest_title_season5_feb_page_6
+TEXT: Сезон наследия: Испытание по поимке (7/15)
+
+RESOURCE ID: quest_title_season5_feb_page_7
+TEXT: Сезон наследия: Испытание по поимке (8/15)
+
+RESOURCE ID: quest_title_season5_feb_page_8
+TEXT: Сезон наследия: Испытание по поимке (9/15)
+
+RESOURCE ID: quest_title_season5_feb_page_9
+TEXT: Сезон наследия: Испытание по поимке (10/15)
+
+RESOURCE ID: quest_title_season5_jan
+TEXT: Сезон наследия: Испытание очков опыта
+
+RESOURCE ID: quest_title_season5_jan_page_0
+TEXT: Сезон наследия: Испытание очков опыта (1/15)
+
+RESOURCE ID: quest_title_season5_jan_page_1
+TEXT: Сезон наследия: Испытание очков опыта (2/15)
+
+RESOURCE ID: quest_title_season5_jan_page_10
+TEXT: Сезон наследия: Испытание очков опыта (11/15)
+
+RESOURCE ID: quest_title_season5_jan_page_11
+TEXT: Сезон наследия: Испытание очков опыта (12/15)
+
+RESOURCE ID: quest_title_season5_jan_page_12
+TEXT: Сезон наследия: Испытание очков опыта (13/15)
+
+RESOURCE ID: quest_title_season5_jan_page_13
+TEXT: Сезон наследия: Испытание очков опыта (14/15)
+
+RESOURCE ID: quest_title_season5_jan_page_14
+TEXT: Сезон наследия: Испытание очков опыта (15/15)
+
+RESOURCE ID: quest_title_season5_jan_page_2
+TEXT: Сезон наследия: Испытание очков опыта (3/15)
+
+RESOURCE ID: quest_title_season5_jan_page_3
+TEXT: Сезон наследия: Испытание очков опыта (4/15)
+
+RESOURCE ID: quest_title_season5_jan_page_4
+TEXT: Сезон наследия: Испытание очков опыта (5/15)
+
+RESOURCE ID: quest_title_season5_jan_page_5
+TEXT: Сезон наследия: Испытание очков опыта (6/15)
+
+RESOURCE ID: quest_title_season5_jan_page_6
+TEXT: Сезон наследия: Испытание очков опыта (7/15)
+
+RESOURCE ID: quest_title_season5_jan_page_7
+TEXT: Сезон наследия: Испытание очков опыта (8/15)
+
+RESOURCE ID: quest_title_season5_jan_page_8
+TEXT: Сезон наследия: Испытание очков опыта (9/15)
+
+RESOURCE ID: quest_title_season5_jan_page_9
+TEXT: Сезон наследия: Испытание очков опыта (10/15)
+
 RESOURCE ID: quest_title_season8
 TEXT: Космический друг
 
@@ -50294,6 +51284,21 @@ TEXT: Снайви на солнышке (3/4)
 
 RESOURCE ID: quest_title_snivt_3
 TEXT: Снайви на солнышке (4/4)
+
+RESOURCE ID: quest_title_sphet
+TEXT: Сила Сфила
+
+RESOURCE ID: quest_title_sphet_0
+TEXT: Сила Сфила (1/4)
+
+RESOURCE ID: quest_title_sphet_1
+TEXT: Сила Сфила (2/4)
+
+RESOURCE ID: quest_title_sphet_2
+TEXT: Сила Сфила (3/4)
+
+RESOURCE ID: quest_title_sphet_3
+TEXT: Сила Сфила (4/4)
 
 RESOURCE ID: quest_title_spiritomb
 TEXT: Жуткое сообщение 2018
@@ -50874,14 +51879,23 @@ TEXT: Используй любой эликсир на Покемоне
 RESOURCE ID: quest_use_charged_move_singular
 TEXT: Используй суперэффективную заряженную атаку
 
+RESOURCE ID: quest_use_charged_tm
+TEXT: Используй заряженную TM
+
 RESOURCE ID: quest_use_dai_plural
 TEXT: Используй ладаны ежедневных приключений: {0}
 
 RESOURCE ID: quest_use_dai_singular
 TEXT: Используй ладан ежедневных приключений
 
+RESOURCE ID: quest_use_fast_tm
+TEXT: Используй быструю TM
+
 RESOURCE ID: quest_use_hyper_potion
 TEXT: Используй 1 гиперэликсир на Покемоне
+
+RESOURCE ID: quest_use_lure
+TEXT: Use a Lure Module
 
 RESOURCE ID: quest_use_max_potion
 TEXT: Используй 1 эликсир макс на Покемоне
@@ -50894,6 +51908,12 @@ TEXT: Используй редкие конфеты: {0}
 
 RESOURCE ID: quest_use_rare_candy_singular
 TEXT: Используй 1 редкую конфету
+
+RESOURCE ID: quest_use_standard_charged_tm
+TEXT: Используй заряженную TM
+
+RESOURCE ID: quest_use_standard_fast_tm
+TEXT: Используй быструю TM
 
 RESOURCE ID: quest_use_super_potion
 TEXT: Используй 1 суперэликсир на Покемоне
@@ -51059,6 +52079,9 @@ TEXT: Эволюционируй Какун: {0}
 
 RESOURCE ID: quest_wt_evolve_weedle
 TEXT: Эволюционировать Видлов: {0}
+
+RESOURCE ID: quest_xp_plural
+TEXT: Заработай {0} XP
 
 RESOURCE ID: quest_zigzagoon_catch_b
 TEXT: Поймай {0} Галарских Зигзагунов
@@ -51295,7 +52318,7 @@ RESOURCE ID: raid_day_alakazam
 TEXT: Рейдовый день: Алаказам
 
 RESOURCE ID: raid_day_alolan_marowak
-TEXT: Маровак региона Алола
+TEXT: Рейдовый день Маровака региона Алола
 
 RESOURCE ID: raid_day_alomomola
 TEXT: Рейдовый день: Аломомола
@@ -52433,6 +53456,9 @@ TEXT: Рейдовый день: Медичам
 
 RESOURCE ID: raid_day_meditite
 TEXT: Рейдовый день: Медитайт
+
+RESOURCE ID: raid_day_mega_gyarados
+TEXT: Рейдовый день: Мега-Гиарадос
 
 RESOURCE ID: raid_day_mega_kangaskhan
 TEXT: Рейдовый день: Мега-Кангасхан
@@ -55891,7 +56917,7 @@ RESOURCE ID: raidweek_2019_medium_raid
 TEXT: Победи в {0} рейдах
 
 RESOURCE ID: rare_candy_usage_confirmation
-TEXT: Превратить редкую конфету в конфету {0}?
+TEXT: Превратить редкую конфету в {0}-конфету?
 
 RESOURCE ID: rare_xl_candy_usage_confirmation
 TEXT: Превратить редкую конфету XL в {0}-конфету XL?
@@ -55903,7 +56929,7 @@ RESOURCE ID: recent_filter_group_key
 TEXT: Последние
 
 RESOURCE ID: recommended_filter_group_key
-TEXT: Рекомендованный
+TEXT: Рекомендуемые
 
 RESOURCE ID: recycle_dialog_prefix
 TEXT: Удалить:
@@ -56101,9 +57127,8 @@ RESOURCE ID: remote_raid_invite_ingame_notif
 TEXT: {0} пригласил(а) тебя на рейд!
 
 RESOURCE ID: remote_raid_invite_push_notif
-TEXT: Приглашение на рейд
-
-{0} пригласил(а) тебя на рейд!
+TEXT: Raid Invitation
+ {0} invited you to join a Raid Battle!
 
 RESOURCE ID: remote_raid_invite_rate_limit_desc
 TEXT: Достигнуто максимальное количество приглашений, которые ты можешь отправить в течение некоторого времени. Повтори попытку позже.
@@ -57942,7 +58967,7 @@ RESOURCE ID: sfida_enable_modal_title
 TEXT: Включить Pokémon GO Plus
 
 RESOURCE ID: shadow_tm_frustration
-TEXT: Теневой Покемон может забыть Заряженную атаку «Фрустрация» с заряженной ТМ
+TEXT: Теневой Покемон может забыть заряженную атаку «Фрустрация» с заряженной ТМ
 
 RESOURCE ID: share_ex_raid_confirmation
 TEXT: Пригласить Тренера {0} на этот EX-рейд?
@@ -58568,6 +59593,9 @@ TEXT: Появляется больше диких Гиблов
 RESOURCE ID: spawn_hoppip
 TEXT: Появляется больше диких Хоппипов
 
+RESOURCE ID: spawn_litwick
+TEXT: More Litwick are appearing in the wild!
+
 RESOURCE ID: spawn_machop
 TEXT: Появляется больше диких Мачопов
 
@@ -58713,7 +59741,7 @@ RESOURCE ID: special_evo_prompt_upside_down
 TEXT: Чтобы {0} эволюционировал, ему нужна помощь! Ты можешь узнать, как ему помочь?
 
 RESOURCE ID: special_filter_group_key
-TEXT: Особый
+TEXT: Особые
 
 RESOURCE ID: special_move_reroll_choose_move_desc
 TEXT: Какую атаку Покемону {0} следует забыть?
@@ -59462,212 +60490,44 @@ TEXT: Фестиваль Pokémon GO: Сиэтл – Парк (4/5)
 RESOURCE ID: sr_gofest2022_leseap_5
 TEXT: Фестиваль Pokémon GO: Сиэтл – Парк (5/5)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_10
-TEXT: Но пока ничего не случилось, так что можешь пока веселиться со своими друзьями и Покемонами!
+RESOURCE ID: sr_gotour2022_1
+TEXT: Тур Pokémon GO: Джото (1/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_3
-TEXT: А ещё именно в Джото были впервые обнаружены Покемоны тёмного и стального типов! Не говоря уже о Мистере Покемоне и таинственном яйце.
+RESOURCE ID: sr_gotour2022_2
+TEXT: Тур Pokémon GO: Джото (2/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_4
-TEXT: К слову о Покемонах, впервые обнаруженных в регионе Джото. Я слышал, что неподалёку отсюда был замечен Селеби – Покемон-Перемещение во Времени.
+RESOURCE ID: sr_gotour2022_3
+TEXT: Тур Pokémon GO: Джото (3/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_5
-TEXT: Селеби обладает способностью перемещаться во времени.
+RESOURCE ID: sr_gotour2022_4
+TEXT: Тур Pokémon GO: Джото (4/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_6
-TEXT: И вот меня всё не покидает мысль, что Селеби как-то связан с появлением Гисуйского Волторба в нашем времени.
+RESOURCE ID: sr_gotour2022_5
+TEXT: Тур Pokémon GO: Джото (5/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_7
-TEXT: Кстати, говорят, что этот Селеби владеет особой атакой. Надеюсь, нам удастся выяснить, так ли это!
+RESOURCE ID: sr_gotour2022_6
+TEXT: Тур Pokémon GO: Джото (6/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_8
-TEXT: Пока ты наслаждаешься праздником, посматривай, не заметишь ли кого-то из Команды Ракета GO. Я тоже буду начеку.
+RESOURCE ID: sr_gotour2022_7
+TEXT: Тур Pokémon GO: Джото (7/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_9
-TEXT: Надеюсь, мы сможем выяснить, что они затевают с тех пор, как они взломали таинственную дверь...
+RESOURCE ID: sr_gotour2022_8
+TEXT: Тур Pokémon GO: Джото (8/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_1_0
-TEXT: Знаешь, чего не хватает в этом приключении, %PLAYERNAME%? Нового приятеля! Я пообщался с коллегой и подготовил для тебя небольшой сюрприз.
+RESOURCE ID: sr_gotour2022_9
+TEXT: Тур Pokémon GO: Джото (9/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_1_1
-TEXT: Эти Покемоны являются стартовиками в регионе Джото. Вперёд, выбери одного из них!
+RESOURCE ID: sr_gotour2022_sr_dialogue_0_0
+TEXT: Привет, %PLAYERNAME%! Готовься, твои уникальные приключения с Покемонами вот-вот начнутся. Кому-то это путешествие покажется совершенно новым, а кому-то очень знакомым.
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_0
-TEXT: Я тоже думаю, что это отличный Покемон, %PLAYERNAME%!
+RESOURCE ID: sr_gotour2022_sr_dialogue_0_1
+TEXT: Правильно – сегодня мы будем изучать регион Джото и встречать Покемонов, которые были впервые обнаружены именно там!
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_1_chikorita
-TEXT: Покемон-Лист Чикорита спокоен и любит нежиться в лучах солнца. От листа на его голове исходит тонкий сладкий аромат. А какое у него милое личико, правда?
+RESOURCE ID: sr_gotour2022_sr_dialogue_0_2
+TEXT: Джото – это регион с богатой историей и традициями. Красивый исторический город Экратик-Сити соседствует здесь с современным мегаполисом Голденрод-Сити.
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_1_cyndaquil
-TEXT: Покемон-Огненная Мышь Синдаквил робок и часто сворачивается в комок. Если его атакуют, он защищается, зажигая пламя на спине. Эта робость так очаровательна, что ещё больше хочется его погладить!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_1_totodile
-TEXT: Покемон-Большая Челюсть Тотодайл хоть и маленький, но очень крепкий. Он без колебаний может откусить кусок от всего, что движется. Но я всё равно попробую его погладить...
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_2
-TEXT: Уверен, что этот малыш хочет провести с тобой побольше времени. Что может быть лучше, чем вместе отправиться в приключение по Джото!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_0_chikorita
-TEXT: Ого, твой Чикорита уже эволюционировал в Бэйлифа! И это как нельзя кстати,  %PLAYERNAME%: у меня тревожные новости.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_0_cyndaquil
-TEXT: Ого, твой Синдаквил уже эволюционировал в Квилаву! И это как нельзя кстати,  %PLAYERNAME%: у меня тревожные новости.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_0_totodile
-TEXT: Ого, твой Тотодайл уже эволюционировал в Кроконава! И это как нельзя кстати,  %PLAYERNAME%: у меня тревожные новости.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_1
-TEXT: Команда Ракета GO мобилизуется –  и они направляются прямо к нам!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_2
-TEXT: У меня такое чувство, что они замышляют что-то посерьёзнее мелкой проделки... Должно быть, поэтому они начинают вторжение – больше отвлекающих факторов! Не говоря уже о том, что они всегда любят срывать наши вечеринки.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_3
-TEXT: Может, они прослышали про появление Селеби? Или же они заготовили нечто ещё более зловещее...
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_4
-TEXT: Мне понадобится твоя помощь: победи нескольких агентов Команды Ракета GO. Так мы обойдём их отвлекающий манёвр и выиграем время для исследования. Я могу на тебя рассчитывать?
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_0
-TEXT: Великолепная работа, %PLAYERNAME%! Пока я занимался исследованием, мимо пробежало несколько агентов Команды Ракета GO. Они причитали, что проиграли сверхсильному Тренеру.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_1
-TEXT: Полагаю, что речь шла о тебе? Невероятно. Я знал, что могу на тебя положиться.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_2
-TEXT: Так вот, во время поисков я наткнулся на любопытный слух. Неподалёку был замечен Гиарадос, совсем не похожий на обычного.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_3
-TEXT: Похоже, что этот Гиарадос охвачен яростью. Он очень похож на одного Красного Гиарадоса, который некогда буйствовал на озере Ярости в регионе Джото.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_4
-TEXT: В тот раз Команда Р использовала таинственный радиосигнал, чтобы заставить Мэджикарпа эволюционировать.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_5
-TEXT: Хмм. Что-то мне это всё напоминает... Ведь это прямо как с Теневыми Покемонами... И в последнее время их стало намного больше. Может ли так случиться, что Команда Ракета GO снова использует ту же технологию?
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_6
-TEXT: И как это связано с тем, что они похитили при взломе таинственной двери? Что если это была какая-то сила, которую они усилили и исказили?..
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_7
-TEXT: А с Селеби и его способностями к путешествию во времени... Небеса! Кто знает, на что способна Команда Ракета GO! Нельзя терять время. Давай спасём Гиарадоса, а затем отправимся на поиски Селеби, пока не стало слишком поздно!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_0
-TEXT: Отличная работа, %PLAYERNAME%! Этот Гиарадос стал намного спокойнее после того, как был вырван из лап Команды Ракета GO.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_1
-TEXT: Похоже, Команда Ракета GO тоже отступает. Как насчёт того, чтобы продолжить празднование? Они и так украли у нас много времени.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_2_chikorita
-TEXT: Похоже, Бэйлиф хочет поиграть с тобой!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_2_cyndaquil
-TEXT: Похоже, Квилава хочет поиграть с тобой!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_2_totodile
-TEXT: Похоже, Кроконав хочет поиграть с тобой!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_3
-TEXT: Даже в самой тяжёлой ситуации, когда от множества дел разрываешься на части, важно найти время, чтобы расслабиться и провести время с друзьями.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_4
-TEXT: Ведь такие моменты помогают нам идти дальше.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_5_chikorita
-TEXT: К слову о силе: кажется, твой Бэйлиф готов эволюционировать!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_5_cyndaquil
-TEXT: К слову о силе: кажется, твой Квилава готов эволюционировать!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_5_totodile
-TEXT: К слову о силе: кажется, твой Кроконав готов эволюционировать!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_0_chikorita
-TEXT: О, твой Меганиум просто расцвёл от счастья! Вам весело вместе? Было невероятно приятно смотреть, как крепли ростки вашей дружбы.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_0_cyndaquil
-TEXT: О, твой Тайфложн просто пылает счастьем! Вам весело вместе? Невероятно приятно смотреть, как ярко горит огонь вашей дружбы.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_0_totodile
-TEXT: О, твой Фералигейтор просто купается в счастье! Вам весело вместе? Невероятно приятно смотреть на вашу освежающую дружбу.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_1
-TEXT: Заводить новых друзей, исследовать мир вокруг – это два великих удовольствия в мире. Пережитые мной приключения сделали мою жизнь полнее.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_2
-TEXT: Я бы никогда не нашёл эту таинственную дверь, если бы не случайное приключение! Несмотря на вмешательство Команды Ракета GO, я благодарен за время, проведённое с лидерами команд, и за исследования, которые мне удалось провести.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_3
-TEXT: Ладно, довольно моей болтовни. Почему бы тебе не завести новых друзей? До окончания сегодняшнего дня ещё много времени.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_7_0
-TEXT: Прости, %PLAYERNAME%, но нам нужно поторопиться! Буквально несколько секунд назад был замечен Селеби. Если пойдёшь сейчас, у тебя будет шанс его поймать!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_7_1
-TEXT: Вперёд!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_0
-TEXT: Отлично, у тебя получилось поймать Селеби! Считается, что пока этот Покемон продолжает появляться в нашем мире, нас ждёт светлое будущее.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_1
-TEXT: Интересно, почему Селеби решил появиться перед нами сегодня. Может, это знак того, что нас ждёт что-то хорошее в будущем.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_2
-TEXT: После всех наших проблем с Командой Ракета GO, я рад вспомнить о том, что спокойные времена не за горами.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_3
-TEXT: Пока тебя не было, я узнал правду, которую так хотела скрыть Команда Ракета GO: они поймали Хо-Oха и Лугию.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_4
-TEXT: Но это ещё не всё: они соединили энергию, которую украли при взломе таинственной двери, с технологиями, разработанными для прошлых радиосигналов. Это позволило им повысить уровень силы Лугии и Хо-Oха настолько, что они теперь превосходят любого Теневого Покемона, которого мы когда-либо видели.
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_5
-TEXT: Они называют эти новых Теневых Покемонов «Высший Теневой Хо-Oх» и «Высший Теневой Лугиа». Готовься,  %PLAYERNAME% – битва ещё только начинается.
-
-RESOURCE ID: sr_gotoursik_dialogue_0_0
-TEXT: Ну привет, %PLAYERNAME%! Тебе понравился вчерашний праздник? Надеюсь, тебя переполняет энергия, потому что у нас ещё много всего впереди. В этот раз мы сосредоточимся на регионе Канто!
-
-RESOURCE ID: sr_gotoursik_dialogue_0_1
-TEXT: Лучшего места для начала приключений с Покемонами не найти.
-
-RESOURCE ID: sr_gotoursik_dialogue_0_2
-TEXT: Давай возьмёмся за дело и начнём исследовать!
-
-RESOURCE ID: sr_gotoursik_dialogue_1_0
-TEXT: Ой, %PLAYERNAME%, у тебя слегка уставший вид. Может, сделаешь короткий перерыв? Поиграешь с приятелем, угостишь его сочной ягодой?
-
-RESOURCE ID: sr_gotoursik_dialogue_1_1
-TEXT: Может, и тебе тоже перекусить? Даже самый сильный Тренер не далеко убежит на пустой желудок.
-
-RESOURCE ID: sr_gotoursik_dialogue_2_0
-TEXT: Ну как, тебе весело, %PLAYERNAME%? Готовься к следующему приключению! Ты скоро будешь исследовать разные территории.
-
-RESOURCE ID: sr_gotoursik_dialogue_2_1
-TEXT: Всего есть пять территорий, на каждой из которых ты встретишь множество уникальных Покемонов. Ты спрашиваешь, какие Покемоны на какой территории? Давай пойдём и посмотрим!
-
-RESOURCE ID: sr_gotoursik_dialogue_3_0
-TEXT: Классные фотографии, %PLAYERNAME%! Тебе удалось уловить самую сущность этих Покемонов. Похоже, что маленьким моделям тоже было весело.
-
-RESOURCE ID: sr_gotoursik_dialogue_3_1
-TEXT: Тебе понравилась прогулка по территориям? Не сомневаюсь, что тебе встретилось огромное количество Покемонов – и знакомых, и новых!
-
-RESOURCE ID: sr_gotoursik_dialogue_3_2
-TEXT: А ещё там много отличных Тренеров, которые тоже проводят исследования.
-
-RESOURCE ID: sr_gotoursik_dialogue_3_3
-TEXT: Попробуй подружиться с несколькими из них: вы можете обменяться Покемонами или сразиться.
-
-RESOURCE ID: sr_gotoursik_dialogue_4_0
-TEXT: С возвращением, %PLAYERNAME%! Пока тебя не было, я узнал, что в этом районе был замечен мощный Легендарный Покемон.
-
-RESOURCE ID: sr_gotoursik_dialogue_4_1
-TEXT: Может, он услышал про праздник и решил к нам присоединиться? Давай пойдём посмотрим на него!
-
-RESOURCE ID: sr_gotoursik_dialogue_5_0
-TEXT: Оооо! Это что, Мьюту? Невероятно! Воистину, мир полон чудес.
-
-RESOURCE ID: sr_gotoursik_dialogue_5_1
-TEXT: Сегодня такой классный день, %PLAYERNAME%. Надеюсь, тебе понравятся и остальные приключения – ведь их ещё много. До скорого... Вперёд!
+RESOURCE ID: standard_raid_box_title
+TEXT: Стандартная рейдовая коробка
 
 RESOURCE ID: star_piece_duration_double
 TEXT: 2× действие осколка звезды
@@ -59694,7 +60554,7 @@ RESOURCE ID: starpiece.8_title
 TEXT: Осколок звезды ×8
 
 RESOURCE ID: status_filter_group_key
-TEXT: Catch Status
+TEXT: Статус поимки
 
 RESOURCE ID: steel_type_event
 TEXT: Активизация типа: Сталь
@@ -60221,10 +61081,10 @@ RESOURCE ID: thai
 TEXT: ภาษาไทย
 
 RESOURCE ID: themed_stickers_description
-TEXT: You’ll also be able to get season-themed stickers by spinning PokéStops, opening Gifts, and purchasing them from the in-game shop.
+TEXT: Чтобы получить тематические наклейки, вращай Покестопы, открывай подарки или покупай их во внутриигровом магазине.
 
 RESOURCE ID: themed_stickers_name
-TEXT: Themed Stickers
+TEXT: Тематические наклейки
 
 RESOURCE ID: three_free_raid_passes
 TEXT: Получи бесплатно до трёх пропусков на рейд, крутя фотодиски в Гимах
@@ -60299,6 +61159,9 @@ TEXT: Билет на специальный квест доступен в ма
 
 RESOURCE ID: ticket_hoppip
 TEXT: Билет на специальный квест «Прыг-скок» доступен в магазине
+
+RESOURCE ID: ticket_litwick
+TEXT: Ticket for the Field Notes: Trick of the Light Special Research story available in the shop
 
 RESOURCE ID: ticket_machop
 TEXT: Билеты на специальный квест «К вершине, Мачоп!» доступны в магазине
@@ -61052,6 +61915,9 @@ TEXT: Один...два...три...ура! {0} обучен атаке {1}!
 RESOURCE ID: today
 TEXT: Сегодня
 
+RESOURCE ID: today_view_all_hours
+TEXT: Покемоны из всех часов появляются в дикой природе!
+
 RESOURCE ID: today_view_catch_competition
 TEXT: Региональное соревнование по поимке Покемонов
 
@@ -61260,7 +62126,7 @@ RESOURCE ID: trade_exclusion_reason_gym_deployed
 TEXT: Этот Покемон отправлен в Гим.
 
 RESOURCE ID: trade_exclusion_reason_mythical
-TEXT: Теневые и Мифические Покемоны не подлежат обмену.
+TEXT: Некоторые Покемоны (например, Теневые и Мифические Покемоны) не подлежат обмену.
 
 RESOURCE ID: trade_exclusion_reason_player_cannot_afford
 TEXT: У тебе недостаточно звёздной пыли.
@@ -61475,6 +62341,9 @@ TEXT: Ур. {0}
 RESOURCE ID: trading_waiting
 TEXT: Ожидание...
 
+RESOURCE ID: trainee_box_title
+TEXT: Коробка стажёра
+
 RESOURCE ID: trainer_code_label
 TEXT: Код Тренера
 
@@ -61569,16 +62438,16 @@ RESOURCE ID: tutorial_level_40_plus_intro
 TEXT: Поздравляем с достижением великолепных результатов, Тренер!
 
 RESOURCE ID: tutorial_vivillon_postcard_body_0
-TEXT: If you pin multiple Postcards from a certain region, you’ll have a chance to encounter a Pokémon!
+TEXT: Если ты добавишь в альбом разные открытки из одного региона, у тебя будет шанс повстречаться с Покемоном!
 
 RESOURCE ID: tutorial_vivillon_postcard_body_1
-TEXT: The pattern on Vivillon’s wings is affected by the climate of their habitat. You can check the Vivillon map from the Pokédex and the Vivillon medal page to see where different Vivillon can be found.
+TEXT: Узор на крыльях Вивийона зависит от климатических условий местности. Смотри карту Вивийонов в Покедексе и страницу с медалями Вивийонов, чтобы узнать, где найти разных Вивийонов.
 
 RESOURCE ID: tutorial_vivillon_postcard_body_2
-TEXT: When you pin a Postcard you receive from a friend, you’ll make progress on the Vivillon medal associated with that location. If you collect several Postcards from a certain part of the world, you can encounter a Scatterbug specifically from that habitat.
+TEXT: Когда ты добавляешь в альбом открытку от друга, ты становишься ближе к получению медали Вивийона для этого региона. Если ты соберёшь несколько открыток из определённой местности, ты сможешь повстречать Скаттербага, который там водится.
 
 RESOURCE ID: tutorial_vivillon_postcard_header
-TEXT: Catch Vivillon from all around the world!
+TEXT: Лови Вивийонов из разных уголков мира!
 
 RESOURCE ID: tutorial_xl_candy_1
 TEXT: Похоже, была найдена конфета XL! Говорят, их можно использовать, чтобы твои Покемоны становились ещё сильнее, чем с помощью обычных конфет!
@@ -61741,6 +62610,9 @@ TEXT: Классическая Премьер-УЛ
 
 RESOURCE ID: ultra_premier_cup_title
 TEXT: Премьер-Ультра
+
+RESOURCE ID: ultra_raid_box_title
+TEXT: Рейдовая ультракоробка
 
 RESOURCE ID: ultra_unlock_event_2020
 TEXT: Ультрабонус 2020
@@ -62243,6 +63115,9 @@ TEXT: Загрузка 1 журнала...
 RESOURCE ID: verbose_logs_uploading_count_plural
 TEXT: Загрузка {0} журналов...
 
+RESOURCE ID: veteran_box_title
+TEXT: Коробка ветерана
+
 RESOURCE ID: video_sponsored_gift_tutorial_description_1
 TEXT: Во время приключений с Pokémon GO ты можешь получать подарки и видеосообщения от наших спонсоров.
 
@@ -62275,6 +63150,9 @@ TEXT: Для получения дополнительной информаци�
 
 RESOURCE ID: volbeat_illumise_all_regions
 TEXT: Дикие Волбиты и Иллюмайзы появляются по всему миру
+
+RESOURCE ID: voyager_box_title
+TEXT: Коробка путешественника
 
 RESOURCE ID: vs_seeker_charged_notification
 TEXT: Заработано вступление в Боевую Лигу GO!
@@ -62657,6 +63535,9 @@ TEXT: Кубок силы воли
 RESOURCE ID: winter event
 TEXT: Зимнее событие
 
+RESOURCE ID: winter_holiday_catch_timed_research
+TEXT: Праздники Pokémon GO: Испытание по поимке
+
 RESOURCE ID: winter_holiday_event_name
 TEXT: Праздники Pokémon GO
 
@@ -62665,6 +63546,9 @@ TEXT: Праздники Pokémon GO: Часть 1
 
 RESOURCE ID: winter_holiday_event_name_part2
 TEXT: Праздники Pokémon GO: Часть 2
+
+RESOURCE ID: winter_holiday_friendship_timed_research
+TEXT: Праздники Pokémon GO: Дружеское испытание
 
 RESOURCE ID: winter_solstice_event_name
 TEXT: Зимнее солнцестояние
@@ -62689,6 +63573,9 @@ TEXT: День мирового туризма: Обменяй Покемоно�
 
 RESOURCE ID: wte_2019_trade_distance_hard_z
 TEXT: День мирового туризма: Обменяй Покемонов, пойманных на расстоянии 10 000 км друг от друга
+
+RESOURCE ID: ww_2021_collection_challenge
+TEXT: Испытание Зимняя сказка
 
 RESOURCE ID: xp_bonus_hourly
 TEXT: 20 000 XP

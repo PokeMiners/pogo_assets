@@ -265,6 +265,9 @@ TEXT: ยอมรับ
 RESOURCE ID: accept_friend_request_prompt
 TEXT: สงคำขอเปนเพื่อนมาหาคุณ!
 
+RESOURCE ID: ace_box_title
+TEXT: กลองหัวกะทิ
+
 RESOURCE ID: active_status_tutorial_message
 TEXT: ดูวาเพื่อนคนไหนกำลังเลนอยู! สามารถปดไดทุกเมื่อที่รายชื่อเพื่อน!
 
@@ -864,24 +867,35 @@ RESOURCE ID: appraise_overall_mid_3|1
 TEXT: โดยรวมแลว {0}ของคุณคอนขางเกงเลยละ!
 
 RESOURCE ID: appraise_size_huge_1|1
-TEXT: Your {0} would be categorized as unusually large.
+TEXT: {0}ของคุณมีขนาดใหญมหึมาเลยละ
+นี่มันไมธรรมดาเลย!
 
 RESOURCE ID: appraise_size_huge_2|1
-TEXT: Hey, that’s an enormous {0}! 
+TEXT: {0}ของคุณตัวใหญมหึมา ใหญที่สุด
+ที่ฉันเคยเห็นเลยละ!
 
 RESOURCE ID: appraise_size_huge_3|1
-TEXT: Your {0} is just HUGE!
+TEXT: {0}ของคุณนี่ตัวเบอเริ่มเลย!
 
 RESOURCE ID: appraise_size_large_1|1
+TEXT: {0}ของคุณมีขนาดใหญกวาคาเฉลี่ย
+
+RESOURCE ID: appraise_size_large_1|1b
 TEXT: Your {0} is above average in size.
 
 RESOURCE ID: appraise_size_large_2|1
 TEXT: {0}ของคุณมีขนาดใหญมากเลย!
 
 RESOURCE ID: appraise_size_large_3|1
+TEXT: {0}ของคุณนี่ตัวใหญจัง!
+
+RESOURCE ID: appraise_size_large_3|1b
 TEXT: Your {0} is a BIG one!
 
 RESOURCE ID: appraise_size_small_1|1
+TEXT: {0}ของคุณมีขนาดเล็กกวาคาเฉลี่ย
+
+RESOURCE ID: appraise_size_small_1|1b
 TEXT: Your {0} is below average in size.
 
 RESOURCE ID: appraise_size_small_2|1
@@ -889,34 +903,38 @@ TEXT: วาว ชางเปน{0}ที่ตัวเล็กอ�
 นารักดีนะ
 
 RESOURCE ID: appraise_size_small_3|1
-TEXT: Your {0} is a little small for its kind, don’t you think?
+TEXT: {0}ตัวนี้ถือวาตัวเล็กกวาปกตินิดหนอย
+คิดวางั้นไหม?
 
 RESOURCE ID: appraise_size_tiny_1|1
-TEXT: Your {0} would be categorized as unusually small.
+TEXT: {0}ของคุณตัวเล็กกวาตัวอื่น ๆ ที่มี
+ในบันทึกของเรา นาประหลาดมาก
 
 RESOURCE ID: appraise_size_tiny_2|1
-TEXT: That's a lil’ {0} you’ve got there!
+TEXT: {0}ของคุณตัวเล็กมากเลย ฉันเกือบ
+จะไมทันสังเกตเห็นเขาซะแลว!
 
 RESOURCE ID: appraise_size_tiny_3|1
-TEXT: Your {0} is pretty petite, huh? 
+TEXT: โอะ..โอ  นี่มัน{0}ที่ตัวเล็กที่สุดที่ฉัน
+เคยเห็นเลย!
 
 RESOURCE ID: appraise_size_xxl_1|1
 TEXT: The size of your {0} is...colossal. This is indeed exceptional. Fascinating!
 
 RESOURCE ID: appraise_size_xxl_2|1
-TEXT: Your {0} is gigantic—the largest I’ve ever seen!
+TEXT: Your {0} is gigantic—the largest I've ever seen!
 
 RESOURCE ID: appraise_size_xxl_3|1
-TEXT: Your {0} is massive! Could it be the biggest {0} in the world?
+TEXT: Your {0} is massive! ...Could it be the biggest {0} in the world?
 
 RESOURCE ID: appraise_size_xxs_1|1
 TEXT: Your {0} is tinier than any we have on record. Astounding.
 
 RESOURCE ID: appraise_size_xxs_2|1
-TEXT: Your {0} is so tiny, I almost didn’t notice it!
+TEXT: Your {0} is so tiny, I almost didn't notice it!
 
 RESOURCE ID: appraise_size_xxs_3|1
-TEXT: Wh-whoa. That's the tiniest {0} I’ve ever seen!
+TEXT: Wh-whoa. That's the tiniest {0} I've ever seen!
 
 RESOURCE ID: appraise_stat_best_1|1
 TEXT: คาพลังของเขาอยูเหนือการคำนวณของฉัน เหลือเชื่อจริง ๆ!
@@ -1487,6 +1505,9 @@ TEXT: ปกโฮโอ
 RESOURCE ID: avatar_f_backpack_longchampbp_00_bundle_icon
 TEXT: กระเปาเป LONGCHAMP
 
+RESOURCE ID: avatar_f_backpack_lunala
+TEXT: Lunala Wings
+
 RESOURCE ID: avatar_f_backpack_mimikyubp_0_bundle_icon
 TEXT: กระเปามิมิคคิว
 
@@ -1596,6 +1617,9 @@ TEXT: หนากากพิคาชู
 RESOURCE ID: avatar_f_face_sableyemask_00_bundle_icon
 TEXT: หนากากยามิรามิ
 
+RESOURCE ID: avatar_f_face_solgaleo
+TEXT: Solgaleo Mask
+
 RESOURCE ID: avatar_f_face_teamskull_00_bundle_icon
 TEXT: หนากากแกงสกัล
 
@@ -1607,6 +1631,9 @@ TEXT: แวนล้ำยุค
 
 RESOURCE ID: avatar_f_glasses_empty_bundle_icon
 TEXT: ไมสวมแวนตา
+
+RESOURCE ID: avatar_f_glasses_fw2022_00_bundle_icon
+TEXT: แวนกันแดดฮิโดอิเดะ
 
 RESOURCE ID: avatar_f_glasses_goteamrocketarlo_00_bundle_icon
 TEXT: แวนตาสไตลอารโล
@@ -1815,6 +1842,9 @@ TEXT: หมวกลีฟกรีน
 RESOURCE ID: avatar_f_hat_furfrouwig_00_bundle_icon
 TEXT: วิกผมทริมเมียน
 
+RESOURCE ID: avatar_f_hat_fw2022_00_bundle_icon
+TEXT: หมวกกันแดดฮิโดอิเดะ
+
 RESOURCE ID: avatar_f_hat_galarfarfetchditems_00_bundle_icon
 TEXT: เซ็ตหมวกกาลารคาโมเนกิ
 
@@ -1889,6 +1919,9 @@ TEXT: หมวกเลเวล 45
 
 RESOURCE ID: avatar_f_hat_magikarp_bundle_icon
 TEXT: หมวกคอยคิง
+
+RESOURCE ID: avatar_f_hat_mareaniehat_00_bundle_icon
+TEXT: หมวกฮิโดอิเดะ
 
 RESOURCE ID: avatar_f_hat_megalopunnyitems_00_bundle_icon
 TEXT: ที่คาดผมเมกามิมิล็อป
@@ -2107,12 +2140,18 @@ TEXT: ชุดวิ่ง
 RESOURCE ID: avatar_f_pants_dp_00_bundle_icon
 TEXT: กระโปรงสไตลตัวเอกชินโอ
 
+RESOURCE ID: avatar_f_pants_fashionweek2022_00_bundle_icon
+TEXT: กางเกงขายาวแฟชั่นสีดำ
+
 RESOURCE ID: avatar_f_pants_flabebepack_00_bundle_icon
 TEXT: กางเกงขาสั้น
 ฟลาเบเบ
 
 RESOURCE ID: avatar_f_pants_frlg_bundle_icon
 TEXT: กระโปรงลีฟกรีน
+
+RESOURCE ID: avatar_f_pants_fw2022_00_bundle_icon
+TEXT: กางเกงขาสั้นฮิโดอิเดะ
 
 RESOURCE ID: avatar_f_pants_genderlessskirt_00_bundle_icon
 TEXT: กระโปรงแบบพันเอว
@@ -2142,7 +2181,7 @@ TEXT: กางเกงโจโตะ
 
 RESOURCE ID: avatar_f_pants_loosepants_0_bundle_icon
 TEXT: กางเกงขายาว
-ทรงหลวมลายจุด
+ทรงหลวมลายจุด
 
 
 RESOURCE ID: avatar_f_pants_luvdiscpack_0_bundle_icon
@@ -2336,6 +2375,9 @@ TEXT: เสื้อสีฟาลายโตคลื่น
 RESOURCE ID: avatar_f_shirt_elesa_00_bundle_icon
 TEXT: ชุดสไตลคามิสึเระ
 
+RESOURCE ID: avatar_f_shirt_fashionweek2022_00_bundle_icon
+TEXT: เสื้อแฟชั่นขาวดำ
+
 RESOURCE ID: avatar_f_shirt_flabebepack_00_bundle_icon
 TEXT: เสื้อฟลาเบเบ
 
@@ -2344,6 +2386,9 @@ TEXT: เสื้อดีไซนโดย H.F. แบบ A
 
 RESOURCE ID: avatar_f_shirt_frlg_bundle_icon
 TEXT: เสื้อลีฟกรีน
+
+RESOURCE ID: avatar_f_shirt_fw2022_00_bundle_icon
+TEXT: เสื้อแจ็กเก็ตฮิโดอิเดะ
 
 RESOURCE ID: avatar_f_shirt_galarfarfetchditems_00_bundle_icon
 TEXT: เสื้อยืดและกระเปากาลารคาโมเนกิ
@@ -2826,8 +2871,14 @@ TEXT: รองเทาสไตลคามิสึเระ
 RESOURCE ID: avatar_f_shoes_empty_bundle_icon
 TEXT: ไมสวมรองเทา
 
+RESOURCE ID: avatar_f_shoes_fashionweek2022_00_bundle_icon
+TEXT: รองเทาแฟชั่นสีดำ
+
 RESOURCE ID: avatar_f_shoes_frlg_bundle_icon
 TEXT: รองเทาลีฟกรีน
+
+RESOURCE ID: avatar_f_shoes_fw2022_00_bundle_icon
+TEXT: รองเทาฮิโดอิเดะ
 
 RESOURCE ID: avatar_f_shoes_giovanni_0_bundle_icon
 TEXT: รองเทาซากากิ
@@ -2987,6 +3038,9 @@ TEXT: ปลอกหุมขากันหนาวแบบยาว
 RESOURCE ID: avatar_f_socks_empty_bundle_icon
 TEXT: ไมสวมถุงเทา
 
+RESOURCE ID: avatar_f_socks_fw2022_00_bundle_icon
+TEXT: ถุงเทาฮิโดอิเดะ
+
 RESOURCE ID: avatar_f_socks_hgss_bundle_icon
 TEXT: ถุงเทาโจโตะ
 
@@ -3100,6 +3154,9 @@ TEXT: ปกโฮโอ
 RESOURCE ID: avatar_m_backpack_longchampbp_00_bundle_icon
 TEXT: กระเปาเป LONGCHAMP
 
+RESOURCE ID: avatar_m_backpack_lunala
+TEXT: Lunala Wings
+
 RESOURCE ID: avatar_m_backpack_mimikyubp_0_bundle_icon
 TEXT: กระเปามิมิคคิว
 
@@ -3191,6 +3248,9 @@ TEXT: หนากากพิคาชู
 RESOURCE ID: avatar_m_face_sableyemask_00_bundle_icon
 TEXT: หนากากยามิรามิ
 
+RESOURCE ID: avatar_m_face_solgaleo
+TEXT: Solgaleo Mask
+
 RESOURCE ID: avatar_m_face_teamskull_00_bundle_icon
 TEXT: หนากากแกงสกัล
 
@@ -3202,6 +3262,9 @@ TEXT: แวนล้ำยุค
 
 RESOURCE ID: avatar_m_glasses_empty_bundle_icon
 TEXT: ไมสวมแวนตา
+
+RESOURCE ID: avatar_m_glasses_fw2022_00_bundle_icon
+TEXT: แวนกันแดดฮิโดอิเดะ
 
 RESOURCE ID: avatar_m_glasses_goteamrocketarlo_00_bundle_icon
 TEXT: แวนตาสไตลอารโล
@@ -3413,6 +3476,9 @@ TEXT: หมวกไฟรเรด
 RESOURCE ID: avatar_m_hat_furfrouwig_00_bundle_icon
 TEXT: วิกผมทริมเมียน
 
+RESOURCE ID: avatar_m_hat_fw2022_00_bundle_icon
+TEXT: หมวกกันแดดฮิโดอิเดะ
+
 RESOURCE ID: avatar_m_hat_galarfarfetchditems_00_bundle_icon
 TEXT: เซ็ตหมวกกาลารคาโมเนกิ
 
@@ -3487,6 +3553,9 @@ TEXT: หมวกเลเวล 45
 
 RESOURCE ID: avatar_m_hat_magikarp_bundle_icon
 TEXT: หมวกคอยคิง
+
+RESOURCE ID: avatar_m_hat_mareaniehat_00_bundle_icon
+TEXT: หมวกฮิโดอิเดะ
 
 RESOURCE ID: avatar_m_hat_megalopunnyitems_00_bundle_icon
 TEXT: ที่คาดผมเมกามิมิล็อป
@@ -3693,6 +3762,9 @@ RESOURCE ID: avatar_m_pants_elesa_00_bundle_icon
 TEXT: กางเกงขายาว
 สไตลคามิสึเระ
 
+RESOURCE ID: avatar_m_pants_fashionweek2022_00_bundle_icon
+TEXT: กางเกงขายาวแฟชั่นสีดำ
+
 RESOURCE ID: avatar_m_pants_fisher_bundle_icon
 TEXT: กางเกงขายาวนักตกปลา
 
@@ -3702,6 +3774,9 @@ TEXT: กางเกงขาสั้น
 
 RESOURCE ID: avatar_m_pants_frlg_bundle_icon
 TEXT: กางเกงขายาวไฟรเรด
+
+RESOURCE ID: avatar_m_pants_fw2022_00_bundle_icon
+TEXT: กางเกงขาสั้นฮิโดอิเดะ
 
 RESOURCE ID: avatar_m_pants_genderlessskirt_00_bundle_icon
 TEXT: กระโปรงแบบพันเอว
@@ -3737,7 +3812,7 @@ TEXT: กางเกงสไตลคอรนี
 
 RESOURCE ID: avatar_m_pants_loosepants_0_bundle_icon
 TEXT: กางเกงขายาว
-ทรงหลวมลายจุด
+ทรงหลวมลายจุด
 
 
 RESOURCE ID: avatar_m_pants_luvdiscpack_0_bundle_icon
@@ -3928,6 +4003,9 @@ TEXT: เสื้อสีฟาลายโตคลื่น
 RESOURCE ID: avatar_m_shirt_elesa_00_bundle_icon
 TEXT: เสื้อสไตลคามิสึเระ
 
+RESOURCE ID: avatar_m_shirt_fashionweek2022_00_bundle_icon
+TEXT: เสื้อแฟชั่นขาวดำ
+
 RESOURCE ID: avatar_m_shirt_fisher_bundle_icon
 TEXT: เสื้อกั๊กนักตกปลา
 
@@ -3939,6 +4017,9 @@ TEXT: เสื้อดีไซนโดย H.F. แบบ A
 
 RESOURCE ID: avatar_m_shirt_frlg_bundle_icon
 TEXT: เสื้อไฟรเรด
+
+RESOURCE ID: avatar_m_shirt_fw2022_00_bundle_icon
+TEXT: เสื้อแจ็กเก็ตฮิโดอิเดะ
 
 RESOURCE ID: avatar_m_shirt_galarfarfetchditems_00_bundle_icon
 TEXT: เสื้อยืดและกระเปากาลารคาโมเนกิ
@@ -4421,11 +4502,17 @@ TEXT: รองเทาสไตลคามิสึเระ
 RESOURCE ID: avatar_m_shoes_empty_bundle_icon
 TEXT: ไมสวมรองเทา
 
+RESOURCE ID: avatar_m_shoes_fashionweek2022_00_bundle_icon
+TEXT: รองเทาแฟชั่นสีดำ
+
 RESOURCE ID: avatar_m_shoes_fisher_bundle_icon
 TEXT: รองเทาบูตนักตกปลา
 
 RESOURCE ID: avatar_m_shoes_frlg_bundle_icon
 TEXT: รองเทาไฟรเรด
+
+RESOURCE ID: avatar_m_shoes_fw2022_00_bundle_icon
+TEXT: รองเทาฮิโดอิเดะ
 
 RESOURCE ID: avatar_m_shoes_giovanni_0_bundle_icon
 TEXT: รองเทาซากากิ
@@ -4584,6 +4671,9 @@ TEXT: ปลอกหุมขา
 
 RESOURCE ID: avatar_m_socks_empty_bundle_icon
 TEXT: ไมสวมถุงเทา
+
+RESOURCE ID: avatar_m_socks_fw2022_00_bundle_icon
+TEXT: ถุงเทาฮิโดอิเดะ
 
 RESOURCE ID: avatar_m_socks_sneakersocks_00_bundle_icon
 TEXT: ถุงเทาขอสั้น
@@ -4773,6 +4863,132 @@ TEXT: มีคูหูมิตรแท 1 ตัว
 
 RESOURCE ID: badge_buddy_best_title
 TEXT: คูหูมิตรแท
+
+RESOURCE ID: badge_butterfly_collector_archipelago_singular
+TEXT: Collect Archipelago Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_archipelago_title
+TEXT: Archipelago Collector
+
+RESOURCE ID: badge_butterfly_collector_continental_singular
+TEXT: Collect Continental Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_continental_title
+TEXT: Continental Collector
+
+RESOURCE ID: badge_butterfly_collector_elegant_singular
+TEXT: Collect Elegant Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_elegant_title
+TEXT: Elegant Collector
+
+RESOURCE ID: badge_butterfly_collector_fancy_singular
+TEXT: Collect Fancy Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_fancy_title
+TEXT: Fancy Collector
+
+RESOURCE ID: badge_butterfly_collector_garden_singular
+TEXT: Collect Continental Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_garden_title
+TEXT: Garden Collector
+
+RESOURCE ID: badge_butterfly_collector_high_plains_singular
+TEXT: Collect High Plains Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_high_plains_title
+TEXT: High Plains Collector
+
+RESOURCE ID: badge_butterfly_collector_icy_snow_singular
+TEXT: Collect Icy Snow Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_icy_snow_title
+TEXT: Icy Snow Collector
+
+RESOURCE ID: badge_butterfly_collector_jungle_singular
+TEXT: Collect Jungle Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_jungle_title
+TEXT: Jungle Collector
+
+RESOURCE ID: badge_butterfly_collector_marine_singular
+TEXT: Collect Marine Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_marine_title
+TEXT: Marine Collector
+
+RESOURCE ID: badge_butterfly_collector_meadow_singular
+TEXT: Collect Meadow Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_meadow_title
+TEXT: Meadow Collector
+
+RESOURCE ID: badge_butterfly_collector_modern_singular
+TEXT: Collect Modern Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_modern_title
+TEXT: Modern Collector
+
+RESOURCE ID: badge_butterfly_collector_monsoon_singular
+TEXT: Collect Monsoon Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_monsoon_title
+TEXT: Monsoon Collector
+
+RESOURCE ID: badge_butterfly_collector_ocean_singular
+TEXT: Collect Ocean Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_ocean_title
+TEXT: Ocean Collector
+
+RESOURCE ID: badge_butterfly_collector_pokeball_singular
+TEXT: Collect Poké Ball Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_pokeball_title
+TEXT: Poké Ball Collector
+
+RESOURCE ID: badge_butterfly_collector_polar_singular
+TEXT: Collect Polar Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_polar_title
+TEXT: Polar Collector
+
+RESOURCE ID: badge_butterfly_collector_river_singular
+TEXT: Collect River Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_river_title
+TEXT: River Collector
+
+RESOURCE ID: badge_butterfly_collector_sandstorm_singular
+TEXT: Collect Sandstorm Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_sandstorm_title
+TEXT: Sandstorm Collector
+
+RESOURCE ID: badge_butterfly_collector_savannah_singular
+TEXT: Collect Savannah Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_savannah_title
+TEXT: Savannah Collector
+
+RESOURCE ID: badge_butterfly_collector_singular
+TEXT: Collect Vivillon from all over the world.
+
+RESOURCE ID: badge_butterfly_collector_sun_singular
+TEXT: Collect Sun Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_sun_title
+TEXT: Sun Collector
+
+RESOURCE ID: badge_butterfly_collector_title
+TEXT: Butterfly Collector
+
+RESOURCE ID: badge_butterfly_collector_tundra__singular
+TEXT: Collect Tundra Pattern Vivillon.
+
+RESOURCE ID: badge_butterfly_collector_tundra_title
+TEXT: Tundra Collector
 
 RESOURCE ID: badge_capture_bonus_reward
 TEXT: +{0} โบนัสการจับประเภท{1}
@@ -6857,18 +7073,21 @@ TEXT: <size=36><b>คุณตองการถายโอน โปเ�
 ถายโอนไปแลว
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
-TEXT: <size=36><b>มีโปเกมอนเพียง {0} ตัวที่สามารถถายโอนได
-
-โปเกมอนที่ไมสามารถถายโอนไดจะอยู
-ในที่เก็บโปเกมอนดังเดิม โปเกมอน
-ที่ถายโอนไปแลวจะไมสามารถเรียกคืนได
-
-RESOURCE ID: batch_transfer_eligible_confirm_singular
-TEXT: <size=36><b>มีโปเกมอนเพียง 1 ตัวที่สามารถถายโอนได</b></size>
+TEXT: <size=36><b>มีโปเกมอนเพียง {0} ตัว</b></size>
+<size=36><b>ที่สามารถถายโอนได</b></size>
 
 โปเกมอนที่ไมสามารถถายโอนได
-จะอยูในที่เก็บโปเกมอนดังเดิม โปเกมอน
-ที่ถายโอนไปแลวจะไมสามารถเรียกคืนได
+จะอยูในที่เก็บโปเกมอนดังเดิม
+โปเกมอนที่ถายโอนไปแลวจะไม
+สามารถเรียกคืนได
+
+RESOURCE ID: batch_transfer_eligible_confirm_singular
+TEXT: <size=36><b>มีโปเกมอนเพียง 1 ตัวที่สามารถ</b></size>
+<size=36><b>ถายโอนได</b></size>
+โปเกมอนที่ไมสามารถถายโอนได
+จะอยูในที่เก็บโปเกมอนดังเดิม
+โปเกมอนที่ถายโอนไปแลวจะไม
+สามารถเรียกคืนได
 
 RESOURCE ID: batch_transfer_header
 TEXT: เลือกโปเกมอน
@@ -9549,16 +9768,16 @@ RESOURCE ID: beluga_wonder_box_title
 TEXT: กลองลึกลับ
 
 RESOURCE ID: bgmode_no_eggs_incubating_notification_toast
-TEXT: You currently have no Eggs incubating!
+TEXT: ไมมีไขในเครื่องฟกไข!
 
 RESOURCE ID: bgmode_open_gym_spot_notification_toast
-TEXT: Nearby Gym %s has an open spot for your Pokémon!
+TEXT: ยิมใกลเคียง %s มีที่วางสำหรับโปเกมอนของคุณนะ!
 
 RESOURCE ID: bgmode_scanning_notification
 TEXT: มองหาโปเกมอนในบริเวณใกลเคียง!
 
 RESOURCE ID: bgmode_uncaught_distance_notification_toast
-TEXT: A Pokémon you’ve never caught is %1$s meters away near %2$s!
+TEXT: โปเกมอนที่คุณยังไมเคยจับอยูหางออกไป %1$s เมตร ใกล ๆ กับ %2$s!
 
 RESOURCE ID: bidoof_breakout_event
 TEXT: บิปปาลนหลาม
@@ -9621,6 +9840,9 @@ TEXT: ไมมีสัญญาณ… ฉันเขาใจแล�
 RESOURCE ID: blanche_map_time_warning|2
 TEXT: เรามารอจนถึงตอนเชากันเถอะ ฉันสงสัยวาพวกเขาจะปรากฏตัวขึ้นอีกสักพักหนึ่ง
 
+RESOURCE ID: bluetooth_permissions_denied
+TEXT: Pokémon GO ตองใชงานบลูทูธเพื่อใชงานระบบนี้ กรุณาเปดการอนุญาต "อุปกรณใกลเคียง" ในเมนูการตั้งคาอุปกรณ
+
 RESOURCE ID: bonus_1/4_hatch_dist_deino
 TEXT: ระยะทางฟกไข 1/4
 
@@ -9660,6 +9882,9 @@ TEXT: XP การจับเพิ่มขึ้น 4 เทา
 RESOURCE ID: bonus_active
 TEXT: โบนัสกำลังมีผลอยู!
 
+RESOURCE ID: bonus_buddy_catch_assist_boosted
+TEXT: Increased chance of buddy Catch Assist if your Buddy Level is Great Buddy or higher
+
 RESOURCE ID: bonus_candy_nice_great_excel
 TEXT: รับลูกอมจากการจับเพิ่มเมื่อขวางไดดี เยี่ยม และสุดยอด
 
@@ -9674,6 +9899,9 @@ TEXT: วิวัฒนาการโกโลนรางอโลลา�
 
 RESOURCE ID: bonus_cd_move_deino
 TEXT: วิวัฒนาการจิเฮดเปนซาซันดราที่รูทาโจมตีชารจ "เหวี่ยงกระเด็น"
+
+RESOURCE ID: bonus_cd_move_litwick
+TEXT: Evolve Lampent to get a Chandelure that knows the Charged Attack Poltergeist!
 
 RESOURCE ID: bonus_cd_move_roggenrola
 TEXT: วิวัฒนาการกันเทิลเปนกิไกอาซที่รูทาโจมตีชารจ "มีทิเออรบีม"
@@ -9707,6 +9935,9 @@ TEXT: หากเทรนเนอรรวมมือกันเอ�
 
 RESOURCE ID: bonus_implicit_social_deino_raid_title
 TEXT: คำทาคอมมิวนิตี้เดย: ตีบอส
+
+RESOURCE ID: bonus_implicit_social_litwick_raid
+TEXT: If Trainers work together to win a Lampent raid, large numbers of Litwick will appear in the area for 30 minutes.
 
 RESOURCE ID: bonus_implicit_social_lure_4x_catch_xp
 TEXT: ถาจำนวนโปเกมอนที่จับไดจากอุปกรณปลอยลัวรหนึ่งชิ้นถึงจำนวนที่กำหนด โบนัส "XP จากการจับ x3" สำหรับเทรนเนอรที่อยูบริเวณเสาโปเกสต็อปที่ติดตั้งอุปกรณปลอยลัวรจะเพิ่มเปน x4 เปนเวลา 30 นาที
@@ -9813,6 +10044,9 @@ TEXT: ระยะทางฟกไขลดเหลือ 1/4
 RESOURCE ID: bonus_spawn_pikachu
 TEXT: พิคาชูปรากฏตัวมากขึ้นในธรรมชาติ
 
+RESOURCE ID: bonus_special_trade_double_cd
+TEXT: One additional Special Trade can be made during the event and up to five hours afterward for a maximum of two for the day.
+
 RESOURCE ID: bonus_special_trade_starly_cd
 TEXT: สามารถแลกเปลี่ยนแบบพิเศษไดเพิ่มหนึ่งครั้งภายใน 5 ชั่วโมงหลังอีเวนตสิ้นสุด (สูงสุด 3 ครั้งในวันนั้น)
 
@@ -9845,6 +10079,9 @@ TEXT: เพิ่มโอกาสไดรับลูกอม XL จา�
 
 RESOURCE ID: bonus_xl_rare_candy_irl_raids
 TEXT: โบนัสลูกอมประหลาด XL จากการตีบอสในพื้นที่
+
+RESOURCE ID: boost_box_title
+TEXT: กลองบูสต
 
 RESOURCE ID: boosted_mega_pokemon_abomasnow
 TEXT: เมกายูกิโนแข็งแกรงขึ้นชั่วคราว!
@@ -10907,7 +11144,8 @@ RESOURCE ID: bulk_upgrade_button_cannot_be_used
 TEXT: ตัวเลือกนี้ไมสามารถใชไดในขณะนี้
 
 RESOURCE ID: bulk_upgrade_final_confirmation
-TEXT: คุณแนใจหรือไมวาจะพาวเวอรอัป{0}?
+TEXT: คุณแนใจหรือไมวาจะพาวเวอรอัป
+{0}?
 
 RESOURCE ID: bulk_upgrade_final_confirmation_2
 TEXT: การพาวเวอรอัปโปเกมอนตัวนี้จะเกินกวา CP สูงสุดของ{0}
@@ -11079,6 +11317,16 @@ TEXT: ไวตอนเชาเรามาดูกันใหม �
 RESOURCE ID: candy_exchange_button
 TEXT: แลก
 
+RESOURCE ID: candy_to_xl_trade
+TEXT: จะเปลี่ยนลูกอม {0} เม็ดให
+กลายเปนลูกอม XL {0} เม็ด
+หรือไม?
+
+RESOURCE ID: candy_to_xl_trade_plural
+TEXT: จะเปลี่ยนลูกอม {0} เม็ดให
+กลายเปนลูกอม XL {0} เม็ด
+หรือไม?
+
 RESOURCE ID: candy_trade_xl
 TEXT: ลูกอม → ลูกอม XL
 
@@ -11176,7 +11424,7 @@ RESOURCE ID: catch_cup_title
 TEXT: การแขงขันการจับ
 
 RESOURCE ID: catch_exclamation_point
-TEXT: Catch!
+TEXT: จับเลย!
 
 RESOURCE ID: catch_recap_text_0
 TEXT: จับโปเกมอนได {0} ตัว
@@ -11570,6 +11818,12 @@ TEXT: ถายภาพโปเกมอนประเภทโลหะ {
 
 RESOURCE ID: challenge_snapshot_pkmn_water_single
 TEXT: ถายภาพโปเกมอนประเภทน้ำ
+
+RESOURCE ID: challenge_snapshot_wild_blitzle_singularchallenge_snapshot_wild_blitzle_singular
+TEXT: ถายภาพชิมามาที่พบในธรรมชาติ
+
+RESOURCE ID: challenge_snapshot_wild_glameow_singular
+TEXT: ถายภาพเนียรุมาที่พบในธรรมชาติ
 
 RESOURCE ID: change_banned_name_dialog
 TEXT: ดูเหมือนวาจะมีปญหาเกี่ยวกับชื่อเลนของคุณ ชวยบอกชื่อเลนใหมไดไหม?
@@ -12619,7 +12873,7 @@ RESOURCE ID: combat_defense_warning
 TEXT: การโจมตีกำลังมา!
 
 RESOURCE ID: combat_description_season_7
-TEXT: When Season of GO begins on May 31, your end-of-season rewards for Season 6 will be available on the Battle screen, including an Elite Fast TM if you reached rank 19 or higher. Your rating will be reset. Stay tuned—we’ll update you if anything changes.
+TEXT: When the Season of GO begins on May 31, your end-of-season rewards for Season 6 will be available on the Battle screen, including an Elite Fast TM if you reached rank 19 or higher. Your rating will be reset. Stay tuned—we’ll update you if anything changes.
 
 RESOURCE ID: combat_disable_friend_combat_confirmation
 TEXT: ปดใชงานการแบตเทิลกับเพื่อน
@@ -13212,6 +13466,12 @@ TEXT: คอมมิวนิตี้เดย : ฟุคามารุ
 RESOURCE ID: community_day_hoppip_event_name
 TEXT: คอมมิวนิตี้เดย : ฮาเน็กโกะ
 
+RESOURCE ID: community_day_litwick_event_name
+TEXT: Community Day: Litwick
+
+RESOURCE ID: community_day_litwick_limited_research
+TEXT: งานวิจัยแบบจำกัดเวลาของฮิโตโมชิ
+
 RESOURCE ID: community_day_machop_event_name
 TEXT: คอมมิวนิตี้เดย : วันริกี
 
@@ -13222,10 +13482,10 @@ RESOURCE ID: community_day_magmar_event_name
 TEXT: คอมมิวนิตี้เดย : บูเบอร
 
 RESOURCE ID: community_day_map_description
-TEXT: Check out our Community Day map to find the best places to spend Community Day!
+TEXT: ตรวจสอบแผนที่คอมมิวนิตี้เดย เพื่อหาสถานที่ที่เหลาเทรนเนอรมารวมตัวกันในวันคอมมิวนิตี้เดย!
 
 RESOURCE ID: community_day_map_name
-TEXT: Meet other Trainers
+TEXT: พบปะกับเทรนเนอร
 
 RESOURCE ID: community_day_mudkip_event_name
 TEXT: มิซึโกโรคอมมิวนิตี้เดย (รีเทิรน)
@@ -13297,7 +13557,8 @@ RESOURCE ID: congratulations_exclusive_raid_ticket
 TEXT: ยินดีดวย {0}!
 
 RESOURCE ID: consume_combat_pass_warning_desc
-TEXT: คุณสามารถใช{0}ของคุณไปจนกวาจะชนะการแบตเทิลได!
+TEXT: คุณสามารถใช{0}ของคุณ
+ไปจนกวาจะชนะการแบตเทิลได!
 
 RESOURCE ID: consume_combat_pass_warning_title
 TEXT: ใช{0}ของคุณหรือไม?
@@ -13306,11 +13567,7 @@ RESOURCE ID: continue_to_battle_button
 TEXT: แบตเทิลตอ
 
 RESOURCE ID: convert_to_stardust
-TEXT: คุณจะไดรับสตารดัสตเมื่อเปดของขวัญนี้ แตจะไมไดรับไอเท็มอื่นเนื่องจากกระเปาเก็บไอเท็มเต็ม
-
-สามารถตั้งคาใหเปดของขวัญไดหรือไมเมื่อกระเปาเก็บไอเท็มเต็มที่การตั้งคา
-
-
+TEXT: You’ll be able to receive Stardust if you open this Gift, but you won’t receive other items because your Item Bag is full.  You can change whether Gifts can be opened while your Item Bag is full by going to the Settings menu.
 
 RESOURCE ID: copy_friend_code_title
 TEXT: คัดลอกรหัสเทรนเนอรของฉัน
@@ -13373,7 +13630,7 @@ RESOURCE ID: dai_willow_part2_tile_page2
 TEXT: เครื่องหอมชวนฝน - 2 (2/2)
 
 RESOURCE ID: daily_adventure_incense_description
-TEXT: Activate Daily Adventure Incense and begin to explore, and you may encounter Pokémon not frequently seen in the wild!
+TEXT: ใชเครื่องหอมรายวันแลวออกไปผจญภัยกันเลย ไมแนวาคุณอาจจะไดพบกับโปเกมอนปาที่ปกติไมคอยพบเทาไหรดวยก็ไดนะ!
 
 RESOURCE ID: daily_adventure_incense_modal_message
 TEXT: เครื่องหอมพิเศษที่มีกลิ่นหอมนาพิศวง
@@ -13587,7 +13844,8 @@ RESOURCE ID: delete_battle_party_prompt
 TEXT: คุณตองการลบทีมแบตเทิล {0} หรือไม?
 
 RESOURCE ID: delete_gift_confirmation
-TEXT: คุณแนใจหรือไมวาตองการทิ้งของขวัญชิ้นนี้?
+TEXT: คุณแนใจหรือไมวาตองการทิ้ง
+ของขวัญชิ้นนี้?
 
 RESOURCE ID: delete_pokemon_tag_confirmation
 TEXT: แท็กนี้จะถูกนำออกจากโปเกมอนที่
@@ -15269,7 +15527,7 @@ RESOURCE ID: evo_2019_rocket_l
 TEXT: อีเวนตวิวัฒนาการ : ชนะหัวหนาแกงโกร็อกเกต {0} ครั้ง
 
 RESOURCE ID: evolution_cup_title
-TEXT: Evolution Cup
+TEXT: การแขงขันวิวัฒนาการ
 
 RESOURCE ID: evolution_event_name
 TEXT: อีเวนตวิวัฒนาการ
@@ -15300,6 +15558,9 @@ TEXT: โปเกมอนตัวนี้อาจมี CP เกินก�
 RESOURCE ID: evolved_too_strong_some
 TEXT: โปเกมอนตัวนี้จะมี CP เกินกำหนดในบางแบตเทิลลีก
 
+RESOURCE ID: evolving_stars_event_name
+TEXT: รวมดาววิวัฒนาการ
+
 RESOURCE ID: ex_raid_pass_invite_empty_prompt
 TEXT: คุณยังไมมี{0}!
 
@@ -15321,8 +15582,14 @@ TEXT: ลงชื่อเขาใช
 RESOURCE ID: existing_player_label
 TEXT: ผูเลนเดิม
 
+RESOURCE ID: expert_box_title
+TEXT: กลองผูเชี่ยวชาญ
+
 RESOURCE ID: explore_responsibly
 TEXT: ออกสำรวจพรอมหวงใยโลก
+
+RESOURCE ID: explorer_box_title
+TEXT: กลองสำรวจ
 
 RESOURCE ID: explorer_pikachu_available
 TEXT: พิคาชูนักสำรวจจะปรากฏตัวบอยขึ้น
@@ -15454,6 +15721,9 @@ TEXT: ทาโพสนักจับแมลง
 
 RESOURCE ID: f_avatar_poses_bundle_pose_41
 TEXT: ทาโพสกุซมา
+
+RESOURCE ID: f_avatar_poses_bundle_pose_44
+TEXT: ทาโพสประกายไฟ
 
 RESOURCE ID: f_avatar_poses_empty_bundle_pose_empty
 TEXT: ทายืนเฉย
@@ -17198,6 +17468,14 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 
 RESOURCE ID: general1.ticket.2_hoppt_title
 TEXT: ตนฝายลอยละลอง
+
+RESOURCE ID: general1.ticket.2_litwick_description
+TEXT: A ticket to access the Field Notes: Trick of the Light Special Research on October 15, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_litwick_title
+TEXT: Field Notes: Trick of the Light
 
 RESOURCE ID: general1.ticket.2_machop_description
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ "วันริกีเดินหนาลุย!" ในวันที่ 16 มกราคม 2020 เวลา 11:00 - 17:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด สามารถดูรายละเอียดไดที่ขาวสารในเกม
@@ -19718,6 +19996,9 @@ TEXT: GO Fest Global : ชนะการตีบอส
 RESOURCE ID: gofestd_2019_medium_win_gym_battle
 TEXT: GO Fest Global : ชนะยิมแบตเทิล {0} ครั้ง
 
+RESOURCE ID: gold_box_title
+TEXT: กลองทอง
+
 RESOURCE ID: google_auth_failed
 TEXT: ไมสามารถตรวจสอบการเขาสูระบบ โปรดลองอีกครั้ง
 
@@ -19778,8 +20059,99 @@ TEXT: ยินดีตอนรับสู Pokémon GO Tour: คัน�
 RESOURCE ID: gotour2021_welcome_red
 TEXT: ยินดีตอนรับสู Pokémon GO Tour: คันโต!
 
+RESOURCE ID: gotour2022
+TEXT: Pokémon GO Tour: โจโตะ
+
+RESOURCE ID: gotour2022_battle
+TEXT: Pokémon GO Tour: Johto Battle Challenge
+
+RESOURCE ID: gotour2022_battle_0
+TEXT: Pokémon GO Tour: Johto Battle Challenge (1/11)
+
+RESOURCE ID: gotour2022_battle_1
+TEXT: Pokémon GO Tour: Johto Battle Challenge (2/11)
+
+RESOURCE ID: gotour2022_battle_10
+TEXT: Pokémon GO Tour: Johto Battle Challenge (11/11)
+
+RESOURCE ID: gotour2022_battle_2
+TEXT: Pokémon GO Tour: Johto Battle Challenge (3/11)
+
+RESOURCE ID: gotour2022_battle_3
+TEXT: Pokémon GO Tour: Johto Battle Challenge (4/11)
+
+RESOURCE ID: gotour2022_battle_4
+TEXT: Pokémon GO Tour: Johto Battle Challenge (5/11)
+
+RESOURCE ID: gotour2022_battle_5
+TEXT: Pokémon GO Tour: Johto Battle Challenge (6/11)
+
+RESOURCE ID: gotour2022_battle_6
+TEXT: Pokémon GO Tour: Johto Battle Challenge (7/11)
+
+RESOURCE ID: gotour2022_battle_7
+TEXT: Pokémon GO Tour: Johto Battle Challenge (8/11)
+
+RESOURCE ID: gotour2022_battle_8
+TEXT: Pokémon GO Tour: Johto Battle Challenge (9/11)
+
+RESOURCE ID: gotour2022_battle_9
+TEXT: Pokémon GO Tour: Johto Battle Challenge (10/11)
+
 RESOURCE ID: gotour2022_battle_champion
 TEXT: แชมเป้ยนโจโตะแบตเทิลชาเลนจ
+
+RESOURCE ID: gotour2022_battle_choice_keep_battling
+TEXT: สูตอไป
+
+RESOURCE ID: gotour2022_battle_choice_stop_battling
+TEXT: เนนจับโปเกมอน
+
+RESOURCE ID: gotour2022_battle_description_keep_battling
+TEXT: GO ยิมเทรนเนอรจะปรากฏตัวที่เสาโปเกสต็อปไปเรื่อย ๆ ทำใหสามารถแบตเทิลกับพวกเขาไดอีก สามารถใชเวลาที่เหลือในการตอสูกับพวกเขาไปเรื่อย ๆ เพื่อรับรางวัลได
+
+RESOURCE ID: gotour2022_battle_description_stop_battling
+TEXT: GO ยิมเทรนเนอรจะไมปรากฏตัวที่เสาโปเกสต็อปแลวในวันนี้ สามารถตั้งสมาธิไปที่การจับโปเกมอนได
+
+RESOURCE ID: gotour2022_battle_dialogue_0_0
+TEXT: ดูเหมือนจะจบแลวสินะ %PLAYERNAME%
+ความแข็งแกรงของเธอไดรับการพิสูจนแลวละ
+
+RESOURCE ID: gotour2022_battle_dialogue_0_1
+TEXT: ตอนนี้เธอเปนแชมเป้ยนโจโตะแบตเทิลชาเลนจแลว!
+
+RESOURCE ID: gotour2022_battle_dialogue_0_2
+TEXT: การอุทิศตน ไววางใจ และความรักที่เธอมีใหกับ
+โปเกมอนทำใหเธอมาถึงจุดนี้ได
+เธอชนะเพราะโปเกมอนเชื่อมั่นในตัวเธอ
+เชนเดียวกับที่เธอเชื่อในตัวพวกมัน
+
+RESOURCE ID: gotour2022_battle_dialogue_0_3
+TEXT: ยินดีดวย %PLAYERNAME%!
+
+RESOURCE ID: gotour2022_battle_dialogue_0_4
+TEXT: จะฉลองความสำเร็จครั้งสำคัญนี้ยังไงดีละ?
+
+RESOURCE ID: gotour2022_battle_dialogue_1_0
+TEXT: สมกับเปนเธอเลยนะ %PLAYERNAME%!
+โปเกมอนของเธอเองก็ดูตื่นเตนที่จะไดตอสูมาก ๆ
+เชนกัน พวกเธอเปนทีมที่ดีนะ ออกไปสูใหเต็มที่เลย!
+
+RESOURCE ID: gotour2022_battle_dialogue_2_0
+TEXT: การรูขีดจำกัดของตัวเองก็เปนเรื่องสำคัญนะ
+%PLAYERNAME% บางครั้งเราก็ควรจะใจดี
+กับตัวเองดวยเชนกัน
+
+RESOURCE ID: gotour2022_battle_dialogue_2_1
+TEXT: และดูเหมือนวาโปเกมอนของเธอก็ตองการพักผอนเชนกัน
+เพราะฉะนั้นทำไมไมไปผอนคลายสักหนอยละ
+พรอมเมื่อไหรคอยออกไปจับโปเกมอนและหาเพื่อนใหมกันตอ
+
+RESOURCE ID: gotour2022_battle_leader_guidance
+TEXT: เคล็ดลับ: สะสมสตารดัสตเพื่อตอสูกับหัวหนาโจโตะแบตเทิลชาเลนจ!
+
+RESOURCE ID: gotour2022_beast_guidance
+TEXT: ไรโค, เอ็นเต และซุยคูนจะหนีเมื่อคุณพบพวกมันในธรรมชาติ ถายภาพกอนที่พวกมันจะหนีไปกันเถอะ!
 
 RESOURCE ID: gotour2022_challenger_bug_azalea_loss
 TEXT: โปเกมอนแมลงของฉันแพแลว... ไมนาเลย
@@ -20001,8 +20373,38 @@ TEXT: ตองการเลือกเวอรชัน Gold ใช�
 RESOURCE ID: gotour2022_choose_version_title_silver
 TEXT: ตองการเลือกเวอรชัน Silver ใชหรือไม?
 
+RESOURCE ID: gotour2022_defeat_leader
+TEXT: เอาชนะหัวหนาโจโตะแบตเทิลชาเลนจ
+
+RESOURCE ID: gotour2022_evolve
+TEXT: Pokémon GO Tour: Johto – Evolve
+
+RESOURCE ID: gotour2022_evolve_description
+TEXT: วิวัฒนาการโปเกมอนที่คนพบในโจโตะ
+
 RESOURCE ID: gotour2022_gold
 TEXT: GO Tour โจโตะ: เวอรชัน Gold
+
+RESOURCE ID: gotour2022_gold_catch
+TEXT: Pokémon GO Tour: Johto – Gold (Incense)
+
+RESOURCE ID: gotour2022_gold_catch_description
+TEXT: ใชเครื่องหอมเพื่อดึงดูดโปเกมอนที่มีเฉพาะเวอรชัน Gold
+
+RESOURCE ID: gotour2022_gold_trade
+TEXT: Pokémon GO Tour: Johto – Gold (Trade)
+
+RESOURCE ID: gotour2022_gold_trade_description
+TEXT: Trade with friends to get these Silver Version–exclusive Pokémon
+
+RESOURCE ID: gotour2022_goldenrod_city
+TEXT: Pokémon GO Tour: Johto – Goldenrod City
+
+RESOURCE ID: gotour2022_goldenrod_city_description
+TEXT: จับโปเกมอนในชั่วโมงโคงาเนะซิตี้
+
+RESOURCE ID: gotour2022_goldenrod_city_hour
+TEXT: กำลังจัด: ชั่วโมงโคงาเนะซิตี้!
 
 RESOURCE ID: gotour2022_instinct_leader_loss
 TEXT: เออ...
@@ -20019,6 +20421,15 @@ TEXT: สัญชาตญาณนี่สะดวกดีนะ วา�
 RESOURCE ID: gotour2022_instinct_leader_victory
 TEXT: ฉันชนะ? วาว! ยะฮู!
 
+RESOURCE ID: gotour2022_mt_silver
+TEXT: Pokémon GO Tour: Johto – Mt. Silver
+
+RESOURCE ID: gotour2022_mt_silver_description
+TEXT: จับโปเกมอนในชั่วโมงภูเขาสีเงิน
+
+RESOURCE ID: gotour2022_mt_silver_hour
+TEXT: กำลังจัด: ชั่วโมงภูเขาสีเงิน!
+
 RESOURCE ID: gotour2022_mystic_leader_loss
 TEXT: อืม
 
@@ -20034,11 +20445,56 @@ TEXT: ความเยือกเย็นและการวิเคร�
 RESOURCE ID: gotour2022_mystic_leader_victory
 TEXT: อืม
 
+RESOURCE ID: gotour2022_national_park
+TEXT: Pokémon GO Tour: Johto – National Park
+
+RESOURCE ID: gotour2022_national_park_description
+TEXT: จับโปเกมอนในชั่วโมงสวนธรรมชาติ
+
+RESOURCE ID: gotour2022_national_park_hour
+TEXT: กำลังจัด: ชั่วโมงสวนธรรมชาติ!
+
+RESOURCE ID: gotour2022_new_bark_town
+TEXT: Pokémon GO Tour: Johto – New Bark Town
+
+RESOURCE ID: gotour2022_new_bark_town_description
+TEXT: จับโปเกมอนในชั่วโมงมาวาคาบะทาวน
+
+RESOURCE ID: gotour2022_new_bark_town_hour
+TEXT: กำลังจัด: ชั่วโมงวาคาบะทาวน!
+
+RESOURCE ID: gotour2022_npc_guidance
+TEXT: Tip: To begin battling, you’ll need to find your opponents! You can find GO Gym Trainers at PokéStops. Visit different PokéStops to battle different GO Gym Trainers!
+
+RESOURCE ID: gotour2022_raid
+TEXT: Pokémon GO Tour: Johto – Raid
+
+RESOURCE ID: gotour2022_raid_description
+TEXT: คนหาโปเกมอนเหลานี้ในการตีบอส!
+
 RESOURCE ID: gotour2022_silver
 TEXT: GO Tour โจโตะ: เวอรชัน Silver
 
-RESOURCE ID: gotour2022_tr_beasts_photo_safari
-TEXT: โฟโตซาฟารีแหงตำนาน
+RESOURCE ID: gotour2022_silver_catch
+TEXT: Pokémon GO Tour: Johto – Silver (Incense)
+
+RESOURCE ID: gotour2022_silver_catch_description
+TEXT: ใชเครื่องหอมเพื่อดึงดูดโปเกมอนที่มีเฉพาะเวอรชัน Silver
+
+RESOURCE ID: gotour2022_silver_trade
+TEXT: Pokémon GO Tour: Johto – Silver (Trade)
+
+RESOURCE ID: gotour2022_silver_trade_description
+TEXT: Trade with friends to get these Gold Version–exclusive Pokémon
+
+RESOURCE ID: gotour2022_snapshot_guidance
+TEXT: เคล็ดลับ: ไรโค, เอ็นเต และซุยคูนมีแนวโนมที่จะหนีเมื่อคุณพบพวกมันในธรรมชาติ แตถาคุณสามารถถายภาพพวกมันกอนที่จะหนีไปทัน คุณจะไดรับโอกาสในการจับพวกมัน!
+
+RESOURCE ID: gotour2022_special
+TEXT: Pokémon GO Tour: Johto – Special
+
+RESOURCE ID: gotour2022_special_description
+TEXT: ทำงานวิจัยพิเศษโจโตะใหเสร็จสิ้น แลวถายภาพ
 
 RESOURCE ID: gotour2022_valor_leader_loss
 TEXT: ไมเปนไร...ฉัน โอเค...
@@ -20054,6 +20510,18 @@ TEXT: ไมวาจะเกิดอะไรขึ้น ไฟที�
 
 RESOURCE ID: gotour2022_valor_leader_victory
 TEXT: อีกหนึ่งชัยชนะสำหรับทีมแวเลอร ยังอยากสูอีกไหม?
+
+RESOURCE ID: gotour2022_violet_city
+TEXT: Pokémon GO Tour: Johto – Violet City
+
+RESOURCE ID: gotour2022_violet_city_description
+TEXT: จับโปเกมอนในชั่วโมงคิเคียวซิตี้
+
+RESOURCE ID: gotour2022_violet_city_hour
+TEXT: กำลังจัด: ชั่วโมงคิเคียวซิตี้!
+
+RESOURCE ID: gotour2022_welcome
+TEXT: ยินดีตอนรับสู Pokémon GO Tour: โจโตะ!
 
 RESOURCE ID: gotour_kanto
 TEXT: Pokémon GO Tour: คันโต
@@ -20358,42 +20826,6 @@ TEXT: GO Tour คันโต: เอาชนะผูทาชิงท�
 RESOURCE ID: gotourprep_event_name
 TEXT: GO Tour วอรมอัป! อีเวนตปารตี้ลูกบอล
 
-RESOURCE ID: gotoursik
-TEXT: GO Tour Live: กาวสูคันโต
-
-RESOURCE ID: gotoursik_catch_beginning
-TEXT: จับโปเกมอนเหลานี้ในจุดเริ่มตนของการเดินทาง!
-
-RESOURCE ID: gotoursik_catch_beginning_description
-TEXT: GO Tour Live: กาวสูคันโต - จุดเริ่มตนของการเดินทาง
-
-RESOURCE ID: gotoursik_catch_blanche
-TEXT: จับโปเกมอนเหลานี้ในจุดทีมมิสติก!
-
-RESOURCE ID: gotoursik_catch_blanche_description
-TEXT: GO Tour Live: กาวสูคันโต - ทีมมิสติก
-
-RESOURCE ID: gotoursik_catch_candela
-TEXT: จับโปเกมอนเหลานี้ในจุดทีมแวเลอร!
-
-RESOURCE ID: gotoursik_catch_candela_description
-TEXT: GO Tour Live: กาวสูคันโต - ทีมแวเลอร
-
-RESOURCE ID: gotoursik_catch_spark
-TEXT: จับโปเกมอนเหลานี้ในจุดทีมอินสติงต!
-
-RESOURCE ID: gotoursik_catch_spark_description
-TEXT: GO Tour Live: กาวสูคันโต - ทีมอินสติงต
-
-RESOURCE ID: gotoursik_catch_willow
-TEXT: จับโปเกมอนเหลานี้ในจุดศาสตราจารยวิลโลว!
-
-RESOURCE ID: gotoursik_catch_willow_description
-TEXT: GO Tour Live: กาวสูคันโต - ศาสตราจารยวิลโลว
-
-RESOURCE ID: gotoursik_elite4_guidance
-TEXT: เคล็ดลับ: คุณสามารถหาสมาชิกจตุรเทพ GO Tour ไดที่เสาโปเกสต็อป แตละคนจะปรากฏตัวในถิ่นที่อยูที่แตกตางกัน!
-
 RESOURCE ID: gotoursik_elitefour_a_loss
 TEXT: นาอายเหลือเกิน
 นี่ฉันมั่นใจในตัวเองเกินไปงั้นเหรอ...
@@ -20512,99 +20944,6 @@ TEXT: ไมนึกเลยวาจะไดเจอกับ
 RESOURCE ID: gotoursik_elitefour_d_victory
 TEXT: จบเร็วกวาที่คิดนะ
 
-RESOURCE ID: gotoursik_elitefour_title
-TEXT: จตุรเทพ GO Tour
-
-RESOURCE ID: gotoursik_photo_habitat_beginning
-TEXT: ถายภาพในจุดเริ่มตนของการเดินทาง
-
-RESOURCE ID: gotoursik_photo_habitat_instinct
-TEXT: ถายภาพในจุดทีมอินสติงต
-
-RESOURCE ID: gotoursik_photo_habitat_mystic
-TEXT: ถายภาพในจุดทีมมิสติก
-
-RESOURCE ID: gotoursik_photo_habitat_valor
-TEXT: ถายภาพในจุดทีมแวเลอร
-
-RESOURCE ID: gotoursik_photo_habitat_willow
-TEXT: ถายภาพในจุดศาสตราจารยวิลโลว
-
-RESOURCE ID: gotoursik_sr_1
-TEXT: GO Tour Live: กาวสูคันโต (1/6)
-
-RESOURCE ID: gotoursik_sr_2
-TEXT: GO Tour Live: กาวสูคันโต (2/6)
-
-RESOURCE ID: gotoursik_sr_3
-TEXT: GO Tour Live: กาวสูคันโต (3/6)
-
-RESOURCE ID: gotoursik_sr_4
-TEXT: GO Tour Live: กาวสูคันโต (4/6)
-
-RESOURCE ID: gotoursik_sr_5
-TEXT: GO Tour Live: กาวสูคันโต (5/6)
-
-RESOURCE ID: gotoursik_sr_6
-TEXT: GO Tour Live: กาวสูคันโต (6/6)
-
-RESOURCE ID: gotoursik_today_view_habitat_beginning
-TEXT: คุณอยูในจุดเริ่มตนของการเดินทาง!
-
-RESOURCE ID: gotoursik_today_view_habitat_blanche
-TEXT: คุณอยูในจุดทีมมิสติก!
-
-RESOURCE ID: gotoursik_today_view_habitat_candela
-TEXT: คุณอยูในจุดทีมแวเลอร!
-
-RESOURCE ID: gotoursik_today_view_habitat_spark
-TEXT: คุณอยูในจุดทีมอินสติงต!
-
-RESOURCE ID: gotoursik_today_view_habitat_willow
-TEXT: คุณอยูในจุดศาสตราจารยวิลโลว!
-
-RESOURCE ID: gotoursik_tr_city
-TEXT: Pokémon GO Tour: Live
-
-RESOURCE ID: gotoursik_tr_city_0
-TEXT: Pokémon GO Tour: Live (1/7)
-
-RESOURCE ID: gotoursik_tr_city_1
-TEXT: Pokémon GO Tour: Live (2/7)
-
-RESOURCE ID: gotoursik_tr_city_2
-TEXT: Pokémon GO Tour: Live (3/7)
-
-RESOURCE ID: gotoursik_tr_city_3
-TEXT: Pokémon GO Tour: Live (4/7)
-
-RESOURCE ID: gotoursik_tr_city_4
-TEXT: Pokémon GO Tour: Live (5/7)
-
-RESOURCE ID: gotoursik_tr_city_5
-TEXT: Pokémon GO Tour: Live (6/7)
-
-RESOURCE ID: gotoursik_tr_city_6
-TEXT: Pokémon GO Tour: Live (7/7)
-
-RESOURCE ID: gotoursik_tr_elite4
-TEXT: GO Tour Live: จตุรเทพ
-
-RESOURCE ID: gotoursik_tr_elite4_0
-TEXT: GO Tour Live: จตุรเทพ (1/4)
-
-RESOURCE ID: gotoursik_tr_elite4_1
-TEXT: GO Tour Live: จตุรเทพ (2/4)
-
-RESOURCE ID: gotoursik_tr_elite4_2
-TEXT: GO Tour Live: จตุรเทพ (3/4)
-
-RESOURCE ID: gotoursik_tr_elite4_3
-TEXT: GO Tour Live: จตุรเทพ (4/4)
-
-RESOURCE ID: gotoursik_welcome
-TEXT: ยินดีตอนรับสู Pokémon GO Tour Live: กาวสูคันโต!
-
 RESOURCE ID: goyang_cup_title
 TEXT: การแขงขันการจับโกยาง
 
@@ -20619,6 +20958,9 @@ TEXT: ระลอกฉับพลัน: หญา
 
 RESOURCE ID: great_league_remix_title
 TEXT: เกรตลีกรีมิกซ
+
+RESOURCE ID: great_raid_box_title
+TEXT: กลองตีบอสชั้นดี
 
 RESOURCE ID: ground_type_event
 TEXT: ระลอกฉับพลัน: ดิน
@@ -20906,94 +21248,111 @@ RESOURCE ID: grunt_decoy#9
 TEXT: แกคิดวาแกเปนฮีโรเหรอ? แคหาหัวหนาใหญเราแกยังทำไมไดเลย!
 
 RESOURCE ID: grunt_generic_challenge#10__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: กระจอกอยางแกนะ ฉันจะจัดการเอง!
 
 RESOURCE ID: grunt_generic_challenge#10__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: กระจอกอยางแกนะ ฉันจะจัดการเอง!
 
 RESOURCE ID: grunt_generic_challenge#11__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: ตรงนี้เปนอาณาเขตของแกงโกร็อกเกต
+ไสหัวไปซะ!
 
 RESOURCE ID: grunt_generic_challenge#11__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: หัวหนาใหญบอกวาเขาจะขอรับเสาโปเกสต็อป
+นี้ไปในนามของแกงโกร็อกเกต!
 
 RESOURCE ID: grunt_generic_challenge#12__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: แกไมมีธุระกงการอะไรที่นี่! กลับบานไปซะ!
 
 RESOURCE ID: grunt_generic_challenge#12__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: แกไมมีธุระกงการอะไรที่นี่! กลับบานไปซะ!
 
 RESOURCE ID: grunt_generic_challenge#13__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: โปเกมอนมีดีแคไวทำเงินเทานั้นแหละ
+แลวทำไมจะไมใชมันละ?
+เลิกยุงกับเรื่องของพวกฉันซะ!
 
 RESOURCE ID: grunt_generic_challenge#13__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: โปเกมอนมีดีแคไวทำเงินเทานั้นแหละ
+แลวทำไมจะไมใชมันละ?
+เลิกยุงกับเรื่องของเราซะ!
 
 RESOURCE ID: grunt_generic_challenge#14__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: เฮ เทรนเนอร! แนจริงเขามาเลย!
 
 RESOURCE ID: grunt_generic_challenge#14__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: เฮ เทรนเนอร! แนจริงเขามาเลย!
 
 RESOURCE ID: grunt_generic_challenge#17__female_speaker
-TEXT: เราจะขโมยไอเท็มและจับโปเกมอนทั้งหมดจากเสาโปเกสต็อปนี้! อยากจะหยุดพวกเราเหรอ? มาแบตเทิลกันสิ!
+TEXT: ใครจะยอมใหแกมาขัดขวางแผนการ
+อันยิ่งใหญของพวกเรา แกงโกร็อกเกต
+กันเลา มาดวลกัน!
 
 RESOURCE ID: grunt_generic_challenge#17__male_speaker
-TEXT: เราจะขโมยไอเท็มและจับโปเกมอนทั้งหมดจากเสาโปเกสต็อปนี้! อยากจะหยุดเรางั้นเหรอ? มาแบตเทิลกันสิ!
+TEXT: เราจะขโมยไอเท็มและจับโปเกมอนทั้งหมด
+จากเสาโปเกสต็อปนี้! อยากจะหยุดเรา
+งั้นเหรอ? มาแบตเทิลกันสิ!
 
 RESOURCE ID: grunt_generic_challenge#1__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: แกไมมีทางไปไดไกลกวานี้แลว!
+ฉันจะไมปรานีศัตรูหนาไหนทั้งนั้น!
 
 RESOURCE ID: grunt_generic_challenge#1__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: แกไมมีทางไปไดไกลกวานี้แลว! ฉันจะไมปรานี
+ศัตรูหนาไหนทั้งนั้น!
 
 RESOURCE ID: grunt_generic_challenge#2__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: ที่นี่เปนอาณาเขตของแกงโกร็อกเกต!
 
 RESOURCE ID: grunt_generic_challenge#2__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: ถาแกไมใชสมาชิกแกงโกร็อกเกต
+ก็ออกไปจากที่นี่ซะ!
 
 RESOURCE ID: grunt_generic_challenge#3__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: ฉันจะมอบความหวาดผวาใหแกเอง!
 
 RESOURCE ID: grunt_generic_challenge#3__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: ฉันจะมอบความหวาดผวาใหแกเอง!
 
 RESOURCE ID: grunt_generic_challenge#4__female_speaker
-TEXT: เราไมยอมใหแกทำลายแผนการการยึดครองเสาโปเกสต็อปของเราหรอก
+TEXT: คิดวาฉันจะปลอยใหแกรอดไปไดงั้นเหรอ? ฝนไปเถอะ!
 
 RESOURCE ID: grunt_generic_challenge#4__male_speaker
-TEXT: เราไมยอมใหแกทำลายแผนการการยึดครองเสาโปเกสต็อปของเราหรอก
+TEXT: เราไมยอมใหแกทำลายแผนการยึดครอง
+เสาโปเกสต็อปของเราหรอก
 
 RESOURCE ID: grunt_generic_challenge#5__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: โปเกมอนแบตเทิลเหรอ? เอาสิ! มาลุยกันเลย!
 
 RESOURCE ID: grunt_generic_challenge#5__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: โปเกมอนแบตเทิลเหรอ? เอาสิ! มาลุยกันเลย!
 
 RESOURCE ID: grunt_generic_challenge#6__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: แกดูทาทางกระจอกนะ ฉันไมมีทางแพแกแน!
 
 RESOURCE ID: grunt_generic_challenge#6__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: แกดูทาทางกระจอกนะ ฉันไมมีทางแพแกแน!
 
 RESOURCE ID: grunt_generic_challenge#7__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: คิดวาโชคเขาขางแกเหรอ?
+ถาเขามาอีกแมแตกาวเดียว ไดเห็นดีกันแน
 
 RESOURCE ID: grunt_generic_challenge#7__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: คิดวาโชคเขาขางแกเหรอ?
+ถาเขามาอีกแมแตกาวเดียว ไดเห็นดีกันแน
 
 RESOURCE ID: grunt_generic_challenge#8__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: แกคิดวาตัวเองเปนฮีโรหรือไง?
 
 RESOURCE ID: grunt_generic_challenge#8__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: แกคิดวาตัวเองเปนฮีโรงั้นเหรอ?
 
 RESOURCE ID: grunt_generic_challenge#9__female_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: ที่นี่ไมใชที่ที่คนแบบแกจะเขามาไดหรอกนะ ออกไปซะ!
 
 RESOURCE ID: grunt_generic_challenge#9__male_speaker
-TEXT: พวกเราเมื่อวาน ไมเหมือนพวกเราในวันนี้หรอกนะ!
+TEXT: ตรงนี้เปนอาณาเขตของแกงโกร็อกเกต
+แกมีธุระอะไรกับพวกเรางั้นเรอะ?
 
 RESOURCE ID: grunt_generic_defeat#10__female_speaker
 TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
@@ -21197,7 +21556,7 @@ RESOURCE ID: grunt_generic_greeting#11__female_speaker
 TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
 
 RESOURCE ID: grunt_generic_greeting#11__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: แมแตโครัตตาตัวเดียวฉันก็ไมยอมใหผานไปไดหรอก!
 
 RESOURCE ID: grunt_generic_greeting#12__female_speaker
 TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
@@ -21324,7 +21683,7 @@ RESOURCE ID: grunt_generic_greeting#9__female_speaker
 TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
 
 RESOURCE ID: grunt_generic_greeting#9__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: พบผูบุกรุก!
 
 RESOURCE ID: grunt_generic_victory#1__female_speaker
 TEXT: ฝมือระดับนี้ ไมมีทางเอาชนะอารโลไดหรอก
@@ -21408,7 +21767,13 @@ RESOURCE ID: gt_2020_spin_medium
 TEXT: แรงขับเคลื่อนสูการสืบคน : หมุนเสาโปเกสต็อป {0} ครั้ง
 
 RESOURCE ID: gui_vivillon_map_header
-TEXT: Vivillon Habitat
+TEXT: ถิ่นที่อยูของวิวิญอง
+
+RESOURCE ID: gui_vivillon_medal_button
+TEXT: SEE MEDAL
+
+RESOURCE ID: gui_vivillon_progress_header
+TEXT: Collection Progress
 
 RESOURCE ID: gym_approach_battles_won
 TEXT: แบตเทิลชนะ :
@@ -22391,7 +22756,7 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 RESOURCE ID: item_event_ticket_pink_desc_alodude
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษในวันที่
 21 พฤษภาคม เวลา 11:00 - 14:00 น.
-ตามเวลาทองถิ่นทั่วโลก
+ตามเวลาทองถิ่นทั่วโลก
 
 
 RESOURCE ID: item_event_ticket_pink_desc_mrmime
@@ -23081,6 +23446,9 @@ TEXT: ชำระลาง{0}ชาโดวแลว!
 RESOURCE ID: journal_shared_ex_raid_ticket_with_friend
 TEXT: คุณไดเชิญ{0}เขารวมการตีบอส EX
 
+RESOURCE ID: journeyer_box_title
+TEXT: กลองทองโลก
+
 RESOURCE ID: jp_iap_link1
 TEXT: https://niantic.helpshift.com/hc/ja/6-pokemon-go/faq/2046-%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/?s=others&f=%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA&l=ja&p=web
 
@@ -23155,6 +23523,9 @@ TEXT: คุณแนใจหรือไมวาตองกา�
 RESOURCE ID: language_currently_selected
 TEXT: คุณเลือกภาษานี้อยูแลว
 
+RESOURCE ID: language_early_access_language
+TEXT: This is an early access language. Please report any issues if found.
+
 RESOURCE ID: language_selector_description
 TEXT: กรุณารีสตารทเพื่อใหการเปลี่ยนแปลงมีผล
 
@@ -23183,10 +23554,13 @@ RESOURCE ID: last_time_activity_label
 TEXT: Last Time Activity
 
 RESOURCE ID: leader_map_assembled
-TEXT: คุณไดประกอบร็อกเกตเรดารแลว!
+TEXT: คุณไดประกอบร็อกเกต
+เรดารแลว!
 
 RESOURCE ID: leader_map_assembled_description
-TEXT: ชิ้นสวนลึกลับประกอบกันเปนร็อกเกตเรดาร! ใชสำหรับระบุตำแหนงแหลงกบดานของแกงโกร็อกเกต!
+TEXT: ชิ้นสวนลึกลับประกอบกันเปนร็อกเกต
+เรดาร! ใชสำหรับระบุตำแหนงแหลง
+กบดานของแกงโกร็อกเกต!
 
 RESOURCE ID: leader_map_assembled_description_mystery
 TEXT: แต… มันทำอะไรไดนะ?
@@ -23238,6 +23612,9 @@ TEXT: จำกัดการเลือก
 
 RESOURCE ID: league_ruleset_type_label
 TEXT: ประเภทของโปเกมอนที่อนุญาต :
+
+RESOURCE ID: legend_box_title
+TEXT: กลองตำนาน
 
 RESOURCE ID: legendary_mythical_and_ultra_beast_not_allowed_in_gyms
 TEXT: ไมสามารถสงโปเกมอนในตำนาน โปเกมอนมายา และอัลตราบีสตไปที่ยิมได
@@ -24161,7 +24538,7 @@ RESOURCE ID: limited_research_infernape
 TEXT: งานวิจัยแบบจำกัดเวลาของโกคาซารุ
 
 RESOURCE ID: limited_research_inkay
-TEXT: Inkay Limited Research
+TEXT: งานวิจัยแบบจำกัดเวลาของมาอีกะ
 
 RESOURCE ID: limited_research_ivysaur
 TEXT: งานวิจัยแบบจำกัดเวลาของฟุชิกิโซ
@@ -25670,8 +26047,14 @@ TEXT: ตำนานแฟรี่ X
 RESOURCE ID: luminous_y_event_name
 TEXT: ตำนานแฟรี่ Y
 
+RESOURCE ID: lunar_new_year_catch_timed_research
+TEXT: วันตรุษจีน: คำทาการจับ
+
 RESOURCE ID: lunar_new_year_event_name
 TEXT: เทศกาลตรุษจีน
+
+RESOURCE ID: lunar_new_year_friendship_timed_research
+TEXT: วันตรุษจีน: คำทาดานมิตรภาพ
 
 RESOURCE ID: lure_duration_4_hr
 TEXT: อุปกรณปลอยลัวรใชไดนาน 4 ชั่วโมง
@@ -25859,6 +26242,9 @@ TEXT: ทาโพสนักจับแมลง
 RESOURCE ID: m_avatar_poses_bundle_pose_41
 TEXT: ทาโพสกุซมา
 
+RESOURCE ID: m_avatar_poses_bundle_pose_44
+TEXT: ทาโพสประกายไฟ
+
 RESOURCE ID: m_avatar_poses_empty_bundle_pose_empty
 TEXT: ทายืนเฉย
 
@@ -25998,124 +26384,8 @@ TEXT: พรีเมียรคัพ
 RESOURCE ID: master_premier_classic_title
 TEXT: MLพรีเมียรคลาสสิก
 
-RESOURCE ID: masterwork_lugiahoohs
-TEXT: งานวิจัยระยะยาว: Apex
-
-RESOURCE ID: masterwork_lugiahoohs_1
-TEXT: งานวิจัยระยะยาว: Apex (1/4)
-
-RESOURCE ID: masterwork_lugiahoohs_2
-TEXT: งานวิจัยระยะยาว: Apex (2/4)
-
-RESOURCE ID: masterwork_lugiahoohs_3
-TEXT: งานวิจัยระยะยาว: Apex (3/4)
-
-RESOURCE ID: masterwork_lugiahoohs_4
-TEXT: งานวิจัยระยะยาว: Apex (4/4)
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_0_0
-TEXT: ขอบคุณที่ชวยเรื่องเกียราดอสกับเซเลบีนะ %PLAYERNAME%
-แตดูเหมือนวาเรายังมีเรื่องที่ตองทำตออีก
-โฮโอกับลูเกียยังถูกแกงโกร็อกเกตจับไวอยู
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_0_1
-TEXT: ดวยความชวยเหลือของหัวหนาทีม เราจึงสามารถ
-ระบุตำแหนงของโฮโอชาโดว APEX ได และไมรูวาทำไม
-แตดูเหมือนวาแกงโกร็อกเกตจะแยกโปเกมอนทั้งสองตัว
-ออกจากกัน
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_0_2
-TEXT: ไมแนวาการคุมโปเกมอนในตำนานสองตัวนี้
-พรอมกันอาจจะยากเกินไปสำหรับพวกนั้น
-ซึ่งก็เขาทางเราพอดี เราจะไปชวยโปเกมอน
-พวกนี้ทีละตัวกัน!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_0
-TEXT: ขอบคุณที่ชวยโฮโอชาโดว APEX ออกมานะ
-%PLAYERNAME%! ดูเหมือนวามันจะสามารถ
-ใชทาไฟศักดิ์สิทธิ์ได แถมไฟศักดิ์สิทธิ์ของมัน
-ยังทรงพลังกวาปกติอีกดวย
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_1
-TEXT: จะเกิดอะไรขึ้นถาเราชำระลางมันกันนะ
-จะยิ่งแข็งแกรงขึ้นอีกหรือเปลา?
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_2
-TEXT: ฉันจะวิจัยเกี่ยวกับโปเกมอนที่นาทึ่งนี้ตัวนี้ตอไป
-ไวรูอะไรเพิ่มจะบอกใหรูนะ
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_3
-TEXT: ในชวงที่ฉันไมอยูทำไมเธอไมออกไปฝกฝนโปเกมอน
-แลวหาดูวาเพื่อนคนไหนพรอมจะไปชวย
-ลูเกียชาโดว APEX ดวยกันดูละ
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_4
-TEXT: เพราะในครั้งนี้เราจำเปนตองยืมพลัง
-ของคนอื่น ๆ ดวย
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_5
-TEXT: หัวหนาทีมและฉันจะสืบหาตำแหนงของ
-ลูเกียชาโดว APEX ตอ อีกไมนานคงไดรูอะไรเพิ่มละ
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_0
-TEXT: เตรียมตัวพรอมหรือยัง %PLAYERNAME%?
-ยารักษาแผลกับยาคืนชีพพรอมแลวใชไหม?
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_1
-TEXT: การจะชวยลูเกียชาโดว APEX ออกมาไมใชเรื่องงาย ๆ
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_2
-TEXT: หัวหนาทีมและฉันไดขอมูลมาวาแกงโกร็อกเกต
-ไดซอนลูเกียชาโดว APEX ไวที่ฐานลับ ที่คอยคุมกัน
-โดยระดับหัวหนา รวมถึงตัวซากากิเองดวย
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_3
-TEXT: แลวก็มีเรื่องหนึ่งที่ฉันคนพบจากการตรวจสอบ
-โฮโอชาโดว APEX
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_4
-TEXT: ดูเหมือนวาถาเราชำระลางมัน ทาไฟศักดิ์สิทธิ์ของมัน
-จะแข็งแกรงยิ่งขึ้นไปอีก
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_5
-TEXT: โฮโอขาวสะอาด APEX อาจเปนพันธมิตรที่สำคัญ
-ในภารกิจชวยเหลือลูเกียชาโดว APEX ก็เปนได
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_6
-TEXT: นี่อาจเปนการตอสูที่ยากที่สุดที่ตองเผชิญ
-ในฐานะโปเกมอนเทรนเนอรก็ได
-แตฉันเชื่อวาเธอจะตองกาวผานมันไปไดนะ
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_0
-TEXT: โอ!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_1
-TEXT: %PLAYERNAME%!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_2
-TEXT: สำเร็จแลว!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_3
-TEXT: เธอชวยลูเกียชาโดว APEX จากแกงโกร็อกเกตไดแลว!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_4
-TEXT: ทาแอโรบลาสทของมันแข็งแกรงกวาปกติ
-เหมือนกับในกรณีของโฮโอเลยละ
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_5
-TEXT: ฉันเชื่อวาถาเราชำระลางมัน มันจะตองแข็งแกรงยิ่งขึ้น
-เหมือนกับโฮโอชาโดว APEX แนนอน
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_6
-TEXT: ไปฉลองชัยชนะของเธอกันเถอะ!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_7
-TEXT: สิ่งที่เธอไดทำลงไปเปนสิ่งที่ยิ่งใหญมาก!
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_8
-TEXT: ขอขอบคุณอีกครั้งที่ชวยเหลือโฮโอกับลูเกียนะ
-พวกมันเองก็คงรูสึกขอบคุณเธอมากแน ๆ
-ไวเจอกันใหมคราวหนา!
+RESOURCE ID: master_raid_box_title
+TEXT: กลองตีบอสมาสเตอร
 
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: อะ %PLAYERNAME%! ออกเดินทางไปตรวจสอบกันเถอะ! จะวาไปเธอเคยไดยินทำนองเพลงนี้ไหม?
@@ -26591,9 +26861,9 @@ RESOURCE ID: mega_walking_progress
 TEXT: ความคืบหนาของการเดิน
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2022-10-07T09:04:35.937526
-at SHA 029e467bb49e3de2ae874f180ac9aa1d15fdd8cf
-Pipeline 1076415, job 12507544
+TEXT: Built at 2022-10-30T17:10:54.773238
+at SHA a9d340b3c5945d8273421b9463be2a4b4b784b1b
+Pipeline 1114528, job 13097767
 
 RESOURCE ID: milestone_rewards_title
 TEXT: รางวัลภารกิจ
@@ -26684,6 +26954,12 @@ TEXT: น.
 
 RESOURCE ID: minutes_and_seconds
 TEXT: {0} น. {1 }วน.
+
+RESOURCE ID: mobile_games_catch_sr
+TEXT: Mobile Games Show: คำทาการจับ
+
+RESOURCE ID: mobile_games_throw_sr
+TEXT: Mobile Games Show: คำทาการขวาง
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: เปดใชงาน Niantic AR เพื่อใชระบบภาพเสมือนจริง
@@ -27651,8 +27927,14 @@ TEXT: ซีดแฟลร
 RESOURCE ID: move_name_0370
 TEXT: บล็อกกิ้ง
 
+RESOURCE ID: move_name_0371
+TEXT: ชาโดวไดฟ
+
 RESOURCE ID: move_name_0372
 TEXT: มีทิเออรบีม
+
+RESOURCE ID: move_name_0376
+TEXT: โพลเตอรไกสท
 
 RESOURCE ID: move_reroll_confirm_desc
 TEXT: {0}จะลืมทา{1}
@@ -28170,6 +28452,18 @@ TEXT: ลูกเลนนี้ชวยปรับโปเกมอ�
 RESOURCE ID: occlusions_tutorial_title
 TEXT: ระบบผสานความเปนจริง
 
+RESOURCE ID: oct22_evo_collection_challenge_1
+TEXT: รวมดาววิวัฒนาการ: คำทาอีวุย
+
+RESOURCE ID: oct22_evo_collection_challenge_2
+TEXT: รวมดาววิวัฒนาการ: คำทาแลกเปลี่ยน
+
+RESOURCE ID: oct22_evo_collection_challenge_3
+TEXT: รวมดาววิวัฒนาการ: คำทาอิชชู
+
+RESOURCE ID: oct22_evo_collection_challenge_4
+TEXT: รวมดาววิวัฒนาการ: คำทาชินโอ
+
 RESOURCE ID: old_friends_description
 TEXT: งานวิจัยแบบจำกัดเวลาเพื่อนเกา - เรื่องราวใหม
 
@@ -28643,6 +28937,9 @@ TEXT: เผชิญหนากับฟุคามารุแบบไ�
 
 RESOURCE ID: photobomb_five_hoppip
 TEXT: เผชิญหนากับฮาเน็กโกะแบบไมคาดคิดในโกสแนปช็อต 5 ครั้ง
+
+RESOURCE ID: photobomb_five_litwick
+TEXT: 5 surprise encounters with Litwick in GO Snapshot
 
 RESOURCE ID: photobomb_five_machop
 TEXT: วันริกีแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
@@ -29757,7 +30054,7 @@ RESOURCE ID: pokedex_filter_button_mega
 TEXT: เมกา : {0}
 
 RESOURCE ID: pokedex_filter_header
-TEXT: FILTER BY:
+TEXT: กรองดวย:
 
 RESOURCE ID: pokedex_mode_name_all
 TEXT: ทั้งหมด
@@ -29811,10 +30108,10 @@ RESOURCE ID: pokedex_sort_number
 TEXT: หมายเลข
 
 RESOURCE ID: pokedex_status_caught
-TEXT: Caught
+TEXT: จับแลว
 
 RESOURCE ID: pokedex_status_seen
-TEXT: Seen
+TEXT: พบเห็นแลว
 
 RESOURCE ID: pokemon_buddy_info_transfer_to_professor_confirmation
 TEXT: คุณแนใจหรือไมที่จะถายโอน
@@ -39586,7 +39883,7 @@ TEXT: คุณแนใจใชไหมวาตองการ�
 โปเกมอนสีแตกตาง?
 
 RESOURCE ID: pokemon_size_huge_encounter
-TEXT: It’s huge!
+TEXT: It's huge!
 
 RESOURCE ID: pokemon_size_new_banner
 TEXT: New Record
@@ -39604,7 +39901,7 @@ RESOURCE ID: pokemon_size_new_weight_title
 TEXT: New Weight Record
 
 RESOURCE ID: pokemon_size_tiny_encounter
-TEXT: It’s tiny!
+TEXT: It's tiny!
 
 RESOURCE ID: pokemon_transfer_legendary_confirmation
 TEXT: มีโปเกมอนในตำนาน หรือโปเกมอนมายารวมอยูดวย! แนใจหรือไมวาจะถายโอน?
@@ -39671,64 +39968,64 @@ RESOURCE ID: pokemon_unfavorite_error
 TEXT: การลบโปเกมอนออกจากรายการโปรดลมเหลว
 
 RESOURCE ID: pokemon_vivillon_form_archipelago
-TEXT: Archipelago
+TEXT: หมูเกาะ
 
 RESOURCE ID: pokemon_vivillon_form_continental
-TEXT: Continental
+TEXT: แผนดินใหญ
 
 RESOURCE ID: pokemon_vivillon_form_elegant
-TEXT: Elegant
+TEXT: ภูมิฐาน
 
 RESOURCE ID: pokemon_vivillon_form_fancy
-TEXT: Fancy
+TEXT: แฟนซี
 
 RESOURCE ID: pokemon_vivillon_form_garden
-TEXT: Garden
+TEXT: สวนหยอม
 
 RESOURCE ID: pokemon_vivillon_form_high_plains
-TEXT: High Plains
+TEXT: ทุงโลง
 
 RESOURCE ID: pokemon_vivillon_form_icy_snow
-TEXT: Icy Snow
+TEXT: ทุงน้ำแข็ง
 
 RESOURCE ID: pokemon_vivillon_form_jungle
-TEXT: Jungle
+TEXT: ปาดงดิบ
 
 RESOURCE ID: pokemon_vivillon_form_marine
-TEXT: Marine
+TEXT: ทะเล
 
 RESOURCE ID: pokemon_vivillon_form_meadow
-TEXT: Meadow
+TEXT: สวนบุปผา
 
 RESOURCE ID: pokemon_vivillon_form_modern
-TEXT: Modern
+TEXT: รวมสมัย
 
 RESOURCE ID: pokemon_vivillon_form_monsoon
-TEXT: Monsoon
+TEXT: มรสุม
 
 RESOURCE ID: pokemon_vivillon_form_ocean
-TEXT: Ocean
+TEXT: มหาสมุทร
 
 RESOURCE ID: pokemon_vivillon_form_pokebal
-TEXT: Poké Ball
+TEXT: มอนสเตอรบอล
 
 RESOURCE ID: pokemon_vivillon_form_polar
-TEXT: Polar
+TEXT: ขั้วโลก
 
 RESOURCE ID: pokemon_vivillon_form_river
-TEXT: River
+TEXT: แมน้ำ
 
 RESOURCE ID: pokemon_vivillon_form_sandstorm
-TEXT: Sandstorm
+TEXT: พายุทราย
 
 RESOURCE ID: pokemon_vivillon_form_savanna
-TEXT: Savanna
+TEXT: สะวันนา
 
 RESOURCE ID: pokemon_vivillon_form_sun
-TEXT: Sun
+TEXT: ตะวัน
 
 RESOURCE ID: pokemon_vivillon_form_tundra
-TEXT: Tundra
+TEXT: ทุงหิมะ
 
 RESOURCE ID: pokemon_with_tag_count
 TEXT: โปเกมอน {0} ตัวมีแท็กนี้
@@ -40383,6 +40680,9 @@ TEXT: ไอเท็มปริศนา
 RESOURCE ID: quest_breakthrough_reward_stardust
 TEXT: สตารดัสต
 
+RESOURCE ID: quest_buddy_affection_days_in_a_row
+TEXT: ไดรับหัวใจรวมกันกับคูหูของคุณ {0} วันติดตอกัน
+
 RESOURCE ID: quest_buddy_battle_trainer_adventuring_plural
 TEXT: ใชโปเกมอนคูหูแบตเทิลกับเทรนเนอรอื่น
 {0} ครั้งในระหวางที่โปเกมอนคูหูเดินอยู
@@ -40400,6 +40700,15 @@ TEXT: ไดรับของฝากจากคูหูของค�
 
 RESOURCE ID: quest_buddy_walk_km_plural
 TEXT: เดินกับคูหูของคุณ {0} กม.
+
+RESOURCE ID: quest_bulbt_catch_b
+TEXT: จับฟุชิกิดาเนะ {0} ตัว
+
+RESOURCE ID: quest_bulbt_evolve_b
+TEXT: วิวัฒนาการฟุชิกิดาเนะ {0} ตัว
+
+RESOURCE ID: quest_bulbt_evolve_s1
+TEXT: วิวัฒนาการฟุชิกิโซ {0} ตัว
 
 RESOURCE ID: quest_catch_b_types_plural
 TEXT: จับโปเกมอนประเภทไฟฟา ปกติ หรือพิษ {0} ตัว
@@ -40449,6 +40758,9 @@ TEXT: ใชผลไมชวยในการจับโปเก�
 
 RESOURCE ID: quest_catch_feed_singular
 TEXT: ใชผลไมชวยในการจับโปเกมอน
+
+RESOURCE ID: quest_catch_furfou_singular
+TEXT: จับทริมเมียน
 
 RESOURCE ID: quest_catch_in_day_plural
 TEXT: จับโปเกมอนในวันเดียวกัน {0} ตัว
@@ -41022,6 +41334,9 @@ TEXT: การสืบคนภาพลวงตา
 RESOURCE ID: quest_complete_bidoof_branch_quest
 TEXT: บิปปา
 
+RESOURCE ID: quest_complete_bulbt
+TEXT: ฟุชิกิดาเนะคอมมิวนิตี้เดย (รีเทิรน)
+
 RESOURCE ID: quest_complete_celebi
 TEXT: ระลอกคลื่นในหวงเวลา
 
@@ -41054,6 +41369,9 @@ TEXT: โกสสุดสยอง
 
 RESOURCE ID: quest_complete_hallowyamas
 TEXT: ถอดหนากากขอความสุดสยอง
+
+RESOURCE ID: quest_complete_hoppt
+TEXT: ตนฝายลอยละลอง
 
 RESOURCE ID: quest_complete_macht
 TEXT: วันริกีเดินหนาลุย!
@@ -41129,6 +41447,9 @@ TEXT: แสงวาบเปลงประกาย
 
 RESOURCE ID: quest_complete_snivt
 TEXT: ซึทาจะใตแสงตะวัน
+
+RESOURCE ID: quest_complete_sphet
+TEXT: เรื่องของทามาซาราชิ
 
 RESOURCE ID: quest_complete_spiritomb
 TEXT: ขอความนาขนลุก 2018
@@ -41663,18 +41984,6 @@ TEXT: จับเอเลบู {0} ตัว
 RESOURCE ID: quest_elect_evolve_b
 TEXT: วิวัฒนาการเอเลบู {0} ตัว
 
-RESOURCE ID: quest_elite4_a
-TEXT: เอาชนะจตุรเทพ GO Tour: เทรนเนอรภูเขายอดราบ
-
-RESOURCE ID: quest_elite4_b
-TEXT: เอาชนะจตุรเทพ GO Tour: เทรนเนอรถ้ำ
-
-RESOURCE ID: quest_elite4_c
-TEXT: เอาชนะจตุรเทพ GO Tour: เทรนเนอรมหาสมุทร
-
-RESOURCE ID: quest_elite4_d
-TEXT: เอาชนะจตุรเทพ GO Tour: เทรนเนอรสะวันนา
-
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: งานวิจัยทามะทามะ: แบตเทิลที่ยิม
 
@@ -41768,6 +42077,9 @@ TEXT: วิวัฒนาการยาจิลอน
 RESOURCE ID: quest_evolve_barboach_singular
 TEXT: วิวัฒนาการโดโจทช
 
+RESOURCE ID: quest_evolve_bayleef
+TEXT: วิวัฒนาการเบยลีฟ
+
 RESOURCE ID: quest_evolve_bayleef_singular
 TEXT: วิวัฒนาการเบยลีฟ
 
@@ -41852,6 +42164,9 @@ TEXT: วิวัฒนาการเชอรินโบ
 RESOURCE ID: quest_evolve_chespin_singular
 TEXT: วิวัฒนาการฮาริมารอน
 
+RESOURCE ID: quest_evolve_chikorita
+TEXT: วิวัฒนาการจิโคริตา
+
 RESOURCE ID: quest_evolve_chikorita_singular
 TEXT: วิวัฒนาการจิโคริตา
 
@@ -41885,6 +42200,12 @@ TEXT: วิวัฒนาการวาคาชาโม
 RESOURCE ID: quest_evolve_corphish_singular
 TEXT: วิวัฒนาการเฮกานิ
 
+RESOURCE ID: quest_evolve_cosmoem_singular
+TEXT: วิวัฒนาการคอสโมม
+
+RESOURCE ID: quest_evolve_cosmog_singular
+TEXT: วิวัฒนาการคอสม็อก
+
 RESOURCE ID: quest_evolve_cottonee_singular
 TEXT: วิวัฒนาการโมนเมน
 
@@ -41894,6 +42215,9 @@ TEXT: วิวัฒนาการซึไกโดส
 RESOURCE ID: quest_evolve_croagunk_singular
 TEXT: วิวัฒนาการกูเรกกรู
 
+RESOURCE ID: quest_evolve_croconaw
+TEXT: วิวัฒนาการอัลลิเกต
+
 RESOURCE ID: quest_evolve_croconaw_singular
 TEXT: วิวัฒนาการอัลลิเกต
 
@@ -41902,6 +42226,9 @@ TEXT: วิวัฒนาการคูมะชุน
 
 RESOURCE ID: quest_evolve_cubone_singular
 TEXT: วิวัฒนาการคาระคาระ
+
+RESOURCE ID: quest_evolve_cyndaquil
+TEXT: วิวัฒนาการฮิโนอาราชิ
 
 RESOURCE ID: quest_evolve_cyndaquil_singular
 TEXT: วิวัฒนาการฮิโนอาราชิ
@@ -42465,6 +42792,9 @@ TEXT: วิวัฒนาการซานากิราส
 RESOURCE ID: quest_evolve_purrloin_singular
 TEXT: วิวัฒนาการโจโรเนโกะ
 
+RESOURCE ID: quest_evolve_quilava
+TEXT: วิวัฒนาการแม็กมาราชิ
+
 RESOURCE ID: quest_evolve_quilava_singular
 TEXT: วิวัฒนาการแม็กมาราชิ
 
@@ -42744,6 +43074,9 @@ TEXT: วิวัฒนาการโทเกชิก
 
 RESOURCE ID: quest_evolve_torchic_singular
 TEXT: วิวัฒนาการอาชาโม
+
+RESOURCE ID: quest_evolve_totodile
+TEXT: วิวัฒนาการวานิโนโกะ
 
 RESOURCE ID: quest_evolve_totodile_singular
 TEXT: วิวัฒนาการวานิโนโกะ
@@ -43414,6 +43747,77 @@ TEXT: มีเหรียญรางวัลสีทอง 5 เหรี�
 RESOURCE ID: quest_gold_medal_singular
 TEXT: มีเหรียญรางวัลสีทอง
 
+RESOURCE ID: quest_gotour2022_sr_title
+TEXT: Pokémon GO Tour: โจโตะ
+
+RESOURCE ID: quest_gotour2022_sr_title_1
+TEXT: Pokémon GO Tour: โจโตะ (1/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_10
+TEXT: Pokémon GO Tour: โจโตะ (10/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_11
+TEXT: Pokémon GO Tour: โจโตะ (11/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_2
+TEXT: Pokémon GO Tour: โจโตะ (2/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_3
+TEXT: Pokémon GO Tour: โจโตะ (3/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_4
+TEXT: Pokémon GO Tour: โจโตะ (4/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_5
+TEXT: Pokémon GO Tour: โจโตะ (5/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_6
+TEXT: Pokémon GO Tour: โจโตะ (6/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_7
+TEXT: Pokémon GO Tour: โจโตะ (7/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_8
+TEXT: Pokémon GO Tour: โจโตะ (8/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_9
+TEXT: Pokémon GO Tour: Johto (9/11)
+
+RESOURCE ID: quest_gotour_branch_chikorita_description
+TEXT: จิโคริตา หรือโปเกมอนใบไม
+ใชใบไมบนหัวเพื่อวัดอุณหภูมิและ
+ความชื้น ชอบการอาบแดดมาก!
+คุณจะสามารถจับจิโคริตาและไดรับ
+ลูกอมจิโคริตา รวมถึงไดรับภารกิจ
+ที่ตองวิวัฒนาการและถายภาพจิโคริตา
+
+RESOURCE ID: quest_gotour_branch_chikorita_title
+TEXT: เลือกจิโคริตา
+
+RESOURCE ID: quest_gotour_branch_cyndaquil_description
+TEXT: ฮิโนอาราชิ หรือโปเกมอนหนูไฟ
+ขี้กลัวและมักจะขดตัวเองใหกลม ๆ
+สามารถพนไฟออกจากหลังเพื่อปองกัน
+ตัวเอง!
+คุณจะสามารถจับฮิโนอาราชิและไดรับ
+ลูกอมฮิโนอาราชิ รวมถึงไดรับภารกิจ
+ที่ตองวิวัฒนาการและถายภาพฮิโนอาราชิ
+
+
+RESOURCE ID: quest_gotour_branch_cyndaquil_title
+TEXT: เลือกฮิโนอาราชิ
+
+RESOURCE ID: quest_gotour_branch_totodile_description
+TEXT: วานิโนโกะ หรือโปเกมอนกรามใหญ
+ถึงจะตัวเล็กแตมีขากรรไกรที่ทรงพลัง
+และมักจะกัดทุกอยางที่ขยับอยูเบื้องหนา!
+คุณจะสามารถจับวานิโนโกะและไดรับ
+ลูกอมวานิโนโกะ รวมถึงไดรับภารกิจที่ตอง
+วิวัฒนาการและถายภาพวานิโนโกะ
+
+RESOURCE ID: quest_gotour_branch_totodile_title
+TEXT: เลือกวานิโนโกะ
+
 RESOURCE ID: quest_gotour_kanto_bonus
 TEXT: Pokémon GO Tour: คันโต - อีเวนตโบนัส
 
@@ -43425,21 +43829,6 @@ TEXT: Pokémon GO Tour: คันโต - อีเวนตโบนัส (
 
 RESOURCE ID: quest_gotour_kanto_bonus_3
 TEXT: Pokémon GO Tour: คันโต - อีเวนตโบนัส (3/3)
-
-RESOURCE ID: quest_gotoursik_photo_beginning
-TEXT: ถายภาพในจุดเริ่มตนของการเดินทาง
-
-RESOURCE ID: quest_gotoursik_photo_instinct
-TEXT: ถายภาพในจุดทีมอินสติงต
-
-RESOURCE ID: quest_gotoursik_photo_mystic
-TEXT: ถายภาพในจุดทีมมิสติก
-
-RESOURCE ID: quest_gotoursik_photo_valor
-TEXT: ถายภาพในจุดทีมแวเลอร
-
-RESOURCE ID: quest_gotoursik_photo_willow
-TEXT: ถายภาพในจุดศาสตราจารยวิลโลว
 
 RESOURCE ID: quest_gt_catch_b
 TEXT: จับโกส {0} ตัว
@@ -43482,6 +43871,15 @@ TEXT: เทศกาลเฉลิมฉลองโฮเอ็น : ฟ�
 
 RESOURCE ID: quest_hoenn_celebration_research
 TEXT: งานวิจัยเฉลิมฉลองโฮเอ็น
+
+RESOURCE ID: quest_hoppt_catch_b
+TEXT: จับฮาเน็กโกะ {0} ตัว
+
+RESOURCE ID: quest_hoppt_evolve_b
+TEXT: วิวัฒนาการฮาเน็กโกะ {0} ตัว
+
+RESOURCE ID: quest_hoppt_evolve_s1
+TEXT: วิวัฒนาการโพพ็อกโกะ {0} ตัว
 
 RESOURCE ID: quest_incense_plural
 TEXT: ใชเครื่องหอม {0} อัน
@@ -43554,6 +43952,9 @@ TEXT: GO Tour: จับแมนคี
 
 RESOURCE ID: quest_kanto_red_oddish
 TEXT: GO Tour: จับนาโซโนะคุสะ
+
+RESOURCE ID: quest_lampent_evolve_b
+TEXT: Evolve {0} Lampent
 
 RESOURCE ID: quest_land_curve_type_ghost
 TEXT: ทำการขวางบอลโคงใสโปเกมอนประเภทผี {0} ครั้ง
@@ -43641,6 +44042,15 @@ TEXT: ทำการขวางไดดี
 
 RESOURCE ID: quest_land_nice_type_ghost
 TEXT: ทำการขวางไดดีใสโปเกมอนประเภทผี {0} ครั้ง
+
+RESOURCE ID: quest_litwick_catch_b
+TEXT: Catch {0} Litwick
+
+RESOURCE ID: quest_litwick_evolve_b
+TEXT: Evolve {0} Litwick
+
+RESOURCE ID: quest_litwick_snapshot_b
+TEXT: Take {0} snapshots of Litwick
 
 RESOURCE ID: quest_lucky_plural
 TEXT: ไดรับโปเกมอนนำโชค {0} ตัว
@@ -43794,6 +44204,18 @@ TEXT: พาวเวอรอัปโปเกมอนประเภท�
 RESOURCE ID: quest_power_up_plural_dark
 TEXT: พาวเวอรอัปโปเกมอนประเภทความมืด {0} ตัว
 
+RESOURCE ID: quest_power_up_plural_electric
+TEXT: พาวเวอรอัปโปเกมอนประเภทไฟฟา {0} ตัว
+
+RESOURCE ID: quest_power_up_plural_fighting
+TEXT: พาวเวอรอัปโปเกมอนประเภทตอสู {0} ตัว
+
+RESOURCE ID: quest_power_up_plural_ground
+TEXT: พาวเวอรอัปโปเกมอนประเภทดิน {0} ตัว
+
+RESOURCE ID: quest_power_up_plural_normal
+TEXT: พาวเวอรอัปโปเกมอนประเภทปกติ {0} ตัว
+
 RESOURCE ID: quest_power_up_plural_poison
 TEXT: พาวเวอรอัปโปเกมอนประเภทพิษ {0} ตัว
 
@@ -43802,6 +44224,9 @@ TEXT: พาวเวอรอัปโปเกมอนประเภท�
 
 RESOURCE ID: quest_power_up_plural_steel
 TEXT: พาวเวอรอัปโปเกมอนประเภทโลหะ {0} ตัว
+
+RESOURCE ID: quest_power_up_plural_water
+TEXT: พาวเวอรอัปโปเกมอนประเภทน้ำ {0} ตัว
 
 RESOURCE ID: quest_power_up_singular
 TEXT: พาวเวอรอัปโปเกมอน
@@ -43814,6 +44239,9 @@ TEXT: จับโปเกมอนประเภทพลังจิต {0} 
 
 RESOURCE ID: quest_psychicspec_evolve_plural
 TEXT: วิวัฒนาการทามะทามะหรือยาดง {0} ตัว
+
+RESOURCE ID: quest_raid_friend_singular
+TEXT: ตีบอสกับเพื่อน
 
 RESOURCE ID: quest_raid_with_buddy_plural
 TEXT: ตีบอสกับคูหูของคุณ {0} ครั้ง
@@ -43991,6 +44419,12 @@ TEXT: สงของขวัญใหเพื่อน {0} ครั้
 RESOURCE ID: quest_send_gifts_singular
 TEXT: สงของขวัญใหเพื่อน
 
+RESOURCE ID: quest_send_gifts_sticker_plural
+TEXT: สงของขวัญพรอมสติกเกอรรวม {0} ชิ้น
+
+RESOURCE ID: quest_send_gifts_sticker_singular
+TEXT: สงของขวัญพรอมสติกเกอร
+
 RESOURCE ID: quest_shint_catch_b
 TEXT: จับโคลิงก {0} ตัว
 
@@ -44008,6 +44442,12 @@ TEXT: ถายภาพฟุชิกิดาเนะ
 
 RESOURCE ID: quest_snapshot_charmander
 TEXT: ถายภาพฮิโตคาเงะ
+
+RESOURCE ID: quest_snapshot_chikorita
+TEXT: ถายภาพจิโคริตา
+
+RESOURCE ID: quest_snapshot_cyndaquil
+TEXT: ถายภาพฮิโนอาราชิ
 
 RESOURCE ID: quest_snapshot_genesect
 TEXT: ถายภาพเกโนเซ็กท {0} ภาพ
@@ -44031,10 +44471,12 @@ RESOURCE ID: quest_snapshot_singular
 TEXT: ถายภาพ
 
 RESOURCE ID: quest_snapshot_storage_bug_unique_plural
-TEXT: ถายภาพโปเกมอนประเภทแมลงของคุณที่แตกตางกัน {0} สายพันธุ
+TEXT: ถายภาพโปเกมอนประเภทแมลงของคุณ
+ที่แตกตางกัน {0} สายพันธุ
 
 RESOURCE ID: quest_snapshot_storage_steel_unique_plural
-TEXT: ถายภาพโปเกมอนประเภทโลหะของคุณที่แตกตางกัน {0} สายพันธุ
+TEXT: ถายภาพโปเกมอนประเภทโลหะของคุณ
+ที่แตกตางกัน {0} สายพันธุ
 
 RESOURCE ID: quest_snapshot_thundurus
 TEXT: ถายภาพโวลโทลอส
@@ -44042,8 +44484,12 @@ TEXT: ถายภาพโวลโทลอส
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: ถายภาพทอรเนลอส
 
+RESOURCE ID: quest_snapshot_totodile
+TEXT: ถายภาพวานิโนโกะ
+
 RESOURCE ID: quest_snapshot_unique_fire_pokemon
-TEXT: ถายภาพโปเกมอนประเภทไฟที่แตกตางกัน {0} สายพันธุ
+TEXT: ถายภาพโปเกมอนประเภทไฟ
+ที่แตกตางกัน {0} สายพันธุ
 
 RESOURCE ID: quest_snapshot_unique_pokemon
 TEXT: ถายภาพโปเกมอนที่แตกตางกัน {0} สายพันธุ
@@ -44055,7 +44501,8 @@ RESOURCE ID: quest_snapshot_wild_bug_plural
 TEXT: ถายภาพโปเกมอนปาประเภทแมลง {0} ภาพ
 
 RESOURCE ID: quest_snapshot_wild_bug_unique_plural
-TEXT: ถายภาพโปเกมอนประเภทแมลงที่แตกตางกัน {0} สายพันธุ
+TEXT: ถายภาพโปเกมอนประเภทแมลง
+ที่แตกตางกัน {0} สายพันธุ
 
 RESOURCE ID: quest_snapshot_wild_butterfree_shinx_blitzle
 TEXT: ถายภาพบัตเตอรฟรี โคลิงก หรือชิมามาที่พบในธรรมชาติ
@@ -44074,6 +44521,9 @@ TEXT: ถายภาพอีวุยที่พบในธรรมช�
 
 RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: ถายภาพโปเกมอนปาประเภทไฟฟา {0} ภาพ
+
+RESOURCE ID: quest_snapshot_wild_entei
+TEXT: ถายภาพเอ็นเตที่พบในธรรมชาติ
 
 RESOURCE ID: quest_snapshot_wild_fairy_plural
 TEXT: ถายภาพโปเกมอนปาประเภทแฟรี่ {0} ภาพ
@@ -44117,6 +44567,9 @@ TEXT: ถายภาพทรานเซล เอยแพม หรื
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
 TEXT: ถายภาพชอนชี เลิฟคัส หรือเคโคโอที่พบในธรรมชาติ
 
+RESOURCE ID: quest_snapshot_wild_mareanie_singluar
+TEXT: ถายภาพฮิโดอิเดะที่พบในธรรมชาติ
+
 RESOURCE ID: quest_snapshot_wild_normal_plural
 TEXT: ถายภาพโปเกมอนปาประเภทปกติ {0} ภาพ
 
@@ -44128,6 +44581,9 @@ TEXT: ถายภาพโปเกมอนปาประเภทพ�
 
 RESOURCE ID: quest_snapshot_wild_psychic_plural
 TEXT: ถายภาพโปเกมอนปาประเภทพลังจิต {0} ภาพ
+
+RESOURCE ID: quest_snapshot_wild_raikou
+TEXT: ถายภาพไรโคที่พบในธรรมชาติ
 
 RESOURCE ID: quest_snapshot_wild_rock_plural
 TEXT: ถายภาพโปเกมอนปาประเภทหิน {0} ภาพ
@@ -44148,7 +44604,11 @@ RESOURCE ID: quest_snapshot_wild_steel_plural
 TEXT: ถายภาพโปเกมอนปาประเภทโลหะ {0} ภาพ
 
 RESOURCE ID: quest_snapshot_wild_steel_unique_plural
-TEXT: ถายภาพโปเกมอนประเภทโลหะที่แตกตางกัน {0} สายพันธุ
+TEXT: ถายภาพโปเกมอนประเภทโลหะ
+ที่แตกตางกัน {0} สายพันธุ
+
+RESOURCE ID: quest_snapshot_wild_suicune
+TEXT: ถายภาพซุยคูนที่พบในธรรมชาติ
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
 TEXT: ถายภาพนัคครา แซนด หรือซาโบเนียที่พบในธรรมชาติ
@@ -44674,6 +45134,117 @@ TEXT: ทำไมไมลองสวมมันแลวออกไ�
 กับบิปปาสักหนอยละ?
 อาจจะคนพบอะไรใหม ๆ ก็ไดนะ! เล็ตสโก!
 
+RESOURCE ID: quest_special_dialogue_bulbt_0_0
+TEXT: ไง %PLAYERNAME%! ลองมองรอบ ๆ ดูสิ
+เคยเห็นฟุชิกิดาเนะเยอะขนาดนี้มากอนไหม?
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_1
+TEXT: ที่จริง กอนหนานี้ฉันเคยเห็นฟุชิกิดาเนะ
+มารวมตัวกันเยอะขนาดนี้อยูครั้งหนึ่ง
+ในตอนนั้นก็มีเทรนเนอรมากมายออกไปจับ
+เจาโปเกมอนเมล็ดนี่
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_2
+TEXT: พอไดเห็นพวกมันมารวมตัวกันอีกครั้ง
+ก็รูสึกคิดถึงชวงเวลานั้นขึ้นมาเลยละ
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_3
+TEXT: ในฐานะนักวิจัย นี่เปนโอกาสที่ไมควรพลาด
+เพราะเราสามารถเรียนรูสิ่งใหม ๆ ไดเสมอ
+จากการคนควาเกี่ยวกับโปเกมอน
+ไมวาจะเปนสายพันธุไหนก็ตาม
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_4
+TEXT: เพราะฉะนั้น มาชวยฉันศึกษาเกี่ยวกับ
+ฟุชิกิดาเนะไดไหม?
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_0
+TEXT: ยินดีตอนรับกลับมานะ เทรนเนอร
+ฟุชิกิดาเนะที่เธอจับมานี่นารักดีนะ!
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_1
+TEXT: รูไหมวาฟุชิกิดาเนะเติบโตขึ้นดวยการใช
+สารอาหารที่เก็บไวในเมล็ดที่อยูกลางหลัง?
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_2
+TEXT: ฉันเองก็อยากมีถุงขนมติดตัวแบบนี้บาง
+เหมือนกัน ตอนออกไปสำรวจนอกสถานที่
+จะไดไมตองหวงเรื่องทองวาง! ฮาฮา!
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_3
+TEXT: ในกรณีของรางวิวัฒนาการของฟุชิกิดาเนะ
+ที่ชื่อวาฟุชิกิโซนั้น พวกมันจะแข็งแกรงขึ้น
+เมื่อไดรับแสงอาทิตย
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_4
+TEXT: นอกจากนี้ แสงอาทิตยยังทำใหดอกตูมบน
+กลางหลังโตขึ้นอีกดวย วาแลวก็อยากเห็น
+ปรากฏการณนั้นสักครั้งเลยละ
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_5
+TEXT: ระหวางที่เธอกำลังวิวัฒนาการฟุชิกิดาเนะ
+ฉันจะตามไปเฝาสังเกตการณฝูงฟุชิกิดาเนะตอนะ
+ดูเหมือนพวกมันกำลังเคลื่อนยายไปที่อื่นละ
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_0
+TEXT: สุดยอดไปเลย ดูขนาดของฟุชิกิโซสิ!
+ทำไดดีมาก %PLAYERNAME%
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_1
+TEXT: ถาจำไมผิด เมื่อดอกตูมบนกลางหลังของ
+ฟุชิกิโซเตงตึง จะเริ่มมีกลิ่นหอมหวานออกมา
+ซึ่งเปนสัญญาณวาดอกไมกำลังจะบาน
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_2
+TEXT: เธอไดกลิ่นที่วาหรือยัง? ถาเริ่มไดกลิ่นแลว
+แสดงวาฟุชิกิโซของเธอใกลวิวัฒนาการละ
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_3
+TEXT: จำฝูงฟุชิกิดาเนะที่ฉันตามไปไดไหม?
+มีฟุชิกิโซที่โผลออกมาจากปาเขารวมกับ
+พวกมันดวย
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_4
+TEXT: ดูเหมือนพวกมันกำลังมุงหนาไปในทิศทาง
+เดียวกัน...วาแต เปาหมายของพวกมันคือ
+ที่ไหนกันแนนะ? ตามไปดูเพื่อหาคำตอบกันไหม?
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_0
+TEXT: ยินดีตอนรับกลับมา %PLAYERNAME%
+เดี๋ยวนะ นั่นฟุชิกิบานะหรือเปลา!
+วันนี้ชางเปนวันดีจริง ๆ
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_1
+TEXT: รูไหมวาพอฉันตามพวกฟุชิกิดาเนะกับฟุชิกิโซไป
+ก็พบเขากับฟุชิกิบานะละ บริเวณนั้นมีกลิ่นหอม
+บางอยางที่ทำใหเหลาโปเกมอนรูสึกสงบ
+ลอยอยูในอากาศ
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_2
+TEXT: ฉันเคยอานเจอมาวา บางครั้งฟุชิกิบานะ
+จะมีกลิ่นหอมที่ดึงดูดโปเกมอนตัวอื่น ๆ
+ฟุชิกิดาเนะกับฟุชิกิโซคงถูกกลิ่นหอมนั้น
+ดึงดูดมาสินะ
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_3
+TEXT: อันที่จริง การที่ฟุชิกิดาเนะกับฟุชิกิโซ
+มารวมตัวกันรอบ ๆ ฟุชิกิบานะนั้น
+เหมือนกับการทำงานของอุปกรณปลอยลัวรเลย
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_4
+TEXT: แตเรื่องนั้นเอาไวกอนแลวกัน เธอรูไหมวา
+ฟุชิกิบานะสามารถวิวัฒนาการเมกาไดนะ?
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_5
+TEXT: ลองวิวัฒนาการเมกาแลวสังเกตพลังของ
+เมกาฟุชิกิบานะดวยตัวเองดูสิ!
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_6
+TEXT: เราสามารถเรียนรูสิ่งตาง ๆ ไดจากการศึกษา
+โปเกมอน นอกจากนี้ การศึกษาพวกมันยังนำไป
+สูการคนพบใหม ๆ ที่นาตื่นเตนอีกดวย
+ขอบคุณที่ใหความรวมมือในการวิจัยในวันนี้นะ!
+
 RESOURCE ID: quest_special_dialogue_celebi_0_0
 TEXT: %PLAYERNAME% คุณชวยเราในการทำงานวิจัยภาคสนามและงานวิจัยพิเศษเหลานี้ไดมากจริง ๆ!
 
@@ -44868,6 +45439,77 @@ TEXT: ฉันจะใหเครื่องหอมรายวัน�
 เพราะงั้นก็อยาลืมออกไปผจญภัยแลวเอาไป
 ใชละ! ถาจะใหดีก็ลองใชสักชิ้นตอนนี้เลยสิ!
 ออกไปจับโปเกมอนกันเลย
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_0
+TEXT: ไง %PLAYERNAME%!
+ดูเหมือนวาโปเกมอนที่เราคุนเคย...
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_1
+TEXT: ที่เราพบมันปรากฏตัวจำนวนมากในปที่ผานมานี้
+กลับมาปรากฏตัวอีกครั้งละ!
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_2
+TEXT: หรือวาพวกมันจะมาฉลองปใหมกับเรากันนะ?
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_3
+TEXT: ลองมองยอนกลับไปดูสิ่งตาง ๆ ที่ผานมาสิ
+รูสึกเติบโตขึ้นในฐานะเทรนเนอรบางรึเปลา?
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_4
+TEXT: เราผานการผจญภัยรวมถึงคนพบสิ่งใหม ๆ
+มามากมาย เธอชอบชวงเวลาไหนที่สุดละ?
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_0
+TEXT: ยินดีตอนรับกลับมานะ %PLAYERNAME%
+จับโปเกมอนมาไดเยอะเลยนี่
+พยายามตอไปแบบนั้นแหละ!
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_1
+TEXT: ในฐานะเทรนเนอรเธอเองก็เติบโตมาไกลแลว
+โดยเฉพาะเรื่องของฮูปาชวงกอนหนานี้นะ
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_2
+TEXT: เพราะความปวนของฮูปาทำใหโปเกมอน
+ในตำนานปรากฏตัวออกมาเต็มไปหมด!
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_3
+TEXT: ความผูกพันระหวางเทรนเนอรกับโปเกมอนนั้น
+สามารถเปลี่ยนแปลงหลายสิ่งหลายอยาง
+ไดมากกวาแครูปลักษณของโปเกมอนนะ
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_4
+TEXT: ลองเก็บไปคิดดูสิ
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_0
+TEXT: ใกลปใหมแลวก็อดไมไดที่จะมองยอนกลับไป
+ดูชวงเวลาที่ผานมาใชไหม เราไดเรียนรู
+เรื่องราวเกี่ยวกับสิ่งตาง ๆ จาก
+ประวัติศาสตรของสถานที่ โปเกมอน
+และเพื่อนเทรนเนอร
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_1
+TEXT: จะวาไปกอนหนานี้ฉันก็พบเขากับประตูลึกลับ
+ไมแนวามันอาจจะนำพาไปสู
+การผจญภัยครั้งใหมก็ได!
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_2
+TEXT: ที่อีกฝากของประตูจะมีอะไรรออยูกันนะ?
+ยังมีเรื่องราวอีกมากที่เราไมรูเกี่ยวกับมัน
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_3
+TEXT: ขอโทษที เผลอนอกเรื่องไปหนอย อยาลืม
+จับโปเกมอน ศึกษาการวิวัฒนาการ
+ของพวกมัน พลางฝกขวางบอลไปดวยละ
+มาขวางบอลโคงสงทายปกันเลย!
+
+RESOURCE ID: quest_special_dialogue_dec2021_3_0
+TEXT: สำเร็จแลว %PLAYERNAME%!
+ปที่ฝานมานี้ขอบคุณที่ชวยเหลือมาโดยตลอดนะ
+รับนี่ไปสิ 
+
+RESOURCE ID: quest_special_dialogue_dec2021_3_1
+TEXT: ปหนาก็มาผจญภัยไปดวยกันอีกละ!
+พรอมแลวก็ไปกันเลย!
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_0
 TEXT: สวัสดี %PLAYERNAME%! ดีใจที่ไดเจอนะ ไมนาเชื่อวาอีกไมนานก็สิ้นปแลว
@@ -46074,6 +46716,74 @@ RESOURCE ID: quest_special_dialogue_hoopaunbound_0_7
 TEXT: "เมื่อใดที่เจาถวายของหวานและผงที่เจาพบใหแกฮูปา
 เมื่อนั้นรางของฮูปาจะถูกปลดปลอย"
 
+RESOURCE ID: quest_special_dialogue_hoppt_0_0
+TEXT: ไง %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_1
+TEXT: ดูสิฮาเน็กโกะเต็มทองฟาไปหมดเลยละ!
+นึกวาเมฆสีชมพูเสียอีก!
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_2
+TEXT: ฉันวานี่เปนโอกาสดีที่เราจะไดเรียนรูเกี่ยวกับ
+เจาโปเกมอนตนฝาย หรือที่เรียกวาฮาเน็กโกะนี่ วาไหม?
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_3
+TEXT: วากันวาเมื่อเหลาฮาเน็กโกะเริ่มมารวมตัวกัน
+แปลวาฤดูใบไมผลิกำลังจะมาถึง
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_4
+TEXT: พอเห็นฮาเน็กโกะลอยมารวมกันเยอะขนาดนี้แลว
+ก็รูสึกวาใกลฤดูใบไมผลิขึ้นมาเลย วาไหม?
+ไปจับพวกมันเพื่อศึกษาเพิ่มเติมกันเถอะ
+
+RESOURCE ID: quest_special_dialogue_hoppt_1_0
+TEXT: วาว ดูฮาเน็กโกะพวกนั้นสิ! พวกมันตัวเบามาก
+เลยพยายามเกาะพื้นใหแนนเพื่อไมใหปลิวละ
+
+RESOURCE ID: quest_special_dialogue_hoppt_1_1
+TEXT: หากอยูกับพวกพองก็จะเอาใบไมมาเกี่ยวกันไว
+เพื่อไมใหโดนพัดปลิว
+เปนวิธีการที่ฉลาดมากเลย
+
+RESOURCE ID: quest_special_dialogue_hoppt_1_2
+TEXT: ฮาเน็กโกะยังสามารถวิวัฒนาการไดอีกดวย
+ลองไปดูดวยตาของตัวเองดูสิ
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_0
+TEXT: ชางเปนโพพ็อกโกะที่นารักอะไรอยางนี้ %PLAYERNAME%!
+เธอไดดูมันดี ๆ หรือยัง?
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_1
+TEXT: ดอกไมบนหัวจะบานและหุบตามอูณหภูมิ
+ที่เปลี่ยนแปลงไป พวกมันจึงถูกนำมาใชแทน
+ปรอทวัดอูณหภูมิในบางครั้ง
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_2
+TEXT: ในสภาพอากาศอบอุน โพพ็อกโกะจะลอยอยูใน
+อากาศเพื่ออาบแสงอาทิตยใหใกลขึ้นแมเพียงอีกนิด
+ถาฉันลอยไดก็คงจะทำแบบนั้นเหมือนกัน!
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_3
+TEXT: รูไหมวาโพพ็อกโกะเองก็สามารถวิวัฒนาการไดเชนกัน?
+วาแลวก็ลองดูไหม?
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_0
+TEXT: เยี่ยมไปเลย %PLAYERNAME%!
+เธอมีวาทักโกะแลวสินะ วาทักโกะเปนโปเกมอน
+ที่ลอยตามสายลมจนขามทะเลไปถึงตางแดน
+โดยจะโปรยเมล็ดฝายไปตลอดทางเลยละ
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_1
+TEXT: เดินทางโดยการลองลอยไปตามสายลม
+นี่เยี่ยมไปเลยใชไหมละ?
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_2
+TEXT: จริงสิ เธอเองก็พาเพื่อนใหมไปเดินเลนพลางอาบแดด
+สักหนอยไหม สวนฉันยังมีงานวิจัยที่ตองไปทำตออยูนะ
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_3
+TEXT: ไวเจอกันใหมนะ %PLAYERNAME%!
+
 RESOURCE ID: quest_special_dialogue_jj_0_0
 TEXT: มุซาชิ : เฮ! นายรูเรื่องหรือยัง โคจิโร?
 
@@ -46212,6 +46922,79 @@ TEXT: โคจิโร : คราวหนาแกไมรอดแ�
 
 RESOURCE ID: quest_special_dialogue_jj_3_7
 TEXT: มุซาชิ : ลางไมดีอีกแลว!
+
+RESOURCE ID: quest_special_dialogue_litwick_0_0
+TEXT: Hey, %PLAYERNAME%! Is it just me, or is there a ghostly chill in the air?
+
+RESOURCE ID: quest_special_dialogue_litwick_0_1
+TEXT: It could have something to do with those lights over there! They belong to Litwick, the Candle Pokémon.
+
+RESOURCE ID: quest_special_dialogue_litwick_0_2
+TEXT: Litwick is known to leech off the life force of any who follow it.
+
+RESOURCE ID: quest_special_dialogue_litwick_0_3
+TEXT: The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns. Makes for a pretty ominous candle, wouldn’t you say?
+
+RESOURCE ID: quest_special_dialogue_litwick_0_4
+TEXT: Litwick appearing in such force makes the perfect chance to learn more about them. I suggest you get up close and see for yourself!
+
+RESOURCE ID: quest_special_dialogue_litwick_0_5
+TEXT: Just be careful not to let Litwick lead you anywhere, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_litwick_1_0
+TEXT: Good day, Trainer. Professor Willow has tasked you with investigating...Litwick, is it?
+
+RESOURCE ID: quest_special_dialogue_litwick_1_1
+TEXT: The flame on its head is certainly alluring. A Pokémon that can bring light to its surroundings… What could be the source of its brilliant glow?
+
+RESOURCE ID: quest_special_dialogue_litwick_1_2
+TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+
+RESOURCE ID: quest_special_dialogue_litwick_1_3
+TEXT: What are your thoughts, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_litwick_2_0
+TEXT: Wow, %PLAYERNAME%! You went looking for Litwick and came back with a lamp! 
+
+RESOURCE ID: quest_special_dialogue_litwick_2_1
+TEXT: I kid—I know a Lampent when I see one! And it was Rhi who suggested you help Litwick evolve? That’s great. We can always learn more when encouraged by our friends!
+
+RESOURCE ID: quest_special_dialogue_litwick_2_2
+TEXT: So, let me tell you about Lampent! While it often pretends to be a lamp, Lampent is usually feared as an emissary of death. 
+
+RESOURCE ID: quest_special_dialogue_litwick_2_3
+TEXT: Through cities it wanders, searching for the spirits of the fallen. Spooky, but appropriate for the season! 
+
+RESOURCE ID: quest_special_dialogue_litwick_2_4
+TEXT: And what a sight that fire is. I’m sure you and Rhi would get a kick out of seeing Lampent’s Evolution, Chandelure, too! But a word of caution, %PLAYERNAME%...
+
+RESOURCE ID: quest_special_dialogue_litwick_2_5
+TEXT: They say spirits burned up in Chandelure's ominous flame lose their way and wander this world forever.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_0
+TEXT: That new Pokémon...
+... ... ...
+
+RESOURCE ID: quest_special_dialogue_litwick_3_1
+TEXT: Oh. My apologies, %PLAYERNAME%. I was...preoccupied gazing at the flame your Pokémon is emanating.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_2
+TEXT: ... ... ...
+
+RESOURCE ID: quest_special_dialogue_litwick_3_3
+TEXT: The swaying of its arms is rather hypnotic.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_4
+TEXT: It's called "Chandelure," is it? And Professor Willow said its flames can burn up spirits? An unsettling thought.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_5
+TEXT: The Pokémon we studied today could easily be seen as frightening. Yet I believe there is a lesson we can take from them.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_6
+TEXT: No matter how dark the world becomes, a little light always persists.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_7
+TEXT: Thank you for teaching me that lesson once again, %PLAYERNAME%. Take care, and I will see you again.
 
 RESOURCE ID: quest_special_dialogue_lvl_43_0_0
 TEXT: สวัสดี %PLAYERNAME%! ขอฉันพูดไดไหมวาฉันประทับใจในความกาวหนาที่คุณทำสำเร็จในฐานะเทรนเนอรแคไหน?
@@ -47405,50 +48188,6 @@ TEXT: ออกไปพิสูจนความแข็งแกร�
 RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_3
 TEXT: ไมแนวาเราอาจจะไดเรียนรูอะไรเพิ่มเติม
 เกี่ยวกับวิวัฒนาการเมกาก็ได!
-
-RESOURCE ID: quest_special_dialogue_melemele_0_0
-TEXT: ไง %PLAYERNAME%! สบายดีไหม?
-
-RESOURCE ID: quest_special_dialogue_melemele_0_1
-TEXT: วันนี้ฉันรูสึกสดชื่นเปนพิเศษเลยละ เหมือนมีสายลม
-เย็นสบายพัดมาจากริมทะเล หรือเพราะเมื่อเชา
-ฉันดื่มน้ำผลไพนกันนะ?
-
-RESOURCE ID: quest_special_dialogue_melemele_0_2
-TEXT: หรืออาจเปนเพราะวาชวงนี้มีโปเกมอนที่คนพบ
-ครั้งแรกในภูมิภาคอโลลาปรากฏตัวขึ้นมาเรื่อย ๆ ก็เปนได!
-
-RESOURCE ID: quest_special_dialogue_melemele_0_3
-TEXT: %PLAYERNAME% เธอรูจักภูมิภาคอโลลาไหม?
-เปนภูมิภาคที่ประกอบไปดวยเกาะสี่เกาะ
-และเกาะเทียมอีกหนึ่งเกาะละ
-
-RESOURCE ID: quest_special_dialogue_melemele_0_4
-TEXT: เธอนาจะเคยเห็นโปเกมอนที่ปรับตัวใหเขากับ
-สภาพแวดลอมของภูมิภาคอโลลาใชไหม
-พวกมันมีรูปรางหนาตาที่แตกตางไปจากภูมิภาคอื่น
-
-RESOURCE ID: quest_special_dialogue_melemele_0_5
-TEXT: ลองออกไปมองหาโปเกมอนที่ถูกคนพบครั้งแรก
-ในภูมิภาคอโลลาดูสิ ฉันวาพวกมันยังมีอะไรใหเรา
-เรียนรูอีกมากมายเลยละ
-
-RESOURCE ID: quest_special_dialogue_melemele_1_0
-TEXT: มาพอดีเลย %PLAYERNAME%! ฉันพึ่งดื่มน้ำผลไพนเสร็จพอดี
-
-RESOURCE ID: quest_special_dialogue_melemele_1_1
-TEXT: ขอบคุณที่ชวยคนควาเรื่องโปเกมอนจาก
-ภูมิภาคอโลลานะ! ขยันขันแข็งสมกับเปนเธอเลย
-
-RESOURCE ID: quest_special_dialogue_melemele_1_2
-TEXT: ไหนดูสิวาเราพบอะไรบาง อืม...ดูเหมือนวา
-โปเกมอนที่เธอพบเปนโปเกมอนจากเกาะเมเลเมเล
-
-RESOURCE ID: quest_special_dialogue_melemele_1_3
-TEXT: เกาะเมเลเมเลเปนสถานที่ที่เทรนเนอรอโลลาเริ่มตน
-การ "ตระเวนเกาะ" ของพวกเขาละ โปเกมอนที่เธอพบ
-ก็เปนโปเกมอนตัวแรก ๆ ที่เทรนเนอรรุนเยาว
-ในอโลลาพบเปนตัวแรก ๆ เชนกัน
 
 RESOURCE ID: quest_special_dialogue_melemele_1_4
 TEXT: เราเองก็มาสนุกกันดีกวา! ถายภาพเพื่อนโปเกมอน
@@ -48648,6 +49387,130 @@ TEXT: ฉันรูสึกซาบซึ้งเสมอสำหร�
 
 RESOURCE ID: quest_special_dialogue_poryt_3_6
 TEXT: จนกวาจะถึงตอนนั้น เล็ตสโก!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_0
+TEXT: %PLAYERNAME% เธอตองตกใจแน!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_1
+TEXT: เห็นโปเกมอนที่เหมือนมอนสเตอรบอล
+กลิ้งไปมานั่นหรือเปลา?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_10
+TEXT: ทำไมฮิซุย บิริริดามาถึงปรากฏตัวขึ้นหลังจากที่หายไป
+ตลอดชวงเวลาที่ผานมา? หรือวาพวกมันเดินทาง
+ขามเวลามาจากภูมิภาคชินโอในอดีตกันแน?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_11
+TEXT: ฉันเดาวาตอนที่แกงโกร็อกเกตพังประตูลึกลับนั่น
+คงทำใหปริภูมิและเวลาเกิดการบิดเบี้ยวขึ้น
+จนทำใหพวกฮิซุย บิริริดามามาปรากฏตัวในยุคของพวกเรา
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_12
+TEXT: ปรากฏการณนี้ทำใหฉันคิดถึงโปเกมอนขามเวลา
+หรือเซเลบีขึ้นมา
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_13
+TEXT: สรุปวาเรื่องก็เปนแบบนี้แหละ นาทึ่งไปเลย วาไหม? 
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_14
+TEXT: ฉันจะลองไปคนควาเพิ่มเติมดู
+ยังไงเธอก็ชวยออกไปสำรวจพวกมันหนอยไดไหม?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_15
+TEXT: มาศึกษาเกี่ยวกับฮิซุย บิริริดามาไปดวยกันเถอะ
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_2
+TEXT: พวกมันดูคลายโปเกมอนที่พบในภูมิภาคคันโต
+อยางบิริริดามา เรียกไดวาเหมือนจนนากลัวเลยละ
+แตฉันไมเคยพบบิริริดามาที่มีลักษณะแบบนี้มากอน
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_3
+TEXT: ฉันลองถามนักวิจัยคนอื่น ๆ รวมถึงคนงานวิจัยตาง ๆ
+ดูแลว แตก็ไมพบขอมูลเกี่ยวกับมันเลย!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_4
+TEXT: แตฉันก็พบขอมูลที่นาสนใจอยางหนึ่ง
+รูไหมวาครั้งหนึ่งภูมิภาคชินโอเคยถูกเรียกวา
+ภูมิภาคฮิซุยนะ?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_5
+TEXT: ฉันพบเอกสารทางประวัติศาสตรที่กลาวถึง
+มอนสเตอรบอลแบบโบราณที่ถูกพัฒนาขึ้น
+ในภูมิภาคฮิซุย และฉันก็รูสึกวามันชางคลายคลึง
+กับโปเกมอนลึกลับนั่น หรือตองพูดวาพวกมัน
+เหมือนกับมอนสเตอรบอลนี่กันแนนะ
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_6
+TEXT: มอนสเตอรบอลกับโปเกมอนอะไรเกิดกอนกัน?
+คำถามโลกแตกเลยละ!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_7
+TEXT: เมื่อพิจารณาจากขอมูลทั้งหมดแลว
+ฉันคิดวาโปเกมอนที่เราพบนี้นาจะเปน
+บิริริดามาที่เคยอาศัยอยูในภูมิภาคฮิซุย
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_8
+TEXT: ฟอรมตามภูมิภาคของบิริริดามาในอดีตสินะ
+แลวทำไม...?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_9
+TEXT: เอาเปนวา เราเรียกโปเกมอนตัวนี้วาฮิซุย บิริริดามา
+แลวกัน
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_0
+TEXT: ฉันยังรูสึกตื่นเตนอยูเลย
+เธอเองก็เหมือนกันหรือเปลา %PLAYERNAME%
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_1
+TEXT: ไมนาเชื่อเลยวาโปเกมอนที่มาจากยุคอื่น
+จะมาปรากฏตัวอยูรอบ ๆ ตัวเรา
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_10
+TEXT: ...เรื่องลอเลนเอาไวเทานี้กอนก็แลวกัน
+ดูเหมือนวาการวิจัยของพวกเราในครั้งนี้ก็นาตื่นเตน
+ไมเลวนะ วาไหม %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_11
+TEXT: ฉันรูสึกวาอีกไมนานเราอาจจะไดคนพบสิ่งใหม ๆ
+ที่นาตื่นเตนยิ่งกวาเดิมก็เปนได!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_12
+TEXT: มาตั้งตารอดูกันเถอะวาจะมีการผจญภัยแบบไหน
+รอเราอยูในอนาคต!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_2
+TEXT: อยากรูจังเลยวาฮิซุย บิริริดามาพวกนี้เห็นอะไรมาบาง
+...แลวพวกมันคิดอยางไรกับโลกในยุคของพวกเรากันนะ?
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_3
+TEXT: ภูมิภาคฮิซุย...มีโปเกมอนแบบไหนอาศัยอยูกันนะ
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_4
+TEXT: ถาสามารถยอนเวลากลับไปดูภูมิภาคฮิซุย
+ดวยตาตัวเองไดก็คงจะดี!
+ความใฝฝนของนักวิจัยเลยละ!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_5
+TEXT: บางทีถาไดพบกับเซเลบี ฉันคงขอใหชวยยอนเวลา
+กลับไปในอดีตเพื่อสนองความอยากรูของฉันละนะ
+แคนิดเดียวก็ยังดี!
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_6
+TEXT: ...เอาเถอะ ยังไงก็คงเปนไปไมไดหรอก
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_7
+TEXT: เอาเปนวา ฉันจะศึกษาดูตอวาฮิซุย บิริริดามา
+สามารถวิวัฒนาการไดหรือไม
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_8
+TEXT: เทาที่ดู ดูเหมือนวามันจะไมสามารถวิวัฒนาการได
+...ในตอนนี้ เราทำไดแคเพียงศึกษาเกี่ยวกับ
+โปเกมอนที่แสนอัศจรรยตัวนี้ตอไป
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_9
+TEXT: เพราะไมใชทุกวันที่เราจะสามารถระเบิดมิติเวลา
+เพื่อดูอดีตไดแบบครั้งนี้
+เหมือนที่บิริริดามาระเบิดตัวเองนะ ฮาฮา
 
 RESOURCE ID: quest_special_dialogue_rocket_0_0
 TEXT: สวัสดี %PLAYERNAME% ฉันดีใจจริง ๆ ที่ไดเจอคุณ! คุณจะชวยฉันทำการสืบคนอะไรบางอยางไดไหม?
@@ -50629,6 +51492,118 @@ TEXT: ไมวาเธอจะตั้งชื่อเลนใ�
 ฉันก็อยากสนิทและเรียนรูเกี่ยวกับมัน
 ไปพรอม ๆ กับคุณนะ
 
+RESOURCE ID: quest_special_dialogue_season8_3_0
+TEXT: ไง %PLAYERNAME%! สบายดีไหม
+
+RESOURCE ID: quest_special_dialogue_season8_3_1
+TEXT: เธอกับรีหเปนยังไงกันบาง? รูอะไรเกี่ยวกับ
+โปเกมอนปริศนาตัวนั้นเพิ่มบางรึเปลา?
+
+RESOURCE ID: quest_special_dialogue_season8_3_2
+TEXT: รีหจำมันไดอยางนั้นเหรอ? บอกวามันชื่อ
+คอสม็อกสินะ? เยี่ยมไปเลย!
+ไดความชวยเหลือหลายมุมหลายดานก็ชวย
+ใหเราเรียนรูสิ่งใหม ๆ ไดเยอะเลยนะ
+
+RESOURCE ID: quest_special_dialogue_season8_3_3
+TEXT: แตยังไงก็ตามการศึกษาโปเกมอนที่ดีที่สุด
+ก็คือการสัมผัสดวยตัวเองละนะ เธอสังเกต
+เห็นอะไรที่นาสนใจจากเจาคอสม็อกบาง
+หรือเปลา %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_season8_3_4
+TEXT: หืม...อยางนี้นี่เอง
+
+RESOURCE ID: quest_special_dialogue_season8_3_5
+TEXT: ดูเหมือนเจาคอสม็อกจะขี้สงสัย
+แตไมคอยระมัดระวังตัวสินะ
+
+RESOURCE ID: quest_special_dialogue_season8_3_6
+TEXT: รางกายของมันเปนแกส จะโดนลมพัดปลิว
+ไปก็คงไมแปลก วาแตมันจะไมเปนไรใชไหมนะ
+
+RESOURCE ID: quest_special_dialogue_season8_3_7
+TEXT: ดีที่เจาคอสม็อกมีเธอกับรีหคอยดูแลอยู
+เหมือนที่ฉันมีเธอคอยชวยเหลือมาตลอด!
+
+RESOURCE ID: quest_special_dialogue_season8_3_8
+TEXT: เอาเปนวา ยิ่งเธอใชเวลากับคอสม็อกเทาไหร
+เราก็จะยิ่งเรียนรูสิ่งใหม ๆ มากขึ้น!
+
+RESOURCE ID: quest_special_dialogue_season8_4_0
+TEXT: %PLAYERNAME% สวัสดี
+
+RESOURCE ID: quest_special_dialogue_season8_4_1
+TEXT: คอสม็อกวิวัฒนาการเปนคอสโมมแลวสินะ
+
+RESOURCE ID: quest_special_dialogue_season8_4_2
+TEXT: ไมตองตกใจที่มันไมขยับหรอก
+
+RESOURCE ID: quest_special_dialogue_season8_4_3
+TEXT: นี่เปนเรื่องธรรมชาติของมันนะ
+
+RESOURCE ID: quest_special_dialogue_season8_4_4
+TEXT: แมคอสโมมจะไมเคลื่อนไหว แตแกนกลาง
+ของมันก็ผลิตพลังงานอยู
+
+RESOURCE ID: quest_special_dialogue_season8_4_5
+TEXT: ฉันสันนิษฐานวามันนาจะกำลังเตรียม
+วิวัฒนาการอยู อีกไมนานมันคงกลับมา
+เคลื่อนไหวไปมาอีกครั้ง
+
+RESOURCE ID: quest_special_dialogue_season8_4_6
+TEXT: แตฉันไมรูหรอกนะวาอีกนานแคไหนมัน
+ถึงจะเปลี่ยนแปลงไปตามที่วา
+
+RESOURCE ID: quest_special_dialogue_season8_4_7
+TEXT: หลังจากที่คอสโมมวิวัฒนาการแลว ....เดี๋ยวนะ
+ใชแลว! จำที่วิลโลวบอกวา "อบอุนเหมือน
+พระอาทิตยและสงบนิ่งเหมือนพระจันทร"
+กอนหนานี้ไดไหม
+
+RESOURCE ID: quest_special_dialogue_season8_4_8
+TEXT: ขอโทษดวยนะ ฉันคงตองขอหยุดบท
+สนทนาของเราชั่วคราว %PLAYERNAME%
+ฉันตองจดบันทึกไวกอน
+
+RESOURCE ID: quest_special_dialogue_season8_4_9
+TEXT: ฝากเธอออกไปสำรวจและแจงศาสตราจารย
+วิลโลวเรื่องที่คอสม็อกวิวัฒนาการ
+เปนคอสโมมดวยนะ
+
+RESOURCE ID: quest_special_dialogue_season8_5_0
+TEXT: %PLAYERNAME% กลับมาแลวเหรอ!
+คอสม็อกเปนยังไงบาง
+
+RESOURCE ID: quest_special_dialogue_season8_5_1
+TEXT: วาว! นั่นโปเกมอนอะไรนะ? คอสม็อก
+วิวัฒนาการงั้นเหรอ!? ดูเปลือกสีทองนั่นสิ!
+
+RESOURCE ID: quest_special_dialogue_season8_5_2
+TEXT: สมมติฐานของรีหคือเจา "คอสโมม" จะอยู
+ในสภาพนี้จนกวาจะพรอมที่จะวิวัฒนาการ
+งั้นเหรอ? เปนสมมติฐานที่นาสนใจดีนี่!
+
+RESOURCE ID: quest_special_dialogue_season8_5_3
+TEXT: การสังเกตโปเกมอนที่อยูนิ่ง ๆ มันก็งายกวา
+ปกติดวย วาแตเธอคิดวาเจาคอสโมมนี่มัน
+คิดอะไรอยูไหม? หรือวามันกำลังหลับ?
+ไมแนวามันอาจจะกำลังฝนถึงเรื่องที่ไดไป
+ผจญภัยกับเธอกับรีหก็ได!
+
+RESOURCE ID: quest_special_dialogue_season8_5_4
+TEXT: พอมันกลับมาเคลื่อนไหวอีกครั้ง จะเกิด
+อะไรขึ้น? มันจะวิวัฒนาการเปนโปเกมอน
+อะไรกันนะ? ในหัวฉันมีแตขอสงสัยผุด
+ขึ้นมาเต็มไปหมดเลย!
+
+RESOURCE ID: quest_special_dialogue_season8_5_5
+TEXT: ฉันรอใหปริศนาถูกไขไมไหวแลว %PLAYERNAME%!
+ฝากดูแลคอสโมมดวยละ
+
+RESOURCE ID: quest_special_dialogue_season8_6_0
+TEXT: คอสโมมยังไมมีทาทีจะเคลื่อนไหวเหมือนเดิมใชไหม %PLAYERNAME%? ไมตองกังวลไป เรื่องบางอยางเราก็ไมสามารถรีบเรงได ฉันจะรออยูที่นี่ ถามีความคืบหนาเมื่อไหรก็บอกทีนะ
+
 RESOURCE ID: quest_special_dialogue_shint_0_0
 TEXT: ไง %PLAYERNAME%! สบายดีรึเปลา?
 
@@ -50777,6 +51752,90 @@ TEXT: ขอขอบคุณอีกครั้งที่ชวยส�
 
 RESOURCE ID: quest_special_dialogue_snivt_3_4
 TEXT: ไวพบกันใหมนะ เล็ตสโก!
+
+RESOURCE ID: quest_special_dialogue_sphet_0_0
+TEXT: ไง %PLAYERNAME%! สบายดีไหม?
+
+RESOURCE ID: quest_special_dialogue_sphet_0_1
+TEXT: วันนี้ตอนที่ฉันออกไปเดินเลนยามเชาก็พบเขากับ
+ฝูงทามาซาราชิกำลังกลิ้งขามทะเลสาบน้ำแข็งละ!
+
+RESOURCE ID: quest_special_dialogue_sphet_0_2
+TEXT: รูไหมวาทามาซาราชิมักจะเดินทางโดยการกลิ้ง
+ไปเรื่อย ๆ ดวยรางกายที่เหมือนลูกบอลของมัน?
+
+RESOURCE ID: quest_special_dialogue_sphet_0_3
+TEXT: เมื่อถึงฤดูของแพน้ำแข็ง เราจะพบเห็น
+ทามาซาราชิกลิ้งไปมาบนน้ำแข็ง
+เพื่อขามทะเลดวย
+
+RESOURCE ID: quest_special_dialogue_sphet_0_4
+TEXT: แถมพวกมันยังถูกปกคลุมไปดวยขนปุย
+เพื่อปองกันไมใหรูสึกหนาว
+แคดูพวกมันกลิ้งไปมาฉันก็รูสึกอุนขึ้นแลวละ!
+
+RESOURCE ID: quest_special_dialogue_sphet_0_5
+TEXT: เธอเองก็ลองออกไปดูทามาซาราชิสิ!
+
+RESOURCE ID: quest_special_dialogue_sphet_1_0
+TEXT: ยินดีตอนรับกลับมานะ %PLAYERNAME%!
+พาทามาซาราชิมาดวยนี่
+กลมไปหมดทั้งตัวจริง ๆ ดวย!
+
+RESOURCE ID: quest_special_dialogue_sphet_1_1
+TEXT: โทดอกเกลอรซึ่งเปนรางวิวัฒนาการของทามาซาราชิ
+ก็ชอบที่จะใชจมูกกลิ้งทามาซาราชิเลนเหมือนกัน  
+
+RESOURCE ID: quest_special_dialogue_sphet_1_2
+TEXT: อันที่จริง เมื่อโทดอกเกลอรเห็นอะไรเปนครั้งแรก
+มันมักจะลองเอามากลิ้งดวยจมูกของมันอยูเสมอละ!
+ลองวิวัฒนาการทามาซาราชิดูสิวาจริงไหม?
+
+RESOURCE ID: quest_special_dialogue_sphet_2_0
+TEXT: ยินดีตอนรับกลับมานะ เทรนเนอร
+แลวก็สวัสดี โทดอกเกลอร!
+
+RESOURCE ID: quest_special_dialogue_sphet_2_1
+TEXT: ฉันมีขาวดีมาบอกดวย
+จำทะเลสาบน้ำแข็งที่พูดถึงกอนหนานี้ไดไหม?
+
+RESOURCE ID: quest_special_dialogue_sphet_2_2
+TEXT: ดูเหมือนวาแพน้ำแข็งจะแตก
+พวกทามาซาราชิก็เลยกลิ้งอยูในน้ำเต็มเลยละ
+ดูเหมือนพวกมันจะกำลังสนุกกันเลย
+วาแตโปเกมอนตัวไหนเปนตัวการกันนะ?
+
+RESOURCE ID: quest_special_dialogue_sphet_2_3
+TEXT: My best guess is Walrein. Walrein is known to swim through frigid water while crushing icebergs with its grand, imposing tusks. Sounds pretty magnificent, if a bit imposing.
+
+RESOURCE ID: quest_special_dialogue_sphet_2_4
+TEXT: มาวิวัฒนาการโทดอกเกลอร
+แลวคนควาเกี่ยวกับโทโดเซรุกาเพิ่มเติมกันเลย
+
+RESOURCE ID: quest_special_dialogue_sphet_3_0
+TEXT: สำเร็จแลวนี่ เทรนเนอร!
+เขี้ยวของโทโดเซรุกานี่งดงามจริง ๆ เลยวาไหม?
+
+RESOURCE ID: quest_special_dialogue_sphet_3_1
+TEXT: รูไหมวาโทโดเซรุกามักรวมตัวกันเปนฝูง
+ประมาณ 20 หรือ 30 ตัว
+เมื่อมีภัยคุกคามปรากฏขึ้น
+หัวหนาฝูงจะทำทุกอยางเพื่อปกปองกลุมของมัน
+
+RESOURCE ID: quest_special_dialogue_sphet_3_2
+TEXT: ถามีโทโดเซรุกาอยู โทดอกเกลอรกับทามาซาราชิ
+ก็หายหวงละนะ
+
+RESOURCE ID: quest_special_dialogue_sphet_3_3
+TEXT: ฉันเชื่อวาโทโดเซรุกาจะตองปกปองเธอ
+ในการตอสูเชนกัน
+พวกเธอดูเปนคูที่แข็งแกรงเลยละ!
+
+RESOURCE ID: quest_special_dialogue_sphet_3_4
+TEXT: ขอบคุณที่มาชวยฉันนะ %PLAYERNAME%!
+ฉันไดเรียนรูอะไรหลาย ๆ อยางเลยละ
+ไวเจอกันใหมคราวหนานะ
+วาแลวก็ออกผจญภัยเลย!
 
 RESOURCE ID: quest_special_dialogue_spiritomb_0_0
 TEXT: โอ %PLAYERNAME%! คุณแวะมาทันเวลาพอดีเลย
@@ -51835,6 +52894,15 @@ RESOURCE ID: quest_special_dialogue_zigzagoon_3_6
 TEXT: นี่เปนประสบการณที่คุมคามาก
 ขอบคุณที่มาชวยนะ โปเกมอนเทรนเนอร
 
+RESOURCE ID: quest_sphet_catch_b
+TEXT: จับทามาซาราชิ {0} ตัว
+
+RESOURCE ID: quest_sphet_evolve_b
+TEXT: วิวัฒนาการทามาซาราชิ {0} ตัว
+
+RESOURCE ID: quest_sphet_evolve_s1
+TEXT: วิวัฒนาการโทดอกเกลอร {0} ตัว
+
 RESOURCE ID: quest_spin_daysinarow
 TEXT: หมุนเสาโปเกสต็อป {0} วันติดตอกัน
 
@@ -52071,6 +53139,21 @@ TEXT: บิปปา (3/4)
 
 RESOURCE ID: quest_title_bidoof_branch_quest_3
 TEXT: บิปปา (4/4)
+
+RESOURCE ID: quest_title_bulbt
+TEXT: ฟุชิกิดาเนะคอมมิวนิตี้เดย (รีเทิรน)
+
+RESOURCE ID: quest_title_bulbt_0
+TEXT: ฟุชิกิดาเนะคอมมิวนิตี้เดย (รีเทิรน) (1/4)
+
+RESOURCE ID: quest_title_bulbt_1
+TEXT: ฟุชิกิดาเนะคอมมิวนิตี้เดย (รีเทิรน) (2/4)
+
+RESOURCE ID: quest_title_bulbt_2
+TEXT: ฟุชิกิดาเนะคอมมิวนิตี้เดย (รีเทิรน) (3/4)
+
+RESOURCE ID: quest_title_bulbt_3
+TEXT: ฟุชิกิดาเนะคอมมิวนิตี้เดย (รีเทิรน) (4/4)
 
 RESOURCE ID: quest_title_celebi
 TEXT: ระลอกคลื่นในหวงเวลา
@@ -52354,6 +53437,21 @@ TEXT: ปลดปลอยความปวน (2/3)
 RESOURCE ID: quest_title_hoopaunbound_2
 TEXT: ปลดปลอยความปวน (3/3)
 
+RESOURCE ID: quest_title_hoppt
+TEXT: ตนฝายลอยละลอง
+
+RESOURCE ID: quest_title_hoppt_0
+TEXT: ตนฝายลอยละลอง (1/4)
+
+RESOURCE ID: quest_title_hoppt_1
+TEXT: ตนฝายลอยละลอง (2/4)
+
+RESOURCE ID: quest_title_hoppt_2
+TEXT: ตนฝายลอยละลอง (3/4)
+
+RESOURCE ID: quest_title_hoppt_3
+TEXT: ตนฝายลอยละลอง (4/4)
+
 RESOURCE ID: quest_title_jirachi_0
 TEXT: GO Fest 2019—Chicago (1/5)
 
@@ -52446,6 +53544,21 @@ TEXT: ไขวเขวไปกับสีที่แปลกไป (3/4
 
 RESOURCE ID: quest_title_jj_special_research_3
 TEXT: ไขวเขวไปกับสีที่แปลกไป (4/4)
+
+RESOURCE ID: quest_title_litwick
+TEXT: Field Notes: Trick of the Light
+
+RESOURCE ID: quest_title_litwick_0
+TEXT: Field Notes: Trick of the Light (1/4)
+
+RESOURCE ID: quest_title_litwick_1
+TEXT: Field Notes: Trick of the Light (2/4)
+
+RESOURCE ID: quest_title_litwick_2
+TEXT: Field Notes: Trick of the Light (3/4)
+
+RESOURCE ID: quest_title_litwick_3
+TEXT: Field Notes: Trick of the Light (4/4)
 
 RESOURCE ID: quest_title_luminous_x_0
 TEXT: ตำนานแฟรี่ X (1/7)
@@ -52702,21 +53815,6 @@ TEXT: ชวงเวลาสุดเมกา (3/4)
 RESOURCE ID: quest_title_megav3_branch_quest_3
 TEXT: ชวงเวลาสุดเมกา (4/4)
 
-RESOURCE ID: quest_title_melemele
-TEXT: ผจญภัยในเกาะเมเลเมเล
-
-RESOURCE ID: quest_title_melemele_0
-TEXT: ผจญภัยในเกาะเมเลเมเล (1/4)
-
-RESOURCE ID: quest_title_melemele_1
-TEXT: ผจญภัยในเกาะเมเลเมเล (2/4)
-
-RESOURCE ID: quest_title_melemele_2
-TEXT: ผจญภัยในเกาะเมเลเมเล (3/4)
-
-RESOURCE ID: quest_title_melemele_3
-TEXT: ผจญภัยในเกาะเมเลเมเล (4/4)
-
 RESOURCE ID: quest_title_meloetta
 TEXT: ตามหาเสียงเพลง
 
@@ -52884,6 +53982,9 @@ TEXT: ถอดรหัสโพรีกอน (3/4)
 
 RESOURCE ID: quest_title_poryt_3
 TEXT: ถอดรหัสโพรีกอน (4/4)
+
+RESOURCE ID: quest_title_power_jan22_0
+TEXT: บิริริดามาจากภูมิภาคฮิซุย!?
 
 RESOURCE ID: quest_title_rocket
 TEXT: สถานการณนากังวลใจ
@@ -53203,6 +54304,102 @@ TEXT: ความป่นปวนสุดฉงน (9/16)
 RESOURCE ID: quest_title_season4_9
 TEXT: ความป่นปวนสุดฉงน (10/16)
 
+RESOURCE ID: quest_title_season5_feb
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ
+
+RESOURCE ID: quest_title_season5_feb_page_0
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (1/15)
+
+RESOURCE ID: quest_title_season5_feb_page_1
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (2/15)
+
+RESOURCE ID: quest_title_season5_feb_page_10
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (11/15)
+
+RESOURCE ID: quest_title_season5_feb_page_11
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (12/15)
+
+RESOURCE ID: quest_title_season5_feb_page_12
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (13/15)
+
+RESOURCE ID: quest_title_season5_feb_page_13
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (14/15)
+
+RESOURCE ID: quest_title_season5_feb_page_14
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (15/15)
+
+RESOURCE ID: quest_title_season5_feb_page_2
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (3/15)
+
+RESOURCE ID: quest_title_season5_feb_page_3
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (4/15)
+
+RESOURCE ID: quest_title_season5_feb_page_4
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (5/15)
+
+RESOURCE ID: quest_title_season5_feb_page_5
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (6/15)
+
+RESOURCE ID: quest_title_season5_feb_page_6
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (7/15)
+
+RESOURCE ID: quest_title_season5_feb_page_7
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (8/15)
+
+RESOURCE ID: quest_title_season5_feb_page_8
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (9/15)
+
+RESOURCE ID: quest_title_season5_feb_page_9
+TEXT: ฤดูกาลแหงมรดก: คำทาการจับ (10/15)
+
+RESOURCE ID: quest_title_season5_jan
+TEXT: ฤดูกาลแหงมรดก: คำทา XP
+
+RESOURCE ID: quest_title_season5_jan_page_0
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (1/15)
+
+RESOURCE ID: quest_title_season5_jan_page_1
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (2/15)
+
+RESOURCE ID: quest_title_season5_jan_page_10
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (11/15)
+
+RESOURCE ID: quest_title_season5_jan_page_11
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (12/15)
+
+RESOURCE ID: quest_title_season5_jan_page_12
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (13/15)
+
+RESOURCE ID: quest_title_season5_jan_page_13
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (14/15)
+
+RESOURCE ID: quest_title_season5_jan_page_14
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (15/15)
+
+RESOURCE ID: quest_title_season5_jan_page_2
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (3/15)
+
+RESOURCE ID: quest_title_season5_jan_page_3
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (4/15)
+
+RESOURCE ID: quest_title_season5_jan_page_4
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (5/15)
+
+RESOURCE ID: quest_title_season5_jan_page_5
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (6/15)
+
+RESOURCE ID: quest_title_season5_jan_page_6
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (7/15)
+
+RESOURCE ID: quest_title_season5_jan_page_7
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (8/15)
+
+RESOURCE ID: quest_title_season5_jan_page_8
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (9/15)
+
+RESOURCE ID: quest_title_season5_jan_page_9
+TEXT: ฤดูกาลแหงมรดก: คำทา XP (10/15)
+
 RESOURCE ID: quest_title_season8
 TEXT: สหายแหงดาราและเมฆา
 
@@ -53265,6 +54462,21 @@ TEXT: ซึทาจะใตแสงตะวัน (3/4)
 
 RESOURCE ID: quest_title_snivt_3
 TEXT: ซึทาจะใตแสงตะวัน (4/4)
+
+RESOURCE ID: quest_title_sphet
+TEXT: เรื่องของทามาซาราชิ
+
+RESOURCE ID: quest_title_sphet_0
+TEXT: เรื่องของทามาซาราชิ (1/4)
+
+RESOURCE ID: quest_title_sphet_1
+TEXT: เรื่องของทามาซาราชิ (2/4)
+
+RESOURCE ID: quest_title_sphet_2
+TEXT: เรื่องของทามาซาราชิ (3/4)
+
+RESOURCE ID: quest_title_sphet_3
+TEXT: เรื่องของทามาซาราชิ (4/4)
 
 RESOURCE ID: quest_title_spiritomb
 TEXT: ขอความนาขนลุก 2018
@@ -53847,14 +55059,23 @@ TEXT: ใชยารักษาแผล
 RESOURCE ID: quest_use_charged_move_singular
 TEXT: ใชทาโจมตีชารจใหไดผลดีเยี่ยม
 
+RESOURCE ID: quest_use_charged_tm
+TEXT: ใช TM ทาชารจ
+
 RESOURCE ID: quest_use_dai_plural
 TEXT: ใชเครื่องหอมรายวัน {0} ครั้ง
 
 RESOURCE ID: quest_use_dai_singular
 TEXT: ใชเครื่องหอมรายวัน
 
+RESOURCE ID: quest_use_fast_tm
+TEXT: ใช TM ทาเร็ว
+
 RESOURCE ID: quest_use_hyper_potion
 TEXT: ใชยารักษาแผลชั้นยอด
+
+RESOURCE ID: quest_use_lure
+TEXT: Use a Lure Module
 
 RESOURCE ID: quest_use_max_potion
 TEXT: ใชยาฟ้นพลังกายเต็มถัง
@@ -53867,6 +55088,12 @@ TEXT: ใชลูกอมประหลาด {0} เม็ด
 
 RESOURCE ID: quest_use_rare_candy_singular
 TEXT: ใชลูกอมประหลาด
+
+RESOURCE ID: quest_use_standard_charged_tm
+TEXT: ใช TM ทาชารจ
+
+RESOURCE ID: quest_use_standard_fast_tm
+TEXT: ใช TM ทาเร็ว
 
 RESOURCE ID: quest_use_super_potion
 TEXT: ใชยารักษาแผลอยางดี
@@ -54001,10 +55228,13 @@ RESOURCE ID: quest_win_raid_with_friend_singular
 TEXT: ชนะการตีบอสกับเพื่อน
 
 RESOURCE ID: quest_win_raids_unique_1500_plural
-TEXT: ชนะการตีบอสโดยใชเฉพาะโปเกมอนที่ตางสายพันธุกันและมี CP ไมเกิน 1,500 จำนวน {0} ครั้ง
+TEXT: ชนะการตีบอสโดยใชเฉพาะโปเกมอน
+ที่ตางสายพันธุกันและมี CP ไมเกิน
+1,500 จำนวน {0} ครั้ง
 
 RESOURCE ID: quest_win_raids_unique_plural
-TEXT: ชนะการตีบอสโดยใชโปเกมอนที่ตางสายพันธุกันทุกตัว {0} ครั้ง
+TEXT: ชนะการตีบอสโดยใชโปเกมอน
+ที่ตางสายพันธุกันทุกตัว {0} ครั้ง
 
 RESOURCE ID: quest_win_rocket_leader_less1500cp_plural
 TEXT: เอาชนะหัวหนาแกงโกร็อกเกตโดยใชเฉพาะโปเกมอนที่มี CP ต่ำกวา 1,500 จำนวน {0} ครั้ง
@@ -54032,6 +55262,9 @@ TEXT: วิวัฒนาการโคคูน {0} ตัว
 
 RESOURCE ID: quest_wt_evolve_weedle
 TEXT: วิวัฒนาการบีเดิล {0} ตัว
+
+RESOURCE ID: quest_xp_plural
+TEXT: รับ {0} XP
 
 RESOURCE ID: quest_zigzagoon_catch_b
 TEXT: จับกาลารจิกุซากุมะ {0} ตัว
@@ -55408,6 +56641,9 @@ TEXT: วันตีบอส : ชาเรม
 
 RESOURCE ID: raid_day_meditite
 TEXT: วันตีบอส : อาซานัน
+
+RESOURCE ID: raid_day_mega_gyarados
+TEXT: วันตีบอส : เมกาเกียราดอส
 
 RESOURCE ID: raid_day_mega_kangaskhan
 TEXT: วันตีบอส : เมกาการูรา
@@ -59093,8 +60329,8 @@ RESOURCE ID: remote_raid_invite_ingame_notif
 TEXT: {0}ไดเชิญคุณเขารวมการตีบอส!
 
 RESOURCE ID: remote_raid_invite_push_notif
-TEXT: คำเชิญเขารวมตีบอสn
-     {0}ไดเชิญคุณเขารวมการตีบอส!
+TEXT: Raid Invitation
+ {0} invited you to join a Raid Battle!
 
 RESOURCE ID: remote_raid_invite_rate_limit_desc
 TEXT: คุณไดสงคำเชิญถึงจำนวนสูงสุดที่คุณสามารถสงไดในขณะนี้แลว กรุณาลองใหมอีกครั้งภายหลัง
@@ -61611,6 +62847,9 @@ TEXT: ฟุคามารุปรากฏตัวออกมามาก�
 RESOURCE ID: spawn_hoppip
 TEXT: ฮาเน็กโกะปรากฏตัวมากขึ้นในธรรมชาติ
 
+RESOURCE ID: spawn_litwick
+TEXT: More Litwick are appearing in the wild!
+
 RESOURCE ID: spawn_machop
 TEXT: วันริกีปรากฏตัวมากขึ้นในธรรมชาติ
 
@@ -62719,320 +63958,52 @@ TEXT: Pokémon GO Fest 2022: ซีแอตเทิล (ประสบกา�
 RESOURCE ID: sr_gofest2022_leseap_5
 TEXT: Pokémon GO Fest 2022: ซีแอตเทิล (ประสบการณในสวน) (5/5)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_10
-TEXT: แตยังไงซะตอนนี้ก็ยังไมมีอะไรเกิดขึ้น
-เพราะงั้นเธอออกไปสนุกกับโปเกมอน
-และเพื่อนของเธอเถอะ!
+RESOURCE ID: sr_gotour2022_1
+TEXT: Pokémon GO Tour: โจโตะ (1/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_3
-TEXT: และยังเปนภูมิภาคที่มีการคนพบโปเกมอนประเภท
-ความมืดและโลหะเปนครั้งแรก!
-คุณตาโปเกมอน และไขปริศนาก็เชนกัน!
+RESOURCE ID: sr_gotour2022_2
+TEXT: Pokémon GO Tour: โจโตะ (2/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_4
-TEXT: เมื่อพูดถึงโปเกมอนที่คนพบครั้งแรกในภูมิภาค
-โจโตะ ก็คิดขึ้นไดวามีรายงานวามีผูพบเห็น
-เซเลบีอยูใกล ๆ 
+RESOURCE ID: sr_gotour2022_3
+TEXT: Pokémon GO Tour: โจโตะ (3/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_5
-TEXT: เซเลบีมีความสามารถในการเดินทางขามเวลา
+RESOURCE ID: sr_gotour2022_4
+TEXT: Pokémon GO Tour: โจโตะ (4/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_6
-TEXT: ตอนนี้ฉันเองก็ยังรูสึกวาเซเลบีตองเกี่ยวของกับ
-การปรากฏตัวของบิริริดามาจากภูมิภาคฮิซุยแน ๆ
+RESOURCE ID: sr_gotour2022_5
+TEXT: Pokémon GO Tour: โจโตะ (5/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_7
-TEXT: อยางไรก็ตาม มีขาวลือวาเซเลบีที่ปรากฏตัว
-ในครั้งนี้รูทาตอสูพิเศษดวย หวังวาเราคงจะ
-มีโอกาสไดเห็นมันใชทาที่วานะ!
+RESOURCE ID: sr_gotour2022_6
+TEXT: Pokémon GO Tour: โจโตะ (6/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_8
-TEXT: แลวก็อยาลืมระวังพวกแกงโกร็อกเกต
-ในชวงเทศกาลดวยละ ฉันวาพวกเขาตองมี
-แผนการอะไรบางอยางแน
+RESOURCE ID: sr_gotour2022_7
+TEXT: Pokémon GO Tour: โจโตะ (7/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_9
-TEXT: หลังจากที่เปดประตูลึกลับนั่น พวกเขาวางแผน
-จะทำอะไรตอกันแนนะ....
+RESOURCE ID: sr_gotour2022_8
+TEXT: Pokémon GO Tour: โจโตะ (8/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_1_0
-TEXT: %PLAYERNAME% รูไหมวาสิ่งที่จำเปนสำหรับ
-การผจญภัยคืออะไร? นั่นก็คือคูหูยังไงละ!
+RESOURCE ID: sr_gotour2022_9
+TEXT: Pokémon GO Tour: โจโตะ (9/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_1_1
-TEXT: โปเกมอนเหลานี้เปนโปเกมอนที่เทรนเนอร
-ในภูมิภาคโจโตะเลือกเปนคูหูในครั้งแรก
-เลือกคูหูของเธอจากในสามตัวนี้ไดเลย!
+RESOURCE ID: sr_gotour2022_sr_dialogue_0_0
+TEXT: ไง %PLAYERNAME%! พรอมหรือยัง?
+เรื่องราวของเธอกำลังจะเริ่มตนขึ้นแลว!
+การผจญภัยในวันนี้อาจจะเปนสิ่งใหมสำหรับบางคน
+แตอาจเปนประสบการณการที่คุนเคย
+สำหรับบางคนก็เปนได
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_0
-TEXT: เปนโปเกมอนที่เหมาะกับเธอมากเลยละ %PLAYERNAME%!
+RESOURCE ID: sr_gotour2022_sr_dialogue_0_1
+TEXT: ใชแลว วันนี้เราจะมาเรียนรูเกี่ยวกับภูมิภาคโจโตะ
+รวมถึงโปเกมอนที่คนพบที่นั่นดวยเชนกัน
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_1_chikorita
-TEXT: จิโคริตา หรือโปเกมอนใบไม เปนโปเกมอนที่
-เชื่องและชอบอาบแดดมาก และจะมีกลิ่นหอมหวาน
- ออกมาจากใบไมบนหัว หนาตานารักไมเบาเลย!
+RESOURCE ID: sr_gotour2022_sr_dialogue_0_2
+TEXT: ภูมิภาคโจโตะเปนดินแดนที่เต็มไปดวยประวัติศาสตร
+และประเพณี มีเมืองที่เป่ยมไปดวยกลิ่นอายความงาม
+ยุคโบราณอยางเอ็นจุซิตี้ ซึ่งตั้งอยูไมหางจาก
+มหานครสุดทันสมัยอยางโคงาเนะซิตี้ 
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_1_cyndaquil
-TEXT: ฮิโนอาราชิ หรือโปเกมอนหนูไฟ เปนโปเกมอนที่
-ขี้อายและมักจะขดตัวเปนลูกบอลเสมอ มันจะปกปอง
-ตัวเองดวยการปลอยเปลวไฟออกมาจากแผนหลัง
-เห็นแลวอยากจะเขาไปกอดแลวปลอบเลยละ
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_1_totodile
-TEXT: วานิโนโกะ หรือโปเกมอนกรามใหญ เปนโปเกมอนที่
-แมตัวจะเล็กแตก็ดุดัน มักจะกัดทุกสิ่งที่เคลื่อนไหว
-เอาเถอะ ถาระวังก็คงไมเปนไร...
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_2
-TEXT: ฉันเชื่อวาเจาตัวเล็กนี่อยางจะออกเดินทาง
-ไปกับเธอแลวละ วาแลวก็ออกผจญภัย
-ไปยังโจโตะไดเลย!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_0_chikorita
-TEXT: วาว จิโคริตาวิวัฒนาการเปนเบยลีฟแลว!
-พอดีเลย %PLAYERNAME% ที่จริงมีเรื่องนาเปนหวง
-นิดหนอย
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_0_cyndaquil
-TEXT: วาว ฮิโนอาราชิวิวัฒนาการเปนแม็กมาราชิแลว!
-พอดีเลย %PLAYERNAME% ที่จริงมีเรื่องนาเปนหวง
-นิดหนอย
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_0_totodile
-TEXT: วาว วานิโนโกะวิวัฒนาการเปนอัลลิเกตแลว!
-พอดีเลย %PLAYERNAME% ที่จริงมีเรื่องนาเปนหวง
-นิดหนอย
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_1
-TEXT: ดูเหมือนวาแกงโกร็อกเกตเริ่มเคลื่อนไหวแลว
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_2
-TEXT: ดูเหมือนครั้งนี้จะไมใชแคการกอกวนเล็ก ๆ นอย ๆ
-ดวย...นี่เปนการบุกครั้งใหญ
-เจาพวกนั้นชอบกอเรื่องในชวงที่พวกเรา
-กำลังเฮฮากันดวยสิ
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_3
-TEXT: หรือวาพวกเขาจะรูเรื่องที่มีคนพบเซเลบี?
-วางแผนอะไรอยูกันแนนะ
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_4
-TEXT: ชวยจัดการกับลูกสมุนแกงโกร็อกเกต
-หนอยไดไหม? ฝากดวยละ!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_0
-TEXT: ยอดเยี่ยมมาก %PLAYERNAME%!
-ฉันไดยินเสียงลูกสมุนแกงโกร็อกเกตวิ่งหนี
-พลางบนเจ็บใจที่แพเทรนเนอรที่เกงฉกาจ
-ระหวางที่กำลังทำการตรวจสอบละ
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_1
-TEXT: พวกเขาคงหมายถึงเธอใชไหมละ
-คิดถูกที่พึ่งเธอจริง ๆ
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_2
-TEXT: ที่สำคัญ ฉันพึ่งไดขอมูลสำคัญมาละ
-ดูเหมือนวาจะมีคนพบเกียราดอสเขา แตดูเหมือนวา
-มันจะไมใชเกียราดอสธรรมดาที่เรารูจักกันหรอกนะ
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_3
-TEXT: ดูเหมือนวามันจะกำลังเดือดดาลอยางหนัก
-เหมือนกับเกียราดอสสีแดงที่พบที่ทะเลสาบ
-แหงความพิโรธในภูมิภาคโจโตะเลยละ
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_4
-TEXT: ในตอนนั้นแกงร็อกเกตไดใชคลื่นวิทยุลึกลับ
-กระตุนใหคอยคิงวิวัฒนาการ
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_5
-TEXT: ฟงดูเหมือนเคยไดยินที่ไหนใชไหม...
-เหมือนกับเรื่องของโปเกมอนชาโดวเลยละ
-แถมพักนี้โปเกมอนชาโดวยังเพิ่มมากขึ้นเรื่อย ๆ ดวย
-หรือพวกเขาจะใชคลื่นแบบเดียวกันนั่น...
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_6
-TEXT: แลวมันมีสวนเกี่ยวของอะไรกับสิ่งที่พวก
-แกงโกร็อกเกตขโมยไปจากอีกฟากของ
-ประตูลึกลับนั่นรึเปลานะ? เปนตนวา สิ่งที่ชวย
-วิวัฒนาการโปเกมอนหรือดึงพลังของพวกมัน
-ออกมาใหถึงขีดจำกัด...?
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_7
-TEXT: แลวยังมีเรื่องเซเลบีที่มีพลังเดินทางขามเวลาดวย!
-แกงโกร็อกเกตกำลังวางแผนอะไรอยูกันแน!
-ไมมีเวลาแลว ไปชวยเกียราดอส แลวออกตามหา
-เซเลบีกอนที่ทุกอยางจะสายเกินไปกันเถอะ!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_0
-TEXT: เยี่ยมมาก %PLAYERNAME%!
-เกียราดอสตัวนั้นดูสงบลงแลวหลังจากที่
-เธอชวยมันจากแกงโกร็อกเกต
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_1
-TEXT: ดูเหมือนวาแกงโกร็อกเกตจะถอนกำลังไปแลว
-เหมือนกัน เพราะงั้นเรากลับไปฉลองตอกันไหม?
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_2_chikorita
-TEXT: ดูเหมือนวาเบยลีฟอยากเลนกับเธอนะ!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_2_cyndaquil
-TEXT: ดูเหมือนวาแม็กมาราชิอยากเลนกับเธอนะ!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_2_totodile
-TEXT: ดูเหมือนวาอัลลิเกตอยากเลนกับเธอนะ!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_3
-TEXT: แมในสถานการณที่เลวรายที่สุดที่ถูกกดดัน
-จากทุกดาน เราก็ยังจำเปนตองหาเวลาคลายเครียด
-และเพลิดเพลินกับชวงเวลาอันแสนสงบ
-ไปกับเพื่อน ๆ นะ
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_4
-TEXT: ชวงเวลาแบบนั้นจะทำใหเรามีกำลังในการสูตอไปได
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_5_chikorita
-TEXT: ดูเหมือนวาเบยลีฟพรอมที่จะวิวัฒนาการแลวนะ!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_5_cyndaquil
-TEXT: ดูเหมือนวาแม็กมาราชิพรอมที่จะวิวัฒนาการแลวนะ!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_5_totodile
-TEXT: ดูเหมือนวาอัลลิเกตพรอมที่จะวิวัฒนาการแลวนะ!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_0_chikorita
-TEXT: เมกาเนียมของเธอเปลงประกายสุด ๆ ไปเลยละ!
-เห็นพวกเธอแลวทางนี้เองก็รูสึกมีความสุขไปดวย
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_0_cyndaquil
-TEXT: แบ็กฟูนของเธอเปลงประกายสุด ๆ ไปเลยละ!
-เห็นพวกเธอแลวทางนี้เองก็รูสึกมีความสุขไปดวย
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_0_totodile
-TEXT: ออไดลของเธอเปลงประกายสุด ๆ ไปเลยละ!
-เห็นพวกเธอแลวทางนี้เองก็รูสึกมีความสุขไปดวย
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_1
-TEXT: การไดเพื่อนใหมและการออกไปสำรวจโลก
-นับเปนความหฤหรรษในชีวิต ถาไมไดทำสอง
-อยางนี้ชีวิตของฉันคงไรรสชาติแน ๆ
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_2
-TEXT: และฉันก็คงไมไดพบเขากับประตูลึกลับนั่น!
-แมสุดทายจะถูกพวกแกงโกร็อกเกตเขามายุงก็ตาม
-แตการไดออกมาใชเวลาไปกับพวกหัวหนาทีม
-รวมถึงทำการวิจัย ก็เปนความรูสึกที่ไมเลวเลย
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_3
-TEXT: ...เรื่องของฉันเอาไวเทานี้กอนแลวกัน
-เธอออกไปสนุกใหเต็มที่ในเวลาที่เหลือนี่เถอะ!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_7_0
-TEXT: ขอโทษที่เรงนะ %PLAYERNAME% แตเราตองรีบแลว!
-เมื่อกี้มีรายงานวามีผูพบเห็นเซเลบีเขามาละ
-ถาไปตอนนี้ไมแนวาอาจจะจับทันก็ได!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_7_1
-TEXT: เล็ตส โก!
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_0
-TEXT: จับเซเลบีไดแลวสินะ! สันนิษฐานกันวา
-ตราบใดที่เซเลบีปรากฏตัวก็แสดงวา
-มีอนาคตอันสดใสรออยู
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_1
-TEXT: ทำไมเซเลบีถึงปรากฏตัวตอหนาพวกเราในวันนี้กันนะ
-ตองเปนสัญญาณวาจะมีเรื่องดี ๆ เกิดขึ้นแน
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_2
-TEXT: หลังจากที่เราตองตอกรกับพวกแกงโกร็อกเกต
-ก็ถือเปนเรื่องดีนะ
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_3
-TEXT: ตอนที่เธอไมอยู ฉันไดขอมูลเกี่ยวกับสิ่งที่
-แกงโกร็อกเกตพยายามปดบังมาตลอด
-นั่นก็คือพวกเขาจับโฮโอกับลูเกียได
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_4
-TEXT: แยยิ่งไปกวานั้นคือแกงโกร็อกเกตไดใชพลัง
-ที่ขโมยมาจากอีกฟากของประตูลึกลับ
-ผสานเขากับเทคโนโลยีคลื่นวิทยุที่พัฒนาขึ้นมาในอดีต
-ในการเปลี่ยนใหลูเกียและโฮโอแข็งแกรงยิ่งกวา
-โปเกมอนชาโดวอื่น ๆ ที่เราเคยเจอ
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_5
-TEXT: พวกเขาเรียกโปเกมอนชาโดวใหมเหลานี้วา
-โฮโอชาโดว APEX และลูเกียชาโดว APEX
-เตรียมตัวใหพรอม %PLAYERNAME%
-การตอสูพึ่งเริ่มตนขึ้นเทานั้น
-
-RESOURCE ID: sr_gotoursik_dialogue_0_0
-TEXT: วาไง %PLAYERNAME%! งานวิจัยเมื่อวานสนุกไหม?
-หวังวาจะยังมีแรงเหลืออยูนะ เพราะวันนี้ฉันวาจะวาน
-ใหชวยทำงานวิจัยเกี่ยวกับภูมิภาคคันโตสักหนอย!
-
-RESOURCE ID: sr_gotoursik_dialogue_0_1
-TEXT: เปนงานวิจัยที่เหมาะกับการผจญภัยไปกับโปเกมอน
-มากเลยละ
-
-RESOURCE ID: sr_gotoursik_dialogue_0_2
-TEXT: มาออกเดินทางไปสำรวจกันเลย!
-
-RESOURCE ID: sr_gotoursik_dialogue_1_0
-TEXT: เธอยังไหวอยูรึเปลา %PLAYERNAME% ไปพักผอน
-แลวเลนกับคูหูหรือใหผลไมมันสักหนอยไหม?
-
-RESOURCE ID: sr_gotoursik_dialogue_1_1
-TEXT: ถาพักแลวก็อยาลืมหาอะไรมาเติมทองดวยละ!
-ถึงเธอจะเปนเทรนเนอรที่เกงแคไหน
-แตถาทองวางก็ทำอะไรไมไหวหรอก
-
-RESOURCE ID: sr_gotoursik_dialogue_2_0
-TEXT: เปนไง สนุกหรือเปลา %PLAYERNAME%?
-ถาพรอมแลวก็ไปสำรวจโปเกมอน
-ในถิ่นที่อยูตาง ๆ กันเลย
-
-RESOURCE ID: sr_gotoursik_dialogue_2_1
-TEXT: ถิ่นที่อยูมีดวยกันทั้งหมด 5 แหง แตละแหงจะมี
-โปเกมอนที่แตกตางกันไป อยากรูวาถิ่นที่อยูไหน
-มีโปเกมอนอะไรอยูบางงั้นเหรอ? ไปดูกันเลย!
-
-RESOURCE ID: sr_gotoursik_dialogue_3_0
-TEXT: ถายไดสวยนี่ %PLAYERNAME%!
-ภาพของเธอนี่ขับจุดเดนของโปเกมอนออกมา
-ไดเดนชัดเลย แถมพวกมันยังมีสีหนาที่ดีเยี่ยม
-ตอนถายดวยนี่
-
-RESOURCE ID: sr_gotoursik_dialogue_3_1
-TEXT: ไปทองถิ่นที่อยูอาศัยตาง ๆ มาแลวใชไหม?
-ไดเจอโปเกมอนที่คุนเคยรวมถึงโปเกมอนใหม ๆ
-มากมายเลยใชไหมละ!
-
-RESOURCE ID: sr_gotoursik_dialogue_3_2
-TEXT: แลวไดไปพูดคุย ทำความรูจักกับเทรนเนอรคนอื่น ๆ
-บางหรือยัง?
-
-RESOURCE ID: sr_gotoursik_dialogue_3_3
-TEXT: ออกไปหาเพื่อนใหม แลวแลกเปลี่ยนโปเกมอนกัน
-หรือจะลองแบตเทิลกับพวกเขาดูก็ดีนะ
-ตองสนุกมากแน ๆ
-
-RESOURCE ID: sr_gotoursik_dialogue_4_0
-TEXT: กลับมาแลวเหรอ %PLAYERNAME%!
-ฉันไดรับรายงานมาวามีผูพบเห็นโปเกมอนในตำนาน
-ในชวงที่เธอไมอยูละ
-
-RESOURCE ID: sr_gotoursik_dialogue_4_1
-TEXT: มันอาจจะอยากเขามารวมแจมในเทศกาลก็ไดนะ
-ลองไปตรวจสอบดูกันเถอะ!
-
-RESOURCE ID: sr_gotoursik_dialogue_5_0
-TEXT: วาว! นั่นมัน...มิวทู? เหลือเชื่อ!
-โลกเรานี่เต็มไปดวยสิ่งนาอัศจรรยจริง ๆ
-
-RESOURCE ID: sr_gotoursik_dialogue_5_1
-TEXT: วันนี้เปนการวิจัยที่สนุกมากเลย %PLAYERNAME%
-ขอใหเธอสนุกกับการผจญภัยในชวงเวลาที่เหลือนะ
-ไวพบกันใหม...เล็ตสโก!
+RESOURCE ID: standard_raid_box_title
+TEXT: กลองตีบอสมาตรฐาน
 
 RESOURCE ID: star_piece_duration_double
 TEXT: สตารพีซใชไดนานขึ้น 2 เทา
@@ -63061,7 +64032,7 @@ RESOURCE ID: starpiece.8_title
 TEXT: สตารพีซ x8
 
 RESOURCE ID: status_filter_group_key
-TEXT: Catch Status
+TEXT: สถานะการจับ
 
 RESOURCE ID: steel_type_event
 TEXT: ระลอกฉับพลัน: โลหะ
@@ -63588,10 +64559,10 @@ RESOURCE ID: thai
 TEXT: ภาษาไทย
 
 RESOURCE ID: themed_stickers_description
-TEXT: You’ll also be able to get season-themed stickers by spinning PokéStops, opening Gifts, and purchasing them from the in-game shop.
+TEXT: คุณสามารถรับสติกเกอรตามธีมฤดูกาลไดจากการหมุนเสาโปเกสต็อป เปดของขวัญ หรือซื้อจากรานคาในเกม
 
 RESOURCE ID: themed_stickers_name
-TEXT: Themed Stickers
+TEXT: สติกเกอรตามธีม
 
 RESOURCE ID: three_free_raid_passes
 TEXT: รับบัตรตีบอสฟรีไดถึง 3 ใบดวยการหมุนแผนภาพที่ยิม
@@ -63666,6 +64637,9 @@ TEXT: สามารถซื้อตั๋วสำหรับงานว�
 
 RESOURCE ID: ticket_hoppip
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "ตนฝายลอยละลอง" ไดที่รานคา
+
+RESOURCE ID: ticket_litwick
+TEXT: Ticket for the Field Notes: Trick of the Light Special Research story available in the shop
 
 RESOURCE ID: ticket_machop
 TEXT: ตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษมีจำหนายในรานคา : วันริกีเดินหนาลุย!
@@ -64544,6 +65518,9 @@ TEXT: หนึ่ง...สอง...สาม...แตนแตนแต�
 RESOURCE ID: today
 TEXT: วันนี้
 
+RESOURCE ID: today_view_all_hours
+TEXT: โปเกมอนจากทุกชั่วโมงกำลังปรากฏตัวในธรรมชาติ!
+
 RESOURCE ID: today_view_catch_competition
 TEXT: การแขงขันจับแบบเฉพาะถิ่น
 
@@ -64752,7 +65729,7 @@ RESOURCE ID: trade_exclusion_reason_gym_deployed
 TEXT: โปเกมอนตัวนี้กำลังเฝายิมอยู
 
 RESOURCE ID: trade_exclusion_reason_mythical
-TEXT: ไมสามารถแลกเปลี่ยนโปเกมอนชาโดวและโปเกมอนมายาได
+TEXT: ไมสามารถแลกเปลี่ยนโปเกมอนบางชนิดได เชน โปเกมอนชาโดวและโปเกมอนมายา
 
 RESOURCE ID: trade_exclusion_reason_player_cannot_afford
 TEXT: คุณมีสตารดัสตไมเพียงพอ
@@ -64971,6 +65948,9 @@ TEXT: Lv. {0}
 RESOURCE ID: trading_waiting
 TEXT: กำลังรอ...
 
+RESOURCE ID: trainee_box_title
+TEXT: กลองผูฝกฝน
+
 RESOURCE ID: trainer_code_label
 TEXT: รหัสเทรนเนอร
 
@@ -65085,16 +66065,16 @@ RESOURCE ID: tutorial_level_40_plus_intro
 TEXT: ยินดีดวยสำหรับความกาวหนาที่นาทึ่งของคุณนะ เทรนเนอร!
 
 RESOURCE ID: tutorial_vivillon_postcard_body_0
-TEXT: If you pin multiple Postcards from a certain region, you’ll have a chance to encounter a Pokémon!
+TEXT: หากปกหมุดโปสการดจากพื้นที่ที่กำหนดหลายใบ อาจไดพบกับโคฟูคิมูชิ!
 
 RESOURCE ID: tutorial_vivillon_postcard_body_1
-TEXT: The pattern on Vivillon’s wings is affected by the climate of their habitat. You can check the Vivillon map from the Pokédex and the Vivillon medal page to see where different Vivillon can be found.
+TEXT: ลวดลายบนปกของวิวิญองไดรับอิทธิพลจากสภาพอากาศของดินแดนที่มันอาศัยอยู คุณสามารถตรวจสอบแผนที่วิวิญองเพื่อดูวาสามารถพบวิวิญองลวดลายตาง ๆ ไดที่ไหน โดยสามารถดูไดจากหนาโปเกเด็กซและหนาเหรียญรางวัลวิวิญอง
 
 RESOURCE ID: tutorial_vivillon_postcard_body_2
-TEXT: When you pin a Postcard you receive from a friend, you’ll make progress on the Vivillon medal associated with that location. If you collect several Postcards from a certain part of the world, you can encounter a Scatterbug specifically from that habitat.
+TEXT: เมื่อคุณปกหมุดโปสการดที่ไดมาจากเพื่อน ความคืบหนาของเหรียญรางวัลวิวิญองที่เกี่ยวของกับสถานที่ดังกลาวจะอัปเดต หากคุณรวบรวมโปสการดหลายใบจากพื้นที่ที่กำหนดในทั่วทุกมุมโลก คุณอาจจะไดพบกับโคฟูคิมูชิที่อาศัยอยูในบริเวณนั้น ๆ
 
 RESOURCE ID: tutorial_vivillon_postcard_header
-TEXT: Catch Vivillon from all around the world!
+TEXT: จับวิวิญองจากทั่วโลก!
 
 RESOURCE ID: tutorial_xl_candy_1
 TEXT: ดูเหมือนวาคุณจะไดพบลูกอม XL แลว! ฉันไดยินมาวามันสามารถที่จะชวยพาวเวอรอัปโปเกมอนของคุณไดมากขึ้นไปกวาที่ลูกอมทั่วไปทำไดเสียอีก!
@@ -65258,6 +66238,9 @@ TEXT: ULพรีเมียรคลาสสิก
 
 RESOURCE ID: ultra_premier_cup_title
 TEXT: Ultra Premier
+
+RESOURCE ID: ultra_raid_box_title
+TEXT: กลองตีบอสชั้นยอด
 
 RESOURCE ID: ultra_unlock_event_2020
 TEXT: ปลดล็อกอัลตราโบนัส 2020
@@ -65768,6 +66751,9 @@ TEXT: กำลังอัปโหลด 1 บันทึก...
 RESOURCE ID: verbose_logs_uploading_count_plural
 TEXT: กำลังอัปโหลด {0} บันทึก...
 
+RESOURCE ID: veteran_box_title
+TEXT: กลองผานศึก
+
 RESOURCE ID: video_sponsored_gift_tutorial_description_1
 TEXT: คุณอาจไดรับของขวัญและวิดีโอพรอมขอความจากผูสนับสนุนระหวางออกผจญภัยใน Pokémon GO
 
@@ -65800,6 +66786,9 @@ TEXT: กรุณาไปที่ศูนยชวยเหลือ�
 
 RESOURCE ID: volbeat_illumise_all_regions
 TEXT: บารูบีทและอิลูมิเซะปรากฏตัวทั่วโลก
+
+RESOURCE ID: voyager_box_title
+TEXT: กลองเดินทาง
 
 RESOURCE ID: vs_seeker_charged_notification
 TEXT: คุณไดรับสิทธิ์ในการเขารวมโกแบตเทิลลีก!
@@ -66120,7 +67109,7 @@ RESOURCE ID: weather_clear
 TEXT: แจมใส
 
 RESOURCE ID: weather_cup_title
-TEXT: Weather Cup
+TEXT: การแขงขันสภาพอากาศ
 
 RESOURCE ID: weather_extreme
 TEXT: รุนแรงมาก
@@ -66178,7 +67167,7 @@ RESOURCE ID: weekly_box
 TEXT: กลองประจำสัปดาห
 
 RESOURCE ID: weekly_reminder_km_notification_toast
-TEXT: You’ve walked %s km this week. Not much farther until you’ve reached your goal!
+TEXT: ในสัปดาหนี้คุณเดินไปแลว %s กม. อีกนิดเดียวคุณก็จะบรรลุเปาหมายแลว!
 
 RESOURCE ID: welcome_to_alola_event_name
 TEXT: ยินดีตอนรับสูอโลลา
@@ -66189,6 +67178,9 @@ TEXT: Willpower Cup
 RESOURCE ID: winter event
 TEXT: อีเวนตฤดูหนาว
 
+RESOURCE ID: winter_holiday_catch_timed_research
+TEXT: ฉลองวันหยุดกับ Pokémon GO: คำทาการจับ
+
 RESOURCE ID: winter_holiday_event_name
 TEXT: ฉลองวันหยุดกับโปเกมอนโก
 
@@ -66197,6 +67189,9 @@ TEXT: ฉลองวันหยุดกับ Pokémon GO: สวนที
 
 RESOURCE ID: winter_holiday_event_name_part2
 TEXT: ฉลองวันหยุดกับ Pokémon GO: สวนที่ 2
+
+RESOURCE ID: winter_holiday_friendship_timed_research
+TEXT: ฉลองวันหยุดกับ Pokémon GO: คำทาดานมิตรภาพ
 
 RESOURCE ID: winter_solstice_event_name
 TEXT: เหมายัน
@@ -66221,6 +67216,9 @@ TEXT: วันทองเที่ยวโลก : แลกเปลี�
 
 RESOURCE ID: wte_2019_trade_distance_hard_z
 TEXT: วันทองเที่ยวโลก : แลกเปลี่ยนโปเกมอนที่จับจากที่หางกัน 10,000 กม.
+
+RESOURCE ID: ww_2021_collection_challenge
+TEXT: คำทาวินเทอรวันเดอรแลนด
 
 RESOURCE ID: xp_bonus_hourly
 TEXT: 20000 XP

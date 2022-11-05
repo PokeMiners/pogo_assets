@@ -232,6 +232,9 @@ TEXT: 同意します
 RESOURCE ID: accept_friend_request_prompt
 TEXT: フレンド申請が届いています
 
+RESOURCE ID: ace_box_title
+TEXT: エリートボックス
+
 RESOURCE ID: active_status_tutorial_message
 TEXT: プレイ中のフレンドを表示（フレンドリストからオフにできます）させて、対戦招待を送りましょう！
 
@@ -776,10 +779,10 @@ RESOURCE ID: appraisal_filter_group_key
 TEXT: 評価
 
 RESOURCE ID: appraise_intro_1|1
-TEXT: {0}、きみの {1}を分析してあげよう。
+TEXT: {0}、きみの{1}を分析してあげよう。
 
 RESOURCE ID: appraise_intro_2|1
-TEXT: やぁ {0}！きみの {1}を調べてあげましょうか？
+TEXT: やぁ{0}！きみの{1}を調べてあげましょうか？
 
 RESOURCE ID: appraise_intro_3|1
 TEXT: ヘイ！{0}！{1}を見てやろうか？
@@ -830,58 +833,67 @@ RESOURCE ID: appraise_overall_mid_3|1
 TEXT: きみの {0} は、全体的に普通だと思うぜ。
 
 RESOURCE ID: appraise_size_huge_1|1
-TEXT: Your {0} would be categorized as unusually large.
+TEXT: {0}の大きさは... 分類できないほどだ。興味深い。
 
 RESOURCE ID: appraise_size_huge_2|1
-TEXT: Hey, that’s an enormous {0}! 
+TEXT: きみの{0}は巨大ね！今までで一番大きいわ。
 
 RESOURCE ID: appraise_size_huge_3|1
-TEXT: Your {0} is just HUGE!
+TEXT: きみの{0}は... とてつもなく大きいぞ！
 
 RESOURCE ID: appraise_size_large_1|1
-TEXT: Your {0} is above average in size.
+TEXT: きみの{0}は平均より大きい。
+
+RESOURCE ID: appraise_size_large_1|1b
+TEXT: きみの{0}は平均より大きい。
 
 RESOURCE ID: appraise_size_large_2|1
 TEXT: きみの{0}は、わりと大きいほうよね、確かに。
 
 RESOURCE ID: appraise_size_large_3|1
-TEXT: Your {0} is a BIG one!
+TEXT: きみの{0}はビッグなポケモンだ！
+
+RESOURCE ID: appraise_size_large_3|1b
+TEXT: きみの{0}はビッグなポケモンだ！
 
 RESOURCE ID: appraise_size_small_1|1
-TEXT: Your {0} is below average in size.
+TEXT: きみの{0}は平均より小さい。
+
+RESOURCE ID: appraise_size_small_1|1b
+TEXT: きみの{0}は平均より小さい。
 
 RESOURCE ID: appraise_size_small_2|1
 TEXT: 小さい{0}だね！可愛いと思うわ。
 
 RESOURCE ID: appraise_size_small_3|1
-TEXT: Your {0} is a little small for its kind, don’t you think?
+TEXT: きみの{0}は、小さめだね。普通はもう少し大きいぜ。
 
 RESOURCE ID: appraise_size_tiny_1|1
-TEXT: Your {0} would be categorized as unusually small.
+TEXT: きみの{0}は記録に残っているかぎり、最小のようだ。驚異的。
 
 RESOURCE ID: appraise_size_tiny_2|1
-TEXT: That's a lil’ {0} you’ve got there!
+TEXT: きみの{0}は、とっても小さいね！よく見つけられたわね。
 
 RESOURCE ID: appraise_size_tiny_3|1
-TEXT: Your {0} is pretty petite, huh? 
+TEXT: なんと！今まで見たなかでいちばん小さい{0}だぜ！
 
 RESOURCE ID: appraise_size_xxl_1|1
-TEXT: The size of your {0} is...colossal. This is indeed exceptional. Fascinating!
+TEXT: {0}の大きさは...分類できないほどだ。興味深い。
 
 RESOURCE ID: appraise_size_xxl_2|1
-TEXT: Your {0} is gigantic—the largest I’ve ever seen!
+TEXT: きみの{0}は巨大ね！今までで一番大きいわ。
 
 RESOURCE ID: appraise_size_xxl_3|1
-TEXT: Your {0} is massive! Could it be the biggest {0} in the world?
+TEXT: きみの{0}はでかいな！…世界最大の{0}なんじゃ？
 
 RESOURCE ID: appraise_size_xxs_1|1
-TEXT: Your {0} is tinier than any we have on record. Astounding.
+TEXT: きみの{0}は記録に残っているかぎり、最小のようだ。驚異的。
 
 RESOURCE ID: appraise_size_xxs_2|1
-TEXT: Your {0} is so tiny, I almost didn’t notice it!
+TEXT: きみの{0}は、とっても小さいね！よく見つけられたわね。
 
 RESOURCE ID: appraise_size_xxs_3|1
-TEXT: Wh-whoa. That's the tiniest {0} I’ve ever seen!
+TEXT: なんと！今まで見たなかでいちばん小さい{0}だぜ！
 
 RESOURCE ID: appraise_stat_best_1|1
 TEXT: この点において測定できないほど高い。最高だ！
@@ -1441,6 +1453,9 @@ TEXT: ホウオウ　翼
 RESOURCE ID: avatar_f_backpack_longchampbp_00_bundle_icon
 TEXT: ロンシャン バックパック
 
+RESOURCE ID: avatar_f_backpack_lunala
+TEXT: ルナアーラ　翼
+
 RESOURCE ID: avatar_f_backpack_mimikyubp_0_bundle_icon
 TEXT: ミミッキュバッグ
 
@@ -1549,6 +1564,10 @@ TEXT: マスク ピカチュウ
 RESOURCE ID: avatar_f_face_sableyemask_00_bundle_icon
 TEXT: マスク ヤミラミ
 
+RESOURCE ID: avatar_f_face_solgaleo
+TEXT: ソルガレオ
+ヘッドウェア
+
 RESOURCE ID: avatar_f_face_teamskull_00_bundle_icon
 TEXT: スカル団　マスク
 
@@ -1560,6 +1579,9 @@ TEXT: 3Dメガネ
 
 RESOURCE ID: avatar_f_glasses_empty_bundle_icon
 TEXT: メガネなし
+
+RESOURCE ID: avatar_f_glasses_fw2022_00_bundle_icon
+TEXT: ヒドイデ　サングラス
 
 RESOURCE ID: avatar_f_glasses_goteamrocketarlo_00_bundle_icon
 TEXT: アルロ メガネ
@@ -1763,6 +1785,10 @@ TEXT: リーフハット
 RESOURCE ID: avatar_f_hat_furfrouwig_00_bundle_icon
 TEXT: トリミアン ウィッグ
 
+RESOURCE ID: avatar_f_hat_fw2022_00_bundle_icon
+TEXT: ヒドイデ
+サンバイザー
+
 RESOURCE ID: avatar_f_hat_galarfarfetchditems_00_bundle_icon
 TEXT: ガラルカモネギ キャップセット
 
@@ -1832,6 +1858,9 @@ TEXT: レベル45 帽子
 
 RESOURCE ID: avatar_f_hat_magikarp_bundle_icon
 TEXT: コイキング帽子
+
+RESOURCE ID: avatar_f_hat_mareaniehat_00_bundle_icon
+TEXT: ヒドイデ　帽子
 
 RESOURCE ID: avatar_f_hat_megalopunnyitems_00_bundle_icon
 TEXT: カチューシャ　メガミミロップ
@@ -2044,11 +2073,17 @@ TEXT: ジャンプスーツ
 RESOURCE ID: avatar_f_pants_dp_00_bundle_icon
 TEXT: シンオウ主人公風 スカート
 
+RESOURCE ID: avatar_f_pants_fashionweek2022_00_bundle_icon
+TEXT: ファッションパンツ
+
 RESOURCE ID: avatar_f_pants_flabebepack_00_bundle_icon
 TEXT: フラベベ　パンツ
 
 RESOURCE ID: avatar_f_pants_frlg_bundle_icon
 TEXT: リーフスカート
+
+RESOURCE ID: avatar_f_pants_fw2022_00_bundle_icon
+TEXT: ヒドイデ　パンツ
 
 RESOURCE ID: avatar_f_pants_genderlessskirt_00_bundle_icon
 TEXT: ラップスカート セット
@@ -2260,6 +2295,9 @@ TEXT: なみのりブルーTシャツ
 RESOURCE ID: avatar_f_shirt_elesa_00_bundle_icon
 TEXT: カミツレ ワンピース
 
+RESOURCE ID: avatar_f_shirt_fashionweek2022_00_bundle_icon
+TEXT: 白黒ファッションシャツ
+
 RESOURCE ID: avatar_f_shirt_flabebepack_00_bundle_icon
 TEXT: フラベベ　シャツ
 
@@ -2268,6 +2306,9 @@ TEXT: デザインTシャツA HF
 
 RESOURCE ID: avatar_f_shirt_frlg_bundle_icon
 TEXT: リーフトップス
+
+RESOURCE ID: avatar_f_shirt_fw2022_00_bundle_icon
+TEXT: ヒドイデ　トップス
 
 RESOURCE ID: avatar_f_shirt_galarfarfetchditems_00_bundle_icon
 TEXT: ガラルカモネギ のTシャツとバッグ
@@ -2740,8 +2781,14 @@ TEXT: カミツレ シューズ
 RESOURCE ID: avatar_f_shoes_empty_bundle_icon
 TEXT: 裸足
 
+RESOURCE ID: avatar_f_shoes_fashionweek2022_00_bundle_icon
+TEXT: ファッションスニーカー
+
 RESOURCE ID: avatar_f_shoes_frlg_bundle_icon
 TEXT: リーフシューズ​
+
+RESOURCE ID: avatar_f_shoes_fw2022_00_bundle_icon
+TEXT: ヒドイデ　シューズ
 
 RESOURCE ID: avatar_f_shoes_giovanni_0_bundle_icon
 TEXT: サカキ シューズ
@@ -2899,6 +2946,9 @@ TEXT: レギンス
 RESOURCE ID: avatar_f_socks_empty_bundle_icon
 TEXT: 素足
 
+RESOURCE ID: avatar_f_socks_fw2022_00_bundle_icon
+TEXT: ヒドイデ　ソックス
+
 RESOURCE ID: avatar_f_socks_hgss_bundle_icon
 TEXT: ジョウトソックス
 
@@ -3010,6 +3060,9 @@ TEXT: ホウオウ　翼
 RESOURCE ID: avatar_m_backpack_longchampbp_00_bundle_icon
 TEXT: ロンシャン バックパック
 
+RESOURCE ID: avatar_m_backpack_lunala
+TEXT: ルナアーラ　翼
+
 RESOURCE ID: avatar_m_backpack_mimikyubp_0_bundle_icon
 TEXT: ミミッキュバッグ
 
@@ -3100,6 +3153,10 @@ TEXT: マスク ピカチュウ
 RESOURCE ID: avatar_m_face_sableyemask_00_bundle_icon
 TEXT: マスク ヤミラミ
 
+RESOURCE ID: avatar_m_face_solgaleo
+TEXT: ソルガレオ
+ヘッドウェア
+
 RESOURCE ID: avatar_m_face_teamskull_00_bundle_icon
 TEXT: スカル団　マスク
 
@@ -3111,6 +3168,9 @@ TEXT: 3Dメガネ
 
 RESOURCE ID: avatar_m_glasses_empty_bundle_icon
 TEXT: メガネなし
+
+RESOURCE ID: avatar_m_glasses_fw2022_00_bundle_icon
+TEXT: ヒドイデ　サングラス
 
 RESOURCE ID: avatar_m_glasses_goteamrocketarlo_00_bundle_icon
 TEXT: アルロ メガネ
@@ -3317,6 +3377,10 @@ TEXT: ファイアキャップ
 RESOURCE ID: avatar_m_hat_furfrouwig_00_bundle_icon
 TEXT: トリミアン ウィッグ
 
+RESOURCE ID: avatar_m_hat_fw2022_00_bundle_icon
+TEXT: ヒドイデ
+サンバイザー
+
 RESOURCE ID: avatar_m_hat_galarfarfetchditems_00_bundle_icon
 TEXT: ガラルカモネギ キャップセット
 
@@ -3385,6 +3449,9 @@ TEXT: レベル45 帽子
 
 RESOURCE ID: avatar_m_hat_magikarp_bundle_icon
 TEXT: コイキング帽子
+
+RESOURCE ID: avatar_m_hat_mareaniehat_00_bundle_icon
+TEXT: ヒドイデ　帽子
 
 RESOURCE ID: avatar_m_hat_megalopunnyitems_00_bundle_icon
 TEXT: カチューシャ　メガミミロップ
@@ -3585,6 +3652,9 @@ TEXT: シンオウ主人公風 パンツ
 RESOURCE ID: avatar_m_pants_elesa_00_bundle_icon
 TEXT: カミツレ ボトムス
 
+RESOURCE ID: avatar_m_pants_fashionweek2022_00_bundle_icon
+TEXT: ファッションパンツ
+
 RESOURCE ID: avatar_m_pants_fisher_bundle_icon
 TEXT: つりびとパンツ
 
@@ -3593,6 +3663,9 @@ TEXT: フラベベ　パンツ
 
 RESOURCE ID: avatar_m_pants_frlg_bundle_icon
 TEXT: ファイアパンツ
+
+RESOURCE ID: avatar_m_pants_fw2022_00_bundle_icon
+TEXT: ヒドイデ　パンツ
 
 RESOURCE ID: avatar_m_pants_genderlessskirt_00_bundle_icon
 TEXT: ラップスカート セット
@@ -3807,6 +3880,9 @@ TEXT: なみのりブルーTシャツ
 RESOURCE ID: avatar_m_shirt_elesa_00_bundle_icon
 TEXT: カミツレ トップス
 
+RESOURCE ID: avatar_m_shirt_fashionweek2022_00_bundle_icon
+TEXT: 白黒ファッションシャツ
+
 RESOURCE ID: avatar_m_shirt_fisher_bundle_icon
 TEXT: つりびとベスト
 
@@ -3818,6 +3894,9 @@ TEXT: デザインTシャツA HF
 
 RESOURCE ID: avatar_m_shirt_frlg_bundle_icon
 TEXT: ファイアトップス
+
+RESOURCE ID: avatar_m_shirt_fw2022_00_bundle_icon
+TEXT: ヒドイデ　トップス
 
 RESOURCE ID: avatar_m_shirt_galarfarfetchditems_00_bundle_icon
 TEXT: ガラルカモネギ のTシャツとバッグ
@@ -4290,11 +4369,17 @@ TEXT: カミツレ シューズ
 RESOURCE ID: avatar_m_shoes_empty_bundle_icon
 TEXT: 裸足
 
+RESOURCE ID: avatar_m_shoes_fashionweek2022_00_bundle_icon
+TEXT: ファッションスニーカー
+
 RESOURCE ID: avatar_m_shoes_fisher_bundle_icon
 TEXT: つりびとブーツ
 
 RESOURCE ID: avatar_m_shoes_frlg_bundle_icon
 TEXT: ファイアシューズ
+
+RESOURCE ID: avatar_m_shoes_fw2022_00_bundle_icon
+TEXT: ヒドイデ　シューズ
 
 RESOURCE ID: avatar_m_shoes_giovanni_0_bundle_icon
 TEXT: サカキ シューズ
@@ -4451,6 +4536,9 @@ TEXT: レギンス
 
 RESOURCE ID: avatar_m_socks_empty_bundle_icon
 TEXT: 素足
+
+RESOURCE ID: avatar_m_socks_fw2022_00_bundle_icon
+TEXT: ヒドイデ　ソックス
 
 RESOURCE ID: avatar_m_socks_sneakersocks_00_bundle_icon
 TEXT: くるぶしソックス
@@ -4638,6 +4726,132 @@ TEXT: 最高の相棒ができた！
 
 RESOURCE ID: badge_buddy_best_title
 TEXT: ベストバディ
+
+RESOURCE ID: badge_butterfly_collector_archipelago_singular
+TEXT: ぐんとうのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_archipelago_title
+TEXT: ぐんとうコレクター
+
+RESOURCE ID: badge_butterfly_collector_continental_singular
+TEXT: たいりくのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_continental_title
+TEXT: たいりくコレクター
+
+RESOURCE ID: badge_butterfly_collector_elegant_singular
+TEXT: みやびなもようメダル
+
+RESOURCE ID: badge_butterfly_collector_elegant_title
+TEXT: みやびコレクター
+
+RESOURCE ID: badge_butterfly_collector_fancy_singular
+TEXT: ファンシーなもようメダル
+
+RESOURCE ID: badge_butterfly_collector_fancy_title
+TEXT: ファンシーコレクター
+
+RESOURCE ID: badge_butterfly_collector_garden_singular
+TEXT: ていえんのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_garden_title
+TEXT: ていえんコレクター
+
+RESOURCE ID: badge_butterfly_collector_high_plains_singular
+TEXT: こうやのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_high_plains_title
+TEXT: こうやコレクター
+
+RESOURCE ID: badge_butterfly_collector_icy_snow_singular
+TEXT: ひょうせつのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_icy_snow_title
+TEXT: ひょうせつコレクター
+
+RESOURCE ID: badge_butterfly_collector_jungle_singular
+TEXT: ジャングルのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_jungle_title
+TEXT: ジャングルコレクター
+
+RESOURCE ID: badge_butterfly_collector_marine_singular
+TEXT: マリンのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_marine_title
+TEXT: マリンコレクター
+
+RESOURCE ID: badge_butterfly_collector_meadow_singular
+TEXT: はなぞののもようメダル
+
+RESOURCE ID: badge_butterfly_collector_meadow_title
+TEXT: はなぞのコレクター
+
+RESOURCE ID: badge_butterfly_collector_modern_singular
+TEXT: モダンなもようメダル
+
+RESOURCE ID: badge_butterfly_collector_modern_title
+TEXT: モダンコレクター
+
+RESOURCE ID: badge_butterfly_collector_monsoon_singular
+TEXT: スコールのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_monsoon_title
+TEXT: スコールコレクター
+
+RESOURCE ID: badge_butterfly_collector_ocean_singular
+TEXT: オーシャンのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_ocean_title
+TEXT: オーシャンコレクター
+
+RESOURCE ID: badge_butterfly_collector_pokeball_singular
+TEXT: ボールのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_pokeball_title
+TEXT: ボールコレクター
+
+RESOURCE ID: badge_butterfly_collector_polar_singular
+TEXT: ゆきぐにのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_polar_title
+TEXT: ゆきぐにコレクター
+
+RESOURCE ID: badge_butterfly_collector_river_singular
+TEXT: たいがのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_river_title
+TEXT: たいがコレクター
+
+RESOURCE ID: badge_butterfly_collector_sandstorm_singular
+TEXT: さじんのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_sandstorm_title
+TEXT: さじんコレクター
+
+RESOURCE ID: badge_butterfly_collector_savannah_singular
+TEXT: サバンナのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_savannah_title
+TEXT: サバンナコレクター
+
+RESOURCE ID: badge_butterfly_collector_singular
+TEXT: ビビヨン集めが進んだ！
+
+RESOURCE ID: badge_butterfly_collector_sun_singular
+TEXT: たいようのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_sun_title
+TEXT: たいようコレクター
+
+RESOURCE ID: badge_butterfly_collector_title
+TEXT: ビビヨンコレクター
+
+RESOURCE ID: badge_butterfly_collector_tundra__singular
+TEXT: せつげんのもようメダル
+
+RESOURCE ID: badge_butterfly_collector_tundra_title
+TEXT: せつげんコレクター
 
 RESOURCE ID: badge_capture_bonus_reward
 TEXT: {1}タイプの捕まえやすさ＋{0}
@@ -6717,12 +6931,12 @@ TEXT: <size=36>博士に {0} 匹送りますか？</size>
 開始後キャンセルはできません。
 
 RESOURCE ID: batch_transfer_eligible_confirm_plural
-TEXT: <size=36><b>選択されたポケモンのうち{0}匹のみ研究所に送ることができます。</b></size>
+TEXT: <size=36><b>選択されたポケモンのうち{0}匹のみ博士に送ることができます。</b></size>
 
 送ることができないポケモンはボックスに残ります。送ったポケモンを戻すことはできません。
 
 RESOURCE ID: batch_transfer_eligible_confirm_singular
-TEXT: <size=36><b>選択されたポケモンのうち1匹のみ研究所に送ることができます。</b></size>
+TEXT: <size=36><b>選択されたポケモンのうち1匹のみ博士に送ることができます。</b></size>
 
 送ることができないポケモンはボックスに残ります。送ったポケモンを戻すことはできません。
 
@@ -6757,10 +6971,10 @@ RESOURCE ID: batch_transfer_unique_warning_title
 TEXT: 選択したポケモン：
 
 RESOURCE ID: batch_transfer_unique_xxl_pokemon
-TEXT: {0} XXL Pokémon
+TEXT: XXLポケモン{0}匹
 
 RESOURCE ID: batch_transfer_unique_xxs_pokemon
-TEXT: {0} XXS Pokémon
+TEXT: XXSポケモン{0}匹
 
 RESOURCE ID: battle_box
 TEXT: バトルボックス
@@ -9401,7 +9615,7 @@ RESOURCE ID: blanche_incident_defeat__male_speaker
 TEXT: ふーむ。
 
 RESOURCE ID: blanche_incident_greeting
-TEXT: Thinking things through calmly and collectedly--that's the Team Mystic way.
+TEXT: 常に冷静。的確な分析。チームミスティックとは、そういう集団だ。
 
 RESOURCE ID: blanche_incident_victory__female_speaker
 TEXT: ふーむ。
@@ -9435,6 +9649,9 @@ TEXT: 探知できず．．．今日の活動はここまで、ということ�
 
 RESOURCE ID: blanche_map_time_warning|2
 TEXT: 朝まで待とう。しばらくは顔を見せないに違いない。
+
+RESOURCE ID: bluetooth_permissions_denied
+TEXT: この機能を使うにはBluetoothで近くのデバイスを見つける許可をオンにする必要があります
 
 RESOURCE ID: bonus_1/4_hatch_dist_deino
 TEXT: 1/4 タマゴふか距離
@@ -9475,6 +9692,9 @@ TEXT: 4× ポケモン獲得XP
 RESOURCE ID: bonus_active
 TEXT: アクティブボーナスあり！
 
+RESOURCE ID: bonus_buddy_catch_assist_boosted
+TEXT: グレートな相棒以上のポケモンによるボールアシスト確率アップ
+
 RESOURCE ID: bonus_candy_nice_great_excel
 TEXT: ナイススロー以上でポケモンを捕まえたときのアメ増
 
@@ -9489,6 +9709,9 @@ TEXT: アローラのすがたのゴローンをゴローニャに進化させ�
 
 RESOURCE ID: bonus_cd_move_deino
 TEXT: ジヘッドをサザンドラに進化させるとぶんまわすを覚えている
+
+RESOURCE ID: bonus_cd_move_litwick
+TEXT: ランプラーをシャンデラに進化させるとポルターガイストを覚えている
 
 RESOURCE ID: bonus_cd_move_roggenrola
 TEXT: ガントルをギガイアスに進化させるとメテオビームを覚えている
@@ -9524,6 +9747,9 @@ TEXT: トレーナーが協力してレイドでジヘッドを倒すと、そ�
 RESOURCE ID: bonus_implicit_social_deino_raid_title
 TEXT: コミュニティデイチャレンジ：
 レイド
+
+RESOURCE ID: bonus_implicit_social_litwick_raid
+TEXT: トレーナーが協力してレイドでランプラーを倒すと、そのジムの周りに30分間ヒトモシが現れる
 
 RESOURCE ID: bonus_implicit_social_lure_4x_catch_xp
 TEXT: ひとつのルアーで捕まえられたポケモンが一定数を超えると、その周りで30分間4× ポケモン獲得XP
@@ -9632,6 +9858,9 @@ TEXT: 1/4 タマゴふか距離
 RESOURCE ID: bonus_spawn_pikachu
 TEXT: ピカチュウがより多く野生で出現
 
+RESOURCE ID: bonus_special_trade_double_cd
+TEXT: イベント中と終了後5時間内に特別な交換1回追加
+
 RESOURCE ID: bonus_special_trade_starly_cd
 TEXT: イベント中と終了後5時間内に特別な交換1回追加（当日上限3回）
 
@@ -9664,6 +9893,9 @@ TEXT: ポポッコを捕まえてもらえるアメXL増
 
 RESOURCE ID: bonus_xl_rare_candy_irl_raids
 TEXT: 現地で行うレイドバトルでもらえるふしぎなアメXL確率アップ
+
+RESOURCE ID: boost_box_title
+TEXT: ブーストボックス
 
 RESOURCE ID: boosted_mega_pokemon_abomasnow
 TEXT: メガユキノオーがパワーアップ
@@ -10844,6 +11076,12 @@ TEXT: 朝になったらもう一度探してみて。わたしは、ブラン�
 RESOURCE ID: candy_exchange_button
 TEXT: 変換
 
+RESOURCE ID: candy_to_xl_trade
+TEXT: {0}のアメを{0}のアメXLに変えますか？
+
+RESOURCE ID: candy_to_xl_trade_plural
+TEXT: {0}のアメを{0}のアメXLに変えますか？
+
 RESOURCE ID: candy_trade_xl
 TEXT: アメ → アメXL
 
@@ -11335,6 +11573,12 @@ TEXT: はがねタイプのポケモンのGOスナップショット写真を撮
 
 RESOURCE ID: challenge_snapshot_pkmn_water_single
 TEXT: みずタイプのポケモンのGOスナップショット写真を撮る
+
+RESOURCE ID: challenge_snapshot_wild_blitzle_singularchallenge_snapshot_wild_blitzle_singular
+TEXT: 野生のシママのGOスナップショット写真を撮る
+
+RESOURCE ID: challenge_snapshot_wild_glameow_singular
+TEXT: 野生のニャルマーのGOスナップショット写真を撮る
 
 RESOURCE ID: change_banned_name_dialog
 TEXT: ニックネームに問題があるようだ。新しいニックネームを教えてくれるかな？
@@ -12963,6 +13207,12 @@ TEXT: コミュニティ・デイ：フカマル
 RESOURCE ID: community_day_hoppip_event_name
 TEXT: コミュニティ・デイ：ハネッコ
 
+RESOURCE ID: community_day_litwick_event_name
+TEXT: コミュニティ・デイ：ヒトモシ
+
+RESOURCE ID: community_day_litwick_limited_research
+TEXT: ヒトモシ限定リサーチ
+
 RESOURCE ID: community_day_machop_event_name
 TEXT: コミュニティ・デイ：ワンリキー
 
@@ -12973,7 +13223,7 @@ RESOURCE ID: community_day_magmar_event_name
 TEXT: コミュニティ・デイ：ブーバー
 
 RESOURCE ID: community_day_map_description
-TEXT: 「コミュニティ・デイ」マップを見ると公園など、トレーナーが集まりやすい場所がわかります。
+TEXT: 「コミュニティ・デイ」マップを見ると交換、バトル、レイドを一緒にできるトレーナーが見つかりやすくなります。
 
 RESOURCE ID: community_day_map_name
 TEXT: 仲間とつながろう
@@ -13328,13 +13578,13 @@ RESOURCE ID: delete_account_input_email_title_kids
 TEXT: メールアドレス確認
 
 RESOURCE ID: delete_battle_party_prompt
-TEXT: {0} を削除してもいいですか？
+TEXT: {0}を削除してもいいですか？
 
 RESOURCE ID: delete_gift_confirmation
 TEXT: 本当にこのギフトを捨てますか？
 
 RESOURCE ID: delete_pokemon_tag_confirmation
-TEXT: このタグをポケモンから外します。ポケモンは研究所に送られません。
+TEXT: このタグをポケモンから外しますが、博士に送りません。
 
 RESOURCE ID: delete_pokemon_tag_confirmation_title
 TEXT: 「{0}」タグを削除してもいいですか？
@@ -14994,6 +15244,9 @@ TEXT: 一部のリーグ参戦CPを超える可能性があります
 RESOURCE ID: evolved_too_strong_some
 TEXT: 一部のリーグ参戦CPを超えます
 
+RESOURCE ID: evolving_stars_event_name
+TEXT: 進化フォーカス
+
 RESOURCE ID: ex_raid_pass_invite_empty_prompt
 TEXT: まだ{0}のフレンドがいません
 
@@ -15015,8 +15268,14 @@ TEXT: サインイン
 RESOURCE ID: existing_player_label
 TEXT: 再ログインしますか？
 
+RESOURCE ID: expert_box_title
+TEXT: たつじんボックス
+
 RESOURCE ID: explore_responsibly
 TEXT: Explore Responsibly
+
+RESOURCE ID: explorer_box_title
+TEXT: 散歩ボックス
 
 RESOURCE ID: explorer_pikachu_available
 TEXT: 探検すがたの「ピカチュウ」が野生で出現
@@ -15148,6 +15407,9 @@ TEXT: 虫取り　ポーズ
 
 RESOURCE ID: f_avatar_poses_bundle_pose_41
 TEXT: グズマ　ポーズ
+
+RESOURCE ID: f_avatar_poses_bundle_pose_44
+TEXT: スパークル　ポーズ
 
 RESOURCE ID: f_avatar_poses_empty_bundle_pose_empty
 TEXT: 待機
@@ -16727,19 +16989,24 @@ RESOURCE ID: gbl_sets_extra_twenty_total
 TEXT: GOバトルリーグ対戦20回
 
 RESOURCE ID: gbl_ticket_research_header_0
-TEXT: GOバトルリーグタイムチャレンジ(1/5)
+TEXT: GOバトルリーグ
+タイムチャレンジ(1/5)
 
 RESOURCE ID: gbl_ticket_research_header_1
-TEXT: GOバトルリーグタイムチャレンジ(2/5)
+TEXT: GOバトルリーグ
+タイムチャレンジ(2/5)
 
 RESOURCE ID: gbl_ticket_research_header_2
-TEXT: GOバトルリーグタイムチャレンジ(3/5)
+TEXT: GOバトルリーグ
+タイムチャレンジ(3/5)
 
 RESOURCE ID: gbl_ticket_research_header_3
-TEXT: GOバトルリーグタイムチャレンジ(4/5)
+TEXT: GOバトルリーグ
+タイムチャレンジ(4/5)
 
 RESOURCE ID: gbl_ticket_research_header_4
-TEXT: GOバトルリーグタイムチャレンジ(5/5)
+TEXT: GOバトルリーグ
+タイムチャレンジ(5/5)
 
 RESOURCE ID: gbl_ticket_research_title
 TEXT: GOバトルリーグタイムチャレンジ
@@ -16859,6 +17126,14 @@ TEXT: 世界中のどこにいても、現地時間2022年2月12日11:00AM～5:0
 
 RESOURCE ID: general1.ticket.2_hoppt_title
 TEXT: わたくさポケモンを解明せよ！
+
+RESOURCE ID: general1.ticket.2_litwick_description
+TEXT: 世界中のどこにいても、現地時間2022年10月15日の2:00PM～5:00PMに、ゲーム内でスタートできるイベント「ポケモン研究：ヒトモシ」を遊ぶことができるチケット。詳細はゲーム内ニュースで確認できます。
+
+イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
+
+RESOURCE ID: general1.ticket.2_litwick_title
+TEXT: ポケモン研究：ヒトモシ
 
 RESOURCE ID: general1.ticket.2_machop_description
 TEXT: 世界中のどこにいても、現地時間2021年1月16日11:00AM～5:00PMに「かいりきポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
@@ -17074,16 +17349,16 @@ RESOURCE ID: general_m
 TEXT: m
 
 RESOURCE ID: general_maximum_height
-TEXT: Tallest
+TEXT: 最長
 
 RESOURCE ID: general_maximum_weight
-TEXT: Heaviest
+TEXT: 最重量
 
 RESOURCE ID: general_minimum_height
-TEXT: Shortest
+TEXT: 最小
 
 RESOURCE ID: general_minimum_weight
-TEXT: Lightest
+TEXT: 最軽量
 
 RESOURCE ID: general_month
 TEXT: 月
@@ -19076,6 +19351,9 @@ TEXT: GO Fest Global: レイドバトルで1回勝つ
 RESOURCE ID: gofestd_2019_medium_win_gym_battle
 TEXT: GO Fest Global: ジムで{0}回バトルに勝つ
 
+RESOURCE ID: gold_box_title
+TEXT: ゴールドボックス
+
 RESOURCE ID: google_auth_failed
 TEXT: 認証できませんでした。もう一度やり直してください。
 
@@ -19138,8 +19416,101 @@ RESOURCE ID: gotour2021_welcome_red
 TEXT: Pokémon GO Tour：
 カントー地方へようこそ！
 
+RESOURCE ID: gotour2022
+TEXT: Pokémon GO Tour：ジョウト地方
+
+RESOURCE ID: gotour2022_battle
+TEXT: GO Tour：ジョウト
+バトルチャレンジ
+
+RESOURCE ID: gotour2022_battle_0
+TEXT: GO Tour：ジョウト
+バトルチャレンジ (1/11)
+
+RESOURCE ID: gotour2022_battle_1
+TEXT: GO Tour：ジョウト
+バトルチャレンジ (2/11)
+
+RESOURCE ID: gotour2022_battle_10
+TEXT: GO Tour：ジョウト
+バトルチャレンジ (11/11)
+
+RESOURCE ID: gotour2022_battle_2
+TEXT: GO Tour：ジョウト
+バトルチャレンジ (3/11)
+
+RESOURCE ID: gotour2022_battle_3
+TEXT: GO Tour：ジョウト
+バトルチャレンジ (4/11)
+
+RESOURCE ID: gotour2022_battle_4
+TEXT: GO Tour：ジョウト
+バトルチャレンジ (5/11)
+
+RESOURCE ID: gotour2022_battle_5
+TEXT: GO Tour：ジョウト
+バトルチャレンジ (6/11)
+
+RESOURCE ID: gotour2022_battle_6
+TEXT: GO Tour：ジョウト
+バトルチャレンジ (7/11)
+
+RESOURCE ID: gotour2022_battle_7
+TEXT: GO Tour：ジョウト
+バトルチャレンジ (8/11)
+
+RESOURCE ID: gotour2022_battle_8
+TEXT: GO Tour：ジョウト
+バトルチャレンジ (9/11)
+
+RESOURCE ID: gotour2022_battle_9
+TEXT: GO Tour：ジョウト
+バトルチャレンジ (10/11)
+
 RESOURCE ID: gotour2022_battle_champion
 TEXT: ジョウトバトルチャレンジチャンピオン
+
+RESOURCE ID: gotour2022_battle_choice_keep_battling
+TEXT: バトルを続ける
+
+RESOURCE ID: gotour2022_battle_choice_stop_battling
+TEXT: 捕まえることに集中
+
+RESOURCE ID: gotour2022_battle_description_keep_battling
+TEXT: GOバトルトレーナーがポケストップに繰り返し現れるので再戦でき、残りの時間はリワードを手に入れるためにずっと戦い続けることができます。
+
+RESOURCE ID: gotour2022_battle_description_stop_battling
+TEXT: ポケストップにGOジムトレーナーが現れないため、残りの時間はポケモンを捕まえることに集中できます。
+
+RESOURCE ID: gotour2022_battle_dialogue_0_0
+TEXT: 終わったな、%PLAYERNAME%。きみの強さは証明された。
+
+RESOURCE ID: gotour2022_battle_dialogue_0_1
+TEXT: きみはこれでジョウトバトルチャレンジチャンピオンだ！
+
+RESOURCE ID: gotour2022_battle_dialogue_0_2
+TEXT: きみのポケモンへの信頼と優しさが可能にした勝利だ。きみがポケモンを信じていたように、ポケモンもきみを信じていたんだ。
+
+RESOURCE ID: gotour2022_battle_dialogue_0_3
+TEXT: %PLAYERNAME%さん、おめでとうございます！
+
+RESOURCE ID: gotour2022_battle_dialogue_0_4
+TEXT: この偉業をどうやって祝いたいかな？
+
+RESOURCE ID: gotour2022_battle_dialogue_1_0
+TEXT: きみには感心するよ、%PLAYERNAME%！きみのポケモンも、まだまだ戦える、っていう顔をしている。すごいチームワークだ。さぁ、存分にやってこい！
+
+RESOURCE ID: gotour2022_battle_dialogue_2_0
+TEXT: 自分の限界を知ることも大切だぞ、%PLAYERNAME%。時には自分に優しく。
+
+RESOURCE ID: gotour2022_battle_dialogue_2_1
+TEXT: きみのポケモンも休みたがっているようだ。少し休憩して、またポケモンを捕まえたり、友達をつくったりすればいい。
+
+RESOURCE ID: gotour2022_battle_leader_guidance
+TEXT: ヒント：ほしのすなをためてジョウトバトルチャレンジリーダーと戦いましょう！
+
+RESOURCE ID: gotour2022_beast_guidance
+TEXT: ライコウ、エンテイ、スイクンは逃げるので、その前に写真を撮っておきましょう！
 
 RESOURCE ID: gotour2022_challenger_bug_azalea_loss
 TEXT: むしポケモンさん、負けちゃった。残念ですー。
@@ -19345,8 +19716,38 @@ TEXT: 金にしますか？
 RESOURCE ID: gotour2022_choose_version_title_silver
 TEXT: 銀にしますか？
 
+RESOURCE ID: gotour2022_defeat_leader
+TEXT: ジョウトバトルチャレンジリーダーに勝つ
+
+RESOURCE ID: gotour2022_evolve
+TEXT: Pokémon GO Tour：ジョウト - 進化
+
+RESOURCE ID: gotour2022_evolve_description
+TEXT: 進化させて手にいれよう
+
 RESOURCE ID: gotour2022_gold
 TEXT: GO Tour ジョウト：金
+
+RESOURCE ID: gotour2022_gold_catch
+TEXT: Pokémon GO Tour：ジョウト - 金（おこう）
+
+RESOURCE ID: gotour2022_gold_catch_description
+TEXT: 金バージョン限定ポケモンをおこうで引き寄せよう
+
+RESOURCE ID: gotour2022_gold_trade
+TEXT: Pokémon GO Tour：ジョウト - 金（交換）
+
+RESOURCE ID: gotour2022_gold_trade_description
+TEXT: フレンドと交換して銀バージョン限定ポケモンを手に入れよう
+
+RESOURCE ID: gotour2022_goldenrod_city
+TEXT: Pokémon GO Tour：ジョウト - コガネシティ
+
+RESOURCE ID: gotour2022_goldenrod_city_description
+TEXT: コガネシティアワーのポケモンをゲットしよう
+
+RESOURCE ID: gotour2022_goldenrod_city_hour
+TEXT: コガネシティアワー！
 
 RESOURCE ID: gotour2022_instinct_leader_loss
 TEXT: ああ．．．
@@ -19360,6 +19761,15 @@ TEXT: 直感を信じる、っていうのは結局一番確実なのさ。チ�
 RESOURCE ID: gotour2022_instinct_leader_victory
 TEXT: 勝った？うん！勝ったよおおーー！
 
+RESOURCE ID: gotour2022_mt_silver
+TEXT: Pokémon GO Tour：ジョウト - シロガネやま
+
+RESOURCE ID: gotour2022_mt_silver_description
+TEXT: シロガネやまアワーのポケモンをゲットしよう
+
+RESOURCE ID: gotour2022_mt_silver_hour
+TEXT: シロガネやまアワー！
+
 RESOURCE ID: gotour2022_mystic_leader_loss
 TEXT: ふーむ。
 
@@ -19372,11 +19782,56 @@ TEXT: 常に冷静。的確な分析。チームミスティックとは、そ�
 RESOURCE ID: gotour2022_mystic_leader_victory
 TEXT: ふーむ。
 
+RESOURCE ID: gotour2022_national_park
+TEXT: Pokémon GO Tour：ジョウト - しぜんこうえん
+
+RESOURCE ID: gotour2022_national_park_description
+TEXT: しぜんこうえんアワーのポケモンをゲットしよう
+
+RESOURCE ID: gotour2022_national_park_hour
+TEXT: しぜんこうえんアワー！
+
+RESOURCE ID: gotour2022_new_bark_town
+TEXT: Pokémon GO Tour：ジョウト - ワカバタウン
+
+RESOURCE ID: gotour2022_new_bark_town_description
+TEXT: ワカバタウンアワーのポケモンをゲットしよう
+
+RESOURCE ID: gotour2022_new_bark_town_hour
+TEXT: ワカバタウンアワー！
+
+RESOURCE ID: gotour2022_npc_guidance
+TEXT: ヒント：GOジムトレーナーはポケストップにいるので、さまざまなポケストップを訪れて、違うGOジムトレーナーとバトルしてみましょう！
+
+RESOURCE ID: gotour2022_raid
+TEXT: Pokémon GO Tour：ジョウト - レイド
+
+RESOURCE ID: gotour2022_raid_description
+TEXT: レイドに参加して捕まえよう
+
 RESOURCE ID: gotour2022_silver
 TEXT: GO Tour ジョウト：銀
 
-RESOURCE ID: gotour2022_tr_beasts_photo_safari
-TEXT: ライコウ・エンテイ・スイクンフォトサファリ
+RESOURCE ID: gotour2022_silver_catch
+TEXT: Pokémon GO Tour：ジョウト - 銀（おこう）
+
+RESOURCE ID: gotour2022_silver_catch_description
+TEXT: 銀バージョン限定ポケモンをおこうで引き寄せよう
+
+RESOURCE ID: gotour2022_silver_trade
+TEXT: Pokémon GO Tour：ジョウト - 銀（交換）
+
+RESOURCE ID: gotour2022_silver_trade_description
+TEXT: フレンドと交換して金バージョン限定ポケモンを手に入れよう
+
+RESOURCE ID: gotour2022_snapshot_guidance
+TEXT: ヒント：ライコウ、エンテイ、スイクンが逃げてしまう前にGOスナップショットを撮ることで、タイムチャレンジを完了して捕まえるチャンスを得られます。
+
+RESOURCE ID: gotour2022_special
+TEXT: Pokémon GO Tour：ジョウト - スペシャル
+
+RESOURCE ID: gotour2022_special_description
+TEXT: ジョウトスペシャルリサーチを完了してスナップショットを撮る
 
 RESOURCE ID: gotour2022_valor_leader_loss
 TEXT: いいんだ、別に。いいんだ．．．
@@ -19389,6 +19844,19 @@ TEXT: 何が起ころうと、熱く燃える炎が消えることはない！�
 
 RESOURCE ID: gotour2022_valor_leader_victory
 TEXT: またチームヴァーラーの勝ち。もう1回挑戦してみる？
+
+RESOURCE ID: gotour2022_violet_city
+TEXT: Pokémon GO Tour：ジョウト - キキョウシティ
+
+RESOURCE ID: gotour2022_violet_city_description
+TEXT: キキョウシティアワーのポケモンをゲットしよう
+
+RESOURCE ID: gotour2022_violet_city_hour
+TEXT: キキョウシティアワー！
+
+RESOURCE ID: gotour2022_welcome
+TEXT: Pokémon GO Tour：
+ジョウト地方へようこそ！
 
 RESOURCE ID: gotour_kanto
 TEXT: Pokémon GO Tour：カントー地方
@@ -19693,42 +20161,6 @@ TEXT: GO Tour カントー地方：バトル (4/4)
 RESOURCE ID: gotourprep_event_name
 TEXT: GOTour準備！ボールだらけイベント
 
-RESOURCE ID: gotoursik
-TEXT: カントー地方を調査せよ！
-
-RESOURCE ID: gotoursik_catch_beginning
-TEXT: これらのポケモンを旅の始まり地点で捕まえよう！
-
-RESOURCE ID: gotoursik_catch_beginning_description
-TEXT: GOTourライブカントー地方：旅の始まり
-
-RESOURCE ID: gotoursik_catch_blanche
-TEXT: これらのポケモンをチームミスティック地点で捕まえよう！
-
-RESOURCE ID: gotoursik_catch_blanche_description
-TEXT: GOTourライブカントー地方：チームミスティック
-
-RESOURCE ID: gotoursik_catch_candela
-TEXT: これらのポケモンをチームヴァーラー地点で捕まえよう！
-
-RESOURCE ID: gotoursik_catch_candela_description
-TEXT: GOTourライブカントー地方：チームヴァーラー
-
-RESOURCE ID: gotoursik_catch_spark
-TEXT: これらのポケモンをチームインスティンクト地点で捕まえよう！
-
-RESOURCE ID: gotoursik_catch_spark_description
-TEXT: GOTourライブカントー地方：チームインスティンクト
-
-RESOURCE ID: gotoursik_catch_willow
-TEXT: ウィロー博士地点でこれらのポケモンを捕まえよう！
-
-RESOURCE ID: gotoursik_catch_willow_description
-TEXT: GOTourライブカントー地方：ウィロー博士
-
-RESOURCE ID: gotoursik_elite4_guidance
-TEXT: ヒント：違う生息地点でポケストップにいる四天王をさがそう！
-
 RESOURCE ID: gotoursik_elitefour_a_loss
 TEXT: なんと恥ずかしい。信じたものが間違っていたのか．．．
 
@@ -19837,100 +20269,6 @@ TEXT: ここで他のトレーナーに会うとはね。なんて偶然！
 RESOURCE ID: gotoursik_elitefour_d_victory
 TEXT: あっという間だったわね。
 
-RESOURCE ID: gotoursik_elitefour_title
-TEXT: GOTour四天王
-
-RESOURCE ID: gotoursik_photo_habitat_beginning
-TEXT: 旅の始まり地点で写真を撮る
-
-RESOURCE ID: gotoursik_photo_habitat_instinct
-TEXT: チームインスティンクト地点で写真を撮る
-
-RESOURCE ID: gotoursik_photo_habitat_mystic
-TEXT: チームミスティック地点で写真を撮る
-
-RESOURCE ID: gotoursik_photo_habitat_valor
-TEXT: チームヴァーラー地点で写真を撮る
-
-RESOURCE ID: gotoursik_photo_habitat_willow
-TEXT: ウィロー博士地点で写真を撮る
-
-RESOURCE ID: gotoursik_sr_1
-TEXT: カントー地方を調査せよ！ (1/6)
-
-RESOURCE ID: gotoursik_sr_2
-TEXT: カントー地方を調査せよ！ (2/6)
-
-RESOURCE ID: gotoursik_sr_3
-TEXT: カントー地方を調査せよ！ (3/6)
-
-RESOURCE ID: gotoursik_sr_4
-TEXT: カントー地方を調査せよ！ (4/6)
-
-RESOURCE ID: gotoursik_sr_5
-TEXT: カントー地方を調査せよ！ (5/6)
-
-RESOURCE ID: gotoursik_sr_6
-TEXT: カントー地方を調査せよ！ (6/6)
-
-RESOURCE ID: gotoursik_today_view_habitat_beginning
-TEXT: 旅の始まり地点にいます！
-
-RESOURCE ID: gotoursik_today_view_habitat_blanche
-TEXT: チームミスティック地点にいます！
-
-RESOURCE ID: gotoursik_today_view_habitat_candela
-TEXT: チームヴァーラー地点にいます！
-
-RESOURCE ID: gotoursik_today_view_habitat_spark
-TEXT: チームインスティンクト地点にいます！
-
-RESOURCE ID: gotoursik_today_view_habitat_willow
-TEXT: ウィロー博士地点にいます！
-
-RESOURCE ID: gotoursik_tr_city
-TEXT: GO Tour：ライブ
-
-RESOURCE ID: gotoursik_tr_city_0
-TEXT: GO Tour：ライブ (1/7)
-
-RESOURCE ID: gotoursik_tr_city_1
-TEXT: GO Tour：ライブ (2/7)
-
-RESOURCE ID: gotoursik_tr_city_2
-TEXT: GO Tour：ライブ (3/7)
-
-RESOURCE ID: gotoursik_tr_city_3
-TEXT: GO Tour：ライブ (4/7)
-
-RESOURCE ID: gotoursik_tr_city_4
-TEXT: GO Tour：ライブ (5/7)
-
-RESOURCE ID: gotoursik_tr_city_5
-TEXT: GO Tour：ライブ (6/7)
-
-RESOURCE ID: gotoursik_tr_city_6
-TEXT: GO Tour：ライブ (7/7)
-
-RESOURCE ID: gotoursik_tr_elite4
-TEXT: GOTourライブ：四天王
-
-RESOURCE ID: gotoursik_tr_elite4_0
-TEXT: GOTourライブ：四天王 (1/4)
-
-RESOURCE ID: gotoursik_tr_elite4_1
-TEXT: GOTourライブ：四天王 (2/4)
-
-RESOURCE ID: gotoursik_tr_elite4_2
-TEXT: GOTourライブ：四天王 (3/4)
-
-RESOURCE ID: gotoursik_tr_elite4_3
-TEXT: GOTourライブ：四天王 (4/4)
-
-RESOURCE ID: gotoursik_welcome
-TEXT: Pokémon GO Tour ライブ
-カントー地方へ！にようこそ！
-
 RESOURCE ID: goyang_cup_title
 TEXT: コヤン速成カップ
 
@@ -19945,6 +20283,9 @@ TEXT: タイプ上昇：くさ
 
 RESOURCE ID: great_league_remix_title
 TEXT: SLリミックス
+
+RESOURCE ID: great_raid_box_title
+TEXT: スーパーレイドボックス
 
 RESOURCE ID: ground_type_event
 TEXT: タイプ上昇：じめん
@@ -20568,7 +20909,7 @@ RESOURCE ID: grunt_generic_greeting#18__male_speaker
 TEXT: おれ達は大事な仕事をしてるんだ！　家へ帰りな！
 
 RESOURCE ID: grunt_generic_greeting#19__female_speaker
-TEXT: GOロケット団を止めることはできない！
+TEXT: そこのキミ！　うろうろしてるんじゃないわよ！
 
 RESOURCE ID: grunt_generic_greeting#19__male_speaker
 TEXT: おい、そこのキミ！　うろうろするんじゃない！
@@ -20598,7 +20939,7 @@ RESOURCE ID: grunt_generic_greeting#22__male_speaker
 TEXT: このあたりはGOロケット団が掌握した！
 
 RESOURCE ID: grunt_generic_greeting#23__female_speaker
-TEXT: GOロケット団を止めることはできない！
+TEXT: われわれはGOロケット団！　怖くて強いのよ！
 
 RESOURCE ID: grunt_generic_greeting#23__male_speaker
 TEXT: われわれはGOロケット団！　怖くて強いのだ！
@@ -20610,7 +20951,7 @@ RESOURCE ID: grunt_generic_greeting#2__male_speaker
 TEXT: はははーッ！
 
 RESOURCE ID: grunt_generic_greeting#3__female_speaker
-TEXT: GOロケット団を止めることはできない！
+TEXT: えッ．．．！
 
 RESOURCE ID: grunt_generic_greeting#3__male_speaker
 TEXT: なッ．．．！
@@ -20628,7 +20969,7 @@ RESOURCE ID: grunt_generic_greeting#5__male_speaker
 TEXT: なんだお前は？　ここに何の用だ！？
 
 RESOURCE ID: grunt_generic_greeting#6__female_speaker
-TEXT: GOロケット団を止めることはできない！
+TEXT: こんなところまで来た狙いはなんなの？
 
 RESOURCE ID: grunt_generic_greeting#6__male_speaker
 TEXT: ここに来た狙いはなんだ？
@@ -20735,6 +21076,12 @@ TEXT: こせいだいポケモンの謎を解け！：ポケストップ{0}個�
 RESOURCE ID: gui_vivillon_map_header
 TEXT: ビビヨン分布
 
+RESOURCE ID: gui_vivillon_medal_button
+TEXT: メダルを見る
+
+RESOURCE ID: gui_vivillon_progress_header
+TEXT: コレクション
+
 RESOURCE ID: gym_approach_battles_won
 TEXT: BATTLES WIN :
 
@@ -20811,7 +21158,7 @@ RESOURCE ID: gym_feed_raid_active
 TEXT: ジムがボスポケモンに占拠されています。しばらく時間をおいてください。
 
 RESOURCE ID: gym_feed_too_frequent
-TEXT: ポケモンはもうきのみを欲しがっていないようだ。
+TEXT: もうきのみを欲しがっていないようだ
 
 RESOURCE ID: gym_gym_is_too_far
 TEXT: ジムへ近づいて参加してください
@@ -22088,7 +22435,7 @@ RESOURCE ID: item_revive_name
 TEXT: げんきのかけら
 
 RESOURCE ID: item_route_maker_desc
-TEXT: A device that lets you create Routes. You can have up to 5 active at a time.
+TEXT: ポケルートをつくれる装置。一度に5個まで持てる。
 
 RESOURCE ID: item_route_maker_name
 TEXT: ポケルートメーカー
@@ -22258,6 +22605,9 @@ TEXT: シャドウ{0}をリトレーンした！
 RESOURCE ID: journal_shared_ex_raid_ticket_with_friend
 TEXT: {0}さんをEXレイドに招待した！
 
+RESOURCE ID: journeyer_box_title
+TEXT: 探索ボックス
+
 RESOURCE ID: jp_iap_link1
 TEXT: https://niantic.helpshift.com/hc/ja/6-pokemon-go/faq/2046-%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/?s=others&f=%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA&l=ja&p=web
 
@@ -22316,7 +22666,7 @@ RESOURCE ID: kanto_event_name
 TEXT: カントーイベント
 
 RESOURCE ID: korean
-TEXT: 한국인
+TEXT: 한국어
 
 RESOURCE ID: lake_trio_event_name
 TEXT: 湖の神話イベント
@@ -22330,11 +22680,14 @@ TEXT: 言語設定を{0}に変更しますか？
 RESOURCE ID: language_currently_selected
 TEXT: すでにこの言語を選んでいます
 
+RESOURCE ID: language_early_access_language
+TEXT: This is an early access language. Please report any issues if found.
+
 RESOURCE ID: language_selector_description
 TEXT: 変更後は再起動が必要です。
 
 RESOURCE ID: language_selector_header
-TEXT: 言語を選ぶ
+TEXT: 言語選択
 
 RESOURCE ID: language_settings_updated
 TEXT: 言語設定を変更しました！
@@ -22407,6 +22760,9 @@ TEXT: 参戦条件あり
 
 RESOURCE ID: league_ruleset_type_label
 TEXT: 使用できるポケモン：
+
+RESOURCE ID: legend_box_title
+TEXT: レジェンドボックス
 
 RESOURCE ID: legendary_mythical_and_ultra_beast_not_allowed_in_gyms
 TEXT: 伝説・幻のポケモンとウルトラビーストはジムに配置できません
@@ -24836,8 +25192,14 @@ TEXT: フェアリーレジェンドX
 RESOURCE ID: luminous_y_event_name
 TEXT: フェアリーレジェンドY
 
+RESOURCE ID: lunar_new_year_catch_timed_research
+TEXT: 旧正月：キャッチチャレンジ
+
 RESOURCE ID: lunar_new_year_event_name
 TEXT: 旧正月イベント
+
+RESOURCE ID: lunar_new_year_friendship_timed_research
+TEXT: 旧正月：フレンドチャレンジ
 
 RESOURCE ID: lure_duration_4_hr
 TEXT: ルアーモジュール4時間
@@ -25015,6 +25377,9 @@ TEXT: 虫取り　ポーズ
 RESOURCE ID: m_avatar_poses_bundle_pose_41
 TEXT: グズマ　ポーズ
 
+RESOURCE ID: m_avatar_poses_bundle_pose_44
+TEXT: スパークル　ポーズ
+
 RESOURCE ID: m_avatar_poses_empty_bundle_pose_empty
 TEXT: 待機
 
@@ -25153,95 +25518,8 @@ TEXT: プレミアカップ
 RESOURCE ID: master_premier_classic_title
 TEXT: MLプレミアクラシック
 
-RESOURCE ID: masterwork_lugiahoohs
-TEXT: 続行リサーチAPEX
-
-RESOURCE ID: masterwork_lugiahoohs_1
-TEXT: 続行リサーチAPEX (1/4)
-
-RESOURCE ID: masterwork_lugiahoohs_2
-TEXT: 続行リサーチAPEX (2/4)
-
-RESOURCE ID: masterwork_lugiahoohs_3
-TEXT: 続行リサーチAPEX (3/4)
-
-RESOURCE ID: masterwork_lugiahoohs_4
-TEXT: 続行リサーチAPEX (4/4)
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_0_0
-TEXT: ギャラドスとセレビィを救ってくれて、ありがとう、%PLAYERNAME%。だが、まだホウオウとルギアがGOロケット団にとらわれている。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_0_1
-TEXT: チームリーダーたちの助けを借りて、2匹が別々の場所にいることは突き止めた。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_0_2
-TEXT: GOロケット団でも、これらの伝説のポケモンは手に余るのか？いずれにせよ、我々には都合がいい、1匹ずつ確実に救っていこう！
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_0
-TEXT: シャドウホウオウ・APEXを救ってくれて、ありがとう、%PLAYERNAME%！どうやらこのホウオウは、せいなるほのおを使える。しかも通常よりも、さらに強力なせいなるほのおであるようだ。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_1
-TEXT: リトレーンしたら、どうなる？もっと強くなるのか？
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_2
-TEXT: これについては少し調査してみて、何かわかったら教えるよ。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_3
-TEXT: きみのほうでも、次の段階に向けて準備してくれ。シャドウルギア・APEXを救うには、
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_4
-TEXT: 今まで以上の力が必要になる。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_1_5
-TEXT: チームリーダーたちと協力して、やつらがどこにポケモンを隠しているか捜査している。もう少しでわかりそうだ。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_0
-TEXT: 必要なものはそろっているか、%PLAYERNAME%？キズぐすりやげんきのかけらは足りているか？
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_1
-TEXT: シャドウルギア・APEXを救うのは、簡単にできることじゃない。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_2
-TEXT: GOロケット団したっぱのガードを突破しても、その向こうには、サカキ自身で守っている隠れ家があるんだ。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_3
-TEXT: シャドウホウオウ・APEXを調べてわかったんだが、
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_4
-TEXT: リトレーンすると、せいなるほのおは、さらに強力になる。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_5
-TEXT: シャドウホウオウ・APEXをリトレーンすれば、シャドウルギア・APEXを救うのに役立つはずだ。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_2_6
-TEXT: きみがポケモントレーナーになってから、一番厳しく激しい戦いになるかもしれないぞ。だが、わたしは知っている。きみの実力とこれまでの努力を。きみならできる。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_0
-TEXT: おおー！
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_1
-TEXT: %PLAYERNAME%！
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_2
-TEXT: やったぞ！
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_3
-TEXT: GOロケット団からシャドウルギア・APEXを救った！
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_4
-TEXT: ホウオウのケースと同じように、エアロブラストも強力だ。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_5
-TEXT: 言うまでもなく、リトレーンでより強力になるはずだ。
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_6
-TEXT: きみの勝利を祝おう、
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_7
-TEXT: すごいことをやり遂げたんだぞ！
-
-RESOURCE ID: masterwork_lugiahoohs_dialogue_3_8
-TEXT: 本当にありがとう。ホウオウとルギアも感謝していると思うよ。では、次の冒険で会おう。それまで、元気にGOだ！
+RESOURCE ID: master_raid_box_title
+TEXT: マスターレイドボックス
 
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: やあ、%PLAYERNAME%！早速調査を始めるぞ！その前に．．．ダダッダッドゥ、ダディダダ～ン～．．．
@@ -25650,9 +25928,9 @@ RESOURCE ID: mega_walking_progress
 TEXT: 歩いて見つけるもの
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2022-10-07T09:04:35.937526
-at SHA 029e467bb49e3de2ae874f180ac9aa1d15fdd8cf
-Pipeline 1076415, job 12507544
+TEXT: Built at 2022-10-30T17:10:54.773238
+at SHA a9d340b3c5945d8273421b9463be2a4b4b784b1b
+Pipeline 1114528, job 13097767
 
 RESOURCE ID: milestone_rewards_title
 TEXT: マイルストーンリワード
@@ -25743,6 +26021,12 @@ TEXT: 分
 
 RESOURCE ID: minutes_and_seconds
 TEXT: {0}分{1}秒
+
+RESOURCE ID: mobile_games_catch_sr
+TEXT: Mobile Games Show: Catch Challenge
+
+RESOURCE ID: mobile_games_throw_sr
+TEXT: Mobile Games Show: Throw Challenge
 
 RESOURCE ID: monodepth_ar_plus_required_toast
 TEXT: ARブレンディングを使用するにはNiantic AR をオンにする必要があります
@@ -26710,8 +26994,14 @@ TEXT: シードフレア
 RESOURCE ID: move_name_0370
 TEXT: ブロッキング
 
+RESOURCE ID: move_name_0371
+TEXT: シャドーダイブ
+
 RESOURCE ID: move_name_0372
 TEXT: メテオビーム
+
+RESOURCE ID: move_name_0376
+TEXT: ポルターガイスト
 
 RESOURCE ID: move_reroll_confirm_desc
 TEXT: {0} は {1} を忘れます
@@ -27229,6 +27519,21 @@ TEXT: ARモードで、ポケモンが物体に隠れるなど、背景にブレ
 RESOURCE ID: occlusions_tutorial_title
 TEXT: ARブレンディング
 
+RESOURCE ID: oct22_evo_collection_challenge_1
+TEXT: 進化フォーカス：
+イーブイチャレンジ
+
+RESOURCE ID: oct22_evo_collection_challenge_2
+TEXT: 進化フォーカス：交換チャレンジ
+
+RESOURCE ID: oct22_evo_collection_challenge_3
+TEXT: 進化フォーカス：
+イッシュチャレンジ
+
+RESOURCE ID: oct22_evo_collection_challenge_4
+TEXT: 進化フォーカス：
+シンオウチャレンジ
+
 RESOURCE ID: old_friends_description
 TEXT: 友との新たな冒険 - タイムチャレンジ
 
@@ -27702,6 +28007,9 @@ TEXT: GOスナップショットでフカマルのサプライズ5回
 
 RESOURCE ID: photobomb_five_hoppip
 TEXT: GOスナップショットでハネッコのサプライズ5回
+
+RESOURCE ID: photobomb_five_litwick
+TEXT: GOスナップショットでヒトモシのサプライズ5回
 
 RESOURCE ID: photobomb_five_machop
 TEXT: GOスナップショットでワンリキーのサプライズ5回
@@ -38103,25 +38411,25 @@ RESOURCE ID: pokemon_shiny_info_transfer_to_professor_confirmation
 TEXT: 色違いのポケモンを送りますか？
 
 RESOURCE ID: pokemon_size_huge_encounter
-TEXT: It’s huge!
+TEXT: でかい！
 
 RESOURCE ID: pokemon_size_new_banner
-TEXT: New Record
+TEXT: 新記録！
 
 RESOURCE ID: pokemon_size_new_height_title
-TEXT: New Height Record
+TEXT: 長さの新記録
 
 RESOURCE ID: pokemon_size_new_tag
-TEXT: New
+TEXT: 新記録
 
 RESOURCE ID: pokemon_size_new_title
-TEXT: New Size Record
+TEXT: 大きさの新記録
 
 RESOURCE ID: pokemon_size_new_weight_title
-TEXT: New Weight Record
+TEXT: 重さの新記録
 
 RESOURCE ID: pokemon_size_tiny_encounter
-TEXT: It’s tiny!
+TEXT: ちっちゃい！
 
 RESOURCE ID: pokemon_transfer_legendary_confirmation
 TEXT: 伝説のポケモンか幻のポケモンが含まれています。本当に送ってもいいですか？
@@ -38259,10 +38567,10 @@ RESOURCE ID: pokemon_won_notification_toast|2
 TEXT: {0} がジムバトルで相手を倒した！
 
 RESOURCE ID: pokemon_xxl_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this XXL Pokémon?
+TEXT: XXLポケモンを本当に送ってもいいですか？
 
 RESOURCE ID: pokemon_xxs_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this XXS Pokémon?
+TEXT: XXSポケモンを本当に送ってもいいですか？
 
 RESOURCE ID: pokemonstorageupgrade.1_description
 TEXT: 持てるポケモンの上限を{0}増やす。
@@ -38432,7 +38740,7 @@ RESOURCE ID: postcard_multi_delete_complete
 TEXT: 対象のポストカードを削除しました
 
 RESOURCE ID: postcard_multi_delete_plural
-TEXT: ポストカードを{0}枚削除しますか？
+TEXT: ポストカード{0}枚を削除しますか？
 
 RESOURCE ID: postcard_multi_delete_singular
 TEXT: ポストカードを1枚削除しますか？
@@ -38863,6 +39171,9 @@ TEXT: 謎のプレゼント
 RESOURCE ID: quest_breakthrough_reward_stardust
 TEXT: ほしのすな
 
+RESOURCE ID: quest_buddy_affection_days_in_a_row
+TEXT: 相棒のハートを{0}日連続でもらう
+
 RESOURCE ID: quest_buddy_battle_trainer_adventuring_plural
 TEXT: 相棒が共にに歩いているときに一緒にトレーナー対戦を{0}回する
 
@@ -38877,6 +39188,15 @@ TEXT: 相棒のポケモンからおみやげをもらう
 
 RESOURCE ID: quest_buddy_walk_km_plural
 TEXT: 相棒のポケモンと一緒に{0}km歩く
+
+RESOURCE ID: quest_bulbt_catch_b
+TEXT: フシギダネを{0}匹捕まえる
+
+RESOURCE ID: quest_bulbt_evolve_b
+TEXT: フシギダネを{0}匹進化させる
+
+RESOURCE ID: quest_bulbt_evolve_s1
+TEXT: フシギソウを{0}匹進化させる
 
 RESOURCE ID: quest_catch_b_types_plural
 TEXT: でんき、ノーマル、どく、いずれかのタイプのポケモンを{0}匹捕まえる
@@ -38925,6 +39245,9 @@ TEXT: ポケモンを捕まえるときにきのみ{0}個を使う
 
 RESOURCE ID: quest_catch_feed_singular
 TEXT: ポケモンを捕まえるときにきのみ1個を使う
+
+RESOURCE ID: quest_catch_furfou_singular
+TEXT: トリミアンを捕まえる
 
 RESOURCE ID: quest_catch_in_day_plural
 TEXT: 1日にポケモンを{0}匹捕まえる
@@ -39481,6 +39804,9 @@ TEXT: ねんりきポケモンの謎を解け！
 RESOURCE ID: quest_complete_bidoof_branch_quest
 TEXT: ビッパとビッパ
 
+RESOURCE ID: quest_complete_bulbt
+TEXT: フシギダネコミュニティ・デイ（復刻）
+
 RESOURCE ID: quest_complete_celebi
 TEXT: 時を越えるポケモンを追え！
 
@@ -39513,6 +39839,9 @@ TEXT: ガスじょうポケモンを解明せよ！
 
 RESOURCE ID: quest_complete_hallowyamas
 TEXT: 怨念の謎を解け！
+
+RESOURCE ID: quest_complete_hoppt
+TEXT: わたくさポケモンを解明せよ！
 
 RESOURCE ID: quest_complete_macht
 TEXT: かいりきポケモンを解明せよ！
@@ -39588,6 +39917,9 @@ TEXT: せんこうポケモンを解明せよ！
 
 RESOURCE ID: quest_complete_snivt
 TEXT: くさへびポケモンを解明せよ！
+
+RESOURCE ID: quest_complete_sphet
+TEXT: てたたきポケモンを解明せよ！
 
 RESOURCE ID: quest_complete_spiritomb
 TEXT: 石に込められた謎を解け！'18
@@ -40084,18 +40416,6 @@ TEXT: エレブーを{0}匹捕まえる
 RESOURCE ID: quest_elect_evolve_b
 TEXT: エレブーを{0}匹進化させる
 
-RESOURCE ID: quest_elite4_a
-TEXT: GOTour四天王を倒す：メサ
-
-RESOURCE ID: quest_elite4_b
-TEXT: GOTour四天王を倒す：ケーブ
-
-RESOURCE ID: quest_elite4_c
-TEXT: GOTour四天王を倒す：オーシャン
-
-RESOURCE ID: quest_elite4_d
-TEXT: GOTour四天王を倒す：サバンナ
-
 RESOURCE ID: quest_elrd22_april16_battle
 TEXT: タマタマリサーチ：ジムバトルを1回する
 
@@ -40189,6 +40509,9 @@ TEXT: ヤジロンを進化させる
 RESOURCE ID: quest_evolve_barboach_singular
 TEXT: ドジョッチを進化させる
 
+RESOURCE ID: quest_evolve_bayleef
+TEXT: ベイリーフを進化させる
+
 RESOURCE ID: quest_evolve_bayleef_singular
 TEXT: ベイリーフを進化させる
 
@@ -40273,6 +40596,9 @@ TEXT: チェリンボを進化させる
 RESOURCE ID: quest_evolve_chespin_singular
 TEXT: ハリマロンを進化させる
 
+RESOURCE ID: quest_evolve_chikorita
+TEXT: チコリータを進化させる
+
 RESOURCE ID: quest_evolve_chikorita_singular
 TEXT: チコリータを進化させる
 
@@ -40306,6 +40632,12 @@ TEXT: ワカシャモを進化させる
 RESOURCE ID: quest_evolve_corphish_singular
 TEXT: ヘイガニを進化させる
 
+RESOURCE ID: quest_evolve_cosmoem_singular
+TEXT: コスモウムを進化させる
+
+RESOURCE ID: quest_evolve_cosmog_singular
+TEXT: コスモッグを進化させる
+
 RESOURCE ID: quest_evolve_cottonee_singular
 TEXT: モンメンを進化させる
 
@@ -40315,6 +40647,9 @@ TEXT: ズガイドスを進化させる
 RESOURCE ID: quest_evolve_croagunk_singular
 TEXT: グレッグルを進化させる
 
+RESOURCE ID: quest_evolve_croconaw
+TEXT: アリゲイツを進化させる
+
 RESOURCE ID: quest_evolve_croconaw_singular
 TEXT: アリゲイツを進化させる
 
@@ -40323,6 +40658,9 @@ TEXT: クマシュンを進化させる
 
 RESOURCE ID: quest_evolve_cubone_singular
 TEXT: カラカラを進化させる
+
+RESOURCE ID: quest_evolve_cyndaquil
+TEXT: ヒノアラシを進化させる
 
 RESOURCE ID: quest_evolve_cyndaquil_singular
 TEXT: ヒノアラシを進化させる
@@ -40885,6 +41223,9 @@ TEXT: サナギラスを進化させる
 RESOURCE ID: quest_evolve_purrloin_singular
 TEXT: チョロネコを進化させる
 
+RESOURCE ID: quest_evolve_quilava
+TEXT: マグマラシを進化させる
+
 RESOURCE ID: quest_evolve_quilava_singular
 TEXT: マグマラシを進化させる
 
@@ -41163,6 +41504,9 @@ TEXT: トゲチックを進化させる
 
 RESOURCE ID: quest_evolve_torchic_singular
 TEXT: アチャモを進化させる
+
+RESOURCE ID: quest_evolve_totodile
+TEXT: ワニノコを進化させる
 
 RESOURCE ID: quest_evolve_totodile_singular
 TEXT: ワニノコを進化させる
@@ -41834,6 +42178,60 @@ TEXT: メダル5個をゴールドにする
 RESOURCE ID: quest_gold_medal_singular
 TEXT: メダルをゴールドにする
 
+RESOURCE ID: quest_gotour2022_sr_title
+TEXT: Pokémon GO Tour：ジョウト地方
+
+RESOURCE ID: quest_gotour2022_sr_title_1
+TEXT: GO Tour：ジョウト地方 (1/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_10
+TEXT: GO Tour：ジョウト地方 (10/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_11
+TEXT: GO Tour：ジョウト地方 (11/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_2
+TEXT: GO Tour：ジョウト地方 (2/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_3
+TEXT: GO Tour：ジョウト地方 (3/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_4
+TEXT: GO Tour：ジョウト地方 (4/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_5
+TEXT: GO Tour：ジョウト地方 (5/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_6
+TEXT: GO Tour：ジョウト地方 (6/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_7
+TEXT: GO Tour：ジョウト地方 (7/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_8
+TEXT: GO Tour：ジョウト地方 (8/11)
+
+RESOURCE ID: quest_gotour2022_sr_title_9
+TEXT: Pokémon GO Tour：ジョウト (9/11)
+
+RESOURCE ID: quest_gotour_branch_chikorita_description
+TEXT: はっぱポケモンであるチコリータは、日差しを浴びることが大好きで、頭の葉っぱで周りの温度や湿度をさぐります！チコリータを捕まえてチコリータのアメを手に入れましょう。チコリータを進化させたりチコリータと写真を撮るタスクも手に入ります。
+
+RESOURCE ID: quest_gotour_branch_chikorita_title
+TEXT: チコリータを選ぶ
+
+RESOURCE ID: quest_gotour_branch_cyndaquil_description
+TEXT: ひねずみポケモンであるヒノアラシは臆病で、いつも体を丸めていますが、襲われると背中の炎を燃え上がらせ身を守ります！ヒノアラシを捕まえてヒノアラシのアメを手に入れましょう。ヒノアラシを進化させたりヒノアラシと写真を撮るタスクも手に入ります。
+
+RESOURCE ID: quest_gotour_branch_cyndaquil_title
+TEXT: ヒノアラシを選ぶ
+
+RESOURCE ID: quest_gotour_branch_totodile_description
+TEXT: おおあごポケモンであるワニノコは、小さいながらも暴れん坊で、目の前に動くものがあれば、とにかくかみついてきます！ワニノコを捕まえてワニノコのアメを手に入れましょう。ワニノコを進化させたりワニノコと写真を撮るタスクも手に入ります。
+
+RESOURCE ID: quest_gotour_branch_totodile_title
+TEXT: ワニノコを選ぶ
+
 RESOURCE ID: quest_gotour_kanto_bonus
 TEXT: Pokémon GO Tour：カントー地方 - ボーナスイベント
 
@@ -41845,21 +42243,6 @@ TEXT: Pokémon GO Tour：カントー地方 - ボーナスイベント (2/3)
 
 RESOURCE ID: quest_gotour_kanto_bonus_3
 TEXT: Pokémon GO Tour：カントー地方 - ボーナスイベント (3/3)
-
-RESOURCE ID: quest_gotoursik_photo_beginning
-TEXT: 旅の始まり地点で写真を撮る
-
-RESOURCE ID: quest_gotoursik_photo_instinct
-TEXT: チームインスティンクト地点で写真を撮る
-
-RESOURCE ID: quest_gotoursik_photo_mystic
-TEXT: チームミスティック地点で写真を撮る
-
-RESOURCE ID: quest_gotoursik_photo_valor
-TEXT: チームヴァーラー地点で写真を撮る
-
-RESOURCE ID: quest_gotoursik_photo_willow
-TEXT: ウィロー博士地点で写真を撮る
 
 RESOURCE ID: quest_gt_catch_b
 TEXT: ゴースを{0}匹捕まえる
@@ -41902,6 +42285,15 @@ TEXT: ホウエンウィーク：タマゴを{0}個かえす
 
 RESOURCE ID: quest_hoenn_celebration_research
 TEXT: ホウエンセレブレーションリサーチ
+
+RESOURCE ID: quest_hoppt_catch_b
+TEXT: ハネッコを{0}匹捕まえる
+
+RESOURCE ID: quest_hoppt_evolve_b
+TEXT: ハネッコを{0}匹進化させる
+
+RESOURCE ID: quest_hoppt_evolve_s1
+TEXT: ポポッコを{0}匹進化させる
 
 RESOURCE ID: quest_incense_plural
 TEXT: おこう{0}個を使う
@@ -41974,6 +42366,9 @@ TEXT: GO Tour：マンキーを捕まえる
 
 RESOURCE ID: quest_kanto_red_oddish
 TEXT: GO Tour：ナゾノクサを捕まえる
+
+RESOURCE ID: quest_lampent_evolve_b
+TEXT: ランプラーを{0}匹進化させる
 
 RESOURCE ID: quest_land_curve_type_ghost
 TEXT: ゴーストタイプのポケモンを捕まえるときカーブボールを{0}回投げる
@@ -42061,6 +42456,15 @@ TEXT: ナイススローを1回投げる
 
 RESOURCE ID: quest_land_nice_type_ghost
 TEXT: ゴーストタイプのポケモンを捕まえるときナイススローを{0}回投げる
+
+RESOURCE ID: quest_litwick_catch_b
+TEXT: ヒトモシを{0}匹捕まえる
+
+RESOURCE ID: quest_litwick_evolve_b
+TEXT: ヒトモシを{0}匹進化させる
+
+RESOURCE ID: quest_litwick_snapshot_b
+TEXT: ヒトモシのGOスナップショット写真を{0}枚撮る
 
 RESOURCE ID: quest_lucky_plural
 TEXT: キラポケモンを{0}匹手に入れる
@@ -42212,6 +42616,18 @@ TEXT: むしタイプのポケモンを{0}匹強化する
 RESOURCE ID: quest_power_up_plural_dark
 TEXT: あくタイプのポケモンを{0}匹強化する
 
+RESOURCE ID: quest_power_up_plural_electric
+TEXT: でんきタイプのポケモンを{0}匹強化する
+
+RESOURCE ID: quest_power_up_plural_fighting
+TEXT: かくとうタイプのポケモンを{0}匹強化する
+
+RESOURCE ID: quest_power_up_plural_ground
+TEXT: じめんタイプのポケモンを{0}匹強化する
+
+RESOURCE ID: quest_power_up_plural_normal
+TEXT: ノーマルタイプのポケモンを{0}匹強化する
+
 RESOURCE ID: quest_power_up_plural_poison
 TEXT: どくタイプのポケモンを{0}匹強化する
 
@@ -42220,6 +42636,9 @@ TEXT: いわタイプのポケモンを{0}匹強化する
 
 RESOURCE ID: quest_power_up_plural_steel
 TEXT: はがねタイプのポケモンを{0}匹強化する
+
+RESOURCE ID: quest_power_up_plural_water
+TEXT: みずタイプのポケモンを{0}匹強化する
 
 RESOURCE ID: quest_power_up_singular
 TEXT: ポケモンを1匹強化する
@@ -42232,6 +42651,9 @@ TEXT: エスパータイプのポケモンを{0}匹捕まえる
 
 RESOURCE ID: quest_psychicspec_evolve_plural
 TEXT: タマタマかヤドンを{0}匹進化させる
+
+RESOURCE ID: quest_raid_friend_singular
+TEXT: フレンドと一緒にレイドする
 
 RESOURCE ID: quest_raid_with_buddy_plural
 TEXT: 相棒ポケモンでレイドバトルを{0}回行う
@@ -42407,6 +42829,12 @@ TEXT: ギフトを{0}個贈る
 RESOURCE ID: quest_send_gifts_singular
 TEXT: フレンドにギフトを贈る
 
+RESOURCE ID: quest_send_gifts_sticker_plural
+TEXT: ステッカー付きのギフトを{0}個贈る
+
+RESOURCE ID: quest_send_gifts_sticker_singular
+TEXT: ステッカー付きのギフトを贈る
+
 RESOURCE ID: quest_shint_catch_b
 TEXT: コリンクを{0}匹捕まえる
 
@@ -42424,6 +42852,12 @@ TEXT: フシギダネのGOスナップショット写真を撮る
 
 RESOURCE ID: quest_snapshot_charmander
 TEXT: ヒトカゲのGOスナップショット写真を撮る
+
+RESOURCE ID: quest_snapshot_chikorita
+TEXT: チコリータのGOスナップショット写真を撮る
+
+RESOURCE ID: quest_snapshot_cyndaquil
+TEXT: ヒノアラシのGOスナップショット写真を撮る
 
 RESOURCE ID: quest_snapshot_genesect
 TEXT: ゲノセクトのGOスナップショット写真を{0}枚撮る
@@ -42458,6 +42892,9 @@ TEXT: ボルトロスのGOスナップショット写真を撮る
 RESOURCE ID: quest_snapshot_tornadus
 TEXT: トルネロスのGOスナップショット写真を撮る
 
+RESOURCE ID: quest_snapshot_totodile
+TEXT: ワニノコのGOスナップショット写真を撮る
+
 RESOURCE ID: quest_snapshot_unique_fire_pokemon
 TEXT: ほのおタイプのポケモン{0}種類のGOスナップショット写真を撮る
 
@@ -42490,6 +42927,9 @@ TEXT: 野生のイーブイのGOスナップショット写真を撮る
 
 RESOURCE ID: quest_snapshot_wild_electric_plural
 TEXT: でんきタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_entei
+TEXT: 野生のエンテイのスナップショットを撮る
 
 RESOURCE ID: quest_snapshot_wild_fairy_plural
 TEXT: フェアリータイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
@@ -42533,6 +42973,9 @@ TEXT: 野生のハスボー、トランセルか、エイパムのGOスナップ
 RESOURCE ID: quest_snapshot_wild_luvdisc_chinchou_finneon
 TEXT: 野生のラブカス、チョンチーか、ケイコウオのGOスナップショット写真を撮る
 
+RESOURCE ID: quest_snapshot_wild_mareanie_singluar
+TEXT: 野生のヒドイデのGOスナップショット写真を撮る
+
 RESOURCE ID: quest_snapshot_wild_normal_plural
 TEXT: ノーマルタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
 
@@ -42544,6 +42987,9 @@ TEXT: どくタイプの野生ポケモンのGOスナップショット写真を
 
 RESOURCE ID: quest_snapshot_wild_psychic_plural
 TEXT: エスパータイプの野生ポケモンのスナップショット写真を{0}枚撮る
+
+RESOURCE ID: quest_snapshot_wild_raikou
+TEXT: 野生のライコウのGOスナップショット写真を撮る
 
 RESOURCE ID: quest_snapshot_wild_rock_plural
 TEXT: いわタイプの野生ポケモンのGOスナップショット写真を{0}枚撮る
@@ -42565,6 +43011,9 @@ TEXT: はがねタイプの野生ポケモンのGOスナップショット写真
 
 RESOURCE ID: quest_snapshot_wild_steel_unique_plural
 TEXT: 野生のはがねタイプポケモン{0}種類のGOスナップショット写真を撮る
+
+RESOURCE ID: quest_snapshot_wild_suicune
+TEXT: 野生のスイクンのスナップショットを撮る
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
 TEXT: 野生のナックラー、サンドか、サボネアのGOスナップショット写真を撮る
@@ -42953,6 +43402,75 @@ TEXT: 頑張りへのお礼として、チームリーダーとわたしで、�
 RESOURCE ID: quest_special_dialogue_bidoof_branch_quest_3_2
 TEXT: ビッパと一緒に散歩を楽しむのもいい。何か見つかるかもしれない。次に会うときまで、元気にGOだ！
 
+RESOURCE ID: quest_special_dialogue_bulbt_0_0
+TEXT: やぁ、%PLAYERNAME%！フシギダネが集まっているようじゃないか？
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_1
+TEXT: 以前にも、こうやってフシギダネが集まっていて、トレーナーたちも活発に活動していた日があった。
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_2
+TEXT: なんだか懐かしいな！
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_3
+TEXT: 研究者として、この機会を逃す手はない。再度調査できるんだから。
+
+RESOURCE ID: quest_special_dialogue_bulbt_0_4
+TEXT: 協力してくれるね？
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_0
+TEXT: おかえり。可愛らしいフシギダネを捕まえたな。
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_1
+TEXT: フシギダネは背中の種につまっている栄養で育つ、って知ってたかな？
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_2
+TEXT: リュックサックならぬ、スナックサックだな！ハ、ハハハ．．．
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_3
+TEXT: フシギソウの場合は、太陽の光を浴びるほどに体に力がわいて、
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_4
+TEXT: 背中のつぼみが育つんだ。フシギダネを進化させて観察してみたい。
+
+RESOURCE ID: quest_special_dialogue_bulbt_1_5
+TEXT: わたしは移動し始めたフシギダネたちを追うから、きみは進化させてみてくれ！
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_0
+TEXT: すごいな、フシギソウの大きいこと！ばっちりだ、%PLAYERNAME%。
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_1
+TEXT: 背中のつぼみはどうだ？ふくらみだすと甘いにおいが漂うので、
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_2
+TEXT: 進化の準備ができていることがわかる。
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_3
+TEXT: わたしが追っていたフシギダネの集団だが、森からフシギソウも現れて合流したのを見たぞ。
+
+RESOURCE ID: quest_special_dialogue_bulbt_2_4
+TEXT: 一緒にどこかへ向かっているようだ．．．一体どこへ？
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_0
+TEXT: おかえり、%PLAYERNAME%。フシギバナか！ラッキーな一日になるぞ！
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_1
+TEXT: わたしのほうは、フシギダネとフシギソウに導かれるように、1匹のフシギバナにたどりついた。あたりには、うっとりするような香りが漂っていて、
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_2
+TEXT: フシギダネとフシギソウが、引き寄せられるようにフシギバナの周りに集まった。
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_3
+TEXT: まるでルアーモジュールだな、って思ったよ．．．
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_4
+TEXT: あ、そんなことより、もう一つ調べる必要があるぞ！フシギバナのメガシンカだ。
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_5
+TEXT: メガシンカさせて、その様子を詳しく観察してくれ！
+
+RESOURCE ID: quest_special_dialogue_bulbt_3_6
+TEXT: ポケモンには、まだまだわからないことが多く、地道な調査活動が大発見につながったりするからね。今日は協力してくれてありがとう！
+
 RESOURCE ID: quest_special_dialogue_celebi_0_0
 TEXT: %PLAYERNAME%、いつもフィールドリサーチ、スペシャルリサーチを手伝ってくれてありがとう！
 
@@ -43138,6 +43656,54 @@ TEXT: おさんぼおこうは15分間、きみが動いているあいだ香り
 
 RESOURCE ID: quest_special_dialogue_dailyincense_0_2
 TEXT: 毎日1個あげるから冒険に役立ててほしい。早速今日から使ってみてはどうだろう？ポケモンをどんどん捕まえてくれ！
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_0
+TEXT: やぁ、%PLAYERNAME%！よく見かけたことがあったポケモン、
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_1
+TEXT: また現れていないか？まるで、残り少なくなった今年を惜しむよう．．．
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_2
+TEXT: もしくは、新年を一緒に迎える準備か？
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_3
+TEXT: 今年一年、きみの協力もあり、実にさまざまな調査を行うことができた。
+
+RESOURCE ID: quest_special_dialogue_dec2021_0_4
+TEXT: トレーナーとして成長した実感はあるかな？どんなことを思い出す？
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_0
+TEXT: おかえり、%PLAYERNAME%！相変わらず頼りになるな。その調子で進化もお願いするよ。
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_1
+TEXT: トレーナーとしての成長を振り返ってみたかな？今年の冒険は、なんといってもフーパのいたずらの影響が大きかったと思う。
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_2
+TEXT: いたずらのおかげで、伝説のポケモンが現れてくれたわけだが！ときはなたれしフーパに出会えたことも、印象深かったな。
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_3
+TEXT: いたずらのおかげで、伝説のポケモンが現れてくれたわけだが！ときはなたれしフーパに出会えたことも、印象深かったな。
+
+RESOURCE ID: quest_special_dialogue_dec2021_1_4
+TEXT: きみも振り返ってみてくれ！
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_0
+TEXT: こうして新年を迎える準備をするような時期に、綿々と続いてきたトレーナーとポケモンの歴史について考えつつ、
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_1
+TEXT: これから始まる冒険についても考えている。とある遺跡で見つけた扉のことは聞いたかな？
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_2
+TEXT: 扉の向こう側には何がある？なんらかの謎を解くカギとなるのか？まだまだわからないことが多い。
+
+RESOURCE ID: quest_special_dialogue_dec2021_2_3
+TEXT: 失礼、つい先走ってしまった。目の前にあることに集中しないと。今年の締めくくりになるような、カーブボールを見せてくれ！
+
+RESOURCE ID: quest_special_dialogue_dec2021_3_0
+TEXT: これで調査は終了だ、%PLAYERNAME%！協力に感謝する。
+
+RESOURCE ID: quest_special_dialogue_dec2021_3_1
+TEXT: 来年も一緒に冒険するのを楽しみしているよ！
 
 RESOURCE ID: quest_special_dialogue_dec20cd_0_0
 TEXT: やぁ、%PLAYERNAME%！会えてうれしいよ。今年ももう終わりに近いなんて、信じられるかい？
@@ -44128,6 +44694,54 @@ TEXT: 壺が置いてあった。紙切れがついていて、色々と書い�
 RESOURCE ID: quest_special_dialogue_hoopaunbound_0_7
 TEXT: ”甘いものと砂を与えよ、さすれば解き放たれん”
 
+RESOURCE ID: quest_special_dialogue_hoppt_0_0
+TEXT: やぁ、%PLAYERNAME%！
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_1
+TEXT: 空いっぱいのハネッコだ！ピンク色の雲かと思ったよ。
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_2
+TEXT: わたくさポケモン調査にぴったりな状況じゃないか？
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_3
+TEXT: ハネッコが集まりだすと春が訪れると言われているんだ。
+
+RESOURCE ID: quest_special_dialogue_hoppt_0_4
+TEXT: 風に流され漂うハネッコ。春はもうすぐやってくる、っていう気分にさせてくれるな。
+
+RESOURCE ID: quest_special_dialogue_hoppt_1_0
+TEXT: ハネッコがいっぱいだな！ハネッコの体は軽く、吹き飛ばされないようにしっかり地面を踏みしめたり、
+
+RESOURCE ID: quest_special_dialogue_hoppt_1_1
+TEXT: 仲間同士で葉っぱをからめて飛ばされないようにするんだ。ハネッコが進化するのは？
+
+RESOURCE ID: quest_special_dialogue_hoppt_1_2
+TEXT: ポ．．．いや、実際にやってみよう！
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_0
+TEXT: あーー、なんて可愛らしいポポッコなんだ！見えるかな、%PLAYERNAME%？
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_1
+TEXT: 頭の上に咲いた花。気温によって開いたり閉じたりするんだ。温度により花の開きかたが変わるので、温度計代りになるなんて言われている。
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_2
+TEXT: 暖かくなると、空に浮かんで日差しを浴びようとするぞ。わたしも日差しを浴びるのは大好きだ！
+
+RESOURCE ID: quest_special_dialogue_hoppt_2_3
+TEXT: ポポッコが進化するのは？こちらもお願いするよ。
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_0
+TEXT: その調子だ、%PLAYERNAME%！ワタッコを手に入れたな。ワタッコは、風に乗って海を越え、外国まで飛んでいってしまう。綿毛を出しながら。
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_1
+TEXT: のんびり飛んでいくなんて最高だなー．．．
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_2
+TEXT: そうだ、きみもワタッコと一緒に、ひなたぼっこでもするといい。わたしはまだ調査を続ける。
+
+RESOURCE ID: quest_special_dialogue_hoppt_3_3
+TEXT: では、またすぐ会おう、%PLAYERNAME%！
+
 RESOURCE ID: quest_special_dialogue_jj_0_0
 TEXT: ムサシ：コジロウ、ねぇちょっと聞いた？
 
@@ -44262,6 +44876,79 @@ TEXT: コジロウ：次はこうはいかないぞ！
 
 RESOURCE ID: quest_special_dialogue_jj_3_7
 TEXT: ムサシ：やな感じ～！！
+
+RESOURCE ID: quest_special_dialogue_litwick_0_0
+TEXT: Hey, %PLAYERNAME%! Is it just me, or is there a ghostly chill in the air?
+
+RESOURCE ID: quest_special_dialogue_litwick_0_1
+TEXT: It could have something to do with those lights over there! They belong to Litwick, the Candle Pokémon.
+
+RESOURCE ID: quest_special_dialogue_litwick_0_2
+TEXT: Litwick is known to leech off the life force of any who follow it.
+
+RESOURCE ID: quest_special_dialogue_litwick_0_3
+TEXT: The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns. Makes for a pretty ominous candle, wouldn’t you say?
+
+RESOURCE ID: quest_special_dialogue_litwick_0_4
+TEXT: Litwick appearing in such force makes the perfect chance to learn more about them. I suggest you get up close and see for yourself!
+
+RESOURCE ID: quest_special_dialogue_litwick_0_5
+TEXT: Just be careful not to let Litwick lead you anywhere, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_litwick_1_0
+TEXT: Good day, Trainer. Professor Willow has tasked you with investigating...Litwick, is it?
+
+RESOURCE ID: quest_special_dialogue_litwick_1_1
+TEXT: The flame on its head is certainly alluring. A Pokémon that can bring light to its surroundings… What could be the source of its brilliant glow?
+
+RESOURCE ID: quest_special_dialogue_litwick_1_2
+TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+
+RESOURCE ID: quest_special_dialogue_litwick_1_3
+TEXT: What are your thoughts, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_litwick_2_0
+TEXT: Wow, %PLAYERNAME%! You went looking for Litwick and came back with a lamp! 
+
+RESOURCE ID: quest_special_dialogue_litwick_2_1
+TEXT: I kid—I know a Lampent when I see one! And it was Rhi who suggested you help Litwick evolve? That’s great. We can always learn more when encouraged by our friends!
+
+RESOURCE ID: quest_special_dialogue_litwick_2_2
+TEXT: So, let me tell you about Lampent! While it often pretends to be a lamp, Lampent is usually feared as an emissary of death. 
+
+RESOURCE ID: quest_special_dialogue_litwick_2_3
+TEXT: Through cities it wanders, searching for the spirits of the fallen. Spooky, but appropriate for the season! 
+
+RESOURCE ID: quest_special_dialogue_litwick_2_4
+TEXT: And what a sight that fire is. I’m sure you and Rhi would get a kick out of seeing Lampent’s Evolution, Chandelure, too! But a word of caution, %PLAYERNAME%...
+
+RESOURCE ID: quest_special_dialogue_litwick_2_5
+TEXT: They say spirits burned up in Chandelure's ominous flame lose their way and wander this world forever.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_0
+TEXT: That new Pokémon...
+... ... ...
+
+RESOURCE ID: quest_special_dialogue_litwick_3_1
+TEXT: Oh. My apologies, %PLAYERNAME%. I was...preoccupied gazing at the flame your Pokémon is emanating.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_2
+TEXT: ... ... ...
+
+RESOURCE ID: quest_special_dialogue_litwick_3_3
+TEXT: The swaying of its arms is rather hypnotic.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_4
+TEXT: It's called "Chandelure," is it? And Professor Willow said its flames can burn up spirits? An unsettling thought.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_5
+TEXT: The Pokémon we studied today could easily be seen as frightening. Yet I believe there is a lesson we can take from them.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_6
+TEXT: No matter how dark the world becomes, a little light always persists.
+
+RESOURCE ID: quest_special_dialogue_litwick_3_7
+TEXT: Thank you for teaching me that lesson once again, %PLAYERNAME%. Take care, and I will see you again.
 
 RESOURCE ID: quest_special_dialogue_lvl_43_0_0
 TEXT: やぁ、%PLAYERNAME%！きみのトレーナーとしての成長ぶりには驚いている。心から賞賛の言葉を贈りたいよ。
@@ -45298,36 +45985,6 @@ TEXT: レイドバトルを行う、もしくは、GOロケット団にあやし
 RESOURCE ID: quest_special_dialogue_megav3_branch_quest_3c_3
 TEXT: きみのように経験をつんだトレーナーが、メガシンカしたポケモンのような強力な味方を得ると最強だ。さぁ、バトルだ！
 
-RESOURCE ID: quest_special_dialogue_melemele_0_0
-TEXT: やぁ、%PLAYERNAME%！元気そうじゃないか！
-
-RESOURCE ID: quest_special_dialogue_melemele_0_1
-TEXT: 今日はわたしも絶好調だ。島からのそよ風に吹かれているような．．．特製パイルのみジュースのおかげかな。
-
-RESOURCE ID: quest_special_dialogue_melemele_0_2
-TEXT: それとも、アローラ地方で最初に発見されたポケモンたちがたくさんいるからか？
-
-RESOURCE ID: quest_special_dialogue_melemele_0_3
-TEXT: アローラ地方について知っていることは、%PLAYERNAME%？自然豊かな4つの島と1つの人工島を中心とした温暖な地方、それがアローラ地方だ。
-
-RESOURCE ID: quest_special_dialogue_melemele_0_4
-TEXT: アローラ地方の環境に適応し、ほかの地域とは異なる姿をしているポケモンについては、きみも見たことがあるから知っているね。
-
-RESOURCE ID: quest_special_dialogue_melemele_0_5
-TEXT: 今回は本格的な調査ができるぞ。改めてアローラ地方のポケモンを探してみてくれ。
-
-RESOURCE ID: quest_special_dialogue_melemele_1_0
-TEXT: ナイスタイミング、%PLAYERNAME%！わたしがパイルのみジュースを飲んでいるあいだ、
-
-RESOURCE ID: quest_special_dialogue_melemele_1_1
-TEXT: きみがずいぶん頑張ってくれたようだな！
-
-RESOURCE ID: quest_special_dialogue_melemele_1_2
-TEXT: どれどれ．．．きみが捕まえたポケモンのなかには、アローラ地方のなかでもメレメレ島にいるポケモンがいる。
-
-RESOURCE ID: quest_special_dialogue_melemele_1_3
-TEXT: メレメレ島は、アローラ地方のトレーナーたちが一人前のおとなになるための儀式「島めぐり」を始める島なんだ。
-
 RESOURCE ID: quest_special_dialogue_melemele_1_4
 TEXT: わたしたちまで、島めぐりしているかのような気分にさせてくれる。そう思わないか、%PLAYERNAME%？
 
@@ -46218,6 +46875,93 @@ TEXT: 協力に感謝する、%PLAYERNAME%。きみの研究心が必要にな�
 
 RESOURCE ID: quest_special_dialogue_poryt_3_6
 TEXT: それまで、元気にGOだ！
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_0
+TEXT: %PLAYERNAME%、信じられないかもしれないが、
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_1
+TEXT: そこら中に、モンスターボールのようなポケモンたちが大挙して転がっているぞ！きみも見ただろう？
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_10
+TEXT: ヒスイビリリダマは、過去の時代であるヒスイ地方から、この時代にやってきた、ということなのか？
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_11
+TEXT: よくわからないが、GOロケット団が調査中の遺跡の扉を、膨大な電気エネルギーで無理やり開けたことがあっただろう？その事件が、ヒスイビリリダマが現れる原因をつくったのかもしれない。
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_12
+TEXT: この現象は、あの幻のときわたりポケモンをも想起させる．．．
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_13
+TEXT: とにかく、事の顛末は以上だ。信じがたいことだがね。
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_14
+TEXT: わたしもさらなる調査を続ける。きみの協力も必要だ。
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_15
+TEXT: ヒスイビリリダマについて、どんなことがわかるだろう？
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_2
+TEXT: カントー地方などに生息するボールポケモンであるビリリダマに似ている。でも、見たことがない、謎のポケモンだ！
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_3
+TEXT: いくつかの地方の研究者や知り合いに連絡してみたり、資料をあさってみたりしたけれど、このようなポケモンに関する記録は見つからなかった！
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_4
+TEXT: 1つだけ、興味深い記録が。かのシンオウ地方が、その昔「ヒスイ地方」と呼ばれていたことは知っているかい？
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_5
+TEXT: その時代に使われていた、木製のモンスターボールの外見に関する記録があって、この不思議なポケモンたちとそっくりだった！いや、逆？ポケモンがボールに似ている、と言うべきか。
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_6
+TEXT: ボールが先かポケモンが先か、どっちだ？
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_7
+TEXT: この記録から類推して、これまでに発見されていたビリリダマがモンスターボールに似ているのと同じ、謎のポケモンは「ヒスイ地方」に生息していたビリリダマである、という仮説を立てた。
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_8
+TEXT: 別のビリリダマは．．．うーん、ややこしくなってきたな。
+
+RESOURCE ID: quest_special_dialogue_power_jan22_0_9
+TEXT: リージョンフォームの1種と考えて、ヒスイのすがたのビリリダマ、「ヒスイビリリダマ」と呼ぶことにしよう。
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_0
+TEXT: まだ胸が躍っている。きみは、%PLAYERNAME%？
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_1
+TEXT: ほかの時代、しかもヒスイ地方からのポケモンが現れているなんて信じられない。
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_10
+TEXT: ．．．冗談はさておき、今回は特にエキサイティングな調査ができた、そう思わないか、%PLAYERNAME%？
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_11
+TEXT: なんだか近いうちに、他にもたくさんのワクワクが待っているんじゃないかと思えてきたよ！
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_12
+TEXT: どんなことが繰り広げられるのか、楽しみに待とうじゃないか！
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_2
+TEXT: 過去にヒスイ地方でヒスイビリリダマが見ていた景色とは？そして．．．現在．．．わたしたちの生きるこの時代をどう思う？
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_3
+TEXT: あぁ、遥かなるヒスイ地方．．．そこにはどんなポケモンが生息していたのか？
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_4
+TEXT: 時をさかのぼって、ヒスイ地方を実際に歩き回ることができたなら．．．それは全研究者の夢の実現！
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_5
+TEXT: 大げさかな？もし、ときわたりポケモンであるセレビィが本当にこの件に関わっているのであれば、時を渡らせてくれるようお願いするだろう。好奇心が満たされるだけ、ほんのちょっとでいい．．．
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_6
+TEXT: でも、まあ、それは無理な願いだ．．．
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_7
+TEXT: ともかく、きみが調査しているあいだに、これまで発見されていたビリリダマがマルマインに進化するように、ヒスイビリリダマも進化できるのか、さらなる調査を行ってみたんだ。
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_8
+TEXT: 進化は．．．できないようだ。いまのところは。わたしにできるのは、このなんとも不思議なポケモンについての研究を急ぐこと。
+
+RESOURCE ID: quest_special_dialogue_power_jan22_1_9
+TEXT: 過去を爆発させて飛んで来たかのようなビリリダマ．．．ビリリダマは「じばく」を覚えるからね、ハ、ハ．．．
 
 RESOURCE ID: quest_special_dialogue_rocket_0_0
 TEXT: やぁ、%PLAYERNAME%、ちょうど良いところへ来てくれた。今日は非常に重要な調査依頼がある。
@@ -47812,6 +48556,85 @@ TEXT: あなたが選んで付けてあげるのが一番いいと思うよ、%P
 RESOURCE ID: quest_special_dialogue_season8_2_8
 TEXT: 名前はあなたに任せるとして．．．コスモッグを二人で育てるの楽しみ。仲良くなっていくうちに、きっとたくさんのことが学べるはずだしね。
 
+RESOURCE ID: quest_special_dialogue_season8_3_0
+TEXT: やぁ、%PLAYERNAME%！
+
+RESOURCE ID: quest_special_dialogue_season8_3_1
+TEXT: 元気かな？リイはどうだい？それにあのポケモンについて何かわかったことは？
+
+RESOURCE ID: quest_special_dialogue_season8_3_2
+TEXT: リイは知っていて、コスモッグだと教えてくれたんだな？さすがだ。
+
+RESOURCE ID: quest_special_dialogue_season8_3_3
+TEXT: 情報が増えたところで、実際に観察してみての感想はどうだい？何か気付いたことはあったかな、%PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_season8_3_4
+TEXT: ．．．うん．．．なるほど．．．
+
+RESOURCE ID: quest_special_dialogue_season8_3_5
+TEXT: コスモッグは好奇心が強いようだね。そのぶん、警戒心がない、か。
+
+RESOURCE ID: quest_special_dialogue_season8_3_6
+TEXT: ガス状の身体で、ちょっとの風にも流されそうだが、大丈夫なんだろうか？
+
+RESOURCE ID: quest_special_dialogue_season8_3_7
+TEXT: きみたちがいるから、何かあったらすぐに助けることができるとは思う。
+
+RESOURCE ID: quest_special_dialogue_season8_3_8
+TEXT: その調子でコスモッグとの時間を楽しんでくれ！
+
+RESOURCE ID: quest_special_dialogue_season8_4_0
+TEXT: %PLAYERNAME%、こんにちは。
+
+RESOURCE ID: quest_special_dialogue_season8_4_1
+TEXT: うん、コスモッグがコスモウムに進化ようだね。
+
+RESOURCE ID: quest_special_dialogue_season8_4_2
+TEXT: 全く動かないから心配？
+
+RESOURCE ID: quest_special_dialogue_season8_4_3
+TEXT: それは自然なことなんだ。
+
+RESOURCE ID: quest_special_dialogue_season8_4_4
+TEXT: エネルギーをコアでつくっている証拠だから。
+
+RESOURCE ID: quest_special_dialogue_season8_4_5
+TEXT: 進化のエネルギーを集めていて、それが使えるようになるまで動かないと思う。
+
+RESOURCE ID: quest_special_dialogue_season8_4_6
+TEXT: いつ変化が起こるか．．．それはわたしにもわからない。
+
+RESOURCE ID: quest_special_dialogue_season8_4_7
+TEXT: コスモウムが進化すると．．．待って。そうだ！ウィロー博士は「太陽のように暖かく、月のようにおだやかな」存在について語っていたよね。
+
+RESOURCE ID: quest_special_dialogue_season8_4_8
+TEXT: ちょっと失礼、%PLAYERNAME%。メモに残さないと。
+
+RESOURCE ID: quest_special_dialogue_season8_4_9
+TEXT: ウィロー博士に報告してほしい。コスモッグがコスモウムに進化した、って。
+
+RESOURCE ID: quest_special_dialogue_season8_5_0
+TEXT: %PLAYERNAME%、早かったじゃないか！コスモッグ．．．
+
+RESOURCE ID: quest_special_dialogue_season8_5_1
+TEXT: ．．．じゃないな、そのポケモンは。コスモッグが進化しただって？その金色のカラの美しいこと！
+
+RESOURCE ID: quest_special_dialogue_season8_5_2
+TEXT: “コスモウム”は進化できる準備ができるまで、その状態にとどまるんだね。リイがそう言うなら間違いないだろう。
+
+RESOURCE ID: quest_special_dialogue_season8_5_3
+TEXT: 動かないポケモンであれば、じっくり観察するのに苦労はしない．．．よく見てみよう。コスモウムのなかで何が起こっているんだろうね。わたしには、きみとリイとの思い出を胸に眠っているように見える！
+
+RESOURCE ID: quest_special_dialogue_season8_5_4
+TEXT: 進化できる状態になってからは、何がおきるんだろう？どんなポケモンになるんだ？コスモウムは静かその時を待っているようだが、
+
+RESOURCE ID: quest_special_dialogue_season8_5_5
+TEXT: わたしはとても落ち着いて待っていられない！それまで、コスモウムのお世話をよろしく頼むよ。
+
+RESOURCE ID: quest_special_dialogue_season8_6_0
+TEXT: %PLAYERNAME、どうだい？コスモウムに変化なし、か。かまわないさ、ゆっくり待つとしよう。何か変化があったらすぐに報告しに来てくれ！
+
+
 RESOURCE ID: quest_special_dialogue_shint_0_0
 TEXT: やぁ、%PLAYERNAME%！元気かな？
 
@@ -47934,6 +48757,63 @@ TEXT: 協力に感謝する！わたしも急いでレポートをまとめて�
 
 RESOURCE ID: quest_special_dialogue_snivt_3_4
 TEXT: では、また会おう。それまで元気にGOだ！
+
+RESOURCE ID: quest_special_dialogue_sphet_0_0
+TEXT: やぁ、%PLAYERNAME%！会えてうれしいな！
+
+RESOURCE ID: quest_special_dialogue_sphet_0_1
+TEXT: タマザラシの調査をお願いしようと思っていた。凍った湖の上を転がっているのを見たんだ。
+
+RESOURCE ID: quest_special_dialogue_sphet_0_2
+TEXT: タマザラシは、転がって移動するポケモンで、
+
+RESOURCE ID: quest_special_dialogue_sphet_0_3
+TEXT: 流氷の季節には、氷の上を転がり海を渡る姿を見かけることもあるんだ。
+
+RESOURCE ID: quest_special_dialogue_sphet_0_4
+TEXT: フサフサの体毛で体が覆われていて、冷たさを感じないだけあって、楽しそうに転がっていた！
+
+RESOURCE ID: quest_special_dialogue_sphet_0_5
+TEXT: きみも見に行ってみてくれ！
+
+RESOURCE ID: quest_special_dialogue_sphet_1_0
+TEXT: おかえり、%PLAYERNAME%！タマザラシを捕まえられたようだね！よく観察すると、本当にまんまるだ！
+
+RESOURCE ID: quest_special_dialogue_sphet_1_1
+TEXT: タマザラシから進化するのは、トドグラーとトドゼルガ。トドグラーは、初めて目にしたものは必ず鼻でクルクル回してみる習性を持つ。
+
+RESOURCE ID: quest_special_dialogue_sphet_1_2
+TEXT: タマザラシを回して遊ぶこともあるんだ。見てみたい！
+
+RESOURCE ID: quest_special_dialogue_sphet_2_0
+TEXT: トドグラーだな！タマザラシを回してくれるだろうか？
+
+RESOURCE ID: quest_special_dialogue_sphet_2_1
+TEXT: そういえば、凍った湖で見たタマザラシなんだが．．．氷が割れてしまって、
+
+RESOURCE ID: quest_special_dialogue_sphet_2_2
+TEXT: 水中でクルクル回っているようなんだ。氷を割ったのは、トドゼルガだろう。
+
+RESOURCE ID: quest_special_dialogue_sphet_2_3
+TEXT: トドゼルガは、たくましいキバで流氷を粉砕するポケモンだからな。
+
+RESOURCE ID: quest_special_dialogue_sphet_2_4
+TEXT: トドグラーを進化させて、詳しく調査してみよう。
+
+RESOURCE ID: quest_special_dialogue_sphet_3_0
+TEXT: やったな！トドゼルガのキバも近くで見ると、その威力を肌で感じる。
+
+RESOURCE ID: quest_special_dialogue_sphet_3_1
+TEXT: トドゼルガは、20～30匹で群れをつくることが多い。敵に襲われると、リーダーが体を張って群れを守ると言われている。
+
+RESOURCE ID: quest_special_dialogue_sphet_3_2
+TEXT: トドゼルガがいれば、タマザラシも、トドグラーも安心だな。
+
+RESOURCE ID: quest_special_dialogue_sphet_3_3
+TEXT: きみにとっても、トドゼルガは頼もしいパートナーになってくれるだろう。
+
+RESOURCE ID: quest_special_dialogue_sphet_3_4
+TEXT: 協力に感謝する、%PLAYERNAME%！次の調査もよろしく頼むよ。その日まで．．．元気にGOだ！
 
 RESOURCE ID: quest_special_dialogue_spiritomb_0_0
 TEXT: おや、%PLAYERNAME%じゃないか！ちょうどよかった。
@@ -48733,6 +49613,15 @@ TEXT: なぜこんなにも変化が大きいんだろう？あなたの博士�
 RESOURCE ID: quest_special_dialogue_zigzagoon_3_6
 TEXT: 楽しくて学びの多い調査だった。ありがとう、ポケモントレーナー。次の調査でまた会おう。じゃあ、またね。
 
+RESOURCE ID: quest_sphet_catch_b
+TEXT: タマザラシを{0}匹捕まえる
+
+RESOURCE ID: quest_sphet_evolve_b
+TEXT: タマザラシを{0}匹進化させる
+
+RESOURCE ID: quest_sphet_evolve_s1
+TEXT: トドグラーを{0}匹進化させる
+
 RESOURCE ID: quest_spin_daysinarow
 TEXT: ポケストップを{0}日間連続で回す
 
@@ -48963,6 +49852,21 @@ TEXT: ビッパとビッパ (3/4)
 
 RESOURCE ID: quest_title_bidoof_branch_quest_3
 TEXT: ビッパとビッパ (4/4)
+
+RESOURCE ID: quest_title_bulbt
+TEXT: フシギダネコミュニティ・デイ（復刻）
+
+RESOURCE ID: quest_title_bulbt_0
+TEXT: フシギダネコミュニティ・デイ復刻 (1/4)
+
+RESOURCE ID: quest_title_bulbt_1
+TEXT: フシギダネコミュニティ・デイ復刻 (2/4)
+
+RESOURCE ID: quest_title_bulbt_2
+TEXT: フシギダネコミュニティ・デイ復刻 (3/4)
+
+RESOURCE ID: quest_title_bulbt_3
+TEXT: フシギダネコミュニティ・デイ復刻 (4/4)
 
 RESOURCE ID: quest_title_celebi
 TEXT: 時を越えるポケモンを追え！
@@ -49246,6 +50150,21 @@ TEXT: フーパを解き放て！(2/3)
 RESOURCE ID: quest_title_hoopaunbound_2
 TEXT: フーパを解き放て！(3/3)
 
+RESOURCE ID: quest_title_hoppt
+TEXT: わたくさポケモンを解明せよ！
+
+RESOURCE ID: quest_title_hoppt_0
+TEXT: わたくさポケモンを解明せよ！(1/4)
+
+RESOURCE ID: quest_title_hoppt_1
+TEXT: わたくさポケモンを解明せよ！(2/4)
+
+RESOURCE ID: quest_title_hoppt_2
+TEXT: わたくさポケモンを解明せよ！(3/4)
+
+RESOURCE ID: quest_title_hoppt_3
+TEXT: わたくさポケモンを解明せよ！(4/4)
+
 RESOURCE ID: quest_title_jirachi_0
 TEXT: GO Fest 2019 - Chicago (1/5)
 
@@ -49338,6 +50257,21 @@ TEXT: 色違いセレビィのリサーチ(3/4)
 
 RESOURCE ID: quest_title_jj_special_research_3
 TEXT: 色違いセレビィのリサーチ(4/4)
+
+RESOURCE ID: quest_title_litwick
+TEXT: ポケモン研究：ヒトモシ
+
+RESOURCE ID: quest_title_litwick_0
+TEXT: ポケモン研究：ヒトモシ (1/4)
+
+RESOURCE ID: quest_title_litwick_1
+TEXT: ポケモン研究：ヒトモシ (2/4)
+
+RESOURCE ID: quest_title_litwick_2
+TEXT: ポケモン研究：ヒトモシ (3/4)
+
+RESOURCE ID: quest_title_litwick_3
+TEXT: ポケモン研究：ヒトモシ (4/4)
 
 RESOURCE ID: quest_title_luminous_x_0
 TEXT: フェアリーレジェンドX(1/7)
@@ -49594,21 +50528,6 @@ TEXT: 大いなるメガ (3/4)
 RESOURCE ID: quest_title_megav3_branch_quest_3
 TEXT: 大いなるメガ (4/4)
 
-RESOURCE ID: quest_title_melemele
-TEXT: メレメレ島を研究せよ！
-
-RESOURCE ID: quest_title_melemele_0
-TEXT: メレメレ島を研究せよ！(1/4)
-
-RESOURCE ID: quest_title_melemele_1
-TEXT: メレメレ島を研究せよ！(2/4)
-
-RESOURCE ID: quest_title_melemele_2
-TEXT: メレメレ島を研究せよ！(3/4)
-
-RESOURCE ID: quest_title_melemele_3
-TEXT: メレメレ島を研究せよ！(4/4)
-
 RESOURCE ID: quest_title_meloetta
 TEXT: せんりつポケモンを解明せよ！
 
@@ -49776,6 +50695,9 @@ TEXT: バーチャルポケモンを解明せよ！(3/4)
 
 RESOURCE ID: quest_title_poryt_3
 TEXT: バーチャルポケモンを解明せよ！(4/4)
+
+RESOURCE ID: quest_title_power_jan22_0
+TEXT: ヒスイ地方からビリリダマ！？
 
 RESOURCE ID: quest_title_rocket
 TEXT: 怪しい集団の謎を追え！
@@ -50095,6 +51017,102 @@ TEXT: いたずらポケモンを解明せよ！(9/16)
 RESOURCE ID: quest_title_season4_9
 TEXT: いたずらポケモンを解明せよ！(10/16)
 
+RESOURCE ID: quest_title_season5_feb
+TEXT: ヘリテージシーズン：キャッチチャレンジ
+
+RESOURCE ID: quest_title_season5_feb_page_0
+TEXT: ヘリテージシーズン：キャッチチャレンジ (1/15)
+
+RESOURCE ID: quest_title_season5_feb_page_1
+TEXT: ヘリテージシーズン：キャッチチャレンジ (2/15)
+
+RESOURCE ID: quest_title_season5_feb_page_10
+TEXT: ヘリテージシーズン：キャッチチャレンジ (11/15)
+
+RESOURCE ID: quest_title_season5_feb_page_11
+TEXT: ヘリテージシーズン：キャッチチャレンジ (12/15)
+
+RESOURCE ID: quest_title_season5_feb_page_12
+TEXT: ヘリテージシーズン：キャッチチャレンジ (13/15)
+
+RESOURCE ID: quest_title_season5_feb_page_13
+TEXT: ヘリテージシーズン：キャッチチャレンジ (14/15)
+
+RESOURCE ID: quest_title_season5_feb_page_14
+TEXT: ヘリテージシーズン：キャッチチャレンジ (15/15)
+
+RESOURCE ID: quest_title_season5_feb_page_2
+TEXT: ヘリテージシーズン：キャッチチャレンジ (3/15)
+
+RESOURCE ID: quest_title_season5_feb_page_3
+TEXT: ヘリテージシーズン：キャッチチャレンジ (4/15)
+
+RESOURCE ID: quest_title_season5_feb_page_4
+TEXT: ヘリテージシーズン：キャッチチャレンジ (5/15)
+
+RESOURCE ID: quest_title_season5_feb_page_5
+TEXT: ヘリテージシーズン：キャッチチャレンジ (6/15)
+
+RESOURCE ID: quest_title_season5_feb_page_6
+TEXT: ヘリテージシーズン：キャッチチャレンジ (7/15)
+
+RESOURCE ID: quest_title_season5_feb_page_7
+TEXT: ヘリテージシーズン：キャッチチャレンジ (8/15)
+
+RESOURCE ID: quest_title_season5_feb_page_8
+TEXT: ヘリテージシーズン：キャッチチャレンジ (9/15)
+
+RESOURCE ID: quest_title_season5_feb_page_9
+TEXT: ヘリテージシーズン：キャッチチャレンジ (10/15)
+
+RESOURCE ID: quest_title_season5_jan
+TEXT: ヘリテージシーズン：XPチャレンジ
+
+RESOURCE ID: quest_title_season5_jan_page_0
+TEXT: ヘリテージシーズン：XPチャレンジ (1/15)
+
+RESOURCE ID: quest_title_season5_jan_page_1
+TEXT: ヘリテージシーズン：XPチャレンジ (2/15)
+
+RESOURCE ID: quest_title_season5_jan_page_10
+TEXT: ヘリテージシーズン：XPチャレンジ (11/15)
+
+RESOURCE ID: quest_title_season5_jan_page_11
+TEXT: ヘリテージシーズン：XPチャレンジ (12/15)
+
+RESOURCE ID: quest_title_season5_jan_page_12
+TEXT: ヘリテージシーズン：XPチャレンジ (13/15)
+
+RESOURCE ID: quest_title_season5_jan_page_13
+TEXT: ヘリテージシーズン：XPチャレンジ (14/15)
+
+RESOURCE ID: quest_title_season5_jan_page_14
+TEXT: ヘリテージシーズン：XPチャレンジ (15/15)
+
+RESOURCE ID: quest_title_season5_jan_page_2
+TEXT: ヘリテージシーズン：XPチャレンジ (3/15)
+
+RESOURCE ID: quest_title_season5_jan_page_3
+TEXT: ヘリテージシーズン：XPチャレンジ (4/15)
+
+RESOURCE ID: quest_title_season5_jan_page_4
+TEXT: ヘリテージシーズン：XPチャレンジ (5/15)
+
+RESOURCE ID: quest_title_season5_jan_page_5
+TEXT: ヘリテージシーズン：XPチャレンジ (6/15)
+
+RESOURCE ID: quest_title_season5_jan_page_6
+TEXT: ヘリテージシーズン：XPチャレンジ (7/15)
+
+RESOURCE ID: quest_title_season5_jan_page_7
+TEXT: ヘリテージシーズン：XPチャレンジ (8/15)
+
+RESOURCE ID: quest_title_season5_jan_page_8
+TEXT: ヘリテージシーズン：XPチャレンジ (9/15)
+
+RESOURCE ID: quest_title_season5_jan_page_9
+TEXT: ヘリテージシーズン：XPチャレンジ (10/15)
+
 RESOURCE ID: quest_title_season8
 TEXT: 星と雲に手を伸ばせ！
 
@@ -50157,6 +51175,21 @@ TEXT: くさへびポケモンを解明せよ！(3/4)
 
 RESOURCE ID: quest_title_snivt_3
 TEXT: くさへびポケモンを解明せよ！(4/4)
+
+RESOURCE ID: quest_title_sphet
+TEXT: てたたきポケモンを解明せよ！
+
+RESOURCE ID: quest_title_sphet_0
+TEXT: てたたきポケモンを解明せよ！(1/4)
+
+RESOURCE ID: quest_title_sphet_1
+TEXT: てたたきポケモンを解明せよ！(2/4)
+
+RESOURCE ID: quest_title_sphet_2
+TEXT: てたたきポケモンを解明せよ！(3/4)
+
+RESOURCE ID: quest_title_sphet_3
+TEXT: てたたきポケモンを解明せよ！(4/4)
 
 RESOURCE ID: quest_title_spiritomb
 TEXT: 石に込められた謎を解け！'18
@@ -50743,14 +51776,23 @@ TEXT: キズぐすりを使う
 RESOURCE ID: quest_use_charged_move_singular
 TEXT: こうかばつぐんのスペシャルアタックを使ってバトルする
 
+RESOURCE ID: quest_use_charged_tm
+TEXT: わざマシンスペシャルを使う
+
 RESOURCE ID: quest_use_dai_plural
 TEXT: おさんぽおこうを{0}回使う
 
 RESOURCE ID: quest_use_dai_singular
 TEXT: おさんぽおこうを使う
 
+RESOURCE ID: quest_use_fast_tm
+TEXT: わざマシンノーマルを使う
+
 RESOURCE ID: quest_use_hyper_potion
 TEXT: すごいキズぐすりを使う
+
+RESOURCE ID: quest_use_lure
+TEXT: ルアーモジュールを使う
 
 RESOURCE ID: quest_use_max_potion
 TEXT: まんたんのくすりを使う
@@ -50763,6 +51805,12 @@ TEXT: ふしぎなアメを{0}個使う
 
 RESOURCE ID: quest_use_rare_candy_singular
 TEXT: ふしぎなアメを使う
+
+RESOURCE ID: quest_use_standard_charged_tm
+TEXT: わざマシンスペシャルを使う
+
+RESOURCE ID: quest_use_standard_fast_tm
+TEXT: わざマシンノーマルを使う
 
 RESOURCE ID: quest_use_super_potion
 TEXT: いいキズぐすりを使う
@@ -50795,7 +51843,7 @@ RESOURCE ID: quest_walk_25km_inaweek_plural
 TEXT: 1週間に25km歩くリワードを{0}回もらう
 
 RESOURCE ID: quest_walk_buddy_plural
-TEXT: 相棒と歩いて{0}個アメをもらう
+TEXT: 相棒と歩いてアメを{0}個もらう
 
 RESOURCE ID: quest_walk_buddy_singular
 TEXT: 相棒と歩いてアメを1個もらう
@@ -50928,6 +51976,9 @@ TEXT: コクーンを{0}匹進化させる
 
 RESOURCE ID: quest_wt_evolve_weedle
 TEXT: ビードルを{0}匹進化させる
+
+RESOURCE ID: quest_xp_plural
+TEXT: XPを{0}獲得する
 
 RESOURCE ID: quest_zigzagoon_catch_b
 TEXT: ガラルのジグザグマを{0}匹捕まえる
@@ -52302,6 +53353,9 @@ TEXT: チャーレムのレイド・デイ
 
 RESOURCE ID: raid_day_meditite
 TEXT: アサナンのレイド・デイ
+
+RESOURCE ID: raid_day_mega_gyarados
+TEXT: レイド・デイ：メガギャラドス
 
 RESOURCE ID: raid_day_mega_kangaskhan
 TEXT: レイド・デイ：メガガルーラ
@@ -56197,7 +57251,7 @@ RESOURCE ID: route_collapsed_show_more
 TEXT: もっと見る ({0})
 
 RESOURCE ID: route_completion_congratulation
-TEXT: ありがとうございます！
+TEXT: やったー！
 
 RESOURCE ID: route_completion_get_medal
 TEXT: {0}メダルを手に入れた！
@@ -56239,13 +57293,11 @@ RESOURCE ID: route_create_medal_context_title
 TEXT: ポケルートメダル
 
 RESOURCE ID: route_creation_onboarding_page_1
-TEXT: There are 3 steps to creating a Route:
+TEXT: ポケルートをつくるには、以下の手順を踏みます。
 
-  1. Plan your Route
- 2. Walk to verify each Pokéstop
- 3. Add info and submit your Route
-
-  Walking & verifying each Pokéstop ensures that the Route is safe for others!
+1.ポケストップ／ジムをつなげてプランニングする
+2.ポケルート上のポケストップ／ジムを訪れ検証することで安全性を高める
+3.情報を付けて提出する
 
 RESOURCE ID: route_creation_onboarding_page_2
 TEXT: Routes are interesting journeys. Pick a theme for the Pokéstops you discover, such as History, Art, or Nature, and share them with others.
@@ -56345,7 +57397,7 @@ RESOURCE ID: route_list_item_default_description
 TEXT: Click to start creating a Route
 
 RESOURCE ID: route_list_item_default_title
-TEXT: {0}番ポケルート
+TEXT: ポケルート No.{0}
 
 RESOURCE ID: route_load_timeout
 TEXT: Route took too long to load. Please try again.
@@ -56357,7 +57409,7 @@ RESOURCE ID: route_maker_item_confirmation_description
 TEXT: アクティブなポケルートメーカーはここに表示されます
 
 RESOURCE ID: route_maker_max_warning
-TEXT: You have the max number of Route Makers! Routes must be approved before you can get more.
+TEXT: ポケルートメーカーの上限数を持っています。ポケルートをつくって承認を受けてください。
 
 RESOURCE ID: route_map_out_of_bound_warning
 TEXT: 離れすぎています
@@ -56378,10 +57430,12 @@ RESOURCE ID: route_min_label
 TEXT: {0}分
 
 RESOURCE ID: route_nearby_help_distance
-TEXT: 現在位置からスタート地点までの距離
+TEXT: 現在位置から
+スタート地点までの距離
 
 RESOURCE ID: route_nearby_help_duration
-TEXT: スタート地点から終点までの推定所要時間
+TEXT: スタート地点から
+終点までの推定所要時間
 
 RESOURCE ID: route_nearby_help_official_route
 TEXT: NIANTICパートナーによりつくられたポケルートにこのラベルが付きます
@@ -56454,7 +57508,7 @@ RESOURCE ID: route_poi_list_view_description_short_tip
 TEXT: Add at least {0} more Pokestop(s) and/or Gym(s) to Route.
 
 RESOURCE ID: route_poi_list_view_description_tip
-TEXT: Select additional Pokéstops or Gyms in sequence to complete your Route.
+TEXT: 訪れる順番でポケストップ／ジムを選んで追加してください
 
 RESOURCE ID: route_poi_list_view_max_wp_tip
 TEXT: Your route has the maximum number of waypoints
@@ -56481,7 +57535,7 @@ RESOURCE ID: route_rating_description
 TEXT: このポケルートを楽しめましたか？評価をお願いします。
 
 RESOURCE ID: route_rating_reason
-TEXT: 複数選択できます
+TEXT: 複数選択可
 
 RESOURCE ID: route_rating_reason_bad_accessibility
 TEXT: アクセスできない
@@ -56560,7 +57614,7 @@ RESOURCE ID: route_report_permanent
 TEXT: 恒久的な問題
 
 RESOURCE ID: route_report_submit_description
-TEXT: Thank you for sharing your report. We are sorry for the inconvenience. This route has been canceled.
+TEXT: ご報告ありがとうございます。このポケルートはキャンセルされました。
 
 RESOURCE ID: route_report_submit_title
 TEXT: Your report was submitted
@@ -56602,7 +57656,7 @@ RESOURCE ID: route_spinning_add_to_route
 TEXT: This Waypoint isn't included in the Route. Do you want to add it?
 
 RESOURCE ID: route_spinning_poi_out_of_order
-TEXT: Please spin Waypoints in the order they appear in the route.
+TEXT: ポケストップ／ジムを順番に訪れフォトディスクを回してください
 
 RESOURCE ID: route_spinning_visit_poi
 TEXT: Please spin the photo disk to verify this Waypoint.
@@ -56778,7 +57832,7 @@ RESOURCE ID: route_validation_max_checkpoint
 TEXT: Routes cannot have more than {0} checkpoints.
 
 RESOURCE ID: route_validation_max_checkpoint_between_poi
-TEXT: There cannot be more than {0} checkpoints between Waypoints #{1} and #{2}.
+TEXT: {1}番と{2}番ストップの間には{0}より多いポイントを含めることはできません
 
 RESOURCE ID: route_validation_max_checkpoint_per_distance
 TEXT: Routes can have 1 added checkpoint per each {0} meters. Too many waypoints added.
@@ -56787,7 +57841,7 @@ RESOURCE ID: route_validation_max_distance_checkpoint
 TEXT: Checkpoint #{0} cannot be further than {1} meters away.
 
 RESOURCE ID: route_validation_max_distance_poi
-TEXT: Distance between Waypoints #{0} and #{1} cannot exceed {2} meters.
+TEXT: {0}番と{1}番ストップの間の距離は{2}メートルを超えてはいけません
 
 RESOURCE ID: route_validation_max_length
 TEXT: Route cannot be longer than {0} meters.
@@ -56799,7 +57853,7 @@ RESOURCE ID: route_validation_min_distance_checkpoint
 TEXT: Checkpoint #{0} must be at least {1} meters away.
 
 RESOURCE ID: route_validation_min_distance_poi
-TEXT: Distance between Waypoints #{0} and #{1} must exceed {2} meters.
+TEXT: {0}番と{1}番ストップ間の距離は{2}メートルを超える必要があります
 
 RESOURCE ID: route_validation_min_length
 TEXT: Route cannot be shorter than {0} meters.
@@ -56844,7 +57898,7 @@ RESOURCE ID: route_walking_head_to_start
 TEXT: Please go to the starting Pokéstop/Gym and spin the ring.
 
 RESOURCE ID: route_walking_head_to_waypoint
-TEXT: Please go to Waypoint #{0}: {1} and spin the ring.
+TEXT: {0}番ストップの「{1}」へ行きディスクを回してください
 
 RESOURCE ID: route_walking_poi_spin
 TEXT: This is Waypoint #{0}: {1}. Please spin the disk to confirm it.
@@ -56858,7 +57912,7 @@ TEXT: You don’t have Route maker.
  You can get a new Route maker for creating new routes
 
 RESOURCE ID: routemaker_description
-TEXT: A device that lets you create Routes. You can have up to 5 active at a time.
+TEXT: ポケルートをつくれる装置。一度に5個まで持てる。
 
 RESOURCE ID: routemaker_title
 TEXT: ポケルートメーカー
@@ -56909,7 +57963,7 @@ RESOURCE ID: safari zone
 TEXT: SAFARI ZONE
 
 RESOURCE ID: safari_2019_buddy_plural
-TEXT: Safari Zone: 相棒と歩いて{0}個アメをもらう
+TEXT: Safari Zone: 相棒と歩いてアメを{0}個もらう
 
 RESOURCE ID: safari_2019_buddy_singular
 TEXT: Safari Zone: 相棒と歩いてアメを1個もらう
@@ -57323,7 +58377,7 @@ RESOURCE ID: screen_title_news
 TEXT: ニュース
 
 RESOURCE ID: screen_title_notification
-TEXT: 通知のオン・オフ
+TEXT: 通知
 
 RESOURCE ID: screen_title_pokedex
 TEXT: 図鑑
@@ -58440,6 +59494,9 @@ TEXT: フカマルがより多く野生で出現
 RESOURCE ID: spawn_hoppip
 TEXT: ハネッコがより多く野生で出現
 
+RESOURCE ID: spawn_litwick
+TEXT: ヒトモシがより多く野生で出現
+
 RESOURCE ID: spawn_machop
 TEXT: ワンリキーがより多く野生で出現
 
@@ -59334,212 +60391,44 @@ TEXT: Pokémon GO Fest 2022: シアトル – 公園(4/5)
 RESOURCE ID: sr_gofest2022_leseap_5
 TEXT: Pokémon GO Fest 2022: シアトル – 公園(5/5)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_10
-TEXT: きみは、ポケモンや仲間とジョウト地方について学ぶことに専念してくれ！
+RESOURCE ID: sr_gotour2022_1
+TEXT: GO Tour：ジョウト地方 (1/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_3
-TEXT: あくやはがねのようなタイプが発見された地方でもあるな。ポケモンじいさんや、ふしぎなタマゴも！
+RESOURCE ID: sr_gotour2022_2
+TEXT: GO Tour：ジョウト地方 (2/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_4
-TEXT: ジョウト地方で最初に発見されたポケモンといえば．．．セレビィの目撃情報が入ってきているんだ。
+RESOURCE ID: sr_gotour2022_3
+TEXT: GO Tour：ジョウト地方 (3/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_5
-TEXT: セレビィは、時を越えると言われている。
+RESOURCE ID: sr_gotour2022_4
+TEXT: GO Tour：ジョウト地方 (4/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_6
-TEXT: ヒスイ地方のビリリダマが現れたことがあっただろう？あの件に関係があるんじゃないかと、今でも思っている。
+RESOURCE ID: sr_gotour2022_5
+TEXT: GO Tour：ジョウト地方 (5/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_7
-TEXT: しかも、今回現れたセレビィは特別なワザを覚えているという噂だ。
+RESOURCE ID: sr_gotour2022_6
+TEXT: GO Tour：ジョウト地方 (6/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_8
-TEXT: それから、GOロケット団の動きについて、気になることがあるんだが、
+RESOURCE ID: sr_gotour2022_7
+TEXT: GO Tour：ジョウト地方 (7/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_0_9
-TEXT: それはわたしのほうで調べておく。
+RESOURCE ID: sr_gotour2022_8
+TEXT: GO Tour：ジョウト地方 (8/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_1_0
-TEXT: 冒険に必要なもの、それは何だと思う、%PLAYERNAME%？一緒に旅する仲間。
+RESOURCE ID: sr_gotour2022_9
+TEXT: GO Tour：ジョウト地方 (9/9)
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_1_1
-TEXT: これらのポケモンは、ジョウト地方のトレーナーが最初に選ぶポケモンだ。3匹のポケモンのなかから1匹選んでくれ！
+RESOURCE ID: sr_gotour2022_sr_dialogue_0_0
+TEXT: やぁ、%PLAYERNAME%！準備はいいかな？いよいよこれから、きみのものがたりが始まる。今日のような冒険が初めての人もいれば、経験者もいるだろう。
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_0
-TEXT: きみにぴったりなポケモンだ、%PLAYERNAME%！
+RESOURCE ID: sr_gotour2022_sr_dialogue_0_1
+TEXT: そう、今日はジョウト地方で発見されたポケモンたちや、ジョウト地方の特徴について学ぶ調査を行う。
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_1_chikorita
-TEXT: チコリータは、はっぱポケモンで、おとなしい。日差しを浴びるのが大好きなんだ。頭の葉っぱから、ほのかな甘い香りが漂う。なんとも可愛らしい表情だ！
+RESOURCE ID: sr_gotour2022_sr_dialogue_0_2
+TEXT: ジョウト地方は「歴史」と「今」が共存する地方。いにしえの美が感じられるエンジュシティ、そのそばに、現代的なメトロポリスであるコガネシティがある。
 
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_1_cyndaquil
-TEXT: ヒノアラシは、ひねずみポケモン。おくびょうでいつも体を丸めていることで知られている。襲われると、背中の炎を燃え上がらせ身を守るんだ。抱きしめて怖くないよ、って言ってあげたくなるな。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_1_totodile
-TEXT: ワニノコは、おおあごポケモンだ。小さいながらも暴れん坊。動くものには、とにかくかみつく。まあ気をつけていれば問題ないだろう．．．
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_2_2
-TEXT: きみの選んだポケモン、一緒に冒険に出かけたくてうずうずしているって感じだ。さぁ、ジョウト地方の旅を始めよう！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_0_chikorita
-TEXT: わあ、きみのチコリータ、ベイリーフにもう進化したのか！ちょうど良かった、%PLAYERNAME%！ちょっと困ったことになった。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_0_cyndaquil
-TEXT: わあ、きみのヒノアラシ、マグマラシにもう進化したのか！ちょうど良かった、%PLAYERNAME%！ちょっと困ったことになった。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_0_totodile
-TEXT: わあ、きみのワニノコ、アリゲイツにもう進化したのか！ちょうど良かった、%PLAYERNAME%！ちょっと困ったことになった。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_1
-TEXT: GOロケット団に動きがあった。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_2
-TEXT: ちょっと混乱させようというようなレベルではなく、襲撃だ。わたしたちの楽しみを奪うことがやつらの楽しみでもあるしな。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_3
-TEXT: セレビィの目撃情報をつかんでいるのだろうか？何をたくらんでいる？
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_3_4
-TEXT: GOロケット団のしたっぱを倒す手伝いをまたお願いしたい。頼んだぞ！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_0
-TEXT: 素晴らしい、%PLAYERNAME%！GOロケット団を捜査しているときに、したっぱが大声で強すぎるトレーナーにやられたと叫びながら走っていった。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_1
-TEXT: きみのことだろう？思った通りだ。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_2
-TEXT: 興味深い情報を共有しよう。ギャラドスが現れたらしいんだ。それも、よく知っているギャラドスじゃないようなんだ。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_3
-TEXT: このギャラドスは激怒していて、そう、ジョウト地方のいかりのみずうみで起きたことに似た状況にある。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_4
-TEXT: あのときは、ロケット団が、あやしい電波を使ってコイキングを進化させたことがきっかけだった。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_5
-TEXT: ふむ。どこかで聞いたようなたくらみ．．．シャドウポケモンとそっくりだ．．．しかも、シャドウポケモンは増えてきている。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_6
-TEXT: 電波のような技術と、あの謎の扉を開けて盗んだものとの関係は？なんらかのパワーを増幅させる、もしくは変化させる方法を開発したのかもしれない。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_4_7
-TEXT: それに、セレビィの持つ、時間を越える能力まで利用しようとしているのか？だとしたら！．．．GOロケット団ならやりかねない。急いでギャラドスを救って、セレビィをさがそう。手遅れになる前に！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_0
-TEXT: さすがだ、%PLAYERNAME%！きみが救ってくれたので、ギャラドスはだいぶ落ち着いている。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_1
-TEXT: GOロケット団も撤退し始めたようだ。やっと本来の活動に戻れるぞ。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_2_chikorita
-TEXT: きみのベイリーフも一緒に遊んでほしい、って言っているみたいだ！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_2_cyndaquil
-TEXT: きみのマグマラシも一緒に遊んでほしい、って言っているみたいだ！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_2_totodile
-TEXT: きみのアリゲイツも一緒に遊んでほしい、って言っているみたいだ！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_3
-TEXT: いろいろあったが、ポケモンや仲間と一緒に楽しむことに集中しよう。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_4
-TEXT: そうこう言っているうちに、
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_5_chikorita
-TEXT: きみのベイリーフは進化する準備ができたようだぞ！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_5_cyndaquil
-TEXT: きみのマグマラシは進化する準備ができたようだぞ！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_5_5_totodile
-TEXT: きみのアリゲイツは進化する準備ができたようだぞ！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_0_chikorita
-TEXT: あ、きみのメガニウム、幸せオーラで輝いているな！こっちまで楽しくなるよ！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_0_cyndaquil
-TEXT: あ、きみのバクフーン、幸せオーラで輝いているな！こっちまで楽しくなるよ！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_0_totodile
-TEXT: あ、きみのオーダイル、幸せオーラで輝いているな！こっちまで楽しくなるよ！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_1
-TEXT: 新しい友達をつくる、自分の住む世界をよく知る、どれも楽しい活動だ。これがないと人生は味気ないものになる。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_2
-TEXT: あの謎の扉のことも、いろいろ歩き回らなければ見つけられなかっただろう。GOロケット団からの邪魔が入ったが。時にはハラハラするのも悪くない．．．
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_6_3
-TEXT: ．．．わたしの人生観はこれくらいにして、きみは、残りの時間を有効に使ってくれ。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_7_0
-TEXT: %PLAYERNAME%！たった今、セレビィ情報が入った！今動けば捕まえることができるかもしれない！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_7_1
-TEXT: さぁ、GOだ！
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_0
-TEXT: セレビィを捕まえたんだな！見事だ！セレビィが現れるかぎり、明るい未来がやってくるんだ。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_1
-TEXT: きっと良い事が起きるに違いない。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_2
-TEXT: GOロケット団との騒動のあとには、ほっとする知らせだな。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_3
-TEXT: きみが調査しているあいだ、GOロケット団が隠そうとしていた事実をつかむことができた。やつらは、ホウオウとルギアを捕まえたようだ。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_4
-TEXT: それだけじゃない。謎の扉から盗んだパワーと電波の技術を組み合わせて、ルギアとホウオウを、かつてないほど強力なシャドウポケモンに変えた、ということまでわかった。
-
-RESOURCE ID: sr_gotour2022_sr_dialogue_8_5
-TEXT: これらのポケモンはシャドウホウオウ・APEX、シャドウルギア・APEXと呼ばれている。準備はいいか、%PLAYERNAME%。気を引き締めていくぞ！
-
-RESOURCE ID: sr_gotoursik_dialogue_0_0
-TEXT: やぁ、%PLAYERNAME%、おはよう！!昨日の調査は楽しんでくれたかな？今日はカントー地方に関連した調査をお願いしたい。
-
-RESOURCE ID: sr_gotoursik_dialogue_0_1
-TEXT: ポケモンとの冒険にはぴったりの調査内容だ。
-
-RESOURCE ID: sr_gotoursik_dialogue_0_2
-TEXT: 早速始めよう！
-
-RESOURCE ID: sr_gotoursik_dialogue_1_0
-TEXT: ちょっと疲れたかな、%PLAYERNAME%？相棒のポケモンと遊んだり、きのみをあげたりして休憩してみては？
-
-RESOURCE ID: sr_gotoursik_dialogue_1_1
-TEXT: お腹が減っているトレーナーは、ついでにスナックタイムだ。
-
-RESOURCE ID: sr_gotoursik_dialogue_2_0
-TEXT: エネルギー補給できたかな、%PLAYERNAME%？準備が整ったところで、次にお願いするのはポケモンとその生息地に関する調査。
-
-RESOURCE ID: sr_gotoursik_dialogue_2_1
-TEXT: 5種類の違った生息地があり、それぞれに違うポケモンがいるようだ。どこにどんなポケモンがいるか、捕まえて調査してくれ！
-
-RESOURCE ID: sr_gotoursik_dialogue_3_0
-TEXT: 良い写真ばかりだ、%PLAYERNAME%！ポケモンの特徴をよくとらえている！楽しそうな表情も多いな。
-
-RESOURCE ID: sr_gotoursik_dialogue_3_1
-TEXT: たくさんのポケモンに出会い楽しい時間を過ごせたかな？
-
-RESOURCE ID: sr_gotoursik_dialogue_3_2
-TEXT: トレーナーたちとの交流は？
-
-RESOURCE ID: sr_gotoursik_dialogue_3_3
-TEXT: 友達になって、ポケモンを交換したり、対戦したり、楽しんで交流してみるといい。
-
-RESOURCE ID: sr_gotoursik_dialogue_4_0
-TEXT: おかえり、%PLAYERNAME%！きみが友達をつくっているあいだ、伝説のポケモンが目撃されたんだ。
-
-RESOURCE ID: sr_gotoursik_dialogue_4_1
-TEXT: 楽しそうな雰囲気につられて、何かが現れても不思議はない。調べてみよう。
-
-RESOURCE ID: sr_gotoursik_dialogue_5_0
-TEXT: ん！？そ、それはミュウツーなのか？すごいじゃないか！この世は驚きであふれている。
-
-RESOURCE ID: sr_gotoursik_dialogue_5_1
-TEXT: 充実した調査だったな、%PLAYERNAME%。残りの時間も存分に楽しんでくれ！では、また会えるときまで、元気にGOだ！
+RESOURCE ID: standard_raid_box_title
+TEXT: 標準レイドボックス
 
 RESOURCE ID: star_piece_duration_double
 TEXT: 2× ほしのかけら時間
@@ -60092,7 +60981,7 @@ RESOURCE ID: thai
 TEXT: ภาษาไทย
 
 RESOURCE ID: themed_stickers_description
-TEXT: ポケストップを回したりギフトを開けてりしてシーズンに合わせてデザインされたステッカーを手に入れることができます。ステッカーはショップで購入できます。
+TEXT: シーズンに合わせてデザインされたステッカーはポケストップを回したりギフトを開けると入手できます。ショップでも購入が可能です。
 
 RESOURCE ID: themed_stickers_name
 TEXT: テーマステッカー
@@ -60170,6 +61059,9 @@ TEXT: 「フーパを解き放て！」チケットがショップに登場
 
 RESOURCE ID: ticket_hoppip
 TEXT: 「わたくさポケモンを解明せよ！」チケットがショップに登場
+
+RESOURCE ID: ticket_litwick
+TEXT: 「ポケモン研究：ヒトモシ」チケットがショップに登場
 
 RESOURCE ID: ticket_machop
 TEXT: 「かいりきポケモンを解明せよ！」チケットがショップに登場
@@ -60918,6 +61810,9 @@ TEXT: 1、2、の．．．ポカン！
 RESOURCE ID: today
 TEXT: 今日
 
+RESOURCE ID: today_view_all_hours
+TEXT: 全アワーのポケモンが出現中！
+
 RESOURCE ID: today_view_catch_competition
 TEXT: リージョナルチャレンジ大会
 
@@ -61126,7 +62021,7 @@ RESOURCE ID: trade_exclusion_reason_gym_deployed
 TEXT: ジムに配置されています
 
 RESOURCE ID: trade_exclusion_reason_mythical
-TEXT: シャドウポケモンや、幻のポケモンは交換できません。
+TEXT: シャドウポケモン、幻のポケモンを含む一部のポケモンは交換できません
 
 RESOURCE ID: trade_exclusion_reason_player_cannot_afford
 TEXT: ほしのすなが足りません
@@ -61341,6 +62236,9 @@ TEXT: Lv. {0}
 RESOURCE ID: trading_waiting
 TEXT: 待機中...
 
+RESOURCE ID: trainee_box_title
+TEXT: トレーナーボックス
+
 RESOURCE ID: trainer_code_label
 TEXT: トレーナーコード
 
@@ -61435,16 +62333,16 @@ RESOURCE ID: tutorial_level_40_plus_intro
 TEXT: ここまで、よく頑張った！
 
 RESOURCE ID: tutorial_vivillon_postcard_body_0
-TEXT: 異なる地域からのポストカードを集めると、ポケモンに出会えることがあります。
+TEXT: 特定の地域からのポストカードを複数枚ピンするとポケモンに出会えることがあります。
 
 RESOURCE ID: tutorial_vivillon_postcard_body_1
 TEXT: 住んでいる土地の気候の影響によってビビヨンの羽模様は変わります。どこにどんな模様のビビヨンが住んでいるかはビビヨンマップを参考にしてください。図鑑から、もしくは、ビビヨンメダル画面からビビヨンマップにアクセスできます。
 
 RESOURCE ID: tutorial_vivillon_postcard_body_2
-TEXT: フレンドから送られたポストカードを保存すると、ポストカードの場所に関連したビビヨンメダルが進みます。同じ場所からのポストカードを集めると、その生息地のビビヨンに出会えるチャンスが増えます。
+TEXT: フレンドから送られたポストカードを保存すると、ポストカードの場所に関連したビビヨンメダルが進みます。特定の場所からのポストカードを数枚集めることで、その生息地に住むコフキムシに出会えるチャンスが増えます。
 
 RESOURCE ID: tutorial_vivillon_postcard_header
-TEXT: 世界中のビビヨンを集めよう！
+TEXT: 世界中のビビヨンを捕まえよう！
 
 RESOURCE ID: tutorial_xl_candy_1
 TEXT: アメXLを手に入れたようだな！ポケモンの強化が簡単になるアメだ。
@@ -61607,6 +62505,9 @@ TEXT: HLプレミアクラシック
 
 RESOURCE ID: ultra_premier_cup_title
 TEXT: ハイパープレミア
+
+RESOURCE ID: ultra_raid_box_title
+TEXT: ハイパーレイドボックス
 
 RESOURCE ID: ultra_unlock_event_2020
 TEXT: ウルトラボーナスアンロック2020
@@ -62047,7 +62948,7 @@ RESOURCE ID: vd22_collection_challenge_2
 TEXT: バレンタインチャレンジ2
 
 RESOURCE ID: verbose_logs_disable_body
-TEXT: ログの保存を停止すると、アップロード前の{1}ログは消えます
+TEXT: ログの保存を停止するとアップロード前の{1}ログは消えます
 
 RESOURCE ID: verbose_logs_disable_title
 TEXT: ログの保存を停止しますか？
@@ -62108,6 +63009,9 @@ TEXT: ログ1件アップロード中...
 RESOURCE ID: verbose_logs_uploading_count_plural
 TEXT: ログ{0}件アップロード中...
 
+RESOURCE ID: veteran_box_title
+TEXT: ベテランボックス
+
 RESOURCE ID: video_sponsored_gift_tutorial_description_1
 TEXT: 冒険の途中で動画広告付きスポンサーギフトを受け取ることがあります。
 
@@ -62140,6 +63044,9 @@ TEXT: 詳細はヘルプセンターでご確認ください
 
 RESOURCE ID: volbeat_illumise_all_regions
 TEXT: バルビートとイルミーゼが全世界でより多く野生で出現
+
+RESOURCE ID: voyager_box_title
+TEXT: 散策ボックス
 
 RESOURCE ID: vs_seeker_charged_notification
 TEXT: GOバトルリーグ参加権を得た！
@@ -62526,6 +63433,9 @@ TEXT: 闘争心カップ
 RESOURCE ID: winter event
 TEXT: 冬真っ盛りイベント
 
+RESOURCE ID: winter_holiday_catch_timed_research
+TEXT: ウィンター：キャッチチャレンジ
+
 RESOURCE ID: winter_holiday_event_name
 TEXT: ウィンターイベント
 
@@ -62534,6 +63444,9 @@ TEXT: ウィンターイベント：パート1
 
 RESOURCE ID: winter_holiday_event_name_part2
 TEXT: ウィンターイベント：パート2
+
+RESOURCE ID: winter_holiday_friendship_timed_research
+TEXT: ウィンター：フレンドチャレンジ
 
 RESOURCE ID: winter_solstice_event_name
 TEXT: 冬イベント
@@ -62558,6 +63471,9 @@ TEXT: 世界観光の日: 捕まえた場所の距離が10,000km離れている�
 
 RESOURCE ID: wte_2019_trade_distance_hard_z
 TEXT: 世界観光の日: 捕まえた場所の距離が10,000km離れているポケモンを交換する
+
+RESOURCE ID: ww_2021_collection_challenge
+TEXT: ウィンターワンダーランドチャレンジ
 
 RESOURCE ID: xp_bonus_hourly
 TEXT: 20000 XP
