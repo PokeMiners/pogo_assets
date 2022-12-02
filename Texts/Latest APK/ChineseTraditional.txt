@@ -714,6 +714,9 @@ TEXT: 歡迎來到阿羅拉
 RESOURCE ID: alola_pokedex_header
 TEXT: 阿羅拉的樣子
 
+RESOURCE ID: already_have_account
+TEXT: Already have an account?
+
 RESOURCE ID: anniversary_2021_collection_challenge
 TEXT: 五週年收藏
 
@@ -828,11 +831,20 @@ TEXT: 整體而言，你的 {0} 還算不錯！
 RESOURCE ID: appraise_size_huge_1|1
 TEXT: 你的 {0} ……真是太巨大了。這個尺寸實在是異常地大。太厲害了！
 
+RESOURCE ID: appraise_size_huge_1|1b
+TEXT: Your {0} would be categorized as unusually large.
+
 RESOURCE ID: appraise_size_huge_2|1
 TEXT: 你的 {0} 真是巨大！是我看過最大的！
 
+RESOURCE ID: appraise_size_huge_2|1b
+TEXT: Hey, that’s an enormous {0}!
+
 RESOURCE ID: appraise_size_huge_3|1
 TEXT: 你的 {0} 也太巨大了吧！
+
+RESOURCE ID: appraise_size_huge_3|1b
+TEXT: Your {0} is just HUGE!
 
 RESOURCE ID: appraise_size_large_1|1
 TEXT: 你的 {0} 比一般尺寸大。
@@ -864,29 +876,38 @@ TEXT: 你的 {0} 似乎有點偏小，你不覺得嗎？
 RESOURCE ID: appraise_size_tiny_1|1
 TEXT: 你的 {0} 是我們有史以來見過最小的。太驚人了。
 
+RESOURCE ID: appraise_size_tiny_1|1b
+TEXT: Your {0} would be categorized as unusually small.
+
 RESOURCE ID: appraise_size_tiny_2|1
 TEXT: 你的 {0} 實在太小了，我差點就沒注意到牠的存在呢！
+
+RESOURCE ID: appraise_size_tiny_2|1b
+TEXT: That’s a lil’ {0} you’ve got there!
 
 RESOURCE ID: appraise_size_tiny_3|1
 TEXT: 哇喔！這是我有史以來看過最小的 {0} ！
 
+RESOURCE ID: appraise_size_tiny_3|1b
+TEXT: Your {0} is pretty petite, huh? 
+
 RESOURCE ID: appraise_size_xxl_1|1
-TEXT: The size of your {0} is...colossal. This is indeed exceptional. Fascinating!
+TEXT: The size of your {0} is...colossal. This is indeed exceptional—fascinating!
 
 RESOURCE ID: appraise_size_xxl_2|1
-TEXT: Your {0} is gigantic—the largest I've ever seen!
+TEXT: Your {0} is gigantic—the largest I’ve ever seen!
 
 RESOURCE ID: appraise_size_xxl_3|1
-TEXT: Your {0} is massive! ...Could it be the biggest {0} in the world?
+TEXT: Your {0} is massive! This might be one of the biggest {0} in the world...
 
 RESOURCE ID: appraise_size_xxs_1|1
 TEXT: Your {0} is tinier than any we have on record. Astounding.
 
 RESOURCE ID: appraise_size_xxs_2|1
-TEXT: Your {0} is so tiny, I almost didn't notice it!
+TEXT: Your {0} is so tiny, I almost didn’t notice it!
 
 RESOURCE ID: appraise_size_xxs_3|1
-TEXT: Wh-whoa. That's the tiniest {0} I've ever seen!
+TEXT: Wh-whoa. I’ve never seen such a tiny {0} before!
 
 RESOURCE ID: appraise_stat_best_1|1
 TEXT: 牠的能力完全超出我的預測，太不可思議了！
@@ -1446,7 +1467,7 @@ RESOURCE ID: avatar_f_backpack_longchampbp_00_bundle_icon
 TEXT: Longchamp 背包
 
 RESOURCE ID: avatar_f_backpack_lunala
-TEXT: Lunala Wings
+TEXT: 露奈雅拉雙翼
 
 RESOURCE ID: avatar_f_backpack_mimikyubp_0_bundle_icon
 TEXT: 謎擬Ｑ背包
@@ -1523,6 +1544,10 @@ TEXT: 水屬性口罩
 RESOURCE ID: avatar_f_face_banettemask_00_bundle_icon
 TEXT: 詛咒娃娃口罩
 
+RESOURCE ID: avatar_f_face_dayofthedead_00_bundle_icon
+TEXT: Día de Muertos
+顏面彩繪
+
 RESOURCE ID: avatar_f_face_defaultmask_00_bundle_icon
 TEXT: 口罩
 
@@ -1558,7 +1583,7 @@ RESOURCE ID: avatar_f_face_sableyemask_00_bundle_icon
 TEXT: 勾魂眼口罩
 
 RESOURCE ID: avatar_f_face_solgaleo
-TEXT: Solgaleo Mask
+TEXT: 索爾迦雷歐頭套
 
 RESOURCE ID: avatar_f_face_teamskull_00_bundle_icon
 TEXT: 骷髏隊面罩
@@ -1680,7 +1705,7 @@ RESOURCE ID: avatar_f_gloves_swshuniformchampion_00_bundle_icon
 TEXT: 丹帝款手套
 
 RESOURCE ID: avatar_f_gloves_swshuniformdark_00_bundle_icon
-TEXT: 尖釘鎮競技服 手套
+TEXT: 惡屬性運動手套
 
 RESOURCE ID: avatar_f_gloves_swshuniformdefault_00_bundle_icon
 TEXT: 競技服 手套
@@ -1754,6 +1779,9 @@ TEXT: 神奧地區款 帽子
 
 RESOURCE ID: avatar_f_hat_drifloon_0_bundle_icon
 TEXT: 飄飄球帽
+
+RESOURCE ID: avatar_f_hat_dusclopsmummy_00_bundle_icon
+TEXT: 彷徨夜靈頭套
 
 RESOURCE ID: avatar_f_hat_eeveecap_0_bundle_icon
 TEXT: 伊布帽
@@ -2034,6 +2062,9 @@ TEXT: 滾滾蝙蝠耳環
 RESOURCE ID: avatar_f_hat_yamaskhat_00_bundle_icon
 TEXT: 哭哭面具大禮帽
 
+RESOURCE ID: avatar_f_hat_zubathat_00_bundle_icon
+TEXT: 超音蝠髮箍
+
 RESOURCE ID: avatar_f_necklace_default_bundle_icon
 TEXT: 蝴蝶結短項鍊
 
@@ -2111,6 +2142,9 @@ TEXT: 城都連身短褲
 RESOURCE ID: avatar_f_pants_loosepants_0_bundle_icon
 TEXT: 點點寬褲
 
+RESOURCE ID: avatar_f_pants_lunala
+TEXT: 露奈雅拉長褲
+
 RESOURCE ID: avatar_f_pants_luvdiscpack_0_bundle_icon
 TEXT: 愛心魚破洞牛仔褲
 
@@ -2172,7 +2206,7 @@ RESOURCE ID: avatar_f_pants_swshuniformchampion_00_bundle_icon
 TEXT: 丹帝款緊身褲
 
 RESOURCE ID: avatar_f_pants_swshuniformdark_00_bundle_icon
-TEXT: 尖釘鎮競技服 內搭褲
+TEXT: 惡屬性運動內搭褲
 
 RESOURCE ID: avatar_f_pants_swshuniformdefault_00_bundle_icon
 TEXT: 競技服 短褲
@@ -2286,6 +2320,9 @@ TEXT: 神奧地區款 上衣組合
 
 RESOURCE ID: avatar_f_shirt_drifblim_0_bundle_icon
 TEXT: 隨風球T恤
+
+RESOURCE ID: avatar_f_shirt_dusclopsmummy_00_bundle_icon
+TEXT: 彷徨夜靈裝
 
 RESOURCE ID: avatar_f_shirt_earthday_2018_bundle_icon
 TEXT: 藍海衝浪T
@@ -2631,7 +2668,7 @@ RESOURCE ID: avatar_f_shirt_swshuniformchampion_00_bundle_icon
 TEXT: 丹帝款上衣
 
 RESOURCE ID: avatar_f_shirt_swshuniformdark_00_bundle_icon
-TEXT: 尖釘鎮競技服 上衣
+TEXT: 惡屬性運動上衣
 
 RESOURCE ID: avatar_f_shirt_swshuniformdefault_00_bundle_icon
 TEXT: 競技服 上衣
@@ -2738,6 +2775,9 @@ TEXT: 2022 WCS
 
 RESOURCE ID: avatar_f_shirt_whitecoat_00_bundle_icon
 TEXT: 排釦大衣 白
+
+RESOURCE ID: avatar_f_shirt_zoruaonesie_00_bundle_icon
+TEXT: 索羅亞裝
 
 RESOURCE ID: avatar_f_shoes_6thanniversary_00_bundle_icon
 TEXT: 6週年
@@ -2866,6 +2906,9 @@ TEXT: 涼鞋
 RESOURCE ID: avatar_f_shoes_sandals_2_bundle_icon
 TEXT: 涼鞋
 
+RESOURCE ID: avatar_f_shoes_solgaleo
+TEXT: 索爾迦雷歐鞋
+
 RESOURCE ID: avatar_f_shoes_ss_0_bundle_icon
 TEXT: 伽勒爾短靴
 
@@ -2879,7 +2922,7 @@ RESOURCE ID: avatar_f_shoes_swshdlccostume_00_bundle_icon
 TEXT: 鎧島運動鞋
 
 RESOURCE ID: avatar_f_shoes_swshuniformdark_00_bundle_icon
-TEXT: 尖釘鎮競技服 運動鞋
+TEXT: 惡屬性高筒運動鞋
 
 RESOURCE ID: avatar_f_shoes_swshuniformdefault_00_bundle_icon
 TEXT: 競技服 運動鞋
@@ -2931,10 +2974,10 @@ RESOURCE ID: avatar_f_shoes_winterboots_00_bundle_icon
 TEXT: 冬季短靴
 
 RESOURCE ID: avatar_f_shoes_winterboots_01_bundle_icon
-TEXT: 冬季短靴
+TEXT: 冬季短靴 2
 
 RESOURCE ID: avatar_f_shoes_winterboots_02_bundle_icon
-TEXT: 冬季短靴
+TEXT: 冬季短靴 3
 
 RESOURCE ID: avatar_f_shoes_winterboots_03_bundle_icon
 TEXT: 冬季短靴
@@ -2947,6 +2990,9 @@ TEXT: 不穿襪子
 
 RESOURCE ID: avatar_f_socks_fw2022_00_bundle_icon
 TEXT: 好壞星長襪
+
+RESOURCE ID: avatar_f_socks_galaxy
+TEXT: 星空緊身褲
 
 RESOURCE ID: avatar_f_socks_hgss_bundle_icon
 TEXT: 城都過膝長襪
@@ -3060,7 +3106,7 @@ RESOURCE ID: avatar_m_backpack_longchampbp_00_bundle_icon
 TEXT: Longchamp 背包
 
 RESOURCE ID: avatar_m_backpack_lunala
-TEXT: Lunala Wings
+TEXT: 露奈雅拉雙翼
 
 RESOURCE ID: avatar_m_backpack_mimikyubp_0_bundle_icon
 TEXT: 謎擬Ｑ背包
@@ -3119,6 +3165,10 @@ TEXT: 水屬性口罩
 RESOURCE ID: avatar_m_face_banettemask_00_bundle_icon
 TEXT: 詛咒娃娃口罩
 
+RESOURCE ID: avatar_m_face_dayofthedead_00_bundle_icon
+TEXT: Día de Muertos
+顏面彩繪
+
 RESOURCE ID: avatar_m_face_defaultmask_00_bundle_icon
 TEXT: 口罩
 
@@ -3154,7 +3204,7 @@ RESOURCE ID: avatar_m_face_sableyemask_00_bundle_icon
 TEXT: 勾魂眼口罩
 
 RESOURCE ID: avatar_m_face_solgaleo
-TEXT: Solgaleo Mask
+TEXT: 索爾迦雷歐頭套
 
 RESOURCE ID: avatar_m_face_teamskull_00_bundle_icon
 TEXT: 骷髏隊面罩
@@ -3279,7 +3329,7 @@ RESOURCE ID: avatar_m_gloves_swshuniformchampion_00_bundle_icon
 TEXT: 丹帝款手套
 
 RESOURCE ID: avatar_m_gloves_swshuniformdark_00_bundle_icon
-TEXT: 尖釘鎮競技服 手套
+TEXT: 惡屬性高筒運動鞋
 
 RESOURCE ID: avatar_m_gloves_swshuniformdefault_00_bundle_icon
 TEXT: 競技服 手套
@@ -3350,6 +3400,9 @@ TEXT: 神奧地區款 帽子
 
 RESOURCE ID: avatar_m_hat_drifloon_0_bundle_icon
 TEXT: 飄飄球帽
+
+RESOURCE ID: avatar_m_hat_dusclopsmummy_00_bundle_icon
+TEXT: 彷徨夜靈頭套
 
 RESOURCE ID: avatar_m_hat_eeveecap_0_bundle_icon
 TEXT: 伊布帽
@@ -3627,6 +3680,9 @@ TEXT: 滾滾蝙蝠耳環
 RESOURCE ID: avatar_m_hat_yamaskhat_00_bundle_icon
 TEXT: 哭哭面具大禮帽
 
+RESOURCE ID: avatar_m_hat_zubathat_00_bundle_icon
+TEXT: 超音蝠髮箍
+
 RESOURCE ID: avatar_m_pants_6thanniversary_00_bundle_icon
 TEXT: 6週年白西裝
 西裝褲
@@ -3707,6 +3763,9 @@ TEXT: 可爾妮 短褲
 RESOURCE ID: avatar_m_pants_loosepants_0_bundle_icon
 TEXT: 點點寬褲
 
+RESOURCE ID: avatar_m_pants_lunala
+TEXT: 露奈雅拉長褲
+
 RESOURCE ID: avatar_m_pants_luvdiscpack_0_bundle_icon
 TEXT: 愛心魚破洞牛仔褲
 
@@ -3756,7 +3815,7 @@ RESOURCE ID: avatar_m_pants_swshuniformchampion_00_bundle_icon
 TEXT: 丹帝款緊身褲
 
 RESOURCE ID: avatar_m_pants_swshuniformdark_00_bundle_icon
-TEXT: 尖釘鎮競技服 內搭褲
+TEXT: 惡屬性運動內搭褲
 
 RESOURCE ID: avatar_m_pants_swshuniformdefault_00_bundle_icon
 TEXT: 競技服 短褲
@@ -3879,6 +3938,9 @@ TEXT: 神奧地區款 上衣組合
 
 RESOURCE ID: avatar_m_shirt_drifblim_0_bundle_icon
 TEXT: 隨風球T恤
+
+RESOURCE ID: avatar_m_shirt_dusclopsmummy_00_bundle_icon
+TEXT: 彷徨夜靈裝
 
 RESOURCE ID: avatar_m_shirt_earthday_2018_bundle_icon
 TEXT: 藍海衝浪T
@@ -4227,7 +4289,7 @@ RESOURCE ID: avatar_m_shirt_swshuniformchampion_00_bundle_icon
 TEXT: 丹帝款上衣
 
 RESOURCE ID: avatar_m_shirt_swshuniformdark_00_bundle_icon
-TEXT: 尖釘鎮競技服 上衣
+TEXT: 惡屬性運動上衣
 
 RESOURCE ID: avatar_m_shirt_swshuniformdefault_00_bundle_icon
 TEXT: 競技服 上衣
@@ -4334,6 +4396,9 @@ TEXT: 2022 WCS
 
 RESOURCE ID: avatar_m_shirt_whitecoat_00_bundle_icon
 TEXT: 排釦大衣 白
+
+RESOURCE ID: avatar_m_shirt_zoruaonesie_00_bundle_icon
+TEXT: 索羅亞裝
 
 RESOURCE ID: avatar_m_shoes_6thanniversary_00_bundle_icon
 TEXT: 6週年
@@ -4465,6 +4530,9 @@ TEXT: 涼鞋
 RESOURCE ID: avatar_m_shoes_sandals_2_bundle_icon
 TEXT: 涼鞋
 
+RESOURCE ID: avatar_m_shoes_solgaleo
+TEXT: 索爾迦雷歐鞋
+
 RESOURCE ID: avatar_m_shoes_ss_0_bundle_icon
 TEXT: 伽勒爾休閒鞋
 
@@ -4478,7 +4546,7 @@ RESOURCE ID: avatar_m_shoes_swshdlccostume_00_bundle_icon
 TEXT: 鎧島運動鞋
 
 RESOURCE ID: avatar_m_shoes_swshuniformdark_00_bundle_icon
-TEXT: 尖釘鎮競技服 運動鞋
+TEXT: 惡屬性高筒運動鞋
 
 RESOURCE ID: avatar_m_shoes_swshuniformdefault_00_bundle_icon
 TEXT: 競技服 運動鞋
@@ -4530,10 +4598,10 @@ RESOURCE ID: avatar_m_shoes_winterboots_00_bundle_icon
 TEXT: 冬季短靴
 
 RESOURCE ID: avatar_m_shoes_winterboots_01_bundle_icon
-TEXT: 冬季短靴
+TEXT: 冬季短靴 2
 
 RESOURCE ID: avatar_m_shoes_winterboots_02_bundle_icon
-TEXT: 冬季短靴
+TEXT: 冬季短靴 3
 
 RESOURCE ID: avatar_m_shoes_winterboots_03_bundle_icon
 TEXT: 冬季短靴
@@ -4546,6 +4614,9 @@ TEXT: 不穿襪子
 
 RESOURCE ID: avatar_m_socks_fw2022_00_bundle_icon
 TEXT: 好壞星長襪
+
+RESOURCE ID: avatar_m_socks_galaxy
+TEXT: 星空緊身褲
 
 RESOURCE ID: avatar_m_socks_sneakersocks_00_bundle_icon
 TEXT: 短襪
@@ -4733,131 +4804,134 @@ TEXT: 擁有1個正港好夥伴
 RESOURCE ID: badge_buddy_best_title
 TEXT: 正港好夥伴
 
+RESOURCE ID: badge_butterfly_collector
+TEXT: 收集來自世界各地的彩粉蝶吧！
+
 RESOURCE ID: badge_butterfly_collector_archipelago_singular
-TEXT: Collect Archipelago Pattern Vivillon.
+TEXT: 釘選來自群島花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_archipelago_title
-TEXT: Archipelago Collector
+TEXT: 群島收藏家
 
 RESOURCE ID: badge_butterfly_collector_continental_singular
-TEXT: Collect Continental Pattern Vivillon.
+TEXT: 釘選來自大陸花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_continental_title
-TEXT: Continental Collector
+TEXT: 大陸收藏家
 
 RESOURCE ID: badge_butterfly_collector_elegant_singular
-TEXT: Collect Elegant Pattern Vivillon.
+TEXT: 釘選來自高雅花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_elegant_title
-TEXT: Elegant Collector
+TEXT: 高雅收藏家
 
 RESOURCE ID: badge_butterfly_collector_fancy_singular
-TEXT: Collect Fancy Pattern Vivillon.
+TEXT: 收集幻彩花紋的明信片！
 
 RESOURCE ID: badge_butterfly_collector_fancy_title
-TEXT: Fancy Collector
+TEXT: 幻彩收藏家
 
 RESOURCE ID: badge_butterfly_collector_garden_singular
-TEXT: Collect Continental Pattern Vivillon.
+TEXT: 釘選來自庭園花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_garden_title
-TEXT: Garden Collector
+TEXT: 庭園收藏家
 
 RESOURCE ID: badge_butterfly_collector_high_plains_singular
-TEXT: Collect High Plains Pattern Vivillon.
+TEXT: 釘選來自荒野花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_high_plains_title
-TEXT: High Plains Collector
+TEXT: 荒野收藏家
 
 RESOURCE ID: badge_butterfly_collector_icy_snow_singular
-TEXT: Collect Icy Snow Pattern Vivillon.
+TEXT: 釘選來自冰雪花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_icy_snow_title
-TEXT: Icy Snow Collector
+TEXT: 冰雪收藏家
 
 RESOURCE ID: badge_butterfly_collector_jungle_singular
-TEXT: Collect Jungle Pattern Vivillon.
+TEXT: 釘選來自熱帶雨林花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_jungle_title
-TEXT: Jungle Collector
+TEXT: 熱帶雨林收藏家
 
 RESOURCE ID: badge_butterfly_collector_marine_singular
-TEXT: Collect Marine Pattern Vivillon.
+TEXT: 釘選來自大海花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_marine_title
-TEXT: Marine Collector
+TEXT: 大海收藏家
 
 RESOURCE ID: badge_butterfly_collector_meadow_singular
-TEXT: Collect Meadow Pattern Vivillon.
+TEXT: 釘選來自花園花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_meadow_title
-TEXT: Meadow Collector
+TEXT: 花園收藏家
 
 RESOURCE ID: badge_butterfly_collector_modern_singular
-TEXT: Collect Modern Pattern Vivillon.
+TEXT: 釘選來自摩登花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_modern_title
-TEXT: Modern Collector
+TEXT: 摩登收藏家
 
 RESOURCE ID: badge_butterfly_collector_monsoon_singular
-TEXT: Collect Monsoon Pattern Vivillon.
+TEXT: 釘選來自驟雨花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_monsoon_title
-TEXT: Monsoon Collector
+TEXT: 驟雨收藏家
 
 RESOURCE ID: badge_butterfly_collector_ocean_singular
-TEXT: Collect Ocean Pattern Vivillon.
+TEXT: 釘選來自大洋花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_ocean_title
-TEXT: Ocean Collector
+TEXT: 大洋收藏家
 
 RESOURCE ID: badge_butterfly_collector_pokeball_singular
-TEXT: Collect Poké Ball Pattern Vivillon.
+TEXT: 釘選來自球球花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_pokeball_title
-TEXT: Poké Ball Collector
+TEXT: 球球收藏家
 
 RESOURCE ID: badge_butterfly_collector_polar_singular
-TEXT: Collect Polar Pattern Vivillon.
+TEXT: 釘選來自雪國花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_polar_title
-TEXT: Polar Collector
+TEXT: 雪國收藏家
 
 RESOURCE ID: badge_butterfly_collector_river_singular
-TEXT: Collect River Pattern Vivillon.
+TEXT: 釘選來自大河花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_river_title
-TEXT: River Collector
+TEXT: 大河收藏家
 
 RESOURCE ID: badge_butterfly_collector_sandstorm_singular
-TEXT: Collect Sandstorm Pattern Vivillon.
+TEXT: 釘選來自沙塵花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_sandstorm_title
-TEXT: Sandstorm Collector
+TEXT: 沙塵收藏家
 
 RESOURCE ID: badge_butterfly_collector_savannah_singular
-TEXT: Collect Savannah Pattern Vivillon.
+TEXT: 釘選來自熱帶花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_savannah_title
-TEXT: Savannah Collector
+TEXT: 熱帶草原收藏家
 
 RESOURCE ID: badge_butterfly_collector_singular
-TEXT: Collect Vivillon from all over the world.
+TEXT: 收集來自世界各地的彩粉蝶吧！
 
 RESOURCE ID: badge_butterfly_collector_sun_singular
-TEXT: Collect Sun Pattern Vivillon.
+TEXT: 釘選來自太陽花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_sun_title
-TEXT: Sun Collector
+TEXT: 太陽收藏家
 
 RESOURCE ID: badge_butterfly_collector_title
-TEXT: Butterfly Collector
+TEXT: 彩粉蝶收藏家
 
 RESOURCE ID: badge_butterfly_collector_tundra__singular
-TEXT: Collect Tundra Pattern Vivillon.
+TEXT: 釘選來自雪原花紋彩粉蝶棲息地的明信片
 
 RESOURCE ID: badge_butterfly_collector_tundra_title
-TEXT: Tundra Collector
+TEXT: 雪原收藏家
 
 RESOURCE ID: badge_capture_bonus_reward
 TEXT: {1} 屬性的捕捉獎勵 ＋ {0}
@@ -6466,6 +6540,102 @@ TEXT: Pokémon GO Safari Zone
 
 RESOURCE ID: badge_safarizone_2022_seville_day_03_general_title
 TEXT: 塞維亞，2022年5月15日
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_earlyaccess
+TEXT: Singapore 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_earlyaccess_title
+TEXT: Pokémon GO Safari Zone—Early Access
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_general
+TEXT: Singapore 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_earlyaccess
+TEXT: Singapore, October 21, 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_earlyaccess_title
+TEXT: Pokémon GO Safari Zone—Early Access
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_general
+TEXT: Singapore, October 21, 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_earlyaccess
+TEXT: Singapore, October 22, 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_earlyaccess_title
+TEXT: Pokémon GO Safari Zone—Early Access
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_general
+TEXT: Singapore, October 22, 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_earlyaccess
+TEXT: Singapore, October 23, 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_earlyaccess_title
+TEXT: Pokémon GO Safari Zone—Early Access
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_general
+TEXT: Singapore, October 23, 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_earlyaccess
+TEXT: Taipei 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_earlyaccess_title
+TEXT: Pokémon GO Safari Zone - 提前入場
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_general
+TEXT: Taipei 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_earlyaccess
+TEXT: 台北、2022年10月21日
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_earlyaccess_title
+TEXT: Pokémon GO Safari Zone - 提前入場
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_general
+TEXT: 台北、2022年10月21日
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_earlyaccess
+TEXT: 台北、2022年10月22日
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_earlyaccess_title
+TEXT: Pokémon GO Safari Zone - 提前入場
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_general
+TEXT: 台北、2022年10月22日
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_earlyaccess
+TEXT: 台北、2022年10月23日
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_earlyaccess_title
+TEXT: Pokémon GO Safari Zone - 提前入場
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_general
+TEXT: 台北、2022年10月23日
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_general_title
+TEXT: Pokémon GO Safari Zone
 
 RESOURCE ID: badge_sentosa_18_apr_2019
 TEXT: 2019年4月18日 聖淘沙
@@ -9684,7 +9854,7 @@ RESOURCE ID: bonus_active
 TEXT: 獎勵已解鎖！
 
 RESOURCE ID: bonus_buddy_catch_assist_boosted
-TEXT: Increased chance of buddy Catch Assist if your Buddy Level is Great Buddy or higher
+TEXT: 夥伴等級在給力好夥伴以上的夥伴將在捕捉寶可夢時提供更多協助
 
 RESOURCE ID: bonus_candy_nice_great_excel
 TEXT: 以Nice/Great/Excellent捉到寶可夢時可獲得額外的糖果
@@ -9701,6 +9871,9 @@ TEXT: 阿羅拉隆隆石進化成阿羅拉隆隆岩後，將能學會「滾動�
 RESOURCE ID: bonus_cd_move_deino
 TEXT: 讓雙首暴龍進化為三首惡龍後，牠就能學會特殊招式「狂舞揮打」！
 
+RESOURCE ID: bonus_cd_move_dratini_cdc
+TEXT: Evolve Dragonair to get a Dragonite that knows the Charged Attack Draco Meteor!
+
 RESOURCE ID: bonus_cd_move_litwick
 TEXT: 讓燈火幽靈進化成水晶燈火靈後，牠就能學會特殊招式「靈騷」！
 
@@ -9709,6 +9882,9 @@ TEXT: 讓地幔岩進化成龐岩怪後，牠將能學會特殊招式「流星�
 
 RESOURCE ID: bonus_cd_move_starly
 TEXT: 讓姆克鳥進化成姆克鷹，牠就能學會一般招式「起風」
+
+RESOURCE ID: bonus_cd_move_teddiursa
+TEXT: Evolve Ursaring to get an Ursaluna that knows the Charged Attack High Horsepower!
 
 RESOURCE ID: bonus_cd_move_zigzagoon
 TEXT: 讓伽勒爾直衝熊進化成堵攔熊後，牠就能學會特殊招式「攔堵」
@@ -9721,6 +9897,12 @@ TEXT: 轉動指定區域內寶可補給站轉盤時可獲得活動貼圖
 
 RESOURCE ID: bonus_event_sticker_plural
 TEXT: 轉動指定區域內寶可補給站轉盤時可獲得活動貼圖
+
+RESOURCE ID: bonus_exclusive_souvenir
+TEXT: 夥伴有機會找到活動限定的紀念品！
+
+RESOURCE ID: bonus_finneon_o_clock
+TEXT: 每個小時整點時，螢光魚將會大量出現！
 
 RESOURCE ID: bonus_implicit_social_alodude
 TEXT: 用誘餌模組捕捉的寶可夢超過特定數量後的30分鐘內，在該誘餌模組附近捕捉寶可夢將可獲得4倍星星沙子獎勵。
@@ -9747,7 +9929,7 @@ RESOURCE ID: bonus_implicit_social_lure_title
 TEXT: 社群日大挑戰：捕捉
 
 RESOURCE ID: bonus_implicit_social_raid_title
-TEXT: 社群日大挑戰：團體戰
+TEXT: Community Day Challenge: Raid
 
 RESOURCE ID: bonus_implicit_social_roggenrola_raid
 TEXT: 如果訓練家們同心協力在團體戰中擊敗地幔岩，接下來的30分鐘裡將會有大量石丸子在附近出現。
@@ -9757,6 +9939,9 @@ TEXT: 只要訓練家們在團體戰裡同心協力打倒姆克鳥，接下來30
 
 RESOURCE ID: bonus_implicit_social_stufful
 TEXT: 用誘餌模組捕捉的寶可夢超過特定數量後的30分鐘內，在該誘餌模組附近捕捉寶可夢將可獲得4倍XP獎勵。
+
+RESOURCE ID: bonus_implicit_social_teddiursa_raid
+TEXT: If Trainers work together to win an Ursaring Raid Battle, large numbers of Teddiursa will appear in the area for 30 minutes
 
 RESOURCE ID: bonus_implicit_social_unlock
 TEXT: 獎勵解鎖！
@@ -9773,11 +9958,17 @@ TEXT: 誘餌模組效果延長為3小時
 RESOURCE ID: bonus_magnetic_lure_6_hr
 TEXT: 磁鐵誘餌模組效果延長為6小時
 
+RESOURCE ID: bonus_mega_latias_latios
+TEXT: 超級拉帝亞斯及超級拉帝歐斯團體戰將在附近登場！
+
 RESOURCE ID: bonus_milestone_rewards_title
 TEXT: 加成里程碑獎勵
 
 RESOURCE ID: bonus_not_active
 TEXT: 獎勵尚未解鎖
+
+RESOURCE ID: bonus_purrloin_o_clock
+TEXT: At the top of each hour, Purrloin will appear in large numbers!
 
 RESOURCE ID: bonus_raid_trainers_gym_bug_types
 TEXT: 如果訓練家們一起參加團體戰，大量的蟲屬性寶可夢將在附近出沒15分鐘。
@@ -9842,8 +10033,23 @@ TEXT: 孵蛋所需的行走距離減為1/2
 RESOURCE ID: bonus_reward_quarter_hatch_distance
 TEXT: 孵蛋所需的行走距離減為1/4
 
+RESOURCE ID: bonus_singapore_photobomb
+TEXT: 花花T恤皮卡丘和太陽珊瑚將在GO Snapshot裡驚喜現身5次！
+
+RESOURCE ID: bonus_spawn_corsola
+TEXT: 更多太陽珊瑚出現在地圖上!
+
+RESOURCE ID: bonus_spawn_lapras
+TEXT: More Lapras are appearing in the area!
+
 RESOURCE ID: bonus_spawn_pikachu
 TEXT: 更多皮卡丘出現在地圖上
+
+RESOURCE ID: bonus_spawn_regional_pika
+TEXT: 換上特別打扮的皮卡丘將在附近出現！
+
+RESOURCE ID: bonus_spawn_snorlax
+TEXT: 更多卡比獸出現在地圖上!
 
 RESOURCE ID: bonus_special_trade_double_cd
 TEXT: 在活動結束5小時後的最後期限前，可多進行1次特殊交換
@@ -9859,6 +10065,9 @@ TEXT: 在活動結束5小時後的最後期限前，可多進行1次特殊交換
 
 RESOURCE ID: bonus_spritzee_o_clock
 TEXT: 每個小時整點時，粉香香將會大量出現！
+
+RESOURCE ID: bonus_taipei_photobomb
+TEXT: 樹果T恤皮卡丘和太陽珊瑚將在GO Snapshot裡驚喜現身5次！
 
 RESOURCE ID: bonus_trade_stardust_50pc_5hr
 TEXT: 在活動結束五小時後的最後期限前，交換所需的星星沙子減半.
@@ -10608,6 +10817,12 @@ TEXT: 長得很像會長在派拉斯等蘑菇寶可夢身上的菇類。有些�
 RESOURCE ID: buddy_souvenir_mushroom_name
 TEXT: 蘑菇
 
+RESOURCE ID: buddy_souvenir_paper_airplane_description
+TEXT: Pokémon GO Safari Zone:Taipei
+
+RESOURCE ID: buddy_souvenir_paper_airplane_name
+TEXT: 紙飛機
+
 RESOURCE ID: buddy_souvenir_pikachu_visor_description
 TEXT: 很多訓練家會在活動時戴上的時尚遮陽帽。皮卡皮卡！
 
@@ -10992,6 +11207,9 @@ TEXT: 特別禮盒
 RESOURCE ID: bundle_retweet_reward
 TEXT: 轉推禮盒
 
+RESOURCE ID: calavera_bonus_tr_title
+TEXT: Cráneo Monumental: Bonus Timed Research
+
 RESOURCE ID: campfire_invite_notification
 TEXT: Campfire：收到來自{0}的邀請！
 
@@ -11062,7 +11280,7 @@ RESOURCE ID: candy_to_xl_trade
 TEXT: 要把{0}的糖果轉換成{0}糖果XL嗎？
 
 RESOURCE ID: candy_to_xl_trade_plural
-TEXT: 要把{0}的糖果轉換成{0}糖果XL嗎？
+TEXT: 要把{0}的糖果轉換成{0}的糖果XL嗎？
 
 RESOURCE ID: candy_trade_xl
 TEXT: 糖果→糖果XL
@@ -13071,6 +13289,9 @@ TEXT: 挑戰訓練家
 RESOURCE ID: combat_scan_qr_code_to_combat
 TEXT: 請對方掃描此對戰條碼，開始對戰！
 
+RESOURCE ID: combat_schedule_open_error
+TEXT: Schedule cannot be opened at this time.
+
 RESOURCE ID: combat_sierra_name
 TEXT: 幹部 希爾拉
 
@@ -13165,6 +13386,9 @@ TEXT: 2021年12月社群日週末
 RESOURCE ID: community_day_deino_event_name
 TEXT: 社群日：單首龍
 
+RESOURCE ID: community_day_dratini_cdc_event_name
+TEXT: Dratini Community Day Classic
+
 RESOURCE ID: community_day_duskull_event_name
 TEXT: 社群日：夜巡靈
 
@@ -13249,6 +13473,9 @@ TEXT: 社群日：童偶熊
 RESOURCE ID: community_day_swablu_event_name
 TEXT: 社群日：青綿鳥
 
+RESOURCE ID: community_day_teddiursa_event_name
+TEXT: Community Day: Teddiursa
+
 RESOURCE ID: community_day_tepig_event_name
 TEXT: 社群日：暖暖豬
 
@@ -13290,7 +13517,7 @@ RESOURCE ID: continue_to_battle_button
 TEXT: 參加對戰
 
 RESOURCE ID: convert_to_stardust
-TEXT: You’ll be able to receive Stardust if you open this Gift, but you won’t receive other items because your Item Bag is full.  You can change whether Gifts can be opened while your Item Bag is full by going to the Settings menu.
+TEXT: 由於目前包包已滿，打開友情禮物後只能收到星星沙子。你可以在「設定」中選擇是否要在包包已滿時打開友情禮物。
 
 RESOURCE ID: copy_friend_code_title
 TEXT: 複製訓練家代碼
@@ -13414,6 +13641,9 @@ TEXT: 龍螺旋之塔尋謎
 
 RESOURCE ID: ddlm_2021_collection_challenge
 TEXT: Día de Muertos 2021：收藏家挑戰
+
+RESOURCE ID: ddlm_2022_collection_challenge
+TEXT: Día de Muertos 2022：收藏家挑戰
 
 RESOURCE ID: december_cd_event_ticket
 TEXT: 十二月社群日入場券
@@ -13643,6 +13873,9 @@ TEXT: 不能指派相同種類的寶可夢到道館
 RESOURCE ID: disabled_mythic
 TEXT: 不能將幻之寶可夢指派至道館
 
+RESOURCE ID: dont_have_account
+TEXT: Don’t have an account?
+
 RESOURCE ID: dont_use_adventure_sync
 TEXT: 不使用時時刻刻冒險
 
@@ -13817,6 +14050,9 @@ TEXT: 元素盃
 
 RESOURCE ID: element_remix_cup_title
 TEXT: Element Cup Remix
+
+RESOURCE ID: elite_raid_title
+TEXT: 菁英團體戰
 
 RESOURCE ID: elite_tm_charged_cd_box
 TEXT: 內含厲害特殊招式學習器的社群日禮盒
@@ -15380,6 +15616,10 @@ TEXT: 捕蟲少年姿勢
 RESOURCE ID: f_avatar_poses_bundle_pose_41
 TEXT: 古茲馬姿勢
 
+RESOURCE ID: f_avatar_poses_bundle_pose_43
+TEXT: 南瓜精
+提燈姿勢
+
 RESOURCE ID: f_avatar_poses_bundle_pose_44
 TEXT: 仙女棒姿勢
 
@@ -15496,6 +15736,15 @@ TEXT: +{0} XP
 
 RESOURCE ID: festival_of_colors_event_name
 TEXT: 色彩節
+
+RESOURCE ID: festival_of_lights_catch_challenge
+TEXT: 光之祭典：限時調查
+
+RESOURCE ID: festival_of_lights_catch_challenge_page_1
+TEXT: 光之祭典：限時調查 (1/2)
+
+RESOURCE ID: festival_of_lights_catch_challenge_page_2
+TEXT: 光之祭典：限時調查 (2/2)
 
 RESOURCE ID: festivaloflights_event_name
 TEXT: 光之祭典
@@ -15719,6 +15968,12 @@ TEXT: 異色
 
 RESOURCE ID: filter_label_traded
 TEXT: 交換
+
+RESOURCE ID: finneon_o_clock
+TEXT: 螢光魚時刻
+
+RESOURCE ID: finneon_o_clock_description
+TEXT: 許多螢光魚將在四周出現!
 
 RESOURCE ID: fire_type_event
 TEXT: 急速上昇：火屬性
@@ -16993,6 +17248,14 @@ TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當�
 
 請務必在上述活動時間內完成活動指定的課題，以取得活動獎勵。
 
+RESOURCE ID: general1.ticket.1_halloween_description
+TEXT: 不論你身在世界上的任何地方，你都可以用這場入場券在當地時間2022年10月20日10:00～11月1日10:00在遊戲裡領取萬聖節限時調查。你可以在這次萬聖節限時調查中獲得追加的萬聖節主題換裝道具。詳情請至遊戲中快訊確認。
+
+請注意，限時調查的課題必須在2022年11月1日10:00前完成並領取獎勵。
+
+RESOURCE ID: general1.ticket.1_halloween_title
+TEXT: 萬聖節限時調查入場券
+
 RESOURCE ID: general1.ticket.1_title
 TEXT: 伽勒爾魔牆人偶活動入場券
 
@@ -17038,6 +17301,9 @@ TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當�
 
 請務必在上述活動時間內完成活動指定的課題，以取得活動獎勵。
 
+RESOURCE ID: general1.ticket.2_dratini_cdc_title
+TEXT: Dratini Community Day Classic
+
 RESOURCE ID: general1.ticket.2_duskt_description
 TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2021年10月9日11:00～17:00領取夜巡靈社群日的特殊調查「夜夜夜巡靈」。詳情請至遊戲內快訊確認。
 
@@ -17070,6 +17336,14 @@ TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當�
 RESOURCE ID: general1.ticket.2_giblt_title
 TEXT: 大口咬住入場券
 
+RESOURCE ID: general1.ticket.2_halloween_description
+TEXT: 不論你身在世界上的任何地方，你都可以用這場入場券在當地時間2022年10月20日10:00～11月1日10:00在遊戲裡領取哭哭面具限時調查。詳情請至遊戲中快訊確認。
+
+請注意，限時調查的課題必須在2022年11月1日10:00前完成並領取獎勵。
+
+RESOURCE ID: general1.ticket.2_halloween_title
+TEXT: 哭哭面具限時調查入場券
+
 RESOURCE ID: general1.ticket.2_hoopau_description
 TEXT: 不論你身處世界的何處，你都可以使用這張入場券領取特殊調查「解放惡作劇」。只要在台灣時間2021年12月1日9:59前完成特殊調查「不被理解的光怪陸離」，就能免費領取此特殊調查。免費領取到此特殊調查的訓練家也可以到商店購買此入場券，取得相同的課題並獲得相同獎勵。詳情請至遊戲內快訊或官方部落格確認。
 
@@ -17092,7 +17366,7 @@ TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當�
 請務必在上述活動時間內完成活動指定的課題，以取得活動獎勵。
 
 RESOURCE ID: general1.ticket.2_litwick_title
-TEXT: Field Notes: Trick of the Light
+TEXT: 燭光靈調查筆記
 
 RESOURCE ID: general1.ticket.2_machop_description
 TEXT: 不論你身處世界的何處，你都可以使用這張入場券在當地時間2021年1月16日11:00～17:00領取腕力社群日「腕力衝衝衝」的特殊調查。詳情請至遊戲內快訊確認。
@@ -17179,6 +17453,14 @@ TEXT: 一張可以獲得五月社群日特殊調查的入場券。不論你身�
 
 RESOURCE ID: general1.ticket.2_swabt_title
 TEXT: 「綿翼小鳥」入場券
+
+RESOURCE ID: general1.ticket.2_teddiursa_description
+TEXT: A ticket to access the Sweet Snacks Special Research on November 12, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_teddiursa_title
+TEXT: Sweet Snacks
 
 RESOURCE ID: general1.ticket.2_tepit_description
 TEXT: 一張可以獲得七月社群日特殊調查的入場券。不論你身處世界何處，你都可以使用這張入場券在當地時間2021年7月3日11:00～17:00時領取七月社群日特殊調查「火烤樹果」。詳情請至遊戲內快訊確認。
@@ -17419,6 +17701,11 @@ RESOURCE ID: generic_player_lockout
 TEXT: 系統偵測到違反服務條款的行為，故已將此帳號停權。
 
 請至<a href="three_strike_policy_url">常見問題</a>確認詳細資訊。
+
+RESOURCE ID: gengeneral1.ticket.2_dratini_cdc_description
+TEXT: A ticket to access the Dratini Community Day Classic Special Research on November 5, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
 RESOURCE ID: geotarget_quest_description
 TEXT: 掃描 {0}
@@ -21025,6 +21312,117 @@ TEXT: 直擊！古生代寶可夢之謎：投出 {0} 次Nice
 RESOURCE ID: gt_2020_spin_medium
 TEXT: 直擊！古生代寶可夢之謎：拜訪 {0} 個寶可補給站
 
+RESOURCE ID: guest_account_link_success_subtitle
+TEXT: You now have access to more features so you can further enjoy the game!
+
+RESOURCE ID: guest_account_link_success_title
+TEXT: Success! Your account has been linked.
+
+RESOURCE ID: guest_auth_failed
+TEXT: Unable to authenticate. Please try again.
+
+RESOURCE ID: guest_level_expiration_subtitle
+TEXT: You will need to sign up to continue playing.
+
+RESOURCE ID: guest_level_expiration_title
+TEXT: Sign up to unlock Level 15 and access more features!
+
+RESOURCE ID: guest_login_button
+TEXT: PLAY AS GUEST
+
+RESOURCE ID: guest_login_sign_up_today_label
+TEXT: Sign up today!
+
+RESOURCE ID: guest_play_without_sign_in
+TEXT: Want to play without signing in?
+
+RESOURCE ID: guest_restricted_feature_adsync_eggs
+TEXT: Hatch Eggs Quicker
+
+RESOURCE ID: guest_restricted_feature_adsync_rewards
+TEXT: Earn More Rewards
+
+RESOURCE ID: guest_restricted_feature_adsync_subtitle
+TEXT: Sign up to count your steps and make progress even when your game is closed!
+
+RESOURCE ID: guest_restricted_feature_adsync_title
+TEXT: Earn more rewards with Adventure Sync!
+
+RESOURCE ID: guest_restricted_feature_avatar_iap
+TEXT: 讓你的虛擬人偶換上新裝
+
+RESOURCE ID: guest_restricted_feature_battle
+TEXT: Battle Together
+
+RESOURCE ID: guest_restricted_feature_events_subtitle
+TEXT: Sign up for access to exclusive live events!
+
+RESOURCE ID: guest_restricted_feature_events_title
+TEXT: Participate in global and in-person events!
+
+RESOURCE ID: guest_restricted_feature_experiences
+TEXT: Unique In-game Experiences
+
+RESOURCE ID: guest_restricted_feature_friends_subtitle
+TEXT: Sign up to play with friends and unlock special bonuses!
+
+RESOURCE ID: guest_restricted_feature_friends_title
+TEXT: Ready to build friendships?
+
+RESOURCE ID: guest_restricted_feature_gifts
+TEXT: Send Gifts with Stickers
+
+RESOURCE ID: guest_restricted_feature_iap_subtitle
+TEXT: Sign up to enhance your in-game experience with PokéCoins!
+
+RESOURCE ID: guest_restricted_feature_iap_title
+TEXT: Customize your game experience!
+
+RESOURCE ID: guest_restricted_feature_item_storage_iap
+TEXT: Expand Your Item Storage
+
+RESOURCE ID: guest_restricted_feature_limited_catch
+TEXT: Catch Limited-time Pokémon
+
+RESOURCE ID: guest_restricted_feature_pokemon_storage_iap
+TEXT: Expand Your Pokémon Storage
+
+RESOURCE ID: guest_restricted_feature_raid
+TEXT: Join Raids with New Friends
+
+RESOURCE ID: guest_restricted_feature_trade
+TEXT: Trade Pokémon
+
+RESOURCE ID: guest_sign_up_earn_rewards_subtitle
+TEXT: Sign up to access all features and save your progress!
+
+RESOURCE ID: guest_sign_up_earn_rewards_title
+TEXT: Sign Up and Earn Rewards!
+
+RESOURCE ID: guest_sign_up_friendships_body
+TEXT: Add friends so you can send Gifts and unlock certain bonuses.
+
+RESOURCE ID: guest_sign_up_friendships_title
+TEXT: Build Friendships
+
+RESOURCE ID: guest_sign_up_pokemon_body
+TEXT: Discover and catch more wild Pokémon to fill up your Pokédex.
+
+RESOURCE ID: guest_sign_up_pokemon_title
+TEXT: Discover More Pokémon
+
+RESOURCE ID: guest_sign_up_save_progress_body
+TEXT: Link a login method to keep your progress across devices.
+
+RESOURCE ID: guest_sign_up_save_progress_title
+TEXT: Save Your Progress
+
+RESOURCE ID: guest_sign_up_subtitle
+TEXT: You are playing as a guest. Sign up to access all features!
+
+RESOURCE ID: guest_sign_up_title
+TEXT: Sign Up Today!
+
 RESOURCE ID: gui_vivillon_map_header
 TEXT: 彩粉蝶棲息地
 
@@ -21338,6 +21736,9 @@ TEXT: 萬聖節：打敗1個GO火箭隊手下
 RESOURCE ID: halloween_2019_snapshot_easy
 TEXT: 萬聖節：為幽靈屬性的寶可夢拍攝 {0} 張GO Snapshot照片
 
+RESOURCE ID: halloween_cup_title
+TEXT: Halloween Cup
+
 RESOURCE ID: halloween_event_name
 TEXT: 萬聖節
 
@@ -21348,7 +21749,7 @@ RESOURCE ID: halloween_event_name_2
 TEXT: 萬聖節惡作劇：Part 2
 
 RESOURCE ID: halloween_ultra_cup_title
-TEXT: Halloween Cup: Ultra League Edition
+TEXT: 萬聖節盃HLVer.
 
 RESOURCE ID: hatch_box
 TEXT: 孵蛋禮盒
@@ -21881,6 +22282,9 @@ TEXT: 對了，我記得維羅博士有提到過「淨化」這件事。聽說�
 RESOURCE ID: inventory_egg
 TEXT: 蛋
 
+RESOURCE ID: inventory_keywords_helpshift_label
+TEXT: You can filter your inventory further using search keywords.
+
 RESOURCE ID: inventory_no_eggs
 TEXT: 去收集蛋吧！
 
@@ -21942,13 +22346,25 @@ RESOURCE ID: item_dragon_scale_name
 TEXT: 龍之麟片
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: 看來你已經做好參加寶可夢對戰的準備了！
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2022年10月20日10:00～11月1日10:00參與限時調查。
+
+RESOURCE ID: item_event_ticket_gray_details
+TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時間2022年10月20日10:00～11月1日10:00參與限時調查。
 
 RESOURCE ID: item_event_ticket_gray_name
 TEXT: 入場券
 
 RESOURCE ID: item_event_ticket_gray_to_gift_desc
 TEXT: 由於購買入場券贈送給朋友時發生錯誤，未能將這張入場券送出去。你可以把它轉送給其他朋友，或是申請退費。
+
+RESOURCE ID: item_event_ticket_gray_to_gift_name
+TEXT: 額外入場券
+
+RESOURCE ID: item_event_ticket_grey_desc
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2022年10月20日10:00～11月1日10:00參與限時調查。
+
+RESOURCE ID: item_event_ticket_grey_details
+TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時間2022年10月20日10:00～11月1日10:00參與限時調查。
 
 RESOURCE ID: item_event_ticket_pink_bulbt_desc
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2022年1月22日14:00～17:00獲得特殊調查的課題。
@@ -21957,22 +22373,28 @@ RESOURCE ID: item_event_ticket_pink_bulbt_details
 TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2022年1月22日活動時間內領取特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2022年9月18日14:00～17:00獲得特殊調查的課題。
+TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間2022年10月20日10:00～11月1日10:00參與限時調查。
 
 RESOURCE ID: item_event_ticket_pink_desc_2
-TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間11月21日11:00～17:00獲得特殊調查的課題。
+TEXT: A ticket to access Special Research on November 12, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc_alodude
 TEXT: 只要擁有這張入場券，不論你身在何處，都能在當地時間5月21日11:00～14:00獲得特殊調查的課題。
+
+RESOURCE ID: item_event_ticket_pink_desc_dcdc
+TEXT: A ticket to access Special Research on November 5, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: 只要擁有這張入場券，不論你在何處都能在當地時間2020年12月19日10:00～2020年12月20日20:00挑戰特殊調查。
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2022年9月18日活動時間內領取特殊調查。
+TEXT: 入場券將會自動啟動。不論你身在何處，都能在當地時間2022年10月20日10:00～11月1日10:00參與限時調查。
 
 RESOURCE ID: item_event_ticket_pink_details_2
-TEXT: 入場券將會自動啟用。不論你身在何處，都可以在當地時間11月21日的活動時間內領取到特殊調查課題。
+TEXT: This ticket will automatically activate to give you access to Special Research on November 12, 2022, wherever you are.
+
+RESOURCE ID: item_event_ticket_pink_details_dcdc
+TEXT: This ticket will automatically activate to give you access to Special Research on November 5, 2022, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: 入場券將會自動啟用，不論你在何處都能在當地時間2020年12月19日10:00～2020年12月20日20:00領取「踢、踢、踢踏踢……」特殊調查。
@@ -22605,13 +23027,19 @@ RESOURCE ID: language_currently_selected
 TEXT: 目前正選用此語言
 
 RESOURCE ID: language_early_access_language
-TEXT: This is an early access language. Please report any issues if found.
+TEXT: 這是新加入的語言。若發現任何錯誤，請向我們回報。
 
 RESOURCE ID: language_selector_description
 TEXT: 儲存變更後請重新啟動應用程式
 
+RESOURCE ID: language_selector_early_access
+TEXT: 這是新加入的語言。若發現任何錯誤，請向我們回報。
+
 RESOURCE ID: language_selector_header
 TEXT: 選擇語言
+
+RESOURCE ID: language_selector_new
+TEXT: 新語言
 
 RESOURCE ID: language_settings_updated
 TEXT: 成功變更語言設定！
@@ -23610,7 +24038,7 @@ RESOURCE ID: limited_research_infernape
 TEXT: 烈焰猴限定調查
 
 RESOURCE ID: limited_research_inkay
-TEXT: 好啦魷期間限定調查
+TEXT: Inkay Limited Research
 
 RESOURCE ID: limited_research_ivysaur
 TEXT: 妙蛙草限定調查
@@ -24909,6 +25337,12 @@ TEXT: <size=32>帳號已存在</size>
 
 此帳號已被綁定至其他玩家的帳號
 
+RESOURCE ID: link_account_sign_in
+TEXT: Create an account to link with.
+
+RESOURCE ID: link_account_sign_up
+TEXT: Sign in to an account to link with.
+
 RESOURCE ID: little_cup_remix_title
 TEXT: 小小盃Remix
 
@@ -25301,6 +25735,10 @@ TEXT: 捕蟲少年姿勢
 RESOURCE ID: m_avatar_poses_bundle_pose_41
 TEXT: 古茲馬姿勢
 
+RESOURCE ID: m_avatar_poses_bundle_pose_43
+TEXT: 南瓜精
+提燈姿勢
+
 RESOURCE ID: m_avatar_poses_bundle_pose_44
 TEXT: 仙女棒姿勢
 
@@ -25384,6 +25822,9 @@ TEXT: 管理標籤
 
 RESOURCE ID: manage_pokemon_tag_view_all
 TEXT: 查看標有「{0}」標籤的所有寶可夢
+
+RESOURCE ID: manage_postcards_header
+TEXT: 整理明信片
 
 RESOURCE ID: map_equip_desc
 TEXT: 在地圖上啟用雷達
@@ -25855,9 +26296,9 @@ RESOURCE ID: mega_walking_progress
 TEXT: 步行進度
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2022-10-30T17:10:54.773238
-at SHA a9d340b3c5945d8273421b9463be2a4b4b784b1b
-Pipeline 1114528, job 13097767
+TEXT: Built at 2022-11-23T03:10:25.735315
+at SHA 66ea01a832d9cd1eaa84a12d285465b239f2febe
+Pipeline 1148722, job 13618625
 
 RESOURCE ID: milestone_rewards_title
 TEXT: 里程碑獎勵
@@ -26922,13 +27363,16 @@ RESOURCE ID: move_name_0370
 TEXT: 攔堵
 
 RESOURCE ID: move_name_0371
-TEXT: Shadow Force
+TEXT: 暗影潛襲
 
 RESOURCE ID: move_name_0372
 TEXT: 流星光束
 
 RESOURCE ID: move_name_0376
 TEXT: 靈騷
+
+RESOURCE ID: move_name_0377
+TEXT: 十萬馬力
 
 RESOURCE ID: move_reroll_confirm_desc
 TEXT: {0}會忘記{1}
@@ -27281,7 +27725,7 @@ RESOURCE ID: nearby_pokemon_view_button
 TEXT: 尋找
 
 RESOURCE ID: nearby_raid_local_only
-TEXT: LOCAL ONLY
+TEXT: 僅限現場
 
 RESOURCE ID: nearby_raid_notification_toast
 TEXT: 一個巨大的蛋在附近道館出現了！
@@ -27904,6 +28348,9 @@ TEXT: 小火龍將在GO Snapshot中驚喜現身5次
 RESOURCE ID: photobomb_five_deino
 TEXT: 單首龍將在GO Snapshot中驚喜現身5次
 
+RESOURCE ID: photobomb_five_dratini_cdc
+TEXT: 5 surprise encounters with Dratini in GO Snapshot
+
 RESOURCE ID: photobomb_five_duskull
 TEXT: 夜巡靈將在GO Snapshot中驚喜現身5次
 
@@ -27926,7 +28373,7 @@ RESOURCE ID: photobomb_five_hoppip
 TEXT: 毽子草將在GO Snapshot中驚喜現身5次
 
 RESOURCE ID: photobomb_five_litwick
-TEXT: 5 surprise encounters with Litwick in GO Snapshot
+TEXT: 燭光靈將在GO Snapshot中驚喜現身5次
 
 RESOURCE ID: photobomb_five_machop
 TEXT: 腕力將在GO Snapshot中驚喜現身5次
@@ -27975,6 +28422,9 @@ TEXT: 童偶熊將在GO Snapshot中驚喜現身5次
 
 RESOURCE ID: photobomb_five_swablu
 TEXT: 青綿鳥將在GO Snapshot中驚喜現身5次
+
+RESOURCE ID: photobomb_five_teddiursa
+TEXT: 5 surprise encounters with Teddiursa in GO Snapshot
 
 RESOURCE ID: photobomb_five_tepig
 TEXT: 暖暖豬將在GO Snapshot中驚喜現身5次
@@ -29000,6 +29450,9 @@ TEXT: 超級：{0}
 
 RESOURCE ID: pokedex_filter_header
 TEXT: 搜尋條件
+
+RESOURCE ID: pokedex_keywords_helpshift_label
+TEXT: You can filter your Pokédex further using search keywords.
 
 RESOURCE ID: pokedex_mode_name_all
 TEXT: 所有
@@ -38333,7 +38786,7 @@ RESOURCE ID: pokemon_shiny_info_transfer_to_professor_confirmation
 TEXT: 確定要傳送這隻異色寶可夢嗎？
 
 RESOURCE ID: pokemon_size_huge_encounter
-TEXT: It's huge!
+TEXT: It’s HUGE!
 
 RESOURCE ID: pokemon_size_new_banner
 TEXT: New Record
@@ -38351,7 +38804,7 @@ RESOURCE ID: pokemon_size_new_weight_title
 TEXT: New Weight Record
 
 RESOURCE ID: pokemon_size_tiny_encounter
-TEXT: It's tiny!
+TEXT: It’s tiny!
 
 RESOURCE ID: pokemon_transfer_legendary_confirmation
 TEXT: 你選擇的寶可夢中包含了傳說的寶可夢／幻之寶可夢！確定要傳送嗎？
@@ -38886,6 +39339,12 @@ TEXT: 可再買 {0} 個
 
 RESOURCE ID: purchases_remaining_text_singular
 TEXT: 可再買 {0} 個
+
+RESOURCE ID: purrloin_o_clock
+TEXT: Purrloin O’Clock
+
+RESOURCE ID: purrloin_o_clock_description
+TEXT: Large numbers of Purrloin are appearing in the area!
 
 RESOURCE ID: push_drawing_winner
 TEXT: 活動抽獎被抽中了!
@@ -39733,6 +40192,9 @@ TEXT: 時光漣漪
 RESOURCE ID: quest_complete_chart
 TEXT: 火尾童話
 
+RESOURCE ID: quest_complete_dec2021
+TEXT: 2021年12月社群日
+
 RESOURCE ID: quest_complete_dec20cd
 TEXT: 12月社群日
 
@@ -40299,6 +40761,18 @@ TEXT: 這一年真的發生了很多事，你的成長讓我刮目相看！
 
 RESOURCE ID: quest_dialogue_thanks_3
 TEXT: 我想2020年一定也會有很多冒險在等待著我們，一起出門去探險吧！
+
+RESOURCE ID: quest_dragonair_evolve_b
+TEXT: Evolve {0} Dragonair
+
+RESOURCE ID: quest_dratini_cdc_catch_b
+TEXT: Catch {0} Dratini
+
+RESOURCE ID: quest_dratini_cdc_evolve_b
+TEXT: Evolve {0} Dratini
+
+RESOURCE ID: quest_dratini_cdc_snapshot_b
+TEXT: Take a snapshot of {0} Dratini
 
 RESOURCE ID: quest_dude_catch
 TEXT: 捕捉 {0} 隻小拳石
@@ -42131,7 +42605,7 @@ RESOURCE ID: quest_gotour2022_sr_title_8
 TEXT: Pokémon GO Tour：城都地區 (8/11)
 
 RESOURCE ID: quest_gotour2022_sr_title_9
-TEXT: Pokémon GO Tour: Johto (9/11)
+TEXT: Pokémon GO Tour：城都地區 (9/11)
 
 RESOURCE ID: quest_gotour_branch_chikorita_description
 TEXT: 葉子寶可夢菊草葉最喜歡沐浴在陽光下。牠會用頭上的葉子來感知周圍的溫度和濕度！捕捉菊草葉、讓菊草葉進化，或是拍攝菊草葉的Snapshot照片都能獲得菊草葉的糖果。
@@ -42377,13 +42851,13 @@ RESOURCE ID: quest_land_nice_type_ghost
 TEXT: 捕捉幽靈屬性寶可夢時投出 {0} 次Nice
 
 RESOURCE ID: quest_litwick_catch_b
-TEXT: Catch {0} Litwick
+TEXT: 捕捉 {0} 隻燭光靈
 
 RESOURCE ID: quest_litwick_evolve_b
 TEXT: 讓{0}隻燭光靈進化
 
 RESOURCE ID: quest_litwick_snapshot_b
-TEXT: Take {0} snapshots of Litwick
+TEXT: 為燭光靈拍攝 {0} 張照片
 
 RESOURCE ID: quest_lucky_plural
 TEXT: 交換到 {0} 隻亮晶晶寶可夢
@@ -42806,6 +43280,9 @@ TEXT: 為{0}種蟲屬性寶可夢拍攝GO Snapshot照片
 RESOURCE ID: quest_snapshot_storage_steel_unique_plural
 TEXT: 為{0}種鋼屬性寶可夢拍攝GO Snapshot照片
 
+RESOURCE ID: quest_snapshot_storage_unique_plural
+TEXT: 為 {0} 種野生寶可夢拍攝GO Snapshot照片
+
 RESOURCE ID: quest_snapshot_thundurus
 TEXT: 為雷電雲拍攝1張照片
 
@@ -42937,6 +43414,9 @@ TEXT: 為野生水君拍攝1張GO Snapshot照片
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
 TEXT: 為野生的穿山鼠、大顎蟻或刺球仙人掌拍攝1張GO Snapshot照片
+
+RESOURCE ID: quest_snapshot_wild_unique_plural
+TEXT: 為 {0} 種野生寶可夢拍攝GO Snapshot照片
 
 RESOURCE ID: quest_snapshot_wild_water_fire_grass_unique_plural
 TEXT: 為 {0} 種野生的火屬性、水屬性或草屬性寶可夢拍攝GO Snapshot照片
@@ -43811,6 +44291,93 @@ TEXT: 謝謝你今天也陪我一起做研究，訓練家。
 RESOURCE ID: quest_special_dialogue_deino_3_6
 TEXT: 我以為究極之洞和究極異獸是世界上最大的謎團，但你這個世界的寶可夢也很有趣呢。
 
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_0
+TEXT: Hey, %PLAYERNAME%, great timing! Fancy doing a little investigation?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_1
+TEXT: All these Ultra Wormholes we’ve encountered lately have got me thinking. Ultra Space is fascinating, sure, but there are places closer to home that still beg to be explored—like the fabled island of Dragonite!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_2
+TEXT: Have you heard the tale?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_3
+TEXT: Once, a Dragonite saved a shipwrecked man, taking him to a remote island—a paradise occupied solely by Dragonite. Doesn’t that sound like something, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_4
+TEXT: Imagine the unique ecosystem that island would have! It’d be a veritable treasure trove for scientific inquiry.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_5
+TEXT: Questions are already rattling around in my head: what do Dragonite use their horns for? How quickly can they move in water? What kind of Berries do they—
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_6
+TEXT: Whoops. I’m getting ahead of myself. First, we need to do some baseline research on the Pokémon in question.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_7
+TEXT: We might even find some clues about this Dragonite paradise! 
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_8
+TEXT: Let’s start by observing Dratini, which can evolve into Dragonair and then Dragonite, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_0
+TEXT: Whoa! Look at how many Dratini you’ve caught, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_1
+TEXT: Did you know that in the past, Dratini was so rarely glimpsed that some called it the “Mirage Pokémon”?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_2
+TEXT: And yet here you are with a whole host of them. They seem real enough to me!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_3
+TEXT: You know, I read a report recently that a small colony of Dratini was found living underwater.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_4
+TEXT: That would suggest that Dratini and its Evolutions like to live in groups.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_5
+TEXT: And if that’s true...then the island of Dragonite could be real after all! First, though, we should learn more about Dratini’s Evolution, Dragonair.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_6
+TEXT: Think you can find one, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_0
+TEXT: What a majestic Dragonair, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_1
+TEXT: Dragonair’s mystical appearance always leaves me in awe. In fact, this Pokémon is known for its gentle aura.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_2
+TEXT: Some even call it divine! And for good reason—see the crystalline globes on its head and tail? Dragonair can use them to freely control the weather.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_3
+TEXT: I bet that’d come in useful if you had, say, an island full of Dragonite that you wanted to keep hidden. Or if you were constantly forgetting your research notes outside on rainy days...
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_4
+TEXT: But that’s a me problem. Next, let’s help Dragonair evolve into the star of today’s studies—Dragonite!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_0
+TEXT: Fantastic, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_1
+TEXT: Just like Dratini and Dragonair, Dragonite is an extremely rarely seen Pokémon. How lucky we are that we can study one today!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_2
+TEXT: Dragonite is known as “the sea incarnate.” Incur the wrath of this normally calm Pokémon at your peril, because it will smash everything to smithereens before it’s satisfied.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_3
+TEXT: Luckily for us, it’s typically a kindhearted Pokémon. If it spots a drowning person or Pokémon, Dragonite simply must help them—like that shipwrecked man I mentioned earlier today.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_4
+TEXT: Why don’t we set sail and get looking for that island? Dragonite’ll surely bail us out if things go sideways!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_5
+TEXT: I’m joking, I’m joking. Thanks for humoring me today, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_6
+TEXT: Even without weighing anchor, we learned more about Pokémon and found new ways to look at facts we already knew. I’d say that’s time well spent.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_7
+TEXT: Though to be fair, I’d say that about any time we spend together. Heh. I’ll be in touch again soon, %PLAYERNAME%!
+
 RESOURCE ID: quest_special_dialogue_duskt_0_0
 TEXT: 嘿，%PLAYERNAME%！最近不知道是因為季節到了還是怎樣，我總覺得我常見到幽靈屬性的寶可夢，你呢？
 
@@ -44539,6 +45106,87 @@ TEXT: 我以為我是在研究寶可夢的世界，但事實上是牠們讓我�
 RESOURCE ID: quest_special_dialogue_hallow_2021_3_7
 TEXT: 不過今天就到此為止吧，下次再請你幫忙囉。%PLAYERNAME%，真的很感謝你！
 
+RESOURCE ID: quest_special_dialogue_hallow_22_0_0
+TEXT: %PLAYERNAME%，你來得正好！
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_1
+TEXT: 我剛看到很不可思議的一幕。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_2
+TEXT: 我不知道那是個人影，還是一塊刻著什麼的……土板？
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_3
+TEXT: 雖然說他們看起來不太一樣，但是看起來又很像。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_4
+TEXT: 你知道每當有不可思議的事情發生時，總是會跟寶可夢扯上關係。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_5
+TEXT: 如果真的跟寶可夢有關的話，是不是能請你幫忙捉到牠呢？也許維羅博士能幫我們釐情一些事情。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_0
+TEXT: 我的衣服…到底擺到哪裡去了……噢！%PLAYERNAME%你來得正好！
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_1
+TEXT: 我在想要穿什麼衣服去參加史帕克的派對。希望派對裡有一些我認識的面孔……
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_2
+TEXT: 說到面孔……那是哭哭面具和伽勒爾哭哭面具嗎？！
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_3
+TEXT: 據說哭哭面具拿著的面具是牠還是人類時的臉，有時還會看著面具哭泣呢。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_4
+TEXT: 據說伽勒爾哭哭面具是古代黏土板被帶有強烈怨念的靈魂吸引後誕生的寶可夢。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_5
+TEXT: 聽來真是悲傷。不過牠的故事讓人不禁想像牠究竟收集了多少怨念。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_6
+TEXT: 試著去捉捉看哭哭面具和其他的幽靈屬性寶可夢吧！也許我們能從中找出蛛絲馬跡。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_0
+TEXT: 問維羅博士果然是對的。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_1
+TEXT: 原來哭哭面具和伽勒爾哭哭面具誕生的背後有這麼悲傷的故事……真是叫人不敢相信。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_2
+TEXT: 謝謝你幫我捕捉這些寶可夢。每次跟你一起做調查，我都能學到很多新東西。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_3
+TEXT: 最近的寶可夢…我覺得牠們似乎都處在黑暗中？
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_4
+TEXT: 當然就如博士所說的，為這些黑暗帶來光明也是很重要的。我們在探索未知的世界時不需要害怕。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_5
+TEXT: %PLAYERNAME%，我決定今天要來好好觀察這些哭哭面具。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_6
+TEXT: 那就麻煩你去調查一下其他的幽靈屬性寶可夢吧。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_7
+TEXT: 對了，我得好好想想要送什麼給維羅博士來謝謝他……你覺得GO究極調查隊的制服如何？
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_0
+TEXT: %PLAYERNAME%，你回來啦！我已經做好出門的準備了。你跟里伊的調查還順利嗎？
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_1
+TEXT: 哇，你捉到了這麼多幽靈屬性的寶可夢啊！我的研究室…八成會變得很熱鬧！
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_2
+TEXT: 每當我調查幽靈屬性寶可夢，我總覺得這個世界還有事情等著我去探索。飄飄球最後會飄到哪裡去？夜巡靈真的會把小孩子拐走嗎？泥偶小人的能量都是從哪裡來的呢？
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_3
+TEXT: 只要我們持續努力，或許就能解開這些謎團。也許你們這些訓練家有一天也能找出答案。想學到更螱東西，就只能繼續前進。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_4
+TEXT: 雖然我不應該前進到究極之洞裡面去就是了……哈、哈、哈哈哈……
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_5
+TEXT: %PLAYERNAME%，謝謝你帶給我這麼多研究的動力。我們下次見囉！
+
 RESOURCE ID: quest_special_dialogue_hallowyamas_0_0
 TEXT: %PLAYERNAME%！！！！！
 
@@ -44825,77 +45473,76 @@ RESOURCE ID: quest_special_dialogue_jj_3_7
 TEXT: 武藏「好討厭的感覺啊～！」
 
 RESOURCE ID: quest_special_dialogue_litwick_0_0
-TEXT: Hey, %PLAYERNAME%! Is it just me, or is there a ghostly chill in the air?
+TEXT: %PLAYERNAME%，你不覺得這附近很亮，可是又很冷嗎？
 
 RESOURCE ID: quest_special_dialogue_litwick_0_1
-TEXT: It could have something to do with those lights over there! They belong to Litwick, the Candle Pokémon.
+TEXT: 而且還有青白色的光芒閃爍……沒錯，我覺得這是蠟燭寶可夢燭光靈。
 
 RESOURCE ID: quest_special_dialogue_litwick_0_2
-TEXT: Litwick is known to leech off the life force of any who follow it.
+TEXT: 你知道燭光靈是靠吸取什麼來燃燒頭上的獨光嗎？
 
 RESOURCE ID: quest_special_dialogue_litwick_0_3
-TEXT: The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns. Makes for a pretty ominous candle, wouldn’t you say?
+TEXT: 據說牠會吸取人類和寶可夢的生命力來維持頭上的燭光。遠看是很美麗，但近看的話……
 
 RESOURCE ID: quest_special_dialogue_litwick_0_4
-TEXT: Litwick appearing in such force makes the perfect chance to learn more about them. I suggest you get up close and see for yourself!
+TEXT: 有些燭光靈甚至會假裝在指引道路，但其實是在吸取對方的生命力。
 
 RESOURCE ID: quest_special_dialogue_litwick_0_5
-TEXT: Just be careful not to let Litwick lead you anywhere, %PLAYERNAME%!
+TEXT: %PLAYERNAME%，小心別讓燭光靈把你帶走了。
 
 RESOURCE ID: quest_special_dialogue_litwick_1_0
-TEXT: Good day, Trainer. Professor Willow has tasked you with investigating...Litwick, is it?
+TEXT: 訓練家你好，聽說維羅博士拜託你幫忙調查……燭光靈？
 
 RESOURCE ID: quest_special_dialogue_litwick_1_1
-TEXT: The flame on its head is certainly alluring. A Pokémon that can bring light to its surroundings… What could be the source of its brilliant glow?
+TEXT: 牠頭上的燭光好美…感覺這個世界在燭光照亮之下看起來更美了。
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: 維羅博士說那是靠著吸取人與寶可夢的生命力來燃燒的？……原來是這樣啊……那燭光進化之後不知道會長什麼樣子。
 
 RESOURCE ID: quest_special_dialogue_litwick_1_3
-TEXT: What are your thoughts, %PLAYERNAME%?
+TEXT: %PLAYERNAME%，你覺得呢？
 
 RESOURCE ID: quest_special_dialogue_litwick_2_0
-TEXT: Wow, %PLAYERNAME%! You went looking for Litwick and came back with a lamp! 
+TEXT: 哇，%PLAYERNAME%！你手上那盞燈是哪來的？
 
 RESOURCE ID: quest_special_dialogue_litwick_2_1
-TEXT: I kid—I know a Lampent when I see one! And it was Rhi who suggested you help Litwick evolve? That’s great. We can always learn more when encouraged by our friends!
+TEXT: 唉喲我開玩笑的啦。你知道燈火幽靈會偽裝成燈的樣子藏身在城鎮裡嗎？
 
 RESOURCE ID: quest_special_dialogue_litwick_2_2
-TEXT: So, let me tell you about Lampent! While it often pretends to be a lamp, Lampent is usually feared as an emissary of death. 
+TEXT: 所以路上有些路燈或許是燈火幽靈假扮的也說不定呢！
 
 RESOURCE ID: quest_special_dialogue_litwick_2_3
-TEXT: Through cities it wanders, searching for the spirits of the fallen. Spooky, but appropriate for the season! 
+TEXT: 據說牠會為了等待人類死去，而在醫院裡徘徊遊蕩。
 
 RESOURCE ID: quest_special_dialogue_litwick_2_4
-TEXT: And what a sight that fire is. I’m sure you and Rhi would get a kick out of seeing Lampent’s Evolution, Chandelure, too! But a word of caution, %PLAYERNAME%...
+TEXT: 要是遇見牠一定會很恐怖。不過我想你跟里伊都很期待牠的進化對吧？趕快試著讓牠進化吧。
 
 RESOURCE ID: quest_special_dialogue_litwick_2_5
-TEXT: They say spirits burned up in Chandelure's ominous flame lose their way and wander this world forever.
+TEXT: 但請你路上務必小心，據說被水晶燈火靈怪異的火焰燃燒掉的靈魂將無處可去，永遠在這個世界上徘徊喔……！
 
 RESOURCE ID: quest_special_dialogue_litwick_3_0
-TEXT: That new Pokémon...
-... ... ...
+TEXT: 這隻寶可夢…
 
 RESOURCE ID: quest_special_dialogue_litwick_3_1
-TEXT: Oh. My apologies, %PLAYERNAME%. I was...preoccupied gazing at the flame your Pokémon is emanating.
+TEXT: 喔抱歉，%PLAYERNAME%。我差點就被這隻寶可夢的火燄給吸進去了。
 
 RESOURCE ID: quest_special_dialogue_litwick_3_2
 TEXT: ... ... ...
 
 RESOURCE ID: quest_special_dialogue_litwick_3_3
-TEXT: The swaying of its arms is rather hypnotic.
+TEXT: 你看牠不斷搖晃手臂上的火焰，感覺這能催眠對手。
 
 RESOURCE ID: quest_special_dialogue_litwick_3_4
-TEXT: It's called "Chandelure," is it? And Professor Willow said its flames can burn up spirits? An unsettling thought.
+TEXT: 你說牠叫水晶燈火靈？維羅博士說牠會把靈魂燃燒殆盡？
 
 RESOURCE ID: quest_special_dialogue_litwick_3_5
-TEXT: The Pokémon we studied today could easily be seen as frightening. Yet I believe there is a lesson we can take from them.
+TEXT: 光聽你這樣說是很恐怖沒錯，但反過來想…
 
 RESOURCE ID: quest_special_dialogue_litwick_3_6
-TEXT: No matter how dark the world becomes, a little light always persists.
+TEXT: 無論在多麼黑暗的世界裡，總是會有一股光芒殘存。
 
 RESOURCE ID: quest_special_dialogue_litwick_3_7
-TEXT: Thank you for teaching me that lesson once again, %PLAYERNAME%. Take care, and I will see you again.
+TEXT: 謝謝你這次也陪我一起調查，%PLAYERNAME%。下次見囉！
 
 RESOURCE ID: quest_special_dialogue_lvl_43_0_0
 TEXT: %PLAYERNAME%，你的成長讓我留下了深刻的印象。
@@ -48812,7 +49459,7 @@ RESOURCE ID: quest_special_dialogue_snivt_3_4
 TEXT: 那麼，下次再見囉！
 
 RESOURCE ID: quest_special_dialogue_sphet_0_0
-TEXT: Hey there, %PLAYERNAME%! It’s great to see you again.
+TEXT: 嘿，%PLAYERNAME%，你最近還好嗎？
 
 RESOURCE ID: quest_special_dialogue_sphet_0_1
 TEXT: 我看到一群海豹球在結凍的湖上滾來滾去，想請你去幫我調查一下牠在幹什麼。
@@ -48848,7 +49495,7 @@ RESOURCE ID: quest_special_dialogue_sphet_2_2
 TEXT: 那湖上的冰被弄碎了。我想一定是帝牙海獅幹的好事。
 
 RESOURCE ID: quest_special_dialogue_sphet_2_3
-TEXT: My best guess is Walrein. Walrein is known to swim through frigid water while crushing icebergs with its grand, imposing tusks. Sounds pretty magnificent, if a bit imposing.
+TEXT: 畢竟帝牙海獅牠能用強壯的獠牙粉碎浮冰…聽起來很厲害吧？
 
 RESOURCE ID: quest_special_dialogue_sphet_2_4
 TEXT: 試著讓海魔獅進化成帝牙海獅吧。
@@ -49354,6 +50001,75 @@ TEXT: 不過最重要的，是選擇一隻你能打從心底信賴的寶可夢�
 RESOURCE ID: quest_special_dialogue_tcg1_5_6
 TEXT: 這次真的很感謝你，接下來可能也會要請你幫忙，到時候再麻煩你囉！
 
+RESOURCE ID: quest_special_dialogue_teddiursa_0_0
+TEXT: Hey, %PLAYERNAME%! Good to see you again!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_1
+TEXT: You know, I thought I smelled something sweet in the air today.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_2
+TEXT: Did I spill Berry juice again, you ask? You wound me, %PLAYERNAME%! As if I’d ruin this snazzy new jacket!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_3
+TEXT: Heh. In all seriousness, the smell was coming from outside.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_4
+TEXT: Unfortunately, I didn’t have a chance to track down the source of the scent. But now that you’re here, maybe you can sniff it out!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_0
+TEXT: Welcome back, %PLAYERNAME%. Seeing as you’ve got Teddiursa with you, I think I can connect the dots on what I was smelling earlier—honey!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_1
+TEXT: Teddiursa likes to lick its palms after soaking them in honey, so it’s no wonder I caught a whiff.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_2
+TEXT: That reminds me of a fun fact about Teddiursa’s Evolution, Ursaring.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_3
+TEXT: With its ability to distinguish any aroma, Ursaring unfailingly finds all food buried deep underground. If only it was that easy for me to find lunch!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_4
+TEXT: Why don’t you help Teddiursa evolve so you can see Ursaring’s sleuthing skills for yourself, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_0
+TEXT: I thought I heard something stomping about, and here you are, Ursaring in tow!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_1
+TEXT: Here’s the thing about Ursaring—although it has a large body, it’s quite skilled at climbing trees. It eats and sleeps in the treetops.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_2
+TEXT: Ah, to be an Ursaring... Imagine how much easier that’d make fieldwork—or picking Pinap Berries!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_3
+TEXT: Ahem. Snacks aside, have you noticed there’s a full moon out early today?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_4
+TEXT: Looks like Ursaring is staring at it, too. Think you can find out why, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_0
+TEXT: Whoa! Could that be—Ursaluna?!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_1
+TEXT: I’ve never seen one in these parts. What an incredible find! Hmm...
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_2
+TEXT: Maybe in the Hisui region of long ago, where Ursaluna was first discovered, the full moon played a part in how Ursaring evolved.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_3
+TEXT: It’s theorized that Hisui's swampy terrain gave Ursaluna its burly physique and ability to manipulate peat at will.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_4
+TEXT: What kind of food would suit a Pokémon accustomed to living in swamps? Grains? Beans? Cake?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_5
+TEXT: Maybe I should get baking for some firsthand taste-testing. I bet Teddiursa could lend me some honey!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_6
+TEXT: Ah—listen to me yammering on and on. Researching Pokémon first found in Hisui never fails to pique my curiosity about the past!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_7
+TEXT: Thanks again for spending the day learning about Pokémon with me, %PLAYERNAME%. I can always count on you to make my work a little sweeter!
+
 RESOURCE ID: quest_special_dialogue_tepit_0_0
 TEXT: 嘿，%PLAYERNAME%。你來得正好！你今天有什麼計劃嗎？
 
@@ -49803,6 +50519,15 @@ TEXT: 捕捉 {0} 隻青綿鳥
 RESOURCE ID: quest_swabt_evolve_b
 TEXT: 讓 {0} 隻青綿鳥進化
 
+RESOURCE ID: quest_teddiursa_catch_b
+TEXT: Catch {0} Teddiursa
+
+RESOURCE ID: quest_teddiursa_evolve_b
+TEXT: Evolve {0} Teddiursa
+
+RESOURCE ID: quest_teddiursa_snapshot_b
+TEXT: Take a snapshot of {0} Teddiursa
+
 RESOURCE ID: quest_template.display.branches#0.button_text_key
 TEXT: 團體戰、手下和道館！
 
@@ -49971,6 +50696,9 @@ TEXT: 火尾童話 (4/5)
 RESOURCE ID: quest_title_chart_4
 TEXT: 火尾童話 (5/5)
 
+RESOURCE ID: quest_title_dec2021
+TEXT: 2021年12月社群日
+
 RESOURCE ID: quest_title_dec20cd
 TEXT: 12月社群日
 
@@ -50000,6 +50728,21 @@ TEXT: 單首龍調查筆記 (3/4)
 
 RESOURCE ID: quest_title_deino_3
 TEXT: 單首龍調查筆記 (4/4)
+
+RESOURCE ID: quest_title_dratini_cdc
+TEXT: Dratini Community Day Classic
+
+RESOURCE ID: quest_title_dratini_cdc_0
+TEXT: Dratini Community Day Classic (1/4)
+
+RESOURCE ID: quest_title_dratini_cdc_1
+TEXT: Dratini Community Day Classic (2/4)
+
+RESOURCE ID: quest_title_dratini_cdc_2
+TEXT: Dratini Community Day Classic (3/4)
+
+RESOURCE ID: quest_title_dratini_cdc_3
+TEXT: Dratini Community Day Classic (4/4)
 
 RESOURCE ID: quest_title_duskt
 TEXT: 夜夜夜巡靈
@@ -50181,6 +50924,36 @@ TEXT: 面具後面的謎團 (3/4)
 RESOURCE ID: quest_title_hallow_2021_3
 TEXT: 面具後面的謎團 (4/4)
 
+RESOURCE ID: quest_title_hallow_22
+TEXT: 謎樣面具
+
+RESOURCE ID: quest_title_hallow_22_0
+TEXT: 謎樣面具 (1/4)
+
+RESOURCE ID: quest_title_hallow_22_1
+TEXT: 謎樣面具 (2/4)
+
+RESOURCE ID: quest_title_hallow_22_2
+TEXT: 謎樣面具 (3/4)
+
+RESOURCE ID: quest_title_hallow_22_3
+TEXT: 謎樣面具 (4/4)
+
+RESOURCE ID: quest_title_hallow_tr_22
+TEXT: 萬聖節限時調查
+
+RESOURCE ID: quest_title_hallow_tr_22_0
+TEXT: 萬聖節限時調查 (1/4)
+
+RESOURCE ID: quest_title_hallow_tr_22_1
+TEXT: 萬聖節限時調查 (2/4)
+
+RESOURCE ID: quest_title_hallow_tr_22_2
+TEXT: 萬聖節限時調查 (3/4)
+
+RESOURCE ID: quest_title_hallow_tr_22_3
+TEXT: 萬聖節限時調查 (4/4)
+
 RESOURCE ID: quest_title_hallowyamas
 TEXT: 令人毛骨悚然的怨念
 
@@ -50317,19 +51090,19 @@ RESOURCE ID: quest_title_jj_special_research_3
 TEXT: 異色總讓人分心 (4/4)
 
 RESOURCE ID: quest_title_litwick
-TEXT: Field Notes: Trick of the Light
+TEXT: 燭光靈調查筆記
 
 RESOURCE ID: quest_title_litwick_0
-TEXT: Field Notes: Trick of the Light (1/4)
+TEXT: 燭光靈調查筆記 (1/4)
 
 RESOURCE ID: quest_title_litwick_1
-TEXT: Field Notes: Trick of the Light (2/4)
+TEXT: 燭光靈調查筆記 (2/4)
 
 RESOURCE ID: quest_title_litwick_2
-TEXT: Field Notes: Trick of the Light (3/4)
+TEXT: 燭光靈調查筆記 (3/4)
 
 RESOURCE ID: quest_title_litwick_3
-TEXT: Field Notes: Trick of the Light (4/4)
+TEXT: 燭光靈調查筆記 (4/4)
 
 RESOURCE ID: quest_title_luminous_x_0
 TEXT: 妖精傳說X (1/7)
@@ -51075,6 +51848,9 @@ TEXT: 不被理解的光怪陸離 (9/16)
 RESOURCE ID: quest_title_season4_9
 TEXT: 不被理解的光怪陸離 (10/16)
 
+RESOURCE ID: quest_title_season5_dec
+TEXT: 名勝古蹟的季節：星星沙子大挑戰
+
 RESOURCE ID: quest_title_season5_feb
 TEXT: 名勝古蹟的季節：捕捉大挑戰
 
@@ -51440,6 +52216,21 @@ TEXT: 博士的研究 (5/6)
 RESOURCE ID: quest_title_tcg1_5
 TEXT: 博士的研究 (6/6)
 
+RESOURCE ID: quest_title_teddiursa
+TEXT: Sweet Snacks
+
+RESOURCE ID: quest_title_teddiursa_0
+TEXT: Sweet Snacks (1/4)
+
+RESOURCE ID: quest_title_teddiursa_1
+TEXT: Sweet Snacks (2/4)
+
+RESOURCE ID: quest_title_teddiursa_2
+TEXT: Sweet Snacks (3/4)
+
+RESOURCE ID: quest_title_teddiursa_3
+TEXT: Sweet Snacks (4/4)
+
 RESOURCE ID: quest_title_tepit
 TEXT: 火烤樹果
 
@@ -51659,6 +52450,15 @@ TEXT: 毛毛時刻 (3/4)
 RESOURCE ID: quest_title_wt_3
 TEXT: 毛毛時刻 (4/4)
 
+RESOURCE ID: quest_title_yamask_tr_22
+TEXT: 哭哭面具限時調查
+
+RESOURCE ID: quest_title_yamask_tr_22_0
+TEXT: 哭哭面具限時調查 (1/2)
+
+RESOURCE ID: quest_title_yamask_tr_22_1
+TEXT: 哭哭面具限時調查 (2/2)
+
 RESOURCE ID: quest_title_yokosuka
 TEXT: Pokémon GO Safari Zone in YOKOSUKA
 
@@ -51827,6 +52627,9 @@ TEXT: 究極研究：拜訪 {0} 個寶可補給站
 RESOURCE ID: quest_urd22_june_supereffective
 TEXT: 究極研究：使出1次效果絕佳的特殊招式
 
+RESOURCE ID: quest_ursaring_evolve_b
+TEXT: 讓{0}隻燈火幽靈進化
+
 RESOURCE ID: quest_use_any_potion
 TEXT: 使用傷藥
 
@@ -51849,7 +52652,7 @@ RESOURCE ID: quest_use_hyper_potion
 TEXT: 使用厲害傷藥
 
 RESOURCE ID: quest_use_lure
-TEXT: Use a Lure Module
+TEXT: 使用1個誘餌模組
 
 RESOURCE ID: quest_use_max_potion
 TEXT: 使用全滿藥
@@ -56928,6 +57731,12 @@ TEXT: 輸入推薦代碼
 RESOURCE ID: referral_enter_invite_code
 TEXT: 輸入推薦代碼
 
+RESOURCE ID: referral_enter_invite_code_prompt
+TEXT: Enter Referral Code:
+
+RESOURCE ID: referral_enter_invite_code_title
+TEXT: Enter Referral Code
+
 RESOURCE ID: referral_friend_invite_error_friend_later_message
 TEXT: 你確定要將這位訓練家加為推薦人嗎？你仍然可以收到登入獎勵，但要收到其他獎勵，你必須和推薦你的人在Pokémon GO中成為朋友。
 
@@ -56957,6 +57766,11 @@ TEXT: 你的朋友名單已滿
 
 RESOURCE ID: referral_friend_invite_later_error_title
 TEXT: 無法傳送朋友申請給推薦你的人
+
+RESOURCE ID: referral_friend_request_confirmation
+TEXT: A Friend Request has been sent to {0}.
+
+Once {0} confirms, you’ll be able to earn rewards as you continue on your journey!
 
 RESOURCE ID: referral_get_code_button
 TEXT: 取得推薦代碼
@@ -57002,6 +57816,9 @@ TEXT: 當你邀請的朋友在Pokémon GO中達成特定里程碑時，你將能
 
 RESOURCE ID: referral_system_disabled
 TEXT: 目前無法使用推薦功能
+
+RESOURCE ID: referral_valid_code
+TEXT: Valid referral code
 
 RESOURCE ID: referral_welcome
 TEXT: 歡迎！
@@ -58179,6 +58996,42 @@ TEXT: Safari Zone Seville 2022 (1/2)
 RESOURCE ID: safari_2022_seville_title_1
 TEXT: Safari Zone Seville 2022 (2/2)
 
+RESOURCE ID: safari_2022_singapore_citywide_title
+TEXT: Pokémon GO Safari Zone: Singapore 2022 – City Bonus
+
+RESOURCE ID: safari_2022_singapore_dialogue_0_0
+TEXT: Welcome to Pokémon GO Safari Zone Singapore 2022, %PLAYERNAME%!
+
+RESOURCE ID: safari_2022_singapore_dialogue_1_1
+TEXT: Thanks to you, we’ve learned a lot about the Pokémon at Pokémon GO Safari Zone Singapore 2022!
+
+RESOURCE ID: safari_2022_singapore_title
+TEXT: Pokémon GO Safari Zone: Singapore 2022
+
+RESOURCE ID: safari_2022_singapore_title_0
+TEXT: Pokémon GO Safari Zone: Singapore 2022 (1/2)
+
+RESOURCE ID: safari_2022_singapore_title_1
+TEXT: Pokémon GO Safari Zone: Singapore 2022 (2/2)
+
+RESOURCE ID: safari_2022_taipei_citywide_title
+TEXT: Pokémon GOSafari Zone: Taipei 2022 – 城市加碼獎勵
+
+RESOURCE ID: safari_2022_taipei_dialogue_0_0
+TEXT: %PLAYERNAME%，歡迎來到Pokémon GO Safari Zone: Taipei 2022！
+
+RESOURCE ID: safari_2022_taipei_dialogue_1_1
+TEXT: 而且我們今天在台北也增長了很多知識！
+
+RESOURCE ID: safari_2022_taipei_title
+TEXT: Pokémon GOSafari Zone: Taipei 2022
+
+RESOURCE ID: safari_2022_taipei_title_0
+TEXT: Pokémon GOSafari Zone: Taipei 2022 (1/2)
+
+RESOURCE ID: safari_2022_taipei_title_1
+TEXT: Pokémon GOSafari Zone: Taipei 2022 (2/2)
+
 RESOURCE ID: safari_battle_singular
 TEXT: Safari Zone：和其他訓練家對戰
 
@@ -58458,6 +59311,9 @@ TEXT: 小秘訣
 RESOURCE ID: screen_you_title
 TEXT: 自己
 
+RESOURCE ID: search_keywords_button
+TEXT: SEE ALL SEARCH KEYWORDS
+
 RESOURCE ID: search_label
 TEXT: 搜尋
 
@@ -58545,8 +59401,17 @@ TEXT: 無法變更隱私權設定
 RESOURCE ID: settings_account_header
 TEXT: 帳號
 
+RESOURCE ID: settings_account_link_header
+TEXT: 已綁定的帳號
+
+RESOURCE ID: settings_account_link_learn_more
+TEXT: 關於綁定複數帳號
+
 RESOURCE ID: settings_account_link_tip
 TEXT: 小秘訣：綁定登入帳號後，就可以用該帳號登入遊戲
+
+RESOURCE ID: settings_account_link_v2_tip
+TEXT: 綁定複數帳號後，你在登入時將有更多選擇
 
 RESOURCE ID: settings_account_linked
 TEXT: 已綁定
@@ -58565,6 +59430,18 @@ TEXT: 更新遊戲數據
 
 RESOURCE ID: settings_advanced_cache_reset_sub
 TEXT: 遊戲出現卡頓狀況時，可藉由更新遊戲資料改善。
+
+RESOURCE ID: settings_advanced_items_title
+TEXT: 道具
+
+RESOURCE ID: settings_advanced_pokemon_title
+TEXT: 寶可夢
+
+RESOURCE ID: settings_advanced_quality_title
+TEXT: 品質
+
+RESOURCE ID: settings_advanced_sharing_title
+TEXT: 分享
 
 RESOURCE ID: settings_advanced_title
 TEXT: 進階設定
@@ -58605,6 +59482,12 @@ TEXT: 夥伴寶可夢找到的糖果
 RESOURCE ID: settings_change_nickname
 TEXT: 更改暱稱
 
+RESOURCE ID: settings_connected_devices_no_devices
+TEXT: 未找到裝置
+
+RESOURCE ID: settings_connected_devices_title
+TEXT: 已連結的裝置及服務
+
 RESOURCE ID: settings_email_marketing
 TEXT: 接收活動、優惠、促銷內容等最新訊息。
 
@@ -58619,6 +59502,9 @@ TEXT: 對方接受朋友申請時
 
 RESOURCE ID: settings_friend_request_received
 TEXT: 收到朋友申請時
+
+RESOURCE ID: settings_general_title
+TEXT: 一般
 
 RESOURCE ID: settings_gift_notified_push_notification
 TEXT: 朋友開啟你送的活動入場券時
@@ -58671,8 +59557,14 @@ TEXT: 附近的團體戰
 RESOURCE ID: settings_niantic_ar
 TEXT: Niantic AR (AR+)
 
+RESOURCE ID: settings_niantic_ar_tip
+TEXT: 你可以在捕捉寶可夢或拍攝GO Snapshot時使用AR
+
 RESOURCE ID: settings_niantic_ar_update
 TEXT: 更新Niantic AR (AR+)
+
+RESOURCE ID: settings_niantic_ar_update_done
+TEXT: AR為最新狀態
 
 RESOURCE ID: settings_nintendo_account
 TEXT: Nintendo Account
@@ -58719,8 +59611,20 @@ TEXT: 請開啟「設定」中的「Pokémon GO Plus」，確認目前已配對�
 RESOURCE ID: settings_pgp_check_other_menu
 TEXT: 請開啟「設定」中的「精靈球Plus」，確認目前已配對的裝置。
 
+RESOURCE ID: settings_pkmn_home_about_nintendo
+TEXT: 關於任天堂
+
+RESOURCE ID: settings_pkmn_home_howto_transfer
+TEXT: 如何將寶可夢從Pokémon GO傳送至Pokémon HOME
+
+RESOURCE ID: settings_pkmn_home_nintendo_signin
+TEXT: 登入
+
 RESOURCE ID: settings_pokemon_badge
 TEXT: 顯示獎章
+
+RESOURCE ID: settings_pokemon_badge_tip
+TEXT: 頒給正港好夥伴的獎章
 
 RESOURCE ID: settings_pokemon_header
 TEXT: 寶可夢
@@ -58730,6 +59634,9 @@ TEXT: Pokémon HOME
 
 RESOURCE ID: settings_pokemon_return
 TEXT: 寶可夢回來
+
+RESOURCE ID: settings_pokemon_return_tip
+TEXT: 被派去防禦道館的寶可夢會在幹勁降為0時回到訓練家身邊
 
 RESOURCE ID: settings_postcard_optin_name
 TEXT: 在朋友的明信片收納冊中公開自己的暱稱
@@ -58743,8 +59650,14 @@ TEXT: 時時刻刻冒險：附近
 RESOURCE ID: settings_push_bgmode_walking
 TEXT: 時時刻刻冒險：步行
 
+RESOURCE ID: settings_push_bgmode_walking_tip
+TEXT: 開啟「時時刻刻冒險」模式後，關閉Pokémon GO時也可以累積步行距離孵蛋、讓夥伴寶可夢獲得糖果。
+
 RESOURCE ID: settings_push_buddy_v2
 TEXT: 夥伴謝禮
+
+RESOURCE ID: settings_push_buddy_v2_tip
+TEXT: 在寶可夢成為你的麻吉好夥伴後，牠將會告訴你這附近有什麼有趣的地方，或是帶紀念品和禮物給你。
 
 RESOURCE ID: settings_push_marketing
 TEXT: 活動、折扣資訊及最新消息
@@ -58766,6 +59679,9 @@ TEXT: 回報技術性問題
 
 RESOURCE ID: settings_reset_cache_confirm
 TEXT: 確定要更新遊戲數據嗎？
+
+RESOURCE ID: settings_resources_str
+TEXT: 更多詳細資訊
 
 RESOURCE ID: settings_select_legendary_label
 TEXT: 擴展選擇範圍
@@ -58828,6 +59744,9 @@ TEXT: 和朋友分享最近捉到的寶可夢
 RESOURCE ID: settings_show_campfire_buttons
 TEXT: 顯示Campfire
 
+RESOURCE ID: settings_show_campfire_tip
+TEXT: 在Pokémon GO中啟用Campfire按鈕
+
 RESOURCE ID: settings_sound_effects
 TEXT: 音效
 
@@ -58881,6 +59800,12 @@ TEXT: 解鎖此裝置的最高更新頻率， 以提升畫面更新率。
 
 RESOURCE ID: settings_unlock_base_framerate_description_on
 TEXT: 已解鎖最高更新頻率
+
+RESOURCE ID: settings_uploads_title
+TEXT: 上傳
+
+RESOURCE ID: settings_version_title
+TEXT: 版本
 
 RESOURCE ID: settings_vibration
 TEXT: 震動
@@ -59337,6 +60262,18 @@ TEXT: 親愛的，你就先回去閉門練個幾年再來找我對戰吧。
 RESOURCE ID: sign_in_partial
 TEXT: 以 {0} 註冊帳號
 
+RESOURCE ID: sign_up_button
+TEXT: SIGN UP
+
+RESOURCE ID: sign_up_text_titlecase
+TEXT: Sign Up
+
+RESOURCE ID: singapore_cup_title
+TEXT: Singapore Catch Cup
+
+RESOURCE ID: singapore_cup_title_post
+TEXT: Post-event Catch Cup: Singapore
+
 RESOURCE ID: sinnoh_2020_catch_medium1
 TEXT: 神奧慶典：捕捉 {0} 隻草苗龜、小火焰猴或波加曼
 
@@ -59530,6 +60467,9 @@ TEXT: 更多小火龍出現在地圖上
 RESOURCE ID: spawn_deino
 TEXT: 更多單首龍出現在地圖上
 
+RESOURCE ID: spawn_dratini_cdc
+TEXT: More Dratini are appearing in the wild!
+
 RESOURCE ID: spawn_duskull
 TEXT: 更多夜巡靈出現在地圖上
 
@@ -59552,7 +60492,7 @@ RESOURCE ID: spawn_hoppip
 TEXT: 更多毽子草出現在地圖上
 
 RESOURCE ID: spawn_litwick
-TEXT: More Litwick are appearing in the wild!
+TEXT: 更多燭光靈出現在地圖上!
 
 RESOURCE ID: spawn_machop
 TEXT: 更多腕力出現在地圖上
@@ -59604,6 +60544,9 @@ TEXT: 更多童偶熊出現在地圖上！
 
 RESOURCE ID: spawn_swablu
 TEXT: 更多青綿鳥出現在地圖上
+
+RESOURCE ID: spawn_teddiursa
+TEXT: More Teddiursa are appearing in the wild!
 
 RESOURCE ID: spawn_tepig
 TEXT: 更多暖暖豬出現在地圖上
@@ -60899,6 +61842,12 @@ TEXT: 為 {0} 隻寶可夢標標籤
 RESOURCE ID: tagging_favorites_title
 TEXT: 我的最愛
 
+RESOURCE ID: taipei_cup_title
+TEXT: 速成盃：台北
+
+RESOURCE ID: taipei_cup_title_post
+TEXT: 活動後速成盃：台北
+
 RESOURCE ID: team_blue_intro|1
 TEXT: 我是布蘭雪，叡智隊的隊長。
 
@@ -61085,6 +62034,9 @@ TEXT: 12月社群日
 RESOURCE ID: ticket_deino
 TEXT: 特殊調查「單首龍調查筆記」的入場券在商店中上架
 
+RESOURCE ID: ticket_dratini_cdc
+TEXT: Ticket for the Dratini Community Day Classic Special Research story available in the shop
+
 RESOURCE ID: ticket_duskull
 TEXT: 特殊調查「夜夜夜巡靈」的入場券在商店中上架
 
@@ -61118,7 +62070,7 @@ RESOURCE ID: ticket_hoppip
 TEXT: 特殊調查「飄飄毽子草」的入場券在商店中上架
 
 RESOURCE ID: ticket_litwick
-TEXT: Ticket for the Field Notes: Trick of the Light Special Research story available in the shop
+TEXT: 特殊調查「燭光靈調查筆記」的入場券在商店中上架
 
 RESOURCE ID: ticket_machop
 TEXT: 特殊調查「腕力衝衝衝」的入場券在商店中上架
@@ -61170,6 +62122,9 @@ TEXT: 特殊調查「抓狂毛茸茸」的入場券在商店中上架
 
 RESOURCE ID: ticket_swablu
 TEXT: 特殊調查「綿翼小鳥」的入場券在商店中上架
+
+RESOURCE ID: ticket_teddiursa
+TEXT: Ticket for the Sweet Snacks Special Research story available in the shop
 
 RESOURCE ID: ticket_tepig
 TEXT: 特殊調查「火烤樹果」的入場券在商店中上架
@@ -61912,6 +62867,12 @@ TEXT: 包包已滿，無法領取對戰後的獎勵
 
 RESOURCE ID: tr_sz_goyang_global
 TEXT: Safari Zone 高陽：探索挑戰
+
+RESOURCE ID: tr_sz_singapore_global
+TEXT: Pokémon GO Safari Zone: Singapore 2022 – Exploration Challenge
+
+RESOURCE ID: tr_sz_taipei_global
+TEXT: Pokémon GO Safari Zone: Taipei 2022 – 探索大挑戰
 
 RESOURCE ID: trade_action
 TEXT: 交換
@@ -63032,6 +63993,9 @@ TEXT: 等待上傳的紀錄
 RESOURCE ID: verbose_logs_settings_title
 TEXT: 遊戲紀錄
 
+RESOURCE ID: verbose_logs_settings_v2_title
+TEXT: 遊戲紀錄
+
 RESOURCE ID: verbose_logs_toggle
 TEXT: 儲存 {0} 紀錄
 
@@ -63474,7 +64438,7 @@ RESOURCE ID: weekly_box
 TEXT: 週間禮盒
 
 RESOURCE ID: weekly_reminder_km_notification_toast
-TEXT: You’ve walked %s km this week. Not much farther until you’ve reached your goal!
+TEXT: 這星期已經走了%s公里，很快就能達成目標囉！
 
 RESOURCE ID: welcome_to_alola_event_name
 TEXT: 歡迎來到阿羅拉

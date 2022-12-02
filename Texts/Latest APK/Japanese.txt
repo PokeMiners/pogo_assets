@@ -721,6 +721,9 @@ TEXT: アローラへようこそ
 RESOURCE ID: alola_pokedex_header
 TEXT: アローラのすがた
 
+RESOURCE ID: already_have_account
+TEXT: すでにアカウントを持っていますか？
+
 RESOURCE ID: anniversary_2021_collection_challenge
 TEXT: 5周年コレクション
 
@@ -833,13 +836,22 @@ RESOURCE ID: appraise_overall_mid_3|1
 TEXT: きみの {0} は、全体的に普通だと思うぜ。
 
 RESOURCE ID: appraise_size_huge_1|1
-TEXT: {0}の大きさは... 分類できないほどだ。興味深い。
+TEXT: {0}の大きさは...分類できないほどだ。興味深い。
+
+RESOURCE ID: appraise_size_huge_1|1b
+TEXT: きみの{0}は非常に大きいと言えるだろう。
 
 RESOURCE ID: appraise_size_huge_2|1
 TEXT: きみの{0}は巨大ね！今までで一番大きいわ。
 
+RESOURCE ID: appraise_size_huge_2|1b
+TEXT: えっ、けっこう大きい{0}ね！
+
 RESOURCE ID: appraise_size_huge_3|1
 TEXT: きみの{0}は... とてつもなく大きいぞ！
+
+RESOURCE ID: appraise_size_huge_3|1b
+TEXT: きみの{0}はかなり大きい！
 
 RESOURCE ID: appraise_size_large_1|1
 TEXT: きみの{0}は平均より大きい。
@@ -871,11 +883,20 @@ TEXT: きみの{0}は、小さめだね。普通はもう少し大きいぜ。
 RESOURCE ID: appraise_size_tiny_1|1
 TEXT: きみの{0}は記録に残っているかぎり、最小のようだ。驚異的。
 
+RESOURCE ID: appraise_size_tiny_1|1b
+TEXT: きみの{0}は非常に小さいと言えるだろう。
+
 RESOURCE ID: appraise_size_tiny_2|1
 TEXT: きみの{0}は、とっても小さいね！よく見つけられたわね。
 
+RESOURCE ID: appraise_size_tiny_2|1b
+TEXT: あら、小さい{0}ね！
+
 RESOURCE ID: appraise_size_tiny_3|1
 TEXT: なんと！今まで見たなかでいちばん小さい{0}だぜ！
+
+RESOURCE ID: appraise_size_tiny_3|1b
+TEXT: きみの{0}はかなり小さめ、じゃないかな？
 
 RESOURCE ID: appraise_size_xxl_1|1
 TEXT: {0}の大きさは...分類できないほどだ。興味深い。
@@ -1531,6 +1552,11 @@ TEXT: マスク みずタイプ
 RESOURCE ID: avatar_f_face_banettemask_00_bundle_icon
 TEXT: マスク ジュペッタ
 
+RESOURCE ID: avatar_f_face_dayofthedead_00_bundle_icon
+TEXT: DÍA DE
+MUERTOS
+フェイスペイント
+
 RESOURCE ID: avatar_f_face_defaultmask_00_bundle_icon
 TEXT: マスク
 
@@ -1760,6 +1786,9 @@ TEXT: シンオウ主人公風 帽子
 
 RESOURCE ID: avatar_f_hat_drifloon_0_bundle_icon
 TEXT: フワンテキャップ
+
+RESOURCE ID: avatar_f_hat_dusclopsmummy_00_bundle_icon
+TEXT: サマヨール　ヘッドウェア
 
 RESOURCE ID: avatar_f_hat_eeveecap_0_bundle_icon
 TEXT: イーブイキャップ
@@ -2036,6 +2065,9 @@ TEXT: コロモリ イヤリング
 RESOURCE ID: avatar_f_hat_yamaskhat_00_bundle_icon
 TEXT: トップハット デスマス
 
+RESOURCE ID: avatar_f_hat_zubathat_00_bundle_icon
+TEXT: ズバット　カチューシャ
+
 RESOURCE ID: avatar_f_necklace_default_bundle_icon
 TEXT: リボンチョーカー
 
@@ -2111,6 +2143,9 @@ TEXT: ジョウトパンツ
 
 RESOURCE ID: avatar_f_pants_loosepants_0_bundle_icon
 TEXT: ルーズパンツ みずたまもよう 
+
+RESOURCE ID: avatar_f_pants_lunala
+TEXT: ルナアーラ　パンツ
 
 RESOURCE ID: avatar_f_pants_luvdiscpack_0_bundle_icon
 TEXT: ラブカス ダメージデニム
@@ -2288,6 +2323,9 @@ TEXT: シンオウ主人公風 トップスセット
 
 RESOURCE ID: avatar_f_shirt_drifblim_0_bundle_icon
 TEXT: フワライドTシャツ
+
+RESOURCE ID: avatar_f_shirt_dusclopsmummy_00_bundle_icon
+TEXT: サマヨール　セット
 
 RESOURCE ID: avatar_f_shirt_earthday_2018_bundle_icon
 TEXT: なみのりブルーTシャツ
@@ -2739,6 +2777,9 @@ TEXT: ポケモンWCS　チャンピオン　トップス 2022
 RESOURCE ID: avatar_f_shirt_whitecoat_00_bundle_icon
 TEXT: ダッフルコート 白
 
+RESOURCE ID: avatar_f_shirt_zoruaonesie_00_bundle_icon
+TEXT: ゾロア　着ぐるみ
+
 RESOURCE ID: avatar_f_shoes_6thanniversary_00_bundle_icon
 TEXT: 6周年　フォーマルシューズ
 
@@ -2866,6 +2907,9 @@ TEXT: サンダル
 RESOURCE ID: avatar_f_shoes_sandals_2_bundle_icon
 TEXT: サンダル
 
+RESOURCE ID: avatar_f_shoes_solgaleo
+TEXT: ソルガレオ　シューズ
+
 RESOURCE ID: avatar_f_shoes_ss_0_bundle_icon
 TEXT: ガラル主人公 シューズ
 
@@ -2948,6 +2992,9 @@ TEXT: 素足
 
 RESOURCE ID: avatar_f_socks_fw2022_00_bundle_icon
 TEXT: ヒドイデ　ソックス
+
+RESOURCE ID: avatar_f_socks_galaxy
+TEXT: 星空　タイツ
 
 RESOURCE ID: avatar_f_socks_hgss_bundle_icon
 TEXT: ジョウトソックス
@@ -3100,7 +3147,7 @@ RESOURCE ID: avatar_m_backpack_togepibackpack_0_bundle_icon
 TEXT: トゲピーバッグ
 
 RESOURCE ID: avatar_m_backpack_ultra_bundle_icon
-TEXT: ウルトラサン バッグ
+TEXT: ウルトラサンバッグ
 
 RESOURCE ID: avatar_m_backpack_verizon2021_00_bundle_icon
 TEXT: Verizon バックパック
@@ -3119,6 +3166,11 @@ TEXT: マスク みずタイプ
 
 RESOURCE ID: avatar_m_face_banettemask_00_bundle_icon
 TEXT: マスク ジュペッタ
+
+RESOURCE ID: avatar_m_face_dayofthedead_00_bundle_icon
+TEXT: DÍA DE
+MUERTOS
+フェイスペイント
 
 RESOURCE ID: avatar_m_face_defaultmask_00_bundle_icon
 TEXT: マスク
@@ -3349,6 +3401,9 @@ TEXT: シンオウ主人公風 帽子
 
 RESOURCE ID: avatar_m_hat_drifloon_0_bundle_icon
 TEXT: フワンテキャップ
+
+RESOURCE ID: avatar_m_hat_dusclopsmummy_00_bundle_icon
+TEXT: サマヨール　ヘッドウェア
 
 RESOURCE ID: avatar_m_hat_eeveecap_0_bundle_icon
 TEXT: イーブイキャップ
@@ -3621,6 +3676,9 @@ TEXT: コロモリ イヤリング
 RESOURCE ID: avatar_m_hat_yamaskhat_00_bundle_icon
 TEXT: トップハット デスマス
 
+RESOURCE ID: avatar_m_hat_zubathat_00_bundle_icon
+TEXT: ズバット　カチューシャ
+
 RESOURCE ID: avatar_m_pants_6thanniversary_00_bundle_icon
 TEXT: 6周年　白スーツ
 パンツ
@@ -3699,6 +3757,9 @@ TEXT: コルニ　パンツ
 
 RESOURCE ID: avatar_m_pants_loosepants_0_bundle_icon
 TEXT: ルーズパンツ みずたまもよう 
+
+RESOURCE ID: avatar_m_pants_lunala
+TEXT: ルナアーラ　パンツ
 
 RESOURCE ID: avatar_m_pants_luvdiscpack_0_bundle_icon
 TEXT: ラブカス ダメージデニム
@@ -3873,6 +3934,9 @@ TEXT: シンオウ主人公風 トップスセット
 
 RESOURCE ID: avatar_m_shirt_drifblim_0_bundle_icon
 TEXT: フワライドTシャツ
+
+RESOURCE ID: avatar_m_shirt_dusclopsmummy_00_bundle_icon
+TEXT: サマヨール　セット
 
 RESOURCE ID: avatar_m_shirt_earthday_2018_bundle_icon
 TEXT: なみのりブルーTシャツ
@@ -4327,6 +4391,9 @@ TEXT: ポケモンWCS　チャンピオン　トップス 2022
 RESOURCE ID: avatar_m_shirt_whitecoat_00_bundle_icon
 TEXT: ダッフルコート 白
 
+RESOURCE ID: avatar_m_shirt_zoruaonesie_00_bundle_icon
+TEXT: ゾロア　着ぐるみ
+
 RESOURCE ID: avatar_m_shoes_6thanniversary_00_bundle_icon
 TEXT: 6周年　フォーマルシューズ
 
@@ -4457,6 +4524,9 @@ TEXT: サンダル
 RESOURCE ID: avatar_m_shoes_sandals_2_bundle_icon
 TEXT: サンダル
 
+RESOURCE ID: avatar_m_shoes_solgaleo
+TEXT: ソルガレオ　シューズ
+
 RESOURCE ID: avatar_m_shoes_ss_0_bundle_icon
 TEXT: ガラル主人公 シューズ
 
@@ -4539,6 +4609,9 @@ TEXT: 素足
 
 RESOURCE ID: avatar_m_socks_fw2022_00_bundle_icon
 TEXT: ヒドイデ　ソックス
+
+RESOURCE ID: avatar_m_socks_galaxy
+TEXT: 星空　タイツ
 
 RESOURCE ID: avatar_m_socks_sneakersocks_00_bundle_icon
 TEXT: くるぶしソックス
@@ -4727,110 +4800,113 @@ TEXT: 最高の相棒ができた！
 RESOURCE ID: badge_buddy_best_title
 TEXT: ベストバディ
 
+RESOURCE ID: badge_butterfly_collector
+TEXT: ビビヨン集めが進んだ！
+
 RESOURCE ID: badge_butterfly_collector_archipelago_singular
-TEXT: ぐんとうのもようメダル
+TEXT: ぐんとうのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_archipelago_title
 TEXT: ぐんとうコレクター
 
 RESOURCE ID: badge_butterfly_collector_continental_singular
-TEXT: たいりくのもようメダル
+TEXT: たいりくのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_continental_title
 TEXT: たいりくコレクター
 
 RESOURCE ID: badge_butterfly_collector_elegant_singular
-TEXT: みやびなもようメダル
+TEXT: みやびなもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_elegant_title
 TEXT: みやびコレクター
 
 RESOURCE ID: badge_butterfly_collector_fancy_singular
-TEXT: ファンシーなもようメダル
+TEXT: ファンシーなポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_fancy_title
 TEXT: ファンシーコレクター
 
 RESOURCE ID: badge_butterfly_collector_garden_singular
-TEXT: ていえんのもようメダル
+TEXT: ていえんのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_garden_title
 TEXT: ていえんコレクター
 
 RESOURCE ID: badge_butterfly_collector_high_plains_singular
-TEXT: こうやのもようメダル
+TEXT: こうやのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_high_plains_title
 TEXT: こうやコレクター
 
 RESOURCE ID: badge_butterfly_collector_icy_snow_singular
-TEXT: ひょうせつのもようメダル
+TEXT: ひょうせつのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_icy_snow_title
 TEXT: ひょうせつコレクター
 
 RESOURCE ID: badge_butterfly_collector_jungle_singular
-TEXT: ジャングルのもようメダル
+TEXT: ジャングルのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_jungle_title
 TEXT: ジャングルコレクター
 
 RESOURCE ID: badge_butterfly_collector_marine_singular
-TEXT: マリンのもようメダル
+TEXT: マリンのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_marine_title
 TEXT: マリンコレクター
 
 RESOURCE ID: badge_butterfly_collector_meadow_singular
-TEXT: はなぞののもようメダル
+TEXT: はなぞののもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_meadow_title
 TEXT: はなぞのコレクター
 
 RESOURCE ID: badge_butterfly_collector_modern_singular
-TEXT: モダンなもようメダル
+TEXT: モダンなもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_modern_title
 TEXT: モダンコレクター
 
 RESOURCE ID: badge_butterfly_collector_monsoon_singular
-TEXT: スコールのもようメダル
+TEXT: スコールのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_monsoon_title
 TEXT: スコールコレクター
 
 RESOURCE ID: badge_butterfly_collector_ocean_singular
-TEXT: オーシャンのもようメダル
+TEXT: オーシャンのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_ocean_title
 TEXT: オーシャンコレクター
 
 RESOURCE ID: badge_butterfly_collector_pokeball_singular
-TEXT: ボールのもようメダル
+TEXT: ボール模様のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_pokeball_title
 TEXT: ボールコレクター
 
 RESOURCE ID: badge_butterfly_collector_polar_singular
-TEXT: ゆきぐにのもようメダル
+TEXT: ゆきぐにのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_polar_title
 TEXT: ゆきぐにコレクター
 
 RESOURCE ID: badge_butterfly_collector_river_singular
-TEXT: たいがのもようメダル
+TEXT: たいがのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_river_title
 TEXT: たいがコレクター
 
 RESOURCE ID: badge_butterfly_collector_sandstorm_singular
-TEXT: さじんのもようメダル
+TEXT: さじんのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_sandstorm_title
 TEXT: さじんコレクター
 
 RESOURCE ID: badge_butterfly_collector_savannah_singular
-TEXT: サバンナのもようメダル
+TEXT: サバンナのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_savannah_title
 TEXT: サバンナコレクター
@@ -4839,7 +4915,7 @@ RESOURCE ID: badge_butterfly_collector_singular
 TEXT: ビビヨン集めが進んだ！
 
 RESOURCE ID: badge_butterfly_collector_sun_singular
-TEXT: たいようのもようメダル
+TEXT: たいようのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_sun_title
 TEXT: たいようコレクター
@@ -4848,7 +4924,7 @@ RESOURCE ID: badge_butterfly_collector_title
 TEXT: ビビヨンコレクター
 
 RESOURCE ID: badge_butterfly_collector_tundra__singular
-TEXT: せつげんのもようメダル
+TEXT: せつげんのもようのビビヨンがいる地域のポストカードをピンした！
 
 RESOURCE ID: badge_butterfly_collector_tundra_title
 TEXT: せつげんコレクター
@@ -6478,6 +6554,102 @@ TEXT: Pokémon GO Safari
 RESOURCE ID: badge_safarizone_2022_seville_day_03_general_title
 TEXT: セビリア、2022年5月15日
 
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_earlyaccess
+TEXT: シンガポール2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_earlyaccess_title
+TEXT: Pokémon GO Safari Zone - アーリーオープン
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_general
+TEXT: シンガポール2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_earlyaccess
+TEXT: シンガポール、2022年10月21日
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_earlyaccess_title
+TEXT: Pokémon GO Safari Zone - アーリーオープン
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_general
+TEXT: シンガポール、2022年10月21日
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_earlyaccess
+TEXT: シンガポール、2022年10月22日
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_earlyaccess_title
+TEXT: Pokémon GO Safari Zone - アーリーオープン
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_general
+TEXT: シンガポール、2022年10月22日
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_earlyaccess
+TEXT: シンガポール、2022年10月23日
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_earlyaccess_title
+TEXT: Pokémon GO Safari Zone - アーリーオープン
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_general
+TEXT: シンガポール、2022年10月23日
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_earlyaccess
+TEXT: 台北 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_earlyaccess_title
+TEXT: Pokémon GO Safari Zone - アーリーオープン
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_general
+TEXT: 台北 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_earlyaccess
+TEXT: 台北、2022年10月21日
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_earlyaccess_title
+TEXT: Pokémon GO Safari Zone - アーリーオープン
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_general
+TEXT: 台北、2022年10月21日
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_earlyaccess
+TEXT: 台北、2022年10月22日
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_earlyaccess_title
+TEXT: Pokémon GO Safari Zone - アーリーオープン
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_general
+TEXT: 台北、2022年10月22日
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_earlyaccess
+TEXT: 台北、2022年10月23日
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_earlyaccess_title
+TEXT: Pokémon GO Safari Zone - アーリーオープン
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_general
+TEXT: 台北、2022年10月23日
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_general_title
+TEXT: Pokémon GO Safari Zone
+
 RESOURCE ID: badge_sentosa_18_apr_2019
 TEXT: 2019年4月18日セントーサ島
 
@@ -6965,7 +7137,7 @@ RESOURCE ID: batch_transfer_unique_not_included
 TEXT: 伝説・幻のポケモン、ウルトラビースト、特殊なポケモンを選択していません
 
 RESOURCE ID: batch_transfer_unique_warning_message
-TEXT: 本当に研究所に送ってもいいですか？
+TEXT: 本当にこれらのポケモンを送ってもいいですか？
 
 RESOURCE ID: batch_transfer_unique_warning_title
 TEXT: 選択したポケモン：
@@ -9710,6 +9882,9 @@ TEXT: アローラのすがたのゴローンをゴローニャに進化させ�
 RESOURCE ID: bonus_cd_move_deino
 TEXT: ジヘッドをサザンドラに進化させるとぶんまわすを覚えている
 
+RESOURCE ID: bonus_cd_move_dratini_cdc
+TEXT: ハクリューをカイリューに進化させるとりゅうせいぐんを覚えている
+
 RESOURCE ID: bonus_cd_move_litwick
 TEXT: ランプラーをシャンデラに進化させるとポルターガイストを覚えている
 
@@ -9718,6 +9893,9 @@ TEXT: ガントルをギガイアスに進化させるとメテオビームを�
 
 RESOURCE ID: bonus_cd_move_starly
 TEXT: ムクバードをムクホークに進化させるとかぜおこしを覚えている
+
+RESOURCE ID: bonus_cd_move_teddiursa
+TEXT: リングマをガチグマに進化させると１０まんばりきを覚えている
 
 RESOURCE ID: bonus_cd_move_zigzagoon
 TEXT: ガラルのマッスグマをタチフサグマに進化させるとブロッキングを覚えている
@@ -9730,6 +9908,12 @@ TEXT: エリア内のポケストップを回すとイベントのステッカ�
 
 RESOURCE ID: bonus_event_sticker_plural
 TEXT: エリア内のポケストップを回すとイベントのステッカーがもらえる
+
+RESOURCE ID: bonus_exclusive_souvenir
+TEXT: イベント限定の相棒が見つけるおみやげ
+
+RESOURCE ID: bonus_finneon_o_clock
+TEXT: 正時にケイコウオが大量発生
 
 RESOURCE ID: bonus_implicit_social_alodude
 TEXT: ひとつのルアーで捕まえられたポケモンが一定数を超えると、その周りで30分間4× ポケモン獲得ほしのすな
@@ -9771,6 +9955,9 @@ TEXT: トレーナーが協力してレイドでムクバードを倒すと、�
 RESOURCE ID: bonus_implicit_social_stufful
 TEXT: ひとつのルアーで捕まえられたポケモンが一定数を超えると、その周りで30分間4× ポケモン獲得XP
 
+RESOURCE ID: bonus_implicit_social_teddiursa_raid
+TEXT: トレーナーが協力してレイドでリングマを倒すと、そのジムの周りに30分間ヒメグマが現れる
+
 RESOURCE ID: bonus_implicit_social_unlock
 TEXT: ボーナス有効化！
 
@@ -9786,11 +9973,17 @@ TEXT: ルアー持続3時間
 RESOURCE ID: bonus_magnetic_lure_6_hr
 TEXT: マグネットルアー持続6時間
 
+RESOURCE ID: bonus_mega_latias_latios
+TEXT: メガラティアスとメガラティオスのレイドがエリア内に発生
+
 RESOURCE ID: bonus_milestone_rewards_title
 TEXT: ボーナスマイルストーンリワード
 
 RESOURCE ID: bonus_not_active
 TEXT: アクティブボーナス無し
+
+RESOURCE ID: bonus_purrloin_o_clock
+TEXT: 正時にチョロネコが大量発生
 
 RESOURCE ID: bonus_raid_trainers_gym_bug_types
 TEXT: トレーナーが一緒にレイドするとその近くでむしタイプのポケモンが15分間大量発生する
@@ -9855,8 +10048,23 @@ TEXT: 1/2 タマゴふか距離
 RESOURCE ID: bonus_reward_quarter_hatch_distance
 TEXT: 1/4 タマゴふか距離
 
+RESOURCE ID: bonus_singapore_photobomb
+TEXT: GOスナップショットできのみTシャツピカチュウとサニーゴのサプライズ5回
+
+RESOURCE ID: bonus_spawn_corsola
+TEXT: サニーゴがより多くエリア内に出現
+
+RESOURCE ID: bonus_spawn_lapras
+TEXT: ラプラスがより多くエリア内に出現
+
 RESOURCE ID: bonus_spawn_pikachu
 TEXT: ピカチュウがより多く野生で出現
+
+RESOURCE ID: bonus_spawn_regional_pika
+TEXT: 着飾ったピカチュウがエリア内に出現
+
+RESOURCE ID: bonus_spawn_snorlax
+TEXT: カビゴンがより多くエリア内に出現
 
 RESOURCE ID: bonus_special_trade_double_cd
 TEXT: イベント中と終了後5時間内に特別な交換1回追加
@@ -9872,6 +10080,9 @@ TEXT: イベント中と終了後5時間内に特別な交換1回追加(当日�
 
 RESOURCE ID: bonus_spritzee_o_clock
 TEXT: 正時にシュシュプが大量発生
+
+RESOURCE ID: bonus_taipei_photobomb
+TEXT: GOスナップショットできのみTシャツピカチュウとサニーゴのサプライズ5回
 
 RESOURCE ID: bonus_trade_stardust_50pc_5hr
 TEXT: イベント中と終了後5時間内に行う交換に必要なほしのすな半減
@@ -10626,6 +10837,12 @@ TEXT: 食べられないキノコ。パラスなど、きのこポケモンに�
 RESOURCE ID: buddy_souvenir_mushroom_name
 TEXT: キノコ
 
+RESOURCE ID: buddy_souvenir_paper_airplane_description
+TEXT: 黄色の紙で折った飛行機。冒険の思い出を乗せて飛ぶ。
+
+RESOURCE ID: buddy_souvenir_paper_airplane_name
+TEXT: かみひこうき
+
 RESOURCE ID: buddy_souvenir_pikachu_visor_description
 TEXT: イベントで着用されることが多いサンバイザー。ポケモン愛をピカッと示す。
 
@@ -10735,7 +10952,7 @@ RESOURCE ID: buddy_tutorial_basic_content_p0
 TEXT: 相棒のポケモンが一緒に冒険してくれるように「{0}」をタップしておやつをあげましょう。相棒と一緒に冒険すればするほど、絆（ハートの数）が深まり、おみやげをくれる、おもしろそうな場所を教えてくれる、バトルで発揮できる力が上がる、などの変化が見られます。
 
 RESOURCE ID: buddy_tutorial_basic_content_p1
-TEXT: 一緒に歩くと、ハートが増えて（一日{1}回を上限に、{0} km毎に加算されます）いきます。ハート増加に反映される距離は、マップ上で相棒が実際に一緒に歩いてくれた距離です。
+TEXT: 一緒に歩くと、ハートが増え（一日{1}回を上限に{0} km毎に加算）ます。ハート増加に反映される距離は、マップ上で相棒が実際に一緒に歩いてくれた距離です。
 
 RESOURCE ID: buddy_tutorial_basic_content_p2
 TEXT: 相棒のポケモンに、おやつをあげましょう。お腹がいっぱいになるとハートがもらえます。
@@ -11009,6 +11226,9 @@ TEXT: スペシャルボックス
 
 RESOURCE ID: bundle_retweet_reward
 TEXT: リツイートボックス
+
+RESOURCE ID: calavera_bonus_tr_title
+TEXT: Cráneo Monumental：ボーナスタイムチャレンジ
 
 RESOURCE ID: campfire_invite_notification
 TEXT: Campfire：{0}さんから招待されました！
@@ -13089,6 +13309,9 @@ TEXT: 二次元バーコード読取
 RESOURCE ID: combat_scan_qr_code_to_combat
 TEXT: このコードを読み取ってもらうと対戦できます
 
+RESOURCE ID: combat_schedule_open_error
+TEXT: スケジュールを開くことができません
+
 RESOURCE ID: combat_sierra_name
 TEXT: シエラ　リーダー
 
@@ -13183,6 +13406,9 @@ TEXT: 12月コミュニティ・デイ2021ウィークエンド
 RESOURCE ID: community_day_deino_event_name
 TEXT: コミュニティ・デイ：モノズ
 
+RESOURCE ID: community_day_dratini_cdc_event_name
+TEXT: コミュニティ・デイ復刻：ミニリュウ
+
 RESOURCE ID: community_day_duskull_event_name
 TEXT: コミュニティ・デイ：ヨマワル
 
@@ -13266,6 +13492,9 @@ TEXT: コミュニティ・デイ：ヌイコグマ
 
 RESOURCE ID: community_day_swablu_event_name
 TEXT: コミュニティ・デイ：チルット
+
+RESOURCE ID: community_day_teddiursa_event_name
+TEXT: コミュニティ・デイ：ヒメグマ
 
 RESOURCE ID: community_day_tepig_event_name
 TEXT: コミュニティ・デイ：ポカブ
@@ -13435,6 +13664,10 @@ TEXT: リュウラセンの塔の謎
 
 RESOURCE ID: ddlm_2021_collection_challenge
 TEXT: Día de Muertosチャレンジ
+
+RESOURCE ID: ddlm_2022_collection_challenge
+TEXT: Día de Muertos 2022
+コレクションチャレンジ
 
 RESOURCE ID: december_cd_event_ticket
 TEXT: 12月コミュニティ・デイチケット
@@ -13664,6 +13897,9 @@ TEXT: 同じ種類は配置できません
 RESOURCE ID: disabled_mythic
 TEXT: 幻のポケモンをジムに配置することはできません
 
+RESOURCE ID: dont_have_account
+TEXT: アカウントを持っていませんか？
+
 RESOURCE ID: dont_use_adventure_sync
 TEXT: いつでも冒険モードを使わない
 
@@ -13844,6 +14080,9 @@ TEXT: エレメントカップ
 
 RESOURCE ID: element_remix_cup_title
 TEXT: エレメントカップRemix
+
+RESOURCE ID: elite_raid_title
+TEXT: エピックレイド
 
 RESOURCE ID: elite_tm_charged_cd_box
 TEXT: すごいわざマシンスペシャル入りコミュニティデイボックス
@@ -14461,7 +14700,7 @@ RESOURCE ID: event_gotour_2021_npc00_defeat__male_speaker
 TEXT: あれ！なんで　こうなった？
 
 RESOURCE ID: event_gotour_2021_npc00_victory__female_speaker
-TEXT: 次は　うまく　いくと思うわ！
+TEXT: 次は　うまく　いくと思う！
 
 RESOURCE ID: event_gotour_2021_npc00_victory__male_speaker
 TEXT: 次は　うまく　いくと思うよ！
@@ -15408,6 +15647,10 @@ TEXT: 虫取り　ポーズ
 RESOURCE ID: f_avatar_poses_bundle_pose_41
 TEXT: グズマ　ポーズ
 
+RESOURCE ID: f_avatar_poses_bundle_pose_43
+TEXT: バケッチャランタン
+ポーズ
+
 RESOURCE ID: f_avatar_poses_bundle_pose_44
 TEXT: スパークル　ポーズ
 
@@ -15524,6 +15767,18 @@ TEXT: +{0} XP
 
 RESOURCE ID: festival_of_colors_event_name
 TEXT: カラーフェスティバル
+
+RESOURCE ID: festival_of_lights_catch_challenge
+TEXT: 光のフェスティバル：
+タイムチャレンジ
+
+RESOURCE ID: festival_of_lights_catch_challenge_page_1
+TEXT: 光のフェスティバル：
+タイムチャレンジ (1/2)
+
+RESOURCE ID: festival_of_lights_catch_challenge_page_2
+TEXT: 光のフェスティバル：
+タイムチャレンジ (2/2)
 
 RESOURCE ID: festivaloflights_event_name
 TEXT: 光のフェスティバル
@@ -15748,6 +16003,12 @@ TEXT: いろちがい
 RESOURCE ID: filter_label_traded
 TEXT: こうかん
 
+RESOURCE ID: finneon_o_clock
+TEXT: ケイコウオタイム
+
+RESOURCE ID: finneon_o_clock_description
+TEXT: ケイコウオがエリア内にたくさん出現
+
 RESOURCE ID: fire_type_event
 TEXT: タイプ上昇：ほのお
 
@@ -15923,58 +16184,58 @@ RESOURCE ID: form_antique
 TEXT: しんさくフォルム
 
 RESOURCE ID: form_arceus_bug
-TEXT: Bug-Type
+TEXT: むしタイプ
 
 RESOURCE ID: form_arceus_dark
-TEXT: Dark-Type
+TEXT: あくタイプ
 
 RESOURCE ID: form_arceus_dragon
-TEXT: Dragon-Type
+TEXT: ドラゴンタイプ
 
 RESOURCE ID: form_arceus_electric
-TEXT: Electric-Type
+TEXT: でんきタイプ
 
 RESOURCE ID: form_arceus_fairy
-TEXT: Fairy-Type
+TEXT: フェアリータイプ
 
 RESOURCE ID: form_arceus_fighting
-TEXT: Fighting-Type
+TEXT: かくとうタイプ
 
 RESOURCE ID: form_arceus_fire
-TEXT: Fire-Type
+TEXT: ほのおタイプ
 
 RESOURCE ID: form_arceus_flying
-TEXT: Flying-Type
+TEXT: ひこうタイプ
 
 RESOURCE ID: form_arceus_ghost
-TEXT: Ghost-Type
+TEXT: ゴーストタイプ
 
 RESOURCE ID: form_arceus_grass
-TEXT: Grass-Type
+TEXT: くさタイプ
 
 RESOURCE ID: form_arceus_ground
-TEXT: Ground-Type
+TEXT: じめんタイプ
 
 RESOURCE ID: form_arceus_ice
-TEXT: Ice-Type
+TEXT: こおりタイプ
 
 RESOURCE ID: form_arceus_normal
-TEXT: Normal-Type
+TEXT: ノーマルタイプ
 
 RESOURCE ID: form_arceus_poison
-TEXT: Poison-Type
+TEXT: どくタイプ
 
 RESOURCE ID: form_arceus_psychic
-TEXT: Psychic-Type
+TEXT: エスパータイプ
 
 RESOURCE ID: form_arceus_rock
-TEXT: Rock-Type
+TEXT: いわタイプ
 
 RESOURCE ID: form_arceus_steel
-TEXT: Steel-Type
+TEXT: はがねタイプ
 
 RESOURCE ID: form_arceus_water
-TEXT: Water-Type
+TEXT: みずタイプ
 
 RESOURCE ID: form_aria
 TEXT: ボイスフォルム
@@ -16112,16 +16373,16 @@ RESOURCE ID: form_defense
 TEXT: Dディフェンスフォルム
 
 RESOURCE ID: form_deoxys_attack
-TEXT: Attack Forme
+TEXT: Aアタックフォルム
 
 RESOURCE ID: form_deoxys_defense
-TEXT: Defense Forme
+TEXT: Dディフェンスフォルム
 
 RESOURCE ID: form_deoxys_normal
 TEXT: Nノーマルフォルム
 
 RESOURCE ID: form_deoxys_speed
-TEXT: Speed Forme
+TEXT: Sスピードフォルム
 
 RESOURCE ID: form_disguised
 TEXT: ばけたすがた
@@ -16439,7 +16700,7 @@ RESOURCE ID: form_red_striped
 TEXT: あかすじのすがた
 
 RESOURCE ID: form_regular
-TEXT: Regular Form
+TEXT: 通常フォルム
 
 RESOURCE ID: form_rotom_fan
 TEXT: スピンロトム
@@ -16990,23 +17251,23 @@ TEXT: GOバトルリーグ対戦20回
 
 RESOURCE ID: gbl_ticket_research_header_0
 TEXT: GOバトルリーグ
-タイムチャレンジ(1/5)
+タイムチャレンジ (1/5)
 
 RESOURCE ID: gbl_ticket_research_header_1
 TEXT: GOバトルリーグ
-タイムチャレンジ(2/5)
+タイムチャレンジ (2/5)
 
 RESOURCE ID: gbl_ticket_research_header_2
 TEXT: GOバトルリーグ
-タイムチャレンジ(3/5)
+タイムチャレンジ (3/5)
 
 RESOURCE ID: gbl_ticket_research_header_3
 TEXT: GOバトルリーグ
-タイムチャレンジ(4/5)
+タイムチャレンジ (4/5)
 
 RESOURCE ID: gbl_ticket_research_header_4
 TEXT: GOバトルリーグ
-タイムチャレンジ(5/5)
+タイムチャレンジ (5/5)
 
 RESOURCE ID: gbl_ticket_research_title
 TEXT: GOバトルリーグタイムチャレンジ
@@ -17033,6 +17294,14 @@ RESOURCE ID: general1.ticket.1_description
 TEXT: 世界中のどこにいても、現地時間2020年12月19日10:00AM～2020年12月20日8:00PMに「ダンスポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
 
 イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
+
+RESOURCE ID: general1.ticket.1_halloween_description
+TEXT: 世界中のどこにいても、現地時間2022年10月20日10:00AM～11月1日10:00AMに、ゲーム内でスタートできるハロウィンタイムチャレンジを遊ぶことができるチケット。このタイムチャレンジには追加のハロウィンテーマタスクとアバターアイテムがあります。詳細はゲーム内ニュースで確認できます。
+
+タイムチャレンジのタスクは2022年11月1日10:00AMまでに完了しリワードを受け取る必要があります。
+
+RESOURCE ID: general1.ticket.1_halloween_title
+TEXT: ハロウィンタイムチャレンジチケット
 
 RESOURCE ID: general1.ticket.1_title
 TEXT: 「ダンスポケモンを解明せよ！」チケット
@@ -17079,6 +17348,9 @@ TEXT: 世界中のどこにいても、現地時間2020年11月21日の11:00AM�
 
 イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
 
+RESOURCE ID: general1.ticket.2_dratini_cdc_title
+TEXT: ミニリュウコミュニティ・デイ復刻
+
 RESOURCE ID: general1.ticket.2_duskt_description
 TEXT: 世界中のどこにいても、現地時間2021年10月9日の11:00AM～5:00PMに、ゲーム内でスタートできるイベント「おむかえポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
 
@@ -17110,6 +17382,14 @@ TEXT: 世界中のどこにいても、現地時間2021年6月6日の11:00AM～5
 
 RESOURCE ID: general1.ticket.2_giblt_title
 TEXT: 「りくザメポケモンを解明せよ！」チケット
+
+RESOURCE ID: general1.ticket.2_halloween_description
+TEXT: 世界中のどこにいても、現地時間2022年10月20日10:00AM～11月1日10:00AMに、ゲーム内でスタートできるデスマスタイムチャレンジを遊ぶことができるチケット。詳細はゲーム内ニュースで確認できます。
+
+タイムチャレンジのタスクは2022年11月1日10:00AMまでに完了しリワードを受け取る必要があります。
+
+RESOURCE ID: general1.ticket.2_halloween_title
+TEXT: デスマスタイムチャレンジチケット
 
 RESOURCE ID: general1.ticket.2_hoopau_description
 TEXT: 「フーパを解き放て！」を遊ぶことができるチケット。このスペシャルリサーチは「いたずらポケモンを解明せよ！」を現地時間2021年12月1日9:59AM以前に完了すれば無料で手に入れることができます。無料入手した場合でも、チケットを購入してタスクとリワードを増やすことは可能です。詳細は、ゲーム内ニュースとブログでご確認ください。
@@ -17220,6 +17500,14 @@ TEXT: 世界中のどこにいても、現地時間2021年5月15日11:00AM～5:0
 
 RESOURCE ID: general1.ticket.2_swabt_title
 TEXT: わたどりポケモンを解明せよ！
+
+RESOURCE ID: general1.ticket.2_teddiursa_description
+TEXT: 世界中のどこにいても、現地時間2022年11月12日の2:00 PM～5:00 PMに、ゲーム内でスタートできるイベント「こぐまポケモンを解明せよ！」を遊ぶことができるチケット。詳細はゲーム内ニュースで確認できます。
+
+イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
+
+RESOURCE ID: general1.ticket.2_teddiursa_title
+TEXT: こぐまポケモンを解明せよ！
 
 RESOURCE ID: general1.ticket.2_tepit_description
 TEXT: 世界中のどこにいても、現地時間2021年7月3日11:00AM～5:00PMにゲーム内イベント「ひぶたポケモンを解明せよ！」を遊ぶことができるチケット。詳細は、ゲーム内ニュースで確認できます。
@@ -17442,7 +17730,7 @@ RESOURCE ID: general_xxl
 TEXT: XXL
 
 RESOURCE ID: general_xxs
-TEXT: XXL
+TEXT: XXS
 
 RESOURCE ID: general_yes
 TEXT: はい
@@ -17460,6 +17748,11 @@ RESOURCE ID: generic_player_lockout
 TEXT: 利用規約違反の状態が引き続き検出されたため、お使いのアカウントが凍結されました。
 
 アカウント停止に関する詳細は、<a href="three_strike_policy_url">ヘルプセンター</a> でご確認ください。
+
+RESOURCE ID: gengeneral1.ticket.2_dratini_cdc_description
+TEXT: 世界中のどこにいても、現地時間2022年11月5日2:00PM～5:00PMにミニリュウコミュニティ・デイ復刻スペシャルリサーチを行うことができるチケット。詳細はゲーム内ニュースで確認できます。
+
+イベントを最大限にお楽しみいただくには、記載の開催時間内に遊び終える必要があります。
 
 RESOURCE ID: geotarget_quest_description
 TEXT: {0}をスキャンする
@@ -21073,6 +21366,117 @@ TEXT: こせいだいポケモンの謎を解け！：ナイススローを{0}�
 RESOURCE ID: gt_2020_spin_medium
 TEXT: こせいだいポケモンの謎を解け！：ポケストップ{0}個を回す
 
+RESOURCE ID: guest_account_link_success_subtitle
+TEXT: ここからは全機能を使って、ゲームをより深くお楽しみいただけます！
+
+RESOURCE ID: guest_account_link_success_title
+TEXT: アカウント連携完了
+
+RESOURCE ID: guest_auth_failed
+TEXT: 認証できませんでした。もう一度やり直してください。
+
+RESOURCE ID: guest_level_expiration_subtitle
+TEXT: 引き続きプレイするにはサインアップが必要です！
+
+RESOURCE ID: guest_level_expiration_title
+TEXT: サインアップでレベル15をアンロック
+
+RESOURCE ID: guest_login_button
+TEXT: ゲストとしてプレイ
+
+RESOURCE ID: guest_login_sign_up_today_label
+TEXT: 今すぐサインアップ
+
+RESOURCE ID: guest_play_without_sign_in
+TEXT: サインアップせずにプレイしますか？
+
+RESOURCE ID: guest_restricted_feature_adsync_eggs
+TEXT: タマゴふかに便利
+
+RESOURCE ID: guest_restricted_feature_adsync_rewards
+TEXT: もらえるものが増える
+
+RESOURCE ID: guest_restricted_feature_adsync_subtitle
+TEXT: ゲームを閉じていても歩数を反映させてゲームを進めよう！
+
+RESOURCE ID: guest_restricted_feature_adsync_title
+TEXT: いつでも冒険モードで報酬が増える
+
+RESOURCE ID: guest_restricted_feature_avatar_iap
+TEXT: アバターをおしゃれに
+
+RESOURCE ID: guest_restricted_feature_battle
+TEXT: 一緒にバトル
+
+RESOURCE ID: guest_restricted_feature_events_subtitle
+TEXT: サインアップしてプレイヤーが参加できるイベントに参加！
+
+RESOURCE ID: guest_restricted_feature_events_title
+TEXT: グローバル・オフラインイベントに参加
+
+RESOURCE ID: guest_restricted_feature_experiences
+TEXT: ゲーム内イベント
+
+RESOURCE ID: guest_restricted_feature_friends_subtitle
+TEXT: 友人を登録して特別なボーナスをアンロック！
+
+RESOURCE ID: guest_restricted_feature_friends_title
+TEXT: 友達と一緒にプレイしませんか？
+
+RESOURCE ID: guest_restricted_feature_gifts
+TEXT: ステッカー付きのギフトを贈る
+
+RESOURCE ID: guest_restricted_feature_iap_subtitle
+TEXT: ポケコインを使ってゲームをカスタマイズ！
+
+RESOURCE ID: guest_restricted_feature_iap_title
+TEXT: ゲーム体験をカスタマイズ
+
+RESOURCE ID: guest_restricted_feature_item_storage_iap
+TEXT: 道具バッグ拡張
+
+RESOURCE ID: guest_restricted_feature_limited_catch
+TEXT: 制限時間内に捕まえるポケモン
+
+RESOURCE ID: guest_restricted_feature_pokemon_storage_iap
+TEXT: ポケモンボックス拡張
+
+RESOURCE ID: guest_restricted_feature_raid
+TEXT: フレンドと一緒にレイド
+
+RESOURCE ID: guest_restricted_feature_trade
+TEXT: ポケモン交換
+
+RESOURCE ID: guest_sign_up_earn_rewards_subtitle
+TEXT: サインアップすると全機能を使えるようになり進捗が保存できます！
+
+RESOURCE ID: guest_sign_up_earn_rewards_title
+TEXT: サインアップして報酬をもらおう
+
+RESOURCE ID: guest_sign_up_friendships_body
+TEXT: ギフトを贈るフレンドを追加してボーナスをアンロック！
+
+RESOURCE ID: guest_sign_up_friendships_title
+TEXT: 友情を築く
+
+RESOURCE ID: guest_sign_up_pokemon_body
+TEXT: 野生のポケモンをもっと見つけて図鑑に登録！
+
+RESOURCE ID: guest_sign_up_pokemon_title
+TEXT: もっとポケモンを発見
+
+RESOURCE ID: guest_sign_up_save_progress_body
+TEXT: ログイン方法を連携させて全デバイスで進捗を保存！
+
+RESOURCE ID: guest_sign_up_save_progress_title
+TEXT: 進捗を保存
+
+RESOURCE ID: guest_sign_up_subtitle
+TEXT: ゲストアカウントでプレイしています。サインアップして全機能にアクセス！
+
+RESOURCE ID: guest_sign_up_title
+TEXT: 今すぐサインアップ
+
 RESOURCE ID: gui_vivillon_map_header
 TEXT: ビビヨン分布
 
@@ -21387,6 +21791,9 @@ TEXT: ハロウィン：GOロケット団したっぱとのバトルで1回勝�
 
 RESOURCE ID: halloween_2019_snapshot_easy
 TEXT: ハロウィン：ゴーストタイプポケモンのGOスナップショット写真を{0}枚撮る
+
+RESOURCE ID: halloween_cup_title
+TEXT: ハロウィンカップ
 
 RESOURCE ID: halloween_event_name
 TEXT: ハロウィン
@@ -21957,6 +22364,9 @@ TEXT: そうえば、ウィロー博士が「リトレーン」っていう訓�
 RESOURCE ID: inventory_egg
 TEXT: タマゴ
 
+RESOURCE ID: inventory_keywords_helpshift_label
+TEXT: キーワードを入力して手持ちのポケモンを検索
+
 RESOURCE ID: inventory_no_eggs
 TEXT: タマゴはありません
 
@@ -22018,13 +22428,25 @@ RESOURCE ID: item_dragon_scale_name
 TEXT: りゅうのウロコ
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: ポケモンバトル参加準備完了！
+TEXT: 現地時間2022年10月20日10:00AM～2022年11月1日10:00AMにタイムチャレンジを行うためのチケット。
+
+RESOURCE ID: item_event_ticket_gray_details
+TEXT: このチケットは自動的に発動し、現地時間2022年10月20日～11月1日にタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_gray_name
 TEXT: チケット
 
 RESOURCE ID: item_event_ticket_gray_to_gift_desc
 TEXT: 購入エラーによる余分なイベントチケット。別のフレンドに贈るか払い戻しを受けることができます。
+
+RESOURCE ID: item_event_ticket_gray_to_gift_name
+TEXT: 余分なチケット
+
+RESOURCE ID: item_event_ticket_grey_desc
+TEXT: 現地時間2022年10月20日10:00AM～2022年11月1日10:00AMにタイムチャレンジを行うためのチケット。
+
+RESOURCE ID: item_event_ticket_grey_details
+TEXT: このチケットは自動的に発動し、現地時間2022年10月20日～11月1日にタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_bulbt_desc
 TEXT: 現地時間2022年1月22日2:00PM～5:00PMにスペシャルリサーチを遂行するためのチケット。
@@ -22033,22 +22455,28 @@ RESOURCE ID: item_event_ticket_pink_bulbt_details
 TEXT: このチケットは自動的に発動し、現地時間2022年1月22日にスペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: 現地時間2022年9月18日2:00PM～5:00PMにスペシャルリサーチを遂行するためのチケット。
+TEXT: 現地時間2022年10月20日10:00AM～2022年11月1日10:00AMにタイムチャレンジを行うためのチケット。
 
 RESOURCE ID: item_event_ticket_pink_desc_2
-TEXT: 現地時間2021年11月21日（11:00AM～5:00PM）にスペシャルリサーチを遂行するためのチケット。
+TEXT: 現地時間2022年11月12日2:00AM～5:00PMにスペシャルリサーチを遂行するためのチケット。
 
 RESOURCE ID: item_event_ticket_pink_desc_alodude
 TEXT: 現地時間2022年5月21日11:00AM～2:00PMにスペシャルリサーチを遂行するためのチケット。
+
+RESOURCE ID: item_event_ticket_pink_desc_dcdc
+TEXT: 現地時間2022年11月5日2:00AM～5:00PMにスペシャルリサーチを遂行するためのチケット。
 
 RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: 現地時間2020年12月19日10:00AM～2020年12月20日8:00PMにスペシャルリサーチを遂行するためのチケット。
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: このチケットは自動的に発動し、現地時間2022年9月18日にスペシャルリサーチが行えるようになります。
+TEXT: このチケットは自動的に発動し、現地時間2022年10月20日～11月1日にタイムチャレンジが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_details_2
-TEXT: このチケットは自動的に発動し、現地時間2020年11月21日にスペシャルリサーチが行えるようになります。
+TEXT: このチケットは自動的に発動し、現地時間2022年11月12日にスペシャルリサーチが行えるようになります。
+
+RESOURCE ID: item_event_ticket_pink_details_dcdc
+TEXT: このチケットは自動的に発動し、現地時間2022年11月5日にスペシャルリサーチが行えるようになります。
 
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: このチケットは自動的に発動し、現地時間2020年12月19日10:00AM～2020年12月20日8:00PMにスペシャルリサーチが行えるようになります。
@@ -22681,13 +23109,19 @@ RESOURCE ID: language_currently_selected
 TEXT: すでにこの言語を選んでいます
 
 RESOURCE ID: language_early_access_language
-TEXT: This is an early access language. Please report any issues if found.
+TEXT: アーリーアクセス言語のため問題があれば報告をお願いします。
 
 RESOURCE ID: language_selector_description
 TEXT: 変更後は再起動が必要です。
 
+RESOURCE ID: language_selector_early_access
+TEXT: 新言語のため何か問題があれば報告をお願いします。
+
 RESOURCE ID: language_selector_header
 TEXT: 言語選択
+
+RESOURCE ID: language_selector_new
+TEXT: 新言語
 
 RESOURCE ID: language_settings_updated
 TEXT: 言語設定を変更しました！
@@ -24985,6 +25419,12 @@ TEXT: <size=36>既存アカウント</size>
 
 既存プレイヤーに関連付けられたアカウントです。
 
+RESOURCE ID: link_account_sign_in
+TEXT: 連携するアカウントを選ぶ
+
+RESOURCE ID: link_account_sign_up
+TEXT: 連携するアカウントを選ぶ
+
 RESOURCE ID: little_cup_remix_title
 TEXT: リトルカップRemix
 
@@ -25377,6 +25817,10 @@ TEXT: 虫取り　ポーズ
 RESOURCE ID: m_avatar_poses_bundle_pose_41
 TEXT: グズマ　ポーズ
 
+RESOURCE ID: m_avatar_poses_bundle_pose_43
+TEXT: バケッチャランタン
+ポーズ
+
 RESOURCE ID: m_avatar_poses_bundle_pose_44
 TEXT: スパークル　ポーズ
 
@@ -25460,6 +25904,9 @@ TEXT: タグ管理
 
 RESOURCE ID: manage_pokemon_tag_view_all
 TEXT: 「{0}」タグの付いたポケモンを見る
+
+RESOURCE ID: manage_postcards_header
+TEXT: ポストカード整理
 
 RESOURCE ID: map_equip_desc
 TEXT: 起動してマップに装備しよう！
@@ -25928,9 +26375,9 @@ RESOURCE ID: mega_walking_progress
 TEXT: 歩いて見つけるもの
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2022-10-30T17:10:54.773238
-at SHA a9d340b3c5945d8273421b9463be2a4b4b784b1b
-Pipeline 1114528, job 13097767
+TEXT: Built at 2022-11-23T03:10:25.735315
+at SHA 66ea01a832d9cd1eaa84a12d285465b239f2febe
+Pipeline 1148722, job 13618625
 
 RESOURCE ID: milestone_rewards_title
 TEXT: マイルストーンリワード
@@ -27003,6 +27450,9 @@ TEXT: メテオビーム
 RESOURCE ID: move_name_0376
 TEXT: ポルターガイスト
 
+RESOURCE ID: move_name_0377
+TEXT: １０まんばりき
+
 RESOURCE ID: move_reroll_confirm_desc
 TEXT: {0} は {1} を忘れます
 
@@ -27987,6 +28437,9 @@ TEXT: GOスナップショットでヒトカゲのサプライズ5回
 RESOURCE ID: photobomb_five_deino
 TEXT: GOスナップショットでモノズのサプライズ5回
 
+RESOURCE ID: photobomb_five_dratini_cdc
+TEXT: GOスナップショットでミニリュウのサプライズ5回
+
 RESOURCE ID: photobomb_five_duskull
 TEXT: GOスナップショットでヨマワルのサプライズ5回
 
@@ -28058,6 +28511,9 @@ TEXT: GOスナップショットでヌイコグマのサプライズ5回
 
 RESOURCE ID: photobomb_five_swablu
 TEXT: GOスナップショットでチルットのサプライズ5回
+
+RESOURCE ID: photobomb_five_teddiursa
+TEXT: GOスナップショットでヒメグマのサプライズ5回
 
 RESOURCE ID: photobomb_five_tepig
 TEXT: GOスナップショットでポカブのサプライズ5回
@@ -29081,6 +29537,9 @@ TEXT: メガ：{0}
 
 RESOURCE ID: pokedex_filter_header
 TEXT: 検索フィルタ
+
+RESOURCE ID: pokedex_keywords_helpshift_label
+TEXT: キーワードを入力して図鑑内のポケモンを検索
 
 RESOURCE ID: pokedex_mode_name_all
 TEXT: すべて
@@ -34978,7 +35437,7 @@ RESOURCE ID: pokemon_desc_0900
 TEXT: 硬き岩で　身を守り　無骨な　斧は　大木を 切り倒す。　気性　荒々しく　荒地にて　遭遇しときは　逃げの一手。
 
 RESOURCE ID: pokemon_desc_0901
-TEXT: ヒスイの地に　敷かれし　湿地の土こそ　頑丈なる体躯と　泥炭を　自在に　扱う　新たな 器量　もたらしたと　考察す。
+TEXT: ヒスイの地に　敷かれし　湿地の土こそ　頑丈なる体躯と　泥炭を　自在に　扱う　新たな　器量　もたらしたと　考察す。
 
 RESOURCE ID: pokemon_desc_0902
 TEXT: 遡上の旅路にて　志半ばに　散った　輩の魂を　まとう。　ヒスイ　流れし　河川においては　敵うもの　皆無なり。
@@ -38423,7 +38882,7 @@ RESOURCE ID: pokemon_size_new_tag
 TEXT: 新記録
 
 RESOURCE ID: pokemon_size_new_title
-TEXT: 大きさの新記録
+TEXT: 大きさ・重さの新記録
 
 RESOURCE ID: pokemon_size_new_weight_title
 TEXT: 重さの新記録
@@ -38966,6 +39425,12 @@ TEXT: 残り{0}個
 
 RESOURCE ID: purchases_remaining_text_singular
 TEXT: 残り{0}個
+
+RESOURCE ID: purrloin_o_clock
+TEXT: チョロネコタイム
+
+RESOURCE ID: purrloin_o_clock_description
+TEXT: チョロネコがエリア内にたくさん出現
 
 RESOURCE ID: push_drawing_winner
 TEXT: イベントの抽選に当選しました。
@@ -39813,6 +40278,9 @@ TEXT: 時を越えるポケモンを追え！
 RESOURCE ID: quest_complete_chart
 TEXT: とかげポケモンを解明せよ！
 
+RESOURCE ID: quest_complete_dec2021
+TEXT: 12月コミュニティ・デイ2021
+
 RESOURCE ID: quest_complete_dec20cd
 TEXT: 12月コミュニティ・デイ
 
@@ -40379,6 +40847,18 @@ TEXT: この1年を振り返ると、さまざまな出来事があった。そ�
 
 RESOURCE ID: quest_dialogue_thanks_3
 TEXT: 来年も、さらなる探索と冒険の日々が待っているに違いない！さぁ、いつものようにGO！
+
+RESOURCE ID: quest_dragonair_evolve_b
+TEXT: ハクリューを{0}匹進化させる
+
+RESOURCE ID: quest_dratini_cdc_catch_b
+TEXT: ミニリュウを{0}匹捕まえる
+
+RESOURCE ID: quest_dratini_cdc_evolve_b
+TEXT: ミニリュウを{0}匹進化させる
+
+RESOURCE ID: quest_dratini_cdc_snapshot_b
+TEXT: ミニリュウのGOスナップショット写真を{0}枚撮る
 
 RESOURCE ID: quest_dude_catch
 TEXT: イシツブテを{0}匹捕まえる
@@ -42886,6 +43366,9 @@ TEXT: むしタイプポケモン{0}種類のGOスナップショット写真を
 RESOURCE ID: quest_snapshot_storage_steel_unique_plural
 TEXT: はがねタイプポケモン{0}種類のGOスナップショット写真を撮る
 
+RESOURCE ID: quest_snapshot_storage_unique_plural
+TEXT: 野生のポケモン{0}種類のGOスナップショット写真を撮る
+
 RESOURCE ID: quest_snapshot_thundurus
 TEXT: ボルトロスのGOスナップショット写真を撮る
 
@@ -43017,6 +43500,9 @@ TEXT: 野生のスイクンのスナップショットを撮る
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
 TEXT: 野生のナックラー、サンドか、サボネアのGOスナップショット写真を撮る
+
+RESOURCE ID: quest_snapshot_wild_unique_plural
+TEXT: 野生のポケモン{0}種類のGOスナップショット写真を撮る
 
 RESOURCE ID: quest_snapshot_wild_water_fire_grass_unique_plural
 TEXT: 野生のほのお、みず、もしくはくさタイプのポケモン{0}種類のGOスナップショット写真を撮る
@@ -43872,6 +44358,93 @@ TEXT: ．．．今日はポケモン研究に付き合ってくれてありが�
 RESOURCE ID: quest_special_dialogue_deino_3_6
 TEXT: この世界のポケモンも謎めいているね。とても楽しかったよ。またね。
 
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_0
+TEXT: やぁ、%PLAYERNAME%、ナイスタイミングだ！ひとつ考えていたことがある。
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_1
+TEXT: ウルトラホールの向こう側のような未踏の地のこと。連想したのが、カイリューだけが住むという楽園。
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_2
+TEXT: 聞いたことあるかい？
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_3
+TEXT: 遭難者がカイリューに助けられ連れて行かれた、とされる島。そこにはカイリューしか住んでいなかった。まさしく楽園、そう思わないか、%PLAYERNAME%？
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_4
+TEXT: その島を発見できたら、長期の調査を行うだろうね。様々な面からカイリューの生態に迫ることができるはずだ。
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_5
+TEXT: ツノの使い方。高速で飛べるカイリューだが、水中ではどのくらいの速度で泳ぐのか。どんなきのみを好むのか。
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_6
+TEXT: カイリューを観察するのが先か。きみに頼めるかな？
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_7
+TEXT: カイリューの楽園に一歩でも近づこう！
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_8
+TEXT: おっと、言うまでもなく、まずはミニリュウを捕まえてもらおう。よろしく頼むよ、%PLAYERNAME%！
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_0
+TEXT: ミニリュウを捕まえてくれて、ありがとう、%PLAYERNAME%！ 
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_1
+TEXT: 目撃者が少なく、幻のポケモンと呼ばれていた時代もあったことを思うと、すごい状況じゃないか、%PLAYERNAME%？
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_2
+TEXT: ミニリュウはちゃんと実在していたことがわかってからは、
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_3
+TEXT: 水中に住んでいるものもいる、ということが判明した。
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_4
+TEXT: ということは、カイリューだけの島が存在してもおかしくはないぞ。
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_5
+TEXT: そう思いたいね。確か、ハクリューは湖や海に住んでいるんだったな。
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_6
+TEXT: 確かめてくれるかな、%PLAYERNAME%？
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_0
+TEXT: 立派なハクリューじゃないか、%PLAYERNAME%！
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_1
+TEXT: いつ見ても息をのむ美しさだ。
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_2
+TEXT: オーラに包まれたその姿が、人々にハクリューは神聖な生き物だ、と言わせたんだろう。
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_3
+TEXT: このあたりにヒントがありそうだな。カイリューの島があったとしても、神秘のベールに包まれて発見されることがない。そうは考えられないか？
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_4
+TEXT: カイリューに進化させてみよう！
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_0
+TEXT: すごいな、%PLAYERNAME%！
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_1
+TEXT: カイリューも滅多に出会えるポケモンじゃない。今日はラッキーな一日だ！
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_2
+TEXT: カイリューは海の化身と呼ばれていて、その逆鱗に触れない限りは、とても穏やかなポケモンだ。
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_3
+TEXT: 優しいので、溺れている人やポケモンを助けずにはいられない。
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_4
+TEXT: やはり海での調査を行うべきだな．．．
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_5
+TEXT: 大丈夫。もし行くなら、ちゃんと計画を立ててから出かけるよ。今日も協力に感謝する、%PLAYERNAME%。 
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_6
+TEXT: カイリューの島は発見できなかったが、そのことを考えるだけで楽しかったよ。
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_7
+TEXT: これからも協力よろしく頼むよ。またすぐ会おう、%PLAYERNAME%！
+
 RESOURCE ID: quest_special_dialogue_duskt_0_0
 TEXT: やぁ、%PLAYERNAME%！ゴーストタイプのポケモンをよく見るんだが、きみはどうだい？
 
@@ -44592,6 +45165,87 @@ TEXT: ポケモンのことを学ぼうとしているのに、自分を見つ�
 RESOURCE ID: quest_special_dialogue_hallow_2021_3_7
 TEXT: 深い思考はこれくらいにしようか。調査の疲れをいやすとしよう。また会おう、%PLAYERNAME%！
 
+RESOURCE ID: quest_special_dialogue_hallow_22_0_0
+TEXT: %PLAYERNAME%、あなたが来てくれて良かった！
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_1
+TEXT: 不思議な光景を見たんだ。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_2
+TEXT: ぼんやりと人かな？と思えるものと、何かが刻まれた板．．．土のようなものでできた板なのかな．．．が浮いていた。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_3
+TEXT: この2つが浮いていたとき、違うのに似ている、そう感じたんだ。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_4
+TEXT: 不思議なことが起こるときはポケモンが関係していることが多いね。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_5
+TEXT: ポケモンなら捕まえてみてほしい。詳細はウィロー博士に聞いてみよう。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_0
+TEXT: どこへやった．．．以前の服．．．あっ！やぁ、きみか、%PLAYERNAME%！
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_1
+TEXT: スパークが開くパーティーに何を着て行くか迷っていたところだ。参加者に顔見知りが多いといいが．．．
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_2
+TEXT: 顔と言えば．．．それはデスマスとガラルのすがたのデスマスじゃないか！
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_3
+TEXT: デスマスが持っているマスクは、人間だったときの顔だと言われている。たまに見つめては泣いているらしい。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_4
+TEXT: ガラルのすがたのデスマスの場合は、古代の粘土板が、強い恨みをもつ魂に引き寄せられた結果ポケモンになった、そう聞いている。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_5
+TEXT: 悲しい起源だな。だが、想像をかきたてるポケモンだ。ポケモンとしての魂はどれくらい恨みを抱えているだろう？
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_6
+TEXT: デスマスを含めたゴーストタイプのポケモンを捕まえてみてくれ！何かわかるかもしれない。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_0
+TEXT: やっぱりウィロー博士に聞くのが一番だったね。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_1
+TEXT: デスマスにはそんな起源があったなんて．．．驚きだ。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_2
+TEXT: 捕まえてくれてありがとう。一緒に調査すると毎回新鮮な驚きがあるよ。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_3
+TEXT: 最近よく見るポケモンには．．．暗い背景があるものも多いね。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_4
+TEXT: もちろん、博士が言う通り、ポケモンの研究には、そのような背景に光をあてることが重要だろうね。未知をなくす作業に恐れは必要ない。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_5
+TEXT: %PLAYERNAME%、わたしは、デスマスをじっくり観察することにしたよ。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_6
+TEXT: 他のゴーストタイプのポケモン調査はあなたに任せようかな．．．
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_7
+TEXT: それに、ウィロー博士へのお礼を考えなければ。GOウルトラ調査隊のユニフォームはどうだろう．．．
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_0
+TEXT: あ、%PLAYERNAME%！おかえり。わたしは出かける支度ができたところだ。きみとリイの調査は順調かな？
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_1
+TEXT: わあ、ゴーストタイプポケモンをたくさん捕まえたな！研究所がにぎやかになってきたぞ。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_2
+TEXT: ゴーストタイプのポケモンを調査するたびに、ポケモンへの興味が増す気がする。フワンテはあてもなく浮かんでどこへたどり着くのか？ヨマワルは本当に子供をさらうのか？ゴビットの活動のもとになっている謎のエネルギーとは？
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_3
+TEXT: あきらめずに努力を続ければ、これらのナゾが解ける日がくるかもしれない。もしくは、きみのようなトレーナーがやり遂げてくれるだろう。学びを得るためには、どんどん突き進むしかない！
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_4
+TEXT: ウルトラホールには突き進むべきじゃなかったが．．．ハ、ハ．．．。
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_5
+TEXT: 今日もなかなか刺激的な一日だったよ、%PLAYERNAME%。またすぐ会おう！
+
 RESOURCE ID: quest_special_dialogue_hallowyamas_0_0
 TEXT: %PLAYERNAME%！！！
 
@@ -44878,77 +45532,76 @@ RESOURCE ID: quest_special_dialogue_jj_3_7
 TEXT: ムサシ：やな感じ～！！
 
 RESOURCE ID: quest_special_dialogue_litwick_0_0
-TEXT: Hey, %PLAYERNAME%! Is it just me, or is there a ghostly chill in the air?
+TEXT: やぁ。%PLAYERNAME%！周りが明るいな。そして少し肌寒い．．．
 
 RESOURCE ID: quest_special_dialogue_litwick_0_1
-TEXT: It could have something to do with those lights over there! They belong to Litwick, the Candle Pokémon.
+TEXT: そう、青白い光がチラチラしている。ろうそくポケモンであるヒトモシだ。
 
 RESOURCE ID: quest_special_dialogue_litwick_0_2
-TEXT: Litwick is known to leech off the life force of any who follow it.
+TEXT: あの明かりは、何かを吸って燃えているのだが、何だと思う？
 
 RESOURCE ID: quest_special_dialogue_litwick_0_3
-TEXT: The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns. Makes for a pretty ominous candle, wouldn’t you say?
+TEXT: 人やポケモンの生命力だと言われている。見ているだけなら美しい光だが、近くで観察するには、
 
 RESOURCE ID: quest_special_dialogue_litwick_0_4
-TEXT: Litwick appearing in such force makes the perfect chance to learn more about them. I suggest you get up close and see for yourself!
+TEXT: 注意が必要だ。明かりで道を照らして道案内してくれそうなヒトモシがいても．．．
 
 RESOURCE ID: quest_special_dialogue_litwick_0_5
-TEXT: Just be careful not to let Litwick lead you anywhere, %PLAYERNAME%!
+TEXT: ついて行ってはいけない。わかったね、%PLAYERNAME%。ではよろしく頼むよ！
 
 RESOURCE ID: quest_special_dialogue_litwick_1_0
-TEXT: Good day, Trainer. Professor Willow has tasked you with investigating...Litwick, is it?
+TEXT: こんにちは、%PLAYERNAME%。ウィロー博士からヒトモシを調査するように頼まれたんだね。
 
 RESOURCE ID: quest_special_dialogue_litwick_1_1
-TEXT: The flame on its head is certainly alluring. A Pokémon that can bring light to its surroundings… What could be the source of its brilliant glow?
+TEXT: 頭の炎がきれい．．．。周りを照らすと、この世界が一層美しく見えるよ。
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: 人やポケモンの生命力が燃えているんだね．．．あの炎は．．．進化すると炎はどうなってしまうのだろう。
 
 RESOURCE ID: quest_special_dialogue_litwick_1_3
-TEXT: What are your thoughts, %PLAYERNAME%?
+TEXT: どう思う、%PLAYERNAME%？もっと大きくなるのかな？
 
 RESOURCE ID: quest_special_dialogue_litwick_2_0
-TEXT: Wow, %PLAYERNAME%! You went looking for Litwick and came back with a lamp! 
+TEXT: %PLAYERNAME%！そのランプはどこから持ってきたんだ？
 
 RESOURCE ID: quest_special_dialogue_litwick_2_1
-TEXT: I kid—I know a Lampent when I see one! And it was Rhi who suggested you help Litwick evolve? That’s great. We can always learn more when encouraged by our friends!
+TEXT: 冗談、冗談！だが、ランプラーはランプのふりをして潜んでいることもあるんだぞ。
 
 RESOURCE ID: quest_special_dialogue_litwick_2_2
-TEXT: So, let me tell you about Lampent! While it often pretends to be a lamp, Lampent is usually feared as an emissary of death. 
+TEXT: 街中にあるランプだって、いくつかはランプラーかもしれない。
 
 RESOURCE ID: quest_special_dialogue_litwick_2_3
-TEXT: Through cities it wanders, searching for the spirits of the fallen. Spooky, but appropriate for the season! 
+TEXT: 死者の魂を求めて街中をフラフラとさまようと言われているポケモンだ。
 
 RESOURCE ID: quest_special_dialogue_litwick_2_4
-TEXT: And what a sight that fire is. I’m sure you and Rhi would get a kick out of seeing Lampent’s Evolution, Chandelure, too! But a word of caution, %PLAYERNAME%...
+TEXT: ばったり出会ったら怖いだろうな。さぁ、次はリイもきっと楽しみにしている進化だ。さらに進化させてみよう、%PLAYERNAME%！
 
 RESOURCE ID: quest_special_dialogue_litwick_2_5
-TEXT: They say spirits burned up in Chandelure's ominous flame lose their way and wander this world forever.
+TEXT: ただ、引き続き注意深く行ってくれ。シャンデラの怪しげな炎で燃やされた魂は、行き場をなくしこの世を永遠にさまよう、とまで言われているからね。
 
 RESOURCE ID: quest_special_dialogue_litwick_3_0
-TEXT: That new Pokémon...
-... ... ...
+TEXT: このポケモンは．．．
 
 RESOURCE ID: quest_special_dialogue_litwick_3_1
-TEXT: Oh. My apologies, %PLAYERNAME%. I was...preoccupied gazing at the flame your Pokémon is emanating.
+TEXT: あ、ごめん。あなたのポケモンの炎に吸い込まれそうになってたよ、%PLAYERNAME%！
 
 RESOURCE ID: quest_special_dialogue_litwick_3_2
-TEXT: ... ... ...
+TEXT: うーん．．．
 
 RESOURCE ID: quest_special_dialogue_litwick_3_3
-TEXT: The swaying of its arms is rather hypnotic.
+TEXT: 腕の炎が怪しく揺れるようすを見ていると．．．催眠にかかりそう．．．
 
 RESOURCE ID: quest_special_dialogue_litwick_3_4
-TEXT: It's called "Chandelure," is it? And Professor Willow said its flames can burn up spirits? An unsettling thought.
+TEXT: “シャンデラ”というポケモンなのか。ウィロー博士によると、あの炎は魂を燃やすんだって？
 
 RESOURCE ID: quest_special_dialogue_litwick_3_5
-TEXT: The Pokémon we studied today could easily be seen as frightening. Yet I believe there is a lesson we can take from them.
+TEXT: それだけ聞くと恐ろしいけれど、ちょっと思ったんだ。
 
 RESOURCE ID: quest_special_dialogue_litwick_3_6
-TEXT: No matter how dark the world becomes, a little light always persists.
+TEXT: 暗やみにも一筋の光がある。光にもいろいろな意味がある、ってね。
 
 RESOURCE ID: quest_special_dialogue_litwick_3_7
-TEXT: Thank you for teaching me that lesson once again, %PLAYERNAME%. Take care, and I will see you again.
+TEXT: 一緒に調査してくれてありがとう、%PLAYERNAME%。じゃあ、またね。
 
 RESOURCE ID: quest_special_dialogue_lvl_43_0_0
 TEXT: やぁ、%PLAYERNAME%！きみのトレーナーとしての成長ぶりには驚いている。心から賞賛の言葉を贈りたいよ。
@@ -49301,6 +49954,75 @@ TEXT: きみが心から信頼できる相棒を選ぶのが重要だ。わた�
 RESOURCE ID: quest_special_dialogue_tcg1_5_6
 TEXT: 協力に感謝する。また会える日まで、元気にGOだ！
 
+RESOURCE ID: quest_special_dialogue_teddiursa_0_0
+TEXT: Hey, %PLAYERNAME%! Good to see you again!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_1
+TEXT: You know, I thought I smelled something sweet in the air today.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_2
+TEXT: Did I spill Berry juice again, you ask? You wound me, %PLAYERNAME%! As if I’d ruin this snazzy new jacket!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_3
+TEXT: Heh. In all seriousness, the smell was coming from outside.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_4
+TEXT: Unfortunately, I didn’t have a chance to track down the source of the scent. But now that you’re here, maybe you can sniff it out!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_0
+TEXT: Welcome back, %PLAYERNAME%. Seeing as you’ve got Teddiursa with you, I think I can connect the dots on what I was smelling earlier—honey!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_1
+TEXT: Teddiursa likes to lick its palms after soaking them in honey, so it’s no wonder I caught a whiff.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_2
+TEXT: That reminds me of a fun fact about Teddiursa’s Evolution, Ursaring.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_3
+TEXT: With its ability to distinguish any aroma, Ursaring unfailingly finds all food buried deep underground. If only it was that easy for me to find lunch!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_4
+TEXT: Why don’t you help Teddiursa evolve so you can see Ursaring’s sleuthing skills for yourself, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_0
+TEXT: I thought I heard something stomping about, and here you are, Ursaring in tow!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_1
+TEXT: Here’s the thing about Ursaring—although it has a large body, it’s quite skilled at climbing trees. It eats and sleeps in the treetops.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_2
+TEXT: Ah, to be an Ursaring... Imagine how much easier that’d make fieldwork—or picking Pinap Berries!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_3
+TEXT: Ahem. Snacks aside, have you noticed there’s a full moon out early today?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_4
+TEXT: Looks like Ursaring is staring at it, too. Think you can find out why, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_0
+TEXT: Whoa! Could that be—Ursaluna?!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_1
+TEXT: I’ve never seen one in these parts. What an incredible find! Hmm...
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_2
+TEXT: Maybe in the Hisui region of long ago, where Ursaluna was first discovered, the full moon played a part in how Ursaring evolved.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_3
+TEXT: It’s theorized that Hisui's swampy terrain gave Ursaluna its burly physique and ability to manipulate peat at will.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_4
+TEXT: What kind of food would suit a Pokémon accustomed to living in swamps? Grains? Beans? Cake?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_5
+TEXT: Maybe I should get baking for some firsthand taste-testing. I bet Teddiursa could lend me some honey!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_6
+TEXT: Ah—listen to me yammering on and on. Researching Pokémon first found in Hisui never fails to pique my curiosity about the past!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_7
+TEXT: Thanks again for spending the day learning about Pokémon with me, %PLAYERNAME%. I can always count on you to make my work a little sweeter!
+
 RESOURCE ID: quest_special_dialogue_tepit_0_0
 TEXT: やぁ、%PLAYERNAME%！会えてうれしいよ！これから、
 
@@ -49745,6 +50467,15 @@ TEXT: チルットを{0}匹捕まえる
 RESOURCE ID: quest_swabt_evolve_b
 TEXT: チルットを{0}匹進化させる
 
+RESOURCE ID: quest_teddiursa_catch_b
+TEXT: ヒメグマを{0}匹捕まえる
+
+RESOURCE ID: quest_teddiursa_evolve_b
+TEXT: ヒメグマを{0}匹進化させる
+
+RESOURCE ID: quest_teddiursa_snapshot_b
+TEXT: ヒメグマのGOスナップショット写真を{0}枚撮る
+
 RESOURCE ID: quest_template.display.branches#0.button_text_key
 TEXT: レイド・したっぱ・ジム
 
@@ -49913,6 +50644,9 @@ TEXT: とかげポケモンを解明せよ！(4/5)
 RESOURCE ID: quest_title_chart_4
 TEXT: とかげポケモンを解明せよ！(5/5)
 
+RESOURCE ID: quest_title_dec2021
+TEXT: 12月コミュニティ・デイ2021
+
 RESOURCE ID: quest_title_dec20cd
 TEXT: 12月コミュニティ・デイ
 
@@ -49942,6 +50676,21 @@ TEXT: ポケモン研究：モノズについて (3/4)
 
 RESOURCE ID: quest_title_deino_3
 TEXT: ポケモン研究：モノズについて (4/4)
+
+RESOURCE ID: quest_title_dratini_cdc
+TEXT: ミニリュウコミュニティ・デイ復刻
+
+RESOURCE ID: quest_title_dratini_cdc_0
+TEXT: ミニリュウコミュニティ・デイ復刻 (1/4)
+
+RESOURCE ID: quest_title_dratini_cdc_1
+TEXT: ミニリュウコミュニティ・デイ復刻 (2/4)
+
+RESOURCE ID: quest_title_dratini_cdc_2
+TEXT: ミニリュウコミュニティ・デイ復刻 (3/4)
+
+RESOURCE ID: quest_title_dratini_cdc_3
+TEXT: ミニリュウコミュニティ・デイ復刻 (4/4)
 
 RESOURCE ID: quest_title_duskt
 TEXT: おむかえポケモンを解明せよ！
@@ -50122,6 +50871,36 @@ TEXT: 仮面の謎を解け！(3/4)
 
 RESOURCE ID: quest_title_hallow_2021_3
 TEXT: 仮面の謎を解け！(4/4)
+
+RESOURCE ID: quest_title_hallow_22
+TEXT: 仮面の奥の真実
+
+RESOURCE ID: quest_title_hallow_22_0
+TEXT: 仮面の奥の真実 (1/4)
+
+RESOURCE ID: quest_title_hallow_22_1
+TEXT: 仮面の奥の真実 (2/4)
+
+RESOURCE ID: quest_title_hallow_22_2
+TEXT: 仮面の奥の真実 (3/4)
+
+RESOURCE ID: quest_title_hallow_22_3
+TEXT: 仮面の奥の真実 (4/4)
+
+RESOURCE ID: quest_title_hallow_tr_22
+TEXT: ハロウィンタイムチャレンジ
+
+RESOURCE ID: quest_title_hallow_tr_22_0
+TEXT: ハロウィンタイムチャレンジ (1/4)
+
+RESOURCE ID: quest_title_hallow_tr_22_1
+TEXT: ハロウィンタイムチャレンジ (2/4)
+
+RESOURCE ID: quest_title_hallow_tr_22_2
+TEXT: ハロウィンタイムチャレンジ (3/4)
+
+RESOURCE ID: quest_title_hallow_tr_22_3
+TEXT: ハロウィンタイムチャレンジ (4/4)
 
 RESOURCE ID: quest_title_hallowyamas
 TEXT: 怨念の謎を解け！
@@ -51017,6 +51796,9 @@ TEXT: いたずらポケモンを解明せよ！(9/16)
 RESOURCE ID: quest_title_season4_9
 TEXT: いたずらポケモンを解明せよ！(10/16)
 
+RESOURCE ID: quest_title_season5_dec
+TEXT: ヘリテージシーズン：ほしのすなチャレンジ
+
 RESOURCE ID: quest_title_season5_feb
 TEXT: ヘリテージシーズン：キャッチチャレンジ
 
@@ -51383,6 +52165,21 @@ TEXT: 博士の研究 (5/6)
 RESOURCE ID: quest_title_tcg1_5
 TEXT: 博士の研究 (6/6)
 
+RESOURCE ID: quest_title_teddiursa
+TEXT: こぐまポケモンを解明せよ！
+
+RESOURCE ID: quest_title_teddiursa_0
+TEXT: こぐまポケモンを解明せよ！(1/4)
+
+RESOURCE ID: quest_title_teddiursa_1
+TEXT: こぐまポケモンを解明せよ！(2/4)
+
+RESOURCE ID: quest_title_teddiursa_2
+TEXT: こぐまポケモンを解明せよ！(3/4)
+
+RESOURCE ID: quest_title_teddiursa_3
+TEXT: こぐまポケモンを解明せよ！(4/4)
+
 RESOURCE ID: quest_title_tepit
 TEXT: ひぶたポケモンを解明せよ！
 
@@ -51602,6 +52399,15 @@ TEXT: けむしポケモンの謎を解け！ (3/4)
 RESOURCE ID: quest_title_wt_3
 TEXT: けむしポケモンの謎を解け！ (4/4)
 
+RESOURCE ID: quest_title_yamask_tr_22
+TEXT: デスマスタイムチャレンジ
+
+RESOURCE ID: quest_title_yamask_tr_22_0
+TEXT: デスマスタイムチャレンジ (1/2)
+
+RESOURCE ID: quest_title_yamask_tr_22_1
+TEXT: デスマスタイムチャレンジ (2/2)
+
 RESOURCE ID: quest_title_yokosuka
 TEXT: Safari Zone in YOKOSUKA 2018
 
@@ -51769,6 +52575,9 @@ TEXT: リサーチデイ：ポケストップ{0}個を回す
 
 RESOURCE ID: quest_urd22_june_supereffective
 TEXT: リサーチデイ：効果ばつぐんのスペシャルアタックを使ってバトルする
+
+RESOURCE ID: quest_ursaring_evolve_b
+TEXT: リングマを{0}匹進化させる
 
 RESOURCE ID: quest_use_any_potion
 TEXT: キズぐすりを使う
@@ -56871,6 +57680,12 @@ TEXT: リファラルコード入力
 RESOURCE ID: referral_enter_invite_code
 TEXT: リファラルコードを入力
 
+RESOURCE ID: referral_enter_invite_code_prompt
+TEXT: リファラルコードを入力
+
+RESOURCE ID: referral_enter_invite_code_title
+TEXT: リファラルコードを入力
+
 RESOURCE ID: referral_friend_invite_error_friend_later_message
 TEXT: このプレイヤーを紹介者に追加しますか？リファラルコード使用のリワードは受け取ることができますが、以降のリワードを受け取るには、紹介者とフレンドになる必要があります。
 
@@ -56900,6 +57715,11 @@ TEXT: フレンドリストがいっぱいです！
 
 RESOURCE ID: referral_friend_invite_later_error_title
 TEXT: 紹介者のトレーナーにフレンド申請を送ることができませんでした
+
+RESOURCE ID: referral_friend_request_confirmation
+TEXT: {0}さんにフレンド申請を送りました。
+
+{0}さんが申請を受け付けると、ゲームのプレイ状況に応じて報酬がもらえます。
 
 RESOURCE ID: referral_get_code_button
 TEXT: リファラルコード取得
@@ -56951,6 +57771,9 @@ TEXT: 紹介したフレンドのプレイ状況に応じてもらえるリワ�
 
 RESOURCE ID: referral_system_disabled
 TEXT: リファラル機能は、ただいまお使いいただけません
+
+RESOURCE ID: referral_valid_code
+TEXT: 有効なリファラルコード
 
 RESOURCE ID: referral_welcome
 TEXT: ようこそ！
@@ -58127,6 +58950,43 @@ TEXT: Safari Zone Seville 2022 (1/2)
 RESOURCE ID: safari_2022_seville_title_1
 TEXT: Safari Zone Seville 2022 (2/2)
 
+RESOURCE ID: safari_2022_singapore_citywide_title
+TEXT: Pokémon GO Safari Zone シンガポール 2022 - シティボーナス
+
+RESOURCE ID: safari_2022_singapore_dialogue_0_0
+TEXT: ようこそ、Safari Zoneへ、%PLAYERNAME%！
+
+RESOURCE ID: safari_2022_singapore_dialogue_1_1
+TEXT: 今日は参加してくれてありがとう！ポケモンに関する知識がずいぶん深まった！
+
+RESOURCE ID: safari_2022_singapore_title
+TEXT: Pokémon GO Safari Zone：
+シンガポール 2022
+
+RESOURCE ID: safari_2022_singapore_title_0
+TEXT: Safari Zone シンガポール 2022 (1/2)
+
+RESOURCE ID: safari_2022_singapore_title_1
+TEXT: Safari Zone シンガポール 2022 (2/2)
+
+RESOURCE ID: safari_2022_taipei_citywide_title
+TEXT: Pokémon GO Safari Zone：台北2022 - シティボーナス
+
+RESOURCE ID: safari_2022_taipei_dialogue_0_0
+TEXT: ようこそ、Safari Zoneへ、%PLAYERNAME%！
+
+RESOURCE ID: safari_2022_taipei_dialogue_1_1
+TEXT: 今日は参加してくれてありがとう！ポケモンに関する知識がずいぶん深まった！
+
+RESOURCE ID: safari_2022_taipei_title
+TEXT: Safari Zone 台北 2022
+
+RESOURCE ID: safari_2022_taipei_title_0
+TEXT: Safari Zone 台北 (1/2)
+
+RESOURCE ID: safari_2022_taipei_title_1
+TEXT: Safari Zone 台北 (2/2)
+
 RESOURCE ID: safari_battle_singular
 TEXT: Safari Zone: トレーナーと対戦する
 
@@ -58406,6 +59266,9 @@ TEXT: ヒント
 RESOURCE ID: screen_you_title
 TEXT: 自分
 
+RESOURCE ID: search_keywords_button
+TEXT: すべてのキーワードを見る
+
 RESOURCE ID: search_label
 TEXT: 検索
 
@@ -58491,8 +59354,17 @@ TEXT: プライバシー設定を変更できませんでした
 RESOURCE ID: settings_account_header
 TEXT: アカウント
 
+RESOURCE ID: settings_account_link_header
+TEXT: 連携済みアカウント
+
+RESOURCE ID: settings_account_link_learn_more
+TEXT: アカウント連携に関する詳細
+
 RESOURCE ID: settings_account_link_tip
 TEXT: SNSアカウント情報を使用してログインできます
+
+RESOURCE ID: settings_account_link_v2_tip
+TEXT: 複数のアカウントを連携しておくとログイン時に試せるオプションが増えます
 
 RESOURCE ID: settings_account_linked
 TEXT: 連携済み
@@ -58511,6 +59383,18 @@ TEXT: キャッシュクリア
 
 RESOURCE ID: settings_advanced_cache_reset_sub
 TEXT: 動作が重いときなどにゲームデータを読み込み直すと改善することがあります
+
+RESOURCE ID: settings_advanced_items_title
+TEXT: 道具
+
+RESOURCE ID: settings_advanced_pokemon_title
+TEXT: ポケモン
+
+RESOURCE ID: settings_advanced_quality_title
+TEXT: パフォーマンス
+
+RESOURCE ID: settings_advanced_sharing_title
+TEXT: 共有
 
 RESOURCE ID: settings_advanced_title
 TEXT: 高度な設定
@@ -58551,6 +59435,12 @@ TEXT: 相棒の見つけるアメ
 RESOURCE ID: settings_change_nickname
 TEXT: ニックネームを変更する
 
+RESOURCE ID: settings_connected_devices_no_devices
+TEXT: デバイスが見つかりません
+
+RESOURCE ID: settings_connected_devices_title
+TEXT: デバイス／サービスの接続
+
 RESOURCE ID: settings_email_marketing
 TEXT: ニュースやプロモーションに関する情報をメールで受け取る
 
@@ -58565,6 +59455,9 @@ TEXT: フレンド申請が通ったとき
 
 RESOURCE ID: settings_friend_request_received
 TEXT: フレンド申請が届いたとき
+
+RESOURCE ID: settings_general_title
+TEXT: 一般
 
 RESOURCE ID: settings_gift_notified_push_notification
 TEXT: 贈ったイベントチケットが開けられたとき
@@ -58617,8 +59510,14 @@ TEXT: 近くのレイド
 RESOURCE ID: settings_niantic_ar
 TEXT: Niantic AR (AR+)
 
+RESOURCE ID: settings_niantic_ar_tip
+TEXT: ポケモンを捕まえたりGOスナップショットを撮るときにARを使用
+
 RESOURCE ID: settings_niantic_ar_update
 TEXT: Niantic AR (AR+) を更新
+
+RESOURCE ID: settings_niantic_ar_update_done
+TEXT: ARは最新状態です
 
 RESOURCE ID: settings_nintendo_account
 TEXT: ニンテンドーアカウント
@@ -58665,8 +59564,20 @@ TEXT: 設定から「Pokémon GO Plus」画面を開いてください
 RESOURCE ID: settings_pgp_check_other_menu
 TEXT: 設定から「モンスターボールPlus」画面を開いてください
 
+RESOURCE ID: settings_pkmn_home_about_nintendo
+TEXT: 任天堂について
+
+RESOURCE ID: settings_pkmn_home_howto_transfer
+TEXT: Pokémon HOMEへの転送方法
+
+RESOURCE ID: settings_pkmn_home_nintendo_signin
+TEXT: サインイン
+
 RESOURCE ID: settings_pokemon_badge
 TEXT: がんばリボンの表示
+
+RESOURCE ID: settings_pokemon_badge_tip
+TEXT: 最高の相棒に付くリボン
 
 RESOURCE ID: settings_pokemon_header
 TEXT: ポケモン
@@ -58676,6 +59587,9 @@ TEXT: Pokémon HOME
 
 RESOURCE ID: settings_pokemon_return
 TEXT: ポケモンの帰還
+
+RESOURCE ID: settings_pokemon_return_tip
+TEXT: ジムに配置されたポケモンはやる気がゼロになるとプレイヤーのもとに戻ります
 
 RESOURCE ID: settings_postcard_optin_name
 TEXT: ポストカードブックにニックネームを共有
@@ -58689,8 +59603,14 @@ TEXT: いつでも冒険モード時の付近のようす
 RESOURCE ID: settings_push_bgmode_walking
 TEXT: いつでも冒険モードの進捗
 
+RESOURCE ID: settings_push_bgmode_walking_tip
+TEXT: ゲームをプレイしていないときでもタマゴをかえしたり相棒にアメを見つけてもらう
+
 RESOURCE ID: settings_push_buddy_v2
 TEXT: 相棒からのお返し
+
+RESOURCE ID: settings_push_buddy_v2_tip
+TEXT: 「素晴らしい相棒」レベルに達すると近くのおもしろそうな場所を教えてくれたり、おみやげ／ギフトを見つけてくれる
 
 RESOURCE ID: settings_push_marketing
 TEXT: イベントなど最新情報
@@ -58712,6 +59632,9 @@ TEXT: 不具合などを報告
 
 RESOURCE ID: settings_reset_cache_confirm
 TEXT: キャッシュクリアを行いゲームデータをリフレッシュしてもいいですか？
+
+RESOURCE ID: settings_resources_str
+TEXT: ヒントと資料
 
 RESOURCE ID: settings_select_legendary_label
 TEXT: 拡張選択
@@ -58773,6 +59696,9 @@ TEXT: 最後に捕まえたポケモンの情報をフレンドと共有する
 RESOURCE ID: settings_show_campfire_buttons
 TEXT: Campfireを表示
 
+RESOURCE ID: settings_show_campfire_tip
+TEXT: ゲーム内でCampfireボタンを有効化
+
 RESOURCE ID: settings_sound_effects
 TEXT: 効果音
 
@@ -58826,6 +59752,12 @@ TEXT: より高いフレームレートで表示させるため、デバイス�
 
 RESOURCE ID: settings_unlock_base_framerate_description_on
 TEXT: ネイティブリフレッシュレート：オン
+
+RESOURCE ID: settings_uploads_title
+TEXT: アップロード
+
+RESOURCE ID: settings_version_title
+TEXT: バージョン
 
 RESOURCE ID: settings_vibration
 TEXT: 振動
@@ -59280,6 +60212,18 @@ TEXT: わたしと、対等にバトルできる状態になってから、ま�
 RESOURCE ID: sign_in_partial
 TEXT: {0}を使用してアカウント作成
 
+RESOURCE ID: sign_up_button
+TEXT: サインアップ
+
+RESOURCE ID: sign_up_text_titlecase
+TEXT: サインアップ
+
+RESOURCE ID: singapore_cup_title
+TEXT: シンガポール速成カップ
+
+RESOURCE ID: singapore_cup_title_post
+TEXT: イベント後速成カップ：シンガポール
+
 RESOURCE ID: sinnoh_2020_catch_medium1
 TEXT: シンオウウィーク：ナエトル、ヒコザル、ポッチャマのいずれかを{0}匹捕まえる
 
@@ -59473,6 +60417,9 @@ TEXT: ヒトカゲがより多く野生で出現
 RESOURCE ID: spawn_deino
 TEXT: モノズがより多く野生で出現
 
+RESOURCE ID: spawn_dratini_cdc
+TEXT: ミニリュウがより多く野生で出現
+
 RESOURCE ID: spawn_duskull
 TEXT: ヨマワルがより多く野生で出現
 
@@ -59547,6 +60494,9 @@ TEXT: ヌイコグマがより多く野生で出現!
 
 RESOURCE ID: spawn_swablu
 TEXT: チルットがより多く野生で出現
+
+RESOURCE ID: spawn_teddiursa
+TEXT: ヒメグマがより多く野生で出現!
 
 RESOURCE ID: spawn_tepig
 TEXT: ポカブがより多く野生で出現
@@ -60842,6 +61792,12 @@ TEXT: {0}匹にタグ付け
 RESOURCE ID: tagging_favorites_title
 TEXT: よく使う検索
 
+RESOURCE ID: taipei_cup_title
+TEXT: 速成カップ：台北
+
+RESOURCE ID: taipei_cup_title_post
+TEXT: イベント後速成カップ：台北
+
 RESOURCE ID: team_blue_intro|1
 TEXT: わたしはブランシェ。チーム ミスティックのリーダー。
 
@@ -61028,6 +61984,9 @@ TEXT: 12月コミュニティ・デイ
 RESOURCE ID: ticket_deino
 TEXT: 「ポケモン研究：モノズについて」チケットがショップに登場
 
+RESOURCE ID: ticket_dratini_cdc
+TEXT: ミニリュウコミュニティ・デイ復刻スペシャルリサーチのチケットがショップに登場
+
 RESOURCE ID: ticket_duskull
 TEXT: 「おむかえポケモンを解明せよ！」チケットがショップに登場
 
@@ -61113,6 +62072,9 @@ TEXT: 「じたばたポケモンを解明せよ！」チケットがショッ�
 
 RESOURCE ID: ticket_swablu
 TEXT: 「わたどりポケモンを解明せよ！」チケットがショップに登場
+
+RESOURCE ID: ticket_teddiursa
+TEXT: 「こぐまポケモンを解明せよ！」チケットがショップに登場
 
 RESOURCE ID: ticket_tepig
 TEXT: 「ひぶたポケモンの謎を解け！」チケットがショップに登場
@@ -61857,6 +62819,13 @@ TEXT: 道具がいっぱいです。対戦後に道具は手に入れること�
 
 RESOURCE ID: tr_sz_goyang_global
 TEXT: Safari Zone コヤン：探索チャレンジ
+
+RESOURCE ID: tr_sz_singapore_global
+TEXT: Pokémon GO Safari Zone シンガポール：
+探索チャレンジ
+
+RESOURCE ID: tr_sz_taipei_global
+TEXT: Safari Zone 台北：探索チャレンジ
 
 RESOURCE ID: trade_action
 TEXT: 交換
@@ -62974,6 +63943,9 @@ RESOURCE ID: verbose_logs_pending_logs_title
 TEXT: アップロード待ちログ
 
 RESOURCE ID: verbose_logs_settings_title
+TEXT: ゲームログ
+
+RESOURCE ID: verbose_logs_settings_v2_title
 TEXT: ゲームログ
 
 RESOURCE ID: verbose_logs_toggle

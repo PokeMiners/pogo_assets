@@ -751,6 +751,9 @@ TEXT: ยินดีตอนรับสูอโลลา
 RESOURCE ID: alola_pokedex_header
 TEXT: รางอโลลา
 
+RESOURCE ID: already_have_account
+TEXT: Already have an account?
+
 RESOURCE ID: anniversary_2021_collection_challenge
 TEXT: คำทานักสะสมครบรอบ 5 ป
 
@@ -870,18 +873,27 @@ RESOURCE ID: appraise_size_huge_1|1
 TEXT: {0}ของคุณมีขนาดใหญมหึมาเลยละ
 นี่มันไมธรรมดาเลย!
 
+RESOURCE ID: appraise_size_huge_1|1b
+TEXT: Your {0} would be categorized as unusually large.
+
 RESOURCE ID: appraise_size_huge_2|1
 TEXT: {0}ของคุณตัวใหญมหึมา ใหญที่สุด
 ที่ฉันเคยเห็นเลยละ!
 
+RESOURCE ID: appraise_size_huge_2|1b
+TEXT: Hey, that’s an enormous {0}!
+
 RESOURCE ID: appraise_size_huge_3|1
+TEXT: {0}ของคุณนี่ตัวเบอเริ่มเลย!
+
+RESOURCE ID: appraise_size_huge_3|1b
 TEXT: {0}ของคุณนี่ตัวเบอเริ่มเลย!
 
 RESOURCE ID: appraise_size_large_1|1
 TEXT: {0}ของคุณมีขนาดใหญกวาคาเฉลี่ย
 
 RESOURCE ID: appraise_size_large_1|1b
-TEXT: Your {0} is above average in size.
+TEXT: {0}ของคุณมีขนาดใหญกวาคาเฉลี่ย
 
 RESOURCE ID: appraise_size_large_2|1
 TEXT: {0}ของคุณมีขนาดใหญมากเลย!
@@ -890,13 +902,13 @@ RESOURCE ID: appraise_size_large_3|1
 TEXT: {0}ของคุณนี่ตัวใหญจัง!
 
 RESOURCE ID: appraise_size_large_3|1b
-TEXT: Your {0} is a BIG one!
+TEXT: {0}ของคุณนี่ตัวใหญจัง!
 
 RESOURCE ID: appraise_size_small_1|1
 TEXT: {0}ของคุณมีขนาดเล็กกวาคาเฉลี่ย
 
 RESOURCE ID: appraise_size_small_1|1b
-TEXT: Your {0} is below average in size.
+TEXT: {0}ของคุณมีขนาดเล็กกวาคาเฉลี่ย
 
 RESOURCE ID: appraise_size_small_2|1
 TEXT: วาว ชางเปน{0}ที่ตัวเล็กอะไรอยางนี้!
@@ -910,31 +922,45 @@ RESOURCE ID: appraise_size_tiny_1|1
 TEXT: {0}ของคุณตัวเล็กกวาตัวอื่น ๆ ที่มี
 ในบันทึกของเรา นาประหลาดมาก
 
+RESOURCE ID: appraise_size_tiny_1|1b
+TEXT: Your {0} would be categorized as unusually small.
+
 RESOURCE ID: appraise_size_tiny_2|1
 TEXT: {0}ของคุณตัวเล็กมากเลย ฉันเกือบ
 จะไมทันสังเกตเห็นเขาซะแลว!
+
+RESOURCE ID: appraise_size_tiny_2|1b
+TEXT: That’s a lil’ {0} you’ve got there!
 
 RESOURCE ID: appraise_size_tiny_3|1
 TEXT: โอะ..โอ  นี่มัน{0}ที่ตัวเล็กที่สุดที่ฉัน
 เคยเห็นเลย!
 
+RESOURCE ID: appraise_size_tiny_3|1b
+TEXT: Your {0} is pretty petite, huh? 
+
 RESOURCE ID: appraise_size_xxl_1|1
-TEXT: The size of your {0} is...colossal. This is indeed exceptional. Fascinating!
+TEXT: {0}ของคุณมีขนาดใหญมหึมาเลยละ
+นี่มันไมธรรมดาเลย!
 
 RESOURCE ID: appraise_size_xxl_2|1
-TEXT: Your {0} is gigantic—the largest I've ever seen!
+TEXT: {0}ของคุณตัวใหญมหึมา ใหญที่สุด
+ที่ฉันเคยเห็นเลยละ!
 
 RESOURCE ID: appraise_size_xxl_3|1
-TEXT: Your {0} is massive! ...Could it be the biggest {0} in the world?
+TEXT: Your {0} is massive! This might be one of the biggest {0} in the world...
 
 RESOURCE ID: appraise_size_xxs_1|1
-TEXT: Your {0} is tinier than any we have on record. Astounding.
+TEXT: {0}ของคุณตัวเล็กกวาตัวอื่น ๆ ที่มี
+ในบันทึกของเรา นาประหลาดมาก
 
 RESOURCE ID: appraise_size_xxs_2|1
-TEXT: Your {0} is so tiny, I almost didn't notice it!
+TEXT: {0}ของคุณตัวเล็กมากเลย ฉันเกือบ
+จะไมทันสังเกตเห็นเขาซะแลว!
 
 RESOURCE ID: appraise_size_xxs_3|1
-TEXT: Wh-whoa. That's the tiniest {0} I've ever seen!
+TEXT: โอะ..โอ  นี่มัน{0}ที่ตัวเล็กที่สุดที่ฉัน
+เคยเห็นเลย!
 
 RESOURCE ID: appraise_stat_best_1|1
 TEXT: คาพลังของเขาอยูเหนือการคำนวณของฉัน เหลือเชื่อจริง ๆ!
@@ -1506,7 +1532,7 @@ RESOURCE ID: avatar_f_backpack_longchampbp_00_bundle_icon
 TEXT: กระเปาเป LONGCHAMP
 
 RESOURCE ID: avatar_f_backpack_lunala
-TEXT: Lunala Wings
+TEXT: ปกลูนาอาลา
 
 RESOURCE ID: avatar_f_backpack_mimikyubp_0_bundle_icon
 TEXT: กระเปามิมิคคิว
@@ -1583,6 +1609,10 @@ TEXT: หนากากประเภทน้ำ
 RESOURCE ID: avatar_f_face_banettemask_00_bundle_icon
 TEXT: หนากากจุปเปตตะ
 
+RESOURCE ID: avatar_f_face_dayofthedead_00_bundle_icon
+TEXT: สีเพนตหนา
+Día de Muertos
+
 RESOURCE ID: avatar_f_face_defaultmask_00_bundle_icon
 TEXT: หนากากเรียบงาย
 
@@ -1618,7 +1648,7 @@ RESOURCE ID: avatar_f_face_sableyemask_00_bundle_icon
 TEXT: หนากากยามิรามิ
 
 RESOURCE ID: avatar_f_face_solgaleo
-TEXT: Solgaleo Mask
+TEXT: หนากากโซลกาเลโอ
 
 RESOURCE ID: avatar_f_face_teamskull_00_bundle_icon
 TEXT: หนากากแกงสกัล
@@ -1816,6 +1846,9 @@ TEXT: หมวกสไตลตัวเอกชินโอ
 
 RESOURCE ID: avatar_f_hat_drifloon_0_bundle_icon
 TEXT: หมวกฟูวันเต
+
+RESOURCE ID: avatar_f_hat_dusclopsmummy_00_bundle_icon
+TEXT: ผาโพกหัวซามาโยรุ
 
 RESOURCE ID: avatar_f_hat_eeveecap_0_bundle_icon
 TEXT: หมวกอีวุย
@@ -2102,6 +2135,9 @@ TEXT: ตุมหูโคโรโมริ
 RESOURCE ID: avatar_f_hat_yamaskhat_00_bundle_icon
 TEXT: หมวกทรงสูงเดซึมาซึ
 
+RESOURCE ID: avatar_f_hat_zubathat_00_bundle_icon
+TEXT: ที่คาดผมซูแบท
+
 RESOURCE ID: avatar_f_necklace_default_bundle_icon
 TEXT: สรอยติดคอริบบิ้น
 
@@ -2183,6 +2219,10 @@ RESOURCE ID: avatar_f_pants_loosepants_0_bundle_icon
 TEXT: กางเกงขายาว
 ทรงหลวมลายจุด
 
+
+RESOURCE ID: avatar_f_pants_lunala
+TEXT: กางเกงขายาว
+ลูนาอาลา
 
 RESOURCE ID: avatar_f_pants_luvdiscpack_0_bundle_icon
 TEXT: กางเกงยีนสขาขาดเลิฟคัส
@@ -2368,6 +2408,9 @@ TEXT: เซ็ตทอนบนสไตลตัวเอกชิน�
 
 RESOURCE ID: avatar_f_shirt_drifblim_0_bundle_icon
 TEXT: เสื้อลายฟูวาไรด
+
+RESOURCE ID: avatar_f_shirt_dusclopsmummy_00_bundle_icon
+TEXT: คอสตูมซามาโยรุ
 
 RESOURCE ID: avatar_f_shirt_earthday_2018_bundle_icon
 TEXT: เสื้อสีฟาลายโตคลื่น
@@ -2828,6 +2871,9 @@ TEXT: เสื้อแจ็กเก็ตแชมเป้ยน
 RESOURCE ID: avatar_f_shirt_whitecoat_00_bundle_icon
 TEXT: เสื้อโคทสีขาว
 
+RESOURCE ID: avatar_f_shirt_zoruaonesie_00_bundle_icon
+TEXT: ชุดคอสเพลยโซรัว
+
 RESOURCE ID: avatar_f_shoes_6thanniversary_00_bundle_icon
 TEXT: รองเทาสนแบนสุภาพ
 ครบรอบ 6 ป
@@ -2956,6 +3002,9 @@ TEXT: รองเทารัดสน
 RESOURCE ID: avatar_f_shoes_sandals_2_bundle_icon
 TEXT: รองเทารัดสน
 
+RESOURCE ID: avatar_f_shoes_solgaleo
+TEXT: รองเทาโซลกาเลโอ
+
 RESOURCE ID: avatar_f_shoes_ss_0_bundle_icon
 TEXT: รองเทากาลาร
 
@@ -3040,6 +3089,9 @@ TEXT: ไมสวมถุงเทา
 
 RESOURCE ID: avatar_f_socks_fw2022_00_bundle_icon
 TEXT: ถุงเทาฮิโดอิเดะ
+
+RESOURCE ID: avatar_f_socks_galaxy
+TEXT: ถุงนองฟาพรางดาว
 
 RESOURCE ID: avatar_f_socks_hgss_bundle_icon
 TEXT: ถุงเทาโจโตะ
@@ -3155,7 +3207,7 @@ RESOURCE ID: avatar_m_backpack_longchampbp_00_bundle_icon
 TEXT: กระเปาเป LONGCHAMP
 
 RESOURCE ID: avatar_m_backpack_lunala
-TEXT: Lunala Wings
+TEXT: ปกลูนาอาลา
 
 RESOURCE ID: avatar_m_backpack_mimikyubp_0_bundle_icon
 TEXT: กระเปามิมิคคิว
@@ -3214,6 +3266,10 @@ TEXT: หนากากประเภทน้ำ
 RESOURCE ID: avatar_m_face_banettemask_00_bundle_icon
 TEXT: หนากากจุปเปตตะ
 
+RESOURCE ID: avatar_m_face_dayofthedead_00_bundle_icon
+TEXT: สีเพนตหนา
+Día de Muertos
+
 RESOURCE ID: avatar_m_face_defaultmask_00_bundle_icon
 TEXT: หนากากเรียบงาย
 
@@ -3249,7 +3305,7 @@ RESOURCE ID: avatar_m_face_sableyemask_00_bundle_icon
 TEXT: หนากากยามิรามิ
 
 RESOURCE ID: avatar_m_face_solgaleo
-TEXT: Solgaleo Mask
+TEXT: หนากากโซลกาเลโอ
 
 RESOURCE ID: avatar_m_face_teamskull_00_bundle_icon
 TEXT: หนากากแกงสกัล
@@ -3447,6 +3503,9 @@ TEXT: หมวกสไตลตัวเอกชินโอ
 
 RESOURCE ID: avatar_m_hat_drifloon_0_bundle_icon
 TEXT: หมวกฟูวันเต
+
+RESOURCE ID: avatar_m_hat_dusclopsmummy_00_bundle_icon
+TEXT: ผาโพกหัวซามาโยรุ
 
 RESOURCE ID: avatar_m_hat_eeveecap_0_bundle_icon
 TEXT: หมวกอีวุย
@@ -3729,6 +3788,9 @@ TEXT: ตุมหูโคโรโมริ
 RESOURCE ID: avatar_m_hat_yamaskhat_00_bundle_icon
 TEXT: หมวกทรงสูงเดซึมาซึ
 
+RESOURCE ID: avatar_m_hat_zubathat_00_bundle_icon
+TEXT: ที่คาดผมซูแบท
+
 RESOURCE ID: avatar_m_pants_6thanniversary_00_bundle_icon
 TEXT: กางเกงสูทขาว
 ครบรอบ 6 ป
@@ -3814,6 +3876,10 @@ RESOURCE ID: avatar_m_pants_loosepants_0_bundle_icon
 TEXT: กางเกงขายาว
 ทรงหลวมลายจุด
 
+
+RESOURCE ID: avatar_m_pants_lunala
+TEXT: กางเกงขายาว
+ลูนาอาลา
 
 RESOURCE ID: avatar_m_pants_luvdiscpack_0_bundle_icon
 TEXT: กางเกงยีนสขาขาดเลิฟคัส
@@ -3996,6 +4062,9 @@ TEXT: เซ็ตทอนบนสไตลตัวเอกชิน�
 
 RESOURCE ID: avatar_m_shirt_drifblim_0_bundle_icon
 TEXT: เสื้อลายฟูวาไรด
+
+RESOURCE ID: avatar_m_shirt_dusclopsmummy_00_bundle_icon
+TEXT: คอสตูมซามาโยรุ
 
 RESOURCE ID: avatar_m_shirt_earthday_2018_bundle_icon
 TEXT: เสื้อสีฟาลายโตคลื่น
@@ -4459,6 +4528,9 @@ TEXT: เสื้อแจ็กเก็ตแชมเป้ยน
 RESOURCE ID: avatar_m_shirt_whitecoat_00_bundle_icon
 TEXT: เสื้อโคทสีขาว
 
+RESOURCE ID: avatar_m_shirt_zoruaonesie_00_bundle_icon
+TEXT: ชุดคอสเพลยโซรัว
+
 RESOURCE ID: avatar_m_shoes_6thanniversary_00_bundle_icon
 TEXT: รองเทาหนังสุภาพ
 ครบรอบ 6 ป
@@ -4590,6 +4662,9 @@ TEXT: รองเทารัดสน
 RESOURCE ID: avatar_m_shoes_sandals_2_bundle_icon
 TEXT: รองเทารัดสน
 
+RESOURCE ID: avatar_m_shoes_solgaleo
+TEXT: รองเทาโซลกาเลโอ
+
 RESOURCE ID: avatar_m_shoes_ss_0_bundle_icon
 TEXT: รองเทากาลาร
 
@@ -4674,6 +4749,9 @@ TEXT: ไมสวมถุงเทา
 
 RESOURCE ID: avatar_m_socks_fw2022_00_bundle_icon
 TEXT: ถุงเทาฮิโดอิเดะ
+
+RESOURCE ID: avatar_m_socks_galaxy
+TEXT: ถุงนองฟาพรางดาว
 
 RESOURCE ID: avatar_m_socks_sneakersocks_00_bundle_icon
 TEXT: ถุงเทาขอสั้น
@@ -4864,131 +4942,134 @@ TEXT: มีคูหูมิตรแท 1 ตัว
 RESOURCE ID: badge_buddy_best_title
 TEXT: คูหูมิตรแท
 
+RESOURCE ID: badge_butterfly_collector
+TEXT: สะสมวิวิญองจากทั่วโลก
+
 RESOURCE ID: badge_butterfly_collector_archipelago_singular
-TEXT: Collect Archipelago Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายหมูเกาะ
 
 RESOURCE ID: badge_butterfly_collector_archipelago_title
-TEXT: Archipelago Collector
+TEXT: นักสะสมหมูเกาะ
 
 RESOURCE ID: badge_butterfly_collector_continental_singular
-TEXT: Collect Continental Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายแผนดินใหญ
 
 RESOURCE ID: badge_butterfly_collector_continental_title
-TEXT: Continental Collector
+TEXT: นักสะสมแผนดินใหญ
 
 RESOURCE ID: badge_butterfly_collector_elegant_singular
-TEXT: Collect Elegant Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายภูมิฐาน
 
 RESOURCE ID: badge_butterfly_collector_elegant_title
-TEXT: Elegant Collector
+TEXT: นักสะสมภูมิฐาน
 
 RESOURCE ID: badge_butterfly_collector_fancy_singular
-TEXT: Collect Fancy Pattern Vivillon.
+TEXT: ปกหมุดโปสการดแฟนซี
 
 RESOURCE ID: badge_butterfly_collector_fancy_title
-TEXT: Fancy Collector
+TEXT: นักสะสมแฟนซี
 
 RESOURCE ID: badge_butterfly_collector_garden_singular
-TEXT: Collect Continental Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายสวนหยอม
 
 RESOURCE ID: badge_butterfly_collector_garden_title
-TEXT: Garden Collector
+TEXT: นักสะสมสวนหยอม
 
 RESOURCE ID: badge_butterfly_collector_high_plains_singular
-TEXT: Collect High Plains Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายทุงโลง
 
 RESOURCE ID: badge_butterfly_collector_high_plains_title
-TEXT: High Plains Collector
+TEXT: นักสะสมทุงโลง
 
 RESOURCE ID: badge_butterfly_collector_icy_snow_singular
-TEXT: Collect Icy Snow Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายทุงน้ำแข็ง
 
 RESOURCE ID: badge_butterfly_collector_icy_snow_title
-TEXT: Icy Snow Collector
+TEXT: นักสะสมทุงน้ำแข็ง
 
 RESOURCE ID: badge_butterfly_collector_jungle_singular
-TEXT: Collect Jungle Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายปาดงดิบ
 
 RESOURCE ID: badge_butterfly_collector_jungle_title
-TEXT: Jungle Collector
+TEXT: นักสะสมปาดงดิบ
 
 RESOURCE ID: badge_butterfly_collector_marine_singular
-TEXT: Collect Marine Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายทะเล
 
 RESOURCE ID: badge_butterfly_collector_marine_title
-TEXT: Marine Collector
+TEXT: นักสะสมทะเล
 
 RESOURCE ID: badge_butterfly_collector_meadow_singular
-TEXT: Collect Meadow Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายสวนบุปผา
 
 RESOURCE ID: badge_butterfly_collector_meadow_title
-TEXT: Meadow Collector
+TEXT: นักสะสมสวนบุปผา
 
 RESOURCE ID: badge_butterfly_collector_modern_singular
-TEXT: Collect Modern Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายรวมสมัย
 
 RESOURCE ID: badge_butterfly_collector_modern_title
-TEXT: Modern Collector
+TEXT: นักสะสมรวมสมัย
 
 RESOURCE ID: badge_butterfly_collector_monsoon_singular
-TEXT: Collect Monsoon Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายมรสุม
 
 RESOURCE ID: badge_butterfly_collector_monsoon_title
-TEXT: Monsoon Collector
+TEXT: นักสะสมมรสุม
 
 RESOURCE ID: badge_butterfly_collector_ocean_singular
-TEXT: Collect Ocean Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายมหาสมุทร
 
 RESOURCE ID: badge_butterfly_collector_ocean_title
-TEXT: Ocean Collector
+TEXT: นักสะสมมหาสมุทร
 
 RESOURCE ID: badge_butterfly_collector_pokeball_singular
-TEXT: Collect Poké Ball Pattern Vivillon.
+TEXT: ปกหมุดโปสการดที่มีลายมอนสเตอรบอล
 
 RESOURCE ID: badge_butterfly_collector_pokeball_title
-TEXT: Poké Ball Collector
+TEXT: นักสะสมมอนสเตอรบอล
 
 RESOURCE ID: badge_butterfly_collector_polar_singular
-TEXT: Collect Polar Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายขั้วโลก
 
 RESOURCE ID: badge_butterfly_collector_polar_title
-TEXT: Polar Collector
+TEXT: นักสะสมขั้วโลก
 
 RESOURCE ID: badge_butterfly_collector_river_singular
-TEXT: Collect River Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายแมน้ำใหญ
 
 RESOURCE ID: badge_butterfly_collector_river_title
-TEXT: River Collector
+TEXT: นักสะสมแมน้ำใหญ
 
 RESOURCE ID: badge_butterfly_collector_sandstorm_singular
-TEXT: Collect Sandstorm Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายพายุทราย
 
 RESOURCE ID: badge_butterfly_collector_sandstorm_title
-TEXT: Sandstorm Collector
+TEXT: นักสะสมพายุทราย
 
 RESOURCE ID: badge_butterfly_collector_savannah_singular
-TEXT: Collect Savannah Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายสะวันนา
 
 RESOURCE ID: badge_butterfly_collector_savannah_title
-TEXT: Savannah Collector
+TEXT: นักสะสมสะวันนา
 
 RESOURCE ID: badge_butterfly_collector_singular
-TEXT: Collect Vivillon from all over the world.
+TEXT: สะสมวิวิญองจากทั่วโลก
 
 RESOURCE ID: badge_butterfly_collector_sun_singular
-TEXT: Collect Sun Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายตะวัน
 
 RESOURCE ID: badge_butterfly_collector_sun_title
-TEXT: Sun Collector
+TEXT: นักสะสมตะวัน
 
 RESOURCE ID: badge_butterfly_collector_title
-TEXT: Butterfly Collector
+TEXT: นักสะสมวิวิญอง
 
 RESOURCE ID: badge_butterfly_collector_tundra__singular
-TEXT: Collect Tundra Pattern Vivillon.
+TEXT: ปกหมุดโปสการดจากภูมิภาคที่มีวิวิญองลายทุงหิมะ
 
 RESOURCE ID: badge_butterfly_collector_tundra_title
-TEXT: Tundra Collector
+TEXT: นักสะสมทุงหิมะ
 
 RESOURCE ID: badge_capture_bonus_reward
 TEXT: +{0} โบนัสการจับประเภท{1}
@@ -6613,6 +6694,102 @@ TEXT: Pokémon GO ซาฟารีโซน
 RESOURCE ID: badge_safarizone_2022_seville_day_03_general_title
 TEXT: Seville, 15 พฤษภาคม 2022
 
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_earlyaccess
+TEXT: Singapore 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_earlyaccess_title
+TEXT: Pokémon GO Safari Zone—Early Access
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_general
+TEXT: Singapore 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_earlyaccess
+TEXT: Singapore, October 21, 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_earlyaccess_title
+TEXT: Pokémon GO Safari Zone—Early Access
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_general
+TEXT: Singapore, October 21, 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_earlyaccess
+TEXT: Singapore, October 22, 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_earlyaccess_title
+TEXT: Pokémon GO Safari Zone—Early Access
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_general
+TEXT: Singapore, October 22, 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_earlyaccess
+TEXT: Singapore, October 23, 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_earlyaccess_title
+TEXT: Pokémon GO Safari Zone—Early Access
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_general
+TEXT: Singapore, October 23, 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_general_title
+TEXT: Pokémon GO Safari Zone
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_earlyaccess
+TEXT: ไทเป 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_earlyaccess_title
+TEXT: Pokémon GO ซาฟารีโซน—เขาลวงหนา
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_general
+TEXT: ไทเป 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_general_title
+TEXT: Pokémon GO ซาฟารีโซน
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_earlyaccess
+TEXT: ไทเป, 21 ตุลาคม 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_earlyaccess_title
+TEXT: Pokémon GO ซาฟารีโซน—เขาลวงหนา
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_general
+TEXT: ไทเป, 21 ตุลาคม 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_general_title
+TEXT: Pokémon GO ซาฟารีโซน
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_earlyaccess
+TEXT: ไทเป, 22 ตุลาคม 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_earlyaccess_title
+TEXT: Pokémon GO ซาฟารีโซน—เขาลวงหนา
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_general
+TEXT: ไทเป, 22 ตุลาคม 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_general_title
+TEXT: Pokémon GO ซาฟารีโซน
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_earlyaccess
+TEXT: ไทเป, 23 ตุลาคม 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_earlyaccess_title
+TEXT: Pokémon GO ซาฟารีโซน—เขาลวงหนา
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_general
+TEXT: ไทเป, 23 ตุลาคม 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_general_title
+TEXT: Pokémon GO ซาฟารีโซน
+
 RESOURCE ID: badge_sentosa_18_apr_2019
 TEXT: เซนโตซา, 18 เม.ย. 2019
 
@@ -7124,10 +7301,10 @@ RESOURCE ID: batch_transfer_unique_warning_title
 TEXT: มีโปเกมอนดังนี้รวมอยู:
 
 RESOURCE ID: batch_transfer_unique_xxl_pokemon
-TEXT: {0} XXL Pokémon
+TEXT: โปเกมอน XXL {0} ตัว
 
 RESOURCE ID: batch_transfer_unique_xxs_pokemon
-TEXT: {0} XXS Pokémon
+TEXT: โปเกมอน XXS {0} ตัว
 
 RESOURCE ID: battle_box
 TEXT: กลองแบตเทิล
@@ -9883,7 +10060,7 @@ RESOURCE ID: bonus_active
 TEXT: โบนัสกำลังมีผลอยู!
 
 RESOURCE ID: bonus_buddy_catch_assist_boosted
-TEXT: Increased chance of buddy Catch Assist if your Buddy Level is Great Buddy or higher
+TEXT: เพิ่มโอกาสที่คูหูของคุณจะชวยในการจับ หากระดับความสนิทเปนคูหูสนิทสนมหรือสูงกวานั้น
 
 RESOURCE ID: bonus_candy_nice_great_excel
 TEXT: รับลูกอมจากการจับเพิ่มเมื่อขวางไดดี เยี่ยม และสุดยอด
@@ -9900,14 +10077,20 @@ TEXT: วิวัฒนาการโกโลนรางอโลลา�
 RESOURCE ID: bonus_cd_move_deino
 TEXT: วิวัฒนาการจิเฮดเปนซาซันดราที่รูทาโจมตีชารจ "เหวี่ยงกระเด็น"
 
+RESOURCE ID: bonus_cd_move_dratini_cdc
+TEXT: Evolve Dragonair to get a Dragonite that knows the Charged Attack Draco Meteor!
+
 RESOURCE ID: bonus_cd_move_litwick
-TEXT: Evolve Lampent to get a Chandelure that knows the Charged Attack Poltergeist!
+TEXT: วิวัฒนาการแลมพูลาเปนแชนเดลาที่รูทาโจมตีชารจ "โพลเตอรไกสท"
 
 RESOURCE ID: bonus_cd_move_roggenrola
 TEXT: วิวัฒนาการกันเทิลเปนกิไกอาซที่รูทาโจมตีชารจ "มีทิเออรบีม"
 
 RESOURCE ID: bonus_cd_move_starly
 TEXT: วิวัฒนาการมุคูเบิรดเปนมุคูฮอวกที่รูทาโจมตีเร็ว "เรียกลม"
+
+RESOURCE ID: bonus_cd_move_teddiursa
+TEXT: Evolve Ursaring to get an Ursaluna that knows the Charged Attack High Horsepower!
 
 RESOURCE ID: bonus_cd_move_zigzagoon
 TEXT: วิวัฒนาการมัสสึกุมะรางกาลารเพื่อรับทาจิฟุซะกุมะที่รูทาโจมตีชารจ "บล็อกกิ้ง"
@@ -9920,6 +10103,12 @@ TEXT: สติกเกอรพิเศษเฉพาะอีเวน�
 
 RESOURCE ID: bonus_event_sticker_plural
 TEXT: สติกเกอรพิเศษเฉพาะอีเวนตจากการหมุนเสาโปเกสต็อปในพื้นที่
+
+RESOURCE ID: bonus_exclusive_souvenir
+TEXT: มีของฝากจากคูหูเฉพาะอีเวนต!
+
+RESOURCE ID: bonus_finneon_o_clock
+TEXT: เคโคโอจะปรากฏตัวจำนวนมากในทุกตนชั่วโมง!
 
 RESOURCE ID: bonus_implicit_social_alodude
 TEXT: ถาจำนวนโปเกมอนที่จับไดจากอุปกรณปลอยลัวรหนึ่งชิ้นถึงจำนวนที่กำหนด โบนัส "สตารดัสตจากการจับ x3" สำหรับเทรนเนอรที่อยูบริเวณเสาโปเกสต็อปที่ติดตั้งอุปกรณปลอยลัวรจะเพิ่มเปน x4 เปนเวลา 30 นาที
@@ -9937,7 +10126,7 @@ RESOURCE ID: bonus_implicit_social_deino_raid_title
 TEXT: คำทาคอมมิวนิตี้เดย: ตีบอส
 
 RESOURCE ID: bonus_implicit_social_litwick_raid
-TEXT: If Trainers work together to win a Lampent raid, large numbers of Litwick will appear in the area for 30 minutes.
+TEXT: หากเทรนเนอรรวมมือกันเอาชนะแลมพูลาในการตีบอสไดสำเร็จ ฮิโตโมชิจำนวนมากจะปรากฏตัวในบริเวณรอบ ๆ เปนเวลา 30 นาที
 
 RESOURCE ID: bonus_implicit_social_lure_4x_catch_xp
 TEXT: ถาจำนวนโปเกมอนที่จับไดจากอุปกรณปลอยลัวรหนึ่งชิ้นถึงจำนวนที่กำหนด โบนัส "XP จากการจับ x3" สำหรับเทรนเนอรที่อยูบริเวณเสาโปเกสต็อปที่ติดตั้งอุปกรณปลอยลัวรจะเพิ่มเปน x4 เปนเวลา 30 นาที
@@ -9946,7 +10135,7 @@ RESOURCE ID: bonus_implicit_social_lure_title
 TEXT: คำทาคอมมิวนิตี้เดย: การจับ
 
 RESOURCE ID: bonus_implicit_social_raid_title
-TEXT: คำทาคอมมิวนิตี้เดย: ตีบอส
+TEXT: Community Day Challenge: Raid
 
 RESOURCE ID: bonus_implicit_social_roggenrola_raid
 TEXT: หากเทรนเนอรรวมมือกันเอาชนะกันเทิลในการตีบอสไดสำเร็จ ดันโกโรจำนวนมากจะปรากฏตัวในบริเวณรอบ ๆ เปนเวลา 30 นาที
@@ -9956,6 +10145,9 @@ TEXT: หากเทรนเนอรรวมมือกันเอ�
 
 RESOURCE ID: bonus_implicit_social_stufful
 TEXT: ถาจำนวนโปเกมอนที่จับไดจากอุปกรณปลอยลัวรหนึ่งชิ้นถึงจำนวนที่กำหนด โบนัส "XP การจับ x3" สำหรับเทรนเนอรที่อยูบริเวณเสาโปเกสต็อปที่ติดตั้งอุปกรณปลอยลัวรจะเพิ่มเปน x4 เปนเวลา 30 นาที
+
+RESOURCE ID: bonus_implicit_social_teddiursa_raid
+TEXT: If Trainers work together to win an Ursaring Raid Battle, large numbers of Teddiursa will appear in the area for 30 minutes
 
 RESOURCE ID: bonus_implicit_social_unlock
 TEXT: มีโบนัส!
@@ -9972,11 +10164,17 @@ TEXT: อุปกรณปลอยลัวรมีผล 3 ชม.
 RESOURCE ID: bonus_magnetic_lure_6_hr
 TEXT: อุปกรณปลอยลัวรแมเหล็กใชไดนาน 6 ชั่วโมง
 
+RESOURCE ID: bonus_mega_latias_latios
+TEXT: เมกาลาทิอาสและเมกาลาทิโอสปรากฏตัวในการตีบอสในพื้นที่!
+
 RESOURCE ID: bonus_milestone_rewards_title
 TEXT: โบนัสรางวัลภารกิจ
 
 RESOURCE ID: bonus_not_active
 TEXT: โบนัสไมมีผลอยูในขณะนี้
+
+RESOURCE ID: bonus_purrloin_o_clock
+TEXT: At the top of each hour, Purrloin will appear in large numbers!
 
 RESOURCE ID: bonus_raid_trainers_gym_bug_types
 TEXT: หากเทรนเนอรหลายคนเขารวมในการตีบอสดวยกัน โปเกมอนประเภทแมลงจำนวนมากจะปรากฏตัวในบริเวณรอบ ๆ เปนเวลา 15 นาที
@@ -10041,11 +10239,26 @@ TEXT: ระยะทางฟกไขลดเหลือ 1/2
 RESOURCE ID: bonus_reward_quarter_hatch_distance
 TEXT: ระยะทางฟกไขลดเหลือ 1/4
 
+RESOURCE ID: bonus_singapore_photobomb
+TEXT: 5 surprise encounters with Corsola and Pikachu wearing a purple T-shirt in GO Snapshot
+
+RESOURCE ID: bonus_spawn_corsola
+TEXT: ซันนีโกปรากฏตัวออกมามากขึ้นในพื้นที่!
+
+RESOURCE ID: bonus_spawn_lapras
+TEXT: More Lapras are appearing in the area!
+
 RESOURCE ID: bonus_spawn_pikachu
 TEXT: พิคาชูปรากฏตัวมากขึ้นในธรรมชาติ
 
+RESOURCE ID: bonus_spawn_regional_pika
+TEXT: พิคาชูในชุดพิเศษปรากฏตัวมากขึ้นในพื้นที่!
+
+RESOURCE ID: bonus_spawn_snorlax
+TEXT: คาบิกอนปรากฏตัวออกมามากขึ้นในพื้นที่!
+
 RESOURCE ID: bonus_special_trade_double_cd
-TEXT: One additional Special Trade can be made during the event and up to five hours afterward for a maximum of two for the day.
+TEXT: สามารถแลกเปลี่ยนแบบพิเศษไดเพิ่มหนึ่งครั้งภายใน 5 ชั่วโมงหลังอีเวนตสิ้นสุด (สูงสุด 2 ครั้งในวันนั้น)
 
 RESOURCE ID: bonus_special_trade_starly_cd
 TEXT: สามารถแลกเปลี่ยนแบบพิเศษไดเพิ่มหนึ่งครั้งภายใน 5 ชั่วโมงหลังอีเวนตสิ้นสุด (สูงสุด 3 ครั้งในวันนั้น)
@@ -10058,6 +10271,9 @@ TEXT: สามารถแลกเปลี่ยนแบบพิเศษ�
 
 RESOURCE ID: bonus_spritzee_o_clock
 TEXT: ชูชูปจะปรากฏตัวจำนวนมากในทุกตนชั่วโมง
+
+RESOURCE ID: bonus_taipei_photobomb
+TEXT: พิคาชูสวมเสื้อยืดลายผลไมและซันนีโกจะแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
 
 RESOURCE ID: bonus_trade_stardust_50pc_5hr
 TEXT: การแลกเปลี่ยนที่เกิดขึ้นในชวงอีเวนตถึง 5 ชั่วโมงหลังอีเวนตสิ้นสุดลงจะใชสตารดัสตเพียงครึ่งเดียว.
@@ -10829,6 +11045,12 @@ TEXT: เห็ดที่มีรูปรางแบบนี้มั�
 RESOURCE ID: buddy_souvenir_mushroom_name
 TEXT: เห็ด
 
+RESOURCE ID: buddy_souvenir_paper_airplane_description
+TEXT: A small paper airplane made from a sheet of yellow binder paper. Your buddy hopes it will remind you of your time spent adventuring together.
+
+RESOURCE ID: buddy_souvenir_paper_airplane_name
+TEXT: Paper Airplane
+
 RESOURCE ID: buddy_souvenir_pikachu_visor_description
 TEXT: เครื่องประดับมีสไตลซึ่งสวมใสโดยเทรนเนอรในอีเวนตพิเศษ เพื่อแสดงความรักที่มีตอโปเกมอน พิคา พิคา!
 
@@ -11246,6 +11468,9 @@ TEXT: กลองพิเศษ
 RESOURCE ID: bundle_retweet_reward
 TEXT: กลองรางวัล
 รีทวีต
+
+RESOURCE ID: calavera_bonus_tr_title
+TEXT: Cráneo Monumental: โบนัสงานวิจัยแบบจำกัดเวลา
 
 RESOURCE ID: campfire_invite_notification
 TEXT: {0} ไดเชิญใหคุณเขารวม Campfire!
@@ -13348,6 +13573,9 @@ RESOURCE ID: combat_scan_qr_code_to_combat
 TEXT: ใหเทรนเนอรคนอื่นสแกนรหัสแบตเทิลนี้
 เพื่อเริ่มการแบตเทิล!
 
+RESOURCE ID: combat_schedule_open_error
+TEXT: Schedule cannot be opened at this time.
+
 RESOURCE ID: combat_sierra_name
 TEXT: หัวหนาเซียรรา
 
@@ -13442,6 +13670,9 @@ TEXT: สุดสัปดาหคอมมิวนิตี้เดย�
 RESOURCE ID: community_day_deino_event_name
 TEXT: คอมมิวนิตี้เดย : โมโนซึ
 
+RESOURCE ID: community_day_dratini_cdc_event_name
+TEXT: Dratini Community Day Classic
+
 RESOURCE ID: community_day_duskull_event_name
 TEXT: คอมมิวนิตี้เดย: โยมาวารุ
 
@@ -13467,7 +13698,7 @@ RESOURCE ID: community_day_hoppip_event_name
 TEXT: คอมมิวนิตี้เดย : ฮาเน็กโกะ
 
 RESOURCE ID: community_day_litwick_event_name
-TEXT: Community Day: Litwick
+TEXT: คอมมิวนิตี้เดย: ฮิโตโมชิ
 
 RESOURCE ID: community_day_litwick_limited_research
 TEXT: งานวิจัยแบบจำกัดเวลาของฮิโตโมชิ
@@ -13525,6 +13756,9 @@ TEXT: คอมมิวนิตี้เดย: นุยโคกุมะ
 
 RESOURCE ID: community_day_swablu_event_name
 TEXT: คอมมิวนิตี้เดย : ทิลทโท
+
+RESOURCE ID: community_day_teddiursa_event_name
+TEXT: Community Day: Teddiursa
 
 RESOURCE ID: community_day_tepig_event_name
 TEXT: คอมมิวนิตี้เดย : โพคาบู
@@ -13698,6 +13932,9 @@ TEXT: ปริศนาหอคอยเกลียวมังกร
 
 RESOURCE ID: ddlm_2021_collection_challenge
 TEXT: คำทานักสะสม Día de Muertos 2021
+
+RESOURCE ID: ddlm_2022_collection_challenge
+TEXT: คำทานักสะสม Día de Muertos 2022
 
 RESOURCE ID: december_cd_event_ticket
 TEXT: ตั๋วคอมมิวนิตี้เดยเดือนธันวาคม
@@ -13937,6 +14174,9 @@ TEXT: มอบหมายไดเฉพาะโปเกมอนที�
 RESOURCE ID: disabled_mythic
 TEXT: ไมสามารถสงโปเกมอนมายาไปที่ยิมได
 
+RESOURCE ID: dont_have_account
+TEXT: Don’t have an account?
+
 RESOURCE ID: dont_use_adventure_sync
 TEXT: ไมใชแอดเวนเจอรซิงค
 
@@ -14120,6 +14360,9 @@ TEXT: การแขงขันแหงธาตุ
 
 RESOURCE ID: element_remix_cup_title
 TEXT: Element Cup Remix
+
+RESOURCE ID: elite_raid_title
+TEXT: ตีบอสเอลีต
 
 RESOURCE ID: elite_tm_charged_cd_box
 TEXT: TM ทาชารจชั้นเลิศมีอยูในกลองคอมมิวนิตี้เดย
@@ -15722,6 +15965,10 @@ TEXT: ทาโพสนักจับแมลง
 RESOURCE ID: f_avatar_poses_bundle_pose_41
 TEXT: ทาโพสกุซมา
 
+RESOURCE ID: f_avatar_poses_bundle_pose_43
+TEXT: ทาโพสตะเกียง
+บาเค็จจะ
+
 RESOURCE ID: f_avatar_poses_bundle_pose_44
 TEXT: ทาโพสประกายไฟ
 
@@ -15838,6 +16085,15 @@ TEXT: +{0} XP
 
 RESOURCE ID: festival_of_colors_event_name
 TEXT: เทศกาลแหงสี
+
+RESOURCE ID: festival_of_lights_catch_challenge
+TEXT: เทศกาลแหงแสง: งานวิจัยแบบจำกัดเวลา
+
+RESOURCE ID: festival_of_lights_catch_challenge_page_1
+TEXT: เทศกาลแหงแสง: งานวิจัยแบบจำกัดเวลา (1/2)
+
+RESOURCE ID: festival_of_lights_catch_challenge_page_2
+TEXT: เทศกาลแหงแสง: งานวิจัยแบบจำกัดเวลา (2/2)
 
 RESOURCE ID: festivaloflights_event_name
 TEXT: เทศกาลแหงแสง
@@ -16061,6 +16317,12 @@ TEXT: สีแตกตาง
 
 RESOURCE ID: filter_label_traded
 TEXT: แลกเปลี่ยน
+
+RESOURCE ID: finneon_o_clock
+TEXT: เคโคโอตนชั่วโมง
+
+RESOURCE ID: finneon_o_clock_description
+TEXT: เคโคโอกำลังปรากฏตัวจำนวนมากในพื้นที่!
 
 RESOURCE ID: fire_type_event
 TEXT: ระลอกฉับพลัน: ไฟ
@@ -17339,6 +17601,14 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 
 คุณตองเลนเกมในชวงเวลาที่กำหนดเพื่อรับโบนัสทั้งหมดจากอีเวนตพิเศษ
 
+RESOURCE ID: general1.ticket.1_halloween_description
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาฮาโลวีน ตั้งแตวันที่ 20 ตุลาคม 2022 เวลา 10:00 ถึงวันที่ 1 พฤศจิกายน 2022 เวลา 17:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด โดยคุณจะไดสนุกกับภารกิจธีมฮาโลวีนและไอเท็มอวาตาร สามารถดูรายละเอียดไดที่ขาวสารในเกม
+
+โปรดทราบวางานวิจัยแบบจำกัดเวลาสามารถหมดเวลาได คุณจะตองเคลียรและรับรางวัลจากภารกิจที่เกี่ยวของกับงานวิจัยแบบจำกัดเวลากอนวันที่ 1 พฤศจิกายน 2022 เวลา 17:00 น. ตามเวลาทองถิ่น
+
+RESOURCE ID: general1.ticket.1_halloween_title
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาฮาโลวีน
+
 RESOURCE ID: general1.ticket.1_title
 TEXT: ตั๋วอีเวนตกาลารบารเรียด
 
@@ -17407,6 +17677,9 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 
 คุณตองเลนเกมในชวงเวลาที่กำหนดเพื่อรับโบนัสทั้งหมดจากอีเวนตพิเศษ
 
+RESOURCE ID: general1.ticket.2_dratini_cdc_title
+TEXT: Dratini Community Day Classic
+
 RESOURCE ID: general1.ticket.2_duskt_description
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ
 "ลางมรณะใกลเขามา"
@@ -17448,6 +17721,14 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 RESOURCE ID: general1.ticket.2_giblt_title
 TEXT: ตั๋ว "โปเกมอนฉลามบกจอมกัด"
 
+RESOURCE ID: general1.ticket.2_halloween_description
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลาของเดซึมาซึ ตั้งแตวันที่ 20 ตุลาคม 2022 เวลา 10:00 ถึงวันที่ 1 พฤศจิกายน 2022 เวลา 17:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด สามารถดูรายละเอียดไดที่ขาวสารในเกม
+
+โปรดทราบวางานวิจัยแบบจำกัดเวลาสามารถหมดเวลาได คุณจะตองเคลียรและรับรางวัลจากภารกิจที่เกี่ยวของกับงานวิจัยแบบจำกัดเวลากอนวันที่ 1 พฤศจิกายน 2022 เวลา 17:00 น. ตามเวลาทองถิ่น
+
+RESOURCE ID: general1.ticket.2_halloween_title
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาของเดซึมาซึ
+
 RESOURCE ID: general1.ticket.2_hoopau_description
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ "ปลดปลอยความปวน" ไดจากทุกที่ทั่วโลก โปรดทราบวาคุณสามารถรับงานวิจัยพิเศษนี้ไดโดยไมเสียคาใชจายโดยการทำงานวิจัยพิเศษ "ความป่นปวนสุดฉงน" ใหเสร็จสิ้นภายในวันที่ 1 ธันวาคม 2021 9:59 น. ตามเวลาทองถิ่นทั่วโลก และแมวาคุณไดรับงานวิจัยพิเศษ "ปลดปลอยความปวน" โดยไมมีคาใชจายแลว คุณก็ยังสามารถซื้อตั๋วนี้เพื่อรับภารกิจและรางวัลเซ็ตเดียวกันไดอีกครั้ง ตรวจสอบรายละเอียดไดในหนาขาวสารในเกมและบล็อก
 
@@ -17470,12 +17751,16 @@ RESOURCE ID: general1.ticket.2_hoppt_title
 TEXT: ตนฝายลอยละลอง
 
 RESOURCE ID: general1.ticket.2_litwick_description
-TEXT: A ticket to access the Field Notes: Trick of the Light Special Research on October 15, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: ตั๋วเขารวมงานวิจัยพิเศษ "งานวิจัย: แสงลวงตา"
+ในวันที่ 15 ตุลาคม 2022 เวลา 14:00-17:00 น.
+ตามเวลาทองถิ่น
+สามารถดูรายละเอียดไดที่ขาวสารในเกม
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+คุณตองเลนเกมในชวงเวลาที่กำหนด
+เพื่อรับโบนัสทั้งหมดจากอีเวนตพิเศษ
 
 RESOURCE ID: general1.ticket.2_litwick_title
-TEXT: Field Notes: Trick of the Light
+TEXT: งานวิจัย: แสงลวงตา
 
 RESOURCE ID: general1.ticket.2_machop_description
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ "วันริกีเดินหนาลุย!" ในวันที่ 16 มกราคม 2020 เวลา 11:00 - 17:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด สามารถดูรายละเอียดไดที่ขาวสารในเกม
@@ -17591,6 +17876,14 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 
 RESOURCE ID: general1.ticket.2_swabt_title
 TEXT: ตั๋ว "ทิลทโทปกปุยฝาย"
+
+RESOURCE ID: general1.ticket.2_teddiursa_description
+TEXT: A ticket to access the Sweet Snacks Special Research on November 12, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_teddiursa_title
+TEXT: Sweet Snacks
 
 RESOURCE ID: general1.ticket.2_tepit_description
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ "ผลไมยางสุก"
@@ -17728,16 +18021,16 @@ RESOURCE ID: general_m
 TEXT: m
 
 RESOURCE ID: general_maximum_height
-TEXT: Tallest
+TEXT: สูงสุด
 
 RESOURCE ID: general_maximum_weight
-TEXT: Heaviest
+TEXT: หนักสุด
 
 RESOURCE ID: general_minimum_height
-TEXT: Shortest
+TEXT: เล็กสุด
 
 RESOURCE ID: general_minimum_weight
-TEXT: Lightest
+TEXT: เบาสุด
 
 RESOURCE ID: general_month
 TEXT: เดือน
@@ -17839,6 +18132,11 @@ RESOURCE ID: generic_player_lockout
 TEXT: บัญชีของคุณถูกระงับชั่วคราวเนื่องจากมีการละเมิดเงื่อนไขการใหบริการ
 
 <a href="three_strike_policy_url">ไปที่ศูนยชวยเหลือ</a>เพื่อดูขอมูลเพิ่มเติม
+
+RESOURCE ID: gengeneral1.ticket.2_dratini_cdc_description
+TEXT: A ticket to access the Dratini Community Day Classic Special Research on November 5, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
 RESOURCE ID: geotarget_quest_description
 TEXT: สแกน{0}
@@ -21355,16 +21653,16 @@ TEXT: ตรงนี้เปนอาณาเขตของแกง�
 แกมีธุระอะไรกับพวกเรางั้นเรอะ?
 
 RESOURCE ID: grunt_generic_defeat#10__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ไอหนู แกทำใหเลือดฉันรอนขึ้นมาแลว!
 
 RESOURCE ID: grunt_generic_defeat#10__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ไอหนู แกทำใหเลือดฉันรอนขึ้นมาแลว!
 
 RESOURCE ID: grunt_generic_defeat#11__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: สุดทายก็...แพอีกแลว...
 
 RESOURCE ID: grunt_generic_defeat#11__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: สุดทายก็...แพอีกแลว...
 
 RESOURCE ID: grunt_generic_defeat#12__female_speaker
 TEXT: แบบนี้ไมดีแน… ฉันตองรีบไปบอกหัวหนาใหญ!
@@ -21373,148 +21671,155 @@ RESOURCE ID: grunt_generic_defeat#12__male_speaker
 TEXT: แบบนี้ไมดีแน… ฉันตองรีบไปบอกหัวหนาใหญ!
 
 RESOURCE ID: grunt_generic_defeat#13__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: อะไรนะ? ฉันแพเหรอ? ไมจริง!
 
 RESOURCE ID: grunt_generic_defeat#13__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: อะไรนะ? ฉันแพเหรอ? ไมจริง!
 
 RESOURCE ID: grunt_generic_defeat#14__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ไมไหวหรอเนี่ย!
 
 RESOURCE ID: grunt_generic_defeat#14__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ไมไหวหรอเนี่ย!
 
 RESOURCE ID: grunt_generic_defeat#15__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: อยากจะไปไหนก็ไป! ไสหัวไปเลย!
+ฉันไมสนใจอยูแลวยะ!
 
 RESOURCE ID: grunt_generic_defeat#15__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: อยากจะไปไหนก็ไป! ไสหัวไป! ฉันไมสนแกอยูแลว!
 
 RESOURCE ID: grunt_generic_defeat#16__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: อากกก!
 
 RESOURCE ID: grunt_generic_defeat#16__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: อากกก!
 
 RESOURCE ID: grunt_generic_defeat#17__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ฉันทำภารกิจลมเหลว…
+...ตองถูกตัดเงินแนเลย
 
 RESOURCE ID: grunt_generic_defeat#17__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ฉันทำภารกิจลมเหลว…
+...ตองถูกตัดเงินแนเลย
 
 RESOURCE ID: grunt_generic_defeat#18__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ฉันทำพลาดซะแลว!
 
 RESOURCE ID: grunt_generic_defeat#18__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ฉันทำพลาดซะแลว!
 
 RESOURCE ID: grunt_generic_defeat#19__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: แกเกงดีนี่...
 
 RESOURCE ID: grunt_generic_defeat#19__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: แกเกงดีนี่...
 
 RESOURCE ID: grunt_generic_defeat#1__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: อา! แกเกงนี่นา!
 
 RESOURCE ID: grunt_generic_defeat#1__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: อาก! แกเกงนี่หวา!
 
 RESOURCE ID: grunt_generic_defeat#20__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: โอย! ลางไมดีอีกแลว!
 
 RESOURCE ID: grunt_generic_defeat#20__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: โอย! ลางไมดีอีกแลว!
 
 RESOURCE ID: grunt_generic_defeat#21__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: แบบนี้แยแน!
 
 RESOURCE ID: grunt_generic_defeat#21__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: แบบนี้แยแน!
 
 RESOURCE ID: grunt_generic_defeat#22__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ทำไมกัน...?
 
 RESOURCE ID: grunt_generic_defeat#22__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ทำไมกัน...?
 
 RESOURCE ID: grunt_generic_defeat#23__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ฉันยอมแพ!
 
 RESOURCE ID: grunt_generic_defeat#23__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ฉันยอมแพ!
 
 RESOURCE ID: grunt_generic_defeat#24__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: โอะ! พลาดซะแลว!
 
 RESOURCE ID: grunt_generic_defeat#24__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: โอะ! พลาดซะแลว!
 
 RESOURCE ID: grunt_generic_defeat#25__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ไม!
 
 RESOURCE ID: grunt_generic_defeat#25__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ไม!
 
 RESOURCE ID: grunt_generic_defeat#26__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: แกแข็งแกรงมาก!
 
 RESOURCE ID: grunt_generic_defeat#26__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: แกมันแข็งแกรง!
 
 RESOURCE ID: grunt_generic_defeat#27__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ยังพยายามไมพอ!
 
 RESOURCE ID: grunt_generic_defeat#27__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ยังพยายามไมพอ!
 
 RESOURCE ID: grunt_generic_defeat#28__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ฉันละทึ่งไปเลย!
 
 RESOURCE ID: grunt_generic_defeat#28__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ฉันละทึ่งไปเลย!
 
 RESOURCE ID: grunt_generic_defeat#29__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: พอกอน! ฉันยอมแลว!
+จะรีบออกไปเดี๋ยวนี้!
 
 RESOURCE ID: grunt_generic_defeat#29__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: พอกอน! ฉันยอมแลว! ฉันจะรีบออกไปเดี๋ยวนี้!
 
 RESOURCE ID: grunt_generic_defeat#2__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: บาจริง!
 
 RESOURCE ID: grunt_generic_defeat#2__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: บาจริง!
 
 RESOURCE ID: grunt_generic_defeat#30__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: เราไมมีหนาไปพบหัวหนาใหญแลวละ!
 
 RESOURCE ID: grunt_generic_defeat#30__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: เราไมมีหนาไปพบหัวหนาใหญไดอีกตอไปแลวละ!
 
 RESOURCE ID: grunt_generic_defeat#31__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: หึ… แกงโกร็อกเกตนากลัวกวาที่แกคิด
+อยาลืมเรื่องนี้ละ!
 
 RESOURCE ID: grunt_generic_defeat#31__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ฮึ่ม... แกงโกร็อกเกตนากลัวกวาที่แกคิด อยาไดลืมไปซะละ!
 
 RESOURCE ID: grunt_generic_defeat#32__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ใครมันจะไปตองการโปเกมอนออนแอ
+แบบนี้กัน? อยากไดก็เอาไปเถอะ!
 
 RESOURCE ID: grunt_generic_defeat#32__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ใครมันจะไปตองการโปเกมอนออนแอแบบนี้? มันเปนของแกแลว!
 
 RESOURCE ID: grunt_generic_defeat#3__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: อากกก!
 
 RESOURCE ID: grunt_generic_defeat#3__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: อากกก!
 
 RESOURCE ID: grunt_generic_defeat#4__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: เพราะแกแท ๆ ชื่อเสียงของแกงโกร็อกเกต
+ถึงไดปนป้หมดแลว!
 
 RESOURCE ID: grunt_generic_defeat#4__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: เปนเพราะแก ชื่อเสียงของแกงโกร็อกเกตถึงไดปนป้แบบนี้!
 
 RESOURCE ID: grunt_generic_defeat#5__female_speaker
 TEXT: ถาแกเขารวมกับแกงโกร็อกเกตละก็ แกอาจจะกลายเปนหัวหนาเลยก็ได
@@ -21523,164 +21828,182 @@ RESOURCE ID: grunt_generic_defeat#5__male_speaker
 TEXT: ถาแกเขารวมกับแกงโกร็อกเกตละก็ แกอาจจะกลายเปนหัวหนาเลยก็ได
 
 RESOURCE ID: grunt_generic_defeat#6__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ถาหัวหนาใหญรูเรื่องนี้เขาตองแยแน...
 
 RESOURCE ID: grunt_generic_defeat#6__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: ถาหัวหนาใหญรูเรื่องนี้เขาตองแยแน...
 
 RESOURCE ID: grunt_generic_defeat#7__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: แกนี่มันเปนเจาโงที่นากลัวเหลือเกิน!
 
 RESOURCE ID: grunt_generic_defeat#7__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: แกชางเปนเจาโงที่นากลัวนัก!
 
 RESOURCE ID: grunt_generic_defeat#8__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: กลาตอกรกับพวกเราโกร็อกเกตงั้นเรอะ!
 
 RESOURCE ID: grunt_generic_defeat#8__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: กลาตอกรกับพวกเราโกร็อกเกตงั้นเรอะ!
 
 RESOURCE ID: grunt_generic_defeat#9__female_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: มองอะไรของแกยะ? ไสหัวไปเลยนะ
+จะออกไปดี ๆ หรือจะใหฉันตองไล!
 
 RESOURCE ID: grunt_generic_defeat#9__male_speaker
-TEXT: หึ ยังไงซะ แกก็ตองแพอารโลอยูดี...
+TEXT: แกมองอะไรของแก? ไสหัวไปซะ จะออกไปดี ๆ หรือจะใหฉันตองไล!
 
 RESOURCE ID: grunt_generic_greeting#10__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: โอะ โอ! เจอเจาตัวปญหาซะแลว!
 
 RESOURCE ID: grunt_generic_greeting#10__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: โอะ โอ! ฉันเจอเจาตัวปญหาซะแลว!
 
 RESOURCE ID: grunt_generic_greeting#11__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: แมแตโครัตตาฉันก็ไมยอมใหผานไปไดหรอกยะ!
 
 RESOURCE ID: grunt_generic_greeting#11__male_speaker
 TEXT: แมแตโครัตตาตัวเดียวฉันก็ไมยอมใหผานไปไดหรอก!
 
 RESOURCE ID: grunt_generic_greeting#12__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: นั่นใครนะ? เลิกแอบฟงพวกเราไดแลว!
 
 RESOURCE ID: grunt_generic_greeting#12__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: นั่นใครนะ? เลิกแอบฟงพวกเราไดแลว!
 
 RESOURCE ID: grunt_generic_greeting#13__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: แกตองการอะไรกันแนเนี่ย? ไสหัวไป!
 
 RESOURCE ID: grunt_generic_greeting#13__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: แกตองการอะไรกันแน? ไสหัวไปซะ!
 
 RESOURCE ID: grunt_generic_greeting#14__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: หลงทางหรือไง? ไมสิ ไมไดหลงหรอก
+เพราะแกดูไมกลัวเลยนี่นา
 
 RESOURCE ID: grunt_generic_greeting#14__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: หลงทางหรือไง? ไมหรอก แกไมไดหลง
+เพราะแกดูไมกลัวเลยสักนิด
 
 RESOURCE ID: grunt_generic_greeting#15__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: ไมมีทาง! ที่นี่สำหรับสมาชิกที่ไดรับอนุญาต
+เทานั้น ฉันไดรับคำสั่งมาวาหาม
+ใหใครเขาใกลโดยเด็ดขาด
 
 RESOURCE ID: grunt_generic_greeting#15__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: ไมมีทาง! ที่นี่สำหรับสมาชิกที่ไดรับ
+อนุญาตเทานั้น ฉันไดรับคำสั่งมาวา
+หามใครเขาใกลโดยเด็ดขาด
 
 RESOURCE ID: grunt_generic_greeting#16__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: แกคิดวาแกทำอะไรอยูถึงมาปวนเป้ยนแถวนี้ยะ?
+เราคือแกงโกร็อกเกต ไมรูจักหรือไง!
 
 RESOURCE ID: grunt_generic_greeting#16__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: แกคิดวาแกทำอะไรอยูถึงมาปวนเป้ยนแถวนี้?
+เราคือแกงโกร็อกเกต แกไมรูจักหรือไง!
 
 RESOURCE ID: grunt_generic_greeting#17__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: แสดงความเคารพตอแกงโกร็อกเกต
+ของเราซะบาง!
 
 RESOURCE ID: grunt_generic_greeting#17__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: แสดงความเคารพตอแกงโกร็อกเกต
+ของเราซะบาง!
 
 RESOURCE ID: grunt_generic_greeting#18__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: เรากำลังทำงานใหญอยู! ไสหัวไปไดแลว!
 
 RESOURCE ID: grunt_generic_greeting#18__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: เรากำลังทำงานใหญที่นี่! ไสหัวไปซะ!
 
 RESOURCE ID: grunt_generic_greeting#19__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: เฮ แกนะ! มาปวนเป้ยนอะไรแถวนี้ยะ?
 
 RESOURCE ID: grunt_generic_greeting#19__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: เฮ แกนะ! แกมาปวนเป้ยนอะไรแถวนี้?
 
 RESOURCE ID: grunt_generic_greeting#1__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: หืม— เฮ! แกคือเทรนเนอรที่เขามาขัดขวาง
+เราตลอดเวลาเลยนี่!
 
 RESOURCE ID: grunt_generic_greeting#1__male_speaker
 TEXT: เฮ! แกมันเทรนเนอรที่เขามาขัดขวาง
 เราตลอดเวลานี่!
 
 RESOURCE ID: grunt_generic_greeting#20__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: ถาแกเขามาขัดขวางเราละก็ แสดงวาแก
+… กำลังขัดขวางเราอยูยังไงละ!
 
 RESOURCE ID: grunt_generic_greeting#20__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: ถาแกเขามาขัดขวางเราละก็ แสดงวาแก… กำลังขัดขวางเราอยูยังไงละ!
 
 RESOURCE ID: grunt_generic_greeting#21__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: แกแฝงตัวเขามาในทีมปฏิบัติการของแกงโกร็อกเกต
+งั้นเหรอ? ใจกลาดีจริงนะ!
 
 RESOURCE ID: grunt_generic_greeting#21__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: แกแฝงตัวเขามาในทีมปฏิบัติการของแกงโกร็อกเกต
+งั้นเหรอ? ใจกลาดีนี่!
 
 RESOURCE ID: grunt_generic_greeting#22__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: ไมมีทางหนีรอดสายตาของพวกเรา
+แกงโกร็อกเกต ไปไดหรอก!
 
 RESOURCE ID: grunt_generic_greeting#22__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: อยาไดมายุงกับแกงโกร็อกเกต!
 
 RESOURCE ID: grunt_generic_greeting#23__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: พวกเราคือแกงโกร็อกเกต จงหวาดกลัวตอ
+พลังของพวกเราซะ!
 
 RESOURCE ID: grunt_generic_greeting#23__male_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: พวกเราคือแกงโกร็อกเกต และเราจะทิ่มแทง
+ความกลัวเขาไปในใจของผูคนดวยพลังของเรา!
 
 RESOURCE ID: grunt_generic_greeting#2__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: ฮาฮาฮา!
 
 RESOURCE ID: grunt_generic_greeting#2__male_speaker
 TEXT: ฮาฮาฮา!
 
 RESOURCE ID: grunt_generic_greeting#3__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: หา—?
 
 RESOURCE ID: grunt_generic_greeting#3__male_speaker
 TEXT: หา!?
 
 RESOURCE ID: grunt_generic_greeting#4__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: มีผูบุกรุก!
 
 RESOURCE ID: grunt_generic_greeting#4__male_speaker
 TEXT: มีผูบุกรุก!
 
 RESOURCE ID: grunt_generic_greeting#5__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: หยุดนะ! บอกมาเดี๋ยวนี้วามาที่นี่ทำไม!
 
 RESOURCE ID: grunt_generic_greeting#5__male_speaker
 TEXT: หยุด! บอกมาเดี๋ยวนี้วาแกมาที่นี่ทำไม!
 
 RESOURCE ID: grunt_generic_greeting#6__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: ตองการจะทำอะไรที่นี่กันแน?
 
 RESOURCE ID: grunt_generic_greeting#6__male_speaker
 TEXT: แกตองการจะทำอะไรที่นี่กันแน?
 
 RESOURCE ID: grunt_generic_greeting#7__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: มาไดไกลแคนี้แหละ!
 
 RESOURCE ID: grunt_generic_greeting#7__male_speaker
 TEXT: แกมาไดถึงแคนี้แหละ!
 
 RESOURCE ID: grunt_generic_greeting#8__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: แกคิดผิดแลวที่โผลหัวมาที่นี่! ฮาฮาฮา!
 
 RESOURCE ID: grunt_generic_greeting#8__male_speaker
-TEXT: ยินดีตอนรับสูเสาโปเกสต็อปนี้! คิดถูกแลวที่มาเขารวมกับฉัน!
+TEXT: เกงมากที่มาถึงที่นี่ได! หึ หึ...
 
 RESOURCE ID: grunt_generic_greeting#9__female_speaker
-TEXT: แกไมมีทางหยุดแกงโกร็อกเกตไดหรอก!
+TEXT: พบผูบุกรุก!
 
 RESOURCE ID: grunt_generic_greeting#9__male_speaker
 TEXT: พบผูบุกรุก!
@@ -21766,14 +22089,125 @@ TEXT: แรงขับเคลื่อนสูการสืบค�
 RESOURCE ID: gt_2020_spin_medium
 TEXT: แรงขับเคลื่อนสูการสืบคน : หมุนเสาโปเกสต็อป {0} ครั้ง
 
+RESOURCE ID: guest_account_link_success_subtitle
+TEXT: You now have access to more features so you can further enjoy the game!
+
+RESOURCE ID: guest_account_link_success_title
+TEXT: Success! Your account has been linked.
+
+RESOURCE ID: guest_auth_failed
+TEXT: Unable to authenticate. Please try again.
+
+RESOURCE ID: guest_level_expiration_subtitle
+TEXT: You will need to sign up to continue playing.
+
+RESOURCE ID: guest_level_expiration_title
+TEXT: Sign up to unlock Level 15 and access more features!
+
+RESOURCE ID: guest_login_button
+TEXT: PLAY AS GUEST
+
+RESOURCE ID: guest_login_sign_up_today_label
+TEXT: Sign up today!
+
+RESOURCE ID: guest_play_without_sign_in
+TEXT: Want to play without signing in?
+
+RESOURCE ID: guest_restricted_feature_adsync_eggs
+TEXT: Hatch Eggs Quicker
+
+RESOURCE ID: guest_restricted_feature_adsync_rewards
+TEXT: Earn More Rewards
+
+RESOURCE ID: guest_restricted_feature_adsync_subtitle
+TEXT: Sign up to count your steps and make progress even when your game is closed!
+
+RESOURCE ID: guest_restricted_feature_adsync_title
+TEXT: Earn more rewards with Adventure Sync!
+
+RESOURCE ID: guest_restricted_feature_avatar_iap
+TEXT: Style Your Avatar with New Items
+
+RESOURCE ID: guest_restricted_feature_battle
+TEXT: Battle Together
+
+RESOURCE ID: guest_restricted_feature_events_subtitle
+TEXT: Sign up for access to exclusive live events!
+
+RESOURCE ID: guest_restricted_feature_events_title
+TEXT: Participate in global and in-person events!
+
+RESOURCE ID: guest_restricted_feature_experiences
+TEXT: Unique In-game Experiences
+
+RESOURCE ID: guest_restricted_feature_friends_subtitle
+TEXT: Sign up to play with friends and unlock special bonuses!
+
+RESOURCE ID: guest_restricted_feature_friends_title
+TEXT: Ready to build friendships?
+
+RESOURCE ID: guest_restricted_feature_gifts
+TEXT: Send Gifts with Stickers
+
+RESOURCE ID: guest_restricted_feature_iap_subtitle
+TEXT: Sign up to enhance your in-game experience with PokéCoins!
+
+RESOURCE ID: guest_restricted_feature_iap_title
+TEXT: Customize your game experience!
+
+RESOURCE ID: guest_restricted_feature_item_storage_iap
+TEXT: Expand Your Item Storage
+
+RESOURCE ID: guest_restricted_feature_limited_catch
+TEXT: Catch Limited-time Pokémon
+
+RESOURCE ID: guest_restricted_feature_pokemon_storage_iap
+TEXT: Expand Your Pokémon Storage
+
+RESOURCE ID: guest_restricted_feature_raid
+TEXT: Join Raids with New Friends
+
+RESOURCE ID: guest_restricted_feature_trade
+TEXT: Trade Pokémon
+
+RESOURCE ID: guest_sign_up_earn_rewards_subtitle
+TEXT: Sign up to access all features and save your progress!
+
+RESOURCE ID: guest_sign_up_earn_rewards_title
+TEXT: Sign Up and Earn Rewards!
+
+RESOURCE ID: guest_sign_up_friendships_body
+TEXT: Add friends so you can send Gifts and unlock certain bonuses.
+
+RESOURCE ID: guest_sign_up_friendships_title
+TEXT: Build Friendships
+
+RESOURCE ID: guest_sign_up_pokemon_body
+TEXT: Discover and catch more wild Pokémon to fill up your Pokédex.
+
+RESOURCE ID: guest_sign_up_pokemon_title
+TEXT: Discover More Pokémon
+
+RESOURCE ID: guest_sign_up_save_progress_body
+TEXT: Link a login method to keep your progress across devices.
+
+RESOURCE ID: guest_sign_up_save_progress_title
+TEXT: Save Your Progress
+
+RESOURCE ID: guest_sign_up_subtitle
+TEXT: You are playing as a guest. Sign up to access all features!
+
+RESOURCE ID: guest_sign_up_title
+TEXT: Sign Up Today!
+
 RESOURCE ID: gui_vivillon_map_header
 TEXT: ถิ่นที่อยูของวิวิญอง
 
 RESOURCE ID: gui_vivillon_medal_button
-TEXT: SEE MEDAL
+TEXT: ดูเหรียญรางวัล
 
 RESOURCE ID: gui_vivillon_progress_header
-TEXT: Collection Progress
+TEXT: ความคืบหนาของการสะสม
 
 RESOURCE ID: gym_approach_battles_won
 TEXT: แบตเทิลชนะ :
@@ -22093,6 +22527,9 @@ TEXT: ฮาโลวีน : เอาชนะลูกสมุนแก�
 RESOURCE ID: halloween_2019_snapshot_easy
 TEXT: ฮาโลวีน : ถายภาพโปเกมอนประเภทผี {0} ภาพ
 
+RESOURCE ID: halloween_cup_title
+TEXT: การแขงขันฮาโลวีน
+
 RESOURCE ID: halloween_event_name
 TEXT: ฮาโลวีน
 
@@ -22103,7 +22540,7 @@ RESOURCE ID: halloween_event_name_2
 TEXT: ฮาโลวีนสุดปวน Part 2
 
 RESOURCE ID: halloween_ultra_cup_title
-TEXT: Halloween Cup: Ultra League Edition
+TEXT: การแขงขันฮาโลวีน (ver. อัลตราลีก)
 
 RESOURCE ID: hatch_box
 TEXT: กลองฟกไข
@@ -22661,6 +23098,9 @@ TEXT: โอะ! จำไดวาศาสตราจารยว
 RESOURCE ID: inventory_egg
 TEXT: ไข
 
+RESOURCE ID: inventory_keywords_helpshift_label
+TEXT: You can filter your inventory further using search keywords.
+
 RESOURCE ID: inventory_no_eggs
 TEXT: ไมพบไข!
 
@@ -22726,13 +23166,39 @@ RESOURCE ID: item_dragon_scale_name
 TEXT: เกล็ดมังกร
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: คุณพรอมที่จะเขารวมในโปเกมอนแบตเทิลแลวละ!
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา
+ตั้งแตวันที่ 20 ตุลาคม เวลา 10:00 น.
+ถึง 1 พฤศกิจายน เวลา 10:00 น.
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_gray_details
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา
+ตั้งแตวันที่ 20 ตุลาคม 2022
+ถึง 1 พฤศจิกายน 2022
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_gray_name
 TEXT: ตั๋ว
 
 RESOURCE ID: item_event_ticket_gray_to_gift_desc
 TEXT: ตั๋วอีเวนตสวนเกินที่เกิดจากขอผิดพลาดในการซื้อ คุณสามารถสงใหเพื่อนหรือทำเรื่องขอเงินคืนได
+
+RESOURCE ID: item_event_ticket_gray_to_gift_name
+TEXT: ตั๋วสวนเกิน
+
+RESOURCE ID: item_event_ticket_grey_desc
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา
+ตั้งแตวันที่ 20 ตุลาคม เวลา 10:00 น.
+ถึง 1 พฤศกิจายน เวลา 10:00 น.
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_grey_details
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา
+ตั้งแตวันที่ 20 ตุลาคม 2022
+ถึง 1 พฤศจิกายน 2022
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_pink_bulbt_desc
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษในวันที่
@@ -22746,12 +23212,13 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษในวันที่
-18 กันยายน เวลา 11:00 - 14:00 น.
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา
+ตั้งแตวันที่ 20 ตุลาคม เวลา 10:00 น.
+ถึง 1 พฤศกิจายน เวลา 10:00 น.
 ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_pink_desc_2
-TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษในวันที่ 21 พฤศจิกายน ตั้งแตเวลา 11:00-17:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด
+TEXT: A ticket to access Special Research on November 12, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_desc_alodude
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษในวันที่
@@ -22759,17 +23226,27 @@ TEXT: ตั๋วสำหรับเขารวมงานวิจ�
 ตามเวลาทองถิ่นทั่วโลก
 
 
+RESOURCE ID: item_event_ticket_pink_desc_dcdc
+TEXT: A ticket to access Special Research on November 5, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are.
+
 RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: ตั๋วสำหรับเขารวมอีเวนตพิเศษตั้งแตวันที่ 19 ธันวาคม เวลา 10:00 น. ถึง 20 ธันวาคม เวลา 20:00 น. ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ
-ในวันที่ 18 กันยายน 2022
-คุณจะสามารถเขารวมไดโดย
-อัตโนมัติตามเวลาทองถิ่นทั่วโลก
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยแบบจำกัดเวลา
+ตั้งแตวันที่ 20 ตุลาคม 2022
+ถึง 1 พฤศจิกายน 2022
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
 
 RESOURCE ID: item_event_ticket_pink_details_2
-TEXT: ตั๋วนี้จะทำใหคุณเขารวมงานวิจัยพิเศษในวันที่ 21 พฤศจิกายนไดโดยอัตโนมัติไมวาคุณจะอยูที่ใดในโลก
+TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษ
+ในวันที่ 12 พฤศจิกายน 2022
+คุณจะสามารถเขารวมไดโดยอัตโนมัติ
+ตามเวลาทองถิ่นทั่วโลก
+
+RESOURCE ID: item_event_ticket_pink_details_dcdc
+TEXT: This ticket will automatically activate to give you access to Special Research on November 5, 2022, wherever you are.
 
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: ตั๋วสำหรับเขารวมงานวิจัยพิเศษของอีเวนตกาลารบารเรียด ตั้งแตวันที่ 19 ธันวาคม 2020 เวลา 10:00 น. จนถึงวันที่ 20 ธันวาคม 2020 เวลา 20:00 น. ตามเวลาทองถิ่นไมวาคุณจะอยูที่ใด
@@ -23263,7 +23740,7 @@ TEXT: สะเก็ดเล็ก ๆ ของอัญมณีแสนส
 ภายในชวง 30 นาที
 
 RESOURCE ID: item_star_piece_name
-TEXT: สตารพีซ
+TEXT: สะเก็ดดาว
 
 RESOURCE ID: item_sticker_inventory_desc
 TEXT: สติกเกอรไมนับเปนไอเท็ม คุณสามารถ
@@ -23529,8 +24006,14 @@ TEXT: This is an early access language. Please report any issues if found.
 RESOURCE ID: language_selector_description
 TEXT: กรุณารีสตารทเพื่อใหการเปลี่ยนแปลงมีผล
 
+RESOURCE ID: language_selector_early_access
+TEXT: นี่คือการเขาถึงภาษาใหมแบบลวงหนา กรุณาแจงปญหาหากเจอขอผิดพลาดเกี่ยวกับภาษาใหมนี้
+
 RESOURCE ID: language_selector_header
 TEXT: เลือกภาษา
+
+RESOURCE ID: language_selector_new
+TEXT: ใหม
 
 RESOURCE ID: language_settings_updated
 TEXT: อัปเดตการตั้งคาภาษาแลว!
@@ -24538,7 +25021,7 @@ RESOURCE ID: limited_research_infernape
 TEXT: งานวิจัยแบบจำกัดเวลาของโกคาซารุ
 
 RESOURCE ID: limited_research_inkay
-TEXT: งานวิจัยแบบจำกัดเวลาของมาอีกะ
+TEXT: Inkay Limited Research
 
 RESOURCE ID: limited_research_ivysaur
 TEXT: งานวิจัยแบบจำกัดเวลาของฟุชิกิโซ
@@ -25837,6 +26320,12 @@ TEXT: <size=36><b>มีบัญชีนี้อยูแลว</b></si
 
 บัญชีนี้มีการเชื่อมตอกับผูเลนอื่นอยูแลว
 
+RESOURCE ID: link_account_sign_in
+TEXT: Create an account to link with.
+
+RESOURCE ID: link_account_sign_up
+TEXT: Sign in to an account to link with.
+
 RESOURCE ID: little_cup_remix_title
 TEXT: การแขงขันตัวนอยรีมิกซ
 
@@ -26242,6 +26731,10 @@ TEXT: ทาโพสนักจับแมลง
 RESOURCE ID: m_avatar_poses_bundle_pose_41
 TEXT: ทาโพสกุซมา
 
+RESOURCE ID: m_avatar_poses_bundle_pose_43
+TEXT: ทาโพสตะเกียง
+บาเค็จจะ
+
 RESOURCE ID: m_avatar_poses_bundle_pose_44
 TEXT: ทาโพสประกายไฟ
 
@@ -26326,6 +26819,9 @@ TEXT: จัดการแท็ก
 
 RESOURCE ID: manage_pokemon_tag_view_all
 TEXT: ดูโปเกมอนทั้งหมดที่มีแท็ก "{0}"
+
+RESOURCE ID: manage_postcards_header
+TEXT: จัดการโปสการด
 
 RESOURCE ID: map_equip_desc
 TEXT: ติดตั้งเรดารเพื่อใชในแผนที่ของคุณ
@@ -26861,9 +27357,9 @@ RESOURCE ID: mega_walking_progress
 TEXT: ความคืบหนาของการเดิน
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2022-10-30T17:10:54.773238
-at SHA a9d340b3c5945d8273421b9463be2a4b4b784b1b
-Pipeline 1114528, job 13097767
+TEXT: Built at 2022-11-23T03:10:25.735315
+at SHA 66ea01a832d9cd1eaa84a12d285465b239f2febe
+Pipeline 1148722, job 13618625
 
 RESOURCE ID: milestone_rewards_title
 TEXT: รางวัลภารกิจ
@@ -27936,6 +28432,9 @@ TEXT: มีทิเออรบีม
 RESOURCE ID: move_name_0376
 TEXT: โพลเตอรไกสท
 
+RESOURCE ID: move_name_0377
+TEXT: แสนแรงมา
+
 RESOURCE ID: move_reroll_confirm_desc
 TEXT: {0}จะลืมทา{1}
 
@@ -28917,6 +29416,9 @@ TEXT: ฮิโตคาเงะแยงซีนถายรูปใ�
 RESOURCE ID: photobomb_five_deino
 TEXT: โมโนซึแยงซีนถายรูป 5 ครั้ง
 
+RESOURCE ID: photobomb_five_dratini_cdc
+TEXT: 5 surprise encounters with Dratini in GO Snapshot
+
 RESOURCE ID: photobomb_five_duskull
 TEXT: เผชิญหนากับโยมาวารุแบบไมคาดคิดในโกสแนปช็อต 5 ครั้ง
 
@@ -28939,7 +29441,7 @@ RESOURCE ID: photobomb_five_hoppip
 TEXT: เผชิญหนากับฮาเน็กโกะแบบไมคาดคิดในโกสแนปช็อต 5 ครั้ง
 
 RESOURCE ID: photobomb_five_litwick
-TEXT: 5 surprise encounters with Litwick in GO Snapshot
+TEXT: ฮิโตโมชิแยงซีนถายรูป 5 ครั้ง
 
 RESOURCE ID: photobomb_five_machop
 TEXT: วันริกีแยงซีนถายรูปในโกสแนปช็อต 5 ครั้ง
@@ -28988,6 +29490,9 @@ TEXT: เผชิญหนากับนุยโคกุมะแบบ�
 
 RESOURCE ID: photobomb_five_swablu
 TEXT: เผชิญหนากับทิลทโทแบบไมคาดคิดในโกสแนปช็อต 5 ครั้ง
+
+RESOURCE ID: photobomb_five_teddiursa
+TEXT: 5 surprise encounters with Teddiursa in GO Snapshot
 
 RESOURCE ID: photobomb_five_tepig
 TEXT: เผชิญหนากับโพคาบูแบบไมคาดคิดในโกสแนปช็อต 5 ครั้ง
@@ -30055,6 +30560,9 @@ TEXT: เมกา : {0}
 
 RESOURCE ID: pokedex_filter_header
 TEXT: กรองดวย:
+
+RESOURCE ID: pokedex_keywords_helpshift_label
+TEXT: You can filter your Pokédex further using search keywords.
 
 RESOURCE ID: pokedex_mode_name_all
 TEXT: ทั้งหมด
@@ -39883,25 +40391,25 @@ TEXT: คุณแนใจใชไหมวาตองการ�
 โปเกมอนสีแตกตาง?
 
 RESOURCE ID: pokemon_size_huge_encounter
-TEXT: It's huge!
+TEXT: ใหญจัง!
 
 RESOURCE ID: pokemon_size_new_banner
-TEXT: New Record
+TEXT: สถิติใหม
 
 RESOURCE ID: pokemon_size_new_height_title
-TEXT: New Height Record
+TEXT: สถิติใหม (สวนสูง)
 
 RESOURCE ID: pokemon_size_new_tag
-TEXT: New
+TEXT: ใหม
 
 RESOURCE ID: pokemon_size_new_title
-TEXT: New Size Record
+TEXT: สถิติใหม (สวนสูง/น้ำหนัก)
 
 RESOURCE ID: pokemon_size_new_weight_title
-TEXT: New Weight Record
+TEXT: สถิติใหม (น้ำหนัก)
 
 RESOURCE ID: pokemon_size_tiny_encounter
-TEXT: It's tiny!
+TEXT: เล็กจัง!
 
 RESOURCE ID: pokemon_transfer_legendary_confirmation
 TEXT: มีโปเกมอนในตำนาน หรือโปเกมอนมายารวมอยูดวย! แนใจหรือไมวาจะถายโอน?
@@ -40040,10 +40548,12 @@ RESOURCE ID: pokemon_won_notification_toast|2
 TEXT: {0}ไดรับชัยชนะเหนือคูตอสูของคุณ!
 
 RESOURCE ID: pokemon_xxl_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this XXL Pokémon?
+TEXT: คุณแนใจหรือไมที่จะถายโอน
+โปเกมอน XXL นี้?
 
 RESOURCE ID: pokemon_xxs_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this XXS Pokémon?
+TEXT: คุณแนใจหรือไมที่จะถายโอน
+โปเกมอน XXS นี้?
 
 RESOURCE ID: pokemonstorageupgrade.1_description
 TEXT: เพิ่มจำนวนโปเกมอนที่สามารถถือไดอีก {0} ตัว
@@ -40461,6 +40971,12 @@ TEXT: เหลืออีก {0} ครั้ง
 
 RESOURCE ID: purchases_remaining_text_singular
 TEXT: เหลืออีก {0} ครั้ง
+
+RESOURCE ID: purrloin_o_clock
+TEXT: Purrloin O’Clock
+
+RESOURCE ID: purrloin_o_clock_description
+TEXT: Large numbers of Purrloin are appearing in the area!
 
 RESOURCE ID: push_drawing_winner
 TEXT: คุณไดรับสิทธิ์ในการเขารวมไลฟอีเวนตจากการสุมเลือก!
@@ -41343,6 +41859,9 @@ TEXT: ระลอกคลื่นในหวงเวลา
 RESOURCE ID: quest_complete_chart
 TEXT: เรื่องเลาแหงหางเพลิง
 
+RESOURCE ID: quest_complete_dec2021
+TEXT: คอมมิวนิตี้เดยธันวาคม 2021
+
 RESOURCE ID: quest_complete_dec20cd
 TEXT: คอมมิวนิตี้เดยเดือนธันวาคม
 
@@ -41380,7 +41899,7 @@ RESOURCE ID: quest_complete_magit
 TEXT: ไดเวลาดิ้นกระแดว
 
 RESOURCE ID: quest_complete_magmt
-TEXT: No Match for Magmar
+TEXT: ไมใชคูมือของบูเบอร
 
 RESOURCE ID: quest_complete_meltan
 TEXT: เล็ตสโกเมลตัน
@@ -41947,6 +42466,18 @@ TEXT: ฉันอยากทำใหแนใจวาคุณไ�
 
 RESOURCE ID: quest_dialogue_thanks_3
 TEXT: และตอนนี้ป 2020 กำลังจะมาถึงแลว มั่นใจไดเลยวามีการผจญภัยอีกมากมายรอคุณอยู! จนกวาจะถึงตอนนั้น เรามาลุกขึ้นแลวไปลุยกันเลย GO!
+
+RESOURCE ID: quest_dragonair_evolve_b
+TEXT: Evolve {0} Dragonair
+
+RESOURCE ID: quest_dratini_cdc_catch_b
+TEXT: Catch {0} Dratini
+
+RESOURCE ID: quest_dratini_cdc_evolve_b
+TEXT: Evolve {0} Dratini
+
+RESOURCE ID: quest_dratini_cdc_snapshot_b
+TEXT: Take a snapshot of {0} Dratini
 
 RESOURCE ID: quest_dude_catch
 TEXT: จับอิชิซึบูเตะ {0} ตัว
@@ -43954,7 +44485,7 @@ RESOURCE ID: quest_kanto_red_oddish
 TEXT: GO Tour: จับนาโซโนะคุสะ
 
 RESOURCE ID: quest_lampent_evolve_b
-TEXT: Evolve {0} Lampent
+TEXT: วิวัฒนาการแลมพูลา {0} ตัว
 
 RESOURCE ID: quest_land_curve_type_ghost
 TEXT: ทำการขวางบอลโคงใสโปเกมอนประเภทผี {0} ครั้ง
@@ -44044,13 +44575,13 @@ RESOURCE ID: quest_land_nice_type_ghost
 TEXT: ทำการขวางไดดีใสโปเกมอนประเภทผี {0} ครั้ง
 
 RESOURCE ID: quest_litwick_catch_b
-TEXT: Catch {0} Litwick
+TEXT: จับฮิโตโมชิ {0} ตัว
 
 RESOURCE ID: quest_litwick_evolve_b
-TEXT: Evolve {0} Litwick
+TEXT: วิวัฒนาการฮิโตโมชิ {0} ตัว
 
 RESOURCE ID: quest_litwick_snapshot_b
-TEXT: Take {0} snapshots of Litwick
+TEXT: ถายภาพฮิโตโมชิ {0} ภาพ
 
 RESOURCE ID: quest_lucky_plural
 TEXT: ไดรับโปเกมอนนำโชค {0} ตัว
@@ -44478,6 +45009,10 @@ RESOURCE ID: quest_snapshot_storage_steel_unique_plural
 TEXT: ถายภาพโปเกมอนประเภทโลหะของคุณ
 ที่แตกตางกัน {0} สายพันธุ
 
+RESOURCE ID: quest_snapshot_storage_unique_plural
+TEXT: ถายภาพโปเกมอนปาที่แตกตางกัน
+{0} สายพันธุ
+
 RESOURCE ID: quest_snapshot_thundurus
 TEXT: ถายภาพโวลโทลอส
 
@@ -44612,6 +45147,10 @@ TEXT: ถายภาพซุยคูนที่พบในธรรม�
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
 TEXT: ถายภาพนัคครา แซนด หรือซาโบเนียที่พบในธรรมชาติ
+
+RESOURCE ID: quest_snapshot_wild_unique_plural
+TEXT: ถายภาพโปเกมอนปาที่แตกตางกัน
+{0} สายพันธุ
 
 RESOURCE ID: quest_snapshot_wild_water_fire_grass_unique_plural
 TEXT: ถายภาพโปเกมอนปาประเภทไฟ น้ำ
@@ -45735,6 +46274,93 @@ TEXT: ฉันคิดวาการไขปริศนาของอ�
 ก็เปนเรื่องที่นาตื่นเตนสำหรับฉันเชนกัน
 ไวเจอกันใหมนะ
 
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_0
+TEXT: Hey, %PLAYERNAME%, great timing! Fancy doing a little investigation?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_1
+TEXT: All these Ultra Wormholes we’ve encountered lately have got me thinking. Ultra Space is fascinating, sure, but there are places closer to home that still beg to be explored—like the fabled island of Dragonite!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_2
+TEXT: Have you heard the tale?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_3
+TEXT: Once, a Dragonite saved a shipwrecked man, taking him to a remote island—a paradise occupied solely by Dragonite. Doesn’t that sound like something, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_4
+TEXT: Imagine the unique ecosystem that island would have! It’d be a veritable treasure trove for scientific inquiry.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_5
+TEXT: Questions are already rattling around in my head: what do Dragonite use their horns for? How quickly can they move in water? What kind of Berries do they—
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_6
+TEXT: Whoops. I’m getting ahead of myself. First, we need to do some baseline research on the Pokémon in question.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_7
+TEXT: We might even find some clues about this Dragonite paradise! 
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_8
+TEXT: Let’s start by observing Dratini, which can evolve into Dragonair and then Dragonite, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_0
+TEXT: Whoa! Look at how many Dratini you’ve caught, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_1
+TEXT: Did you know that in the past, Dratini was so rarely glimpsed that some called it the “Mirage Pokémon”?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_2
+TEXT: And yet here you are with a whole host of them. They seem real enough to me!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_3
+TEXT: You know, I read a report recently that a small colony of Dratini was found living underwater.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_4
+TEXT: That would suggest that Dratini and its Evolutions like to live in groups.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_5
+TEXT: And if that’s true...then the island of Dragonite could be real after all! First, though, we should learn more about Dratini’s Evolution, Dragonair.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_6
+TEXT: Think you can find one, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_0
+TEXT: What a majestic Dragonair, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_1
+TEXT: Dragonair’s mystical appearance always leaves me in awe. In fact, this Pokémon is known for its gentle aura.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_2
+TEXT: Some even call it divine! And for good reason—see the crystalline globes on its head and tail? Dragonair can use them to freely control the weather.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_3
+TEXT: I bet that’d come in useful if you had, say, an island full of Dragonite that you wanted to keep hidden. Or if you were constantly forgetting your research notes outside on rainy days...
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_4
+TEXT: But that’s a me problem. Next, let’s help Dragonair evolve into the star of today’s studies—Dragonite!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_0
+TEXT: Fantastic, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_1
+TEXT: Just like Dratini and Dragonair, Dragonite is an extremely rarely seen Pokémon. How lucky we are that we can study one today!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_2
+TEXT: Dragonite is known as “the sea incarnate.” Incur the wrath of this normally calm Pokémon at your peril, because it will smash everything to smithereens before it’s satisfied.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_3
+TEXT: Luckily for us, it’s typically a kindhearted Pokémon. If it spots a drowning person or Pokémon, Dragonite simply must help them—like that shipwrecked man I mentioned earlier today.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_4
+TEXT: Why don’t we set sail and get looking for that island? Dragonite’ll surely bail us out if things go sideways!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_5
+TEXT: I’m joking, I’m joking. Thanks for humoring me today, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_6
+TEXT: Even without weighing anchor, we learned more about Pokémon and found new ways to look at facts we already knew. I’d say that’s time well spent.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_7
+TEXT: Though to be fair, I’d say that about any time we spend together. Heh. I’ll be in touch again soon, %PLAYERNAME%!
+
 RESOURCE ID: quest_special_dialogue_duskt_0_0
 TEXT: ไง %PLAYERNAME%!
 ชวงนี้รูสึกเหมือนเห็นโปเกมอนประเภทผี
@@ -46604,6 +47230,135 @@ RESOURCE ID: quest_special_dialogue_hallow_2021_3_7
 TEXT: เอาเปนวาวันนี้พอแคนี้กอนแลวกัน ไปพักผอน
 กันเถอะ ไวเจอกันใหมนะ %PLAYERNAME%!
 
+RESOURCE ID: quest_special_dialogue_hallow_22_0_0
+TEXT: %PLAYERNAME% ดีใจจังที่คุณมา
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_1
+TEXT: ฉันพึ่งไดเห็นภาพแปลกตามาพอดี
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_2
+TEXT: ที่ลอยอยูนั่นคือดินเหนียวที่คลายกับใบหนา
+ของคน กับดินเหนียวที่มี...รอยแกะสลัก?
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_3
+TEXT: แมจะมีความแตกตางกันแตก็มีออรา
+ที่คลาย ๆ กันอยู
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_4
+TEXT: คงเหมือนกับเรื่องมหัศจรรยเรื่องอื่น ๆ
+ในโลกนี้ ตองมีความเกี่ยวของกับโปเกมอนแน
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_5
+TEXT: ถาการสันนิษฐานของฉันถูกตอง
+ฉันวาเราคงตองจับมันมาใหศาสตราจารยวิลโลวดู
+เพื่อถามความเห็นละ
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_0
+TEXT: ชุดกอนหนานี้ของฉันอยูที่ไหนกันนะ...
+เฮ วาไง %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_1
+TEXT: ฉันกำลังคิดอยูวาจะใสชุดอะไรไป
+ปารตี้คอสตูมของสปารกดี
+หมวกฮิโตโมชิ? ชุดคอสเพลยพิคาชู?
+ปนี้ฉันไมยอมนอยหนาแคนเดลาแน
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_2
+TEXT: พูดถึงชุดคอสตูมกับหนาแลว
+นั่นใชเดซึมาซึ กับเดซึมาซึรางกาลาร
+หรือเปลานะ?
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_3
+TEXT: วากันวาเดซึมาซึจะพกหนากากที่เปนใบหนา
+ของตนเองสมัยเปนมนุษยไว บางครั้ง
+มันจะมองหนากากแลวรองไหออกมาดวย
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_4
+TEXT: วากันวาเดซึมาซึรางกาลารเกิดจากกระดาน
+ดินเหนียวที่ดูดเก็บพลังความเคียดแคนไว
+
+
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_5
+TEXT: แมจะมีตนกำเนิดที่นาเศรามาก
+แตก็ชวนใหสงสัยวาตอนนี้ในฐานะโปเกมอน
+มันยังมีความคิดความเคียดแคนอยูไหม?
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_6
+TEXT: ลองออกไปจับโปเกมอนประเภทผีหนอยไหม
+ไมแนวาอาจจะไดพบกับเดซึมาซึเขาก็ได!
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_0
+TEXT: ศาสตราจารยวิลโลวรอบรูเรื่องโปเกมอนมาก
+คิดถูกจริง ๆ ที่ไปขอความเห็นจากเขา
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_1
+TEXT: ไมนึกเลยวาเดซึมาซึ กับเดซึมาซึรางกาลาร
+จะมีตนกำเนิดแบบนั้น...เหลือเชื่อไปเลย
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_2
+TEXT: ขอบคุณที่จับพวกมันมานะ ฉันไดเรียนรู
+เรื่องใหม ๆ ทุกวันตั้งแตไดพบกับเธอ
+เลยละ
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_3
+TEXT: โปเกมอนที่เราพบชวงนี้มีตนกำเนิดและมี
+ความเกี่ยวของกับเรื่องที่คอนขางดำมืดนะ
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_4
+TEXT: แตอยางที่ศาสตราจารยกลาว การศึกษา
+เกี่ยวกับปริศนาที่มาของโปเกมอน
+ก็เปนสิ่งสำคัญอีกสิ่งหนึ่งสำหรับ
+นักคนควาอยางเรา เราไมจำเปนตอง
+รูสึกหวาดกลัวในการไขปริศนาเหลานั้น
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_5
+TEXT: เดี๋ยวฉันจะคอยสังเกตพวกเดซึมาซึ
+ตอไปอีกสักหนอยนะ %PLAYERNAME%
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_6
+TEXT: ระหวางนี้คุณไมลองออกไปสังเกตพวก
+โปเกมอนประเภทผีตัวอื่นดูละ
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_7
+TEXT: สำหรับของตอบแทนที่จะใหศาสตราจารยวิลโลว
+... มีชุดหนวยสำรวจอัลตรา GO ไซสที่ศาสตราจารย
+ใสไดหรือเปลานะ...
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_0
+TEXT: ไง %PLAYERNAME%! กลับมาแลวเหรอ
+ฉันพึ่งเตรียมชุด เออ หนากากเสร็จพอดี!
+เธอกับรีหไปสังเกตการณมาเปนยังไงบาง?
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_1
+TEXT: วาว เธอจับโปเกมอนประเภทผีมาไดเยอะเลยนี่!
+แถวนี้เริ่มดูเหมือนบานผีสิง ไมสิ หองแล็บผีสิง
+เขาทุกที...
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_2
+TEXT: ทุกครั้งที่ตรวจสอบโปเกมอนประเภทผี
+มันก็ทำใหฉันรูสึกวาในโลกเรานี้ยังมีปริศนา
+รอใหเราไขอยูอีกมาก ฟูวันเตบินไปไหน?
+โยมาวารุลักพาตัวเด็กดื้อไปจริงหรือ?
+แหลงพลังงานของโกบิทคืออะไรกันแน?
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_3
+TEXT: หากเราพยายามตอไปอยางไมยอมแพ
+นักวิจัยอยางเราก็จะเจอคำตอบและ
+ไขปริศนาอื่น ๆ ไดอยางแนนอน
+หรือไมแนวาเทรนเนอรไฟแรงแบบเธอก็อาจจะ
+เปนคนไขปริศนานั้นก็ได!
+เวลาเราตองการเรียนรูอะไรก็มีแตตอง
+พุงเขาใสเทานั้นละ!
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_4
+TEXT: หรือควรจะ...ยกเวนอัลตราโฮลไวอยาง
+ดีไหมนะ ฮาฮา
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_5
+TEXT: ขอบคุณสำหรับแรงบันดาลใจในวันนี้นะ
+%PLAYERNAME% ไวเจอกันใหม!
+
 RESOURCE ID: quest_special_dialogue_hallowyamas_0_0
 TEXT: แบร! ฮาฮาฮา สวัสดี %PLAYERNAME%!
 
@@ -46924,77 +47679,113 @@ RESOURCE ID: quest_special_dialogue_jj_3_7
 TEXT: มุซาชิ : ลางไมดีอีกแลว!
 
 RESOURCE ID: quest_special_dialogue_litwick_0_0
-TEXT: Hey, %PLAYERNAME%! Is it just me, or is there a ghostly chill in the air?
+TEXT: ไง %PLAYERNAME%! นี่ฉันคิดไปเอง
+หรือเปลานะวาบรรยากาศมันหนาวเย็น
+ชวนขนลุกแปลก ๆ
 
 RESOURCE ID: quest_special_dialogue_litwick_0_1
-TEXT: It could have something to do with those lights over there! They belong to Litwick, the Candle Pokémon.
+TEXT: ไมแนวามันอาจจะมีอะไรเกี่ยวของกับแสง
+ที่สองอยูทางนั้นก็ได! นั่นเปนแสงของ
+โปเกมอนเทียนไข ฮิโตโมชิ
 
 RESOURCE ID: quest_special_dialogue_litwick_0_2
-TEXT: Litwick is known to leech off the life force of any who follow it.
+TEXT: วากันวาฮิโตโมชิจะสูบพลังชีวิตของคน
+ที่ตามมันไป
 
 RESOURCE ID: quest_special_dialogue_litwick_0_3
-TEXT: The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns. Makes for a pretty ominous candle, wouldn’t you say?
+TEXT: ถาชีวิตที่มันสูบเขาไปยิ่งออนวัย เปลวไฟบนหัว
+จะยิ่งลุกโชนขึ้นอยางนาประหลาด เพราะงั้น
+ตอนเขาใกลมันก็ตองระวังดวยละ
 
 RESOURCE ID: quest_special_dialogue_litwick_0_4
-TEXT: Litwick appearing in such force makes the perfect chance to learn more about them. I suggest you get up close and see for yourself!
+TEXT: แตการที่ฮิโตโมชิปรากฏตัวออกมามากมาย
+ขนาดนี้ก็เปนโอกาสที่ดีในการเรียนรู
+เกี่ยวกับพวกมัน
 
 RESOURCE ID: quest_special_dialogue_litwick_0_5
-TEXT: Just be careful not to let Litwick lead you anywhere, %PLAYERNAME%!
+TEXT: ยังไงตอนเขาไปตรวจสอบก็ระวังตัวใหดี
+แลวก็อยาเผลอตามฮิโตโมชิไปละ %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_litwick_1_0
-TEXT: Good day, Trainer. Professor Willow has tasked you with investigating...Litwick, is it?
+TEXT: สวัสดีเทรนเนอร ศาสตราจารยวิลโลวสั่งใหคุณ
+ไปตรวจสอบ...ฮิโตโมชิใชไหม?
 
 RESOURCE ID: quest_special_dialogue_litwick_1_1
-TEXT: The flame on its head is certainly alluring. A Pokémon that can bring light to its surroundings… What could be the source of its brilliant glow?
+TEXT: เปลวไฟบนหัวของมันชางดูเยายวน โปเกมอนที่
+สามารถนำแสงสวางมาสูบริเวณโดยรอบได
+...แหลงกำเนิดแสงของมันคืออะไรกันนะ?
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: ศาสตราจารยวิลโลวบอกวา "พลังชีวิต" อยางนั้น
+เหรอ? อืม...เปลวไฟเหลานั้นจะเปลี่ยนไปหลังจาก
+ฮิโตโมชิวิวัฒนาการหรือเปลานะ?
 
 RESOURCE ID: quest_special_dialogue_litwick_1_3
-TEXT: What are your thoughts, %PLAYERNAME%?
+TEXT: คุณคิดวาไง %PLAYERNAME%?
 
 RESOURCE ID: quest_special_dialogue_litwick_2_0
-TEXT: Wow, %PLAYERNAME%! You went looking for Litwick and came back with a lamp! 
+TEXT: วาว %PLAYERNAME%! เธอออกไปจับ
+ฮิโตโมชิแลวกลับมาพรอมกับตะเกียงงั้นเหรอ!
 
 RESOURCE ID: quest_special_dialogue_litwick_2_1
-TEXT: I kid—I know a Lampent when I see one! And it was Rhi who suggested you help Litwick evolve? That’s great. We can always learn more when encouraged by our friends!
+TEXT: ลอเลนนะ ฮาฮา ฉันรูวามันคือแลมพูลา!
+รีหเปนคนแนะนำใหเธอวิวัฒนาการฮิโตโมชิ
+งั้นเหรอ? เยี่ยมไปเลย มนุษยเราสามารถเรียนรู
+สิ่งใหม ๆ ไดจากกันและกันเสมอ!
 
 RESOURCE ID: quest_special_dialogue_litwick_2_2
-TEXT: So, let me tell you about Lampent! While it often pretends to be a lamp, Lampent is usually feared as an emissary of death. 
+TEXT: แมวาแลมพูลาจะชอบแสรงทำเปนตะเกียง
+แตมันก็ถูกหวาดกลัววาเปนผูรับใช
+ของเทพแหงความตาย
 
 RESOURCE ID: quest_special_dialogue_litwick_2_3
-TEXT: Through cities it wanders, searching for the spirits of the fallen. Spooky, but appropriate for the season! 
+TEXT: มันจะรอนเรไปทั่วเมือง หากพบเจอคนที่ใกล
+จะตายก็จะติดตามหลังไปอยางเงียบ ๆ แมจะ
+นากลัวแตก็เขากับบรรยากาศในชวงฤดูกาลนี้มาก!
 
 RESOURCE ID: quest_special_dialogue_litwick_2_4
-TEXT: And what a sight that fire is. I’m sure you and Rhi would get a kick out of seeing Lampent’s Evolution, Chandelure, too! But a word of caution, %PLAYERNAME%...
+TEXT: สวนรางวิวัฒนาการตอไปของมัน แชนเดลา
+ถาเธอกับรีหไดเห็นจะตองรูสึกทึ่งแน!
+แตยังไงก็หามประมาทเด็ดขาดนะ %PLAYERNAME%...
 
 RESOURCE ID: quest_special_dialogue_litwick_2_5
-TEXT: They say spirits burned up in Chandelure's ominous flame lose their way and wander this world forever.
+TEXT: เพราะไดยินวาวิญญาณที่ถูกเผาไหมดวย
+เปลวไฟแหงลางรายของแชนเดลาจะไรซึ่งที่ไป
+และรอนเรอยูบนโลกไปตลอดกาล
 
 RESOURCE ID: quest_special_dialogue_litwick_3_0
-TEXT: That new Pokémon...
-... ... ...
+TEXT: โปเกมอนใหมตัวนั้น...
+.. ... ...
 
 RESOURCE ID: quest_special_dialogue_litwick_3_1
-TEXT: Oh. My apologies, %PLAYERNAME%. I was...preoccupied gazing at the flame your Pokémon is emanating.
+TEXT: อาว ขอโทษนะ %PLAYERNAME%
+ฉันกำลังหมกมุนอยูกับเปลวไฟที่
+โปเกมอนของคุณปลอยออกมาอยูละ
 
 RESOURCE ID: quest_special_dialogue_litwick_3_2
 TEXT: ... ... ...
 
 RESOURCE ID: quest_special_dialogue_litwick_3_3
-TEXT: The swaying of its arms is rather hypnotic.
+TEXT: ทาทีของมันที่แกวงแขนไปมาใหความรูสึก
+เหมือนโดนสะกดจิตเลย
 
 RESOURCE ID: quest_special_dialogue_litwick_3_4
-TEXT: It's called "Chandelure," is it? And Professor Willow said its flames can burn up spirits? An unsettling thought.
+TEXT: ชื่อของมันคือ "แชนเดลา" งั้นเหรอ?
+ศาสตราจารยวิลโลวบอกวาเปลวไฟของมัน
+สามารดแผดเผาวิญญาณได?
+เปนเปลวไฟที่แปลกประหลาดมาก
 
 RESOURCE ID: quest_special_dialogue_litwick_3_5
-TEXT: The Pokémon we studied today could easily be seen as frightening. Yet I believe there is a lesson we can take from them.
+TEXT: แมวาจะฟงดูนากลัวก็ตาม แตเราก็คงเรียนรู
+อะไรหลาย ๆ อยางจากมันได
 
 RESOURCE ID: quest_special_dialogue_litwick_3_6
-TEXT: No matter how dark the world becomes, a little light always persists.
+TEXT: แมวาโลกใบนี้จะดำมืดเพียงใด ก็จะมีเปลวไฟ
+ดวงนอยที่พยายามเปลงแสงอยูเสมอ
 
 RESOURCE ID: quest_special_dialogue_litwick_3_7
-TEXT: Thank you for teaching me that lesson once again, %PLAYERNAME%. Take care, and I will see you again.
+TEXT: ขอบคุณที่สอนเรื่องนั้นใหแกฉันอีกครั้งนะ
+%PLAYERNAME% รักษาตัวดวย แลวพบกันใหม
 
 RESOURCE ID: quest_special_dialogue_lvl_43_0_0
 TEXT: สวัสดี %PLAYERNAME%! ขอฉันพูดไดไหมวาฉันประทับใจในความกาวหนาที่คุณทำสำเร็จในฐานะเทรนเนอรแคไหน?
@@ -52478,6 +53269,75 @@ RESOURCE ID: quest_special_dialogue_tcg1_5_6
 TEXT: ขอบคุณสำหรับความชวยเหลืออีกครั้งนะ
 ไวเจอกันใหม เล็ตสโก!
 
+RESOURCE ID: quest_special_dialogue_teddiursa_0_0
+TEXT: Hey, %PLAYERNAME%! Good to see you again!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_1
+TEXT: You know, I thought I smelled something sweet in the air today.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_2
+TEXT: Did I spill Berry juice again, you ask? You wound me, %PLAYERNAME%! As if I’d ruin this snazzy new jacket!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_3
+TEXT: Heh. In all seriousness, the smell was coming from outside.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_4
+TEXT: Unfortunately, I didn’t have a chance to track down the source of the scent. But now that you’re here, maybe you can sniff it out!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_0
+TEXT: Welcome back, %PLAYERNAME%. Seeing as you’ve got Teddiursa with you, I think I can connect the dots on what I was smelling earlier—honey!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_1
+TEXT: Teddiursa likes to lick its palms after soaking them in honey, so it’s no wonder I caught a whiff.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_2
+TEXT: That reminds me of a fun fact about Teddiursa’s Evolution, Ursaring.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_3
+TEXT: With its ability to distinguish any aroma, Ursaring unfailingly finds all food buried deep underground. If only it was that easy for me to find lunch!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_4
+TEXT: Why don’t you help Teddiursa evolve so you can see Ursaring’s sleuthing skills for yourself, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_0
+TEXT: I thought I heard something stomping about, and here you are, Ursaring in tow!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_1
+TEXT: Here’s the thing about Ursaring—although it has a large body, it’s quite skilled at climbing trees. It eats and sleeps in the treetops.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_2
+TEXT: Ah, to be an Ursaring... Imagine how much easier that’d make fieldwork—or picking Pinap Berries!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_3
+TEXT: Ahem. Snacks aside, have you noticed there’s a full moon out early today?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_4
+TEXT: Looks like Ursaring is staring at it, too. Think you can find out why, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_0
+TEXT: Whoa! Could that be—Ursaluna?!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_1
+TEXT: I’ve never seen one in these parts. What an incredible find! Hmm...
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_2
+TEXT: Maybe in the Hisui region of long ago, where Ursaluna was first discovered, the full moon played a part in how Ursaring evolved.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_3
+TEXT: It’s theorized that Hisui's swampy terrain gave Ursaluna its burly physique and ability to manipulate peat at will.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_4
+TEXT: What kind of food would suit a Pokémon accustomed to living in swamps? Grains? Beans? Cake?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_5
+TEXT: Maybe I should get baking for some firsthand taste-testing. I bet Teddiursa could lend me some honey!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_6
+TEXT: Ah—listen to me yammering on and on. Researching Pokémon first found in Hisui never fails to pique my curiosity about the past!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_7
+TEXT: Thanks again for spending the day learning about Pokémon with me, %PLAYERNAME%. I can always count on you to make my work a little sweeter!
+
 RESOURCE ID: quest_special_dialogue_tepit_0_0
 TEXT: ไง %PLAYERNAME%! วันนี้มีแพลนจะทำอะไรรึยัง?
 
@@ -53026,6 +53886,15 @@ TEXT: จับทิลทโท {0} ตัว
 RESOURCE ID: quest_swabt_evolve_b
 TEXT: วิวัฒนาการทิลทโท {0} ตัว
 
+RESOURCE ID: quest_teddiursa_catch_b
+TEXT: Catch {0} Teddiursa
+
+RESOURCE ID: quest_teddiursa_evolve_b
+TEXT: Evolve {0} Teddiursa
+
+RESOURCE ID: quest_teddiursa_snapshot_b
+TEXT: Take a snapshot of {0} Teddiursa
+
 RESOURCE ID: quest_template.display.branches#0.button_text_key
 TEXT: ตีบอส, ลูกสมุน และยิม!
 
@@ -53200,6 +54069,9 @@ TEXT: เรื่องเลาแหงหางเพลิง (4/5)
 RESOURCE ID: quest_title_chart_4
 TEXT: เรื่องเลาแหงหางเพลิง (5/5)
 
+RESOURCE ID: quest_title_dec2021
+TEXT: คอมมิวนิตี้เดยธันวาคม 2021
+
 RESOURCE ID: quest_title_dec20cd
 TEXT: คอมมิวนิตี้เดยเดือนธันวาคม
 
@@ -53229,6 +54101,21 @@ TEXT: งานวิจัย: โมโนซึ (3/4)
 
 RESOURCE ID: quest_title_deino_3
 TEXT: งานวิจัย: โมโนซึ (4/4)
+
+RESOURCE ID: quest_title_dratini_cdc
+TEXT: Dratini Community Day Classic
+
+RESOURCE ID: quest_title_dratini_cdc_0
+TEXT: Dratini Community Day Classic (1/4)
+
+RESOURCE ID: quest_title_dratini_cdc_1
+TEXT: Dratini Community Day Classic (2/4)
+
+RESOURCE ID: quest_title_dratini_cdc_2
+TEXT: Dratini Community Day Classic (3/4)
+
+RESOURCE ID: quest_title_dratini_cdc_3
+TEXT: Dratini Community Day Classic (4/4)
 
 RESOURCE ID: quest_title_duskt
 TEXT: ลางมรณะใกลเขามา
@@ -53410,6 +54297,36 @@ TEXT: ภายใตหนากากนั้นคือ? (3/4)
 RESOURCE ID: quest_title_hallow_2021_3
 TEXT: ภายใตหนากากนั้นคือ? (4/4)
 
+RESOURCE ID: quest_title_hallow_22
+TEXT: หนากากปริศนา
+
+RESOURCE ID: quest_title_hallow_22_0
+TEXT: หนากากปริศนา (1/4)
+
+RESOURCE ID: quest_title_hallow_22_1
+TEXT: หนากากปริศนา (2/4)
+
+RESOURCE ID: quest_title_hallow_22_2
+TEXT: หนากากปริศนา (3/4)
+
+RESOURCE ID: quest_title_hallow_22_3
+TEXT: หนากากปริศนา (4/4)
+
+RESOURCE ID: quest_title_hallow_tr_22
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาฮาโลวีน
+
+RESOURCE ID: quest_title_hallow_tr_22_0
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาฮาโลวีน (1/4)
+
+RESOURCE ID: quest_title_hallow_tr_22_1
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาฮาโลวีน (2/4)
+
+RESOURCE ID: quest_title_hallow_tr_22_2
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาฮาโลวีน (3/4)
+
+RESOURCE ID: quest_title_hallow_tr_22_3
+TEXT: ตั๋วงานวิจัยแบบจำกัดเวลาฮาโลวีน (4/4)
+
 RESOURCE ID: quest_title_hallowyamas
 TEXT: ถอดหนากากขอความสุดสยอง
 
@@ -53546,19 +54463,19 @@ RESOURCE ID: quest_title_jj_special_research_3
 TEXT: ไขวเขวไปกับสีที่แปลกไป (4/4)
 
 RESOURCE ID: quest_title_litwick
-TEXT: Field Notes: Trick of the Light
+TEXT: งานวิจัย: แสงลวงตา
 
 RESOURCE ID: quest_title_litwick_0
-TEXT: Field Notes: Trick of the Light (1/4)
+TEXT: งานวิจัย: แสงลวงตา (1/4)
 
 RESOURCE ID: quest_title_litwick_1
-TEXT: Field Notes: Trick of the Light (2/4)
+TEXT: งานวิจัย: แสงลวงตา (2/4)
 
 RESOURCE ID: quest_title_litwick_2
-TEXT: Field Notes: Trick of the Light (3/4)
+TEXT: งานวิจัย: แสงลวงตา (3/4)
 
 RESOURCE ID: quest_title_litwick_3
-TEXT: Field Notes: Trick of the Light (4/4)
+TEXT: งานวิจัย: แสงลวงตา (4/4)
 
 RESOURCE ID: quest_title_luminous_x_0
 TEXT: ตำนานแฟรี่ X (1/7)
@@ -53738,19 +54655,19 @@ RESOURCE ID: quest_title_magit_3
 TEXT: ไดเวลาดิ้นกระแดว (4/4)
 
 RESOURCE ID: quest_title_magmt
-TEXT: No Match for Magmar
+TEXT: ไมใชคูมือของบูเบอร
 
 RESOURCE ID: quest_title_magmt_0
-TEXT: No Match for Magmar (1/4)
+TEXT: ไมใชคูมือของบูเบอร (1/4)
 
 RESOURCE ID: quest_title_magmt_1
-TEXT: No Match for Magmar (2/4)
+TEXT: ไมใชคูมือของบูเบอร (2/4)
 
 RESOURCE ID: quest_title_magmt_2
-TEXT: No Match for Magmar (3/4)
+TEXT: ไมใชคูมือของบูเบอร (3/4)
 
 RESOURCE ID: quest_title_magmt_3
-TEXT: No Match for Magmar (4/4)
+TEXT: ไมใชคูมือของบูเบอร (4/4)
 
 RESOURCE ID: quest_title_may22_alola_branch_quest_0
 TEXT: อโลลาฟนาเล (1/4)
@@ -54304,6 +55221,9 @@ TEXT: ความป่นปวนสุดฉงน (9/16)
 RESOURCE ID: quest_title_season4_9
 TEXT: ความป่นปวนสุดฉงน (10/16)
 
+RESOURCE ID: quest_title_season5_dec
+TEXT: ฤดูกาลแหงมรดก: คำทาสตารดัสต
+
 RESOURCE ID: quest_title_season5_feb
 TEXT: ฤดูกาลแหงมรดก: คำทาการจับ
 
@@ -54664,6 +55584,21 @@ TEXT: งานวิจัยของศาสตราจารย (5/6)
 RESOURCE ID: quest_title_tcg1_5
 TEXT: งานวิจัยของศาสตราจารย (6/6)
 
+RESOURCE ID: quest_title_teddiursa
+TEXT: Sweet Snacks
+
+RESOURCE ID: quest_title_teddiursa_0
+TEXT: Sweet Snacks (1/4)
+
+RESOURCE ID: quest_title_teddiursa_1
+TEXT: Sweet Snacks (2/4)
+
+RESOURCE ID: quest_title_teddiursa_2
+TEXT: Sweet Snacks (3/4)
+
+RESOURCE ID: quest_title_teddiursa_3
+TEXT: Sweet Snacks (4/4)
+
 RESOURCE ID: quest_title_tepit
 TEXT: ผลไมยางสุก
 
@@ -54883,6 +55818,15 @@ TEXT: สถานการณนาขนลุก (3/4)
 RESOURCE ID: quest_title_wt_3
 TEXT: สถานการณนาขนลุก (4/4)
 
+RESOURCE ID: quest_title_yamask_tr_22
+TEXT: งานวิจัยแบบจำกัดเวลาของเดซึมาซึ
+
+RESOURCE ID: quest_title_yamask_tr_22_0
+TEXT: งานวิจัยแบบจำกัดเวลาของเดซึมาซึ (1/2)
+
+RESOURCE ID: quest_title_yamask_tr_22_1
+TEXT: งานวิจัยแบบจำกัดเวลาของเดซึมาซึ (2/2)
+
 RESOURCE ID: quest_title_yokosuka
 TEXT: Pokémon GO ซาฟารีโซน ที่ YOKOSUKA
 
@@ -55052,6 +55996,9 @@ TEXT: งานวิจัยอัลตรา: หมุนเสาโป
 
 RESOURCE ID: quest_urd22_june_supereffective
 TEXT: งานวิจัยอัลตรา: ใชทาโจมตีชารจใหไดผลดีเยี่ยม
+
+RESOURCE ID: quest_ursaring_evolve_b
+TEXT: วิวัฒนาการแลมพูลา {0} ตัว
 
 RESOURCE ID: quest_use_any_potion
 TEXT: ใชยารักษาแผล
@@ -60170,6 +61117,12 @@ TEXT: ปอนโคดเชิญ
 RESOURCE ID: referral_enter_invite_code
 TEXT: กรอกโคดเชิญ:
 
+RESOURCE ID: referral_enter_invite_code_prompt
+TEXT: Enter Referral Code:
+
+RESOURCE ID: referral_enter_invite_code_title
+TEXT: Enter Referral Code
+
 RESOURCE ID: referral_friend_invite_error_friend_later_message
 TEXT: คุณตองการที่จะเพิ่มบุคคลนี้เปนผูแนะนำหรือไม? คุณจะยังไดรับรางวัลจากการใชโคดเชิญเมื่อล็อกอินเขาเกม แตหากตองการรางวัลอื่น ๆ คุณจำเปนจะตองเปนเพื่อนกับผูแนะนำ
 
@@ -60199,6 +61152,11 @@ TEXT: รายชื่อเพื่อนของคุณเต็มแ�
 
 RESOURCE ID: referral_friend_invite_later_error_title
 TEXT: ไมสามารถสงคำขอเปนเพื่อนไปยังเทรนเนอรที่เชิญคุณ
+
+RESOURCE ID: referral_friend_request_confirmation
+TEXT: A Friend Request has been sent to {0}.
+
+Once {0} confirms, you’ll be able to earn rewards as you continue on your journey!
 
 RESOURCE ID: referral_get_code_button
 TEXT: รับโคดเชิญของคุณ
@@ -60248,6 +61206,9 @@ TEXT: รางวัลที่คุณจะไดรับเมื่�
 
 RESOURCE ID: referral_system_disabled
 TEXT: ไมสามารถใชงานฟงกชันโคดเชิญไดในขณะนี้
+
+RESOURCE ID: referral_valid_code
+TEXT: Valid referral code
 
 RESOURCE ID: referral_welcome
 TEXT: ยินดีตอนรับ!
@@ -60453,7 +61414,7 @@ RESOURCE ID: retention_friend_bonus_message
 TEXT: สนุกกับโปเกมอนโกไดมากขึ้นเมื่อเลนดวยกันกับเพื่อน ๆ! คุณจะไดรับ XP ไข และไอเท็มเมื่อคุณแบงปนของขวัญกับเพื่อน
 
 RESOURCE ID: retention_power_walk_message
-TEXT: ออกไปเดินอยางแข็งขันกันเถอะ! ลองใชสตารพีซ ไขแหงความสุข และเครื่องหอมไปพรอม ๆ กันดวย
+TEXT: ออกไปเดินอยางแข็งขันกันเถอะ! ลองใชสะเก็ดดาว ไขแหงความสุข และเครื่องหอมไปพรอม ๆ กันดวย
 
 RESOURCE ID: retro_cup_title
 TEXT: การแขงขันยอนยุค
@@ -61430,6 +62391,43 @@ TEXT: ซาฟารีโซน Seville 2022 (1/2)
 RESOURCE ID: safari_2022_seville_title_1
 TEXT: ซาฟารีโซน Seville 2022 (2/2)
 
+RESOURCE ID: safari_2022_singapore_citywide_title
+TEXT: Pokémon GO Safari Zone: Singapore 2022 – City Bonus
+
+RESOURCE ID: safari_2022_singapore_dialogue_0_0
+TEXT: Welcome to Pokémon GO Safari Zone Singapore 2022, %PLAYERNAME%!
+
+RESOURCE ID: safari_2022_singapore_dialogue_1_1
+TEXT: Thanks to you, we’ve learned a lot about the Pokémon at Pokémon GO Safari Zone Singapore 2022!
+
+RESOURCE ID: safari_2022_singapore_title
+TEXT: Pokémon GO Safari Zone: Singapore 2022
+
+RESOURCE ID: safari_2022_singapore_title_0
+TEXT: Pokémon GO Safari Zone: Singapore 2022 (1/2)
+
+RESOURCE ID: safari_2022_singapore_title_1
+TEXT: Pokémon GO Safari Zone: Singapore 2022 (2/2)
+
+RESOURCE ID: safari_2022_taipei_citywide_title
+TEXT: Pokémon GO ซาฟารีโซน: ไทเป 2022 - โบนัสเมือง
+
+RESOURCE ID: safari_2022_taipei_dialogue_0_0
+TEXT: ยินดีตอนรับสูซาฟารีโซน: ไทเป 2022 %PLAYERNAME%!
+
+RESOURCE ID: safari_2022_taipei_dialogue_1_1
+TEXT: ขอบคุณมากนะ เราไดเรียนรูอะไรหลายอยาง
+เกี่ยวกับโปเกมอนที่งาน ซาฟารีโซน: ไทเป 2022!
+
+RESOURCE ID: safari_2022_taipei_title
+TEXT: Pokémon GO ซาฟารีโซน: ไทเป 2022
+
+RESOURCE ID: safari_2022_taipei_title_0
+TEXT: Pokémon GO ซาฟารีโซน: ไทเป 2022 (1/2)
+
+RESOURCE ID: safari_2022_taipei_title_1
+TEXT: Pokémon GO ซาฟารีโซน: ไทเป 2022 (2/2)
+
 RESOURCE ID: safari_battle_singular
 TEXT: ซาฟารีโซน : แบตเทิลกับเทรนเนอรคนอื่น
 
@@ -61709,6 +62707,9 @@ TEXT: เคล็ดลับ
 RESOURCE ID: screen_you_title
 TEXT: ฉัน
 
+RESOURCE ID: search_keywords_button
+TEXT: SEE ALL SEARCH KEYWORDS
+
 RESOURCE ID: search_label
 TEXT: คนหา
 
@@ -61797,12 +62798,21 @@ TEXT: ตั้งคาความเปนสวนตัวขอ�
 RESOURCE ID: settings_account_header
 TEXT: บัญชี
 
+RESOURCE ID: settings_account_link_header
+TEXT: บัญชีที่เชื่อมตอแลว
+
+RESOURCE ID: settings_account_link_learn_more
+TEXT: อานรายละเอียดเกี่ยวกับการเชื่อมตอหลายบัญชีที่นี่
+
 RESOURCE ID: settings_account_link_tip
 TEXT: เคล็ดลับ: คุณสามารถลงชื่อเขาใชผานบัญชี
 ที่ทำการเชื่อมตอแลว!
 
+RESOURCE ID: settings_account_link_v2_tip
+TEXT: เมื่อเชื่อมตอบัญชีหลายบัญชี คุณจะมีทางเลือกในการเขาสูระบบหลายแบบ โดยความคืบหนาของคุณจะถูกเก็บไวบนอุปกรณทุกเครื่องดวยเชนกัน
+
 RESOURCE ID: settings_account_linked
-TEXT: เชื่อมตอ
+TEXT: เชื่อมตอแลว
 
 RESOURCE ID: settings_account_not_linked
 TEXT: ไมไดเชื่อมตอ
@@ -61819,6 +62829,18 @@ TEXT: รีเฟรชขอมูลเกม
 RESOURCE ID: settings_advanced_cache_reset_sub
 TEXT: รีเฟรชขอมูลเกมของคุณหากประสบปญหา
 ความไมสอดคลองในเกม
+
+RESOURCE ID: settings_advanced_items_title
+TEXT: ไอเท็ม
+
+RESOURCE ID: settings_advanced_pokemon_title
+TEXT: โปเกมอน
+
+RESOURCE ID: settings_advanced_quality_title
+TEXT: คุณภาพ
+
+RESOURCE ID: settings_advanced_sharing_title
+TEXT: แชร
 
 RESOURCE ID: settings_advanced_title
 TEXT: การตั้งคาขั้นสูง
@@ -61859,6 +62881,12 @@ TEXT: ลูกอมจากคูหู
 RESOURCE ID: settings_change_nickname
 TEXT: เปลี่ยนชื่อเลน
 
+RESOURCE ID: settings_connected_devices_no_devices
+TEXT: ไมพบอุปกรณ
+
+RESOURCE ID: settings_connected_devices_title
+TEXT: อุปกรณที่กำลังเชื่อมตอ
+
 RESOURCE ID: settings_email_marketing
 TEXT: สงอีเมลอีเวนต ขอเสนอ และอัปเดตใหกับฉัน
 
@@ -61873,6 +62901,9 @@ TEXT: คำขอเปนเพื่อนไดรับการต�
 
 RESOURCE ID: settings_friend_request_received
 TEXT: ไดรับคำขอเปนเพื่อน
+
+RESOURCE ID: settings_general_title
+TEXT: ทั่วไป
 
 RESOURCE ID: settings_gift_notified_push_notification
 TEXT: เพื่อนของตคุณไดรับตั๋วอีเวนตแลว!
@@ -61932,8 +62963,14 @@ TEXT: การตีบอสในบริเวณใกลเคีย�
 RESOURCE ID: settings_niantic_ar
 TEXT: Niantic AR (AR+)
 
+RESOURCE ID: settings_niantic_ar_tip
+TEXT: สามารถจับโปเกมอน ถายภาพพวกมัน และเลนกับคูหูในโหมด AR ได
+
 RESOURCE ID: settings_niantic_ar_update
 TEXT: อัปเดต Niantic AR (AR+)
+
+RESOURCE ID: settings_niantic_ar_update_done
+TEXT: AR เวอรชันลาสุด
 
 RESOURCE ID: settings_nintendo_account
 TEXT: Nintendo Account
@@ -61980,8 +63017,20 @@ TEXT: กรุณาไปที่หนาโปเกมอนโกพ�
 RESOURCE ID: settings_pgp_check_other_menu
 TEXT: กรุณาไปที่หนามอนสเตอรบอลพลัสในเมนูการตั้งคา เพื่อเขาถึงอุปกรณที่คุณเชื่อมตอไว 
 
+RESOURCE ID: settings_pkmn_home_about_nintendo
+TEXT: เกี่ยวกับ Nintendo
+
+RESOURCE ID: settings_pkmn_home_howto_transfer
+TEXT: วิธีสงโปเกมอนของคุณจาก Pokémon GO ไปยัง Pokémon HOME
+
+RESOURCE ID: settings_pkmn_home_nintendo_signin
+TEXT: ลงชื่อเขาใชดวย Nintendo
+
 RESOURCE ID: settings_pokemon_badge
 TEXT: แสดงริบบิ้นโปเกมอน
+
+RESOURCE ID: settings_pokemon_badge_tip
+TEXT: เหรียญตราที่มอบใหกับคูหูมิตรแท
 
 RESOURCE ID: settings_pokemon_header
 TEXT: โปเกมอน
@@ -61991,6 +63040,9 @@ TEXT: Pokémon HOME
 
 RESOURCE ID: settings_pokemon_return
 TEXT: การสงโปเกมอนกลับ
+
+RESOURCE ID: settings_pokemon_return_tip
+TEXT: โปเกมอนที่ถูกมอบหมายใหปองกันยิมจะกลับมาหาคุณเมื่อแรงใจหมด
 
 RESOURCE ID: settings_postcard_optin_name
 TEXT: เปดเผยชื่อเลนของคุณใน
@@ -62005,8 +63057,14 @@ TEXT: แอดเวนเจอรซิงค : บริเวณใ�
 RESOURCE ID: settings_push_bgmode_walking
 TEXT: แอดเวนเจอรซิงค : การเดิน
 
+RESOURCE ID: settings_push_bgmode_walking_tip
+TEXT: เมื่อเปดใชงานแอดเวนเจอรซิงค คุณจะสามารถฟกไขโปเกมอน และไดรับรางวัลลูกอมคูหูแมในขณะที่คุณไมไดใชงาน Pokémon GO
+
 RESOURCE ID: settings_push_buddy_v2
 TEXT: ผลตอบแทนจากคูหู
+
+RESOURCE ID: settings_push_buddy_v2_tip
+TEXT: เมื่อโปเกมอนถึงระดับคูหูสุดรัก มันจะแนะนำสถานที่นาสนใจที่อยูในบริเวณใกลเคียงใหคุณรู รวมถึงเอาของฝากและของขวัญมาใหคุณ
 
 RESOURCE ID: settings_push_marketing
 TEXT: อีเวนต ขอเสนอ และอัปเดต
@@ -62030,6 +63088,9 @@ TEXT: รายงานปญหาดานเทคนิค
 RESOURCE ID: settings_reset_cache_confirm
 TEXT: คุณแนใจหรือไมวาตองการ
 รีเฟรชขอมูลเกม?
+
+RESOURCE ID: settings_resources_str
+TEXT: แหลงขอมูล
 
 RESOURCE ID: settings_select_legendary_label
 TEXT: ขยายขอบเขตในการถายโอน
@@ -62095,6 +63156,9 @@ TEXT: แชรการจับโปเกมอนลาสุดก�
 RESOURCE ID: settings_show_campfire_buttons
 TEXT: แสดง Campfire
 
+RESOURCE ID: settings_show_campfire_tip
+TEXT: เปดการใชงานปุม Campfire ใน Pokémon GO
+
 RESOURCE ID: settings_sound_effects
 TEXT: เสียงเอฟเฟกต
 
@@ -62149,6 +63213,12 @@ TEXT: เปดใชงานอัตราการรีเฟรช�
 
 RESOURCE ID: settings_unlock_base_framerate_description_on
 TEXT: เปดใชงานอัตราการรีเฟรชดั้งเดิมแลว
+
+RESOURCE ID: settings_uploads_title
+TEXT: อัปโหลด
+
+RESOURCE ID: settings_version_title
+TEXT: เวอรชัน
 
 RESOURCE ID: settings_vibration
 TEXT: การสั่น
@@ -62630,6 +63700,18 @@ TEXT: ไวเปนคูตอสูที่สมน้ำ�
 RESOURCE ID: sign_in_partial
 TEXT: สรางบัญชีดวย {0}
 
+RESOURCE ID: sign_up_button
+TEXT: SIGN UP
+
+RESOURCE ID: sign_up_text_titlecase
+TEXT: Sign Up
+
+RESOURCE ID: singapore_cup_title
+TEXT: Singapore Catch Cup
+
+RESOURCE ID: singapore_cup_title_post
+TEXT: Post-event Catch Cup: Singapore
+
 RESOURCE ID: sinnoh_2020_catch_medium1
 TEXT: เทศกาลเฉลิมฉลองชินโอ : จับนาเอเติล ฮิโกซารุ หรือโพจจามะ {0} ตัว
 
@@ -62826,6 +63908,9 @@ TEXT: ฮิโตคาเงะปรากฏตัวมากขึ้น�
 RESOURCE ID: spawn_deino
 TEXT: โมโนซึปรากฏตัวออกมามากขึ้น
 
+RESOURCE ID: spawn_dratini_cdc
+TEXT: More Dratini are appearing in the wild!
+
 RESOURCE ID: spawn_duskull
 TEXT: โยมาวารุปรากฏตัวออกมามากขึ้น
 
@@ -62848,7 +63933,7 @@ RESOURCE ID: spawn_hoppip
 TEXT: ฮาเน็กโกะปรากฏตัวมากขึ้นในธรรมชาติ
 
 RESOURCE ID: spawn_litwick
-TEXT: More Litwick are appearing in the wild!
+TEXT: ฮิโตโมชิปรากฏตัวออกมามากขึ้น!
 
 RESOURCE ID: spawn_machop
 TEXT: วันริกีปรากฏตัวมากขึ้นในธรรมชาติ
@@ -62900,6 +63985,9 @@ TEXT: นุยโคกุมะปรากฏตัวออกมามา�
 
 RESOURCE ID: spawn_swablu
 TEXT: ทิลทโทปรากฏตัวออกมามากขึ้น
+
+RESOURCE ID: spawn_teddiursa
+TEXT: More Teddiursa are appearing in the wild!
 
 RESOURCE ID: spawn_tepig
 TEXT: โพคาบูปรากฏตัวมากขึ้น
@@ -64006,7 +65094,7 @@ RESOURCE ID: standard_raid_box_title
 TEXT: กลองตีบอสมาตรฐาน
 
 RESOURCE ID: star_piece_duration_double
-TEXT: สตารพีซใชไดนานขึ้น 2 เทา
+TEXT: สะเก็ดดาวใชไดนานขึ้น 2 เทา
 
 RESOURCE ID: stardust_blast_event_name
 TEXT: อีเวนตสตารดัสต
@@ -64017,19 +65105,19 @@ TEXT: สะเก็ดเล็ก ๆ ของอัญมณีแสนส
 ภายในชวง 30 นาที
 
 RESOURCE ID: starpiece.1_title
-TEXT: สตารพีซ
+TEXT: สะเก็ดดาว
 
 RESOURCE ID: starpiece.25_description
-TEXT: สตารพีซ 25 ชิ้น ทำใหไดรับสตารดัสตเพิ่มขึ้น 50% ภายในชวง 30 นาที
+TEXT: สะเก็ดดาว 25 ชิ้น ทำใหไดรับสตารดัสตเพิ่มขึ้น 50% ภายในชวง 30 นาที
 
 RESOURCE ID: starpiece.25_title
-TEXT: สตารพีซ x25
+TEXT: สะเก็ดดาว x25
 
 RESOURCE ID: starpiece.8_description
-TEXT: สตารพีซ 8 ชิ้น ทำใหไดรับสตารดัสตเพิ่มขึ้น 50% ภายในชวง 30 นาที
+TEXT: สะเก็ดดาว 8 ชิ้น ทำใหไดรับสตารดัสตเพิ่มขึ้น 50% ภายในชวง 30 นาที
 
 RESOURCE ID: starpiece.8_title
-TEXT: สตารพีซ x8
+TEXT: สะเก็ดดาว x8
 
 RESOURCE ID: status_filter_group_key
 TEXT: สถานะการจับ
@@ -64256,7 +65344,7 @@ RESOURCE ID: stickers_v2_group_category
 TEXT: กลุม
 
 RESOURCE ID: stickers_v2_messages_category
-TEXT: มีขอความ
+TEXT: ขอความ
 
 RESOURCE ID: stickers_v2_misc_category
 TEXT: อื่น ๆ
@@ -64420,6 +65508,12 @@ TEXT: แท็กโปเกมอน {0} ตัว
 
 RESOURCE ID: tagging_favorites_title
 TEXT: ถูกใจ
+
+RESOURCE ID: taipei_cup_title
+TEXT: การแขงขันการจับ: ไทเป
+
+RESOURCE ID: taipei_cup_title_post
+TEXT: การแขงขันการจับหลังอีเวนต: ไทเป
 
 RESOURCE ID: team_blue_intro|1
 TEXT: ฉันชื่อบลองช หัวหนาทีมมิสติก
@@ -64606,6 +65700,9 @@ TEXT: คอมมิวนิตี้เดยเดือนธันว�
 RESOURCE ID: ticket_deino
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "งานวิจัย: โมโนซึ" ไดที่รานคา
 
+RESOURCE ID: ticket_dratini_cdc
+TEXT: Ticket for the Dratini Community Day Classic Special Research story available in the shop
+
 RESOURCE ID: ticket_duskull
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "ลางมรณะใกลเขามา" ไดที่รานคา
 
@@ -64639,7 +65736,7 @@ RESOURCE ID: ticket_hoppip
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "ตนฝายลอยละลอง" ไดที่รานคา
 
 RESOURCE ID: ticket_litwick
-TEXT: Ticket for the Field Notes: Trick of the Light Special Research story available in the shop
+TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "งานวิจัย: แสงลวงตา" ไดที่รานคา
 
 RESOURCE ID: ticket_machop
 TEXT: ตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษมีจำหนายในรานคา : วันริกีเดินหนาลุย!
@@ -64691,6 +65788,9 @@ TEXT: สามารถซื้อตั๋วสำหรับเนื้�
 
 RESOURCE ID: ticket_swablu
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "ทิลทโทปกปุยฝาย" ไดที่รานคา
+
+RESOURCE ID: ticket_teddiursa
+TEXT: Ticket for the Sweet Snacks Special Research story available in the shop
 
 RESOURCE ID: ticket_tepig
 TEXT: สามารถซื้อตั๋วสำหรับเนื้อเรื่องงานวิจัยพิเศษ "ผลไมยางสุก" ไดที่รานคา
@@ -65565,6 +66665,12 @@ TEXT: กระเปาเก็บไอเทมของคุณเต�
 
 RESOURCE ID: tr_sz_goyang_global
 TEXT: ซาฟารีโซน Goyang 2022 - คำทาสำรวจ
+
+RESOURCE ID: tr_sz_singapore_global
+TEXT: Pokémon GO Safari Zone: Singapore 2022 – Exploration Challenge
+
+RESOURCE ID: tr_sz_taipei_global
+TEXT: Pokémon GO ซาฟารีโซน: ไทเป 2022 - คำทาสำรวจ
 
 RESOURCE ID: trade_action
 TEXT: แลกเปลี่ยน
@@ -66716,6 +67822,9 @@ RESOURCE ID: verbose_logs_pending_logs_title
 TEXT: บันทึกที่รอการอัปโหลด
 
 RESOURCE ID: verbose_logs_settings_title
+TEXT: บันทึกเกม
+
+RESOURCE ID: verbose_logs_settings_v2_title
 TEXT: บันทึกเกม
 
 RESOURCE ID: verbose_logs_toggle
