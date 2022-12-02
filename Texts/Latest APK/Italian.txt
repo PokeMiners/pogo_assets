@@ -233,7 +233,7 @@ RESOURCE ID: accept_friend_request_prompt
 TEXT: Hai ricevuto una richiesta di amicizia.
 
 RESOURCE ID: ace_box_title
-TEXT: pacco fantallenatore
+TEXT: Pacco fantallenatore
 
 RESOURCE ID: active_status_tutorial_message
 TEXT: Controlla quali amici stanno giocando! Puoi disattivare questa funzionalità dalla lista amici.
@@ -714,6 +714,9 @@ TEXT: Benvenuti ad Alola
 RESOURCE ID: alola_pokedex_header
 TEXT: Forma di Alola
 
+RESOURCE ID: already_have_account
+TEXT: Already have an account?
+
 RESOURCE ID: anniversary_2021_collection_challenge
 TEXT: Collezione dedicata al quinto anniversario
 
@@ -826,19 +829,28 @@ RESOURCE ID: appraise_overall_mid_3|1
 TEXT: Nel complesso, il tuo {0} non è malaccio.
 
 RESOURCE ID: appraise_size_huge_1|1
-TEXT: Le dimensioni di questo {0} sono... colossali. Un’anomalia statistica, non c’è dubbio!
+TEXT: Le dimensioni del tuo {0} sono... colossali. Un’anomalia statistica, non c’è dubbio!
+
+RESOURCE ID: appraise_size_huge_1|1b
+TEXT: Il tuo {0} andrebbe classificato come insolitamente grande.
 
 RESOURCE ID: appraise_size_huge_2|1
 TEXT: Il tuo {0} è gigantesco, il più grande che abbia mai visto!
 
+RESOURCE ID: appraise_size_huge_2|1b
+TEXT: Accidenti, che {0} smisurato!
+
 RESOURCE ID: appraise_size_huge_3|1
+TEXT: Il tuo {0} è... è... ENORME!!!
+
+RESOURCE ID: appraise_size_huge_3|1b
 TEXT: Il tuo {0} è... è... ENORME!!!
 
 RESOURCE ID: appraise_size_large_1|1
 TEXT: Le dimensioni del tuo {0} sono sopra la media.
 
 RESOURCE ID: appraise_size_large_1|1b
-TEXT: Your {0} is above average in size.
+TEXT: Le dimensioni del tuo {0} sono sopra la media.
 
 RESOURCE ID: appraise_size_large_2|1
 TEXT: Il tuo {0} è bello grosso, non c’è che dire!
@@ -847,13 +859,13 @@ RESOURCE ID: appraise_size_large_3|1
 TEXT: Il tuo {0} è bello GRANDE!
 
 RESOURCE ID: appraise_size_large_3|1b
-TEXT: Your {0} is a BIG one!
+TEXT: Il tuo {0} è bello GRANDE!
 
 RESOURCE ID: appraise_size_small_1|1
 TEXT: Le dimensioni del tuo {0} sono sotto la media.
 
 RESOURCE ID: appraise_size_small_1|1b
-TEXT: Your {0} is below average in size.
+TEXT: Le dimensioni del tuo {0} sono sotto la media.
 
 RESOURCE ID: appraise_size_small_2|1
 TEXT: Oh, che {0} piccolino! Più carino di così...
@@ -864,29 +876,38 @@ TEXT: Il tuo {0} è un po’ piccolo per la sua specie, non credi?
 RESOURCE ID: appraise_size_tiny_1|1
 TEXT: Questo {0} è il più piccolo mai visto prima. Incredibile.
 
+RESOURCE ID: appraise_size_tiny_1|1b
+TEXT: Il tuo {0} andrebbe classificato come insolitamente piccolo.
+
 RESOURCE ID: appraise_size_tiny_2|1
 TEXT: Il tuo {0} è così piccolo che non l’avevo nemmeno visto!
+
+RESOURCE ID: appraise_size_tiny_2|1b
+TEXT: Che {0} piccoletto hai!
 
 RESOURCE ID: appraise_size_tiny_3|1
 TEXT: Accidenti! Questo {0} è il più piccolo che abbia mai visto!
 
+RESOURCE ID: appraise_size_tiny_3|1b
+TEXT: Il tuo {0} è piuttosto minuscolo, non è vero?
+
 RESOURCE ID: appraise_size_xxl_1|1
-TEXT: The size of your {0} is...colossal. This is indeed exceptional. Fascinating!
+TEXT: Le dimensioni di questo {0} sono... colossali. Un’anomalia statistica, non c’è dubbio!
 
 RESOURCE ID: appraise_size_xxl_2|1
-TEXT: Your {0} is gigantic—the largest I've ever seen!
+TEXT: Il tuo {0} è gigantesco, il più grande che abbia mai visto!
 
 RESOURCE ID: appraise_size_xxl_3|1
-TEXT: Your {0} is massive! ...Could it be the biggest {0} in the world?
+TEXT: Questo {0} è mastodontico! Potrebbe risultare uno dei più grossi {0} al mondo...
 
 RESOURCE ID: appraise_size_xxs_1|1
-TEXT: Your {0} is tinier than any we have on record. Astounding.
+TEXT: Questo {0} è il più piccolo mai registrato prima. Incredibile.
 
 RESOURCE ID: appraise_size_xxs_2|1
-TEXT: Your {0} is so tiny, I almost didn't notice it!
+TEXT: Il tuo {0} è così piccolo che non l’avevo nemmeno visto!
 
 RESOURCE ID: appraise_size_xxs_3|1
-TEXT: Wh-whoa. That's the tiniest {0} I've ever seen!
+TEXT: Accidenti! Questo {0} è il più piccolo che abbia mai visto!
 
 RESOURCE ID: appraise_stat_best_1|1
 TEXT: Delle statistiche così non si sono mai viste. Incredibile.
@@ -1450,7 +1471,7 @@ RESOURCE ID: avatar_f_backpack_longchampbp_00_bundle_icon
 TEXT: zainetto Longchamp
 
 RESOURCE ID: avatar_f_backpack_lunala
-TEXT: Lunala Wings
+TEXT: Ali Lunala
 
 RESOURCE ID: avatar_f_backpack_mimikyubp_0_bundle_icon
 TEXT: zaino Mimikyu
@@ -1532,6 +1553,10 @@ TEXT: mascherina tipo Acqua
 RESOURCE ID: avatar_f_face_banettemask_00_bundle_icon
 TEXT: mascherina Banette
 
+RESOURCE ID: avatar_f_face_dayofthedead_00_bundle_icon
+TEXT: Face paint
+Día de Muertos
+
 RESOURCE ID: avatar_f_face_defaultmask_00_bundle_icon
 TEXT: Mascherina semplice
 
@@ -1568,7 +1593,8 @@ RESOURCE ID: avatar_f_face_sableyemask_00_bundle_icon
 TEXT: mascherina Sableye
 
 RESOURCE ID: avatar_f_face_solgaleo
-TEXT: Solgaleo Mask
+TEXT: Maschera
+Solgaleo
 
 RESOURCE ID: avatar_f_face_teamskull_00_bundle_icon
 TEXT: Maschera
@@ -1783,6 +1809,9 @@ Sinnoh
 RESOURCE ID: avatar_f_hat_drifloon_0_bundle_icon
 TEXT: Berretto Drifloon
 
+RESOURCE ID: avatar_f_hat_dusclopsmummy_00_bundle_icon
+TEXT: bende Dusclops
+
 RESOURCE ID: avatar_f_hat_eeveecap_0_bundle_icon
 TEXT: Berretto Eevee
 
@@ -1832,7 +1861,7 @@ RESOURCE ID: avatar_f_hat_goomy_00_bundle_icon
 TEXT: cappello Goomy
 
 RESOURCE ID: avatar_f_hat_greencoat_00_bundle_icon
-TEXT: cappello festivo
+TEXT: Cappello festivo
 
 RESOURCE ID: avatar_f_hat_guccihat_00_bundle_icon
 TEXT: cappello The North Face per Gucci
@@ -1875,7 +1904,7 @@ Squadra
 di ricerca
 
 RESOURCE ID: avatar_f_hat_litwickhat_0_bundle_icon
-TEXT: cappello Litwick
+TEXT: Cappello Litwick
 
 RESOURCE ID: avatar_f_hat_loneearrings_bundle_icon
 TEXT: Orecchini di perle
@@ -1921,7 +1950,7 @@ RESOURCE ID: avatar_f_hat_newyear2022_00_bundle_icon
 TEXT: Cerchietto Capodanno
 
 RESOURCE ID: avatar_f_hat_newyearhat2021_00_bundle_icon
-TEXT: cappello di Capodanno
+TEXT: Cappello di Capodanno
 
 RESOURCE ID: avatar_f_hat_nihilegoitems_00_bundle_icon
 TEXT: cappello Nihilego
@@ -2075,6 +2104,9 @@ TEXT: Orecchini Woobat
 RESOURCE ID: avatar_f_hat_yamaskhat_00_bundle_icon
 TEXT: Cilindro Yamask
 
+RESOURCE ID: avatar_f_hat_zubathat_00_bundle_icon
+TEXT: Cerchietto Zubat
+
 RESOURCE ID: avatar_f_necklace_default_bundle_icon
 TEXT: Collare base
 
@@ -2158,6 +2190,10 @@ TEXT: Salopette Johto
 
 RESOURCE ID: avatar_f_pants_loosepants_0_bundle_icon
 TEXT: Pantaloni larghi a pois
+
+RESOURCE ID: avatar_f_pants_lunala
+TEXT: Pantaloni
+Lunala
 
 RESOURCE ID: avatar_f_pants_luvdiscpack_0_bundle_icon
 TEXT: Jeans strappati Luvdisc
@@ -2353,6 +2389,10 @@ TEXT: set Sinnoh
 
 RESOURCE ID: avatar_f_shirt_drifblim_0_bundle_icon
 TEXT: T-shirt Drifblim
+
+RESOURCE ID: avatar_f_shirt_dusclopsmummy_00_bundle_icon
+TEXT: costume
+Dusclops
 
 RESOURCE ID: avatar_f_shirt_earthday_2018_bundle_icon
 TEXT: T-shirt Surf Blue
@@ -2830,6 +2870,9 @@ Mondiali 2022
 RESOURCE ID: avatar_f_shirt_whitecoat_00_bundle_icon
 TEXT: giacca invernale
 
+RESOURCE ID: avatar_f_shirt_zoruaonesie_00_bundle_icon
+TEXT: costume Zorua
+
 RESOURCE ID: avatar_f_shoes_6thanniversary_00_bundle_icon
 TEXT: Ballerine eleganti
 6° anniversario
@@ -2965,6 +3008,9 @@ TEXT: Sandali
 RESOURCE ID: avatar_f_shoes_sandals_2_bundle_icon
 TEXT: Sandali
 
+RESOURCE ID: avatar_f_shoes_solgaleo
+TEXT: Scarpe Solgaleo
+
 RESOURCE ID: avatar_f_shoes_ss_0_bundle_icon
 TEXT: Scarpe Galar
 
@@ -3053,6 +3099,10 @@ TEXT: Senza calze
 
 RESOURCE ID: avatar_f_socks_fw2022_00_bundle_icon
 TEXT: Calzini Mareanie
+
+RESOURCE ID: avatar_f_socks_galaxy
+TEXT: Calze
+cielo stellato
 
 RESOURCE ID: avatar_f_socks_hgss_bundle_icon
 TEXT: Calze Johto
@@ -3169,7 +3219,7 @@ RESOURCE ID: avatar_m_backpack_longchampbp_00_bundle_icon
 TEXT: zainetto Longchamp
 
 RESOURCE ID: avatar_m_backpack_lunala
-TEXT: Lunala Wings
+TEXT: Ali Lunala
 
 RESOURCE ID: avatar_m_backpack_mimikyubp_0_bundle_icon
 TEXT: zaino Mimikyu
@@ -3231,6 +3281,10 @@ TEXT: mascherina tipo Acqua
 RESOURCE ID: avatar_m_face_banettemask_00_bundle_icon
 TEXT: mascherina Banette
 
+RESOURCE ID: avatar_m_face_dayofthedead_00_bundle_icon
+TEXT: Face paint
+Día de Muertos
+
 RESOURCE ID: avatar_m_face_defaultmask_00_bundle_icon
 TEXT: Mascherina semplice
 
@@ -3267,7 +3321,8 @@ RESOURCE ID: avatar_m_face_sableyemask_00_bundle_icon
 TEXT: mascherina Sableye
 
 RESOURCE ID: avatar_m_face_solgaleo
-TEXT: Solgaleo Mask
+TEXT: Maschera
+Solgaleo
 
 RESOURCE ID: avatar_m_face_teamskull_00_bundle_icon
 TEXT: Maschera
@@ -3480,6 +3535,9 @@ Sinnoh
 RESOURCE ID: avatar_m_hat_drifloon_0_bundle_icon
 TEXT: Berretto Drifloon
 
+RESOURCE ID: avatar_m_hat_dusclopsmummy_00_bundle_icon
+TEXT: bende Dusclops
+
 RESOURCE ID: avatar_m_hat_eeveecap_0_bundle_icon
 TEXT: Berretto Eevee
 
@@ -3532,7 +3590,7 @@ RESOURCE ID: avatar_m_hat_goomy_00_bundle_icon
 TEXT: cappello Goomy
 
 RESOURCE ID: avatar_m_hat_greencoat_00_bundle_icon
-TEXT: cappello festivo
+TEXT: Cappello festivo
 
 RESOURCE ID: avatar_m_hat_guccihat_00_bundle_icon
 TEXT: cappello The North Face per Gucci
@@ -3575,7 +3633,7 @@ Squadra
 di ricerca
 
 RESOURCE ID: avatar_m_hat_litwickhat_0_bundle_icon
-TEXT: cappello Litwick
+TEXT: Cappello Litwick
 
 RESOURCE ID: avatar_m_hat_loneearrings_bundle_icon
 TEXT: Orecchini di perle
@@ -3618,7 +3676,7 @@ RESOURCE ID: avatar_m_hat_newyear2022_00_bundle_icon
 TEXT: Cerchietto Capodanno
 
 RESOURCE ID: avatar_m_hat_newyearhat2021_00_bundle_icon
-TEXT: cappello di Capodanno
+TEXT: Cappello di Capodanno
 
 RESOURCE ID: avatar_m_hat_nihilegoitems_00_bundle_icon
 TEXT: cappello Nihilego
@@ -3768,6 +3826,9 @@ TEXT: Orecchini Woobat
 RESOURCE ID: avatar_m_hat_yamaskhat_00_bundle_icon
 TEXT: Cilindro Yamask
 
+RESOURCE ID: avatar_m_hat_zubathat_00_bundle_icon
+TEXT: Cerchietto Zubat
+
 RESOURCE ID: avatar_m_pants_6thanniversary_00_bundle_icon
 TEXT: Pantaloni completo bianco
 6° anniversario
@@ -3855,6 +3916,10 @@ TEXT: pantaloni stile Ornella
 
 RESOURCE ID: avatar_m_pants_loosepants_0_bundle_icon
 TEXT: Pantaloni larghi a pois
+
+RESOURCE ID: avatar_m_pants_lunala
+TEXT: Pantaloni
+Lunala
 
 RESOURCE ID: avatar_m_pants_luvdiscpack_0_bundle_icon
 TEXT: Jeans strappati Luvdisc
@@ -4046,6 +4111,10 @@ TEXT: set Sinnoh
 
 RESOURCE ID: avatar_m_shirt_drifblim_0_bundle_icon
 TEXT: T-shirt Drifblim
+
+RESOURCE ID: avatar_m_shirt_dusclopsmummy_00_bundle_icon
+TEXT: costume
+Dusclops
 
 RESOURCE ID: avatar_m_shirt_earthday_2018_bundle_icon
 TEXT: T-shirt Surf Blue
@@ -4524,6 +4593,9 @@ Mondiali 2022
 RESOURCE ID: avatar_m_shirt_whitecoat_00_bundle_icon
 TEXT: giacca invernale
 
+RESOURCE ID: avatar_m_shirt_zoruaonesie_00_bundle_icon
+TEXT: costume Zorua
+
 RESOURCE ID: avatar_m_shoes_6thanniversary_00_bundle_icon
 TEXT: Scarpe eleganti
 6° anniversario
@@ -4663,6 +4735,9 @@ TEXT: Sandali
 RESOURCE ID: avatar_m_shoes_sandals_2_bundle_icon
 TEXT: Sandali
 
+RESOURCE ID: avatar_m_shoes_solgaleo
+TEXT: Scarpe Solgaleo
+
 RESOURCE ID: avatar_m_shoes_ss_0_bundle_icon
 TEXT: Scarpe Galar
 
@@ -4751,6 +4826,10 @@ TEXT: Senza calze
 
 RESOURCE ID: avatar_m_socks_fw2022_00_bundle_icon
 TEXT: Calzini Mareanie
+
+RESOURCE ID: avatar_m_socks_galaxy
+TEXT: Calze
+cielo stellato
 
 RESOURCE ID: avatar_m_socks_sneakersocks_00_bundle_icon
 TEXT: Calzini
@@ -4939,131 +5018,134 @@ TEXT: Hai un miglior compagno.
 RESOURCE ID: badge_buddy_best_title
 TEXT: Miglior compagno
 
+RESOURCE ID: badge_butterfly_collector
+TEXT: Colleziona Vivillon da tutto il mondo.
+
 RESOURCE ID: badge_butterfly_collector_archipelago_singular
-TEXT: Collect Archipelago Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Arcipelago.
 
 RESOURCE ID: badge_butterfly_collector_archipelago_title
-TEXT: Archipelago Collector
+TEXT: Collezionista Arcipelago
 
 RESOURCE ID: badge_butterfly_collector_continental_singular
-TEXT: Collect Continental Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Continentale.
 
 RESOURCE ID: badge_butterfly_collector_continental_title
-TEXT: Continental Collector
+TEXT: Collezionista Continentale
 
 RESOURCE ID: badge_butterfly_collector_elegant_singular
-TEXT: Collect Elegant Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Eleganza.
 
 RESOURCE ID: badge_butterfly_collector_elegant_title
-TEXT: Elegant Collector
+TEXT: Collezionista Eleganza
 
 RESOURCE ID: badge_butterfly_collector_fancy_singular
-TEXT: Collect Fancy Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Sbarazzino.
 
 RESOURCE ID: badge_butterfly_collector_fancy_title
-TEXT: Fancy Collector
+TEXT: Collezionista Sbarazzino
 
 RESOURCE ID: badge_butterfly_collector_garden_singular
-TEXT: Collect Continental Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Prato.
 
 RESOURCE ID: badge_butterfly_collector_garden_title
-TEXT: Garden Collector
+TEXT: Collezionista Prato
 
 RESOURCE ID: badge_butterfly_collector_high_plains_singular
-TEXT: Collect High Plains Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Deserto.
 
 RESOURCE ID: badge_butterfly_collector_high_plains_title
-TEXT: High Plains Collector
+TEXT: Collezionista Deserto
 
 RESOURCE ID: badge_butterfly_collector_icy_snow_singular
-TEXT: Collect Icy Snow Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Nevi Perenni.
 
 RESOURCE ID: badge_butterfly_collector_icy_snow_title
-TEXT: Icy Snow Collector
+TEXT: Collezionista Nevi Perenni
 
 RESOURCE ID: badge_butterfly_collector_jungle_singular
-TEXT: Collect Jungle Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Giungla.
 
 RESOURCE ID: badge_butterfly_collector_jungle_title
-TEXT: Jungle Collector
+TEXT: Collezionista Giungla
 
 RESOURCE ID: badge_butterfly_collector_marine_singular
-TEXT: Collect Marine Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Marino.
 
 RESOURCE ID: badge_butterfly_collector_marine_title
-TEXT: Marine Collector
+TEXT: Collezionista Marino
 
 RESOURCE ID: badge_butterfly_collector_meadow_singular
-TEXT: Collect Meadow Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Giardinfiore.
 
 RESOURCE ID: badge_butterfly_collector_meadow_title
-TEXT: Meadow Collector
+TEXT: Collezionista Giardinfiore
 
 RESOURCE ID: badge_butterfly_collector_modern_singular
-TEXT: Collect Modern Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Trendy.
 
 RESOURCE ID: badge_butterfly_collector_modern_title
-TEXT: Modern Collector
+TEXT: Collezionista Trendy
 
 RESOURCE ID: badge_butterfly_collector_monsoon_singular
-TEXT: Collect Monsoon Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Pluviale.
 
 RESOURCE ID: badge_butterfly_collector_monsoon_title
-TEXT: Monsoon Collector
+TEXT: Collezionista Pluviale
 
 RESOURCE ID: badge_butterfly_collector_ocean_singular
-TEXT: Collect Ocean Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Oceanico.
 
 RESOURCE ID: badge_butterfly_collector_ocean_title
-TEXT: Ocean Collector
+TEXT: Collezionista Oceanico
 
 RESOURCE ID: badge_butterfly_collector_pokeball_singular
-TEXT: Collect Poké Ball Pattern Vivillon.
+TEXT: Aggiungi cartoline/ncon Poké Ball.
 
 RESOURCE ID: badge_butterfly_collector_pokeball_title
-TEXT: Poké Ball Collector
+TEXT: Collezionista Poké Ball
 
 RESOURCE ID: badge_butterfly_collector_polar_singular
-TEXT: Collect Polar Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Nordico.
 
 RESOURCE ID: badge_butterfly_collector_polar_title
-TEXT: Polar Collector
+TEXT: Collezionista Nordico
 
 RESOURCE ID: badge_butterfly_collector_river_singular
-TEXT: Collect River Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Fluviale.
 
 RESOURCE ID: badge_butterfly_collector_river_title
-TEXT: River Collector
+TEXT: Collezionista Fluviale
 
 RESOURCE ID: badge_butterfly_collector_sandstorm_singular
-TEXT: Collect Sandstorm Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Sabbia.
 
 RESOURCE ID: badge_butterfly_collector_sandstorm_title
-TEXT: Sandstorm Collector
+TEXT: Collezionista Sabbia
 
 RESOURCE ID: badge_butterfly_collector_savannah_singular
-TEXT: Collect Savannah Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Savana.
 
 RESOURCE ID: badge_butterfly_collector_savannah_title
-TEXT: Savannah Collector
+TEXT: Collezionista Savana
 
 RESOURCE ID: badge_butterfly_collector_singular
-TEXT: Collect Vivillon from all over the world.
+TEXT: Colleziona Vivillon da tutto il mondo.
 
 RESOURCE ID: badge_butterfly_collector_sun_singular
-TEXT: Collect Sun Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Solare.
 
 RESOURCE ID: badge_butterfly_collector_sun_title
-TEXT: Sun Collector
+TEXT: Collezionista Solare
 
 RESOURCE ID: badge_butterfly_collector_title
-TEXT: Butterfly Collector
+TEXT: Collezionista di Vivillon
 
 RESOURCE ID: badge_butterfly_collector_tundra__singular
-TEXT: Collect Tundra Pattern Vivillon.
+TEXT: Aggiungi cartoline/ndell’area Manto di Neve.
 
 RESOURCE ID: badge_butterfly_collector_tundra_title
-TEXT: Tundra Collector
+TEXT: Collezionista Manto di Neve
 
 RESOURCE ID: badge_capture_bonus_reward
 TEXT: Bonus di cattura per il tipo {1}: +{0}
@@ -6668,6 +6750,102 @@ TEXT: Zona Safari di Pokémon GO
 RESOURCE ID: badge_safarizone_2022_seville_day_03_general_title
 TEXT: Siviglia, 15 maggio 2022
 
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_earlyaccess
+TEXT: Singapore 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_earlyaccess_title
+TEXT: Zona Safari di Pokémon GO - Accesso in anteprima
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_general
+TEXT: Singapore 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_00_general_title
+TEXT: Zona Safari di Pokémon GO
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_earlyaccess
+TEXT: Singapore, 21 ottobre 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_earlyaccess_title
+TEXT: Zona Safari di Pokémon GO - Accesso in anteprima
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_general
+TEXT: Singapore, 21 ottobre 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_01_general_title
+TEXT: Zona Safari di Pokémon GO
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_earlyaccess
+TEXT: Singapore, 22 ottobre 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_earlyaccess_title
+TEXT: Zona Safari di Pokémon GO - Accesso in anteprima
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_general
+TEXT: Singapore, 22 ottobre 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_02_general_title
+TEXT: Zona Safari di Pokémon GO
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_earlyaccess
+TEXT: Singapore, 23 ottobre 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_earlyaccess_title
+TEXT: Zona Safari di Pokémon GO - Accesso in anteprima
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_general
+TEXT: Singapore, 23 ottobre 2022
+
+RESOURCE ID: badge_safarizone_2022_singapore_day_03_general_title
+TEXT: Zona Safari di Pokémon GO
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_earlyaccess
+TEXT: Taipei 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_earlyaccess_title
+TEXT: Zona Safari di Pokémon GO - Accesso in anteprima
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_general
+TEXT: Taipei 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_00_general_title
+TEXT: Zona Safari di Pokémon GO
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_earlyaccess
+TEXT: Taipei, 21 ottobre 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_earlyaccess_title
+TEXT: Zona Safari di Pokémon GO - Accesso in anteprima
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_general
+TEXT: Taipei, 21 ottobre 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_01_general_title
+TEXT: Zona Safari di Pokémon GO
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_earlyaccess
+TEXT: Taipei, 22 ottobre 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_earlyaccess_title
+TEXT: Zona Safari di Pokémon GO - Accesso in anteprima
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_general
+TEXT: Taipei, 22 ottobre 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_02_general_title
+TEXT: Zona Safari di Pokémon GO
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_earlyaccess
+TEXT: Taipei, 23 ottobre 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_earlyaccess_title
+TEXT: Zona Safari di Pokémon GO - Accesso in anteprima
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_general
+TEXT: Taipei, 23 ottobre 2022
+
+RESOURCE ID: badge_safarizone_2022_taipei_day_03_general_title
+TEXT: Zona Safari di Pokémon GO
+
 RESOURCE ID: badge_sentosa_18_apr_2019
 TEXT: Sentosa, 18 aprile 2019
 
@@ -7163,10 +7341,10 @@ RESOURCE ID: batch_transfer_unique_warning_title
 TEXT: La tua selezione contiene questi Pokémon:
 
 RESOURCE ID: batch_transfer_unique_xxl_pokemon
-TEXT: {0} XXL Pokémon
+TEXT: {0} Pokémon XXL
 
 RESOURCE ID: batch_transfer_unique_xxs_pokemon
-TEXT: {0} XXS Pokémon
+TEXT: {0} Pokémon XXS
 
 RESOURCE ID: battle_box
 TEXT: Pacco lotta
@@ -9341,7 +9519,7 @@ RESOURCE ID: battle_day_zygarde
 TEXT: Giornata Lotte GO dedicata a Zygarde
 
 RESOURCE ID: battle_fashion_npcs_plural
-TEXT: Lotta contro {0} sfidanti modaioli
+TEXT: Lotta contro {0} sfidanti alla moda
 
 RESOURCE ID: battle_fashion_npcs_singular
 TEXT: Lotta contro uno sfidante alla moda
@@ -9900,14 +10078,20 @@ TEXT: Fai evolvere Graveler di Alola per ottenere un Golem di Alola che conosce 
 RESOURCE ID: bonus_cd_move_deino
 TEXT: Fai evolvere Zweilos per ottenere un Hydreigon che conosce l’attacco caricato Vorticolpo!
 
+RESOURCE ID: bonus_cd_move_dratini_cdc
+TEXT: Evolve Dragonair to get a Dragonite that knows the Charged Attack Draco Meteor!
+
 RESOURCE ID: bonus_cd_move_litwick
-TEXT: Evolve Lampent to get a Chandelure that knows the Charged Attack Poltergeist!
+TEXT: Fai evolvere Lampent e ottieni uno Chandelure che conosce l’attacco caricato Poltergeist!
 
 RESOURCE ID: bonus_cd_move_roggenrola
 TEXT: Fai evolvere Boldore per ottenere un Gigalith che conosce l’attacco caricato Raggiometeora
 
 RESOURCE ID: bonus_cd_move_starly
 TEXT: Fai evolvere Staravia per ottenere uno Staraptor che conosce l’attacco veloce Raffica
+
+RESOURCE ID: bonus_cd_move_teddiursa
+TEXT: Evolve Ursaring to get an Ursaluna that knows the Charged Attack High Horsepower!
 
 RESOURCE ID: bonus_cd_move_zigzagoon
 TEXT: Fai evolvere Linoone di Galar per ottenere un Obstagoon che conosce l’attacco caricato Sbarramento!
@@ -9920,6 +10104,12 @@ TEXT: Adesivo speciale dell’evento che si ottiene facendo girare i dischi dei 
 
 RESOURCE ID: bonus_event_sticker_plural
 TEXT: Adesivi speciali dell'evento che si ottengono facendo girare i dischi dei Pokéstop in zona
+
+RESOURCE ID: bonus_exclusive_souvenir
+TEXT: È disponibile un souvenir esclusivo dell’evento portato dal compagno!
+
+RESOURCE ID: bonus_finneon_o_clock
+TEXT: Allo scoccare di ogni ora, Finneon apparirà in gran numero!
 
 RESOURCE ID: bonus_implicit_social_alodude
 TEXT: Se vengono catturati abbastanza Pokémon con l’aiuto di un singolo modulo esca, tutti gli Allenatori vicini al Pokéstop presso cui è stato usato otterranno il quadruplo dei PE da cattura per 30 minuti, anziché il triplo
@@ -9937,7 +10127,7 @@ RESOURCE ID: bonus_implicit_social_deino_raid_title
 TEXT: Community Day: sfida raid
 
 RESOURCE ID: bonus_implicit_social_litwick_raid
-TEXT: If Trainers work together to win a Lampent raid, large numbers of Litwick will appear in the area for 30 minutes.
+TEXT: Se gli Allenatori collaborano per sconfiggere Lampent in un raid, un gran numero di Litwick apparirà in zona per 30 minuti.
 
 RESOURCE ID: bonus_implicit_social_lure_4x_catch_xp
 TEXT: Se vengono catturati abbastanza Pokémon con l’aiuto di un singolo modulo esca, tutti gli Allenatori vicini al Pokéstop presso cui è stato usato otterranno il quadruplo dei PE da cattura per 30 minuti, anziché il triplo.
@@ -9946,7 +10136,7 @@ RESOURCE ID: bonus_implicit_social_lure_title
 TEXT: Community Day: sfida di cattura
 
 RESOURCE ID: bonus_implicit_social_raid_title
-TEXT: Sfida raid del Community Day
+TEXT: Community Day Challenge: Raid
 
 RESOURCE ID: bonus_implicit_social_roggenrola_raid
 TEXT: Se gli Allenatori collaborano per sconfiggere Boldore in un raid, un gran numero di Roggenrola apparirà in zona per 30 minuti.
@@ -9956,6 +10146,9 @@ TEXT: Se gli Allenatori sconfiggono Staravia in un raid, più Starly selvatici a
 
 RESOURCE ID: bonus_implicit_social_stufful
 TEXT: Se vengono catturati abbastanza Pokémon con l’aiuto di un singolo modulo esca, tutti gli Allenatori vicini al Pokéstop presso cui è stato usato otterranno il quadruplo dei PE da cattura per 30 minuti, anziché il triplo
+
+RESOURCE ID: bonus_implicit_social_teddiursa_raid
+TEXT: If Trainers work together to win an Ursaring Raid Battle, large numbers of Teddiursa will appear in the area for 30 minutes
 
 RESOURCE ID: bonus_implicit_social_unlock
 TEXT: Bonus disponibile!
@@ -9972,11 +10165,17 @@ TEXT: I moduli esca durano 3 ore
 RESOURCE ID: bonus_magnetic_lure_6_hr
 TEXT: I moduli esca magnetici durano sei ore
 
+RESOURCE ID: bonus_mega_latias_latios
+TEXT: Raid di MegaLatias e MegaLatios stanno apparendo in zona!
+
 RESOURCE ID: bonus_milestone_rewards_title
 TEXT: RICOMPENSE BONUS DA OBIETTIVO
 
 RESOURCE ID: bonus_not_active
 TEXT: Al momento il bonus non è attivo
+
+RESOURCE ID: bonus_purrloin_o_clock
+TEXT: Allo scoccare di ogni ora, Purrloin apparirà in gran numero!
 
 RESOURCE ID: bonus_raid_trainers_gym_bug_types
 TEXT: Se gli Allenatori partecipano insieme a un raid, un gran numero di Pokémon di tipo Coleottero apparirà in zona per 15 minuti
@@ -10041,23 +10240,41 @@ TEXT: Distanza per la schiusa ridotta della metà
 RESOURCE ID: bonus_reward_quarter_hatch_distance
 TEXT: Distanza per la schiusa ridotta del 75%
 
+RESOURCE ID: bonus_singapore_photobomb
+TEXT: Cinque incontri a sorpresa con Corsola e Pikachu con T-shirt viola in modalità foto
+
+RESOURCE ID: bonus_spawn_corsola
+TEXT: Più Corsola stanno apparendo in zona!
+
+RESOURCE ID: bonus_spawn_lapras
+TEXT: Più Lapras stanno apparendo in zona!
+
 RESOURCE ID: bonus_spawn_pikachu
 TEXT: Più Pikachu stanno apparendo allo stato selvatico
 
+RESOURCE ID: bonus_spawn_regional_pika
+TEXT: Pikachu vestiti per l’occasione stanno apparendo in zona!
+
+RESOURCE ID: bonus_spawn_snorlax
+TEXT: Più Snorlax stanno apparendo in zona!
+
 RESOURCE ID: bonus_special_trade_double_cd
-TEXT: Uno scambio speciale in più può essere effettuato durante l’evento e fino a cinque ore dopo l’evento per un massimo di due al giorno.
+TEXT: Uno scambio speciale in più può essere effettuato durante l’evento e fino a cinque ore dopo per un massimo di due al giorno.
 
 RESOURCE ID: bonus_special_trade_starly_cd
-TEXT: Uno scambio speciale in più può essere effettuato durante l’evento e fino a cinque ore dopo l’evento per un massimo di tre al giorno.
+TEXT: Uno scambio speciale in più può essere effettuato durante l’evento e fino a cinque ore dopo per un massimo di tre al giorno.
 
 RESOURCE ID: bonus_special_trade_stufful
-TEXT: Uno scambio speciale in più durante l’evento e fino a due ore dopo l’evento per un massimo di due al giorno
+TEXT: Uno scambio speciale in più può essere effettuato durante l’evento e fino a cinque ore dopo per un massimo di due al giorno
 
 RESOURCE ID: bonus_special_trade_ultra
-TEXT: Uno scambio speciale in più può essere effettuato durante l’evento e fino a cinque ore dopo l’evento per un massimo di quattro al giorno.
+TEXT: Uno scambio speciale in più può essere effettuato durante l’evento e fino a cinque ore dopo per un massimo di quattro al giorno
 
 RESOURCE ID: bonus_spritzee_o_clock
 TEXT: Allo scoccare di ogni ora, Spritzee apparirà in gran numero!
+
+RESOURCE ID: bonus_taipei_photobomb
+TEXT: Cinque incontri a sorpresa con  Pikachu con T-shirt verde (Bacca) e Corsola in modalità foto
 
 RESOURCE ID: bonus_trade_stardust_50pc_5hr
 TEXT: Gli scambi effettuati durante l’evento e fino a cinque ore dopo l’evento richiederanno il 50% di polvere di stelle in meno.
@@ -10081,7 +10298,7 @@ RESOURCE ID: bonus_xl_rare_candy_irl_raids
 TEXT: Caramella Rara L aggiuntiva nei raid dal vivo
 
 RESOURCE ID: boost_box_title
-TEXT: pacco boost
+TEXT: Pacco boost
 
 RESOURCE ID: boosted_mega_pokemon_abomasnow
 TEXT: MegaAbomasnow è temporaneamente più potente!
@@ -10808,6 +11025,12 @@ TEXT: Dei funghi simili a questi di solito crescono sui Pokémon Fungo, come Par
 RESOURCE ID: buddy_souvenir_mushroom_name
 TEXT: Fungo
 
+RESOURCE ID: buddy_souvenir_paper_airplane_description
+TEXT: A small paper airplane made from a sheet of yellow binder paper. Your buddy hopes it will remind you of your time spent adventuring together.
+
+RESOURCE ID: buddy_souvenir_paper_airplane_name
+TEXT: Paper Airplane
+
 RESOURCE ID: buddy_souvenir_pikachu_visor_description
 TEXT: Un accessorio alla moda che gli Allenatori indossano durante gli eventi speciali per mostrare il loro amore per i Pokémon. Pika pika!
 
@@ -10935,7 +11158,7 @@ RESOURCE ID: buddy_tutorial_basic_content_p6
 TEXT: Quando il tuo compagno è al tuo fianco, fai girare un disco Pokéstop o quello di una Palestra mai visitati prima per guadagnare un cuore.
 
 RESOURCE ID: buddy_tutorial_basic_content_p7
-TEXT: Il tuo compagno ti darà dei Regalini e dei souvenir e farà un mare di scoperte durante le vostre avventure insieme. Il vostro livello di affiatamento aumenterà e puoi guadagnare un cuore.
+TEXT: Il tuo compagno ti darà dei regalini e dei souvenir e farà un mare di scoperte durante le vostre avventure insieme. Il vostro livello di affiatamento aumenterà e puoi guadagnare un cuore.
 
 RESOURCE ID: buddy_tutorial_basic_title_p0
 TEXT: Avventure con il tuo compagno!
@@ -11191,6 +11414,9 @@ TEXT: Pacco speciale
 
 RESOURCE ID: bundle_retweet_reward
 TEXT: Pacco ricompensa retweet
+
+RESOURCE ID: calavera_bonus_tr_title
+TEXT: Cráneo Monumental: ricerca a tempo aggiuntiva
 
 RESOURCE ID: campfire_invite_notification
 TEXT: {0} ti ha invitato a condividere il divertimento su Campfire!
@@ -13271,6 +13497,9 @@ TEXT: Sfida un Allenatore
 RESOURCE ID: combat_scan_qr_code_to_combat
 TEXT: Per iniziare una sfida, il tuo avversario dovrà scansionare questo codice sul suo dispositivo.
 
+RESOURCE ID: combat_schedule_open_error
+TEXT: Schedule cannot be opened at this time.
+
 RESOURCE ID: combat_sierra_name
 TEXT: Sierra
 
@@ -13333,7 +13562,7 @@ RESOURCE ID: combat_tired_of_battle
 TEXT: Il tuo avversario non desidera più lottare.
 
 RESOURCE ID: combat_title_season_7
-TEXT: Calendario della Lega Lotte GO della stagione della luce
+TEXT: Calendario della Lega Lotte GO della stagione
 
 RESOURCE ID: combat_train
 TEXT: ALLENATI
@@ -13365,6 +13594,9 @@ TEXT: Weekend del Community Day di dicembre 2021
 RESOURCE ID: community_day_deino_event_name
 TEXT: Community Day dedicato a Deino
 
+RESOURCE ID: community_day_dratini_cdc_event_name
+TEXT: Dratini Community Day Classic
+
 RESOURCE ID: community_day_duskull_event_name
 TEXT: Community Day dedicato a Duskull
 
@@ -13390,7 +13622,7 @@ RESOURCE ID: community_day_hoppip_event_name
 TEXT: Community Day dedicato a Hoppip
 
 RESOURCE ID: community_day_litwick_event_name
-TEXT: Community Day: Litwick
+TEXT: Community Day dedicato a Litwick
 
 RESOURCE ID: community_day_litwick_limited_research
 TEXT: Ricerca mirata dedicata a Litwick
@@ -13449,6 +13681,9 @@ TEXT: Community Day dedicato a Stufful
 RESOURCE ID: community_day_swablu_event_name
 TEXT: Community Day dedicato a Swablu
 
+RESOURCE ID: community_day_teddiursa_event_name
+TEXT: Community Day: Teddiursa
+
 RESOURCE ID: community_day_tepig_event_name
 TEXT: Community Day dedicato a Tepig
 
@@ -13489,7 +13724,7 @@ RESOURCE ID: continue_to_battle_button
 TEXT: Continua e lotta
 
 RESOURCE ID: convert_to_stardust
-TEXT: Potrai ricevere polvere di stelle se apri questo pacco amicizia, ma non riceverai altri oggetti perché il tuo spazio Borsa è pieno. Puoi scegliere se aprire pacchi amicizia quando il tuo spazio Borsa è pieno dal menu delle impostazioni.
+TEXT: Potrai ricevere polvere di stelle se apri questo pacco amicizia, ma non riceverai altri strumenti perché il tuo spazio Borsa è pieno. Puoi scegliere se aprire pacchi amicizia quando il tuo spazio Borsa è pieno dal menu delle impostazioni.
 
 RESOURCE ID: copy_friend_code_title
 TEXT: COPIA IL MIO CODICE
@@ -13613,6 +13848,9 @@ TEXT: Discesa Dragospira
 
 RESOURCE ID: ddlm_2021_collection_challenge
 TEXT: Sfida di collezione di “Dìa de Muertos 2021”
+
+RESOURCE ID: ddlm_2022_collection_challenge
+TEXT: Sfida di collezione di “Día de Muertos 2022”
 
 RESOURCE ID: december_cd_event_ticket
 TEXT: Biglietto per il Community Day di dicembre
@@ -13844,6 +14082,9 @@ TEXT: Solo un esemplare per specie allo stesso tempo può essere assegnato a dif
 RESOURCE ID: disabled_mythic
 TEXT: I Pokémon misteriosi non possono essere lasciati nelle Palestre.
 
+RESOURCE ID: dont_have_account
+TEXT: Don’t have an account?
+
 RESOURCE ID: dont_use_adventure_sync
 TEXT: NON USARE SINCROAVVENTURA
 
@@ -14019,6 +14260,9 @@ TEXT: Coppa Elemento
 
 RESOURCE ID: element_remix_cup_title
 TEXT: Coppa Elemento Remix
+
+RESOURCE ID: elite_raid_title
+TEXT: Raid fuoriclasse
 
 RESOURCE ID: elite_tm_charged_cd_box
 TEXT: MT attacco caricato fuoriclasse disponibile nel pacco Community Day
@@ -14525,7 +14769,7 @@ RESOURCE ID: event_fashion_challenger_title
 TEXT: Sfidante alla moda
 
 RESOURCE ID: event_fashion_week_challengers
-TEXT: Sfidanti modaioli presso i Pokéstop
+TEXT: Sfidanti alla moda presso i Pokéstop
 
 RESOURCE ID: event_fashion_week_discount
 TEXT: Oggetti avatar a prezzo ridotto nel negozio
@@ -15233,7 +15477,7 @@ RESOURCE ID: event_season8_name
 TEXT: Stagione della luce
 
 RESOURCE ID: event_seasonal_eggs
-TEXT: I Pokémon della stagione nascono dalle Uova
+TEXT: Pokémon della stagione nascono dalle Uova
 
 RESOURCE ID: event_seasonal_wild
 TEXT: Pokémon selvatici della stagione
@@ -15344,7 +15588,7 @@ RESOURCE ID: event_wcs_22_npc04_victory_quote
 TEXT: Chissà, magari avrai più fortuna la prossima volta.
 
 RESOURCE ID: event_wcs_challenger_title
-TEXT: sfidante
+TEXT: Sfidante
 
 RESOURCE ID: event_wcs_challengers
 TEXT: Sfidanti stanno comparendo presso i Pokéstop
@@ -15443,13 +15687,13 @@ RESOURCE ID: existing_player_label
 TEXT: Giocatore esistente
 
 RESOURCE ID: expert_box_title
-TEXT: pacco professionista
+TEXT: Pacco professionista
 
 RESOURCE ID: explore_responsibly
 TEXT: Esplora in modo responsabile
 
 RESOURCE ID: explorer_box_title
-TEXT: pacco esploratore
+TEXT: Pacco esploratore
 
 RESOURCE ID: explorer_pikachu_available
 TEXT: Pikachu esploratore sta apparendo allo stato selvatico
@@ -15586,6 +15830,10 @@ TEXT: Pigliamosche
 RESOURCE ID: f_avatar_poses_bundle_pose_41
 TEXT: Guzman
 
+RESOURCE ID: f_avatar_poses_bundle_pose_43
+TEXT: con lanterna
+Pumpkaboo
+
 RESOURCE ID: f_avatar_poses_bundle_pose_44
 TEXT: Con stellina
 
@@ -15713,6 +15961,15 @@ TEXT: +{0} PE
 
 RESOURCE ID: festival_of_colors_event_name
 TEXT: Festa dei colori
+
+RESOURCE ID: festival_of_lights_catch_challenge
+TEXT: Ricerca a tempo della Festa delle luci
+
+RESOURCE ID: festival_of_lights_catch_challenge_page_1
+TEXT: Ricerca a tempo della Festa delle luci (1/2)
+
+RESOURCE ID: festival_of_lights_catch_challenge_page_2
+TEXT: Ricerca a tempo della Festa delle luci (2/2)
 
 RESOURCE ID: festivaloflights_event_name
 TEXT: Festa delle luci
@@ -15937,6 +16194,12 @@ TEXT: Cromatici
 RESOURCE ID: filter_label_traded
 TEXT: Scambiati
 
+RESOURCE ID: finneon_o_clock
+TEXT: Ore Finneon e zero minuti
+
+RESOURCE ID: finneon_o_clock_description
+TEXT: Un gran numero di Finneon appare in zona!
+
 RESOURCE ID: fire_type_event
 TEXT: Invasione di tipo Fuoco
 
@@ -16079,7 +16342,7 @@ RESOURCE ID: five_free_raid_passes
 TEXT: Ottieni fino a cinque biglietti raid gratuiti facendo girare i dischi foto delle Palestre
 
 RESOURCE ID: five_free_raid_passes_remote
-TEXT: Il pacco dedicato al giorno di raid con i biglietti raid da remoto è disponibile nel negozio
+TEXT: Pacco dedicato al giorno di raid con dei biglietti raid da remoto disponibile nel negozio
 
 RESOURCE ID: flavoredlure_bundle_title
 TEXT: Pacco moduli esca
@@ -17092,7 +17355,7 @@ RESOURCE ID: friendslist_sort_gift
 TEXT: Pacchi inviati
 
 RESOURCE ID: friendslist_sort_giftable
-TEXT: PUÒ RICEVERE UN PACCO AMICIZIA
+TEXT: PUÒ RICEVERE PACCO AMICIZIA
 
 RESOURCE ID: friendslist_sort_lastactivity
 TEXT: Ultima attività
@@ -17219,6 +17482,14 @@ TEXT: Un biglietto per accedere all’evento dedicato a Mr. Mime di Galar dalle 
 
 PER RICEVERE I BONUS DELL’EVENTO, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 
+RESOURCE ID: general1.ticket.1_halloween_description
+TEXT: Un biglietto per accedere alla ricerca a tempo dedicata a Yamask dal 20 ottobre 2022 alle 10:00 ora locale al 1° novembre 2022 alla stessa ora, ovunque ti trovi. Questa ricerca a tempo include missioni aggiuntive a tema Halloween e un oggetto avatar. Trovi tutti i dettagli nella sezione Novità dell’app.
+
+Ricorda che le ricerche a tempo hanno una scadenza. Le missioni relative devono essere completate e le ricompense devono essere riscosse entro martedì 1° novembre 2022 alle 10:00, ora locale.
+
+RESOURCE ID: general1.ticket.1_halloween_title
+TEXT: Biglietto per la ricerca a tempo di Halloween
+
 RESOURCE ID: general1.ticket.1_title
 TEXT: Biglietto dell’evento dedicato a Mr. Mime di Galar
 
@@ -17264,6 +17535,9 @@ TEXT: Un biglietto per accedere alla ricerca speciale “Fuoco e fiamme con Magm
 
 PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 
+RESOURCE ID: general1.ticket.2_dratini_cdc_title
+TEXT: Dratini Community Day Classic
+
 RESOURCE ID: general1.ticket.2_duskt_description
 TEXT: Un biglietto per accedere alla ricerca speciale “Duskull, divertimento fino all’osso” il 9 ottobre 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
 
@@ -17296,6 +17570,14 @@ PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 RESOURCE ID: general1.ticket.2_giblt_title
 TEXT: Biglietto: Qualcosa da sgranocchiare
 
+RESOURCE ID: general1.ticket.2_halloween_description
+TEXT: Un biglietto per accedere alla ricerca a tempo dedicata a Yamask dal 20 ottobre 2022 alle 10:00 ora locale al 1° novembre 2022 alla stessa ora, ovunque ti trovi. Questa ricerca a tempo include incontri con Yamask. Trovi tutti i dettagli nella sezione Novità dell’app.
+
+Ricorda che le ricerche a tempo hanno una scadenza. Le missioni relative devono essere completate e le ricompense devono essere riscosse entro martedì 1° novembre 2022 alle 10:00, ora locale.
+
+RESOURCE ID: general1.ticket.2_halloween_title
+TEXT: Biglietto per la ricerca a tempo dedicata a Yamask
+
 RESOURCE ID: general1.ticket.2_hoopau_description
 TEXT: Un biglietto per accedere alla ricerca speciale “Pokémon Birba Libero”, ovunque ti trovi. Tieni presente che puoi ricevere questa ricerca speciale gratuitamente completando la ricerca speciale “Birbanterie incomprese” entro mercoledì 1° dicembre 2021, alle 09:59 ora locale. Se hai già ricevuto questa ricerca speciale gratuitamente, puoi comunque acquistare questo biglietto per ottenere lo stesso set di missioni e ricompense. Per ulteriori dettagli, consulta la sezione Novità dell’app e il blog.
 Per avanzare nella ricerca speciale “Pokémon Birba Libero”, devi aver ottenuto un Hoopa dalla ricerca speciale “Birbanterie incomprese”.
@@ -17312,12 +17594,12 @@ RESOURCE ID: general1.ticket.2_hoppt_title
 TEXT: Op, op, Hop-là!
 
 RESOURCE ID: general1.ticket.2_litwick_description
-TEXT: A ticket to access the Field Notes: Trick of the Light Special Research on October 15, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+TEXT: Un biglietto per accedere alla ricerca speciale “Appunti di campo: scherzetto di luce” il 15 ottobre 2022 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
 
-YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 
 RESOURCE ID: general1.ticket.2_litwick_title
-TEXT: Field Notes: Trick of the Light
+TEXT: Appunti di campo: scherzetto di luce
 
 RESOURCE ID: general1.ticket.2_machop_description
 TEXT: Un biglietto per accedere alla ricerca speciale “Sei una forza, Machop!” dalle 11:00 alle 17:00 ora locale del 16 gennaio, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
@@ -17404,6 +17686,14 @@ PER RICEVERE I BONUS, È NECESSARIO GIOCARE DURANTE LA FASCIA ORARIA INDICATA.
 
 RESOURCE ID: general1.ticket.2_swabt_title
 TEXT: Un volatile dalle ali di cotone
+
+RESOURCE ID: general1.ticket.2_teddiursa_description
+TEXT: A ticket to access the Sweet Snacks Special Research on November 12, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.2_teddiursa_title
+TEXT: Sweet Snacks
 
 RESOURCE ID: general1.ticket.2_tepit_description
 TEXT: Un biglietto per accedere alla ricerca speciale “Bacche arrostite” il 3 luglio 2021 dalle 11:00 alle 17:00 ora locale, ovunque ti trovi. Per ulteriori dettagli, consulta la sezione Novità dell’app.
@@ -17533,16 +17823,16 @@ RESOURCE ID: general_m
 TEXT: m
 
 RESOURCE ID: general_maximum_height
-TEXT: Tallest
+TEXT: Stangone
 
 RESOURCE ID: general_maximum_weight
-TEXT: Heaviest
+TEXT: Macigno
 
 RESOURCE ID: general_minimum_height
-TEXT: Shortest
+TEXT: Mignon
 
 RESOURCE ID: general_minimum_weight
-TEXT: Lightest
+TEXT: Piuma
 
 RESOURCE ID: general_month
 TEXT: Mese
@@ -17644,6 +17934,11 @@ RESOURCE ID: generic_player_lockout
 TEXT: Il tuo account è stato sospeso per violazione dei Termini d’Uso.
 
 Visita il <a href="three_strike_policy_url">servizio clienti</a> per ulteriori informazioni.
+
+RESOURCE ID: gengeneral1.ticket.2_dratini_cdc_description
+TEXT: A ticket to access the Dratini Community Day Classic Special Research on November 5, 2022, from 2:00 p.m. to 5:00 p.m. local time, wherever you are. Details can be found in the in-game News.
+
+YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
 
 RESOURCE ID: geotarget_quest_description
 TEXT: Scansiona {0}
@@ -19547,7 +19842,7 @@ RESOURCE ID: gofestd_2019_medium_win_gym_battle
 TEXT: Sfida globale: vinci {0} lotte in Palestra
 
 RESOURCE ID: gold_box_title
-TEXT: pacco oro
+TEXT: Pacco oro
 
 RESOURCE ID: google_auth_failed
 TEXT: Autenticazione fallita. Riprova.
@@ -20465,7 +20760,7 @@ RESOURCE ID: great_league_remix_title
 TEXT: Lega Mega Remix
 
 RESOURCE ID: great_raid_box_title
-TEXT: pacco raid mega
+TEXT: Pacco raid mega
 
 RESOURCE ID: ground_type_event
 TEXT: Invasione di tipo Terra
@@ -21253,14 +21548,125 @@ TEXT: Un’indagine modulare: effettua {0} bei tiri
 RESOURCE ID: gt_2020_spin_medium
 TEXT: Un’indagine modulare: fai girare {0} dischi Pokéstop
 
+RESOURCE ID: guest_account_link_success_subtitle
+TEXT: You now have access to more features so you can further enjoy the game!
+
+RESOURCE ID: guest_account_link_success_title
+TEXT: Success! Your account has been linked.
+
+RESOURCE ID: guest_auth_failed
+TEXT: Unable to authenticate. Please try again.
+
+RESOURCE ID: guest_level_expiration_subtitle
+TEXT: You will need to sign up to continue playing.
+
+RESOURCE ID: guest_level_expiration_title
+TEXT: Sign up to unlock Level 15 and access more features!
+
+RESOURCE ID: guest_login_button
+TEXT: PLAY AS GUEST
+
+RESOURCE ID: guest_login_sign_up_today_label
+TEXT: Sign up today!
+
+RESOURCE ID: guest_play_without_sign_in
+TEXT: Want to play without signing in?
+
+RESOURCE ID: guest_restricted_feature_adsync_eggs
+TEXT: Hatch Eggs Quicker
+
+RESOURCE ID: guest_restricted_feature_adsync_rewards
+TEXT: Earn More Rewards
+
+RESOURCE ID: guest_restricted_feature_adsync_subtitle
+TEXT: Sign up to count your steps and make progress even when your game is closed!
+
+RESOURCE ID: guest_restricted_feature_adsync_title
+TEXT: Earn more rewards with Adventure Sync!
+
+RESOURCE ID: guest_restricted_feature_avatar_iap
+TEXT: Style Your Avatar with New Items
+
+RESOURCE ID: guest_restricted_feature_battle
+TEXT: Battle Together
+
+RESOURCE ID: guest_restricted_feature_events_subtitle
+TEXT: Sign up for access to exclusive live events!
+
+RESOURCE ID: guest_restricted_feature_events_title
+TEXT: Participate in global and in-person events!
+
+RESOURCE ID: guest_restricted_feature_experiences
+TEXT: Unique In-game Experiences
+
+RESOURCE ID: guest_restricted_feature_friends_subtitle
+TEXT: Sign up to play with friends and unlock special bonuses!
+
+RESOURCE ID: guest_restricted_feature_friends_title
+TEXT: Ready to build friendships?
+
+RESOURCE ID: guest_restricted_feature_gifts
+TEXT: Send Gifts with Stickers
+
+RESOURCE ID: guest_restricted_feature_iap_subtitle
+TEXT: Sign up to enhance your in-game experience with PokéCoins!
+
+RESOURCE ID: guest_restricted_feature_iap_title
+TEXT: Customize your game experience!
+
+RESOURCE ID: guest_restricted_feature_item_storage_iap
+TEXT: Expand Your Item Storage
+
+RESOURCE ID: guest_restricted_feature_limited_catch
+TEXT: Catch Limited-time Pokémon
+
+RESOURCE ID: guest_restricted_feature_pokemon_storage_iap
+TEXT: Expand Your Pokémon Storage
+
+RESOURCE ID: guest_restricted_feature_raid
+TEXT: Join Raids with New Friends
+
+RESOURCE ID: guest_restricted_feature_trade
+TEXT: Trade Pokémon
+
+RESOURCE ID: guest_sign_up_earn_rewards_subtitle
+TEXT: Sign up to access all features and save your progress!
+
+RESOURCE ID: guest_sign_up_earn_rewards_title
+TEXT: Sign Up and Earn Rewards!
+
+RESOURCE ID: guest_sign_up_friendships_body
+TEXT: Add friends so you can send Gifts and unlock certain bonuses.
+
+RESOURCE ID: guest_sign_up_friendships_title
+TEXT: Build Friendships
+
+RESOURCE ID: guest_sign_up_pokemon_body
+TEXT: Discover and catch more wild Pokémon to fill up your Pokédex.
+
+RESOURCE ID: guest_sign_up_pokemon_title
+TEXT: Discover More Pokémon
+
+RESOURCE ID: guest_sign_up_save_progress_body
+TEXT: Link a login method to keep your progress across devices.
+
+RESOURCE ID: guest_sign_up_save_progress_title
+TEXT: Save Your Progress
+
+RESOURCE ID: guest_sign_up_subtitle
+TEXT: You are playing as a guest. Sign up to access all features!
+
+RESOURCE ID: guest_sign_up_title
+TEXT: Sign Up Today!
+
 RESOURCE ID: gui_vivillon_map_header
 TEXT: Habitat di Vivillon
 
 RESOURCE ID: gui_vivillon_medal_button
-TEXT: SEE MEDAL
+TEXT: GUARDA PREMI
 
 RESOURCE ID: gui_vivillon_progress_header
-TEXT: Collection Progress
+TEXT: Progressi di collezione
 
 RESOURCE ID: gym_approach_battles_won
 TEXT: Lotte vinte:
@@ -21566,6 +21972,9 @@ TEXT: Halloween: sconfiggi una recluta del Team GO Rocket
 RESOURCE ID: halloween_2019_snapshot_easy
 TEXT: Halloween: fai {0} foto a Pokémon di tipo Spettro
 
+RESOURCE ID: halloween_cup_title
+TEXT: Coppa Halloween
+
 RESOURCE ID: halloween_event_name
 TEXT: Halloween
 
@@ -21870,7 +22279,7 @@ RESOURCE ID: incenseordinary.8_description
 TEXT: Otto aromi. Emanano un intenso profumo che attrae i Pokémon selvatici per 60 minuti.
 
 RESOURCE ID: incenseordinary.8_title
-TEXT: Aroma x8
+TEXT: Aromi x8
 
 RESOURCE ID: incident_combat_invalid_health_updates_error
 TEXT: Aggiornamento lotta non valido.
@@ -22109,6 +22518,9 @@ TEXT: Oh! Ricordo che il Professor Willow parlava di un processo chiamato “pur
 RESOURCE ID: inventory_egg
 TEXT: Uovo
 
+RESOURCE ID: inventory_keywords_helpshift_label
+TEXT: Puoi filtrare ulteriormente la tua Borsa usando parole chiave per la ricerca.
+
 RESOURCE ID: inventory_no_eggs
 TEXT: Raccogli altre Uova!
 
@@ -22170,13 +22582,25 @@ RESOURCE ID: item_dragon_scale_name
 TEXT: Squama Drago
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: Hai tutte le carte in regola per affrontare delle lotte Pokémon!
+TEXT: Un biglietto per accedere alla ricerca a tempo dal 20 ottobre 2022 alle 10:00 ora locale al 1° novembre 2022 alla stessa ora, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_gray_details
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo dal 20 ottobre 2022 al 1° novembre 2022, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_gray_name
 TEXT: Biglietto
 
 RESOURCE ID: item_event_ticket_gray_to_gift_desc
 TEXT: Un biglietto in più per l’evento, dovuto a un errore di acquisto. Puoi inviarlo a un amico oppure ottenere un rimborso.
+
+RESOURCE ID: item_event_ticket_gray_to_gift_name
+TEXT: Biglietto extra
+
+RESOURCE ID: item_event_ticket_grey_desc
+TEXT: Un biglietto per accedere alla ricerca a tempo dal 20 ottobre 2022 alle 10:00 ora locale al 1° novembre 2022 alla stessa ora, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_grey_details
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo dal 20 ottobre 2022 al 1° novembre 2022, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_bulbt_desc
 TEXT: Un biglietto per accedere alla ricerca speciale il 22 gennaio 2022 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
@@ -22185,22 +22609,28 @@ RESOURCE ID: item_event_ticket_pink_bulbt_details
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale il 22 gennaio 2022, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_desc
-TEXT: Un biglietto per accedere alla ricerca speciale il 18 settembre 2022 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
+TEXT: Un biglietto per accedere alla ricerca a tempo dal 20 ottobre 2022 alle 10:00 ora locale al 1° novembre 2022 alla stessa ora, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_desc_2
-TEXT: Un biglietto per accedere alla ricerca speciale il 21 novembre dalle 11:00 alle 17:00 ora locale, ovunque ti trovi.
+TEXT: Un biglietto per accedere alla ricerca speciale il 12 novembre 2022 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_desc_alodude
 TEXT: Un biglietto per accedere alla ricerca speciale il 21 maggio 2022 dalle 11:00 alle 14:00 ora locale, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_desc_dcdc
+TEXT: Un biglietto per accedere alla ricerca speciale il 5 novembre 2022 dalle 14:00 alle 17:00 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_desc_mrmime
 TEXT: Un biglietto per accedere a un evento speciale dalle 10:00 del 19 dicembre alle 20:00 del 20 dicembre 2020 ora locale, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_details
-TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso a una ricerca speciale il 18 settembre 2022, ovunque ti trovi.
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca a tempo dal 20 ottobre 2022 al 1° novembre 2022, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_details_2
-TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale il 21 novembre, ovunque ti trovi.
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale il 12 novembre 2022, ovunque ti trovi.
+
+RESOURCE ID: item_event_ticket_pink_details_dcdc
+TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso alla ricerca speciale il 5 novembre 2022, ovunque ti trovi.
 
 RESOURCE ID: item_event_ticket_pink_details_mrmime
 TEXT: Questo biglietto si attiverà automaticamente garantendoti l’accesso all’evento dedicato a Mr. Mime di Galar dalle 10:00 del 19 dicembre alle 20:00 al 20 dicembre 2020 ora locale, ovunque ti trovi.
@@ -22760,7 +23190,7 @@ RESOURCE ID: journal_shared_ex_raid_ticket_with_friend
 TEXT: Hai invitato {0} a un raid EX.
 
 RESOURCE ID: journeyer_box_title
-TEXT: pacco avventuriero
+TEXT: Pacco avventuriero
 
 RESOURCE ID: jp_iap_link1
 TEXT: https://niantic.helpshift.com/hc/ja/6-pokemon-go/faq/2046-%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA/?s=others&f=%E8%B3%87%E9%87%91%E6%B1%BA%E6%B8%88%E6%B3%95%E3%81%AB%E5%9F%BA%E3%81%A4%E3%81%8F%E8%A1%A8%E7%A4%BA&l=ja&p=web
@@ -22836,13 +23266,19 @@ RESOURCE ID: language_currently_selected
 TEXT: Lingua già selezionata
 
 RESOURCE ID: language_early_access_language
-TEXT: This is an early access language. Please report any issues if found.
+TEXT: Questa lingua fa parte dell’accesso in anteprima. Segnalaci eventuali problemi.
 
 RESOURCE ID: language_selector_description
 TEXT: Riavvia il gioco per applicare le modifiche.
 
+RESOURCE ID: language_selector_early_access
+TEXT: Questa lingua fa parte dell’accesso in anteprima. Segnalaci eventuali problemi.
+
 RESOURCE ID: language_selector_header
 TEXT: Seleziona lingua
+
+RESOURCE ID: language_selector_new
+TEXT: Novità
 
 RESOURCE ID: language_settings_updated
 TEXT: Impostazioni lingua aggiornate!
@@ -22918,7 +23354,7 @@ RESOURCE ID: league_ruleset_type_label
 TEXT: Tipi di Pokémon ammessi:
 
 RESOURCE ID: legend_box_title
-TEXT: pacco leggenda
+TEXT: Pacco leggenda
 
 RESOURCE ID: legendary_mythical_and_ultra_beast_not_allowed_in_gyms
 TEXT: I Pokémon leggendari, i Pokémon misteriosi e le Ultracreature non possono essere lasciati nelle Palestre.
@@ -23842,7 +24278,7 @@ RESOURCE ID: limited_research_infernape
 TEXT: Ricerca mirata dedicata a Infernape
 
 RESOURCE ID: limited_research_inkay
-TEXT: Ricerca mirata dedicata a Inkay
+TEXT: Inkay Limited Research
 
 RESOURCE ID: limited_research_ivysaur
 TEXT: Ricerca mirata dedicata a Ivysaur
@@ -25141,6 +25577,12 @@ TEXT: <size=36><b>Account esistente</b></size>
 
 Questo account è già collegato a un giocatore.
 
+RESOURCE ID: link_account_sign_in
+TEXT: Create an account to link with.
+
+RESOURCE ID: link_account_sign_up
+TEXT: Sign in to an account to link with.
+
 RESOURCE ID: little_cup_remix_title
 TEXT: Coppa Piccoli Remix
 
@@ -25292,7 +25734,7 @@ RESOURCE ID: love_cup_title
 TEXT: Coppa Tenerezza
 
 RESOURCE ID: lucky_egg_duration_double
-TEXT: I Fortunuovo durano il doppio
+TEXT: I Fortunuova durano il doppio
 
 RESOURCE ID: lucky_friend_description
 TEXT: Il tuo prossimo scambio con questo amico sarà fortunato!
@@ -25328,19 +25770,19 @@ RESOURCE ID: luckyegg.25_description
 TEXT: 25 Uova piene di felicità. Fanno guadagnare al giocatore il doppio dei PE per 30 minuti. 
 
 RESOURCE ID: luckyegg.25_title
-TEXT: Fortunuovo x25
+TEXT: Fortunuova x25
 
 RESOURCE ID: luckyegg.5_description
 TEXT: Cinque Uova piene di felicità. Fanno guadagnare al giocatore il doppio dei PE per 30 minuti. 
 
 RESOURCE ID: luckyegg.5_title
-TEXT: Fortunuovo x5
+TEXT: Fortunuova x5
 
 RESOURCE ID: luckyegg.8_description
 TEXT: Otto Uova piene di felicità. Fanno guadagnare al giocatore il doppio dei PE per 30 minuti. 
 
 RESOURCE ID: luckyegg.8_title
-TEXT: Fortunuovo x8
+TEXT: Fortunuova x8
 
 RESOURCE ID: luminous_x_event_name
 TEXT: Leggende luminose X
@@ -25535,6 +25977,10 @@ TEXT: Pigliamosche
 RESOURCE ID: m_avatar_poses_bundle_pose_41
 TEXT: Guzman
 
+RESOURCE ID: m_avatar_poses_bundle_pose_43
+TEXT: con lanterna
+Pumpkaboo
+
 RESOURCE ID: m_avatar_poses_bundle_pose_44
 TEXT: Con stellina
 
@@ -25621,6 +26067,9 @@ TEXT: Gestisci etichetta
 RESOURCE ID: manage_pokemon_tag_view_all
 TEXT: Visualizza tutti i Pokémon con l’etichetta {0}
 
+RESOURCE ID: manage_postcards_header
+TEXT: Gestisci cartoline
+
 RESOURCE ID: map_equip_desc
 TEXT: Attiva il radar per seguire il segnale sulla mappa.
 
@@ -25679,7 +26128,7 @@ RESOURCE ID: master_premier_classic_title
 TEXT: LM Premier Classica
 
 RESOURCE ID: master_raid_box_title
-TEXT: pacco raid master
+TEXT: Pacco raid master
 
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: Ah, %PLAYERNAME%! Che bello poter contare su di te per quest’avventura. Dimmi, ti dice niente questo motivetto?
@@ -26099,9 +26548,9 @@ RESOURCE ID: mega_walking_progress
 TEXT: Distanza percorsa
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2022-10-30T17:10:54.773238
-at SHA a9d340b3c5945d8273421b9463be2a4b4b784b1b
-Pipeline 1114528, job 13097767
+TEXT: Built at 2022-11-23T03:10:25.735315
+at SHA 66ea01a832d9cd1eaa84a12d285465b239f2febe
+Pipeline 1148722, job 13618625
 
 RESOURCE ID: milestone_rewards_title
 TEXT: RICOMPENSE DA OBIETTIVO
@@ -27174,6 +27623,9 @@ TEXT: Raggiometeora
 RESOURCE ID: move_name_0376
 TEXT: Poltergeist
 
+RESOURCE ID: move_name_0377
+TEXT: Forza Equina
+
 RESOURCE ID: move_reroll_confirm_desc
 TEXT: {0} dimenticherà {1}.
 
@@ -27579,7 +28031,7 @@ RESOURCE ID: next_season_starts_on
 TEXT: La nuova stagione inizia in data: {0}!
 
 RESOURCE ID: next_set_coming_on
-TEXT: La prossima serie in arrivo in data: {0}!
+TEXT: Prossima serie in data: {0}
 
 RESOURCE ID: niantic_anniversary_event
 TEXT: Evento per l’anniversario di Niantic
@@ -27910,7 +28362,7 @@ RESOURCE ID: other_section_title
 TEXT: Altro
 
 RESOURCE ID: paid_raid_ticket_details_desc
-TEXT: I biglietti lotta premium servono per partecipare a un raid o guadagnare ricompense premium nella Lega Lotte GO premium.
+TEXT: I biglietti lotta premium servono per partecipare a un raid o ottenere ricompense premium nella Lega Lotte GO premium.
 
 Per ottenerne altri, visita il negozio.
 
@@ -28148,6 +28600,9 @@ TEXT: Cinque incontri a sorpresa con Charmander in modalità foto GO
 RESOURCE ID: photobomb_five_deino
 TEXT: Cinque incontri a sorpresa con Deino in modalità foto GO
 
+RESOURCE ID: photobomb_five_dratini_cdc
+TEXT: 5 surprise encounters with Dratini in GO Snapshot
+
 RESOURCE ID: photobomb_five_duskull
 TEXT: Cinque incontri a sorpresa con Duskull in modalità foto GO
 
@@ -28219,6 +28674,9 @@ TEXT: Cinque incontri a sorpresa con Stufful in modalità foto GO
 
 RESOURCE ID: photobomb_five_swablu
 TEXT: Cinque incontri a sorpresa con Swablu in modalità foto GO
+
+RESOURCE ID: photobomb_five_teddiursa
+TEXT: 5 surprise encounters with Teddiursa in GO Snapshot
 
 RESOURCE ID: photobomb_five_tepig
 TEXT: Cinque incontri a sorpresa con Tepig in modalità foto GO
@@ -29246,6 +29704,9 @@ TEXT: Mega: {0}
 
 RESOURCE ID: pokedex_filter_header
 TEXT: FILTRA PER:
+
+RESOURCE ID: pokedex_keywords_helpshift_label
+TEXT: Puoi filtrare ulteriormente il tuo Pokédex usando parole chiave per la ricerca.
 
 RESOURCE ID: pokedex_mode_name_all
 TEXT: Tutti
@@ -38575,25 +39036,25 @@ RESOURCE ID: pokemon_shiny_info_transfer_to_professor_confirmation
 TEXT: Vuoi davvero trasferire questo Pokémon cromatico?
 
 RESOURCE ID: pokemon_size_huge_encounter
-TEXT: It's huge!
+TEXT: È ENORME!
 
 RESOURCE ID: pokemon_size_new_banner
-TEXT: New Record
+TEXT: Nuovo record
 
 RESOURCE ID: pokemon_size_new_height_title
-TEXT: New Height Record
+TEXT: Nuovo record di altezza
 
 RESOURCE ID: pokemon_size_new_tag
-TEXT: New
+TEXT: Nuovo
 
 RESOURCE ID: pokemon_size_new_title
-TEXT: New Size Record
+TEXT: Nuovo record di dimensioni
 
 RESOURCE ID: pokemon_size_new_weight_title
-TEXT: New Weight Record
+TEXT: Nuovo record di peso
 
 RESOURCE ID: pokemon_size_tiny_encounter
-TEXT: It's tiny!
+TEXT: È piccolissimo!
 
 RESOURCE ID: pokemon_transfer_legendary_confirmation
 TEXT: Hai selezionato anche dei Pokémon leggendari o dei Pokémon misteriosi! Vuoi davvero trasferire i Pokémon selezionati?
@@ -38731,10 +39192,10 @@ RESOURCE ID: pokemon_won_notification_toast|2
 TEXT: {0} ha trionfato contro i tuoi avversari!
 
 RESOURCE ID: pokemon_xxl_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this XXL Pokémon?
+TEXT: Vuoi davvero trasferire questo Pokémon XXL?
 
 RESOURCE ID: pokemon_xxs_info_transfer_to_professor_confirmation
-TEXT: Do you really want to transfer this XXS Pokémon?
+TEXT: Vuoi davvero trasferire questo Pokémon XXS?
 
 RESOURCE ID: pokemonstorageupgrade.1_description
 TEXT: Aumenta lo spazio per i Pokémon di {0}.
@@ -38892,7 +39353,7 @@ RESOURCE ID: postcard_keep
 TEXT: Aggiungi cartolina
 
 RESOURCE ID: postcard_manage_collection_button
-TEXT: GESTISCI
+TEXT: ORGANIZZA
 
 RESOURCE ID: postcard_multi_delete_button_text
 TEXT: ELIMINA ({0})
@@ -39129,6 +39590,12 @@ TEXT: RIMANENTI: {0}
 
 RESOURCE ID: purchases_remaining_text_singular
 TEXT: RIMANENTE: {0}
+
+RESOURCE ID: purrloin_o_clock
+TEXT: Ore Purrloin e zero minuti
+
+RESOURCE ID: purrloin_o_clock_description
+TEXT: Un gran numero di Purrloin appare in zona!
 
 RESOURCE ID: push_drawing_winner
 TEXT: Sei stato selezionato per una lotteria per un evento dal vivo!
@@ -39976,6 +40443,9 @@ TEXT: Un’increspatura nel tempo
 RESOURCE ID: quest_complete_chart
 TEXT: Questioni di coda
 
+RESOURCE ID: quest_complete_dec2021
+TEXT: Community Day di dicembre 2021
+
 RESOURCE ID: quest_complete_dec20cd
 TEXT: Community Day di dicembre
 
@@ -40542,6 +41012,18 @@ TEXT: Ci tengo a dire che sono veramente orgoglioso dei grandi progressi che tu 
 
 RESOURCE ID: quest_dialogue_thanks_3
 TEXT: Il 2020 è ormai alle porte e tante altre avventure ci attendono. Fino ad allora, pronti, partenza... GO!
+
+RESOURCE ID: quest_dragonair_evolve_b
+TEXT: Fai evolvere {0} Dragonair
+
+RESOURCE ID: quest_dratini_cdc_catch_b
+TEXT: Catch {0} Dratini
+
+RESOURCE ID: quest_dratini_cdc_evolve_b
+TEXT: Evolve {0} Dratini
+
+RESOURCE ID: quest_dratini_cdc_snapshot_b
+TEXT: Take a snapshot of {0} Dratini
 
 RESOURCE ID: quest_dude_catch
 TEXT: Cattura {0} Geodude
@@ -42530,7 +43012,7 @@ RESOURCE ID: quest_kanto_red_oddish
 TEXT: Tour GO: cattura Oddish
 
 RESOURCE ID: quest_lampent_evolve_b
-TEXT: Evolve {0} Lampent
+TEXT: Fai evolvere {0} Lampent
 
 RESOURCE ID: quest_land_curve_type_ghost
 TEXT: Lancia {0} palle curve per catturare Pokémon di tipo Spettro
@@ -42620,13 +43102,13 @@ RESOURCE ID: quest_land_nice_type_ghost
 TEXT: Effettua {0} bei tiri per catturare Pokémon di tipo Spettro
 
 RESOURCE ID: quest_litwick_catch_b
-TEXT: Catch {0} Litwick
+TEXT: Cattura {0} Litwick
 
 RESOURCE ID: quest_litwick_evolve_b
-TEXT: Evolve {0} Litwick
+TEXT: Fai evolvere {0} Litwick
 
 RESOURCE ID: quest_litwick_snapshot_b
-TEXT: Take {0} snapshots of Litwick
+TEXT: Fai {0} foto a Litwick
 
 RESOURCE ID: quest_lucky_plural
 TEXT: Ottieni {0} Pokémon fortunati attraverso gli scambi
@@ -43048,6 +43530,9 @@ TEXT: Fai una foto a {0} Pokémon diversi di tipo Coleottero catturati
 RESOURCE ID: quest_snapshot_storage_steel_unique_plural
 TEXT: Fai una foto a {0} Pokémon diversi di tipo Acciaio catturati
 
+RESOURCE ID: quest_snapshot_storage_unique_plural
+TEXT: Fai una foto a {0} Pokémon selvatici diversi
+
 RESOURCE ID: quest_snapshot_thundurus
 TEXT: Fai una foto a Thundurus
 
@@ -43179,6 +43664,9 @@ TEXT: Fai una foto a Suicune allo stato selvatico
 
 RESOURCE ID: quest_snapshot_wild_trapinch_sandshrew_cacnea
 TEXT: Fai una foto a Sandshrew, Trapinch o Cacnea allo stato selvatico
+
+RESOURCE ID: quest_snapshot_wild_unique_plural
+TEXT: Fai una foto a {0} Pokémon selvatici diversi
 
 RESOURCE ID: quest_snapshot_wild_water_fire_grass_unique_plural
 TEXT: Fai una foto a {0} Pokémon selvatici diversi di tipo Fuoco, Acqua o Erba
@@ -44054,6 +44542,93 @@ TEXT: Grazie per avermi accompagnato nelle mie indagini quest’oggi, Allenatore
 RESOURCE ID: quest_special_dialogue_deino_3_6
 TEXT: Credevo che i misteri degli Ultravarchi e delle Ultracreature sarebbero stati l’oggetto principale dei miei studi... Ma anche i Pokémon del tuo mondo sembrano celare tanti arcani.
 
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_0
+TEXT: Hey, %PLAYERNAME%, great timing! Fancy doing a little investigation?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_1
+TEXT: All these Ultra Wormholes we’ve encountered lately have got me thinking. Ultra Space is fascinating, sure, but there are places closer to home that still beg to be explored—like the fabled island of Dragonite!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_2
+TEXT: Have you heard the tale?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_3
+TEXT: Once, a Dragonite saved a shipwrecked man, taking him to a remote island—a paradise occupied solely by Dragonite. Doesn’t that sound like something, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_4
+TEXT: Imagine the unique ecosystem that island would have! It’d be a veritable treasure trove for scientific inquiry.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_5
+TEXT: Questions are already rattling around in my head: what do Dragonite use their horns for? How quickly can they move in water? What kind of Berries do they—
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_6
+TEXT: Whoops. I’m getting ahead of myself. First, we need to do some baseline research on the Pokémon in question.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_7
+TEXT: We might even find some clues about this Dragonite paradise! 
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_0_8
+TEXT: Let’s start by observing Dratini, which can evolve into Dragonair and then Dragonite, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_0
+TEXT: Whoa! Look at how many Dratini you’ve caught, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_1
+TEXT: Did you know that in the past, Dratini was so rarely glimpsed that some called it the “Mirage Pokémon”?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_2
+TEXT: And yet here you are with a whole host of them. They seem real enough to me!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_3
+TEXT: You know, I read a report recently that a small colony of Dratini was found living underwater.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_4
+TEXT: That would suggest that Dratini and its Evolutions like to live in groups.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_5
+TEXT: And if that’s true...then the island of Dragonite could be real after all! First, though, we should learn more about Dratini’s Evolution, Dragonair.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_1_6
+TEXT: Think you can find one, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_0
+TEXT: What a majestic Dragonair, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_1
+TEXT: Dragonair’s mystical appearance always leaves me in awe. In fact, this Pokémon is known for its gentle aura.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_2
+TEXT: Some even call it divine! And for good reason—see the crystalline globes on its head and tail? Dragonair can use them to freely control the weather.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_3
+TEXT: I bet that’d come in useful if you had, say, an island full of Dragonite that you wanted to keep hidden. Or if you were constantly forgetting your research notes outside on rainy days...
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_2_4
+TEXT: But that’s a me problem. Next, let’s help Dragonair evolve into the star of today’s studies—Dragonite!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_0
+TEXT: Fantastic, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_1
+TEXT: Just like Dratini and Dragonair, Dragonite is an extremely rarely seen Pokémon. How lucky we are that we can study one today!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_2
+TEXT: Dragonite is known as “the sea incarnate.” Incur the wrath of this normally calm Pokémon at your peril, because it will smash everything to smithereens before it’s satisfied.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_3
+TEXT: Luckily for us, it’s typically a kindhearted Pokémon. If it spots a drowning person or Pokémon, Dragonite simply must help them—like that shipwrecked man I mentioned earlier today.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_4
+TEXT: Why don’t we set sail and get looking for that island? Dragonite’ll surely bail us out if things go sideways!
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_5
+TEXT: I’m joking, I’m joking. Thanks for humoring me today, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_6
+TEXT: Even without weighing anchor, we learned more about Pokémon and found new ways to look at facts we already knew. I’d say that’s time well spent.
+
+RESOURCE ID: quest_special_dialogue_dratini_cdc_3_7
+TEXT: Though to be fair, I’d say that about any time we spend together. Heh. I’ll be in touch again soon, %PLAYERNAME%!
+
 RESOURCE ID: quest_special_dialogue_duskt_0_0
 TEXT: Ehilà, %PLAYERNAME%! Hai notato anche tu che ultimamente stanno apparendo più Pokémon di tipo Spettro?
 
@@ -44782,6 +45357,87 @@ TEXT: Dopotutto, mi sembra sempre di imparare qualcosa in più su di me quando i
 RESOURCE ID: quest_special_dialogue_hallow_2021_3_7
 TEXT: Comunque, penso che dopo tutta quella ricerca ci meritiamo del buon riposo e degli snack. Alla prossima volta, %PLAYERNAME%!
 
+RESOURCE ID: quest_special_dialogue_hallow_22_0_0
+TEXT: %PLAYERNAME%, il tuo arrivo capita al momento opportuno.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_1
+TEXT: Ho appena osservato uno spettacolo curioso.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_2
+TEXT: Proprio in quel punto sono apparsi dei visi vagamente umani fluttuanti, sembravano scolpiti in tavolette di... argilla?
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_3
+TEXT: Nonostante alcune differenze, quelle apparizioni avevano una parvenza similare.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_4
+TEXT: Come con molte cose misteriose in questo mondo, sospetto che dietro vi si celino dei Pokémon.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_0_5
+TEXT: Se questo è il caso, vorrei tanto catturarli. Poi forse il Professor Willow potrà condividere il suo punto di vista.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_0
+TEXT: Dov’è quel mio vecchio vestito... Ehi, tu, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_1
+TEXT: Sono giorni che penso a cosa indossare alla festa in costume di Spark. Un cappello Litwick? Un costume Pikachu? Non posso lasciare che Candela mi eclissi di nuovo quest’anno.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_2
+TEXT: Parlando di travestimenti... Quelli sono uno Yamask e uno Yamask di Galar? Non riesco a nascondere la mia emozione!
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_3
+TEXT: Sai, si dice che le maschere che indossa siano i volti che Yamask aveva quando era umano. A volte si mette a piangere mentre le guarda.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_4
+TEXT: Yamask di Galar sembra essere nato da un’antica tavoletta di argilla che si è impossessata di un’anima tormentata dal rancore.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_5
+TEXT: Origini cupe, ma accendono la tua curiosità, vero? Mi chiedo come si sentano ora che sono diventati Pokémon. Che pensieri attraverseranno la loro mente?
+
+RESOURCE ID: quest_special_dialogue_hallow_22_1_6
+TEXT: Nello “spirito” dell’indagine, perché non scopri quali altri Pokémon di tipo Spettro riesci a trovare? Potresti persino incrociare altri Yamask!
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_0
+TEXT: Il Professor Willow è sicuramente una persona di vaste conoscenze. Abbiamo fatto bene a interpellare la sua saggezza.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_1
+TEXT: Pensare che Yamask e Yamask di Galar hanno tali origini... sembra incredibile.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_2
+TEXT: Ti devo ringraziare per averli catturati. Ogni giorno che trascorriamo insieme, imparo qualcosa di nuovo.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_3
+TEXT: I Pokémon che abbiamo incontrato ultimamente erano... oscuri, per così dire.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_4
+TEXT: Ma, come dice il professore, sono solo un altro mistero su cui noi ricercatori possiamo fare luce con le nostre scoperte. La paura non deve essere un ostacolo quando si esplora l’ignoto.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_5
+TEXT: %PLAYERNAME%, continuerò a osservare questi Yamask, intanto che ripenso agli eventi odierni.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_6
+TEXT: Magari tu potresti studiare altri Pokémon di tipo Spettro nel frattempo.
+
+RESOURCE ID: quest_special_dialogue_hallow_22_2_7
+TEXT: E per contraccambiare il Professor Willow, proverò a vedere se ho una divisa dell’Ultrapattuglia GO nella sua taglia...
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_0
+TEXT: Ehi, %PLAYERNAME%! Eccoti di nuovo! Ho appena finito la mia Yamask, ehm, maschera ispirata a te e Rhi! Che cosa avete combinato voi due?
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_1
+TEXT: Wow, hai catturato un sacco di Pokémon di tipo Spettro! Sembra quasi di trovarsi in una casa infestata dagli spiriti, o meglio un laboratorio!
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_2
+TEXT: I Pokémon di tipo Spettro mi ricordano sempre quanto abbiamo ancora da scoprire nel mondo. Verso dove fluttuano i Drifloon? Veramente i Duskull portano via i bambini? Da dove prende l’energia Golett?
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_3
+TEXT: Con sufficiente tempo e perseveranza, sono certo che noi ricercatori troveremo le risposte a queste e a tante altre domande. O magari saranno Allenatori in gamba come te a fornire le soluzioni! Quando si tratta di imparare, buttati a capofitto, dico sempre!
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_4
+TEXT: Anche se... Forse dovrei escludere gli Ultravarchi da quel detto. Ah ah ah!
+
+RESOURCE ID: quest_special_dialogue_hallow_22_3_5
+TEXT: Grazie per avermi motivato oggi, %PLAYERNAME%. Alla prossima!
+
 RESOURCE ID: quest_special_dialogue_hallowyamas_0_0
 TEXT: Buh! Ah ah! Ehilà, %PLAYERNAME%!
 
@@ -45070,77 +45726,77 @@ RESOURCE ID: quest_special_dialogue_jj_3_7
 TEXT: Jessie: Ripartiamo alla velocità della luce!
 
 RESOURCE ID: quest_special_dialogue_litwick_0_0
-TEXT: Hey, %PLAYERNAME%! Is it just me, or is there a ghostly chill in the air?
+TEXT: Ehi, %PLAYERNAME%! Sono io o si percepisce una certa presenza inquietante nell’aria?
 
 RESOURCE ID: quest_special_dialogue_litwick_0_1
-TEXT: It could have something to do with those lights over there! They belong to Litwick, the Candle Pokémon.
+TEXT: Potrebbe avere a che fare con quelle luci laggiù. È Litwick, il Pokémon Candela, che le emana.
 
 RESOURCE ID: quest_special_dialogue_litwick_0_2
-TEXT: Litwick is known to leech off the life force of any who follow it.
+TEXT: Si sa che Litwick assorbe l’energia vitale di chiunque lo segua.
 
 RESOURCE ID: quest_special_dialogue_litwick_0_3
-TEXT: The younger the life this Pokémon absorbs, the brighter and eerier the flame on its head burns. Makes for a pretty ominous candle, wouldn’t you say?
+TEXT: Più è giovane la vittima da cui ha assorbito l’energia vitale, più grande e sinistra è la fiamma che gli brilla sul capo. Una candela piuttosto nefasta, che dici?
 
 RESOURCE ID: quest_special_dialogue_litwick_0_4
-TEXT: Litwick appearing in such force makes the perfect chance to learn more about them. I suggest you get up close and see for yourself!
+TEXT: Un tale dispiego di Litwick è l’occasione perfetta per imparare di più su questo Pokémon. Ti suggerisco di avvicinarti e di dare un’occhiata.
 
 RESOURCE ID: quest_special_dialogue_litwick_0_5
-TEXT: Just be careful not to let Litwick lead you anywhere, %PLAYERNAME%!
+TEXT: Fai attenzione però a non farti guidare da Litwick, %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_litwick_1_0
-TEXT: Good day, Trainer. Professor Willow has tasked you with investigating...Litwick, is it?
+TEXT: Buongiorno! Il Professor Willow ti ha dato il compito di compiere qualche ricerca su Litwick, vero?
 
 RESOURCE ID: quest_special_dialogue_litwick_1_1
-TEXT: The flame on its head is certainly alluring. A Pokémon that can bring light to its surroundings… What could be the source of its brilliant glow?
+TEXT: La fiamma che ha sul capo ha davvero un certo fascino. Un Pokémon che può far luce su ciò che lo circonda... Quale potrebbe essere la fonte della sua fiamma brillante?
 
 RESOURCE ID: quest_special_dialogue_litwick_1_2
-TEXT: "Life force," Professor Willow says? Peculiar. I wonder—would those flames transform if Litwick were to evolve?
+TEXT: “L’energia vitale”, dice il Professor Willow? Interessante. Chissà come si trasformerebbe quella fiamma, se Litwick si evolvesse?
 
 RESOURCE ID: quest_special_dialogue_litwick_1_3
-TEXT: What are your thoughts, %PLAYERNAME%?
+TEXT: Tu che ne pensi, %PLAYERNAME%?
 
 RESOURCE ID: quest_special_dialogue_litwick_2_0
-TEXT: Wow, %PLAYERNAME%! You went looking for Litwick and came back with a lamp! 
+TEXT: Wow, %PLAYERNAME%! Sei andato a cercare Litwick e sei tornato con una lampada!
 
 RESOURCE ID: quest_special_dialogue_litwick_2_1
-TEXT: I kid—I know a Lampent when I see one! And it was Rhi who suggested you help Litwick evolve? That’s great. We can always learn more when encouraged by our friends!
+TEXT: Scherzo, riconosco un Lampent quando ne vedo uno! Ed è stato Rhi a suggerirti di aiutare Litwick a evolversi? Fantastico. Possiamo sempre imparare qualcosa di nuovo quando abbiamo degli amici che ci supportano.
 
 RESOURCE ID: quest_special_dialogue_litwick_2_2
-TEXT: So, let me tell you about Lampent! While it often pretends to be a lamp, Lampent is usually feared as an emissary of death. 
+TEXT: Allora, dimmi un po’ di Lampent. Spesso si finge una lampada, ma di solito è molto temuto in quanto è considerato l’aiutante della divinità della morte.
 
 RESOURCE ID: quest_special_dialogue_litwick_2_3
-TEXT: Through cities it wanders, searching for the spirits of the fallen. Spooky, but appropriate for the season! 
+TEXT: Vaga per le città alla ricerca di persone prossime alla fine. Spaventoso, ma direi che siamo nella stagione giusta!
 
 RESOURCE ID: quest_special_dialogue_litwick_2_4
-TEXT: And what a sight that fire is. I’m sure you and Rhi would get a kick out of seeing Lampent’s Evolution, Chandelure, too! But a word of caution, %PLAYERNAME%...
+TEXT: E che fiamma magnifica. Sono sicuro che a te e Rhi piacerebbe incontrare anche Chandelure, l’evoluzione di Lampent. Ma attenzione, %PLAYERNAME%...
 
 RESOURCE ID: quest_special_dialogue_litwick_2_5
-TEXT: They say spirits burned up in Chandelure's ominous flame lose their way and wander this world forever.
+TEXT: Si dice che le anime bruciate dalle sue fiamme cupe perdono la strada e rimangono a vagare in questo mondo per l’eternità.
 
 RESOURCE ID: quest_special_dialogue_litwick_3_0
-TEXT: That new Pokémon...
+TEXT: Quel nuovo Pokémon...
 ... ... ...
 
 RESOURCE ID: quest_special_dialogue_litwick_3_1
-TEXT: Oh. My apologies, %PLAYERNAME%. I was...preoccupied gazing at the flame your Pokémon is emanating.
+TEXT: Oh, scusa, %PLAYERNAME%. Mi ero incantato a guardare quella fiamma emanata dal tuo Pokémon.
 
 RESOURCE ID: quest_special_dialogue_litwick_3_2
-TEXT: ... ... ...
+TEXT: ...
 
 RESOURCE ID: quest_special_dialogue_litwick_3_3
-TEXT: The swaying of its arms is rather hypnotic.
+TEXT: Quando fa tremolare le fiammelle sugli arti, ha un effetto piuttosto ipnotico.
 
 RESOURCE ID: quest_special_dialogue_litwick_3_4
-TEXT: It's called "Chandelure," is it? And Professor Willow said its flames can burn up spirits? An unsettling thought.
+TEXT: Si chiama Chandelure, vero? E il Professor Willow ha detto che le sue fiamme possono bruciare le anime? Che cosa inquietante!
 
 RESOURCE ID: quest_special_dialogue_litwick_3_5
-TEXT: The Pokémon we studied today could easily be seen as frightening. Yet I believe there is a lesson we can take from them.
+TEXT: I Pokémon che abbiamo esaminato oggi possono essere considerati spaventosi, ma sicuramente possiamo trarne una lezione.
 
 RESOURCE ID: quest_special_dialogue_litwick_3_6
-TEXT: No matter how dark the world becomes, a little light always persists.
+TEXT: Non importa quanta oscurità ci circondi, c’è sempre una piccola luce che brilla.
 
 RESOURCE ID: quest_special_dialogue_litwick_3_7
-TEXT: Thank you for teaching me that lesson once again, %PLAYERNAME%. Take care, and I will see you again.
+TEXT: Grazie per avermi ricordato questo prezioso insegnamento, %PLAYERNAME%. Abbi cura di te, a presto!
 
 RESOURCE ID: quest_special_dialogue_lvl_43_0_0
 TEXT: Ehilà, %PLAYERNAME%! Devo dire che sono rimasto davvero colpito dai progressi che hai fatto come Allenatore.
@@ -46220,7 +46876,7 @@ RESOURCE ID: quest_special_dialogue_meloetta_0_1
 TEXT: Mi hanno ricordato quanto sia meraviglioso potersi esprimere in assoluta libertà. Io per esempio mi diverto un mondo ad alzare il volume della musica e a far finta di suonare la chitarra.
 
 RESOURCE ID: quest_special_dialogue_meloetta_0_2
-TEXT: Altri, come Spark, passerebbero ore a scattare foto dei Pokémon nel loro ambiente naturare. Mi chiedo come si sentano quei Pokémon a indossare quel particolare abbigliamento.
+TEXT: Altri, come Spark, passerebbero ore a scattare foto dei Pokémon nel loro ambiente naturale. Mi chiedo come si sentano quei Pokémon a indossare quel particolare abbigliamento.
 
 RESOURCE ID: quest_special_dialogue_meloetta_0_3
 TEXT: Mi sa che è arrivato il momento di indagare!
@@ -49536,6 +50192,75 @@ TEXT: Sono sicuro che tu e il tuo Pokémon farete tante cose incredibili insieme
 RESOURCE ID: quest_special_dialogue_tcg1_5_6
 TEXT: Grazie ancora per il tuo aiuto. Alla prossima! Pronti, partenza... GO!
 
+RESOURCE ID: quest_special_dialogue_teddiursa_0_0
+TEXT: Hey, %PLAYERNAME%! Good to see you again!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_1
+TEXT: You know, I thought I smelled something sweet in the air today.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_2
+TEXT: Did I spill Berry juice again, you ask? You wound me, %PLAYERNAME%! As if I’d ruin this snazzy new jacket!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_3
+TEXT: Heh. In all seriousness, the smell was coming from outside.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_0_4
+TEXT: Unfortunately, I didn’t have a chance to track down the source of the scent. But now that you’re here, maybe you can sniff it out!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_0
+TEXT: Welcome back, %PLAYERNAME%. Seeing as you’ve got Teddiursa with you, I think I can connect the dots on what I was smelling earlier—honey!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_1
+TEXT: Teddiursa likes to lick its palms after soaking them in honey, so it’s no wonder I caught a whiff.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_2
+TEXT: That reminds me of a fun fact about Teddiursa’s Evolution, Ursaring.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_3
+TEXT: With its ability to distinguish any aroma, Ursaring unfailingly finds all food buried deep underground. If only it was that easy for me to find lunch!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_1_4
+TEXT: Why don’t you help Teddiursa evolve so you can see Ursaring’s sleuthing skills for yourself, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_0
+TEXT: I thought I heard something stomping about, and here you are, Ursaring in tow!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_1
+TEXT: Here’s the thing about Ursaring—although it has a large body, it’s quite skilled at climbing trees. It eats and sleeps in the treetops.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_2
+TEXT: Ah, to be an Ursaring... Imagine how much easier that’d make fieldwork—or picking Pinap Berries!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_3
+TEXT: Ahem. Snacks aside, have you noticed there’s a full moon out early today?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_2_4
+TEXT: Looks like Ursaring is staring at it, too. Think you can find out why, %PLAYERNAME%?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_0
+TEXT: Whoa! Could that be—Ursaluna?!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_1
+TEXT: I’ve never seen one in these parts. What an incredible find! Hmm...
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_2
+TEXT: Maybe in the Hisui region of long ago, where Ursaluna was first discovered, the full moon played a part in how Ursaring evolved.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_3
+TEXT: It’s theorized that Hisui's swampy terrain gave Ursaluna its burly physique and ability to manipulate peat at will.
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_4
+TEXT: What kind of food would suit a Pokémon accustomed to living in swamps? Grains? Beans? Cake?
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_5
+TEXT: Maybe I should get baking for some firsthand taste-testing. I bet Teddiursa could lend me some honey!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_6
+TEXT: Ah—listen to me yammering on and on. Researching Pokémon first found in Hisui never fails to pique my curiosity about the past!
+
+RESOURCE ID: quest_special_dialogue_teddiursa_3_7
+TEXT: Thanks again for spending the day learning about Pokémon with me, %PLAYERNAME%. I can always count on you to make my work a little sweeter!
+
 RESOURCE ID: quest_special_dialogue_tepit_0_0
 TEXT: Ehilà, %PLAYERNAME%! Felice di vederti. Che cosa hai di bello da fare oggi?
 
@@ -49985,6 +50710,15 @@ TEXT: Cattura {0} Swablu
 RESOURCE ID: quest_swabt_evolve_b
 TEXT: Fai evolvere {0} Swablu
 
+RESOURCE ID: quest_teddiursa_catch_b
+TEXT: Catch {0} Teddiursa
+
+RESOURCE ID: quest_teddiursa_evolve_b
+TEXT: Evolve {0} Teddiursa
+
+RESOURCE ID: quest_teddiursa_snapshot_b
+TEXT: Take a snapshot of {0} Teddiursa
+
 RESOURCE ID: quest_template.display.branches#0.button_text_key
 TEXT: Raid, reclute e Palestre!
 
@@ -50153,6 +50887,9 @@ TEXT: Questioni di coda (4/5)
 RESOURCE ID: quest_title_chart_4
 TEXT: Questioni di coda (5/5)
 
+RESOURCE ID: quest_title_dec2021
+TEXT: Community Day di dicembre 2021
+
 RESOURCE ID: quest_title_dec20cd
 TEXT: Community Day di dicembre
 
@@ -50182,6 +50919,21 @@ TEXT: Appunti di campo: Deino (3/4)
 
 RESOURCE ID: quest_title_deino_3
 TEXT: Appunti di campo: Deino (4/4)
+
+RESOURCE ID: quest_title_dratini_cdc
+TEXT: Dratini Community Day Classic
+
+RESOURCE ID: quest_title_dratini_cdc_0
+TEXT: Dratini Community Day Classic (1/4)
+
+RESOURCE ID: quest_title_dratini_cdc_1
+TEXT: Dratini Community Day Classic (2/4)
+
+RESOURCE ID: quest_title_dratini_cdc_2
+TEXT: Dratini Community Day Classic (3/4)
+
+RESOURCE ID: quest_title_dratini_cdc_3
+TEXT: Dratini Community Day Classic (4/4)
 
 RESOURCE ID: quest_title_duskt
 TEXT: Duskull, divertimento fino all’osso
@@ -50363,6 +51115,36 @@ TEXT: Cosa si nasconde dietro la maschera? (3/4)
 RESOURCE ID: quest_title_hallow_2021_3
 TEXT: Cosa si nasconde dietro la maschera? (4/4)
 
+RESOURCE ID: quest_title_hallow_22
+TEXT: Maschere misteriose
+
+RESOURCE ID: quest_title_hallow_22_0
+TEXT: Maschere misteriose (1/4)
+
+RESOURCE ID: quest_title_hallow_22_1
+TEXT: Maschere misteriose (2/4)
+
+RESOURCE ID: quest_title_hallow_22_2
+TEXT: Maschere misteriose (3/4)
+
+RESOURCE ID: quest_title_hallow_22_3
+TEXT: Maschere misteriose (4/4)
+
+RESOURCE ID: quest_title_hallow_tr_22
+TEXT: Ricerca a tempo di Halloween
+
+RESOURCE ID: quest_title_hallow_tr_22_0
+TEXT: Ricerca a tempo di Halloween (1/4)
+
+RESOURCE ID: quest_title_hallow_tr_22_1
+TEXT: Ricerca a tempo di Halloween (2/4)
+
+RESOURCE ID: quest_title_hallow_tr_22_2
+TEXT: Ricerca a tempo di Halloween (3/4)
+
+RESOURCE ID: quest_title_hallow_tr_22_3
+TEXT: Ricerca a tempo di Halloween (4/4)
+
 RESOURCE ID: quest_title_hallowyamas
 TEXT: Un messaggio inquietante in maschera
 
@@ -50499,19 +51281,19 @@ RESOURCE ID: quest_title_jj_special_research_3
 TEXT: Una cromatica distrazione (4/4)
 
 RESOURCE ID: quest_title_litwick
-TEXT: Field Notes: Trick of the Light
+TEXT: Appunti di campo: scherzetto di luce
 
 RESOURCE ID: quest_title_litwick_0
-TEXT: Field Notes: Trick of the Light (1/4)
+TEXT: Appunti di campo: scherzetto di luce (1/4)
 
 RESOURCE ID: quest_title_litwick_1
-TEXT: Field Notes: Trick of the Light (2/4)
+TEXT: Appunti di campo: scherzetto di luce (2/4)
 
 RESOURCE ID: quest_title_litwick_2
-TEXT: Field Notes: Trick of the Light (3/4)
+TEXT: Appunti di campo: scherzetto di luce (3/4)
 
 RESOURCE ID: quest_title_litwick_3
-TEXT: Field Notes: Trick of the Light (4/4)
+TEXT: Appunti di campo: scherzetto di luce (4/4)
 
 RESOURCE ID: quest_title_luminous_x_0
 TEXT: Leggende luminose X (1/7)
@@ -51257,6 +52039,9 @@ TEXT: Birbanterie incomprese (9/16)
 RESOURCE ID: quest_title_season4_9
 TEXT: Birbanterie incomprese (10/16)
 
+RESOURCE ID: quest_title_season5_dec
+TEXT: Stagione della tradizione: sfida polvere di stelle
+
 RESOURCE ID: quest_title_season5_feb
 TEXT: Stagione della tradizione: sfida di cattura
 
@@ -51617,6 +52402,21 @@ TEXT: Ricerca Accademica (5/6)
 RESOURCE ID: quest_title_tcg1_5
 TEXT: Ricerca Accademica (6/6)
 
+RESOURCE ID: quest_title_teddiursa
+TEXT: Sweet Snacks
+
+RESOURCE ID: quest_title_teddiursa_0
+TEXT: Sweet Snacks (1/4)
+
+RESOURCE ID: quest_title_teddiursa_1
+TEXT: Sweet Snacks (2/4)
+
+RESOURCE ID: quest_title_teddiursa_2
+TEXT: Sweet Snacks (3/4)
+
+RESOURCE ID: quest_title_teddiursa_3
+TEXT: Sweet Snacks (4/4)
+
 RESOURCE ID: quest_title_tepit
 TEXT: Bacche arrostite
 
@@ -51836,6 +52636,15 @@ TEXT: Una situazione spinosa (3/4)
 RESOURCE ID: quest_title_wt_3
 TEXT: Una situazione spinosa (4/4)
 
+RESOURCE ID: quest_title_yamask_tr_22
+TEXT: Ricerca a tempo dedicata a Yamask
+
+RESOURCE ID: quest_title_yamask_tr_22_0
+TEXT: Ricerca a tempo dedicata a Yamask (1/2)
+
+RESOURCE ID: quest_title_yamask_tr_22_1
+TEXT: Ricerca a tempo dedicata a Yamask (2/2)
+
 RESOURCE ID: quest_title_yokosuka
 TEXT: Zona Safari di Pokémon GO - Yokosuka
 
@@ -52004,6 +52813,9 @@ TEXT: Giornata di ricerca: fai girare {0} dischi Pokéstop
 RESOURCE ID: quest_urd22_june_supereffective
 TEXT: Giornata di ricerca: usa un attacco caricato superefficace
 
+RESOURCE ID: quest_ursaring_evolve_b
+TEXT: Fai evolvere {0} Lampent
+
 RESOURCE ID: quest_use_any_potion
 TEXT: Usa qualsiasi Pozione su un Pokémon
 
@@ -52026,7 +52838,7 @@ RESOURCE ID: quest_use_hyper_potion
 TEXT: Usa una Iperpozione su un Pokémon
 
 RESOURCE ID: quest_use_lure
-TEXT: Usa un modulo esca base
+TEXT: Usa un modulo esca
 
 RESOURCE ID: quest_use_max_potion
 TEXT: Usa una Pozione Max su un Pokémon
@@ -57104,6 +57916,12 @@ TEXT: INSERISCI UN CODICE INVITO
 RESOURCE ID: referral_enter_invite_code
 TEXT: Inserisci il codice invito:
 
+RESOURCE ID: referral_enter_invite_code_prompt
+TEXT: Enter Referral Code:
+
+RESOURCE ID: referral_enter_invite_code_title
+TEXT: Enter Referral Code
+
 RESOURCE ID: referral_friend_invite_error_friend_later_message
 TEXT: Vuoi comunque provare ad aggiungere questa persona? Riceverai una ricompensa da invito, ma per ottenerne altre di questo tipo dovrai diventare amico della persona che ti ha invitato a giocare a Pokémon GO.
 
@@ -57133,6 +57951,11 @@ TEXT: La tua lista amici è piena
 
 RESOURCE ID: referral_friend_invite_later_error_title
 TEXT: Impossibile inviare la richiesta di amicizia all’Allenatore che ti ha invitato. 
+
+RESOURCE ID: referral_friend_request_confirmation
+TEXT: A Friend Request has been sent to {0}.
+
+Once {0} confirms, you’ll be able to earn rewards as you continue on your journey!
 
 RESOURCE ID: referral_get_code_button
 TEXT: OTTIENI IL CODICE INVITO
@@ -57178,6 +58001,9 @@ TEXT: Ecco alcune ricompense che puoi ricevere quando un amico che hai invitato 
 
 RESOURCE ID: referral_system_disabled
 TEXT: La funzionalità d’invito è al momento disabilitata.
+
+RESOURCE ID: referral_valid_code
+TEXT: Valid referral code
 
 RESOURCE ID: referral_welcome
 TEXT: Ti diamo il benvenuto!
@@ -57478,7 +58304,7 @@ RESOURCE ID: route_collapsed_show_more
 TEXT: SHOW MORE {0}
 
 RESOURCE ID: route_completion_congratulation
-TEXT: Congratulations!
+TEXT: Complimenti!
 
 RESOURCE ID: route_completion_get_medal
 TEXT: You got a {0} medal!
@@ -57569,7 +58395,7 @@ RESOURCE ID: route_denial_too_far_away_from_last_poi
 TEXT: This Pokéstop is too far from the last Waypoint. Must be less than {0} meters away.
 
 RESOURCE ID: route_denial_too_many_stops_in_route
-TEXT: This Route has reached the max number of Waypoints: {0}.
+TEXT: This Route has reached the maximum number of stops.
 
 RESOURCE ID: route_earned_new_stamp
 TEXT: New stamp registered!
@@ -58329,10 +59155,10 @@ RESOURCE ID: safari_2020_stlouis_title_1
 TEXT: Zona Safari di St. Louis (2/2)
 
 RESOURCE ID: safari_2022_goyang_dialogue_0_0
-TEXT: Ti diamo il benvenuto nella Zona Safari di Goyang , %PLAYERNAME%!
+TEXT: Ti diamo il benvenuto nella Zona Safari di Goyang  2022, %PLAYERNAME%!
 
 RESOURCE ID: safari_2022_goyang_dialogue_1_1
-TEXT: Grazie infinite, abbiamo imparato tantissimo sui Pokémon durante la Zona Safari di Goyang!
+TEXT: Grazie infinite, abbiamo imparato tantissimo sui Pokémon durante la Zona Safari di Goyang 2022!
 
 RESOURCE ID: safari_2022_goyang_title
 TEXT: Zona Safari di Goyang 2022
@@ -58354,6 +59180,42 @@ TEXT: Zona Safari di Siviglia 2022 (1/2)
 
 RESOURCE ID: safari_2022_seville_title_1
 TEXT: Zona Safari di Siviglia 2022 (2/2)
+
+RESOURCE ID: safari_2022_singapore_citywide_title
+TEXT: Zona Safari di Pokémon GO di Singapore 2022: bonus città
+
+RESOURCE ID: safari_2022_singapore_dialogue_0_0
+TEXT: Ti diamo il benvenuto nella Zona Safari di Pokémon GO di Singapore 2022, %PLAYERNAME%!
+
+RESOURCE ID: safari_2022_singapore_dialogue_1_1
+TEXT: Grazie infinite, abbiamo imparato tantissimo sui Pokémon durante la Zona Safari di Pokémon GO di Singapore 2022!
+
+RESOURCE ID: safari_2022_singapore_title
+TEXT: Zona Safari di Pokémon GO di Singapore 2022
+
+RESOURCE ID: safari_2022_singapore_title_0
+TEXT: Zona Safari di Pokémon GO di Singapore 2022 (1/2)
+
+RESOURCE ID: safari_2022_singapore_title_1
+TEXT: Zona Safari di Pokémon GO di Singapore 2022 (2/2)
+
+RESOURCE ID: safari_2022_taipei_citywide_title
+TEXT: Zona Safari di Pokémon GO di Taipei 2022: bonus città
+
+RESOURCE ID: safari_2022_taipei_dialogue_0_0
+TEXT: Ti diamo il benvenuto nella Zona Safari di Taipei 2022, %PLAYERNAME%!
+
+RESOURCE ID: safari_2022_taipei_dialogue_1_1
+TEXT: Grazie infinite, abbiamo imparato tantissimo sui Pokémon durante la Zona Safari di Pokémon GO di Taipei 2022!
+
+RESOURCE ID: safari_2022_taipei_title
+TEXT: Zona Safari di Pokémon GO di Taipei 2022
+
+RESOURCE ID: safari_2022_taipei_title_0
+TEXT: Zona Safari di Pokémon GO di Taipei 2022 (1/2)
+
+RESOURCE ID: safari_2022_taipei_title_1
+TEXT: Zona Safari di Pokémon GO di Taipei 2022 (2/2)
 
 RESOURCE ID: safari_battle_singular
 TEXT: Zona Safari: sfida un altro Allenatore
@@ -58634,6 +59496,9 @@ TEXT: Suggerimenti
 RESOURCE ID: screen_you_title
 TEXT: io
 
+RESOURCE ID: search_keywords_button
+TEXT: VISUALIZZA TUTTE LE PAROLE CHIAVE
+
 RESOURCE ID: search_label
 TEXT: Ricerca
 
@@ -58719,8 +59584,17 @@ TEXT: Impossibile salvare le impostazioni sulla privacy.
 RESOURCE ID: settings_account_header
 TEXT: ACCOUNT
 
+RESOURCE ID: settings_account_link_header
+TEXT: Account collegati
+
+RESOURCE ID: settings_account_link_learn_more
+TEXT: Scopri di più su come collegare più account.
+
 RESOURCE ID: settings_account_link_tip
 TEXT: Suggerimento: puoi accedere al tuo gioco tramite qualsiasi account collegato.
+
+RESOURCE ID: settings_account_link_v2_tip
+TEXT: Collegando più account, avrai più opzioni per effettuare l’accesso e per conservare i tuoi progressi su vari dispositivi!
 
 RESOURCE ID: settings_account_linked
 TEXT: COLLEGATO
@@ -58739,6 +59613,18 @@ TEXT: Aggiorna i dati di gioco
 
 RESOURCE ID: settings_advanced_cache_reset_sub
 TEXT: Aggiorna i dati di gioco se riscontri dei problemi.
+
+RESOURCE ID: settings_advanced_items_title
+TEXT: Strumenti
+
+RESOURCE ID: settings_advanced_pokemon_title
+TEXT: Pokémon
+
+RESOURCE ID: settings_advanced_quality_title
+TEXT: Qualità
+
+RESOURCE ID: settings_advanced_sharing_title
+TEXT: Condivisione
 
 RESOURCE ID: settings_advanced_title
 TEXT: Impostazioni avanzate
@@ -58779,6 +59665,12 @@ TEXT: Caramelle trovate dal compagno
 RESOURCE ID: settings_change_nickname
 TEXT: Cambia soprannome
 
+RESOURCE ID: settings_connected_devices_no_devices
+TEXT: Nessun dispositivo trovato.
+
+RESOURCE ID: settings_connected_devices_title
+TEXT: Dispositivi connessi e servizi
+
 RESOURCE ID: settings_email_marketing
 TEXT: Desidero ricevere e-mail con notizie, offerte e aggiornamenti.
 
@@ -58793,6 +59685,9 @@ TEXT: Richiesta di amicizia accettata
 
 RESOURCE ID: settings_friend_request_received
 TEXT: Richiesta di amicizia ricevuta
+
+RESOURCE ID: settings_general_title
+TEXT: Generale
 
 RESOURCE ID: settings_gift_notified_push_notification
 TEXT: Il tuo amico ha ricevuto un biglietto in regalo!
@@ -58845,8 +59740,14 @@ TEXT: Raid nei dintorni
 RESOURCE ID: settings_niantic_ar
 TEXT: Niantic AR (AR+)
 
+RESOURCE ID: settings_niantic_ar_tip
+TEXT: Puoi catturare Pokémon, usare la funzionalità foto GO e giocare con il tuo compagno in modalità AR.
+
 RESOURCE ID: settings_niantic_ar_update
 TEXT: Aggiorna Niantic AR (AR+)
+
+RESOURCE ID: settings_niantic_ar_update_done
+TEXT: Modalità AR aggiornata.
 
 RESOURCE ID: settings_nintendo_account
 TEXT: Account Nintendo
@@ -58893,8 +59794,20 @@ TEXT: Per accedere al dispositivo abbinato, tocca Poké Ball Plus dal menu delle
 RESOURCE ID: settings_pgp_check_other_menu
 TEXT: Per accedere al dispositivo abbinato, tocca Poké Ball Plus dal menu delle Impostazioni.
 
+RESOURCE ID: settings_pkmn_home_about_nintendo
+TEXT: Informazioni su Nintendo
+
+RESOURCE ID: settings_pkmn_home_howto_transfer
+TEXT: Come trasferire da Pokémon GO a Pokémon HOME
+
+RESOURCE ID: settings_pkmn_home_nintendo_signin
+TEXT: Accedi con Nintendo
+
 RESOURCE ID: settings_pokemon_badge
 TEXT: Mostra distintivo Pokémon
+
+RESOURCE ID: settings_pokemon_badge_tip
+TEXT: Assegnata a un miglior compagno.
 
 RESOURCE ID: settings_pokemon_header
 TEXT: Pokémon
@@ -58904,6 +59817,9 @@ TEXT: Pokémon HOME
 
 RESOURCE ID: settings_pokemon_return
 TEXT: Ritorno di un Pokémon
+
+RESOURCE ID: settings_pokemon_return_tip
+TEXT: Un Pokémon lasciato a difendere una Palestra ritorna dal suo Allenatore quando la sua motivazione si esaurisce.
 
 RESOURCE ID: settings_postcard_optin_name
 TEXT: Condividi il tuo soprannome nell’album delle cartoline dei tuoi amici
@@ -58917,8 +59833,14 @@ TEXT: Sincroavventura: dintorni
 RESOURCE ID: settings_push_bgmode_walking
 TEXT: Sincroavventura: distanza
 
+RESOURCE ID: settings_push_bgmode_walking_tip
+TEXT: Abilitando la funzionalità Sincroavventura, puoi far schiudere le Uova e guadagnare caramelle anche quando non stai giocando a Pokémon GO.
+
 RESOURCE ID: settings_push_buddy_v2
 TEXT: Talento del compagno
+
+RESOURCE ID: settings_push_buddy_v2_tip
+TEXT: Una volta che un Pokémon raggiunge il livello “super compagno“, mostrerà luoghi interessanti e porterà dei souvenir e dei regalini al suo Allenatore.
 
 RESOURCE ID: settings_push_marketing
 TEXT: Eventi, offerte e aggiornamenti
@@ -58940,6 +59862,9 @@ TEXT: Segnala un problema tecnico
 
 RESOURCE ID: settings_reset_cache_confirm
 TEXT: Vuoi davvero aggiornare i dati di gioco?
+
+RESOURCE ID: settings_resources_str
+TEXT: Risorse
 
 RESOURCE ID: settings_select_legendary_label
 TEXT: Trasferimento ampliato
@@ -59002,6 +59927,9 @@ TEXT: Condividi con amici le informazioni sui Pokémon catturati di recente.
 RESOURCE ID: settings_show_campfire_buttons
 TEXT: Mostra Campfire
 
+RESOURCE ID: settings_show_campfire_tip
+TEXT: Abilita i pulsanti Campfire in Pokémon GO.
+
 RESOURCE ID: settings_sound_effects
 TEXT: Suoni
 
@@ -59055,6 +59983,12 @@ TEXT: Sblocca la frequenza di aggiornamento nativa del tuo dispositivo per otten
 
 RESOURCE ID: settings_unlock_base_framerate_description_on
 TEXT: Frequenza di aggiornamento nativa sbloccata.
+
+RESOURCE ID: settings_uploads_title
+TEXT: Caricamenti
+
+RESOURCE ID: settings_version_title
+TEXT: Versione
 
 RESOURCE ID: settings_vibration
 TEXT: Vibrazione
@@ -59513,6 +60447,18 @@ TEXT: Torna quando sarai in grado di affrontare una sfida, dolcezza!
 RESOURCE ID: sign_in_partial
 TEXT: Crea un account con {0}
 
+RESOURCE ID: sign_up_button
+TEXT: ISCRIVITI
+
+RESOURCE ID: sign_up_text_titlecase
+TEXT: ISCRIVITI
+
+RESOURCE ID: singapore_cup_title
+TEXT: Coppa Cattura di Singapore
+
+RESOURCE ID: singapore_cup_title_post
+TEXT: Post-evento della Coppa Cattura di Singapore
+
 RESOURCE ID: sinnoh_2020_catch_medium1
 TEXT: Festeggiamenti di Sinnoh: cattura {0} Turtwig, Chimchar o Piplup
 
@@ -59706,6 +60652,9 @@ TEXT: Più Charmander stanno apparendo allo stato selvatico
 RESOURCE ID: spawn_deino
 TEXT: Più Deino stanno apparendo allo stato selvatico
 
+RESOURCE ID: spawn_dratini_cdc
+TEXT: More Dratini are appearing in the wild!
+
 RESOURCE ID: spawn_duskull
 TEXT: Più Duskull stanno apparendo allo stato selvatico
 
@@ -59728,7 +60677,7 @@ RESOURCE ID: spawn_hoppip
 TEXT: Più Hoppip stanno apparendo allo stato selvatico
 
 RESOURCE ID: spawn_litwick
-TEXT: More Litwick are appearing in the wild!
+TEXT: Più Litwick stanno apparendo allo stato selvatico!
 
 RESOURCE ID: spawn_machop
 TEXT: Più Machop stanno apparendo allo stato selvatico
@@ -59780,6 +60729,9 @@ TEXT: Più Stufful stanno apparendo allo stato selvatico!
 
 RESOURCE ID: spawn_swablu
 TEXT: Più Swablu stanno apparendo allo stato selvatico
+
+RESOURCE ID: spawn_teddiursa
+TEXT: More Teddiursa are appearing in the wild!
 
 RESOURCE ID: spawn_tepig
 TEXT: Più Tepig stanno apparendo allo stato selvatico
@@ -60661,7 +61613,7 @@ RESOURCE ID: sr_gotour2022_sr_dialogue_0_2
 TEXT: La regione di Johto è una terra ricca di storia e tradizione, dove il fascino antico di Amarantopoli fa da contraltare alla modernità metropolitana di Fiordoropoli.
 
 RESOURCE ID: standard_raid_box_title
-TEXT: pacco raid normale
+TEXT: Pacco raid normale
 
 RESOURCE ID: star_piece_duration_double
 TEXT: I Pezzi Stella durano il doppio
@@ -60679,7 +61631,7 @@ RESOURCE ID: starpiece.25_description
 TEXT: 25 Pezzi Stella. Ottieni il 50% di polvere di stelle in più per 30 minuti.
 
 RESOURCE ID: starpiece.25_title
-TEXT: Pezzi Stella x25
+TEXT: 25 Pezzi Stella
 
 RESOURCE ID: starpiece.8_description
 TEXT: Otto Pezzi Stella. Ottieni il 50% di polvere di stelle in più per 30 minuti.
@@ -61079,6 +62031,12 @@ TEXT: Assegna etichetta a {0} Pokémon
 RESOURCE ID: tagging_favorites_title
 TEXT: Preferiti
 
+RESOURCE ID: taipei_cup_title
+TEXT: Coppa Cattura di Taipei
+
+RESOURCE ID: taipei_cup_title_post
+TEXT: Post-evento della Coppa Cattura di Taipei
+
 RESOURCE ID: team_blue_intro|1
 TEXT: Io sono Blanche, il capo della Squadra Saggezza.
 
@@ -61263,6 +62221,9 @@ TEXT: Community Day di dicembre
 RESOURCE ID: ticket_deino
 TEXT: I biglietti per la ricerca speciale “Appunti di campo: Deino” sono disponibili nel negozio
 
+RESOURCE ID: ticket_dratini_cdc
+TEXT: Ticket for the Dratini Community Day Classic Special Research story available in the shop
+
 RESOURCE ID: ticket_duskull
 TEXT: I biglietti per la ricerca speciale “Duskull, divertimento fino all’osso” sono disponibili nel negozio
 
@@ -61296,7 +62257,7 @@ RESOURCE ID: ticket_hoppip
 TEXT: I biglietti per la ricerca speciale “Op, op, Hop-là!” sono disponibili nel negozio
 
 RESOURCE ID: ticket_litwick
-TEXT: Ticket for the Field Notes: Trick of the Light Special Research story available in the shop
+TEXT: I biglietti per la ricerca speciale “Appunti di campo: scherzetto di luce” sono disponibili nel negozio
 
 RESOURCE ID: ticket_machop
 TEXT: I biglietti per la ricerca speciale “Sei una forza, Machop!” sono disponibili nel negozio
@@ -61348,6 +62309,9 @@ TEXT: I biglietti per la ricerca speciale “Roba tosta” sono disponibili nel 
 
 RESOURCE ID: ticket_swablu
 TEXT: I biglietti per la ricerca speciale “Un volatile dalle ali di cotone” sono disponibili nel negozio
+
+RESOURCE ID: ticket_teddiursa
+TEXT: Ticket for the Sweet Snacks Special Research story available in the shop
 
 RESOURCE ID: ticket_tepig
 TEXT: I biglietti per la ricerca speciale “Bacche arrostite” sono disponibili nel negozio
@@ -62098,6 +63062,12 @@ TEXT: Non riceverai strumenti per questo incontro dato che la tua Borsa è piena
 RESOURCE ID: tr_sz_goyang_global
 TEXT: Zona Safari di Goyang: sfida di esplorazione
 
+RESOURCE ID: tr_sz_singapore_global
+TEXT: Zona Safari di Pokémon GO di Singapore 2022: sfida di esplorazione
+
+RESOURCE ID: tr_sz_taipei_global
+TEXT: Zona Safari di Pokémon GO di Taipei 2022: sfida di esplorazione
+
 RESOURCE ID: trade_action
 TEXT: Scambia
 
@@ -62234,7 +63204,7 @@ RESOURCE ID: trade_evolution_hint
 TEXT: Se hai ricevuto questo Pokémon tramite scambio, puoi farlo evolvere senza usare delle caramelle. 
 
 RESOURCE ID: trade_evolution_hint_with_species
-TEXT: I {0} ricevuti tramite scambi non necessitano di caramelle per evolversi.
+TEXT: Se ricevuto tramite scambio, {0} non necessita di caramelle per evolversi.
 
 RESOURCE ID: trade_exclusion_favorite
 TEXT: Questo Pokémon è tra i tuoi Pokémon preferiti.
@@ -62477,7 +63447,7 @@ RESOURCE ID: trading_waiting
 TEXT: In attesa...
 
 RESOURCE ID: trainee_box_title
-TEXT: pacco novizio
+TEXT: Pacco novizio
 
 RESOURCE ID: trainer_code_label
 TEXT: Codice Allenatore:
@@ -62744,10 +63714,10 @@ RESOURCE ID: ultra_premier_classic_title
 TEXT: LU Premier Classica
 
 RESOURCE ID: ultra_premier_cup_title
-TEXT: Coppa LU Premier
+TEXT: LU Premier
 
 RESOURCE ID: ultra_raid_box_title
-TEXT: pacco raid ultra
+TEXT: Pacco raid ultra
 
 RESOURCE ID: ultra_unlock_event_2020
 TEXT: Sblocco dell’ultrabonus 2020
@@ -63217,6 +64187,9 @@ TEXT: Registri in attesa di caricamento
 RESOURCE ID: verbose_logs_settings_title
 TEXT: Registri di gioco
 
+RESOURCE ID: verbose_logs_settings_v2_title
+TEXT: Registri di gioco
+
 RESOURCE ID: verbose_logs_toggle
 TEXT: Salva registri {0}
 
@@ -63251,7 +64224,7 @@ RESOURCE ID: verbose_logs_uploading_count_plural
 TEXT: Caricamento di {0} registri in corso...
 
 RESOURCE ID: veteran_box_title
-TEXT: pacco veterano
+TEXT: Pacco veterano
 
 RESOURCE ID: video_sponsored_gift_tutorial_description_1
 TEXT: Mentre esplori giocando a Pokémon GO, potresti ricevere pacchi amicizia e videomessaggi dai nostri sponsor.
@@ -63287,7 +64260,7 @@ RESOURCE ID: volbeat_illumise_all_regions
 TEXT: Volbeat e Illumise stanno apparendo allo stato selvatico in tutto il mondo
 
 RESOURCE ID: voyager_box_title
-TEXT: pacco viaggiatore
+TEXT: Pacco viaggiatore
 
 RESOURCE ID: vs_seeker_charged_notification
 TEXT: Hai ottenuto l’accesso alla Lega Lotte GO!
