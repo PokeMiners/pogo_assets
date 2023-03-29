@@ -777,14 +777,32 @@ TEXT: Enable Apple Watch
 RESOURCE ID: appraisal_filter_group_key
 TEXT: Appraisal
 
+RESOURCE ID: appraise_intro_1_tgr
+TEXT: Give me a look at that Pokémon.
+
 RESOURCE ID: appraise_intro_1|1
 TEXT: Hello, {0}. I am available to analyze your {1}, if you wish.
+
+RESOURCE ID: appraise_intro_1|1_tgr
+TEXT: Give me a look at that Pokémon.
+
+RESOURCE ID: appraise_intro_2_tgr
+TEXT: Appraise your Pokémon? I see you recognize my expertise.
 
 RESOURCE ID: appraise_intro_2|1
 TEXT: Hi {0}! Let's take a look at your {1}, shall we?
 
+RESOURCE ID: appraise_intro_2|1_tgr
+TEXT: Appraise your Pokémon? I see you recognize my expertise.
+
+RESOURCE ID: appraise_intro_3_tgr
+TEXT: My thoughts on your Pokémon? Let’s have a look, dear.
+
 RESOURCE ID: appraise_intro_3|1
 TEXT: Hey, {0}! You want me to check out your {1}?
+
+RESOURCE ID: appraise_intro_3|1_tgr
+TEXT: My thoughts on your Pokémon? Let’s have a look, dear.
 
 RESOURCE ID: appraise_outro_1|1
 TEXT: This ends my analysis. Farewell.
@@ -834,11 +852,17 @@ TEXT: Overall, your {0} is pretty decent!
 RESOURCE ID: appraise_size_huge_1|1
 TEXT: Your {0} would be categorized as unusually large.
 
+RESOURCE ID: appraise_size_huge_1|1_tgr
+TEXT: There’s big, and then there’s this {0}.
+
 RESOURCE ID: appraise_size_huge_1|1b
 TEXT: Your {0} would be categorized as unusually large.
 
 RESOURCE ID: appraise_size_huge_2|1
 TEXT: Hey, that’s an enormous {0}!
+
+RESOURCE ID: appraise_size_huge_2|1_tgr
+TEXT: Pretty big {0}. I’m almost impressed.
 
 RESOURCE ID: appraise_size_huge_2|1b
 TEXT: Hey, that’s an enormous {0}!
@@ -846,11 +870,17 @@ TEXT: Hey, that’s an enormous {0}!
 RESOURCE ID: appraise_size_huge_3|1
 TEXT: Your {0} is just HUGE!
 
+RESOURCE ID: appraise_size_huge_3|1_tgr
+TEXT: Your {0} is quite large, isn’t it?
+
 RESOURCE ID: appraise_size_huge_3|1b
 TEXT: Your {0} is just HUGE!
 
 RESOURCE ID: appraise_size_large_1|1
 TEXT: Your {0} is above average in size.
+
+RESOURCE ID: appraise_size_large_1|1_tgr
+TEXT: Now that’s a big {0}.
 
 RESOURCE ID: appraise_size_large_1|1b
 TEXT: Your {0} is above average in size.
@@ -858,8 +888,14 @@ TEXT: Your {0} is above average in size.
 RESOURCE ID: appraise_size_large_2|1
 TEXT: Your {0} is rather sizable, that’s for sure!
 
+RESOURCE ID: appraise_size_large_2|1_tgr
+TEXT: That’s a large {0}. What else do you want me to say?
+
 RESOURCE ID: appraise_size_large_3|1
 TEXT: Your {0} is a BIG one!
+
+RESOURCE ID: appraise_size_large_3|1_tgr
+TEXT: Hmm. That’s not a bad size for a {0} at all.
 
 RESOURCE ID: appraise_size_large_3|1b
 TEXT: Your {0} is a BIG one!
@@ -867,17 +903,29 @@ TEXT: Your {0} is a BIG one!
 RESOURCE ID: appraise_size_small_1|1
 TEXT: Your {0} is below average in size.
 
+RESOURCE ID: appraise_size_small_1|1_tgr
+TEXT: Hmph. Small {0}.
+
 RESOURCE ID: appraise_size_small_1|1b
 TEXT: Your {0} is below average in size.
 
 RESOURCE ID: appraise_size_small_2|1
 TEXT: Aww, what a small {0}! It’s rather cute, I’d say.
 
+RESOURCE ID: appraise_size_small_2|1_tgr
+TEXT: Your {0} is small. How...unremarkable.
+
 RESOURCE ID: appraise_size_small_3|1
 TEXT: Your {0} is a little small for its kind, don’t you think?
 
+RESOURCE ID: appraise_size_small_3|1_tgr
+TEXT: This {0} is on the smaller side.
+
 RESOURCE ID: appraise_size_tiny_1|1
 TEXT: Your {0} would be categorized as unusually small.
+
+RESOURCE ID: appraise_size_tiny_1|1_tgr
+TEXT: What a puny {0}. Try harder.
 
 RESOURCE ID: appraise_size_tiny_1|1b
 TEXT: Your {0} would be categorized as unusually small.
@@ -885,11 +933,17 @@ TEXT: Your {0} would be categorized as unusually small.
 RESOURCE ID: appraise_size_tiny_2|1
 TEXT: That’s a lil’ {0} you’ve got there!
 
+RESOURCE ID: appraise_size_tiny_2|1_tgr
+TEXT: Is this a joke? What kind of teensy {0} is this?
+
 RESOURCE ID: appraise_size_tiny_2|1b
 TEXT: That’s a lil’ {0} you’ve got there!
 
 RESOURCE ID: appraise_size_tiny_3|1
 TEXT: Your {0} is pretty petite, huh?
+
+RESOURCE ID: appraise_size_tiny_3|1_tgr
+TEXT: What a quaint little {0}. 
 
 RESOURCE ID: appraise_size_tiny_3|1b
 TEXT: Your {0} is pretty petite, huh? 
@@ -897,20 +951,38 @@ TEXT: Your {0} is pretty petite, huh?
 RESOURCE ID: appraise_size_xxl_1|1
 TEXT: The size of your {0} is...colossal. This is indeed exceptional—fascinating!
 
+RESOURCE ID: appraise_size_xxl_1|1_tgr
+TEXT: What a massive {0}! Guess you can have it back...for now.
+
 RESOURCE ID: appraise_size_xxl_2|1
 TEXT: Your {0} is gigantic—the largest I’ve ever seen!
+
+RESOURCE ID: appraise_size_xxl_2|1_tgr
+TEXT: That’s...quite the impressive {0}. Finally, you’ve shown me something worthwhile.
 
 RESOURCE ID: appraise_size_xxl_3|1
 TEXT: Your {0} is massive! This might be one of the biggest {0} in the world...
 
+RESOURCE ID: appraise_size_xxl_3|1_tgr
+TEXT: Well! You’ve landed one impressive {0}, darling!
+
 RESOURCE ID: appraise_size_xxs_1|1
 TEXT: Your {0} is tinier than any we have on record. Astounding.
+
+RESOURCE ID: appraise_size_xxs_1|1_tgr
+TEXT: Everything’s got a use—even this tiny {0}.
 
 RESOURCE ID: appraise_size_xxs_2|1
 TEXT: Your {0} is so tiny, I almost didn’t notice it!
 
+RESOURCE ID: appraise_size_xxs_2|1_tgr
+TEXT: What a miniscule {0}. Even I rarely see them this small.
+
 RESOURCE ID: appraise_size_xxs_3|1
 TEXT: Wh-whoa. I’ve never seen such a tiny {0} before!
+
+RESOURCE ID: appraise_size_xxs_3|1_tgr
+TEXT: Oh! This {0} is one of the smallest I’ve ever seen.
 
 RESOURCE ID: appraise_stat_best_1|1
 TEXT: Its stats exceed my calculations. It's incredible!
@@ -1466,7 +1538,7 @@ TEXT: Johto Bag
 RESOURCE ID: avatar_f_backpack_hououbackpack_00_bundle_icon
 TEXT: Ho-Oh Wings
 
-RESOURCE ID: avatar_f_backpack_kecleon
+RESOURCE ID: avatar_f_backpack_kakureonpouch_00_bundle_icon
 TEXT: Kecleon Bag
 
 RESOURCE ID: avatar_f_backpack_longchampbp_00_bundle_icon
@@ -1616,6 +1688,10 @@ TEXT: Future Specs
 RESOURCE ID: avatar_f_glasses_empty_bundle_icon
 TEXT: No Glasses
 
+RESOURCE ID: avatar_f_glasses_frillishglasses_00_bundle_icon
+TEXT: Frillish
+Glasses
+
 RESOURCE ID: avatar_f_glasses_fw2022_00_bundle_icon
 TEXT: Mareanie Shades
 
@@ -1654,10 +1730,6 @@ TEXT: Aviator Sunglasses
 
 RESOURCE ID: avatar_f_glasses_thick_bundle_icon
 TEXT: Focus Frames
-
-RESOURCE ID: avatar_f_glasses_valentines2023
-TEXT: Frillish
-Glasses
 
 RESOURCE ID: avatar_f_gloves_acetrainersm_0_bundle_icon
 TEXT: Ace Gloves
@@ -1965,7 +2037,7 @@ TEXT: Noibat Cap
 RESOURCE ID: avatar_f_hat_obstagoonitems_00_bundle_icon
 TEXT: Obstagoon Hat
 
-RESOURCE ID: avatar_f_hat_oras
+RESOURCE ID: avatar_f_hat_oras_00_bundle_icon
 TEXT: Hoenn Headwear
 
 RESOURCE ID: avatar_f_hat_oricoriopink_00_bundle_icon
@@ -2226,7 +2298,7 @@ RESOURCE ID: avatar_f_pants_newyear2022_00_bundle_icon
 TEXT: New Year’s
 Pants
 
-RESOURCE ID: avatar_f_pants_oras
+RESOURCE ID: avatar_f_pants_oras_00_bundle_icon
 TEXT: Hoenn Pants
 
 RESOURCE ID: avatar_f_pants_pajamas2022_bundle_icon
@@ -2450,7 +2522,7 @@ TEXT: Cliff-Style Outfit
 RESOURCE ID: avatar_f_shirt_goteamrocketsierra_00_bundle_icon
 TEXT: Sierra-Style Outfit
 
-RESOURCE ID: avatar_f_shirt_gotour2023
+RESOURCE ID: avatar_f_shirt_gotour2023_00_bundle_icon
 TEXT: GO Tour 2023
 Tee
 
@@ -2462,10 +2534,6 @@ TEXT: Blue-Style Top
 
 RESOURCE ID: avatar_f_shirt_greencoat_00_bundle_icon
 TEXT: Festive Jacket
-
-RESOURCE ID: avatar_f_shirt_groudon
-TEXT: Groudon
-Track Suit
 
 RESOURCE ID: avatar_f_shirt_gtrtshirt2022_00_bundle_icon
 TEXT: Lugia T-shirt
@@ -2526,10 +2594,6 @@ TEXT: Jirachi T-shirt
 
 RESOURCE ID: avatar_f_shirt_korrina_00_bundle_icon
 TEXT: Korrina-Style Outfit
-
-RESOURCE ID: avatar_f_shirt_kyogre
-TEXT: Kyogre
-Track Suit
 
 RESOURCE ID: avatar_f_shirt_latias_latios_bundle_icon
 TEXT: Latias & Latios Shirt
@@ -2599,7 +2663,7 @@ TEXT: Pokémon Shirts Magikarp
 RESOURCE ID: avatar_f_shirt_ocshirt_143_bundle_icon
 TEXT: Pokémon Shirts Snorlax
 
-RESOURCE ID: avatar_f_shirt_oras
+RESOURCE ID: avatar_f_shirt_oras_00_bundle_icon
 TEXT: Hoenn Top
 
 RESOURCE ID: avatar_f_shirt_pajamas2022_bundle_icon
@@ -2820,6 +2884,14 @@ TEXT: Spark-Style Jacket
 RESOURCE ID: avatar_f_shirt_togepihoodie_0_bundle_icon
 TEXT: Togepi Pattern Hoodie
 
+RESOURCE ID: avatar_f_shirt_tracksuitsgroudon_00_bundle_icon
+TEXT: Groudon
+Track Suit
+
+RESOURCE ID: avatar_f_shirt_tracksuitskyogre_00_bundle_icon
+TEXT: Kyogre
+Track Suit
+
 RESOURCE ID: avatar_f_shirt_tshirt_cycling_bundle_icon
 TEXT: Active Tee
 
@@ -2847,7 +2919,7 @@ TEXT: UNIQLO UT Ditto
 RESOURCE ID: avatar_f_shirt_unwto_0_bundle_icon
 TEXT: UNWTO T-shirt
 
-RESOURCE ID: avatar_f_shirt_valentines2023
+RESOURCE ID: avatar_f_shirt_valentine2023_00_bundle_icon
 TEXT: Frillish Top
 
 RESOURCE ID: avatar_f_shirt_verizon2020sweater_0_bundle_icon
@@ -2986,7 +3058,7 @@ Shoes
 RESOURCE ID: avatar_f_shoes_nike2021_00_bundle_icon
 TEXT: NIKE AIR MAX 2021
 
-RESOURCE ID: avatar_f_shoes_oras
+RESOURCE ID: avatar_f_shoes_oras_00_bundle_icon
 TEXT: Hoenn Shoes
 
 RESOURCE ID: avatar_f_shoes_pajamas2022_bundle_icon
@@ -3229,7 +3301,7 @@ TEXT: Johto Bag
 RESOURCE ID: avatar_m_backpack_hououbackpack_00_bundle_icon
 TEXT: Ho-Oh Wings
 
-RESOURCE ID: avatar_m_backpack_kecleon
+RESOURCE ID: avatar_m_backpack_kakureonpouch_00_bundle_icon
 TEXT: Kecleon Bag
 
 RESOURCE ID: avatar_m_backpack_longchampbp_00_bundle_icon
@@ -3361,6 +3433,10 @@ TEXT: Future Specs
 RESOURCE ID: avatar_m_glasses_empty_bundle_icon
 TEXT: No Glasses
 
+RESOURCE ID: avatar_m_glasses_frillishglasses_00_bundle_icon
+TEXT: Frillish
+Glasses
+
 RESOURCE ID: avatar_m_glasses_fw2022_00_bundle_icon
 TEXT: Mareanie Shades
 
@@ -3402,10 +3478,6 @@ TEXT: Aviator Sunglasses
 
 RESOURCE ID: avatar_m_glasses_thick_bundle_icon
 TEXT: Focus Frames
-
-RESOURCE ID: avatar_m_glasses_valentines2023
-TEXT: Frillish
-Glasses
 
 RESOURCE ID: avatar_m_gloves_acetrainersm_0_bundle_icon
 TEXT: Ace Gloves
@@ -3710,7 +3782,7 @@ TEXT: Noibat Cap
 RESOURCE ID: avatar_m_hat_obstagoonitems_00_bundle_icon
 TEXT: Obstagoon Hat
 
-RESOURCE ID: avatar_m_hat_oras
+RESOURCE ID: avatar_m_hat_oras_00_bundle_icon
 TEXT: Hoenn Headwear
 
 RESOURCE ID: avatar_m_hat_oricoriopink_00_bundle_icon
@@ -3955,7 +4027,7 @@ RESOURCE ID: avatar_m_pants_newyear2022_00_bundle_icon
 TEXT: New Year’s
 Pants
 
-RESOURCE ID: avatar_m_pants_oras
+RESOURCE ID: avatar_m_pants_oras_00_bundle_icon
 TEXT: Hoenn Pants
 
 RESOURCE ID: avatar_m_pants_pajamas2022_bundle_icon
@@ -4194,7 +4266,7 @@ TEXT: Cliff-Style Outfit
 RESOURCE ID: avatar_m_shirt_goteamrocketsierra_00_bundle_icon
 TEXT: Sierra-Style Outfit
 
-RESOURCE ID: avatar_m_shirt_gotour2023
+RESOURCE ID: avatar_m_shirt_gotour2023_00_bundle_icon
 TEXT: GO Tour 2023
 Tee
 
@@ -4206,10 +4278,6 @@ TEXT: Blue-Style Top
 
 RESOURCE ID: avatar_m_shirt_greencoat_00_bundle_icon
 TEXT: Festive Jacket
-
-RESOURCE ID: avatar_m_shirt_groudon
-TEXT: Groudon
-Track Suit
 
 RESOURCE ID: avatar_m_shirt_gtrtshirt2022_00_bundle_icon
 TEXT: Lugia T-shirt
@@ -4273,10 +4341,6 @@ TEXT: Jogger Tank Top
 
 RESOURCE ID: avatar_m_shirt_korrina_00_bundle_icon
 TEXT: Korrina-Style Top
-
-RESOURCE ID: avatar_m_shirt_kyogre
-TEXT: Kyogre
-Track Suit
 
 RESOURCE ID: avatar_m_shirt_latias_latios_bundle_icon
 TEXT: Latias & Latios Shirt
@@ -4349,7 +4413,7 @@ TEXT: Pokémon Shirts Magikarp
 RESOURCE ID: avatar_m_shirt_ocshirt_143_bundle_icon
 TEXT: Pokémon Shirts Snorlax
 
-RESOURCE ID: avatar_m_shirt_oras
+RESOURCE ID: avatar_m_shirt_oras_00_bundle_icon
 TEXT: Hoenn Top
 
 RESOURCE ID: avatar_m_shirt_pajamas2022_bundle_icon
@@ -4555,6 +4619,14 @@ TEXT: Spark-Style Jacket
 RESOURCE ID: avatar_m_shirt_togepihoodie_0_bundle_icon
 TEXT: Togepi Pattern Hoodie
 
+RESOURCE ID: avatar_m_shirt_tracksuitsgroudon_00_bundle_icon
+TEXT: Groudon
+Track Suit
+
+RESOURCE ID: avatar_m_shirt_tracksuitskyogre_00_bundle_icon
+TEXT: Kyogre
+Track Suit
+
 RESOURCE ID: avatar_m_shirt_tshirt_geometric_bundle_icon
 TEXT: Diagonal Tee
 
@@ -4591,7 +4663,7 @@ TEXT: UNIQLO UT Ditto
 RESOURCE ID: avatar_m_shirt_unwto_0_bundle_icon
 TEXT: UNWTO T-shirt
 
-RESOURCE ID: avatar_m_shirt_valentines2023
+RESOURCE ID: avatar_m_shirt_valentine2023_00_bundle_icon
 TEXT: Frillish Top
 
 RESOURCE ID: avatar_m_shirt_verizon2020sweater_0_bundle_icon
@@ -4733,7 +4805,7 @@ Shoes
 RESOURCE ID: avatar_m_shoes_nike2021_00_bundle_icon
 TEXT: NIKE AIR MAX 2021
 
-RESOURCE ID: avatar_m_shoes_oras
+RESOURCE ID: avatar_m_shoes_oras_00_bundle_icon
 TEXT: Hoenn Shoes
 
 RESOURCE ID: avatar_m_shoes_pajamas2022_bundle_icon
@@ -6230,6 +6302,72 @@ TEXT: Global, February 26, 2022
 RESOURCE ID: badge_gotour_2022_silver_test_title
 TEXT: Pokémon GO Tour: Johto
 
+RESOURCE ID: badge_gotour_2023_hatch_addon
+TEXT: Las Vegas, February 18–19, 2023
+
+RESOURCE ID: badge_gotour_2023_hatch_addon_test
+TEXT: February 2023
+
+RESOURCE ID: badge_gotour_2023_hatch_addon_test_title
+TEXT: Pokémon GO Tour -- Egg-thusiast (Test)
+
+RESOURCE ID: badge_gotour_2023_hatch_addon_title
+TEXT: Pokémon GO Tour—Egg-thusiast
+
+RESOURCE ID: badge_gotour_2023_raid_addon
+TEXT: Las Vegas, February 18–19, 2023
+
+RESOURCE ID: badge_gotour_2023_raid_addon_test
+TEXT: February 2023
+
+RESOURCE ID: badge_gotour_2023_raid_addon_test_title
+TEXT: Pokémon GO Tour -- Raid Lover (Test)
+
+RESOURCE ID: badge_gotour_2023_raid_addon_title
+TEXT: Pokémon GO Tour—Raid Lover
+
+RESOURCE ID: badge_gotour_2023_ruby_global
+TEXT: February 2023
+
+RESOURCE ID: badge_gotour_2023_ruby_global_title
+TEXT: Pokémon GO Tour: Hoenn
+
+RESOURCE ID: badge_gotour_2023_ruby_test
+TEXT: February 2023
+
+RESOURCE ID: badge_gotour_2023_ruby_test_title
+TEXT: Pokémon GO Tour: Hoenn (Test)
+
+RESOURCE ID: badge_gotour_2023_sapphire_global
+TEXT: February 2023
+
+RESOURCE ID: badge_gotour_2023_sapphire_global_title
+TEXT: Pokémon GO Tour: Hoenn
+
+RESOURCE ID: badge_gotour_2023_sapphire_test
+TEXT: February 2023
+
+RESOURCE ID: badge_gotour_2023_sapphire_test_title
+TEXT: Pokémon GO Tour: Hoenn (Test)
+
+RESOURCE ID: badge_gotour_live_2023_day_00
+TEXT: February 2023
+
+RESOURCE ID: badge_gotour_live_2023_day_00_title
+TEXT: Pokémon GO Tour: Hoenn - Las Vegas (Test)
+
+RESOURCE ID: badge_gotour_live_2023_day_01
+TEXT: February 18, 2023
+
+RESOURCE ID: badge_gotour_live_2023_day_01_title
+TEXT: Pokémon GO Tour: Hoenn – Las Vegas
+
+RESOURCE ID: badge_gotour_live_2023_day_02
+TEXT: February 19, 2023
+
+RESOURCE ID: badge_gotour_live_2023_day_02_title
+TEXT: Pokémon GO Tour: Hoenn – Las Vegas
+
 RESOURCE ID: badge_great_league
 TEXT: Win {0} Trainer Battles in the Great League.
 
@@ -6938,6 +7076,9 @@ TEXT: Youngster
 RESOURCE ID: badge_small_rattata_value_format
 TEXT: N0
 
+RESOURCE ID: badge_today_view_header
+TEXT: You have chosen: 
+
 RESOURCE ID: badge_top_banana_1
 TEXT: Porto Alegre, Jan 25, 2019
 
@@ -7379,7 +7520,7 @@ RESOURCE ID: batch_transfer_unique_legendary_or_mythical_pokemon
 TEXT: {0} Legendary or Mythical Pokémon
 
 RESOURCE ID: batch_transfer_unique_location_card_pokemon
-TEXT: {0} Pokémon with a Memento Background
+TEXT: {0} Pokémon with a Location Card
 
 RESOURCE ID: batch_transfer_unique_mega_level_pokemon
 TEXT: {0} Mega-Leveled Pokémon
@@ -10096,6 +10237,9 @@ TEXT: 2× Catch Candy
 RESOURCE ID: bonus_2x_catch_xp
 TEXT: 2× Catch XP
 
+RESOURCE ID: bonus_2x_evo_xp
+TEXT: 2× XP for evolving Pokémon
+
 RESOURCE ID: bonus_2x_exp_nice_great_excel
 TEXT: 2× XP for catching Pokémon with Nice, Great, and Excellent Throws
 
@@ -10122,6 +10266,9 @@ TEXT: 4× Catch Stardust
 
 RESOURCE ID: bonus_4x_catch_xp_stufful
 TEXT: 4× Catch XP
+
+RESOURCE ID: bonus_absol_spawns
+TEXT: Large numbers of Absol are appearing in the area!
 
 RESOURCE ID: bonus_active
 TEXT: Bonus currently active!
@@ -10192,6 +10339,45 @@ TEXT: At the top of each hour, Finneon will appear in large numbers!
 RESOURCE ID: bonus_fr_party_pikachu
 TEXT: Complete the Field Research task obtained from the Meet-and-Greet PokéStop to earn an encounter with Pikachu wearing a party hat!
 
+RESOURCE ID: bonus_go_tour_2023_add_on_hatch_01
+TEXT: 3× Hatch Stardust
+
+RESOURCE ID: bonus_go_tour_2023_add_on_hatch_02
+TEXT: 3× Hatch XP
+
+RESOURCE ID: bonus_go_tour_2023_add_on_hatch_03
+TEXT: 3× Hatch Candy
+
+RESOURCE ID: bonus_go_tour_2023_add_on_raid_01
+TEXT: Receive up to 18 Raid Passes at no cost by spinning Photo Discs at Gyms
+
+RESOURCE ID: bonus_go_tour_2023_add_on_raid_02
+TEXT: Additional 5,000 XP awarded for successful raids
+
+RESOURCE ID: bonus_go_tour_2023_add_on_raid_03
+TEXT: Six additional Candy from catching Pokémon in five-star raids and Primal Raids
+
+RESOURCE ID: bonus_go_tour_2023_add_on_raid_04
+TEXT: Three additional Candy XL from catching Pokémon in five-star raids and Primal Raids
+
+RESOURCE ID: bonus_go_tour_6_special_trades
+TEXT: Five additional Special Trades per day, for a total of six
+
+RESOURCE ID: bonus_go_tour_9_daily_raid_passes
+TEXT: Receive up to nine Raid Passes at no cost by spinning Photo Discs at Gyms
+
+RESOURCE ID: bonus_go_tour_event_move_groudon
+TEXT: Groudon caught during this event will know the Charged Attack Precipice Blades
+
+RESOURCE ID: bonus_go_tour_event_move_kyogre
+TEXT: Kyogre caught during this event will know the Charged Attack Origin Pulse
+
+RESOURCE ID: bonus_go_tour_irl_extra_candy
+TEXT: One additional guaranteed Candy XL from all in-person Primal Raids
+
+RESOURCE ID: bonus_hoenn_spawns
+TEXT: Large numbers of Pokémon originally discovered in the Hoenn region are appearing in the area
+
 RESOURCE ID: bonus_implicit_social_alodude
 TEXT: If enough Pokémon are caught with help from a single Lure Module, the 3× Catch Stardust bonus for Trainers near the Lured PokéStop will become a 4× bonus for 30 minutes
 
@@ -10249,6 +10435,12 @@ TEXT: If Trainers work together to win a Galarian Linoone raid, large numbers of
 RESOURCE ID: bonus_incense_3hr_stufful
 TEXT: 3-hour Incense duration
 
+RESOURCE ID: bonus_incense_hoenn_costume_pikachu
+TEXT: Incense may attract Pikachu wearing Brendan’s hat or Pikachu wearing May’s bow
+
+RESOURCE ID: bonus_incense_hoenn_unown
+TEXT: Incense may attract Unown
+
 RESOURCE ID: bonus_lure_3hr_stufful
 TEXT: 3-hour Lure Module duration
 
@@ -10263,6 +10455,12 @@ TEXT: BONUS MILESTONE REWARDS
 
 RESOURCE ID: bonus_not_active
 TEXT: Bonus not currently active
+
+RESOURCE ID: bonus_primal_rumblings_absol
+TEXT: Large numbers of Absol will appear for 5 minutes at noon
+
+RESOURCE ID: bonus_primal_rumblings_breaking_swipe
+TEXT: Rayquaza caught from raids will know the Charged Attack Breaking Swipe
 
 RESOURCE ID: bonus_purrloin_o_clock
 TEXT: At the top of each hour, Purrloin will appear in large numbers!
@@ -10626,6 +10824,33 @@ TEXT: Choosing this wish will grant you 2× Stardust for catching Pokémon for t
 
 RESOURCE ID: branch_stardust_bonus_title_key
 TEXT: Collecting Stardust
+
+RESOURCE ID: branch_valentines2023_candy_bonus_button_text_key
+TEXT: Pokémon Candy
+
+RESOURCE ID: branch_valentines2023_candy_bonus_description_key
+TEXT: Choosing this wish will grant you 2× Candy for catching Pokémon during the Valentine’s Day event. You’ll be challenged with tasks such as catching Pokémon and using Pinap Berries, and you may encounter Frillish!
+
+RESOURCE ID: branch_valentines2023_candy_bonus_title_key
+TEXT: Pokémon Candy
+
+RESOURCE ID: branch_valentines2023_dai_bonus_button_text_key
+TEXT: Using Daily Adventure Incense
+
+RESOURCE ID: branch_valentines2023_dai_bonus_description_key
+TEXT: Choosing this wish will grant you an additional 15 minutes of Daily Adventure Incense use during the Valentine’s Day event, for a total of 30 minutes each day. You’ll be challenged with tasks such as catching Pokémon and using Daily Adventure Incense, and you may encounter Frillish!
+
+RESOURCE ID: branch_valentines2023_dai_bonus_title_key
+TEXT: Using Daily Adventure Incense
+
+RESOURCE ID: branch_valentines2023_xp_bonus_button_text_key
+TEXT: Catching Pokémon
+
+RESOURCE ID: branch_valentines2023_xp_bonus_description_key
+TEXT: Choosing this wish will grant you 2× XP for catching Pokémon during the Valentine’s Day event. You’ll be challenged with tasks such as catching Pokémon and earning XP, and you may encounter Frillish!
+
+RESOURCE ID: branch_valentines2023_xp_bonus_title_key
+TEXT: Catching Pokémon
 
 RESOURCE ID: branch_xp_bonus_button_text_key
 TEXT: Catching Pokémon
@@ -12171,6 +12396,24 @@ TEXT: Charged TMs can’t be used on Shadow Pokémon.
 RESOURCE ID: charge_up_event_name
 TEXT: Charge Up
 
+RESOURCE ID: chasing_legends_branch_cacnea_desc
+TEXT: Incense will attract additional Cacnea, and you can earn extra encounters with Cacnea via Special Research!
+
+RESOURCE ID: chasing_legends_branch_cacnea_title
+TEXT: Choose Cacnea
+
+RESOURCE ID: chasing_legends_branch_gulpin_desc
+TEXT: Incense will attract additional Gulpin, and you can earn extra encounters with Gulpin via Special Research!
+
+RESOURCE ID: chasing_legends_branch_gulpin_title
+TEXT: Choose Gulpin
+
+RESOURCE ID: chasing_legends_branch_surskit_desc
+TEXT: Incense will attract additional Surskit, and you can earn extra encounters with Surskit via Special Research!
+
+RESOURCE ID: chasing_legends_branch_surskit_title
+TEXT: Choose Surskit
+
 RESOURCE ID: chicago_fest_july_2017_title
 TEXT: Pokémon GO Fest
 
@@ -13012,6 +13255,12 @@ TEXT: Collect AR Data
 RESOURCE ID: collection_challenge_event
 TEXT: Event-themed Collection Challenge
 
+RESOURCE ID: collection_twlantern2023
+TEXT: Taiwan Lantern Festival 2023
+
+RESOURCE ID: collection_twlantern2023_description
+TEXT: Catch these Pokémon during the event!
+
 RESOURCE ID: coloss_2019_new_friend_medium
 TEXT: A Colossal Discovery: Make a new friend
 
@@ -13423,6 +13672,12 @@ TEXT: You’re gonna be frozen in your tracks.
 RESOURCE ID: combat_grunt_quote_ice__male_speaker
 TEXT: You’re gonna be frozen in your tracks.
 
+RESOURCE ID: combat_grunt_quote_metal__female_speaker
+TEXT: You’re no match for my iron will!
+
+RESOURCE ID: combat_grunt_quote_metal__male_speaker
+TEXT: You’re no match for my iron will!
+
 RESOURCE ID: combat_grunt_quote_normal__female_speaker
 TEXT: Normal does not mean weak.
 
@@ -13719,6 +13974,12 @@ TEXT: Pokémon Remaining
 RESOURCE ID: combat_surrender
 TEXT: Surrender and exit?
 You won’t receive any rewards.
+
+RESOURCE ID: combat_tgr_title_gotour
+TEXT: Traitorous Leader
+
+RESOURCE ID: combat_tgr_title_gotour_ally
+TEXT: Reluctant Ally
 
 RESOURCE ID: combat_tired_of_battle
 TEXT: Your opponent no longer wants to battle.
@@ -14603,6 +14864,9 @@ TEXT: {0} Evolution Shard received!
 
 RESOURCE ID: encounter_score_active_mega_bonus
 TEXT: Active Mega-Evolution Bonus
+
+RESOURCE ID: encounter_score_active_primal_bonus
+TEXT: Active Primal Reversion Bonus
 
 RESOURCE ID: encounter_score_ar_plus_bonus
 TEXT: Expert Handler
@@ -16335,7 +16599,7 @@ RESOURCE ID: filter_key_legendary
 TEXT: legendary
 
 RESOURCE ID: filter_key_location_card
-TEXT: mementobackgrounds
+TEXT: locationcards
 
 RESOURCE ID: filter_key_lucky
 TEXT: lucky
@@ -16357,6 +16621,9 @@ TEXT: exraid
 
 RESOURCE ID: filter_key_raid_mega
 TEXT: megaraid
+
+RESOURCE ID: filter_key_raid_primal
+TEXT: primalraid
 
 RESOURCE ID: filter_key_raid_remote
 TEXT: remoteraid
@@ -16416,7 +16683,7 @@ RESOURCE ID: filter_label_legendary
 TEXT: Legendary
 
 RESOURCE ID: filter_label_location_card
-TEXT: Has Memento Background
+TEXT: Has Location Card
 
 RESOURCE ID: filter_label_lucky
 TEXT: Lucky
@@ -17361,7 +17628,7 @@ RESOURCE ID: found_referral_code_from_link
 TEXT: The referral code was found!
 
 RESOURCE ID: fr_go_tour_hoenn_ghosts
-TEXT: Spooky Scramble
+TEXT: Spooky Cipher
 
 RESOURCE ID: fr_go_tour_hoenn_mega
 TEXT: Energy Boost
@@ -18055,6 +18322,24 @@ YOU MUST PLAY DURING THE SPECIFIED TIME TO RECEIVE ALL THE SPECIAL EVENT BONUSES
 RESOURCE ID: general1.ticket.holiday2022_title
 TEXT: Winter Holiday Timed Research Ticket
 
+RESOURCE ID: general1.ticket.jirachimasterwork_description
+TEXT: A ticket to access Masterwork Research that leads to an encounter with one of the most elusive Pokémon, Shiny Jirachi, and includes the following rewards: 
+
+9 Rare Candy 
+20,405 XP 
+12,700 Stardust 
+2 Poffins 
+2 Incense 
+30 Ultra Balls 
+20 Jirachi Candy, 10 Groudon Candy, 10 Kyogre Candy, and 10 Rayquaza Candy 
+
+Learn more in the in-game News. 
+
+YOU MUST PLAY BETWEEN FEBRUARY 20, 2023, AT 10:00 A.M. AND MARCH 20, 2023, AT 10:00 A.M. PT TO RECEIVE ALL THE SPECIAL EVENT BONUSES.
+
+RESOURCE ID: general1.ticket.jirachimasterwork_title
+TEXT: Masterwork Research: Wish Granted
+
 RESOURCE ID: general1.ticket.keldeo_description
 TEXT: A ticket to access the Something Extraordinary Special Research, wherever you are, which leads to an encounter with Ordinary Form Keldeo as well as the following rewards: 
  
@@ -18127,6 +18412,12 @@ TEXT: Continue
 
 RESOURCE ID: general_cp
 TEXT: CP
+
+RESOURCE ID: general_day
+TEXT: {0} day
+
+RESOURCE ID: general_days
+TEXT: {0} days
 
 RESOURCE ID: general_defense
 TEXT: Defense
@@ -18635,14 +18926,472 @@ TEXT: Verdant Earth
 RESOURCE ID: go_tour_2023_habitat_4
 TEXT: Ancient Shores
 
+RESOURCE ID: go_tour_global_sr_dialog_00_00
+TEXT: %PLAYERNAME%! I can’t tell you how much of a relief it is to see you.
+
+RESOURCE ID: go_tour_global_sr_dialog_00_01
+TEXT: The weather’s still going haywire, and we have multiple confirmed sightings of Primal Kyogre and Primal Groudon. I’m afraid they’ve left a streak of destruction in their wake.
+
+RESOURCE ID: go_tour_global_sr_dialog_00_02
+TEXT: But hope is not lost—Rhi and the team leaders are still searching for the Red and Blue Orbs, which are said to have once resolved a similar incident in Hoenn.
+
+RESOURCE ID: go_tour_global_sr_dialog_00_03
+TEXT: Once we have the Orbs, things’ll go back to normal, and—fingers crossed—we’ll be able to figure out what caused this surge of natural energy to begin with.
+
+RESOURCE ID: go_tour_global_sr_dialog_00_04
+TEXT: Rhi left in that direction. If you hurry, you can catch up, %PLAYERNAME%!
+
+RESOURCE ID: go_tour_global_sr_dialog_01_post_branch_00
+TEXT: A wise choice. If you make use of Incense as we search, we may locate this Pokémon more easily.
+
+RESOURCE ID: go_tour_global_sr_dialog_01_post_branch_01
+TEXT: Are you already familiar with the Red and Blue Orbs?
+
+RESOURCE ID: go_tour_global_sr_dialog_01_post_branch_02
+TEXT: Professor Willow informed me they originate from a region called “Hoenn.”
+
+RESOURCE ID: go_tour_global_sr_dialog_01_post_branch_03
+TEXT: The Orbs have some influence over Primal Reversion. This is the transformation Kyogre and Groudon undergo when they absorb an abundance of natural energy.
+
+RESOURCE ID: go_tour_global_sr_dialog_01_post_branch_04
+TEXT: A region home to such artifacts must be full of mysteries to illuminate.
+
+RESOURCE ID: go_tour_global_sr_dialog_01_post_branch_05
+TEXT: Someday, I would like to visit Hoenn and see if any learnings from their myths can be applied to Ultra Beasts.
+
+RESOURCE ID: go_tour_global_sr_dialog_01_post_branch_06
+TEXT: No matter where one goes, there are always interesting Pokémon that call that place home. Would you not agree—
+
+RESOURCE ID: go_tour_global_sr_dialog_01_post_branch_07
+TEXT: Ah. I see your chosen Pokémon in that direction. Let us venture after it, %PLAYERNAME%.
+
+RESOURCE ID: go_tour_global_sr_dialog_02_00
+TEXT: It is always a delight to watch you in action, %PLAYERNAME%.
+
+RESOURCE ID: go_tour_global_sr_dialog_02_01
+TEXT: This chase has led us past a diverse array of Pokémon. It could signal that there is something of interest nearby, such as one of the Orbs.
+
+RESOURCE ID: go_tour_global_sr_dialog_02_02
+TEXT: It is also possible that Pokémon are attracted to—not merely attuned to—natural energy. Perhaps we are near one that has undergone Primal Reversion...
+
+RESOURCE ID: go_tour_global_sr_dialog_02_03
+TEXT: But we need not fear. I am confident you and your Pokémon can fend off Primal Kyogre and Primal Groudon. In the meantime, let us review what we know of them.
+
+RESOURCE ID: go_tour_global_sr_dialog_02_04
+TEXT: According to Professor Willow, Groudon has long been described in mythology as the Pokémon that raised lands and expanded continents.
+
+RESOURCE ID: go_tour_global_sr_dialog_02_05
+TEXT: Legends tell of its many clashes against Kyogre, as each sought to gain the power of nature. Could Primal Kyogre and Primal Groudon be fighting once again? That would explain the strange weather.
+
+RESOURCE ID: go_tour_global_sr_dialog_02_06
+TEXT: And speaking of strange, look there—a scarlet glint, coming from that cave. Hm? You cannot see it? Worry not. I shall investigate.
+
+RESOURCE ID: go_tour_global_sr_dialog_02_07
+TEXT: In the meantime, I hear a telltale cry growing nearer. Could it be Primal Groudon?
+
+RESOURCE ID: go_tour_global_sr_dialog_03_00
+TEXT: Thank you for keeping Primal Groudon at bay, %PLAYERNAME%. Here is my contribution—the Red Orb.
+
+RESOURCE ID: go_tour_global_sr_dialog_03_01
+TEXT: The cave I found it in was most impressive. The Red Orb shone with a brilliant crimson light atop something like an altar. Perhaps it was an object of worship in a time long past.
+
+RESOURCE ID: go_tour_global_sr_dialog_03_02
+TEXT: Only the Blue Orb remains. It is associated with Kyogre, if I am not mistaken. 
+
+RESOURCE ID: go_tour_global_sr_dialog_03_03
+TEXT: I have read that Kyogre is able to create massive rain clouds that cover the entire sky and bring about torrential downpours. It has appeared in mythology as the creator of the sea.
+
+RESOURCE ID: go_tour_global_sr_dialog_03_04
+TEXT: The sea... The way sunlight glitters upon the waters of this world is enchanting. The sights where I am from are utterly unalike—though I would still enjoy bringing you to visit someday, %PLAYERNAME%.
+
+RESOURCE ID: go_tour_global_sr_dialog_03_05
+TEXT: But enough talk. I can hear Primal Kyogre nearby. If I could trouble you to keep it at bay, I will continue to canvass the area.
+
+RESOURCE ID: go_tour_global_sr_dialog_04_00
+TEXT: Resplendent work, %PLAYERNAME%.
+
+RESOURCE ID: go_tour_global_sr_dialog_04_01
+TEXT: While you were away, I followed the path of the rain’s runoff. It led me to another mysterious cavern, this time filled with an azure light. The Blue Orb was atop a shining altar. I wish we could have beheld it together.
+
+RESOURCE ID: go_tour_global_sr_dialog_04_02
+TEXT: Now, with both Orbs in our possession, Primal Kyogre and Primal Groudon will cease their rampage.
+
+RESOURCE ID: go_tour_global_sr_dialog_04_03
+TEXT: Climatic conditions should soon stabilize, and natural forces will once again find harmony.
+
+RESOURCE ID: go_tour_global_sr_dialog_04_04
+TEXT: Thank you for your assistance today. I would not have been able to recover the Orbs without the protection provided by you and your Pokémon.
+
+RESOURCE ID: go_tour_global_sr_dialog_04_05
+TEXT: Before we return to Professor Willow, I have one more favor to ask of you.
+
+RESOURCE ID: go_tour_global_sr_dialog_04_06
+TEXT: All our talk of Kyogre and Groudon’s might has sparked my curiosity.
+
+RESOURCE ID: go_tour_global_sr_dialog_04_07
+TEXT: Now that we can safely observe Primal Reversion with the Orbs in our possession, could you give me a demonstration of the phenomenon, %PLAYERNAME%?
+
+RESOURCE ID: go_tour_global_sr_dialog_05_00
+TEXT: %PLAYERNAME%! There you are. The weather’s finally stopped going topsy-turvy! I take that to mean you and Rhi were successful in finding the Red and Blue Orbs.
+
+RESOURCE ID: go_tour_global_sr_dialog_05_01
+TEXT: You two are amazing. Normally, it’d take no less than Rayquaza descending to the ground to settle one of Kyogre and Groudon’s “arguments”!
+
+RESOURCE ID: go_tour_global_sr_dialog_05_02
+TEXT: Maybe you got the jump on it. Rayquaza would have to be mighty speedy to get ahead of you two!
+
+RESOURCE ID: go_tour_global_sr_dialog_05_03
+TEXT: Oh, that reminds me. While you and Rhi were off saving the day, I had some time to think about what could’ve caused the surge of natural energy to begin with. My top theory so far is—
+
+RESOURCE ID: go_tour_global_sr_dialog_05_04
+TEXT: Hold on! Did you see that, %PLAYERNAME%?! Something bright just flew across the sky—could it be a Pokémon?
+
+RESOURCE ID: go_tour_global_sr_dialog_05_05
+TEXT: Looks like we’ve still got some investigating to do!
+
+RESOURCE ID: go_tour_global_sr_dialog_05_06
+TEXT: You know where to find me when you’re ready to continue your Pokémon journey. Until then, thanks again for your help. Things just wouldn’t be the same without you around!
+
+RESOURCE ID: go_tour_global_sr_dialog_branch_00
+TEXT: Greetings, %PLAYERNAME%. 
+
+RESOURCE ID: go_tour_global_sr_dialog_branch_01
+TEXT: It has been some time since our last mission together. I would not have been able to learn of this world and keep the Ultra Beasts at bay without your previous assistance.
+
+RESOURCE ID: go_tour_global_sr_dialog_branch_02
+TEXT: You are here to assist in finding the Red and Blue Orbs, correct? Your company is most welcome, despite these dire circumstances.
+
+RESOURCE ID: go_tour_global_sr_dialog_branch_03
+TEXT: I hypothesize that following a Pokémon will lead us in the right direction. Pokémon seem to be well attuned to natural energy.
+
+RESOURCE ID: go_tour_global_sr_dialog_branch_04
+TEXT: Please select a Pokémon, %PLAYERNAME%. 
+
+RESOURCE ID: go_tour_hoenn_add_on_hatch
+TEXT: Add-on: Egg-thusiast
+
+RESOURCE ID: go_tour_hoenn_add_on_raid
+TEXT: Add-on: Raid Lover
+
+RESOURCE ID: go_tour_hoenn_global_hab_1_collection_challenge
+TEXT: Global Collection Challenge: Blistering Sands
+
+RESOURCE ID: go_tour_hoenn_global_hab_2_collection_challenge
+TEXT: Global Collection Challenge: Eerie Mists
+
+RESOURCE ID: go_tour_hoenn_global_hab_3_collection_challenge
+TEXT: Global Collection Challenge: Verdant Earth
+
+RESOURCE ID: go_tour_hoenn_global_hab_4_collection_challenge
+TEXT: Global Collection Challenge: Ancient Shores
+
 RESOURCE ID: go_tour_hoenn_global_title
 TEXT: GO Tour: Hoenn – Global
+
+RESOURCE ID: go_tour_hoenn_live_hab_1_collection_challenge_01
+TEXT: Collection Challenge: Blistering Sands
+
+RESOURCE ID: go_tour_hoenn_live_hab_1_collection_challenge_02
+TEXT: Collection Challenge: Blistering Sands
+
+RESOURCE ID: go_tour_hoenn_live_hab_2_collection_challenge_01
+TEXT: Collection Challenge: Eerie Mists
+
+RESOURCE ID: go_tour_hoenn_live_hab_2_collection_challenge_02
+TEXT: Collection Challenge: Eerie Mists
+
+RESOURCE ID: go_tour_hoenn_live_hab_3_collection_challenge_01
+TEXT: Collection Challenge: Verdant Earth
+
+RESOURCE ID: go_tour_hoenn_live_hab_3_collection_challenge_02
+TEXT: Collection Challenge: Verdant Earth
+
+RESOURCE ID: go_tour_hoenn_live_hab_4_collection_challenge_01
+TEXT: Collection Challenge: Ancient Shores
+
+RESOURCE ID: go_tour_hoenn_live_hab_4_collection_challenge_02
+TEXT: Collection Challenge: Ancient Shores
 
 RESOURCE ID: go_tour_hoenn_live_title
 TEXT: GO Tour: Hoenn – Las Vegas
 
 RESOURCE ID: go_tour_hoenn_title
 TEXT: GO Tour: Hoenn
+
+RESOURCE ID: go_tour_live_sr_dialog_00_00
+TEXT: %PLAYERNAME%! Boy, am I glad to see you out here.
+
+RESOURCE ID: go_tour_live_sr_dialog_00_01
+TEXT: We’ve got something of a unique situation on our hands.
+
+RESOURCE ID: go_tour_live_sr_dialog_00_02
+TEXT: With nature’s forces out of balance, Primal Kyogre and Primal Groudon have awakened, and they’re wreaking havoc in the surrounding area.
+
+RESOURCE ID: go_tour_live_sr_dialog_00_03
+TEXT: It’s no exaggeration to say the entire world is in peril. The team leaders and Rhi are busy tackling the situation on another front, so some...unlikely allies have offered their support.
+
+RESOURCE ID: go_tour_live_sr_dialog_00_04
+TEXT: I know what I’m about to say is mind-boggling, but Team GO Rocket has offered to work with us to keep Primal Kyogre and Primal Groudon in check.
+
+RESOURCE ID: go_tour_live_sr_dialog_00_05
+TEXT: I never thought I’d see the day. I guess the blustering weather has made even Team GO Rocket’s disposition turn sunny!
+
+RESOURCE ID: go_tour_live_sr_dialog_00_06
+TEXT: Will you meet with them, %PLAYERNAME%? Not only do I have every confidence in your ability to quell Primal Kyogre and Primal Groudon, but I know you’ll be able to stop Team GO Rocket if they try any underhanded tricks.
+
+RESOURCE ID: go_tour_live_sr_dialog_00_07
+TEXT: Now hurry—there’s no time to lose!
+
+RESOURCE ID: go_tour_live_sr_dialog_01_arlo_00
+TEXT: Hmph.
+
+RESOURCE ID: go_tour_live_sr_dialog_01_arlo_01
+TEXT: I can’t believe I’m being forced to work with one of Candela’s friends. Unbelievable. As if I need help. 
+
+RESOURCE ID: go_tour_live_sr_dialog_01_arlo_02
+TEXT: But even I know better than to disobey Giovanni, so there’s no worming my way out of this one.
+
+RESOURCE ID: go_tour_live_sr_dialog_01_arlo_03
+TEXT: Just be grateful I’m giving you my time. For the record, I’m more than capable of handling this alone.
+
+RESOURCE ID: go_tour_live_sr_dialog_01_arlo_04
+TEXT: In fact, I’ve already come up with a plan to restrain Primal Kyogre and Primal Groudon. All that’s left for you to do is follow my orders.
+
+RESOURCE ID: go_tour_live_sr_dialog_01_arlo_05
+TEXT: First, we’re going to inspect the locations where Primal Kyogre and Primal Groudon have appeared. I’m putting you in charge of recording any anomalies you see in the area. 
+
+RESOURCE ID: go_tour_live_sr_dialog_01_arlo_06
+TEXT: Well? You heard me, did you not? Time to go.
+
+RESOURCE ID: go_tour_live_sr_dialog_01_cliff_00
+TEXT: FINALLY. You’ve got some nerve, showing up late. I’ve been waiting an entire 45 seconds!
+
+RESOURCE ID: go_tour_live_sr_dialog_01_cliff_01
+TEXT: Thought you’d be better at this teamwork business, considering how much time you spend yakking with Professor Willow and that kid with the funky goggles.
+
+RESOURCE ID: go_tour_live_sr_dialog_01_cliff_02
+TEXT: Don’t waste our time apologizing. And don’t bother introducing yourself. We’ve met enough times to skip the pleasantries.
+
+RESOURCE ID: go_tour_live_sr_dialog_01_cliff_03
+TEXT: Let’s get down to business. Our bosses want us to check out a few locations where Primal Kyogre and Primal Groudon have appeared. 
+
+RESOURCE ID: go_tour_live_sr_dialog_01_cliff_04
+TEXT: Huh? What do you mean, Professor Willow’s not your boss? Whatever. You got the gist.
+
+RESOURCE ID: go_tour_live_sr_dialog_01_cliff_05
+TEXT: Time to get moving. Less talking, more walking!
+
+RESOURCE ID: go_tour_live_sr_dialog_01_sierra_00
+TEXT: Well, well! Isn’t this a lovely surprise? We’re on the same side for once!
+
+RESOURCE ID: go_tour_live_sr_dialog_01_sierra_01
+TEXT: Don’t look so concerned. There’s nothing in it for me if the world sinks, shakes, or whatever it is we’re supposed to be worried about. 
+
+RESOURCE ID: go_tour_live_sr_dialog_01_sierra_02
+TEXT: %PLAYERNAME%, darling, you can trust me.
+
+RESOURCE ID: go_tour_live_sr_dialog_01_sierra_03
+TEXT: Not that you have many options right now—especially with your esteemed team leaders and the little begoggled one otherwise occupied.
+
+RESOURCE ID: go_tour_live_sr_dialog_01_sierra_04
+TEXT: Collaborating will be a new experience for me, too. So let’s find the silver lining of this debacle and learn from one another, shall we? 
+
+RESOURCE ID: go_tour_live_sr_dialog_01_sierra_05
+TEXT: First, you and your Pokémon will accompany me to a few locations where Primal Kyogre and Primal Groudon have appeared.
+
+RESOURCE ID: go_tour_live_sr_dialog_01_sierra_06
+TEXT: Come along. Let’s see what you’re made of. 
+
+RESOURCE ID: go_tour_live_sr_dialog_02_arlo_00
+TEXT: I’ll acknowledge you have some skill with a camera.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_arlo_01
+TEXT: *sigh* Thank you, whatever your name was. This’ll do.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_arlo_02
+TEXT: Now I have enough information to move on with my investigation of Primal Reversion.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_arlo_03
+TEXT: You look confused. Did that professor of yours never teach you about Primal Reversion? 
+
+RESOURCE ID: go_tour_live_sr_dialog_02_arlo_04
+TEXT: I bet you’re thinking that if Candela were here, she could explain it. Unfortunately for you, I’m your leader for today.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_arlo_05
+TEXT: Hmph... Fine. I’ll humor you with an explanation, if only to prove that I know more than both Candela and your professor about the subject.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_arlo_06
+TEXT: Primal Reversion is a phenomenon where Kyogre and Groudon can transform when they absorb massive amounts of energy from nature. It’s similar to Mega Evolution, and it grants them incredible power and strength. You follow?
+
+RESOURCE ID: go_tour_live_sr_dialog_02_arlo_07
+TEXT: Did you just...thank me? Er. Gratitude won’t get you anywhere, you know.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_arlo_08
+TEXT: I’ll admit I’m not hating this alliance as much as I’d expected... But don’t push your luck.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_cliff_00
+TEXT: Huh. These are decent snapshots.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_cliff_01
+TEXT: What do I need ’em for? Hah! That’s the smartest question you’ve asked all day.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_cliff_02
+TEXT: These’ll help us understand Primal Reversion—the phenomenon where Kyogre and Groudon return to their primal forms. I’ve heard Arlo say it’s kind of like Mega Evolution, but powered by nature’s energy.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_cliff_03
+TEXT: Now you can go give Primal Kyogre and Primal Groudon the smackdown.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_cliff_04
+TEXT: What’s that? Of course I’m coming with you. We’re a team today.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_cliff_05
+TEXT: “Can’t leave a partner out to dry.” That’s what we used to say back on the ranch.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_cliff_06
+TEXT: Didn’t know I had a ranch? Guess you wouldn’t. Those days are long gone, anyhow.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_cliff_07
+TEXT: OK, enough chitchat. You and your Pokémon are gonna lead the way, “partner.”
+
+RESOURCE ID: go_tour_live_sr_dialog_02_cliff_08
+TEXT: You’ve kept up so far. Now show me you’ve got what it takes!
+
+RESOURCE ID: go_tour_live_sr_dialog_02_sierra_00
+TEXT: These snapshots could’ve been dreadful, but they’re actually decent! Color me mildly impressed.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_sierra_01
+TEXT: They’d be better without your Pokémon in the way. All the same, these will help us better understand Primal Reversion.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_sierra_02
+TEXT: Primal Reversion? You know, the phenomenon where Kyogre and Groudon can transform when they absorb massive amounts of energy from nature. It’s quite similar to Mega Evolution, but powered by a different source.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_sierra_03
+TEXT: There, you see? Take that tidbit as a token of my appreciation for your assistance. Perhaps working with others does have its merits.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_sierra_04
+TEXT: For our next move, let’s see how helpful these observations are in facing the power of Primal Reversion directly.
+
+RESOURCE ID: go_tour_live_sr_dialog_02_sierra_05
+TEXT: I believe I hear a telltale cry coming from that direction. Take your Pokémon and challenge them for me, would you? 
+
+RESOURCE ID: go_tour_live_sr_dialog_03_00
+TEXT: %PLAYERNAME%! The strange weather seems to have subsided a little. Your attempts to calm Primal Kyogre and Primal Groudon are clearly paying off. Great work!
+
+RESOURCE ID: go_tour_live_sr_dialog_03_01
+TEXT: I take it your partnership with Team GO Rocket is going well.
+
+RESOURCE ID: go_tour_live_sr_dialog_03_02
+TEXT: It goes to show we can always find new friends, even in precarious times. But before I let you get back to it... Well. Keep your guard up.
+
+RESOURCE ID: go_tour_live_sr_dialog_03_03
+TEXT: I don’t feel good taking Team GO Rocket’s newfound helpfulness with such a large spoonful of skepticism, but I can’t forget their past deeds so easily.
+
+RESOURCE ID: go_tour_live_sr_dialog_03_04
+TEXT: Until they give us cause for concern, though, I’m thankful for their help.
+
+RESOURCE ID: go_tour_live_sr_dialog_03_05
+TEXT: But remember that even though you’ve gathered some research material—great snapshots, by the way—we haven’t managed to quell Primal Kyogre and Primal Groudon for good.
+
+RESOURCE ID: go_tour_live_sr_dialog_03_06
+TEXT: I’m off to check if Rhi and the team leaders have made any progress toward locating the Red and Blue Orbs. Keep at it, %PLAYERNAME%!
+
+RESOURCE ID: go_tour_live_sr_dialog_04_arlo_00
+TEXT: Acceptable work. You’ve actually managed to calm Primal Kyogre and Primal Groudon.
+
+RESOURCE ID: go_tour_live_sr_dialog_04_arlo_01
+TEXT: And what do you have there? Let me see it.
+
+RESOURCE ID: go_tour_live_sr_dialog_04_arlo_02
+TEXT: This looks similar to Mega Energy. Could it be...nature’s energy distilled?
+
+RESOURCE ID: go_tour_live_sr_dialog_04_arlo_03
+TEXT: ...
+
+RESOURCE ID: go_tour_live_sr_dialog_04_arlo_04
+TEXT: Interesting. Fascinating, even. Now I have what I need. With this new power source, Team GO Rocket—no, I, Arlo—will be able to control the very shape of the earth.
+
+RESOURCE ID: go_tour_live_sr_dialog_04_arlo_05
+TEXT: But even without that power, there’s one thing I can rid myself of right now.
+
+RESOURCE ID: go_tour_live_sr_dialog_04_arlo_06
+TEXT: You. Farewell, friend of Candela. This alliance is over.
+
+RESOURCE ID: go_tour_live_sr_dialog_04_cliff_00
+TEXT: You’ve calmed Primal Kyogre and Primal Groudon a few times now.
+
+RESOURCE ID: go_tour_live_sr_dialog_04_cliff_01
+TEXT: Not bad! I’d promote you if you were on my team. I know good work when I see it.
+
+RESOURCE ID: go_tour_live_sr_dialog_04_cliff_02
+TEXT: In fact, I’m getting the hang of it by watching you. 
+
+RESOURCE ID: go_tour_live_sr_dialog_04_cliff_03
+TEXT: Which means Team GO Rocket’s got no more use for you! 
+
+RESOURCE ID: go_tour_live_sr_dialog_04_cliff_04
+TEXT: So long, “partner”! 
+
+RESOURCE ID: go_tour_live_sr_dialog_04_cliff_05
+TEXT: Don’t tell me you thought we were all best buds now? Pfft... Hahaha!
+
+RESOURCE ID: go_tour_live_sr_dialog_04_cliff_06
+TEXT: Nothing will shake my loyalty to Team GO Rocket. And don’t you forget it!
+
+RESOURCE ID: go_tour_live_sr_dialog_04_sierra_00
+TEXT: Truly impressive! You’ve managed to calm Primal Kyogre and Primal Groudon more than once now.
+
+RESOURCE ID: go_tour_live_sr_dialog_04_sierra_01
+TEXT: Watching you and your Pokémon in action has been a joy. I’ve learned ever so much.
+
+RESOURCE ID: go_tour_live_sr_dialog_04_sierra_02
+TEXT: In fact, I’ve learned enough that Team GO Rocket no longer needs you to be part of this operation!
+
+RESOURCE ID: go_tour_live_sr_dialog_04_sierra_03
+TEXT: Oh, but where are my manners? I must thank you for showing us exactly how to take down Kyogre and Groudon.
+
+RESOURCE ID: go_tour_live_sr_dialog_04_sierra_04
+TEXT: Rest secure in the knowledge that you’ve contributed to the glory of Team GO Rocket.
+
+RESOURCE ID: go_tour_live_sr_dialog_04_sierra_05
+TEXT: You didn’t think this would last forever, did you? Oh, darling. Our alliance ends now.
+
+RESOURCE ID: go_tour_live_sr_dialog_04_sierra_06
+TEXT: Solitude is best, after all...
+
+RESOURCE ID: go_tour_live_sr_dialog_05_00
+TEXT: %PLAYERNAME%! What just happened? I saw the Team GO Rocket leaders running off in a huff! And your Pokémon look like they’ve been through the wringer!
+
+RESOURCE ID: go_tour_live_sr_dialog_05_01
+TEXT: *sigh* Let me guess. They tried to pull a fast one on us, didn’t they?
+
+RESOURCE ID: go_tour_live_sr_dialog_05_02
+TEXT: Not very smart of them to go toe-to-toe with you. I assume you taught them a lesson before they could complete their scheme. Tell me all about what happened.
+
+RESOURCE ID: go_tour_live_sr_dialog_05_03
+TEXT: ... ... ...
+They made your Pokémon fight alone against Primal Kyogre and Primal Groudon? And they were trying to harness the power of Primal Reversion for themselves?
+
+RESOURCE ID: go_tour_live_sr_dialog_05_04
+TEXT: Thank goodness you didn’t let that power fall into Team GO Rocket’s hands. If they’d gained the ability to reshape the world, who knows what they would’ve done?
+
+RESOURCE ID: go_tour_live_sr_dialog_05_05
+TEXT: Even with that disaster averted, Primal Kyogre and Primal Groudon are no closer to calming down. We’ll have to rely on the team leaders and Rhi to find the Red and Blue Orbs so we can resolve the situation for good.
+
+RESOURCE ID: go_tour_live_sr_dialog_05_06
+TEXT: All the same, I don’t want to understate what you’ve done here, %PLAYERNAME%! Working with Team GO Rocket must have made for one uneasy alliance.
+
+RESOURCE ID: go_tour_live_sr_dialog_05_07
+TEXT: You have my thanks for a job well done. I’m sure I’ll be seeing you again soon.
+(But...where did all this natural energy come from in the first place?)
+
+RESOURCE ID: go_tour_live_sr_dialog_05_arlo_defeat
+TEXT: Tch... Don’t think for a second that you’ve seen the last of me.
+
+RESOURCE ID: go_tour_live_sr_dialog_05_cliff_defeat
+TEXT: Argh! The boss will be steamed when he hears about this...
+
+RESOURCE ID: go_tour_live_sr_dialog_05_sierra_defeat
+TEXT: Looks like you had one more lesson to teach me. For shame, Sierra... I won’t make this mistake again.
 
 RESOURCE ID: gofest2020_leadup_title_battle
 TEXT: GO Fest Battle Challenge
@@ -20725,6 +21474,135 @@ TEXT: Now: Violet City hour!
 RESOURCE ID: gotour2022_welcome
 TEXT: Welcome to Pokémon GO Tour: Johto!
 
+RESOURCE ID: gotour2023_choose_ruby
+TEXT: Choose Ruby
+
+RESOURCE ID: gotour2023_choose_sapphire
+TEXT: Choose Sapphire
+
+RESOURCE ID: gotour2023_choose_version_title_ruby
+TEXT: Do you want to choose the Ruby team?
+
+RESOURCE ID: gotour2023_choose_version_title_sapphire
+TEXT: Do you want to choose the Sapphire team?
+
+RESOURCE ID: gotour2023_habitat_1_indicator
+TEXT: Current habitat: Blistering Sands
+
+RESOURCE ID: gotour2023_habitat_2_indicator
+TEXT: Current habitat: Eerie Mists
+
+RESOURCE ID: gotour2023_habitat_3_indicator
+TEXT: Current habitat: Verdant Earth
+
+RESOURCE ID: gotour2023_habitat_4_indicator
+TEXT: Current habitat: Ancient Shores
+
+RESOURCE ID: gotour2023_welcome
+TEXT: Pokémon GO Tour: Hoenn
+
+RESOURCE ID: gotour2023_welcome_global
+TEXT: Welcome to Pokémon GO Tour: Hoenn – Global!
+
+RESOURCE ID: gotour2023_welcome_live
+TEXT: Welcome to Pokémon GO Tour: Hoenn – Las Vegas!
+
+RESOURCE ID: gotour_2023_arlo_battle_quote
+TEXT: Don’t think we’re friends now.
+
+RESOURCE ID: gotour_2023_arlo_combat_quote
+TEXT: Remember: I’m only here because Giovanni asked. 
+
+RESOURCE ID: gotour_2023_arlo_defeat_quote
+TEXT: That win didn’t count. Now get going already!
+
+RESOURCE ID: gotour_2023_arlo_pre_combat_quote
+TEXT: Don’t you have something better to do? Ugh.
+
+RESOURCE ID: gotour_2023_arlo_victory_quote
+TEXT: A foregone conclusion.
+
+RESOURCE ID: gotour_2023_cliff_battle_quote
+TEXT: Now show me what you’re made of!
+
+RESOURCE ID: gotour_2023_cliff_combat_quote
+TEXT: Too bad you’ll be losing this battle!
+
+RESOURCE ID: gotour_2023_cliff_defeat_quote
+TEXT: At least your strength is being used for the boss’s benefit. 
+
+RESOURCE ID: gotour_2023_cliff_pre_combat_quote
+TEXT: Welcome to the winning side!
+
+RESOURCE ID: gotour_2023_cliff_victory_quote
+TEXT: I expected more from you.
+
+RESOURCE ID: gotour_2023_giovanni_battle_quote
+TEXT: Get ready. 
+
+RESOURCE ID: gotour_2023_giovanni_combat_quote
+TEXT: I’ll remind you and your Pokémon of your place.
+
+RESOURCE ID: gotour_2023_giovanni_defeat_quote
+TEXT: Don’t just stand there. Get back to work. 
+
+RESOURCE ID: gotour_2023_giovanni_pre_combat_quote
+TEXT: ...
+
+RESOURCE ID: gotour_2023_giovanni_victory_quote
+TEXT: This little alliance means nothing in the long run.
+
+RESOURCE ID: gotour_2023_grunt_1_combat_quote
+TEXT: I’m just helping you get stronger! Heh heh! 
+
+RESOURCE ID: gotour_2023_grunt_1_defeat_quote
+TEXT: We’re on the same side today, so it’s not like I really lost, right?
+
+RESOURCE ID: gotour_2023_grunt_1_pre_combat_quote
+TEXT: Just because we’re teaming up doesn’t mean we can’t have a little friendly competition! 
+
+RESOURCE ID: gotour_2023_grunt_1_victory_quote
+TEXT: Hah! Take that, “friend”!
+
+RESOURCE ID: gotour_2023_grunt_2_combat_quote
+TEXT: Come at me!
+
+RESOURCE ID: gotour_2023_grunt_2_defeat_quote
+TEXT: Uh... Congratulations, you passed my test!
+
+RESOURCE ID: gotour_2023_grunt_2_pre_combat_quote
+TEXT: They say we’re working together today. Let me test your skills! 
+
+RESOURCE ID: gotour_2023_grunt_2_victory_quote
+TEXT: That’s a zero for you, newbie!
+
+RESOURCE ID: gotour_2023_grunt_3_combat_quote
+TEXT: Hah! Just kidding. Prepare yourself! 
+
+RESOURCE ID: gotour_2023_grunt_3_defeat_quote
+TEXT: It was just a joke! Quit taking everything so seriously!
+
+RESOURCE ID: gotour_2023_grunt_3_pre_combat_quote
+TEXT: I’d never dream of battling you! We’re on the same side now.
+
+RESOURCE ID: gotour_2023_grunt_3_victory_quote
+TEXT: I love the element of surprise!
+
+RESOURCE ID: gotour_2023_sierra_battle_quote
+TEXT: Don’t look so surprised, dear. Ours is only a temporary truce.
+
+RESOURCE ID: gotour_2023_sierra_combat_quote
+TEXT: Fancy a battle?
+
+RESOURCE ID: gotour_2023_sierra_defeat_quote
+TEXT: This won’t happen again. Now shoo! 
+
+RESOURCE ID: gotour_2023_sierra_pre_combat_quote
+TEXT: You look like you’ve got some fight in your eyes. 
+
+RESOURCE ID: gotour_2023_sierra_victory_quote
+TEXT: Did you think I’d go easy on you today? 
+
 RESOURCE ID: gotour_kanto
 TEXT: Pokémon GO Tour: Kanto
 
@@ -22617,7 +23495,7 @@ RESOURCE ID: home_invalid_pokemon
 TEXT: You’ve selected a Pokémon that can’t be sent.
 
 RESOURCE ID: home_location_card_transfer_warning
-TEXT: If you transfer this Pokémon, it will lose its Memento Background!
+TEXT: If you transfer this Pokémon, it will lose its Location Card!
 
 RESOURCE ID: home_login_app_modal_body
 TEXT: Ensure that your Nintendo Account is linked to Pokémon HOME on a mobile device, and then try again.
@@ -22858,6 +23736,9 @@ TEXT: Increased Adventure Sync rewards next week
 
 RESOURCE ID: increased_stardust_rocket
 TEXT: Increased Stardust from defeating Team GO Rocket Grunts
+
+RESOURCE ID: increased_transfer_candy_xl_bonus
+TEXT: Increased Transfer Candy and Transfer Candy XL
 
 RESOURCE ID: incubator_choose_egg
 TEXT: Choose an Egg to incubate.
@@ -23150,6 +24031,12 @@ TEXT: Grants access to GO Battle League Timed Research, allowing you to earn ext
 RESOURCE ID: item_battle_pass_ticket_name
 TEXT: GO Battle League Timed Research Pass
 
+RESOURCE ID: item_beast_ball_desc
+TEXT: Beast Ball
+
+RESOURCE ID: item_beast_ball_name
+TEXT: Beast Ball
+
 RESOURCE ID: item_bluk_berry_desc
 TEXT: UNDEFINED
 
@@ -23163,10 +24050,10 @@ RESOURCE ID: item_dragon_scale_name
 TEXT: Dragon Scale
 
 RESOURCE ID: item_event_ticket_gray_desc
-TEXT: A ticket to access Timed Research from Thursday, December 15, 2022, at 10:00 a.m. until Saturday, December 31, 2022, at 8:00 p.m. local time, wherever you are.
+TEXT: Masterwork Research: Wish Granted
 
 RESOURCE ID: item_event_ticket_gray_details
-TEXT: This ticket will automatically activate to give you access to Timed Research from December 15–31, wherever you are.
+TEXT: A ticket to access Masterwork Research that leads to an encounter with the elusive Shiny Jirachi.
 
 RESOURCE ID: item_event_ticket_gray_name
 TEXT: Ticket
@@ -23336,6 +24223,14 @@ TEXT: A ticket to access Special Research from Saturday, December 10, 2022, at 1
 RESOURCE ID: item_global_event_ticket_details
 TEXT: This ticket will automatically activate to give you access to Special Research on December 10-11, wherever you are in the world.
 
+RESOURCE ID: item_global_event_ticket_details_no_version_selected
+TEXT: This ticket will automatically activate to give you access to Pokémon GO Tour: Hoenn’s special bonuses.
+
+Select a team to participate in Primal Surge hourly challenges! 
+
+RESOURCE ID: item_global_event_ticket_details_no_version_selected_abridged
+TEXT: This ticket will automatically activate to give you access to Pokémon GO Tour: Hoenn’s special bonuses!
+
 RESOURCE ID: item_global_event_ticket_details_version_selected
 TEXT: This ticket will automatically activate to give you access to a special event on February 26, 2022, wherever you are in the world.
 
@@ -23364,6 +24259,16 @@ TEXT: Feed this to a Pokémon to make it much easier to catch.
 
 RESOURCE ID: item_golden_razz_berry_name
 TEXT: Golden Razz Berry
+
+RESOURCE ID: item_gotour2023_event_ticket_details_no_version_selected
+TEXT: This ticket will automatically activate to give you access to special GO Tour: Hoenn bonuses and content.
+
+Select a team to access all available bonuses and to participate in hourly challenges!
+
+RESOURCE ID: item_gotour2023_event_ticket_details_version_selected
+TEXT: This ticket will automatically activate to give you access to special GO Tour: Hoenn bonuses and content.
+
+Review the team you chose via the Medals section of your Trainer profile.
 
 RESOURCE ID: item_great_ball_desc
 TEXT: A high-performance ball with a higher catch rate than a standard Poké Ball.
@@ -23430,6 +24335,9 @@ TEXT: A rock that can make certain species of Pokémon evolve. It looks like a c
 
 RESOURCE ID: item_kings_rock_name
 TEXT: King's Rock
+
+RESOURCE ID: item_last_ball_warning
+TEXT: Last Ball!
 
 RESOURCE ID: item_leader_map_desc
 TEXT: You can use this to track down Team GO Rocket Hideouts!
@@ -23569,6 +24477,12 @@ TEXT: A spray-type medicine that restores the HP of one Pokémon by {1} points.
 RESOURCE ID: item_potion_name
 TEXT: Potion
 
+RESOURCE ID: item_premier_ball_desc
+TEXT: A somewhat rare Poké Ball made to commemorate a special occasion of some sort.
+
+RESOURCE ID: item_premier_ball_name
+TEXT: Premier Ball
+
 RESOURCE ID: item_rare_candy_desc
 TEXT: A mysterious candy. When used on a Pokémon, it turns into the Pokémon's Candy.
 
@@ -23682,6 +24596,9 @@ TEXT: Upgrade
 
 RESOURCE ID: item_use
 TEXT: USE
+
+RESOURCE ID: item_use_confirmation
+TEXT: Do you want to use a {0}?
 
 RESOURCE ID: item_wepar_berry_desc
 TEXT: UNDEFINED
@@ -26205,10 +27122,10 @@ RESOURCE ID: load_tags_error
 TEXT: Failed to load tags.
 
 RESOURCE ID: location_card_tutorial_header
-TEXT: Memento Backgrounds
+TEXT: Location Cards
 
 RESOURCE ID: location_card_tutorial_message
-TEXT: You got a Memento Background! These are rare backgrounds you may receive when catching Pokémon at special locations. Let’s GO and collect more!
+TEXT: You got a Location Card! These are rare backgrounds you may receive when catching Pokémon at special locations. Let’s GO and collect more!
 
 RESOURCE ID: log_friend_invited_you_to_ex_raid
 TEXT: {0} invited you to an EX Raid!
@@ -26740,6 +27657,24 @@ TEXT: Master Raid Box
 RESOURCE ID: masterwork_jirachi_title
 TEXT: Masterwork Research: Wish Granted
 
+RESOURCE ID: masterwork_jirachi_title_00
+TEXT: Masterwork Research: Wish Granted (1/6)
+
+RESOURCE ID: masterwork_jirachi_title_01
+TEXT: Masterwork Research: Wish Granted (2/6)
+
+RESOURCE ID: masterwork_jirachi_title_02
+TEXT: Masterwork Research: Wish Granted (3/6)
+
+RESOURCE ID: masterwork_jirachi_title_03
+TEXT: Masterwork Research: Wish Granted (4/6)
+
+RESOURCE ID: masterwork_jirachi_title_04
+TEXT: Masterwork Research: Wish Granted (5/6)
+
+RESOURCE ID: masterwork_jirachi_title_05
+TEXT: Masterwork Research: Wish Granted (6/6)
+
 RESOURCE ID: masterwork_lugiahoohs
 TEXT: Masterwork Research: Apex
 
@@ -26829,6 +27764,129 @@ TEXT: Your recent accomplishments are no small feat!
 
 RESOURCE ID: masterwork_lugiahoohs_dialogue_3_8
 TEXT: Thanks again for all your help. I’m sure Lugia and Ho-Oh are grateful, too. Until our next adventure...let’s GO!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_00_00
+TEXT: What perfect timing, %PLAYERNAME%!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_00_01
+TEXT: Exciting news—I just found out Jirachi is in the area!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_00_02
+TEXT: Hoenn legends say that Jirachi can grant any wish that people desire, though it’s only awake seven days out of a thousand years.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_00_03
+TEXT: But considering there were Jirachi sightings just a few years ago—hardly a thousand!—I hypothesize there’s something special about this Jirachi.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_00_04
+TEXT: It sounds like we need to locate the Wish Pokémon for ourselves!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_00_05
+TEXT: Without a clear starting point, we should cast a wide net.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_00_06
+TEXT: I recommend we start the search by looking into Pokémon from the Kanto, Johto, and Hoenn regions.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_00_07
+TEXT: Maybe researching one of those Pokémon will give us the lead we need!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_01_00
+TEXT: Welcome back, %PLAYERNAME%! No Jirachi leads, I’m afraid, but seeing you catch those Pokémon made me think about how much you’ve grown in your journey as a Trainer.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_01_01
+TEXT: Ah! I’ve got an idea! “I wish we knew where to find Jirachi!”
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_01_02
+TEXT: ... ... ...
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_01_03
+TEXT: Oh well—I suppose Jirachi’s not granting that particular wish. It was worth a shot!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_01_04
+TEXT: But that’s enough wishing from me. Say...what do you think your Pokémon would wish for?
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_01_05
+TEXT: To spend some time together? Or maybe to share a tasty snack?
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_01_06
+TEXT: Why don’t you take a moment to get in tune with your Pokémon’s wishes, %PLAYERNAME%, while I noodle on more ways to locate Jirachi.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_02_00
+TEXT: You and your Pokémon are looking refreshed and ready to continue the search for Jirachi, %PLAYERNAME%!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_02_01
+TEXT: Something occurred to me while you were away—Jirachi was originally discovered in the Hoenn region, as you may already know.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_02_02
+TEXT: But it’s not the only elusive Pokémon first discovered in that region.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_02_03
+TEXT: It shares that honor with Kecleon, the Color Swap Pokémon. Kecleon can change the colors of its body at will to blend in with its surroundings.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_02_04
+TEXT: There’s one exception—it can’t change the zigzag pattern on its belly. Looking for that distinctive pattern is the key to spotting Kecleon, but even that trick doesn’t make it easy!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_02_05
+TEXT: I was years into my Pokémon studies before I came across my first Kecleon.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_02_06
+TEXT: Have you encountered a Kecleon yet? Who knows how many times you’ve been standing right next to one without knowing it!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_02_07
+TEXT: I’ve heard Trainers have had luck finding Kecleon around PokéStops. Maybe Jirachi’s taken up the same proclivity for hiding!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_03_00
+TEXT: You’ve got sharp eyes, %PLAYERNAME%! I’ve never seen so many Kecleon in one place. It’s rare to see any Kecleon at all, with their expert camouflaging skills.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_03_01
+TEXT: Unfortunately for us, it seems like Jirachi might be even harder to spot than Kecleon.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_03_02
+TEXT: But I, for one, am undaunted! Keeping your confidence and spirits high is key both in research and in life, I say.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_03_03
+TEXT: Maybe what we need is a little dash of luck to move us ahead.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_03_04
+TEXT: And what’s luckier than a Lucky Pokémon, eh, %PLAYERNAME%?
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_04_00
+TEXT: Hey there %PLAYERNAME%! Feeling any luckier with your new Pokémon?
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_04_01
+TEXT: I know I am! I’ve got a good feeling that Jirachi is closer than ever.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_04_02
+TEXT: Now let’s put that luck to use with some good old-fashioned exploring!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_04_03
+TEXT: We can take some inspiration from Jirachi’s sleep schedule.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_04_04
+TEXT: As you know, Jirachi is only awake for seven days out of  a thousand years.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_04_05
+TEXT: So how about you try dedicating seven days to research? Or catching a thousand Pokémon? I know it’s a lot to ask, but maybe Jirachi will appreciate the perseverance.
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_04_06
+TEXT: Although I hope you’ll be around to help me with my research for a lot longer than a week, %PLAYERNAME%! 
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_05_00
+TEXT: %PLAYERNAME%, you did it—you’ve found our elusive Jirachi!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_05_01
+TEXT: It was no easy task, but you persevered through thick and thin. You’ve done me proud again!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_05_02
+TEXT: It seems our new friend really is different from the Jirachi observed a few years ago. This is a Shiny Jirachi, as I’m sure you’ve noticed from its unique coloring!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_05_03
+TEXT: I wonder if it has different habits. Does its sleep schedule differ? What about its temperament?
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_05_04
+TEXT: Ahem. Sorry about that. It’s hard to contain my excitement when I think about all there is to learn about Pokémon!
+
+RESOURCE ID: masterwork_shiny_jirachi_sr_dialog_05_05
+TEXT: In fact, my fondest wish is that we can keep learning—together!
 
 RESOURCE ID: masterwork_sm_dialogue_1_0
 TEXT: Ah, %PLAYERNAME%! Glad to have you aboard this expedition. Say, have you ever heard this particular tune?
@@ -27254,9 +28312,9 @@ RESOURCE ID: mega_walking_progress
 TEXT: Walking Progress
 
 RESOURCE ID: metadata_local
-TEXT: Built at 2023-02-17T23:48:22.515920
-at SHA c12c1223e3e57c12ff425a098dd63ecdd213bbc8
-Pipeline 1274391, job 15296723
+TEXT: Built at 2023-03-09T09:50:04.718611
+at SHA de4d93f23235e02dec805ba27deea53f039ef67c
+Pipeline 1319194, job 15835455
 
 RESOURCE ID: milestone_rewards_title
 TEXT: MILESTONE REWARDS
@@ -28340,6 +29398,12 @@ TEXT: High Horsepower
 
 RESOURCE ID: move_name_0378
 TEXT: Glaciate
+
+RESOURCE ID: move_name_0379
+TEXT: Breaking Swipe
+
+RESOURCE ID: move_name_0380
+TEXT: Boomburst
 
 RESOURCE ID: move_reroll_confirm_desc
 TEXT: {0} will forget {1}.
@@ -36618,11 +37682,17 @@ TEXT: CAUGHT AT AN EXCLUSIVE MEGA RAID
 RESOURCE ID: pokemon_info_caught_raid_nen
 TEXT: CAUGHT AT AN EXCLUSIVE RAID
 
+RESOURCE ID: pokemon_info_caught_raid_nep
+TEXT: CAUGHT AT AN EXCLUSIVE PRIMAL RAID
+
 RESOURCE ID: pokemon_info_caught_raid_nnm
 TEXT: CAUGHT AT A MEGA RAID
 
 RESOURCE ID: pokemon_info_caught_raid_nnn
 TEXT: CAUGHT AT A RAID
+
+RESOURCE ID: pokemon_info_caught_raid_nnp
+TEXT: CAUGHT AT A PRIMAL RAID
 
 RESOURCE ID: pokemon_info_caught_raid_rem
 TEXT: REMOTELY CAUGHT AT AN EXCLUSIVE MEGA RAID
@@ -36630,11 +37700,17 @@ TEXT: REMOTELY CAUGHT AT AN EXCLUSIVE MEGA RAID
 RESOURCE ID: pokemon_info_caught_raid_ren
 TEXT: REMOTELY CAUGHT AT AN EXCLUSIVE RAID
 
+RESOURCE ID: pokemon_info_caught_raid_rep
+TEXT: REMOTELY CAUGHT AT AN EXCLUSIVE PRIMAL RAID
+
 RESOURCE ID: pokemon_info_caught_raid_rnm
 TEXT: REMOTELY CAUGHT AT A MEGA RAID
 
 RESOURCE ID: pokemon_info_caught_raid_rnn
 TEXT: REMOTELY CAUGHT AT A RAID
+
+RESOURCE ID: pokemon_info_caught_raid_rnp
+TEXT: REMOTELY CAUGHT AT A PRIMAL RAID
 
 RESOURCE ID: pokemon_info_caught_tutorial
 TEXT: CAUGHT IN THE WILD
@@ -36801,6 +37877,21 @@ TEXT: {0} is assigned to a Gym.
 RESOURCE ID: pokemon_info_powerup_section
 TEXT: POWER UP
 
+RESOURCE ID: pokemon_info_primal_evolution_confirmation
+TEXT: Do you want to revert {0} to its primal form?
+
+RESOURCE ID: pokemon_info_primal_evolution_really_confirm
+TEXT: Are you sure you want to revert {0} to its primal form?
+
+RESOURCE ID: pokemon_info_primal_evolution_replace
+TEXT: Your {0} will no longer be in its primal form!
+
+RESOURCE ID: pokemon_info_primal_evolution_time
+TEXT: Primal Reversion lasts for {0} hours.
+
+RESOURCE ID: pokemon_info_primal_resource_label
+TEXT: {0} Primal Energy
+
 RESOURCE ID: pokemon_info_purification_confirmation
 TEXT: Do you want to purify {0}?
 
@@ -36843,7 +37934,7 @@ RESOURCE ID: pokemon_info_transfer_favorite_error
 TEXT: Cannot transfer a favorite Pokémon!
 
 RESOURCE ID: pokemon_info_transfer_mega_evo
-TEXT: You cannot transfer a Mega-Evolved Pokémon.
+TEXT: You can’t send Pokémon that are Mega Evolved or in their primal form.
 
 RESOURCE ID: pokemon_info_transfer_pokemon_buddies
 TEXT: You cannot select your buddy!
@@ -36926,7 +38017,7 @@ RESOURCE ID: pokemon_legendary_info_transfer_to_professor_confirmation
 TEXT: Do you really want to transfer this Legendary Pokémon?
 
 RESOURCE ID: pokemon_location_card_info_transfer_to_professor_confirmation
-TEXT: Are you sure you want to transfer this Pokémon with a Memento Background?
+TEXT: Are you sure you want to transfer this Pokémon with a Location Card?
 
 RESOURCE ID: pokemon_lucky_info_transfer_to_professor_confirmation
 TEXT: Do you really want to transfer this Lucky Pokémon?
@@ -38209,10 +39300,16 @@ TEXT: Kyogre
 RESOURCE ID: pokemon_name_0382_0001
 TEXT: Primal Kyogre
 
+RESOURCE ID: pokemon_name_0382_0004
+TEXT: Primal Kyogre
+
 RESOURCE ID: pokemon_name_0383
 TEXT: Groudon
 
 RESOURCE ID: pokemon_name_0383_0001
+TEXT: Primal Groudon
+
+RESOURCE ID: pokemon_name_0383_0004
 TEXT: Primal Groudon
 
 RESOURCE ID: pokemon_name_0384
@@ -40207,11 +41304,220 @@ TEXT: Unknown Trainers
 RESOURCE ID: ppl_event_name
 TEXT: Power Plant
 
+RESOURCE ID: primal_active_countdown_description
+TEXT: Remaining Primal Reversion Period
+
+RESOURCE ID: primal_daily_limit_description
+TEXT: {0}’s Primal Level cannot increase further today.
+
+RESOURCE ID: primal_daily_limit_header
+TEXT: Daily Level Limit Met
+
+RESOURCE ID: primal_energy_not_awarded
+TEXT: You received only {0} Primal Energy from this raid because you have reached the maximum of {1}.
+
+RESOURCE ID: primal_energy_not_awarded_singular
+TEXT: You received only 1 Primal Energy from this raid because you have reached the maximum of {0}.
+
+RESOURCE ID: primal_evolution_pokedex_header
+TEXT: PRIMAL REVERSION
+
+RESOURCE ID: primal_evolve_preview_first_time
+TEXT: After you revert a Pokémon to its primal form for the first time, you can do so again without Primal Energy after a rest period.
+
+RESOURCE ID: primal_in_battle_msg
+TEXT: {0} is in the battle!
+
+RESOURCE ID: primal_level_header
+TEXT: {0}’s Primal Level
+
+RESOURCE ID: primal_level_requirement_message
+TEXT: Have {0} undergo Primal Reversion {1} more times to reach {2}!
+
+RESOURCE ID: primal_level_requirement_message_singular
+TEXT: Have {0} undergo Primal Reversion {1} more time to reach {2}!
+
+RESOURCE ID: primal_level_transfer_confirmation
+TEXT: This Pokémon has an increased Primal Level. Do you still want to transfer it?
+
+RESOURCE ID: primal_level_tutorial_hero_body
+TEXT: Primal Reversion temporarily changes a Pokémon’s appearance and increases their power. Pokémon in their primal forms can be used in Gym battles, raids, and Trainer Battles.
+
+You can use only one Pokémon that has undergone Primal Reversion or has Mega Evolved at a time.
+
+RESOURCE ID: primal_level_tutorial_hero_title
+TEXT: Let’s GO Primal!
+
+RESOURCE ID: primal_level_unlock_message
+TEXT: You can activate Primal Reversion without Primal Energy and enjoy additional bonuses
+
+RESOURCE ID: primal_level_unlock_prompt
+TEXT: Tap to view Primal Level
+
+RESOURCE ID: primal_level_unlock_title
+TEXT: You can now increase the Primal Level of this Pokémon!
+
+RESOURCE ID: primal_level_up_message
+TEXT: {0}’s Primal Level increased!
+
+RESOURCE ID: primal_level_up_perk_message
+TEXT: Your Pokémon can now undergo Primal Reversion faster without using Primal Energy!
+
+RESOURCE ID: primal_level_up_title
+TEXT: Primal Level Up!
+
+RESOURCE ID: primal_perk_attack_boost
+TEXT: Boosts {0}-, {1}-, and {2}-type attacks in raids
+
+RESOURCE ID: primal_perk_candy_bonus
+TEXT: Catch Candy bonus
+
+RESOURCE ID: primal_perk_candy_bonus_excellent
+TEXT: Enhanced Catch Candy bonus
+
+RESOURCE ID: primal_perk_catch_xp_bonus
+TEXT: Catch XP bonus
+
+RESOURCE ID: primal_perk_catch_xp_bonus_excellent
+TEXT: Enhanced Catch XP bonus
+
+RESOURCE ID: primal_perk_cooldown_days
+TEXT: {0}-day Primal Reversion rest period
+
+RESOURCE ID: primal_perk_cooldown_days_singular
+TEXT: {0}-day Primal Reversion rest period
+
+RESOURCE ID: primal_perk_reduced_energy
+TEXT: Reduced Primal Energy to activate Primal Reversion
+
+RESOURCE ID: primal_perk_reduced_energy_excellent
+TEXT: Massively reduced Primal Energy cost
+
+RESOURCE ID: primal_perk_reduced_energy_great
+TEXT: Greatly reduced Primal Energy cost
+
+RESOURCE ID: primal_perk_xl_bonus_excellent
+TEXT: Excellent Candy XL chance
+
+RESOURCE ID: primal_perk_xl_bonus_great
+TEXT: Great Candy XL chance
+
+RESOURCE ID: primal_perks_header
+TEXT: Primal Reversion Bonuses
+
+RESOURCE ID: primal_reversion_bonus_buff_desc
+TEXT: While {0} is in its primal form, you’ll earn extra Candy when catching <b>{1}</b>-, <b>{2}</b>-, or <b>{3}</b>-type Pokémon or any Raid Boss.
+
+RESOURCE ID: primal_reversion_bonus_buff_desc_1
+TEXT: While {0} is in its primal form, you’ll earn extra Candy when you catch <b>{1}</b>-, <b>{2}</b>-, or <b>{3}</b>-type Pokémon.
+
+RESOURCE ID: primal_reversion_bonus_buff_desc_2
+TEXT: While {0} is in its primal form, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>-, <b>{2}</b>-, or <b>{3}</b>-type Pokémon.
+
+RESOURCE ID: primal_reversion_bonus_buff_desc_3
+TEXT: While {0} is in its primal form, you’ll earn extra Candy, extra XP, and have an increased chance of receiving Candy XL when you catch <b>{1}</b>-, <b>{2}</b>-, or <b>{3}</b>-type Pokémon.
+
+RESOURCE ID: primal_reversion_bonus_buff_title
+TEXT: {0} Primal Reversion Bonus
+
+RESOURCE ID: primal_revert
+TEXT: Primal Reversion
+
+RESOURCE ID: primal_revert_energy_prompt
+TEXT: Tap to activate Primal Reversion!
+
+RESOURCE ID: primal_revert_free_prompt
+TEXT: Tap to activate Primal Reversion!
+
+RESOURCE ID: primal_revert_pokemon
+TEXT: Revert {0} to its primal form
+
+RESOURCE ID: primal_rumblings_2023_collection_challenge
+TEXT: Primal Rumblings Collection Challenge
+
+RESOURCE ID: primal_rumblings_absol_title
+TEXT: A Grim Omen?
+
+RESOURCE ID: primal_rumblings_desc
+TEXT: Get ready for Pokémon GO Tour: Hoenn!
+
+RESOURCE ID: primal_rumblings_hoenn
+TEXT: Catch 3 Pokémon originally discovered in the Hoenn region
+
+RESOURCE ID: primal_rumblings_mudkip
+TEXT: Catch a Mudkip
+
+RESOURCE ID: primal_rumblings_sr_dialog_00_00
+TEXT: %PLAYERNAME%! There you are! How’ve you been feeling?
+
+RESOURCE ID: primal_rumblings_sr_dialog_00_01
+TEXT: I ask because I’m a bit out of sorts. The temperature’s been fluctuating between brisk and balmy all day, and the local plant life has been uncharacteristically productive.
+
+RESOURCE ID: primal_rumblings_sr_dialog_00_02
+TEXT: There were Pinap Berry seeds in the pocket of my spare coat, and they started sprouting overnight! And that’s to say nothing of the tree growing through my bed. Makes it hard to saw logs, if you’ll excuse the pun.
+
+RESOURCE ID: primal_rumblings_sr_dialog_00_03
+TEXT: But there’s more. A tremor shook the lab earlier. It rattled the Daily Adventure Incense I was preparing for you right off the table!
+
+RESOURCE ID: primal_rumblings_sr_dialog_00_04
+TEXT: It all suggests the natural forces around us are somehow overactive.
+
+RESOURCE ID: primal_rumblings_sr_dialog_00_05
+TEXT: Now that you’re here, I think we can get a handle on the situation. Things don’t look serious yet, but we should prepare for any possibility—call it a professor’s intuition!
+
+RESOURCE ID: primal_rumblings_sr_dialog_00_06
+TEXT: Let’s check on how the weather’s affecting the local Pokémon. See if you can find any clues, will you? 
+
+RESOURCE ID: primal_rumblings_sr_dialog_00_07
+TEXT: (Come to think of it, the team leaders and I wished on one of those shooting stars the other day for the earth and sea to flourish. It couldn’t be...could it?)
+
+RESOURCE ID: primal_rumblings_sr_dialog_01_00
+TEXT: Good to see you back, %PLAYERNAME%! Seems like you didn’t run into any trouble. Unfortunately, I can’t say the same—things have gone from bad to worse here.
+
+RESOURCE ID: primal_rumblings_sr_dialog_01_01
+TEXT: I felt another tremor earlier, followed by a sudden downpour. My notes were nearly washed away!
+
+RESOURCE ID: primal_rumblings_sr_dialog_01_02
+TEXT: Enough about that, though. Let’s take a look at what you’ve found. Hmm... Ground-type and Water-type Pokémon... And when we take into account the climatic conditions, strange tectonic activity, and rapidly flourishing plant life...
+
+RESOURCE ID: primal_rumblings_sr_dialog_01_03
+TEXT: The only word I can think of to describe this phenomenon is “primal”!
+
+RESOURCE ID: primal_rumblings_sr_dialog_01_04
+TEXT: When there’s an overabundance of natural energy, the Pokémon Kyogre and Groudon can absorb that energy to revert to their primal forms, dramatically increasing their power.
+
+RESOURCE ID: primal_rumblings_sr_dialog_01_05
+TEXT: Some even say those are their true forms. As a professor, of course I’d love to study them up close! But Pokémon that mighty can sow chaos if left unchecked for long.
+
+RESOURCE ID: primal_rumblings_sr_dialog_01_06
+TEXT: But don’t worry, %PLAYERNAME%. I’ve sent the team leaders and Rhi on a mission to find the Red and Blue Orbs. According to the literature of the Hoenn region, the orbs are ancient artifacts with the power to calm Primal Kyogre and Primal Groudon.
+
+RESOURCE ID: primal_rumblings_sr_dialog_01_07
+TEXT: Once Primal Groudon and Primal Kyogre are subdued, everything should go back to normal. Until then, stay safe!
+
+RESOURCE ID: primal_rumblings_title
+TEXT: Primal Rumblings
+
+RESOURCE ID: primal_rumblings_title_00
+TEXT: Primal Rumblings (1/2)
+
+RESOURCE ID: primal_rumblings_title_01
+TEXT: Primal Rumblings (2/2)
+
+RESOURCE ID: primal_rumblings_torchic
+TEXT: Catch a Torchic
+
+RESOURCE ID: primal_rumblings_treecko
+TEXT: Catch a Treecko
+
 RESOURCE ID: primal_surge
 TEXT: Primal Surge
 
 RESOURCE ID: primal_surge_explainer
 TEXT: Complete Primal Surge Field Research tasks to help your team—Ruby or Sapphire—win hourly challenges
+
+RESOURCE ID: primal_surge_explainer_alt
+TEXT: Complete Primal Surge Field Research tasks to turn the tide or continue the current Primal Surge
 
 RESOURCE ID: primal_surge_groudon
 TEXT: Primal Surge: Groudon
@@ -40224,6 +41530,20 @@ TEXT: Primal Surge: Kyogre
 
 RESOURCE ID: primal_surge_kyogre_desc
 TEXT: More Primal Kyogre raids will appear for the next hour!
+
+RESOURCE ID: primal_tutorial_page1_body
+TEXT: Primal Reversion is an ancient transformation some Pokémon can undergo. Like Mega Evolution, Primal Reversion provides bonuses, is not permanent, and requires special energy. It also provides more benefits in battle than Mega Evolution does.
+
+RESOURCE ID: primal_tutorial_page1_title
+TEXT: Primal Reversion
+
+RESOURCE ID: primal_tutorial_page2_body
+TEXT: Pokémon that have undergone Primal Reversion bring special weather effects to Raid Battles.
+• Primal Kyogre boosts Water-, Electric-, and Bug-type attacks.
+• Primal Groudon boosts Fire-, Grass-, and Ground-type attacks.
+
+RESOURCE ID: primal_tutorial_page2_title
+TEXT: Primal Reversion Effects
 
 RESOURCE ID: privacy_location_helptext
 TEXT: Turn on Always Allow to earn Candies, hatch Eggs, and earn rewards, even when you aren’t using Pokémon GO.
@@ -40588,6 +41908,12 @@ TEXT: Let's Go: Make {0} Excellent Throw
 RESOURCE ID: quest_beluga_hatch_plural
 TEXT: Let’s Go: Hatch {0} Eggs
 
+RESOURCE ID: quest_best_buddy_bronze
+TEXT: Have 1 Best Buddy
+
+RESOURCE ID: quest_best_buddy_silver
+TEXT: Have 10 Best Buddies
+
 RESOURCE ID: quest_breakthrough_completed
 TEXT: Field Research completed!
 
@@ -40623,6 +41949,9 @@ TEXT: Evolve {0} Bulbasaur
 
 RESOURCE ID: quest_bulbt_evolve_s1
 TEXT: Evolve {0} Ivysaur
+
+RESOURCE ID: quest_cacnea_catch
+TEXT: Catch {0} Cacnea
 
 RESOURCE ID: quest_catch_151
 TEXT: Catch 151 Pokémon
@@ -40678,6 +42007,12 @@ TEXT: Use a Berry to help catch a Pokémon
 RESOURCE ID: quest_catch_furfou_singular
 TEXT: Catch a Furfrou
 
+RESOURCE ID: quest_catch_groudon_primal_boosted_types
+TEXT: Catch {0} Fire-, Grass-, or Ground-type Pokémon
+
+RESOURCE ID: quest_catch_hoenn_pokemon
+TEXT: Catch {0} Pokémon originally discovered in the Hoenn region
+
 RESOURCE ID: quest_catch_in_day_plural
 TEXT: Catch {0} Pokémon in a single day
 
@@ -40686,6 +42021,15 @@ TEXT: Catch {0} Groudon
 
 RESOURCE ID: quest_catch_jan21_hoenn2_plural
 TEXT: Catch {0} Kyogre
+
+RESOURCE ID: quest_catch_johto_pokemon
+TEXT: Catch {0} Pokémon originally discovered in the Johto region
+
+RESOURCE ID: quest_catch_kanto_pokemon
+TEXT: Catch {0} Pokémon originally discovered in the Kanto region
+
+RESOURCE ID: quest_catch_kyogre_primal_boosted_types
+TEXT: Catch {0} Water-, Electric-, or Bug-type Pokémon
 
 RESOURCE ID: quest_catch_legendary_inarow_plural
 TEXT: Successfully catch at least one of the next {0} Legendary or Mythical Pokémon you encounter
@@ -41883,6 +43227,9 @@ TEXT: Evolve {0} Duskull
 
 RESOURCE ID: quest_duskt_evolve_s1
 TEXT: Evolve {0} Dusclops
+
+RESOURCE ID: quest_earn_buddy_ribbon_plural
+TEXT: Earn {0} Best Buddy Ribbons with your Pokémon
 
 RESOURCE ID: quest_eevee_evolve_plural
 TEXT: Evolve Eevee into each of its unique Evolutions
@@ -43291,6 +44638,42 @@ TEXT: Open {0} Gifts
 RESOURCE ID: quest_gift_open_singular
 TEXT: Open a Gift
 
+RESOURCE ID: quest_go_for_a_spin_00
+TEXT: Find and spin Spinda PokéStop 1 of 8
+
+RESOURCE ID: quest_go_for_a_spin_01
+TEXT: Find and spin Spinda PokéStop 2 of 8
+
+RESOURCE ID: quest_go_for_a_spin_02
+TEXT: Find and spin Spinda PokéStop 3 of 8
+
+RESOURCE ID: quest_go_for_a_spin_03
+TEXT: Find and spin Spinda PokéStop 4 of 8
+
+RESOURCE ID: quest_go_for_a_spin_04
+TEXT: Find and spin Spinda PokéStop 5 of 8
+
+RESOURCE ID: quest_go_for_a_spin_05
+TEXT: Find and spin Spinda PokéStop 6 of 8
+
+RESOURCE ID: quest_go_for_a_spin_06
+TEXT: Find and spin Spinda PokéStop 7 of 8
+
+RESOURCE ID: quest_go_for_a_spin_07
+TEXT: Find and spin Spinda PokéStop 8 of 8
+
+RESOURCE ID: quest_go_tour_snapshot_habitat_01
+TEXT: Take a snapshot of your buddy in the Blistering Sands habitat
+
+RESOURCE ID: quest_go_tour_snapshot_habitat_02
+TEXT: Take a snapshot of your buddy in the Eerie Mists habitat
+
+RESOURCE ID: quest_go_tour_snapshot_habitat_03
+TEXT: Take a snapshot of your buddy in the Verdant Earth habitat
+
+RESOURCE ID: quest_go_tour_snapshot_habitat_04
+TEXT: Take a snapshot of your buddy in the Ancient Shores habitat
+
 RESOURCE ID: quest_gofest2021_raid
 TEXT: Strange Rings
 
@@ -43666,6 +45049,9 @@ TEXT: GO Fest: Send {0} Gifts to friends
 RESOURCE ID: quest_gofest_6
 TEXT: GO Fest: Battle another Trainer
 
+RESOURCE ID: quest_gold_hoenn_dex
+TEXT: Earn a gold Hoenn medal
+
 RESOURCE ID: quest_gold_medal_plural
 TEXT: Earn {0} gold medals
 
@@ -43764,6 +45150,9 @@ TEXT: Evolve {0} Gastly
 
 RESOURCE ID: quest_gt_evolve_s1
 TEXT: Evolve {0} Haunter
+
+RESOURCE ID: quest_gulpin_catch
+TEXT: Catch {0} Gulpin
 
 RESOURCE ID: quest_hallo19_catch_specific_plural
 TEXT: Catch {0} Poochyena or Houndour
@@ -43878,6 +45267,9 @@ TEXT: GO Tour: Catch Mankey
 
 RESOURCE ID: quest_kanto_red_oddish
 TEXT: GO Tour: Catch Oddish
+
+RESOURCE ID: quest_kecleon_catch
+TEXT: Catch {0} Kecleon
 
 RESOURCE ID: quest_lampent_evolve_b
 TEXT: Evolve {0} Lampent
@@ -44072,7 +45464,7 @@ RESOURCE ID: quest_noibat_catch_b
 TEXT: Catch {0} Noibat
 
 RESOURCE ID: quest_noibat_evolve_b
-TEXT: Evolve {0} Noibat 
+TEXT: Evolve {0} Noibat
 
 RESOURCE ID: quest_noibat_snapshot_b
 TEXT: Take a snapshot of {0} Noibat
@@ -44181,6 +45573,24 @@ TEXT: Power up {0} Water-type Pokémon
 
 RESOURCE ID: quest_power_up_singular
 TEXT: Power up a Pokémon
+
+RESOURCE ID: quest_primal_raid_victory_groudon
+TEXT: Win a Primal Groudon raid
+
+RESOURCE ID: quest_primal_raid_victory_kyogre
+TEXT: Win a Primal Kyogre raid
+
+RESOURCE ID: quest_primal_raid_victory_plural
+TEXT: Win {0} Primal Raids
+
+RESOURCE ID: quest_primal_raid_victory_singular
+TEXT: Win a Primal Raid
+
+RESOURCE ID: quest_primal_reversion_plural
+TEXT: Activate Primal Reversion {0} times
+
+RESOURCE ID: quest_primal_reversion_singular
+TEXT: Activate Primal Reversion
 
 RESOURCE ID: quest_primal_surge_candy
 TEXT: Primal Surge: Earn a Candy walking with your buddy
@@ -48714,10 +50124,10 @@ RESOURCE ID: quest_special_dialogue_noibat_3_1
 TEXT: My research says that this Pokémon is often aggressive and will ruthlessly torment enemies that are helpless in the dark. Yikes!
 
 RESOURCE ID: quest_special_dialogue_noibat_3_2
-TEXT: Luckily for us, your Noivern looks quite fond of you! I’m sure you’ll continue to be great friends, even if you don’t have its beloved fruits on hand. 
+TEXT: Luckily for us, your Noivern looks quite fond of you! I’m sure you’ll continue to be great friends, even if you don’t have its beloved fruits on hand.
 
 RESOURCE ID: quest_special_dialogue_noibat_3_3
-TEXT: Thanks for spending the day learning with me. It’s always fun when we find something we have in common with Pokémon, don’t you think? 
+TEXT: Thanks for spending the day learning with me. It’s always fun when we find something we have in common with Pokémon, don’t you think?
 
 RESOURCE ID: quest_special_dialogue_noibat_3_4
 TEXT: Of course, I’m talking about a love of Berries—not sharing a cruel disposition!
@@ -49541,6 +50951,75 @@ TEXT: Great job! Now take some well-deserved rest with your Pokémon.
 
 RESOURCE ID: quest_special_dialogue_rockethq12_3_3
 TEXT: I’ll be in touch again soon!
+
+RESOURCE ID: quest_special_dialogue_rockethq13_0_1
+TEXT: Hello, %PLAYERNAME%. You know, it was shaping up to be a beautiful day, but then I noticed there are more Team GO Rocket Grunts than usual lurking about.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_0_2
+TEXT: Do you think they’re up to something? Could it be connected to all the Electric-type Pokémon that’ve been around recently?
+
+RESOURCE ID: quest_special_dialogue_rockethq13_0_3
+TEXT: I have heard that Team GO Rocket has a reputation for causing trouble at power plants... Hm.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_0_4
+TEXT: Would you do me a favor and investigate what’s going on, %PLAYERNAME%? Just to be safe.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_1_1
+TEXT: Great work dealing with those Team GO Rocket Grunts, %PLAYERNAME%. They’ll think twice before trying to battle you again!
+
+RESOURCE ID: quest_special_dialogue_rockethq13_1_2
+TEXT: If only they’d spare as much thought for the Shadow Pokémon they’ve abandoned in their wake.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_1_3
+TEXT: I hope that one day, we’ll put a stop Team GO Rocket’s mistreatment of Pokémon once and for all.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_1_4
+TEXT: But until then, at least we can do something for the Pokémon they leave behind.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_1_5
+TEXT: Let’s purify some Shadow Pokémon.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_2_1
+TEXT: Welcome back! Those Pokémon you purified are looking better already, %PLAYERNAME%.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_2_2
+TEXT: Thanks for helping them—and me. It’s a relief to see them safe with you.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_2_3
+TEXT: They’ll shine even brighter the longer they spend with you, I’m sure.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_2_4
+TEXT: But back to business. Next, look for Cliff, Sierra, and Arlo. We can’t let...whatever they’re doing proceed unchecked! Or untested for nefariousness, at least.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_3_1
+TEXT: Great job, %PLAYERNAME%! You’ve made quick work of the Team GO Rocket Leaders.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_3_2
+TEXT: *sigh* I wish they’d change their ways. I have to give them credit—they’ve got a wealth of knowledge on Pokémon, and they’re strong Trainers to boot.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_3_3
+TEXT: Imagine what we could learn together if they used that passion for good...
+
+RESOURCE ID: quest_special_dialogue_rockethq13_3_4
+TEXT: I know, I know. That’s “highly improbable,” as Rhi might say. No harm in wishing, though!
+
+RESOURCE ID: quest_special_dialogue_rockethq13_3_5
+TEXT: Now, I have one final request. I’d like you to track down the one person I’m sure will never change: Giovanni, the head of Team GO Rocket!
+
+RESOURCE ID: quest_special_dialogue_rockethq13_4_1
+TEXT: Expertly handled, %PLAYERNAME%! I knew Giovanni didn’t stand a chance against you.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_4_2
+TEXT: You’re getting to be a real pro at battling him. No matter what he throws at you, there’s just no beating the bond between you and your Pokémon.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_4_3
+TEXT: I think it’s time you took a rest and celebrated your victory with the Pokémon you’ve freed from Team GO Rocket’s clutches.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_4_4
+TEXT: Let’s hope they learn their lesson one day soon.
+
+RESOURCE ID: quest_special_dialogue_rockethq13_4_5
+TEXT: See you later, %PLAYERNAME%!
 
 RESOURCE ID: quest_special_dialogue_rockethq1_0_0
 TEXT: Thanks for your help in defeating Team GO Rocket Grunts, %PLAYERNAME%!
@@ -51966,6 +53445,21 @@ TEXT: Things may become clearer if we see Tapu Fini, the last of Alola’s guard
 RESOURCE ID: quest_special_dialogue_ulaula_3_6
 TEXT: For now, though, I think we’ve earned some rest. See you next time, %PLAYERNAME%!
 
+RESOURCE ID: quest_special_dialogue_valentines_feb23_1_0
+TEXT: Good to see you, %PLAYERNAME%!
+
+RESOURCE ID: quest_special_dialogue_valentines_feb23_1_1
+TEXT: What a lovely day! But it looks like there’s pollen in the ah...ah...ah-choo!
+
+RESOURCE ID: quest_special_dialogue_valentines_feb23_1_2
+TEXT: Shame it’s garden-variety pollen and not healing pollen from the Flabébé I’ve seen around.
+
+RESOURCE ID: quest_special_dialogue_valentines_feb23_1_3
+TEXT: I wish I were as carefree as the Flabébé seem to be! With their untroubled hearts, I wonder what Flabébé wish for...
+
+RESOURCE ID: quest_special_dialogue_valentines_feb23_1_4
+TEXT: Sorry, I got lost in my daydreams! What about you, %PLAYERNAME%? What’s your research wish today?
+
 RESOURCE ID: quest_special_dialogue_winter_wishes_1_0
 TEXT: Brrr... Ah! %PLAYERNAME%! Did you notice the snow we’ve been getting? It’s beautiful—and freezing! I feel colder than a Bergmite!
 
@@ -52255,6 +53749,9 @@ TEXT: Use {0} supereffective Charged Attacks
 
 RESOURCE ID: quest_supereffective_charge_singular
 TEXT: Use a supereffective Charged Attack
+
+RESOURCE ID: quest_surskit_catch
+TEXT: Catch {0} Surskit
 
 RESOURCE ID: quest_swabt_catch_b
 TEXT: Catch {0} Swablu
@@ -60717,6 +62214,9 @@ TEXT: Rocket Take-Over: Defeat {0} Team GO Rocket Grunts
 RESOURCE ID: rtakeover_2019_rocket_l
 TEXT: Rocket Take-Over: Defeat a Team GO Rocket Leader
 
+RESOURCE ID: ruby_badge_today_view
+TEXT: Ruby Version
+
 RESOURCE ID: russian
 TEXT: Русский
 
@@ -60974,6 +62474,9 @@ TEXT: Safari Zone
 
 RESOURCE ID: safety_warning_yes
 TEXT: I'm a passenger
+
+RESOURCE ID: sapphire_badge_today_view
+TEXT: Sapphire Version
 
 RESOURCE ID: scan_battle_code
 TEXT: Scan a Battle Code
@@ -61816,6 +63319,9 @@ TEXT: Let's be friends in Pokémon GO! My Trainer Code is {0}!
 
 RESOURCE ID: share_my_referral_code_message
 TEXT: If you join or return to Pokémon GO using my referral code {0}, you’ll get a welcome reward, earn special bonus items, and more. {1}
+
+RESOURCE ID: share_referral_link_short
+TEXT: Join the fun of Pokémon GO! {0}
 
 RESOURCE ID: share_title
 TEXT: Share
@@ -62660,6 +64166,18 @@ TEXT: Congratulations! You've successfully redeemed an offer for Special Researc
 RESOURCE ID: sponsorship_web_offer_redeem_confirmation
 TEXT: Congratulations! You have successfully redeemed an offer online. Tap OK to see it.
 
+RESOURCE ID: spooky_scramble_fr_01
+TEXT: █v██v█ a N██c█d█
+
+RESOURCE ID: spooky_scramble_fr_02
+TEXT: ██k█ 3 G███t ███v█b███ T███w█ █n a ██w
+
+RESOURCE ID: spooky_scramble_fr_03
+TEXT: █r███f██ 5 ███é███
+
+RESOURCE ID: spooky_scramble_fr_04
+TEXT: █s█ 5 ██r██e█ t█ ███p ███ch ███é███
+
 RESOURCE ID: spotlight_hour_event_name
 TEXT: Pokémon Spotlight Hour
 
@@ -62685,10 +64203,46 @@ RESOURCE ID: spritzee_o_clock_description
 TEXT: Large numbers of Spritzee are appearing in the area!
 
 RESOURCE ID: sr_go_tour_2023_global_title
-TEXT: GO Tour: Hoenn – Chasing Legends
+TEXT: Pokémon GO Tour: Hoenn – Chasing Legends
+
+RESOURCE ID: sr_go_tour_2023_global_title_00
+TEXT: Pokémon GO Tour: Hoenn – Chasing Legends (1/6)
+
+RESOURCE ID: sr_go_tour_2023_global_title_01
+TEXT: Pokémon GO Tour: Hoenn – Chasing Legends (2/6)
+
+RESOURCE ID: sr_go_tour_2023_global_title_02
+TEXT: Pokémon GO Tour: Hoenn – Chasing Legends (3/6)
+
+RESOURCE ID: sr_go_tour_2023_global_title_03
+TEXT: Pokémon GO Tour: Hoenn – Chasing Legends (4/6)
+
+RESOURCE ID: sr_go_tour_2023_global_title_04
+TEXT: Pokémon GO Tour: Hoenn – Chasing Legends (5/6)
+
+RESOURCE ID: sr_go_tour_2023_global_title_05
+TEXT: Pokémon GO Tour: Hoenn – Chasing Legends (6/6)
 
 RESOURCE ID: sr_go_tour_2023_live_event_title
 TEXT: GO Tour: Hoenn – An Uneasy Alliance
+
+RESOURCE ID: sr_go_tour_2023_live_event_title_00
+TEXT: Pokémon GO Tour: Hoenn – An Uneasy Alliance (1/6)
+
+RESOURCE ID: sr_go_tour_2023_live_event_title_01
+TEXT: Pokémon GO Tour: Hoenn – An Uneasy Alliance (2/6)
+
+RESOURCE ID: sr_go_tour_2023_live_event_title_02
+TEXT: Pokémon GO Tour: Hoenn – An Uneasy Alliance (3/6)
+
+RESOURCE ID: sr_go_tour_2023_live_event_title_03
+TEXT: Pokémon GO Tour: Hoenn – An Uneasy Alliance (4/6)
+
+RESOURCE ID: sr_go_tour_2023_live_event_title_04
+TEXT: Pokémon GO Tour: Hoenn – An Uneasy Alliance (5/6)
+
+RESOURCE ID: sr_go_tour_2023_live_event_title_05
+TEXT: Pokémon GO Tour: Hoenn – An Uneasy Alliance (6/6)
 
 RESOURCE ID: sr_gofest2022_d1_battle_narrative_section_2_0
 TEXT: I was thinking: Because we don’t know what attracted Shaymin here, we should make sure the surrounding area is safe.
@@ -63935,6 +65489,24 @@ TEXT: Ultra Beast Protection Efforts (3/4)
 RESOURCE ID: story_quest_rockethq12_3
 TEXT: Ultra Beast Protection Efforts (4/4)
 
+RESOURCE ID: story_quest_rockethq13_0
+TEXT: Shadowy Skirmishes (1/5)
+
+RESOURCE ID: story_quest_rockethq13_1
+TEXT: Shadowy Skirmishes (2/5)
+
+RESOURCE ID: story_quest_rockethq13_2
+TEXT: Shadowy Skirmishes (3/5)
+
+RESOURCE ID: story_quest_rockethq13_3
+TEXT: Shadowy Skirmishes (4/5)
+
+RESOURCE ID: story_quest_rockethq13_4
+TEXT: Shadowy Skirmishes (5/5)
+
+RESOURCE ID: story_quest_rockethq13_title
+TEXT: Shadowy Skirmishes
+
 RESOURCE ID: string_sponsored_by
 TEXT: (sponsored by {0})
 
@@ -65008,7 +66580,7 @@ RESOURCE ID: titan_upload_wifi_recommended
 TEXT: Wi-Fi recommended
 
 RESOURCE ID: title_raid_has_ended
-TEXT: This raid has ended.
+TEXT: This event has ended.
 
 RESOURCE ID: tm_no_other_moves
 TEXT: Cannot learn any other attacks!
@@ -65103,6 +66675,12 @@ TEXT: 1 more day until Pokémon GO Tour: Hoenn!
 RESOURCE ID: tr_countdown_go_tour_2022_title
 TEXT: Pokémon GO Tour: Hoenn Countdown
 
+RESOURCE ID: tr_countdown_go_tour_2022_title_01
+TEXT: Countdown to Pokémon GO Tour: Hoenn (Saturday)
+
+RESOURCE ID: tr_countdown_go_tour_2022_title_02
+TEXT: Countdown to Pokémon GO Tour: Hoenn (Sunday)
+
 RESOURCE ID: tr_go_for_a_spin
 TEXT: GO for a Spin
 
@@ -65110,22 +66688,22 @@ RESOURCE ID: tr_go_for_a_spin_desc
 TEXT: Timed Research: GO for a Spin
 
 RESOURCE ID: tr_latias_photo_safari
-TEXT: Ruby: Latias Photo Safari
+TEXT: Sapphire: Latias Photo Safari
 
 RESOURCE ID: tr_latias_photo_safari_global
-TEXT: Ruby: Latias Photo Safari – Global
+TEXT: Sapphire: Latias Photo Safari – Global
 
 RESOURCE ID: tr_latias_photo_safari_live
-TEXT: Ruby: Latias Photo Safari – Las Vegas
+TEXT: Sapphire: Latias Photo Safari – Las Vegas
 
 RESOURCE ID: tr_latios_photo_safari
-TEXT: Sapphire: Latios Photo Safari
+TEXT: Ruby: Latios Photo Safari
 
 RESOURCE ID: tr_latios_photo_safari_global
-TEXT: Sapphire: Latios Photo Safari – Global
+TEXT: Ruby: Latios Photo Safari – Global
 
 RESOURCE ID: tr_latios_photo_safari_live
-TEXT: Sapphire: Latios Photo Safari – Las Vegas
+TEXT: Ruby: Latios Photo Safari – Las Vegas
 
 RESOURCE ID: tr_regihunt_regice
 TEXT: Legends: #378
@@ -65387,6 +66965,18 @@ TEXT: Me
 
 RESOURCE ID: trade_pokemon_needs_unfavorite
 TEXT: You cannot trade a favorite Pokémon.
+
+RESOURCE ID: trade_primal_level_buddy_prompt_message
+TEXT: This Pokémon was previously your buddy, and it has also undergone Primal Reversion. Trading it will reset both its Buddy Level and its Primal Level. Do you want to proceed with this trade?
+
+RESOURCE ID: trade_primal_level_buddy_prompt_title
+TEXT: Are you sure you want to trade this Pokémon?
+
+RESOURCE ID: trade_primal_level_prompt_message
+TEXT: This Pokémon has previously undergone Primal Reversion. Trading it will reset its Primal Level. Do you want to proceed with the trade?
+
+RESOURCE ID: trade_primal_level_prompt_title
+TEXT: Are you sure you want to trade this Pokémon?
 
 RESOURCE ID: trade_regional_non_pokedex
 TEXT: All regional Pokémon
@@ -66276,6 +67866,9 @@ TEXT: Valentine’s Day: Hatch {0} Eggs
 
 RESOURCE ID: valentine_2020_rocket_medium
 TEXT: Valentine’s Day: Defeat {0} Team GO Rocket Grunts
+
+RESOURCE ID: valentines2023_wishes_tr_title
+TEXT: Lovely Wishes
 
 RESOURCE ID: valentines_event_name
 TEXT: Valentine’s Day
